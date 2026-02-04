@@ -219,25 +219,85 @@ export function CityPageHero({
   state,
   venueCount,
   breadcrumbs,
+  topTags,
 }: {
   city: string;
   state: string;
   venueCount: number;
   breadcrumbs?: BreadcrumbItem[];
+  topTags?: string[];
 }) {
   return (
-    <PageHero
-      title={`Golf Simulators in ${city}, ${state}`}
-      subtitle="Local Guide"
-      description={`Discover ${venueCount} golf simulator ${venueCount === 1 ? 'venue' : 'venues'} in ${city}. Compare technology, read reviews, check prices, and find the perfect spot for your next session.`}
-      breadcrumbs={breadcrumbs}
-      stats={[
-        { label: "Venues", value: venueCount },
-        { label: "Updated", value: "Daily" },
-      ]}
-      icon={<MapPin className="w-8 h-8" />}
-      variant="city"
-    />
+    <section className="relative overflow-hidden bg-gradient-to-br from-masters-green/10 via-transparent to-transparent">
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 md:py-14">
+        {/* Breadcrumbs */}
+        {breadcrumbs && breadcrumbs.length > 0 && (
+          <div className="mb-6">
+            <Breadcrumbs items={breadcrumbs} />
+          </div>
+        )}
+
+        <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-8">
+          <div className="flex-1">
+            {/* Location badge */}
+            <div className="flex items-center gap-3 mb-4">
+              <div className="p-2 rounded-lg bg-charcoal border border-default text-masters-green">
+                <MapPin className="w-6 h-6" />
+              </div>
+              <span className="text-masters-green font-mono text-sm uppercase tracking-wider">
+                {state} · Local Directory
+              </span>
+            </div>
+
+            {/* Title */}
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-cream mb-4 leading-tight">
+              Golf Simulators in {city}, {state}
+            </h1>
+
+            {/* Description */}
+            <p className="text-muted text-base md:text-lg max-w-2xl mb-6">
+              Discover {venueCount} golf simulator {venueCount === 1 ? 'venue' : 'venues'} in {city}. 
+              Compare technology, read reviews, check prices, and find the perfect spot for your next session.
+            </p>
+
+            {/* Top tags - quick filters */}
+            {topTags && topTags.length > 0 && (
+              <div className="flex flex-wrap gap-2">
+                {topTags.map((tag) => (
+                  <a
+                    key={tag}
+                    href={`/venue/us/${state.toLowerCase()}/${city.toLowerCase().replace(/\s+/g, '-')}/best/${tag}`}
+                    className="px-3 py-2 bg-charcoal border border-default rounded-full text-cream-subtle text-sm hover:border-masters-green hover:text-masters-green transition-colors min-h-[40px] flex items-center"
+                  >
+                    {tag.replace(/-/g, ' ')}
+                  </a>
+                ))}
+              </div>
+            )}
+          </div>
+
+          {/* Stats cards */}
+          <div className="flex gap-4 lg:flex-col">
+            <div className="flex-1 lg:flex-none bg-charcoal border border-default rounded-lg p-5 text-center min-w-[120px]">
+              <div className="text-3xl md:text-4xl font-bold font-mono text-masters-green mb-1">
+                {venueCount}
+              </div>
+              <div className="text-muted text-xs uppercase tracking-wider">
+                {venueCount === 1 ? 'Venue' : 'Venues'}
+              </div>
+            </div>
+            <div className="flex-1 lg:flex-none bg-charcoal border border-default rounded-lg p-5 text-center min-w-[120px]">
+              <div className="text-3xl md:text-4xl font-bold font-mono text-blue-400 mb-1">
+                24/7
+              </div>
+              <div className="text-muted text-xs uppercase tracking-wider">
+                Updated
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   );
 }
 

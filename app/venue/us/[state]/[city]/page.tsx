@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import Link from "next/link";
 import { db } from "@/lib/db";
 import { MapPin } from "lucide-react";
-import { VenueCard } from "@/components/venue/VenueCard";
+import { VenueCard, VenueGrid } from "@/components/venue/VenueCard";
 import { SeoIndexSections } from "@/components/seo/SeoIndexSections";
 import { CitySchema } from "@/components/seo/CitySchema";
 import { CityPageHero } from "@/components/seo/PageHero";
@@ -169,6 +169,7 @@ export default async function CityPage({ params, searchParams }: CityPageProps) 
               { label: stateName, href: `/venue/us/${state}` },
               { label: cityFormatted, href: `/venue/us/${state}/${city}`, current: true },
             ]}
+            topTags={["sim-bar", "date-night", "corporate-events", "family-friendly"]}
           />
 
           <SeoIndexSections
@@ -192,9 +193,11 @@ export default async function CityPage({ params, searchParams }: CityPageProps) 
             ctaDescription="Claim your listing to verify details, update photos, and attract golfers searching in this area."
             ctaPrimary={{ label: "Claim a listing", href: "/claim" }}
             ctaSecondary={{ label: "Submit a venue", href: "/submit" }}
+            venueCount={totalVenues}
+            showStats={true}
           >
             <section>
-              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+              <VenueGrid columns={3}>
                 {venues.map((venue, index) => (
                   <VenueCard
                     key={venue.id}
@@ -212,15 +215,16 @@ export default async function CityPage({ params, searchParams }: CityPageProps) 
                     priceRangeMax={venue.priceRangeMax}
                     ratingOverall={venue.ratingOverall}
                     featured={venue.featured}
-                    index={index}
                     tags={venue.tags}
                     href={`/venue/us/${state}/${city}/${venue.slug}`}
+                    rank={index + 1}
+                    showRank={index < 5}
                   />
                 ))}
-              </div>
+              </VenueGrid>
 
               {totalPages > 1 && (
-                <div className="flex items-center justify-center gap-2 mt-10">
+                <div className="flex items-center justify-center gap-3 mt-10">
                   {Array.from({ length: totalPages }).map((_, index) => {
                     const pageNumber = index + 1;
                     const href = `/venue/us/${state}/${city}?page=${pageNumber}`;
@@ -229,7 +233,7 @@ export default async function CityPage({ params, searchParams }: CityPageProps) 
                       <Link
                         key={href}
                         href={href}
-                        className={`px-3 py-2 border text-sm transition-colors ${isActive ? "border-masters-green text-cream" : "border-default text-cream-subtle hover:border-masters-green hover:text-cream"}`}
+                        className={`min-w-[44px] min-h-[44px] flex items-center justify-center border text-sm transition-colors rounded-lg ${isActive ? "border-masters-green bg-masters-green/10 text-cream" : "border-default text-cream-subtle hover:border-masters-green hover:text-cream"}`}
                       >
                         {pageNumber}
                       </Link>

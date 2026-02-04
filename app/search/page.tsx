@@ -1,8 +1,9 @@
 import { Metadata } from "next";
 import Link from "next/link";
 import { db } from "@/lib/db";
-import { VenueCard } from "@/components/venue/VenueCard";
+import { VenueCard, VenueGrid } from "@/components/venue/VenueCard";
 import { SeoIndexSections } from "@/components/seo/SeoIndexSections";
+import { Search, SlidersHorizontal, X } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Search Golf Simulators | GolfSimMap",
@@ -300,12 +301,21 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
             </div>
 
             {pagedVenues.length === 0 ? (
-              <div className="text-center py-12 border border-default">
-                <p className="text-muted">No venues match your filters. Try widening your search.</p>
+              <div className="text-center py-16 border border-default rounded-lg bg-charcoal">
+                <div className="max-w-md mx-auto">
+                  <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-slate flex items-center justify-center">
+                    <Search className="w-8 h-8 text-muted" />
+                  </div>
+                  <h3 className="text-cream text-lg font-semibold mb-2">No venues found</h3>
+                  <p className="text-muted mb-4">No venues match your filters. Try widening your search or removing some filters.</p>
+                  <Link href="/search" className="text-masters-green hover:underline">
+                    Clear all filters
+                  </Link>
+                </div>
               </div>
             ) : (
-              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-                {pagedVenues.map((venue) => (
+              <VenueGrid columns={3}>
+                {pagedVenues.map((venue, index) => (
                   <VenueCard
                     key={venue.id}
                     id={venue.id}
@@ -324,13 +334,15 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
                     featured={venue.featured}
                     tags={venue.tags}
                     href={`/venue/us/${venue.state.toLowerCase()}/${venue.city.toLowerCase().replace(/\s+/g, "-")}/${venue.slug}`}
+                    rank={index + 1}
+                    showRank={index < 3}
                   />
                 ))}
-              </div>
+              </VenueGrid>
             )}
 
             {totalPages > 1 && (
-              <div className="flex items-center justify-center gap-2 mt-10">
+              <div className="flex items-center justify-center gap-3 mt-10">
                 {Array.from({ length: totalPages }).map((_, index) => {
                   const pageNumber = index + 1;
                   const params = new URLSearchParams();
@@ -356,7 +368,7 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
                     <Link
                       key={href}
                       href={href}
-                      className={`px-3 py-2 border text-sm transition-colors ${isActive ? "border-masters-green text-cream" : "border-default text-cream-subtle hover:border-masters-green hover:text-cream"}`}
+                      className={`min-w-[44px] min-h-[44px] flex items-center justify-center border text-sm transition-colors rounded-lg ${isActive ? "border-masters-green bg-masters-green/10 text-cream" : "border-default text-cream-subtle hover:border-masters-green hover:text-cream"}`}
                     >
                       {pageNumber}
                     </Link>
