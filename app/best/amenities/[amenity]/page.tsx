@@ -1,5 +1,4 @@
 import { Metadata } from "next";
-import Link from "next/link";
 import { db } from "@/lib/db";
 import { BestByPageContent } from "@/components/seo/BestByPageContent";
 import { matchesAmenity } from "@/lib/best-by";
@@ -10,18 +9,82 @@ interface BestAmenityPageProps {
 
 export const revalidate = 60;
 
+// Amenity-specific content
+const amenityContent: Record<string, { tagline: string; description: string }> = {
+  "private-rooms": {
+    tagline: "Exclusive Spaces",
+    description: "Venues with private rooms for groups, parties, and corporate events. Perfect when you want dedicated space for your group without distractions.",
+  },
+  "private_rooms": {
+    tagline: "Exclusive Spaces",
+    description: "Venues with private rooms for groups, parties, and corporate events. Perfect when you want dedicated space for your group without distractions.",
+  },
+  "food": {
+    tagline: "Full Food Service",
+    description: "Golf simulator venues with full food menus. From bar snacks to full dining, enjoy quality food while you play.",
+  },
+  "alcohol": {
+    tagline: "Bar Service Available",
+    description: "Venues with bar service including beer, wine, cocktails, and more. Perfect for social outings and group entertainment.",
+  },
+  "lessons": {
+    tagline: "Professional Instruction",
+    description: "Venues offering golf lessons and coaching. Get professional instruction using simulator technology for instant feedback on your swing.",
+  },
+  "club-fitting": {
+    tagline: "Custom Club Fitting",
+    description: "Venues with club fitting services. Use launch monitor data to find the perfect clubs for your game with professional fitting expertise.",
+  },
+  "club_fitting": {
+    tagline: "Custom Club Fitting",
+    description: "Venues with club fitting services. Use launch monitor data to find the perfect clubs for your game with professional fitting expertise.",
+  },
+  "wifi": {
+    tagline: "Connected Venues",
+    description: "Golf simulator venues with WiFi access. Stay connected while you play — great for corporate events and remote workers.",
+  },
+  "parking": {
+    tagline: "Convenient Parking",
+    description: "Venues with dedicated parking options. From free lots to valet service, find venues where parking isn't a hassle.",
+  },
+  "outdoor-space": {
+    tagline: "Outdoor Areas",
+    description: "Venues with outdoor spaces — patios, decks, or terraces. Enjoy the outdoors between simulator sessions.",
+  },
+  "events": {
+    tagline: "Event-Ready Venues",
+    description: "Venues equipped for events and special occasions. Birthday parties, corporate outings, bachelor parties — these venues handle it all.",
+  },
+  "leagues": {
+    tagline: "Competitive Play",
+    description: "Venues offering organized league play. Join regular competitions and meet other golfers in your area.",
+  },
+  "memberships": {
+    tagline: "Member Benefits",
+    description: "Venues offering membership programs with perks like discounted rates, priority booking, or unlimited play.",
+  },
+};
+
 export async function generateMetadata({ params }: BestAmenityPageProps): Promise<Metadata> {
   const { amenity } = await params;
-  const label = amenity.replace(/_/g, " ");
+  const label = amenity.replace(/_/g, " ").replace(/-/g, " ");
+  const content = amenityContent[amenity.toLowerCase()] || { tagline: "", description: "" };
+  
   return {
     title: `Best Golf Simulators with ${label} | GolfSimMap`,
-    description: `Find venues offering ${label} amenities. Compare hardware, booking options, and vibes.`,
+    description: content.description || `Find venues offering ${label}. Compare hardware, booking options, and vibes.`,
+    openGraph: {
+      title: `Best Golf Simulators with ${label}`,
+      description: content.description || `Find venues offering ${label}.`,
+      type: "website",
+    },
   };
 }
 
 export default async function BestAmenityPage({ params }: BestAmenityPageProps) {
   const { amenity } = await params;
-  const label = amenity.replace(/_/g, " ");
+  const label = amenity.replace(/_/g, " ").replace(/-/g, " ").replace(/\b\w/g, l => l.toUpperCase());
+  const amenityKey = amenity.toLowerCase();
 
   const venues = await db.venue.findMany({
     where: { status: "active" },
@@ -30,57 +93,69 @@ export default async function BestAmenityPage({ params }: BestAmenityPageProps) 
 
   const filteredVenues = venues.filter((venue) => matchesAmenity(venue, amenity));
 
+  const content = amenityContent[amenityKey] || {
+    tagline: `${label} Amenity`,
+    description: `Browse venues that offer ${label.toLowerCase()}. Use these listings to compare amenities, hardware, and booking options.`,
+  };
+
+  const breadcrumbs = [
+    { label: "Home", href: "/" },
+    { label: "Best By", href: "/best" },
+    { label: "Amenities", href: "/best/amenities" },
+    { label: label },
+  ];
+
   const faqItems = [
     {
-      question: `What counts as ${label}?`,
-      answer: "Amenities are derived from listing data and owner submissions. If the amenity is listed, the venue will appear here.",
+      question: `What does "${label}" mean at these venues?`,
+      answer: content.description,
     },
     {
       question: "How do I confirm the amenity before booking?",
-      answer: "Check the venue detail page for notes or booking links, and contact the venue if you need confirmation.",
+      answer: "Check the venue detail page for notes and contact information. You can also call or message the venue directly to confirm specific amenities.",
     },
     {
-      question: "Can venues add amenities?",
-      answer: "Yes. Owners can claim their listing and update amenities after a manual review.",
+      question: "Are amenities always accurate?",
+      answer: "Amenities are based on listing data and owner submissions. Verified venues have confirmed their amenities with us. Always confirm important amenities before booking.",
     },
     {
-      question: "Are these venues verified?",
-      answer: "Listings are unverified by default and become verified after a manual claim review.",
+      question: "Can I combine amenity filters?",
+      answer: "Yes! Use our search page to combine multiple amenity filters with location and hardware preferences.",
     },
   ];
 
-  return (
-    <div className="min-h-screen bg-deep-black py-12">
-      <div className="absolute inset-0 scorecard-grid opacity-20" />
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center gap-2 text-sm text-muted mb-6">
-          <Link href="/" className="hover:text-cream transition-colors">Home</Link>
-          <span>/</span>
-          <span className="text-cream">Best {label}</span>
-        </div>
+  const relatedLinks = [
+    { label: "Private rooms", href: "/best/amenities/private-rooms" },
+    { label: "Food service", href: "/best/amenities/food" },
+    { label: "Bar service", href: "/best/amenities/alcohol" },
+    { label: "Lessons available", href: "/best/amenities/lessons" },
+    { label: "Club fitting", href: "/best/amenities/club-fitting" },
+    { label: "WiFi", href: "/best/amenities/wifi" },
+  ].filter(link => !link.href.includes(amenity.replace(/_/g, "-")));
 
-        <BestByPageContent
-          title={`Best Golf Simulators with ${label}`}
-          description={`Browse venues that highlight ${label}. Use these listings to compare amenities, launch monitors, and booking options.`}
-          guidancePoints={[
-            "Confirm amenities on the venue detail page before booking.",
-            "Compare hardware if data accuracy matters to you.",
-            "Use city pages to find this amenity near you.",
-          ]}
-          methodologyDescription="Results prioritize featured venues, then sort by rating and listing completeness."
-          faqItems={faqItems}
-          relatedLinks={[
-            { label: "Best date-night venues", href: "/best/date-night" },
-            { label: "Best sports-bar vibes", href: "/best/vibe/sports_bar" },
-            { label: "Best family-friendly venues", href: "/best/who-its-for/families" },
-          ]}
-          ctaTitle="Own a venue?"
-          ctaDescription="Claim your listing to verify amenities and appear in amenity-based searches."
-          ctaPrimary={{ label: "Claim a listing", href: "/claim" }}
-          ctaSecondary={{ label: "Submit a venue", href: "/submit" }}
-          venues={filteredVenues}
-        />
-      </div>
-    </div>
+  return (
+    <BestByPageContent
+      title={`Best Golf Simulators with ${label}`}
+      description={content.description}
+      guidancePoints={[
+        "Confirm amenities on the venue detail page before booking.",
+        "Look for verified badges for confirmed amenity information.",
+        "Consider combining amenity filters with location for best results.",
+        "Contact venues directly if you have specific requirements.",
+      ]}
+      methodologyDescription={`We identify venues with ${label.toLowerCase()} based on their listings and verified claims. Results prioritize featured venues, then sort by rating and data completeness.`}
+      faqItems={faqItems}
+      relatedLinks={relatedLinks}
+      ctaTitle={`Own a venue with ${label.toLowerCase()}?`}
+      ctaDescription="Claim your listing to verify amenities and appear in our curated collections."
+      ctaPrimary={{ label: "Claim Your Listing", href: "/claim" }}
+      ctaSecondary={{ label: "Submit New Venue", href: "/submit" }}
+      venues={filteredVenues}
+      categoryType="amenity"
+      categoryValue={amenityKey}
+      heroSubtitle={content.tagline}
+      breadcrumbItems={breadcrumbs}
+      showRanking={true}
+    />
   );
 }
