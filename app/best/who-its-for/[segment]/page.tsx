@@ -1,5 +1,4 @@
 import { Metadata } from "next";
-import Link from "next/link";
 import { db } from "@/lib/db";
 import { BestByPageContent } from "@/components/seo/BestByPageContent";
 import { matchesWhoItsFor } from "@/lib/best-by";
@@ -10,27 +9,66 @@ interface BestWhoItsForPageProps {
 
 export const revalidate = 60;
 
-const segmentDescriptions: Record<string, string> = {
-  families: "Family-friendly venues welcome kids, offer casual vibes, and usually have food options. Think weekend outings, not serious range sessions.",
-  beginners: "Beginner-friendly spots have patient staff, forgiving setups, and lessons available. No one will judge your swing here.",
-  serious_golfers: "For golfers who want accurate data, quality hardware, and space to actually work on their game. Less bar, more range.",
-  groups: "Group-friendly venues handle parties, corporate events, and bachelor weekends. Multiple bays, food and drink, and often private rooms.",
-  couples: "Date-night venues have good food, drinks, and a vibe that works for two. Some offer leagues or competitions for regulars.",
-  corporate: "Corporate-friendly spots handle large bookings, catering, and A/V if needed. Many offer event packages.",
+// Segment-specific content
+const segmentContent: Record<string, { tagline: string; description: string }> = {
+  families: {
+    tagline: "Fun for All Ages",
+    description: "Family-friendly venues welcome kids, offer casual vibes, and usually have food options. Perfect for weekend outings, birthday parties, or just quality time together. Staff is patient, and the atmosphere is welcoming for golfers of all ages and skill levels.",
+  },
+  beginners: {
+    tagline: "Start Your Golf Journey",
+    description: "Beginner-friendly spots have patient staff, forgiving setups, and lessons available. No one will judge your swing here — these venues specialize in helping new golfers learn and enjoy the game without pressure.",
+  },
+  serious_golfers: {
+    tagline: "Train Like a Pro",
+    description: "For golfers who want accurate data, quality hardware, and space to actually work on their game. These venues focus on practice and improvement over entertainment — think less bar, more range.",
+  },
+  serious: {
+    tagline: "Train Like a Pro",
+    description: "For golfers who want accurate data, quality hardware, and space to actually work on their game. These venues focus on practice and improvement over entertainment — think less bar, more range.",
+  },
+  groups: {
+    tagline: "Party-Ready Venues",
+    description: "Group-friendly venues handle parties, corporate events, and bachelor weekends with ease. Multiple bays, food and drink packages, and often private rooms make these perfect for celebrations.",
+  },
+  couples: {
+    tagline: "Perfect Date Night",
+    description: "Date-night venues have good food, craft drinks, and an atmosphere that works for two. Many offer couples packages or leagues for regulars looking to make it a weekly ritual.",
+  },
+  corporate: {
+    tagline: "Professional Events",
+    description: "Corporate-friendly venues handle large bookings, catering, and A/V equipment when needed. Many offer comprehensive event packages for team building, client entertainment, and company outings.",
+  },
+  kids: {
+    tagline: "Kid-Approved Fun",
+    description: "Venues that welcome children with open arms. Safe environments, fun activities, and staff who understand that little golfers need extra patience and encouragement.",
+  },
+  seniors: {
+    tagline: "Comfortable & Accessible",
+    description: "Venues with accessibility features, comfortable seating, and a pace that works for senior golfers. Focus on enjoyment over intensity.",
+  },
 };
 
 export async function generateMetadata({ params }: BestWhoItsForPageProps): Promise<Metadata> {
   const { segment } = await params;
-  const label = segment.replace(/_/g, " ");
+  const label = segment.replace(/_/g, " ").replace(/-/g, " ");
+  const content = segmentContent[segment.toLowerCase()] || { tagline: "", description: "" };
+  
   return {
     title: `Best Golf Simulators for ${label} | GolfSimMap`,
-    description: `Find golf simulator venues perfect for ${label}. Compare amenities, vibes, and booking options.`,
+    description: content.description || `Find golf simulator venues perfect for ${label}. Compare amenities, vibes, and booking options.`,
+    openGraph: {
+      title: `Best Golf Simulators for ${label}`,
+      description: content.description || `Find golf simulator venues perfect for ${label}.`,
+      type: "website",
+    },
   };
 }
 
 export default async function BestWhoItsForPage({ params }: BestWhoItsForPageProps) {
   const { segment } = await params;
-  const label = segment.replace(/_/g, " ");
+  const label = segment.replace(/_/g, " ").replace(/-/g, " ").replace(/\b\w/g, l => l.toUpperCase());
+  const segmentKey = segment.toLowerCase();
 
   const venues = await db.venue.findMany({
     where: { status: "active" },
@@ -39,59 +77,69 @@ export default async function BestWhoItsForPage({ params }: BestWhoItsForPagePro
 
   const filteredVenues = venues.filter((venue) => matchesWhoItsFor(venue, segment));
 
-  const description = segmentDescriptions[segment] || `Venues tagged as ideal for ${label}.`;
+  const content = segmentContent[segmentKey] || {
+    tagline: `Perfect for ${label}`,
+    description: `Venues tagged as ideal for ${label.toLowerCase()}. These spots cater specifically to your needs and preferences.`,
+  };
+
+  const breadcrumbs = [
+    { label: "Home", href: "/" },
+    { label: "Best By", href: "/best" },
+    { label: "Who It's For", href: "/best/who-its-for" },
+    { label: label },
+  ];
 
   const faqItems = [
     {
-      question: `What makes a venue good for ${label}?`,
-      answer: description,
+      question: `What makes a venue good for ${label.toLowerCase()}?`,
+      answer: content.description,
     },
     {
       question: "How do you decide which venues fit this category?",
-      answer: "Owners tag their venues during submission. We also infer from amenities — kid-friendly tags, private rooms, coaching availability, etc.",
+      answer: "Owners tag their venues during submission, and we also infer from amenities — kid-friendly policies, private rooms, coaching availability, group pricing, and more.",
     },
     {
-      question: "Can I suggest a venue for this list?",
-      answer: "Yes. Submit the venue or leave feedback on an existing listing. We review suggestions before adding tags.",
+      question: "Can I combine this with other filters?",
+      answer: "Yes! Use our search page to combine audience filters with location, hardware preferences, and amenity requirements.",
     },
     {
       question: "Are these venues verified?",
-      answer: "Some are. Verified venues have confirmed details. Unverified listings are based on available data.",
+      answer: "Some venues are verified (indicated by a badge). Verified venues have confirmed their details directly with us. Unverified listings are based on available data.",
     },
   ];
 
-  return (
-    <div className="min-h-screen bg-deep-black py-12">
-      <div className="absolute inset-0 scorecard-grid opacity-20" />
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center gap-2 text-sm text-muted mb-6">
-          <Link href="/" className="hover:text-cream transition-colors">Home</Link>
-          <span>/</span>
-          <span className="text-cream">Best for {label}</span>
-        </div>
+  const relatedLinks = [
+    { label: "Families", href: "/best/who-its-for/families" },
+    { label: "Beginners", href: "/best/who-its-for/beginners" },
+    { label: "Serious golfers", href: "/best/who-its-for/serious" },
+    { label: "Groups & parties", href: "/best/who-its-for/groups" },
+    { label: "Couples", href: "/best/who-its-for/couples" },
+    { label: "Corporate events", href: "/best/who-its-for/corporate" },
+  ].filter(link => !link.href.includes(segment));
 
-        <BestByPageContent
-          title={`Best Golf Simulators for ${label}`}
-          description={description}
-          guidancePoints={[
-            "Check amenities that matter to your group — food, drinks, private rooms.",
-            "Read the vibe tags to gauge the atmosphere before booking.",
-            "Use city pages to find this category near you.",
-          ]}
-          methodologyDescription="We filter by who-its-for tags from listing data. Featured venues appear first, then sorted by rating."
-          faqItems={faqItems}
-          relatedLinks={[
-            { label: "Best date-night venues", href: "/best/date-night" },
-            { label: "Best sports-bar vibes", href: "/best/vibe/sports_bar" },
-            { label: "Best venues with private rooms", href: "/best/amenities/private_rooms" },
-          ]}
-          ctaTitle="Own a venue?"
-          ctaDescription="Claim your listing to update who-its-for tags and attract the right crowd."
-          ctaPrimary={{ label: "Claim a listing", href: "/claim" }}
-          ctaSecondary={{ label: "Submit a venue", href: "/submit" }}
-          venues={filteredVenues}
-        />
-      </div>
-    </div>
+  return (
+    <BestByPageContent
+      title={`Best Golf Simulators for ${label}`}
+      description={content.description}
+      guidancePoints={[
+        "Check amenities that matter to your group — food, drinks, private rooms.",
+        "Read reviews from similar groups to gauge the experience.",
+        "Look at the vibe tags to confirm the atmosphere matches your needs.",
+        "Use city filters to find venues near you.",
+      ]}
+      methodologyDescription={`We filter venues by "who it's for" tags from listing data and infer from amenities. Featured venues appear first, followed by highest-rated options.`}
+      faqItems={faqItems}
+      relatedLinks={relatedLinks}
+      ctaTitle={`Own a venue perfect for ${label.toLowerCase()}?`}
+      ctaDescription="Claim your listing to update your audience tags and attract the right crowd."
+      ctaPrimary={{ label: "Claim Your Listing", href: "/claim" }}
+      ctaSecondary={{ label: "Submit New Venue", href: "/submit" }}
+      venues={filteredVenues}
+      categoryType="segment"
+      categoryValue={segmentKey}
+      heroSubtitle={content.tagline}
+      breadcrumbItems={breadcrumbs}
+      showRanking={true}
+    />
   );
 }
