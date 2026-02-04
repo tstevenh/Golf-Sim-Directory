@@ -5,6 +5,7 @@ import { MapPin } from "lucide-react";
 import { VenueCard } from "@/components/venue/VenueCard";
 import { SeoIndexSections } from "@/components/seo/SeoIndexSections";
 import { CitySchema } from "@/components/seo/CitySchema";
+import { CityPageHero } from "@/components/seo/PageHero";
 import { getStateDisplayName, getStateAbbrevFromName } from "@/lib/states";
 
 interface CityPageProps {
@@ -157,31 +158,18 @@ export default async function CityPage({ params, searchParams }: CityPageProps) 
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <CitySchema city={cityFormatted} state={stateName} venueCount={totalVenues} />
 
-          <div className="flex items-center gap-2 text-sm text-muted mb-6">
-            <Link href="/" className="hover:text-cream transition-colors">Home</Link>
-            <span>/</span>
-            <Link href="/venue/us" className="hover:text-cream transition-colors">United States</Link>
-            <span>/</span>
-            <Link href={`/venue/us/${state}`} className="hover:text-cream transition-colors">{stateName}</Link>
-            <span>/</span>
-            <span className="text-cream">{cityFormatted}</span>
-          </div>
-
-          <div className="mb-10">
-            <div className="flex items-center gap-3 mb-4">
-              <div className="w-12 h-px bg-masters-green" />
-              <span className="text-masters-green text-xs font-mono uppercase tracking-widest">
-                {totalVenues} Venues
-              </span>
-            </div>
-            <div className="flex items-center gap-3 mb-2">
-              <MapPin className="w-6 h-6 text-masters-green" />
-              <h1 className="text-cream">Golf Simulators in {cityFormatted}, {stateName}</h1>
-            </div>
-            <p className="text-muted max-w-2xl">
-              Compare indoor golf venues in {cityFormatted}. Review hardware, vibe, and booking options to find a bay that fits your group and budget.
-            </p>
-          </div>
+          {/* City Hero Section */}
+          <CityPageHero
+            city={cityFormatted}
+            state={stateName}
+            venueCount={totalVenues}
+            breadcrumbs={[
+              { label: "Home", href: "/" },
+              { label: "United States", href: "/venue/us" },
+              { label: stateName, href: `/venue/us/${state}` },
+              { label: cityFormatted, href: `/venue/us/${state}/${city}`, current: true },
+            ]}
+          />
 
           <SeoIndexSections
             introTitle={`Why ${cityFormatted} golfers use GolfSimMap`}
@@ -207,7 +195,7 @@ export default async function CityPage({ params, searchParams }: CityPageProps) 
           >
             <section>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-                {venues.map((venue) => (
+                {venues.map((venue, index) => (
                   <VenueCard
                     key={venue.id}
                     id={venue.id}
@@ -224,6 +212,7 @@ export default async function CityPage({ params, searchParams }: CityPageProps) 
                     priceRangeMax={venue.priceRangeMax}
                     ratingOverall={venue.ratingOverall}
                     featured={venue.featured}
+                    index={index}
                     tags={venue.tags}
                     href={`/venue/us/${state}/${city}/${venue.slug}`}
                   />

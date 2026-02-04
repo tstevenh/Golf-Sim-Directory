@@ -5,7 +5,12 @@ export function normalizeSlug(value: string) {
 }
 
 export function matchesTag(venue: Venue, tag: string) {
-  return (venue.tags || []).includes(tag);
+  // Handle both hyphen and underscore variants
+  const tagVariants = [
+    tag,                           // Exact match (e.g., "date-night")
+    tag.replace(/_/g, "-"),       // Underscore → Hyphen (e.g., "date_night")
+  ];
+  return (venue.tags || []).some(t => tagVariants.includes(t));
 }
 
 export function matchesVibe(venue: Venue, vibe: string) {

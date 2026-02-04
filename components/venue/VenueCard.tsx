@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { MapPin, Star, Monitor, ArrowUpRight } from "lucide-react";
+import { MapPin, Star, Monitor, ArrowUpRight, Trophy, Award } from "lucide-react";
 
 interface VenueCardProps {
   id: string;
@@ -20,6 +20,9 @@ interface VenueCardProps {
   featured?: boolean;
   tags?: string[];
   href: string;
+  // New props for rankings
+  rank?: number;
+  showRank?: boolean;
 }
 
 function getSystemCode(type: string): string {
@@ -56,6 +59,32 @@ function getPrimarySystem(
   return typeLabels[monitorType || "unknown"] || "Launch Monitor";
 }
 
+// Rank badge component
+function RankBadge({ rank }: { rank: number }) {
+  const getBgColor = (r: number) => {
+    if (r === 1) return "bg-yellow-500/20 border-yellow-500/50 text-yellow-400";
+    if (r === 2) return "bg-gray-400/20 border-gray-400/50 text-gray-300";
+    if (r === 3) return "bg-amber-600/20 border-amber-600/50 text-amber-500";
+    return "bg-charcoal border-default text-muted";
+  };
+
+  const getIcon = (r: number) => {
+    if (r <= 3) return <Trophy className="w-3.5 h-3.5" />;
+    return <Award className="w-3.5 h-3.5" />;
+  };
+
+  return (
+    <div className={`
+      flex items-center gap-1.5 px-2.5 py-1.5
+      border rounded-md font-mono font-bold text-sm
+      ${getBgColor(rank)}
+    `}>
+      {getIcon(rank)}
+      <span>#{rank}</span>
+    </div>
+  );
+}
+
 export function VenueCard({
   slug,
   name,
@@ -72,10 +101,12 @@ export function VenueCard({
   featured,
   tags,
   href,
+  rank,
+  showRank = false,
 }: VenueCardProps) {
   return (
     <Link href={href} className="group block">
-      <article className="venue-card hover-lift h-full flex flex-col bg-charcoal border border-default overflow-hidden">
+      <article className="venue-card hover-lift h-full flex flex-col bg-charcoal border border-default overflow-hidden rounded-lg transition-all duration-300 hover:border-masters-green/50 hover:shadow-lg hover:shadow-masters-green/5">
         {/* Hero Image */}
         <div className="aspect-[16/10] relative overflow-hidden">
           {heroImage ? (
@@ -92,26 +123,33 @@ export function VenueCard({
           {/* Overlay gradient */}
           <div className="absolute inset-0 bg-gradient-to-t from-deep-black/80 via-transparent to-transparent" />
           
-          {/* Featured badge */}
-          {featured && (
-            <div className="absolute top-3 left-3">
-              <span className="px-2 py-1 bg-masters-green text-deep-black text-xs font-medium uppercase tracking-wider">
+          {/* Badges row - top left */}
+          <div className="absolute top-3 left-3 flex items-center gap-2">
+            {/* Rank badge */}
+            {showRank && rank && (
+              <RankBadge rank={rank} />
+            )}
+            
+            {/* Featured badge */}
+            {featured && !showRank && (
+              <span className="px-2.5 py-1.5 bg-masters-green text-deep-black text-xs font-semibold uppercase tracking-wider rounded-md flex items-center gap-1.5">
+                <Star className="w-3.5 h-3.5 fill-current" />
                 Featured
               </span>
-            </div>
-          )}
+            )}
+          </div>
 
-          {/* System badge */}
+          {/* System badge - top right */}
           <div className="absolute top-3 right-3">
-            <div className="monitor-badge bg-deep-black/80 backdrop-blur-sm">
-              <Monitor className="w-3 h-3" />
+            <div className="monitor-badge bg-deep-black/80 backdrop-blur-sm px-2.5 py-1.5 rounded-md flex items-center gap-1.5 text-xs text-cream font-mono">
+              <Monitor className="w-3.5 h-3.5" />
               <span>{getSystemCode(launchMonitorType || "unknown")}</span>
             </div>
           </div>
 
-          {/* Rating overlay */}
+          {/* Rating overlay - bottom left */}
           {ratingOverall && (
-            <div className="absolute bottom-3 left-3 flex items-center gap-1">
+            <div className="absolute bottom-3 left-3 flex items-center gap-1.5 px-2.5 py-1.5 bg-deep-black/80 backdrop-blur-sm rounded-md">
               <Star className="w-4 h-4 fill-masters-green text-masters-green" />
               <span className="text-cream font-mono font-bold">{ratingOverall.toFixed(1)}</span>
             </div>
@@ -134,8 +172,8 @@ export function VenueCard({
 
           {/* Location */}
           <div className="flex items-center gap-2 text-muted text-sm mb-3">
-            <MapPin className="w-4 h-4" />
-            <span>{city}, {state}</span>
+            <MapPin className="w-4 h-4 flex-shrink-0" />
+            <span className="truncate">{city}, {state}</span>
           </div>
 
           {/* Description */}
@@ -145,8 +183,8 @@ export function VenueCard({
             </p>
           )}
 
-          {/* Meta row */}
-          <div className="flex items-center justify-between pt-4 border-t border-subtle">
+          {/* Meta row - Touch friendly (min 48px) */}
+          <div className="flex items-center justify-between pt-4 border-t border-subtle min-h-[48px]">
             <div className="text-sm">
               <span className="text-muted">From </span>
               <span className="text-cream font-mono font-semibold">
@@ -155,19 +193,19 @@ export function VenueCard({
               <span className="text-muted">/hr</span>
             </div>
             
-            <div className="flex items-center gap-1 text-masters-green text-sm opacity-0 group-hover:opacity-100 transition-opacity">
+            <div className="flex items-center gap-1.5 text-masters-green text-sm font-medium opacity-0 group-hover:opacity-100 transition-opacity">
               <span>View</span>
               <ArrowUpRight className="w-4 h-4" />
             </div>
           </div>
 
-          {/* Tags */}
+          {/* Tags - Touch friendly */}
           {tags && tags.length > 0 && (
-            <div className="flex flex-wrap gap-2 mt-3">
+            <div className="flex flex-wrap gap-2 mt-4">
               {tags.slice(0, 3).map((tag) => (
                 <span
                   key={tag}
-                  className="px-2 py-1 bg-slate text-cream-subtle text-xs capitalize"
+                  className="px-2.5 py-1.5 bg-slate text-cream-subtle text-xs capitalize rounded-md min-h-[32px] flex items-center"
                 >
                   {tag.replace(/-/g, " ")}
                 </span>
@@ -180,7 +218,7 @@ export function VenueCard({
   );
 }
 
-// Compact version for lists
+// Compact version for lists - Mobile optimized
 export function VenueCardCompact({
   slug,
   name,
@@ -190,12 +228,14 @@ export function VenueCardCompact({
   ratingOverall,
   featured,
   href,
+  rank,
+  showRank = false,
 }: VenueCardProps) {
   return (
     <Link href={href} className="group block">
-      <article className="flex gap-4 p-4 bg-charcoal border border-default hover:border-masters-green transition-colors">
+      <article className="flex gap-4 p-4 bg-charcoal border border-default rounded-lg hover:border-masters-green/50 transition-all duration-200 min-h-[100px]">
         {/* Thumbnail */}
-        <div className="w-24 h-24 flex-shrink-0 bg-slate overflow-hidden">
+        <div className="w-20 h-20 md:w-24 md:h-24 flex-shrink-0 bg-slate overflow-hidden rounded-md relative">
           {heroImage ? (
             <img
               src={heroImage}
@@ -207,33 +247,67 @@ export function VenueCardCompact({
               <MapPin className="w-8 h-8 text-muted" />
             </div>
           )}
+          
+          {/* Mini rank badge */}
+          {showRank && rank && rank <= 3 && (
+            <div className="absolute -top-1 -left-1 w-6 h-6 bg-masters-green rounded-full flex items-center justify-center">
+              <span className="text-deep-black font-mono font-bold text-xs">{rank}</span>
+            </div>
+          )}
         </div>
 
         {/* Content */}
-        <div className="flex-1 min-w-0">
+        <div className="flex-1 min-w-0 flex flex-col justify-center">
           <div className="flex items-start justify-between gap-2">
-            <h3 className="text-cream font-semibold group-hover:text-masters-green transition-colors truncate">
+            <h3 className="text-cream font-semibold group-hover:text-masters-green transition-colors truncate text-base">
               {name}
             </h3>
-            {featured && (
-              <span className="flex-shrink-0 px-1.5 py-0.5 bg-masters-green-subtle text-masters-green text-[10px] uppercase">
+            {featured && !showRank && (
+              <span className="flex-shrink-0 px-2 py-1 bg-masters-green/20 text-masters-green text-[10px] uppercase font-semibold rounded">
                 Featured
               </span>
             )}
           </div>
           
-          <p className="text-muted text-sm mt-1">
-            {city}, {state}
+          <p className="text-muted text-sm mt-1 flex items-center gap-1.5">
+            <MapPin className="w-3.5 h-3.5 flex-shrink-0" />
+            <span className="truncate">{city}, {state}</span>
           </p>
           
           {ratingOverall && (
-            <div className="flex items-center gap-1 mt-2">
+            <div className="flex items-center gap-1.5 mt-2">
               <Star className="w-4 h-4 fill-masters-green text-masters-green" />
-              <span className="text-cream font-mono">{ratingOverall.toFixed(1)}</span>
+              <span className="text-cream font-mono font-semibold">{ratingOverall.toFixed(1)}</span>
             </div>
           )}
         </div>
+        
+        {/* Arrow indicator for touch */}
+        <div className="flex items-center self-center">
+          <ArrowUpRight className="w-5 h-5 text-muted group-hover:text-masters-green transition-colors" />
+        </div>
       </article>
     </Link>
+  );
+}
+
+// Grid wrapper with responsive layout
+export function VenueGrid({ 
+  children, 
+  columns = 3 
+}: { 
+  children: React.ReactNode; 
+  columns?: 2 | 3 | 4;
+}) {
+  const gridCols = {
+    2: "grid-cols-1 md:grid-cols-2",
+    3: "grid-cols-1 md:grid-cols-2 lg:grid-cols-3",
+    4: "grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4",
+  };
+
+  return (
+    <div className={`grid ${gridCols[columns]} gap-4 md:gap-6`}>
+      {children}
+    </div>
   );
 }

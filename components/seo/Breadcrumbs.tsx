@@ -1,55 +1,44 @@
 import Link from "next/link";
+import { ChevronRight, Home } from "lucide-react";
 
-interface BreadcrumbItem {
+export interface BreadcrumbItem {
   label: string;
   href: string;
+  current?: boolean;
 }
 
 interface BreadcrumbsProps {
   items: BreadcrumbItem[];
+  showHomeIcon?: boolean;
 }
 
-export function Breadcrumbs({ items }: BreadcrumbsProps) {
-  const schema = {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    itemListElement: items.map((item, index) => ({
-      "@type": "ListItem",
-      position: index + 1,
-      name: item.label,
-      item: `${process.env.NEXT_PUBLIC_APP_URL}${item.href}`,
-    })),
-  };
-
+export function Breadcrumbs({ items, showHomeIcon = true }: BreadcrumbsProps) {
   return (
-    <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-      />
-      <nav aria-label="Breadcrumb" className="container mx-auto px-4 py-4">
-        <ol className="flex flex-wrap items-center gap-2 text-sm text-gray-600">
-          {items.map((item, index) => (
-            <li key={item.href} className="flex items-center">
-              {index > 0 && (
-                <span className="mx-2 text-gray-400">/</span>
-              )}
-              {index === items.length - 1 ? (
-                <span className="text-gray-900 font-medium" aria-current="page">
-                  {item.label}
-                </span>
-              ) : (
-                <Link
-                  href={item.href}
-                  className="hover:text-green-600 hover:underline"
-                >
-                  {item.label}
-                </Link>
-              )}
-            </li>
-          ))}
-        </ol>
-      </nav>
-    </>
+    <nav className="flex items-center text-sm" aria-label="Breadcrumb">
+      <ol className="flex items-center flex-wrap gap-1.5">
+        {items.map((item, index) => (
+          <li key={index} className="flex items-center">
+            {item.current ? (
+              <span className="text-cream font-medium" aria-current="page">
+                {item.label}
+              </span>
+            ) : (
+              <Link
+                href={item.href}
+                className="text-muted hover:text-cream transition-colors flex items-center gap-1.5"
+              >
+                {index === 0 && showHomeIcon && (
+                  <Home className="w-3.5 h-3.5" />
+                )}
+                {item.label}
+              </Link>
+            )}
+            {index < items.length - 1 && (
+              <ChevronRight className="w-4 h-4 text-muted mx-1.5" aria-hidden="true" />
+            )}
+          </li>
+        ))}
+      </ol>
+    </nav>
   );
 }
