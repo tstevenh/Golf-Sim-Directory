@@ -1,0 +1,295 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// Enums
+enum VenueType {
+  sim_bar
+  training_studio
+  private_rental
+  retail_fitting_center
+  country_club
+  multi_sport_sim
+  hotel_resort
+  other
+}
+
+enum LaunchMonitorType {
+  radar
+  photometric_camera
+  hybrid
+  unknown
+}
+
+enum PricingModel {
+  per_bay_hour
+  per_person_hour
+  package
+  membership_only
+  mixed
+  unknown
+}
+
+enum ParkingType {
+  free_lot
+  paid_lot
+  street
+  garage
+  valet
+  none
+  unknown
+}
+
+enum VenueStatus {
+  active
+  inactive
+  pending_review
+}
+
+enum VerificationLevel {
+  unverified
+  partially_verified
+  verified
+}
+
+enum UserRole {
+  golfer
+  business_owner
+  admin
+}
+
+enum CorrectionStatus {
+  pending
+  approved
+  rejected
+}
+
+enum SubmissionStatus {
+  pending
+  approved
+  rejected
+}
+
+// Models
+model Venue {
+  id                String   @id @default(cuid())
+  slug              String   @unique
+  
+  // Core Info
+  name              String
+  brandName         String?
+  venueType         VenueType @default(other)
+  
+  // Address
+  address           String
+  city              String
+  state             String
+  zipCode           String
+  country           String   @default("US")
+  latitude          Float
+  longitude         Float
+  
+  // Contact
+  phone             String?
+  email             String?
+  website           String?
+  bookingUrl        String?
+  googleMapsUrl     String?
+  
+  // SEO Content
+  shortDescription  String?  @db.VarChar(500)
+  about             String?  @db.Text
+  
+  // Categorization
+  tags              String[]
+  vibeTags          String[]
+  whoItsFor         String[]
+  
+  // Tech Info
+  simulatorSystems  Json?    // [{"brand":"Trackman","model":"iO"}]
+  launchMonitorType LaunchMonitorType @default(unknown)
+  ballTracking      Boolean? @default(false)
+  clubTracking      Boolean? @default(false)
+  puttingMode       String?  // auto_putt, gimme_circle, real_putting_surface
+  leftyFriendly     Boolean  @default(false)
+  
+  // Facility
+  bayCount          Int?
+  hasPrivateRooms   Boolean  @default(false)
+  privateRoomsCount Int?
+  maxGroupSizePerBay Int?
+  
+  // Pricing
+  pricingModel      PricingModel @default(unknown)
+  priceRangeMin     Int?
+  priceRangeMax     Int?
+  currency          String   @default("USD")
+  
+  // Amenities
+  foodAndDrink      Json?    // {"food": true, "alcohol": true, "notes": "Full bar"}
+  parking           ParkingType @default(unknown)
+  accessibility     String[] // wheelchair_accessible, elevator, etc.
+  wifi              Boolean? @default(false)
+  kidFriendly       Boolean? @default(false)
+  coachingAvailable Boolean  @default(false)
+  
+  // Hours
+  hours             String?  // mon:09:00-22:00|tue:09:00-22:00|...
+  walkInsAllowed    Boolean? @default(true)
+  
+  // Media
+  heroImage         String?
+  
+  // Ratings (aggregated or manually set)
+  ratingTechQuality     Float?
+  ratingFacilityComfort Float?
+  ratingValueForMoney   Float?
+  ratingOverall         Float?
+  
+  // Why golfers like it
+  whyGolfersLikeIt  Json?    // ["Great tech", "Friendly staff"]
+  
+  // Status & Ownership
+  status            VenueStatus @default(active)
+  claimed           Boolean  @default(false)
+  claimedById       String?
+  claimedAt         DateTime?
+  featured          Boolean  @default(false)
+  featuredUntil     DateTime?
+  
+  // Verification
+  verificationLevel VerificationLevel @default(unverified)
+  lastVerifiedAt    DateTime?
+  dataSource        String   @default("manual") // manual, scraped, owner_submitted
+  
+  // SEO
+  metaTitle         String?
+  metaDescription   String?
+  
+  // Comprehensive Data (for claimed listings)
+  comprehensiveData Json?
+  
+  // Timestamps
+  createdAt         DateTime @default(now())
+  updatedAt         DateTime @updatedAt
+  
+  // Relations
+  claimedBy         User?    @relation("ClaimedVenues", fields: [claimedById], references: [id])
+  favorites         Favorite[]
+  corrections       CorrectionReport[]
+  
+  @@index([city, state])
+  @@index([slug])
+  @@index([venueType])
+  @@index([featured])
+  @@index([claimed])
+  @@index([status])
+  @@index([latitude, longitude])
+  @@map("venues")
+}
+
+model User {
+  id                String    @id @default(cuid())
+  email             String    @unique
+  password          String    // Hashed
+  name              String?
+  role              UserRole  @default(golfer)
+  emailVerified     DateTime?
+  
+  // For business owners
+  businessName      String?
+  phone             String?
+  
+  // Relations
+  claimedVenues     Venue[]   @relation("ClaimedVenues")
+  favorites         Favorite[]
+  correctionReports CorrectionReport[]
+  submissions       Submission[]
+  
+  createdAt         DateTime  @default(now())
+  updatedAt         DateTime  @updatedAt
+  
+  @@map("users")
+}
+
+model Favorite {
+  id        String   @id @default(cuid())
+  userId    String
+  venueId   String
+  createdAt DateTime @default(now())
+  
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  venue     Venue    @relation(fields: [venueId], references: [id], onDelete: Cascade)
+  
+  @@unique([userId, venueId])
+  @@map("favorites")
+}
+
+model CorrectionReport {
+  id              String   @id @default(cuid())
+  venueId         String
+  reportedById    String?
+  
+  // What needs correction
+  field           String
+  currentValue    String?
+  suggestedValue  String
+  notes           String?
+  
+  status          CorrectionStatus @default(pending)
+  reviewedById    String?
+  reviewedAt      DateTime?
+  reviewNotes     String?
+  
+  createdAt       DateTime @default(now())
+  
+  venue           Venue    @relation(fields: [venueId], references: [id], onDelete: Cascade)
+  reportedBy      User?    @relation(fields: [reportedById], references: [id])
+  
+  @@map("correction_reports")
+}
+
+model Submission {
+  id            String   @id @default(cuid())
+  
+  // Submitted venue data
+  data          Json
+  
+  submittedById String?
+  status        SubmissionStatus @default(pending)
+  
+  reviewedById  String?
+  reviewedAt    DateTime?
+  notes         String?
+  
+  // If approved, link to created venue
+  venueId       String?
+  
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+  
+  submittedBy   User?    @relation(fields: [submittedById], references: [id])
+  
+  @@map("submissions")
+}
+
+model FeaturedListing {
+  id          String   @id @default(cuid())
+  venueId     String   @unique
+  tier        String   // basic, premium, platinum
+  price       Int      // in cents
+  startsAt    DateTime
+  endsAt      DateTime
+  isActive    Boolean  @default(true)
+  stripePaymentId String?
+  
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  
+  @@map("featured_listings")
+}

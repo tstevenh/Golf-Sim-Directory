@@ -1,65 +1,107 @@
-import Image from "next/image";
+import { db } from "@/lib/db";
+import { getStateNameFromAbbrev } from "@/lib/states";
+import { HeroSection } from "@/components/home/HeroSection";
+import { HowItWorks } from "@/components/home/HowItWorks";
+import { FeaturedVenues } from "@/components/home/FeaturedVenues";
+import { LaunchMonitorComparison } from "@/components/home/LaunchMonitorComparison";
+import { PopularCities } from "@/components/home/PopularCities";
+import { BusinessCTA } from "@/components/home/BusinessCTA";
 
-export default function Home() {
+export default async function HomePage() {
+  // Fetch data with error handling for build time
+  let topVenues: any[] = [];
+  let totalVenues = 0;
+  let totalStates = 0;
+  let citiesWithCounts: any[] = [];
+
+  try {
+    // Fetch top-rated venues from database
+    topVenues = await db.venue.findMany({
+      where: { status: "active" },
+      orderBy: [{ ratingOverall: "desc" }, { featured: "desc" }],
+      take: 6,
+      select: {
+        id: true,
+        slug: true,
+        name: true,
+        city: true,
+        state: true,
+        heroImage: true,
+        shortDescription: true,
+        venueType: true,
+        simulatorSystems: true,
+        launchMonitorType: true,
+        priceRangeMin: true,
+        priceRangeMax: true,
+        ratingOverall: true,
+        featured: true,
+        tags: true,
+        vibeTags: true,
+      },
+    });
+
+    // Get total venue count for stats
+    totalVenues = await db.venue.count({ where: { status: "active" } });
+
+    // Get unique states count
+    const statesResult = await db.venue.groupBy({
+      by: ["state"],
+      where: { status: "active" },
+    });
+    totalStates = statesResult.length;
+
+    // Get cities with venue counts for popular cities section
+    const citiesResult = await db.venue.groupBy({
+      by: ["city", "state"],
+      where: { status: "active" },
+      _count: { id: true },
+    });
+    // Sort and limit in memory since take doesn't work with groupBy
+    citiesWithCounts = citiesResult
+      .sort((a, b) => b._count.id - a._count.id)
+      .slice(0, 12);
+  } catch (error) {
+    console.error("Database error during build:", error);
+    // Return empty data - page will show fallback UI
+  }
+
+  // Transform cities data
+  const popularCities = citiesWithCounts.map((city) => ({
+    name: city.city,
+    stateCode: city.state.toLowerCase(),
+    stateSlug: getStateNameFromAbbrev(city.state.toLowerCase()) || city.state.toLowerCase(),
+    slug: city.city.toLowerCase().replace(/\s+/g, "-"),
+    venueCount: city._count.id,
+  }));
+
+  // Transform venues for the featured section
+  const featuredVenues = topVenues.map((venue) => ({
+    id: venue.id,
+    slug: venue.slug,
+    name: venue.name,
+    city: venue.city,
+    state: venue.state,
+    heroImage: venue.heroImage,
+    shortDescription: venue.shortDescription,
+    venueType: venue.venueType,
+    simulatorSystems: venue.simulatorSystems as string[] | null,
+    launchMonitorType: venue.launchMonitorType,
+    priceRangeMin: venue.priceRangeMin,
+    priceRangeMax: venue.priceRangeMax,
+    ratingOverall: venue.ratingOverall,
+    featured: venue.featured,
+    tags: venue.tags,
+    vibeTags: venue.vibeTags,
+  }));
+
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
-    </div>
+    <main className="min-h-screen bg-deep-black">
+      <HeroSection totalVenues={totalVenues} totalStates={totalStates} />
+      <HowItWorks />
+      <FeaturedVenues venues={featuredVenues} />
+      <LaunchMonitorComparison />
+      <PopularCities cities={popularCities} />
+      <BusinessCTA />
+    </main>
   );
 }
