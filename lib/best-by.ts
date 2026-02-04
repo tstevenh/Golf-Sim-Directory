@@ -1,0 +1,60 @@
+import { Venue } from "@/types";
+
+export function normalizeSlug(value: string) {
+  return value.toLowerCase().replace(/\s+/g, "-");
+}
+
+export function matchesTag(venue: Venue, tag: string) {
+  return (venue.tags || []).includes(tag);
+}
+
+export function matchesVibe(venue: Venue, vibe: string) {
+  return (venue.vibeTags || []).includes(vibe);
+}
+
+export function matchesWhoItsFor(venue: Venue, segment: string) {
+  return (venue.whoItsFor || []).includes(segment);
+}
+
+export function matchesHardware(venue: Venue, brand: string) {
+  if (!venue.simulatorSystems) return false;
+  try {
+    const systems = venue.simulatorSystems as { brand?: string; model?: string }[];
+    return systems.some((system) => system.brand?.toLowerCase() === brand.toLowerCase());
+  } catch {
+    return false;
+  }
+}
+
+export function matchesSoftware(venue: Venue, software: string) {
+  if (!venue.comprehensiveData) return false;
+  try {
+    const data = venue.comprehensiveData as { simulator_software?: string[] };
+    return (data.simulator_software || []).some(
+      (item) => item.toLowerCase() === software.toLowerCase()
+    );
+  } catch {
+    return false;
+  }
+}
+
+export function matchesAmenity(venue: Venue, amenity: string) {
+  switch (amenity) {
+    case "wifi":
+      return !!venue.wifi;
+    case "private_rooms":
+      return !!venue.hasPrivateRooms;
+    case "free_parking":
+      return venue.parking === "free_lot";
+    case "valet_parking":
+      return venue.parking === "valet";
+    case "full_bar":
+      return Boolean((venue.foodAndDrink as any)?.alcohol);
+    case "kitchen_food":
+      return Boolean((venue.foodAndDrink as any)?.food);
+    case "coaching_available":
+      return !!venue.coachingAvailable;
+    default:
+      return false;
+  }
+}

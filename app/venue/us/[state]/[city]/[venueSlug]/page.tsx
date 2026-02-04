@@ -4,6 +4,7 @@ import Link from "next/link";
 import { db } from "@/lib/db";
 import { auth } from "@/lib/auth";
 import { VenueDetail } from "@/components/venue/VenueDetail";
+import { VenueSchema } from "@/components/seo/VenueSchema";
 import { SessionUser } from "@/types";
 import { getStateDisplayName, getStateAbbrevFromName } from "@/lib/states";
 
@@ -28,8 +29,17 @@ export async function generateMetadata({ params }: VenuePageProps): Promise<Meta
       return { title: "Venue Not Found" };
     }
 
-    const title = venue.metaTitle || `${venue.name} - Golf Simulator in ${venue.city}, ${venue.state}`;
-    const description = venue.metaDescription || venue.shortDescription || `Book a bay at ${venue.name} in ${venue.city}. ${venue.venueType === 'sim_bar' ? 'Golf simulator bar' : 'Indoor golf facility'}.`;
+    const title =
+      venue.metaTitle ||
+      `${venue.name} - Golf Simulator in ${venue.city}, ${venue.state}`;
+    const description =
+      venue.metaDescription ||
+      venue.shortDescription ||
+      `Book a bay at ${venue.name} in ${venue.city}. ${
+        venue.venueType === "sim_bar"
+          ? "Golf simulator bar"
+          : "Indoor golf facility"
+      }.`;
 
     return {
       title,
@@ -40,7 +50,7 @@ export async function generateMetadata({ params }: VenuePageProps): Promise<Meta
         venue.state,
         "indoor golf",
         "screen golf",
-        venue.venueType === 'sim_bar' ? 'golf bar' : 'golf facility',
+        venue.venueType === "sim_bar" ? "golf bar" : "golf facility",
       ],
       openGraph: {
         title,
@@ -54,7 +64,6 @@ export async function generateMetadata({ params }: VenuePageProps): Promise<Meta
 }
 
 export async function generateStaticParams() {
-  // Return full state names
   return [
     { state: "illinois", city: "chicago", venueSlug: "x-golf-chicago" },
     { state: "illinois", city: "chicago", venueSlug: "five-iron-golf-chicago" },
@@ -85,7 +94,6 @@ export default async function VenuePage({ params }: VenuePageProps) {
 
     const session = await auth();
 
-    // Check if user has favorited this venue
     let isFavorited = false;
     if (session?.user?.id) {
       const favorite = await db.favorite.findUnique({
@@ -99,7 +107,6 @@ export default async function VenuePage({ params }: VenuePageProps) {
       isFavorited = !!favorite;
     }
 
-    // Map session user
     const sessionUser: SessionUser | undefined = session?.user
       ? {
           id: session.user.id,
@@ -111,7 +118,7 @@ export default async function VenuePage({ params }: VenuePageProps) {
 
     return (
       <div className="min-h-screen bg-deep-black">
-        {/* Breadcrumbs */}
+        <VenueSchema venue={venue} />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-6">
           <div className="flex items-center gap-2 text-sm text-muted">
             <Link href="/" className="hover:text-cream transition-colors">Home</Link>

@@ -15,11 +15,10 @@ export default async function HomePage() {
   let citiesWithCounts: any[] = [];
 
   try {
-    // Fetch top-rated venues from database
+    // Fetch featured venues from database
     topVenues = await db.venue.findMany({
-      where: { status: "active" },
-      orderBy: [{ ratingOverall: "desc" }, { featured: "desc" }],
-      take: 6,
+      where: { status: "active", featured: true },
+      orderBy: [{ ratingOverall: "desc" }, { name: "asc" }],
       select: {
         id: true,
         slug: true,
