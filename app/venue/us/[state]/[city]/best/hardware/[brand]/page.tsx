@@ -1,5 +1,4 @@
 import { Metadata } from "next";
-import Link from "next/link";
 import { db } from "@/lib/db";
 import { BestByPageContent } from "@/components/seo/BestByPageContent";
 import { matchesHardware } from "@/lib/best-by";
@@ -11,16 +10,34 @@ interface CityBestHardwarePageProps {
 
 export const revalidate = 60;
 
+// Hardware-specific descriptions
+const hardwareDescriptions: Record<string, string> = {
+  "trackman": "Tour-level accuracy with dual radar technology",
+  "foresight": "Camera-based precision for club and ball data",
+  "uneekor": "Overhead camera systems with compact footprint",
+  "full-swing": "Immersive entertainment with stunning graphics",
+  "golfzon": "Interactive platform with moving floor technology",
+  "aboutgolf": "Premium simulation at country clubs",
+  "skytrak": "Accessible accuracy for all skill levels",
+  "flightscope": "3D Doppler radar technology",
+};
+
 export async function generateMetadata({ params }: CityBestHardwarePageProps): Promise<Metadata> {
   const { state, city, brand } = await params;
   const stateAbbrev = getStateAbbrevFromName(state) || state.toUpperCase();
   const stateName = getStateDisplayName(stateAbbrev);
   const cityFormatted = city.replace(/-/g, " ");
-  const brandLabel = brand.replace(/-/g, " ");
+  const brandLabel = brand.replace(/-/g, " ").replace(/\b\w/g, l => l.toUpperCase());
+  const brandDesc = hardwareDescriptions[brand.toLowerCase()] || "quality simulator hardware";
 
   return {
     title: `Best ${brandLabel} Golf Simulators in ${cityFormatted}, ${stateName} | GolfSimMap`,
-    description: `Find venues using ${brandLabel} simulators in ${cityFormatted}. Compare ratings, amenities, and book your session.`,
+    description: `Find venues using ${brandLabel} simulators in ${cityFormatted}. ${brandDesc}. Compare ratings, amenities, and book your session.`,
+    openGraph: {
+      title: `Best ${brandLabel} Golf Simulators in ${cityFormatted}`,
+      description: `Find venues using ${brandLabel} (${brandDesc}) in ${cityFormatted}.`,
+      type: "website",
+    },
   };
 }
 
@@ -28,8 +45,9 @@ export default async function CityBestHardwarePage({ params }: CityBestHardwareP
   const { state, city, brand } = await params;
   const stateAbbrev = getStateAbbrevFromName(state) || state.toUpperCase();
   const stateName = getStateDisplayName(stateAbbrev);
-  const cityFormatted = city.replace(/-/g, " ");
-  const brandLabel = brand.replace(/-/g, " ");
+  const cityFormatted = city.replace(/-/g, " ").replace(/\b\w/g, l => l.toUpperCase());
+  const brandLabel = brand.replace(/-/g, " ").replace(/\b\w/g, l => l.toUpperCase());
+  const brandDesc = hardwareDescriptions[brand.toLowerCase()] || "quality simulator hardware";
 
   const venues = await db.venue.findMany({
     where: {
@@ -48,11 +66,11 @@ export default async function CityBestHardwarePage({ params }: CityBestHardwareP
       state: stateAbbrev.toUpperCase(),
       country: "US",
       status: "active",
-      city: { not: cityFormatted },
+      city: { not: { equals: cityFormatted, mode: "insensitive" } },
     },
     select: { city: true },
     distinct: ["city"],
-    take: 4,
+    take: 6,
   });
 
   const nearbyLinks = nearbyCitiesResult.map((c) => ({
@@ -60,64 +78,66 @@ export default async function CityBestHardwarePage({ params }: CityBestHardwareP
     href: `/venue/us/${state}/${c.city.toLowerCase().replace(/\s+/g, "-")}/best/hardware/${brand}`,
   }));
 
+  const breadcrumbs = [
+    { label: "Home", href: "/" },
+    { label: "US", href: "/venue/us" },
+    { label: stateName, href: `/venue/us/${state}` },
+    { label: cityFormatted, href: `/venue/us/${state}/${city}` },
+    { label: `Best ${brandLabel}` },
+  ];
+
   const faqItems = [
     {
       question: `Why choose ${brandLabel} simulators?`,
-      answer: `${brandLabel} is known for accurate shot tracking and quality data. Serious golfers often prefer it for practice sessions.`,
+      answer: `${brandLabel} offers ${brandDesc}. Serious golfers often prefer it for practice sessions and data-driven improvement.`,
     },
     {
       question: `How many ${brandLabel} venues are in ${cityFormatted}?`,
-      answer: `${filteredVenues.length} venues list ${brandLabel} hardware in ${cityFormatted}. Hardware details may vary by bay.`,
+      answer: `We found ${filteredVenues.length} venues listing ${brandLabel} hardware in ${cityFormatted}. Hardware details may vary by bay — always confirm when booking.`,
     },
     {
-      question: "Do all bays use the same hardware?",
-      answer: "Not always. Some venues mix brands across bays or VIP rooms. Check the listing notes or call ahead.",
+      question: "Do all bays at a venue use the same hardware?",
+      answer: "Not always. Some venues mix brands across bays or have premium bays with different equipment. Check the listing notes or call ahead to confirm.",
     },
     {
       question: "Are hardware details verified?",
-      answer: "Some listings are verified by owners. Look for the badge. Unverified listings rely on available data.",
+      answer: "Verified venues have confirmed their hardware with us. Look for the verified badge. Unverified listings rely on available data.",
     },
   ];
 
-  return (
-    <div className="min-h-screen bg-deep-black py-12">
-      <div className="absolute inset-0 scorecard-grid opacity-20" />
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center gap-2 text-sm text-muted mb-6">
-          <Link href="/" className="hover:text-cream transition-colors">Home</Link>
-          <span>/</span>
-          <Link href="/venue/us" className="hover:text-cream transition-colors">US</Link>
-          <span>/</span>
-          <Link href={`/venue/us/${state}`} className="hover:text-cream transition-colors">{stateName}</Link>
-          <span>/</span>
-          <Link href={`/venue/us/${state}/${city}`} className="hover:text-cream transition-colors">{cityFormatted}</Link>
-          <span>/</span>
-          <span className="text-cream">Best {brandLabel}</span>
-        </div>
+  const relatedLinks = [
+    { label: `All venues in ${cityFormatted}`, href: `/venue/us/${state}/${city}` },
+    { label: `Best ${brandLabel} (national)`, href: `/best/hardware/${brand}` },
+    { label: `All venues in ${stateName}`, href: `/venue/us/${state}` },
+    { label: "TrackMan venues", href: `/venue/us/${state}/${city}/best/hardware/trackman` },
+    { label: "Foresight venues", href: `/venue/us/${state}/${city}/best/hardware/foresight` },
+  ].filter(link => !link.href.endsWith(`/hardware/${brand}`));
 
-        <BestByPageContent
-          title={`Best ${brandLabel} Golf Simulators in ${cityFormatted}`}
-          description={`${filteredVenues.length} venues in ${cityFormatted}, ${stateName} using ${brandLabel} hardware. Compare and book.`}
-          guidancePoints={[
-            "Confirm the exact model on the venue page — brands have different tiers.",
-            "Compare launch monitor type if you care about specific data points.",
-            "Book ahead if you want a specific bay or hardware setup.",
-          ]}
-          methodologyDescription="We match simulator brands from listing data. Featured venues first, then sorted by rating."
-          faqItems={faqItems}
-          nearbyTitle={`${brandLabel} nearby`}
-          nearbyLinks={nearbyLinks}
-          relatedLinks={[
-            { label: `All venues in ${cityFormatted}`, href: `/venue/us/${state}/${city}` },
-            { label: `Best ${brandLabel} (national)`, href: `/best/hardware/${brand}` },
-          ]}
-          ctaTitle="Own a venue here?"
-          ctaDescription={`Claim your listing to confirm your ${brandLabel} setup and appear in local searches.`}
-          ctaPrimary={{ label: "Claim a listing", href: "/claim" }}
-          ctaSecondary={{ label: "Submit a venue", href: "/submit" }}
-          venues={filteredVenues}
-        />
-      </div>
-    </div>
+  return (
+    <BestByPageContent
+      title={`Best ${brandLabel} Golf Simulators in ${cityFormatted}`}
+      description={`Discover ${filteredVenues.length} venues in ${cityFormatted}, ${stateName} using ${brandLabel} hardware. ${brandDesc}. Compare and book your session.`}
+      guidancePoints={[
+        "Confirm the exact model on the venue page — brands have different tiers.",
+        "Compare launch monitor type if you care about specific data points.",
+        "Book ahead if you want a specific bay or hardware setup.",
+        "Check if the venue offers fitting or lesson services with this hardware.",
+      ]}
+      methodologyDescription={`We identify ${brandLabel} venues from listing data. Featured venues appear first, followed by highest-rated options.`}
+      faqItems={faqItems}
+      nearbyTitle={`${brandLabel} in nearby ${stateName} cities`}
+      nearbyLinks={nearbyLinks}
+      relatedLinks={relatedLinks}
+      ctaTitle={`Own a ${brandLabel} venue in ${cityFormatted}?`}
+      ctaDescription={`Claim your listing to confirm your ${brandLabel} setup and attract local golfers searching for this hardware.`}
+      ctaPrimary={{ label: "Claim Your Listing", href: "/claim" }}
+      ctaSecondary={{ label: "Submit New Venue", href: "/submit" }}
+      venues={filteredVenues}
+      categoryType="hardware"
+      categoryValue={brand.toLowerCase()}
+      heroSubtitle={`${cityFormatted}, ${stateName}`}
+      breadcrumbItems={breadcrumbs}
+      showRanking={true}
+    />
   );
 }

@@ -1,5 +1,4 @@
 import { Metadata } from "next";
-import Link from "next/link";
 import { db } from "@/lib/db";
 import { BestByPageContent } from "@/components/seo/BestByPageContent";
 import { matchesTag } from "@/lib/best-by";
@@ -11,16 +10,33 @@ interface CityBestTagPageProps {
 
 export const revalidate = 60;
 
+// Tag-specific descriptions for city pages
+const tagDescriptions: Record<string, string> = {
+  "sim-bar": "venues with full bar service, great food, and a social atmosphere",
+  "date-night": "romantic spots perfect for couples looking for a fun activity",
+  "corporate-events": "venues that handle team events, client entertainment, and corporate outings",
+  "family-friendly": "welcoming spots where the whole family can enjoy golf together",
+  "serious-practice": "facilities focused on improvement with quality hardware and practice features",
+  "beginners": "patient, welcoming venues ideal for learning the game",
+  "league-play": "venues offering organized competitions and regular league nights",
+};
+
 export async function generateMetadata({ params }: CityBestTagPageProps): Promise<Metadata> {
   const { state, city, tag } = await params;
   const stateAbbrev = getStateAbbrevFromName(state) || state.toUpperCase();
   const stateName = getStateDisplayName(stateAbbrev);
   const cityFormatted = city.replace(/-/g, " ");
   const tagLabel = tag.replace(/-/g, " ");
+  const tagDesc = tagDescriptions[tag] || `venues tagged for ${tagLabel}`;
 
   return {
     title: `Best ${tagLabel} Golf Simulators in ${cityFormatted}, ${stateName} | GolfSimMap`,
-    description: `Find the best ${tagLabel} golf simulator venues in ${cityFormatted}. Compare amenities, hardware, and booking options.`,
+    description: `Find ${tagDesc} in ${cityFormatted}, ${stateName}. Compare amenities, hardware, and book your session.`,
+    openGraph: {
+      title: `Best ${tagLabel} Golf Simulators in ${cityFormatted}`,
+      description: `Find ${tagDesc} in ${cityFormatted}. Compare and book your session.`,
+      type: "website",
+    },
   };
 }
 
@@ -28,8 +44,9 @@ export default async function CityBestTagPage({ params }: CityBestTagPageProps) 
   const { state, city, tag } = await params;
   const stateAbbrev = getStateAbbrevFromName(state) || state.toUpperCase();
   const stateName = getStateDisplayName(stateAbbrev);
-  const cityFormatted = city.replace(/-/g, " ");
-  const tagLabel = tag.replace(/-/g, " ");
+  const cityFormatted = city.replace(/-/g, " ").replace(/\b\w/g, l => l.toUpperCase());
+  const tagLabel = tag.replace(/-/g, " ").replace(/\b\w/g, l => l.toUpperCase());
+  const tagDesc = tagDescriptions[tag] || `venues perfect for ${tagLabel.toLowerCase()}`;
 
   const venues = await db.venue.findMany({
     where: {
@@ -48,11 +65,11 @@ export default async function CityBestTagPage({ params }: CityBestTagPageProps) 
       state: stateAbbrev.toUpperCase(),
       country: "US",
       status: "active",
-      city: { not: cityFormatted },
+      city: { not: { equals: cityFormatted, mode: "insensitive" } },
     },
     select: { city: true },
     distinct: ["city"],
-    take: 4,
+    take: 6,
   });
 
   const nearbyLinks = nearbyCitiesResult.map((c) => ({
@@ -60,65 +77,67 @@ export default async function CityBestTagPage({ params }: CityBestTagPageProps) 
     href: `/venue/us/${state}/${c.city.toLowerCase().replace(/\s+/g, "-")}/best/${tag}`,
   }));
 
+  const breadcrumbs = [
+    { label: "Home", href: "/" },
+    { label: "US", href: "/venue/us" },
+    { label: stateName, href: `/venue/us/${state}` },
+    { label: cityFormatted, href: `/venue/us/${state}/${city}` },
+    { label: `Best ${tagLabel}` },
+  ];
+
   const faqItems = [
     {
-      question: `How many ${tagLabel} venues are in ${cityFormatted}?`,
-      answer: `We found ${filteredVenues.length} venues tagged for ${tagLabel} in ${cityFormatted}. Check the full city listing for more options.`,
+      question: `How many ${tagLabel.toLowerCase()} venues are in ${cityFormatted}?`,
+      answer: `We found ${filteredVenues.length} venues tagged for ${tagLabel.toLowerCase()} in ${cityFormatted}. Check the full city listing for more options that might match your needs.`,
     },
     {
-      question: `What makes a venue good for ${tagLabel}?`,
-      answer: `We look at amenities, vibe tags, and owner submissions. ${tagLabel} venues typically share specific traits that match this use case.`,
+      question: `What makes a ${cityFormatted} venue good for ${tagLabel.toLowerCase()}?`,
+      answer: `We categorize venues based on amenities, atmosphere, and customer feedback. ${tagLabel} venues in ${cityFormatted} typically offer ${tagDesc}.`,
     },
     {
-      question: "Are these venues verified?",
-      answer: "Some are. Look for the verified badge. Unverified listings are based on available data and may be outdated.",
+      question: "How do I book at these venues?",
+      answer: "Click on any venue card to see details and booking links. Most venues offer online booking, but you can also call ahead for popular time slots.",
     },
     {
-      question: "Can I suggest a venue?",
-      answer: "Yes. Submit it or leave feedback on an existing listing. We review before adding tags.",
+      question: "Are there similar options nearby?",
+      answer: `Yes! We've listed ${tagLabel.toLowerCase()} options in nearby cities below. You can also check the full ${stateName} page for more options.`,
     },
   ];
 
-  return (
-    <div className="min-h-screen bg-deep-black py-12">
-      <div className="absolute inset-0 scorecard-grid opacity-20" />
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center gap-2 text-sm text-muted mb-6">
-          <Link href="/" className="hover:text-cream transition-colors">Home</Link>
-          <span>/</span>
-          <Link href="/venue/us" className="hover:text-cream transition-colors">US</Link>
-          <span>/</span>
-          <Link href={`/venue/us/${state}`} className="hover:text-cream transition-colors">{stateName}</Link>
-          <span>/</span>
-          <Link href={`/venue/us/${state}/${city}`} className="hover:text-cream transition-colors">{cityFormatted}</Link>
-          <span>/</span>
-          <span className="text-cream">Best {tagLabel}</span>
-        </div>
+  const relatedLinks = [
+    { label: `All venues in ${cityFormatted}`, href: `/venue/us/${state}/${city}` },
+    { label: `Best ${tagLabel} (national)`, href: `/best/${tag}` },
+    { label: `All venues in ${stateName}`, href: `/venue/us/${state}` },
+    { label: "Sim bars", href: `/venue/us/${state}/${city}/best/sim-bar` },
+    { label: "Date night spots", href: `/venue/us/${state}/${city}/best/date-night` },
+    { label: "Family friendly", href: `/venue/us/${state}/${city}/best/family-friendly` },
+  ].filter(link => !link.href.endsWith(`/best/${tag}`));
 
-        <BestByPageContent
-          title={`Best ${tagLabel} Golf Simulators in ${cityFormatted}`}
-          description={`${filteredVenues.length} venues in ${cityFormatted}, ${stateName} tagged for ${tagLabel}. Compare before you book.`}
-          guidancePoints={[
-            "Check booking links and call ahead for popular time slots.",
-            "Compare amenities if you're picky about food, drinks, or private rooms.",
-            "Use launch monitor filters if data accuracy matters to you.",
-          ]}
-          methodologyDescription="We filter city venues by tag. Featured listings appear first, then sorted by rating and completeness."
-          faqItems={faqItems}
-          nearbyTitle={`${tagLabel} in nearby cities`}
-          nearbyLinks={nearbyLinks}
-          relatedLinks={[
-            { label: `All venues in ${cityFormatted}`, href: `/venue/us/${state}/${city}` },
-            { label: `Best ${tagLabel} (national)`, href: `/best/${tag}` },
-            { label: `All venues in ${stateName}`, href: `/venue/us/${state}` },
-          ]}
-          ctaTitle="Own a venue here?"
-          ctaDescription={`Claim your listing to appear in ${cityFormatted} best-by pages.`}
-          ctaPrimary={{ label: "Claim a listing", href: "/claim" }}
-          ctaSecondary={{ label: "Submit a venue", href: "/submit" }}
-          venues={filteredVenues}
-        />
-      </div>
-    </div>
+  return (
+    <BestByPageContent
+      title={`Best ${tagLabel} Golf Simulators in ${cityFormatted}`}
+      description={`Discover ${filteredVenues.length} ${tagDesc} in ${cityFormatted}, ${stateName}. Compare amenities, check prices, and book your session.`}
+      guidancePoints={[
+        "Check booking links and call ahead for popular time slots.",
+        "Compare amenities like food, drinks, and private rooms.",
+        "Look at launch monitor types if data accuracy matters to you.",
+        "Read reviews from other golfers for honest feedback.",
+      ]}
+      methodologyDescription={`We filter ${cityFormatted} venues by the ${tagLabel.toLowerCase()} tag. Featured listings appear first, followed by highest-rated options.`}
+      faqItems={faqItems}
+      nearbyTitle={`${tagLabel} in nearby ${stateName} cities`}
+      nearbyLinks={nearbyLinks}
+      relatedLinks={relatedLinks}
+      ctaTitle={`Own a ${tagLabel.toLowerCase()} venue in ${cityFormatted}?`}
+      ctaDescription={`Claim your listing to appear in ${cityFormatted}'s best-by collections and attract local golfers.`}
+      ctaPrimary={{ label: "Claim Your Listing", href: "/claim" }}
+      ctaSecondary={{ label: "Submit New Venue", href: "/submit" }}
+      venues={filteredVenues}
+      categoryType="tag"
+      categoryValue={tag}
+      heroSubtitle={`${cityFormatted}, ${stateName}`}
+      breadcrumbItems={breadcrumbs}
+      showRanking={true}
+    />
   );
 }

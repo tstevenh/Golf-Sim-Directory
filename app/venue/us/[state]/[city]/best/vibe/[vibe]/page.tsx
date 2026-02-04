@@ -1,5 +1,4 @@
 import { Metadata } from "next";
-import Link from "next/link";
 import { db } from "@/lib/db";
 import { BestByPageContent } from "@/components/seo/BestByPageContent";
 import { matchesVibe } from "@/lib/best-by";
@@ -11,16 +10,58 @@ interface CityBestVibePageProps {
 
 export const revalidate = 60;
 
+// Vibe-specific descriptions for city pages
+const vibeDescriptions: Record<string, { tagline: string; description: string }> = {
+  "upscale": {
+    tagline: "Premium Golf Experiences",
+    description: "Luxury golf simulator venues with upscale amenities, premium finishes, and exceptional service. Perfect for client entertainment, special occasions, or when you want the finest simulator experience in town.",
+  },
+  "casual": {
+    tagline: "Relaxed & Laid-Back",
+    description: "Casual golf simulator spots perfect for kicking back with friends. No dress code, no pretense — just good golf and good times. Great for beginners and regulars alike looking for a chill atmosphere.",
+  },
+  "sports-bar": {
+    tagline: "Golf Meets Game Day",
+    description: "Sports bar venues with golf simulators where you can watch the big game, grab some wings, and squeeze in a few holes. The best of both worlds for sports fans.",
+  },
+  "sports_bar": {
+    tagline: "Golf Meets Game Day",
+    description: "Sports bar venues with golf simulators where you can watch the big game, grab some wings, and squeeze in a few holes. The best of both worlds for sports fans.",
+  },
+  "boutique": {
+    tagline: "Intimate & Curated",
+    description: "Smaller, boutique golf simulator venues offering personalized attention and a more intimate atmosphere. Often feature unique decor and specialized services for discerning golfers.",
+  },
+  "lounge": {
+    tagline: "Sophisticated Atmosphere",
+    description: "Lounge-style golf simulator venues with comfortable seating, craft cocktails, and a refined atmosphere. Perfect for after-work sessions or date nights when you want something a bit more upscale.",
+  },
+  "entertainment": {
+    tagline: "Full Entertainment Experience",
+    description: "Entertainment-focused venues where golf simulators are part of a larger experience. Often feature multiple activities, games, and group entertainment options.",
+  },
+  "family": {
+    tagline: "Fun for All Ages",
+    description: "Family-oriented golf simulator venues where all ages can enjoy the game together. Safe, welcoming environments with activities for kids and adults.",
+  },
+};
+
 export async function generateMetadata({ params }: CityBestVibePageProps): Promise<Metadata> {
   const { state, city, vibe } = await params;
   const stateAbbrev = getStateAbbrevFromName(state) || state.toUpperCase();
   const stateName = getStateDisplayName(stateAbbrev);
   const cityFormatted = city.replace(/-/g, " ");
-  const vibeLabel = vibe.replace(/_/g, " ");
+  const vibeLabel = vibe.replace(/_/g, " ").replace(/-/g, " ");
+  const vibeDesc = vibeDescriptions[vibe.toLowerCase()] || { tagline: "", description: "" };
 
   return {
     title: `Best ${vibeLabel} Golf Simulators in ${cityFormatted}, ${stateName} | GolfSimMap`,
-    description: `Find ${vibeLabel} vibe golf simulator venues in ${cityFormatted}. Compare atmosphere, amenities, and book your session.`,
+    description: vibeDesc.description || `Find ${vibeLabel} vibe golf simulator venues in ${cityFormatted}, ${stateName}. Compare atmosphere, amenities, and booking options.`,
+    openGraph: {
+      title: `Best ${vibeLabel} Golf Simulators in ${cityFormatted}`,
+      description: vibeDesc.description || `Find ${vibeLabel} vibe golf simulator venues in ${cityFormatted}.`,
+      type: "website",
+    },
   };
 }
 
@@ -28,8 +69,9 @@ export default async function CityBestVibePage({ params }: CityBestVibePageProps
   const { state, city, vibe } = await params;
   const stateAbbrev = getStateAbbrevFromName(state) || state.toUpperCase();
   const stateName = getStateDisplayName(stateAbbrev);
-  const cityFormatted = city.replace(/-/g, " ");
-  const vibeLabel = vibe.replace(/_/g, " ");
+  const cityFormatted = city.replace(/-/g, " ").replace(/\b\w/g, l => l.toUpperCase());
+  const vibeLabel = vibe.replace(/_/g, " ").replace(/-/g, " ").replace(/\b\w/g, l => l.toUpperCase());
+  const vibeKey = vibe.toLowerCase();
 
   const venues = await db.venue.findMany({
     where: {
@@ -43,16 +85,21 @@ export default async function CityBestVibePage({ params }: CityBestVibePageProps
 
   const filteredVenues = venues.filter((venue) => matchesVibe(venue, vibe));
 
+  const vibeDesc = vibeDescriptions[vibeKey] || {
+    tagline: `${vibeLabel} Atmosphere`,
+    description: `Venues with a ${vibeLabel.toLowerCase()} vibe in ${cityFormatted}.`,
+  };
+
   const nearbyCitiesResult = await db.venue.findMany({
     where: {
       state: stateAbbrev.toUpperCase(),
       country: "US",
       status: "active",
-      city: { not: cityFormatted },
+      city: { not: { equals: cityFormatted, mode: "insensitive" } },
     },
     select: { city: true },
     distinct: ["city"],
-    take: 4,
+    take: 6,
   });
 
   const nearbyLinks = nearbyCitiesResult.map((c) => ({
@@ -60,64 +107,67 @@ export default async function CityBestVibePage({ params }: CityBestVibePageProps
     href: `/venue/us/${state}/${c.city.toLowerCase().replace(/\s+/g, "-")}/best/vibe/${vibe}`,
   }));
 
+  const breadcrumbs = [
+    { label: "Home", href: "/" },
+    { label: "US", href: "/venue/us" },
+    { label: stateName, href: `/venue/us/${state}` },
+    { label: cityFormatted, href: `/venue/us/${state}/${city}` },
+    { label: vibeLabel },
+  ];
+
   const faqItems = [
     {
-      question: `What does ${vibeLabel} vibe mean?`,
-      answer: "Vibe tags describe the atmosphere — from upscale lounge to sports-bar energy. Pick the vibe that matches your crew.",
+      question: `What does "${vibeLabel}" vibe mean in ${cityFormatted}?`,
+      answer: vibeDesc.description,
     },
     {
-      question: `How many ${vibeLabel} venues are in ${cityFormatted}?`,
-      answer: `${filteredVenues.length} venues match this vibe in ${cityFormatted}. See the full city list for more options.`,
+      question: `How many ${vibeLabel.toLowerCase()} venues are in ${cityFormatted}?`,
+      answer: `We found ${filteredVenues.length} venues with a ${vibeLabel.toLowerCase()} vibe in ${cityFormatted}. These spots match the atmosphere you're looking for.`,
     },
     {
-      question: "Who sets the vibe tags?",
-      answer: "Owners tag their venues during submission. We infer from amenities when data is available.",
+      question: `Is this vibe right for groups?`,
+      answer: "Many ${vibeLabel.toLowerCase()} venues are perfect for groups — check for amenities like food, drinks, and private rooms if you're planning an outing.",
     },
     {
-      question: "Can I update a venue's vibe?",
-      answer: "Owners can claim their listing to update vibe and other details.",
+      question: `Can I combine vibe with other filters?`,
+      answer: "Yes! Use our search or browse other best-by pages to combine vibe preferences with location and hardware filters.",
     },
   ];
 
-  return (
-    <div className="min-h-screen bg-deep-black py-12">
-      <div className="absolute inset-0 scorecard-grid opacity-20" />
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center gap-2 text-sm text-muted mb-6">
-          <Link href="/" className="hover:text-cream transition-colors">Home</Link>
-          <span>/</span>
-          <Link href="/venue/us" className="hover:text-cream transition-colors">US</Link>
-          <span>/</span>
-          <Link href={`/venue/us/${state}`} className="hover:text-cream transition-colors">{stateName}</Link>
-          <span>/</span>
-          <Link href={`/venue/us/${state}/${city}`} className="hover:text-cream transition-colors">{cityFormatted}</Link>
-          <span>/</span>
-          <span className="text-cream">Best {vibeLabel}</span>
-        </div>
+  const relatedLinks = [
+    { label: `All venues in ${cityFormatted}`, href: `/venue/us/${state}/${city}` },
+    { label: `Upscale vibes`, href: `/venue/us/${state}/${city}/best/vibe/upscale` },
+    { label: `Casual spots`, href: `/venue/us/${state}/${city}/best/vibe/casual` },
+    { label: `Sports bars`, href: `/venue/us/${state}/${city}/best/vibe/sports-bar` },
+    { label: `Date night spots`, href: `/venue/us/${state}/${city}/best/date-night` },
+    { label: `Family friendly`, href: `/venue/us/${state}/${city}/best/family-friendly` },
+  ].filter(link => !link.href.endsWith(`/best/vibe/${vibe}`));
 
-        <BestByPageContent
-          title={`Best ${vibeLabel} Golf Simulators in ${cityFormatted}`}
-          description={`${filteredVenues.length} venues in ${cityFormatted} with a ${vibeLabel} atmosphere. Compare and book.`}
-          guidancePoints={[
-            "Check photos and reviews to confirm the vibe matches what you want.",
-            "Look for food and drink options if you're making it a night out.",
-            "Book ahead for weekends — popular vibes fill up fast.",
-          ]}
-          methodologyDescription="We filter city venues by vibe tag. Featured listings appear first, then sorted by rating."
-          faqItems={faqItems}
-          nearbyTitle={`${vibeLabel} vibes nearby`}
-          nearbyLinks={nearbyLinks}
-          relatedLinks={[
-            { label: `All venues in ${cityFormatted}`, href: `/venue/us/${state}/${city}` },
-            { label: `Best ${vibeLabel} (national)`, href: `/best/vibe/${vibe}` },
-          ]}
-          ctaTitle="Own a venue here?"
-          ctaDescription={`Claim your listing to update your vibe and appear in ${cityFormatted} searches.`}
-          ctaPrimary={{ label: "Claim a listing", href: "/claim" }}
-          ctaSecondary={{ label: "Submit a venue", href: "/submit" }}
-          venues={filteredVenues}
-        />
-      </div>
-    </div>
+  return (
+    <BestByPageContent
+      title={`Best ${vibeLabel} Golf Simulators in ${cityFormatted}`}
+      description={vibeDesc.description}
+      guidancePoints={[
+        "Check venue photos to get a feel for the actual atmosphere.",
+        "Look at amenities (food, drinks, private rooms) to confirm the experience.",
+        "Read reviews from other golfers with similar preferences.",
+        "Consider combining vibe with location filters for local options.",
+      ]}
+      methodologyDescription={`We categorize ${cityFormatted} venues by vibe tags based on their atmosphere, amenities, and customer feedback. Results prioritize featured venues, followed by highest-rated options.`}
+      faqItems={faqItems}
+      nearbyTitle={`${vibeLabel} vibes nearby`}
+      nearbyLinks={nearbyLinks}
+      relatedLinks={relatedLinks}
+      ctaTitle={`Own a ${vibeLabel.toLowerCase()} venue in ${cityFormatted}?`}
+      ctaDescription="Claim your listing to update your vibe details and attract local golfers looking for this atmosphere."
+      ctaPrimary={{ label: "Claim Your Listing", href: "/claim" }}
+      ctaSecondary={{ label: "Submit New Venue", href: "/submit" }}
+      venues={filteredVenues}
+      categoryType="vibe"
+      categoryValue={vibeKey}
+      heroSubtitle={vibeDesc.tagline}
+      breadcrumbItems={breadcrumbs}
+      showRanking={true}
+    />
   );
 }
