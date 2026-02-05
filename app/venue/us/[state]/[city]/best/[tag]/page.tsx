@@ -65,7 +65,7 @@ export default async function CityBestTagPage({ params }: CityBestTagPageProps) 
       state: stateAbbrev.toUpperCase(),
       country: "US",
       status: "active",
-      city: { not: { equals: cityFormatted, mode: "insensitive" } },
+      NOT: { city: { equals: cityFormatted, mode: "insensitive" } },
     },
     select: { city: true },
     distinct: ["city"],

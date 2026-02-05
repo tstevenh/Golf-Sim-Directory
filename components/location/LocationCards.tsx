@@ -25,7 +25,7 @@ export function StateCard({ stateCode, stateName, venueCount, href }: StateCardP
             {stateName}
           </span>
         </div>
-        <span className="px-2 py-1 bg-masters-green-subtle text-masters-green text-xs font-mono">
+        <span className="px-2 py-1 bg-charcoal text-masters-green text-xs font-mono border border-masters-green/30">
           {stateCode.toUpperCase()}
         </span>
       </div>
@@ -48,7 +48,7 @@ export function StateCard({ stateCode, stateName, venueCount, href }: StateCardP
   );
 }
 
-// City Card Component - Now matches StateCard styling
+// City Card Component
 interface CityCardProps {
   cityName: string;
   stateCode: string;
@@ -73,11 +73,11 @@ export function CityCard({ cityName, stateCode, venueCount, href, trending }: Ci
         </div>
         <div className="flex items-center gap-2">
           {trending && (
-            <span className="px-1.5 py-0.5 text-[10px] bg-masters-green-subtle text-masters-green uppercase tracking-wider">
+            <span className="px-1.5 py-0.5 text-[10px] bg-charcoal text-masters-green uppercase tracking-wider border border-masters-green/30">
               Hot
             </span>
           )}
-          <span className="px-2 py-1 bg-masters-green-subtle text-masters-green text-xs font-mono">
+          <span className="px-2 py-1 bg-charcoal text-masters-green text-xs font-mono border border-masters-green/30">
             {stateCode.toUpperCase()}
           </span>
         </div>

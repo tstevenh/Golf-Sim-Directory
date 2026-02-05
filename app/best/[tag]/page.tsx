@@ -95,8 +95,6 @@ export default async function BestTagPage({ params }: BestTagPageProps) {
           ctaPrimary={{ label: "Claim Your Listing", href: "/claim" }}
           ctaSecondary={{ label: "Submit New Venue", href: "/submit" }}
           venues={filteredVenues}
-          showStats={true}
-          venueCount={filteredVenues.length}
         />
       </div>
     </div>

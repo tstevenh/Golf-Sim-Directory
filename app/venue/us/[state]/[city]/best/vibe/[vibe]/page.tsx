@@ -95,7 +95,7 @@ export default async function CityBestVibePage({ params }: CityBestVibePageProps
       state: stateAbbrev.toUpperCase(),
       country: "US",
       status: "active",
-      city: { not: { equals: cityFormatted, mode: "insensitive" } },
+      NOT: { city: { equals: cityFormatted, mode: "insensitive" } },
     },
     select: { city: true },
     distinct: ["city"],

@@ -96,7 +96,7 @@ export function HeroSection({ totalVenues, totalStates }: HeroSectionProps) {
       />
 
       {/* Content */}
-      <div className="relative z-10 w-full max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-16 text-center">
+      <div className="relative z-10 w-full max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12 text-center">
         <div
           className={`transition-all duration-1000 ${
             isLoaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"

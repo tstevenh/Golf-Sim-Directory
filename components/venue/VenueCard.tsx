@@ -146,14 +146,6 @@ export function VenueCard({
               <span>{getSystemCode(launchMonitorType || "unknown")}</span>
             </div>
           </div>
-
-          {/* Rating overlay - bottom left */}
-          {ratingOverall && (
-            <div className="absolute bottom-3 left-3 flex items-center gap-1.5 px-2.5 py-1.5 bg-deep-black/80 backdrop-blur-sm rounded-md">
-              <Star className="w-4 h-4 fill-masters-green text-masters-green" />
-              <span className="text-cream font-mono font-bold">{ratingOverall.toFixed(1)}</span>
-            </div>
-          )}
         </div>
 
         {/* Content */}
@@ -165,10 +157,20 @@ export function VenueCard({
             </span>
           </div>
 
-          {/* Title */}
-          <h3 className="text-cream text-lg font-semibold mb-2 group-hover:text-masters-green transition-colors line-clamp-1">
-            {name}
-          </h3>
+          {/* Title Row - with Rating on right */}
+          <div className="flex items-start justify-between gap-2 mb-2">
+            <h3 className="text-cream text-lg font-semibold group-hover:text-masters-green transition-colors line-clamp-1 flex-1">
+              {name}
+            </h3>
+            
+            {/* Rating - positioned next to title */}
+            {ratingOverall && (
+              <div className="flex items-center gap-1 flex-shrink-0 bg-charcoal border border-default rounded-md px-2 py-1">
+                <Star className="w-3.5 h-3.5 fill-masters-green text-masters-green" />
+                <span className="text-cream font-mono font-bold text-sm">{ratingOverall.toFixed(1)}</span>
+              </div>
+            )}
+          </div>
 
           {/* Location */}
           <div className="flex items-center gap-2 text-muted text-sm mb-3">
@@ -262,10 +264,13 @@ export function VenueCardCompact({
             <h3 className="text-cream font-semibold group-hover:text-masters-green transition-colors truncate text-base">
               {name}
             </h3>
-            {featured && !showRank && (
-              <span className="flex-shrink-0 px-2 py-1 bg-masters-green/20 text-masters-green text-[10px] uppercase font-semibold rounded">
-                Featured
-              </span>
+            
+            {/* Rating - inline with title */}
+            {ratingOverall && (
+              <div className="flex items-center gap-1 flex-shrink-0 bg-slate rounded px-1.5 py-0.5">
+                <Star className="w-3 h-3 fill-masters-green text-masters-green" />
+                <span className="text-cream font-mono font-semibold text-xs">{ratingOverall.toFixed(1)}</span>
+              </div>
             )}
           </div>
           
@@ -274,10 +279,11 @@ export function VenueCardCompact({
             <span className="truncate">{city}, {state}</span>
           </p>
           
-          {ratingOverall && (
-            <div className="flex items-center gap-1.5 mt-2">
-              <Star className="w-4 h-4 fill-masters-green text-masters-green" />
-              <span className="text-cream font-mono font-semibold">{ratingOverall.toFixed(1)}</span>
+          {featured && !showRank && (
+            <div className="mt-2">
+              <span className="px-2 py-0.5 bg-masters-green/20 text-masters-green text-[10px] uppercase font-semibold rounded">
+                Featured
+              </span>
             </div>
           )}
         </div>

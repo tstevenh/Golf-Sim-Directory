@@ -2,7 +2,6 @@ import { Metadata } from "next";
 import Link from "next/link";
 import { db } from "@/lib/db";
 import { VenueCard, VenueGrid } from "@/components/venue/VenueCard";
-import { SeoIndexSections } from "@/components/seo/SeoIndexSections";
 import { Search, SlidersHorizontal, X } from "lucide-react";
 
 export const metadata: Metadata = {
@@ -15,24 +14,22 @@ interface SearchPageProps {
 }
 
 const venueTypes = [
-  "sim_bar",
-  "training_studio",
-  "private_rental",
-  "retail_fitting_center",
-  "country_club",
-  "multi_sport_sim",
-  "hotel_resort",
-  "other",
+  { value: "", label: "Any Type" },
+  { value: "sim_bar", label: "Simulator Bar" },
+  { value: "training_studio", label: "Training Studio" },
+  { value: "private_rental", label: "Private Rental" },
+  { value: "retail_fitting_center", label: "Retail/Fitting" },
+  { value: "country_club", label: "Country Club" },
+  { value: "multi_sport_sim", label: "Multi-Sport" },
+  { value: "hotel_resort", label: "Hotel/Resort" },
 ];
 
 const launchMonitorTypes = [
-  "radar",
-  "photometric_camera",
-  "hybrid",
-  "overhead_camera",
-  "floor_camera",
-  "infrared_optical",
-  "unknown",
+  { value: "", label: "Any System" },
+  { value: "radar", label: "Radar" },
+  { value: "photometric_camera", label: "Camera" },
+  { value: "hybrid", label: "Hybrid" },
+  { value: "overhead_camera", label: "Overhead Camera" },
 ];
 
 const hardwareBrands = [
@@ -52,7 +49,7 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
 
   const query = typeof params.q === "string" ? params.q : "";
   const city = typeof params.city === "string" ? params.city : "";
-  const zip = typeof params.zip === "string" ? params.zip : "";
+  const state = typeof params.state === "string" ? params.state : "";
   const venueType = typeof params.venueType === "string" ? params.venueType : "";
   const launchMonitorType = typeof params.launchMonitorType === "string" ? params.launchMonitorType : "";
   const hardware = typeof params.hardware === "string" ? params.hardware : "";
@@ -64,7 +61,6 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
   const alcohol = params.alcohol === "true";
   const wifi = params.wifi === "true";
   const privateRooms = params.privateRooms === "true";
-  const parking = typeof params.parking === "string" ? params.parking : "";
   const page = Math.max(1, Number(params.page || 1));
   const pageSize = 12;
 
@@ -84,8 +80,8 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
     baseWhere.city = { contains: city, mode: "insensitive" };
   }
 
-  if (zip) {
-    baseWhere.zipCode = { contains: zip, mode: "insensitive" };
+  if (state) {
+    baseWhere.state = { contains: state, mode: "insensitive" };
   }
 
   if (venueType) {
@@ -118,10 +114,6 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
 
   if (privateRooms) {
     baseWhere.hasPrivateRooms = true;
-  }
-
-  if (parking) {
-    baseWhere.parking = parking;
   }
 
   let venues = await db.venue.findMany({
@@ -159,29 +151,12 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
   const totalPages = Math.max(1, Math.ceil(totalVenues / pageSize));
   const pagedVenues = venues.slice((page - 1) * pageSize, page * pageSize);
 
-  const faqItems = [
-    {
-      question: "What can I search for on GolfSimMap?",
-      answer: "Search by venue name, city, or ZIP code, then use filters to narrow by hardware, amenities, or venue type.",
-    },
-    {
-      question: "Do filters include launch monitor types?",
-      answer: "Yes. Filter by radar, photometric camera, hybrid, or other launch monitor types depending on the data available.",
-    },
-    {
-      question: "How do I find venues with food and drinks?",
-      answer: "Use the Food and Alcohol filters to surface simulator bars and venues with dining options.",
-    },
-    {
-      question: "Can I submit a venue that is not listed?",
-      answer: "Yes. Submit a new venue and we will review it before publishing.",
-    },
-  ];
-
   return (
-    <div className="min-h-screen bg-deep-black py-12">
+    <div className="min-h-screen bg-deep-black">
       <div className="absolute inset-0 scorecard-grid opacity-20" />
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        {/* Header */}
         <div className="mb-10">
           <div className="flex items-center gap-3 mb-4">
             <div className="w-8 h-px bg-masters-green" />
@@ -189,131 +164,134 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
           </div>
           <h1 className="text-cream mb-2">Search Golf Simulators</h1>
           <p className="text-muted max-w-2xl">
-            Find indoor golf venues by location, hardware, and amenities. Use filters to dial in the exact simulator experience you want.
+            Find indoor golf venues by location, hardware, and amenities.
           </p>
         </div>
 
-        <SeoIndexSections
-          introTitle="Find the right simulator fast"
-          introDescription="GolfSimMap search helps you compare venues across the U.S. Filter by hardware, amenities, and pricing style to match your needs."
-          guidanceTitle="Search tips"
-          guidancePoints={[
-            "Use city or ZIP for the most accurate local results.",
-            "Filter by launch monitor type if you care about data precision.",
-            "Toggle food, alcohol, and private rooms for group-friendly venues.",
-          ]}
-          methodologyTitle="How search ranking works"
-          methodologyDescription="Search results prioritize featured and highly rated venues, then sort by name. Filters always override ranking to match your preferences."
-          faqTitle="Search FAQs"
-          faqItems={faqItems}
-          relatedTitle="Related best-by pages"
-          relatedLinks={[
-            { label: "Best date-night venues", href: "/best/date-night" },
-            { label: "Best serious-practice venues", href: "/best/serious-practice" },
-            { label: "Best Trackman venues", href: "/best/hardware/trackman" },
-            { label: "Best family-friendly venues", href: "/best/who-its-for/families" },
-          ]}
-          ctaTitle="Own a venue?"
-          ctaDescription="Claim your listing to verify details, add photos, and attract golfers searching in your area."
-          ctaPrimary={{ label: "Claim a listing", href: "/claim" }}
-          ctaSecondary={{ label: "Submit a venue", href: "/submit" }}
-        >
-          <section className="border border-default bg-charcoal p-6 md:p-8 mb-10">
-            <form className="grid gap-4" method="get">
-              <div className="grid md:grid-cols-3 gap-4">
-                <input name="q" defaultValue={query} placeholder="Search by name" className="golf-input !pl-4" />
-                <input name="city" defaultValue={city} placeholder="City" className="golf-input !pl-4" />
-                <input name="zip" defaultValue={zip} placeholder="ZIP" className="golf-input !pl-4" />
-              </div>
-
-              <div className="grid md:grid-cols-3 gap-4">
-                <select name="venueType" defaultValue={venueType} className="golf-input !pl-4">
-                  <option value="">Venue type</option>
-                  {venueTypes.map((type) => (
-                    <option key={type} value={type}>{type.replace(/_/g, " ")}</option>
-                  ))}
-                </select>
-                <select name="launchMonitorType" defaultValue={launchMonitorType} className="golf-input !pl-4">
-                  <option value="">Launch monitor</option>
-                  {launchMonitorTypes.map((type) => (
-                    <option key={type} value={type}>{type.replace(/_/g, " ")}</option>
-                  ))}
-                </select>
-                <select name="hardware" defaultValue={hardware} className="golf-input !pl-4">
-                  <option value="">Simulator hardware</option>
-                  {hardwareBrands.map((brand) => (
-                    <option key={brand} value={brand}>{brand}</option>
-                  ))}
-                </select>
-              </div>
-
-              <div className="grid md:grid-cols-4 gap-4">
-                <input name="minPrice" defaultValue={minPrice?.toString()} placeholder="Min price" className="golf-input !pl-4" />
-                <input name="maxPrice" defaultValue={maxPrice?.toString()} placeholder="Max price" className="golf-input !pl-4" />
-                <select name="parking" defaultValue={parking} className="golf-input !pl-4">
-                  <option value="">Parking</option>
-                  <option value="free_lot">Free parking</option>
-                  <option value="paid_lot">Paid lot</option>
-                  <option value="garage">Garage</option>
-                  <option value="valet">Valet</option>
-                </select>
-                <div className="flex flex-wrap gap-3">
-                  <label className="flex items-center gap-2 text-sm text-muted">
-                    <input type="checkbox" name="kidFriendly" defaultChecked={kidFriendly} />
-                    Kid-friendly
-                  </label>
-                  <label className="flex items-center gap-2 text-sm text-muted">
-                    <input type="checkbox" name="coaching" defaultChecked={coaching} />
-                    Coaching
-                  </label>
-                  <label className="flex items-center gap-2 text-sm text-muted">
-                    <input type="checkbox" name="food" defaultChecked={food} />
-                    Food
-                  </label>
-                  <label className="flex items-center gap-2 text-sm text-muted">
-                    <input type="checkbox" name="alcohol" defaultChecked={alcohol} />
-                    Alcohol
-                  </label>
-                  <label className="flex items-center gap-2 text-sm text-muted">
-                    <input type="checkbox" name="wifi" defaultChecked={wifi} />
-                    WiFi
-                  </label>
-                  <label className="flex items-center gap-2 text-sm text-muted">
-                    <input type="checkbox" name="privateRooms" defaultChecked={privateRooms} />
-                    Private rooms
-                  </label>
-                </div>
-              </div>
-
-              <div className="flex flex-wrap gap-3">
-                <button type="submit" className="btn-primary">Search</button>
-                <Link href="/search" className="btn-outline">Reset</Link>
-              </div>
-            </form>
-          </section>
-
-          <section>
-            <div className="flex items-center justify-between mb-6">
-              <h2 className="text-cream">{totalVenues} results</h2>
-              {totalVenues > 0 && (
-                <span className="text-sm text-muted">Page {page} of {totalPages}</span>
-              )}
+        {/* Search & Filter Section */}
+        <section className="border border-default bg-charcoal p-6 md:p-8 mb-10">
+          <form className="space-y-4" method="get">
+            {/* Row 1: Search + Location */}
+            <div className="grid md:grid-cols-3 gap-4">
+              <input 
+                name="q" 
+                defaultValue={query} 
+                placeholder="Search by name" 
+                className="golf-input !pl-4" 
+              />
+              <input 
+                name="city" 
+                defaultValue={city} 
+                placeholder="City" 
+                className="golf-input !pl-4" 
+              />
+              <input 
+                name="state" 
+                defaultValue={state} 
+                placeholder="State" 
+                className="golf-input !pl-4" 
+              />
             </div>
 
-            {pagedVenues.length === 0 ? (
-              <div className="text-center py-16 border border-default rounded-lg bg-charcoal">
-                <div className="max-w-md mx-auto">
-                  <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-slate flex items-center justify-center">
-                    <Search className="w-8 h-8 text-muted" />
-                  </div>
-                  <h3 className="text-cream text-lg font-semibold mb-2">No venues found</h3>
-                  <p className="text-muted mb-4">No venues match your filters. Try widening your search or removing some filters.</p>
-                  <Link href="/search" className="text-masters-green hover:underline">
-                    Clear all filters
-                  </Link>
-                </div>
+            {/* Row 2: Type + Monitor + Hardware */}
+            <div className="grid md:grid-cols-3 gap-4">
+              <select name="venueType" defaultValue={venueType} className="golf-input !pl-4">
+                {venueTypes.map((type) => (
+                  <option key={type.value} value={type.value}>{type.label}</option>
+                ))}
+              </select>
+              <select name="launchMonitorType" defaultValue={launchMonitorType} className="golf-input !pl-4">
+                {launchMonitorTypes.map((type) => (
+                  <option key={type.value} value={type.value}>{type.label}</option>
+                ))}
+              </select>
+              <select name="hardware" defaultValue={hardware} className="golf-input !pl-4">
+                <option value="">Any Hardware</option>
+                {hardwareBrands.map((brand) => (
+                  <option key={brand} value={brand}>{brand}</option>
+                ))}
+              </select>
+            </div>
+
+            {/* Row 3: Price Range + Checkboxes */}
+            <div className="grid md:grid-cols-4 gap-4">
+              <input 
+                name="minPrice" 
+                type="number"
+                defaultValue={minPrice?.toString()} 
+                placeholder="Min $/hr" 
+                className="golf-input !pl-4" 
+              />
+              <input 
+                name="maxPrice" 
+                type="number"
+                defaultValue={maxPrice?.toString()} 
+                placeholder="Max $/hr" 
+                className="golf-input !pl-4" 
+              />
+              <div className="md:col-span-2 flex flex-wrap gap-4 items-center">
+                <label className="flex items-center gap-2 text-sm text-muted cursor-pointer">
+                  <input type="checkbox" name="kidFriendly" defaultChecked={kidFriendly} className="rounded border-default" />
+                  Kid-friendly
+                </label>
+                <label className="flex items-center gap-2 text-sm text-muted cursor-pointer">
+                  <input type="checkbox" name="coaching" defaultChecked={coaching} className="rounded border-default" />
+                  Coaching
+                </label>
+                <label className="flex items-center gap-2 text-sm text-muted cursor-pointer">
+                  <input type="checkbox" name="food" defaultChecked={food} className="rounded border-default" />
+                  Food
+                </label>
+                <label className="flex items-center gap-2 text-sm text-muted cursor-pointer">
+                  <input type="checkbox" name="alcohol" defaultChecked={alcohol} className="rounded border-default" />
+                  Bar
+                </label>
+                <label className="flex items-center gap-2 text-sm text-muted cursor-pointer">
+                  <input type="checkbox" name="wifi" defaultChecked={wifi} className="rounded border-default" />
+                  WiFi
+                </label>
+                <label className="flex items-center gap-2 text-sm text-muted cursor-pointer">
+                  <input type="checkbox" name="privateRooms" defaultChecked={privateRooms} className="rounded border-default" />
+                  Private Rooms
+                </label>
               </div>
-            ) : (
+            </div>
+
+            {/* Row 4: Buttons */}
+            <div className="flex flex-wrap gap-3 pt-2">
+              <button type="submit" className="btn-primary">
+                <Search className="w-4 h-4" />
+                <span>Search</span>
+              </button>
+              <Link href="/search" className="btn-outline">Reset</Link>
+            </div>
+          </form>
+        </section>
+
+        {/* Results */}
+        <section>
+          <div className="flex items-center justify-between mb-6">
+            <h2 className="text-cream">{totalVenues} results</h2>
+            {totalVenues > 0 && (
+              <span className="text-sm text-muted">Page {page} of {totalPages}</span>
+            )}
+          </div>
+
+          {pagedVenues.length === 0 ? (
+            <div className="text-center py-16 border border-default rounded-lg bg-charcoal">
+              <div className="max-w-md mx-auto">
+                <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-slate flex items-center justify-center">
+                  <Search className="w-8 h-8 text-muted" />
+                </div>
+                <h3 className="text-cream text-lg font-semibold mb-2">No venues found</h3>
+                <p className="text-muted mb-4">No venues match your filters. Try widening your search.</p>
+                <Link href="/search" className="text-masters-green hover:underline">
+                  Clear all filters
+                </Link>
+              </div>
+            </div>
+          ) : (
+            <>
               <VenueGrid columns={3}>
                 {pagedVenues.map((venue, index) => (
                   <VenueCard
@@ -334,50 +312,47 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
                     featured={venue.featured}
                     tags={venue.tags}
                     href={`/venue/us/${venue.state.toLowerCase()}/${venue.city.toLowerCase().replace(/\s+/g, "-")}/${venue.slug}`}
-                    rank={index + 1}
-                    showRank={index < 3}
                   />
                 ))}
               </VenueGrid>
-            )}
 
-            {totalPages > 1 && (
-              <div className="flex items-center justify-center gap-3 mt-10">
-                {Array.from({ length: totalPages }).map((_, index) => {
-                  const pageNumber = index + 1;
-                  const params = new URLSearchParams();
-                  if (query) params.set("q", query);
-                  if (city) params.set("city", city);
-                  if (zip) params.set("zip", zip);
-                  if (venueType) params.set("venueType", venueType);
-                  if (launchMonitorType) params.set("launchMonitorType", launchMonitorType);
-                  if (hardware) params.set("hardware", hardware);
-                  if (minPrice) params.set("minPrice", String(minPrice));
-                  if (maxPrice) params.set("maxPrice", String(maxPrice));
-                  if (kidFriendly) params.set("kidFriendly", "true");
-                  if (coaching) params.set("coaching", "true");
-                  if (food) params.set("food", "true");
-                  if (alcohol) params.set("alcohol", "true");
-                  if (wifi) params.set("wifi", "true");
-                  if (privateRooms) params.set("privateRooms", "true");
-                  if (parking) params.set("parking", parking);
-                  params.set("page", String(pageNumber));
-                  const href = `/search?${params.toString()}`;
-                  const isActive = pageNumber === page;
-                  return (
-                    <Link
-                      key={href}
-                      href={href}
-                      className={`min-w-[44px] min-h-[44px] flex items-center justify-center border text-sm transition-colors rounded-lg ${isActive ? "border-masters-green bg-masters-green/10 text-cream" : "border-default text-cream-subtle hover:border-masters-green hover:text-cream"}`}
-                    >
-                      {pageNumber}
-                    </Link>
-                  );
-                })}
-              </div>
-            )}
-          </section>
-        </SeoIndexSections>
+              {totalPages > 1 && (
+                <div className="flex items-center justify-center gap-3 mt-10">
+                  {Array.from({ length: totalPages }).map((_, index) => {
+                    const pageNumber = index + 1;
+                    const params = new URLSearchParams();
+                    if (query) params.set("q", query);
+                    if (city) params.set("city", city);
+                    if (state) params.set("state", state);
+                    if (venueType) params.set("venueType", venueType);
+                    if (launchMonitorType) params.set("launchMonitorType", launchMonitorType);
+                    if (hardware) params.set("hardware", hardware);
+                    if (minPrice) params.set("minPrice", String(minPrice));
+                    if (maxPrice) params.set("maxPrice", String(maxPrice));
+                    if (kidFriendly) params.set("kidFriendly", "true");
+                    if (coaching) params.set("coaching", "true");
+                    if (food) params.set("food", "true");
+                    if (alcohol) params.set("alcohol", "true");
+                    if (wifi) params.set("wifi", "true");
+                    if (privateRooms) params.set("privateRooms", "true");
+                    params.set("page", String(pageNumber));
+                    const href = `/search?${params.toString()}`;
+                    const isActive = pageNumber === page;
+                    return (
+                      <Link
+                        key={href}
+                        href={href}
+                        className={`min-w-[44px] min-h-[44px] flex items-center justify-center border text-sm transition-colors rounded-lg ${isActive ? "border-masters-green bg-masters-green/10 text-cream" : "border-default text-cream-subtle hover:border-masters-green hover:text-cream"}`}
+                      >
+                        {pageNumber}
+                      </Link>
+                    );
+                  })}
+                </div>
+              )}
+            </>
+          )}
+        </section>
       </div>
     </div>
   );

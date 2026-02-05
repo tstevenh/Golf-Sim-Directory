@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 
 export default async function ClaimPage() {
   const unverifiedVenues = await db.venue.findMany({
-    where: { status: "active", verified: false },
+    where: { status: "active", claimed: false },
     orderBy: [{ name: "asc" }],
     take: 12,
   });

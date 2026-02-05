@@ -14,7 +14,8 @@ import {
   LogIn,
   LogOut,
   LayoutDashboard,
-  ChevronRight
+  ChevronRight,
+  Trophy
 } from "lucide-react";
 
 export function Navbar() {
@@ -33,10 +34,10 @@ export function Navbar() {
 
   // Navigation links with icons for mobile
   const navLinks = [
-    { label: "Find Venues", href: "#search", icon: MapPin },
-    { label: "Compare Tech", href: "#compare", icon: BarChart3 },
-    { label: "Browse Cities", href: "#cities", icon: Building2 },
-    { label: "For Owners", href: "#business", icon: Briefcase },
+    { label: "Find Venues", href: "/venue/us", icon: MapPin },
+    { label: "Search", href: "/search", icon: Search },
+    { label: "Best By", href: "/best", icon: Trophy },
+    { label: "For Owners", href: "/submit", icon: Briefcase },
   ];
 
   // Close menu when clicking outside
@@ -93,7 +94,7 @@ export function Navbar() {
           {/* Desktop Actions */}
           <div className="hidden md:flex items-center gap-4">
             <Link
-              href="#search"
+              href="/search"
               className="p-2.5 text-muted hover:text-cream transition-colors rounded-lg hover:bg-slate/50"
               aria-label="Search"
             >
@@ -124,7 +125,7 @@ export function Navbar() {
                   Sign In
                 </Link>
                 <Link
-                  href="#business"
+                  href="/submit"
                   className="px-4 py-2.5 text-xs font-semibold uppercase tracking-wider border border-masters-green text-masters-green hover:bg-masters-green hover:text-deep-black transition-all rounded"
                 >
                   List Your Venue
@@ -185,16 +186,6 @@ export function Navbar() {
               {/* Divider */}
               <div className="my-6 border-t border-subtle" />
 
-              {/* Search */}
-              <Link
-                href="/search"
-                className="flex items-center gap-4 px-4 py-4 min-h-[56px] text-cream font-medium rounded-lg hover:bg-slate/50 active:bg-slate transition-colors mb-4"
-                onClick={() => setIsOpen(false)}
-              >
-                <Search className="w-5 h-5 text-masters-green" />
-                <span>Search Venues</span>
-              </Link>
-
               {/* Auth Section */}
               <div className="space-y-1">
                 {session?.user ? (
@@ -237,7 +228,7 @@ export function Navbar() {
 
               {/* CTA Button - Large touch target */}
               <Link
-                href="#business"
+                href="/submit"
                 className="flex items-center justify-center gap-2 px-6 py-4 min-h-[56px] bg-masters-green text-deep-black font-semibold rounded-lg hover:bg-masters-green/90 active:bg-masters-green/80 transition-colors"
                 onClick={() => setIsOpen(false)}
               >

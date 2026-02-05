@@ -66,7 +66,7 @@ export default async function CityBestHardwarePage({ params }: CityBestHardwareP
       state: stateAbbrev.toUpperCase(),
       country: "US",
       status: "active",
-      city: { not: { equals: cityFormatted, mode: "insensitive" } },
+      NOT: { city: { equals: cityFormatted, mode: "insensitive" } },
     },
     select: { city: true },
     distinct: ["city"],
