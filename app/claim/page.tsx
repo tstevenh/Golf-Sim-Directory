@@ -66,7 +66,7 @@ export default async function ClaimPage() {
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-masters-green font-mono">2.</span>
-                <span>Click "Claim this venue" on the listing page</span>
+                <span>Click &quot;Claim this venue&quot; on the listing page</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-masters-green font-mono">3.</span>
@@ -85,9 +85,9 @@ export default async function ClaimPage() {
         </div>
 
         <div className="border border-default bg-charcoal p-6 mb-12">
-          <h2 className="text-cream mb-4">Don't see your venue?</h2>
+          <h2 className="text-cream mb-4">Don&apos;t see your venue?</h2>
           <p className="text-muted mb-4">
-            If your venue isn't listed yet, submit it first. Once it's live, you can claim and verify it.
+            If your venue isn&apos;t listed yet, submit it first. Once it&apos;s live, you can claim and verify it.
           </p>
           <Link href="/submit" className="btn-primary inline-block">
             Submit a venue
@@ -98,7 +98,7 @@ export default async function ClaimPage() {
           <section>
             <h2 className="text-cream mb-6">Unclaimed venues</h2>
             <p className="text-muted mb-6">
-              These venues haven't been claimed yet. If you own one, click through to claim it.
+              These venues haven&apos;t been claimed yet. If you own one, click through to claim it.
             </p>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               {unverifiedVenues.map((venue) => (

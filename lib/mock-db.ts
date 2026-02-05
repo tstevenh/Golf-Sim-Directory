@@ -1,4 +1,5 @@
 // Mock database for development without a real database connection
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { Venue, User, Favorite, UserRole, VenueType, LaunchMonitorType, PricingModel, ParkingType, VenueStatus, VerificationLevel } from "@prisma/client";
 
 // Sample venues data
@@ -204,8 +205,10 @@ const mockVenues: Venue[] = [
 ];
 
 // Mock DB interface
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export const mockDb = {
   venue: {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     findMany: async ({ where, orderBy, take, skip, select, distinct }: any = {}) => {
       let results = [...mockVenues];
       
@@ -234,6 +237,7 @@ export const mockDb = {
       if (distinct) {
         const seen = new Set();
         results = results.filter(v => {
+          // eslint-disable-next-line @typescript-eslint/no-explicit-any
           const key = distinct.map((d: string) => (v as any)[d]).join("-");
           if (seen.has(key)) return false;
           seen.add(key);
@@ -256,6 +260,7 @@ export const mockDb = {
       }
       return null;
     },
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     count: async ({ where }: any = {}) => {
       let results = [...mockVenues];
       if (where?.status) {
@@ -263,6 +268,7 @@ export const mockDb = {
       }
       return results.length;
     },
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     groupBy: async ({ by, where, orderBy }: any) => {
       let results = [...mockVenues];
       if (where?.status) {
@@ -271,49 +277,61 @@ export const mockDb = {
       
       const groups = new Map();
       results.forEach(v => {
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
         const key = by.map((field: string) => (v as any)[field]).join("-");
         if (!groups.has(key)) {
+          // eslint-disable-next-line @typescript-eslint/no-explicit-any
           const group: any = { _count: { id: 0 } };
+          // eslint-disable-next-line @typescript-eslint/no-explicit-any
           by.forEach((field: string) => group[field] = (v as any)[field]);
           groups.set(key, group);
         }
         groups.get(key)._count.id++;
       });
       
+      // eslint-disable-next-line prefer-const
       let resultArray = Array.from(groups.values());
       
       // Sort by count desc if orderBy is specified
       if (orderBy?._count?.id === "desc") {
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
         resultArray.sort((a: any, b: any) => b._count.id - a._count.id);
       }
       
       return resultArray;
     },
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     update: async ({ where, data }: any) => {
       const venue = mockVenues.find(v => v.id === where.id);
       return { ...venue, ...data };
     },
   },
   favorite: {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any, @typescript-eslint/no-unused-vars
     findMany: async ({ where, include, orderBy }: any = {}) => {
       return [];
     },
     findUnique: async ({ where }: { where: { userId_venueId: { userId: string; venueId: string } } }) => {
       return null;
     },
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     create: async ({ data }: any) => ({ id: "new", ...data }),
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     delete: async ({ where }: any) => ({ id: where.id }),
   },
   user: {
     findUnique: async ({ where }: { where: { id?: string; email?: string } }) => {
       return null;
     },
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     update: async ({ where, data }: any) => ({ id: where.id, ...data }),
   },
   submission: {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     create: async ({ data }: any) => ({ id: "new", ...data }),
   },
   correctionReport: {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     create: async ({ data }: any) => ({ id: "new", ...data }),
   },
 };

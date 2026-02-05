@@ -1,7 +1,6 @@
 "use client";
 
-import { useState, useEffect, useRef } from "react";
-import Link from "next/link";
+import { useState, useEffect, useRef, useMemo } from "react";
 import { MapPin, ChevronDown, ArrowRight } from "lucide-react";
 
 const launchMonitors = [
@@ -41,7 +40,8 @@ function useCountUp(end: number, duration: number = 2000) {
     return () => observer.disconnect();
   }, [end, duration, hasStarted]);
 
-  return { count, ref };
+  // Return stable object to prevent re-renders
+  return useMemo(() => ({ count, ref }), [count]);
 }
 
 interface HeroSectionProps {
@@ -75,7 +75,7 @@ export function HeroSection({ totalVenues, totalStates }: HeroSectionProps) {
       <div className="absolute inset-0">
         <img
           src="/simulator-cinematic.jpg"
-          alt="Indoor golf simulator"
+          alt="Indoor golf simulator bay with launch monitor technology"
           className="w-full h-full object-cover"
         />
         <div
@@ -111,12 +111,12 @@ export function HeroSection({ totalVenues, totalStates }: HeroSectionProps) {
             <div className="w-12 h-px bg-masters-green" />
           </div>
 
-          {/* Main Headline */}
-          <div className="text-cream mb-6 text-5xl md:text-7xl lg:text-8xl font-bold tracking-tighter leading-[0.9]">
+          {/* Main Headline - H1 for SEO */}
+          <h1 className="text-cream mb-6 text-5xl md:text-7xl lg:text-8xl font-bold tracking-tighter leading-[0.9]">
             Find Your
             <br />
             <span className="text-masters-green">Perfect</span> Swing
-          </div>
+          </h1>
 
           <p className="text-lg md:text-xl text-muted mb-10 max-w-2xl mx-auto leading-relaxed">
             Discover over{" "}
@@ -172,18 +172,25 @@ export function HeroSection({ totalVenues, totalStates }: HeroSectionProps) {
           {/* Stats */}
           <div
             className="flex flex-wrap justify-center gap-4"
+            // eslint-disable-next-line react-hooks/refs
             ref={venuesCount.ref}
           >
             <div className="stat-cell">
               <span className="block text-3xl md:text-4xl font-mono font-bold text-cream">
+                {/* eslint-disable-next-line react-hooks/refs */}
                 {venuesCount.count.toLocaleString()}+
               </span>
               <span className="text-xs text-muted uppercase tracking-wider">
                 Venues
               </span>
             </div>
-            <div className="stat-cell">
+            <div 
+              className="stat-cell" 
+              // eslint-disable-next-line react-hooks/refs
+              ref={statesCount.ref}
+            >
               <span className="block text-3xl md:text-4xl font-mono font-bold text-cream">
+                {/* eslint-disable-next-line react-hooks/refs */}
                 {statesCount.count}
               </span>
               <span className="text-xs text-muted uppercase tracking-wider">

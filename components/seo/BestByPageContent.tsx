@@ -107,7 +107,7 @@ export function BestByPageContent({
                 </div>
                 <h3 className="text-cream text-lg font-semibold mb-2">No venues found</h3>
                 <p className="text-muted">
-                  No venues match this filter yet. Check back soon as we're constantly adding new locations.
+                  No venues match this filter yet. Check back soon as we&apos;re constantly adding new locations.
                 </p>
               </div>
             </div>
@@ -233,7 +233,7 @@ export function CityPageContent({
                 </div>
                 <h3 className="text-cream text-lg font-semibold mb-2">No venues in {city} yet</h3>
                 <p className="text-muted">
-                  We haven't added any golf simulator venues in {city} yet. Know one? Let us know!
+                  We haven&apos;t added any golf simulator venues in {city} yet. Know one? Let us know!
                 </p>
               </div>
             </div>

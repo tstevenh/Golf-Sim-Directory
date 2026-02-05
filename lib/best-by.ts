@@ -54,8 +54,10 @@ export function matchesAmenity(venue: Venue, amenity: string) {
     case "valet_parking":
       return venue.parking === "valet";
     case "full_bar":
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
       return Boolean((venue.foodAndDrink as any)?.alcohol);
     case "kitchen_food":
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
       return Boolean((venue.foodAndDrink as any)?.food);
     case "coaching_available":
       return !!venue.coachingAvailable;

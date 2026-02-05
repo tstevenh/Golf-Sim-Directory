@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import { LaunchMonitorType } from "@prisma/client";
 import { db } from "@/lib/db";
 import { BestByPageContent } from "@/components/seo/BestByPageContent";
 
@@ -62,7 +63,7 @@ export default async function BestLaunchMonitorPage({ params }: BestLaunchMonito
   const typeKey = type.toLowerCase();
 
   const venues = await db.venue.findMany({
-    where: { status: "active", launchMonitorType: type as any },
+    where: { status: "active", launchMonitorType: type as unknown as LaunchMonitorType },
     orderBy: [{ featured: "desc" }, { ratingOverall: "desc" }, { name: "asc" }],
   });
 

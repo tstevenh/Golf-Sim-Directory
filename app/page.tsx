@@ -9,9 +9,11 @@ import { BusinessCTA } from "@/components/home/BusinessCTA";
 
 export default async function HomePage() {
   // Fetch data with error handling for build time
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   let topVenues: any[] = [];
   let totalVenues = 0;
   let totalStates = 0;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   let citiesWithCounts: any[] = [];
 
   try {

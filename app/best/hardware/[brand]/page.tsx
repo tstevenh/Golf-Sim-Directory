@@ -2,7 +2,6 @@ import { Metadata } from "next";
 import { db } from "@/lib/db";
 import { BestByPageContent } from "@/components/seo/BestByPageContent";
 import { matchesHardware } from "@/lib/best-by";
-import { Monitor } from "lucide-react";
 
 interface BestHardwarePageProps {
   params: Promise<{ brand: string }>;

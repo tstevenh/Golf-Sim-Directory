@@ -1,8 +1,7 @@
 "use client";
 
 import { useState, useEffect, useRef } from "react";
-import Link from "next/link";
-import { MapPin, TrendingUp, ArrowRight } from "lucide-react";
+import { TrendingUp } from "lucide-react";
 import { CityCard, StateLink } from "@/components/location/LocationCards";
 
 interface City {

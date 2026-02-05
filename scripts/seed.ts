@@ -213,6 +213,7 @@ async function main() {
 
   for (const venue of sampleVenues) {
     await db.venue.create({
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
       data: venue as any,
     });
     console.log(`Created: ${venue.name}`);

@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import Link from "next/link";
 import { db } from "@/lib/db";
 import { VenueCard, VenueGrid } from "@/components/venue/VenueCard";
-import { Search, SlidersHorizontal, X } from "lucide-react";
+import { Search } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Search Golf Simulators | GolfSimMap",
@@ -64,7 +64,8 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
   const page = Math.max(1, Number(params.page || 1));
   const pageSize = 12;
 
-  const baseWhere: any = {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const baseWhere: Record<string, any> = {
     status: "active",
   };
 
@@ -293,7 +294,7 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
           ) : (
             <>
               <VenueGrid columns={3}>
-                {pagedVenues.map((venue, index) => (
+                {pagedVenues.map((venue) => (
                   <VenueCard
                     key={venue.id}
                     id={venue.id}
