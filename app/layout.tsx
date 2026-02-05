@@ -22,8 +22,48 @@ export const metadata: Metadata = {
     default: "GolfSimMap | Find Golf Simulators Near You",
     template: "%s | GolfSimMap",
   },
-  description: "Discover over 10,000 indoor golf simulator venues across the USA. Compare Trackman, Foresight, Uneekor systems and book your next session.",
+  description: "Discover indoor golf simulator venues across the USA. Compare Trackman, Foresight, Uneekor systems and book your next session.",
   keywords: ["golf simulators", "indoor golf", "screen golf", "Trackman", "Foresight", "Uneekor", "golf simulator near me"],
+  metadataBase: new URL("https://golfsimmap.com"),
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "https://golfsimmap.com",
+    siteName: "GolfSimMap",
+    title: "GolfSimMap | Find Golf Simulators Near You",
+    description: "Discover indoor golf simulator venues across the USA. Compare Trackman, Foresight, Uneekor systems and book your next session.",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "GolfSimMap - Find Golf Simulators Near You",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "GolfSimMap | Find Golf Simulators Near You",
+    description: "Discover indoor golf simulator venues across the USA. Compare Trackman, Foresight, Uneekor systems and book your next session.",
+    images: ["/og-image.jpg"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  verification: {
+    google: "your-google-verification-code", // Add when available
+  },
+  alternates: {
+    canonical: "https://golfsimmap.com",
+  },
 };
 
 export default function RootLayout({

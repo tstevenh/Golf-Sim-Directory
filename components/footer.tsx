@@ -4,39 +4,49 @@ import { Facebook, Twitter, Instagram, Youtube, Mail } from "lucide-react";
 const footerLinks = {
   discover: [
     { label: "Search Venues", href: "/search" },
-    { label: "Popular Cities", href: "/cities" },
-    { label: "By State", href: "/states" },
-    { label: "Launch Monitors", href: "/compare/launch-monitors" },
-    { label: "New Listings", href: "/new" },
+    { label: "Browse by State", href: "/venue/us" },
+    { label: "Best By Category", href: "/best" },
+    { label: "Submit Venue", href: "/submit" },
   ],
   forOwners: [
     { label: "Claim Listing", href: "/claim" },
     { label: "Business Dashboard", href: "/dashboard" },
-    { label: "Pricing", href: "/business/pricing" },
-    { label: "Success Stories", href: "/business/success-stories" },
-    { label: "Support", href: "/support" },
+    { label: "Submit Venue", href: "/submit" },
+    { label: "Support", href: "mailto:hello@golfsimmap.com" },
   ],
   company: [
     { label: "About Us", href: "/about" },
     { label: "Contact", href: "/contact" },
-    { label: "Careers", href: "/careers" },
-    { label: "Press", href: "/press" },
     { label: "Blog", href: "/blog" },
   ],
   legal: [
     { label: "Terms", href: "/terms" },
     { label: "Privacy", href: "/privacy" },
-    { label: "Cookies", href: "/cookies" },
   ],
 };
 
+// City + state mapping for proper URLs
 const topCities = [
-  "Chicago", "New York", "Los Angeles", "Houston", "Phoenix",
-  "Philadelphia", "San Antonio", "San Diego", "Dallas", "Austin",
-  "Jacksonville", "Columbus", "Charlotte", "Indianapolis", "Seattle",
+  { name: "Chicago", stateSlug: "illinois" },
+  { name: "New York", stateSlug: "new-york" },
+  { name: "Los Angeles", stateSlug: "california" },
+  { name: "Houston", stateSlug: "texas" },
+  { name: "Phoenix", stateSlug: "arizona" },
+  { name: "Philadelphia", stateSlug: "pennsylvania" },
+  { name: "San Antonio", stateSlug: "texas" },
+  { name: "San Diego", stateSlug: "california" },
+  { name: "Dallas", stateSlug: "texas" },
+  { name: "Austin", stateSlug: "texas" },
+  { name: "Jacksonville", stateSlug: "florida" },
+  { name: "Columbus", stateSlug: "ohio" },
+  { name: "Charlotte", stateSlug: "north-carolina" },
+  { name: "Indianapolis", stateSlug: "indiana" },
+  { name: "Seattle", stateSlug: "washington" },
 ];
 
 export function Footer() {
+  const currentYear = new Date().getFullYear();
+
   return (
     <footer className="bg-charcoal border-t border-subtle">
       {/* Main Footer */}
@@ -60,13 +70,13 @@ export function Footer() {
             
             {/* Contact */}
             <div className="space-y-2 mb-6">
-              <Link 
+              <a 
                 href="mailto:hello@golfsimmap.com" 
                 className="flex items-center gap-2 text-sm text-muted hover:text-cream transition-colors"
               >
                 <Mail className="w-4 h-4" />
                 hello@golfsimmap.com
-              </Link>
+              </a>
             </div>
 
             {/* Social Links */}
@@ -113,12 +123,21 @@ export function Footer() {
             <ul className="space-y-2">
               {footerLinks.forOwners.map((link) => (
                 <li key={link.href}>
-                  <Link 
-                    href={link.href}
-                    className="text-sm text-cream-subtle hover:text-cream transition-colors"
-                  >
-                    {link.label}
-                  </Link>
+                  {link.href.startsWith("mailto:") ? (
+                    <a 
+                      href={link.href}
+                      className="text-sm text-cream-subtle hover:text-cream transition-colors"
+                    >
+                      {link.label}
+                    </a>
+                  ) : (
+                    <Link 
+                      href={link.href}
+                      className="text-sm text-cream-subtle hover:text-cream transition-colors"
+                    >
+                      {link.label}
+                    </Link>
+                  )}
                 </li>
               ))}
             </ul>
@@ -163,11 +182,11 @@ export function Footer() {
           <div className="flex flex-wrap gap-x-4 gap-y-1">
             {topCities.map((city) => (
               <Link
-                key={city}
-                href={`/venue/us/${city.toLowerCase().replace(/\s+/g, "-")}`}
+                key={city.name}
+                href={`/venue/us/${city.stateSlug}/${city.name.toLowerCase().replace(/\s+/g, "-")}`}
                 className="text-xs text-muted hover:text-cream transition-colors"
               >
-                Golf Simulators in {city}
+                Golf Simulators in {city.name}
               </Link>
             ))}
           </div>
@@ -179,10 +198,10 @@ export function Footer() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
             <p className="text-xs text-muted">
-              © {new Date().getFullYear()} GolfSimMap. All rights reserved.
+              © {currentYear} GolfSimMap. All rights reserved.
             </p>
             <p className="text-xs text-muted">
-              Data updated daily from 10,000+ verified venues across the USA.
+              Data updated daily from verified venues across the USA.
             </p>
           </div>
         </div>
