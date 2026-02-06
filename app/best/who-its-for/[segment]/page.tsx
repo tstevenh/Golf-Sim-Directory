@@ -2,9 +2,11 @@ import { Metadata } from "next";
 import { db } from "@/lib/db";
 import { BestByPageContent } from "@/components/seo/BestByPageContent";
 import { matchesWhoItsFor } from "@/lib/best-by";
+import { VIBE_CATEGORIES, SEGMENT_CATEGORIES, HARDWARE_CATEGORIES } from "@/lib/best-by-config";
 
 interface BestWhoItsForPageProps {
   params: Promise<{ segment: string }>;
+  searchParams?: Promise<Record<string, string | string[] | undefined>>;
 }
 
 export const revalidate = 60;
@@ -65,7 +67,9 @@ export async function generateMetadata({ params }: BestWhoItsForPageProps): Prom
   };
 }
 
-export default async function BestWhoItsForPage({ params }: BestWhoItsForPageProps) {
+export default async function BestWhoItsForPage({ params, searchParams }: BestWhoItsForPageProps) {
+  const paramsResolved = (await searchParams) || {};
+  const page = Math.max(1, Number(paramsResolved.page || 1));
   const { segment } = await params;
   const label = segment.replace(/_/g, " ").replace(/-/g, " ").replace(/\b\w/g, l => l.toUpperCase());
   const segmentKey = segment.toLowerCase();
@@ -108,14 +112,26 @@ export default async function BestWhoItsForPage({ params }: BestWhoItsForPagePro
     },
   ];
 
+  // Generate related links from shared config
   const relatedLinks = [
-    { label: "Families", href: "/best/who-its-for/families" },
-    { label: "Beginners", href: "/best/who-its-for/beginners" },
-    { label: "Serious golfers", href: "/best/who-its-for/serious" },
-    { label: "Groups & parties", href: "/best/who-its-for/groups" },
-    { label: "Couples", href: "/best/who-its-for/couples" },
-    { label: "Corporate events", href: "/best/who-its-for/corporate" },
-  ].filter(link => !link.href.includes(segment));
+    // Link to all segments
+    { label: "All occasions", href: "/best/who-its-for/" },
+    // Other segments (excluding current)
+    ...SEGMENT_CATEGORIES.filter((s) => s.slug !== segment).slice(0, 2).map((s) => ({
+      label: `Best for ${s.label}`,
+      href: `/best/who-its-for/${s.slug}`,
+    })),
+    // Vibes
+    ...VIBE_CATEGORIES.slice(0, 2).map((v) => ({
+      label: `Best ${v.label}`,
+      href: `/best/vibe/${v.slug}`,
+    })),
+    // Hardware
+    ...HARDWARE_CATEGORIES.slice(0, 2).map((h) => ({
+      label: `Best ${h.label}`,
+      href: `/best/hardware/${h.slug}`,
+    })),
+  ];
 
   return (
     <BestByPageContent
@@ -140,6 +156,8 @@ export default async function BestWhoItsForPage({ params }: BestWhoItsForPagePro
       heroSubtitle={content.tagline}
       breadcrumbItems={breadcrumbs}
       showRanking={true}
+      currentPage={page}
+      baseUrl={`/best/who-its-for/${segment}`}
     />
   );
 }

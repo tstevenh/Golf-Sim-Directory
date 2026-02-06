@@ -13,7 +13,8 @@ import {
   LogOut,
   LayoutDashboard,
   ChevronRight,
-  Trophy
+  Trophy,
+  Target
 } from "lucide-react";
 
 export function Navbar() {
@@ -35,6 +36,7 @@ export function Navbar() {
     { label: "Find Venues", href: "/venue/us", icon: MapPin },
     { label: "Search", href: "/search", icon: Search },
     { label: "Best By", href: "/best", icon: Trophy },
+    { label: "Launch Monitors", href: "/launch-monitors", icon: Target },
     { label: "For Owners", href: "/submit", icon: Briefcase },
   ];
 

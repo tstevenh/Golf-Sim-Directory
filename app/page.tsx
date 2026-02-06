@@ -1,5 +1,5 @@
 import { db } from "@/lib/db";
-import { getStateNameFromAbbrev } from "@/lib/states";
+import { getStateNameFromAbbrev, getStateDisplayName } from "@/lib/states";
 import { HeroSection } from "@/components/home/HeroSection";
 import { HowItWorks } from "@/components/home/HowItWorks";
 import { FeaturedVenues } from "@/components/home/FeaturedVenues";
@@ -15,6 +15,8 @@ export default async function HomePage() {
   let totalStates = 0;
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   let citiesWithCounts: any[] = [];
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  let statesWithCounts: any[] = [];
 
   try {
     // Fetch featured venues from database
@@ -44,12 +46,23 @@ export default async function HomePage() {
     // Get total venue count for stats
     totalVenues = await db.venue.count({ where: { status: "active" } });
 
-    // Get unique states count
+    // Get states with venue counts
     const statesResult = await db.venue.groupBy({
       by: ["state"],
       where: { status: "active" },
+      _count: { id: true },
     });
     totalStates = statesResult.length;
+
+    // Sort states by venue count and format
+    statesWithCounts = statesResult
+      .sort((a, b) => b._count.id - a._count.id)
+      .map((s) => ({
+        code: s.state.toLowerCase(),
+        name: getStateDisplayName(s.state),
+        slug: getStateNameFromAbbrev(s.state.toLowerCase()) || s.state.toLowerCase(),
+        count: s._count.id,
+      }));
 
     // Get cities with venue counts for popular cities section
     const citiesResult = await db.venue.groupBy({
@@ -58,16 +71,14 @@ export default async function HomePage() {
       _count: { id: true },
     });
     // Sort and limit in memory since take doesn't work with groupBy
-    citiesWithCounts = citiesResult
-      .sort((a, b) => b._count.id - a._count.id)
-      .slice(0, 12);
+    citiesWithCounts = citiesResult.sort((a, b) => b._count.id - a._count.id);
   } catch (error) {
     console.error("Database error during build:", error);
     // Return empty data - page will show fallback UI
   }
 
-  // Transform cities data
-  const popularCities = citiesWithCounts.map((city) => ({
+  // Transform cities data - top 12 for the section, top 30 for footer
+  const popularCities = citiesWithCounts.slice(0, 12).map((city) => ({
     name: city.city,
     stateCode: city.state.toLowerCase(),
     stateSlug: getStateNameFromAbbrev(city.state.toLowerCase()) || city.state.toLowerCase(),
@@ -96,13 +107,13 @@ export default async function HomePage() {
   }));
 
   return (
-    <main className="min-h-screen bg-deep-black">
+    <div className="min-h-screen bg-deep-black -mt-16 md:-mt-20">
       <HeroSection totalVenues={totalVenues} totalStates={totalStates} />
       <HowItWorks />
       <FeaturedVenues venues={featuredVenues} />
       <LaunchMonitorComparison />
-      <PopularCities cities={popularCities} />
+      <PopularCities cities={popularCities} states={statesWithCounts.slice(0, 10)} />
       <BusinessCTA />
-    </main>
+    </div>
   );
 }

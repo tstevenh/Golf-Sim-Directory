@@ -4,7 +4,12 @@ import { db } from "@/lib/db";
 import { MapPin } from "lucide-react";
 import { VenueCard, VenueGrid } from "@/components/venue/VenueCard";
 import { CitySchema } from "@/components/seo/CitySchema";
+import { Pagination } from "@/components/ui/Pagination";
+import { CityCategoryLinks } from "@/components/seo/CityCategoryLinks";
+import { SeoIndexSections } from "@/components/seo/SeoIndexSections";
 import { getStateDisplayName, getStateAbbrevFromName } from "@/lib/states";
+import { getCityCategoryBrowseLinksWithCounts } from "@/lib/best-by-data";
+import { getCityVibeIndexUrl, getCityWhoItsForIndexUrl, getCityHardwareIndexUrl } from "@/lib/best-by-config";
 
 interface CityPageProps {
   params: Promise<{
@@ -21,7 +26,9 @@ export async function generateMetadata({ params }: CityPageProps): Promise<Metad
     const { state, city } = await params;
     const stateAbbrev = getStateAbbrevFromName(state) || state.toUpperCase();
     const stateName = getStateDisplayName(stateAbbrev);
-    const cityFormatted = city.replace(/-/g, " ");
+    const cityFormatted = city
+      .replace(/-/g, " ")
+      .replace(/\b\w/g, (l) => l.toUpperCase());
 
     const venueCount = await db.venue.count({
       where: {
@@ -61,13 +68,15 @@ export default async function CityPage({ params, searchParams }: CityPageProps) 
     const query = await searchParams;
     const stateAbbrev = getStateAbbrevFromName(state) || state.toUpperCase();
     const stateName = getStateDisplayName(stateAbbrev);
-    const cityFormatted = city.replace(/-/g, " ");
+    const cityFormatted = city
+      .replace(/-/g, " ")
+      .replace(/\b\w/g, (l) => l.toUpperCase());
 
     const page = Math.max(1, Number(query?.page || 1));
     const pageSize = 12;
     const skip = (page - 1) * pageSize;
 
-    const [venues, totalVenues, nearbyCitiesResult] = await Promise.all([
+    const [venues, totalVenues, nearbyCitiesResult, categoryLinks] = await Promise.all([
       db.venue.findMany({
         where: {
           city: { equals: cityFormatted, mode: "insensitive" },
@@ -98,6 +107,7 @@ export default async function CityPage({ params, searchParams }: CityPageProps) 
         distinct: ["city"],
         take: 6,
       }),
+      getCityCategoryBrowseLinksWithCounts(state, cityFormatted),
     ]);
 
     if (totalVenues === 0) {
@@ -118,6 +128,22 @@ export default async function CityPage({ params, searchParams }: CityPageProps) 
 
     const totalPages = Math.ceil(totalVenues / pageSize);
     const nearbyCities = nearbyCitiesResult.map((c) => c.city);
+
+    // Build related links from categories
+    const relatedLinks = [
+      ...categoryLinks.vibes.slice(0, 2).map(v => ({ label: `Best ${v.label}`, href: v.href })),
+      ...categoryLinks.segments.slice(0, 2).map(s => ({ label: `Best for ${s.label}`, href: s.href })),
+      ...categoryLinks.hardware.slice(0, 2).map(h => ({ label: `Best ${h.label}`, href: h.href })),
+      { label: "Browse by Vibe", href: getCityVibeIndexUrl(state, cityFormatted) },
+      { label: "Browse by Occasion", href: getCityWhoItsForIndexUrl(state, cityFormatted) },
+      { label: "Browse by Technology", href: getCityHardwareIndexUrl(state, cityFormatted) },
+    ];
+
+    // Build nearby city links
+    const nearbyLinks = nearbyCities.map((cityName) => ({
+      label: cityName,
+      href: `/venue/us/${state}/${cityName.toLowerCase().replace(/\s+/g, "-")}`,
+    }));
 
     return (
       <div className="min-h-screen bg-deep-black py-12">
@@ -189,42 +215,72 @@ export default async function CityPage({ params, searchParams }: CityPageProps) 
             </VenueGrid>
 
             {totalPages > 1 && (
-              <div className="flex items-center justify-center gap-3 mt-10">
-                {Array.from({ length: totalPages }).map((_, index) => {
-                  const pageNumber = index + 1;
-                  const href = `/venue/us/${state}/${city}?page=${pageNumber}`;
-                  const isActive = pageNumber === page;
-                  return (
-                    <Link
-                      key={href}
-                      href={href}
-                      className={`min-w-[44px] min-h-[44px] flex items-center justify-center border text-sm transition-colors rounded-lg ${isActive ? "border-masters-green bg-masters-green/10 text-cream" : "border-default text-cream-subtle hover:border-masters-green hover:text-cream"}`}
-                    >
-                      {pageNumber}
-                    </Link>
-                  );
-                })}
-              </div>
+              <Pagination
+                currentPage={page}
+                totalPages={totalPages}
+                baseUrl={`/venue/us/${state}/${city}`}
+              />
             )}
           </section>
 
-          {/* Nearby Cities */}
-          {nearbyCities.length > 0 && (
-            <div className="mt-12 pt-8 border-t border-default">
-              <h2 className="text-cream mb-4">Nearby Cities in {stateName}</h2>
-              <div className="flex flex-wrap gap-2">
-                {nearbyCities.map((cityName) => (
-                  <Link
-                    key={cityName}
-                    href={`/venue/us/${state}/${cityName.toLowerCase().replace(/\s+/g, "-")}`}
-                    className="px-4 py-2 border border-default text-cream-subtle hover:border-masters-green hover:text-cream transition-colors"
-                  >
-                    {cityName}
-                  </Link>
-                ))}
-              </div>
-            </div>
-          )}
+          {/* Browse by Category */}
+          <div className="mt-12">
+            <CityCategoryLinks
+              state={state}
+              city={cityFormatted}
+              {...categoryLinks}
+            />
+          </div>
+
+          {/* SEO Content using existing SeoIndexSections */}
+          <div className="mt-12">
+            <SeoIndexSections
+              introTitle={`What to Expect from Golf Simulators in ${cityFormatted}`}
+              introDescription={`${cityFormatted} offers ${totalVenues} indoor golf simulator venues for golfers looking to practice, play, or entertain. These venues range from high-end training facilities with professional-grade launch monitors to casual entertainment spots perfect for groups and parties. Most simulator venues feature advanced technology like TrackMan, Foresight, or SkyTrak, providing accurate ball flight data and realistic course simulations. Whether you're a serious golfer looking to work on your game during the off-season, or a beginner wanting to learn in a relaxed environment, ${cityFormatted}'s golf simulator venues have something for everyone.`}
+              guidanceTitle="What to Look for in a Simulator Venue"
+              guidancePoints={[
+                "Launch monitor quality - Look for TrackMan, Foresight, or other professional-grade systems for accurate data",
+                "Space and bay size - Ensure the venue has enough room for your swing and comfort",
+                "Food and beverage options - Many venues offer full bars and restaurants for a complete experience",
+                "Booking flexibility - Check for online booking, membership options, and peak hour availability",
+                "Group accommodations - If planning events, look for multiple bays and private rooms",
+              ]}
+              methodologyTitle="How We Evaluate Venues"
+              methodologyDescription="Our rankings combine verified user reviews, on-site assessments, and direct venue data. We evaluate launch monitor accuracy, facility quality, cleanliness, staff knowledge, and overall value. Venues are regularly re-evaluated to ensure our recommendations remain current and accurate."
+              faqTitle={`Frequently Asked Questions about ${cityFormatted} Golf Simulators`}
+              faqItems={[
+                {
+                  question: `How much does it cost to use a golf simulator in ${cityFormatted}?`,
+                  answer: `Golf simulator pricing in ${cityFormatted} typically ranges from $30-$60 per hour for standard bays, with premium venues charging $60-$100+ per hour. Many locations offer per-person rates, group packages, or membership options that can reduce the cost per session.`,
+                },
+                {
+                  question: "Do I need to bring my own clubs?",
+                  answer: "Most golf simulator venues allow you to bring your own clubs, and many golfers prefer to use their own equipment for accuracy. However, some venues also offer club rentals if you're traveling or want to try different equipment.",
+                },
+                {
+                  question: "Are golf simulators good for beginners?",
+                  answer: "Yes! Many venues are very beginner-friendly. Simulators provide a relaxed environment to learn without the pressure of a traditional golf course. The immediate feedback from launch monitors can help beginners improve quickly.",
+                },
+                {
+                  question: `Can I book a golf simulator for a corporate event in ${cityFormatted}?`,
+                  answer: `Absolutely. Many ${cityFormatted} golf simulator venues specialize in group events and corporate outings. They often offer multiple bay rentals, food and beverage packages, and tournament formats.`,
+                },
+              ]}
+              nearbyTitle={`Other Cities in ${stateName}`}
+              nearbyLinks={nearbyLinks}
+              relatedTitle="Browse by Category"
+              relatedLinks={relatedLinks}
+              ctaTitle="Own a Golf Simulator Venue?"
+              ctaDescription="Get your venue listed on GolfSimMap and reach more golfers searching for simulator experiences in your area."
+              ctaPrimary={{ label: "List Your Venue", href: "/list-venue" }}
+              ctaSecondary={{ label: "Learn More", href: "/about" }}
+              venueCount={totalVenues}
+              showStats={true}
+            >
+              {/* Empty children - venue grid is already shown above */}
+              <></>
+            </SeoIndexSections>
+          </div>
 
           {/* Back to state */}
           <div className="mt-12 text-center">

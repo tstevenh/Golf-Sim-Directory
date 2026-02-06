@@ -16,6 +16,10 @@ enum VenueType {
   country_club
   multi_sport_sim
   hotel_resort
+  indoor_golf_center
+  entertainment_venue
+  golf_performance_center
+  bar
   other
 }
 

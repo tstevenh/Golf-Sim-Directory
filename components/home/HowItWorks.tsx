@@ -116,36 +116,7 @@ export function HowItWorks() {
           ))}
         </div>
 
-        <div
-          className={`mt-16 flex flex-wrap justify-center gap-8 md:gap-16 transition-all duration-700 delay-500 ${
-            isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
-          }`}
-        >
-          <div className="text-center">
-            <span className="block text-3xl font-mono font-bold text-cream mb-1">
-              2.4M
-            </span>
-            <span className="text-xs text-muted uppercase tracking-wider">
-              Searches Monthly
-            </span>
-          </div>
-          <div className="text-center">
-            <span className="block text-3xl font-mono font-bold text-cream mb-1">
-              94%
-            </span>
-            <span className="text-xs text-muted uppercase tracking-wider">
-              Booking Success
-            </span>
-          </div>
-          <div className="text-center">
-            <span className="block text-3xl font-mono font-bold text-cream mb-1">
-              4.7
-            </span>
-            <span className="text-xs text-muted uppercase tracking-wider">
-              Average Rating
-            </span>
-          </div>
-        </div>
+
       </div>
     </section>
   );

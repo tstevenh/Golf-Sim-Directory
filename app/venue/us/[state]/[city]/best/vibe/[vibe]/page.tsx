@@ -3,9 +3,11 @@ import { db } from "@/lib/db";
 import { BestByPageContent } from "@/components/seo/BestByPageContent";
 import { matchesVibe } from "@/lib/best-by";
 import { getStateDisplayName, getStateAbbrevFromName } from "@/lib/states";
+import { getCityBestByLinks } from "@/lib/best-by-config";
 
 interface CityBestVibePageProps {
   params: Promise<{ state: string; city: string; vibe: string }>;
+  searchParams?: Promise<Record<string, string | string[] | undefined>>;
 }
 
 export const revalidate = 60;
@@ -50,8 +52,8 @@ export async function generateMetadata({ params }: CityBestVibePageProps): Promi
   const { state, city, vibe } = await params;
   const stateAbbrev = getStateAbbrevFromName(state) || state.toUpperCase();
   const stateName = getStateDisplayName(stateAbbrev);
-  const cityFormatted = city.replace(/-/g, " ");
-  const vibeLabel = vibe.replace(/_/g, " ").replace(/-/g, " ");
+  const cityFormatted = city.replace(/-/g, " ").replace(/\b\w/g, l => l.toUpperCase());
+  const vibeLabel = vibe.replace(/_/g, " ").replace(/-/g, " ").replace(/\b\w/g, l => l.toUpperCase());
   const vibeDesc = vibeDescriptions[vibe.toLowerCase()] || { tagline: "", description: "" };
 
   return {
@@ -65,7 +67,9 @@ export async function generateMetadata({ params }: CityBestVibePageProps): Promi
   };
 }
 
-export default async function CityBestVibePage({ params }: CityBestVibePageProps) {
+export default async function CityBestVibePage({ params, searchParams }: CityBestVibePageProps) {
+  const paramsResolved = (await searchParams) || {};
+  const page = Math.max(1, Number(paramsResolved.page || 1));
   const { state, city, vibe } = await params;
   const stateAbbrev = getStateAbbrevFromName(state) || state.toUpperCase();
   const stateName = getStateDisplayName(stateAbbrev);
@@ -134,14 +138,21 @@ export default async function CityBestVibePage({ params }: CityBestVibePageProps
     },
   ];
 
+  // Get diverse cross-links to other best-by categories in this city
+  const allCategoryLinks = getCityBestByLinks(state, cityFormatted, `vibe-${vibe}`);
   const relatedLinks = [
     { label: `All venues in ${cityFormatted}`, href: `/venue/us/${state}/${city}` },
-    { label: `Upscale vibes`, href: `/venue/us/${state}/${city}/best/vibe/upscale` },
-    { label: `Casual spots`, href: `/venue/us/${state}/${city}/best/vibe/casual` },
-    { label: `Sports bars`, href: `/venue/us/${state}/${city}/best/vibe/sports-bar` },
-    { label: `Date night spots`, href: `/venue/us/${state}/${city}/best/date-night` },
-    { label: `Family friendly`, href: `/venue/us/${state}/${city}/best/family-friendly` },
-  ].filter(link => !link.href.endsWith(`/best/vibe/${vibe}`));
+    // Pick 4 diverse categories: 2 vibes, 1 segment, 1 hardware
+    ...allCategoryLinks
+      .filter((l) => l.category === "vibe")
+      .slice(0, 2),
+    ...allCategoryLinks
+      .filter((l) => l.category === "segment")
+      .slice(0, 1),
+    ...allCategoryLinks
+      .filter((l) => l.category === "hardware")
+      .slice(0, 1),
+  ];
 
   return (
     <BestByPageContent
@@ -168,6 +179,8 @@ export default async function CityBestVibePage({ params }: CityBestVibePageProps
       heroSubtitle={vibeDesc.tagline}
       breadcrumbItems={breadcrumbs}
       showRanking={true}
+      currentPage={page}
+      baseUrl={`/venue/us/${state}/${city}/best/vibe/${vibe}`}
     />
   );
 }

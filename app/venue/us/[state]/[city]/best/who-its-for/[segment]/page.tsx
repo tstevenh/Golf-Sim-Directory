@@ -3,9 +3,11 @@ import { db } from "@/lib/db";
 import { BestByPageContent } from "@/components/seo/BestByPageContent";
 import { matchesWhoItsFor } from "@/lib/best-by";
 import { getStateDisplayName, getStateAbbrevFromName } from "@/lib/states";
+import { getCityBestByLinks } from "@/lib/best-by-config";
 
 interface CityBestWhoItsForPageProps {
   params: Promise<{ state: string; city: string; segment: string }>;
+  searchParams?: Promise<Record<string, string | string[] | undefined>>;
 }
 
 export const revalidate = 60;
@@ -54,8 +56,8 @@ export async function generateMetadata({ params }: CityBestWhoItsForPageProps): 
   const { state, city, segment } = await params;
   const stateAbbrev = getStateAbbrevFromName(state) || state.toUpperCase();
   const stateName = getStateDisplayName(stateAbbrev);
-  const cityFormatted = city.replace(/-/g, " ");
-  const segmentLabel = segment.replace(/_/g, " ");
+  const cityFormatted = city.replace(/-/g, " ").replace(/\b\w/g, l => l.toUpperCase());
+  const segmentLabel = segment.replace(/_/g, " ").replace(/\b\w/g, l => l.toUpperCase());
   const segmentDesc = segmentDescriptions[segment.toLowerCase()] || { tagline: "", description: "" };
 
   return {
@@ -69,7 +71,9 @@ export async function generateMetadata({ params }: CityBestWhoItsForPageProps): 
   };
 }
 
-export default async function CityBestWhoItsForPage({ params }: CityBestWhoItsForPageProps) {
+export default async function CityBestWhoItsForPage({ params, searchParams }: CityBestWhoItsForPageProps) {
+  const paramsResolved = (await searchParams) || {};
+  const page = Math.max(1, Number(paramsResolved.page || 1));
   const { state, city, segment } = await params;
   const stateAbbrev = getStateAbbrevFromName(state) || state.toUpperCase();
   const stateName = getStateDisplayName(stateAbbrev);
@@ -136,14 +140,19 @@ export default async function CityBestWhoItsForPage({ params }: CityBestWhoItsFo
     },
   ];
 
+  // Get diverse cross-links to other best-by categories in this city
+  const allCategoryLinks = getCityBestByLinks(state, cityFormatted, `segment-${segment}`);
   const relatedLinks = [
     { label: `All venues in ${cityFormatted}`, href: `/venue/us/${state}/${city}` },
-    { label: `Families`, href: `/venue/us/${state}/${city}/best/who-its-for/families` },
-    { label: `Beginners`, href: `/venue/us/${state}/${city}/best/who-its-for/beginners` },
-    { label: `Serious golfers`, href: `/venue/us/${state}/${city}/best/who-its-for/serious` },
-    { label: `Groups & parties`, href: `/venue/us/${state}/${city}/best/who-its-for/groups` },
-    { label: `For ${segmentLabel} (national)`, href: `/best/who-its-for/${segment}` },
-  ].filter(link => !link.href.endsWith(`/best/who-its-for/${segment}`));
+    { label: `For ${segmentLabel} (nationwide)`, href: `/best/who-its-for/${segment}` },
+    // Pick 3 diverse categories: 2 other segments, 1 vibe
+    ...allCategoryLinks
+      .filter((l) => l.category === "segment")
+      .slice(0, 2),
+    ...allCategoryLinks
+      .filter((l) => l.category === "vibe")
+      .slice(0, 1),
+  ];
 
   return (
     <BestByPageContent
@@ -169,6 +178,8 @@ export default async function CityBestWhoItsForPage({ params }: CityBestWhoItsFo
       heroSubtitle={segmentDesc.tagline}
       breadcrumbItems={breadcrumbs}
       showRanking={true}
+      currentPage={page}
+      baseUrl={`/venue/us/${state}/${city}/best/who-its-for/${segment}`}
     />
   );
 }

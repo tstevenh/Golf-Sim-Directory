@@ -28,7 +28,7 @@ export default function AboutPage() {
 
           <h2 className="text-cream text-xl mt-8 mb-4">What We Do</h2>
           <p className="text-muted mb-4">
-            We track thousands of indoor golf venues, from simulator bars with full food and drink service 
+            We track indoor golf venues across the USA, from simulator bars with full food and drink service 
             to serious training facilities with professional-grade launch monitors. Whether you&apos;re looking 
             for a fun night out or dedicated practice time, we help you find the right spot.
           </p>

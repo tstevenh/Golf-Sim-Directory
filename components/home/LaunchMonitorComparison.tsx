@@ -286,17 +286,20 @@ export function LaunchMonitorComparison() {
 
                 <div className="flex items-center gap-4 pt-6 border-t border-subtle">
                   <Link
-                    href={`/compare/launch-monitors/${activeMonitor.code.toLowerCase()}`}
+                    href={`/launch-monitors/${
+                      activeMonitor.code === "TM" ? "trackman-4" : 
+                      activeMonitor.code === "FS" ? "gcquad" : "uneekor-eyexo"
+                    }`}
                     className="btn-primary"
                   >
                     <span>Full Review</span>
                     <ArrowRight className="w-4 h-4" />
                   </Link>
                   <Link
-                    href={`/search?system=${activeMonitor.code.toLowerCase()}`}
+                    href="/launch-monitors"
                     className="btn-outline"
                   >
-                    <span>Find Venues</span>
+                    <span>Compare All</span>
                     <TrendingUp className="w-4 h-4" />
                   </Link>
                 </div>
@@ -310,34 +313,35 @@ export function LaunchMonitorComparison() {
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
           }`}
         >
-          <div className="p-5 border border-subtle">
+          <Link href="/launch-monitors" className="block p-5 border border-subtle hover:border-masters-green/50 hover:bg-masters-green/5 transition-all">
             <Zap className="w-5 h-5 text-masters-green mb-3" />
             <span className="text-cream font-semibold block mb-1">
               Radar Systems
             </span>
             <span className="text-sm text-muted">
               Track full ball flight. Best for outdoor use and maximum
-              accuracy.
+              accuracy. Learn more →
             </span>
-          </div>
-          <div className="p-5 border border-subtle">
+          </Link>
+          <Link href="/launch-monitors" className="block p-5 border border-subtle hover:border-masters-green/50 hover:bg-masters-green/5 transition-all">
             <Target className="w-5 h-5 text-masters-green mb-3" />
             <span className="text-cream font-semibold block mb-1">
               Camera Systems
             </span>
             <span className="text-sm text-muted">
               Capture impact data with precision. Ideal for indoor simulators.
+              Learn more →
             </span>
-          </div>
-          <div className="p-5 border border-subtle">
+          </Link>
+          <Link href="/launch-monitors" className="block p-5 border border-subtle hover:border-masters-green/50 hover:bg-masters-green/5 transition-all">
             <TrendingUp className="w-5 h-5 text-masters-green mb-3" />
             <span className="text-cream font-semibold block mb-1">
               Which to Choose?
             </span>
             <span className="text-sm text-muted">
-              Consider your space, budget, and primary use case.
+              Compare all systems and find the right fit for your space and budget →
             </span>
-          </div>
+          </Link>
         </div>
       </div>
     </section>

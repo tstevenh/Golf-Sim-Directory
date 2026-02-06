@@ -82,7 +82,9 @@ export default async function VenuePage({ params }: VenuePageProps) {
     const { state, city, venueSlug } = await params;
     const stateAbbrev = getStateAbbrevFromName(state) || state.toUpperCase();
     const stateName = getStateDisplayName(stateAbbrev);
-    const cityFormatted = city.replace(/-/g, " ");
+    const cityFormatted = city
+      .replace(/-/g, " ")
+      .replace(/\b\w/g, (l) => l.toUpperCase());
 
     const venue = await db.venue.findUnique({
       where: { slug: venueSlug },
@@ -91,6 +93,40 @@ export default async function VenuePage({ params }: VenuePageProps) {
     if (!venue || venue.status !== "active") {
       notFound();
     }
+
+    // Fetch nearby venues (same state, excluding current)
+    const nearbyVenues = await db.venue.findMany({
+      where: {
+        state: venue.state,
+        id: { not: venue.id },
+        status: "active",
+      },
+      orderBy: [{ featured: "desc" }, { ratingOverall: "desc" }],
+      take: 4,
+      select: {
+        id: true,
+        name: true,
+        slug: true,
+        city: true,
+        state: true,
+        heroImage: true,
+        venueType: true,
+        simulatorSystems: true,
+        launchMonitorType: true,
+        priceRangeMin: true,
+        priceRangeMax: true,
+        ratingOverall: true,
+        featured: true,
+        tags: true,
+      },
+    });
+
+    // Cast nearby venues to match VenueCard props
+    const nearbyVenuesFormatted = nearbyVenues.map((v) => ({
+      ...v,
+      simulatorSystems: v.simulatorSystems as string[] | null,
+      tags: v.tags as string[] | null,
+    }));
 
     const session = await auth();
 
@@ -133,7 +169,12 @@ export default async function VenuePage({ params }: VenuePageProps) {
           </div>
         </div>
 
-        <VenueDetail venue={venue} isFavorited={isFavorited} user={sessionUser} />
+        <VenueDetail 
+          venue={venue} 
+          isFavorited={isFavorited} 
+          user={sessionUser}
+          nearbyVenues={nearbyVenuesFormatted}
+        />
       </div>
     );
   } catch {

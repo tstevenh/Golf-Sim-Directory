@@ -81,7 +81,7 @@ export default function RootLayout({
       >
         <AuthProvider>
           <Navbar />
-          <main className="flex-1 relative">
+          <main className="flex-1 relative pt-16 md:pt-20">
             {children}
           </main>
           <Footer />

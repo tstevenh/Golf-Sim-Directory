@@ -2,9 +2,11 @@ import { Metadata } from "next";
 import { db } from "@/lib/db";
 import { BestByPageContent } from "@/components/seo/BestByPageContent";
 import { matchesAmenity } from "@/lib/best-by";
+import { VIBE_CATEGORIES, SEGMENT_CATEGORIES, HARDWARE_CATEGORIES } from "@/lib/best-by-config";
 
 interface BestAmenityPageProps {
   params: Promise<{ amenity: string }>;
+  searchParams?: Promise<Record<string, string | string[] | undefined>>;
 }
 
 export const revalidate = 60;
@@ -81,7 +83,9 @@ export async function generateMetadata({ params }: BestAmenityPageProps): Promis
   };
 }
 
-export default async function BestAmenityPage({ params }: BestAmenityPageProps) {
+export default async function BestAmenityPage({ params, searchParams }: BestAmenityPageProps) {
+  const paramsResolved = (await searchParams) || {};
+  const page = Math.max(1, Number(paramsResolved.page || 1));
   const { amenity } = await params;
   const label = amenity.replace(/_/g, " ").replace(/-/g, " ").replace(/\b\w/g, l => l.toUpperCase());
   const amenityKey = amenity.toLowerCase();
@@ -124,14 +128,26 @@ export default async function BestAmenityPage({ params }: BestAmenityPageProps) 
     },
   ];
 
+  // Generate related links from shared config
   const relatedLinks = [
-    { label: "Private rooms", href: "/best/amenities/private-rooms" },
-    { label: "Food service", href: "/best/amenities/food" },
-    { label: "Bar service", href: "/best/amenities/alcohol" },
-    { label: "Lessons available", href: "/best/amenities/lessons" },
-    { label: "Club fitting", href: "/best/amenities/club-fitting" },
-    { label: "WiFi", href: "/best/amenities/wifi" },
-  ].filter(link => !link.href.includes(amenity.replace(/_/g, "-")));
+    // Link to browse all
+    { label: "Browse all categories", href: "/best" },
+    // Vibes
+    ...VIBE_CATEGORIES.slice(0, 2).map((v) => ({
+      label: `Best ${v.label}`,
+      href: `/best/vibe/${v.slug}`,
+    })),
+    // Segments
+    ...SEGMENT_CATEGORIES.slice(0, 2).map((s) => ({
+      label: `Best for ${s.label}`,
+      href: `/best/who-its-for/${s.slug}`,
+    })),
+    // Hardware
+    ...HARDWARE_CATEGORIES.slice(0, 2).map((h) => ({
+      label: `Best ${h.label}`,
+      href: `/best/hardware/${h.slug}`,
+    })),
+  ];
 
   return (
     <BestByPageContent
@@ -156,6 +172,8 @@ export default async function BestAmenityPage({ params }: BestAmenityPageProps) 
       heroSubtitle={content.tagline}
       breadcrumbItems={breadcrumbs}
       showRanking={true}
+      currentPage={page}
+      baseUrl={`/best/amenities/${amenity}`}
     />
   );
 }

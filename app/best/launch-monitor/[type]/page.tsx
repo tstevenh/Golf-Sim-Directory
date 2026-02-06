@@ -2,9 +2,11 @@ import { Metadata } from "next";
 import { LaunchMonitorType } from "@prisma/client";
 import { db } from "@/lib/db";
 import { BestByPageContent } from "@/components/seo/BestByPageContent";
+import { VIBE_CATEGORIES, SEGMENT_CATEGORIES, HARDWARE_CATEGORIES } from "@/lib/best-by-config";
 
 interface BestLaunchMonitorPageProps {
   params: Promise<{ type: string }>;
+  searchParams?: Promise<Record<string, string | string[] | undefined>>;
 }
 
 export const revalidate = 60;
@@ -57,7 +59,9 @@ export async function generateMetadata({ params }: BestLaunchMonitorPageProps): 
   };
 }
 
-export default async function BestLaunchMonitorPage({ params }: BestLaunchMonitorPageProps) {
+export default async function BestLaunchMonitorPage({ params, searchParams }: BestLaunchMonitorPageProps) {
+  const paramsResolved = (await searchParams) || {};
+  const page = Math.max(1, Number(paramsResolved.page || 1));
   const { type } = await params;
   const label = type.replace(/_/g, " ").replace(/\b\w/g, l => l.toUpperCase());
   const typeKey = type.toLowerCase();
@@ -98,14 +102,26 @@ export default async function BestLaunchMonitorPage({ params }: BestLaunchMonito
     },
   ];
 
+  // Generate related links from shared config
   const relatedLinks = [
-    { label: "Radar systems", href: "/best/launch-monitor/radar" },
-    { label: "Camera systems", href: "/best/launch-monitor/photometric_camera" },
-    { label: "Hybrid systems", href: "/best/launch-monitor/hybrid" },
-    { label: "TrackMan hardware", href: "/best/hardware/trackman" },
-    { label: "Foresight hardware", href: "/best/hardware/foresight" },
-    { label: "Serious practice", href: "/best/serious-practice" },
-  ].filter(link => !link.href.includes(type));
+    // Link to browse all
+    { label: "Browse all categories", href: "/best" },
+    // Vibes
+    ...VIBE_CATEGORIES.slice(0, 2).map((v) => ({
+      label: `Best ${v.label}`,
+      href: `/best/vibe/${v.slug}`,
+    })),
+    // Segments
+    ...SEGMENT_CATEGORIES.slice(0, 2).map((s) => ({
+      label: `Best for ${s.label}`,
+      href: `/best/who-its-for/${s.slug}`,
+    })),
+    // Hardware
+    ...HARDWARE_CATEGORIES.slice(0, 2).map((h) => ({
+      label: `Best ${h.label}`,
+      href: `/best/hardware/${h.slug}`,
+    })),
+  ];
 
   return (
     <BestByPageContent
@@ -130,6 +146,8 @@ export default async function BestLaunchMonitorPage({ params }: BestLaunchMonito
       heroSubtitle={content.tagline}
       breadcrumbItems={breadcrumbs}
       showRanking={true}
+      currentPage={page}
+      baseUrl={`/best/launch-monitor/${type}`}
     />
   );
 }

@@ -13,34 +13,54 @@ interface VenueCardProps {
   shortDescription: string | null;
   venueType: string;
   simulatorSystems?: string[] | null;
-  launchMonitorType?: string;
-  priceRangeMin: number | null;
-  priceRangeMax: number | null;
+  launchMonitorType?: string | null;
+  priceRangeMin?: number | null;
+  priceRangeMax?: number | null;
   ratingOverall: number | null;
   featured?: boolean;
-  tags?: string[];
+  tags?: string[] | null;
   href: string;
   // New props for rankings
   rank?: number;
   showRank?: boolean;
 }
 
-function getSystemCode(type: string): string {
+// Human-readable venue type labels
+const VENUE_TYPE_LABELS: Record<string, string> = {
+  sim_bar: "Simulator Bar",
+  training_studio: "Training Studio",
+  private_rental: "Private Rental",
+  retail_fitting_center: "Retail / Fitting Center",
+  country_club: "Country Club",
+  multi_sport_sim: "Multi-Sport Simulator",
+  hotel_resort: "Hotel / Resort",
+  indoor_golf_center: "Indoor Golf Center",
+  entertainment_venue: "Entertainment Venue",
+  golf_performance_center: "Golf Performance Center",
+  bar: "Bar with Simulators",
+  other: "Indoor Golf Venue",
+};
+
+function getVenueTypeLabel(type: string): string {
+  return VENUE_TYPE_LABELS[type] || type.replace(/_/g, " ");
+}
+
+function getSystemCode(type: string | null | undefined): string | null {
+  if (!type || type === "unknown") return null;
   const codes: Record<string, string> = {
     radar: "RD",
     photometric_camera: "CM",
     hybrid: "HB",
-    unknown: "UK",
   };
-  return codes[type] || "UK";
+  return codes[type] || null;
 }
 
-function formatPrice(min: number | null, max: number | null): string {
-  if (!min && !max) return "$?";
+function formatPrice(min: number | null | undefined, max: number | null | undefined): string | null {
+  if (!min && !max) return null;
   if (min && max) return `$${min}-${max}`;
   if (min) return `$${min}+`;
   if (max) return `Up to $${max}`;
-  return "$?";
+  return null;
 }
 
 function getPrimarySystem(
@@ -140,12 +160,14 @@ export function VenueCard({
           </div>
 
           {/* System badge - top right */}
-          <div className="absolute top-3 right-3">
-            <div className="monitor-badge bg-deep-black/80 backdrop-blur-sm px-2.5 py-1.5 rounded-md flex items-center gap-1.5 text-xs text-cream font-mono">
-              <Monitor className="w-3.5 h-3.5" />
-              <span>{getSystemCode(launchMonitorType || "unknown")}</span>
+          {getSystemCode(launchMonitorType) && (
+            <div className="absolute top-3 right-3">
+              <div className="monitor-badge bg-deep-black/80 backdrop-blur-sm px-2.5 py-1.5 rounded-md flex items-center gap-1.5 text-xs text-cream font-mono">
+                <Monitor className="w-3.5 h-3.5" />
+                <span>{getSystemCode(launchMonitorType)}</span>
+              </div>
             </div>
-          </div>
+          )}
         </div>
 
         {/* Content */}
@@ -153,7 +175,7 @@ export function VenueCard({
           {/* Venue Type Tag */}
           <div className="mb-2">
             <span className="text-masters-green text-xs font-mono uppercase tracking-wider">
-              {venueType.replace(/_/g, " ")}
+              {getVenueTypeLabel(venueType)}
             </span>
           </div>
 
@@ -187,13 +209,17 @@ export function VenueCard({
 
           {/* Meta row - Touch friendly (min 48px) */}
           <div className="flex items-center justify-between pt-4 border-t border-subtle min-h-[48px]">
-            <div className="text-sm">
-              <span className="text-muted">From </span>
-              <span className="text-cream font-mono font-semibold">
-                {formatPrice(priceRangeMin, priceRangeMax)}
-              </span>
-              <span className="text-muted">/hr</span>
-            </div>
+            {formatPrice(priceRangeMin, priceRangeMax) ? (
+              <div className="text-sm">
+                <span className="text-muted">From </span>
+                <span className="text-cream font-mono font-semibold">
+                  {formatPrice(priceRangeMin, priceRangeMax)}
+                </span>
+                <span className="text-muted">/hr</span>
+              </div>
+            ) : (
+              <div />
+            )}
             
             <div className="flex items-center gap-1.5 text-masters-green text-sm font-medium opacity-0 group-hover:opacity-100 transition-opacity">
               <span>View</span>
@@ -207,9 +233,11 @@ export function VenueCard({
               {tags.slice(0, 3).map((tag) => (
                 <span
                   key={tag}
-                  className="px-2.5 py-1.5 bg-slate text-cream-subtle text-xs capitalize rounded-md min-h-[32px] flex items-center"
+                  className="px-2.5 py-1.5 bg-slate text-cream-subtle text-xs rounded-md min-h-[32px] flex items-center"
                 >
-                  {tag.replace(/-/g, " ")}
+                  {tag
+                    .replace(/[_-]/g, " ")
+                    .replace(/\b\w/g, (l) => l.toUpperCase())}
                 </span>
               ))}
             </div>

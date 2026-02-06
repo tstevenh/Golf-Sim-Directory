@@ -25,7 +25,29 @@ const footerLinks = {
   ],
 };
 
-// City + state mapping for proper URLs
+// Top states for footer - will be populated from database
+const topStates = [
+  { name: "California", slug: "california" },
+  { name: "Texas", slug: "texas" },
+  { name: "Florida", slug: "florida" },
+  { name: "New York", slug: "new-york" },
+  { name: "Illinois", slug: "illinois" },
+  { name: "Pennsylvania", slug: "pennsylvania" },
+  { name: "Ohio", slug: "ohio" },
+  { name: "Georgia", slug: "georgia" },
+  { name: "North Carolina", slug: "north-carolina" },
+  { name: "Michigan", slug: "michigan" },
+  { name: "New Jersey", slug: "new-jersey" },
+  { name: "Virginia", slug: "virginia" },
+  { name: "Washington", slug: "washington" },
+  { name: "Arizona", slug: "arizona" },
+  { name: "Massachusetts", slug: "massachusetts" },
+  { name: "Tennessee", slug: "tennessee" },
+  { name: "Indiana", slug: "indiana" },
+  { name: "Missouri", slug: "missouri" },
+];
+
+// Top cities for footer
 const topCities = [
   { name: "Chicago", stateSlug: "illinois" },
   { name: "New York", stateSlug: "new-york" },
@@ -42,6 +64,21 @@ const topCities = [
   { name: "Charlotte", stateSlug: "north-carolina" },
   { name: "Indianapolis", stateSlug: "indiana" },
   { name: "Seattle", stateSlug: "washington" },
+  { name: "Denver", stateSlug: "colorado" },
+  { name: "Boston", stateSlug: "massachusetts" },
+  { name: "Nashville", stateSlug: "tennessee" },
+  { name: "Detroit", stateSlug: "michigan" },
+  { name: "Oklahoma City", stateSlug: "oklahoma" },
+  { name: "Portland", stateSlug: "oregon" },
+  { name: "Las Vegas", stateSlug: "nevada" },
+  { name: "Louisville", stateSlug: "kentucky" },
+  { name: "Milwaukee", stateSlug: "wisconsin" },
+  { name: "Baltimore", stateSlug: "maryland" },
+  { name: "Albuquerque", stateSlug: "new-mexico" },
+  { name: "Tucson", stateSlug: "arizona" },
+  { name: "Mesa", stateSlug: "arizona" },
+  { name: "Atlanta", stateSlug: "georgia" },
+  { name: "Raleigh", stateSlug: "north-carolina" },
 ];
 
 export function Footer() {
@@ -176,10 +213,26 @@ export function Footer() {
           </div>
         </div>
 
-        {/* City Sitemap */}
+        {/* Popular States */}
+        <div className="mt-12 pt-8 border-t border-subtle">
+          <h4 className="text-xs text-muted uppercase tracking-wider mb-4">Popular States</h4>
+          <div className="flex flex-wrap gap-x-4 gap-y-2">
+            {topStates.map((state) => (
+              <Link
+                key={state.slug}
+                href={`/venue/us/${state.slug}`}
+                className="text-xs text-muted hover:text-cream transition-colors"
+              >
+                Golf Simulators in {state.name}
+              </Link>
+            ))}
+          </div>
+        </div>
+
+        {/* Popular Cities */}
         <div className="mt-12 pt-8 border-t border-subtle">
           <h4 className="text-xs text-muted uppercase tracking-wider mb-4">Popular Cities</h4>
-          <div className="flex flex-wrap gap-x-4 gap-y-1">
+          <div className="flex flex-wrap gap-x-4 gap-y-2">
             {topCities.map((city) => (
               <Link
                 key={city.name}
@@ -201,7 +254,7 @@ export function Footer() {
               © {currentYear} GolfSimMap. All rights reserved.
             </p>
             <p className="text-xs text-muted">
-              Data updated daily from verified venues across the USA.
+              Verified golf simulator venues across the USA.
             </p>
           </div>
         </div>

@@ -9,6 +9,7 @@ import {
   getStateDisplayName,
   getStateAbbrevFromName,
 } from "@/lib/states";
+import { VIBE_CATEGORIES, SEGMENT_CATEGORIES, HARDWARE_CATEGORIES } from "@/lib/best-by-config";
 
 interface StatePageProps {
   params: Promise<{
@@ -127,13 +128,25 @@ export default async function StatePage({ params }: StatePageProps) {
     };
   });
 
+  // Generate related best-by links from shared config
   const relatedLinks = [
-    { label: "Best for date nights", href: "/best/date-night" },
-    { label: "Best for serious practice", href: "/best/serious-practice" },
-    { label: "Best for families", href: "/best/who-its-for/families" },
-    { label: "Best Trackman venues", href: "/best/hardware/trackman" },
-    { label: "Best camera systems", href: "/best/launch-monitor/photometric_camera" },
-    { label: "Best sports-bar vibes", href: "/best/vibe/sports_bar" },
+    // Link to main best-by index
+    { label: "Browse all categories", href: "/best" },
+    // Vibe categories
+    ...VIBE_CATEGORIES.slice(0, 2).map((v) => ({
+      label: `Best ${v.label}`,
+      href: `/best/vibe/${v.slug}`,
+    })),
+    // Segment categories  
+    ...SEGMENT_CATEGORIES.slice(0, 2).map((s) => ({
+      label: `Best for ${s.label}`,
+      href: `/best/who-its-for/${s.slug}`,
+    })),
+    // Hardware categories
+    ...HARDWARE_CATEGORIES.slice(0, 2).map((h) => ({
+      label: `Best ${h.label}`,
+      href: `/best/hardware/${h.slug}`,
+    })),
   ];
 
   const faqItems = [
@@ -194,9 +207,7 @@ export default async function StatePage({ params }: StatePageProps) {
           methodologyDescription="Featured venues are sorted by rating and listing quality. City popularity is based on venue count, and search results prioritize verified data, complete listings, and recent updates." 
           faqTitle={`FAQs about indoor golf in ${stateName}`}
           faqItems={faqItems}
-          nearbyTitle={`Top cities in ${stateName}`}
-          nearbyLinks={topCityLinks}
-          relatedTitle="Related best-by pages"
+          relatedTitle="Browse by category"
           relatedLinks={relatedLinks}
           ctaTitle="Own a golf simulator venue?"
           ctaDescription="Claim your listing to verify details, update photos, and reach golfers searching in your area."

@@ -112,7 +112,13 @@ export function HeroSection({ totalVenues, totalStates }: HeroSectionProps) {
           </div>
 
           {/* Main Headline - H1 for SEO */}
-          <h1 className="text-cream mb-6 text-5xl md:text-7xl lg:text-8xl font-bold tracking-tighter leading-[0.9]">
+          <h1 
+            className="text-cream mb-4 font-bold tracking-tighter"
+            style={{ 
+              fontSize: 'clamp(3rem, 8vw, 6rem)', 
+              lineHeight: 0.95 
+            }}
+          >
             Find Your
             <br />
             <span className="text-masters-green">Perfect</span> Swing

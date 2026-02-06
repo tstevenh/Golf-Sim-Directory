@@ -2,9 +2,11 @@ import { Metadata } from "next";
 import { db } from "@/lib/db";
 import { BestByPageContent } from "@/components/seo/BestByPageContent";
 import { matchesHardware } from "@/lib/best-by";
+import { VIBE_CATEGORIES, SEGMENT_CATEGORIES, HARDWARE_CATEGORIES } from "@/lib/best-by-config";
 
 interface BestHardwarePageProps {
   params: Promise<{ brand: string }>;
+  searchParams?: Promise<Record<string, string | string[] | undefined>>;
 }
 
 export const revalidate = 60;
@@ -61,7 +63,9 @@ export async function generateMetadata({ params }: BestHardwarePageProps): Promi
   };
 }
 
-export default async function BestHardwarePage({ params }: BestHardwarePageProps) {
+export default async function BestHardwarePage({ params, searchParams }: BestHardwarePageProps) {
+  const paramsResolved = (await searchParams) || {};
+  const page = Math.max(1, Number(paramsResolved.page || 1));
   const { brand } = await params;
   const label = brand.replace(/-/g, " ").replace(/\b\w/g, l => l.toUpperCase());
   const brandKey = brand.toLowerCase();
@@ -104,14 +108,26 @@ export default async function BestHardwarePage({ params }: BestHardwarePageProps
     },
   ];
 
+  // Generate related links from shared config
   const relatedLinks = [
-    { label: "TrackMan venues", href: "/best/hardware/trackman" },
-    { label: "Foresight venues", href: "/best/hardware/foresight" },
-    { label: "Full Swing venues", href: "/best/hardware/full-swing" },
-    { label: "Uneekor venues", href: "/best/hardware/uneekor" },
-    { label: "Camera systems", href: "/best/launch-monitor/photometric_camera" },
-    { label: "Radar systems", href: "/best/launch-monitor/radar" },
-  ].filter(link => !link.href.includes(brand));
+    // Link to all hardware
+    { label: "All technology", href: "/best/hardware/" },
+    // Other hardware (excluding current)
+    ...HARDWARE_CATEGORIES.filter((h) => h.slug !== brand).slice(0, 2).map((h) => ({
+      label: `Best ${h.label}`,
+      href: `/best/hardware/${h.slug}`,
+    })),
+    // Vibes
+    ...VIBE_CATEGORIES.slice(0, 2).map((v) => ({
+      label: `Best ${v.label}`,
+      href: `/best/vibe/${v.slug}`,
+    })),
+    // Segments
+    ...SEGMENT_CATEGORIES.slice(0, 2).map((s) => ({
+      label: `Best for ${s.label}`,
+      href: `/best/who-its-for/${s.slug}`,
+    })),
+  ];
 
   return (
     <BestByPageContent
@@ -136,6 +152,8 @@ export default async function BestHardwarePage({ params }: BestHardwarePageProps
       heroSubtitle={content.tagline}
       breadcrumbItems={breadcrumbs}
       showRanking={true}
+      currentPage={page}
+      baseUrl={`/best/hardware/${brand}`}
     />
   );
 }

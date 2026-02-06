@@ -9,6 +9,10 @@ export const metadata: Metadata = {
   description: "Search indoor golf simulators by city, venue type, launch monitor, and amenities.",
 };
 
+// Force dynamic rendering to avoid caching issues
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
+
 interface SearchPageProps {
   searchParams?: Promise<Record<string, string | string[] | undefined>>;
 }
@@ -123,11 +127,12 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
   });
 
   if (hardware) {
+    const hardwareLower = hardware.toLowerCase().trim();
     venues = venues.filter((venue) => {
       if (!venue.simulatorSystems) return false;
       try {
         const systems = venue.simulatorSystems as { brand?: string; model?: string }[];
-        return systems.some((system) => system.brand?.toLowerCase() === hardware.toLowerCase());
+        return systems.some((system) => system.brand?.toLowerCase().trim() === hardwareLower);
       } catch {
         return false;
       }

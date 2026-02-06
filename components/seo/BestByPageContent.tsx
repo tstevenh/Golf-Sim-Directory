@@ -2,6 +2,7 @@ import { Venue } from "@/types";
 import { SeoIndexSections } from "@/components/seo/SeoIndexSections";
 import { VenueCard, VenueGrid } from "@/components/venue/VenueCard";
 import { CategoryHero } from "@/components/seo/CategoryHero";
+import { Pagination } from "@/components/ui/Pagination";
 
 type CategoryType = 
   | "tag" 
@@ -34,6 +35,11 @@ interface BestByPageContentProps {
   heroSubtitle?: string;
   breadcrumbItems?: { label: string; href?: string }[];
   showRanking?: boolean;
+  // Pagination props
+  currentPage?: number;
+  pageSize?: number;
+  baseUrl?: string;
+  searchParams?: Record<string, string | string[]>;
 }
 
 export function BestByPageContent({
@@ -55,6 +61,10 @@ export function BestByPageContent({
   heroSubtitle,
   breadcrumbItems,
   showRanking = true,
+  currentPage = 1,
+  pageSize = 12,
+  baseUrl = "",
+  searchParams = {},
 }: BestByPageContentProps) {
   // Default breadcrumbs if not provided
   const defaultBreadcrumbs = [
@@ -62,6 +72,11 @@ export function BestByPageContent({
     { label: "Best By", href: "/best" },
     { label: title },
   ];
+
+  // Pagination logic
+  const totalVenues = venues.length;
+  const totalPages = Math.max(1, Math.ceil(totalVenues / pageSize));
+  const pagedVenues = venues.slice((currentPage - 1) * pageSize, currentPage * pageSize);
 
   return (
     <div className="min-h-screen bg-deep-black">
@@ -99,7 +114,7 @@ export function BestByPageContent({
           showStats={true}
         >
           {/* Venue Grid with Rankings */}
-          {venues.length === 0 ? (
+          {pagedVenues.length === 0 ? (
             <div className="text-center py-16 border border-default rounded-lg bg-charcoal">
               <div className="max-w-md mx-auto">
                 <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-slate flex items-center justify-center">
@@ -112,31 +127,39 @@ export function BestByPageContent({
               </div>
             </div>
           ) : (
-            <VenueGrid columns={3}>
-              {venues.map((venue, index) => (
-                <VenueCard
-                  key={venue.id}
-                  id={venue.id}
-                  slug={venue.slug}
-                  name={venue.name}
-                  city={venue.city}
-                  state={venue.state}
-                  heroImage={venue.heroImage}
-                  shortDescription={venue.shortDescription}
-                  venueType={venue.venueType}
-                  simulatorSystems={venue.simulatorSystems as string[] | null}
-                  launchMonitorType={venue.launchMonitorType}
-                  priceRangeMin={venue.priceRangeMin}
-                  priceRangeMax={venue.priceRangeMax}
-                  ratingOverall={venue.ratingOverall}
-                  featured={venue.featured}
-                  tags={venue.tags}
-                  href={`/venue/us/${venue.state.toLowerCase()}/${venue.city.toLowerCase().replace(/\s+/g, "-")}/${venue.slug}`}
-                  rank={showRanking ? index + 1 : undefined}
-                  showRank={showRanking && index < 10}
-                />
-              ))}
-            </VenueGrid>
+            <>
+              <VenueGrid columns={3}>
+                {pagedVenues.map((venue, index) => (
+                  <VenueCard
+                    key={venue.id}
+                    id={venue.id}
+                    slug={venue.slug}
+                    name={venue.name}
+                    city={venue.city}
+                    state={venue.state}
+                    heroImage={venue.heroImage}
+                    shortDescription={venue.shortDescription}
+                    venueType={venue.venueType}
+                    simulatorSystems={venue.simulatorSystems as string[] | null}
+                    launchMonitorType={venue.launchMonitorType}
+                    priceRangeMin={venue.priceRangeMin}
+                    priceRangeMax={venue.priceRangeMax}
+                    ratingOverall={venue.ratingOverall}
+                    featured={venue.featured}
+                    tags={venue.tags}
+                    href={`/venue/us/${venue.state.toLowerCase()}/${venue.city.toLowerCase().replace(/\s+/g, "-")}/${venue.slug}`}
+                    rank={showRanking ? (currentPage - 1) * pageSize + index + 1 : undefined}
+                    showRank={showRanking && (currentPage - 1) * pageSize + index < 10}
+                  />
+                ))}
+              </VenueGrid>
+              <Pagination
+                currentPage={currentPage}
+                totalPages={totalPages}
+                baseUrl={baseUrl}
+                searchParams={searchParams}
+              />
+            </>
           )}
         </SeoIndexSections>
       </div>
@@ -162,6 +185,11 @@ interface CityPageContentProps {
   ctaPrimary: { label: string; href: string };
   ctaSecondary?: { label: string; href: string };
   topAmenities?: string[];
+  // Pagination props
+  currentPage?: number;
+  pageSize?: number;
+  baseUrl?: string;
+  searchParams?: Record<string, string | string[]>;
 }
 
 export function CityPageContent({
@@ -181,6 +209,10 @@ export function CityPageContent({
   ctaPrimary,
   ctaSecondary,
   topAmenities,
+  currentPage = 1,
+  pageSize = 12,
+  baseUrl = "",
+  searchParams = {},
 }: CityPageContentProps) {
   const breadcrumbItems = [
     { label: "Home", href: "/" },
@@ -188,6 +220,11 @@ export function CityPageContent({
     { label: state, href: `/venue/us/${state.toLowerCase()}` },
     { label: city },
   ];
+
+  // Pagination logic
+  const totalVenues = venues.length;
+  const totalPages = Math.max(1, Math.ceil(totalVenues / pageSize));
+  const pagedVenues = venues.slice((currentPage - 1) * pageSize, currentPage * pageSize);
 
   return (
     <div className="min-h-screen bg-deep-black">
@@ -225,7 +262,7 @@ export function CityPageContent({
           showStats={true}
         >
           {/* Venue Grid */}
-          {venues.length === 0 ? (
+          {pagedVenues.length === 0 ? (
             <div className="text-center py-16 border border-default rounded-lg bg-charcoal">
               <div className="max-w-md mx-auto">
                 <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-slate flex items-center justify-center">
@@ -238,31 +275,39 @@ export function CityPageContent({
               </div>
             </div>
           ) : (
-            <VenueGrid columns={3}>
-              {venues.map((venue, index) => (
-                <VenueCard
-                  key={venue.id}
-                  id={venue.id}
-                  slug={venue.slug}
-                  name={venue.name}
-                  city={venue.city}
-                  state={venue.state}
-                  heroImage={venue.heroImage}
-                  shortDescription={venue.shortDescription}
-                  venueType={venue.venueType}
-                  simulatorSystems={venue.simulatorSystems as string[] | null}
-                  launchMonitorType={venue.launchMonitorType}
-                  priceRangeMin={venue.priceRangeMin}
-                  priceRangeMax={venue.priceRangeMax}
-                  ratingOverall={venue.ratingOverall}
-                  featured={venue.featured}
-                  tags={venue.tags}
-                  href={`/venue/us/${venue.state.toLowerCase()}/${venue.city.toLowerCase().replace(/\s+/g, "-")}/${venue.slug}`}
-                  rank={index + 1}
-                  showRank={index < 5}
-                />
-              ))}
-            </VenueGrid>
+            <>
+              <VenueGrid columns={3}>
+                {pagedVenues.map((venue, index) => (
+                  <VenueCard
+                    key={venue.id}
+                    id={venue.id}
+                    slug={venue.slug}
+                    name={venue.name}
+                    city={venue.city}
+                    state={venue.state}
+                    heroImage={venue.heroImage}
+                    shortDescription={venue.shortDescription}
+                    venueType={venue.venueType}
+                    simulatorSystems={venue.simulatorSystems as string[] | null}
+                    launchMonitorType={venue.launchMonitorType}
+                    priceRangeMin={venue.priceRangeMin}
+                    priceRangeMax={venue.priceRangeMax}
+                    ratingOverall={venue.ratingOverall}
+                    featured={venue.featured}
+                    tags={venue.tags}
+                    href={`/venue/us/${venue.state.toLowerCase()}/${venue.city.toLowerCase().replace(/\s+/g, "-")}/${venue.slug}`}
+                    rank={(currentPage - 1) * pageSize + index + 1}
+                    showRank={(currentPage - 1) * pageSize + index < 5}
+                  />
+                ))}
+              </VenueGrid>
+              <Pagination
+                currentPage={currentPage}
+                totalPages={totalPages}
+                baseUrl={baseUrl}
+                searchParams={searchParams}
+              />
+            </>
           )}
         </SeoIndexSections>
       </div>

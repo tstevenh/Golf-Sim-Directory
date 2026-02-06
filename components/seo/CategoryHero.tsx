@@ -168,7 +168,7 @@ export function CategoryHero({
           <div className="flex-1 max-w-3xl">
             {/* Category badge */}
             <div className="flex items-center gap-2 mb-4">
-              <div className={`p-2 rounded-lg bg-charcoal border border-default ${theme.accent}`}>
+              <div className={`p-2 rounded-lg bg-charcoal ${theme.accent}`}>
                 <IconComponent className="w-5 h-5" />
               </div>
               <span className={`text-xs font-mono uppercase tracking-widest ${theme.accent}`}>
@@ -248,7 +248,7 @@ export function CityHero({
           <div className="flex-1">
             {/* Location badge */}
             <div className="flex items-center gap-2 mb-4">
-              <div className="p-2 rounded-lg bg-charcoal border border-default text-masters-green">
+              <div className="p-2 rounded-lg bg-charcoal text-masters-green">
                 <MapPin className="w-5 h-5" />
               </div>
               <span className="text-xs font-mono uppercase tracking-widest text-masters-green">

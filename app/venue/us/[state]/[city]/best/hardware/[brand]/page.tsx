@@ -3,9 +3,11 @@ import { db } from "@/lib/db";
 import { BestByPageContent } from "@/components/seo/BestByPageContent";
 import { matchesHardware } from "@/lib/best-by";
 import { getStateDisplayName, getStateAbbrevFromName } from "@/lib/states";
+import { getCityBestByLinks } from "@/lib/best-by-config";
 
 interface CityBestHardwarePageProps {
   params: Promise<{ state: string; city: string; brand: string }>;
+  searchParams?: Promise<Record<string, string | string[] | undefined>>;
 }
 
 export const revalidate = 60;
@@ -26,7 +28,7 @@ export async function generateMetadata({ params }: CityBestHardwarePageProps): P
   const { state, city, brand } = await params;
   const stateAbbrev = getStateAbbrevFromName(state) || state.toUpperCase();
   const stateName = getStateDisplayName(stateAbbrev);
-  const cityFormatted = city.replace(/-/g, " ");
+  const cityFormatted = city.replace(/-/g, " ").replace(/\b\w/g, l => l.toUpperCase());
   const brandLabel = brand.replace(/-/g, " ").replace(/\b\w/g, l => l.toUpperCase());
   const brandDesc = hardwareDescriptions[brand.toLowerCase()] || "quality simulator hardware";
 
@@ -41,7 +43,9 @@ export async function generateMetadata({ params }: CityBestHardwarePageProps): P
   };
 }
 
-export default async function CityBestHardwarePage({ params }: CityBestHardwarePageProps) {
+export default async function CityBestHardwarePage({ params, searchParams }: CityBestHardwarePageProps) {
+  const paramsResolved = (await searchParams) || {};
+  const page = Math.max(1, Number(paramsResolved.page || 1));
   const { state, city, brand } = await params;
   const stateAbbrev = getStateAbbrevFromName(state) || state.toUpperCase();
   const stateName = getStateDisplayName(stateAbbrev);
@@ -105,13 +109,22 @@ export default async function CityBestHardwarePage({ params }: CityBestHardwareP
     },
   ];
 
+  // Get diverse cross-links to other best-by categories in this city
+  const allCategoryLinks = getCityBestByLinks(state, cityFormatted, `hardware-${brand}`);
   const relatedLinks = [
     { label: `All venues in ${cityFormatted}`, href: `/venue/us/${state}/${city}` },
-    { label: `Best ${brandLabel} (national)`, href: `/best/hardware/${brand}` },
-    { label: `All venues in ${stateName}`, href: `/venue/us/${state}` },
-    { label: "TrackMan venues", href: `/venue/us/${state}/${city}/best/hardware/trackman` },
-    { label: "Foresight venues", href: `/venue/us/${state}/${city}/best/hardware/foresight` },
-  ].filter(link => !link.href.endsWith(`/hardware/${brand}`));
+    { label: `Best ${brandLabel} (nationwide)`, href: `/best/hardware/${brand}` },
+    // Pick 3 diverse categories: 1 vibe, 1 segment, 1 other hardware
+    ...allCategoryLinks
+      .filter((l) => l.category === "vibe")
+      .slice(0, 1),
+    ...allCategoryLinks
+      .filter((l) => l.category === "segment")
+      .slice(0, 1),
+    ...allCategoryLinks
+      .filter((l) => l.category === "hardware")
+      .slice(0, 1),
+  ];
 
   return (
     <BestByPageContent
@@ -138,6 +151,8 @@ export default async function CityBestHardwarePage({ params }: CityBestHardwareP
       heroSubtitle={`${cityFormatted}, ${stateName}`}
       breadcrumbItems={breadcrumbs}
       showRanking={true}
+      currentPage={page}
+      baseUrl={`/venue/us/${state}/${city}/best/hardware/${brand}`}
     />
   );
 }

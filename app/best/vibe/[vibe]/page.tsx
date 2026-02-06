@@ -2,9 +2,11 @@ import { Metadata } from "next";
 import { db } from "@/lib/db";
 import { BestByPageContent } from "@/components/seo/BestByPageContent";
 import { matchesVibe } from "@/lib/best-by";
+import { VIBE_CATEGORIES, SEGMENT_CATEGORIES, HARDWARE_CATEGORIES } from "@/lib/best-by-config";
 
 interface BestVibePageProps {
   params: Promise<{ vibe: string }>;
+  searchParams?: Promise<Record<string, string | string[] | undefined>>;
 }
 
 export const revalidate = 60;
@@ -61,7 +63,9 @@ export async function generateMetadata({ params }: BestVibePageProps): Promise<M
   };
 }
 
-export default async function BestVibePage({ params }: BestVibePageProps) {
+export default async function BestVibePage({ params, searchParams }: BestVibePageProps) {
+  const paramsResolved = (await searchParams) || {};
+  const page = Math.max(1, Number(paramsResolved.page || 1));
   const { vibe } = await params;
   const vibeLabel = vibe.replace(/_/g, " ").replace(/-/g, " ").replace(/\b\w/g, l => l.toUpperCase());
   const vibeKey = vibe.toLowerCase();
@@ -104,14 +108,26 @@ export default async function BestVibePage({ params }: BestVibePageProps) {
     },
   ];
 
+  // Generate related links from shared config
   const relatedLinks = [
-    { label: "Upscale venues", href: "/best/vibe/upscale" },
-    { label: "Casual spots", href: "/best/vibe/casual" },
-    { label: "Sports bar vibes", href: "/best/vibe/sports-bar" },
-    { label: "Boutique venues", href: "/best/vibe/boutique" },
-    { label: "Date night spots", href: "/best/date-night" },
-    { label: "Family friendly", href: "/best/family-friendly" },
-  ].filter(link => !link.href.includes(vibe));
+    // Link to all vibes
+    { label: "All vibes", href: "/best/vibe/" },
+    // Other vibes (excluding current)
+    ...VIBE_CATEGORIES.filter((v) => v.slug !== vibe).slice(0, 2).map((v) => ({
+      label: `Best ${v.label}`,
+      href: `/best/vibe/${v.slug}`,
+    })),
+    // Segments
+    ...SEGMENT_CATEGORIES.slice(0, 2).map((s) => ({
+      label: `Best for ${s.label}`,
+      href: `/best/who-its-for/${s.slug}`,
+    })),
+    // Hardware
+    ...HARDWARE_CATEGORIES.slice(0, 2).map((h) => ({
+      label: `Best ${h.label}`,
+      href: `/best/hardware/${h.slug}`,
+    })),
+  ];
 
   return (
     <BestByPageContent
@@ -136,6 +152,8 @@ export default async function BestVibePage({ params }: BestVibePageProps) {
       heroSubtitle={content.tagline}
       breadcrumbItems={breadcrumbs}
       showRanking={true}
+      currentPage={page}
+      baseUrl={`/best/vibe/${vibe}`}
     />
   );
 }

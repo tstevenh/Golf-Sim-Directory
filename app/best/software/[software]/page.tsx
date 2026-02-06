@@ -2,9 +2,11 @@ import { Metadata } from "next";
 import { db } from "@/lib/db";
 import { BestByPageContent } from "@/components/seo/BestByPageContent";
 import { matchesSoftware } from "@/lib/best-by";
+import { VIBE_CATEGORIES, SEGMENT_CATEGORIES, HARDWARE_CATEGORIES } from "@/lib/best-by-config";
 
 interface BestSoftwarePageProps {
   params: Promise<{ software: string }>;
+  searchParams?: Promise<Record<string, string | string[] | undefined>>;
 }
 
 export const revalidate = 60;
@@ -61,7 +63,9 @@ export async function generateMetadata({ params }: BestSoftwarePageProps): Promi
   };
 }
 
-export default async function BestSoftwarePage({ params }: BestSoftwarePageProps) {
+export default async function BestSoftwarePage({ params, searchParams }: BestSoftwarePageProps) {
+  const paramsResolved = (await searchParams) || {};
+  const page = Math.max(1, Number(paramsResolved.page || 1));
   const { software } = await params;
   const label = software.replace(/-/g, " ").replace(/\b\w/g, l => l.toUpperCase());
   const softwareKey = software.toLowerCase();
@@ -104,14 +108,26 @@ export default async function BestSoftwarePage({ params }: BestSoftwarePageProps
     },
   ];
 
+  // Generate related links from shared config
   const relatedLinks = [
-    { label: "E6 Connect venues", href: "/best/software/e6" },
-    { label: "GSPro venues", href: "/best/software/gspro" },
-    { label: "TGC venues", href: "/best/software/tgc" },
-    { label: "TrackMan hardware", href: "/best/hardware/trackman" },
-    { label: "Foresight hardware", href: "/best/hardware/foresight" },
-    { label: "Serious practice", href: "/best/serious-practice" },
-  ].filter(link => !link.href.includes(software));
+    // Link to browse all
+    { label: "Browse all categories", href: "/best" },
+    // Vibes
+    ...VIBE_CATEGORIES.slice(0, 2).map((v) => ({
+      label: `Best ${v.label}`,
+      href: `/best/vibe/${v.slug}`,
+    })),
+    // Segments
+    ...SEGMENT_CATEGORIES.slice(0, 2).map((s) => ({
+      label: `Best for ${s.label}`,
+      href: `/best/who-its-for/${s.slug}`,
+    })),
+    // Hardware
+    ...HARDWARE_CATEGORIES.slice(0, 2).map((h) => ({
+      label: `Best ${h.label}`,
+      href: `/best/hardware/${h.slug}`,
+    })),
+  ];
 
   return (
     <BestByPageContent
@@ -136,6 +152,8 @@ export default async function BestSoftwarePage({ params }: BestSoftwarePageProps
       heroSubtitle={content.tagline}
       breadcrumbItems={breadcrumbs}
       showRanking={true}
+      currentPage={page}
+      baseUrl={`/best/software/${software}`}
     />
   );
 }

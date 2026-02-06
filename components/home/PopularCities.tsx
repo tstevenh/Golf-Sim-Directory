@@ -1,7 +1,6 @@
 "use client";
 
 import { useState, useEffect, useRef } from "react";
-import { TrendingUp } from "lucide-react";
 import { CityCard, StateLink } from "@/components/location/LocationCards";
 
 interface City {
@@ -12,23 +11,19 @@ interface City {
   venueCount: number;
 }
 
-interface PopularCitiesProps {
-  cities: City[];
+interface State {
+  code: string;
+  name: string;
+  slug: string;
+  count: number;
 }
 
-// Hardcoded states data
-const states = [
-  { name: "California", code: "ca", count: 312 },
-  { name: "Texas", code: "tx", count: 287 },
-  { name: "Florida", code: "fl", count: 245 },
-  { name: "New York", code: "ny", count: 198 },
-  { name: "Illinois", code: "il", count: 156 },
-  { name: "Pennsylvania", code: "pa", count: 134 },
-  { name: "Ohio", code: "oh", count: 123 },
-  { name: "Georgia", code: "ga", count: 112 },
-];
+interface PopularCitiesProps {
+  cities: City[];
+  states: State[];
+}
 
-export function PopularCities({ cities }: PopularCitiesProps) {
+export function PopularCities({ cities, states }: PopularCitiesProps) {
   const [isVisible, setIsVisible] = useState(false);
   const sectionRef = useRef<HTMLElement>(null);
 
@@ -50,6 +45,7 @@ export function PopularCities({ cities }: PopularCitiesProps) {
   }, []);
 
   const displayCities = cities.length > 0 ? cities.slice(0, 12) : [];
+  const displayStates = states.length > 0 ? states.slice(0, 8) : [];
 
   return (
     <section
@@ -85,12 +81,6 @@ export function PopularCities({ cities }: PopularCitiesProps) {
               <br />
               <span className="text-muted">By City</span>
             </h2>
-            <div className="flex items-center gap-2 mt-4 md:mt-0">
-              <TrendingUp className="w-4 h-4 text-masters-green" />
-              <span className="text-sm text-muted">
-                Updated daily from our growing database
-              </span>
-            </div>
           </div>
         </div>
 
@@ -123,29 +113,31 @@ export function PopularCities({ cities }: PopularCitiesProps) {
         )}
 
         {/* Browse by State */}
-        <div
-          className={`transition-all duration-700 delay-300 ${
-            isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
-          }`}
-        >
-          <div className="flex items-center gap-3 mb-6">
-            <span className="text-xs text-muted uppercase tracking-wider">
-              Or Browse by State
-            </span>
-            <div className="flex-1 h-px bg-subtle" />
-          </div>
+        {displayStates.length > 0 && (
+          <div
+            className={`transition-all duration-700 delay-300 ${
+              isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
+            }`}
+          >
+            <div className="flex items-center gap-3 mb-6">
+              <span className="text-xs text-muted uppercase tracking-wider">
+                Or Browse by State
+              </span>
+              <div className="flex-1 h-px bg-subtle" />
+            </div>
 
-          <div className="flex flex-wrap gap-2">
-            {states.map((state) => (
-              <StateLink
-                key={state.code}
-                stateName={state.name}
-                venueCount={state.count}
-                href={`/venue/us/${state.name.toLowerCase().replace(/\s+/g, "-")}`}
-              />
-            ))}
+            <div className="flex flex-wrap gap-2">
+              {displayStates.map((state) => (
+                <StateLink
+                  key={state.code}
+                  stateName={state.name}
+                  venueCount={state.count}
+                  href={`/venue/us/${state.slug}`}
+                />
+              ))}
+            </div>
           </div>
-        </div>
+        )}
 
         {/* Info Cards */}
         <div

@@ -3,9 +3,11 @@ import { db } from "@/lib/db";
 import { BestByPageContent } from "@/components/seo/BestByPageContent";
 import { TagPageHero, getTagHeroContent } from "@/components/seo/PageHero";
 import { matchesTag } from "@/lib/best-by";
+import { VIBE_CATEGORIES, SEGMENT_CATEGORIES, HARDWARE_CATEGORIES } from "@/lib/best-by-config";
 
 interface BestTagPageProps {
   params: Promise<{ tag: string }>;
+  searchParams?: Promise<Record<string, string | string[] | undefined>>;
 }
 
 export const revalidate = 60;
@@ -26,8 +28,10 @@ export async function generateMetadata({ params }: BestTagPageProps): Promise<Me
   };
 }
 
-export default async function BestTagPage({ params }: BestTagPageProps) {
+export default async function BestTagPage({ params, searchParams }: BestTagPageProps) {
   const { tag } = await params;
+  const paramsResolved = (await searchParams) || {};
+  const page = Math.max(1, Number(paramsResolved.page || 1));
   const tagLabel = tag.replace(/-/g, " ");
 
   const venues = await db.venue.findMany({
@@ -94,55 +98,33 @@ export default async function BestTagPage({ params }: BestTagPageProps) {
           ctaPrimary={{ label: "Claim Your Listing", href: "/claim" }}
           ctaSecondary={{ label: "Submit New Venue", href: "/submit" }}
           venues={filteredVenues}
+          currentPage={page}
+          baseUrl={`/best/${tag}`}
         />
       </div>
     </div>
   );
 }
 
-// Helper to get related links based on tag
+// Helper to get related links based on tag using shared config
 function getRelatedLinks(tag: string) {
-  const tagRelations: Record<string, { label: string; href: string }[]> = {
-    "sim-bar": [
-      { label: "Date Night Spots", href: "/best/date-night" },
-      { label: "Sports Bar Vibes", href: "/best/vibe/sports-bar" },
-      { label: "Corporate Events", href: "/best/corporate-events" },
-    ],
-    "date-night": [
-      { label: "Sim Bar Experience", href: "/best/sim-bar" },
-      { label: "Upscale Venues", href: "/best/vibe/upscale" },
-      { label: "Boutique Spots", href: "/best/vibe/boutique" },
-    ],
-    "corporate-events": [
-      { label: "Team Building", href: "/best/who-its-for/groups" },
-      { label: "Upscale Venues", href: "/best/vibe/upscale" },
-      { label: "Private Rooms", href: "/best/amenities/private-rooms" },
-    ],
-    "family-friendly": [
-      { label: "Beginner Friendly", href: "/best/beginners" },
-      { label: "Casual Vibes", href: "/best/vibe/casual" },
-      { label: "Groups Welcome", href: "/best/who-its-for/groups" },
-    ],
-    "serious-practice": [
-      { label: "TrackMan Venues", href: "/best/hardware/trackman" },
-      { label: "Foresight GCQuad", href: "/best/hardware/foresight" },
-      { label: "Lessons Available", href: "/best/amenities/lessons" },
-    ],
-    "beginners": [
-      { label: "Family Friendly", href: "/best/family-friendly" },
-      { label: "Lessons Available", href: "/best/amenities/lessons" },
-      { label: "Casual Vibes", href: "/best/vibe/casual" },
-    ],
-    "league-play": [
-      { label: "Serious Practice", href: "/best/serious-practice" },
-      { label: "Groups Welcome", href: "/best/who-its-for/groups" },
-      { label: "Sports Bar Vibes", href: "/best/vibe/sports-bar" },
-    ],
-  };
-
-  return tagRelations[tag] || [
-    { label: "Sim Bar Experience", href: "/best/sim-bar" },
-    { label: "Date Night Spots", href: "/best/date-night" },
-    { label: "Family Friendly", href: "/best/family-friendly" },
+  return [
+    // Link to browse all
+    { label: "Browse all categories", href: "/best" },
+    // Vibe categories
+    ...VIBE_CATEGORIES.slice(0, 2).map((v) => ({
+      label: `Best ${v.label}`,
+      href: `/best/vibe/${v.slug}`,
+    })),
+    // Segment categories
+    ...SEGMENT_CATEGORIES.slice(0, 2).map((s) => ({
+      label: `Best for ${s.label}`,
+      href: `/best/who-its-for/${s.slug}`,
+    })),
+    // Hardware categories
+    ...HARDWARE_CATEGORIES.slice(0, 2).map((h) => ({
+      label: `Best ${h.label}`,
+      href: `/best/hardware/${h.slug}`,
+    })),
   ];
 }

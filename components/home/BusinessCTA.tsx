@@ -61,9 +61,9 @@ export function BusinessCTA() {
               </h2>
 
               <p className="text-muted mb-8">
-                Join thousands of indoor golf venues on GolfSimMap. Claim your
+                Get your golf simulator venue listed on GolfSimMap. Claim your
                 listing to manage your profile, respond to reviews, and attract
-                more golfers.
+                more golfers to your business.
               </p>
 
               <div className="space-y-3 mb-8">
@@ -101,19 +101,19 @@ export function BusinessCTA() {
                 <div className="flex items-center gap-4">
                   <div className="text-center">
                     <span className="block text-3xl font-mono font-bold text-masters-green">
-                      10K+
+                      Free
                     </span>
                     <span className="text-xs text-muted uppercase tracking-wider">
-                      Monthly Visitors
+                      Listing
                     </span>
                   </div>
                   <div className="w-px h-12 bg-default" />
                   <div className="text-center">
                     <span className="block text-3xl font-mono font-bold text-cream">
-                      Free
+                      More
                     </span>
                     <span className="text-xs text-muted uppercase tracking-wider">
-                      to List
+                      Visibility
                     </span>
                   </div>
                 </div>

@@ -2,8 +2,8 @@ import { auth } from "@/lib/auth";
 import { db } from "@/lib/db";
 import { redirect } from "next/navigation";
 import Link from "next/link";
-import { Heart, Building2, Mail, User, ArrowRight, MapPin } from "lucide-react";
-import { Venue, Favorite, UserRole } from "@prisma/client";
+import { Heart, Building2, Mail, User, ArrowRight, MapPin, FileText } from "lucide-react";
+import { Venue, Favorite, UserRole, Submission } from "@prisma/client";
 
 interface FavoriteWithVenue extends Favorite {
   venue: {
@@ -52,6 +52,12 @@ export default async function DashboardPage() {
       })
     : [];
 
+  // Get user's submissions
+  const submissions = await db.submission.findMany({
+    where: { submittedById: session.user.id },
+    orderBy: { createdAt: "desc" },
+  });
+
   return (
     <div className="min-h-screen bg-deep-black py-12">
       {/* Background Pattern */}
@@ -71,6 +77,62 @@ export default async function DashboardPage() {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+          {/* Submissions */}
+          <div className="border border-default bg-charcoal p-6">
+            <div className="flex items-center gap-3 mb-6">
+              <div className="w-10 h-10 border border-masters-green flex items-center justify-center">
+                <FileText className="w-5 h-5 text-masters-green" />
+              </div>
+              <div>
+                <h2 className="text-cream">My Submissions</h2>
+                <p className="text-sm text-muted">{submissions.length} submitted</p>
+              </div>
+            </div>
+
+            {submissions.length === 0 ? (
+              <div className="text-center py-8 border border-dashed border-default">
+                <p className="text-muted mb-4">You haven&apos;t submitted any venues yet.</p>
+                <Link
+                  href="/submit"
+                  className="text-masters-green hover:text-cream transition-colors text-sm"
+                >
+                  Submit a venue →
+                </Link>
+              </div>
+            ) : (
+              <div className="space-y-3">
+                {submissions.map((sub: Submission) => {
+                  const data = sub.data as Record<string, unknown>;
+                  return (
+                    <div
+                      key={sub.id}
+                      className="flex items-center justify-between p-4 border border-default"
+                    >
+                      <div>
+                        <h3 className="font-medium text-cream">{data.name as string}</h3>
+                        <p className="text-sm text-muted">
+                          {data.city as string}, {data.state as string}
+                        </p>
+                        <p className="text-xs text-muted mt-1">
+                          Submitted {new Date(sub.createdAt).toLocaleDateString()}
+                        </p>
+                      </div>
+                      <span className={`px-2 py-1 text-xs uppercase tracking-wider ${
+                        sub.status === "approved" 
+                          ? "bg-masters-green/20 text-masters-green" 
+                          : sub.status === "rejected"
+                          ? "bg-red-500/20 text-red-400"
+                          : "bg-yellow-500/20 text-yellow-400"
+                      }`}>
+                        {sub.status}
+                      </span>
+                    </div>
+                  );
+                })}
+              </div>
+            )}
+          </div>
+
           {/* Favorites */}
           <div className="border border-default bg-charcoal p-6">
             <div className="flex items-center gap-3 mb-6">
@@ -187,6 +249,26 @@ export default async function DashboardPage() {
             </div>
           )}
         </div>
+
+        {/* Admin Links */}
+        {userRole === "admin" && (
+          <div className="mt-6 border border-default bg-charcoal p-6">
+            <h2 className="text-cream mb-4 flex items-center gap-3">
+              <div className="w-10 h-10 border border-masters-green flex items-center justify-center">
+                <Building2 className="w-5 h-5 text-masters-green" />
+              </div>
+              Admin
+            </h2>
+            <div className="flex flex-wrap gap-3">
+              <Link
+                href="/admin/submissions"
+                className="px-4 py-2 bg-masters-green text-deep-black font-medium text-sm hover:bg-masters-green/90 transition-colors"
+              >
+                Review Submissions →
+              </Link>
+            </div>
+          </div>
+        )}
 
         {/* Account Info */}
         <div className="mt-6 border border-default bg-charcoal p-6">
