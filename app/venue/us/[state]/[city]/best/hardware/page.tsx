@@ -22,6 +22,15 @@ export async function generateMetadata({ params }: CityHardwareIndexPageProps): 
   return {
     title: `Browse by Technology in ${cityFormatted}, ${stateName} | GolfSimMap`,
     description: `Find golf simulator venues in ${cityFormatted} by launch monitor and simulator technology. TrackMan, Foresight, and more.`,
+    alternates: {
+      canonical: `https://golfsimmap.com/venue/us/${state}/${city}/best/hardware`,
+    },
+    openGraph: {
+      title: `Browse by Technology in ${cityFormatted}, ${stateName}`,
+      description: `Find golf simulator venues in ${cityFormatted} by simulator technology.`,
+      type: "website",
+      url: `https://golfsimmap.com/venue/us/${state}/${city}/best/hardware`,
+    },
   };
 }
 

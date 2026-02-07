@@ -3,7 +3,7 @@ import { db, venueCardSelect } from "@/lib/db";
 import { BestByPageContent } from "@/components/seo/BestByPageContent";
 import { matchesTag } from "@/lib/best-by";
 import { getStateDisplayName, getStateAbbrevFromName } from "@/lib/states";
-import { getCityBestByLinks } from "@/lib/best-by-config";
+import { getStaticRelatedLinks } from "@/lib/category-config.generated";
 
 interface CityBestTagPageProps {
   params: Promise<{ state: string; city: string; tag: string }>;
@@ -34,10 +34,14 @@ export async function generateMetadata({ params }: CityBestTagPageProps): Promis
   return {
     title: `Best ${tagLabel} Golf Simulators in ${cityFormatted}, ${stateName} | GolfSimMap`,
     description: `Find ${tagDesc} in ${cityFormatted}, ${stateName}. Compare amenities, hardware, and book your session.`,
+    alternates: {
+      canonical: `https://golfsimmap.com/venue/us/${state}/${city}/best/${tag}`,
+    },
     openGraph: {
       title: `Best ${tagLabel} Golf Simulators in ${cityFormatted}`,
       description: `Find ${tagDesc} in ${cityFormatted}. Compare and book your session.`,
       type: "website",
+      url: `https://golfsimmap.com/venue/us/${state}/${city}/best/${tag}`,
     },
   };
 }
@@ -109,21 +113,11 @@ export default async function CityBestTagPage({ params, searchParams }: CityBest
     },
   ];
 
-  // Get diverse cross-links to other best-by categories in this city
-  const allCategoryLinks = getCityBestByLinks(state, cityFormatted, `tag-${tag}`);
+  // Related links - static, no DB query
   const relatedLinks = [
     { label: `All venues in ${cityFormatted}`, href: `/venue/us/${state}/${city}` },
     { label: `Best ${tagLabel} (nationwide)`, href: `/best/${tag}` },
-    // Pick 3 diverse categories
-    ...allCategoryLinks
-      .filter((l) => l.category === "vibe")
-      .slice(0, 1),
-    ...allCategoryLinks
-      .filter((l) => l.category === "segment")
-      .slice(0, 1),
-    ...allCategoryLinks
-      .filter((l) => l.category === "hardware")
-      .slice(0, 1),
+    ...getStaticRelatedLinks("tags", tag, 4),
   ];
 
   return (

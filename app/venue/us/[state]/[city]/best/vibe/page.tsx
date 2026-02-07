@@ -22,6 +22,15 @@ export async function generateMetadata({ params }: CityVibeIndexPageProps): Prom
   return {
     title: `Browse by Vibe in ${cityFormatted}, ${stateName} | GolfSimMap`,
     description: `Explore golf simulator venues in ${cityFormatted} by atmosphere and vibe. Find casual spots, upscale lounges, sports bars, and more.`,
+    alternates: {
+      canonical: `https://golfsimmap.com/venue/us/${state}/${city}/best/vibe`,
+    },
+    openGraph: {
+      title: `Browse by Vibe in ${cityFormatted}, ${stateName}`,
+      description: `Explore golf simulator venues in ${cityFormatted} by atmosphere and vibe.`,
+      type: "website",
+      url: `https://golfsimmap.com/venue/us/${state}/${city}/best/vibe`,
+    },
   };
 }
 

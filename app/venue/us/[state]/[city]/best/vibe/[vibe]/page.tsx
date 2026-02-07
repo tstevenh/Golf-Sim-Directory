@@ -3,7 +3,7 @@ import { db, venueCardSelect } from "@/lib/db";
 import { BestByPageContent } from "@/components/seo/BestByPageContent";
 import { matchesVibe } from "@/lib/best-by";
 import { getStateDisplayName, getStateAbbrevFromName } from "@/lib/states";
-import { getCityBestByLinks } from "@/lib/best-by-config";
+import { getStaticRelatedLinks } from "@/lib/category-config.generated";
 
 interface CityBestVibePageProps {
   params: Promise<{ state: string; city: string; vibe: string }>;
@@ -59,10 +59,14 @@ export async function generateMetadata({ params }: CityBestVibePageProps): Promi
   return {
     title: `Best ${vibeLabel} Golf Simulators in ${cityFormatted}, ${stateName} | GolfSimMap`,
     description: vibeDesc.description || `Find ${vibeLabel} vibe golf simulator venues in ${cityFormatted}, ${stateName}. Compare atmosphere, amenities, and booking options.`,
+    alternates: {
+      canonical: `https://golfsimmap.com/venue/us/${state}/${city}/best/vibe/${vibe}`,
+    },
     openGraph: {
       title: `Best ${vibeLabel} Golf Simulators in ${cityFormatted}`,
       description: vibeDesc.description || `Find ${vibeLabel} vibe golf simulator venues in ${cityFormatted}.`,
       type: "website",
+      url: `https://golfsimmap.com/venue/us/${state}/${city}/best/vibe/${vibe}`,
     },
   };
 }
@@ -139,20 +143,11 @@ export default async function CityBestVibePage({ params, searchParams }: CityBes
     },
   ];
 
-  // Get diverse cross-links to other best-by categories in this city
-  const allCategoryLinks = getCityBestByLinks(state, cityFormatted, `vibe-${vibe}`);
+  // Related links - static, no DB query
   const relatedLinks = [
     { label: `All venues in ${cityFormatted}`, href: `/venue/us/${state}/${city}` },
-    // Pick 4 diverse categories: 2 vibes, 1 segment, 1 hardware
-    ...allCategoryLinks
-      .filter((l) => l.category === "vibe")
-      .slice(0, 2),
-    ...allCategoryLinks
-      .filter((l) => l.category === "segment")
-      .slice(0, 1),
-    ...allCategoryLinks
-      .filter((l) => l.category === "hardware")
-      .slice(0, 1),
+    { label: `Best ${vibeLabel} (nationwide)`, href: `/best/vibe/${vibe}` },
+    ...getStaticRelatedLinks("vibe", vibe, 4),
   ];
 
   return (

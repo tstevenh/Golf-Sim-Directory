@@ -3,7 +3,7 @@ import { db, venueCardSelect } from "@/lib/db";
 import { BestByPageContent } from "@/components/seo/BestByPageContent";
 import { matchesHardware } from "@/lib/best-by";
 import { getStateDisplayName, getStateAbbrevFromName } from "@/lib/states";
-import { getCityBestByLinks } from "@/lib/best-by-config";
+import { getStaticRelatedLinks } from "@/lib/category-config.generated";
 
 interface CityBestHardwarePageProps {
   params: Promise<{ state: string; city: string; brand: string }>;
@@ -35,10 +35,14 @@ export async function generateMetadata({ params }: CityBestHardwarePageProps): P
   return {
     title: `Best ${brandLabel} Golf Simulators in ${cityFormatted}, ${stateName} | GolfSimMap`,
     description: `Find venues using ${brandLabel} simulators in ${cityFormatted}. ${brandDesc}. Compare ratings, amenities, and book your session.`,
+    alternates: {
+      canonical: `https://golfsimmap.com/venue/us/${state}/${city}/best/hardware/${brand}`,
+    },
     openGraph: {
       title: `Best ${brandLabel} Golf Simulators in ${cityFormatted}`,
       description: `Find venues using ${brandLabel} (${brandDesc}) in ${cityFormatted}.`,
       type: "website",
+      url: `https://golfsimmap.com/venue/us/${state}/${city}/best/hardware/${brand}`,
     },
   };
 }
@@ -110,21 +114,11 @@ export default async function CityBestHardwarePage({ params, searchParams }: Cit
     },
   ];
 
-  // Get diverse cross-links to other best-by categories in this city
-  const allCategoryLinks = getCityBestByLinks(state, cityFormatted, `hardware-${brand}`);
+  // Related links - static, no DB query
   const relatedLinks = [
     { label: `All venues in ${cityFormatted}`, href: `/venue/us/${state}/${city}` },
     { label: `Best ${brandLabel} (nationwide)`, href: `/best/hardware/${brand}` },
-    // Pick 3 diverse categories: 1 vibe, 1 segment, 1 other hardware
-    ...allCategoryLinks
-      .filter((l) => l.category === "vibe")
-      .slice(0, 1),
-    ...allCategoryLinks
-      .filter((l) => l.category === "segment")
-      .slice(0, 1),
-    ...allCategoryLinks
-      .filter((l) => l.category === "hardware")
-      .slice(0, 1),
+    ...getStaticRelatedLinks("hardware", brand, 4),
   ];
 
   return (
