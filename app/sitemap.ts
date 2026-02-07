@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { db } from "@/lib/db";
+import { getStateSlug } from "@/lib/states";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const baseUrl = "https://golfsimmap.com";
@@ -47,7 +48,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   // State routes
   const stateRoutes: MetadataRoute.Sitemap = states.map((s) => ({
-    url: `${baseUrl}/venue/us/${s.state.toLowerCase()}`,
+    url: `${baseUrl}/venue/us/${getStateSlug(s.state)}`,
     lastModified: new Date(),
     changeFrequency: "weekly",
     priority: 0.7,
@@ -55,7 +56,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   // City routes
   const cityRoutes: MetadataRoute.Sitemap = cities.map((c) => ({
-    url: `${baseUrl}/venue/us/${c.state.toLowerCase()}/${c.city.toLowerCase().replace(/\s+/g, "-")}`,
+    url: `${baseUrl}/venue/us/${getStateSlug(c.state)}/${c.city.toLowerCase().replace(/\s+/g, "-")}`,
     lastModified: new Date(),
     changeFrequency: "weekly",
     priority: 0.6,
@@ -63,7 +64,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   // Venue routes
   const venueRoutes: MetadataRoute.Sitemap = venues.map((v) => ({
-    url: `${baseUrl}/venue/us/${v.state.toLowerCase()}/${v.city.toLowerCase().replace(/\s+/g, "-")}/${v.slug}`,
+    url: `${baseUrl}/venue/us/${getStateSlug(v.state)}/${v.city.toLowerCase().replace(/\s+/g, "-")}/${v.slug}`,
     lastModified: v.updatedAt,
     changeFrequency: "weekly",
     priority: 0.5,

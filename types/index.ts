@@ -10,6 +10,16 @@ export interface VenueWithFavorites extends Venue {
   isFavorited?: boolean;
 }
 
+// Lightweight venue type for list/card pages — only the fields needed
+// for rendering VenueCard + client-side filtering (vibe, tag, hardware, etc.)
+export type VenueListItem = Pick<Venue,
+  'id' | 'slug' | 'name' | 'city' | 'state' | 'heroImage' | 'shortDescription' |
+  'venueType' | 'simulatorSystems' | 'launchMonitorType' | 'priceRangeMin' |
+  'priceRangeMax' | 'ratingOverall' | 'featured' | 'tags' | 'vibeTags' |
+  'whoItsFor' | 'foodAndDrink' | 'wifi' | 'hasPrivateRooms' | 'parking' |
+  'coachingAvailable' | 'kidFriendly'
+>;
+
 export interface SearchFilters {
   city?: string;
   state?: string;

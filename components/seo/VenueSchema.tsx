@@ -1,4 +1,5 @@
 import { Venue } from "@/types";
+import { getStateSlug } from "@/lib/states";
 
 interface VenueSchemaProps {
   venue: Venue;
@@ -10,7 +11,7 @@ export function VenueSchema({ venue }: VenueSchemaProps) {
     "@type": "SportsActivityLocation",
     name: venue.name,
     description: venue.shortDescription || venue.about,
-    url: `${process.env.NEXT_PUBLIC_APP_URL}/venue/us/${venue.state.toLowerCase()}/${venue.city.toLowerCase().replace(/\s+/g, "-")}/${venue.slug}`,
+    url: `${process.env.NEXT_PUBLIC_APP_URL}/venue/us/${getStateSlug(venue.state)}/${venue.city.toLowerCase().replace(/\s+/g, "-")}/${venue.slug}`,
     address: {
       "@type": "PostalAddress",
       streetAddress: venue.address,

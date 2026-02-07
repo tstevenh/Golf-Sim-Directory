@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import { db } from "@/lib/db";
+import { db, venueCardSelect } from "@/lib/db";
 import { BestByPageContent } from "@/components/seo/BestByPageContent";
 import { matchesWhoItsFor } from "@/lib/best-by";
 import { getStateDisplayName, getStateAbbrevFromName } from "@/lib/states";
@@ -10,7 +10,7 @@ interface CityBestWhoItsForPageProps {
   searchParams?: Promise<Record<string, string | string[] | undefined>>;
 }
 
-export const revalidate = 60;
+export const revalidate = 3600;
 
 // Segment-specific descriptions for city pages
 const segmentDescriptions: Record<string, { tagline: string; description: string }> = {
@@ -92,6 +92,7 @@ export default async function CityBestWhoItsForPage({ params, searchParams }: Ci
       status: "active",
     },
     orderBy: [{ featured: "desc" }, { ratingOverall: "desc" }, { name: "asc" }],
+    select: venueCardSelect,
   });
 
   const filteredVenues = venues.filter((venue) => matchesWhoItsFor(venue, segment));

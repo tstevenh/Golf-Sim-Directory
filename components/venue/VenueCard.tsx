@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { MapPin, Star, Monitor, ArrowUpRight, Trophy, Award } from "lucide-react";
 
 interface VenueCardProps {
@@ -130,10 +131,13 @@ export function VenueCard({
         {/* Hero Image */}
         <div className="aspect-[16/10] relative overflow-hidden">
           {heroImage ? (
-            <img
+            <Image
               src={heroImage}
               alt={name}
-              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+              fill
+              sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+              className="object-cover group-hover:scale-105 transition-transform duration-500"
+              loading="lazy"
             />
           ) : (
             <div className="flex items-center justify-center h-full bg-slate">
@@ -267,10 +271,13 @@ export function VenueCardCompact({
         {/* Thumbnail */}
         <div className="w-20 h-20 md:w-24 md:h-24 flex-shrink-0 bg-slate overflow-hidden rounded-md relative">
           {heroImage ? (
-            <img
+            <Image
               src={heroImage}
               alt={name}
-              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+              fill
+              sizes="96px"
+              className="object-cover group-hover:scale-105 transition-transform duration-300"
+              loading="lazy"
             />
           ) : (
             <div className="flex items-center justify-center h-full">

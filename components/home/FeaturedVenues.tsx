@@ -4,7 +4,7 @@ import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import { VenueCard } from "@/components/venue/VenueCard";
-import { getStateNameFromAbbrev } from "@/lib/states";
+import { getStateSlug } from "@/lib/states";
 
 interface Venue {
   id: string;
@@ -136,7 +136,7 @@ export function FeaturedVenues({ venues }: FeaturedVenuesProps) {
                 ratingOverall={venue.ratingOverall}
                 featured={venue.featured}
                 tags={venue.tags}
-                href={`/venue/us/${getStateNameFromAbbrev(venue.state.toLowerCase()) || venue.state.toLowerCase()}/${venue.city.toLowerCase().replace(/\s+/g, "-")}/${venue.slug}`}
+                href={`/venue/us/${getStateSlug(venue.state)}/${venue.city.toLowerCase().replace(/\s+/g, "-")}/${venue.slug}`}
               />
             </div>
           ))}

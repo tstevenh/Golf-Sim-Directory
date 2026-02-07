@@ -52,7 +52,7 @@ export default async function CityHardwareIndexPage({ params }: CityHardwareInde
       country: "US",
       status: "active",
     },
-    select: { simulatorSystems: true, comprehensiveData: true },
+    select: { simulatorSystems: true },
   });
 
   // Calculate counts for each hardware brand

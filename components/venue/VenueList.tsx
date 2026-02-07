@@ -3,7 +3,7 @@
 import { Venue } from "@/types";
 import { VenueCard } from "./VenueCard";
 import { MapPin } from "lucide-react";
-import { getStateNameFromAbbrev } from "@/lib/states";
+import { getStateSlug } from "@/lib/states";
 
 interface VenueListProps {
   venues: Venue[];
@@ -22,7 +22,7 @@ export function VenueList({ venues }: VenueListProps) {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
       {venues.map((venue) => {
-        const stateSlug = getStateNameFromAbbrev(venue.state.toLowerCase()) || venue.state.toLowerCase();
+        const stateSlug = getStateSlug(venue.state);
         const citySlug = venue.city.toLowerCase().replace(/\s+/g, "-");
         
         return (

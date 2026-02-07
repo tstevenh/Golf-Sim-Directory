@@ -194,6 +194,8 @@ model Venue {
   @@index([claimed])
   @@index([status])
   @@index([latitude, longitude])
+  @@index([status, featured, ratingOverall])
+  @@index([status, city, state])
   @@map("venues")
 }
 

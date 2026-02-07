@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import { db } from "@/lib/db";
+import { db, venueCardSelect } from "@/lib/db";
 import { BestByPageContent } from "@/components/seo/BestByPageContent";
 import { TagPageHero, getTagHeroContent } from "@/components/seo/PageHero";
 import { matchesTag } from "@/lib/best-by";
@@ -10,7 +10,7 @@ interface BestTagPageProps {
   searchParams?: Promise<Record<string, string | string[] | undefined>>;
 }
 
-export const revalidate = 60;
+export const revalidate = 3600;
 
 export async function generateMetadata({ params }: BestTagPageProps): Promise<Metadata> {
   const { tag } = await params;
@@ -37,6 +37,7 @@ export default async function BestTagPage({ params, searchParams }: BestTagPageP
   const venues = await db.venue.findMany({
     where: { status: "active" },
     orderBy: [{ featured: "desc" }, { ratingOverall: "desc" }, { name: "asc" }],
+    select: venueCardSelect,
   });
 
   const filteredVenues = venues.filter((venue) => matchesTag(venue, tag));

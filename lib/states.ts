@@ -53,6 +53,11 @@ export function getStateDisplayName(abbrev: string): string {
   return stateAbbrevToDisplay[abbrev.toUpperCase()] || abbrev.toUpperCase();
 }
 
+/** Convert a state abbreviation (e.g. "CA") to a URL slug (e.g. "california"). */
+export function getStateSlug(abbrev: string): string {
+  return getStateNameFromAbbrev(abbrev) || abbrev.toLowerCase();
+}
+
 export function slugify(text: string): string {
   return text.toLowerCase().replace(/\s+/g, "-");
 }

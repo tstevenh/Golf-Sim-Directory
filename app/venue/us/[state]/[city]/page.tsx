@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 import Link from "next/link";
-import { db } from "@/lib/db";
+import { db, venueCardSelect } from "@/lib/db";
 import { MapPin } from "lucide-react";
 import { VenueCard, VenueGrid } from "@/components/venue/VenueCard";
 import { CitySchema } from "@/components/seo/CitySchema";
@@ -85,6 +85,7 @@ export default async function CityPage({ params, searchParams }: CityPageProps) 
           status: "active",
         },
         orderBy: [{ featured: "desc" }, { ratingOverall: "desc" }, { name: "asc" }],
+        select: venueCardSelect,
         take: pageSize,
         skip,
       }),

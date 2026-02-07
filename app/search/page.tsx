@@ -1,7 +1,8 @@
 import { Metadata } from "next";
 import Link from "next/link";
-import { db } from "@/lib/db";
+import { db, venueCardSelect } from "@/lib/db";
 import { VenueCard, VenueGrid } from "@/components/venue/VenueCard";
+import { getStateSlug } from "@/lib/states";
 import { Search } from "lucide-react";
 
 export const metadata: Metadata = {
@@ -57,8 +58,8 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
   const venueType = typeof params.venueType === "string" ? params.venueType : "";
   const launchMonitorType = typeof params.launchMonitorType === "string" ? params.launchMonitorType : "";
   const hardware = typeof params.hardware === "string" ? params.hardware : "";
-  const minPrice = typeof params.minPrice === "string" ? Number(params.minPrice) : undefined;
-  const maxPrice = typeof params.maxPrice === "string" ? Number(params.maxPrice) : undefined;
+  const minPrice = typeof params.minPrice === "string" && params.minPrice.trim() !== "" ? Number(params.minPrice) : undefined;
+  const maxPrice = typeof params.maxPrice === "string" && params.maxPrice.trim() !== "" ? Number(params.maxPrice) : undefined;
   const kidFriendly = params.kidFriendly === "true";
   const coaching = params.coaching === "true";
   const food = params.food === "true";
@@ -97,11 +98,11 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
     baseWhere.launchMonitorType = launchMonitorType;
   }
 
-  if (typeof minPrice === "number") {
+  if (typeof minPrice === "number" && !isNaN(minPrice)) {
     baseWhere.priceRangeMin = { gte: minPrice };
   }
 
-  if (typeof maxPrice === "number") {
+  if (typeof maxPrice === "number" && !isNaN(maxPrice)) {
     baseWhere.priceRangeMax = { lte: maxPrice };
   }
 
@@ -124,6 +125,7 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
   let venues = await db.venue.findMany({
     where: baseWhere,
     orderBy: [{ featured: "desc" }, { ratingOverall: "desc" }, { name: "asc" }],
+    select: venueCardSelect,
   });
 
   if (hardware) {
@@ -317,7 +319,7 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
                     ratingOverall={venue.ratingOverall}
                     featured={venue.featured}
                     tags={venue.tags}
-                    href={`/venue/us/${venue.state.toLowerCase()}/${venue.city.toLowerCase().replace(/\s+/g, "-")}/${venue.slug}`}
+                    href={`/venue/us/${getStateSlug(venue.state)}/${venue.city.toLowerCase().replace(/\s+/g, "-")}/${venue.slug}`}
                   />
                 ))}
               </VenueGrid>

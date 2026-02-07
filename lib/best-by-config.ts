@@ -1,5 +1,6 @@
 // Shared configuration for "Best By" categories
 // Used for natural internal linking across the site
+import { getStateSlug } from "@/lib/states";
 
 export interface BestByCategory {
   slug: string;
@@ -96,7 +97,7 @@ export function getVenueBestByLinks(
   }
 ): Array<{ href: string; label: string }> {
   const citySlug = venue.city.toLowerCase().replace(/\s+/g, "-");
-  const stateSlug = venue.state.toLowerCase();
+  const stateSlug = getStateSlug(venue.state);
   const links: Array<{ href: string; label: string }> = [];
 
   // Add vibe-based links the venue belongs to (max 2)

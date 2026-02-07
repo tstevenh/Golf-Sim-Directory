@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import Link from "next/link";
 import { db } from "@/lib/db";
 import { VenueCard } from "@/components/venue/VenueCard";
+import { getStateSlug } from "@/lib/states";
 
 export const metadata: Metadata = {
   title: "Claim Your Venue | GolfSimMap",
@@ -119,7 +120,7 @@ export default async function ClaimPage() {
                   ratingOverall={venue.ratingOverall}
                   featured={venue.featured}
                   tags={venue.tags}
-                  href={`/venue/us/${venue.state.toLowerCase()}/${venue.city.toLowerCase().replace(/\s+/g, "-")}/${venue.slug}`}
+                  href={`/venue/us/${getStateSlug(venue.state)}/${venue.city.toLowerCase().replace(/\s+/g, "-")}/${venue.slug}`}
                 />
               ))}
             </div>

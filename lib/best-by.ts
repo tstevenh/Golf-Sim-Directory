@@ -1,10 +1,10 @@
-import { Venue } from "@/types";
+import { VenueListItem } from "@/types";
 
 export function normalizeSlug(value: string) {
   return value.toLowerCase().replace(/\s+/g, "-");
 }
 
-export function matchesTag(venue: Venue, tag: string) {
+export function matchesTag(venue: VenueListItem, tag: string) {
   // Handle both hyphen and underscore variants
   const tagVariants = [
     tag,                           // Exact match (e.g., "date-night")
@@ -13,15 +13,15 @@ export function matchesTag(venue: Venue, tag: string) {
   return (venue.tags || []).some(t => tagVariants.includes(t));
 }
 
-export function matchesVibe(venue: Venue, vibe: string) {
+export function matchesVibe(venue: VenueListItem, vibe: string) {
   return (venue.vibeTags || []).includes(vibe);
 }
 
-export function matchesWhoItsFor(venue: Venue, segment: string) {
+export function matchesWhoItsFor(venue: VenueListItem, segment: string) {
   return (venue.whoItsFor || []).includes(segment);
 }
 
-export function matchesHardware(venue: Venue, brand: string) {
+export function matchesHardware(venue: VenueListItem, brand: string) {
   if (!venue.simulatorSystems) return false;
   try {
     const systems = venue.simulatorSystems as { brand?: string; model?: string }[];
@@ -31,7 +31,7 @@ export function matchesHardware(venue: Venue, brand: string) {
   }
 }
 
-export function matchesSoftware(venue: Venue, software: string) {
+export function matchesSoftware(venue: { comprehensiveData?: unknown }, software: string) {
   if (!venue.comprehensiveData) return false;
   try {
     const data = venue.comprehensiveData as { simulator_software?: string[] };
@@ -43,7 +43,7 @@ export function matchesSoftware(venue: Venue, software: string) {
   }
 }
 
-export function matchesAmenity(venue: Venue, amenity: string) {
+export function matchesAmenity(venue: VenueListItem, amenity: string) {
   switch (amenity) {
     case "wifi":
       return !!venue.wifi;

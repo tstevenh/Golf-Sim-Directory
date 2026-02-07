@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import { db } from "@/lib/db";
+import { db, venueCardSelect } from "@/lib/db";
 import { BestByPageContent } from "@/components/seo/BestByPageContent";
 import { matchesVibe } from "@/lib/best-by";
 import { getStateDisplayName, getStateAbbrevFromName } from "@/lib/states";
@@ -10,7 +10,7 @@ interface CityBestVibePageProps {
   searchParams?: Promise<Record<string, string | string[] | undefined>>;
 }
 
-export const revalidate = 60;
+export const revalidate = 3600;
 
 // Vibe-specific descriptions for city pages
 const vibeDescriptions: Record<string, { tagline: string; description: string }> = {
@@ -85,6 +85,7 @@ export default async function CityBestVibePage({ params, searchParams }: CityBes
       status: "active",
     },
     orderBy: [{ featured: "desc" }, { ratingOverall: "desc" }, { name: "asc" }],
+    select: venueCardSelect,
   });
 
   const filteredVenues = venues.filter((venue) => matchesVibe(venue, vibe));

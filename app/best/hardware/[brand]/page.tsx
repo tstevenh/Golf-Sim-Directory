@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import { db } from "@/lib/db";
+import { db, venueCardSelect } from "@/lib/db";
 import { BestByPageContent } from "@/components/seo/BestByPageContent";
 import { matchesHardware } from "@/lib/best-by";
 import { VIBE_CATEGORIES, SEGMENT_CATEGORIES, HARDWARE_CATEGORIES } from "@/lib/best-by-config";
@@ -9,7 +9,7 @@ interface BestHardwarePageProps {
   searchParams?: Promise<Record<string, string | string[] | undefined>>;
 }
 
-export const revalidate = 60;
+export const revalidate = 3600;
 
 // Hardware-specific content
 const hardwareContent: Record<string, { tagline: string; description: string; icon?: string }> = {
@@ -73,6 +73,7 @@ export default async function BestHardwarePage({ params, searchParams }: BestHar
   const venues = await db.venue.findMany({
     where: { status: "active" },
     orderBy: [{ featured: "desc" }, { ratingOverall: "desc" }, { name: "asc" }],
+    select: venueCardSelect,
   });
 
   const filteredVenues = venues.filter((venue) => matchesHardware(venue, label));

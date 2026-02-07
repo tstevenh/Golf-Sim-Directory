@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import { db } from "@/lib/db";
+import { db, venueCardSelect } from "@/lib/db";
 import { BestByPageContent } from "@/components/seo/BestByPageContent";
 import { matchesHardware } from "@/lib/best-by";
 import { getStateDisplayName, getStateAbbrevFromName } from "@/lib/states";
@@ -10,7 +10,7 @@ interface CityBestHardwarePageProps {
   searchParams?: Promise<Record<string, string | string[] | undefined>>;
 }
 
-export const revalidate = 60;
+export const revalidate = 3600;
 
 // Hardware-specific descriptions
 const hardwareDescriptions: Record<string, string> = {
@@ -61,6 +61,7 @@ export default async function CityBestHardwarePage({ params, searchParams }: Cit
       status: "active",
     },
     orderBy: [{ featured: "desc" }, { ratingOverall: "desc" }, { name: "asc" }],
+    select: venueCardSelect,
   });
 
   const filteredVenues = venues.filter((venue) => matchesHardware(venue, brandLabel));

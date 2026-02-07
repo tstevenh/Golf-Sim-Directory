@@ -25,7 +25,7 @@ export default async function HardwareIndexPage() {
   // Get venue counts for each hardware brand
   const venues = await db.venue.findMany({
     where: { status: "active" },
-    select: { simulatorSystems: true, comprehensiveData: true },
+    select: { simulatorSystems: true },
   });
 
   // Calculate counts for each hardware brand

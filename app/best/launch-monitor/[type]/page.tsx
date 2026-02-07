@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 import { LaunchMonitorType } from "@prisma/client";
-import { db } from "@/lib/db";
+import { db, venueCardSelect } from "@/lib/db";
 import { BestByPageContent } from "@/components/seo/BestByPageContent";
 import { VIBE_CATEGORIES, SEGMENT_CATEGORIES, HARDWARE_CATEGORIES } from "@/lib/best-by-config";
 
@@ -9,7 +9,7 @@ interface BestLaunchMonitorPageProps {
   searchParams?: Promise<Record<string, string | string[] | undefined>>;
 }
 
-export const revalidate = 60;
+export const revalidate = 3600;
 
 // Launch monitor type-specific content
 const launchMonitorContent: Record<string, { tagline: string; description: string }> = {
@@ -69,6 +69,7 @@ export default async function BestLaunchMonitorPage({ params, searchParams }: Be
   const venues = await db.venue.findMany({
     where: { status: "active", launchMonitorType: type as unknown as LaunchMonitorType },
     orderBy: [{ featured: "desc" }, { ratingOverall: "desc" }, { name: "asc" }],
+    select: venueCardSelect,
   });
 
   const content = launchMonitorContent[typeKey] || {

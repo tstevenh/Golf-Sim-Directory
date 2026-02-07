@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 import Link from "next/link";
-import { db } from "@/lib/db";
+import { db, venueCardSelect } from "@/lib/db";
 import { Building2, MapPin } from "lucide-react";
 import { CityCard } from "@/components/location/LocationCards";
 import { VenueCard } from "@/components/venue/VenueCard";
@@ -78,6 +78,7 @@ async function fetchStateData(state: string) {
         featured: true,
       },
       orderBy: { ratingOverall: "desc" },
+      select: venueCardSelect,
     }),
     db.venue.count({
       where: {

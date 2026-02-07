@@ -1,6 +1,7 @@
 "use client";
 
 import { Venue, SessionUser } from "@/types";
+import { getStateSlug } from "@/lib/states";
 import {
   MapPin,
   Phone,
@@ -233,7 +234,7 @@ export function VenueDetail({
             </button>
 
             <Link
-              href={`/venue/us/${venue.state.toLowerCase()}/${venue.city.toLowerCase().replace(/\s+/g, "-")}/${venue.slug}/report`}
+              href={`/venue/us/${getStateSlug(venue.state)}/${venue.city.toLowerCase().replace(/\s+/g, "-")}/${venue.slug}/report`}
               className="flex items-center gap-2 px-4 py-2 border border-default text-muted hover:border-masters-green hover:text-cream transition-colors"
             >
               <Flag className="w-5 h-5" />
@@ -976,7 +977,7 @@ export function VenueDetail({
                   ratingOverall={nearby.ratingOverall}
                   featured={nearby.featured}
                   tags={nearby.tags as string[] | null}
-                  href={`/venue/us/${nearby.state.toLowerCase()}/${nearby.city.toLowerCase().replace(/\s+/g, "-")}/${nearby.slug}`}
+                  href={`/venue/us/${getStateSlug(nearby.state)}/${nearby.city.toLowerCase().replace(/\s+/g, "-")}/${nearby.slug}`}
                 />
               ))}
             </VenueGrid>

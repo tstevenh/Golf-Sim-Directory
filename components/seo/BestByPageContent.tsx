@@ -1,8 +1,9 @@
-import { Venue } from "@/types";
+import { VenueListItem } from "@/types";
 import { SeoIndexSections } from "@/components/seo/SeoIndexSections";
 import { VenueCard, VenueGrid } from "@/components/venue/VenueCard";
 import { CategoryHero } from "@/components/seo/CategoryHero";
 import { Pagination } from "@/components/ui/Pagination";
+import { getStateSlug } from "@/lib/states";
 
 type CategoryType = 
   | "tag" 
@@ -21,7 +22,7 @@ interface BestByPageContentProps {
   guidancePoints: string[];
   methodologyDescription: string;
   faqItems: { question: string; answer: string }[];
-  venues: Venue[];
+  venues: VenueListItem[];
   relatedLinks: { label: string; href: string }[];
   ctaTitle: string;
   ctaDescription: string;
@@ -147,7 +148,7 @@ export function BestByPageContent({
                     ratingOverall={venue.ratingOverall}
                     featured={venue.featured}
                     tags={venue.tags}
-                    href={`/venue/us/${venue.state.toLowerCase()}/${venue.city.toLowerCase().replace(/\s+/g, "-")}/${venue.slug}`}
+                    href={`/venue/us/${getStateSlug(venue.state)}/${venue.city.toLowerCase().replace(/\s+/g, "-")}/${venue.slug}`}
                     rank={showRanking ? (currentPage - 1) * pageSize + index + 1 : undefined}
                     showRank={showRanking && (currentPage - 1) * pageSize + index < 10}
                   />
@@ -173,7 +174,7 @@ interface CityPageContentProps {
   state: string;
   stateAbbr: string;
   description: string;
-  venues: Venue[];
+  venues: VenueListItem[];
   guidancePoints: string[];
   methodologyDescription: string;
   faqItems: { question: string; answer: string }[];
@@ -295,7 +296,7 @@ export function CityPageContent({
                     ratingOverall={venue.ratingOverall}
                     featured={venue.featured}
                     tags={venue.tags}
-                    href={`/venue/us/${venue.state.toLowerCase()}/${venue.city.toLowerCase().replace(/\s+/g, "-")}/${venue.slug}`}
+                    href={`/venue/us/${getStateSlug(venue.state)}/${venue.city.toLowerCase().replace(/\s+/g, "-")}/${venue.slug}`}
                     rank={(currentPage - 1) * pageSize + index + 1}
                     showRank={(currentPage - 1) * pageSize + index < 5}
                   />

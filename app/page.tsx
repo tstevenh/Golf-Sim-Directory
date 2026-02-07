@@ -1,5 +1,5 @@
 import { db } from "@/lib/db";
-import { getStateNameFromAbbrev, getStateDisplayName } from "@/lib/states";
+import { getStateSlug, getStateDisplayName } from "@/lib/states";
 import { HeroSection } from "@/components/home/HeroSection";
 import { HowItWorks } from "@/components/home/HowItWorks";
 import { FeaturedVenues } from "@/components/home/FeaturedVenues";
@@ -60,7 +60,7 @@ export default async function HomePage() {
       .map((s) => ({
         code: s.state.toLowerCase(),
         name: getStateDisplayName(s.state),
-        slug: getStateNameFromAbbrev(s.state.toLowerCase()) || s.state.toLowerCase(),
+        slug: getStateSlug(s.state),
         count: s._count.id,
       }));
 
@@ -81,7 +81,7 @@ export default async function HomePage() {
   const popularCities = citiesWithCounts.slice(0, 12).map((city) => ({
     name: city.city,
     stateCode: city.state.toLowerCase(),
-    stateSlug: getStateNameFromAbbrev(city.state.toLowerCase()) || city.state.toLowerCase(),
+    stateSlug: getStateSlug(city.state),
     slug: city.city.toLowerCase().replace(/\s+/g, "-"),
     venueCount: city._count.id,
   }));
