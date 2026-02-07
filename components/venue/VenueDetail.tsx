@@ -524,25 +524,95 @@ export function VenueDetail({
                 </section>
               )}
 
-            {/* FAQ Section */}
-            {comprehensiveData?.faq &&
-              Array.isArray(comprehensiveData.faq) &&
-              comprehensiveData.faq.length > 0 && (
-              <section>
-                <div className="flex items-center gap-3 mb-4">
-                  <HelpCircle className="w-5 h-5 text-masters-green" />
-                  <h2 className="text-xl font-semibold text-cream">Frequently Asked Questions</h2>
-                </div>
-                <div className="space-y-4">
-                  {comprehensiveData.faq.map((item, i) => (
-                    <div key={i} className="p-4 border border-default bg-charcoal">
-                      <p className="text-cream font-medium mb-2">{item.question}</p>
-                      <p className="text-muted text-sm">{item.answer}</p>
-                    </div>
-                  ))}
-                </div>
-              </section>
-            )}
+            {/* FAQ Section with Schema */}
+            {(() => {
+              // Build FAQ items: venue-specific first, then defaults
+              const venueFaqs = comprehensiveData?.faq && Array.isArray(comprehensiveData.faq)
+                ? comprehensiveData.faq
+                : [];
+              
+              const defaultFaqs = [
+                ...(venue.priceRangeMin || venue.priceRangeMax ? [{
+                  question: `How much does it cost to play at ${venue.name}?`,
+                  answer: `Pricing at ${venue.name} ${venue.priceRangeMin && venue.priceRangeMax 
+                    ? `ranges from $${venue.priceRangeMin} to $${venue.priceRangeMax} per hour` 
+                    : venue.priceRangeMin ? `starts at $${venue.priceRangeMin} per hour` 
+                    : `goes up to $${venue.priceRangeMax} per hour`}. ${
+                    venue.pricingModel === "per_bay_hour" ? "Rates are per bay per hour." 
+                    : venue.pricingModel === "per_person_hour" ? "Rates are per person per hour." 
+                    : "Contact the venue for detailed pricing."
+                  }`,
+                }] : []),
+                ...(!venue.walkInsAllowed ? [{
+                  question: `Do I need a reservation at ${venue.name}?`,
+                  answer: `Yes, ${venue.name} requires reservations. ${venue.bookingUrl ? "You can book online through their website." : "Contact them directly to schedule your session."}`,
+                }] : [{
+                  question: `Does ${venue.name} accept walk-ins?`,
+                  answer: `Yes, ${venue.name} welcomes walk-ins, though booking ahead is recommended for peak hours and weekends to ensure availability.`,
+                }]),
+                {
+                  question: `What technology does ${venue.name} use?`,
+                  answer: `${venue.name} features ${
+                    simulatorSystems && simulatorSystems.length > 0
+                      ? simulatorSystems.map(s => `${s.brand}${s.model ? ` ${s.model}` : ""}`).join(", ")
+                      : venue.launchMonitorType && venue.launchMonitorType !== "unknown"
+                        ? `${LAUNCH_MONITOR_LABELS[venue.launchMonitorType] || formatTag(venue.launchMonitorType)} technology`
+                        : "professional golf simulator technology"
+                  }. ${venue.ballTracking ? "Full ball flight tracking is available." : ""} ${venue.clubTracking ? "Club path and face data are tracked." : ""}`.trim(),
+                },
+                ...(venue.bayCount ? [{
+                  question: `How many simulator bays does ${venue.name} have?`,
+                  answer: `${venue.name} has ${venue.bayCount} simulator bays${venue.privateRoomsCount ? `, including ${venue.privateRoomsCount} private rooms` : ""}. ${venue.maxGroupSizePerBay ? `Each bay accommodates up to ${venue.maxGroupSizePerBay} people.` : ""}`,
+                }] : []),
+              ];
+
+              // Combine venue FAQs with defaults (avoid duplicates)
+              const allFaqs = venueFaqs.length > 0 
+                ? [...venueFaqs, ...defaultFaqs.slice(0, 2)]
+                : defaultFaqs;
+
+              if (allFaqs.length === 0) return null;
+
+              return (
+                <section>
+                  <div className="flex items-center gap-3 mb-4">
+                    <HelpCircle className="w-5 h-5 text-masters-green" />
+                    <h2 className="text-xl font-semibold text-cream">Frequently Asked Questions</h2>
+                  </div>
+                  <div className="space-y-4">
+                    {allFaqs.map((item, i) => (
+                      <div key={i} className="p-4 border border-default bg-charcoal rounded-lg">
+                        <h3 className="text-cream font-medium mb-2 flex items-start gap-3">
+                          <span className="flex-shrink-0 w-6 h-6 rounded-full bg-masters-green/20 text-masters-green text-xs flex items-center justify-center font-mono">
+                            Q
+                          </span>
+                          {item.question}
+                        </h3>
+                        <p className="text-muted text-sm pl-9">{item.answer}</p>
+                      </div>
+                    ))}
+                  </div>
+                  {/* FAQPage Schema */}
+                  <script
+                    type="application/ld+json"
+                    dangerouslySetInnerHTML={{
+                      __html: JSON.stringify({
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        mainEntity: allFaqs.map((item) => ({
+                          "@type": "Question",
+                          name: item.question,
+                          acceptedAnswer: {
+                            "@type": "Answer",
+                            text: item.answer,
+                          },
+                        })),
+                      }),
+                    }}
+                  />
+                </section>
+              );
+            })()}
 
             {/* Map Section */}
             {mapUrl && (
@@ -950,6 +1020,50 @@ export function VenueDetail({
             )}
           </div>
         </div>
+
+        {/* Browse More Links */}
+        <section className="mt-12 pt-12 border-t border-default">
+          <div className="flex items-center gap-3 mb-6">
+            <ArrowRight className="w-5 h-5 text-masters-green" />
+            <h2 className="text-2xl font-semibold text-cream">Explore More</h2>
+          </div>
+          <div className="flex flex-wrap gap-3">
+            <Link
+              href={`/venue/us/${getStateSlug(venue.state)}/${venue.city.toLowerCase().replace(/\s+/g, "-")}`}
+              className="px-4 py-2.5 border border-default rounded-full text-cream-subtle text-sm hover:border-masters-green hover:text-cream hover:bg-masters-green/5 transition-all"
+            >
+              All venues in {venue.city}
+            </Link>
+            <Link
+              href={`/venue/us/${getStateSlug(venue.state)}`}
+              className="px-4 py-2.5 border border-default rounded-full text-cream-subtle text-sm hover:border-masters-green hover:text-cream hover:bg-masters-green/5 transition-all"
+            >
+              All venues in {venue.state}
+            </Link>
+            {venue.vibeTags && venue.vibeTags.length > 0 && (
+              <Link
+                href={`/venue/us/${getStateSlug(venue.state)}/${venue.city.toLowerCase().replace(/\s+/g, "-")}/best/vibe/${venue.vibeTags[0]}`}
+                className="px-4 py-2.5 border border-default rounded-full text-cream-subtle text-sm hover:border-masters-green hover:text-cream hover:bg-masters-green/5 transition-all"
+              >
+                {formatTag(venue.vibeTags[0])} venues in {venue.city}
+              </Link>
+            )}
+            {venue.launchMonitorType && venue.launchMonitorType !== "unknown" && (
+              <Link
+                href={`/best/launch-monitor/${venue.launchMonitorType}`}
+                className="px-4 py-2.5 border border-default rounded-full text-cream-subtle text-sm hover:border-masters-green hover:text-cream hover:bg-masters-green/5 transition-all"
+              >
+                {LAUNCH_MONITOR_LABELS[venue.launchMonitorType] || formatTag(venue.launchMonitorType)} venues
+              </Link>
+            )}
+            <Link
+              href="/best"
+              className="px-4 py-2.5 border border-default rounded-full text-cream-subtle text-sm hover:border-masters-green hover:text-cream hover:bg-masters-green/5 transition-all"
+            >
+              Browse all categories
+            </Link>
+          </div>
+        </section>
 
         {/* Nearby Venues Section */}
         {nearbyVenues.length > 0 && (
