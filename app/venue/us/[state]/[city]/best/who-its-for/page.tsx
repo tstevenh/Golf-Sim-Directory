@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: CityWhoItsForIndexPageProps):
     .replace(/\b\w/g, (l) => l.toUpperCase());
 
   return {
-    title: `Browse by Occasion in ${cityFormatted}, ${stateName} | GolfSimMap`,
+    title: `Browse by Occasion in ${cityFormatted}, ${stateName} `,
     description: `Find golf simulator venues in ${cityFormatted} perfect for any occasion. Date nights, corporate events, family outings, and more.`,
     alternates: {
       canonical: `https://golfsimmap.com/venue/us/${state}/${city}/best/who-its-for`,

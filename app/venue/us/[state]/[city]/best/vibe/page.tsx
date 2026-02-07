@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: CityVibeIndexPageProps): Prom
     .replace(/\b\w/g, (l) => l.toUpperCase());
 
   return {
-    title: `Browse by Vibe in ${cityFormatted}, ${stateName} | GolfSimMap`,
+    title: `Browse by Vibe in ${cityFormatted}, ${stateName} `,
     description: `Explore golf simulator venues in ${cityFormatted} by atmosphere and vibe. Find casual spots, upscale lounges, sports bars, and more.`,
     alternates: {
       canonical: `https://golfsimmap.com/venue/us/${state}/${city}/best/vibe`,

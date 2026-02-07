@@ -10,14 +10,14 @@ import { getStateDisplayName } from "@/lib/states";
 export const revalidate = 60;
 
 export const metadata: Metadata = {
-  title: "Golf Simulators by State | Find Indoor Golf Near You | GolfSimMap",
-  description: "Discover indoor golf simulator venues across all 50 US states. Compare TrackMan, Foresight, and Uneekor systems. Find the perfect spot for practice, parties, or date night.",
+  title: "Golf Simulators in Every US State — Browse by City",
+  description: "Find indoor golf simulators in your state. Browse 270+ venues across the US by city, launch monitor, vibe, and amenities. Compare pricing and book online.",
   alternates: {
     canonical: "https://golfsimmap.com/venue/us",
   },
   openGraph: {
-    title: "Golf Simulators by State | GolfSimMap",
-    description: "Find indoor golf simulator venues across all US states. Browse by state to discover venues near you.",
+    title: "Golf Simulators in Every US State — Browse by City",
+    description: "Find indoor golf simulators in your state. Browse 270+ venues across the US by city, launch monitor, vibe, and amenities.",
     type: "website",
     url: "https://golfsimmap.com/venue/us",
   },

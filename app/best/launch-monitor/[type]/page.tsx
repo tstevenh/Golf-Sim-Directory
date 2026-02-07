@@ -58,7 +58,7 @@ export async function generateMetadata({ params }: BestLaunchMonitorPageProps): 
   const content = launchMonitorContent[type.toLowerCase()] || { tagline: "", description: "" };
   
   return {
-    title: `Best ${label} Launch Monitor Venues | GolfSimMap`,
+    title: `${label} Launch Monitor Venues — Find & Compare`,
     description: content.description || `Find golf simulator venues using ${label} launch monitors. Compare accuracy, amenities, and booking options.`,
     alternates: {
       canonical: `https://golfsimmap.com/best/launch-monitor/${type}`,

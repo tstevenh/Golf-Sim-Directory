@@ -367,14 +367,14 @@ export async function generateMetadata({ params }: LaunchMonitorPageProps): Prom
   }
   
   return {
-    title: `${data.name} Review & Specs 2025 | GolfSimMap`,
-    description: `${data.description} Full specifications, pricing, accuracy data, FAQs, and who should buy. Compare with similar systems.`,
+    title: `${data.name} Review — Specs, Pricing & Accuracy (2025)`,
+    description: `${data.name} by ${data.manufacturer}: ${data.price}. ${data.accuracy} accuracy, ${data.metrics}+ data points. Full specs, pros/cons, FAQs, and who should buy.`,
     alternates: {
       canonical: `https://golfsimmap.com/launch-monitors/${slug}`,
     },
     openGraph: {
-      title: `${data.name} Review & Specs 2025`,
-      description: `${data.description} Full specifications, pricing, and accuracy data.`,
+      title: `${data.name} Review — Specs, Pricing & Accuracy (2025)`,
+      description: `${data.name}: ${data.price}. ${data.accuracy} accuracy, ${data.metrics}+ data points. Full specs and buying guide.`,
       type: "article",
       url: `https://golfsimmap.com/launch-monitors/${slug}`,
     },

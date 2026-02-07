@@ -90,7 +90,7 @@ export async function generateMetadata({ params }: BestAmenityPageProps): Promis
   const content = amenityContent[amenity.toLowerCase()] || { tagline: "", description: "" };
   
   return {
-    title: `Best Golf Simulators with ${label} | GolfSimMap`,
+    title: `Golf Simulators with ${label} — Top-Rated Venues`,
     description: content.description || `Find venues offering ${label}. Compare hardware, booking options, and vibes.`,
     alternates: {
       canonical: `https://golfsimmap.com/best/amenities/${amenity}`,

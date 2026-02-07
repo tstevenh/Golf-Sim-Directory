@@ -57,7 +57,7 @@ export async function generateMetadata({ params }: CityBestVibePageProps): Promi
   const vibeDesc = vibeDescriptions[vibe.toLowerCase()] || { tagline: "", description: "" };
 
   return {
-    title: `Best ${vibeLabel} Golf Simulators in ${cityFormatted}, ${stateName} | GolfSimMap`,
+    title: `Best ${vibeLabel} Golf Simulators in ${cityFormatted}, ${stateName} `,
     description: vibeDesc.description || `Find ${vibeLabel} vibe golf simulator venues in ${cityFormatted}, ${stateName}. Compare atmosphere, amenities, and booking options.`,
     alternates: {
       canonical: `https://golfsimmap.com/venue/us/${state}/${city}/best/vibe/${vibe}`,

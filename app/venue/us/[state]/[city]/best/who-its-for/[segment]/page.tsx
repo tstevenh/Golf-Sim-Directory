@@ -61,7 +61,7 @@ export async function generateMetadata({ params }: CityBestWhoItsForPageProps): 
   const segmentDesc = segmentDescriptions[segment.toLowerCase()] || { tagline: "", description: "" };
 
   return {
-    title: `Best Golf Simulators for ${segmentLabel} in ${cityFormatted}, ${stateName} | GolfSimMap`,
+    title: `Best Golf Simulators for ${segmentLabel} in ${cityFormatted}, ${stateName} `,
     description: segmentDesc.description || `Find best golf simulator venues for ${segmentLabel} in ${cityFormatted}. Compare amenities, vibes, and booking options.`,
     alternates: {
       canonical: `https://golfsimmap.com/venue/us/${state}/${city}/best/who-its-for/${segment}`,

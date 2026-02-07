@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: CityHardwareIndexPageProps): 
     .replace(/\b\w/g, (l) => l.toUpperCase());
 
   return {
-    title: `Browse by Technology in ${cityFormatted}, ${stateName} | GolfSimMap`,
+    title: `Browse by Technology in ${cityFormatted}, ${stateName} `,
     description: `Find golf simulator venues in ${cityFormatted} by launch monitor and simulator technology. TrackMan, Foresight, and more.`,
     alternates: {
       canonical: `https://golfsimmap.com/venue/us/${state}/${city}/best/hardware`,

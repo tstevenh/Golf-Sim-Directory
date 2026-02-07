@@ -33,7 +33,7 @@ export async function generateMetadata({ params }: CityBestHardwarePageProps): P
   const brandDesc = hardwareDescriptions[brand.toLowerCase()] || "quality simulator hardware";
 
   return {
-    title: `Best ${brandLabel} Golf Simulators in ${cityFormatted}, ${stateName} | GolfSimMap`,
+    title: `Best ${brandLabel} Golf Simulators in ${cityFormatted}, ${stateName} `,
     description: `Find venues using ${brandLabel} simulators in ${cityFormatted}. ${brandDesc}. Compare ratings, amenities, and book your session.`,
     alternates: {
       canonical: `https://golfsimmap.com/venue/us/${state}/${city}/best/hardware/${brand}`,

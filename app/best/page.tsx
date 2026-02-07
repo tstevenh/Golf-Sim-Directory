@@ -31,14 +31,14 @@ import {
 export const dynamic = "force-static";
 
 export const metadata: Metadata = {
-  title: "Best Golf Simulators by Category | Find Your Perfect Venue | GolfSimMap",
-  description: "Discover the best golf simulator venues by category. Browse by vibe, hardware, amenities, occasion, and more. Compare TrackMan, Foresight, and Uneekor venues nationwide.",
+  title: "Best Golf Simulators by Category — Vibe, Tech, Amenities",
+  description: "Find your perfect golf simulator venue. Browse by vibe, launch monitor tech, amenities, software, or occasion. Compare hundreds of venues across the US.",
   alternates: {
     canonical: "https://golfsimmap.com/best",
   },
   openGraph: {
-    title: "Best Golf Simulators by Category | GolfSimMap",
-    description: "Find the perfect golf simulator venue by category — vibe, hardware, amenities, and more.",
+    title: "Best Golf Simulators by Category — Vibe, Tech, Amenities",
+    description: "Find your perfect golf simulator venue. Browse by vibe, launch monitor tech, amenities, software, or occasion.",
     type: "website",
     url: "https://golfsimmap.com/best",
   },

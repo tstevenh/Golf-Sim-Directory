@@ -77,7 +77,7 @@ export async function generateMetadata({ params }: BestTagPageProps): Promise<Me
   const content = getTagMetaContent(tag);
   
   return {
-    title: `Best ${tagLabel} Golf Simulators | GolfSimMap`,
+    title: `Best ${tagLabel} Golf Simulator Venues Near You`,
     description: content.description,
     alternates: {
       canonical: `https://golfsimmap.com/best/${tag}`,

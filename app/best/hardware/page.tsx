@@ -20,14 +20,14 @@ const hardwareLongDescriptions: Record<string, string> = {
 };
 
 export const metadata: Metadata = {
-  title: "Browse Golf Simulators by Technology | GolfSimMap",
-  description: "Find golf simulator venues by launch monitor and simulator technology. TrackMan, Foresight, Uneekor, Full Swing, and more.",
+  title: "Golf Simulators by Launch Monitor — TrackMan, Foresight & More",
+  description: "Find venues by simulator technology. Compare TrackMan, Foresight GCQuad, Uneekor, Full Swing, and other launch monitor systems at venues near you.",
   alternates: {
     canonical: "https://golfsimmap.com/best/hardware",
   },
   openGraph: {
-    title: "Browse Golf Simulators by Technology | GolfSimMap",
-    description: "Find golf simulator venues by launch monitor and simulator technology.",
+    title: "Golf Simulators by Launch Monitor — TrackMan, Foresight & More",
+    description: "Find venues by simulator technology. Compare TrackMan, Foresight, Uneekor, and more.",
     type: "website",
     url: "https://golfsimmap.com/best/hardware",
   },

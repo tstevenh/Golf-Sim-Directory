@@ -4,14 +4,14 @@ import { Target, Cpu, Camera, Radar } from "lucide-react";
 import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
 
 export const metadata: Metadata = {
-  title: "Golf Launch Monitor Guide & Reviews | GolfSimMap",
-  description: "Compare the top golf launch monitors: TrackMan 4, Foresight GCQuad, Uneekor EYE XO. Find specs, pricing, accuracy data, and which system is right for you.",
+  title: "Golf Launch Monitor Guide — TrackMan vs Foresight vs Uneekor",
+  description: "Compare top golf launch monitors side by side: TrackMan 4, Foresight GCQuad, Uneekor EYE XO. Specs, pricing, accuracy data, and buying advice.",
   alternates: {
     canonical: "https://golfsimmap.com/launch-monitors",
   },
   openGraph: {
-    title: "Golf Launch Monitor Guide & Reviews",
-    description: "Compare the top golf launch monitors: TrackMan 4, Foresight GCQuad, Uneekor EYE XO. Find specs, pricing, and accuracy data.",
+    title: "Golf Launch Monitor Guide — TrackMan vs Foresight vs Uneekor",
+    description: "Compare top golf launch monitors side by side. Specs, pricing, accuracy data, and buying advice.",
     type: "website",
     url: "https://golfsimmap.com/launch-monitors",
   },

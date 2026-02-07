@@ -2,8 +2,8 @@ import { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Blog | GolfSimMap",
-  description: "News, tips, and insights about indoor golf simulators and the golf industry.",
+  title: "Indoor Golf Blog — Tips, Guides & Industry News",
+  description: "Tips, buying guides, and industry news for indoor golf enthusiasts. Learn about launch monitors, simulator setups, and venue reviews.",
 };
 
 export default function BlogPage() {

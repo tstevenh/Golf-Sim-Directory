@@ -32,8 +32,8 @@ export async function generateMetadata({ params }: CityBestTagPageProps): Promis
   const tagDesc = tagDescriptions[tag] || `venues tagged for ${tagLabel}`;
 
   return {
-    title: `Best ${tagLabel} Golf Simulators in ${cityFormatted}, ${stateName} | GolfSimMap`,
-    description: `Find ${tagDesc} in ${cityFormatted}, ${stateName}. Compare amenities, hardware, and book your session.`,
+    title: `Best ${tagLabel} Golf Simulators in ${cityFormatted}, ${stateName} `,
+    description: `Discover ${tagDesc} in ${cityFormatted}, ${stateName}. See ratings, pricing, hours, and book your session online.`,
     alternates: {
       canonical: `https://golfsimmap.com/venue/us/${state}/${city}/best/${tag}`,
     },

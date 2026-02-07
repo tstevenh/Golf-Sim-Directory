@@ -71,7 +71,7 @@ export async function generateMetadata({ params }: BestWhoItsForPageProps): Prom
   const content = segmentContent[segment.toLowerCase()] || { tagline: "", description: "" };
   
   return {
-    title: `Best Golf Simulators for ${label} | GolfSimMap`,
+    title: `Best Golf Simulators for ${label} — Top Venues`,
     description: content.description || `Find golf simulator venues perfect for ${label}. Compare amenities, vibes, and booking options.`,
     alternates: {
       canonical: `https://golfsimmap.com/best/who-its-for/${segment}`,

@@ -64,7 +64,7 @@ export async function generateMetadata({ params }: CityBestAmenityPageProps): Pr
   const content = amenityContent[amenity.toLowerCase()] || { tagline: "", shortDesc: "this amenity" };
 
   return {
-    title: `Golf Simulators with ${amenityLabel} in ${cityFormatted}, ${stateName} | GolfSimMap`,
+    title: `Golf Simulators with ${amenityLabel} in ${cityFormatted}, ${stateName} `,
     description: `Find golf simulator venues with ${content.shortDesc} in ${cityFormatted}. Compare ratings, hardware, and book your session.`,
     alternates: {
       canonical: `https://golfsimmap.com/venue/us/${state}/${city}/best/amenities/${amenity}`,

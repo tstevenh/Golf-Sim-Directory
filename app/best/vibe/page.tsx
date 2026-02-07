@@ -7,14 +7,14 @@ import { AVAILABLE_VIBES } from "@/lib/category-config.generated";
 export const dynamic = "force-static";
 
 export const metadata: Metadata = {
-  title: "Browse Golf Simulators by Vibe | GolfSimMap",
-  description: "Find golf simulator venues by atmosphere and vibe. From casual hangouts to upscale lounges, discover the perfect spot for your next session.",
+  title: "Golf Simulators by Vibe — Casual, Upscale, Sports Bar & More",
+  description: "Browse golf simulator venues by atmosphere. Find casual hangouts, upscale lounges, sports bars, tech labs, and party spots near you.",
   alternates: {
     canonical: "https://golfsimmap.com/best/vibe",
   },
   openGraph: {
-    title: "Browse Golf Simulators by Vibe | GolfSimMap",
-    description: "Find golf simulator venues by atmosphere and vibe. From casual hangouts to upscale lounges.",
+    title: "Golf Simulators by Vibe — Casual, Upscale & More",
+    description: "Browse golf simulator venues by atmosphere. Find casual hangouts, upscale lounges, sports bars, and party spots.",
     type: "website",
     url: "https://golfsimmap.com/best/vibe",
   },

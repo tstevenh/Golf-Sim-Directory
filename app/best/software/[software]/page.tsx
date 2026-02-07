@@ -66,7 +66,7 @@ export async function generateMetadata({ params }: BestSoftwarePageProps): Promi
   const content = softwareContent[software.toLowerCase()] || { tagline: "", description: "" };
   
   return {
-    title: `Best ${label} Golf Simulators | GolfSimMap`,
+    title: `Best ${label} Golf Simulator Venues Near You`,
     description: content.description || `Find venues using ${label} simulator software. Compare amenities, hardware, and booking options.`,
     alternates: {
       canonical: `https://golfsimmap.com/best/software/${software}`,

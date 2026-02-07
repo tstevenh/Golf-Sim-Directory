@@ -68,7 +68,7 @@ export async function generateMetadata({ params }: BestHardwarePageProps): Promi
   const content = hardwareContent[brand.toLowerCase()] || { tagline: "Golf Simulator Hardware", description: "" };
   
   return {
-    title: `Best ${label} Golf Simulators | GolfSimMap`,
+    title: `Best ${label} Golf Simulator Venues Near You`,
     description: content.description || `Find indoor golf venues using ${label} hardware. Compare ratings, amenities, and booking options.`,
     alternates: {
       canonical: `https://golfsimmap.com/best/hardware/${brand}`,

@@ -7,14 +7,14 @@ import { AVAILABLE_SEGMENTS } from "@/lib/category-config.generated";
 export const dynamic = "force-static";
 
 export const metadata: Metadata = {
-  title: "Find Golf Simulators by Occasion | GolfSimMap",
-  description: "Discover golf simulator venues perfect for any occasion. Date nights, corporate events, family outings, serious practice, and more.",
+  title: "Golf Simulators for Every Occasion — Date Night, Groups & More",
+  description: "Find golf simulator venues perfect for date nights, corporate events, family outings, serious practice, bachelor parties, and more.",
   alternates: {
     canonical: "https://golfsimmap.com/best/who-its-for",
   },
   openGraph: {
-    title: "Find Golf Simulators by Occasion | GolfSimMap",
-    description: "Discover golf simulator venues perfect for any occasion.",
+    title: "Golf Simulators for Every Occasion — Date Night, Groups & More",
+    description: "Find golf simulator venues perfect for date nights, corporate events, family outings, and more.",
     type: "website",
     url: "https://golfsimmap.com/best/who-its-for",
   },

@@ -41,22 +41,22 @@ export async function generateMetadata({ params }: CityPageProps): Promise<Metad
     });
 
     return {
-      title: `Golf Simulators in ${cityFormatted}, ${stateName} (${venueCount} venues) | GolfSimMap`,
-      description: `Find indoor golf simulators in ${cityFormatted}, ${stateName}. Compare launch monitors, amenities, and book your next session.`,
+      title: `${venueCount} Best Golf Simulators in ${cityFormatted}, ${stateName}`,
+      description: `Compare ${venueCount} indoor golf simulator venues in ${cityFormatted}, ${stateName}. See launch monitors, pricing, hours, reviews, and book your session online.`,
       alternates: {
         canonical: `https://golfsimmap.com/venue/us/${state}/${city}`,
       },
       openGraph: {
-        title: `Golf Simulators in ${cityFormatted}, ${stateName}`,
-        description: `Discover ${venueCount} indoor golf venues in ${cityFormatted}. Compare TrackMan, Foresight, and more.`,
+        title: `${venueCount} Best Golf Simulators in ${cityFormatted}, ${stateName}`,
+        description: `Compare ${venueCount} indoor golf simulator venues in ${cityFormatted}. See pricing, reviews, and book online.`,
         type: "website",
         url: `https://golfsimmap.com/venue/us/${state}/${city}`,
       },
     };
   } catch {
     return {
-      title: "Golf Simulators | GolfSimMap",
-      description: "Find indoor golf simulators and screen golf venues.",
+      title: "Golf Simulators Near You",
+      description: "Find indoor golf simulators and screen golf venues near you.",
     };
   }
 }

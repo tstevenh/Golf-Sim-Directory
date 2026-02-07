@@ -31,17 +31,24 @@ export async function generateMetadata({ params }: VenuePageProps): Promise<Meta
     }
 
     const { state, city } = await params;
+    const venueTypeLabel = venue.venueType === "sim_bar" ? "Simulator Bar" 
+      : venue.venueType === "training_studio" ? "Training Studio"
+      : venue.venueType === "entertainment_venue" ? "Entertainment Venue"
+      : "Indoor Golf";
     const title =
       venue.metaTitle ||
-      `${venue.name} - Golf Simulator in ${venue.city}, ${venue.state}`;
+      `${venue.name} — ${venueTypeLabel} in ${venue.city}, ${venue.state}`;
+    const priceSnippet = venue.priceRangeMin && venue.priceRangeMax
+      ? ` From $${venue.priceRangeMin}/hr.`
+      : venue.priceRangeMin ? ` From $${venue.priceRangeMin}/hr.` : "";
     const description =
       venue.metaDescription ||
       venue.shortDescription ||
-      `Book a bay at ${venue.name} in ${venue.city}. ${
-        venue.venueType === "sim_bar"
-          ? "Golf simulator bar"
-          : "Indoor golf facility"
-      }.`;
+      `${venue.name} in ${venue.city}, ${venue.state} — ${venueTypeLabel.toLowerCase()} with ${
+        venue.launchMonitorType && venue.launchMonitorType !== "unknown"
+          ? venue.launchMonitorType + " launch monitors"
+          : "golf simulators"
+      }.${priceSnippet} Book online or walk in.`;
     const canonicalUrl = `https://golfsimmap.com/venue/us/${state}/${city}/${venue.slug}`;
 
     return {

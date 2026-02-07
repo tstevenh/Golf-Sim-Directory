@@ -68,7 +68,7 @@ export async function generateMetadata({ params }: BestVibePageProps): Promise<M
   const content = vibeContent[vibe.toLowerCase()] || { tagline: "", description: "" };
   
   return {
-    title: `Best ${vibeLabel} Golf Simulators | GolfSimMap`,
+    title: `Best ${vibeLabel} Golf Simulator Venues Near You`,
     description: content.description || `Discover golf simulator venues with a ${vibeLabel} vibe. Compare amenities, hardware, and booking options.`,
     alternates: {
       canonical: `https://golfsimmap.com/best/vibe/${vibe}`,

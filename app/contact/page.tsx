@@ -3,8 +3,8 @@ import Link from "next/link";
 import { Mail } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Contact Us | GolfSimMap",
-  description: "Get in touch with the GolfSimMap team. Questions, feedback, or partnership inquiries.",
+  title: "Contact GolfSimMap — Questions & Partnerships",
+  description: "Have a question about a venue listing? Want to partner with GolfSimMap? Get in touch with our team.",
 };
 
 export default function ContactPage() {

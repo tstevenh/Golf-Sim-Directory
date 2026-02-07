@@ -69,7 +69,7 @@ export async function generateMetadata({ params }: CityBestSoftwarePageProps): P
   const content = softwareContent[software.toLowerCase()] || { shortDesc: "this simulation software" };
 
   return {
-    title: `${softwareLabel} Golf Simulators in ${cityFormatted}, ${stateName} | GolfSimMap`,
+    title: `${softwareLabel} Golf Simulators in ${cityFormatted}, ${stateName} `,
     description: `Find golf simulator venues running ${content.shortDesc} in ${cityFormatted}. Compare courses, features, and book your session.`,
     alternates: {
       canonical: `https://golfsimmap.com/venue/us/${state}/${city}/best/software/${software}`,
