@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import { db, venueCardSelect } from "@/lib/db";
 import { BestByPageContent } from "@/components/seo/BestByPageContent";
 import { matchesSoftware } from "@/lib/best-by";
-import { VIBE_CATEGORIES, SEGMENT_CATEGORIES, HARDWARE_CATEGORIES } from "@/lib/best-by-config";
+import { getStaticRelatedLinks } from "@/lib/category-config.generated";
 
 interface BestSoftwarePageProps {
   params: Promise<{ software: string }>;
@@ -10,6 +10,19 @@ interface BestSoftwarePageProps {
 }
 
 export const revalidate = 3600;
+
+// Pre-render all software pages at build time
+export async function generateStaticParams() {
+  return [
+    { software: "e6" },
+    { software: "gspro" },
+    { software: "tgc" },
+    { software: "wgt" },
+    { software: "creative-golf" },
+    { software: "awesome-golf" },
+    { software: "trackman-virtual" },
+  ];
+}
 
 // Software-specific content
 const softwareContent: Record<string, { tagline: string; description: string }> = {
@@ -53,12 +66,16 @@ export async function generateMetadata({ params }: BestSoftwarePageProps): Promi
   const content = softwareContent[software.toLowerCase()] || { tagline: "", description: "" };
   
   return {
-    title: `Best ${label} Golf Simulators | GolfSimMap`,
+    title: `Best ${label} Golf Simulator Venues Near You`,
     description: content.description || `Find venues using ${label} simulator software. Compare amenities, hardware, and booking options.`,
+    alternates: {
+      canonical: `https://golfsimmap.com/best/software/${software}`,
+    },
     openGraph: {
       title: `Best ${label} Golf Simulators`,
       description: content.description || `Find venues using ${label} simulator software.`,
       type: "website",
+      url: `https://golfsimmap.com/best/software/${software}`,
     },
   };
 }
@@ -109,25 +126,10 @@ export default async function BestSoftwarePage({ params, searchParams }: BestSof
     },
   ];
 
-  // Generate related links from shared config
+  // Related categories - static, no DB query
   const relatedLinks = [
-    // Link to browse all
     { label: "Browse all categories", href: "/best" },
-    // Vibes
-    ...VIBE_CATEGORIES.slice(0, 2).map((v) => ({
-      label: `Best ${v.label}`,
-      href: `/best/vibe/${v.slug}`,
-    })),
-    // Segments
-    ...SEGMENT_CATEGORIES.slice(0, 2).map((s) => ({
-      label: `Best for ${s.label}`,
-      href: `/best/who-its-for/${s.slug}`,
-    })),
-    // Hardware
-    ...HARDWARE_CATEGORIES.slice(0, 2).map((h) => ({
-      label: `Best ${h.label}`,
-      href: `/best/hardware/${h.slug}`,
-    })),
+    ...getStaticRelatedLinks("software", software, 6),
   ];
 
   return (

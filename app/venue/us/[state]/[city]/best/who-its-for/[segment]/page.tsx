@@ -3,7 +3,7 @@ import { db, venueCardSelect } from "@/lib/db";
 import { BestByPageContent } from "@/components/seo/BestByPageContent";
 import { matchesWhoItsFor } from "@/lib/best-by";
 import { getStateDisplayName, getStateAbbrevFromName } from "@/lib/states";
-import { getCityBestByLinks } from "@/lib/best-by-config";
+import { getStaticRelatedLinks } from "@/lib/category-config.generated";
 
 interface CityBestWhoItsForPageProps {
   params: Promise<{ state: string; city: string; segment: string }>;
@@ -61,12 +61,16 @@ export async function generateMetadata({ params }: CityBestWhoItsForPageProps): 
   const segmentDesc = segmentDescriptions[segment.toLowerCase()] || { tagline: "", description: "" };
 
   return {
-    title: `Best Golf Simulators for ${segmentLabel} in ${cityFormatted}, ${stateName} | GolfSimMap`,
+    title: `Best Golf Simulators for ${segmentLabel} in ${cityFormatted}, ${stateName} `,
     description: segmentDesc.description || `Find best golf simulator venues for ${segmentLabel} in ${cityFormatted}. Compare amenities, vibes, and booking options.`,
+    alternates: {
+      canonical: `https://golfsimmap.com/venue/us/${state}/${city}/best/who-its-for/${segment}`,
+    },
     openGraph: {
       title: `Best Golf Simulators for ${segmentLabel} in ${cityFormatted}`,
       description: segmentDesc.description || `Find best golf simulator venues for ${segmentLabel} in ${cityFormatted}.`,
       type: "website",
+      url: `https://golfsimmap.com/venue/us/${state}/${city}/best/who-its-for/${segment}`,
     },
   };
 }
@@ -141,18 +145,11 @@ export default async function CityBestWhoItsForPage({ params, searchParams }: Ci
     },
   ];
 
-  // Get diverse cross-links to other best-by categories in this city
-  const allCategoryLinks = getCityBestByLinks(state, cityFormatted, `segment-${segment}`);
+  // Related links - static, no DB query
   const relatedLinks = [
     { label: `All venues in ${cityFormatted}`, href: `/venue/us/${state}/${city}` },
     { label: `For ${segmentLabel} (nationwide)`, href: `/best/who-its-for/${segment}` },
-    // Pick 3 diverse categories: 2 other segments, 1 vibe
-    ...allCategoryLinks
-      .filter((l) => l.category === "segment")
-      .slice(0, 2),
-    ...allCategoryLinks
-      .filter((l) => l.category === "vibe")
-      .slice(0, 1),
+    ...getStaticRelatedLinks("who-its-for", segment, 4),
   ];
 
   return (

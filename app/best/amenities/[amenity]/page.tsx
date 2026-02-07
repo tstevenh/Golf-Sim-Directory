@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import { db, venueCardSelect } from "@/lib/db";
 import { BestByPageContent } from "@/components/seo/BestByPageContent";
 import { matchesAmenity } from "@/lib/best-by";
-import { VIBE_CATEGORIES, SEGMENT_CATEGORIES, HARDWARE_CATEGORIES } from "@/lib/best-by-config";
+import { getStaticRelatedLinks } from "@/lib/category-config.generated";
 
 interface BestAmenityPageProps {
   params: Promise<{ amenity: string }>;
@@ -10,6 +10,23 @@ interface BestAmenityPageProps {
 }
 
 export const revalidate = 3600;
+
+// Pre-render all amenity pages at build time
+export async function generateStaticParams() {
+  return [
+    { amenity: "private_rooms" },
+    { amenity: "full_bar" },
+    { amenity: "kitchen_food" },
+    { amenity: "coaching_available" },
+    { amenity: "club_fitting" },
+    { amenity: "wifi" },
+    { amenity: "parking" },
+    { amenity: "outdoor_space" },
+    { amenity: "events" },
+    { amenity: "leagues" },
+    { amenity: "memberships" },
+  ];
+}
 
 // Amenity-specific content
 const amenityContent: Record<string, { tagline: string; description: string }> = {
@@ -73,12 +90,16 @@ export async function generateMetadata({ params }: BestAmenityPageProps): Promis
   const content = amenityContent[amenity.toLowerCase()] || { tagline: "", description: "" };
   
   return {
-    title: `Best Golf Simulators with ${label} | GolfSimMap`,
+    title: `Golf Simulators with ${label} — Top-Rated Venues`,
     description: content.description || `Find venues offering ${label}. Compare hardware, booking options, and vibes.`,
+    alternates: {
+      canonical: `https://golfsimmap.com/best/amenities/${amenity}`,
+    },
     openGraph: {
       title: `Best Golf Simulators with ${label}`,
       description: content.description || `Find venues offering ${label}.`,
       type: "website",
+      url: `https://golfsimmap.com/best/amenities/${amenity}`,
     },
   };
 }
@@ -129,25 +150,10 @@ export default async function BestAmenityPage({ params, searchParams }: BestAmen
     },
   ];
 
-  // Generate related links from shared config
+  // Related categories - static, no DB query
   const relatedLinks = [
-    // Link to browse all
     { label: "Browse all categories", href: "/best" },
-    // Vibes
-    ...VIBE_CATEGORIES.slice(0, 2).map((v) => ({
-      label: `Best ${v.label}`,
-      href: `/best/vibe/${v.slug}`,
-    })),
-    // Segments
-    ...SEGMENT_CATEGORIES.slice(0, 2).map((s) => ({
-      label: `Best for ${s.label}`,
-      href: `/best/who-its-for/${s.slug}`,
-    })),
-    // Hardware
-    ...HARDWARE_CATEGORIES.slice(0, 2).map((h) => ({
-      label: `Best ${h.label}`,
-      href: `/best/hardware/${h.slug}`,
-    })),
+    ...getStaticRelatedLinks("amenities", amenity, 6),
   ];
 
   return (

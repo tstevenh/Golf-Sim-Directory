@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import { db, venueCardSelect } from "@/lib/db";
 import { BestByPageContent } from "@/components/seo/BestByPageContent";
 import { matchesHardware } from "@/lib/best-by";
-import { VIBE_CATEGORIES, SEGMENT_CATEGORIES, HARDWARE_CATEGORIES } from "@/lib/best-by-config";
+import { getStaticRelatedLinks } from "@/lib/category-config.generated";
 
 interface BestHardwarePageProps {
   params: Promise<{ brand: string }>;
@@ -10,6 +10,21 @@ interface BestHardwarePageProps {
 }
 
 export const revalidate = 3600;
+
+// Pre-render all hardware pages at build time
+export async function generateStaticParams() {
+  return [
+    { brand: "trackman" },
+    { brand: "foresight" },
+    { brand: "uneekor" },
+    { brand: "full-swing" },
+    { brand: "golfzon" },
+    { brand: "aboutgolf" },
+    { brand: "skytrak" },
+    { brand: "gc-quad" },
+    { brand: "garmin" },
+  ];
+}
 
 // Hardware-specific content
 const hardwareContent: Record<string, { tagline: string; description: string; icon?: string }> = {
@@ -53,12 +68,16 @@ export async function generateMetadata({ params }: BestHardwarePageProps): Promi
   const content = hardwareContent[brand.toLowerCase()] || { tagline: "Golf Simulator Hardware", description: "" };
   
   return {
-    title: `Best ${label} Golf Simulators | GolfSimMap`,
+    title: `Best ${label} Golf Simulator Venues Near You`,
     description: content.description || `Find indoor golf venues using ${label} hardware. Compare ratings, amenities, and booking options.`,
+    alternates: {
+      canonical: `https://golfsimmap.com/best/hardware/${brand}`,
+    },
     openGraph: {
       title: `Best ${label} Golf Simulators`,
       description: content.description || `Find indoor golf venues using ${label} hardware.`,
       type: "website",
+      url: `https://golfsimmap.com/best/hardware/${brand}`,
     },
   };
 }
@@ -109,25 +128,10 @@ export default async function BestHardwarePage({ params, searchParams }: BestHar
     },
   ];
 
-  // Generate related links from shared config
+  // Related categories - static, no DB query
   const relatedLinks = [
-    // Link to all hardware
     { label: "All technology", href: "/best/hardware/" },
-    // Other hardware (excluding current)
-    ...HARDWARE_CATEGORIES.filter((h) => h.slug !== brand).slice(0, 2).map((h) => ({
-      label: `Best ${h.label}`,
-      href: `/best/hardware/${h.slug}`,
-    })),
-    // Vibes
-    ...VIBE_CATEGORIES.slice(0, 2).map((v) => ({
-      label: `Best ${v.label}`,
-      href: `/best/vibe/${v.slug}`,
-    })),
-    // Segments
-    ...SEGMENT_CATEGORIES.slice(0, 2).map((s) => ({
-      label: `Best for ${s.label}`,
-      href: `/best/who-its-for/${s.slug}`,
-    })),
+    ...getStaticRelatedLinks("hardware", brand, 6),
   ];
 
   return (

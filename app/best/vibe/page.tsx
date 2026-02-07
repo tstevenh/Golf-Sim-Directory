@@ -1,40 +1,63 @@
 import { Metadata } from "next";
 import Link from "next/link";
-import { db } from "@/lib/db";
-import { VIBE_CATEGORIES } from "@/lib/best-by-config";
 import { Sparkles, ArrowRight } from "lucide-react";
+import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
+import { AVAILABLE_VIBES } from "@/lib/category-config.generated";
+
+export const dynamic = "force-static";
 
 export const metadata: Metadata = {
-  title: "Browse Golf Simulators by Vibe | GolfSimMap",
-  description: "Find golf simulator venues by atmosphere and vibe. From casual hangouts to upscale lounges, discover the perfect spot.",
+  title: "Golf Simulators by Vibe — Casual, Upscale, Sports Bar & More",
+  description: "Browse golf simulator venues by atmosphere. Find casual hangouts, upscale lounges, sports bars, tech labs, and party spots near you.",
+  alternates: {
+    canonical: "https://golfsimmap.com/best/vibe",
+  },
+  openGraph: {
+    title: "Golf Simulators by Vibe — Casual, Upscale & More",
+    description: "Browse golf simulator venues by atmosphere. Find casual hangouts, upscale lounges, sports bars, and party spots.",
+    type: "website",
+    url: "https://golfsimmap.com/best/vibe",
+  },
 };
 
-export const revalidate = 60;
+const breadcrumbItems = [
+  { label: "Home", href: "/" },
+  { label: "Best By", href: "/best" },
+  { label: "Vibe", current: true },
+];
 
-export default async function VibeIndexPage() {
-  // Get venue counts for each vibe category
-  const venues = await db.venue.findMany({
-    where: { status: "active" },
-    select: { vibeTags: true },
-  });
-
-  // Calculate counts for each vibe
-  const vibeCounts = VIBE_CATEGORIES.map((vibe) => {
-    const count = venues.filter((v) => (v.vibeTags || []).includes(vibe.slug)).length;
-    return { ...vibe, count };
-  }).filter((v) => v.count > 0);
+export default function VibeIndexPage() {
+  const vibeCounts = AVAILABLE_VIBES.filter((v) => v.count > 0);
 
   return (
     <div className="min-h-screen bg-deep-black">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        {/* Schema Markup */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "CollectionPage",
+              "name": "Browse Golf Simulators by Vibe",
+              "description": "Find golf simulator venues by atmosphere and vibe.",
+              "url": "https://golfsimmap.com/best/vibe",
+              "breadcrumb": {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                  { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://golfsimmap.com" },
+                  { "@type": "ListItem", "position": 2, "name": "Best By", "item": "https://golfsimmap.com/best" },
+                  { "@type": "ListItem", "position": 3, "name": "Vibe", "item": "https://golfsimmap.com/best/vibe" },
+                ],
+              },
+            }),
+          }}
+        />
+
         {/* Breadcrumbs */}
-        <nav className="flex items-center gap-2 text-sm text-muted mb-8">
-          <Link href="/" className="hover:text-cream transition-colors">Home</Link>
-          <span>/</span>
-          <Link href="/best" className="hover:text-cream transition-colors">Best By</Link>
-          <span>/</span>
-          <span className="text-cream">Vibe</span>
-        </nav>
+        <div className="mb-8">
+          <Breadcrumbs items={breadcrumbItems} />
+        </div>
 
         {/* Header */}
         <div className="mb-12">
@@ -67,7 +90,6 @@ export default async function VibeIndexPage() {
                   </h2>
                   <ArrowRight className="w-5 h-5 text-muted group-hover:text-masters-green transition-colors" />
                 </div>
-                <p className="text-muted mb-4">{vibe.description}</p>
                 <div className="flex items-center gap-2 text-sm">
                   <span className="text-masters-green font-mono">{vibe.count}</span>
                   <span className="text-muted">

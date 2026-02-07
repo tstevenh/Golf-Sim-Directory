@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import { db, venueCardSelect } from "@/lib/db";
 import { BestByPageContent } from "@/components/seo/BestByPageContent";
 import { matchesVibe } from "@/lib/best-by";
-import { VIBE_CATEGORIES, SEGMENT_CATEGORIES, HARDWARE_CATEGORIES } from "@/lib/best-by-config";
+import { getStaticRelatedLinks } from "@/lib/category-config.generated";
 
 interface BestVibePageProps {
   params: Promise<{ vibe: string }>;
@@ -10,6 +10,21 @@ interface BestVibePageProps {
 }
 
 export const revalidate = 3600;
+
+// Pre-render all vibe pages at build time
+export async function generateStaticParams() {
+  return [
+    { vibe: "upscale" },
+    { vibe: "casual" },
+    { vibe: "sports-bar" },
+    { vibe: "boutique" },
+    { vibe: "lounge" },
+    { vibe: "entertainment" },
+    { vibe: "family" },
+    { vibe: "tech-lab" },
+    { vibe: "party-atmosphere" },
+  ];
+}
 
 // Vibe-specific content
 const vibeContent: Record<string, { tagline: string; description: string }> = {
@@ -53,12 +68,16 @@ export async function generateMetadata({ params }: BestVibePageProps): Promise<M
   const content = vibeContent[vibe.toLowerCase()] || { tagline: "", description: "" };
   
   return {
-    title: `Best ${vibeLabel} Golf Simulators | GolfSimMap`,
+    title: `Best ${vibeLabel} Golf Simulator Venues Near You`,
     description: content.description || `Discover golf simulator venues with a ${vibeLabel} vibe. Compare amenities, hardware, and booking options.`,
+    alternates: {
+      canonical: `https://golfsimmap.com/best/vibe/${vibe}`,
+    },
     openGraph: {
       title: `Best ${vibeLabel} Golf Simulators`,
       description: content.description || `Discover golf simulator venues with a ${vibeLabel} vibe.`,
       type: "website",
+      url: `https://golfsimmap.com/best/vibe/${vibe}`,
     },
   };
 }
@@ -109,25 +128,10 @@ export default async function BestVibePage({ params, searchParams }: BestVibePag
     },
   ];
 
-  // Generate related links from shared config
+  // Related categories - static, no DB query
   const relatedLinks = [
-    // Link to all vibes
     { label: "All vibes", href: "/best/vibe/" },
-    // Other vibes (excluding current)
-    ...VIBE_CATEGORIES.filter((v) => v.slug !== vibe).slice(0, 2).map((v) => ({
-      label: `Best ${v.label}`,
-      href: `/best/vibe/${v.slug}`,
-    })),
-    // Segments
-    ...SEGMENT_CATEGORIES.slice(0, 2).map((s) => ({
-      label: `Best for ${s.label}`,
-      href: `/best/who-its-for/${s.slug}`,
-    })),
-    // Hardware
-    ...HARDWARE_CATEGORIES.slice(0, 2).map((h) => ({
-      label: `Best ${h.label}`,
-      href: `/best/hardware/${h.slug}`,
-    })),
+    ...getStaticRelatedLinks("vibe", vibe, 6),
   ];
 
   return (

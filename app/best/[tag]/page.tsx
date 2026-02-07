@@ -3,7 +3,7 @@ import { db, venueCardSelect } from "@/lib/db";
 import { BestByPageContent } from "@/components/seo/BestByPageContent";
 import { TagPageHero, getTagHeroContent } from "@/components/seo/PageHero";
 import { matchesTag } from "@/lib/best-by";
-import { VIBE_CATEGORIES, SEGMENT_CATEGORIES, HARDWARE_CATEGORIES } from "@/lib/best-by-config";
+import { getStaticRelatedLinks } from "@/lib/category-config.generated";
 
 interface BestTagPageProps {
   params: Promise<{ tag: string }>;
@@ -12,18 +12,81 @@ interface BestTagPageProps {
 
 export const revalidate = 3600;
 
+// Pre-render all tag pages at build time
+export async function generateStaticParams() {
+  // Return all known tags - pages will be statically generated
+  return [
+    { tag: "sim-bar" },
+    { tag: "date-night" },
+    { tag: "corporate-events" },
+    { tag: "family-friendly" },
+    { tag: "serious-practice" },
+    { tag: "party-venue" },
+    { tag: "premium-experience" },
+    { tag: "budget-friendly" },
+  ];
+}
+
+// Server-compatible tag content for metadata (no JSX)
+const tagMetaContent: Record<string, { tagline: string; description: string }> = {
+  "sim-bar": {
+    tagline: "Golf + Great Food & Drinks",
+    description: "Discover golf simulator venues with full bar service, craft cocktails, and delicious food. Perfect for social outings where you want the complete entertainment experience."
+  },
+  "date-night": {
+    tagline: "Romantic Golf Experiences",
+    description: "Find the perfect golf simulator spots for date night. These venues offer intimate atmospheres, quality food & drinks, and a fun activity you can enjoy together."
+  },
+  "corporate-events": {
+    tagline: "Team Building & Client Entertainment",
+    description: "Professional golf simulator venues ideal for corporate events, team outings, and client entertainment. Many offer private rooms and catering services."
+  },
+  "family-friendly": {
+    tagline: "Fun for All Ages",
+    description: "Golf simulator venues perfect for the whole family. These spots welcome kids, offer a safe environment, and make golf accessible to beginners of all ages."
+  },
+  "serious-practice": {
+    tagline: "Training & Improvement",
+    description: "Venues built for golfers focused on improvement. Expect quality launch monitors, data analysis, and an environment suited for focused practice sessions."
+  },
+  "party-venue": {
+    tagline: "Celebrate & Play",
+    description: "Golf simulator spots perfect for parties and celebrations. Whether it's a birthday, bachelor party, or just a fun night out, these venues know how to throw an event."
+  },
+  "premium-experience": {
+    tagline: "Luxury Golf Simulation",
+    description: "Top-tier golf simulator venues offering the best equipment, ambiance, and service. Expect premium hardware, upscale amenities, and exceptional experiences."
+  },
+  "budget-friendly": {
+    tagline: "Great Golf, Great Value",
+    description: "Quality golf simulator experiences that won't break the bank. Find venues with reasonable rates, hourly deals, and memberships that offer real value."
+  },
+};
+
+function getTagMetaContent(tag: string) {
+  const tagLabel = tag.replace(/-/g, " ");
+  return tagMetaContent[tag] || {
+    tagline: `Best ${tagLabel} Golf Simulators`,
+    description: `Find the best golf simulator venues tagged as "${tagLabel}". Browse ratings, amenities, and book your next session.`
+  };
+}
+
 export async function generateMetadata({ params }: BestTagPageProps): Promise<Metadata> {
   const { tag } = await params;
   const tagLabel = tag.replace(/-/g, " ");
-  const content = getTagHeroContent(tag);
+  const content = getTagMetaContent(tag);
   
   return {
-    title: `Best ${tagLabel} Golf Simulators | GolfSimMap`,
+    title: `Best ${tagLabel} Golf Simulator Venues Near You`,
     description: content.description,
+    alternates: {
+      canonical: `https://golfsimmap.com/best/${tag}`,
+    },
     openGraph: {
       title: `Best ${tagLabel} Golf Simulators`,
       description: content.description,
       type: "website",
+      url: `https://golfsimmap.com/best/${tag}`,
     },
   };
 }
@@ -68,8 +131,11 @@ export default async function BestTagPage({ params, searchParams }: BestTagPageP
     },
   ];
 
-  // Related categories based on the tag
-  const relatedLinks = getRelatedLinks(tag);
+  // Related categories - static, no DB query
+  const relatedLinks = [
+    { label: "Browse all categories", href: "/best" },
+    ...getStaticRelatedLinks("tags", tag, 6),
+  ];
 
   return (
     <div className="min-h-screen bg-deep-black">
@@ -105,27 +171,4 @@ export default async function BestTagPage({ params, searchParams }: BestTagPageP
       </div>
     </div>
   );
-}
-
-// Helper to get related links based on tag using shared config
-function getRelatedLinks(tag: string) {
-  return [
-    // Link to browse all
-    { label: "Browse all categories", href: "/best" },
-    // Vibe categories
-    ...VIBE_CATEGORIES.slice(0, 2).map((v) => ({
-      label: `Best ${v.label}`,
-      href: `/best/vibe/${v.slug}`,
-    })),
-    // Segment categories
-    ...SEGMENT_CATEGORIES.slice(0, 2).map((s) => ({
-      label: `Best for ${s.label}`,
-      href: `/best/who-its-for/${s.slug}`,
-    })),
-    // Hardware categories
-    ...HARDWARE_CATEGORIES.slice(0, 2).map((h) => ({
-      label: `Best ${h.label}`,
-      href: `/best/hardware/${h.slug}`,
-    })),
-  ];
 }

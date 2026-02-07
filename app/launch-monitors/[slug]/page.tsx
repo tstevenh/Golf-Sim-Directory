@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Radar, Camera, Target, Check, DollarSign, Building2, User, HelpCircle, Wrench, ArrowRight, ChevronRight } from "lucide-react";
+import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
 
 interface LaunchMonitorPageProps {
   params: Promise<{ slug: string }>;
@@ -319,40 +320,42 @@ const launchMonitorsData: Record<string, {
   }
 };
 
-// Generate JSON-LD schema for SEO
-function generateSchema(data: typeof launchMonitorsData[string], slug: string) {
-  return {
+// Generate JSON-LD schemas for SEO
+function generateSchemas(data: typeof launchMonitorsData[string], slug: string) {
+  const productSchema = {
     "@context": "https://schema.org",
     "@type": "Product",
     name: data.name,
     brand: {
       "@type": "Brand",
-      name: data.manufacturer
+      name: data.manufacturer,
     },
     description: data.description,
+    url: `https://golfsimmap.com/launch-monitors/${slug}`,
     offers: {
-      "@type": "Offer",
-      price: data.price.replace(/[^0-9]/g, "").slice(0, 5),
+      "@type": "AggregateOffer",
+      lowPrice: data.price.replace(/[^0-9]/g, "").slice(0, 5),
+      highPrice: data.price.replace(/[^0-9]/g, "").slice(-5),
       priceCurrency: "USD",
-      availability: "https://schema.org/InStock"
+      availability: "https://schema.org/InStock",
     },
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: "4.8",
-      reviewCount: "127"
-    },
-    faqPage: {
-      "@type": "FAQPage",
-      mainEntity: data.faqs.map(faq => ({
-        "@type": "Question",
-        name: faq.question,
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: faq.answer
-        }
-      }))
-    }
+    category: "Golf Launch Monitor",
   };
+
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: data.faqs.map((faq) => ({
+      "@type": "Question",
+      name: faq.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: faq.answer,
+      },
+    })),
+  };
+
+  return { productSchema, faqSchema };
 }
 
 export async function generateMetadata({ params }: LaunchMonitorPageProps): Promise<Metadata> {
@@ -364,8 +367,17 @@ export async function generateMetadata({ params }: LaunchMonitorPageProps): Prom
   }
   
   return {
-    title: `${data.name} Review & Specs 2025 | GolfSimMap`,
-    description: `${data.description} Full specifications, pricing, accuracy data, FAQs, and who should buy. Compare with similar systems.`,
+    title: `${data.name} Review — Specs, Pricing & Accuracy (2025)`,
+    description: `${data.name} by ${data.manufacturer}: ${data.price}. ${data.accuracy} accuracy, ${data.metrics}+ data points. Full specs, pros/cons, FAQs, and who should buy.`,
+    alternates: {
+      canonical: `https://golfsimmap.com/launch-monitors/${slug}`,
+    },
+    openGraph: {
+      title: `${data.name} Review — Specs, Pricing & Accuracy (2025)`,
+      description: `${data.name}: ${data.price}. ${data.accuracy} accuracy, ${data.metrics}+ data points. Full specs and buying guide.`,
+      type: "article",
+      url: `https://golfsimmap.com/launch-monitors/${slug}`,
+    },
   };
 }
 
@@ -378,25 +390,30 @@ export default async function LaunchMonitorDetailPage({ params }: LaunchMonitorP
   }
   
   const Icon = slug === "trackman-4" ? Radar : slug === "gcquad" ? Camera : Target;
-  const schema = generateSchema(data, slug);
+  const { productSchema, faqSchema } = generateSchemas(data, slug);
   
   return (
     <div className="min-h-screen bg-deep-black">
-      {/* JSON-LD Schema */}
+      {/* JSON-LD Schemas */}
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        {/* Breadcrumbs */}
-        <nav className="flex items-center gap-2 text-sm text-muted mb-6">
-          <Link href="/" className="hover:text-cream transition-colors">Home</Link>
-          <span>/</span>
-          <Link href="/launch-monitors" className="hover:text-cream transition-colors">Launch Monitors</Link>
-          <span>/</span>
-          <span className="text-cream">{data.name}</span>
-        </nav>
+        {/* Breadcrumbs with schema */}
+        <Breadcrumbs
+          items={[
+            { label: "Home", href: "/" },
+            { label: "Launch Monitors", href: "/launch-monitors" },
+            { label: data.name },
+          ]}
+          className="mb-6"
+        />
 
         {/* Hero Section */}
         <div className="mb-12">

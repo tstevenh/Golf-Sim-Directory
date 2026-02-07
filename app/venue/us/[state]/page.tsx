@@ -5,6 +5,7 @@ import { Building2, MapPin } from "lucide-react";
 import { CityCard } from "@/components/location/LocationCards";
 import { VenueCard } from "@/components/venue/VenueCard";
 import { SeoIndexSections } from "@/components/seo/SeoIndexSections";
+import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
 import {
   getStateDisplayName,
   getStateAbbrevFromName,
@@ -34,12 +35,21 @@ export async function generateMetadata({ params }: StatePageProps): Promise<Meta
     });
 
     return {
-      title: `Golf Simulators in ${stateName} (${venueCount} venues) | GolfSimMap`,
-      description: `Find indoor golf simulators and screen golf venues in ${stateName}. Compare launch monitors, amenities, and book your next session.`,
+      title: `Indoor Golf Simulators in ${stateName} — ${venueCount} Venues`,
+      description: `Browse ${venueCount} golf simulator venues across ${stateName}. Compare launch monitors, pricing, vibes, and amenities. Find your nearest indoor golf spot.`,
+      alternates: {
+        canonical: `https://golfsimmap.com/venue/us/${state}`,
+      },
+      openGraph: {
+        title: `Indoor Golf Simulators in ${stateName} — ${venueCount} Venues`,
+        description: `Browse ${venueCount} golf simulator venues across ${stateName}. Compare launch monitors, pricing, and book online.`,
+        type: "website",
+        url: `https://golfsimmap.com/venue/us/${state}`,
+      },
     };
   } catch {
     return {
-      title: "Golf Simulators by State | GolfSimMap",
+      title: "Golf Simulators by State",
       description: "Find indoor golf simulators across the United States.",
     };
   }
@@ -121,6 +131,13 @@ export default async function StatePage({ params }: StatePageProps) {
   const { stateAbbrev, stateName, citiesResult, featuredVenues, totalVenues } = data;
 
   const citiesWithVenues = citiesResult.sort((a, b) => b._count.id - a._count.id);
+
+  const breadcrumbItems = [
+    { label: "Home", href: "/" },
+    { label: "United States", href: "/venue/us" },
+    { label: stateName },
+  ];
+
   const topCityLinks = citiesWithVenues.slice(0, 8).map((cityData) => {
     const citySlug = cityData.city.toLowerCase().replace(/\s+/g, "-");
     return {
@@ -129,11 +146,19 @@ export default async function StatePage({ params }: StatePageProps) {
     };
   });
 
-  // Generate related best-by links from shared config
+  // Top city for city-level best-by links
+  const topCity = citiesWithVenues.length > 0 ? citiesWithVenues[0] : null;
+  const topCitySlug = topCity ? topCity.city.toLowerCase().replace(/\s+/g, "-") : "";
+
+  // Generate related best-by links from shared config + city-level links
   const relatedLinks = [
-    // Link to main best-by index
     { label: "Browse all categories", href: "/best" },
-    // Vibe categories
+    // City-level best-by links for top city
+    ...(topCity ? [
+      { label: `Best vibes in ${topCity.city}`, href: `/venue/us/${state}/${topCitySlug}/best/vibe` },
+      { label: `Best tech in ${topCity.city}`, href: `/venue/us/${state}/${topCitySlug}/best/hardware` },
+    ] : []),
+    // Global vibe categories
     ...VIBE_CATEGORIES.slice(0, 2).map((v) => ({
       label: `Best ${v.label}`,
       href: `/best/vibe/${v.slug}`,
@@ -148,24 +173,36 @@ export default async function StatePage({ params }: StatePageProps) {
       label: `Best ${h.label}`,
       href: `/best/hardware/${h.slug}`,
     })),
+    // Launch monitor guide
+    { label: "Launch monitor guide", href: "/launch-monitors" },
   ];
 
   const faqItems = [
     {
       question: `How many indoor golf venues are in ${stateName}?`,
-      answer: `We currently track ${totalVenues} active venues across ${stateName}. Listings include simulator bars, training studios, and private rental facilities.`,
+      answer: `We currently track ${totalVenues} active venues across ${citiesWithVenues.length} cities in ${stateName}. Listings include simulator bars, training studios, entertainment venues, and private rental facilities.`,
     },
     {
       question: `What launch monitors are most common in ${stateName}?`,
-      answer: `Top venues in ${stateName} typically use Trackman, Foresight, Uneekor, and hybrid systems. Each listing calls out its simulator hardware and launch monitor type.`,
+      answer: `Top venues in ${stateName} typically use TrackMan (dual radar), Foresight GCQuad (camera-based), Uneekor (overhead camera), and Full Swing systems. Each listing shows its simulator hardware and launch monitor type so you can find your preferred technology.`,
+    },
+    {
+      question: `How much do golf simulators cost in ${stateName}?`,
+      answer: `Pricing varies by venue and location. Standard bays typically range from $30-$60 per hour, with premium venues charging $60-$100+ per hour. Many locations offer per-person rates, group packages, or memberships. Check individual listings for current pricing.`,
     },
     {
       question: `Do venues in ${stateName} allow walk-ins?`,
       answer: `Many venues accept walk-ins during off-peak hours, but booking ahead is recommended for evenings and weekends. Check each listing for booking links and walk-in policies.`,
     },
     {
+      question: `Which city in ${stateName} has the most golf simulators?`,
+      answer: topCity 
+        ? `${topCity.city} leads with ${topCity._count.id} venues. ${citiesWithVenues.length > 1 ? `Other popular cities include ${citiesWithVenues.slice(1, 4).map(c => `${c.city} (${c._count.id})`).join(", ")}.` : ""}`
+        : `Browse the cities below to find venues near you.`,
+    },
+    {
       question: `How do I get my venue listed in ${stateName}?`,
-      answer: `Use the submit form to add a listing, or claim an existing venue to verify and manage it. All submissions are reviewed before publishing.`,
+      answer: `Use the submit form to add a listing, or claim an existing venue to verify and manage it. All submissions are reviewed before publishing. Claiming is free and lets you update photos, hours, and pricing.`,
     },
   ];
 
@@ -174,13 +211,31 @@ export default async function StatePage({ params }: StatePageProps) {
       <div className="absolute inset-0 scorecard-grid opacity-20" />
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center gap-2 text-sm text-muted mb-6">
-          <Link href="/" className="hover:text-cream transition-colors">Home</Link>
-          <span>/</span>
-          <Link href="/venue/us" className="hover:text-cream transition-colors">United States</Link>
-          <span>/</span>
-          <span className="text-cream">{stateName}</span>
-        </div>
+        {/* CollectionPage Schema */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "CollectionPage",
+              name: `Golf Simulators in ${stateName}`,
+              description: `Find ${totalVenues} indoor golf simulator venues across ${stateName}.`,
+              url: `https://golfsimmap.com/venue/us/${state}`,
+              mainEntity: {
+                "@type": "ItemList",
+                numberOfItems: citiesWithVenues.length,
+                itemListElement: citiesWithVenues.slice(0, 10).map((cityData, i) => ({
+                  "@type": "ListItem",
+                  position: i + 1,
+                  name: `Golf simulators in ${cityData.city}`,
+                  url: `https://golfsimmap.com/venue/us/${state}/${cityData.city.toLowerCase().replace(/\s+/g, "-")}`,
+                })),
+              },
+            }),
+          }}
+        />
+
+        <Breadcrumbs items={breadcrumbItems} className="mb-6" />
 
         <div className="mb-10">
           <div className="flex items-center gap-3 mb-4">
@@ -208,8 +263,12 @@ export default async function StatePage({ params }: StatePageProps) {
           methodologyDescription="Featured venues are sorted by rating and listing quality. City popularity is based on venue count, and search results prioritize verified data, complete listings, and recent updates." 
           faqTitle={`FAQs about indoor golf in ${stateName}`}
           faqItems={faqItems}
+          nearbyTitle={`Top cities in ${stateName}`}
+          nearbyLinks={topCityLinks}
           relatedTitle="Browse by category"
           relatedLinks={relatedLinks}
+          venueCount={totalVenues}
+          showStats={true}
           ctaTitle="Own a golf simulator venue?"
           ctaDescription="Claim your listing to verify details, update photos, and reach golfers searching in your area."
           ctaPrimary={{ label: "Claim a listing", href: "/claim" }}

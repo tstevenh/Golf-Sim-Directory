@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import { LaunchMonitorType } from "@prisma/client";
 import { db, venueCardSelect } from "@/lib/db";
 import { BestByPageContent } from "@/components/seo/BestByPageContent";
-import { VIBE_CATEGORIES, SEGMENT_CATEGORIES, HARDWARE_CATEGORIES } from "@/lib/best-by-config";
+import { getStaticRelatedLinks } from "@/lib/category-config.generated";
 
 interface BestLaunchMonitorPageProps {
   params: Promise<{ type: string }>;
@@ -10,6 +10,15 @@ interface BestLaunchMonitorPageProps {
 }
 
 export const revalidate = 3600;
+
+// Pre-render all launch monitor pages at build time
+export async function generateStaticParams() {
+  return [
+    { type: "radar" },
+    { type: "photometric_camera" },
+    { type: "hybrid" },
+  ];
+}
 
 // Launch monitor type-specific content
 const launchMonitorContent: Record<string, { tagline: string; description: string }> = {
@@ -49,12 +58,16 @@ export async function generateMetadata({ params }: BestLaunchMonitorPageProps): 
   const content = launchMonitorContent[type.toLowerCase()] || { tagline: "", description: "" };
   
   return {
-    title: `Best ${label} Launch Monitor Venues | GolfSimMap`,
+    title: `${label} Launch Monitor Venues — Find & Compare`,
     description: content.description || `Find golf simulator venues using ${label} launch monitors. Compare accuracy, amenities, and booking options.`,
+    alternates: {
+      canonical: `https://golfsimmap.com/best/launch-monitor/${type}`,
+    },
     openGraph: {
       title: `Best ${label} Launch Monitor Venues`,
       description: content.description || `Find golf simulator venues using ${label} launch monitors.`,
       type: "website",
+      url: `https://golfsimmap.com/best/launch-monitor/${type}`,
     },
   };
 }
@@ -103,25 +116,10 @@ export default async function BestLaunchMonitorPage({ params, searchParams }: Be
     },
   ];
 
-  // Generate related links from shared config
+  // Related categories - static, no DB query
   const relatedLinks = [
-    // Link to browse all
     { label: "Browse all categories", href: "/best" },
-    // Vibes
-    ...VIBE_CATEGORIES.slice(0, 2).map((v) => ({
-      label: `Best ${v.label}`,
-      href: `/best/vibe/${v.slug}`,
-    })),
-    // Segments
-    ...SEGMENT_CATEGORIES.slice(0, 2).map((s) => ({
-      label: `Best for ${s.label}`,
-      href: `/best/who-its-for/${s.slug}`,
-    })),
-    // Hardware
-    ...HARDWARE_CATEGORIES.slice(0, 2).map((h) => ({
-      label: `Best ${h.label}`,
-      href: `/best/hardware/${h.slug}`,
-    })),
+    ...getStaticRelatedLinks("launch-monitor", type, 6),
   ];
 
   return (

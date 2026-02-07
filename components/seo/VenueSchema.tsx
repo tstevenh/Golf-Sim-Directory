@@ -6,12 +6,14 @@ interface VenueSchemaProps {
 }
 
 export function VenueSchema({ venue }: VenueSchemaProps) {
+  const venueUrl = `https://golfsimmap.com/venue/us/${getStateSlug(venue.state)}/${venue.city.toLowerCase().replace(/\s+/g, "-")}/${venue.slug}`;
+
   const schema = {
     "@context": "https://schema.org",
-    "@type": "SportsActivityLocation",
+    "@type": ["SportsActivityLocation", "LocalBusiness"],
     name: venue.name,
     description: venue.shortDescription || venue.about,
-    url: `${process.env.NEXT_PUBLIC_APP_URL}/venue/us/${getStateSlug(venue.state)}/${venue.city.toLowerCase().replace(/\s+/g, "-")}/${venue.slug}`,
+    url: venueUrl,
     address: {
       "@type": "PostalAddress",
       streetAddress: venue.address,
@@ -20,25 +22,31 @@ export function VenueSchema({ venue }: VenueSchemaProps) {
       postalCode: venue.zipCode,
       addressCountry: venue.country,
     },
-    geo: {
+    geo: venue.latitude && venue.longitude ? {
       "@type": "GeoCoordinates",
       latitude: venue.latitude,
       longitude: venue.longitude,
-    },
+    } : undefined,
     ...(venue.phone && { telephone: venue.phone }),
     ...(venue.email && { email: venue.email }),
-    ...(venue.website && { url: venue.website }),
+    ...(venue.website && { sameAs: venue.website }),
     ...(venue.heroImage && { image: venue.heroImage }),
-    ...(venue.ratingOverall && {
+    // Only include aggregateRating if we have a proper ratingCount
+    // Google requires ratingCount or reviewCount for aggregateRating
+    ...(venue.ratingOverall && (venue as Record<string, unknown>).ratingCount ? {
       aggregateRating: {
         "@type": "AggregateRating",
         ratingValue: venue.ratingOverall,
+        ratingCount: (venue as Record<string, unknown>).ratingCount,
         bestRating: 5,
         worstRating: 1,
       },
-    }),
+    } : {}),
     ...(venue.hours && {
       openingHoursSpecification: parseHours(venue.hours),
+    }),
+    ...(venue.priceRangeMin && venue.priceRangeMax && {
+      priceRange: `$${venue.priceRangeMin} - $${venue.priceRangeMax}`,
     }),
   };
 

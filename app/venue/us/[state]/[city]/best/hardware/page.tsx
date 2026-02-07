@@ -3,6 +3,7 @@ import Link from "next/link";
 import { db } from "@/lib/db";
 import { getStateDisplayName, getStateAbbrevFromName } from "@/lib/states";
 import { HARDWARE_CATEGORIES, getCityHardwareUrl, getStateUrl, getCityUrl } from "@/lib/best-by-config";
+import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
 import { Monitor, ArrowRight } from "lucide-react";
 
 interface CityHardwareIndexPageProps {
@@ -20,8 +21,17 @@ export async function generateMetadata({ params }: CityHardwareIndexPageProps): 
     .replace(/\b\w/g, (l) => l.toUpperCase());
 
   return {
-    title: `Browse by Technology in ${cityFormatted}, ${stateName} | GolfSimMap`,
+    title: `Browse by Technology in ${cityFormatted}, ${stateName} `,
     description: `Find golf simulator venues in ${cityFormatted} by launch monitor and simulator technology. TrackMan, Foresight, and more.`,
+    alternates: {
+      canonical: `https://golfsimmap.com/venue/us/${state}/${city}/best/hardware`,
+    },
+    openGraph: {
+      title: `Browse by Technology in ${cityFormatted}, ${stateName}`,
+      description: `Find golf simulator venues in ${cityFormatted} by simulator technology.`,
+      type: "website",
+      url: `https://golfsimmap.com/venue/us/${state}/${city}/best/hardware`,
+    },
   };
 }
 
@@ -78,18 +88,31 @@ export default async function CityHardwareIndexPage({ params }: CityHardwareInde
   return (
     <div className="min-h-screen bg-deep-black">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        {/* Breadcrumbs */}
-        <nav className="flex items-center gap-2 text-sm text-muted mb-8">
-          <Link href="/" className="hover:text-cream transition-colors">Home</Link>
-          <span>/</span>
-          <Link href="/venue/us" className="hover:text-cream transition-colors">United States</Link>
-          <span>/</span>
-          <Link href={getStateUrl(state)} className="hover:text-cream transition-colors">{stateName}</Link>
-          <span>/</span>
-          <Link href={getCityUrl(state, cityFormatted)} className="hover:text-cream transition-colors">{cityFormatted}</Link>
-          <span>/</span>
-          <span className="text-cream">Browse by Technology</span>
-        </nav>
+        {/* Breadcrumbs with schema */}
+        <Breadcrumbs
+          items={[
+            { label: "Home", href: "/" },
+            { label: "United States", href: "/venue/us" },
+            { label: stateName, href: getStateUrl(state) },
+            { label: cityFormatted, href: getCityUrl(state, cityFormatted) },
+            { label: "Browse by Technology" },
+          ]}
+          className="mb-8"
+        />
+
+        {/* CollectionPage Schema */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "CollectionPage",
+              name: `Browse by Technology in ${cityFormatted}, ${stateName}`,
+              description: `Find golf simulator venues in ${cityFormatted} by launch monitor and simulator technology.`,
+              url: `https://golfsimmap.com/venue/us/${state}/${city}/best/hardware`,
+            }),
+          }}
+        />
 
         {/* Header */}
         <div className="mb-12">

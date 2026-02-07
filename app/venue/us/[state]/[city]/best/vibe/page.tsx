@@ -3,6 +3,7 @@ import Link from "next/link";
 import { db } from "@/lib/db";
 import { getStateDisplayName, getStateAbbrevFromName } from "@/lib/states";
 import { VIBE_CATEGORIES, getCityVibeUrl, getStateUrl, getCityUrl } from "@/lib/best-by-config";
+import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
 import { Sparkles, ArrowRight } from "lucide-react";
 
 interface CityVibeIndexPageProps {
@@ -20,8 +21,17 @@ export async function generateMetadata({ params }: CityVibeIndexPageProps): Prom
     .replace(/\b\w/g, (l) => l.toUpperCase());
 
   return {
-    title: `Browse by Vibe in ${cityFormatted}, ${stateName} | GolfSimMap`,
+    title: `Browse by Vibe in ${cityFormatted}, ${stateName} `,
     description: `Explore golf simulator venues in ${cityFormatted} by atmosphere and vibe. Find casual spots, upscale lounges, sports bars, and more.`,
+    alternates: {
+      canonical: `https://golfsimmap.com/venue/us/${state}/${city}/best/vibe`,
+    },
+    openGraph: {
+      title: `Browse by Vibe in ${cityFormatted}, ${stateName}`,
+      description: `Explore golf simulator venues in ${cityFormatted} by atmosphere and vibe.`,
+      type: "website",
+      url: `https://golfsimmap.com/venue/us/${state}/${city}/best/vibe`,
+    },
   };
 }
 
@@ -54,18 +64,31 @@ export default async function CityVibeIndexPage({ params }: CityVibeIndexPagePro
   return (
     <div className="min-h-screen bg-deep-black">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        {/* Breadcrumbs */}
-        <nav className="flex items-center gap-2 text-sm text-muted mb-8">
-          <Link href="/" className="hover:text-cream transition-colors">Home</Link>
-          <span>/</span>
-          <Link href="/venue/us" className="hover:text-cream transition-colors">United States</Link>
-          <span>/</span>
-          <Link href={getStateUrl(state)} className="hover:text-cream transition-colors">{stateName}</Link>
-          <span>/</span>
-          <Link href={getCityUrl(state, cityFormatted)} className="hover:text-cream transition-colors">{cityFormatted}</Link>
-          <span>/</span>
-          <span className="text-cream">Browse by Vibe</span>
-        </nav>
+        {/* Breadcrumbs with schema */}
+        <Breadcrumbs
+          items={[
+            { label: "Home", href: "/" },
+            { label: "United States", href: "/venue/us" },
+            { label: stateName, href: getStateUrl(state) },
+            { label: cityFormatted, href: getCityUrl(state, cityFormatted) },
+            { label: "Browse by Vibe" },
+          ]}
+          className="mb-8"
+        />
+
+        {/* CollectionPage Schema */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "CollectionPage",
+              name: `Browse by Vibe in ${cityFormatted}, ${stateName}`,
+              description: `Explore golf simulator venues in ${cityFormatted} by atmosphere and vibe.`,
+              url: `https://golfsimmap.com/venue/us/${state}/${city}/best/vibe`,
+            }),
+          }}
+        />
 
         {/* Header */}
         <div className="mb-12">

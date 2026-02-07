@@ -2,8 +2,17 @@ import { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "About Us | GolfSimMap",
-  description: "Learn about GolfSimMap, the definitive directory for indoor golf simulator venues across the USA.",
+  title: "About GolfSimMap — The Indoor Golf Simulator Directory",
+  description: "GolfSimMap helps golfers find and compare indoor golf simulator venues across the US. Learn about our mission, data, and how we rank venues.",
+  alternates: {
+    canonical: "https://golfsimmap.com/about",
+  },
+  openGraph: {
+    title: "About GolfSimMap — The Indoor Golf Simulator Directory",
+    description: "GolfSimMap helps golfers find and compare indoor golf simulator venues across the US.",
+    type: "website",
+    url: "https://golfsimmap.com/about",
+  },
 };
 
 export default function AboutPage() {

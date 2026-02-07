@@ -5,8 +5,8 @@ import { VenueCard } from "@/components/venue/VenueCard";
 import { getStateSlug } from "@/lib/states";
 
 export const metadata: Metadata = {
-  title: "Claim Your Venue | GolfSimMap",
-  description: "Claim your golf simulator venue listing to verify details, update photos, and attract more golfers.",
+  title: "Claim Your Golf Simulator Venue Listing",
+  description: "Own a golf simulator venue? Claim your free listing on GolfSimMap to update hours, photos, pricing, and reach more local golfers.",
 };
 
 export default async function ClaimPage() {

@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import { db, venueCardSelect } from "@/lib/db";
 import { BestByPageContent } from "@/components/seo/BestByPageContent";
 import { matchesWhoItsFor } from "@/lib/best-by";
-import { VIBE_CATEGORIES, SEGMENT_CATEGORIES, HARDWARE_CATEGORIES } from "@/lib/best-by-config";
+import { getStaticRelatedLinks } from "@/lib/category-config.generated";
 
 interface BestWhoItsForPageProps {
   params: Promise<{ segment: string }>;
@@ -10,6 +10,20 @@ interface BestWhoItsForPageProps {
 }
 
 export const revalidate = 3600;
+
+// Pre-render all segment pages at build time
+export async function generateStaticParams() {
+  return [
+    { segment: "beginners" },
+    { segment: "corporate-groups" },
+    { segment: "serious-golfers" },
+    { segment: "date-night" },
+    { segment: "large-groups" },
+    { segment: "families" },
+    { segment: "league-players" },
+    { segment: "seniors" },
+  ];
+}
 
 // Segment-specific content
 const segmentContent: Record<string, { tagline: string; description: string }> = {
@@ -57,12 +71,16 @@ export async function generateMetadata({ params }: BestWhoItsForPageProps): Prom
   const content = segmentContent[segment.toLowerCase()] || { tagline: "", description: "" };
   
   return {
-    title: `Best Golf Simulators for ${label} | GolfSimMap`,
+    title: `Best Golf Simulators for ${label} — Top Venues`,
     description: content.description || `Find golf simulator venues perfect for ${label}. Compare amenities, vibes, and booking options.`,
+    alternates: {
+      canonical: `https://golfsimmap.com/best/who-its-for/${segment}`,
+    },
     openGraph: {
       title: `Best Golf Simulators for ${label}`,
       description: content.description || `Find golf simulator venues perfect for ${label}.`,
       type: "website",
+      url: `https://golfsimmap.com/best/who-its-for/${segment}`,
     },
   };
 }
@@ -113,25 +131,10 @@ export default async function BestWhoItsForPage({ params, searchParams }: BestWh
     },
   ];
 
-  // Generate related links from shared config
+  // Related categories - static, no DB query
   const relatedLinks = [
-    // Link to all segments
     { label: "All occasions", href: "/best/who-its-for/" },
-    // Other segments (excluding current)
-    ...SEGMENT_CATEGORIES.filter((s) => s.slug !== segment).slice(0, 2).map((s) => ({
-      label: `Best for ${s.label}`,
-      href: `/best/who-its-for/${s.slug}`,
-    })),
-    // Vibes
-    ...VIBE_CATEGORIES.slice(0, 2).map((v) => ({
-      label: `Best ${v.label}`,
-      href: `/best/vibe/${v.slug}`,
-    })),
-    // Hardware
-    ...HARDWARE_CATEGORIES.slice(0, 2).map((h) => ({
-      label: `Best ${h.label}`,
-      href: `/best/hardware/${h.slug}`,
-    })),
+    ...getStaticRelatedLinks("who-its-for", segment, 6),
   ];
 
   return (

@@ -8,8 +8,9 @@ import { Pagination } from "@/components/ui/Pagination";
 import { CityCategoryLinks } from "@/components/seo/CityCategoryLinks";
 import { SeoIndexSections } from "@/components/seo/SeoIndexSections";
 import { getStateDisplayName, getStateAbbrevFromName } from "@/lib/states";
-import { getCityCategoryBrowseLinksWithCounts } from "@/lib/best-by-data";
+import { getStaticRelatedLinks, AVAILABLE_VIBES, AVAILABLE_SEGMENTS, AVAILABLE_HARDWARE } from "@/lib/category-config.generated";
 import { getCityVibeIndexUrl, getCityWhoItsForIndexUrl, getCityHardwareIndexUrl } from "@/lib/best-by-config";
+import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
 
 interface CityPageProps {
   params: Promise<{
@@ -40,13 +41,22 @@ export async function generateMetadata({ params }: CityPageProps): Promise<Metad
     });
 
     return {
-      title: `Golf Simulators in ${cityFormatted}, ${stateName} (${venueCount} venues) | GolfSimMap`,
-      description: `Find indoor golf simulators in ${cityFormatted}, ${stateName}. Compare launch monitors, amenities, and book your next session.`,
+      title: `${venueCount} Best Golf Simulators in ${cityFormatted}, ${stateName}`,
+      description: `Compare ${venueCount} indoor golf simulator venues in ${cityFormatted}, ${stateName}. See launch monitors, pricing, hours, reviews, and book your session online.`,
+      alternates: {
+        canonical: `https://golfsimmap.com/venue/us/${state}/${city}`,
+      },
+      openGraph: {
+        title: `${venueCount} Best Golf Simulators in ${cityFormatted}, ${stateName}`,
+        description: `Compare ${venueCount} indoor golf simulator venues in ${cityFormatted}. See pricing, reviews, and book online.`,
+        type: "website",
+        url: `https://golfsimmap.com/venue/us/${state}/${city}`,
+      },
     };
   } catch {
     return {
-      title: "Golf Simulators | GolfSimMap",
-      description: "Find indoor golf simulators and screen golf venues.",
+      title: "Golf Simulators Near You",
+      description: "Find indoor golf simulators and screen golf venues near you.",
     };
   }
 }
@@ -76,7 +86,7 @@ export default async function CityPage({ params, searchParams }: CityPageProps) 
     const pageSize = 12;
     const skip = (page - 1) * pageSize;
 
-    const [venues, totalVenues, nearbyCitiesResult, categoryLinks] = await Promise.all([
+    const [venues, totalVenues, nearbyCitiesResult] = await Promise.all([
       db.venue.findMany({
         where: {
           city: { equals: cityFormatted, mode: "insensitive" },
@@ -108,7 +118,6 @@ export default async function CityPage({ params, searchParams }: CityPageProps) 
         distinct: ["city"],
         take: 6,
       }),
-      getCityCategoryBrowseLinksWithCounts(state, cityFormatted),
     ]);
 
     if (totalVenues === 0) {
@@ -130,14 +139,13 @@ export default async function CityPage({ params, searchParams }: CityPageProps) 
     const totalPages = Math.ceil(totalVenues / pageSize);
     const nearbyCities = nearbyCitiesResult.map((c) => c.city);
 
-    // Build related links from categories
+    // Related links - static, no extra DB query
+    const staticLinks = getStaticRelatedLinks("city", "", 4);
     const relatedLinks = [
-      ...categoryLinks.vibes.slice(0, 2).map(v => ({ label: `Best ${v.label}`, href: v.href })),
-      ...categoryLinks.segments.slice(0, 2).map(s => ({ label: `Best for ${s.label}`, href: s.href })),
-      ...categoryLinks.hardware.slice(0, 2).map(h => ({ label: `Best ${h.label}`, href: h.href })),
       { label: "Browse by Vibe", href: getCityVibeIndexUrl(state, cityFormatted) },
       { label: "Browse by Occasion", href: getCityWhoItsForIndexUrl(state, cityFormatted) },
       { label: "Browse by Technology", href: getCityHardwareIndexUrl(state, cityFormatted) },
+      ...staticLinks.map(l => ({ label: l.label, href: l.href })),
     ];
 
     // Build nearby city links
@@ -151,20 +159,20 @@ export default async function CityPage({ params, searchParams }: CityPageProps) 
         <div className="absolute inset-0 scorecard-grid opacity-20" />
         
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <CitySchema city={cityFormatted} state={stateName} venueCount={totalVenues} />
+          <CitySchema city={cityFormatted} state={stateName} stateSlug={state} venueCount={totalVenues} />
 
           {/* Header */}
           <div className="mb-12">
-            {/* Breadcrumbs */}
-            <div className="flex items-center gap-2 text-sm text-muted mb-4">
-              <Link href="/" className="hover:text-cream transition-colors">Home</Link>
-              <span>/</span>
-              <Link href="/venue/us" className="hover:text-cream transition-colors">United States</Link>
-              <span>/</span>
-              <Link href={`/venue/us/${state}`} className="hover:text-cream transition-colors">{stateName}</Link>
-              <span>/</span>
-              <span className="text-cream">{cityFormatted}</span>
-            </div>
+            {/* Breadcrumbs with schema */}
+            <Breadcrumbs
+              items={[
+                { label: "Home", href: "/" },
+                { label: "United States", href: "/venue/us" },
+                { label: stateName, href: `/venue/us/${state}` },
+                { label: cityFormatted },
+              ]}
+              className="mb-4"
+            />
 
             <div className="flex items-center gap-3 mb-4">
               <div className="w-8 h-px bg-masters-green" />
@@ -224,12 +232,26 @@ export default async function CityPage({ params, searchParams }: CityPageProps) 
             )}
           </section>
 
-          {/* Browse by Category */}
+          {/* Browse by Category - using static config */}
           <div className="mt-12">
             <CityCategoryLinks
               state={state}
               city={cityFormatted}
-              {...categoryLinks}
+              vibes={AVAILABLE_VIBES.filter(v => v.count > 0).slice(0, 4).map(v => ({
+                href: `/venue/us/${state}/${city}/best/vibe/${v.slug}`,
+                label: v.label,
+                count: v.count,
+              }))}
+              segments={AVAILABLE_SEGMENTS.filter(s => s.count > 0).slice(0, 4).map(s => ({
+                href: `/venue/us/${state}/${city}/best/who-its-for/${s.slug}`,
+                label: s.label,
+                count: s.count,
+              }))}
+              hardware={AVAILABLE_HARDWARE.filter(h => h.count > 0).slice(0, 4).map(h => ({
+                href: `/venue/us/${state}/${city}/best/hardware/${h.slug}`,
+                label: h.label,
+                count: h.count,
+              }))}
             />
           </div>
 

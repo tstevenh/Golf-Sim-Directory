@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Terms of Service | GolfSimMap",
+  title: "Terms of Service",
   description: "Terms of Service for GolfSimMap - the indoor golf simulator directory.",
 };
 

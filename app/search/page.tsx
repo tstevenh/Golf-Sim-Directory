@@ -6,8 +6,8 @@ import { getStateSlug } from "@/lib/states";
 import { Search } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Search Golf Simulators | GolfSimMap",
-  description: "Search indoor golf simulators by city, venue type, launch monitor, and amenities.",
+  title: "Search Golf Simulators — Find Venues Near You",
+  description: "Search indoor golf simulator venues by city, state, launch monitor type, vibe, and amenities. Find and book your perfect venue.",
 };
 
 // Force dynamic rendering to avoid caching issues

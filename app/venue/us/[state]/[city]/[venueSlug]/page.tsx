@@ -5,6 +5,7 @@ import { db } from "@/lib/db";
 import { auth } from "@/lib/auth";
 import { VenueDetail } from "@/components/venue/VenueDetail";
 import { VenueSchema } from "@/components/seo/VenueSchema";
+import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
 import { SessionUser } from "@/types";
 import { getStateDisplayName, getStateAbbrevFromName } from "@/lib/states";
 
@@ -29,17 +30,26 @@ export async function generateMetadata({ params }: VenuePageProps): Promise<Meta
       return { title: "Venue Not Found" };
     }
 
+    const { state, city } = await params;
+    const venueTypeLabel = venue.venueType === "sim_bar" ? "Simulator Bar" 
+      : venue.venueType === "training_studio" ? "Training Studio"
+      : venue.venueType === "entertainment_venue" ? "Entertainment Venue"
+      : "Indoor Golf";
     const title =
       venue.metaTitle ||
-      `${venue.name} - Golf Simulator in ${venue.city}, ${venue.state}`;
+      `${venue.name} — ${venueTypeLabel} in ${venue.city}, ${venue.state}`;
+    const priceSnippet = venue.priceRangeMin && venue.priceRangeMax
+      ? ` From $${venue.priceRangeMin}/hr.`
+      : venue.priceRangeMin ? ` From $${venue.priceRangeMin}/hr.` : "";
     const description =
       venue.metaDescription ||
       venue.shortDescription ||
-      `Book a bay at ${venue.name} in ${venue.city}. ${
-        venue.venueType === "sim_bar"
-          ? "Golf simulator bar"
-          : "Indoor golf facility"
-      }.`;
+      `${venue.name} in ${venue.city}, ${venue.state} — ${venueTypeLabel.toLowerCase()} with ${
+        venue.launchMonitorType && venue.launchMonitorType !== "unknown"
+          ? venue.launchMonitorType + " launch monitors"
+          : "golf simulators"
+      }.${priceSnippet} Book online or walk in.`;
+    const canonicalUrl = `https://golfsimmap.com/venue/us/${state}/${city}/${venue.slug}`;
 
     return {
       title,
@@ -52,9 +62,14 @@ export async function generateMetadata({ params }: VenuePageProps): Promise<Meta
         "screen golf",
         venue.venueType === "sim_bar" ? "golf bar" : "golf facility",
       ],
+      alternates: {
+        canonical: canonicalUrl,
+      },
       openGraph: {
         title,
         description,
+        type: "website",
+        url: canonicalUrl,
         images: venue.heroImage ? [venue.heroImage] : [],
       },
     };
@@ -156,17 +171,15 @@ export default async function VenuePage({ params }: VenuePageProps) {
       <div className="min-h-screen bg-deep-black">
         <VenueSchema venue={venue} />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-6">
-          <div className="flex items-center gap-2 text-sm text-muted">
-            <Link href="/" className="hover:text-cream transition-colors">Home</Link>
-            <span>/</span>
-            <Link href="/venue/us" className="hover:text-cream transition-colors">United States</Link>
-            <span>/</span>
-            <Link href={`/venue/us/${state}`} className="hover:text-cream transition-colors">{stateName}</Link>
-            <span>/</span>
-            <Link href={`/venue/us/${state}/${city}`} className="hover:text-cream transition-colors">{cityFormatted}</Link>
-            <span>/</span>
-            <span className="text-cream">{venue.name}</span>
-          </div>
+          <Breadcrumbs
+            items={[
+              { label: "Home", href: "/" },
+              { label: "United States", href: "/venue/us" },
+              { label: stateName, href: `/venue/us/${state}` },
+              { label: cityFormatted, href: `/venue/us/${state}/${city}` },
+              { label: venue.name },
+            ]}
+          />
         </div>
 
         <VenueDetail 

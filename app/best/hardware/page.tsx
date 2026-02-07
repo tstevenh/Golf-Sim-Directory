@@ -1,15 +1,10 @@
 import { Metadata } from "next";
 import Link from "next/link";
-import { db } from "@/lib/db";
-import { HARDWARE_CATEGORIES } from "@/lib/best-by-config";
 import { Monitor, ArrowRight } from "lucide-react";
+import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
+import { AVAILABLE_HARDWARE } from "@/lib/category-config.generated";
 
-export const metadata: Metadata = {
-  title: "Browse Golf Simulators by Technology | GolfSimMap",
-  description: "Find golf simulator venues by launch monitor and simulator technology. TrackMan, Foresight, GC Quad, and more.",
-};
-
-export const revalidate = 60;
+export const dynamic = "force-static";
 
 // Hardware-specific longer descriptions
 const hardwareLongDescriptions: Record<string, string> = {
@@ -19,45 +14,66 @@ const hardwareLongDescriptions: Record<string, string> = {
   garmin: "Accessible radar technology with intuitive interfaces. Great for golfers getting started with launch monitors.",
   skytrak: "Popular choice for home and commercial setups offering excellent value with solid accuracy.",
   "full-swing": "Pro-grade simulators combining launch monitors with immersive simulation software.",
+  golfzon: "Korean-made commercial systems with advanced swing plate technology and vast course library.",
+  uneekor: "Overhead camera systems offering detailed ball and club data without the need for ball markers.",
+  aboutgolf: "Full-enclosure simulator systems popular in commercial venues and entertainment centers.",
 };
 
-export default async function HardwareIndexPage() {
-  // Get venue counts for each hardware brand
-  const venues = await db.venue.findMany({
-    where: { status: "active" },
-    select: { simulatorSystems: true },
-  });
+export const metadata: Metadata = {
+  title: "Golf Simulators by Launch Monitor — TrackMan, Foresight & More",
+  description: "Find venues by simulator technology. Compare TrackMan, Foresight GCQuad, Uneekor, Full Swing, and other launch monitor systems at venues near you.",
+  alternates: {
+    canonical: "https://golfsimmap.com/best/hardware",
+  },
+  openGraph: {
+    title: "Golf Simulators by Launch Monitor — TrackMan, Foresight & More",
+    description: "Find venues by simulator technology. Compare TrackMan, Foresight, Uneekor, and more.",
+    type: "website",
+    url: "https://golfsimmap.com/best/hardware",
+  },
+};
 
-  // Calculate counts for each hardware brand
-  const hardwareCounts = HARDWARE_CATEGORIES.map((hardware) => {
-    const count = venues.filter((v) => {
-      const systems = v.simulatorSystems as { brand?: string; model?: string }[] | null;
-      if (systems) {
-        return systems.some(
-          (s) => s.brand?.toLowerCase() === hardware.slug.toLowerCase() ||
-                 s.brand?.toLowerCase().replace(/\s+/g, "-") === hardware.slug.toLowerCase()
-        );
-      }
-      return false;
-    }).length;
-    return { 
-      ...hardware, 
-      count,
-      description: hardwareLongDescriptions[hardware.slug] || hardware.description
-    };
-  }).filter((h) => h.count > 0);
+const breadcrumbItems = [
+  { label: "Home", href: "/" },
+  { label: "Best By", href: "/best" },
+  { label: "Technology", current: true },
+];
+
+export default function HardwareIndexPage() {
+  const hardwareCounts = AVAILABLE_HARDWARE.filter((h) => h.count > 0).map((h) => ({
+    ...h,
+    description: hardwareLongDescriptions[h.slug] || `Find venues using ${h.label} technology.`,
+  }));
 
   return (
     <div className="min-h-screen bg-deep-black">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        {/* Schema Markup */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "CollectionPage",
+              "name": "Browse Golf Simulators by Technology",
+              "description": "Find golf simulator venues by launch monitor and simulator technology.",
+              "url": "https://golfsimmap.com/best/hardware",
+              "breadcrumb": {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                  { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://golfsimmap.com" },
+                  { "@type": "ListItem", "position": 2, "name": "Best By", "item": "https://golfsimmap.com/best" },
+                  { "@type": "ListItem", "position": 3, "name": "Technology", "item": "https://golfsimmap.com/best/hardware" },
+                ],
+              },
+            }),
+          }}
+        />
+
         {/* Breadcrumbs */}
-        <nav className="flex items-center gap-2 text-sm text-muted mb-8">
-          <Link href="/" className="hover:text-cream transition-colors">Home</Link>
-          <span>/</span>
-          <Link href="/best" className="hover:text-cream transition-colors">Best By</Link>
-          <span>/</span>
-          <span className="text-cream">Technology</span>
-        </nav>
+        <div className="mb-8">
+          <Breadcrumbs items={breadcrumbItems} />
+        </div>
 
         {/* Header */}
         <div className="mb-12">

@@ -19,32 +19,32 @@ const jetbrains = JetBrains_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "GolfSimMap | Find Golf Simulators Near You",
+    default: "GolfSimMap — Find Indoor Golf Simulators Near You",
     template: "%s | GolfSimMap",
   },
-  description: "Discover indoor golf simulator venues across the USA. Compare Trackman, Foresight, Uneekor systems and book your next session.",
-  keywords: ["golf simulators", "indoor golf", "screen golf", "Trackman", "Foresight", "Uneekor", "golf simulator near me"],
+  description: "Search 270+ indoor golf simulator venues across the US. Compare TrackMan, Foresight & Uneekor launch monitors, check pricing, and book your next session.",
+  keywords: ["golf simulators", "indoor golf", "screen golf", "golf simulator near me", "TrackMan", "Foresight", "Uneekor", "golf simulator bar"],
   metadataBase: new URL("https://golfsimmap.com"),
   openGraph: {
     type: "website",
     locale: "en_US",
     url: "https://golfsimmap.com",
     siteName: "GolfSimMap",
-    title: "GolfSimMap | Find Golf Simulators Near You",
-    description: "Discover indoor golf simulator venues across the USA. Compare Trackman, Foresight, Uneekor systems and book your next session.",
+    title: "GolfSimMap — Find Indoor Golf Simulators Near You",
+    description: "Search 270+ indoor golf simulator venues across the US. Compare TrackMan, Foresight & Uneekor launch monitors, check pricing, and book your next session.",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "GolfSimMap - Find Golf Simulators Near You",
+        alt: "GolfSimMap — Find Indoor Golf Simulators Near You",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "GolfSimMap | Find Golf Simulators Near You",
-    description: "Discover indoor golf simulator venues across the USA. Compare Trackman, Foresight, Uneekor systems and book your next session.",
+    title: "GolfSimMap — Find Indoor Golf Simulators Near You",
+    description: "Search 270+ indoor golf simulator venues across the US. Compare TrackMan, Foresight & Uneekor launch monitors, check pricing, and book your next session.",
     images: ["/og-image.jpg"],
   },
   robots: {
