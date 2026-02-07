@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import { db, venueCardSelect } from "@/lib/db";
 import { BestByPageContent } from "@/components/seo/BestByPageContent";
 import { matchesHardware } from "@/lib/best-by";
-import { VIBE_CATEGORIES, SEGMENT_CATEGORIES, HARDWARE_CATEGORIES } from "@/lib/best-by-config";
+import { getGlobalRelatedLinksWithCounts } from "@/lib/best-by-data";
 
 interface BestHardwarePageProps {
   params: Promise<{ brand: string }>;
@@ -113,25 +113,11 @@ export default async function BestHardwarePage({ params, searchParams }: BestHar
     },
   ];
 
-  // Generate related links from shared config
+  // Generate related links dynamically - only categories with venues
+  const dynamicLinks = await getGlobalRelatedLinksWithCounts("hardware", brand, 6);
   const relatedLinks = [
-    // Link to all hardware
     { label: "All technology", href: "/best/hardware/" },
-    // Other hardware (excluding current)
-    ...HARDWARE_CATEGORIES.filter((h) => h.slug !== brand).slice(0, 2).map((h) => ({
-      label: `Best ${h.label}`,
-      href: `/best/hardware/${h.slug}`,
-    })),
-    // Vibes
-    ...VIBE_CATEGORIES.slice(0, 2).map((v) => ({
-      label: `Best ${v.label}`,
-      href: `/best/vibe/${v.slug}`,
-    })),
-    // Segments
-    ...SEGMENT_CATEGORIES.slice(0, 2).map((s) => ({
-      label: `Best for ${s.label}`,
-      href: `/best/who-its-for/${s.slug}`,
-    })),
+    ...dynamicLinks,
   ];
 
   return (

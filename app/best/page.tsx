@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import Link from "next/link";
+import { db } from "@/lib/db";
 import { 
   Trophy, 
   Monitor, 
@@ -16,6 +17,10 @@ import {
   HelpCircle
 } from "lucide-react";
 import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
+import { matchesTag, matchesVibe, matchesWhoItsFor, matchesHardware, matchesAmenity, matchesSoftware } from "@/lib/best-by";
+import { LaunchMonitorType } from "@prisma/client";
+
+export const revalidate = 60;
 
 export const metadata: Metadata = {
   title: "Best Golf Simulators by Category | Find Your Perfect Venue | GolfSimMap",
@@ -31,97 +36,98 @@ export const metadata: Metadata = {
   },
 };
 
-const categories = [
-  {
-    id: "vibe",
+// Define all possible categories with their config
+const allCategories = {
+  vibe: {
     title: "By Vibe",
     description: "Find the perfect atmosphere for your outing",
     icon: Trophy,
     items: [
-      { label: "Upscale Lounge", href: "/best/vibe/upscale-lounge", icon: Trophy },
-      { label: "Sports Bar", href: "/best/vibe/sports-bar", icon: Monitor },
-      { label: "Tech Lab", href: "/best/vibe/tech-lab", icon: Zap },
-      { label: "Party Atmosphere", href: "/best/vibe/party-atmosphere", icon: Users },
+      { slug: "upscale-lounge", label: "Upscale Lounge", icon: Trophy },
+      { slug: "sports-bar", label: "Sports Bar", icon: Monitor },
+      { slug: "tech-lab", label: "Tech Lab", icon: Zap },
+      { slug: "party-atmosphere", label: "Party Atmosphere", icon: Users },
     ],
     viewAll: { label: "All vibes", href: "/best/vibe" },
+    basePath: "/best/vibe",
   },
-  {
-    id: "tags",
+  tags: {
     title: "By Experience",
     description: "Curated venues for specific occasions",
     icon: Heart,
     items: [
-      { label: "Date Night", href: "/best/date-night", icon: Heart },
-      { label: "Corporate Events", href: "/best/corporate-events", icon: Briefcase },
-      { label: "Family Friendly", href: "/best/family-friendly", icon: Baby },
-      { label: "Serious Practice", href: "/best/serious-practice", icon: Zap },
+      { slug: "date-night", label: "Date Night", icon: Heart },
+      { slug: "corporate-events", label: "Corporate Events", icon: Briefcase },
+      { slug: "family-friendly", label: "Family Friendly", icon: Baby },
+      { slug: "serious-practice", label: "Serious Practice", icon: Zap },
     ],
     viewAll: null,
+    basePath: "/best",
   },
-  {
-    id: "hardware",
+  hardware: {
     title: "By Hardware",
     description: "Find venues with your preferred technology",
     icon: Monitor,
     items: [
-      { label: "TrackMan", href: "/best/hardware/trackman", icon: Monitor },
-      { label: "Foresight", href: "/best/hardware/foresight", icon: Monitor },
-      { label: "Uneekor", href: "/best/hardware/uneekor", icon: Monitor },
-      { label: "Full Swing", href: "/best/hardware/full-swing", icon: Monitor },
+      { slug: "trackman", label: "TrackMan", icon: Monitor },
+      { slug: "foresight", label: "Foresight", icon: Monitor },
+      { slug: "uneekor", label: "Uneekor", icon: Monitor },
+      { slug: "full-swing", label: "Full Swing", icon: Monitor },
     ],
     viewAll: { label: "All hardware", href: "/best/hardware" },
+    basePath: "/best/hardware",
   },
-  {
-    id: "who-its-for",
+  "who-its-for": {
     title: "By Golfer Type",
     description: "Venues tailored to your skill level and needs",
     icon: Users,
     items: [
-      { label: "Beginners", href: "/best/who-its-for/beginners", icon: GraduationCap },
-      { label: "Serious Golfers", href: "/best/who-its-for/serious-golfers", icon: Zap },
-      { label: "Families", href: "/best/who-its-for/families", icon: Baby },
-      { label: "Large Groups", href: "/best/who-its-for/large-groups", icon: Users },
+      { slug: "beginners", label: "Beginners", icon: GraduationCap },
+      { slug: "serious-golfers", label: "Serious Golfers", icon: Zap },
+      { slug: "families", label: "Families", icon: Baby },
+      { slug: "large-groups", label: "Large Groups", icon: Users },
     ],
     viewAll: { label: "All golfer types", href: "/best/who-its-for" },
+    basePath: "/best/who-its-for",
   },
-  {
-    id: "amenities",
+  amenities: {
     title: "By Amenities",
     description: "Filter by what matters to you",
     icon: Coffee,
     items: [
-      { label: "Private Rooms", href: "/best/amenities/private-rooms", icon: Coffee },
-      { label: "Full Bar", href: "/best/amenities/alcohol", icon: Coffee },
-      { label: "Food Service", href: "/best/amenities/food", icon: Coffee },
-      { label: "Coaching", href: "/best/amenities/lessons", icon: GraduationCap },
+      { slug: "private_rooms", label: "Private Rooms", icon: Coffee },
+      { slug: "full_bar", label: "Full Bar", icon: Coffee },
+      { slug: "kitchen_food", label: "Food Service", icon: Coffee },
+      { slug: "coaching_available", label: "Coaching", icon: GraduationCap },
     ],
     viewAll: null,
+    basePath: "/best/amenities",
   },
-  {
-    id: "launch-monitor",
+  "launch-monitor": {
     title: "By Launch Monitor",
     description: "Choose your tracking technology",
     icon: Radar,
     items: [
-      { label: "Radar Systems", href: "/best/launch-monitor/radar", icon: Radar },
-      { label: "Camera Systems", href: "/best/launch-monitor/photometric_camera", icon: Monitor },
-      { label: "Hybrid Systems", href: "/best/launch-monitor/hybrid", icon: Zap },
+      { slug: "radar", label: "Radar Systems", icon: Radar },
+      { slug: "photometric_camera", label: "Camera Systems", icon: Monitor },
+      { slug: "hybrid", label: "Hybrid Systems", icon: Zap },
     ],
     viewAll: null,
+    basePath: "/best/launch-monitor",
   },
-  {
-    id: "software",
+  software: {
     title: "By Software",
     description: "Find your preferred simulation platform",
     icon: Gamepad2,
     items: [
-      { label: "GSPro", href: "/best/software/gspro", icon: Gamepad2 },
-      { label: "E6 Connect", href: "/best/software/e6", icon: Gamepad2 },
-      { label: "TGC 2019", href: "/best/software/tgc", icon: Gamepad2 },
+      { slug: "gspro", label: "GSPro", icon: Gamepad2 },
+      { slug: "e6", label: "E6 Connect", icon: Gamepad2 },
+      { slug: "tgc", label: "TGC 2019", icon: Gamepad2 },
     ],
     viewAll: null,
+    basePath: "/best/software",
   },
-];
+};
 
 const faqItems = [
   {
@@ -147,7 +153,86 @@ const breadcrumbItems = [
   { label: "Best By Category", current: true },
 ];
 
-export default function BestByIndexPage() {
+// Helper to check if a venue matches a category
+function getVenueCountForCategory(
+  venues: Array<{
+    tags: string[] | null;
+    vibeTags: string[] | null;
+    whoItsFor: string[] | null;
+    simulatorSystems: unknown;
+    launchMonitorType: LaunchMonitorType | null;
+    comprehensiveData: unknown;
+    wifi: boolean | null;
+    hasPrivateRooms: boolean | null;
+    parking: string | null;
+    foodAndDrink: unknown;
+    coachingAvailable: boolean | null;
+  }>,
+  categoryType: string,
+  slug: string
+): number {
+  return venues.filter((venue) => {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const v = venue as any;
+    switch (categoryType) {
+      case "tags":
+        return matchesTag(v, slug);
+      case "vibe":
+        return matchesVibe(v, slug);
+      case "who-its-for":
+        return matchesWhoItsFor(v, slug);
+      case "hardware":
+        return matchesHardware(v, slug);
+      case "amenities":
+        return matchesAmenity(v, slug);
+      case "software":
+        return matchesSoftware(v, slug);
+      case "launch-monitor":
+        return venue.launchMonitorType === slug;
+      default:
+        return false;
+    }
+  }).length;
+}
+
+export default async function BestByIndexPage() {
+  // Fetch all venues to count matches
+  const venues = await db.venue.findMany({
+    where: { status: "active" },
+    select: {
+      tags: true,
+      vibeTags: true,
+      whoItsFor: true,
+      simulatorSystems: true,
+      launchMonitorType: true,
+      comprehensiveData: true,
+      wifi: true,
+      hasPrivateRooms: true,
+      parking: true,
+      foodAndDrink: true,
+      coachingAvailable: true,
+    },
+  });
+
+  // Build categories with venue counts, filtering out empty ones
+  const categoriesWithCounts = Object.entries(allCategories).map(([categoryType, category]) => {
+    const itemsWithCounts = category.items
+      .map((item) => ({
+        ...item,
+        count: getVenueCountForCategory(venues, categoryType, item.slug),
+        href: categoryType === "tags" 
+          ? `${category.basePath}/${item.slug}`
+          : `${category.basePath}/${item.slug}`,
+      }))
+      .filter((item) => item.count > 0); // Only include items with venues
+
+    return {
+      ...category,
+      id: categoryType,
+      items: itemsWithCounts,
+    };
+  }).filter((category) => category.items.length > 0); // Only include categories with items
+
   return (
     <div className="min-h-screen bg-deep-black">
       <div className="absolute inset-0 scorecard-grid opacity-20" />
@@ -188,16 +273,16 @@ export default function BestByIndexPage() {
           
           <h1 className="text-cream mb-4">Best Golf Simulators by Category</h1>
           <p className="text-muted max-w-3xl text-lg">
-            Finding the right golf simulator venue depends on what you're looking for. 
+            Finding the right golf simulator venue depends on what you&apos;re looking for. 
             Are you planning a date night or corporate event? Do you care about the launch monitor brand? 
             Want a sports bar vibe or a focused practice environment? Browse our curated categories 
             to find venues that match exactly what you need.
           </p>
         </div>
 
-        {/* Categories Grid */}
+        {/* Categories Grid - Only shows categories with venues */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
-          {categories.map((category) => {
+          {categoriesWithCounts.map((category) => {
             const CategoryIcon = category.icon;
             return (
               <div key={category.id} className="border border-default bg-charcoal p-6 rounded-lg">
@@ -226,7 +311,10 @@ export default function BestByIndexPage() {
                             {item.label}
                           </span>
                         </div>
-                        <ArrowRight className="w-4 h-4 text-muted group-hover:text-masters-green group-hover:translate-x-0.5 transition-all" />
+                        <div className="flex items-center gap-2">
+                          <span className="text-xs text-muted">({item.count})</span>
+                          <ArrowRight className="w-4 h-4 text-muted group-hover:text-masters-green group-hover:translate-x-0.5 transition-all" />
+                        </div>
                       </Link>
                     );
                   })}
