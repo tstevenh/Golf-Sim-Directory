@@ -3,6 +3,7 @@ import Link from "next/link";
 import { db } from "@/lib/db";
 import { getStateDisplayName, getStateAbbrevFromName } from "@/lib/states";
 import { SEGMENT_CATEGORIES, getCityWhoItsForUrl, getStateUrl, getCityUrl } from "@/lib/best-by-config";
+import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
 import { Users, ArrowRight } from "lucide-react";
 
 interface CityWhoItsForIndexPageProps {
@@ -63,18 +64,31 @@ export default async function CityWhoItsForIndexPage({ params }: CityWhoItsForIn
   return (
     <div className="min-h-screen bg-deep-black">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        {/* Breadcrumbs */}
-        <nav className="flex items-center gap-2 text-sm text-muted mb-8">
-          <Link href="/" className="hover:text-cream transition-colors">Home</Link>
-          <span>/</span>
-          <Link href="/venue/us" className="hover:text-cream transition-colors">United States</Link>
-          <span>/</span>
-          <Link href={getStateUrl(state)} className="hover:text-cream transition-colors">{stateName}</Link>
-          <span>/</span>
-          <Link href={getCityUrl(state, cityFormatted)} className="hover:text-cream transition-colors">{cityFormatted}</Link>
-          <span>/</span>
-          <span className="text-cream">Browse by Occasion</span>
-        </nav>
+        {/* Breadcrumbs with schema */}
+        <Breadcrumbs
+          items={[
+            { label: "Home", href: "/" },
+            { label: "United States", href: "/venue/us" },
+            { label: stateName, href: getStateUrl(state) },
+            { label: cityFormatted, href: getCityUrl(state, cityFormatted) },
+            { label: "Browse by Occasion" },
+          ]}
+          className="mb-8"
+        />
+
+        {/* CollectionPage Schema */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "CollectionPage",
+              name: `Browse by Occasion in ${cityFormatted}, ${stateName}`,
+              description: `Find golf simulator venues in ${cityFormatted} perfect for any occasion.`,
+              url: `https://golfsimmap.com/venue/us/${state}/${city}/best/who-its-for`,
+            }),
+          }}
+        />
 
         {/* Header */}
         <div className="mb-12">

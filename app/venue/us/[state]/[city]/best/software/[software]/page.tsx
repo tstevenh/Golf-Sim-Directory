@@ -3,6 +3,7 @@ import { db } from "@/lib/db";
 import { BestByPageContent } from "@/components/seo/BestByPageContent";
 import { matchesSoftware } from "@/lib/best-by";
 import { getStateDisplayName, getStateAbbrevFromName } from "@/lib/states";
+import { getStaticRelatedLinks } from "@/lib/category-config.generated";
 
 interface CityBestSoftwarePageProps {
   params: Promise<{ state: string; city: string; software: string }>;
@@ -162,10 +163,8 @@ export default async function CityBestSoftwarePage({ params }: CityBestSoftwareP
     { label: `All venues in ${cityFormatted}`, href: `/venue/us/${state}/${city}` },
     { label: `${softwareLabel} venues (national)`, href: `/best/software/${software}` },
     { label: `All venues in ${stateName}`, href: `/venue/us/${state}` },
-    { label: "GSPro venues", href: `/venue/us/${state}/${city}/best/software/gspro` },
-    { label: "E6 venues", href: `/venue/us/${state}/${city}/best/software/e6` },
-    { label: "TGC venues", href: `/venue/us/${state}/${city}/best/software/tgc` },
-  ].filter(link => !link.href.endsWith(`/software/${software}`));
+    ...getStaticRelatedLinks("software", software, 4),
+  ];
 
   return (
     <BestByPageContent

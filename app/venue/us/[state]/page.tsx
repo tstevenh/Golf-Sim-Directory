@@ -5,6 +5,7 @@ import { Building2, MapPin } from "lucide-react";
 import { CityCard } from "@/components/location/LocationCards";
 import { VenueCard } from "@/components/venue/VenueCard";
 import { SeoIndexSections } from "@/components/seo/SeoIndexSections";
+import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
 import {
   getStateDisplayName,
   getStateAbbrevFromName,
@@ -36,6 +37,15 @@ export async function generateMetadata({ params }: StatePageProps): Promise<Meta
     return {
       title: `Golf Simulators in ${stateName} (${venueCount} venues) | GolfSimMap`,
       description: `Find indoor golf simulators and screen golf venues in ${stateName}. Compare launch monitors, amenities, and book your next session.`,
+      alternates: {
+        canonical: `https://golfsimmap.com/venue/us/${state}`,
+      },
+      openGraph: {
+        title: `Golf Simulators in ${stateName}`,
+        description: `Discover ${venueCount} indoor golf venues across ${stateName}. Compare TrackMan, Foresight, and more.`,
+        type: "website",
+        url: `https://golfsimmap.com/venue/us/${state}`,
+      },
     };
   } catch {
     return {
@@ -121,6 +131,13 @@ export default async function StatePage({ params }: StatePageProps) {
   const { stateAbbrev, stateName, citiesResult, featuredVenues, totalVenues } = data;
 
   const citiesWithVenues = citiesResult.sort((a, b) => b._count.id - a._count.id);
+
+  const breadcrumbItems = [
+    { label: "Home", href: "/" },
+    { label: "United States", href: "/venue/us" },
+    { label: stateName },
+  ];
+
   const topCityLinks = citiesWithVenues.slice(0, 8).map((cityData) => {
     const citySlug = cityData.city.toLowerCase().replace(/\s+/g, "-");
     return {
@@ -174,13 +191,31 @@ export default async function StatePage({ params }: StatePageProps) {
       <div className="absolute inset-0 scorecard-grid opacity-20" />
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center gap-2 text-sm text-muted mb-6">
-          <Link href="/" className="hover:text-cream transition-colors">Home</Link>
-          <span>/</span>
-          <Link href="/venue/us" className="hover:text-cream transition-colors">United States</Link>
-          <span>/</span>
-          <span className="text-cream">{stateName}</span>
-        </div>
+        {/* CollectionPage Schema */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "CollectionPage",
+              name: `Golf Simulators in ${stateName}`,
+              description: `Find ${totalVenues} indoor golf simulator venues across ${stateName}.`,
+              url: `https://golfsimmap.com/venue/us/${state}`,
+              mainEntity: {
+                "@type": "ItemList",
+                numberOfItems: citiesWithVenues.length,
+                itemListElement: citiesWithVenues.slice(0, 10).map((cityData, i) => ({
+                  "@type": "ListItem",
+                  position: i + 1,
+                  name: `Golf simulators in ${cityData.city}`,
+                  url: `https://golfsimmap.com/venue/us/${state}/${cityData.city.toLowerCase().replace(/\s+/g, "-")}`,
+                })),
+              },
+            }),
+          }}
+        />
+
+        <Breadcrumbs items={breadcrumbItems} className="mb-6" />
 
         <div className="mb-10">
           <div className="flex items-center gap-3 mb-4">

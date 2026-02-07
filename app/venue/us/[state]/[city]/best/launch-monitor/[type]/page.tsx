@@ -3,6 +3,7 @@ import { LaunchMonitorType } from "@prisma/client";
 import { db } from "@/lib/db";
 import { BestByPageContent } from "@/components/seo/BestByPageContent";
 import { getStateDisplayName, getStateAbbrevFromName } from "@/lib/states";
+import { getStaticRelatedLinks } from "@/lib/category-config.generated";
 
 interface CityBestLaunchMonitorPageProps {
   params: Promise<{ state: string; city: string; type: string }>;
@@ -146,10 +147,8 @@ export default async function CityBestLaunchMonitorPage({ params }: CityBestLaun
     { label: `All venues in ${cityFormatted}`, href: `/venue/us/${state}/${city}` },
     { label: `${typeLabel} venues (national)`, href: `/best/launch-monitor/${type}` },
     { label: `All venues in ${stateName}`, href: `/venue/us/${state}` },
-    { label: "Radar systems", href: `/venue/us/${state}/${city}/best/launch-monitor/radar` },
-    { label: "Camera systems", href: `/venue/us/${state}/${city}/best/launch-monitor/photometric_camera` },
-    { label: "TrackMan venues", href: `/venue/us/${state}/${city}/best/hardware/trackman` },
-  ].filter(link => !link.href.endsWith(`/launch-monitor/${type}`));
+    ...getStaticRelatedLinks("launch-monitor", type, 4),
+  ];
 
   return (
     <BestByPageContent

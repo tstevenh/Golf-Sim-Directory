@@ -1,10 +1,20 @@
 import { Metadata } from "next";
 import Link from "next/link";
 import { Target, Cpu, Camera, Radar } from "lucide-react";
+import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
 
 export const metadata: Metadata = {
   title: "Golf Launch Monitor Guide & Reviews | GolfSimMap",
   description: "Compare the top golf launch monitors: TrackMan 4, Foresight GCQuad, Uneekor EYE XO. Find specs, pricing, accuracy data, and which system is right for you.",
+  alternates: {
+    canonical: "https://golfsimmap.com/launch-monitors",
+  },
+  openGraph: {
+    title: "Golf Launch Monitor Guide & Reviews",
+    description: "Compare the top golf launch monitors: TrackMan 4, Foresight GCQuad, Uneekor EYE XO. Find specs, pricing, and accuracy data.",
+    type: "website",
+    url: "https://golfsimmap.com/launch-monitors",
+  },
 };
 
 const launchMonitors = [
@@ -71,16 +81,41 @@ const techTypes = [
 ];
 
 export default function LaunchMonitorsIndexPage() {
+  // CollectionPage schema
+  const collectionSchema = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: "Golf Launch Monitor Guide & Reviews",
+    description: "Compare the top golf launch monitors: TrackMan 4, Foresight GCQuad, Uneekor EYE XO.",
+    url: "https://golfsimmap.com/launch-monitors",
+    mainEntity: {
+      "@type": "ItemList",
+      numberOfItems: launchMonitors.length,
+      itemListElement: launchMonitors.map((monitor, i) => ({
+        "@type": "ListItem",
+        position: i + 1,
+        name: monitor.name,
+        url: `https://golfsimmap.com/launch-monitors/${monitor.slug}`,
+      })),
+    },
+  };
+
   return (
     <div className="min-h-screen bg-deep-black">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionSchema) }}
+      />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         {/* Header */}
         <div className="mb-12">
-          <nav className="flex items-center gap-2 text-sm text-muted mb-6">
-            <Link href="/" className="hover:text-cream transition-colors">Home</Link>
-            <span>/</span>
-            <span className="text-cream">Launch Monitors</span>
-          </nav>
+          <Breadcrumbs
+            items={[
+              { label: "Home", href: "/" },
+              { label: "Launch Monitors" },
+            ]}
+            className="mb-6"
+          />
           
           <h1 className="text-cream text-3xl md:text-4xl font-bold mb-4">
             Golf Launch Monitor Guide

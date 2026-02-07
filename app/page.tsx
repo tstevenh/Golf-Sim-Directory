@@ -106,8 +106,43 @@ export default async function HomePage() {
     vibeTags: venue.vibeTags,
   }));
 
+  // JSON-LD schemas for homepage
+  const websiteSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: "GolfSimMap",
+    url: "https://golfsimmap.com",
+    description: "Find indoor golf simulator venues across the USA. Compare launch monitors, amenities, and book your next session.",
+    potentialAction: {
+      "@type": "SearchAction",
+      target: {
+        "@type": "EntryPoint",
+        urlTemplate: "https://golfsimmap.com/search?q={search_term_string}",
+      },
+      "query-input": "required name=search_term_string",
+    },
+  };
+
+  const organizationSchema = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: "GolfSimMap",
+    url: "https://golfsimmap.com",
+    logo: "https://golfsimmap.com/logo.png",
+    sameAs: [],
+    description: "The definitive directory for indoor golf simulator venues across the United States.",
+  };
+
   return (
     <div className="min-h-screen bg-deep-black -mt-16 md:-mt-20">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+      />
       <HeroSection totalVenues={totalVenues} totalStates={totalStates} />
       <HowItWorks />
       <FeaturedVenues venues={featuredVenues} />

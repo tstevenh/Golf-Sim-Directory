@@ -3,6 +3,7 @@ import { db } from "@/lib/db";
 import { BestByPageContent } from "@/components/seo/BestByPageContent";
 import { matchesAmenity } from "@/lib/best-by";
 import { getStateDisplayName, getStateAbbrevFromName } from "@/lib/states";
+import { getStaticRelatedLinks } from "@/lib/category-config.generated";
 
 interface CityBestAmenityPageProps {
   params: Promise<{ state: string; city: string; amenity: string }>;
@@ -151,10 +152,8 @@ export default async function CityBestAmenityPage({ params }: CityBestAmenityPag
     { label: `All venues in ${cityFormatted}`, href: `/venue/us/${state}/${city}` },
     { label: `${amenityLabel} venues (national)`, href: `/best/amenities/${amenity}` },
     { label: `All venues in ${stateName}`, href: `/venue/us/${state}` },
-    { label: "Private rooms", href: `/venue/us/${state}/${city}/best/amenities/private_rooms` },
-    { label: "Full bar", href: `/venue/us/${state}/${city}/best/amenities/full_bar` },
-    { label: "Kitchen food", href: `/venue/us/${state}/${city}/best/amenities/kitchen_food` },
-  ].filter(link => !link.href.endsWith(`/amenities/${amenity}`));
+    ...getStaticRelatedLinks("amenities", amenity, 4),
+  ];
 
   return (
     <BestByPageContent

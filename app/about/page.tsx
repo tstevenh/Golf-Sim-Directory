@@ -4,6 +4,15 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "About Us | GolfSimMap",
   description: "Learn about GolfSimMap, the definitive directory for indoor golf simulator venues across the USA.",
+  alternates: {
+    canonical: "https://golfsimmap.com/about",
+  },
+  openGraph: {
+    title: "About GolfSimMap",
+    description: "Learn about GolfSimMap, the definitive directory for indoor golf simulator venues across the USA.",
+    type: "website",
+    url: "https://golfsimmap.com/about",
+  },
 };
 
 export default function AboutPage() {

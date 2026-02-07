@@ -10,6 +10,7 @@ import { SeoIndexSections } from "@/components/seo/SeoIndexSections";
 import { getStateDisplayName, getStateAbbrevFromName } from "@/lib/states";
 import { getStaticRelatedLinks, AVAILABLE_VIBES, AVAILABLE_SEGMENTS, AVAILABLE_HARDWARE } from "@/lib/category-config.generated";
 import { getCityVibeIndexUrl, getCityWhoItsForIndexUrl, getCityHardwareIndexUrl } from "@/lib/best-by-config";
+import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
 
 interface CityPageProps {
   params: Promise<{
@@ -158,20 +159,20 @@ export default async function CityPage({ params, searchParams }: CityPageProps) 
         <div className="absolute inset-0 scorecard-grid opacity-20" />
         
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <CitySchema city={cityFormatted} state={stateName} venueCount={totalVenues} />
+          <CitySchema city={cityFormatted} state={stateName} stateSlug={state} venueCount={totalVenues} />
 
           {/* Header */}
           <div className="mb-12">
-            {/* Breadcrumbs */}
-            <div className="flex items-center gap-2 text-sm text-muted mb-4">
-              <Link href="/" className="hover:text-cream transition-colors">Home</Link>
-              <span>/</span>
-              <Link href="/venue/us" className="hover:text-cream transition-colors">United States</Link>
-              <span>/</span>
-              <Link href={`/venue/us/${state}`} className="hover:text-cream transition-colors">{stateName}</Link>
-              <span>/</span>
-              <span className="text-cream">{cityFormatted}</span>
-            </div>
+            {/* Breadcrumbs with schema */}
+            <Breadcrumbs
+              items={[
+                { label: "Home", href: "/" },
+                { label: "United States", href: "/venue/us" },
+                { label: stateName, href: `/venue/us/${state}` },
+                { label: cityFormatted },
+              ]}
+              className="mb-4"
+            />
 
             <div className="flex items-center gap-3 mb-4">
               <div className="w-8 h-px bg-masters-green" />
