@@ -42,6 +42,15 @@ export async function generateMetadata({ params }: CityPageProps): Promise<Metad
     return {
       title: `Golf Simulators in ${cityFormatted}, ${stateName} (${venueCount} venues) | GolfSimMap`,
       description: `Find indoor golf simulators in ${cityFormatted}, ${stateName}. Compare launch monitors, amenities, and book your next session.`,
+      alternates: {
+        canonical: `https://golfsimmap.com/venue/us/${state}/${city}`,
+      },
+      openGraph: {
+        title: `Golf Simulators in ${cityFormatted}, ${stateName}`,
+        description: `Discover ${venueCount} indoor golf venues in ${cityFormatted}. Compare TrackMan, Foresight, and more.`,
+        type: "website",
+        url: `https://golfsimmap.com/venue/us/${state}/${city}`,
+      },
     };
   } catch {
     return {
@@ -138,6 +147,10 @@ export default async function CityPage({ params, searchParams }: CityPageProps) 
       { label: "Browse by Vibe", href: getCityVibeIndexUrl(state, cityFormatted) },
       { label: "Browse by Occasion", href: getCityWhoItsForIndexUrl(state, cityFormatted) },
       { label: "Browse by Technology", href: getCityHardwareIndexUrl(state, cityFormatted) },
+      // New category links
+      { label: "Private Rooms", href: `/venue/us/${state}/${city}/best/amenities/private_rooms` },
+      { label: "Radar Launch Monitors", href: `/venue/us/${state}/${city}/best/launch-monitor/radar` },
+      { label: "GSPro Venues", href: `/venue/us/${state}/${city}/best/software/gspro` },
     ];
 
     // Build nearby city links
