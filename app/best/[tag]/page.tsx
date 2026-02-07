@@ -12,10 +12,54 @@ interface BestTagPageProps {
 
 export const revalidate = 3600;
 
+// Server-compatible tag content for metadata (no JSX)
+const tagMetaContent: Record<string, { tagline: string; description: string }> = {
+  "sim-bar": {
+    tagline: "Golf + Great Food & Drinks",
+    description: "Discover golf simulator venues with full bar service, craft cocktails, and delicious food. Perfect for social outings where you want the complete entertainment experience."
+  },
+  "date-night": {
+    tagline: "Romantic Golf Experiences",
+    description: "Find the perfect golf simulator spots for date night. These venues offer intimate atmospheres, quality food & drinks, and a fun activity you can enjoy together."
+  },
+  "corporate-events": {
+    tagline: "Team Building & Client Entertainment",
+    description: "Professional golf simulator venues ideal for corporate events, team outings, and client entertainment. Many offer private rooms and catering services."
+  },
+  "family-friendly": {
+    tagline: "Fun for All Ages",
+    description: "Golf simulator venues perfect for the whole family. These spots welcome kids, offer a safe environment, and make golf accessible to beginners of all ages."
+  },
+  "serious-practice": {
+    tagline: "Training & Improvement",
+    description: "Venues built for golfers focused on improvement. Expect quality launch monitors, data analysis, and an environment suited for focused practice sessions."
+  },
+  "party-venue": {
+    tagline: "Celebrate & Play",
+    description: "Golf simulator spots perfect for parties and celebrations. Whether it's a birthday, bachelor party, or just a fun night out, these venues know how to throw an event."
+  },
+  "premium-experience": {
+    tagline: "Luxury Golf Simulation",
+    description: "Top-tier golf simulator venues offering the best equipment, ambiance, and service. Expect premium hardware, upscale amenities, and exceptional experiences."
+  },
+  "budget-friendly": {
+    tagline: "Great Golf, Great Value",
+    description: "Quality golf simulator experiences that won't break the bank. Find venues with reasonable rates, hourly deals, and memberships that offer real value."
+  },
+};
+
+function getTagMetaContent(tag: string) {
+  const tagLabel = tag.replace(/-/g, " ");
+  return tagMetaContent[tag] || {
+    tagline: `Best ${tagLabel} Golf Simulators`,
+    description: `Find the best golf simulator venues tagged as "${tagLabel}". Browse ratings, amenities, and book your next session.`
+  };
+}
+
 export async function generateMetadata({ params }: BestTagPageProps): Promise<Metadata> {
   const { tag } = await params;
   const tagLabel = tag.replace(/-/g, " ");
-  const content = getTagHeroContent(tag);
+  const content = getTagMetaContent(tag);
   
   return {
     title: `Best ${tagLabel} Golf Simulators | GolfSimMap`,
