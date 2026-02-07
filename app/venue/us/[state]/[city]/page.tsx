@@ -8,7 +8,7 @@ import { Pagination } from "@/components/ui/Pagination";
 import { CityCategoryLinks } from "@/components/seo/CityCategoryLinks";
 import { SeoIndexSections } from "@/components/seo/SeoIndexSections";
 import { getStateDisplayName, getStateAbbrevFromName } from "@/lib/states";
-import { getCityCategoryBrowseLinksWithCounts } from "@/lib/best-by-data";
+import { getStaticRelatedLinks, AVAILABLE_VIBES, AVAILABLE_SEGMENTS, AVAILABLE_HARDWARE } from "@/lib/category-config.generated";
 import { getCityVibeIndexUrl, getCityWhoItsForIndexUrl, getCityHardwareIndexUrl } from "@/lib/best-by-config";
 
 interface CityPageProps {
@@ -85,7 +85,7 @@ export default async function CityPage({ params, searchParams }: CityPageProps) 
     const pageSize = 12;
     const skip = (page - 1) * pageSize;
 
-    const [venues, totalVenues, nearbyCitiesResult, categoryLinks] = await Promise.all([
+    const [venues, totalVenues, nearbyCitiesResult] = await Promise.all([
       db.venue.findMany({
         where: {
           city: { equals: cityFormatted, mode: "insensitive" },
@@ -117,7 +117,6 @@ export default async function CityPage({ params, searchParams }: CityPageProps) 
         distinct: ["city"],
         take: 6,
       }),
-      getCityCategoryBrowseLinksWithCounts(state, cityFormatted),
     ]);
 
     if (totalVenues === 0) {
@@ -139,18 +138,13 @@ export default async function CityPage({ params, searchParams }: CityPageProps) 
     const totalPages = Math.ceil(totalVenues / pageSize);
     const nearbyCities = nearbyCitiesResult.map((c) => c.city);
 
-    // Build related links from categories
+    // Related links - static, no extra DB query
+    const staticLinks = getStaticRelatedLinks("city", "", 4);
     const relatedLinks = [
-      ...categoryLinks.vibes.slice(0, 2).map(v => ({ label: `Best ${v.label}`, href: v.href })),
-      ...categoryLinks.segments.slice(0, 2).map(s => ({ label: `Best for ${s.label}`, href: s.href })),
-      ...categoryLinks.hardware.slice(0, 2).map(h => ({ label: `Best ${h.label}`, href: h.href })),
       { label: "Browse by Vibe", href: getCityVibeIndexUrl(state, cityFormatted) },
       { label: "Browse by Occasion", href: getCityWhoItsForIndexUrl(state, cityFormatted) },
       { label: "Browse by Technology", href: getCityHardwareIndexUrl(state, cityFormatted) },
-      // New category links
-      { label: "Private Rooms", href: `/venue/us/${state}/${city}/best/amenities/private_rooms` },
-      { label: "Radar Launch Monitors", href: `/venue/us/${state}/${city}/best/launch-monitor/radar` },
-      { label: "GSPro Venues", href: `/venue/us/${state}/${city}/best/software/gspro` },
+      ...staticLinks.map(l => ({ label: l.label, href: l.href })),
     ];
 
     // Build nearby city links
@@ -237,12 +231,26 @@ export default async function CityPage({ params, searchParams }: CityPageProps) 
             )}
           </section>
 
-          {/* Browse by Category */}
+          {/* Browse by Category - using static config */}
           <div className="mt-12">
             <CityCategoryLinks
               state={state}
               city={cityFormatted}
-              {...categoryLinks}
+              vibes={AVAILABLE_VIBES.filter(v => v.count > 0).slice(0, 4).map(v => ({
+                href: `/venue/us/${state}/${city}/best/vibe/${v.slug}`,
+                label: v.label,
+                count: v.count,
+              }))}
+              segments={AVAILABLE_SEGMENTS.filter(s => s.count > 0).slice(0, 4).map(s => ({
+                href: `/venue/us/${state}/${city}/best/who-its-for/${s.slug}`,
+                label: s.label,
+                count: s.count,
+              }))}
+              hardware={AVAILABLE_HARDWARE.filter(h => h.count > 0).slice(0, 4).map(h => ({
+                href: `/venue/us/${state}/${city}/best/hardware/${h.slug}`,
+                label: h.label,
+                count: h.count,
+              }))}
             />
           </div>
 

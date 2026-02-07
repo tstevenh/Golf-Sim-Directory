@@ -241,6 +241,24 @@ export function SeoIndexSections({
             </div>
           ))}
         </div>
+        {/* FAQPage Schema for rich snippets */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": faqItems.map((item) => ({
+                "@type": "Question",
+                "name": item.question,
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": item.answer,
+                },
+              })),
+            }),
+          }}
+        />
       </SectionCard>
 
       {/* CTA Section - Enhanced with better visual hierarchy */}
