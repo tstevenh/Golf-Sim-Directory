@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import { db, venueCardSelect } from "@/lib/db";
 import { BestByPageContent } from "@/components/seo/BestByPageContent";
 import { matchesVibe } from "@/lib/best-by";
-import { VIBE_CATEGORIES, SEGMENT_CATEGORIES, HARDWARE_CATEGORIES } from "@/lib/best-by-config";
+import { getGlobalRelatedLinksWithCounts } from "@/lib/best-by-data";
 
 interface BestVibePageProps {
   params: Promise<{ vibe: string }>;
@@ -113,25 +113,11 @@ export default async function BestVibePage({ params, searchParams }: BestVibePag
     },
   ];
 
-  // Generate related links from shared config
+  // Generate related links dynamically - only categories with venues
+  const dynamicLinks = await getGlobalRelatedLinksWithCounts("vibe", vibe, 6);
   const relatedLinks = [
-    // Link to all vibes
     { label: "All vibes", href: "/best/vibe/" },
-    // Other vibes (excluding current)
-    ...VIBE_CATEGORIES.filter((v) => v.slug !== vibe).slice(0, 2).map((v) => ({
-      label: `Best ${v.label}`,
-      href: `/best/vibe/${v.slug}`,
-    })),
-    // Segments
-    ...SEGMENT_CATEGORIES.slice(0, 2).map((s) => ({
-      label: `Best for ${s.label}`,
-      href: `/best/who-its-for/${s.slug}`,
-    })),
-    // Hardware
-    ...HARDWARE_CATEGORIES.slice(0, 2).map((h) => ({
-      label: `Best ${h.label}`,
-      href: `/best/hardware/${h.slug}`,
-    })),
+    ...dynamicLinks,
   ];
 
   return (

@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import { db, venueCardSelect } from "@/lib/db";
 import { BestByPageContent } from "@/components/seo/BestByPageContent";
 import { matchesWhoItsFor } from "@/lib/best-by";
-import { VIBE_CATEGORIES, SEGMENT_CATEGORIES, HARDWARE_CATEGORIES } from "@/lib/best-by-config";
+import { getGlobalRelatedLinksWithCounts } from "@/lib/best-by-data";
 
 interface BestWhoItsForPageProps {
   params: Promise<{ segment: string }>;
@@ -117,25 +117,11 @@ export default async function BestWhoItsForPage({ params, searchParams }: BestWh
     },
   ];
 
-  // Generate related links from shared config
+  // Generate related links dynamically - only categories with venues
+  const dynamicLinks = await getGlobalRelatedLinksWithCounts("who-its-for", segment, 6);
   const relatedLinks = [
-    // Link to all segments
     { label: "All occasions", href: "/best/who-its-for/" },
-    // Other segments (excluding current)
-    ...SEGMENT_CATEGORIES.filter((s) => s.slug !== segment).slice(0, 2).map((s) => ({
-      label: `Best for ${s.label}`,
-      href: `/best/who-its-for/${s.slug}`,
-    })),
-    // Vibes
-    ...VIBE_CATEGORIES.slice(0, 2).map((v) => ({
-      label: `Best ${v.label}`,
-      href: `/best/vibe/${v.slug}`,
-    })),
-    // Hardware
-    ...HARDWARE_CATEGORIES.slice(0, 2).map((h) => ({
-      label: `Best ${h.label}`,
-      href: `/best/hardware/${h.slug}`,
-    })),
+    ...dynamicLinks,
   ];
 
   return (

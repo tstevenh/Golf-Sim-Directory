@@ -3,7 +3,7 @@ import { db, venueCardSelect } from "@/lib/db";
 import { BestByPageContent } from "@/components/seo/BestByPageContent";
 import { TagPageHero, getTagHeroContent } from "@/components/seo/PageHero";
 import { matchesTag } from "@/lib/best-by";
-import { VIBE_CATEGORIES, SEGMENT_CATEGORIES, HARDWARE_CATEGORIES } from "@/lib/best-by-config";
+import { getGlobalRelatedLinksWithCounts } from "@/lib/best-by-data";
 
 interface BestTagPageProps {
   params: Promise<{ tag: string }>;
@@ -73,7 +73,12 @@ export default async function BestTagPage({ params, searchParams }: BestTagPageP
   ];
 
   // Related categories based on the tag
-  const relatedLinks = getRelatedLinks(tag);
+  // Generate related links dynamically - only categories with venues
+  const dynamicLinks = await getGlobalRelatedLinksWithCounts("tags", tag, 6);
+  const relatedLinks = [
+    { label: "Browse all categories", href: "/best" },
+    ...dynamicLinks,
+  ];
 
   return (
     <div className="min-h-screen bg-deep-black">
@@ -109,27 +114,4 @@ export default async function BestTagPage({ params, searchParams }: BestTagPageP
       </div>
     </div>
   );
-}
-
-// Helper to get related links based on tag using shared config
-function getRelatedLinks(tag: string) {
-  return [
-    // Link to browse all
-    { label: "Browse all categories", href: "/best" },
-    // Vibe categories
-    ...VIBE_CATEGORIES.slice(0, 2).map((v) => ({
-      label: `Best ${v.label}`,
-      href: `/best/vibe/${v.slug}`,
-    })),
-    // Segment categories
-    ...SEGMENT_CATEGORIES.slice(0, 2).map((s) => ({
-      label: `Best for ${s.label}`,
-      href: `/best/who-its-for/${s.slug}`,
-    })),
-    // Hardware categories
-    ...HARDWARE_CATEGORIES.slice(0, 2).map((h) => ({
-      label: `Best ${h.label}`,
-      href: `/best/hardware/${h.slug}`,
-    })),
-  ];
 }

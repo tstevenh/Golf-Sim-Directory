@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import { LaunchMonitorType } from "@prisma/client";
 import { db, venueCardSelect } from "@/lib/db";
 import { BestByPageContent } from "@/components/seo/BestByPageContent";
-import { VIBE_CATEGORIES, SEGMENT_CATEGORIES, HARDWARE_CATEGORIES } from "@/lib/best-by-config";
+import { getGlobalRelatedLinksWithCounts } from "@/lib/best-by-data";
 
 interface BestLaunchMonitorPageProps {
   params: Promise<{ type: string }>;
@@ -107,25 +107,11 @@ export default async function BestLaunchMonitorPage({ params, searchParams }: Be
     },
   ];
 
-  // Generate related links from shared config
+  // Generate related links dynamically - only categories with venues
+  const dynamicLinks = await getGlobalRelatedLinksWithCounts("launch-monitor", type, 6);
   const relatedLinks = [
-    // Link to browse all
     { label: "Browse all categories", href: "/best" },
-    // Vibes
-    ...VIBE_CATEGORIES.slice(0, 2).map((v) => ({
-      label: `Best ${v.label}`,
-      href: `/best/vibe/${v.slug}`,
-    })),
-    // Segments
-    ...SEGMENT_CATEGORIES.slice(0, 2).map((s) => ({
-      label: `Best for ${s.label}`,
-      href: `/best/who-its-for/${s.slug}`,
-    })),
-    // Hardware
-    ...HARDWARE_CATEGORIES.slice(0, 2).map((h) => ({
-      label: `Best ${h.label}`,
-      href: `/best/hardware/${h.slug}`,
-    })),
+    ...dynamicLinks,
   ];
 
   return (
