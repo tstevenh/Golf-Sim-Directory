@@ -55,10 +55,14 @@ export async function generateMetadata({ params }: BestVibePageProps): Promise<M
   return {
     title: `Best ${vibeLabel} Golf Simulators | GolfSimMap`,
     description: content.description || `Discover golf simulator venues with a ${vibeLabel} vibe. Compare amenities, hardware, and booking options.`,
+    alternates: {
+      canonical: `https://golfsimmap.com/best/vibe/${vibe}`,
+    },
     openGraph: {
       title: `Best ${vibeLabel} Golf Simulators`,
       description: content.description || `Discover golf simulator venues with a ${vibeLabel} vibe.`,
       type: "website",
+      url: `https://golfsimmap.com/best/vibe/${vibe}`,
     },
   };
 }

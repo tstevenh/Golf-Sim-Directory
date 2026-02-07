@@ -9,12 +9,26 @@ import {
   Baby,
   Zap,
   GraduationCap,
-  ArrowRight
+  ArrowRight,
+  Coffee,
+  Radar,
+  Gamepad2,
+  HelpCircle
 } from "lucide-react";
+import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
 
 export const metadata: Metadata = {
-  title: "Best Golf Simulators by Category | GolfSimMap",
-  description: "Discover the best golf simulators by category — date night, serious practice, family-friendly, corporate events, and more.",
+  title: "Best Golf Simulators by Category | Find Your Perfect Venue | GolfSimMap",
+  description: "Discover the best golf simulator venues by category. Browse by vibe, hardware, amenities, occasion, and more. Compare TrackMan, Foresight, and Uneekor venues nationwide.",
+  alternates: {
+    canonical: "https://golfsimmap.com/best",
+  },
+  openGraph: {
+    title: "Best Golf Simulators by Category | GolfSimMap",
+    description: "Find the perfect golf simulator venue by category — vibe, hardware, amenities, and more.",
+    type: "website",
+    url: "https://golfsimmap.com/best",
+  },
 };
 
 const categories = [
@@ -22,46 +36,115 @@ const categories = [
     id: "vibe",
     title: "By Vibe",
     description: "Find the perfect atmosphere for your outing",
+    icon: Trophy,
     items: [
       { label: "Upscale Lounge", href: "/best/vibe/upscale-lounge", icon: Trophy },
       { label: "Sports Bar", href: "/best/vibe/sports-bar", icon: Monitor },
       { label: "Tech Lab", href: "/best/vibe/tech-lab", icon: Zap },
       { label: "Party Atmosphere", href: "/best/vibe/party-atmosphere", icon: Users },
     ],
+    viewAll: { label: "All vibes", href: "/best/vibe" },
   },
   {
     id: "tags",
     title: "By Experience",
     description: "Curated venues for specific occasions",
+    icon: Heart,
     items: [
       { label: "Date Night", href: "/best/date-night", icon: Heart },
       { label: "Corporate Events", href: "/best/corporate-events", icon: Briefcase },
       { label: "Family Friendly", href: "/best/family-friendly", icon: Baby },
       { label: "Serious Practice", href: "/best/serious-practice", icon: Zap },
     ],
+    viewAll: null,
   },
   {
     id: "hardware",
     title: "By Hardware",
     description: "Find venues with your preferred technology",
+    icon: Monitor,
     items: [
       { label: "TrackMan", href: "/best/hardware/trackman", icon: Monitor },
       { label: "Foresight", href: "/best/hardware/foresight", icon: Monitor },
       { label: "Uneekor", href: "/best/hardware/uneekor", icon: Monitor },
       { label: "Full Swing", href: "/best/hardware/full-swing", icon: Monitor },
     ],
+    viewAll: { label: "All hardware", href: "/best/hardware" },
   },
   {
     id: "who-its-for",
     title: "By Golfer Type",
     description: "Venues tailored to your skill level and needs",
+    icon: Users,
     items: [
       { label: "Beginners", href: "/best/who-its-for/beginners", icon: GraduationCap },
       { label: "Serious Golfers", href: "/best/who-its-for/serious-golfers", icon: Zap },
       { label: "Families", href: "/best/who-its-for/families", icon: Baby },
       { label: "Large Groups", href: "/best/who-its-for/large-groups", icon: Users },
     ],
+    viewAll: { label: "All golfer types", href: "/best/who-its-for" },
   },
+  {
+    id: "amenities",
+    title: "By Amenities",
+    description: "Filter by what matters to you",
+    icon: Coffee,
+    items: [
+      { label: "Private Rooms", href: "/best/amenities/private-rooms", icon: Coffee },
+      { label: "Full Bar", href: "/best/amenities/alcohol", icon: Coffee },
+      { label: "Food Service", href: "/best/amenities/food", icon: Coffee },
+      { label: "Coaching", href: "/best/amenities/lessons", icon: GraduationCap },
+    ],
+    viewAll: null,
+  },
+  {
+    id: "launch-monitor",
+    title: "By Launch Monitor",
+    description: "Choose your tracking technology",
+    icon: Radar,
+    items: [
+      { label: "Radar Systems", href: "/best/launch-monitor/radar", icon: Radar },
+      { label: "Camera Systems", href: "/best/launch-monitor/photometric_camera", icon: Monitor },
+      { label: "Hybrid Systems", href: "/best/launch-monitor/hybrid", icon: Zap },
+    ],
+    viewAll: null,
+  },
+  {
+    id: "software",
+    title: "By Software",
+    description: "Find your preferred simulation platform",
+    icon: Gamepad2,
+    items: [
+      { label: "GSPro", href: "/best/software/gspro", icon: Gamepad2 },
+      { label: "E6 Connect", href: "/best/software/e6", icon: Gamepad2 },
+      { label: "TGC 2019", href: "/best/software/tgc", icon: Gamepad2 },
+    ],
+    viewAll: null,
+  },
+];
+
+const faqItems = [
+  {
+    question: "How do you categorize golf simulator venues?",
+    answer: "We categorize venues based on multiple factors: the vibe and atmosphere (upscale lounge, sports bar, tech lab), the hardware and launch monitors used (TrackMan, Foresight, Uneekor), the target audience (families, serious golfers, beginners), available amenities (food, bar, private rooms), and the software platforms offered (GSPro, E6, TGC). Each venue can appear in multiple categories.",
+  },
+  {
+    question: "What's the difference between hardware and launch monitor categories?",
+    answer: "Hardware refers to the specific brand of simulator system (TrackMan, Foresight, Uneekor, Full Swing). Launch monitor type refers to the underlying technology—radar systems track ball flight with Doppler technology, while camera systems photograph the ball at impact for spin and club data. Some venues use hybrid systems combining both technologies.",
+  },
+  {
+    question: "How do I choose between vibe, occasion, and golfer type categories?",
+    answer: "Start with your primary goal. Planning a date night or corporate event? Use the occasion/experience categories. Care most about the atmosphere? Browse by vibe. Want venues that cater to your skill level? Use the golfer type categories. You can also combine filters on our search page for more specific results.",
+  },
+  {
+    question: "Are these the only categories available?",
+    answer: "These are our main category types, but within each type you'll find many more options. For example, under hardware you'll find not just TrackMan and Foresight but also SkyTrak, FlightScope, and others. Use the 'View all' links to see the complete list within each category.",
+  },
+];
+
+const breadcrumbItems = [
+  { label: "Home", href: "/" },
+  { label: "Best By Category", current: true },
 ];
 
 export default function BestByIndexPage() {
@@ -70,6 +153,32 @@ export default function BestByIndexPage() {
       <div className="absolute inset-0 scorecard-grid opacity-20" />
       
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        {/* Schema Markup */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "CollectionPage",
+              "name": "Best Golf Simulators by Category",
+              "description": "Discover the best golf simulator venues organized by category",
+              "url": "https://golfsimmap.com/best",
+              "breadcrumb": {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                  { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://golfsimmap.com" },
+                  { "@type": "ListItem", "position": 2, "name": "Best By Category", "item": "https://golfsimmap.com/best" },
+                ],
+              },
+            }),
+          }}
+        />
+
+        {/* Breadcrumbs */}
+        <div className="mb-6">
+          <Breadcrumbs items={breadcrumbItems} />
+        </div>
+
         {/* Header */}
         <div className="mb-12">
           <div className="flex items-center gap-3 mb-4">
@@ -77,51 +186,116 @@ export default function BestByIndexPage() {
             <span className="text-masters-green text-xs font-mono uppercase tracking-widest">Categories</span>
           </div>
           
-          <h1 className="text-cream mb-4">Best Golf Simulators</h1>
-          <p className="text-muted max-w-2xl text-lg">
-            Find the perfect golf simulator venue by category. Whether you&apos;re planning 
-            a date night, corporate event, or serious practice session, we&apos;ve got you covered.
+          <h1 className="text-cream mb-4">Best Golf Simulators by Category</h1>
+          <p className="text-muted max-w-3xl text-lg">
+            Finding the right golf simulator venue depends on what you're looking for. 
+            Are you planning a date night or corporate event? Do you care about the launch monitor brand? 
+            Want a sports bar vibe or a focused practice environment? Browse our curated categories 
+            to find venues that match exactly what you need.
           </p>
         </div>
 
         {/* Categories Grid */}
-        <div className="grid md:grid-cols-2 gap-8">
-          {categories.map((category) => (
-            <div key={category.id} className="border border-default bg-charcoal p-6">
-              <div className="mb-6">
-                <h2 className="text-cream text-xl mb-2">{category.title}</h2>
-                <p className="text-muted text-sm">{category.description}</p>
-              </div>
-              
-              <div className="space-y-2">
-                {category.items.map((item) => {
-                  const Icon = item.icon;
-                  return (
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+          {categories.map((category) => {
+            const CategoryIcon = category.icon;
+            return (
+              <div key={category.id} className="border border-default bg-charcoal p-6 rounded-lg">
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="flex items-center justify-center w-10 h-10 rounded-lg bg-masters-green/10">
+                    <CategoryIcon className="w-5 h-5 text-masters-green" />
+                  </div>
+                  <div>
+                    <h2 className="text-cream text-lg font-medium">{category.title}</h2>
+                    <p className="text-muted text-sm">{category.description}</p>
+                  </div>
+                </div>
+                
+                <div className="space-y-2">
+                  {category.items.map((item) => {
+                    const Icon = item.icon;
+                    return (
+                      <Link
+                        key={item.href}
+                        href={item.href}
+                        className="flex items-center justify-between gap-4 p-3 bg-slate hover:bg-masters-green/10 border border-default hover:border-masters-green transition-all group rounded-md"
+                      >
+                        <div className="flex items-center gap-3">
+                          <Icon className="w-4 h-4 text-muted group-hover:text-masters-green transition-colors" />
+                          <span className="text-cream-subtle group-hover:text-cream transition-colors text-sm">
+                            {item.label}
+                          </span>
+                        </div>
+                        <ArrowRight className="w-4 h-4 text-muted group-hover:text-masters-green group-hover:translate-x-0.5 transition-all" />
+                      </Link>
+                    );
+                  })}
+                  {category.viewAll && (
                     <Link
-                      key={item.href}
-                      href={item.href}
-                      className="flex items-center justify-between gap-4 p-4 bg-slate hover:bg-masters-green/10 border border-default hover:border-masters-green transition-all group"
+                      href={category.viewAll.href}
+                      className="text-masters-green text-sm hover:text-cream transition-colors inline-block mt-2"
                     >
-                      <div className="flex items-center gap-3">
-                        <Icon className="w-5 h-5 text-muted group-hover:text-masters-green transition-colors" />
-                        <span className="text-cream group-hover:text-masters-green transition-colors">
-                          {item.label}
-                        </span>
-                      </div>
-                      <ArrowRight className="w-4 h-4 text-muted group-hover:text-masters-green group-hover:translate-x-0.5 transition-all" />
+                      {category.viewAll.label} →
                     </Link>
-                  );
-                })}
+                  )}
+                </div>
               </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
 
+        {/* FAQ Section */}
+        <section className="border border-default bg-charcoal rounded-lg p-6 md:p-8 mb-12">
+          <div className="flex items-center gap-3 mb-6">
+            <div className="flex items-center justify-center w-10 h-10 rounded-lg bg-masters-green/10">
+              <HelpCircle className="w-5 h-5 text-masters-green" />
+            </div>
+            <span className="text-masters-green text-xs font-mono uppercase tracking-widest">FAQ</span>
+          </div>
+          <h2 className="text-cream text-xl md:text-2xl font-semibold mb-6">Frequently Asked Questions</h2>
+          <div className="space-y-4">
+            {faqItems.map((item, index) => (
+              <div 
+                key={index} 
+                className="border border-default rounded-lg p-5 bg-slate/50"
+              >
+                <h3 className="text-cream font-medium mb-3 text-base md:text-lg flex items-start gap-3">
+                  <span className="flex-shrink-0 w-6 h-6 rounded-full bg-masters-green/20 text-masters-green text-xs flex items-center justify-center font-mono">
+                    Q
+                  </span>
+                  {item.question}
+                </h3>
+                <p className="text-muted text-sm md:text-base leading-relaxed pl-9">
+                  {item.answer}
+                </p>
+              </div>
+            ))}
+          </div>
+          {/* FAQ Schema */}
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: JSON.stringify({
+                "@context": "https://schema.org",
+                "@type": "FAQPage",
+                "mainEntity": faqItems.map((item) => ({
+                  "@type": "Question",
+                  "name": item.question,
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": item.answer,
+                  },
+                })),
+              }),
+            }}
+          />
+        </section>
+
         {/* CTA */}
-        <div className="mt-12 text-center border border-default bg-charcoal p-8">
+        <div className="text-center border border-default bg-charcoal p-8 rounded-lg">
           <h2 className="text-cream mb-2">Own a golf simulator venue?</h2>
           <p className="text-muted mb-6">
-            Get featured in our best-by categories and reach more golfers.
+            Get featured in our best-by categories and reach more golfers searching for venues like yours.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Link href="/submit" className="btn-primary">
@@ -131,6 +305,13 @@ export default function BestByIndexPage() {
               Claim Listing
             </Link>
           </div>
+        </div>
+
+        {/* Back to home */}
+        <div className="mt-12 text-center">
+          <Link href="/" className="text-muted hover:text-cream transition-colors">
+            ← Back to home
+          </Link>
         </div>
       </div>
     </div>

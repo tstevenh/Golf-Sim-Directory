@@ -55,10 +55,14 @@ export async function generateMetadata({ params }: BestHardwarePageProps): Promi
   return {
     title: `Best ${label} Golf Simulators | GolfSimMap`,
     description: content.description || `Find indoor golf venues using ${label} hardware. Compare ratings, amenities, and booking options.`,
+    alternates: {
+      canonical: `https://golfsimmap.com/best/hardware/${brand}`,
+    },
     openGraph: {
       title: `Best ${label} Golf Simulators`,
       description: content.description || `Find indoor golf venues using ${label} hardware.`,
       type: "website",
+      url: `https://golfsimmap.com/best/hardware/${brand}`,
     },
   };
 }

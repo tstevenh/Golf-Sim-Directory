@@ -59,10 +59,14 @@ export async function generateMetadata({ params }: BestWhoItsForPageProps): Prom
   return {
     title: `Best Golf Simulators for ${label} | GolfSimMap`,
     description: content.description || `Find golf simulator venues perfect for ${label}. Compare amenities, vibes, and booking options.`,
+    alternates: {
+      canonical: `https://golfsimmap.com/best/who-its-for/${segment}`,
+    },
     openGraph: {
       title: `Best Golf Simulators for ${label}`,
       description: content.description || `Find golf simulator venues perfect for ${label}.`,
       type: "website",
+      url: `https://golfsimmap.com/best/who-its-for/${segment}`,
     },
   };
 }

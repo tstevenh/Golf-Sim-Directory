@@ -55,10 +55,14 @@ export async function generateMetadata({ params }: BestSoftwarePageProps): Promi
   return {
     title: `Best ${label} Golf Simulators | GolfSimMap`,
     description: content.description || `Find venues using ${label} simulator software. Compare amenities, hardware, and booking options.`,
+    alternates: {
+      canonical: `https://golfsimmap.com/best/software/${software}`,
+    },
     openGraph: {
       title: `Best ${label} Golf Simulators`,
       description: content.description || `Find venues using ${label} simulator software.`,
       type: "website",
+      url: `https://golfsimmap.com/best/software/${software}`,
     },
   };
 }

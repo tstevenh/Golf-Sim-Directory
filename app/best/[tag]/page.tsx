@@ -20,10 +20,14 @@ export async function generateMetadata({ params }: BestTagPageProps): Promise<Me
   return {
     title: `Best ${tagLabel} Golf Simulators | GolfSimMap`,
     description: content.description,
+    alternates: {
+      canonical: `https://golfsimmap.com/best/${tag}`,
+    },
     openGraph: {
       title: `Best ${tagLabel} Golf Simulators`,
       description: content.description,
       type: "website",
+      url: `https://golfsimmap.com/best/${tag}`,
     },
   };
 }

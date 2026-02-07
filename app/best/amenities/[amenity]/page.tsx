@@ -75,10 +75,14 @@ export async function generateMetadata({ params }: BestAmenityPageProps): Promis
   return {
     title: `Best Golf Simulators with ${label} | GolfSimMap`,
     description: content.description || `Find venues offering ${label}. Compare hardware, booking options, and vibes.`,
+    alternates: {
+      canonical: `https://golfsimmap.com/best/amenities/${amenity}`,
+    },
     openGraph: {
       title: `Best Golf Simulators with ${label}`,
       description: content.description || `Find venues offering ${label}.`,
       type: "website",
+      url: `https://golfsimmap.com/best/amenities/${amenity}`,
     },
   };
 }

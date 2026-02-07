@@ -51,10 +51,14 @@ export async function generateMetadata({ params }: BestLaunchMonitorPageProps): 
   return {
     title: `Best ${label} Launch Monitor Venues | GolfSimMap`,
     description: content.description || `Find golf simulator venues using ${label} launch monitors. Compare accuracy, amenities, and booking options.`,
+    alternates: {
+      canonical: `https://golfsimmap.com/best/launch-monitor/${type}`,
+    },
     openGraph: {
       title: `Best ${label} Launch Monitor Venues`,
       description: content.description || `Find golf simulator venues using ${label} launch monitors.`,
       type: "website",
+      url: `https://golfsimmap.com/best/launch-monitor/${type}`,
     },
   };
 }
