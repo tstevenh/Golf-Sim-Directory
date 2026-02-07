@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import { db, venueCardSelect } from "@/lib/db";
 import { BestByPageContent } from "@/components/seo/BestByPageContent";
 import { matchesVibe } from "@/lib/best-by";
-import { getGlobalRelatedLinksWithCounts } from "@/lib/best-by-data";
+import { getStaticRelatedLinks } from "@/lib/category-config.generated";
 
 interface BestVibePageProps {
   params: Promise<{ vibe: string }>;
@@ -128,11 +128,10 @@ export default async function BestVibePage({ params, searchParams }: BestVibePag
     },
   ];
 
-  // Generate related links dynamically - only categories with venues
-  const dynamicLinks = await getGlobalRelatedLinksWithCounts("vibe", vibe, 6);
+  // Related categories - static, no DB query
   const relatedLinks = [
     { label: "All vibes", href: "/best/vibe/" },
-    ...dynamicLinks,
+    ...getStaticRelatedLinks("vibe", vibe, 6),
   ];
 
   return (

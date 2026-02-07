@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import { db, venueCardSelect } from "@/lib/db";
 import { BestByPageContent } from "@/components/seo/BestByPageContent";
 import { matchesSoftware } from "@/lib/best-by";
-import { getGlobalRelatedLinksWithCounts } from "@/lib/best-by-data";
+import { getStaticRelatedLinks } from "@/lib/category-config.generated";
 
 interface BestSoftwarePageProps {
   params: Promise<{ software: string }>;
@@ -126,11 +126,10 @@ export default async function BestSoftwarePage({ params, searchParams }: BestSof
     },
   ];
 
-  // Generate related links dynamically - only categories with venues
-  const dynamicLinks = await getGlobalRelatedLinksWithCounts("software", software, 6);
+  // Related categories - static, no DB query
   const relatedLinks = [
     { label: "Browse all categories", href: "/best" },
-    ...dynamicLinks,
+    ...getStaticRelatedLinks("software", software, 6),
   ];
 
   return (

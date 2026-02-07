@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import { db, venueCardSelect } from "@/lib/db";
 import { BestByPageContent } from "@/components/seo/BestByPageContent";
 import { matchesWhoItsFor } from "@/lib/best-by";
-import { getGlobalRelatedLinksWithCounts } from "@/lib/best-by-data";
+import { getStaticRelatedLinks } from "@/lib/category-config.generated";
 
 interface BestWhoItsForPageProps {
   params: Promise<{ segment: string }>;
@@ -131,11 +131,10 @@ export default async function BestWhoItsForPage({ params, searchParams }: BestWh
     },
   ];
 
-  // Generate related links dynamically - only categories with venues
-  const dynamicLinks = await getGlobalRelatedLinksWithCounts("who-its-for", segment, 6);
+  // Related categories - static, no DB query
   const relatedLinks = [
     { label: "All occasions", href: "/best/who-its-for/" },
-    ...dynamicLinks,
+    ...getStaticRelatedLinks("who-its-for", segment, 6),
   ];
 
   return (

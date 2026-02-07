@@ -3,7 +3,7 @@ import { db, venueCardSelect } from "@/lib/db";
 import { BestByPageContent } from "@/components/seo/BestByPageContent";
 import { TagPageHero, getTagHeroContent } from "@/components/seo/PageHero";
 import { matchesTag } from "@/lib/best-by";
-import { getGlobalRelatedLinksWithCounts } from "@/lib/best-by-data";
+import { getStaticRelatedLinks } from "@/lib/category-config.generated";
 
 interface BestTagPageProps {
   params: Promise<{ tag: string }>;
@@ -131,12 +131,10 @@ export default async function BestTagPage({ params, searchParams }: BestTagPageP
     },
   ];
 
-  // Related categories based on the tag
-  // Generate related links dynamically - only categories with venues
-  const dynamicLinks = await getGlobalRelatedLinksWithCounts("tags", tag, 6);
+  // Related categories - static, no DB query
   const relatedLinks = [
     { label: "Browse all categories", href: "/best" },
-    ...dynamicLinks,
+    ...getStaticRelatedLinks("tags", tag, 6),
   ];
 
   return (

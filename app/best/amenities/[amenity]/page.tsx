@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import { db, venueCardSelect } from "@/lib/db";
 import { BestByPageContent } from "@/components/seo/BestByPageContent";
 import { matchesAmenity } from "@/lib/best-by";
-import { getGlobalRelatedLinksWithCounts } from "@/lib/best-by-data";
+import { getStaticRelatedLinks } from "@/lib/category-config.generated";
 
 interface BestAmenityPageProps {
   params: Promise<{ amenity: string }>;
@@ -150,11 +150,10 @@ export default async function BestAmenityPage({ params, searchParams }: BestAmen
     },
   ];
 
-  // Generate related links dynamically - only categories with venues
-  const dynamicLinks = await getGlobalRelatedLinksWithCounts("amenities", amenity, 6);
+  // Related categories - static, no DB query
   const relatedLinks = [
     { label: "Browse all categories", href: "/best" },
-    ...dynamicLinks,
+    ...getStaticRelatedLinks("amenities", amenity, 6),
   ];
 
   return (

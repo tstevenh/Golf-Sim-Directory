@@ -1,6 +1,5 @@
 import { Metadata } from "next";
 import Link from "next/link";
-import { db } from "@/lib/db";
 import { 
   Trophy, 
   Monitor, 
@@ -17,10 +16,19 @@ import {
   HelpCircle
 } from "lucide-react";
 import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
-import { matchesTag, matchesVibe, matchesWhoItsFor, matchesHardware, matchesAmenity, matchesSoftware } from "@/lib/best-by";
-import { LaunchMonitorType } from "@prisma/client";
+import {
+  AVAILABLE_TAGS,
+  AVAILABLE_VIBES,
+  AVAILABLE_SEGMENTS,
+  AVAILABLE_HARDWARE,
+  AVAILABLE_AMENITIES,
+  AVAILABLE_SOFTWARE,
+  AVAILABLE_LAUNCH_MONITORS,
+  TOTAL_VENUES,
+} from "@/lib/category-config.generated";
 
-export const revalidate = 60;
+// Static page - no revalidation needed
+export const dynamic = "force-static";
 
 export const metadata: Metadata = {
   title: "Best Golf Simulators by Category | Find Your Perfect Venue | GolfSimMap",
@@ -33,99 +41,6 @@ export const metadata: Metadata = {
     description: "Find the perfect golf simulator venue by category — vibe, hardware, amenities, and more.",
     type: "website",
     url: "https://golfsimmap.com/best",
-  },
-};
-
-// Define all possible categories with their config
-const allCategories = {
-  vibe: {
-    title: "By Vibe",
-    description: "Find the perfect atmosphere for your outing",
-    icon: Trophy,
-    items: [
-      { slug: "upscale-lounge", label: "Upscale Lounge", icon: Trophy },
-      { slug: "sports-bar", label: "Sports Bar", icon: Monitor },
-      { slug: "tech-lab", label: "Tech Lab", icon: Zap },
-      { slug: "party-atmosphere", label: "Party Atmosphere", icon: Users },
-    ],
-    viewAll: { label: "All vibes", href: "/best/vibe" },
-    basePath: "/best/vibe",
-  },
-  tags: {
-    title: "By Experience",
-    description: "Curated venues for specific occasions",
-    icon: Heart,
-    items: [
-      { slug: "date-night", label: "Date Night", icon: Heart },
-      { slug: "corporate-events", label: "Corporate Events", icon: Briefcase },
-      { slug: "family-friendly", label: "Family Friendly", icon: Baby },
-      { slug: "serious-practice", label: "Serious Practice", icon: Zap },
-    ],
-    viewAll: null,
-    basePath: "/best",
-  },
-  hardware: {
-    title: "By Hardware",
-    description: "Find venues with your preferred technology",
-    icon: Monitor,
-    items: [
-      { slug: "trackman", label: "TrackMan", icon: Monitor },
-      { slug: "foresight", label: "Foresight", icon: Monitor },
-      { slug: "uneekor", label: "Uneekor", icon: Monitor },
-      { slug: "full-swing", label: "Full Swing", icon: Monitor },
-    ],
-    viewAll: { label: "All hardware", href: "/best/hardware" },
-    basePath: "/best/hardware",
-  },
-  "who-its-for": {
-    title: "By Golfer Type",
-    description: "Venues tailored to your skill level and needs",
-    icon: Users,
-    items: [
-      { slug: "beginners", label: "Beginners", icon: GraduationCap },
-      { slug: "serious-golfers", label: "Serious Golfers", icon: Zap },
-      { slug: "families", label: "Families", icon: Baby },
-      { slug: "large-groups", label: "Large Groups", icon: Users },
-    ],
-    viewAll: { label: "All golfer types", href: "/best/who-its-for" },
-    basePath: "/best/who-its-for",
-  },
-  amenities: {
-    title: "By Amenities",
-    description: "Filter by what matters to you",
-    icon: Coffee,
-    items: [
-      { slug: "private_rooms", label: "Private Rooms", icon: Coffee },
-      { slug: "full_bar", label: "Full Bar", icon: Coffee },
-      { slug: "kitchen_food", label: "Food Service", icon: Coffee },
-      { slug: "coaching_available", label: "Coaching", icon: GraduationCap },
-    ],
-    viewAll: null,
-    basePath: "/best/amenities",
-  },
-  "launch-monitor": {
-    title: "By Launch Monitor",
-    description: "Choose your tracking technology",
-    icon: Radar,
-    items: [
-      { slug: "radar", label: "Radar Systems", icon: Radar },
-      { slug: "photometric_camera", label: "Camera Systems", icon: Monitor },
-      { slug: "hybrid", label: "Hybrid Systems", icon: Zap },
-    ],
-    viewAll: null,
-    basePath: "/best/launch-monitor",
-  },
-  software: {
-    title: "By Software",
-    description: "Find your preferred simulation platform",
-    icon: Gamepad2,
-    items: [
-      { slug: "gspro", label: "GSPro", icon: Gamepad2 },
-      { slug: "e6", label: "E6 Connect", icon: Gamepad2 },
-      { slug: "tgc", label: "TGC 2019", icon: Gamepad2 },
-    ],
-    viewAll: null,
-    basePath: "/best/software",
   },
 };
 
@@ -153,85 +68,120 @@ const breadcrumbItems = [
   { label: "Best By Category", current: true },
 ];
 
-// Helper to check if a venue matches a category
-function getVenueCountForCategory(
-  venues: Array<{
-    tags: string[] | null;
-    vibeTags: string[] | null;
-    whoItsFor: string[] | null;
-    simulatorSystems: unknown;
-    launchMonitorType: LaunchMonitorType | null;
-    comprehensiveData: unknown;
-    wifi: boolean | null;
-    hasPrivateRooms: boolean | null;
-    parking: string | null;
-    foodAndDrink: unknown;
-    coachingAvailable: boolean | null;
-  }>,
-  categoryType: string,
-  slug: string
-): number {
-  return venues.filter((venue) => {
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    const v = venue as any;
-    switch (categoryType) {
-      case "tags":
-        return matchesTag(v, slug);
-      case "vibe":
-        return matchesVibe(v, slug);
-      case "who-its-for":
-        return matchesWhoItsFor(v, slug);
-      case "hardware":
-        return matchesHardware(v, slug);
-      case "amenities":
-        return matchesAmenity(v, slug);
-      case "software":
-        return matchesSoftware(v, slug);
-      case "launch-monitor":
-        return venue.launchMonitorType === slug;
-      default:
-        return false;
-    }
-  }).length;
+// Icon mapping
+const iconMap: Record<string, React.ElementType> = {
+  "upscale": Trophy,
+  "sports-bar": Monitor,
+  "tech-lab": Zap,
+  "party-atmosphere": Users,
+  "date-night": Heart,
+  "corporate-events": Briefcase,
+  "family-friendly": Baby,
+  "serious-practice": Zap,
+  "beginners": GraduationCap,
+  "serious-golfers": Zap,
+  "families": Baby,
+  "large-groups": Users,
+  "private_rooms": Coffee,
+  "full_bar": Coffee,
+  "coaching_available": GraduationCap,
+  "radar": Radar,
+  "photometric_camera": Monitor,
+  "default": Monitor,
+};
+
+function getIcon(slug: string): React.ElementType {
+  return iconMap[slug] || iconMap.default;
 }
 
-export default async function BestByIndexPage() {
-  // Fetch all venues to count matches
-  const venues = await db.venue.findMany({
-    where: { status: "active" },
-    select: {
-      tags: true,
-      vibeTags: true,
-      whoItsFor: true,
-      simulatorSystems: true,
-      launchMonitorType: true,
-      comprehensiveData: true,
-      wifi: true,
-      hasPrivateRooms: true,
-      parking: true,
-      foodAndDrink: true,
-      coachingAvailable: true,
+export default function BestByIndexPage() {
+  // Build categories from static config - only include categories with venues
+  const categories = [
+    {
+      id: "vibe",
+      title: "By Vibe",
+      description: "Find the perfect atmosphere for your outing",
+      icon: Trophy,
+      items: AVAILABLE_VIBES.filter(v => v.count > 0).slice(0, 4).map(v => ({
+        ...v,
+        href: `/best/vibe/${v.slug}`,
+        icon: getIcon(v.slug),
+      })),
+      viewAll: AVAILABLE_VIBES.length > 4 ? { label: "All vibes", href: "/best/vibe" } : null,
     },
-  });
-
-  // Build categories with venue counts, filtering out empty ones
-  const categoriesWithCounts = Object.entries(allCategories).map(([categoryType, category]) => {
-    const itemsWithCounts = category.items
-      .map((item) => ({
-        ...item,
-        count: getVenueCountForCategory(venues, categoryType, item.slug),
-        href: categoryType === "tags" 
-          ? `${category.basePath}/${item.slug}`
-          : `${category.basePath}/${item.slug}`,
-      }))
-      .filter((item) => item.count > 0); // Only include items with venues
-
-    return {
-      ...category,
-      id: categoryType,
-      items: itemsWithCounts,
-    };
-  }).filter((category) => category.items.length > 0); // Only include categories with items
+    {
+      id: "tags",
+      title: "By Experience",
+      description: "Curated venues for specific occasions",
+      icon: Heart,
+      items: AVAILABLE_TAGS.filter(t => t.count > 0).slice(0, 4).map(t => ({
+        ...t,
+        href: `/best/${t.slug}`,
+        icon: getIcon(t.slug),
+      })),
+      viewAll: null,
+    },
+    {
+      id: "hardware",
+      title: "By Hardware",
+      description: "Find venues with your preferred technology",
+      icon: Monitor,
+      items: AVAILABLE_HARDWARE.filter(h => h.count > 0).slice(0, 4).map(h => ({
+        ...h,
+        href: `/best/hardware/${h.slug}`,
+        icon: Monitor,
+      })),
+      viewAll: AVAILABLE_HARDWARE.length > 4 ? { label: "All hardware", href: "/best/hardware" } : null,
+    },
+    {
+      id: "who-its-for",
+      title: "By Golfer Type",
+      description: "Venues tailored to your skill level and needs",
+      icon: Users,
+      items: AVAILABLE_SEGMENTS.filter(s => s.count > 0).slice(0, 4).map(s => ({
+        ...s,
+        href: `/best/who-its-for/${s.slug}`,
+        icon: getIcon(s.slug),
+      })),
+      viewAll: AVAILABLE_SEGMENTS.length > 4 ? { label: "All golfer types", href: "/best/who-its-for" } : null,
+    },
+    {
+      id: "amenities",
+      title: "By Amenities",
+      description: "Filter by what matters to you",
+      icon: Coffee,
+      items: AVAILABLE_AMENITIES.filter(a => a.count > 0).slice(0, 4).map(a => ({
+        ...a,
+        href: `/best/amenities/${a.slug}`,
+        icon: getIcon(a.slug),
+      })),
+      viewAll: null,
+    },
+    {
+      id: "launch-monitor",
+      title: "By Launch Monitor",
+      description: "Choose your tracking technology",
+      icon: Radar,
+      items: AVAILABLE_LAUNCH_MONITORS.filter(l => l.count > 0).slice(0, 4).map(l => ({
+        ...l,
+        href: `/best/launch-monitor/${l.slug}`,
+        icon: getIcon(l.slug),
+      })),
+      viewAll: null,
+    },
+    {
+      id: "software",
+      title: "By Software",
+      description: "Find your preferred simulation platform",
+      icon: Gamepad2,
+      items: AVAILABLE_SOFTWARE.filter(s => s.count > 0).slice(0, 4).map(s => ({
+        ...s,
+        href: `/best/software/${s.slug}`,
+        icon: Gamepad2,
+      })),
+      viewAll: null,
+    },
+  ].filter(cat => cat.items.length > 0); // Only show categories with items
 
   return (
     <div className="min-h-screen bg-deep-black">
@@ -278,11 +228,14 @@ export default async function BestByIndexPage() {
             Want a sports bar vibe or a focused practice environment? Browse our curated categories 
             to find venues that match exactly what you need.
           </p>
+          <p className="text-muted mt-2">
+            Currently featuring <span className="text-cream font-medium">{TOTAL_VENUES}</span> venues across the US.
+          </p>
         </div>
 
-        {/* Categories Grid - Only shows categories with venues */}
+        {/* Categories Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
-          {categoriesWithCounts.map((category) => {
+          {categories.map((category) => {
             const CategoryIcon = category.icon;
             return (
               <div key={category.id} className="border border-default bg-charcoal p-6 rounded-lg">
@@ -312,7 +265,7 @@ export default async function BestByIndexPage() {
                           </span>
                         </div>
                         <div className="flex items-center gap-2">
-                          <span className="text-xs text-muted">({item.count})</span>
+                          {item.count > 0 && <span className="text-xs text-muted">({item.count})</span>}
                           <ArrowRight className="w-4 h-4 text-muted group-hover:text-masters-green group-hover:translate-x-0.5 transition-all" />
                         </div>
                       </Link>

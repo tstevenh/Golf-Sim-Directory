@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import { db, venueCardSelect } from "@/lib/db";
 import { BestByPageContent } from "@/components/seo/BestByPageContent";
 import { matchesHardware } from "@/lib/best-by";
-import { getGlobalRelatedLinksWithCounts } from "@/lib/best-by-data";
+import { getStaticRelatedLinks } from "@/lib/category-config.generated";
 
 interface BestHardwarePageProps {
   params: Promise<{ brand: string }>;
@@ -128,11 +128,10 @@ export default async function BestHardwarePage({ params, searchParams }: BestHar
     },
   ];
 
-  // Generate related links dynamically - only categories with venues
-  const dynamicLinks = await getGlobalRelatedLinksWithCounts("hardware", brand, 6);
+  // Related categories - static, no DB query
   const relatedLinks = [
     { label: "All technology", href: "/best/hardware/" },
-    ...dynamicLinks,
+    ...getStaticRelatedLinks("hardware", brand, 6),
   ];
 
   return (

@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import { LaunchMonitorType } from "@prisma/client";
 import { db, venueCardSelect } from "@/lib/db";
 import { BestByPageContent } from "@/components/seo/BestByPageContent";
-import { getGlobalRelatedLinksWithCounts } from "@/lib/best-by-data";
+import { getStaticRelatedLinks } from "@/lib/category-config.generated";
 
 interface BestLaunchMonitorPageProps {
   params: Promise<{ type: string }>;
@@ -116,11 +116,10 @@ export default async function BestLaunchMonitorPage({ params, searchParams }: Be
     },
   ];
 
-  // Generate related links dynamically - only categories with venues
-  const dynamicLinks = await getGlobalRelatedLinksWithCounts("launch-monitor", type, 6);
+  // Related categories - static, no DB query
   const relatedLinks = [
     { label: "Browse all categories", href: "/best" },
-    ...dynamicLinks,
+    ...getStaticRelatedLinks("launch-monitor", type, 6),
   ];
 
   return (
