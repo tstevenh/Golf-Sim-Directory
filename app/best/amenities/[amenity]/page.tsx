@@ -11,6 +11,23 @@ interface BestAmenityPageProps {
 
 export const revalidate = 3600;
 
+// Pre-render all amenity pages at build time
+export async function generateStaticParams() {
+  return [
+    { amenity: "private_rooms" },
+    { amenity: "full_bar" },
+    { amenity: "kitchen_food" },
+    { amenity: "coaching_available" },
+    { amenity: "club_fitting" },
+    { amenity: "wifi" },
+    { amenity: "parking" },
+    { amenity: "outdoor_space" },
+    { amenity: "events" },
+    { amenity: "leagues" },
+    { amenity: "memberships" },
+  ];
+}
+
 // Amenity-specific content
 const amenityContent: Record<string, { tagline: string; description: string }> = {
   "private-rooms": {

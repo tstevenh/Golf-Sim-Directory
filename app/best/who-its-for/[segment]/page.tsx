@@ -11,6 +11,20 @@ interface BestWhoItsForPageProps {
 
 export const revalidate = 3600;
 
+// Pre-render all segment pages at build time
+export async function generateStaticParams() {
+  return [
+    { segment: "beginners" },
+    { segment: "corporate-groups" },
+    { segment: "serious-golfers" },
+    { segment: "date-night" },
+    { segment: "large-groups" },
+    { segment: "families" },
+    { segment: "league-players" },
+    { segment: "seniors" },
+  ];
+}
+
 // Segment-specific content
 const segmentContent: Record<string, { tagline: string; description: string }> = {
   families: {

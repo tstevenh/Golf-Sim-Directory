@@ -11,6 +11,21 @@ interface BestHardwarePageProps {
 
 export const revalidate = 3600;
 
+// Pre-render all hardware pages at build time
+export async function generateStaticParams() {
+  return [
+    { brand: "trackman" },
+    { brand: "foresight" },
+    { brand: "uneekor" },
+    { brand: "full-swing" },
+    { brand: "golfzon" },
+    { brand: "aboutgolf" },
+    { brand: "skytrak" },
+    { brand: "gc-quad" },
+    { brand: "garmin" },
+  ];
+}
+
 // Hardware-specific content
 const hardwareContent: Record<string, { tagline: string; description: string; icon?: string }> = {
   "trackman": {

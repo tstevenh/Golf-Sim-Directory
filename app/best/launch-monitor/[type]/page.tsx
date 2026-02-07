@@ -11,6 +11,15 @@ interface BestLaunchMonitorPageProps {
 
 export const revalidate = 3600;
 
+// Pre-render all launch monitor pages at build time
+export async function generateStaticParams() {
+  return [
+    { type: "radar" },
+    { type: "photometric_camera" },
+    { type: "hybrid" },
+  ];
+}
+
 // Launch monitor type-specific content
 const launchMonitorContent: Record<string, { tagline: string; description: string }> = {
   radar: {

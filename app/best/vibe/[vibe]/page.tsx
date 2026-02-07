@@ -11,6 +11,21 @@ interface BestVibePageProps {
 
 export const revalidate = 3600;
 
+// Pre-render all vibe pages at build time
+export async function generateStaticParams() {
+  return [
+    { vibe: "upscale" },
+    { vibe: "casual" },
+    { vibe: "sports-bar" },
+    { vibe: "boutique" },
+    { vibe: "lounge" },
+    { vibe: "entertainment" },
+    { vibe: "family" },
+    { vibe: "tech-lab" },
+    { vibe: "party-atmosphere" },
+  ];
+}
+
 // Vibe-specific content
 const vibeContent: Record<string, { tagline: string; description: string }> = {
   "upscale": {

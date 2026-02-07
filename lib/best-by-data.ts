@@ -211,62 +211,79 @@ export async function getCityCategoryBrowseLinksWithCounts(
 }
 
 /**
+ * Cached fetch of all venues for category counting.
+ * Single DB call reused across all page generations during build.
+ */
+const getCachedVenuesForCategories = unstable_cache(
+  async () => {
+    return db.venue.findMany({
+      where: { status: "active" },
+      select: {
+        tags: true,
+        vibeTags: true,
+        whoItsFor: true,
+        simulatorSystems: true,
+        launchMonitorType: true,
+      },
+    });
+  },
+  ["global-venues-for-categories"],
+  { revalidate: CACHE_DURATION, tags: [CACHE_TAG] }
+);
+
+/**
  * Get related category links for global best-by pages,
  * filtered to only show categories with venues.
+ * Cached for build-time efficiency.
  */
-export async function getGlobalRelatedLinksWithCounts(
-  currentCategory: string,
-  currentSlug: string,
-  limit = 6
-): Promise<Array<{ href: string; label: string; count: number }>> {
-  const venues = await db.venue.findMany({
-    where: { status: "active" },
-    select: {
-      tags: true,
-      vibeTags: true,
-      whoItsFor: true,
-      simulatorSystems: true,
-      launchMonitorType: true,
-    },
-  });
+export const getGlobalRelatedLinksWithCounts = unstable_cache(
+  async (
+    currentCategory: string,
+    currentSlug: string,
+    limit = 6
+  ): Promise<Array<{ href: string; label: string; count: number }>> => {
+    const venues = await getCachedVenuesForCategories();
 
-  const links: Array<{ href: string; label: string; count: number }> = [];
+    const links: Array<{ href: string; label: string; count: number }> = [];
 
-  // Add other hardware if current is hardware
-  if (currentCategory === "hardware") {
-    const otherHardware = HARDWARE_CATEGORIES.filter((h) => h.slug !== currentSlug);
-    for (const hw of otherHardware) {
-      const count = venues.filter((v) => {
-        try {
-          const systems = v.simulatorSystems as { brand?: string }[] | null;
-          return systems?.some((s) => s.brand?.toLowerCase() === hw.slug.toLowerCase());
-        } catch {
-          return false;
+    // Add other hardware if current is hardware
+    if (currentCategory === "hardware") {
+      const otherHardware = HARDWARE_CATEGORIES.filter((h) => h.slug !== currentSlug);
+      for (const hw of otherHardware) {
+        const count = venues.filter((v) => {
+          try {
+            const systems = v.simulatorSystems as { brand?: string }[] | null;
+            return systems?.some((s) => s.brand?.toLowerCase() === hw.slug.toLowerCase());
+          } catch {
+            return false;
+          }
+        }).length;
+        if (count > 0) {
+          links.push({ href: `/best/hardware/${hw.slug}`, label: `Best ${hw.label}`, count });
         }
-      }).length;
-      if (count > 0) {
-        links.push({ href: `/best/hardware/${hw.slug}`, label: `Best ${hw.label}`, count });
       }
     }
-  }
 
-  // Add vibes
-  for (const vibe of VIBE_CATEGORIES) {
-    if (currentCategory === "vibe" && vibe.slug === currentSlug) continue;
-    const count = venues.filter((v) => (v.vibeTags || []).includes(vibe.slug)).length;
-    if (count > 0 && links.length < limit) {
-      links.push({ href: `/best/vibe/${vibe.slug}`, label: `Best ${vibe.label}`, count });
+    // Add vibes
+    for (const vibe of VIBE_CATEGORIES) {
+      if (currentCategory === "vibe" && vibe.slug === currentSlug) continue;
+      const count = venues.filter((v) => (v.vibeTags || []).includes(vibe.slug)).length;
+      if (count > 0 && links.length < limit) {
+        links.push({ href: `/best/vibe/${vibe.slug}`, label: `Best ${vibe.label}`, count });
+      }
     }
-  }
 
-  // Add segments
-  for (const segment of SEGMENT_CATEGORIES) {
-    if (currentCategory === "who-its-for" && segment.slug === currentSlug) continue;
-    const count = venues.filter((v) => (v.whoItsFor || []).includes(segment.slug)).length;
-    if (count > 0 && links.length < limit) {
-      links.push({ href: `/best/who-its-for/${segment.slug}`, label: `Best for ${segment.label}`, count });
+    // Add segments
+    for (const segment of SEGMENT_CATEGORIES) {
+      if (currentCategory === "who-its-for" && segment.slug === currentSlug) continue;
+      const count = venues.filter((v) => (v.whoItsFor || []).includes(segment.slug)).length;
+      if (count > 0 && links.length < limit) {
+        links.push({ href: `/best/who-its-for/${segment.slug}`, label: `Best for ${segment.label}`, count });
+      }
     }
-  }
 
-  return links.slice(0, limit);
-}
+    return links.slice(0, limit);
+  },
+  ["global-related-links"],
+  { revalidate: CACHE_DURATION, tags: [CACHE_TAG] }
+);

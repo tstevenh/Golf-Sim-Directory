@@ -11,6 +11,19 @@ interface BestSoftwarePageProps {
 
 export const revalidate = 3600;
 
+// Pre-render all software pages at build time
+export async function generateStaticParams() {
+  return [
+    { software: "e6" },
+    { software: "gspro" },
+    { software: "tgc" },
+    { software: "wgt" },
+    { software: "creative-golf" },
+    { software: "awesome-golf" },
+    { software: "trackman-virtual" },
+  ];
+}
+
 // Software-specific content
 const softwareContent: Record<string, { tagline: string; description: string }> = {
   "e6": {

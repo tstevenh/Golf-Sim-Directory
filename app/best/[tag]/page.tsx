@@ -12,6 +12,21 @@ interface BestTagPageProps {
 
 export const revalidate = 3600;
 
+// Pre-render all tag pages at build time
+export async function generateStaticParams() {
+  // Return all known tags - pages will be statically generated
+  return [
+    { tag: "sim-bar" },
+    { tag: "date-night" },
+    { tag: "corporate-events" },
+    { tag: "family-friendly" },
+    { tag: "serious-practice" },
+    { tag: "party-venue" },
+    { tag: "premium-experience" },
+    { tag: "budget-friendly" },
+  ];
+}
+
 // Server-compatible tag content for metadata (no JSX)
 const tagMetaContent: Record<string, { tagline: string; description: string }> = {
   "sim-bar": {
