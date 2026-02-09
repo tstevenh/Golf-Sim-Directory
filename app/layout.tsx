@@ -25,6 +25,14 @@ export const metadata: Metadata = {
   description: "Search 270+ indoor golf simulator venues across the US. Compare TrackMan, Foresight & Uneekor launch monitors, check pricing, and book your next session.",
   keywords: ["golf simulators", "indoor golf", "screen golf", "golf simulator near me", "TrackMan", "Foresight", "Uneekor", "golf simulator bar"],
   metadataBase: new URL("https://golfsimmap.com"),
+  icons: {
+    icon: [
+      { url: "/favicon.ico" },
+      { url: "/favicon.png", type: "image/png" },
+    ],
+    shortcut: "/favicon.ico",
+    apple: "/favicon.png",
+  },
   openGraph: {
     type: "website",
     locale: "en_US",

@@ -1,13 +1,14 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useSession, signOut } from "next-auth/react";
 import { useState, useEffect } from "react";
-import { 
-  Menu, 
-  X, 
-  Search, 
-  MapPin, 
+import {
+  Menu,
+  X,
+  Search,
+  MapPin,
   Briefcase,
   LogIn,
   LogOut,
@@ -65,17 +66,23 @@ export function Navbar() {
   }, [isOpen]);
 
   return (
-    <header 
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? "bg-deep-black/95 backdrop-blur-sm shadow-lg" : "bg-deep-black"
-      } border-b border-subtle`}
+    <header
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? "bg-deep-black/95 backdrop-blur-sm shadow-lg" : "bg-deep-black"
+        } border-b border-subtle`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3 group">
-            <div className="w-9 h-9 border border-masters-green flex items-center justify-center rounded">
-              <span className="text-masters-green font-mono font-bold text-sm">GSM</span>
+            <div className="w-16 h-16 flex items-center justify-center rounded">
+              <Image
+                src="/logo.png"
+                alt="GolfSimMap logo"
+                width={64}
+                height={64}
+                className="h-16 w-16 object-contain"
+                priority
+              />
             </div>
             <span className="text-lg font-semibold tracking-tight text-cream group-hover:text-masters-green transition-colors">
               GolfSimMap
@@ -104,7 +111,7 @@ export function Navbar() {
             >
               <Search className="w-5 h-5" />
             </Link>
-            
+
             {session?.user ? (
               <div className="flex items-center gap-3">
                 <Link
@@ -158,11 +165,11 @@ export function Navbar() {
       {isOpen && (
         <>
           {/* Backdrop */}
-          <div 
+          <div
             className="fixed inset-0 bg-deep-black/80 backdrop-blur-sm md:hidden z-40"
             onClick={() => setIsOpen(false)}
           />
-          
+
           {/* Menu Panel */}
           <div className="fixed inset-x-0 top-16 bottom-0 md:hidden bg-deep-black border-t border-subtle z-50 overflow-y-auto">
             <nav className="px-4 py-6">

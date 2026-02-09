@@ -4,7 +4,6 @@ import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import {
   ArrowRight,
-  Check,
   TrendingUp,
   Target,
   Zap,
@@ -13,12 +12,10 @@ import {
 interface Monitor {
   name: string;
   code: string;
-  type: string;
-  price: string;
-  accuracy: number;
-  accuracyLabel: string;
-  metrics: string[];
-  bestFor: string[];
+  technology?: string;
+  price?: string;
+  dataPoints?: string;
+  specs?: { label: string; value: string }[];
   hue: number;
 }
 
@@ -26,54 +23,42 @@ const monitors: Monitor[] = [
   {
     name: "TrackMan 4",
     code: "TM",
-    type: "Radar",
-    price: "$19,000+",
-    accuracy: 98,
-    accuracyLabel: "±0.5 yards",
-    metrics: [
-      "Ball Speed",
-      "Spin Rate",
-      "Launch Angle",
-      "Carry Distance",
-      "Total Distance",
-      "Club Path",
+    technology: "Optically Enhanced Radar Tracking (OERT)",
+    price: "$25,495",
+    dataPoints: "40+ parameters",
+    specs: [
+      { label: "Radar Sensors", value: "Dual radar (short + long range)" },
+      { label: "Indoor Setup", value: "TrackMan to net min 4.7 m (16 ft)" },
+      { label: "Dimensions", value: "300 x 300 x 45 mm" },
+      { label: "Weight", value: "6.2 lbs / 2.8 kg" },
     ],
-    bestFor: ["Tour Players", "Professionals", "Serious Amateurs"],
     hue: 145,
   },
   {
     name: "Foresight GCQuad",
     code: "FS",
-    type: "Camera",
-    price: "$14,000+",
-    accuracy: 97,
-    accuracyLabel: "±0.3 yards",
-    metrics: [
-      "Ball Speed",
-      "Spin Rate",
-      "Launch Angle",
-      "Carry Distance",
-      "Club Head Speed",
-      "Attack Angle",
+    technology: "Quadrascopic Imaging (4 cameras)",
+    price: "$15,999",
+    specs: [
+      { label: "Cameras", value: "4 (quadrascopic)" },
+      { label: "Hitting Zone", value: "18 in x 14 in" },
+      { label: "Battery", value: "10,400 mAh; 6–8 hours" },
+      { label: "Weight", value: "7.5 lbs / 3.8 kg" },
     ],
-    bestFor: ["Fitters", "Indoor Facilities", "Coaches"],
     hue: 200,
   },
   {
     name: "Uneekor EYE XO",
     code: "UK",
-    type: "Camera",
-    price: "$10,000+",
-    accuracy: 95,
-    accuracyLabel: "±0.5 yards",
-    metrics: [
-      "Ball Speed",
-      "Spin Rate",
-      "Launch Angle",
-      "Carry Distance",
-      "Smash Factor",
+    technology: "Front Overhead Photometric System",
+    price: "$8,000",
+    dataPoints: "24 data points",
+    specs: [
+      { label: "Cameras", value: "2" },
+      { label: "Hitting Zone", value: "12 in W x 16 in L" },
+      { label: "Placement", value: "Front overhead" },
+      { label: "Ball Type", value: "Any" },
     ],
-    bestFor: ["Home Simulators", "Commercial", "Value Seekers"],
     hue: 43,
   },
 ];
@@ -175,36 +160,17 @@ export function LaunchMonitorComparison() {
                       >
                         {monitor.name}
                       </span>
-                      <span className="text-xs text-muted">
-                        {monitor.type}
-                      </span>
+                      {monitor.technology ? (
+                        <span className="text-xs text-muted">
+                          {monitor.technology}
+                        </span>
+                      ) : null}
                     </div>
                   </div>
                   <div className="text-right">
                     <span className="block font-mono text-sm text-cream">
-                      {monitor.price}
+                      {monitor.price ?? ""}
                     </span>
-                  </div>
-                </div>
-
-                <div className="mt-4">
-                  <div className="flex items-center justify-between text-xs mb-1">
-                    <span className="text-muted">Accuracy</span>
-                    <span
-                      className="font-mono"
-                      style={{ color: `hsl(${monitor.hue} 70% 50%)` }}
-                    >
-                      {monitor.accuracyLabel}
-                    </span>
-                  </div>
-                  <div className="h-1 bg-slate overflow-hidden">
-                    <div
-                      className="h-full transition-all duration-1000"
-                      style={{
-                        width: isVisible ? `${monitor.accuracy}%` : "0%",
-                        backgroundColor: `hsl(${monitor.hue} 70% 50%)`,
-                      }}
-                    />
                   </div>
                 </div>
               </button>
@@ -220,69 +186,56 @@ export function LaunchMonitorComparison() {
                       <h3 className="text-cream text-2xl">
                         {activeMonitor.name}
                       </h3>
-                      <span
-                        className="px-2 py-1 text-xs font-mono"
-                        style={{
-                          backgroundColor: `hsla(${activeMonitor.hue} 70% 30% / 0.3)`,
-                          color: `hsl(${activeMonitor.hue} 70% 50%)`,
-                        }}
-                      >
-                        {activeMonitor.type}
-                      </span>
+                      {activeMonitor.technology ? (
+                        <span
+                          className="px-2 py-1 text-xs font-mono"
+                          style={{
+                            backgroundColor: `hsla(${activeMonitor.hue} 70% 30% / 0.3)`,
+                            color: `hsl(${activeMonitor.hue} 70% 50%)`,
+                          }}
+                        >
+                          {activeMonitor.technology}
+                        </span>
+                      ) : null}
                     </div>
-                    <p className="text-muted text-sm">
-                      Starting at{" "}
-                      <span className="font-mono text-cream">
-                        {activeMonitor.price}
-                      </span>
-                    </p>
-                  </div>
-                  <div className="text-right">
-                    <div className="flex items-center gap-2">
-                      <Target
-                        className="w-5 h-5"
-                        style={{ color: `hsl(${activeMonitor.hue} 70% 50%)` }}
-                      />
-                      <span className="font-mono text-2xl font-bold text-cream">
-                        {activeMonitor.accuracy}%
-                      </span>
-                    </div>
-                    <span className="text-xs text-muted">Accuracy Rating</span>
+                    {activeMonitor.price ? (
+                      <p className="text-muted text-sm">
+                        Starting at{" "}
+                        <span className="font-mono text-cream">
+                          {activeMonitor.price}
+                        </span>
+                      </p>
+                    ) : null}
+                    {activeMonitor.dataPoints ? (
+                      <p className="text-muted text-sm mt-1">
+                        Data points:{" "}
+                        <span className="font-mono text-cream">
+                          {activeMonitor.dataPoints}
+                        </span>
+                      </p>
+                    ) : null}
                   </div>
                 </div>
 
-                <div className="grid sm:grid-cols-2 gap-6 mb-8">
-                  <div>
+                {activeMonitor.specs?.length ? (
+                  <div className="mb-8">
                     <span className="text-xs text-muted uppercase tracking-wider block mb-3">
-                      Tracked Metrics
+                      Key Specs
                     </span>
-                    <div className="flex flex-wrap gap-2">
-                      {activeMonitor.metrics.map((metric) => (
-                        <span
-                          key={metric}
-                          className="px-3 py-1.5 text-xs border border-default text-cream-subtle"
-                        >
-                          {metric}
-                        </span>
-                      ))}
-                    </div>
-                  </div>
-                  <div>
-                    <span className="text-xs text-muted uppercase tracking-wider block mb-3">
-                      Best For
-                    </span>
-                    <div className="space-y-2">
-                      {activeMonitor.bestFor.map((item) => (
-                        <div key={item} className="flex items-center gap-2">
-                          <Check className="w-4 h-4 text-masters-green" />
+                    <div className="grid sm:grid-cols-2 gap-4">
+                      {activeMonitor.specs.map((spec) => (
+                        <div key={spec.label} className="border border-default p-3">
+                          <span className="text-xs text-muted uppercase tracking-wider block mb-1">
+                            {spec.label}
+                          </span>
                           <span className="text-sm text-cream-subtle">
-                            {item}
+                            {spec.value}
                           </span>
                         </div>
                       ))}
                     </div>
                   </div>
-                </div>
+                ) : null}
 
                 <div className="flex items-center gap-4 pt-6 border-t border-subtle">
                   <Link

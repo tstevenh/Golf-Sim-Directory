@@ -98,25 +98,24 @@ export function HeroSection({ totalVenues, totalStates }: HeroSectionProps) {
       {/* Content */}
       <div className="relative z-10 w-full max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12 text-center">
         <div
-          className={`transition-all duration-1000 ${
-            isLoaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
-          }`}
+          className={`transition-all duration-1000 ${isLoaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
+            }`}
         >
           {/* Eyebrow */}
           <div className="flex items-center justify-center gap-3 mb-6">
             <div className="w-12 h-px bg-masters-green" />
             <span className="text-masters-green text-xs font-mono uppercase tracking-widest">
-              Indoor Golf Directory
+              Indoor Golf Simulator Directory
             </span>
             <div className="w-12 h-px bg-masters-green" />
           </div>
 
           {/* Main Headline - H1 for SEO */}
-          <h1 
+          <h1
             className="text-cream mb-4 font-bold tracking-tighter"
-            style={{ 
-              fontSize: 'clamp(3rem, 8vw, 6rem)', 
-              lineHeight: 0.95 
+            style={{
+              fontSize: 'clamp(3rem, 8vw, 6rem)',
+              lineHeight: 0.95
             }}
           >
             Find Your
@@ -127,7 +126,7 @@ export function HeroSection({ totalVenues, totalStates }: HeroSectionProps) {
           <p className="text-lg md:text-xl text-muted mb-10 max-w-2xl mx-auto leading-relaxed">
             Discover over{" "}
             <strong className="text-cream">
-              {(totalVenues || 8).toLocaleString()} indoor golf venues
+              {(totalVenues || 8).toLocaleString()} indoor golf simulator venues
             </strong>{" "}
             across the USA. Compare launch monitors, check availability, and
             book your next session.
@@ -190,8 +189,8 @@ export function HeroSection({ totalVenues, totalStates }: HeroSectionProps) {
                 Venues
               </span>
             </div>
-            <div 
-              className="stat-cell" 
+            <div
+              className="stat-cell"
               // eslint-disable-next-line react-hooks/refs
               ref={statesCount.ref}
             >

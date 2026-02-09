@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import Link from "next/link";
 import { db, venueCardSelect } from "@/lib/db";
 import { VenueCard, VenueGrid } from "@/components/venue/VenueCard";
+import { Pagination } from "@/components/ui/Pagination";
 import { getStateSlug } from "@/lib/states";
 import { Search } from "lucide-react";
 
@@ -324,40 +325,12 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
                 ))}
               </VenueGrid>
 
-              {totalPages > 1 && (
-                <div className="flex items-center justify-center gap-3 mt-10">
-                  {Array.from({ length: totalPages }).map((_, index) => {
-                    const pageNumber = index + 1;
-                    const params = new URLSearchParams();
-                    if (query) params.set("q", query);
-                    if (city) params.set("city", city);
-                    if (state) params.set("state", state);
-                    if (venueType) params.set("venueType", venueType);
-                    if (launchMonitorType) params.set("launchMonitorType", launchMonitorType);
-                    if (hardware) params.set("hardware", hardware);
-                    if (minPrice) params.set("minPrice", String(minPrice));
-                    if (maxPrice) params.set("maxPrice", String(maxPrice));
-                    if (kidFriendly) params.set("kidFriendly", "true");
-                    if (coaching) params.set("coaching", "true");
-                    if (food) params.set("food", "true");
-                    if (alcohol) params.set("alcohol", "true");
-                    if (wifi) params.set("wifi", "true");
-                    if (privateRooms) params.set("privateRooms", "true");
-                    params.set("page", String(pageNumber));
-                    const href = `/search?${params.toString()}`;
-                    const isActive = pageNumber === page;
-                    return (
-                      <Link
-                        key={href}
-                        href={href}
-                        className={`min-w-[44px] min-h-[44px] flex items-center justify-center border text-sm transition-colors rounded-lg ${isActive ? "border-masters-green bg-masters-green/10 text-cream" : "border-default text-cream-subtle hover:border-masters-green hover:text-cream"}`}
-                      >
-                        {pageNumber}
-                      </Link>
-                    );
-                  })}
-                </div>
-              )}
+              <Pagination
+                currentPage={page}
+                totalPages={totalPages}
+                baseUrl="/search"
+                searchParams={params}
+              />
             </>
           )}
         </section>

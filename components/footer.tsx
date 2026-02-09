@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Facebook, Twitter, Instagram, Youtube, Mail } from "lucide-react";
 
 const footerLinks = {
@@ -92,8 +93,14 @@ export function Footer() {
           {/* Brand Column */}
           <div className="lg:col-span-2">
             <Link href="/" className="inline-flex items-center gap-3 mb-6 group">
-              <div className="w-10 h-10 border border-masters-green flex items-center justify-center">
-                <span className="text-masters-green font-mono font-bold">GSM</span>
+              <div className="w-20 h-20 flex items-center justify-center">
+                <Image
+                  src="/logo.png"
+                  alt="GolfSimMap logo"
+                  width={80}
+                  height={80}
+                  className="h-20 w-20 object-contain"
+                />
               </div>
               <span className="text-xl font-semibold text-cream group-hover:text-masters-green transition-colors">
                 GolfSimMap

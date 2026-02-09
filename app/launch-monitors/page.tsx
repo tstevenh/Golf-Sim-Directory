@@ -5,13 +5,13 @@ import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
 
 export const metadata: Metadata = {
   title: "Golf Launch Monitor Guide — TrackMan vs Foresight vs Uneekor",
-  description: "Compare top golf launch monitors side by side: TrackMan 4, Foresight GCQuad, Uneekor EYE XO. Specs, pricing, accuracy data, and buying advice.",
+  description: "Compare top golf launch monitors side by side: TrackMan 4, Foresight GCQuad, Uneekor EYE XO. Official specs and pricing.",
   alternates: {
     canonical: "https://golfsimmap.com/launch-monitors",
   },
   openGraph: {
     title: "Golf Launch Monitor Guide — TrackMan vs Foresight vs Uneekor",
-    description: "Compare top golf launch monitors side by side. Specs, pricing, accuracy data, and buying advice.",
+    description: "Compare top golf launch monitors side by side. Official specs and pricing.",
     type: "website",
     url: "https://golfsimmap.com/launch-monitors",
   },
@@ -22,40 +22,30 @@ const launchMonitors = [
     slug: "trackman-4",
     name: "TrackMan 4",
     manufacturer: "TrackMan",
-    technology: "Dual Radar + Camera",
-    price: "$19,995 - $25,495",
-    accuracy: "±0.5 yards",
-    bestFor: ["Tour Players", "Professionals", "Serious Amateurs"],
-    metrics: 40,
+    technology: "Dual Doppler Radar + OERT",
+    price: "Starting at $25,495",
+    metrics: "40+",
     icon: Radar,
-    description: "The gold standard used by PGA Tour professionals. Dual Doppler radar tracks full ball flight with unmatched outdoor accuracy.",
-    highlight: "Tour-Proven",
+    description: "Full range of club and ball data (40+ parameters) using dual Doppler radar and OERT to track full ball flight.",
   },
   {
     slug: "gcquad",
     name: "Foresight GCQuad",
     manufacturer: "Foresight Sports",
-    technology: "Quadrascopic Camera",
-    price: "$14,500 - $19,999",
-    accuracy: "±0.3 yards",
-    bestFor: ["Club Fitters", "Indoor Facilities", "Coaches"],
-    metrics: 16,
+    technology: "Quadrascopic Imaging (4 cameras)",
+    price: "$15,999",
     icon: Camera,
-    description: "Four high-speed cameras capture impact with exceptional precision. The industry leader for indoor club fitting and coaching.",
-    highlight: "Most Accurate",
+    description: "Quadrascopic imaging launch monitor delivering precise club and ball data indoors and outdoors.",
   },
   {
     slug: "uneekor-eyexo",
     name: "Uneekor EYE XO",
     manufacturer: "Uneekor",
-    technology: "Dual High-Speed Camera",
+    technology: "Front Overhead Photometric System",
     price: "$8,000",
-    accuracy: "±0.5° launch",
-    bestFor: ["Home Simulators", "Commercial", "Value Seekers"],
     metrics: 24,
     icon: Target,
-    description: "Overhead-mounted system with non-marking ball technology. Exceptional value with professional-grade accuracy for indoor setups.",
-    highlight: "Best Value",
+    description: "Front-overhead photometric launch monitor with Dimple Optix and Club Optix technology.",
   },
 ];
 
@@ -63,19 +53,19 @@ const techTypes = [
   {
     name: "Radar Systems",
     icon: Radar,
-    description: "Doppler radar tracks full ball flight from launch to landing. Best for outdoor use and maximum accuracy.",
+    description: "Doppler radar tracks ball flight from launch to landing in radar-based launch monitors.",
     examples: "TrackMan, FlightScope",
   },
   {
     name: "Camera Systems",
     icon: Camera,
-    description: "High-speed cameras capture impact data with precision. Ideal for indoor simulators and club fitting.",
+    description: "High-speed cameras capture impact data using photometric imaging systems.",
     examples: "Foresight GCQuad, Uneekor",
   },
   {
     name: "Hybrid Systems",
     icon: Cpu,
-    description: "Combine radar and camera technology for comprehensive data in any environment.",
+    description: "Combine radar and camera technology in a single system.",
     examples: "TrackMan 4 (Radar + Camera)",
   },
 ];
@@ -121,8 +111,7 @@ export default function LaunchMonitorsIndexPage() {
             Golf Launch Monitor Guide
           </h1>
           <p className="text-muted text-lg max-w-2xl">
-            Compare the industry&apos;s top launch monitors. Real specifications, verified pricing, 
-            and unbiased analysis to help you choose the right system for your game.
+            Compare the industry&apos;s top launch monitors using official specifications and pricing.
           </p>
         </div>
 
@@ -130,68 +119,83 @@ export default function LaunchMonitorsIndexPage() {
         <section className="mb-16">
           <h2 className="text-cream text-xl font-semibold mb-6 flex items-center gap-2">
             <Target className="w-5 h-5 text-masters-green" />
-            Top-Rated Launch Monitors
+            Launch Monitor Systems
           </h2>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {launchMonitors.map((monitor) => (
-              <Link
-                key={monitor.slug}
-                href={`/launch-monitors/${monitor.slug}`}
-                className="group block border border-default bg-charcoal rounded-lg p-6 hover:border-masters-green/50 hover:bg-masters-green/5 transition-all duration-200"
-              >
-                <div className="flex items-start justify-between mb-4">
-                  <div className="flex items-center gap-3">
-                    <div className="p-2 rounded-lg bg-masters-green/10 text-masters-green">
-                      <monitor.icon className="w-5 h-5" />
+            {launchMonitors.map((monitor) => {
+              const specRows = [
+                monitor.technology
+                  ? { label: "Technology", value: monitor.technology, valueClass: "text-cream-subtle" }
+                  : null,
+                monitor.price
+                  ? { label: "Price", value: monitor.price, valueClass: "text-cream font-mono" }
+                  : null,
+                monitor.accuracy
+                  ? { label: "Accuracy", value: monitor.accuracy, valueClass: "text-cream-subtle" }
+                  : null,
+                monitor.metrics
+                  ? { label: "Data Points", value: String(monitor.metrics), valueClass: "text-cream-subtle" }
+                  : null,
+              ].filter((row): row is { label: string; value: string; valueClass: string } => Boolean(row));
+
+              return (
+                <Link
+                  key={monitor.slug}
+                  href={`/launch-monitors/${monitor.slug}`}
+                  className="group block border border-default bg-charcoal rounded-lg p-6 hover:border-masters-green/50 hover:bg-masters-green/5 transition-all duration-200"
+                >
+                  <div className="flex items-start justify-between mb-4">
+                    <div className="flex items-center gap-3">
+                      <div className="p-2 rounded-lg bg-masters-green/10 text-masters-green">
+                        <monitor.icon className="w-5 h-5" />
+                      </div>
+                      <div>
+                        <h3 className="text-cream font-semibold group-hover:text-masters-green transition-colors">
+                          {monitor.name}
+                        </h3>
+                        <p className="text-xs text-muted">{monitor.manufacturer}</p>
+                      </div>
                     </div>
-                    <div>
-                      <h3 className="text-cream font-semibold group-hover:text-masters-green transition-colors">
-                        {monitor.name}
-                      </h3>
-                      <p className="text-xs text-muted">{monitor.manufacturer}</p>
+                    {monitor.highlight ? (
+                      <span className="px-2 py-1 bg-masters-green/20 text-masters-green text-xs font-medium rounded">
+                        {monitor.highlight}
+                      </span>
+                    ) : null}
+                  </div>
+
+                  {monitor.description ? (
+                    <p className="text-muted text-sm mb-4 line-clamp-2">
+                      {monitor.description}
+                    </p>
+                  ) : null}
+
+                  {specRows.length ? (
+                    <div className="space-y-2 text-sm mb-4">
+                      {specRows.map((row) => (
+                        <div key={row.label} className="flex justify-between">
+                          <span className="text-muted">{row.label}</span>
+                          <span className={row.valueClass}>{row.value}</span>
+                        </div>
+                      ))}
                     </div>
-                  </div>
-                  <span className="px-2 py-1 bg-masters-green/20 text-masters-green text-xs font-medium rounded">
-                    {monitor.highlight}
-                  </span>
-                </div>
+                  ) : null}
 
-                <p className="text-muted text-sm mb-4 line-clamp-2">
-                  {monitor.description}
-                </p>
-
-                <div className="space-y-2 text-sm mb-4">
-                  <div className="flex justify-between">
-                    <span className="text-muted">Technology</span>
-                    <span className="text-cream-subtle">{monitor.technology}</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span className="text-muted">Price Range</span>
-                    <span className="text-cream font-mono">{monitor.price}</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span className="text-muted">Accuracy</span>
-                    <span className="text-cream-subtle">{monitor.accuracy}</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span className="text-muted">Data Points</span>
-                    <span className="text-cream-subtle">{monitor.metrics}+</span>
-                  </div>
-                </div>
-
-                <div className="flex flex-wrap gap-1.5">
-                  {monitor.bestFor.slice(0, 2).map((use) => (
-                    <span
-                      key={use}
-                      className="px-2 py-1 bg-slate text-cream-subtle text-xs rounded"
-                    >
-                      {use}
-                    </span>
-                  ))}
-                </div>
-              </Link>
-            ))}
+                  {monitor.bestFor?.length ? (
+                    <div className="flex flex-wrap gap-1.5">
+                      {monitor.bestFor.slice(0, 2).map((use) => (
+                        <span
+                          key={use}
+                          className="px-2 py-1 bg-slate text-cream-subtle text-xs rounded"
+                        >
+                          {use}
+                        </span>
+                      ))}
+                    </div>
+                  ) : null}
+                </Link>
+              );
+            })}
           </div>
         </section>
 
@@ -234,8 +238,6 @@ export default function LaunchMonitorsIndexPage() {
                     <th className="text-left p-4 text-cream font-semibold">System</th>
                     <th className="text-left p-4 text-cream font-semibold">Technology</th>
                     <th className="text-left p-4 text-cream font-semibold">Price</th>
-                    <th className="text-left p-4 text-cream font-semibold">Best For</th>
-                    <th className="text-left p-4 text-cream font-semibold">Indoor/Outdoor</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -249,14 +251,8 @@ export default function LaunchMonitorsIndexPage() {
                           {monitor.name}
                         </Link>
                       </td>
-                      <td className="p-4 text-muted">{monitor.technology}</td>
-                      <td className="p-4 text-cream font-mono">{monitor.price}</td>
-                      <td className="p-4 text-muted">{monitor.bestFor[0]}</td>
-                      <td className="p-4">
-                        <span className="text-cream-subtle">
-                          {monitor.slug === 'trackman-4' ? 'Both' : 'Indoor'}
-                        </span>
-                      </td>
+                      <td className="p-4 text-muted">{monitor.technology ?? ""}</td>
+                      <td className="p-4 text-cream font-mono">{monitor.price ?? ""}</td>
                     </tr>
                   ))}
                 </tbody>
