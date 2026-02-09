@@ -43,6 +43,7 @@ interface VenueDetailProps {
   venue: Venue;
   isFavorited: boolean;
   user?: SessionUser;
+  nearbyScope?: "city" | "state";
   nearbyVenues?: {
     id: string;
     name: string;
@@ -104,6 +105,7 @@ export function VenueDetail({
   venue,
   isFavorited: initialFavorited,
   user,
+  nearbyScope = "city",
   nearbyVenues = [],
 }: VenueDetailProps) {
   const [isFavorited, setIsFavorited] = useState(initialFavorited);
@@ -1066,35 +1068,49 @@ export function VenueDetail({
         </section>
 
         {/* Nearby Venues Section */}
-        {nearbyVenues.length > 0 && (
+        {(nearbyVenues.length > 0 || nearbyScope === "state") && (
           <section className="mt-12 pt-12 border-t border-default">
             <div className="flex items-center gap-3 mb-6">
               <MapPin className="w-5 h-5 text-masters-green" />
-              <h2 className="text-2xl font-semibold text-cream">Nearby Golf Simulators</h2>
+              <h2 className="text-2xl font-semibold text-cream">
+                Nearby Golf Simulators {nearbyScope === "city" ? `in ${venue.city}` : `in ${venue.state}`}
+              </h2>
             </div>
-            <VenueGrid columns={4}>
-              {nearbyVenues.slice(0, 4).map((nearby) => (
-                <VenueCard
-                  key={nearby.id}
-                  id={nearby.id}
-                  slug={nearby.slug}
-                  name={nearby.name}
-                  city={nearby.city}
-                  state={nearby.state}
-                  heroImage={nearby.heroImage}
-                  shortDescription={null}
-                  venueType={nearby.venueType}
-                  simulatorSystems={nearby.simulatorSystems as string[] | null}
-                  launchMonitorType={nearby.launchMonitorType}
-                  priceRangeMin={nearby.priceRangeMin}
-                  priceRangeMax={nearby.priceRangeMax}
-                  ratingOverall={nearby.ratingOverall}
-                  featured={nearby.featured}
-                  tags={nearby.tags as string[] | null}
-                  href={`/venue/us/${getStateSlug(nearby.state)}/${nearby.city.toLowerCase().replace(/\s+/g, "-")}/${nearby.slug}`}
-                />
-              ))}
-            </VenueGrid>
+            {nearbyScope === "state" && (
+              <p className="text-muted text-sm mb-6">
+                {venue.city} currently has only one active venue. Know a great golf simulator nearby?{" "}
+                <Link href="/submit" className="text-masters-green hover:text-cream hover:underline underline-offset-4">
+                  Submit your place.
+                </Link>
+              </p>
+            )}
+            {nearbyVenues.length > 0 ? (
+              <VenueGrid columns={4}>
+                {nearbyVenues.slice(0, 4).map((nearby) => (
+                  <VenueCard
+                    key={nearby.id}
+                    id={nearby.id}
+                    slug={nearby.slug}
+                    name={nearby.name}
+                    city={nearby.city}
+                    state={nearby.state}
+                    heroImage={nearby.heroImage}
+                    shortDescription={null}
+                    venueType={nearby.venueType}
+                    simulatorSystems={nearby.simulatorSystems as string[] | null}
+                    launchMonitorType={nearby.launchMonitorType}
+                    priceRangeMin={nearby.priceRangeMin}
+                    priceRangeMax={nearby.priceRangeMax}
+                    ratingOverall={nearby.ratingOverall}
+                    featured={nearby.featured}
+                    tags={nearby.tags as string[] | null}
+                    href={`/venue/us/${getStateSlug(nearby.state)}/${nearby.city.toLowerCase().replace(/\s+/g, "-")}/${nearby.slug}`}
+                  />
+                ))}
+              </VenueGrid>
+            ) : (
+              <p className="text-muted text-sm">No other active venues found in {venue.state} yet.</p>
+            )}
           </section>
         )}
 

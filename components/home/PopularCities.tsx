@@ -65,9 +65,8 @@ export function PopularCities({ cities, states }: PopularCitiesProps) {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div
-          className={`mb-12 md:mb-16 transition-all duration-700 ${
-            isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
-          }`}
+          className={`mb-12 md:mb-16 transition-all duration-700 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
+            }`}
         >
           <div className="flex items-center gap-3 mb-4">
             <div className="w-8 h-px bg-masters-green" />
@@ -90,11 +89,10 @@ export function PopularCities({ cities, states }: PopularCitiesProps) {
             {displayCities.map((city, index) => (
               <div
                 key={city.slug}
-                className={`transition-all duration-700 ${
-                  isVisible
+                className={`transition-all duration-700 ${isVisible
                     ? "opacity-100 translate-y-0"
                     : "opacity-0 translate-y-4"
-                }`}
+                  }`}
                 style={{ transitionDelay: `${index * 50}ms` }}
               >
                 <CityCard
@@ -115,9 +113,8 @@ export function PopularCities({ cities, states }: PopularCitiesProps) {
         {/* Browse by State */}
         {displayStates.length > 0 && (
           <div
-            className={`transition-all duration-700 delay-300 ${
-              isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
-            }`}
+            className={`transition-all duration-700 delay-300 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
+              }`}
           >
             <div className="flex items-center gap-3 mb-6">
               <span className="text-xs text-muted uppercase tracking-wider">
@@ -141,13 +138,12 @@ export function PopularCities({ cities, states }: PopularCitiesProps) {
 
         {/* Info Cards */}
         <div
-          className={`mt-12 p-6 border border-default bg-slate transition-all duration-700 delay-400 ${
-            isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
-          }`}
+          className={`mt-12 p-6 border border-default bg-slate transition-all duration-700 delay-400 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
+            }`}
         >
           <div className="grid md:grid-cols-2 gap-8">
             <div>
-              <h3 className="text-cream mb-3">Why Indoor Golf?</h3>
+              <h3 className="text-cream mb-3">Why Indoor Golf Simulator?</h3>
               <p className="text-sm text-muted leading-relaxed">
                 Indoor golf simulators let you play year-round, regardless of
                 weather. Practice your swing, play famous courses from around

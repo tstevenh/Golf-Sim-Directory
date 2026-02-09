@@ -109,32 +109,50 @@ export default async function VenuePage({ params }: VenuePageProps) {
       notFound();
     }
 
-    // Fetch nearby venues (same state, excluding current)
-    const nearbyVenues = await db.venue.findMany({
+    const nearbyVenueSelect = {
+      id: true,
+      name: true,
+      slug: true,
+      city: true,
+      state: true,
+      heroImage: true,
+      venueType: true,
+      simulatorSystems: true,
+      launchMonitorType: true,
+      priceRangeMin: true,
+      priceRangeMax: true,
+      ratingOverall: true,
+      featured: true,
+      tags: true,
+    } as const;
+
+    // Fetch nearby venues in the same city first.
+    const nearbyVenuesInCity = await db.venue.findMany({
       where: {
+        city: venue.city,
         state: venue.state,
         id: { not: venue.id },
         status: "active",
       },
       orderBy: [{ featured: "desc" }, { ratingOverall: "desc" }],
       take: 4,
-      select: {
-        id: true,
-        name: true,
-        slug: true,
-        city: true,
-        state: true,
-        heroImage: true,
-        venueType: true,
-        simulatorSystems: true,
-        launchMonitorType: true,
-        priceRangeMin: true,
-        priceRangeMax: true,
-        ratingOverall: true,
-        featured: true,
-        tags: true,
-      },
+      select: nearbyVenueSelect,
     });
+
+    // If the city has only this venue, fall back to the same state.
+    const isStateFallback = nearbyVenuesInCity.length === 0;
+    const nearbyVenues = isStateFallback
+      ? await db.venue.findMany({
+          where: {
+            state: venue.state,
+            id: { not: venue.id },
+            status: "active",
+          },
+          orderBy: [{ featured: "desc" }, { ratingOverall: "desc" }],
+          take: 4,
+          select: nearbyVenueSelect,
+        })
+      : nearbyVenuesInCity;
 
     // Cast nearby venues to match VenueCard props
     const nearbyVenuesFormatted = nearbyVenues.map((v) => ({
@@ -187,6 +205,7 @@ export default async function VenuePage({ params }: VenuePageProps) {
           isFavorited={isFavorited} 
           user={sessionUser}
           nearbyVenues={nearbyVenuesFormatted}
+          nearbyScope={isStateFallback ? "state" : "city"}
         />
       </div>
     );
