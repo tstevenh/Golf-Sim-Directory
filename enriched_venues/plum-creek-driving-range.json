@@ -1,0 +1,95 @@
+{
+  "name": "Plum Creek Driving Range",
+  "address": "5141 Batavia Elba Townline Rd, Batavia, NY 14020",
+  "city": "Batavia",
+  "region": "New York",
+  "country": "US",
+  "latitude": 43.045124,
+  "longitude": -78.141525,
+  "phone": "+15859930930",
+  "website": "http://www.bataviagolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770234435/golf_simulators/www_bataviagolf_com_ChIJq3IXLETw04kRM2tQLvS5rFs.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Plum+Creek+Driving+Range/@43.045124,-78.14152519999999,14z/data=!4m8!1m2!2m1!1sPlum+Creek+Driving+Range!3m4!1s0x89d3f0442c1772ab:0x5bacb9f42e506b33!8m2!3d43.045124!4d-78.14152519999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJq3IXLETw04kRM2tQLvS5rFs",
+  "email": "mark@bataviagolf.com",
+  "venue_type": "retail_fitting_center",
+  "about": "Plum Creek Driving Range is a complete golf center in Batavia, NY, offering both outdoor and indoor facilities. The venue features an all-natural grass driving range with 25 hitting stations, practice bunker, and putting greens, alongside a state-of-the-art, all-season indoor golf simulator. It provides a comprehensive environment for golfers to practice and improve their skills with options for individual practice, league play, and professional services. The facility is equipped with advanced technology and amenities designed to support golfers of various skill levels in perfecting their swing and consistency.",
+  "tags": "beginner_friendly|leagues|coaching_available|club_rentals|premium_tech|serious_golfers|families|solo_practice",
+  "vibe_tags": "family_fun_center|tech_lab|community_club|casual|welcoming",
+  "who_its_for": "beginners|serious_golfers|families|solo_practice|juniors_youth",
+  "why_golfers_like_it": [
+    "State-of-the-art Trackman simulator with access to multiple PGA courses",
+    "All-natural grass driving range with 25 accurate hitting stations",
+    "Comprehensive practice facility including putting greens and a practice bunker",
+    "League options and structured play opportunities for competitive golfers",
+    "Professional club fitting and repair services on-site"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of food service available on-site."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service available on-site."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Advanced simulator technology for accurate ball and club tracking"
+    }
+  ],
+  "simulator_so": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://www.bataviagolf.com/bookonline",
+  "pricing_model": "mixed",
+  "price_range_min_local": 50,
+  "price_range_max_local": 325,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue encourages bringing your own clubs, as they also offer professional club fitting and repair services on-site."
+    },
+    {
+      "question": "Can I bring my own food or drink?",
+      "answer": "There is no mention of food or drink service, so it is recommended to confirm directly with the venue regarding outside food and drink policies."
+    },
+    {
+      "question": "How long does it take to play 18 holes on the simulator?",
+      "answer": "While not explicitly stated, 18 holes on a simulator typically take 1-2 hours depending on pace of play and group size."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, Plum Creek offers leagues and a welcoming atmosphere that appears suitable for juniors and families, with junior golf programs available."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"8AM-9PM\"], \"Tuesday\": [\"8AM-9PM\"], \"Wednesday\": [\"8AM-9PM\"], \"Thursday\": [\"8AM-9PM\"], \"Friday\": [\"8AM-9PM\"], \"Saturday\": [\"7AM-9PM\"], \"Sunday\": [\"8AM-9PM\"]}"
+}

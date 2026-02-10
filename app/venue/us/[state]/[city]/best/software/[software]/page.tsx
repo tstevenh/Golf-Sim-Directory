@@ -1,15 +1,18 @@
 import { Metadata } from "next";
-import { db } from "@/lib/db";
+import { Prisma } from "@prisma/client";
+import { db, venueCardSelect } from "@/lib/db";
 import { BestByPageContent } from "@/components/seo/BestByPageContent";
-import { matchesSoftware } from "@/lib/best-by";
 import { getStateDisplayName, getStateAbbrevFromName } from "@/lib/states";
 import { getStaticRelatedLinks } from "@/lib/category-config.generated";
+import { extractSoftwareSlugsFromComprehensiveData, normalizeSoftwareSlug } from "@/lib/software-slugs";
 
 interface CityBestSoftwarePageProps {
   params: Promise<{ state: string; city: string; software: string }>;
+  searchParams?: Promise<Record<string, string | string[] | undefined>>;
 }
 
-export const revalidate = 60;
+export const revalidate = 86400;
+type VenueCardRow = Prisma.VenueGetPayload<{ select: typeof venueCardSelect }>;
 
 // Software-specific content with unique copy
 const softwareContent: Record<string, { tagline: string; shortDesc: string; longDesc: string }> = {
@@ -82,13 +85,19 @@ export async function generateMetadata({ params }: CityBestSoftwarePageProps): P
   };
 }
 
-export default async function CityBestSoftwarePage({ params }: CityBestSoftwarePageProps) {
+export default async function CityBestSoftwarePage({ params, searchParams }: CityBestSoftwarePageProps) {
+  const paramsResolved = (await searchParams) || {};
+  const page = Math.max(1, Number(paramsResolved.page || 1));
+  const pageSize = 12;
   const { state, city, software } = await params;
   const stateAbbrev = getStateAbbrevFromName(state) || state.toUpperCase();
   const stateName = getStateDisplayName(stateAbbrev);
   const cityFormatted = city.replace(/-/g, " ").replace(/\b\w/g, l => l.toUpperCase());
   const softwareLabel = software.replace(/-/g, " ").replace(/\b\w/g, l => l.toUpperCase());
   const softwareKey = software.toLowerCase();
+  const softwareSlug = normalizeSoftwareSlug(softwareKey);
+  const skip = (page - 1) * pageSize;
+  const canUseArrayFilters = typeof (db as unknown as { $queryRaw?: unknown }).$queryRaw === "function";
 
   const content = softwareContent[softwareKey] || {
     tagline: `${softwareLabel} Software`,
@@ -96,40 +105,75 @@ export default async function CityBestSoftwarePage({ params }: CityBestSoftwareP
     longDesc: `Browse venues that use ${softwareLabel} simulator software. Compare venue amenities, hardware, and booking options.`,
   };
 
-  const venues = await db.venue.findMany({
-    where: {
-      city: { equals: cityFormatted, mode: "insensitive" },
+  let totalVenues = 0;
+  let venues: VenueCardRow[] = [];
+  let nearbyCitiesResult: Array<{ city: string }> = [];
+
+  if (!softwareSlug) {
+    totalVenues = 0;
+    venues = [];
+    nearbyCitiesResult = [];
+  } else if (canUseArrayFilters) {
+    const cityWhere = {
+      city: { equals: cityFormatted, mode: "insensitive" as const },
       state: stateAbbrev.toUpperCase(),
-      country: "US",
-      status: "active",
-    },
-    orderBy: [{ featured: "desc" }, { ratingOverall: "desc" }, { name: "asc" }],
-  });
+      country: "US" as const,
+      status: "active" as const,
+      softwareSlugs: { has: softwareSlug },
+    };
+    [totalVenues, venues, nearbyCitiesResult] = await Promise.all([
+      db.venue.count({ where: cityWhere }),
+      db.venue.findMany({
+        where: cityWhere,
+        orderBy: [{ featured: "desc" }, { ratingOverall: "desc" }, { name: "asc" }],
+        select: venueCardSelect,
+        take: pageSize,
+        skip,
+      }),
+      db.venue.findMany({
+        where: {
+          state: stateAbbrev.toUpperCase(),
+          country: "US",
+          status: "active",
+          softwareSlugs: { has: softwareSlug },
+          NOT: { city: { equals: cityFormatted, mode: "insensitive" } },
+        },
+        select: { city: true },
+        distinct: ["city"],
+        take: 6,
+      }),
+    ]);
+  } else {
+    const allVenues = await db.venue.findMany({
+      where: {
+        state: stateAbbrev.toUpperCase(),
+        country: "US",
+        status: "active",
+      },
+      orderBy: [{ featured: "desc" }, { ratingOverall: "desc" }, { name: "asc" }],
+      select: { ...venueCardSelect, softwareSlugs: true, comprehensiveData: true },
+    });
 
-  const filteredVenues = venues.filter((venue) => matchesSoftware(venue, softwareLabel));
+    const matchingVenues = allVenues.filter((venue) => {
+      if ((venue.softwareSlugs || []).includes(softwareSlug)) return true;
+      return extractSoftwareSlugsFromComprehensiveData(venue.comprehensiveData).includes(softwareSlug);
+    });
+    const cityMatches = matchingVenues.filter((venue) => venue.city.toLowerCase() === cityFormatted.toLowerCase());
+    totalVenues = cityMatches.length;
+    venues = cityMatches.slice(skip, skip + pageSize) as VenueCardRow[];
 
-  // Get nearby cities with this software
-  const allVenuesInState = await db.venue.findMany({
-    where: {
-      state: stateAbbrev.toUpperCase(),
-      country: "US",
-      status: "active",
-      NOT: { city: { equals: cityFormatted, mode: "insensitive" } },
-    },
-    orderBy: { city: "asc" },
-  });
-
-  // Filter for venues with this software and get unique cities
-  const citiesWithSoftware = new Set<string>();
-  allVenuesInState.forEach((venue) => {
-    if (matchesSoftware(venue, softwareLabel) && citiesWithSoftware.size < 6) {
-      citiesWithSoftware.add(venue.city);
+    const nearbyCitySet = new Set<string>();
+    for (const venue of matchingVenues) {
+      if (venue.city.toLowerCase() !== cityFormatted.toLowerCase() && nearbyCitySet.size < 6) {
+        nearbyCitySet.add(venue.city);
+      }
     }
-  });
+    nearbyCitiesResult = Array.from(nearbyCitySet).map((cityName) => ({ city: cityName }));
+  }
 
-  const nearbyLinks = Array.from(citiesWithSoftware).map((cityName) => ({
-    label: `${softwareLabel} in ${cityName}`,
-    href: `/venue/us/${state}/${cityName.toLowerCase().replace(/\s+/g, "-")}/best/software/${software}`,
+  const nearbyLinks = nearbyCitiesResult.map((cityEntry) => ({
+    label: `${softwareLabel} in ${cityEntry.city}`,
+    href: `/venue/us/${state}/${cityEntry.city.toLowerCase().replace(/\s+/g, "-")}/best/software/${software}`,
   }));
 
   const breadcrumbs = [
@@ -143,7 +187,7 @@ export default async function CityBestSoftwarePage({ params }: CityBestSoftwareP
   const faqItems = [
     {
       question: `How many ${softwareLabel} venues are in ${cityFormatted}?`,
-      answer: `We found ${filteredVenues.length} venues running ${content.shortDesc} in ${cityFormatted}, ${stateName}. Software availability may vary by bay—confirm when booking.`,
+      answer: `We found ${totalVenues} venues running ${content.shortDesc} in ${cityFormatted}, ${stateName}. Software availability may vary by bay—confirm when booking.`,
     },
     {
       question: `What is ${softwareLabel}?`,
@@ -169,7 +213,7 @@ export default async function CityBestSoftwarePage({ params }: CityBestSoftwareP
   return (
     <BestByPageContent
       title={`${softwareLabel} Golf Simulators in ${cityFormatted}`}
-      description={`${content.longDesc}\n\nDiscover ${filteredVenues.length} venues in ${cityFormatted}, ${stateName} running ${content.shortDesc}.`}
+      description={`${content.longDesc}\n\nDiscover ${totalVenues} venues in ${cityFormatted}, ${stateName} running ${content.shortDesc}.`}
       guidancePoints={[
         "Ask about the course library—availability varies by venue and licensing.",
         "Some venues offer multiple software options; request your preference when booking.",
@@ -185,12 +229,16 @@ export default async function CityBestSoftwarePage({ params }: CityBestSoftwareP
       ctaDescription={`Claim your listing to verify software details and attract golfers searching for ${content.shortDesc}.`}
       ctaPrimary={{ label: "Claim Your Listing", href: "/claim" }}
       ctaSecondary={{ label: "Submit New Venue", href: "/submit" }}
-      venues={filteredVenues}
+      venues={venues}
+      totalVenues={totalVenues}
       categoryType="software"
-      categoryValue={softwareKey}
+      categoryValue={softwareSlug || softwareKey}
       heroSubtitle={`${cityFormatted}, ${stateName}`}
       breadcrumbItems={breadcrumbs}
       showRanking={true}
+      currentPage={page}
+      pageSize={pageSize}
+      baseUrl={`/venue/us/${state}/${city}/best/software/${software}`}
     />
   );
 }

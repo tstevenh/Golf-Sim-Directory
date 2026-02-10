@@ -1,0 +1,91 @@
+{
+  "name": "The Golf Club of Cartersville",
+  "address": "1217 Joe Frank Harris Pkwy SE, Cartersville, GA 30120",
+  "city": "Cartersville",
+  "region": "Georgia",
+  "country": "US",
+  "latitude": 34.203707,
+  "longitude": -84.81086,
+  "phone": "+14046673081",
+  "website": "https://thegolfclubofcartersville.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770237477/golf_simulators/thegolfclubofcartersville_com_ChIJV_30OPVP9YgRQH8r4q3faRw.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Golf+Club+of+Cartersville/@34.2037067,-84.8108601,14z/data=!4m8!1m2!2m1!1sThe+Golf+Club+of+Cartersville!3m4!1s0x88f54ff538f4fd57:0x1c69dfade22b7f40!8m2!3d34.2037067!4d-84.8108601",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJV_30OPVP9YgRQH8r4q3faRw",
+  "email": "info@thegolfclubofcartersville.com",
+  "venue_type": "sim_bar|training_studio|private_rental|retail_fitting_center|country_club|multi_sport_sim|hotel_resort|other",
+  "about": "The Golf Club of Cartersville is an indoor golf facility equipped with state-of-the-art Trackman 4 simulators, providing a climate-controlled environment for practice, play on renowned courses, and social events. The venue offers flexible booking options, including hourly rates and various membership tiers, with no requirement for membership to book tee times. It caters to all skill levels, from beginners to seasoned pros, and emphasizes analytics for swing improvement and an authentic golf experience. The facility also hosts tournaments, leagues, and private events, ensuring a versatile and welcoming atmosphere for golf enthusiasts of all backgrounds.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|private_rooms|club_rentals|late_night|coaching_available",
+  "vibe_tags": "casual|welcoming|modern|community_club",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "State-of-the-art Trackman 4 technology for accurate swing analysis",
+    "24/7 access with unlimited tee times for members",
+    "Climate-controlled environment for year-round play",
+    "No membership required to book tee times",
+    "Vibrant community through social events and tournaments"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "BYOB policy allows guests to bring their own food and drinks"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "BYOB policy allows guests to bring their own alcoholic beverages"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "State-of-the-art Trackman 4 technology for simulation and analytics"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://thegolfclubofcartersville.com/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 128,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|lockers|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.5,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "While you can bring your own clubs, the venue does not specify whether rentals are provided. It's recommended to contact them directly for club rental options."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, The Golf Club of Cartersville operates on a BYOB policy, allowing guests to bring their own food and alcoholic beverages."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "On average, it takes approximately 45 minutes to an hour to play 18 holes on a golf simulator."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue offers kids' camps and is designed to welcome golfers of all ages and skill levels, making it kid-friendly."
+    }
+  ],
+  "rating_overall": 4.4,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

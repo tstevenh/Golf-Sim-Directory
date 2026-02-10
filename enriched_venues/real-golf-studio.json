@@ -1,0 +1,99 @@
+{
+  "name": "Real Golf Studio",
+  "address": "17165 Von Karman Ave Ste 101, Irvine, CA 92614",
+  "city": "Irvine",
+  "region": "California",
+  "country": "US",
+  "latitude": 33.691963,
+  "longitude": -117.840932,
+  "phone": "+19495902590",
+  "website": "https://www.studiorealgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770245424/golf_simulators/www_studiorealgolf_com_ChIJuT2c1qLf3IARK0-n5DGb3cM.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Real+Golf+Studio/@33.691962499999995,-117.84093179999999,14z/data=!4m8!1m2!2m1!1sReal+Golf+Studio!3m4!1s0x80dcdfa2d69c3db9:0xc3dd9b31e4a74f2b!8m2!3d33.691962499999995!4d-117.84093179999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJuT2c1qLf3IARK0-n5DGb3cM",
+  "email": "info@leadbrave.com",
+  "venue_type": "training_studio",
+  "about": "Real Golf Studio is a private indoor golf facility offering state-of-the-art spaces for practice, lessons, and club fitting. It operates on a non-membership system, allowing anyone to book time by reservation. The venue caters to both individual golfers seeking private practice and coaches requiring a dedicated space for instruction, featuring top-tier technology and professional-grade equipment.",
+  "tags": "serious_practice|coaching_available|club_fitting|lefty_friendly|private_rooms|beginner_friendly|solo_practice",
+  "vibe_tags": "industrial_training|tech_lab",
+  "who_its_for": "beginners|serious_golfers|coaches_instructors|solo_practice|juniors_youth",
+  "why_golfers_like_it": [
+    "Access to premium Trackman launch monitors for detailed swing and ball data analysis",
+    "Dedicated private spaces free from weather distractions, ideal for focused practice",
+    "AR Putting Simulator and TOUR PUTT technology for comprehensive short game training",
+    "Option for scientific club fitting services with custom build and repair options"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of food services available on-site"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol services available on-site"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "unknown",
+      "notes": "World-renowned launch monitor for club and ball data analysis"
+    },
+    {
+      "brand": "Eyexo",
+      "model": "unknown",
+      "notes": "Golf simulator analysis equipment"
+    }
+  ],
+  "simulator_so": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "mixed",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.studiorealgolf.com/contact",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|club_fitting|private_rooms|wifi",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can bring your own clubs or use rentals if available; custom club fitting and repair services are also offered on-site."
+    },
+    {
+      "question": "Can I bring my own food or drink?",
+      "answer": "There is no mention of food or drink services being available, so bringing your own may be necessary."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Time to complete 18 holes varies depending on simulator usage and group size; booking a specific time slot is recommended."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue caters to juniors and youth with professional golf coaching programs available for kids and beginners."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"8AM-7PM\"], \"Tuesday\": [\"8AM-7PM\"], \"Wednesday\": [\"8AM-7PM\"], \"Thursday\": [\"8AM-7PM\"], \"Friday\": [\"8AM-7PM\"], \"Saturday\": [\"8AM-5PM\"], \"Sunday\": [\"Closed\"]}"
+}

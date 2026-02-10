@@ -1,0 +1,94 @@
+{
+  "name": "Drew Laborde Indoor Golf Facility",
+  "address": "1509 Metairie Rd, Metairie, LA 70005",
+  "city": "Metairie",
+  "region": "Louisiana",
+  "country": "US",
+  "latitude": 29.987337,
+  "longitude": -90.140664,
+  "phone": "+15043452626",
+  "website": "https://drewlabordegolf.com/indoor-golf",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770227669/golf_simulators/drewlabordegolf_com_ChIJfQdoi7avIIYR1-e31Hadc9E.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Drew+Laborde+Indoor+Golf+Facility/@29.9873367,-90.14066389999999,14z/data=!4m8!1m2!2m1!1sDrew+Laborde+Indoor+Golf+Facility!3m4!1s0x8620afb68b68077d:0xd1739d76d4b7e7d7!8m2!3d29.9873367!4d-90.14066389999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJfQdoi7avIIYR1-e31Hadc9E",
+  "email": "indoorgolf@drewlabordegolf.com.",
+  "venue_type": "training_studio",
+  "about": "Drew Laborde Indoor Golf Facility is a high-tech golf destination featuring two climate-controlled bays equipped with TrackMan simulators. The facility offers access to over 130 virtual golf courses and is designed for practice, play, and lessons. Pricing is based on hourly bay bookings, with non-peak rates starting at $40/hour and peak rates up to $60/hour, plus memberships available for frequent players. Additional services include club fitting, repair, and private lessons next door at the Drew Laborde Golf Academy.",
+  "tags": "beginner_friendly|corporate_events|leagues|premium_tech|coaching_available|food_and_drinks|date_night|solo_practice",
+  "vibe_tags": "tech_lab|community_club|modern|welcoming",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Premium TrackMan technology provides precise swing feedback",
+    "Access to 130+ world-class virtual golf courses",
+    "Flexible pricing with non-peak and peak hour options",
+    "BYOB policy allows guests to bring their own beverages",
+    "Available for corporate events and group outings"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "Guests can bring their own food"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "BYOB policy allows guests to bring their own beverages, including alcohol"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "Virtual Golf 3",
+      "notes": "High-tech simulators with radar tracking for realistic gameplay"
+    }
+  ],
+  "simulator_so": [
+    "TrackMan Virtual Golf 3"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://yourgolfbooking.com/venues/drew-laborde-indoor-golf/booking/bays",
+  "pricing_model": "per_bay_hour|membership",
+  "price_range_min_local": 40,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|kitchen_food|wifi|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.5,
+  "rating_value_for_money": 4.2,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, golfers must bring their own clubs to use the simulators."
+    },
+    {
+      "question": "Can I bring food and drinks?",
+      "answer": "Yes, guests are welcome to bring their own food and beverages, including alcohol (BYOB)."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "A group of 2 players should book 2 hours for 18 holes, while a group of 4 players should book 4 hours."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, the facility offers junior leagues for ages 14+ and accommodates kids in groups."
+    }
+  ],
+  "simulator_software": [
+    "TrackMan Virtual Golf 3"
+  ],
+  "rating_overall": 4.5,
+  "opening_hours": "{\"Monday\": [\"9AM-8PM\"], \"Tuesday\": [\"9AM-8PM\"], \"Wednesday\": [\"9AM-8PM\"], \"Thursday\": [\"9AM-8PM\"], \"Friday\": [\"9AM-8PM\"], \"Saturday\": [\"9AM-8PM\"], \"Sunday\": [\"11AM-5PM\"]}"
+}

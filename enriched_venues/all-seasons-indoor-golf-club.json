@@ -1,0 +1,91 @@
+{
+  "name": "All Seasons Indoor Golf Club",
+  "address": "1225 103rd St, Kansas City, MO 64114",
+  "city": "Kansas City",
+  "region": "Missouri",
+  "country": "US",
+  "latitude": 38.941107,
+  "longitude": -94.606223,
+  "phone": "+18167994502",
+  "website": "https://allseasonsgolfclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770202744/golf_simulators/allseasonsgolfclub_com_ChIJE4w-NzPpwIcREQHlM1tPJLA.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/All+Seasons+Indoor+Golf+Club/@38.9411069,-94.6062235,14z/data=!4m8!1m2!2m1!1sAll+Seasons+Indoor+Golf+Club!3m4!1s0x87c0e933373e8c13:0xb0244f5b33e50111!8m2!3d38.9411069!4d-94.6062235",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJE4w-NzPpwIcREQHlM1tPJLA",
+  "email": "Admin@AllSeasonsGolfClub.com",
+  "venue_type": "sim_bar|training_studio",
+  "about": "All Seasons Indoor Golf Club offers five state-of-the-art indoor golf simulator bays equipped with Uneekor technology powered by GSPro. Located in south Kansas City, minutes from Leawood and Overland Park, the facility provides a relaxed, climate-controlled environment for year-round golf. Public play is available with hourly rates starting at $20, alongside monthly membership plans ranging from $185 to $300, which offer discounted access and priority booking. The venue is designed to cater to both serious players seeking to improve their game with advanced analytics and social golfers looking for a casual BYOB-friendly atmosphere.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|club_rentals|coaching_available|community_club|weekend_warriors|structured_practice",
+  "vibe_tags": "sports_bar|community_club|modern|relaxed",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|coaches_instructors",
+  "why_golfers_like_it": [
+    "Professional-caliber Uneekor simulators with high-speed cameras and precise ball flight analysis",
+    "Year-round, weather-proof play in a climate-controlled facility",
+    "BYOB-friendly lounge environment perfect for social golf and group events",
+    "Structured practice with on-screen data and coaching-ready features",
+    "Flexible membership options and hourly public pricing for every type of golfer"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "BYOF (Bring Your Own Food) is allowed."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "BYOB (Bring Your Own Beverage) is allowed in the lounge environment."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "Not specified",
+      "notes": "State-of-the-art indoor golf simulators with high-speed cameras and slow-motion swing capture."
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 5,
+  "booking_url": "https://allseasonsgolfclub.com/indoor-golf-kansas-city",
+  "pricing_model": "mixed",
+  "price_range_min_local": 20,
+  "price_range_max_local": 65,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 5,
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|full_bar|tv_sports|private_party_room|wifi|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own golf clubs?",
+      "answer": "The venue does not specify whether clubs are provided, so players should assume they need to bring their own equipment."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, All Seasons is a BYOB and BYOF (Bring Your Own Food) facility, creating a relaxed lounge environment for social golfers."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The venue does not provide a specific time for 18 holes, but as it uses simulator technology, typical playtime would depend on the number of players in the bay and the pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is welcoming to beginners and families, and while it does not specifically market to children, the casual atmosphere and group-friendly design suggest it can accommodate juniors."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"7AM-9PM\"], \"Tuesday\": [\"7AM-9PM\"], \"Wednesday\": [\"7AM-9PM\"], \"Thursday\": [\"7AM-11PM\"], \"Friday\": [\"7AM-11PM\"], \"Saturday\": [\"7AM-11PM\"], \"Sunday\": [\"7AM-11PM\"]}"
+}

@@ -1,0 +1,88 @@
+{
+  "name": "The Bunker",
+  "address": "305 17th Ave SW Suite D, Minot, ND 58701",
+  "city": "Minot",
+  "region": "North Dakota",
+  "country": "US",
+  "latitude": 48.216022,
+  "longitude": -101.297594,
+  "phone": "+17018524653",
+  "website": "http://www.thebunkerminot.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770208584/golf_simulators/www_thebunkerminot_com_ChIJhzbwqkkr31IREM1ssoks-S0.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Bunker/@48.2160224,-101.29759349999999,14z/data=!4m8!1m2!2m1!1sThe+Bunker!3m4!1s0x52df2b49aaf03687:0x2df92c89b26ccd10!8m2!3d48.2160224!4d-101.29759349999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJhzbwqkkr31IREM1ssoks-S0",
+  "email": "minotjuniorgolf@gmail.com",
+  "venue_type": "training_studio",
+  "about": "The Bunker is an indoor junior golf training facility and simulator venue operated by the Minot Junior Golf Association. It features three Full Swing simulator bays and a 1,000 sq. ft. putting green with PuttView technology. The facility focuses on providing year-round golf programming for youth, with a typical operating season from October through April. It offers clinics, camps, and lessons, and provides an affordable, accessible environment for golfers of all ages, especially minors and their accompanying adults.",
+  "tags": "beginner_friendly|food_and_drinks|kids_friendly|leagues|coaching_available|budget_friendly|community_club",
+  "vibe_tags": "industrial_training|family_fun_center|community_club",
+  "who_its_for": "beginners|families|juniors_youth|coaches_instructors",
+  "why_golfers_like_it": [
+    "Affordable pricing for youth golfers",
+    "Full Swing simulator technology for a realistic experience",
+    "Focus on junior development and year-round training",
+    "Free access for qualified youth and accompanying adults"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "A small selection of snacks for sale; outside food is welcome."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol is mentioned on the website."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Full Swing",
+      "model": "Simulator",
+      "notes": "Features three Full Swing simulator bays"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://booking.cojilio.com/3260",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 5,
+  "price_range_max_local": 15,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": null,
+  "max_group_size_per_bay": null,
+  "amenities_list": "club_rentals|wifi|leagues|ada_accessible",
+  "rating_tech_quality": 4.0,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 4.5,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you should bring your own clubs as they are not provided by the facility."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, outside food is welcome, but you must clean up after yourself. Food and drinks are not allowed on the simulator or putting green."
+    },
+    {
+      "question": "How long is a typical 18-hole simulation?",
+      "answer": "The time for an 18-hole simulation is not specified on the website. Pricing is based on an hourly rate."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, The Bunker is specifically designed to be kid-friendly, offering youth programming, clinics, and affordable pricing for golfers 18 and under."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"3-10PM\"], \"Tuesday\": [\"3-10PM\"], \"Wednesday\": [\"3-10PM\"], \"Thursday\": [\"3-10PM\"], \"Friday\": [\"3-10PM\"], \"Saturday\": [\"10AM-10PM\"], \"Sunday\": [\"10AM-8PM\"]}"
+}

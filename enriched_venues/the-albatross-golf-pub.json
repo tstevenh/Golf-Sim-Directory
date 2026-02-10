@@ -1,0 +1,91 @@
+{
+  "name": "The Albatross Golf Pub",
+  "address": "140 E Chatham St, Cary, NC 27511",
+  "city": "Cary",
+  "region": "North Carolina",
+  "country": "US",
+  "latitude": 35.787194,
+  "longitude": -78.779782,
+  "phone": "+19198803133",
+  "website": "https://www.thealbatrossnc.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770236861/golf_simulators/www_thealbatrossnc_com_ChIJoayisLHzrIkRffCRsppR-8E.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Albatross+Golf+Pub/@35.7871938,-78.7797824,14z/data=!4m8!1m2!2m1!1sThe+Albatross+Golf+Pub!3m4!1s0x89acf3b1b0a2aca1:0xc1fb519ab291f07d!8m2!3d35.7871938!4d-78.7797824",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJoayisLHzrIkRffCRsppR-8E",
+  "email": "info@thealbatrossnc.com",
+  "venue_type": "sim_bar",
+  "about": "The Albatross Golf Pub is a unique venue in downtown Cary, NC, combining state-of-the-art golf simulators with a food and beverage program. It features two TrackMan golf simulators with access to 400+ courses globally and arcade-style games. The venue offers hourly bay rentals with pricing varying by day and time. It is suitable for various golfers, from those looking to practice to groups seeking entertainment, and includes options for corporate events and private parties.",
+  "tags": "food_and_drinks|corporate_events|leagues|premium_tech|beginner_friendly|date_night|solo_practice|large_groups",
+  "vibe_tags": "sports_bar|community_club|tech_lab|casual|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Premium TrackMan simulators with 400+ global courses",
+    "Gourmet smash burgers and curated drink menu",
+    "Optional PXG club rentals available on-site",
+    "Flexible booking with 14-day advance availability",
+    "Arcade-style games for entertainment variety"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Gourmet smash burgers and curated menu"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with signature cocktails and premium liquor selection"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "TrackMan",
+      "model": "GEN 6",
+      "notes": "Two state-of-the-art TrackMan simulators with PXG club sets available"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://app.birrdi.com/u/reserve?team_booking_link_id=the-albatross-nc",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 50,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": 0,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, house clubs are provided through the partnership with PXG, offering new GEN 6 sets in both right and left-handed options."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drinks are not mentioned, but the venue offers a curated menu of gourmet smash burgers and beverages."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time for 18 holes is not specified, but arcade-style games are available for shorter entertainment sessions."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is described as fun for everyone, and customer reviews mention it's a great place for birthday parties."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"5-10:30PM\"], \"Tuesday\": [\"5-10:30PM\"], \"Wednesday\": [\"5-10:30PM\"], \"Thursday\": [\"11AM-10:30PM\"], \"Friday\": [\"11AM-11PM\"], \"Saturday\": [\"9AM-11PM\"], \"Sunday\": [\"9AM-9PM\"]}"
+}

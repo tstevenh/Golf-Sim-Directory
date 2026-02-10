@@ -1,0 +1,96 @@
+{
+  "name": "Southwest Golf Ranch & Custom Fitting",
+  "address": "2880 US-42, Lebanon, OH 45036",
+  "city": "Lebanon",
+  "region": "Ohio",
+  "country": "US",
+  "latitude": 39.394378,
+  "longitude": -84.261539,
+  "phone": "+15139324653",
+  "website": "https://mygolfranch.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770241280/golf_simulators/mygolfranch_com_ChIJe__EAS_2QIgRsKVNCkV4fcQ.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Southwest+Golf+Ranch+%26+Custom+Fitting/@39.3943777,-84.2615385,14z/data=!4m8!1m2!2m1!1sSouthwest+Golf+Ranch+%26+Custom+Fitting!3m4!1s0x8840f62f01c4ff7b:0xc47d78450a4da5b0!8m2!3d39.3943777!4d-84.2615385",
+  "google_rating": 4.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJe__EAS_2QIgRsKVNCkV4fcQ",
+  "email": "info@mygolfranch.com",
+  "venue_type": "multi_sport_sim",
+  "about": "Southwest Golf Ranch and Pickleball Club is a comprehensive golf and recreational facility offering a full driving range with TopTracer technology, an 18-hole lighted miniature golf course, and custom club fitting services. The venue features over 2.5 acres of bent grass tees, two short game practice areas, and covered mats, with a focus on providing options for golfers of all skill levels. The facility also plans to expand with indoor/outdoor pickleball courts and additional heated driving range bays, positioning itself as a one-stop destination for practice, gear, and instruction.",
+  "tags": "beginner_friendly|food_and_drinks|kids_friendly|corporate_events|leagues|premium_tech|budget_friendly|club_rentals|coaching_available|juniors_youth",
+  "vibe_tags": "family_fun_center|community_club|tech_lab|casual|welcoming",
+  "who_its_for": "beginners|families|corporate_teams|juniors_youth|solo_practice",
+  "why_golfers_like_it": [
+    "TopTracer technology on all mat bays for shot tracking",
+    "Custom club fitting using Trackman 4 for precise measurements",
+    "18-hole lighted miniature golf course with all-day unlimited play",
+    "PGA-certified professionals for individual and group instruction",
+    "Comprehensive practice facilities including bent grass tees and short game areas"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Mini golf price includes a choice of drink or scoop of ice cream"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service on premises"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "TopTracer",
+      "model": "Range",
+      "notes": "High-speed cameras with computer algorithms for ball tracking"
+    },
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "Used for custom club fitting with outdoor ball flight tracking"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 9,
+  "booking_url": "https://toptracer-range-at-southwest-golf-ranch.book.teeitup.com/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|kitchen_food|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.2,
+  "rating_facility_comfort": 4.1,
+  "rating_value_for_money": 4.1,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "While the venue offers club rentals and a pro shop with equipment in stock, it's recommended to bring your own clubs for a more personalized fitting experience."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "The mini golf package includes a choice of drink or ice cream, but there's no mention of outside food or drink policies for the golf facilities."
+    },
+    {
+      "question": "How long does it take to play 18 holes on the simulator?",
+      "answer": "Information about simulator time for 18 holes is not provided on the website."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Southwest Golf Ranch and Pickleball Club is very kid-friendly, featuring an 18-hole miniature golf course with lighted play and special pricing for children."
+    }
+  ],
+  "rating_overall": 4.1,
+  "opening_hours": "{\"Monday\": [\"11AM-7PM\"], \"Tuesday\": [\"11AM-7PM\"], \"Wednesday\": [\"11AM-7PM\"], \"Thursday\": [\"11AM-7PM\"], \"Friday\": [\"11AM-7PM\"], \"Saturday\": [\"11AM-7PM\"], \"Sunday\": [\"11AM-7PM\"]}"
+}

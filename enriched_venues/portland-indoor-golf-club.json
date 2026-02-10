@@ -1,0 +1,97 @@
+{
+  "name": "Portland Indoor Golf Club",
+  "address": "5600 SW Arctic Dr #100, Beaverton, OR 97005",
+  "city": "Beaverton",
+  "region": "Oregon",
+  "country": "US",
+  "latitude": 45.479459,
+  "longitude": -122.778075,
+  "phone": null,
+  "website": "https://www.portlandindoorgolfclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770220078/golf_simulators/www_portlandindoorgolfclub_com_ChIJXch6MnsNlVQRqS74P07Zddc.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Portland+Indoor+Golf+Club/@45.479458699999995,-122.77807449999999,14z/data=!4m8!1m2!2m1!1sPortland+Indoor+Golf+Club!3m4!1s0x54950d7b327ac85d:0xd775d94e3ff82ea9!8m2!3d45.479458699999995!4d-122.77807449999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJXch6MnsNlVQRqS74P07Zddc",
+  "venue_type": "training_studio",
+  "about": "Portland Indoor Golf Club (PIGC) is a state-of-the-art, 20,000+ sq. ft. training facility designed for serious game improvement rather than casual entertainment. Open 24/7, the venue functions as a private gym for golfers, providing unlimited access to 12 TrackMan simulator bays, a comprehensive short game area with a real sand bunker, and a 70-foot putting green. The facility is climate-controlled and equipped with advanced fitness technology, including Tonal machines and The Stack System, to help golfers build strength and speed. The environment focuses on data-driven practice, where members can refine their swings using radar technology and video analysis.",
+  "tags": "indoor_golf|serious_practice|coaching_available|fitness_training| Trackman|24_7_access|membership_club|improvement_focused|climate_controlled|leagues",
+  "vibe_tags": "industrial_training|serious_athletic|private_luxury|modern|motivating_community",
+  "who_its_for": "serious_golfers|beginners|juniors_youth|solo_practice|coaches_instructors",
+  "why_golfers_like_it": [
+    "24/7 access allows for flexible training schedules around work and family",
+    "TrackMan simulators provide precise data and shot tracking",
+    "On-site gym with Tonal and Stack systems integrates fitness with golf practice",
+    "Short game area includes a real sand bunker and large putting green",
+    "Expert coaching available from Golf Digest's Best Young Instructors",
+    "Community atmosphere with monthly leagues and tournaments"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service; facility is training-focused"
+    },
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned; focus is on training and fitness"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "TrackMan",
+      "model": "4e",
+      "notes": "7 bays equipped with TrackMan 4e radar units"
+    },
+    {
+      "brand": "TrackMan",
+      "model": "iO",
+      "notes": "5 bays equipped with TrackMan iO"
+    }
+  ],
+  "simulator_software": [
+    "TrackMan",
+    "TrackMan Performance Center"
+  ],
+  "launch_monitor_type": "TrackMan 4e, TrackMan iO",
+  "ball_tracking": "Radar",
+  "club_tracking": "Radar",
+  "putting_mode": "Yes",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://calendly.com/zach-skoutgolf/30min",
+  "pricing_model": "Membership",
+  "price_range_min_local": 150,
+  "price_range_max_local": 300,
+  "currency": "USD",
+  "walk_ins_allowed": false,
+  "coaching_available": true,
+  "private_rooms_count": 0,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "24/7 Access|Climate Controlled|Fitness Center (Tonal)|Short Game Area|Putting Green|Real Sand Bunker|Gym/Warmup Area|Training Aids (GolfBoks, Mirror, etc.)|WiFi|Remote Workspaces",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "While not explicitly stated as rentals, most training studios require you to bring your own set, though they are equipped for right and left-handed golfers."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, as a training facility with 24/7 access and lounge areas, members can typically bring their own refreshments."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Using the simulators, you can play a full 18-hole round in under an hour."
+    },
+    {
+      "question": "Is this kid-friendly?",
+      "answer": "Yes, the venue offers specific junior programs, coaching for juniors, and a safe environment for youth training."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

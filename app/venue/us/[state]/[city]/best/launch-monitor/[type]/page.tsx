@@ -1,15 +1,16 @@
 import { Metadata } from "next";
 import { LaunchMonitorType } from "@prisma/client";
-import { db } from "@/lib/db";
+import { db, venueCardSelect } from "@/lib/db";
 import { BestByPageContent } from "@/components/seo/BestByPageContent";
 import { getStateDisplayName, getStateAbbrevFromName } from "@/lib/states";
 import { getStaticRelatedLinks } from "@/lib/category-config.generated";
 
 interface CityBestLaunchMonitorPageProps {
   params: Promise<{ state: string; city: string; type: string }>;
+  searchParams?: Promise<Record<string, string | string[] | undefined>>;
 }
 
-export const revalidate = 60;
+export const revalidate = 86400;
 
 // Launch monitor type-specific content with unique copy
 const launchMonitorContent: Record<string, { tagline: string; shortDesc: string; longDesc: string }> = {
@@ -72,13 +73,19 @@ export async function generateMetadata({ params }: CityBestLaunchMonitorPageProp
   };
 }
 
-export default async function CityBestLaunchMonitorPage({ params }: CityBestLaunchMonitorPageProps) {
+export default async function CityBestLaunchMonitorPage({ params, searchParams }: CityBestLaunchMonitorPageProps) {
+  const paramsResolved = (await searchParams) || {};
+  const page = Math.max(1, Number(paramsResolved.page || 1));
+  const pageSize = 12;
   const { state, city, type } = await params;
   const stateAbbrev = getStateAbbrevFromName(state) || state.toUpperCase();
   const stateName = getStateDisplayName(stateAbbrev);
   const cityFormatted = city.replace(/-/g, " ").replace(/\b\w/g, l => l.toUpperCase());
   const typeLabel = type.replace(/_/g, " ").replace(/-/g, " ").replace(/\b\w/g, l => l.toUpperCase());
   const typeKey = type.toLowerCase();
+  const skip = (page - 1) * pageSize;
+  const validTypes = new Set<LaunchMonitorType>(["radar", "photometric_camera", "hybrid", "unknown"]);
+  const isValidType = validTypes.has(type as LaunchMonitorType);
 
   const content = launchMonitorContent[typeKey] || {
     tagline: `${typeLabel} Technology`,
@@ -86,30 +93,38 @@ export default async function CityBestLaunchMonitorPage({ params }: CityBestLaun
     longDesc: `Venues using ${typeLabel} launch monitor technology. These systems track your shots and provide data to improve your game.`,
   };
 
-  const venues = await db.venue.findMany({
-    where: {
-      city: { equals: cityFormatted, mode: "insensitive" },
-      state: stateAbbrev.toUpperCase(),
-      country: "US",
-      status: "active",
-      launchMonitorType: type as unknown as LaunchMonitorType,
-    },
-    orderBy: [{ featured: "desc" }, { ratingOverall: "desc" }, { name: "asc" }],
-  });
+  const where = {
+    city: { equals: cityFormatted, mode: "insensitive" as const },
+    state: stateAbbrev.toUpperCase(),
+    country: "US" as const,
+    status: "active" as const,
+    launchMonitorType: type as LaunchMonitorType,
+  };
 
-  // Get nearby cities with this launch monitor type
-  const nearbyCitiesResult = await db.venue.findMany({
-    where: {
-      state: stateAbbrev.toUpperCase(),
-      country: "US",
-      status: "active",
-      launchMonitorType: type as unknown as LaunchMonitorType,
-      NOT: { city: { equals: cityFormatted, mode: "insensitive" } },
-    },
-    select: { city: true },
-    distinct: ["city"],
-    take: 6,
-  });
+  const [totalVenues, venues, nearbyCitiesResult] = isValidType
+    ? await Promise.all([
+        db.venue.count({ where }),
+        db.venue.findMany({
+          where,
+          orderBy: [{ featured: "desc" }, { ratingOverall: "desc" }, { name: "asc" }],
+          select: venueCardSelect,
+          take: pageSize,
+          skip,
+        }),
+        db.venue.findMany({
+          where: {
+            state: stateAbbrev.toUpperCase(),
+            country: "US",
+            status: "active",
+            launchMonitorType: type as LaunchMonitorType,
+            NOT: { city: { equals: cityFormatted, mode: "insensitive" } },
+          },
+          select: { city: true },
+          distinct: ["city"],
+          take: 6,
+        }),
+      ])
+    : [0, [], []];
 
   const nearbyLinks = nearbyCitiesResult.map((c) => ({
     label: `${typeLabel} in ${c.city}`,
@@ -127,7 +142,7 @@ export default async function CityBestLaunchMonitorPage({ params }: CityBestLaun
   const faqItems = [
     {
       question: `How many ${typeLabel.toLowerCase()} venues are in ${cityFormatted}?`,
-      answer: `We found ${venues.length} venues using ${content.shortDesc} in ${cityFormatted}, ${stateName}. Hardware may vary by bay—confirm when booking.`,
+      answer: `We found ${totalVenues} venues using ${content.shortDesc} in ${cityFormatted}, ${stateName}. Hardware may vary by bay—confirm when booking.`,
     },
     {
       question: `What is a ${typeLabel.toLowerCase()} launch monitor?`,
@@ -170,11 +185,15 @@ export default async function CityBestLaunchMonitorPage({ params }: CityBestLaun
       ctaPrimary={{ label: "Claim Your Listing", href: "/claim" }}
       ctaSecondary={{ label: "Submit New Venue", href: "/submit" }}
       venues={venues}
+      totalVenues={totalVenues}
       categoryType="launch-monitor"
       categoryValue={typeKey}
       heroSubtitle={`${cityFormatted}, ${stateName}`}
       breadcrumbItems={breadcrumbs}
       showRanking={true}
+      currentPage={page}
+      pageSize={pageSize}
+      baseUrl={`/venue/us/${state}/${city}/best/launch-monitor/${type}`}
     />
   );
 }

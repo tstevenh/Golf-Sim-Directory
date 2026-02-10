@@ -1,0 +1,93 @@
+{
+  "name": "Happy G's",
+  "address": "210 E Gaines St, Lawrenceburg, TN 38464",
+  "city": "Lawrenceburg",
+  "region": "Tennessee",
+  "country": "US",
+  "latitude": 35.241615,
+  "longitude": -87.332435,
+  "phone": "+19312019644",
+  "website": "https://booking.trackmangolf.com/venues/happy-g-s/booking/bays",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770231756/golf_simulators/booking_trackmangolf_com_ChIJp2eTZEcnY4gRfFFFnNG-R5U.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Happy+G%27s/@35.2416147,-87.3324353,14z/data=!4m8!1m2!2m1!1sHappy+G%27s!3m4!1s0x88632747649367a7:0x9547bed19c45517c!8m2!3d35.2416147!4d-87.3324353",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJp2eTZEcnY4gRfFFFnNG-R5U",
+  "email": "g@myhappygs.com",
+  "venue_type": "sim_bar",
+  "about": "Happy G's is a golf simulator venue offering a range of booking options from public sessions to various membership tiers. The facility is equipped with golf simulators and provides multiple options for both individual and group play. Public bookings are available starting from $27.50 for a half-hour session, while memberships include options for solo, group, and business use with varying benefits and access restrictions. The venue also features digital gift card promotions for additional credits on purchases.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|budget_friendly|private_rooms|club_rentals|leagues",
+  "vibe_tags": "casual|welcoming|modern|tech_lab",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Flexible membership options for various player types",
+    "Digital gift card promotions offering extra value",
+    "Extended access hours from 4AM to 12AM for members",
+    "Priority access for business memberships for client entertainment"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Details not specified; likely available as part of the venue's offerings"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Not explicitly mentioned, but classified as a 'sim_bar' implying bar service"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Premium radar technology for accurate ball and club tracking"
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://booking.trackmangolf.com/venues/happy-g-s/booking/bays",
+  "pricing_model": "mixed",
+  "price_range_min_local": 27.5,
+  "price_range_max_local": 249,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue does not specify club rental availability, so it is recommended to bring your own clubs for the best experience."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "The venue is classified as a 'sim_bar', suggesting that food and drinks may be available, but external BYOB policies are not explicitly mentioned."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Public bookings are available in 0.5-hour increments, and membership sessions are limited to 2-3 hours depending on the membership type, so 18 holes would likely take within these time frames."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Happy G's offers a 'Kid's Membership' option, indicating that the venue is designed to accommodate junior golfers."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"12-8PM\"], \"Tuesday\": [\"12-8PM\"], \"Wednesday\": [\"12-8PM\"], \"Thursday\": [\"12-8PM\"], \"Friday\": [\"12-10PM\"], \"Saturday\": [\"12-10PM\"], \"Sunday\": [\"Closed\"]}"
+}

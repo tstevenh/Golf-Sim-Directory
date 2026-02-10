@@ -1,0 +1,93 @@
+{
+  "name": "Baker's Custom Golf",
+  "address": "9909 E 61st St, Tulsa, OK 74133",
+  "city": "Tulsa",
+  "region": "Oklahoma",
+  "country": "US",
+  "latitude": 36.075705,
+  "longitude": -95.865455,
+  "phone": "+19182524422",
+  "website": "http://bakerscustomgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770260722/golf_simulators/bakerscustomgolf_com_ChIJSTFqPKiNtocR77N1i1qNGI4.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Baker%27s+Custom+Golf/@36.075705299999996,-95.86545459999999,14z/data=!4m8!1m2!2m1!1sBaker%27s+Custom+Golf!3m4!1s0x87b68da83c6a3149:0x8e188d5a8b75b3ef!8m2!3d36.075705299999996!4d-95.86545459999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJSTFqPKiNtocR77N1i1qNGI4",
+  "venue_type": "retail_fitting_center",
+  "about": "Baker's Custom Golf is Tulsa's longest running off-course specialty golf shop, established in 1977. The venue offers a private fitting area with the latest launch monitor technology from Foresight Sports, featuring Head Motion Tracking, and provides a full-service repair shop with services including loft and lie adjustment, re-gripping, re-shafting, length adjustment, and gap fitting. Additionally, they now have a hitting bay available for rent by the hour, equipped with a Foresight Sports GC Hawk simulator.",
+  "tags": "beginner_friendly|serious_golfers|private_rooms|coaching_available|club_rentals|premium_tech|retail_fitting",
+  "vibe_tags": "industrial_training|community_club|modern",
+  "who_its_for": "beginners|serious_golfers|families|solo_practice|coaches_instructors",
+  "why_golfers_like_it": [
+    "Latest Foresight Sports launch monitor technology with Head Motion Tracking",
+    "Full-service repair shop with comprehensive club fitting services",
+    "Private hitting bay available for rent with premium simulator",
+    "Wide selection of top-name golf brands and equipment",
+    "Limited edition collectible putters available"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight Sports",
+      "model": "GC Hawk",
+      "notes": "Primary simulator in the hitting bay"
+    }
+  ],
+  "simulator_so": [
+    "Foresight Sports GC Hawk"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 1,
+  "booking_url": "unknown",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 40,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|pro_shop|club_fitting|hitting_bay|full_service_repair",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 4.2,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you should bring your own clubs for fitting sessions and hitting bay rentals. The venue also offers club fitting services and repairs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No information is provided regarding outside food and drinks. It's recommended to call ahead to confirm their policy."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "No specific time for 18 holes is mentioned, as the venue primarily focuses on fitting, lessons, and practice sessions rather than full simulator rounds."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "No specific information about kid-friendly amenities or policies is provided. It's advisable to contact the venue directly for details."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"6AM-6PM\"], \"Tuesday\": [\"6AM-6PM\"], \"Wednesday\": [\"6AM-6PM\"], \"Thursday\": [\"6AM-6PM\"], \"Friday\": [\"6AM-6PM\"], \"Saturday\": [\"6AM-5PM\"], \"Sunday\": [\"Closed\"]}"
+}

@@ -41,6 +41,7 @@ interface BestByPageContentProps {
   pageSize?: number;
   baseUrl?: string;
   searchParams?: Record<string, string | string[]>;
+  totalVenues?: number;
 }
 
 export function BestByPageContent({
@@ -66,6 +67,7 @@ export function BestByPageContent({
   pageSize = 12,
   baseUrl = "",
   searchParams = {},
+  totalVenues,
 }: BestByPageContentProps) {
   // Default breadcrumbs if not provided
   const defaultBreadcrumbs = [
@@ -75,9 +77,12 @@ export function BestByPageContent({
   ];
 
   // Pagination logic
-  const totalVenues = venues.length;
-  const totalPages = Math.max(1, Math.ceil(totalVenues / pageSize));
-  const pagedVenues = venues.slice((currentPage - 1) * pageSize, currentPage * pageSize);
+  const totalVenueCount = typeof totalVenues === "number" ? totalVenues : venues.length;
+  const totalPages = Math.max(1, Math.ceil(totalVenueCount / pageSize));
+  const pagedVenues =
+    typeof totalVenues === "number"
+      ? venues
+      : venues.slice((currentPage - 1) * pageSize, currentPage * pageSize);
 
   return (
     <div className="min-h-screen bg-deep-black">
@@ -87,7 +92,7 @@ export function BestByPageContent({
         title={title}
         subtitle={heroSubtitle}
         description={description}
-        venueCount={venues.length}
+        venueCount={totalVenueCount}
         breadcrumbItems={breadcrumbItems || defaultBreadcrumbs}
         categoryValue={categoryValue}
       />
@@ -111,7 +116,7 @@ export function BestByPageContent({
           ctaDescription={ctaDescription}
           ctaPrimary={ctaPrimary}
           ctaSecondary={ctaSecondary}
-          venueCount={venues.length}
+          venueCount={totalVenueCount}
           showStats={true}
         >
           {/* Venue Grid with Rankings */}
@@ -139,7 +144,6 @@ export function BestByPageContent({
                     city={venue.city}
                     state={venue.state}
                     heroImage={venue.heroImage}
-                    shortDescription={venue.shortDescription}
                     venueType={venue.venueType}
                     simulatorSystems={venue.simulatorSystems as string[] | null}
                     launchMonitorType={venue.launchMonitorType}
@@ -154,12 +158,14 @@ export function BestByPageContent({
                   />
                 ))}
               </VenueGrid>
-              <Pagination
-                currentPage={currentPage}
-                totalPages={totalPages}
-                baseUrl={baseUrl}
-                searchParams={searchParams}
-              />
+              {totalPages > 1 && (
+                <Pagination
+                  currentPage={currentPage}
+                  totalPages={totalPages}
+                  baseUrl={baseUrl}
+                  searchParams={searchParams}
+                />
+              )}
             </>
           )}
         </SeoIndexSections>
@@ -185,7 +191,6 @@ interface CityPageContentProps {
   ctaDescription: string;
   ctaPrimary: { label: string; href: string };
   ctaSecondary?: { label: string; href: string };
-  topAmenities?: string[];
   // Pagination props
   currentPage?: number;
   pageSize?: number;
@@ -209,7 +214,6 @@ export function CityPageContent({
   ctaDescription,
   ctaPrimary,
   ctaSecondary,
-  topAmenities,
   currentPage = 1,
   pageSize = 12,
   baseUrl = "",
@@ -287,7 +291,6 @@ export function CityPageContent({
                     city={venue.city}
                     state={venue.state}
                     heroImage={venue.heroImage}
-                    shortDescription={venue.shortDescription}
                     venueType={venue.venueType}
                     simulatorSystems={venue.simulatorSystems as string[] | null}
                     launchMonitorType={venue.launchMonitorType}
@@ -302,12 +305,14 @@ export function CityPageContent({
                   />
                 ))}
               </VenueGrid>
-              <Pagination
-                currentPage={currentPage}
-                totalPages={totalPages}
-                baseUrl={baseUrl}
-                searchParams={searchParams}
-              />
+              {totalPages > 1 && (
+                <Pagination
+                  currentPage={currentPage}
+                  totalPages={totalPages}
+                  baseUrl={baseUrl}
+                  searchParams={searchParams}
+                />
+              )}
             </>
           )}
         </SeoIndexSections>

@@ -1,0 +1,95 @@
+{
+  "name": "The Fremont Clubhouse Sportsbar, Golf Club, and Event Center",
+  "address": "4020 Technology Pl Suite 1, Fremont, CA 94538",
+  "city": "Fremont",
+  "region": "California",
+  "country": "US",
+  "latitude": 37.51062,
+  "longitude": -121.951369,
+  "phone": "+15106512500",
+  "website": "http://www.fremontclubhouse.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770229906/golf_simulators/www_fremontclubhouse_com_ChIJ74wPQEzHj4ARTn4Nq436Esw.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Fremont+Clubhouse+Sportsbar%2C+Golf+Club%2C+and+Event+Center/@37.5106198,-121.9513695,14z/data=!4m8!1m2!2m1!1sThe+Fremont+Clubhouse+Sportsbar%2C+Golf+Club%2C+and+Event+Center!3m4!1s0x808fc74c400f8cef:0xcc12fa8dab0d7e4e!8m2!3d37.5106198!4d-121.9513695",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ74wPQEzHj4ARTn4Nq436Esw",
+  "email": "nicole@fremontclubhouse.com",
+  "venue_type": "sim_bar",
+  "about": "The Fremont Clubhouse is a multi-sport entertainment venue that combines golf simulators with a sports bar, restaurant, and event center. It features two Full Swing Golf Simulators for unlimited play, alongside other activities like bocce, billiards, a rock climbing gym, and vintage arcade games. The venue offers full-facility buyouts and is designed for corporate events, social gatherings, and individual play. It operates as a cashless facility with a full bar and food service from the 19th Hole menu.",
+  "tags": "food_and_drinks|corporate_events|leagues|premium_tech|family_friendly|kids_friendly|date_night|party_atmosphere|club_rentals",
+  "vibe_tags": "sports_bar|family_fun_center|party_atmosphere|retro_gaming",
+  "who_its_for": "families|corporate_teams|beginners|solo_practice|large_groups",
+  "why_golfers_like_it": [
+    "Two Full Swing Golf Simulators for unlimited play",
+    "Full bar and food service available while playing",
+    "Host of other entertainment options like bocce and arcade games",
+    "Available for private event buyouts for groups",
+    "PGA Certified golf lessons available on-site"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen and restaurant service from the 19th Hole menu available during operating hours."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with a wide selection of beverages available."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Full Swing",
+      "model": "Golf Simulator",
+      "notes": "Two bays with unlimited play included in event packages."
+    }
+  ],
+  "simulator_so": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "http://bit.ly/4mike5B",
+  "pricing_model": "per_person_hour|package",
+  "price_range_min_local": 60,
+  "price_range_max_local": 2500,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|club_fitting|leagues",
+  "rating_tech_quality": 4.0,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, clubs are provided on-site, but you are welcome to bring your own personal clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, the venue is a cashless facility with a full bar and kitchen service. Outside food and drinks are not permitted."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Playing 18 holes on a simulator typically takes about 1-2 hours depending on the number of players and skill level."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is very kid-friendly and offers activities like a rock climbing gym, arcade games, and hosts special events like Grad Nights."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.1,
+  "opening_hours": "{\"Monday\": [\"12-10PM\"], \"Tuesday\": [\"12-10PM\"], \"Wednesday\": [\"12-10PM\"], \"Thursday\": [\"12-10PM\"], \"Friday\": [\"12-10PM\"], \"Saturday\": [\"10AM-6PM\"], \"Sunday\": [\"10AM-6PM\"]}"
+}

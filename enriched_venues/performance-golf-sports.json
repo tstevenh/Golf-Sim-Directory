@@ -1,0 +1,89 @@
+{
+  "name": "Performance Golf & Sports",
+  "address": "3100 9th Ave SW, Watertown, SD 57201",
+  "city": "Watertown",
+  "region": "South Dakota",
+  "country": "US",
+  "latitude": 44.888419,
+  "longitude": -97.163724,
+  "phone": "+16052378849",
+  "website": "https://performancegolfsports.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770228043/golf_simulators/performancegolfsports_com_ChIJX3_Es6XXzFIRZFUiPSvKm4s.png",
+  "google_maps_url": "https://www.google.com/maps/place/Performance+Golf+%26+Sports/@44.888419299999995,-97.1637243,14z/data=!4m8!1m2!2m1!1sPerformance+Golf+%26+Sports!3m4!1s0x52ccd7a5b3c47f5f:0x8b9bca2b3d225564!8m2!3d44.888419299999995!4d-97.1637243",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJX3_Es6XXzFIRZFUiPSvKm4s",
+  "email": "driver@performancegolfsports.com",
+  "venue_type": "sim_bar|multi_sport_sim",
+  "about": "Performance Golf & Sports is a family-owned indoor golf and event space in Watertown, SD, offering a high-tech environment for play, practice, and corporate events. The facility utilizes high-definition aboutGolf simulators with GSPro integration, providing access to local courses like Minnehaha Country Club and internationally renowned venues such as Pebble Beach and St. Andrews. Pricing is structured at $35 per hour, plus tax, with memberships available by request. The venue is known for its community-focused approach and BYOF (Bring Your Own Food) and BYOB (Bring Your Own Beverage) policy, offering a flexible and welcoming experience for golfers of all levels.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|private_rooms|club_rentals|community_club",
+  "vibe_tags": "casual|welcoming|modern|tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|large_groups",
+  "why_golfers_like_it": [
+    "Access to world-renowned courses like Pebble Beach and St. Andrews without leaving Watertown",
+    "High-precision aG® simulators with GSPro integration and comprehensive data tracking for swing analysis",
+    "A relaxed, family-owned community environment that is not weather-dependent"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Outside food is permitted (BYOF - Bring Your Own Food). Delivery from local area restaurants is also welcome."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Outside beverages are permitted (BYOB - Bring Your Own Beverage)."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "aboutGolf",
+      "model": "aG Simulator",
+      "notes": "High-definition simulator with machine vision technology"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://performancegolfsports.com/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 35,
+  "price_range_max_local": 35,
+  "currency": "USD",
+  "walk_ins_allowed": "Walk-in members cannot be guaranteed simulator time; therefore, a reservation is always recommended.",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|private_party_room|wifi|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The rental of a simulator does not come with a golf lesson or instruction. You must bring your own clubs to use the simulators."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, we are a BYOF & BYOB facility (Bring Your Own Food & Beverage). Outside food and beverage is permitted so you can bring your own or have it delivered."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "The standard rental is for a 2-hour time slot. A 15-minute buffer is built-in to allow everyone to get in and out of the bays, which is typically sufficient for 18 holes."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "Yes, the facility is family-owned and has a relaxed environment. The dress code allows for casual attire, making it a welcoming space for families."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"12-9PM\"], \"Tuesday\": [\"12-9PM\"], \"Wednesday\": [\"12-9PM\"], \"Thursday\": [\"12-9PM\"], \"Friday\": [\"10AM-9PM\"], \"Saturday\": [\"10AM-9PM\"], \"Sunday\": [\"10AM-9PM\"]}"
+}

@@ -1,0 +1,92 @@
+{
+  "name": "The Sports Mill",
+  "address": "600 E Market St, Kingsport, TN 37660",
+  "city": "Kingsport",
+  "region": "Tennessee",
+  "country": "US",
+  "latitude": 36.543553,
+  "longitude": -82.555396,
+  "phone": "+14235784825",
+  "website": "http://sportsmill.net/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770239916/golf_simulators/sportsmill_net_ChIJvzdMFM6NWogR4zqLCC3obuk.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Sports+Mill/@36.5435528,-82.55539619999999,14z/data=!4m8!1m2!2m1!1sThe+Sports+Mill!3m4!1s0x885a8dce144c37bf:0xe96ee82d088b3ae3!8m2!3d36.5435528!4d-82.55539619999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJvzdMFM6NWogR4zqLCC3obuk",
+  "email": "office@sportsmill.net",
+  "venue_type": "sim_bar",
+  "about": "The Sports Mill is a community-driven entertainment and sports hub located in Kingsport, TN, featuring two indoor HD golf and multi-sport simulators. The venue offers an immersive sports experience through cutting-edge simulator technology, with options for golf practice, playing world-famous courses, and enjoying over 30 interactive sports games. It operates with a casual, welcoming atmosphere, providing a space for both serious practice and casual fun with friends and family. The facility includes a Clubhouse Party Room with large screens and a sound system, making it suitable for watch parties, karaoke, and live music events. Pricing is based on hourly simulator rentals, with package options available for groups and private events. The venue is closed Monday-Wednesday in winter but offers private event bookings during these times.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|private_rooms|late_night|club_rentals|party_atmosphere",
+  "vibe_tags": "sports_bar|party_atmosphere|community_club|modern|welcoming",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|tourists_travelers",
+  "why_golfers_like_it": [
+    "HD golf simulators with accurate ball tracking and course recreation",
+    "State-of-the-art technology for practice and gameplay",
+    "Multiple sports and game options beyond golf",
+    "Private bay availability for focused sessions",
+    "Year-round indoor practice regardless of weather"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Food truck options available for events; local food truck partnerships"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar available; food truck events allow BYOB with a $250 fee"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "HD Golf",
+      "model": "Simulator",
+      "notes": "State-of-the-art HD golf and multi-sport simulators with precise ball tracking"
+    }
+  ],
+  "simulator_software": [
+    "HD Golf",
+    "Multi-sports games"
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://clients.uschedule.com/thesportsmill/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 40,
+  "price_range_max_local": 400,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues|food_truck",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, players are expected to bring their own clubs for simulator sessions."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "Outside food is not typically allowed, but food trucks are available for events. BYOB is permitted during private events with a $250 fee."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "18-hole simulation time varies depending on the course and pace of play, but typically ranges from 2-3 hours per simulator."
+    },
+    {
+      "question": "Is The Sports Mill kid-friendly?",
+      "answer": "Yes, the venue is kid-friendly and hosts events suitable for families, including birthday parties and group activities."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"Closed\"], \"Wednesday\": [\"Closed\"], \"Thursday\": [\"5-10PM\"], \"Friday\": [\"5PM-12AM\"], \"Saturday\": [\"12PM-12AM\"], \"Sunday\": [\"Closed\"]}"
+}

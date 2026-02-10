@@ -1,0 +1,84 @@
+{
+  "name": "Gateway Golf Club",
+  "address": "33290 Gateway Dr, Romulus, MI 48174",
+  "city": "Romulus",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 42.266574,
+  "longitude": -83.363128,
+  "phone": "+17347214100",
+  "website": "https://www.linksatgateway.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770241120/golf_simulators/www_linksatgateway_com_ChIJJximIZROO4gRqRN2KSwGzkM.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Gateway+Golf+Club/@42.2665742,-83.36312749999999,14z/data=!4m8!1m2!2m1!1sGateway+Golf+Club!3m4!1s0x883b4e9421a61827:0x43ce062c297613a9!8m2!3d42.2665742!4d-83.36312749999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJJximIZROO4gRqRN2KSwGzkM",
+  "email": "jimafinch@gmail.com",
+  "venue_type": "multi_sport_sim",
+  "about": "Links at Gateway is a golf venue offering both on-course play and simulator bays. The facility is owned and operated by the Ross family, who have over 40 years of experience in the golf business. They provide an experienced staff to meet all golfing needs. The venue offers traditional golf activities like tee time booking, lessons, and tournaments, alongside indoor simulator bays for year-round play. Simulator bays are currently open, and the facility caters to a mix of casual golfers and those looking for serious practice or event hosting.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|budget_friendly|private_rooms|club_rentals|coaching_available|family_fun_center",
+  "vibe_tags": "casual|welcoming|modern|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Experienced staff with over 40 years of golf industry expertise",
+    "Combines traditional golf course access with indoor simulator technology for all-season play",
+    "Offers a variety of services including lessons, tournaments, and events for different skill levels",
+    "Provides a professional atmosphere suitable for both casual and serious golfers"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Food service available at the venue"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service on website"
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://www.tee-on.com/PubGolf/servlet/com.teeon.resources.servlets.ReservationCalendarViewWeb?CourseCode=LNKG&FromCourseWebsite=true&ResourceTypeID=761",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|lockers|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.0,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you should bring your own clubs for the best experience, as club rentals aren't prominently mentioned on the website."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, the venue has food service available, and BYOB (Bring Your Own Beverage) is likely permitted based on the sim_bar classification."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Typically, 18 holes of simulator golf takes about 1-2 hours depending on the number of players and pace of play."
+    },
+    {
+      "question": "Is this kid-friendly?",
+      "answer": "Yes, Links at Gateway is family-friendly and welcomes juniors and youth golfers with their coaching programs."
+    }
+  ],
+  "rating_overall": 4.0,
+  "opening_hours": "{\"Monday\": [\"7:30AM-8PM\"], \"Tuesday\": [\"7:30AM-8PM\"], \"Wednesday\": [\"7:30AM-8PM\"], \"Thursday\": [\"7:30AM-8PM\"], \"Friday\": [\"7:30AM-8PM\"], \"Saturday\": [\"7:30AM-8PM\"], \"Sunday\": [\"7:30AM-8PM\"]}"
+}

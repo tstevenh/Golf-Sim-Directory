@@ -1,0 +1,92 @@
+{
+  "name": "Miracle Hill",
+  "address": "1401 N 120th St, Omaha, NE 68154",
+  "city": "Omaha",
+  "region": "Nebraska",
+  "country": "US",
+  "latitude": 41.271842,
+  "longitude": -96.099542,
+  "phone": "+14024980220",
+  "website": "http://www.miraclehillgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770242269/golf_simulators/www_miraclehillgolf_com_ChIJBXLWKoXyk4cRayPt6mUdPKo.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Miracle+Hill/@41.271841699999996,-96.09954169999999,14z/data=!4m8!1m2!2m1!1sMiracle+Hill!3m4!1s0x8793f2852ad67205:0xaa3c1d65eaed236b!8m2!3d41.271841699999996!4d-96.09954169999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJBXLWKoXyk4cRayPt6mUdPKo",
+  "venue_type": "multi_sport_sim",
+  "about": "Miracle Hill Golf & Tennis is a multi-sport venue in Omaha, Nebraska featuring an 18-hole championship golf course, eight indoor tennis courts, and a year-round practice facility powered by TopTracer. The venue offers a full range of activities including golf, tennis, pickleball, and TopTracer simulator experiences. With a history dating back to 1961, Miracle Hill provides a family-friendly environment for both learning and play. The facility includes on-site amenities like custom club fitting, pro shop, and event hosting capabilities, making it a versatile destination for golfers and tennis players alike.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|coaching_available|family_friendly",
+  "vibe_tags": "family_fun_center|community_club|modern",
+  "who_its_for": "beginners|families|corporate_teams|juniors_youth|serious_golfers",
+  "why_golfers_like_it": [
+    "TopTracer technology for year-round practice",
+    "18-hole championship course in good condition",
+    "Custom club fitting services available",
+    "Family-friendly environment with junior programs"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "On-site food and beverage service required; all food and drink must be purchased at Miracle Hill"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "Not mentioned as available"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "TopTracer",
+      "model": "unknown",
+      "notes": "Indoor golf range powered by TopTracer technology"
+    }
+  ],
+  "simulator_so": [
+    "TopTracer Range"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.miraclehillgolf.com/",
+  "pricing_model": "per_person_hour",
+  "price_range_min_local": 40,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|pro_shop|club_fitting|leagues|events|ada_accessible",
+  "rating_tech_quality": 4.0,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue does not explicitly mention club rentals, so players should bring their own clubs. Custom club fitting services are available on-site."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, all food and drink must be purchased at Miracle Hill - outside food and beverages are not permitted."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The venue doesn't specify typical play times, but as a championship 18-hole course, standard rounds typically take 4-5 hours depending on pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Miracle Hill offers junior golf programs and youth tennis clinics with dedicated coaches, making it family-friendly with programs for young players."
+    }
+  ],
+  "simulator_software": [
+    "Toptracer"
+  ],
+  "rating_overall": 4.0,
+  "opening_hours": "{\"Monday\": [\"7AM-10PM\"], \"Tuesday\": [\"7AM-10PM\"], \"Wednesday\": [\"7AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"7AM-10PM\"], \"Saturday\": [\"7AM-10PM\"], \"Sunday\": [\"7AM-10PM\"]}"
+}

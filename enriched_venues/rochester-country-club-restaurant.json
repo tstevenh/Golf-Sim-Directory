@@ -1,0 +1,84 @@
+{
+  "name": "Rochester Country Club Restaurant",
+  "address": "94 Church St, Rochester, NH 03839",
+  "city": "Rochester",
+  "region": "New Hampshire",
+  "country": "US",
+  "latitude": 43.265761,
+  "longitude": -70.977708,
+  "phone": "+16033320985",
+  "website": "http://www.rochestercc.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770242138/golf_simulators/www_rochestercc_com_ChIJY-LyvcKa4okRvPKkKyg6D4Q.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Rochester+Country+Club+Restaurant/@43.265760799999995,-70.9777079,14z/data=!4m8!1m2!2m1!1sRochester+Country+Club+Restaurant!3m4!1s0x89e29ac2bdf2e263:0x840f3a282ba4f2bc!8m2!3d43.265760799999995!4d-70.9777079",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJY-LyvcKa4okRvPKkKyg6D4Q",
+  "venue_type": "country_club",
+  "about": "Rochester Country Club is a traditional private golf and social club located in Rochester, New Hampshire. The venue features an 18-hole golf course, a pro shop, dining facilities, and a dedicated indoor golf simulator area. The club offers various membership options, tournament play, leagues, and event hosting capabilities. The simulator technology is highlighted as a year-round golf option, available for booking up to 14 days in advance, and includes a competitive simulator league for members.",
+  "tags": "country_club|leagues|food_and_drinks|corporate_events|coaching_available|club_rentals|private_rooms",
+  "vibe_tags": "upscale_lounge|private_luxury|community_club",
+  "who_its_for": "serious_golfers|families|corporate_teams|coaches_instructors|juniors_youth",
+  "why_golfers_like_it": [
+    "Year-round indoor golf simulator access for consistent practice and play",
+    "Comprehensive simulator league with scores and information for competitive play",
+    "Private country club setting with well-maintained course and facilities",
+    "Dedicated instructors and lesson programs for all skill levels",
+    "Flexible booking system allowing tee times up to 14 days in advance"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "On-site restaurant (RCC Grille) with full kitchen service available"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "Strict no outside alcohol policy enforced"
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": "unknown",
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.rochestercc.com/rates/online-tee-times",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "pro_shop|full_bar|kitchen_food|private_party_room|wifi|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 3.5,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 3.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own golf clubs?",
+      "answer": "The website does not specify equipment rental options, so it is recommended to bring your own clubs when using the simulators or playing the course."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, the club has a strict 'no outside alcohol' policy, and the website does not mention outside food, suggesting their on-site restaurant (RCC Grille) is the dining option."
+    },
+    {
+      "question": "How long does it take to play 18 holes on the simulator?",
+      "answer": "The website does not provide specific time estimates for simulator rounds, as typical 18-hole simulator sessions vary based on group size and pace."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "Yes, Rochester Country Club offers junior/youth programs and lessons, and hosts family-oriented events like Paint Night, indicating it is suitable for families with children."
+    }
+  ],
+  "rating_overall": 3.8,
+  "opening_hours": "{\"Monday\": [\"11AM-9PM\"], \"Tuesday\": [\"11AM-9PM\"], \"Wednesday\": [\"11AM-9PM\"], \"Thursday\": [\"11AM-9PM\"], \"Friday\": [\"11AM-9PM\"], \"Saturday\": [\"11AM-9PM\"], \"Sunday\": [\"11AM-7PM\"]}"
+}

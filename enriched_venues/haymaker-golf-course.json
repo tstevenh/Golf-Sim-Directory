@@ -1,0 +1,89 @@
+{
+  "name": "Haymaker Golf Course",
+  "address": "34855 US-40, Steamboat Springs, CO 80487",
+  "city": "Steamboat Springs",
+  "region": "Colorado",
+  "country": "US",
+  "latitude": 40.426622,
+  "longitude": -106.814153,
+  "phone": "+19708701846",
+  "website": "http://www.haymakergolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770257140/golf_simulators/www_haymakergolf_com_ChIJS4Cz6QBsQocRNGI7BGFYhiE.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Haymaker+Golf+Course/@40.4266222,-106.8141528,14z/data=!4m8!1m2!2m1!1sHaymaker+Golf+Course!3m4!1s0x87426c00e9b3804b:0x21865861043b6234!8m2!3d40.4266222!4d-106.8141528",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJS4Cz6QBsQocRNGI7BGFYhiE",
+  "venue_type": "country_club",
+  "about": "Haymaker Golf Course is a championship golf facility located in Steamboat Springs, Colorado, featuring an 18-hole links-style course designed by Keith Foster. The course is situated in the Yampa Valley Region with scenic backdrops including Mount Werner and the Flat Top Mountain Range, and it is recognized as an Audubon International Signature Program facility, emphasizing environmental sustainability. While primarily an outdoor course, the venue offers year-round indoor golf capabilities through 'The Fringe' Golf Simulator, allowing play during the winter months. The facility also includes a golf academy, corporate outing services, dining options, and various membership and punch card programs for local residents.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|budget_friendly|coaching_available|juniors_youth|private_rooms|club_rentals",
+  "vibe_tags": "casual|welcoming|modern|family_fun_center|community_club",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "Year-round golf access with indoor simulator facilities",
+    "Scenic mountain course with environmentally sustainable design",
+    "Comprehensive amenities including academy, dining, and event services",
+    "Flexible pricing options for residents and visitors alike"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "On-site restaurant The Patio Grill available with separate website"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Available at The Patio Grill restaurant"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "unknown",
+      "model": "unknown",
+      "notes": "Named 'The Fringe' Simulator; specific hardware brand not specified"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": "unknown",
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": null,
+  "booking_url": "http://www.haymakergolf.com/golf/tee-times",
+  "pricing_model": "mixed",
+  "price_range_min_local": null,
+  "price_range_max_local": null,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": null,
+  "max_group_size_per_bay": null,
+  "amenities_list": "club_rentals|kitchen_food|tv_sports|leagues|pro_shop|club_fitting|ada_accessible",
+  "rating_tech_quality": 4.0,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Players should bring their own clubs, though the facility may have rental options available."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drinks may be restricted; however, The Patio Grill on-site offers dining options."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Standard 18-hole play time is approximately 4-5 hours on the outdoor course; simulator time varies by booking."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue offers junior golf programs, clinics, and tournaments, making it suitable for families."
+    }
+  ],
+  "rating_overall": 4.1,
+  "opening_hours": "{\"Monday\": [\"7AM-7PM\"], \"Tuesday\": [\"7AM-7PM\"], \"Wednesday\": [\"7AM-7PM\"], \"Thursday\": [\"7AM-7PM\"], \"Friday\": [\"7AM-7PM\"], \"Saturday\": [\"7AM-7PM\"], \"Sunday\": [\"7AM-7PM\"]}"
+}

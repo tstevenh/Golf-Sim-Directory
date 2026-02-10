@@ -1,0 +1,90 @@
+{
+  "name": "Elmhurst Country Club",
+  "address": "319 Gardner Rd, Moscow, PA 18444",
+  "city": "Moscow",
+  "region": "Pennsylvania",
+  "country": "US",
+  "latitude": 41.352471,
+  "longitude": -75.548794,
+  "phone": "+15708427691",
+  "website": "http://www.elmhurstcc.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770257318/golf_simulators/www_elmhurstcc_com_ChIJ43H3wiLdxIkRWR_YQgL4Yq4.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Elmhurst+Country+Club/@41.3524713,-75.5487943,14z/data=!4m8!1m2!2m1!1sElmhurst+Country+Club!3m4!1s0x89c4dd22c2f771e3:0xae62f80242d81f59!8m2!3d41.3524713!4d-75.5487943",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ43H3wiLdxIkRWR_YQgL4Yq4",
+  "venue_type": "country_club",
+  "about": "Elmhurst Country Club is a premier golf venue located in the Pocono Mountains of Pennsylvania. It features an 18-hole championship golf course that has hosted PGA tour events, regional tournaments, and weekly leagues. The club has recently invested in million-dollar course improvements, making it suitable for both professional golfers and novices. Beyond traditional golf, the facility offers a golf simulator, comprehensive practice facilities, and a pro shop. The clubhouse provides multiple indoor and outdoor dining options with views of the 18th fairway and mountainous backdrop, catering to both fine dining and casual experiences.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|club_rentals|community_club|upscale_lounge",
+  "vibe_tags": "upscale_lounge|community_club|private_luxury",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Hosts multiple PGA tour events and regional tournaments",
+    "Recent million-dollar course improvements for professional conditions",
+    "Offers a comprehensive golf simulator for year-round play",
+    "Features multiple indoor and outdoor dining options with scenic views",
+    "Provides leagues and tournament opportunities for various skill levels"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Multiple indoor and outdoor dining options available, from fine dining to casual patio meals. Full dinner menu provided."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Dining options include full bar service, suitable for celebrations and casual outings."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "unknown",
+      "model": "unknown",
+      "notes": "Website mentions a golf simulator but does not specify hardware brands or models."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": "unknown",
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.elmhurstcc.com/TeeTimes/TeeSheet.aspx",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.0,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "While not explicitly stated, it's recommended to bring your own clubs for the best experience. The pro shop may offer rental options."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue offers multiple dining options on-site with a full bar and kitchen food. BYOB policies are not specified."
+    },
+    {
+      "question": "How long does an 18-hole round take on the simulator?",
+      "answer": "The website does not specify the duration for an 18-hole simulator round. Typically, simulator rounds take 1.5-2 hours depending on the software and group size."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Elmhurst Country Club is family-friendly with programs suitable for juniors and youth, making it a welcoming environment for families."
+    }
+  ],
+  "rating_overall": 4.1,
+  "opening_hours": "{\"Friday\": [\"9AM-9PM\"]}"
+}

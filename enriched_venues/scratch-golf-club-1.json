@@ -1,0 +1,89 @@
+{
+  "name": "Scratch Golf Club",
+  "address": "5401 W Lovers Ln, Dallas, TX 75209",
+  "city": "Dallas",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 32.851673,
+  "longitude": -96.820341,
+  "phone": "+18444131701",
+  "website": "https://scratchgolfclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770199365/golf_simulators/scratchgolfclub_com_ChIJpc0-lf6fToYROp24r3qTp2c.png",
+  "google_maps_url": "https://www.google.com/maps/place/Scratch+Golf+Club/@32.8516731,-96.8203411,14z/data=!4m8!1m2!2m1!1sScratch+Golf+Club!3m4!1s0x864e9ffe953ecda5:0x67a7937aafb89d3a!8m2!3d32.8516731!4d-96.8203411",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJpc0-lf6fToYROp24r3qTp2c",
+  "email": "hello@scratchgc.com",
+  "venue_type": "training_studio",
+  "about": "Scratch Golf Club is a private, members-only facility located in Dallas, offering an elite environment for golfers to practice and improve their game. The venue utilizes tour-grade Trackman simulators combined with AI swing analysis and slow-motion video technology to provide comprehensive feedback. Members benefit from 24/7/365 access via a mobile app, with six different practice modes available to accommodate every type of player and shot. Scratch Golf Club is specifically designed for serious golfers looking to hone their skills in a tech-driven setting.",
+  "tags": "serious_golfers|premium_tech|coaching_available|club_rentals|private_rooms|members_only|solo_practice",
+  "vibe_tags": "private_luxury|tech_lab|modern",
+  "who_its_for": "serious_golfers|solo_practice|low_handicap|coaches_instructors",
+  "why_golfers_like_it": [
+    "Access to tour-grade Trackman simulators for precise shot analysis",
+    "24/7 availability with mobile app access for ultimate convenience",
+    "Multiple practice modes tailored to different player needs and shots"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "Members are allowed to bring their own food to enjoy during their reservation."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "Members are allowed to bring their own alcohol to enjoy during their reservation."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Tour-grade radar launch monitors installed in each bay"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://scratchgolfclub.com/membership",
+  "pricing_model": "membership_only",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|wifi|pro_shop|club_fitting|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not explicitly state whether clubs are provided, so it's recommended to bring your own."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "Yes, members are allowed to bring their own food and alcohol to enjoy during their reservation."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not provide specific information on the time required to play 18 holes."
+    },
+    {
+      "question": "Is Scratch Golf Club kid-friendly?",
+      "answer": "No, the venue is a private, members-only facility focused on serious golf practice and is not marketed as kid-friendly."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

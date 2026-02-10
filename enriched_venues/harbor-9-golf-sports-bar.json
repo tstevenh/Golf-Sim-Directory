@@ -1,0 +1,91 @@
+{
+  "name": "Harbor 9 Golf & Sports Bar",
+  "address": "355 Gloucester Crossing Rd, Gloucester, MA 01930",
+  "city": "Gloucester",
+  "region": "Massachusetts",
+  "country": "US",
+  "latitude": 42.623709,
+  "longitude": -70.656344,
+  "phone": "+16174189447",
+  "website": "https://harbor9golf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770238419/golf_simulators/harbor9golf_com_ChIJ67OQJwAl44kRWrwtrUp_G10.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Harbor+9+Golf+%26+Sports+Bar/@42.623708799999996,-70.65634399999999,14z/data=!4m8!1m2!2m1!1sHarbor+9+Golf+%26+Sports+Bar!3m4!1s0x89e325002790b3eb:0x5d1b7f4aad2dbc5a!8m2!3d42.623708799999996!4d-70.65634399999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ67OQJwAl44kRWrwtrUp_G10",
+  "email": "info@harbor9golf.com",
+  "venue_type": "sim_bar",
+  "about": "Harbor 9 Golf & Sports Bar is a year-round golf simulation venue featuring state-of-the-art Trackman simulators in Gloucester, MA. The venue combines a modern sports bar atmosphere with advanced golf technology, offering an immersive experience for both serious golfers and casual players. With six simulator bays and a dedicated VIP bay that seats up to eight, it provides a flexible environment for practice, play, and social gatherings, featuring a full kitchen and bar service.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|private_rooms|club_rentals|community_club",
+  "vibe_tags": "sports_bar|tech_lab|community_club|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Industry-leading Trackman radar technology for precise swing and ball flight analysis",
+    "Year-round access to world-renowned golf courses regardless of weather",
+    "VIP bay accommodating up to 8 people for group events and competitions",
+    "Welcoming atmosphere with a full bar and kitchen for a complete experience"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen available with a menu featuring items like smoked wings"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service with a solid whiskey list and other beverages"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Cutting-edge radar technology providing detailed analysis of swing and ball flight"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 6,
+  "booking_url": "https://yourgolfbooking.com/venues/harbor-9-golf/booking/bays",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 55,
+  "price_range_max_local": 80,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 8,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue does not explicitly state whether club rentals are available, so it's recommended to bring your own clubs for the best experience."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, Harbor 9 has an in-house kitchen and full bar, and there are no mentions of a BYOB policy."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "While not explicitly stated, 18 holes typically take 1-2 hours depending on the number of players and simulator pace."
+    },
+    {
+      "question": "Is Harbor 9 kid-friendly?",
+      "answer": "Yes, the venue has a family-friendly atmosphere with activities like Mario Kart and a sports bar environment, making it suitable for kids."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"4-10PM\"], \"Tuesday\": [\"11AM-10PM\"], \"Wednesday\": [\"11AM-10PM\"], \"Thursday\": [\"11AM-5PM\"], \"Friday\": [\"9AM-12AM\"], \"Saturday\": [\"9AM-12AM\"], \"Sunday\": [\"10AM-10PM\"]}"
+}

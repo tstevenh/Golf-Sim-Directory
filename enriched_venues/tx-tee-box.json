@@ -1,0 +1,90 @@
+{
+  "name": "TX Tee Box",
+  "address": "4100 US-281, Marble Falls, TX 78654",
+  "city": "Marble Falls",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 30.615098,
+  "longitude": -98.268509,
+  "phone": "+18302014142",
+  "website": "https://www.txteebox.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770244358/golf_simulators/www_txteebox_com_ChIJWy21abQdW4YRzwZ6LuEJCSk.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/TX+Tee+Box/@30.615098399999997,-98.26850929999999,14z/data=!4m8!1m2!2m1!1sTX+Tee+Box!3m4!1s0x865b1db469b52d5b:0x290909e12e7a06cf!8m2!3d30.615098399999997!4d-98.26850929999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJWy21abQdW4YRzwZ6LuEJCSk",
+  "email": "golftexas@txteebox.com",
+  "venue_type": "sim_bar",
+  "about": "TX Tee Box is an indoor golf simulator facility located inside Putters & Gutters in Marble Falls, Texas. It utilizes highly acclaimed Trackman technology to provide an immersive golfing experience, allowing users to play world-class courses like Valderrama, St Andrews, and PGA National in a state-of-the-art environment. The facility offers shot analysis tools to improve your game and includes various interactive games suitable for all skill levels. Pricing is based on bay rental, with an option for a yearly membership that provides significant discounts and benefits.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|premium_tech|club_rentals|coaching_available|casual_atmosphere",
+  "vibe_tags": "sports_bar|family_fun_center|tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Access to a world-class library of golf courses, including St Andrews and Valderrama",
+    "Advanced Trackman technology providing precise shot analytics and swing comparisons to tour pros",
+    "A fun, inclusive atmosphere with interactive games for all skill levels",
+    "Ability to golf year-round in a climate-controlled, state-of-the-art facility"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Freshly made food available, including a full complement of appetizers, entrees, salads, and desserts."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "Not explicitly mentioned, but the venue type 'sim_bar' suggests it may be available."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Primary launch monitor providing detailed shot data and analytics."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://foreupsoftware.com/index.php/booking/21971#/teetimes",
+  "pricing_model": "per_bay_hour|membership_only",
+  "price_range_min_local": 25,
+  "price_range_max_local": 75,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|kitchen_food|private_party_room|tv_sports|pro_shop|club_fitting",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Club rentals are available for $10 per set. The yearly membership includes free club rentals."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No food or drink is allowed within the bay area. The facility does offer freshly made food, with a menu available on their website."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes is not explicitly stated, but a simulator bay hour is the standard booking unit."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, the facility is family-friendly and suitable for all skill levels, with specific rules to keep the environment appropriate for younger crowds."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"Closed\"], \"Wednesday\": [\"Closed\"], \"Thursday\": [\"12-10PM\"], \"Friday\": [\"12-10PM\"], \"Saturday\": [\"12-10PM\"], \"Sunday\": [\"12-10PM\"]}"
+}

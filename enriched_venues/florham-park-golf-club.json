@@ -1,0 +1,85 @@
+{
+  "name": "Florham Park Golf Club",
+  "address": "187 Columbia Turnpike, Florham Park, NJ 07932",
+  "city": "Florham Park",
+  "region": "New Jersey",
+  "country": "US",
+  "latitude": 40.787742,
+  "longitude": -74.392963,
+  "phone": "+19732956317",
+  "website": "https://florhamparkgolfclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770213756/golf_simulators/florhamparkgolfclub_com_ChIJo-nacbypw4kR7PEkcAVLPgw.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Florham+Park+Golf+Club/@40.787742,-74.39296259999999,14z/data=!4m8!1m2!2m1!1sFlorham+Park+Golf+Club!3m4!1s0x89c3a9bc71dae9a3:0xc3e4b057024f1ec!8m2!3d40.787742!4d-74.39296259999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJo-nacbypw4kR7PEkcAVLPgw",
+  "email": "info@florhamparkgolfclub.com",
+  "venue_type": "sim_bar",
+  "about": "Florham Park Golf Club offers golf simulator rentals with pricing ranging from $59-$79 per hour, depending on the time of day. The venue provides a space for individual practice or group play on courses like Pinehurst, with a designated bar area for events and comfortable seating. Membership options include various tiers with monthly simulator hours and access to amenities like stretching and massage sessions, while also hosting leagues and corporate events.",
+  "tags": "serious_golfers|food_and_drinks|corporate_events|leagues|coaching_available|club_rentals",
+  "vibe_tags": "casual|welcoming|modern",
+  "who_its_for": "serious_golfers|corporate_teams|large_groups|solo_practice|juniors_youth",
+  "why_golfers_like_it": [
+    "Premium golf simulator rentals with flexible hourly rates",
+    "Option to bring friends and play on virtual courses like Pinehurst",
+    "Access to expert instruction from Golf Digest award-winning coach Aaron Asedo",
+    "Bar area designed for catered events with comfortable seating",
+    "Membership packages offering monthly simulator hours and additional amenities"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Catered food available through partners, encourage trying food from partners"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "BYOB policy - you can bring your own beverages"
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": "unknown",
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 8,
+  "booking_url": "https://clients.uschedule.com/florhamparkgolfclub/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 59,
+  "price_range_max_local": 79,
+  "currency": "USD",
+  "walk_ins_allowed": "true",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|full_bar|kitchen_food|private_party_room|lockers|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue provides golf clubs for use during simulator rentals, but members and guests are welcome to bring their own personal equipment if preferred."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, Florham Park Golf Club has a BYOB policy, allowing you to bring your own beverages. Catered food is also available through their partners, and guests are encouraged to try food from these partners for events."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes varies depending on the simulator software and number of players, but typically ranges from 2-3 hours for a full round among a group of players."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Florham Park Golf Club is kid-friendly, offering junior memberships for those under 25 and family-friendly event options. Junior members under 18 require parental consent for certain services like stretching sessions."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"8:30AM-10PM\"], \"Tuesday\": [\"8:30AM-10PM\"], \"Wednesday\": [\"8:30AM-10PM\"], \"Thursday\": [\"8:30AM-10PM\"], \"Friday\": [\"8:30AM-10PM\"], \"Saturday\": [\"8AM-10PM\"], \"Sunday\": [\"8AM-8PM\"]}"
+}

@@ -1,0 +1,90 @@
+{
+  "name": "Bluegrass Golf Academy",
+  "address": "2560 Palumbo Dr suite 110, Lexington, KY 40509",
+  "city": "Lexington",
+  "region": "Kentucky",
+  "country": "US",
+  "latitude": 38.014655,
+  "longitude": -84.441604,
+  "phone": "+18593217825",
+  "website": "http://bluegrassgolfacademy.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770250841/golf_simulators/bluegrassgolfacademy_com_ChIJSdl0_I9RQogRU4n-Gy0iHBo.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Bluegrass+Golf+Academy/@38.0146551,-84.4416042,14z/data=!4m8!1m2!2m1!1sBluegrass+Golf+Academy!3m4!1s0x8842518ffc74d949:0x1a1c222d1bfe8953!8m2!3d38.0146551!4d-84.4416042",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJSdl0_I9RQogRU4n-Gy0iHBo",
+  "email": "bluegrassgolfacademy@gmail.com",
+  "venue_type": "training_studio",
+  "about": "Bluegrass Golf Academy is a tour-level training facility in Lexington, Kentucky, offering a comprehensive environment for golf improvement. They provide a range of services including private lessons, custom club fittings, and various membership options, all centered around cutting-edge technology and expert instruction. The academy is equipped with Trackman, Gears 3D Sports, and Smart2Move Force Plates to provide detailed analysis of golf swings. Their programs are designed for golfers of all ages and abilities, from beginners to tour professionals, aiming to help players elevate their game through a combination of on-course simulation, mental preparation, and practical training sessions.",
+  "tags": "serious_practice|beginner_friendly|juniors_youth|coaching_available|club_fitting|premium_tech|memberships|leagues|corporate_teams|solo_practice",
+  "vibe_tags": "tech_lab|professional|modern|community_club",
+  "who_its_for": "serious_golfers|beginners|juniors_youth|coaches_instructors|solo_practice",
+  "why_golfers_like_it": [
+    "Access to premium technology including Trackman launch monitors and 3D swing analysis",
+    "Custom club fitting services using advanced systems like GEARS3D and SwingFit",
+    "Comprehensive programs tailored to all skill levels, from beginners to tour professionals",
+    "Experienced PGA instructors with extensive coaching backgrounds"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of an on-site kitchen or food service."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Primary launch monitor technology used for lessons and practice."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "http://bluegrassgolfacademy.com/the-bga-app",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|club_fitting|pro_shop|leagues|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The academy is equipped with all necessary clubs for lessons, fittings, and practice. Members can use the facility's clubs, and custom fittings are available to help you find the perfect set for your game."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, there is no mention of food or drink service, and no indication that outside food or beverages are permitted."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time for 18 holes depends on your pace and whether you're playing on a simulator or using the practice facilities. Simulator play typically takes less time than a traditional round."
+    },
+    {
+      "question": "Is it kid-friendly?",
+      "answer": "Yes, Bluegrass Golf Academy offers junior golf programs, making it a suitable environment for young golfers to learn and develop their skills."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"9AM-9PM\"], \"Tuesday\": [\"9AM-9PM\"], \"Wednesday\": [\"12-9PM\"], \"Thursday\": [\"9AM-5PM\"], \"Friday\": [\"11AM-6PM\"], \"Saturday\": [\"8AM-2PM\"], \"Sunday\": [\"Closed\"]}"
+}

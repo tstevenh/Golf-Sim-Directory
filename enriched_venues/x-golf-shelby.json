@@ -1,0 +1,91 @@
+{
+  "name": "X-Golf Shelby",
+  "address": "45599 Market St, Shelby Township, MI 48315",
+  "city": "Shelby Township",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 42.631389,
+  "longitude": -82.981111,
+  "phone": "+15869916190",
+  "website": "http://www.xgolfshelby.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770203247/golf_simulators/www_xgolfshelby_com_ChIJDaV38hLeJIgREttr0l6-Bmc.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/X-Golf+Shelby/@42.6313889,-82.98111109999999,14z/data=!4m8!1m2!2m1!1sX-Golf+Shelby!3m4!1s0x8824de12f277a50d:0x6706be5ed26bdb12!8m2!3d42.6313889!4d-82.98111109999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJDaV38hLeJIgREttr0l6-Bmc",
+  "email": "info@xgolfshelby.com",
+  "venue_type": "sim_bar",
+  "about": "X-Golf Shelby is an indoor golf simulator venue featuring state-of-the-art technology for an accurate and realistic golfing experience. The facility combines camera systems, infrared lasers, and impact sensors to deliver unparalleled simulation quality. It is designed for golfers of all skill levels and offers a relaxed atmosphere suitable for practice, lessons, events, and social gatherings. The venue provides various services including tee time bookings, golf lessons, event hosting, and a sports bar with food and beverages. While detailed simulator hardware brands are not specified, the technology is described as advanced and capable of measuring shot shape, carry, and distance.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|leagues|premium_tech|coaching_available|date_night|kids_friendly",
+  "vibe_tags": "casual|welcoming|modern|sports_bar|family_fun_center",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "State-of-the-art simulator technology providing accurate and realistic golfing experience",
+    "Comprehensive services including lessons, leagues, and event hosting",
+    "Relaxed atmosphere suitable for all skill levels and various occasions",
+    "On-site food and beverages available for a complete entertainment experience",
+    "Ability to play world's best courses in any weather condition"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Food and beverages are available at all venues. Catering available for events."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Food and beverages including beer/wine are available. No BYOB policy mentioned."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "X-Golf",
+      "model": "In-house Simulator",
+      "notes": "State-of-the-art indoor golf simulator using camera systems, infrared lasers, and impact sensors"
+    }
+  ],
+  "simulator_software": [
+    "X-Golf"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 6,
+  "booking_url": "https://www.xgolfshelby.com/book-now/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|pro_shop|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify whether club rentals are available. It's recommended to bring your own clubs or contact the venue directly for details."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No, the venue provides food and beverages on-site. BYOB is not mentioned, suggesting it's not permitted."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Estimated 45 minutes per player for a full round according to the website."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the relaxed, welcoming atmosphere makes it perfect for players of all ages, including children."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-12AM\"], \"Thursday\": [\"9AM-12AM\"], \"Friday\": [\"9AM-12AM\"], \"Saturday\": [\"8AM-12AM\"], \"Sunday\": [\"8AM-10PM\"]}"
+}

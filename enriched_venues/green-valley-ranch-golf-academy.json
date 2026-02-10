@@ -1,0 +1,91 @@
+{
+  "name": "Green Valley Ranch Golf Academy",
+  "address": "4900 Himalaya Rd, Denver, CO 80249",
+  "city": "Denver",
+  "region": "Colorado",
+  "country": "US",
+  "latitude": 39.786315,
+  "longitude": -104.754709,
+  "phone": "+13033718700",
+  "website": "https://www.gvrgolf.com/lessons/golf-instruction",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770222621/golf_simulators/www_gvrgolf_com_ChIJs97tWR9kbIcRuKgq8wDiVhs.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Green+Valley+Ranch+Golf+Academy/@39.7863154,-104.7547089,14z/data=!4m8!1m2!2m1!1sGreen+Valley+Ranch+Golf+Academy!3m4!1s0x876c641f59eddeb3:0x1b56e200f32aa8b8!8m2!3d39.7863154!4d-104.7547089",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJs97tWR9kbIcRuKgq8wDiVhs",
+  "venue_type": "training_studio",
+  "about": "Green Valley Ranch Golf Academy is a comprehensive golf instruction facility that emphasizes the use of TrackMan technology for swing analysis and play. It offers a mix of on-course golf at their championship course and Par 3 course, as well as simulator training. The academy is part of a larger golf venue that includes tournament hosting, membership options, and various amenities like club fitting services. Pricing is accessible through online booking systems and offers various rates for on-course play and lessons, catering to a wide range of golfers from beginners to serious players.",
+  "tags": "beginner_friendly|serious_practice|food_and_drinks|corporate_events|leagues|coaching_available|premium_tech|club_rentals|family_friendly|group_events",
+  "vibe_tags": "industrial_training|community_club|modern|welcoming",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "Premium TrackMan technology for detailed swing analysis",
+    "Comprehensive golf instruction and coaching options",
+    "Both on-course play and simulator facilities available",
+    "Hosts tournaments and leagues for competitive play",
+    "On-site club fitting services for equipment optimization"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "On-site food service available at Green Valley Smokehouse"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Bar service available at Green Valley Smokehouse"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Professional-grade launch monitor with detailed ball and club tracking"
+    }
+  ],
+  "simulator_software": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://clients.uschedule.com/gvrgolfacademy/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can bring your own clubs, but the facility also offers club rentals and has on-site club fitting services through Gott Golf Custom Club Fitting."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drinks are not mentioned as permitted, but the venue has on-site dining options at Green Valley Smokehouse."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The facility hosts a championship course and Par 3 course, with standard golf play times applying depending on tee time bookings and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is family-friendly with programs like First Tee-Green Valley Ranch and offers junior/youth instruction and clinics."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"12-5PM\"], \"Tuesday\": [\"9AM-5PM\"], \"Wednesday\": [\"9AM-5PM\"], \"Thursday\": [\"9AM-5PM\"], \"Friday\": [\"9AM-5PM\"], \"Saturday\": [\"9AM-5PM\"], \"Sunday\": [\"12-5PM\"]}"
+}

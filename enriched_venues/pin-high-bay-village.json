@@ -1,0 +1,91 @@
+{
+  "name": "Pin High Bay Village",
+  "address": "27229 Wolf Rd, Bay Village, OH 44140",
+  "city": "Bay Village",
+  "region": "Ohio",
+  "country": "US",
+  "latitude": 41.484196,
+  "longitude": -81.921709,
+  "phone": "+14404551078",
+  "website": "https://www.pinhighbay.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770265125/golf_simulators/www_pinhighbay_com_ChIJdaop0LyNMIgRlpOXZj0SBlo.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Pin+High+Bay+Village/@41.484196,-81.92170899999999,14z/data=!4m8!1m2!2m1!1sPin+High+Bay+Village!3m4!1s0x88308dbcd029aa75:0x5a06123d66979396!8m2!3d41.484196!4d-81.92170899999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJdaop0LyNMIgRlpOXZj0SBlo",
+  "email": "44140440-455-1078dennis@pinhighbay.com",
+  "venue_type": "sim_bar",
+  "about": "Pin High Golf & Lounge is an indoor golf facility located in Bay Village, Ohio, occupying the former Bay Lanes bowling alley space. The venue is equipped with TrackMan technology, offering players access to world-famous virtual courses like Pinehurst No. 2, Harbour Town Golf Links, and St. Andrews Old Course. It serves as a year-round destination for golf, featuring PGA-certified instruction for lessons, club fitting, and swing analysis. The facility caters to a range of players, from casual golfers to serious competitors. Beyond the simulators, Pin High includes a 30-person bar serving craft cocktails and local beers, with food options available from their kitchen and a curated menu from Wolf & Co. The venue emphasizes a community atmosphere with a focus on social golf, offering various membership tiers, leagues, and event hosting.",
+  "tags": "food_and_drinks|leagues|coaching_available|premium_tech|private_rooms|beginner_friendly|corporate_events|club_fitting|bar|late_night",
+  "vibe_tags": "upscale_lounge|community_club|sports_bar|modern",
+  "who_its_for": "serious_golfers|large_groups|solo_practice|beginners|corporate_teams",
+  "why_golfers_like_it": [
+    "Uses TrackMan technology for accurate swing analysis and gameplay",
+    "Access to iconic courses like Pinehurst No. 2 and St. Andrews",
+    "PGA-certified pros available for lessons and club fitting",
+    "Full bar with craft cocktails and food service while you play",
+    "Flexible membership options with priority booking and discounts"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "30-person bar with simple food and a curated Wolf & Co. menu available."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Craft cocktails, local beers, and bourbon tasting events."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": null,
+      "notes": "Swing analysis and gameplay provided by TrackMan technology."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://app.whoosh.io/patron/club/pin-high-golf-lounge/agenda/pin-high/today",
+  "pricing_model": "mixed",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "full_bar|kitchen_food|club_fitting|leagues|lessons",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "Clubs are available for use, but you are welcome to bring your own. The venue also offers club fitting services."
+    },
+    {
+      "question": "Can I bring outside food or drinks?",
+      "answer": "No, outside food and drinks are not permitted. The venue has a full bar and food menu available for purchase."
+    },
+    {
+      "question": "How long does 18 holes take?",
+      "answer": "An 18-hole round typically takes between 3 to 4 hours for a foursome, depending on pace of play."
+    },
+    {
+      "question": "Is it kid-friendly?",
+      "answer": "Yes, Pin High is designed to be a community space and welcomes families and juniors."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"9AM-11PM\"], \"Saturday\": [\"10AM-11PM\"], \"Sunday\": [\"10AM-9PM\"]}"
+}

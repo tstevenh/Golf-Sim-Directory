@@ -1,0 +1,90 @@
+{
+  "name": "Whack Vermont",
+  "address": "166 Athletic Dr, Shelburne, VT 05482",
+  "city": "Shelburne",
+  "region": "Vermont",
+  "country": "US",
+  "latitude": 44.38341,
+  "longitude": -73.228388,
+  "phone": "+18022421288",
+  "website": "https://whackvt.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770208198/golf_simulators/whackvt_com_ChIJ0z0bCPJ9ykwRABavgjezbB0.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Whack+Vermont/@44.3834097,-73.2283877,14z/data=!4m8!1m2!2m1!1sWhack+Vermont!3m4!1s0x4cca7df2081b3dd3:0x1d6cb33782af1600!8m2!3d44.3834097!4d-73.2283877",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ0z0bCPJ9ykwRABavgjezbB0",
+  "venue_type": "sim_bar|training_studio|private_rental",
+  "about": "Whack Vermont is an indoor golf simulator venue located at the Shelburne Field House in Shelburne, VT. The facility utilizes Trackman technology, a leading radar-based system, to provide a hyper-realistic golf experience on world-renowned courses. Simulator suites are rented by the hour and can accommodate up to four people, with players required to bring their own clubs and balls. The venue is accessible via membership or keycode and emphasizes a welcoming environment for golfers of all skill levels, from beginners to serious players. It features state-of-the-art indoor golf simulators with advanced imaging and sensor technology, allowing for golf regardless of weather or time of day. The space is designed for both honing skills and casual fun, with options for full rounds, practice modes, and mini-games.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|premium_tech|budget_friendly|private_rooms|club_rentals|coaching_available",
+  "vibe_tags": "casual|welcoming|modern|tech_lab",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Access to world-famous golf courses without leaving Vermont",
+    "Use of advanced Trackman technology for detailed shot analysis and improvement",
+    "Flexible booking by the hour for groups up to four people",
+    "Ability to play regardless of weather or time of day",
+    "A welcoming environment suitable for all skill levels"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "BYOB not mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "BYOB not mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Radar-based launch monitor used for precise shot tracking"
+    }
+  ],
+  "simulator_software": [
+    "Trackman Golf"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://yourgolfbooking.com/venues/whack-vt/booking/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|tv_sports|leagues|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need clubs?",
+      "answer": "Yes, you will need to bring your own clubs and balls to use in the simulator."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "The website does not mention a policy on bringing outside food or drinks."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not provide a specific time estimate for completing 18 holes."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue welcomes golfers of all ages and includes an image of happy kids enjoying the simulator, indicating it is a family-friendly environment."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"7AM-11PM\"], \"Tuesday\": [\"7AM-11PM\"], \"Wednesday\": [\"7AM-11PM\"], \"Thursday\": [\"7AM-11PM\"], \"Friday\": [\"7AM-11PM\"], \"Saturday\": [\"7AM-10PM\"], \"Sunday\": [\"7AM-10PM\"]}"
+}

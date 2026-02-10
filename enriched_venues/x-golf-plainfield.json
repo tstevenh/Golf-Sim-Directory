@@ -1,0 +1,90 @@
+{
+  "name": "X-Golf Plainfield",
+  "address": "313 Marketplace Mile #120, Plainfield, IN 46168",
+  "city": "Plainfield",
+  "region": "Indiana",
+  "country": "US",
+  "latitude": 39.712631,
+  "longitude": -86.358321,
+  "phone": "+13177427080",
+  "website": "http://www.playxgolf.com/locations/Plainfield",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770204148/golf_simulators/www_playxgolf_com_ChIJfTZM0nilbIgRYu--k83IjCM.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/X-Golf+Plainfield/@39.712630999999995,-86.35832099999999,14z/data=!4m8!1m2!2m1!1sX-Golf+Plainfield!3m4!1s0x886ca578d24c367d:0x238cc8cd93beef62!8m2!3d39.712630999999995!4d-86.35832099999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJfTZM0nilbIgRYu--k83IjCM",
+  "email": "info@xgolfplainfield.com",
+  "venue_type": "sim_bar",
+  "about": "X-Golf Plainfield is a golf simulator venue featuring seven state-of-the-art simulators designed for play, training, and entertainment. The venue offers a comprehensive experience including a full sports bar, golf lessons, and private event capabilities, catering to both casual players and serious golfers. With flexible pricing for simulator time and a variety of amenities, the venue provides a modern indoor golf environment suitable for individuals, groups, and corporate events.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|coaching_available|premium_tech|club_rentals|private_rooms",
+  "vibe_tags": "sports_bar|modern|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "World's most accurate golf simulator technology with camera systems, infrared lasers, and impact sensors",
+    "Convenient per-simulator pricing accommodating up to 6 people per hour",
+    "Full sports bar and event space for social and corporate gatherings",
+    "PGA-certified instruction and advanced training technology available"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen with shareable bites, appetizers, snacks, and pizzas available"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with beer by the glass or on tap, cocktails, and wines"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "X-Golf",
+      "model": "State-of-the-art Simulator",
+      "notes": "Proprietary system combining camera systems, infrared lasers, and impact sensors"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "mixed",
+  "lefty_friendly": true,
+  "bay_count_total": 7,
+  "booking_url": "https://clients.uschedule.com/xgolfplainfield/booking?filter=loc[2754]",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 45,
+  "price_range_max_local": 65,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 0,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, club rental is available at the venue."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "The venue offers a full kitchen and bar with food and drinks available for purchase."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Generally, it takes about 1 hour per player to complete 18 holes."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, children of all ages are welcome at X-Golf Plainfield."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-12AM\"], \"Saturday\": [\"9AM-12AM\"], \"Sunday\": [\"9AM-10PM\"]}"
+}

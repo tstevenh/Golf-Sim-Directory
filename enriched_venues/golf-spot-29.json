@@ -1,0 +1,88 @@
+{
+  "name": "Golf Spot 29",
+  "address": "5020 US-29, Warrenton, VA 20187",
+  "city": "Warrenton",
+  "region": "Virginia",
+  "country": "US",
+  "latitude": 38.768742,
+  "longitude": -77.709979,
+  "phone": "+15403499761",
+  "website": "https://golfspot29.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770223494/golf_simulators/golfspot29_com_ChIJKfYcqrJltokRh0UDBRziW1k.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Golf+Spot+29/@38.7687423,-77.7099793,14z/data=!4m8!1m2!2m1!1sGolf+Spot+29!3m4!1s0x89b665b2aa1cf629:0x595be21c05034587!8m2!3d38.7687423!4d-77.7099793",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJKfYcqrJltokRh0UDBRziW1k",
+  "venue_type": "training_studio",
+  "about": "Golf Spot 29 is a comprehensive golf training and entertainment venue featuring both a driving range and indoor golf simulators. The facility utilizes Trackman radar technology for precise ball and club tracking, offering a year-round practice environment with weather-protected hitting bays. It provides services for golfers of all ages and skill levels, including individualized coaching, club fittings, and a pro shop. The venue also hosts group events, parties, and camps through its Irish Golf Academy partnership.",
+  "tags": "serious_practice|beginner_friendly|corporate_events|coaching_available|juniors_youth|club_fitting|groups|leagues|premium_tech|private_rooms",
+  "vibe_tags": "tech_lab|community_club|modern|welcoming",
+  "who_its_for": "beginners|serious_golfers|families|juniors_youth|corporate_teams",
+  "why_golfers_like_it": [
+    "Access to premium Trackman radar technology for accurate swing analysis",
+    "Year-round practice with weather-protected hitting bays and simulators",
+    "Individualized coaching from Irish Golf Academy professionals"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No on-site food service mentioned."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No bar mentioned; BYOB policy not specified."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "unknown",
+      "notes": "Indoor Trackman Simulators used for rental and lessons"
+    }
+  ],
+  "simulator_software": [
+    "Inrange, Trackman"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 12,
+  "booking_url": "https://golfspot29.com/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "true",
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|pro_shop|club_fitting|private_party_room|leagues|groups|coaching_available",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The content mentions club fittings and a pro shop, suggesting you can rent clubs or get fitted for new ones, but doesn't explicitly state club rental availability."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No information is provided regarding outside food or drinks. There is no mention of an on-site kitchen or bar."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "With Trackman technology, golfers can play 18 holes in approximately two hours."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue offers junior memberships, camps, and is described as suitable for golfers of all ages, including kids and youth."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"12-6PM\"], \"Tuesday\": [\"10AM-6PM\"], \"Wednesday\": [\"10AM-6PM\"], \"Thursday\": [\"10AM-6PM\"], \"Friday\": [\"10AM-6PM\"], \"Saturday\": [\"10AM-6PM\"], \"Sunday\": [\"10AM-6PM\"]}"
+}

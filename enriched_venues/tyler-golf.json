@@ -1,0 +1,91 @@
+{
+  "name": "Tyler Golf",
+  "address": "14662 State Hwy 155 Bldg A Ste 100, Tyler, TX 75703",
+  "city": "Tyler",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 32.268466,
+  "longitude": -95.376802,
+  "phone": "+14304442487",
+  "website": "http://tylergolfshop.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770224586/golf_simulators/tylergolfshop_com_ChIJY_UAO6bLSYYRDOlz59W2GBg.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Tyler+Golf/@32.2684663,-95.3768024,14z/data=!4m8!1m2!2m1!1sTyler+Golf!3m4!1s0x8649cba63b00f563:0x1818b6d5e773e90c!8m2!3d32.2684663!4d-95.3768024",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJY_UAO6bLSYYRDOlz59W2GBg",
+  "email": "tylergolf@gmail.com",
+  "venue_type": "retail_fitting_center",
+  "about": "Tyler Golf is a comprehensive golf venue in Tyler, Texas, that combines retail services with indoor simulation technology. The facility offers golf lessons, club fittings, repair services, and a single private golf simulator bay for rentals. Tyler Golf positions itself as an accessible alternative to traditional golf courses, addressing common barriers such as cost, intimidation, and time constraints. The venue emphasizes privacy for users and provides a VIP experience away from the public eye, with a focus on fitting golfers with proper equipment.",
+  "tags": "beginner_friendly|budget_friendly|coaching_available|private_rooms|club_rentals|serious_practice|retail",
+  "vibe_tags": "private_luxury|industrial_training|welcoming",
+  "who_its_for": "beginners|serious_golfers|families|solo_practice|coaches_instructors",
+  "why_golfers_like_it": [
+    "Private VIP simulator experience away from public scrutiny",
+    "Affordable gear options for every budget, both new and used",
+    "Fast gameplay with 18 holes taking only 45-60 minutes",
+    "PGA professional instruction with over 20 years of experience",
+    "Indoor environment immune to weather disruptions"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food services mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol services mentioned, BYOB not specified"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Bushnell",
+      "model": "Launch Pro",
+      "notes": "Launch Pro launch monitor installed in the simulator bay"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 1,
+  "booking_url": "https://www.tylergolfshop.com/book-online",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": null,
+  "price_range_max_local": null,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 5,
+  "amenities_list": "club_rentals|pro_shop|club_fitting|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website doesn't explicitly state whether clubs are provided, but since they offer club rentals and fittings, it's likely you can use your own or rent clubs there."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No information is provided about bringing outside food or drinks to the venue."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The average 18 holes on the golf simulator takes 45 minutes to 1 hour."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "No specific information is provided about kid-friendly policies or amenities."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"11AM-6PM\"], \"Wednesday\": [\"11AM-6PM\"], \"Thursday\": [\"11AM-6PM\"], \"Friday\": [\"11AM-7PM\"], \"Saturday\": [\"11AM-7PM\"], \"Sunday\": [\"Closed\"]}"
+}

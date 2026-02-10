@@ -1,0 +1,91 @@
+{
+  "name": "Newport Indoor Golf",
+  "address": "1947 W Main Rd, Portsmouth, RI 02871",
+  "city": "Portsmouth",
+  "region": "Rhode Island",
+  "country": "US",
+  "latitude": 41.569256,
+  "longitude": -71.27951,
+  "phone": "+14018471947",
+  "website": "http://www.newportindoorgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770200327/golf_simulators/www_newportindoorgolf_com_ChIJRQ4qdb-r5YkR1QfzaOWCJQo.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Newport+Indoor+Golf/@41.5692558,-71.27951039999999,14z/data=!4m8!1m2!2m1!1sNewport+Indoor+Golf!3m4!1s0x89e5abbf752a0e45:0xa2582e568f307d5!8m2!3d41.5692558!4d-71.27951039999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJRQ4qdb-r5YkR1QfzaOWCJQo",
+  "email": "info@newportindoorgolf.com",
+  "venue_type": "multi_sport_sim",
+  "about": "Newport Indoor Golf is a premier indoor golfing facility located in Portsmouth, Rhode Island. The venue features a 6,000 square foot space equipped with 8 Trackman simulator bays, one private fitting bay, and two private group bays. Guests can access over 250 world-renowned golf courses and utilize a dual-function driving range, regardless of weather conditions. The facility offers a comprehensive suite of services including one-on-one lessons with PGA professionals, expert club fittings using Trackman technology, a pro shop with top-tier brands, and certified club repair services. Newport Indoor Golf is an all-season destination for golfers of all skill levels to practice, play, and improve their game in a climate-controlled environment.",
+  "tags": "serious_golfers|beginners|families|coaching_available|premium_tech|club_rentals|corporate_events|private_rooms|pro_shop",
+  "vibe_tags": "modern|welcoming|tech_lab|community_club",
+  "who_its_for": "serious_golfers|beginners|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "State-of-the-art Trackman technology for precise swing analysis",
+    "Access to over 250+ world-renowned golf courses",
+    "Comprehensive services including lessons, fittings, and repairs",
+    "Private bays available for group outings and focused training",
+    "PGA-certified professional instruction available on-site"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned on website"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No bar or alcohol service mentioned; BYOB not specified"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "8 bays equipped with Trackman technology, one private fitting bay, and two private group bays"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 11,
+  "booking_url": "https://yourgolfbooking.com/venues/newport-indoor-golf/booking/bays",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|pro_shop|club_fitting|private_rooms|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.5,
+  "rating_value_for_money": 4.2,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You are welcome to bring your own clubs. The facility also has a pro shop where you can rent or purchase clubs from top brands like Titleist, Ping, Taylormade, Callaway, and more."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The website does not specify a policy on outside food and drink. No on-site bar or kitchen service is mentioned, so it's advisable to contact the venue directly for clarification."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "You can book up to 3 hours online for a bay reservation. For extended time or to play a full 18 holes, it is best to contact the front desk directly."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "There is no specific information on child-friendly features or junior programs. While families are mentioned as a target audience, the focus appears to be on adult golfers and serious practice."
+    }
+  ],
+  "rating_overall": 4.5,
+  "opening_hours": "{\"Monday\": [\"8AM-11PM\"], \"Tuesday\": [\"8AM-11PM\"], \"Wednesday\": [\"8AM-11PM\"], \"Thursday\": [\"8AM-11PM\"], \"Friday\": [\"8AM-11PM\"], \"Saturday\": [\"8AM-11PM\"], \"Sunday\": [\"8AM-11PM\"]}"
+}

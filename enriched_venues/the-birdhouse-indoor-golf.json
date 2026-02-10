@@ -1,0 +1,91 @@
+{
+  "name": "The Birdhouse Indoor Golf",
+  "address": "23521 Ridge Rte Dr Suite B, Laguna Hills, CA 92653",
+  "city": "Laguna Hills",
+  "region": "California",
+  "country": "US",
+  "latitude": 33.621634,
+  "longitude": -117.718231,
+  "phone": "+19495389644",
+  "website": "https://thebirdhousegolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770209975/golf_simulators/thebirdhousegolf_com_ChIJZ1BUsizp3IARrSWSLFJAAZ8.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Birdhouse+Indoor+Golf/@33.6216338,-117.7182314,14z/data=!4m8!1m2!2m1!1sThe+Birdhouse+Indoor+Golf!3m4!1s0x80dce92cb2545067:0x9f0140522c9225ad!8m2!3d33.6216338!4d-117.7182314",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJZ1BUsizp3IARrSWSLFJAAZ8",
+  "email": "support@thebirdhousegolf.com",
+  "venue_type": "sim_bar|training_studio",
+  "about": "The Birdhouse Indoor Golf is a premier indoor golf facility located in Laguna Hills, CA, featuring six large bays powered by Uneekor EYE XO2 launch monitor technology. The venue offers access to over 1,600 golf courses worldwide through GSPro software, with three of the six bays located in private suites for business meetings or private practice. Pricing is on a per-bay-hour basis, with special rates for off-peak hours and multiple membership tiers available for regular players seeking a dedicated practice space.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|premium_tech|private_rooms|coaching_available|casual|welcoming|modern",
+  "vibe_tags": "upscale_lounge|private_luxury|tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|corporate_teams|solo_practice|coaches_instructors",
+  "why_golfers_like_it": [
+    "Uneekor EYE XO2 launch monitor provides detailed club and ball tracking data",
+    "Three private suites available for exclusive use",
+    "Convenient location near the 5 freeway in Laguna Hills",
+    "On-site golf coaching with a TPI-certified instructor",
+    "Food and drink service available with high-top bar counters in each bay"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Allowed to bring in food or order via delivery apps; no on-site food menu"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Beer and hard seltzers available for purchase"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "EYE XO2",
+      "notes": "Three high-speed cameras for club contact, ball speed, and distance tracking"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 6,
+  "booking_url": "https://clients.uschedule.com/thebirdhouseindoorgolf/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 3,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|private_party_room|wifi|pro_shop|club_fitting",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need clubs?",
+      "answer": "Not specified - customers should inquire directly about club rentals or requirements."
+    },
+    {
+      "question": "Can I bring in food and drinks?",
+      "answer": "Yes, you can bring in or order in any food you'd like. The venue offers soft drinks, energy drinks, protein shakes, beer, and hard seltzers for purchase."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "On average, it takes about 45 minutes to an hour per golfer to finish 18 holes."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The venue does not specifically mention kid-friendly amenities or features."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"7AM-9PM\"], \"Tuesday\": [\"7AM-9PM\"], \"Wednesday\": [\"7AM-9PM\"], \"Thursday\": [\"7AM-9PM\"], \"Friday\": [\"7AM-10PM\"], \"Saturday\": [\"8AM-10PM\"], \"Sunday\": [\"8AM-5PM\"]}"
+}

@@ -1,0 +1,92 @@
+{
+  "name": "X-Golf Novi",
+  "address": "44325 W 12 Mile Rd Ste H-179, Novi, MI 48377",
+  "city": "Novi",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 42.491465,
+  "longitude": -83.485005,
+  "phone": "+12485134761",
+  "website": "http://www.xgolfnovi.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770216338/golf_simulators/www_xgolfnovi_com_ChIJk-rPcxivJIgRdyFbSq-IYMQ.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/X-Golf+Novi/@42.4914655,-83.4850045,14z/data=!4m8!1m2!2m1!1sX-Golf+Novi!3m4!1s0x8824af1873cfea93:0xc46088af4a5b2177!8m2!3d42.4914655!4d-83.4850045",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJk-rPcxivJIgRdyFbSq-IYMQ",
+  "email": "info@xgolfnovi.com",
+  "venue_type": "sim_bar",
+  "about": "X-Golf Novi offers indoor golf simulation experiences with state-of-the-art technology, featuring a full bar and food options for an all-in-one entertainment and social environment. The venue is equipped with golf simulators that combine camera systems, infrared lasers, and impact sensors to provide players with a realistic golfing experience. Pricing is structured per hour per simulator bay, with rates varying by day and time of day. It caters to a wide range of customers, from beginners to seasoned golfers, and is suitable for both casual play, leagues, and private events.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|club_rentals|coaching_available|late_night|family_friendly",
+  "vibe_tags": "sports_bar|tech_lab|community_club|party_atmosphere|family_fun_center",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|large_groups",
+  "why_golfers_like_it": [
+    "Unparalleled accuracy and realism through advanced camera systems and infrared lasers",
+    "Flexible booking options for individuals, groups, and competitive leagues",
+    "PGA-certified coaching available using the simulator technology for game improvement"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Shareable bites, appetizers, snacks, and pizzas available"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with beer on tap and by the glass, cocktails, and wine"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "X-Golf",
+      "model": "Simulator System",
+      "notes": "Proprietary system with camera systems, infrared lasers, and impact sensors"
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "infrared_optical",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://xgolfnovi.as.me/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 40,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "No, complimentary rental sets are available on-site."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No outside food or drinks are allowed. The venue offers a full bar and a menu of shareable bites and snacks."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Generally, it takes about one hour for an individual player to complete 18 holes. With more players, you may need to book additional time."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, X-Golf Novi welcomes children of all ages."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"9AM-12AM\"], \"Saturday\": [\"9AM-12AM\"], \"Sunday\": [\"9AM-8PM\"]}"
+}

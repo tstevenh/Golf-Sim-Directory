@@ -1,0 +1,91 @@
+{
+  "name": "On The Dunes Sports",
+  "address": "2055 Haggerty Rd, Commerce Township, MI 48390",
+  "city": "Commerce Township",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 42.553716,
+  "longitude": -83.440091,
+  "phone": "+12483139713",
+  "website": "http://www.onthedunessports.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770203233/golf_simulators/www_onthedunessports_com_ChIJO7nDRSKlJIgRvQ8OAXXtwjc.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/On+The+Dunes+Sports/@42.5537158,-83.4400914,14z/data=!4m8!1m2!2m1!1sOn+The+Dunes+Sports!3m4!1s0x8824a52245c3b93b:0x37c2ed75010e0fbd!8m2!3d42.5537158!4d-83.4400914",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJO7nDRSKlJIgRvQ8OAXXtwjc",
+  "venue_type": "multi_sport_sim",
+  "about": "On The Dunes Sports is a premier entertainment and sports venue located in Commerce Township, Michigan. The facility offers a mix of indoor and outdoor activities, including golf simulators, axe throwing, football bowling, sand volleyball, and racing simulators, designed for groups, parties, and family fun. Guests can play world-famous golf courses, join leagues, or book events for a unique experience year-round. With a focus on providing a wide variety of sports under one roof, the venue caters to both casual players and serious golfers seeking high-tech simulation experiences.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|family_friendly|group_activities|sports_bar|indoor_outdoor|urban_arena",
+  "vibe_tags": "family_fun_center|sports_bar|modern|community_club",
+  "who_its_for": "families|large_groups|corporate_teams|beginners|juniors_youth",
+  "why_golfers_like_it": [
+    "Access to world-famous golf courses without leaving Metro Detroit",
+    "Premium golf simulator technology for realistic play and practice",
+    "Ideal for both casual rounds and serious practice sessions",
+    "On-site leagues and coaching opportunities",
+    "Convenient indoor facility available year-round"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen service available with a dedicated $10 lunch menu served daily from 11am to 2pm"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available on-site"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "unknown",
+      "notes": "Premium golf simulator technology for realistic course play"
+    }
+  ],
+  "simulator_software": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://onthedunessports.com/reserve/",
+  "pricing_model": "per_person_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|leagues|ada_accessible|wifi|pro_shop|group_activities",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can bring your own clubs or rent equipment on-site. The facility provides all necessary gear for golf simulator play."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drinks are not permitted as the venue has its own full kitchen and bar serving food and beverages."
+    },
+    {
+      "question": "How long does an 18-hole round take?",
+      "answer": "An 18-hole round typically takes 1-2 hours depending on group size and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, On The Dunes Sports is family-friendly with activities suitable for all ages, including kids."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-11PM\"], \"Tuesday\": [\"9AM-11PM\"], \"Wednesday\": [\"9AM-11PM\"], \"Thursday\": [\"9AM-11PM\"], \"Friday\": [\"9AM-12AM\"], \"Saturday\": [\"9AM-12AM\"], \"Sunday\": [\"9AM-10PM\"]}"
+}

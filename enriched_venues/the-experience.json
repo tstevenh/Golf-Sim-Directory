@@ -1,0 +1,85 @@
+{
+  "name": "The Experience",
+  "address": "180 Commerce Dr, Hauppauge, NY 11788",
+  "city": "Hauppauge",
+  "region": "New York",
+  "country": "US",
+  "latitude": 40.811114,
+  "longitude": -73.25781,
+  "phone": "+16316176363",
+  "website": "http://www.theexperiencenyli.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770214912/golf_simulators/www_theexperiencenyli_com_ChIJQXA0EzQw6IkRM6DRTfd48dM.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Experience/@40.8111141,-73.2578097,14z/data=!4m8!1m2!2m1!1sThe+Experience!3m4!1s0x89e8303413347041:0xd3f178f74dd1a033!8m2!3d40.8111141!4d-73.2578097",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJQXA0EzQw6IkRM6DRTfd48dM",
+  "email": "stoni@webgeniuslab.comstoni_2",
+  "venue_type": "multi_sport_sim",
+  "about": "The Experience is a premier indoor venue in Hauppauge, New York, featuring state-of-the-art multi-sport simulators and versatile event spaces. The facility offers a comprehensive golf experience with high-tech simulators designed for accuracy and realism, alongside a full-service restaurant and multiple banquet rooms suitable for gatherings of all sizes. Simulators are available for both individual and group play, with a pricing model based on hourly bay reservations. The venue is tailored for events ranging from corporate functions and private parties to casual practice sessions, providing a blend of sophisticated entertainment and premium technology.",
+  "tags": "food_and_drinks|corporate_events|private_rooms|premium_tech|leagues|multi_sport_sim|kids_friendly|date_night|large_groups",
+  "vibe_tags": "sports_bar|upscale_lounge|family_fun_center",
+  "who_its_for": "families|corporate_teams|large_groups|serious_golfers|solo_practice",
+  "why_golfers_like_it": [
+    "Premier indoor simulators designed for accuracy and realism",
+    "Comprehensive golf experience with 18 holes playable in one hour",
+    "Pro-rated pricing system based on actual time spent on the bay",
+    "Versatile facility suitable for both casual play and serious practice",
+    "Multiple private rooms and event spaces for group outings"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "On-site restaurant Bistro 180 and Sim Alley menu available; full catering and off-site services provided"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "Not explicitly mentioned; BYOB policy not confirmed"
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": "unknown",
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 8,
+  "booking_url": "https://theexperiencenyli.com/book-a-simulator/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 55,
+  "price_range_max_local": 65,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": 3,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues|ada_accessible",
+  "rating_tech_quality": 4.0,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The Experience provides all necessary equipment for simulator use; no need to bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drinks are not mentioned; the venue has an on-site restaurant and catering services available."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "You can complete 18 holes in approximately one hour on the simulators, with the option to extend your time for group play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, The Experience hosts children's events like the SCPD Kids Night Out and offers private spaces suitable for family gatherings."
+    }
+  ],
+  "rating_overall": 4.1,
+  "opening_hours": "{\"Monday\": [\"11AM-9PM\"], \"Tuesday\": [\"11AM-9PM\"], \"Wednesday\": [\"11AM-9PM\"], \"Thursday\": [\"11AM-9PM\"], \"Friday\": [\"11AM-10PM\"], \"Saturday\": [\"10AM-11PM\"], \"Sunday\": [\"10AM-8PM\"]}"
+}

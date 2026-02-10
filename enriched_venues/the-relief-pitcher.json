@@ -1,0 +1,84 @@
+{
+  "name": "The Relief Pitcher",
+  "address": "197 Conklin Ave, Binghamton, NY 13903",
+  "city": "Binghamton",
+  "region": "New York",
+  "country": "US",
+  "latitude": 42.09456,
+  "longitude": -75.898729,
+  "phone": "+16072039998",
+  "website": "https://www.reliefpitcherny.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770249604/golf_simulators/www_reliefpitcherny_com_ChIJz6ZHv4nl2okRSaSin7WHjcA.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Relief+Pitcher/@42.094560099999995,-75.89872869999999,14z/data=!4m8!1m2!2m1!1sThe+Relief+Pitcher!3m4!1s0x89dae589bf47a6cf:0xc08d87b59fa2a449!8m2!3d42.094560099999995!4d-75.89872869999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJz6ZHv4nl2okRSaSin7WHjcA",
+  "venue_type": "sim_bar",
+  "about": "The Relief Pitcher is a sports bar and entertainment venue featuring a state-of-the-art indoor golf simulator. Located in Binghamton, NY, the simulator is housed in a private room, offering a dedicated space for practice and play. Patrons can book sessions by the hour, with options ranging from one to four hours, and enjoy food and beverages from the establishment's menu. The venue caters to both casual players and those looking to improve their game in an indoor environment, with additional amenities including a banquet room for events.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|private_rooms|budget_friendly|date_night|group_friendly|sports_bar",
+  "vibe_tags": "sports_bar|casual|welcoming|modern",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Private room for an uninterrupted golf experience",
+    "State-of-the-art technology for realistic play and practice",
+    "Convenient indoor option for all weather conditions",
+    "Food and drink available on-site",
+    "No room fee for events in the banquet space"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen menu including burgers, wings, quesadillas, pizza, salads, and spiedies"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service, house wine specials, and domestic beer cans"
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 1,
+  "booking_url": "https://www.reliefpitcherny.com/booking-calendar/golf-simulator-session-1-hour",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 30,
+  "price_range_max_local": 120,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|kitchen_food|private_party_room|tv_sports|parking|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify whether club rentals are available. It is recommended to bring your own clubs or contact the venue directly for more information."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, outside food and drinks are not permitted as the venue offers its own full kitchen and bar service."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not provide specific information on the time required to play 18 holes, as session times are booked by the hour."
+    },
+    {
+      "question": "Is the golf simulator kid-friendly?",
+      "answer": "Yes, the venue appears to be kid-friendly, offering a casual sports bar atmosphere and a space that can accommodate families and groups."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"11AM-11PM\"], \"Tuesday\": [\"11AM-11PM\"], \"Wednesday\": [\"11AM-11PM\"], \"Thursday\": [\"11AM-11PM\"], \"Friday\": [\"11AM-1AM\"], \"Saturday\": [\"11AM-1AM\"], \"Sunday\": [\"11AM-1AM\"]}"
+}

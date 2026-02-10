@@ -1,0 +1,89 @@
+{
+  "name": "Buffalo Golf House",
+  "address": "1242 Niagara Falls Blvd, Tonawanda Town, NY 14150",
+  "city": "Tonawanda Town",
+  "region": "New York",
+  "country": "US",
+  "latitude": 42.987842,
+  "longitude": -78.823128,
+  "phone": "+17165756200",
+  "website": "https://www.buffalogolfhouse.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770213351/golf_simulators/www_buffalogolfhouse_com_ChIJ8ymffiFz04kRving7GT7dgs.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Buffalo+Golf+House/@42.987841499999995,-78.823128,14z/data=!4m8!1m2!2m1!1sBuffalo+Golf+House!3m4!1s0x89d373217e9f29f3:0xb76fb64ece029be!8m2!3d42.987841499999995!4d-78.823128",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ8ymffiFz04kRving7GT7dgs",
+  "email": "buffalogolfhouse@gmail.com",
+  "venue_type": "sim_bar",
+  "about": "Buffalo Golf House is a premier indoor golf facility in Tonawanda, NY, offering a high-end golf experience year-round. The venue features five private rooms equipped with Full Swing Golf Pro 2.0 simulators, allowing players to experience over 80 championship courses worldwide. Members enjoy 24/7 access to the facility, discounted simulator rates of $40 per hour, and free unlimited access to the 2,000 sq ft Putt/Chip Green, while non-members pay $55 per hour for simulator time during business hours.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|private_rooms|club_rentals|coaching_available",
+  "vibe_tags": "upscale_lounge|private_luxury|community_club",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "PGA-endorsed Full Swing Pro 2.0 simulator technology with dual tracking for accurate ball flight",
+    "24/7 member access and free unlimited use of the state-of-the-art Putt/Chip Green",
+    "Ability to play on over 80 famous courses like Pebble Beach and Bandon Dunes without traveling"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No kitchen or food service mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Features a 19th Hole Bar & Lounge"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Full Swing",
+      "model": "Pro 2.0",
+      "notes": "PGA Endorsed, Dual Tracking Technology combining infrared with high-speed cameras"
+    }
+  ],
+  "simulator_software": [
+    "Full Swing Pro 2.0"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 5,
+  "booking_url": "https://www.buffalogolfhouse.com/booking1.cfm",
+  "pricing_model": "mixed",
+  "price_range_min_local": 40,
+  "price_range_max_local": 55,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 5,
+  "max_group_size_per_bay": 8,
+  "amenities_list": "club_rentals|private_party_room|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You are encouraged to bring your own clubs for the best experience, though club rentals are available for $10 per set."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "The venue has a 19th Hole Bar & Lounge, but bringing outside food and drink is not mentioned."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Solo Player: Approximately 1 hour. Two Players: Between 1.5 to 2 hours. Four Players: Around 3 to 3.5 hours."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Not specified; the facility appears geared toward adults and serious golfers."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"3-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-11PM\"], \"Saturday\": [\"9AM-11PM\"], \"Sunday\": [\"9AM-9PM\"]}"
+}

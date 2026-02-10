@@ -1,0 +1,91 @@
+{
+  "name": "Pin High Golf NW",
+  "address": "4919 Parker Rd E, Sumner, WA 98390",
+  "city": "Sumner",
+  "region": "Washington",
+  "country": "US",
+  "latitude": 47.21221,
+  "longitude": -122.220117,
+  "phone": "+12535183400",
+  "website": "http://www.pinhighgolfnw.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770219849/golf_simulators/www_pinhighgolfnw_com_ChIJe8riWsX7kFQRzPE2L7znRlw.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Pin+High+Golf+NW/@47.2122095,-122.2201166,14z/data=!4m8!1m2!2m1!1sPin+High+Golf+NW!3m4!1s0x5490fbc55ae2ca7b:0x5c46e7bc2f36f1cc!8m2!3d47.2122095!4d-122.2201166",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJe8riWsX7kFQRzPE2L7znRlw",
+  "email": "info@pinhighgolfnw.com",
+  "venue_type": "private_rental",
+  "about": "Pin High Golf NW is a mobile golf simulator rental service based in Sumner, WA, bringing the game directly to customers' homes, businesses, or events. The service utilizes Foresight Sports' GC3 launch monitors with GSPro and FSX Play software, offering access to over 400 courses and games for both indoor and outdoor setups. Mobile units can be set up in various weather conditions with options for tents to ensure playability year-round in Western Washington.",
+  "tags": "mobile_service|beginner_friendly|corporate_events|food_and_drinks|kids_friendly|premium_tech|BYOB|outdoor_events|private_rentals|practice_sessions",
+  "vibe_tags": "family_fun_center|private_luxury|tech_lab|casual|welcoming",
+  "who_its_for": "families|large_groups|corporate_teams|beginners|solo_practice",
+  "why_golfers_like_it": [
+    "Convenience of mobile delivery to any location",
+    "Same professional-grade Foresight technology as brick-and-mortar sim locations",
+    "Weather-proof options with tents for year-round play",
+    "Setup and included with rental, requiring no customer effort"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "Customers can provide their own food and drinks"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "BYOB allowed - customers can provide their own alcoholic beverages"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": "GC3",
+      "notes": "Launch monitor included with all rentals"
+    }
+  ],
+  "simulator_software": [
+    "GSPro",
+    "FSX Play"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.pinhighgolfnw.com/get-a-quote",
+  "pricing_model": "package",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|BYOK|outdoor_setup|weather_proof|staffed_or_self_operated|delivery_service",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, rental clubs are available as an additional service. Customers can also use their own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, BYOB (Bring Your Own Beverages) and food are allowed, making it a cost-effective option for events."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Generally, groups of 4 players can complete 18 holes on a par 72 course in about 2.5 hours. Larger groups can play in teams like a Scramble to speed up play."
+    },
+    {
+      "question": "Is the service kid-friendly?",
+      "answer": "Yes, the simulators feature Foresight Fairgrounds, a carnival-style game mode with 7 different games like 'putt-skee' or 'darts' that are especially fun for kids."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"9AM-7PM\"], \"Tuesday\": [\"9AM-7PM\"], \"Wednesday\": [\"9AM-7PM\"], \"Thursday\": [\"9AM-7PM\"], \"Friday\": [\"9AM-7PM\"], \"Saturday\": [\"9AM-7PM\"], \"Sunday\": [\"9AM-7PM\"]}"
+}

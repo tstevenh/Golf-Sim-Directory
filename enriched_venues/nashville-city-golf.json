@@ -1,0 +1,91 @@
+{
+  "name": "Nashville City Golf",
+  "address": "200 2nd Ave S, Nashville, TN 37201",
+  "city": "Nashville",
+  "region": "Tennessee",
+  "country": "US",
+  "latitude": 36.1598,
+  "longitude": -86.773647,
+  "phone": "+16159273538",
+  "website": "https://www.nashvillecitygolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770211935/golf_simulators/www_nashvillecitygolf_com_ChIJtz7xX0hnZIgR2snAXuoypy8.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Nashville+City+Golf/@36.1598001,-86.77364709999999,14z/data=!4m8!1m2!2m1!1sNashville+City+Golf!3m4!1s0x886467485ff13eb7:0x2fa732ea5ec0c9da!8m2!3d36.1598001!4d-86.77364709999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJtz7xX0hnZIgR2snAXuoypy8",
+  "email": "cooper@nashvillecitygolf.com",
+  "venue_type": "sim_bar|training_studio|private_rental|retail_fitting_center|country_club|multi_sport_sim|hotel_resort|other",
+  "about": "Nashville City Golf is a premier indoor golf simulator facility located in the heart of downtown Nashville. The venue utilizes state-of-the-art Trackman iO simulators to provide access to over 450 real-world courses, allowing golfers of all skill levels to practice and play year-round. The facility is designed for both individual practice and group entertainment, offering a customizable experience with an adjustable swing stage and an indoor putting green. It is situated inside the Nashville City Club and adjacent to the Four Seasons Hotel, positioning it as a high-end destination for golfers and non-golfers alike. The venue also operates a fleet of mobile golf simulators, bringing professional-level simulation to various events and locations such as corporate outings, private parties, and weddings. A key feature is the presence of PGA-affiliated instruction available for those looking to improve their game, with specific lessons offered by instructor Bren Rooker. The atmosphere combines upscale lounge elements with a focus on technology and data analysis to help golfers refine their skills. Pricing appears to be flexible, with options for both hourly booking and membership plans to suit different usage needs.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|premium_tech|coaching_available|club_rentals|upscale_lounge",
+  "vibe_tags": "upscale_lounge|tech_lab|modern|private_luxury",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|tourists_travelers",
+  "why_golfers_like_it": [
+    "Access to over 450 real-world golf courses on premium Trackman iO simulators",
+    "Convenient downtown location inside the Nashville City Club near the Four Seasons",
+    "Comprehensive practice amenities including an adjustable swing stage and dedicated indoor putting green",
+    "Availability of professional PGA instruction for skill improvement",
+    "Option to rent mobile simulators for bringing the golf experience to any event"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Available, with an upscale lounge and kitchen on-site serving food and refreshments"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Available, as the venue offers an upscale lounge with a full bar"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "State-of-the-art simulator offering performance tracking and access to 450+ courses"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.nashvillecitygolf.com/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.5,
+  "rating_value_for_money": 4.2,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "While you can bring your own clubs, the venue is a partner with major club brands including Ping, Mizuno, Srixon, Cleveland, and Cobra, and likely offers club rentals or demo clubs for use."
+    },
+    {
+      "question": "Can I bring my own food or drink?",
+      "answer": "The venue has an upscale lounge and kitchen that serves food and drinks, making external food or drink unnecessary and likely not permitted."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Playing 18 holes typically takes about 2-3 hours depending on your pace, the number of people in your bay, and whether you are taking lessons or just playing casually."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is kid-friendly, welcoming golfers of all skill levels and ages, including families. It offers an environment suitable for beginners and younger players."
+    }
+  ],
+  "rating_overall": 4.5,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"11AM-9PM\"], \"Wednesday\": [\"11AM-9PM\"], \"Thursday\": [\"11AM-9PM\"], \"Friday\": [\"11AM-9PM\"], \"Saturday\": [\"11AM-9PM\"], \"Sunday\": [\"10AM-5PM\"]}"
+}

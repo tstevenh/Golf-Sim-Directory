@@ -1,0 +1,87 @@
+{
+  "name": "South Metro Indoor Golf Club",
+  "address": "1353 Larc Industrial Blvd, Burnsville, MN 55337",
+  "city": "Burnsville",
+  "region": "Minnesota",
+  "country": "US",
+  "latitude": 44.787194,
+  "longitude": -93.254358,
+  "phone": "+16122962815",
+  "website": "https://www.southmetroindoorgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770199034/golf_simulators/www_southmetroindoorgolf_com_ChIJmQX57I4x9ocR78lD_UyrgPU.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/South+Metro+Indoor+Golf+Club/@44.7871941,-93.254358,14z/data=!4m8!1m2!2m1!1sSouth+Metro+Indoor+Golf+Club!3m4!1s0x87f6318eecf90599:0xf580ab4cfd43c9ef!8m2!3d44.7871941!4d-93.254358",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJmQX57I4x9ocR78lD_UyrgPU",
+  "venue_type": "training_studio",
+  "about": "South Metro Indoor Golf Club is a dedicated indoor golf training facility located in Burnsville, Minnesota, designed to provide a year-round golfing experience. The venue utilizes Trackman simulator technology across two bays, offering advanced performance analytics and access to world-famous courses, making it suitable for serious practice and play. Pricing is structured with a monthly membership option at $42 or hourly rentals at $48, catering to both regulars and one-time visitors looking for a high-quality simulation experience.",
+  "tags": "serious_practice|premium_tech|beginner_friendly|corporate_events|coaching_available",
+  "vibe_tags": "industrial_training|tech_lab",
+  "who_its_for": "serious_golfers|beginners|corporate_teams|solo_practice|coaches_instructors",
+  "why_golfers_like_it": [
+    "Trackman technology used by over 800 tour pros",
+    "State-of-the-art software with famous global courses",
+    "Top-tier turf that mimics real grass",
+    "Flexible booking options including walk-ins"
+  ],
+  "kid_friendly": false,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No on-site food service mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned; BYOB status unclear"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "2 simulator bays powered by Trackman performance technology"
+    }
+  ],
+  "simulator_software": "Trackman",
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://clients.mindbodyonline.com/ASP/main_appts.asp",
+  "pricing_model": "mixed",
+  "price_range_min_local": 42,
+  "price_range_max_local": 48,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": false,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|tv_sports",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need clubs?",
+      "answer": "Players must bring their own clubs as none are provided."
+    },
+    {
+      "question": "Can I bring food or drink?",
+      "answer": "No information is provided on outside food or drink policies."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Time for 18 holes is not specified, but hourly rentals are available."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "No specific information regarding child-friendly policies or activities."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-10PM\"], \"Saturday\": [\"8AM-7PM\"], \"Sunday\": [\"9AM-9PM\"]}"
+}

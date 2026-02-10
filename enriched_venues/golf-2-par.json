@@ -1,0 +1,85 @@
+{
+  "name": "Golf 2 Par",
+  "address": "1605 N Main St, Cleburne, TX 76033",
+  "city": "Cleburne",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 32.367673,
+  "longitude": -97.396022,
+  "phone": "+16823171137",
+  "website": "https://golf2par.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770210747/golf_simulators/golf2par_com_ChIJowOlMRRHToYRF0XyH8v5i6k.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Golf+2+Par/@32.367672999999996,-97.3960221,14z/data=!4m8!1m2!2m1!1sGolf+2+Par!3m4!1s0x864e471431a503a3:0xa98bf9cb1ff24517!8m2!3d32.367672999999996!4d-97.3960221",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJowOlMRRHToYRF0XyH8v5i6k",
+  "email": "Golf2par@yahoo.com",
+  "venue_type": "sim_bar",
+  "about": "Golf 2 Par is an indoor golf simulator venue located in Cleburne, Texas. The facility operates 6 bays, 2 of which are private, and offers access to over 1,800 virtual golf courses. It is designed for both focused practice and social gatherings, with features including TPI-certified instruction and a full bar and kitchen. The venue provides flexible pricing for open bays and private rooms, along with multi-tiered membership options for regular players.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|private_rooms|club_rentals|family_fun_center|coaching_available",
+  "vibe_tags": "casual|welcoming|modern|sports_bar",
+  "who_its_for": "families|large_groups|corporate_teams|beginners|solo_practice",
+  "why_golfers_like_it": [
+    "Year-round golf with no weather concerns",
+    "High-tech simulation with access to 1,800+ courses",
+    "Flexible private bays for groups of 6-8 players",
+    "On-site TPI-certified instruction",
+    "Social atmosphere with a full bar and food menu"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen with pizza, paninis, sliders, nachos, hot dogs, and corndogs"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar serving domestic and import beer, cocktails, and wine"
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 6,
+  "booking_url": "https://fox.tenfore.golf/Golf2Par",
+  "pricing_model": "mixed",
+  "price_range_min_local": 50,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 8,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.0,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, the venue provides all necessary golf equipment and allows members to use their own clubs if preferred."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No outside food or drinks are permitted. The venue offers a full kitchen and bar with a variety of food and beverage options for purchase."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Playing 18 holes typically takes about 1-2 hours depending on the group size and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue welcomes families and is a suitable environment for children, with private bays available for group events."
+    }
+  ],
+  "rating_overall": 4.0,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-12AM\"], \"Saturday\": [\"10AM-12AM\"], \"Sunday\": [\"8AM-8PM\"]}"
+}

@@ -1,0 +1,91 @@
+{
+  "name": "Avid Caddie Golf Lounge",
+  "address": "9556 Park Meadows Dr #400, Lone Tree, CO 80124",
+  "city": "Lone Tree",
+  "region": "Colorado",
+  "country": "US",
+  "latitude": 39.552398,
+  "longitude": -104.878502,
+  "phone": "+13033763745",
+  "website": "https://www.avidcaddie.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770221567/golf_simulators/www_avidcaddie_com_ChIJG3ddl_GFbIcRSB_li9S2IOo.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Avid+Caddie+Golf+Lounge/@39.5523982,-104.8785025,14z/data=!4m8!1m2!2m1!1sAvid+Caddie+Golf+Lounge!3m4!1s0x876c85f1975d771b:0xea20b6d48be51f48!8m2!3d39.5523982!4d-104.8785025",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJG3ddl_GFbIcRSB_li9S2IOo",
+  "email": "contact@avidcaddie.com",
+  "venue_type": "sim_bar",
+  "about": "Avid Caddie Golf Lounge is a members-only indoor golf club that provides year-round access to golf through championship-level simulators. The facility operates as a community hub for golfers, offering leagues, tournaments, and expert instruction to improve players' games. With a focus on convenience and competition, the venue is designed for golfers who want to maintain and sharpen their skills regardless of weather or scheduling conflicts. Membership starts at $99 per month, with a complimentary first-hour trial available for new members to experience the technology and environment.",
+  "tags": "serious_golfers|corporate_events|leagues|coaching_available|food_and_drinks|premium_tech|community_club|upscale_lounge",
+  "vibe_tags": "upscale_lounge|community_club|modern",
+  "who_its_for": "serious_golfers|corporate_teams|solo_practice|low_handicap|coaches_instructors",
+  "why_golfers_like_it": [
+    "24/7 access to championship-level simulators",
+    "Competitive leagues and year-round tournaments",
+    "Expert instruction and personalized coaching sessions",
+    "Realistic virtual play on 240+ elite courses worldwide",
+    "Spacious and exclusive members-only environment"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No on-site kitchen mentioned; BYOB policy not explicitly stated."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned; BYOB policy not explicitly stated."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Golfzon",
+      "model": "TwoVision",
+      "notes": "Award-winning technology with ultra-realistic ball tracking and HD swing playback."
+    }
+  ],
+  "simulator_software": [
+    "Golfzon Global App"
+  ],
+  "launch_monitor_type": "radar|photometric_camera|hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://links.avidcaddie.com/widget/bookings/free-bay-hour?ref=FBH_Web_Hero1",
+  "pricing_model": "membership_only",
+  "price_range_min_local": 99,
+  "price_range_max_local": 99,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|private_party_room|wifi|pro_shop|club_fitting|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "Yes, members are expected to bring their own golf clubs to use with the simulators."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue does not offer an on-site kitchen or bar; policy on outside food and drinks is not explicitly mentioned."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Play 18 holes in under 1 hour with the '18 Under One' feature, designed for players with limited time."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "No specific information regarding kid-friendly features or events is provided; focus is on adult golfers and community."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"6AM-12AM\"], \"Tuesday\": [\"6AM-12AM\"], \"Wednesday\": [\"6AM-12AM\"], \"Thursday\": [\"6AM-12AM\"], \"Friday\": [\"6AM-12AM\"], \"Saturday\": [\"6AM-12AM\"], \"Sunday\": [\"6AM-12AM\"]}"
+}

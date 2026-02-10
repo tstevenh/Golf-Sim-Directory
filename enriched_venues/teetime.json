@@ -1,0 +1,93 @@
+{
+  "name": "TeeTime",
+  "address": "520 E Broadway St Old, Webb City, MO 64870",
+  "city": "Webb City",
+  "region": "Missouri",
+  "country": "US",
+  "latitude": 37.146914,
+  "longitude": -94.457683,
+  "phone": "+14173923338",
+  "website": "https://www.playteetime.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770237486/golf_simulators/www_playteetime_com_ChIJ5_gzJix_yIcRwiPR71tVpa4.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/TeeTime/@37.1469142,-94.4576833,14z/data=!4m8!1m2!2m1!1sTeeTime!3m4!1s0x87c87f2c2633f8e7:0xaea5555befd123c2!8m2!3d37.1469142!4d-94.4576833",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ5_gzJix_yIcRwiPR71tVpa4",
+  "email": "Contact@swmobbbs.org",
+  "venue_type": "sim_bar",
+  "about": "TeeTime is a climate-controlled driving range and outdoor pickleball facility in Webb City, MO, that also functions as a full-service sports bar and restaurant. It features 19 bays equipped with TopTracer technology, a system that allows players to track their shot distance, height, and ball speed. The venue offers a range of activities including golf, pickleball, and yard games like cornhole, with amenities such as indoor and outdoor dining and large TVs for game days. Pricing is structured per person or per bay, with a one-time lifetime registration fee required for all users.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|leagues|kids_friendly|party_atmosphere|community_club",
+  "vibe_tags": "sports_bar|family_fun_center|tech_lab|welcoming",
+  "who_its_for": "beginners|families|corporate_teams|tourists_travelers|juniors_youth",
+  "why_golfers_like_it": [
+    "Climate-controlled bays allow for play in any weather",
+    "TopTracer technology provides detailed shot data and virtual golf games",
+    "Convenient location on historic Route 66 in the Joplin region",
+    "All-in-one venue offering golf, dining, and other entertainment options"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full bar menu with bites and shareables available"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "TopTracer",
+      "model": "Unknown",
+      "notes": "The driving range is powered by TopTracer, the leader in ball tracking technology"
+    }
+  ],
+  "simulator_so": [
+    "TopTracer Range"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 19,
+  "booking_url": "https://tables.toasttab.com/restaurants/4bd8b7d7-c943-4fdb-bc1d-ce8d036d0467/findTime",
+  "pricing_model": "mixed",
+  "price_range_min_local": 12,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 8,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|wifi|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, you can bring your own clubs if you have them. Clubs are also available in all bays, including left and right-handed options for men, women, and juniors."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, outside food and drinks are not allowed. The venue offers a full bar and restaurant for guests."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "This information is not provided in the content."
+    },
+    {
+      "question": "Is TeeTime kid-friendly?",
+      "answer": "Yes, TeeTime is kid-friendly. Each bay is equipped with junior clubs for kids under 13, and the venue welcomes families."
+    }
+  ],
+  "simulator_software": [
+    "TopTracer"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"4-9PM\"], \"Tuesday\": [\"4-9PM\"], \"Wednesday\": [\"4-9PM\"], \"Thursday\": [\"4-9PM\"], \"Friday\": [\"11AM-11PM\"], \"Saturday\": [\"11AM-11PM\"], \"Sunday\": [\"11AM-11PM\"]}"
+}

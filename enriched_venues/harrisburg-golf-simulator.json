@@ -1,0 +1,92 @@
+{
+  "name": "Harrisburg Golf Simulator",
+  "address": "7011 Allentown Blvd Suite 1 Floor 2, Harrisburg, PA 17112",
+  "city": "Harrisburg",
+  "region": "Pennsylvania",
+  "country": "US",
+  "latitude": 40.329548,
+  "longitude": -76.754547,
+  "phone": "+17176954364",
+  "website": "http://www.hbggolfsimulator.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770200988/golf_simulators/www_hbggolfsimulator_com_ChIJLYJ48ry5yIkRUqpv-fKEAeA.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Harrisburg+Golf+Simulator/@40.3295478,-76.7545471,14z/data=!4m8!1m2!2m1!1sHarrisburg+Golf+Simulator!3m4!1s0x89c8b9bcf278822d:0xe00184f2f96faa52!8m2!3d40.3295478!4d-76.7545471",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJLYJ48ry5yIkRUqpv-fKEAeA",
+  "email": "hbggolfsimulator@gmail.com",
+  "venue_type": "sim_bar",
+  "about": "Harrisburg Golf Simulator offers two private Full Swing Simulator rooms for hourly bookings. The venue is equipped with premium Full Swing Simulators featuring high-speed overhead cameras and radar fields for accurate shot tracking. Each room is private and customizable with TV controls, music, and a mini fridge. Pricing is straightforward at $40 per hour with availability 24/7. The Main Room can accommodate small group parties and offers additional sports activities. The facility provides a convenient, realistic golfing experience without travel between shots.",
+  "tags": "private_rooms|food_and_drinks|corporate_events|parties|date_night|beginner_friendly|premium_tech|late_night|budget_friendly",
+  "vibe_tags": "private_luxury|sports_bar|tech_lab|upscale_lounge",
+  "who_its_for": "solo_practice|families|corporate_teams|beginners|serious_golfers",
+  "why_golfers_like_it": [
+    "Premium Full Swing Simulators with accurate shot tracking",
+    "Private rooms with customizable atmosphere and amenities",
+    "24/7 availability and flexible booking system",
+    "No wasted time between shots due to simulator setup",
+    "Option to host parties or events with sports activities"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "BYOB allowed; mini fridge available in rooms"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "BYOB allowed; venue has a bar"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Full Swing",
+      "model": "Pro Series",
+      "notes": "High-speed overhead camera with radar fields in walls, ceiling and floor"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://www.hbggolfsimulator.com/onlineboooking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 40,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|private_party_room|wifi|tv_sports|minifridge",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, golfers must bring their own clubs to use the simulators."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, the venue allows BYOB (Bring Your Own Beverages) and has a mini fridge available in each room. Food can be brought in for parties."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The simulator setup allows for efficient play without wasted time between shots, but specific 18-hole time is not provided on the website."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is kid-friendly and can accommodate families. Private rooms can be customized for various group needs including children's parties."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

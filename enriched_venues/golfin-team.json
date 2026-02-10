@@ -1,0 +1,91 @@
+{
+  "name": "GolfIN Team",
+  "address": "31045 Temecula Pkwy b103, Temecula, CA 92592",
+  "city": "Temecula",
+  "region": "California",
+  "country": "US",
+  "latitude": 33.474854,
+  "longitude": -117.122066,
+  "phone": "+18604002431",
+  "website": "http://www.golfinteam.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770244989/golf_simulators/www_golfinteam_com_ChIJJeK91-J_24ARsVtTjAKGWzQ.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/GolfIN+Team/@33.4748535,-117.12206549999999,14z/data=!4m8!1m2!2m1!1sGolfIN+Team!3m4!1s0x80db7fe2d7bde225:0x345b86028c535bb1!8m2!3d33.4748535!4d-117.12206549999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJJeK91-J_24ARsVtTjAKGWzQ",
+  "email": "brandon.oh@pga.com",
+  "venue_type": "training_studio",
+  "about": "GolfIN Team is an indoor golf training facility specializing in data-driven instruction using TrackMan technology. The venue offers a range of programs including private lessons, group coaching, and club fitting services. It caters to golfers of all skill levels, from beginners to advanced players, with a focus on using precise swing data to improve performance. The facility emphasizes a professional learning environment with PGA-certified instructors and provides both TrackMan-enabled practice and traditional golf lessons.",
+  "tags": "beginner_friendly|serious_practice|juniors_youth|coaching_available|premium_tech|club_rentals|family_friendly",
+  "vibe_tags": "industrial_training|tech_lab|welcoming",
+  "who_its_for": "beginners|serious_golfers|families|juniors_youth|coaches_instructors",
+  "why_golfers_like_it": [
+    "Advanced TrackMan technology provides precise swing data for real improvement",
+    "Complimentary 15-minute pre-session for new golfers",
+    "Small group lessons with a 4-1 coach-to-junior ratio",
+    "Official TaylorMade dealer with waived fitting fees and discounts",
+    "Family-oriented environment with junior programs available"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Primary technology used for lessons and practice sessions"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://www.golfinteam.com/booknow",
+  "pricing_model": "package",
+  "price_range_min_local": 59,
+  "price_range_max_local": 499,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|club_fitting|wifi",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can bring your own clubs, or they have right-handed clubs available for use."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No food or drink service is mentioned, so outside food and drinks are likely not permitted."
+    },
+    {
+      "question": "How long does an 18-hole simulation take?",
+      "answer": "TrackMan tournaments (simulated rounds) are 60 minutes in duration."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, they offer junior programs with a 4-1 coach-to-junior ratio and family-oriented services."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"Closed\"], \"Wednesday\": [\"9:30AM-7:30PM\"], \"Thursday\": [\"9:30AM-7:30PM\"], \"Friday\": [\"9:30AM-7:30PM\"], \"Saturday\": [\"9AM-6PM\"], \"Sunday\": [\"9AM-6PM\"]}"
+}

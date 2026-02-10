@@ -1,0 +1,92 @@
+{
+  "name": "Home Course Indoor Country Club - Elmhurst",
+  "address": "107 E Vallette St, Elmhurst, IL 60126",
+  "city": "Elmhurst",
+  "region": "Illinois",
+  "country": "US",
+  "latitude": 41.883683,
+  "longitude": -87.939435,
+  "phone": "+16305928484",
+  "website": "http://www.homecourse.golf/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770199547/golf_simulators/www_homecourse_golf_ChIJV14I4CBNDogRtc_iVEzkD_s.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Home+Course+Indoor+Country+Club+-+Elmhurst/@41.8836832,-87.9394353,14z/data=!4m8!1m2!2m1!1sHome+Course+Indoor+Country+Club+-+Elmhurst!3m4!1s0x880e4d20e0085e57:0xfb0fe44c54e2cfb5!8m2!3d41.8836832!4d-87.9394353",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJV14I4CBNDogRtc_iVEzkD_s",
+  "email": "info@homecourse.golf",
+  "venue_type": "country_club",
+  "about": "Home Course Indoor Country Club is a members-only indoor golf experience in Elmhurst. The venue utilizes Trackman technology to provide an advanced golf simulation environment. Membership is required to access the facilities, which offer 24/7 access and include full guest privileges. The club offers three membership tiers with varying benefits, all of which provide unlimited golf rounds and access to over 400 digital courses. The Elmhurst location is currently expanding with plans to add capacity for new members in mid-January, with future locations planned for Hinsdale, Glen Ellyn, and Downers Grove.",
+  "tags": "serious_golfers|corporate_events|premium_tech|club_rentals|coaching_available|leagues|community_club|beginner_friendly",
+  "vibe_tags": "private_luxury|tech_lab|community_club|modern",
+  "who_its_for": "serious_golfers|corporate_teams|families|coaches_instructors|solo_practice",
+  "why_golfers_like_it": [
+    "Access to professional-grade Trackman technology for accurate shot tracking and analysis",
+    "Unlimited play with no restrictions on the number of rounds per month or year",
+    "24/7 facility access with personal keycards for ultimate convenience",
+    "Low membership count per simulator bay (35) ensures availability for last-minute sessions",
+    "Personal Trackman login allows for data continuity across different Trackman-enabled venues"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Members can bring guests and are responsible for their conduct. It is noted that members can have their guest sign a waiver, implying a casual policy on outside food and drink."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service is found on the website."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "The venue is powered by Trackman 4, which is explicitly mentioned as the technology trusted by pros."
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 12,
+  "booking_url": "https://homecourse.golf/book-a-session/",
+  "pricing_model": "membership_only",
+  "price_range_min_local": 16667,
+  "price_range_max_local": 25000,
+  "currency": "USD",
+  "walk_ins_allowed": "false",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|club_fitting|wifi|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "The website does not explicitly mention bringing your own clubs. It mentions club fitting, implying that members may use their own clubs or have them fitted at the facility."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "All membership levels come with free guest privileges, and members are responsible for their guests' conduct. It is the responsibility of the member to have their guest sign a waiver, suggesting an informal policy allowing guests to bring food and drink."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not provide a specific time estimate for playing 18 holes. However, it does state that sessions are 1-hour long and members can book back-to-back sessions to create longer blocks of time for practice or a round with friends."
+    },
+    {
+      "question": "Is it kid-friendly?",
+      "answer": "Yes, the venue is kid-friendly. Members can bring friends or family to every session at no extra charge, and the unlimited rounds policy makes it suitable for all ages. The different membership levels cater to families with varying needs."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

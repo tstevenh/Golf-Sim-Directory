@@ -1,0 +1,90 @@
+{
+  "name": "Birdies Mini Golf & Simulators",
+  "address": "107 Pleasant Ave, Upper Saddle River, NJ 07458",
+  "city": "Upper Saddle River",
+  "region": "New Jersey",
+  "country": "US",
+  "latitude": 41.051108,
+  "longitude": -74.117408,
+  "phone": "+12016273368",
+  "website": "https://birdiesgolfnj.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770205681/golf_simulators/birdiesgolfnj_com_ChIJX469nFDnwokRDgZNHvnK5k0.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Birdies+Mini+Golf+%26+Simulators/@41.051107599999995,-74.1174077,14z/data=!4m8!1m2!2m1!1sBirdies+Mini+Golf+%26+Simulators!3m4!1s0x89c2e7509cbd8e5f:0x4de6caf91e4d060e!8m2!3d41.051107599999995!4d-74.1174077",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJX469nFDnwokRDgZNHvnK5k0",
+  "email": "info@birdiesgolfnj.com",
+  "venue_type": "multi_sport_sim",
+  "about": "Birdies Mini Golf & Simulators is an indoor golf venue in Upper Saddle River, NJ, featuring an 18-hole putting course and seven state-of-the-art golf simulators. The facility offers a spacious, family-friendly environment suitable for both seasoned pros and beginners. Utilizing Uneekor launch monitors and GSPro simulators, the venue provides a premier golfing experience with accurate data capture. Birdies caters to various needs, from individual practice and group bookings to league play and parties, with amenities designed for comfort and engagement. The second floor features multi-sport loft simulators for activities beyond golf, such as baseball and soccer.",
+  "tags": "beginner_friendly|food_and_drinks|kids_friendly|corporate_events|leagues|premium_tech|private_rooms|club_rentals|coaching_available|multi_sport",
+  "vibe_tags": "family_fun_center|tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "Premium Uneekor launch monitors and GSPro simulators provide highly accurate ball and club data",
+    "State-of-the-art multi-sport loft simulators on the second floor allow golf and other sports activities",
+    "Spacious, family-friendly environment is welcoming to all skill levels and group sizes",
+    "Competitive leagues and events provide opportunities for social and skill-based play"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Customers are permitted to bring their own food for parties and events"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol is mentioned as being available or served on-site"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "launch monitor",
+      "notes": "Provides accurate data for every swing with precision"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "infrared_optical",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "mixed",
+  "lefty_friendly": true,
+  "bay_count_total": 7,
+  "booking_url": "https://www.birdiesgolfnj.com/book-online",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": null,
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 8,
+  "amenities_list": "club_rentals|private_party_room|wifi|pro_shop|leagues|multi_sport",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "While you can bring your own clubs, the venue provides all necessary equipment for using the simulators and putting course."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, you are permitted to bring food. No food or beverage is allowed within the hitting area of the simulators."
+    },
+    {
+      "question": "How long does it take to play 18 holes on the simulator?",
+      "answer": "The time required to play 18 simulator holes is not specified but is offered in 1, 2, 3, and 4-hour booking increments."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Birdies Mini Golf & Simulators is designed as a family-friendly environment that welcomes golfers of all ages and skill levels."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-11PM\"], \"Saturday\": [\"9AM-11PM\"], \"Sunday\": [\"9AM-7PM\"]}"
+}

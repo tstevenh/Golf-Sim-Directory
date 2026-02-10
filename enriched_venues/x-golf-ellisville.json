@@ -1,0 +1,89 @@
+{
+  "name": "X-Golf Ellisville",
+  "address": "15382 Manchester Rd, Ellisville, MO 63011",
+  "city": "Ellisville",
+  "region": "Missouri",
+  "country": "US",
+  "latitude": 38.592364,
+  "longitude": -90.561815,
+  "phone": "+16362202323",
+  "website": "http://www.xgolfellisville.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770201631/golf_simulators/www_xgolfellisville_com_ChIJ43DkSEvU2IcRuFwRDu0sChk.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/X-Golf+Ellisville/@38.5923641,-90.56181529999999,14z/data=!4m8!1m2!2m1!1sX-Golf+Ellisville!3m4!1s0x87d8d44b48e470e3:0x190a2ced0e115cb8!8m2!3d38.5923641!4d-90.56181529999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ43DkSEvU2IcRuFwRDu0sChk",
+  "email": "info@xgolfstl.com",
+  "venue_type": "sim_bar",
+  "about": "X-Golf Ellisville is an indoor golf venue utilizing state-of-the-art simulator technology to provide players with unparalleled accuracy and realism. Their system combines camera systems, infrared lasers, impact sensors, and advanced gaming software to replicate the golf experience. The dedicated golf bays offer virtual reality gaming, food & beverage options, competitions, lessons, and facilities for private parties and corporate events. The venue is designed for both casual play and serious practice, featuring a unique X-Ball system that automatically retrieves and tees up the ball for each player.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|leagues|coaching_available|premium_tech",
+  "vibe_tags": "sports_bar|family_fun_center|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "98% accuracy in tracking ball and swing data using laser, light, impact, and camera technologies",
+    "Convenient X-Ball system automatically collects balls and sets tee height for a seamless experience",
+    "Combines advanced golf simulation with food, beverage, and social events for a complete experience"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen and food service available with a menu accessible on the website."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available for on-site consumption."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "X-Golf",
+      "model": "X-Golf Simulator",
+      "notes": "In-house system utilizing a combination of camera systems, infrared lasers, and impact sensors."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "auto_putt|gimme_circle",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://XGolfSTL.as.me/xgolfellisville",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "food_and_drinks|private_party_room|leagues|coaching_available",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, players are expected to bring their own golf clubs to use with the simulators."
+    },
+    {
+      "question": "Can I bring my own food or drink?",
+      "answer": "No, the venue offers its own full kitchen and bar services. Outside food and drink are not permitted."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "While the specific time is not mentioned, a typical simulator round of 18 holes generally takes between 2 and 2.5 hours depending on group size and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is kid-friendly. It offers a Junior League program and is designed to accommodate families with various activities and events."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-12AM\"], \"Saturday\": [\"9AM-12AM\"], \"Sunday\": [\"9AM-8PM\"]}"
+}

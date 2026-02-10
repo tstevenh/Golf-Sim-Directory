@@ -1,0 +1,91 @@
+{
+  "name": "Five Iron Golf",
+  "address": "108 N State St Unit 200, Chicago, IL 60602",
+  "city": "Chicago",
+  "region": "Illinois",
+  "country": "US",
+  "latitude": 41.884317,
+  "longitude": -87.62916,
+  "phone": "+18005135153",
+  "website": "https://fiveirongolf.com/locations/chicago-the-loop/%3Futm_source%3Dlocal%26utm_medium%3Dorganic%26utm_campaign%3Dil%26utm_content%3Dchicago-loop",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770199450/golf_simulators/fiveirongolf_com_ChIJoXBg1w4tDogRkmHiOQY-uBc.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Five+Iron+Golf/@41.8843168,-87.62915989999999,14z/data=!4m8!1m2!2m1!1sFive+Iron+Golf!3m4!1s0x880e2d0ed76070a1:0x17b83e0639e26192!8m2!3d41.8843168!4d-87.62915989999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJoXBg1w4tDogRkmHiOQY-uBc",
+  "email": "theloop@fiveirongolf.com",
+  "venue_type": "sim_bar|multi_sport_sim",
+  "about": "Five Iron Golf - The Loop is a high-tech indoor golf venue located in Chicago's central business district. It features state-of-the-art Trackman simulator bays, allowing golfers to play on over 200 virtual courses, including PGA Tour venues like Pebble Beach. The venue combines a driving range, clubhouse, and sports bar under one roof, offering a casual, no-dress-code atmosphere with a full-service bar and chef-inspired menu. It caters to a range of activities, from individual practice and lessons to corporate events, leagues, and social gatherings. Memberships are available that provide free play, discounts on food and other services, and a complimentary swing evaluation to kickstart improvement.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|private_rooms|club_rentals|coaching_available|kids_friendly",
+  "vibe_tags": "casual|welcoming|modern|sports_bar|party_atmosphere",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "Premium Trackman technology provides detailed swing and ball flight data for accurate practice and improvement",
+    "Convenient downtown location near Millennium Park and the Chicago Theatre",
+    "Full-service bar and kitchen with chef-inspired menu enhance the experience for both play and social events",
+    "Membership offers significant value with free play and discounts on food, drinks, and instruction",
+    "Ability to host or participate in various events, from birthday parties to corporate outings"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen with chef-inspired menu including items like boneless wings, pizza, and other appetizers."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full-service bar with drink packages available."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "dual-radar",
+      "notes": "Industry-leading dual-radar Trackman technology provides accurate data on ball flight, spin rate, and club path."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://booking.fiveirongolf.com/select-experience?location=chicago-the-loop",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|lockers|wifi|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, the venue provides golf clubs and equipment, allowing you to play without needing your own set."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No, outside food and drink are not permitted as the venue offers its own full-service bar and kitchen menu."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "Playing 18 holes typically takes around 2 to 2.5 hours depending on the number of players in your bay and your pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Five Iron Golf hosts kids' parties and junior clinics, making it a suitable venue for families with children."
+    }
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"6AM-11PM\"], \"Tuesday\": [\"6AM-11PM\"], \"Wednesday\": [\"6AM-11PM\"], \"Thursday\": [\"6AM-11PM\"], \"Friday\": [\"6AM-1AM\"], \"Saturday\": [\"8AM-1AM\"], \"Sunday\": [\"8AM-11PM\"]}"
+}

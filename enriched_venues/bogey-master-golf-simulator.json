@@ -1,0 +1,91 @@
+{
+  "name": "Bogey Master Golf Simulator",
+  "address": "3333 Co Rd 119 #131, Hutto, TX 78634",
+  "city": "Hutto",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 30.583012,
+  "longitude": -97.572606,
+  "phone": "+15127670326",
+  "website": "https://www.bogeymastergolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770243556/golf_simulators/www_bogeymastergolf_com_ChIJQwAPW-7bRIYRWImtoXi7J-8.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Bogey+Master+Golf+Simulator/@30.5830117,-97.5726057,14z/data=!4m8!1m2!2m1!1sBogey+Master+Golf+Simulator!3m4!1s0x8644dbee5b0f0043:0xef27bb78a1ad8958!8m2!3d30.5830117!4d-97.5726057",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJQwAPW-7bRIYRWImtoXi7J-8",
+  "email": "Info@bogeymastergolf.com",
+  "venue_type": "sim_bar",
+  "about": "Bogey Master is Hutto's first 24/7 indoor golf lounge, founded by local golf enthusiasts. It features Trackman-powered bays designed for golfers of all ages and skill levels, offering an environment to practice, compete, or unwind day or night. The venue provides a premium, accessible golf experience with a social atmosphere, encouraging patrons to bring their own food and drinks while enjoying world-famous courses and data-driven swing analysis.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|private_rooms|club_rentals|late_night|coaching_available",
+  "vibe_tags": "upscale_lounge|sports_bar|modern|community_club",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "Trackman-powered technology provides professional-grade data and simulation quality",
+    "24/7 access allows for flexible scheduling around busy lifestyles",
+    "BYOB policy and adjacent brewery create a relaxed, social golf experience",
+    "Supports all skill levels with customizable settings and practice tools",
+    "Online booking system with secure access codes for convenience"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Patrons can bring their own food to enjoy during their session"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "BYOB policy is allowed, with Power Brewing brewery located next door for convenient purchase"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Premium radar-based launch monitor powering all simulation bays"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://yourgolfbooking.com/venues/bogey-master/booking/bays",
+  "pricing_model": "mixed",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 8,
+  "amenities_list": "club_rentals|kitchen_food|tv_sports|private_party_room|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you will need to bring your own clubs to play at Bogey Master."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Absolutely. Bogey Master operates on a BYOB policy, and you can also purchase drinks from Power Brewing next door."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "You can play 18 holes in just a few hours, making it perfect for busy schedules."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "Yes, Bogey Master is for everyone! Whether you're a first-timer or a scratch golfer, the bays are designed to be fun and accessible for all skill levels."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

@@ -1,0 +1,90 @@
+{
+  "name": "X-Golf Geneva",
+  "address": "1900 S Randall Rd Suite 120, Geneva, IL 60134",
+  "city": "Geneva",
+  "region": "Illinois",
+  "country": "US",
+  "latitude": 41.867332,
+  "longitude": -88.342949,
+  "phone": "+13312480078",
+  "website": "http://www.xgolfgeneva.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770205225/golf_simulators/www_xgolfgeneva_com_ChIJE-67YHzjDogR303KmFuF4HE.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/X-Golf+Geneva/@41.867332399999995,-88.3429489,14z/data=!4m8!1m2!2m1!1sX-Golf+Geneva!3m4!1s0x880ee37c60bbee13:0x71e0855b98ca4ddf!8m2!3d41.867332399999995!4d-88.3429489",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJE-67YHzjDogR303KmFuF4HE",
+  "venue_type": "sim_bar",
+  "about": "X-Golf Geneva operates as an indoor golf simulator venue featuring 8 state-of-the-art simulators. The facility offers hourly rental pricing with a maximum capacity of 6 people per simulator bay. It provides a comprehensive experience including on-site dining, a full liquor bar, and PGA-certified lessons, positioning itself as a multifunctional space for both serious practice and casual entertainment. The venue is equipped with advanced tracking technology combining camera systems, infrared lasers, and impact sensors to deliver accurate and realistic gameplay.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|coaching_available|premium_tech|club_rentals",
+  "vibe_tags": "sports_bar|community_club|modern",
+  "who_its_for": "beginners|families|corporate_teams|juniors_youth|solo_practice",
+  "why_golfers_like_it": [
+    "High-accuracy simulator technology with camera systems, infrared lasers, and impact sensors",
+    "On-site restaurant and full liquor bar for a complete entertainment experience",
+    "PGA-certified professional lessons available for skill improvement",
+    "Accommodates up to 6 people per bay, making it suitable for groups",
+    "Automatic tee system and ball collection for convenience"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Shareable bites, appetizers, snacks, and pizzas available"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full liquor bar with beer by the glass or on tap, cocktails and wines"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "X-Golf",
+      "model": "Simulator",
+      "notes": "State-of-the-art simulators with camera systems, infrared lasers, and impact sensors"
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 8,
+  "booking_url": "https://clients.uschedule.com/xgolfgeneva/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 45,
+  "price_range_max_local": 65,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can bring your own clubs, but rental clubs are available if needed."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "The venue offers food and beverage packages with a full liquor bar, but outside food and drinks are not mentioned as being allowed."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Generally, it takes 1 hour for an individual player to complete 18 holes. For multiple players, an additional hour may be needed per player."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, children of all ages are welcome, and the venue hosts birthday parties and events suitable for families."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"12-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"9AM-12AM\"], \"Saturday\": [\"9AM-12AM\"], \"Sunday\": [\"9AM-8PM\"]}"
+}

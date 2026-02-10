@@ -1,0 +1,85 @@
+{
+  "name": "Btown Indoor Golf",
+  "address": "2980 E 3rd St, Bloomington, IN 47401",
+  "city": "Bloomington",
+  "region": "Indiana",
+  "country": "US",
+  "latitude": 39.160636,
+  "longitude": -86.494655,
+  "phone": "+18123694132",
+  "website": "https://btownindoorgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770204801/golf_simulators/btownindoorgolf_com_ChIJw-1_QwBlbIgRm0BJPvW4fcs.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Btown+Indoor+Golf/@39.1606364,-86.4946551,14z/data=!4m8!1m2!2m1!1sBtown+Indoor+Golf!3m4!1s0x886c6500437fedc3:0xcb7db8f53e49409b!8m2!3d39.1606364!4d-86.4946551",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJw-1_QwBlbIgRm0BJPvW4fcs",
+  "email": "craig@btownindoorgolf.com.",
+  "venue_type": "sim_bar",
+  "about": "Btown Indoor Golf is an indoor golf simulator lounge and sports bar located in the College Mall, Bloomington. The facility offers high-tech simulators that provide a realistic and immersive golfing experience with access to 1,800 courses from around the world. Founded by PGA Tour professional Craig Bowden, the venue is designed for both serious golfers and social players, featuring a sports bar atmosphere and various amenities. Pricing is based on session length, with options for walk-ins and advance bookings, and a membership program offering discounts and priority access.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|club_rentals|coaching_available|community_club",
+  "vibe_tags": "sports_bar|community_club|casual|welcoming",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Access to 1,800 world-famous golf courses",
+    "Advanced simulators providing realistic ball flight and course terrain",
+    "3-week advance booking window for pass holders",
+    "On-site club fittings and professional lessons",
+    "Social sports bar atmosphere with food and drinks"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Kitchen and snacks available on-site"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service with beer and other beverages"
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://app.birrdi.com/u/reserve?team_booking_link_id=btown-indoor-golf",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 0,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|leagues|club_fitting",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, we provide all necessary equipment including golf clubs, balls, and tees. You are welcome to bring your own clubs if you prefer."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "We have a kitchen and full bar on-site, providing snacks and beverages. Outside food and drink are not mentioned."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Players are highly encouraged to book a 1.5-hour tee time to comfortably complete a round outside of league play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the facility is suitable for all skill levels, and the presence of a sports bar and community-oriented events suggests a family-friendly environment."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"10AM-9PM\"], \"Tuesday\": [\"10AM-9PM\"], \"Wednesday\": [\"10AM-9PM\"], \"Thursday\": [\"9AM-9PM\"], \"Friday\": [\"9AM-9PM\"], \"Saturday\": [\"9AM-9PM\"], \"Sunday\": [\"11AM-6PM\"]}"
+}

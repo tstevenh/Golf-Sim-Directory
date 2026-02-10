@@ -1,0 +1,89 @@
+{
+  "name": "FORE Indoor Golf Club",
+  "address": "5136 Schumacher Rd, Sebring, FL 33872",
+  "city": "Sebring",
+  "region": "Florida",
+  "country": "US",
+  "latitude": 27.515134,
+  "longitude": -81.517106,
+  "phone": "+18636581674",
+  "website": "https://foreindoorgolf.net/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770198944/golf_simulators/foreindoorgolf_net_ChIJb2xTrRn53IgRT87kllQgtOU.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/FORE+Indoor+Golf+Club/@27.515133499999997,-81.5171058,14z/data=!4m8!1m2!2m1!1sFORE+Indoor+Golf+Club!3m4!1s0x88dcf919ad536c6f:0xe5b4205496e4ce4f!8m2!3d27.515133499999997!4d-81.5171058",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJb2xTrRn53IgRT87kllQgtOU",
+  "email": "foreindoorgolfclub@gmail.com",
+  "venue_type": "other",
+  "about": "Fore Indoor Golf Club is an indoor golf facility featuring state-of-the-art Uneekor Eye XO simulators for play, practice, and lessons. The venue offers a range of services including virtual golf on over 1,700 PGA-level courses, driving ranges, and 3-par and miniature golf options. Pricing is based on hourly rates with options for half-hour sessions, and memberships are available for frequent visitors. The facility is suited for individual practice, lessons, and private events, with a focus on improving golf skills in a controlled environment.",
+  "tags": "beginner_friendly|corporate_events|coaching_available|premium_tech|family_fun_center|private_rooms",
+  "vibe_tags": "community_club|tech_lab",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice|juniors_youth",
+  "why_golfers_like_it": [
+    "High-quality Uneekor Eye XO simulators",
+    "Large selection of PGA-level courses",
+    "Flexible booking options and memberships",
+    "Professional golf instruction available",
+    "Suitable for private events and group outings"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned, BYOB not specified"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "Eye XO",
+      "notes": "State-of-the-art golf simulator technology"
+    }
+  ],
+  "simulator_software": "Uneekor Eye XO",
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "https://foreindoorgolf.net/contact",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 15,
+  "price_range_max_local": 25,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "The venue doesn't specify if they provide club rentals, so it's recommended to bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue doesn't mention food/drink service, but doesn't specify BYOB policies either."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Time for 18 holes isn't specified, but typical simulator sessions run 1-2 hours depending on pace and group size."
+    },
+    {
+      "question": "Is this kid-friendly?",
+      "answer": "Yes, the venue appears family-friendly with mention of lessons and activities for different age groups."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"11AM-7PM\"], \"Wednesday\": [\"11AM-7PM\"], \"Thursday\": [\"11AM-7PM\"], \"Friday\": [\"11AM-7PM\"], \"Saturday\": [\"6-10PM\"], \"Sunday\": [\"11AM-7PM\"]}"
+}

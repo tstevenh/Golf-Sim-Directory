@@ -1,0 +1,88 @@
+{
+  "name": "The Iron Oaks",
+  "address": "3800 Glenwood Ave Suite 120, Raleigh, NC 27612",
+  "city": "Raleigh",
+  "region": "North Carolina",
+  "country": "US",
+  "latitude": 35.831849,
+  "longitude": -78.666262,
+  "phone": "+19199007897",
+  "website": "https://theironoaks.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770232916/golf_simulators/theironoaks_com_ChIJic-D8Lr3rIkRvPOqketkcGQ.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Iron+Oaks/@35.8318493,-78.6662624,14z/data=!4m8!1m2!2m1!1sThe+Iron+Oaks!3m4!1s0x89acf7baf083cf89:0x647064eb91aaf3bc!8m2!3d35.8318493!4d-78.6662624",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJic-D8Lr3rIkRvPOqketkcGQ",
+  "venue_type": "sim_bar",
+  "about": "The Iron Oaks is a venue that combines indoor golf simulation with a casual dining and bar experience. It utilizes GolfZon simulators to offer access to over 200 courses, alongside food, drinks, and private event services. Patrons can book bays for golf practice, full rounds, or social gatherings, with the full menu available for consumption during play. The establishment operates on a per-bay-hour basis and encourages reservations, though holidays like Christmas Eve and Labor Day are typically closed.",
+  "tags": "food_and_drinks|beginner_friendly|families|corporate_events|date_night|kids_friendly|party_atmosphere",
+  "vibe_tags": "casual|welcoming|modern|sports_bar|family_fun_center",
+  "who_its_for": "families|beginner_golfers|corporate_teams|social_groups|solo_practice",
+  "why_golfers_like_it": [
+    "Access to over 200 courses with immersive GolfZon simulators",
+    "Full food and drink menu available directly in the simulator bays",
+    "Swing analysis and driving range features for game improvement"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full menu available, including items like Fratelli Cozza hand-cut fries with truffle oil and garlic herb aioli."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with cocktails, wine, and on tap beer, with an Untappd draft list."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "GolfZon",
+      "model": "unknown",
+      "notes": "Immersive indoor golf simulators with over 200 courses available."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": "unknown",
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 12,
+  "booking_url": "unknown",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|kitchen_food|private_party_room|club_rentals|wifi|tv_sports",
+  "rating_tech_quality": 4.0,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The content does not specify whether equipment is provided, so it is recommended to contact the venue directly for details on club availability."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, outside food and drinks are not allowed. A full menu of food and beverages is available for order and can be enjoyed in the simulator bays."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify a duration for an 18-hole round. It is recommended to contact The Iron Oaks for more information on play times."
+    },
+    {
+      "question": "Is it kid-friendly?",
+      "answer": "Yes, it is kid-friendly, but an adult guardian (18+) must accompany any minors."
+    }
+  ],
+  "rating_overall": 4.1,
+  "opening_hours": "{\"Monday\": [\"12-9PM\"], \"Tuesday\": [\"12-9PM\"], \"Wednesday\": [\"12-9PM\"], \"Thursday\": [\"12-9PM\"], \"Friday\": [\"12-9PM\"], \"Saturday\": [\"12-9PM\"], \"Sunday\": [\"12-9PM\"]}"
+}

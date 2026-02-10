@@ -1,0 +1,91 @@
+{
+  "name": "The Forge",
+  "address": "148 Chimney Oaks Drive, Homer, GA 30547",
+  "city": "Homer",
+  "region": "Georgia",
+  "country": "US",
+  "latitude": 34.354373,
+  "longitude": -83.48588,
+  "phone": "+17066773334",
+  "website": "https://www.chimneyoaksgolfclub.com/the-forge/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770210273/golf_simulators/www_chimneyoaksgolfclub_com_ChIJk2UHtbapWIgRFsU2SoT15yk.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Forge/@34.3543734,-83.48588,14z/data=!4m8!1m2!2m1!1sThe+Forge!3m4!1s0x8858a9b6b5076593:0x29e7f5844a36c516!8m2!3d34.3543734!4d-83.48588",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJk2UHtbapWIgRFsU2SoT15yk",
+  "email": "info@chimneyoaks.com",
+  "venue_type": "sim_bar",
+  "about": "The Forge is an indoor golf training facility at Chimney Oaks Golf Club, offering state-of-the-art virtual golf simulators and professional club fitting services. It features two Trackman Bays equipped with Face On and Down the Line cameras, providing access to over 100 golf courses and over 25 data points for game improvement. The facility also includes a full-service sports bar with multiple TVs and hosts various events, group rentals, and lessons. Pricing is structured per bay for simulator sessions, with options for practice time with Trackman and private lessons. The venue caters to golfers of all skill levels, from beginners to serious players, and is suitable for both individual practice and group events.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|premium_tech|club_rentals|coaching_available",
+  "vibe_tags": "sports_bar|modern|tech_lab",
+  "who_its_for": "beginners|serious_golfers|corporate_teams|families|solo_practice",
+  "why_golfers_like_it": [
+    "State-of-the-art Trackman technology with 25+ data points for detailed swing analysis",
+    "Full-service sports bar with multiple TVs for watching sports while playing",
+    "Professional club fitting services with major brand equipment (TaylorMade, Titleist, etc.)",
+    "Option to rent the entire facility for private events and group gatherings",
+    "All-weather facility allowing play regardless of outdoor conditions"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Catering services available for events"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Fully stocked bar available for regular customers and event rentals"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Two bays equipped with Face On and Down the Line cameras"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://www.chimneyoaksgolfclub.com/golf-club-inquiry-form/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 25,
+  "price_range_max_local": 120,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "full_bar|club_rentals|private_party_room|tv_sports|club_fitting|pro_shop",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you can bring your own clubs or use the available fitting equipment from brands like TaylorMade, Cleveland, Srixon, Titleist, Callaway, and Ping."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, external food and drinks are not allowed. The facility has a full-service sports bar with catering options available for events."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Four people typically take 2-3 hours to complete 18 holes in a simulator session."
+    },
+    {
+      "question": "Is The Forge kid-friendly?",
+      "answer": "The facility doesn't explicitly mention child-specific amenities, but it hosts family-friendly events and welcomes golfers of all skill levels, including juniors."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"9AM-5:30PM\"], \"Wednesday\": [\"9AM-7PM\"], \"Thursday\": [\"9AM-9PM\"], \"Friday\": [\"8AM-9PM\"], \"Saturday\": [\"8AM-9PM\"], \"Sunday\": [\"11AM-5:30PM\"]}"
+}

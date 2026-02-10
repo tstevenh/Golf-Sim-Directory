@@ -1,0 +1,90 @@
+{
+  "name": "Chris Bargas Golf Club at Whitney Farms",
+  "address": "175 Shelton Rd, Monroe, CT 06468",
+  "city": "Monroe",
+  "region": "Connecticut",
+  "country": "US",
+  "latitude": 41.333068,
+  "longitude": -73.194171,
+  "phone": "+12032680707",
+  "website": "http://www.whitneyfarmsgc.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770209202/golf_simulators/www_whitneyfarmsgc_com_ChIJZ3Rrpzzi54kR_g0Sly9n8Bc.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Chris+Bargas+Golf+Club+at+Whitney+Farms/@41.3330682,-73.1941708,14z/data=!4m8!1m2!2m1!1sChris+Bargas+Golf+Club+at+Whitney+Farms!3m4!1s0x89e7e23ca76b7467:0x17f0672f97120dfe!8m2!3d41.3330682!4d-73.1941708",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJZ3Rrpzzi54kR_g0Sly9n8Bc",
+  "email": "contact@whitneyfarmsgc.com",
+  "venue_type": "sim_bar",
+  "about": "Chris Bargas Golf Club at Whitney Farms is a public golf facility and event venue featuring an 18-hole championship course designed by Hal C. Purdy and a virtual golf simulator space known as The Player's Club. The venue provides year-round access to golf through its indoor Trackman simulator bays, which operate alongside a full-service pro shop, dining options, and event hosting capabilities. The facility caters to golfers of all skill levels with amenities like driving ranges, lessons, and league play, while also serving as a location for weddings, corporate events, and private parties in a scenic New England setting.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|leagues|coaching_available|premium_tech|club_rentals",
+  "vibe_tags": "community_club|casual|welcoming",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Year-round access with premium Trackman simulators and a full bar & food service",
+    "18-hole championship course offering scenic and challenging play for all skill levels",
+    "Multiple amenities including driving range, pro shop, and golf lessons for comprehensive golf experience"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full food service available at Sand Trap Grill & Bar and The Player's Club"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available at Sand Trap Grill & Bar and The Player's Club"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Year-round Trackman simulators available in The Player's Club"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "https://clients.uschedule.com/whitneyfarmsgc/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "full_bar|kitchen_food|tv_sports|pro_shop|leagues|club_rentals",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you are expected to bring your own clubs for simulator play, though they may also offer club rentals through the pro shop."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, outside food and drinks are not permitted. The venue offers a full bar and food service at Sand Trap Grill & Bar and The Player's Club."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes on the simulator?",
+      "answer": "The time to play 18 holes on the simulator is not specified, but typical simulator sessions range from 1-2 hours depending on the number of players and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue offers junior golf programs and caters to families, making it a kid-friendly environment for learning and playing golf."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"8AM-8PM\"], \"Tuesday\": [\"8AM-8PM\"], \"Wednesday\": [\"8AM-8PM\"], \"Thursday\": [\"8AM-8PM\"], \"Friday\": [\"8AM-8PM\"], \"Saturday\": [\"7AM-8PM\"], \"Sunday\": [\"7AM-8PM\"]}"
+}

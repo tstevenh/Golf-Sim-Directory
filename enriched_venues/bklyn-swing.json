@@ -1,0 +1,94 @@
+{
+  "name": "BKLYN SWING",
+  "address": "7613 13th Ave, Brooklyn, NY 11228",
+  "city": "Brooklyn",
+  "region": "New York",
+  "country": "US",
+  "latitude": 40.619201,
+  "longitude": -74.008149,
+  "phone": "+19292142716",
+  "website": "https://bklynswing.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770211642/golf_simulators/bklynswing_com_ChIJ-5XKYr5FwokR_WZoijwxOsY.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/BKLYN+SWING/@40.6192012,-74.0081489,14z/data=!4m8!1m2!2m1!1sBKLYN+SWING!3m4!1s0x89c245be62ca95fb:0xc63a313c8a6866fd!8m2!3d40.6192012!4d-74.0081489",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ-5XKYr5FwokR_WZoijwxOsY",
+  "email": "info@bklynswing.com",
+  "venue_type": "sim_bar",
+  "about": "BKLYN SWING is a community-driven indoor golf facility located in Dyker Heights, Brooklyn, NYC. They feature four state-of-the-art TrackMan simulator suites, offering professional-quality simulator technology and expert PGA instruction for golfers of all levels. The venue is situated one mile from Dyker Beach Park and Golf Course, providing a convenient urban golf experience. Bay rentals are priced at $40/hour during off-peak times (weekdays before 4pm) and $60/hour during peak times (after 4pm and all day weekends). Each bay can accommodate up to four players.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|kids_friendly|corporate_events|leagues|premium_tech|budget_friendly|private_rooms|club_rentals|community_club",
+  "vibe_tags": "sports_bar|family_fun_center|community_club|casual|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "Professional TrackMan technology providing 40+ data points per swing",
+    "Convenient urban location near Dyker Beach Park",
+    "Variety of game modes including challenges and practice modes",
+    "Availability of expert PGA instruction for all skill levels",
+    "Welcoming environment for both golfers and non-golfers"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of food service available on-site."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service; BYOB policy is not specified."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Four simulator suites available; advanced radar technology for precise tracking."
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 4,
+  "booking_url": "https://yourgolfbooking.com/venues/bklyn-swing/booking/bays",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 40,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 4,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|wifi|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "While the website does not explicitly state they provide clubs, it is standard practice at such facilities to offer rental clubs or expect players to bring their own."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "The website does not specify a policy on bringing outside food or drinks, but it also does not mention an on-site kitchen or bar, suggesting a BYOB policy may be in place."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Playing 18 holes on a simulator typically takes between 2 to 3 hours, depending on the number of players and pace of play, though the website does not provide a specific time estimate."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the facility is kid-friendly, offering junior clinics, family-friendly game modes, and the ability to accommodate groups with children in the simulator bays."
+    }
+  ],
+  "simulator_software": [
+    "TrackMan"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"9AM-10PM\"], \"Saturday\": [\"9AM-10PM\"], \"Sunday\": [\"9AM-10PM\"]}"
+}

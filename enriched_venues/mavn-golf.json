@@ -1,0 +1,83 @@
+{
+  "name": "MAVN Golf",
+  "address": "16120 College Oak Ste 109, San Antonio, TX 78249",
+  "city": "San Antonio",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 29.58868,
+  "longitude": -98.578968,
+  "phone": "+19062815897",
+  "website": "https://www.mavn.golf/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770243196/golf_simulators/www_mavn_golf_ChIJc_ZqMJdnXIYR-x3Szah2QDM.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/MAVN+Golf/@29.5886797,-98.57896749999999,14z/data=!4m8!1m2!2m1!1sMAVN+Golf!3m4!1s0x865c6797306af673:0x334076a8cdd21dfb!8m2!3d29.5886797!4d-98.57896749999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJc_ZqMJdnXIYR-x3Szah2QDM",
+  "email": "info@mavn.golf",
+  "venue_type": "training_studio",
+  "about": "MAVN Golf is an indoor golf performance facility in San Antonio, Texas, that blends expert coaching with advanced technology. It specializes in data-driven player improvement using 3D motion capture, TrackMan launch monitors, and the Mach 3 speed development system. The facility provides personalized coaching, club fitting, and fitness programs for golfers of all skill levels, from beginners to competitive players. Membership plans offer access to TrackMan bays, a dedicated short game area, a performance gym, and weekly speed classes, creating a comprehensive training environment for measurable improvement.",
+  "tags": "beginner_friendly|serious_golfers|coaching_available|premium_tech|club_fitting|juniors_youth|budget_friendly",
+  "vibe_tags": "tech_lab|industrial_training|community_club",
+  "who_its_for": "serious_golfers|beginners|juniors_youth|corporate_teams|coaches_instructors",
+  "why_golfers_like_it": [
+    "Advanced TrackMan IO technology for precise swing and ball flight analysis",
+    "Integration of golf fitness with the Mach 3 speed and movement system",
+    "Personalized coaching with data-driven feedback and improvement plans",
+    "Access to a full indoor short game facility and performance gym",
+    "Custom club fitting using Titleist tour-proven technology"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": null,
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Ceiling-mounted launch monitors used for full-swing analysis and performance data"
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 5,
+  "booking_url": "https://www.mavn.golf/book-a-bay-1",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|club_fitting|leagues|pro_shop",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you are expected to bring your own golf clubs for practice and sessions. Custom club fitting services are available if you need new equipment."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "There is no specific mention of food or drink services, so outside food and drinks may be allowed. It is recommended to contact the venue directly to confirm their policy."
+    },
+    {
+      "question": "How long does an 18-hole simulation take?",
+      "answer": "An 18-hole simulation typically takes approximately 2-3 hours, depending on the pace of play and number of players in the bay."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, MAVN Golf is suitable for juniors and youth golfers, offering coaching programs and a supportive environment for developing players."
+    }
+  ],
+  "simulator_software": [
+    "TrackMan Simulation"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"5AM-11PM\"], \"Tuesday\": [\"5AM-11PM\"], \"Wednesday\": [\"5AM-11PM\"], \"Thursday\": [\"5AM-11PM\"], \"Friday\": [\"5AM-11PM\"], \"Saturday\": [\"5AM-11PM\"], \"Sunday\": [\"5AM-11PM\"]}"
+}

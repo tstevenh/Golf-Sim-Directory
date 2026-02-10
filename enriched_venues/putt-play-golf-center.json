@@ -1,0 +1,91 @@
+{
+  "name": "Putt & Play Golf Center",
+  "address": "209 W Columbus Ave, Bellefontaine, OH 43311",
+  "city": "Bellefontaine",
+  "region": "Ohio",
+  "country": "US",
+  "latitude": 40.361034,
+  "longitude": -83.762154,
+  "phone": "+19374041330",
+  "website": "https://www.puttplaygolfcenter.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770211130/golf_simulators/www_puttplaygolfcenter_com_ChIJhbKD4WEvP4gRncpUuFS8Shs.png",
+  "google_maps_url": "https://www.google.com/maps/place/Putt+%26+Play+Golf+Center/@40.3610343,-83.76215359999999,14z/data=!4m8!1m2!2m1!1sPutt+%26+Play+Golf+Center!3m4!1s0x883f2f61e183b285:0x1b4abc54b854ca9d!8m2!3d40.3610343!4d-83.76215359999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJhbKD4WEvP4gRncpUuFS8Shs",
+  "email": "puttandplaygc@gmail.com",
+  "venue_type": "multi_sport_sim",
+  "about": "Putt & Play Golf Center is a multi-venue entertainment facility offering a range of activities including indoor golf, miniature golf, laser tag, and virtual reality experiences. The facility features three Uneekor Golf Simulators, which are described as among the most advanced 3D systems available, allowing players to use their own clubs and play on over 150,000 courses worldwide. An 18-hole miniature golf course is available, with glow-in-the-dark options on select days and occasions. The venue also includes a 1,400+ sq ft laser tag arena with a neon-themed environment and a multi-sport arcade simulator with interactive sports games. The center is designed to provide a safe and fun environment for families and friends to create lasting memories.",
+  "tags": "beginner_friendly|food_and_drinks|kids_friendly|corporate_events|budget_friendly|private_rooms|club_rentals|family_fun_center",
+  "vibe_tags": "family_fun_center|party_atmosphere|tech_lab",
+  "who_its_for": "families|large_groups|beginners|corporate_teams|kids",
+  "why_golfers_like_it": [
+    "Multiple high-end Uneekor simulators with 150,000+ global courses",
+    "Accurate tracking from 10cm to 435 yards for comprehensive practice",
+    "Flexible play options including full rounds, driving ranges, and challenge modes",
+    "Supports multiple players with scramble and alternate shot formats"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Food options include cheese pizza and soda, included in party packages and available for group events."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service on the website."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "QED",
+      "notes": "3 advanced 3D golf simulator systems, accurate from 10cm to 435yds."
+    }
+  ],
+  "simulator_software": [
+    "The Golf Club 2019",
+    "TGC 2019"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://www.puttplaygolfcenter.com/contact.html",
+  "pricing_model": "mixed",
+  "price_range_min_local": 12,
+  "price_range_max_local": 50,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 8,
+  "amenities_list": "private_party_room|club_rentals|kitchen_food|tv_sports|leagues|ada_accessible",
+  "rating_tech_quality": 4.7,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 4.3,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, for the golf simulators, you can use your own golf clubs from driver to putter. Other activities like miniature golf, laser tag, and virtual experiences do not require clubs."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "Food and drinks are not mentioned as being allowed from outside. The venue provides food options like cheese pizza and soda as part of their party packages and group event offerings."
+    },
+    {
+      "question": "How long does it take to play a full round of 18 holes?",
+      "answer": "While the exact time for a full 18-hole round is not specified, the golf simulators offer the ability to play complete rounds of golf on various courses worldwide."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Putt & Play Golf Center is designed to be family-friendly with activities like miniature golf, glow putt options, laser tag, and virtual reality experiences suitable for all ages."
+    }
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"Closed\"], \"Wednesday\": [\"12-5PM\"], \"Thursday\": [\"12-5PM\"], \"Friday\": [\"12-9PM\"], \"Saturday\": [\"12-9PM\"], \"Sunday\": [\"Closed\"]}"
+}

@@ -1,0 +1,96 @@
+{
+  "name": "Gregg Rogers' Golf Performance Centers",
+  "address": "2021 130th Ave NE D, Bellevue, WA 98005",
+  "city": "Bellevue",
+  "region": "Washington",
+  "country": "US",
+  "latitude": 47.62892,
+  "longitude": -122.167637,
+  "phone": "+14255569022",
+  "website": "http://www.grgolfperformance.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770243815/golf_simulators/www_grgolfperformance_com_ChIJ-V_4c0pskFQRWeZxxWg6S-M.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Gregg+Rogers%27+Golf+Performance+Centers/@47.628920099999995,-122.1676373,14z/data=!4m8!1m2!2m1!1sGregg+Rogers%27+Golf+Performance+Centers!3m4!1s0x54906c4a73f85ff9:0xe34b3a68c571e659!8m2!3d47.628920099999995!4d-122.1676373",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ-V_4c0pskFQRWeZxxWg6S-M",
+  "email": "grogers@grgolfperformance.com",
+  "venue_type": "training_studio",
+  "about": "Gregg Rogers' Golf Performance Centers is a golf training and retail facility founded in 2007, focused on helping golfers of all skill levels through technology-driven instruction, club fitting, and practice. The center utilizes advanced launch monitors including TrackMan and About Golf simulators across seven bays to provide precise statistical feedback on swing mechanics, ball flight, and putting performance. Services range from individual lessons and club fittings to practice packages, with recognized expertise in club fitting honored by Golf Digest and GOLF Magazine.",
+  "tags": "beginner_friendly|serious_golfers|coaching_available|club_rentals|premium_tech|family_friendly|corporate_events",
+  "vibe_tags": "tech_lab|industrial_training|casual|welcoming",
+  "who_its_for": "serious_golfers|beginners|families|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "Advanced technology with TrackMan launch monitors and About Golf simulators",
+    "Comprehensive club fitting services with recognized industry expertise",
+    "48-hour turnaround for custom club builds",
+    "Detailed putting analysis using Quintic Ball Roll Software",
+    "No charge fitting days available"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "Seven bays equipped with TrackMan launch monitors"
+    },
+    {
+      "brand": "About Golf",
+      "model": "Simulator",
+      "notes": "About Golf simulators integrated across bays"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": 7,
+  "booking_url": "https://bookeo.com/grgolf",
+  "pricing_model": "mixed",
+  "price_range_min_local": 50,
+  "price_range_max_local": 790,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 0,
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|pro_shop|club_fitting|coaching_available|leagues",
+  "rating_tech_quality": 4.7,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The facility provides club fitting services and can build custom equipment. For practice sessions, bringing your own clubs is recommended but not required."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "No food or drink service is mentioned, but BYOB policies are not specified."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Time for 18 holes is not specified, but the facility offers practice packages with 10-hour sessions and TrackMan simulator experiences."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, the center provides solutions for all ages and skill levels, including juniors and youth instruction."
+    }
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"8AM-7PM\"], \"Tuesday\": [\"8AM-7PM\"], \"Wednesday\": [\"8AM-7PM\"], \"Thursday\": [\"8AM-7PM\"], \"Friday\": [\"8AM-7PM\"], \"Saturday\": [\"8AM-6PM\"], \"Sunday\": [\"Closed\"]}"
+}

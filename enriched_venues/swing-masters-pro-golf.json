@@ -1,0 +1,90 @@
+{
+  "name": "Swing Masters Pro Golf",
+  "address": "10532 US-20, Middlebury, IN 46540",
+  "city": "Middlebury",
+  "region": "Indiana",
+  "country": "US",
+  "latitude": 41.653585,
+  "longitude": -85.667447,
+  "phone": "+15748001793",
+  "website": "https://swingmasterspg.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770198974/golf_simulators/swingmasterspg_com_ChIJ7W5xGk73FogREEduBvL7g3Y.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Swing+Masters+Pro+Golf/@41.6535854,-85.6674472,14z/data=!4m8!1m2!2m1!1sSwing+Masters+Pro+Golf!3m4!1s0x8816f74e1a716eed:0x7683fbf2066e4710!8m2!3d41.6535854!4d-85.6674472",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ7W5xGk73FogREEduBvL7g3Y",
+  "email": "Info@Swingmasterspg.com",
+  "venue_type": "multi_sport_sim",
+  "about": "Swing Masters Pro Golf is an indoor golf facility in Middlebury, Indiana, featuring TrackMan iO simulators. The venue is open year-round and offers a combination of game improvement and entertainment. It caters to all ages and skill levels, with pricing varying by season and time of day. The facility is best suited for golfers looking for a reliable indoor experience to practice, play virtual courses, or receive technical feedback without the constraints of weather or course hours.",
+  "tags": "beginner_friendly|food_and_drinks|families|corporate_events|premium_tech|club_rentals|coaching_available",
+  "vibe_tags": "tech_lab|family_fun_center",
+  "who_its_for": "beginners|serious_golfers|families|solo_practice|juniors_youth|corporate_teams",
+  "why_golfers_like_it": [
+    "TrackMan iO provides professional-grade swing data and shot tracking",
+    "Indoor access allows for golf practice and play 365 days a year",
+    "Available rental clubs make it convenient for those without their own equipment"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Sodas, chips, snacks, and oven-baked pizza available according to the booking site."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service or BYOB policy."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Tour-trusted, indoor-optimized launch monitor with patented optically enhanced radar tracking (OERT) technology."
+    }
+  ],
+  "simulator_software": [
+    "Trackman Performance Studio",
+    "Trackman Golf app"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://booking.trackmangolf.com/venues/swing-masters-pro-golf/booking/bays",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 25,
+  "price_range_max_local": 50,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, bringing your own clubs is not required. The venue has both right-handed and left-handed sets available for rent. If the sets are in use at the time of your booking, you will be notified in advance."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue offers food and drinks for purchase, including sodas, chips, snacks, and oven-baked pizza. There is no mention of a BYOB policy."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify the time required to play 18 holes."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue states 'All ages and skill levels welcome' and features images of families and young players, making it a kid-friendly environment."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"9AM-9PM\"], \"Tuesday\": [\"9AM-9PM\"], \"Wednesday\": [\"9AM-9PM\"], \"Thursday\": [\"9AM-9PM\"], \"Friday\": [\"9AM-9PM\"], \"Saturday\": [\"9AM-9PM\"], \"Sunday\": [\"Closed\"]}"
+}

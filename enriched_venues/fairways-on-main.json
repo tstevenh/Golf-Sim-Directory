@@ -1,0 +1,83 @@
+{
+  "name": "Fairways on Main",
+  "address": "519 N Main St, Oshkosh, WI 54901",
+  "city": "Oshkosh",
+  "region": "Wisconsin",
+  "country": "US",
+  "latitude": 44.020298,
+  "longitude": -88.537838,
+  "phone": "+19204791222",
+  "website": "https://www.fairwaysonmain.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770199434/golf_simulators/www_fairwaysonmain_com_ChIJMWDw1LDrA4gRfOK-MD4pggs.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Fairways+on+Main/@44.0202982,-88.5378379,14z/data=!4m8!1m2!2m1!1sFairways+on+Main!3m4!1s0x8803ebb0d4f06031:0xb82293e30bee27c!8m2!3d44.0202982!4d-88.5378379",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJMWDw1LDrA4gRfOK-MD4pggs",
+  "venue_type": "sim_bar",
+  "about": "Fairways on Main combines golf simulation with a sports bar atmosphere, providing a unique venue for play and socializing. They feature cutting-edge simulators that replicate famous global courses, offering a complete golfing experience. The establishment operates with flexible hours and hosts various leagues and events, making it suitable for both casual players and serious enthusiasts. Pricing is based on hourly rates for bays, with options for both individual and group play.",
+  "tags": "food_and_drinks|leagues|beginner_friendly|corporate_events|family_fun_center|date_night|private_rooms|club_rentals|community_club",
+  "vibe_tags": "sports_bar|community_club|modern|welcoming",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "Unique combination of a golf simulator and sports bar atmosphere",
+    "Cutting-edge simulator technology recreating renowned courses",
+    "Flexible leagues and event options for various skill levels",
+    "Located in the heart of Oshkosh with a vibrant social environment"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Kitchen service available with a selection of food items for groups and events"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with craft beers and signature cocktails"
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.fairwaysonmainteetimes.com",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|kitchen_food|tv_sports|private_party_room|leagues|club_rentals",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Players are encouraged to bring their own clubs to use during play. Comfortable shoes are suggested, but golf spikes are not allowed. Golf balls and tees are provided."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No food or drinks are allowed in the hitting area. You can enjoy them on the tables outside the designated hitting area."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "For a single golfer, 18 holes take approximately 2 hours. For a group of 2-4 players, 18 holes take 4-5 hours."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is kid-friendly. Players must be at least 12 years of age to participate in leagues, and ages 12-17 require a parent to be present."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"10AM-7PM\"], \"Tuesday\": [\"10AM-9PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"9AM-11PM\"], \"Saturday\": [\"9AM-11PM\"], \"Sunday\": [\"10AM-4PM\"]}"
+}

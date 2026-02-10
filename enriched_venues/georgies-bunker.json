@@ -1,0 +1,83 @@
+{
+  "name": "Georgie's Bunker",
+  "address": "1141 Patton Ave Suite 103, Asheville, NC 28806",
+  "city": "Asheville",
+  "region": "North Carolina",
+  "country": "US",
+  "latitude": 35.587047,
+  "longitude": -82.598938,
+  "phone": "+18286786324",
+  "website": "https://georgiesbunker.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770218172/golf_simulators/georgiesbunker_com_ChIJ7bWTsymNWYgRI5YUUrXxCHI.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Georgie%27s+Bunker/@35.587047399999996,-82.5989378,14z/data=!4m8!1m2!2m1!1sGeorgie%27s+Bunker!3m4!1s0x88598d29b393b5ed:0x7208f1b552149623!8m2!3d35.587047399999996!4d-82.5989378",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ7bWTsymNWYgRI5YUUrXxCHI",
+  "email": "contact@georgiesbunker.com",
+  "venue_type": "sim_bar",
+  "about": "Georgie's Bunker is an indoor golf simulator venue and sports bar in Asheville, North Carolina. The facility offers four pro-grade golf simulator bays equipped with technology to track 19 key golf metrics on various terrain mats. The venue provides flexible hourly rental rates for weekdays and weekends, with the option to split fees among up to six golfers per bay. It functions as a social hub with a full-service bar, complimentary games like pool, ping pong, and darts, and regular events including leagues, tournaments, and challenges.",
+  "tags": "food_and_drinks|leagues|corporate_events|private_rooms|date_night|beginner_friendly|late_night|party_atmosphere|bachelor_parties",
+  "vibe_tags": "sports_bar|upscale_lounge|community_club|party_atmosphere|tech_lab",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams|bachelor_parties",
+  "why_golfers_like_it": [
+    "Four pro-grade simulator bays with technology to track 19 key golf metrics",
+    "Flexible pricing with split-bay options for groups of up to six",
+    "Full-service bar with local beers and no dress code, creating a relaxed atmosphere"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full-service sports bar with snacks and food options"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with local beers, liquors, seltzers, and ciders"
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 4,
+  "booking_url": "https://app.birrdi.com/u/reserve?team_booking_link_id=georgies-bunker",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 45,
+  "price_range_max_local": 55,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you will need to bring your own golf clubs to use the simulators."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No, outside food and drinks are not permitted as the venue has a full-service bar and kitchen."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes varies, but a typical round can take between 1.5 to 2 hours depending on the number of players and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The venue does not specifically advertise itself as kid-friendly. It features a sports bar and is geared towards adults for social events, leagues, and practice."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-12AM\"], \"Saturday\": [\"9AM-12AM\"], \"Sunday\": [\"9AM-10PM\"]}"
+}

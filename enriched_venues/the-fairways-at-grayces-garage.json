@@ -1,0 +1,90 @@
+{
+  "name": "The Fairways at Grayce's Garage",
+  "address": "710 High St #2, Paris, KY 40361",
+  "city": "Paris",
+  "region": "Kentucky",
+  "country": "US",
+  "latitude": 38.21002,
+  "longitude": -84.252312,
+  "phone": "+18595396392",
+  "website": "https://www.thefairwayssim.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770225363/golf_simulators/www_thefairwayssim_com_ChIJtVdt0ifLQ4gR4r8AKuHMcG0.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Fairways+at+Grayce%27s+Garage/@38.2100198,-84.2523121,14z/data=!4m8!1m2!2m1!1sThe+Fairways+at+Grayce%27s+Garage!3m4!1s0x8843cb27d26d57b5:0x6d70cce12a00bfe2!8m2!3d38.2100198!4d-84.2523121",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJtVdt0ifLQ4gR4r8AKuHMcG0",
+  "email": "info@mysite.com",
+  "venue_type": "other",
+  "about": "The Fairways at Grayce's Garage is an indoor golf simulator venue located in Paris, Kentucky, offering a space for golfers to practice and play year-round. The facility utilizes a ProTee VX Golf Launch Monitor paired with GSPro software to provide a realistic golf experience with detailed swing and ball flight data. It operates on a pay-per-bay-hour basis, with standard rates and a special membership option available for those seeking more consistent access.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|private_rooms|club_rentals|coaching_available|community_club",
+  "vibe_tags": "casual|welcoming|modern|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Tour-level accuracy with the ProTee VX launch monitor",
+    "Access to hundreds of meticulously recreated virtual courses via GSPro",
+    "A dedicated and welcoming local golf community space",
+    "Founders Club membership offers significant savings and priority booking"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Guests are welcome to bring their own food."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "Alcohol is not permitted on the premises."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "ProTee",
+      "model": "VX",
+      "notes": "The primary launch monitor, capturing ball flight and club movement in detail."
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 1,
+  "booking_url": "https://app.whoosh.io/patron/club/the-fairways-at-grayces-garage/agenda/simulators/today",
+  "pricing_model": "mixed",
+  "price_range_min_local": 35,
+  "price_range_max_local": 35,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "tv_sports|wifi|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify whether club rentals are available. It is recommended to bring your own clubs for your session."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "Guests are welcome to bring their own food and non-alcoholic beverages. Alcohol is not permitted on the premises."
+    },
+    {
+      "question": "How long does an 18-hole round take?",
+      "answer": "The website does not provide a specific timeframe for an 18-hole round. The duration will depend on the number of players and pace of play in the simulator bay."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "The website does not provide specific information regarding kid-friendly features or policies. It is a welcoming community space, but age requirements or restrictions are not mentioned."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"6AM-10PM\"], \"Tuesday\": [\"6AM-10PM\"], \"Wednesday\": [\"6AM-10PM\"], \"Thursday\": [\"6AM-10PM\"], \"Friday\": [\"6AM-10PM\"], \"Saturday\": [\"6AM-10PM\"], \"Sunday\": [\"6AM-10PM\"]}"
+}

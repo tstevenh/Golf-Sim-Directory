@@ -1,0 +1,91 @@
+{
+  "name": "The Links of Stillwater",
+  "address": "5862 Omaha Ave N, Stillwater, MN 55082",
+  "city": "Stillwater",
+  "region": "Minnesota",
+  "country": "US",
+  "latitude": 45.033739,
+  "longitude": -92.813082,
+  "phone": "+16126990527",
+  "website": "https://www.thelinks.golf/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770205014/golf_simulators/www_thelinks_golf_ChIJ4VKDP1vLslIR1YhmBggfD6w.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Links+of+Stillwater/@45.033738899999996,-92.8130822,14z/data=!4m8!1m2!2m1!1sThe+Links+of+Stillwater!3m4!1s0x52b2cb5b3f8352e1:0xac0f1f08066688d5!8m2!3d45.033738899999996!4d-92.8130822",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ4VKDP1vLslIR1YhmBggfD6w",
+  "email": "hr@lakevillelinks.com",
+  "venue_type": "sim_bar",
+  "about": "The Links of Stillwater is an indoor golf simulator venue with locations in Lakeville and Stillwater, Minnesota. The facility offers a premium golf experience using advanced Golfzon NX simulators. The venue is designed for both casual play and serious practice, featuring flexible memberships and booking options. With full bar and food services available, it aims to provide a complete entertainment experience for golfers and social groups.",
+  "tags": "food_and_drinks|corporate_events|leagues|premium_tech|budget_friendly|group_events|date_night|beginner_friendly",
+  "vibe_tags": "modern|sports_bar|community_club|party_atmosphere",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Advanced Golfzon NX simulators with realistic ball tracking",
+    "Flexible memberships that never expire",
+    "Full bar and food service creating a social atmosphere",
+    "Supports groups up to 6 players per bay",
+    "Professional instruction available on-site"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full menu available via Stillwater Bowl at the Stillwater location"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with beer, wine, and cocktails available"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Golfzon",
+      "model": "NX Simulator",
+      "notes": "Advanced simulator with moving swing plate, high-speed camera sensors, and auto-tee system"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "mixed",
+  "lefty_friendly": true,
+  "bay_count_total": 10,
+  "booking_url": "https://www.thelinks.golf/bookinglanding",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 0,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can bring your own clubs, but the venue may have equipment available for rent or use."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drinks are not allowed, as the venue has a full bar and kitchen with its own food options."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Use one hour per person for 18 holes as a guide. Each simulator can accommodate up to 6 players, but 4 is recommended for best pace."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is family-friendly and can accommodate groups with children."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"9AM-10PM\"], \"Saturday\": [\"9AM-10PM\"], \"Sunday\": [\"9AM-10PM\"]}"
+}

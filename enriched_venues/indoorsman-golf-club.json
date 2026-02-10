@@ -1,0 +1,93 @@
+{
+  "name": "Indoorsman Golf Club",
+  "address": "9475 Double R Blvd ste 14, Reno, NV 89521",
+  "city": "Reno",
+  "region": "Nevada",
+  "country": "US",
+  "latitude": 39.446064,
+  "longitude": -119.761152,
+  "phone": "+17755936280",
+  "website": "https://indoorsmangc.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770216686/golf_simulators/indoorsmangc_com_ChIJ9RQV4i8VmYAR-kbMGE4V0Bs.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Indoorsman+Golf+Club/@39.446063599999995,-119.76115229999999,14z/data=!4m8!1m2!2m1!1sIndoorsman+Golf+Club!3m4!1s0x8099152fe21514f5:0x1bd0154e18cc46fa!8m2!3d39.446063599999995!4d-119.76115229999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ9RQV4i8VmYAR-kbMGE4V0Bs",
+  "email": "team@indoorsmangc.com",
+  "venue_type": "other",
+  "about": "Indoorsman Golf Club is a new, private, members-only indoor golf facility in Reno, NV, offering 24/7 access to premium Trackman simulator technology in spacious, private bays. The club is designed for golfers seeking a dedicated, weather-independent environment for practice and play, utilizing the world-leading Trackman iO platform. Membership is required for access, with various tiers offering different booking windows and session lengths to accommodate different playing styles and schedules.",
+  "tags": "serious_golfers|leagues|premium_tech|private_rooms|club_rentals|coaching_available|community_club|adults_only|year_round",
+  "vibe_tags": "private_luxury|tech_lab|community_club|modern|professional",
+  "who_its_for": "serious_golfers|corporate_teams|solo_practice|low_handicap|coaches_instructors",
+  "why_golfers_like_it": [
+    "24/7 key-coded access for private, uncrowded practice on your own schedule",
+    "Premium Trackman iO simulator technology with AI-driven swing analysis (Tracy)",
+    "Access to elite virtual courses like Montreux without high club initiation fees",
+    "A growing community with plans for member-only leagues and tournaments"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No on-site kitchen or food service is mentioned."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of an on-site bar or alcohol service. BYOB status is not specified."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "World-leading radar and camera-based launch monitor with AI-powered swing analysis tool, Tracy."
+    }
+  ],
+  "simulator_so": [
+    "Trackman Virtual Golf 3"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://booking.trackmangolf.com/venues/indoorsman-golf-club/memberships",
+  "pricing_model": "membership_only",
+  "price_range_min_local": 129,
+  "price_range_max_local": 299,
+  "currency": "USD",
+  "walk_ins_allowed": false,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 3,
+  "amenities_list": "club_rentals|leagues|wifi|pro_shop|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need my own golf clubs?",
+      "answer": "Yes, as a member, you must bring your own golf clubs to use in the private simulator bays."
+    },
+    {
+      "question": "Can I bring my own food or drink?",
+      "answer": "The website does not specify a policy on bringing outside food or drinks. No on-site kitchen or bar is mentioned."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not provide an estimated time for playing 18 holes. Session lengths are limited by membership tier (2-3 hours max)."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "No. Indoorsman GC is described as a members-only, private club focused on serious golf practice. It is not marketed as a family-friendly or kid-friendly environment."
+    }
+  ],
+  "simulator_software": [
+    "Trackman iO"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

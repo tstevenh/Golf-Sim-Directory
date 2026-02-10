@@ -1,0 +1,91 @@
+{
+  "name": "The FoxHole Golf Club",
+  "address": "213 Greenway Village Ln, Maryville, TN 37801",
+  "city": "Maryville",
+  "region": "Tennessee",
+  "country": "US",
+  "latitude": 35.752643,
+  "longitude": -83.971692,
+  "phone": "+18653250544",
+  "website": "https://www.foxholemaryville.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770221854/golf_simulators/www_foxholemaryville_com_ChIJY_qMTDufXogRTmTMvTMgnCo.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+FoxHole+Golf+Club/@35.7526431,-83.9716921,14z/data=!4m8!1m2!2m1!1sThe+FoxHole+Golf+Club!3m4!1s0x885e9f3b4c8cfa63:0x2a9c2033bdcc644e!8m2!3d35.7526431!4d-83.9716921",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJY_qMTDufXogRTmTMvTMgnCo",
+  "email": "info@thefoxholegolfclub.com",
+  "venue_type": "sim_bar|training_studio|private_rental|retail_fitting_center|country_club|multi_sport_sim|hotel_resort|other",
+  "about": "The FoxHole Golf Club is a premier indoor golf facility in Maryville, Tennessee, featuring state-of-the-art Trackman simulators. The venue is designed for dedicated golfers seeking a professional environment for practice, play, and competition, offering a focused setting for performance and precision. While a full bar setting is available, the club emphasizes a refined clubhouse atmosphere, positioning itself as more than a simulator by providing a premier training ground and an indoor country club experience for serious players.",
+  "tags": "serious_golfers|food_and_drinks|corporate_events|leagues|premium_tech|club_rentals|coaching_available",
+  "vibe_tags": "upscale_lounge|community_club",
+  "who_its_for": "serious_golfers|corporate_teams|solo_practice|coaches_instructors|tourists_travelers",
+  "why_golfers_like_it": [
+    "Access to professional-grade Trackman technology for precise swing and ball flight analysis",
+    "Ability to play over 450+ world-class golf courses with high-fidelity simulation",
+    "Refined social lounge and bar environment for post-game analysis and connection",
+    "Membership perks including priority bookings and exclusive events"
+  ],
+  "kid_friendly": "Children under 13 are not permitted. Children 17 and under must be accompanied by an adult.",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Kitchen and food service available in the social lounge"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar setting available in the refined player's lounge"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Professional-grade radar technology used throughout the facility"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://yourgolfbooking.com/venues/the-fox-hole-golf-club/booking/bays",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "While not explicitly stated, the facility is designed for serious golfers who would likely bring their own clubs. The professional environment and Trackman technology suggest a focus on authentic equipment."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, the FoxHole has an in-house kitchen and full bar. The venue offers food and alcohol service in its refined social lounge and bar setting."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "While not specified, typical indoor golf sessions using Trackman simulators generally take 1.5-2.5 hours for 18 holes depending on the number of players."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "No, children under 13 are not permitted. Children 17 and under must be accompanied by an adult."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"9AM-8PM\"], \"Tuesday\": [\"9AM-8PM\"], \"Wednesday\": [\"9AM-8PM\"], \"Thursday\": [\"7AM-10PM\"], \"Friday\": [\"7AM-10PM\"], \"Saturday\": [\"7AM-10PM\"], \"Sunday\": [\"9AM-8PM\"]}"
+}

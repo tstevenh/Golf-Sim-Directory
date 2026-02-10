@@ -1,0 +1,90 @@
+{
+  "name": "ROK Golf - Westlake",
+  "address": "701 S Capital of Texas Hwy Suite E 520, West Lake Hills, TX 78746",
+  "city": "West Lake Hills",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 30.290658,
+  "longitude": -97.826009,
+  "phone": "+15128564653",
+  "website": "http://www.rokgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770240276/golf_simulators/www_rokgolf_com_ChIJq6qqDzBLW4YRY4-G2dxjom4.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/ROK+Golf+-+Westlake/@30.290657699999997,-97.8260086,14z/data=!4m8!1m2!2m1!1sROK+Golf+-+Westlake!3m4!1s0x865b4b300faaaaab:0x6ea263dcd9868f63!8m2!3d30.290657699999997!4d-97.8260086",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJq6qqDzBLW4YRY4-G2dxjom4",
+  "email": "us.tx.atx.wl@rokgolf.com",
+  "venue_type": "sim_bar|training_studio",
+  "about": "ROK Golf is a golf simulator venue with two Austin locations, Westlake and Bee Cave. The facility features premium Trackman technology across five bays, offering a comprehensive practice and play environment. Memberships are available in tiered plans (Silver, Birdie, Gold) that include reserved bay hours and discounted lessons, with benefits usable at either location. Non-members can also book bay time by the hour. The venue combines high-tech golf simulation with a lounge and sports bar atmosphere, offering beer, wine, and social space. Instruction is a core component, with personalized coaching available using Trackman data analysis.",
+  "tags": "serious_golfers|beginner_friendly|food_and_drinks|coaching_available|corporate_events|leagues|premium_tech|club_rentals|community_club",
+  "vibe_tags": "sports_bar|upscale_lounge|tech_lab",
+  "who_its_for": "serious_golfers|beginners|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Access to premium Trackman technology for detailed swing analysis",
+    "Convenient locations in Austin with flexible booking options",
+    "Membership tiers that include bay hours and discounted lessons",
+    "A social atmosphere combining golf with a sports bar and lounge"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "Not explicitly mentioned, BYOB is not indicated."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Beer and wine are available on-site."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Multiple bays equipped with Trackman launch monitors"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 5,
+  "booking_url": "https://outlook.office.com/book/us.tx.atx.wl@rokgolf.com/?ismsaljsauthenabled",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 110,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|tv_sports|pro_shop|club_fitting|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You will need to bring your own golf clubs to use the simulators, as they are not provided by the venue."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drink are not mentioned as being allowed. The venue offers its own beer and wine for purchase."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time required to play 18 holes is not explicitly stated, but typical simulation sessions can range from 1 to 2 hours depending on the number of players and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, ROK Golf has a family policy that allows parents to share their bay with children under 21 for no extra charge, making it a family-friendly environment."
+    }
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"9AM-10PM\"], \"Saturday\": [\"9AM-7PM\"], \"Sunday\": [\"9AM-7PM\"]}"
+}

@@ -1,0 +1,91 @@
+{
+  "name": "Golf4All",
+  "address": "34432 Yucaipa Blvd Suite D, Yucaipa, CA 92399",
+  "city": "Yucaipa",
+  "region": "California",
+  "country": "US",
+  "latitude": 34.035244,
+  "longitude": -117.053756,
+  "phone": "+19093164201",
+  "website": "http://golf4allyucaipa.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770229144/golf_simulators/golf4allyucaipa_com_ChIJL_uBSyhR24AR4A1WriDVbCM.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Golf4All/@34.035244299999995,-117.0537559,14z/data=!4m8!1m2!2m1!1sGolf4All!3m4!1s0x80db51284b81fb2f:0x236cd520ae560de0!8m2!3d34.035244299999995!4d-117.0537559",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJL_uBSyhR24AR4A1WriDVbCM",
+  "venue_type": "sim_bar",
+  "about": "Golf 4 All is an indoor simulator and lounge facility located in Yucaipa, CA. The venue offers a high-tech golfing experience with state-of-the-art simulators, massive HD screens, and a relaxed atmosphere. Patrons can play on world-class courses, use real clubs and tees, and benefit from simulator tracking technology. The space is designed for various activities, from sharpening swings to socializing with friends in a laid-back environment.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|family_fun_center|corporate_events|leagues|premium_tech|budget_friendly|private_rooms|club_rentals",
+  "vibe_tags": "casual|welcoming|modern|sports_bar",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "State-of-the-art simulators with massive HD screens",
+    "Relaxing lounge atmosphere perfect for socializing",
+    "Ability to bring your own clubs or use theirs",
+    "World-class courses available indoors",
+    "Simulator technology provides detailed tracking"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Kitchen available for food service"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "BYOB not explicitly mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "GIMME",
+      "model": "unknown",
+      "notes": "Premium simulator hardware with advanced tracking capabilities"
+    }
+  ],
+  "simulator_software": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "auto_putt",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.golf4allyucaipa.com/book-online",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 40,
+  "price_range_max_local": 135,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|pro_shop|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, you can use your own clubs or use the ones provided by Golf 4 All."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "The venue has a kitchen for food service, but BYOB policy is not explicitly mentioned."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Time for 18 holes is not specified, but bay rentals are available in 1-hour, 2-hour, and 3-hour blocks."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Golf 4 All is family-friendly and welcomes golfers of all skill levels, including juniors."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"9AM-9PM\"], \"Tuesday\": [\"9AM-9PM\"], \"Wednesday\": [\"9AM-9PM\"], \"Thursday\": [\"9AM-9PM\"], \"Friday\": [\"8AM-10PM\"], \"Saturday\": [\"8AM-10PM\"], \"Sunday\": [\"8AM-9PM\"]}"
+}

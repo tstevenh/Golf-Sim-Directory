@@ -1,0 +1,90 @@
+{
+  "name": "The Harmony Golf Club",
+  "address": "274 N Goodman St Suite D308, Rochester, NY 14610",
+  "city": "Rochester",
+  "region": "New York",
+  "country": "US",
+  "latitude": 43.15865,
+  "longitude": -77.585379,
+  "phone": null,
+  "website": "https://theharmonygolfclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770208796/golf_simulators/theharmonygolfclub_com_ChIJV_YX1RG11okRxSmNMNmBRrY.png",
+  "google_maps_url": "https://www.google.com/maps/place/The+Harmony+Golf+Club/@43.1586496,-77.5853794,14z/data=!4m8!1m2!2m1!1sThe+Harmony+Golf+Club!3m4!1s0x89d6b511d517f657:0xb64681d9308d29c5!8m2!3d43.1586496!4d-77.5853794",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJV_YX1RG11okRxSmNMNmBRrY",
+  "venue_type": "sim_bar|training_studio",
+  "about": "The Harmony Golf Club is an indoor golf simulator venue located in Rochester, NY. The facility provides a private, climate-controlled environment for golfers to practice and play on virtual courses year-round. It features high-tech simulator equipment with 2 high-speed cameras for shot tracking, a 12' hittable HD screen, and realistic golf mats designed to mimic the feel of a fairway. The venue offers private, customizable experiences for individuals and groups, with a focus on providing detailed feedback and data to help golfers of all skill levels improve their game.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|premium_tech|private_rooms|club_rentals|late_night|community_club",
+  "vibe_tags": "private_luxury|tech_lab|casual|welcoming",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "High-speed cameras provide instant shot feedback with in-depth data on ball speed, spin rates, and launch angles",
+    "12-foot HD hittable screen can withstand ball speeds up to 250 mph for a realistic simulation experience",
+    "Real-feel mats with Teeline turf mimic a real-grass feel and provide accurate feedback",
+    "Private, indoor environment allows for golf year-round regardless of weather conditions",
+    "Accommodates groups up to four participants for social golf experiences"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Visitors are welcome to bring their own food or non-alcoholic drinks. Several restaurants are available in the Village Gate Square for before or after sessions."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "BYOB is not mentioned as an option. The FAQ only mentions bringing non-alcoholic drinks."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Eyexyo",
+      "model": "2-Camera System",
+      "notes": "Two high-speed cameras providing instant shot feedback with high accuracy"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 1,
+  "booking_url": "https://theharmonygolfclub.com/book-appointment/",
+  "pricing_model": "per_person_hour",
+  "price_range_min_local": 10,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|wifi|pro_shop|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own golf clubs?",
+      "answer": "Yes, you should bring your own set of golf clubs. The venue provides plenty of golf balls and several choices of tees designed for golf simulator use."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, you're welcome to bring your own food or non-alcoholic drinks. The venue also recommends eating before or after your session at one of the many great restaurants in the Village Gate Square."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "A standard virtual golf session at The Harmony Golf Club typically lasts 1-2 hours."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The venue accommodates groups and is welcoming to all skill levels, but there are no specific mentions of children's activities or equipment in the provided content."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"10AM-7PM\"], \"Wednesday\": [\"10AM-7PM\"], \"Thursday\": [\"10AM-7PM\"], \"Friday\": [\"10AM-7PM\"], \"Saturday\": [\"10AM-7PM\"], \"Sunday\": [\"10AM-7PM\"]}"
+}

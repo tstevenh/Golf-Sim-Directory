@@ -1,0 +1,91 @@
+{
+  "name": "The Lab 301",
+  "address": "17341 Melford Blvd, Bowie, MD 20715",
+  "city": "Bowie",
+  "region": "Maryland",
+  "country": "US",
+  "latitude": 38.957756,
+  "longitude": -76.703415,
+  "phone": "+12023914895",
+  "website": "https://www.thelab301.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770203442/golf_simulators/www_thelab301_com_ChIJkR4rqZ_tt4kRhRTt4a0U9dc.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Lab+301/@38.9577564,-76.7034154,14z/data=!4m8!1m2!2m1!1sThe+Lab+301!3m4!1s0x89b7ed9fa92b1e91:0xd7f514ade1ed1485!8m2!3d38.9577564!4d-76.7034154",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJkR4rqZ_tt4kRhRTt4a0U9dc",
+  "venue_type": "sim_bar",
+  "about": "The Lab 301 is a golf simulator venue that offers a high-tech golfing experience in a modern setting. The facility provides a unique environment for golfers of all skill levels to practice, play virtual courses, or enjoy social rounds. With a focus on technology and comfort, The Lab 301 aims to be a versatile destination for both serious practice and casual play. The venue features multiple simulator bays, a full bar, and secure payment options, making it suitable for individuals, groups, and corporate events. It combines the precision of advanced golf simulation with a social atmosphere, offering amenities like club rentals and a pro shop to enhance the overall experience.",
+  "tags": "food_and_drinks|serious_golfers|beginner_friendly|corporate_events|date_night|premium_tech|private_rooms|club_rentals|budget_friendly|solo_practice",
+  "vibe_tags": "casual|welcoming|modern|tech_lab|sports_bar|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Premium simulator technology for accurate ball and club tracking",
+    "Full bar and kitchen services available for a complete golf and dining experience",
+    "Versatile space suitable for both practice and social rounds",
+    "Convenient online booking and secure payment options",
+    "Multiple simulator bays to accommodate groups or private sessions"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Kitchen and food services available on-site"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with beer, wine, and cocktails"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Premium radar-based launch monitor for precise data"
+    }
+  ],
+  "simulator_software": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://www.thelab301.com/",
+  "pricing_model": "per_person_hour|per_bay_hour|package|mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|pro_shop|leagues|wifi|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, club rentals are available on-site if needed."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue offers a full bar and kitchen services, but outside food and drink policies are not specified."
+    },
+    {
+      "question": "How long does an 18-hole round take?",
+      "answer": "18-hole simulation times typically vary based on simulator software and course complexity, but generally take 1-2 hours."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "No specific information about kid-friendly amenities or policies is available."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"10AM-6PM\"], \"Tuesday\": [\"10AM-6PM\"], \"Wednesday\": [\"10AM-6PM\"], \"Thursday\": [\"10AM-6PM\"], \"Friday\": [\"10AM-8PM\"], \"Saturday\": [\"10AM-8PM\"], \"Sunday\": [\"10AM-8PM\"]}"
+}

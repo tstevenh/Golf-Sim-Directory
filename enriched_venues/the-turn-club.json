@@ -1,0 +1,90 @@
+{
+  "name": "The Turn Club",
+  "address": "1298 Freedom Rd, Cranberry Twp, PA 16066",
+  "city": "Cranberry Twp",
+  "region": "Pennsylvania",
+  "country": "US",
+  "latitude": 40.683426,
+  "longitude": -80.109957,
+  "phone": "+17247898876",
+  "website": "http://theturnclubs.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770261724/golf_simulators/theturnclubs_com_ChIJzxXHVOZjNIgRzMWsUi8QqOY.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Turn+Club/@40.683426,-80.10995679999999,14z/data=!4m8!1m2!2m1!1sThe+Turn+Club!3m4!1s0x883463e654c715cf:0xe6a8102f52acc5cc!8m2!3d40.683426!4d-80.10995679999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJzxXHVOZjNIgRzMWsUi8QqOY",
+  "venue_type": "sim_bar",
+  "about": "The Turn Club is a golf simulator venue and New American restaurant in Cranberry Township, PA. It features TrackMan technology in its golf simulators and offers a full bar and restaurant with gluten-free options, craft cocktails, and local beer. The venue provides a family-friendly atmosphere with a comfortable rotunda bar featuring high-definition TVs, and is suitable for both casual play and serious practice. Catering and event services are available for various occasions, and the venue operates with specific golf and restaurant hours, including a happy hour.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|kids_friendly|corporate_events|leagues|premium_tech|budget_friendly|private_rooms|club_rentals|community_club",
+  "vibe_tags": "family_fun_center|sports_bar|tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "TrackMan technology for precise shot analysis and practice",
+    "Family-friendly environment with full dining options available",
+    "Membership benefits offering discounts and year-round access",
+    "Proximity to UPMC Lemieux Sports Complex for convenience",
+    "Catering and event hosting capabilities for groups"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "New American cuisine with gluten-free options, gourmet appetizers, salads, entrees, burgers, sandwiches, and kids menu available. Full scratch kitchen with house-made recipes."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with craft cocktails and local beer options available."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "TrackMan",
+      "model": "iO",
+      "notes": "Premium golf simulator technology used for swing analysis and gameplay"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://theturnclub.cps.golf/onlineresweb/search-teetime?TeeOffTimeMax=23&TeeOffTimeMin=0",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "While you can bring your own clubs, the venue provides all necessary equipment for simulator play, including TrackMan technology for accurate tracking."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drinks are not allowed as the venue offers a full restaurant and bar with diverse menu options including craft cocktails and local beer."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "18 holes typically take 1-2 hours depending on the number of players and pace of play. Bookings can be made in hourly bay rental slots."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, The Turn Club is family-friendly and offers a kids menu, making it suitable for families and children."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"4-10PM\"], \"Tuesday\": [\"11AM-10PM\"], \"Wednesday\": [\"11AM-10PM\"], \"Thursday\": [\"11AM-10PM\"], \"Friday\": [\"11AM-11PM\"], \"Saturday\": [\"11AM-11PM\"], \"Sunday\": [\"11AM-9PM\"]}"
+}

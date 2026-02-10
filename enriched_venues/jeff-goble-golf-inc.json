@@ -1,0 +1,95 @@
+{
+  "name": "Jeff Goble Golf Inc.",
+  "address": "46029 Five Mile Rd, Plymouth, MI 48170",
+  "city": "Plymouth",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 42.394534,
+  "longitude": -83.497786,
+  "phone": "+17346049919",
+  "website": "http://jeffgoblegolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770241164/golf_simulators/jeffgoblegolf_com_ChIJrRM1ujWVJIgRXEwqloNJZDw.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Jeff+Goble+Golf+Inc./@42.3945343,-83.4977857,14z/data=!4m8!1m2!2m1!1sJeff+Goble+Golf+Inc.!3m4!1s0x88249535ba3513ad:0x3c644983962a4c5c!8m2!3d42.3945343!4d-83.4977857",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJrRM1ujWVJIgRXEwqloNJZDw",
+  "email": "jeffgoble@pga.com",
+  "venue_type": "training_studio",
+  "about": "Jeff Goble Golf Inc. is a premier golf training facility in Plymouth, MI, offering comprehensive coaching programs and professional club fitting services. The venue utilizes advanced technology including TrackMan and Foresight launch monitors, along with 3D swing analysis, pressure mats, and TPI assessments to provide detailed swing instruction. Programs are tailored for various skill levels, from junior development camps to competitive tournament prep and adult private lessons. The facility emphasizes technical analysis, mental performance training, and on-course management for its students.",
+  "tags": "coaching_available|juniors_youth|serious_practice|club_fitting|premium_tech|budget_friendly",
+  "vibe_tags": "industrial_training|community_club",
+  "who_its_for": "serious_golfers|juniors_youth|coaches_instructors",
+  "why_golfers_like_it": [
+    "Comprehensive TrackMan and 3D swing analysis technology",
+    "Professional club fitting services by a TaylorMade National Fitter",
+    "Structured programs for competitive players and college prep",
+    "TPI-certified fitness and swing assessments"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "TrackMan",
+      "model": "unknown",
+      "notes": "TrackMan launch monitor mentioned for lessons and fittings"
+    },
+    {
+      "brand": "Foresight",
+      "model": "unknown",
+      "notes": "Foresight launch monitor mentioned for club fittings"
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://app.acuityscheduling.com/schedule.php?owner=18603306&appointmentType=12055802",
+  "pricing_model": "per_person_hour|package",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|pro_shop|club_fitting",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need my own golf clubs?",
+      "answer": "Equipment is not mentioned, though club rentals and fitting services are available."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No food or drink services are mentioned, indicating BYOB may not be allowed."
+    },
+    {
+      "question": "How long does an 18-hole simulation take?",
+      "answer": "Not specified, as simulator sessions appear to focus on lessons and fittings rather than full gameplay."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "Yes, the venue offers junior camps and training programs for ages 6-15."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"9AM-7PM\"], \"Tuesday\": [\"9AM-7PM\"], \"Wednesday\": [\"9AM-7PM\"], \"Thursday\": [\"9AM-7PM\"], \"Friday\": [\"9AM-7PM\"], \"Saturday\": [\"9AM-5PM\"], \"Sunday\": [\"9AM-5PM\"]}"
+}

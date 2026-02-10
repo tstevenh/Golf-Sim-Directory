@@ -1,0 +1,91 @@
+{
+  "name": "Scarlett's Golf Experience",
+  "address": "4254 W Riverbend Ave, Post Falls, ID 83854",
+  "city": "Post Falls",
+  "region": "Idaho",
+  "country": "US",
+  "latitude": 47.706693,
+  "longitude": -117.006371,
+  "phone": "+15098639766",
+  "website": "http://www.scarlettgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770225988/golf_simulators/www_scarlettgolf_com_ChIJ_7D0Q-3fYVMRhuselXH_F8A.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Scarlett%27s+Golf+Experience/@47.706693,-117.006371,14z/data=!4m8!1m2!2m1!1sScarlett%27s+Golf+Experience!3m4!1s0x5361dfed43f4b0ff:0xc017ff71951eeb86!8m2!3d47.706693!4d-117.006371",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ_7D0Q-3fYVMRhuselXH_F8A",
+  "email": "info@scarlettgolf.com",
+  "venue_type": "sim_bar",
+  "about": "Scarlett's Golf Experience is a virtual golf venue in Post Falls, ID, featuring 11 simulators with HD visuals and ball spin technology across 87 PGA-rated courses. The venue offers a comfortable game room environment with TVs for live sporting events during play, along with a full bar serving beer and wine. Pricing is structured at $40 per hour for up to six people, with booking required for non-operating hours or private parties. The facility also includes a driving range, chipping and putting areas, and plans for professional lessons to begin soon.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|leagues|premium_tech|private_rooms|club_rentals",
+  "vibe_tags": "sports_bar|community_club",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "11 high-definition simulators to choose from",
+    "Patented chipping and putting technology for accuracy",
+    "87 world-class PGA-rated courses available",
+    "Full bar with beer and wine during play",
+    "Live sporting events visible while golfing"
+  ],
+  "kid_friendly": "no",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food mentioned, BYOB not indicated"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with beer and wine available"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Unknown",
+      "model": "Unknown",
+      "notes": "Patented technology mentioned but no specific brand identified"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": 11,
+  "booking_url": "https://scarlettgolf.wpenginepowered.com/about-booking-tee-time/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 40,
+  "price_range_max_local": 40,
+  "currency": "USD",
+  "walk_ins_allowed": "yes",
+  "coaching_available": true,
+  "private_rooms_count": 11,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|tv_sports|private_party_room|pro_shop",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website doesn't specify club rental options, so it's recommended to bring your own clubs unless otherwise confirmed by contacting the venue."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "BYOB is not mentioned, but the venue has a full bar with beer and wine available. Outside food may be restricted."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "While exact timing isn't specified, most simulator sessions are booked by the hour at $40/hour, so 18 holes would likely take 1-2 hours depending on pace."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "No, the venue requires all players to be 21 years and older to play."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-10PM\"], \"Saturday\": [\"10AM-10PM\"], \"Sunday\": [\"11AM-6PM\"]}"
+}

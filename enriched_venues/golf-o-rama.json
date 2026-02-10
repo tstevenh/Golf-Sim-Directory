@@ -1,0 +1,90 @@
+{
+  "name": "Golf-O-Rama",
+  "address": "2944 S Old US Hwy 23, Brighton, MI 48114",
+  "city": "Brighton",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 42.560595,
+  "longitude": -83.756441,
+  "phone": "+18102279322",
+  "website": "https://www.golf-o-rama.net/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770216398/golf_simulators/www_golf-o-rama_net_ChIJFa7CEMlaI4gRw-4hfdqdoFM.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Golf-O-Rama/@42.560594599999995,-83.7564407,14z/data=!4m8!1m2!2m1!1sGolf-O-Rama!3m4!1s0x88235ac910c2ae15:0x53a09dda7d21eec3!8m2!3d42.560594599999995!4d-83.7564407",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJFa7CEMlaI4gRw-4hfdqdoFM",
+  "venue_type": "sim_bar",
+  "about": "Golf-O-Rama is an indoor golf simulator venue located in Brighton, Michigan, offering year-round play regardless of weather conditions. The facility features three Par-T Golf Double Eagle Simulators with over 100 world-renowned courses, including St. Andrew's, Augusta National, and Pebble Beach, allowing golfers to play full rounds or practice on a driving range. Pricing is structured on a per-bay-hour basis, with rates of $30-$35 depending on the day, and the venue emphasizes its accessibility for golfers in Southeastern Michigan, convenient to Ann Arbor, Metro Detroit, Flint, and Lansing. The venue is open from October 1st to April 31st, closed Mondays, and offers winter leagues and scrambles for those looking to stay competitive during the off-season.",
+  "tags": "food_and_drinks|leagues|beginner_friendly|serious_golfers|families|budget_friendly|corporate_events|date_night",
+  "vibe_tags": "casual|welcoming|modern|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Full swing simulation on Par-T Golf Double Eagle Simulators",
+    "Access to over 100 world-class golf courses",
+    "Protection from all weather conditions for year-round play",
+    "Convenient location near major Michigan highways",
+    "Affordable hourly pricing for groups"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Vending machines with soft drinks and snacks. Guests are welcome to bring carry-out food or have pizza delivered."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "The only thing missing is beer carts; no alcohol is mentioned as being available on-site."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Par-T Golf",
+      "model": "Double Eagle Simulator",
+      "notes": "Three full swing simulators with over 100 course options."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://www.golf-o-rama.net/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 30,
+  "price_range_max_local": 35,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": 3,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|kitchen_food|tv_sports|leagues|ada_accessible",
+  "rating_tech_quality": 4.0,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 4.2,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The content does not explicitly state whether clubs are provided, so it is recommended to bring your own."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, guests are welcome to bring carry-out food or have pizza delivered. Vending machines are also available for snacks and soft drinks."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The content does not specify the duration for an 18-hole round, but typical simulator play ranges from 1.5 to 2.5 hours depending on pace."
+    },
+    {
+      "question": "Is Golf-O-Rama kid-friendly?",
+      "answer": "Yes, the venue is family-friendly and allows groups of all sizes, making it suitable for families to play together."
+    }
+  ],
+  "rating_overall": 4.1,
+  "opening_hours": null
+}

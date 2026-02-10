@@ -1,0 +1,90 @@
+{
+  "name": "24 Precision Golf",
+  "address": "4929 E Chandler Blvd Suite 401-403, Phoenix, AZ 85048",
+  "city": "Phoenix",
+  "region": "Arizona",
+  "country": "US",
+  "latitude": 33.304375,
+  "longitude": -111.977727,
+  "phone": "+16022841612",
+  "website": "https://24precisiongolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770209863/golf_simulators/24precisiongolf_com_ChIJlQ85hisFK4cRRwoHwKMSyWw.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/24+Precision+Golf/@33.3043749,-111.9777266,14z/data=!4m8!1m2!2m1!1s24+Precision+Golf!3m4!1s0x872b052b86390f95:0x6cc912a3c0070a47!8m2!3d33.3043749!4d-111.9777266",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJlQ85hisFK4cRRwoHwKMSyWw",
+  "venue_type": "sim_bar",
+  "about": "24 Precision Golf is an indoor golf facility that provides a state-of-the-art simulation experience powered by Golfzon TwoVisionNX technology. The venue features advanced simulators with moving swing plates, high-speed camera sensors, and an auto-tee system, designed to replicate realistic golf conditions for players of all skill levels. Pricing is offered on a per-bay-hour basis, with sessions available for 1, 2, or 3 hours, making it suitable for both casual players and those looking for serious practice. The facility also hosts leagues, tournaments, and corporate events, offering a comprehensive golf destination year-round.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|coaching_available|juniors_youth|club_rentals|group_activities",
+  "vibe_tags": "tech_lab|modern|welcoming|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "Advanced GOLFZON TwoVisionNX simulator technology with moving swing plates for realistic lie simulation",
+    "High-speed camera sensors capturing 400 frames per second for zero-latency feedback",
+    "Auto-tee and ball retrieval system to maintain a fast pace of play",
+    "Climate-controlled environment ideal for year-round play in Arizona",
+    "Access to over 260 virtual courses, including world-famous layouts"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "On-site food available via the Smokehouse Swing Lunch Special with Southern-style plates from Sweet Magnolia Smokehouse. BYOB policy not specified."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No information provided regarding alcohol service."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "GOLFZON",
+      "model": "TwoVisionNX",
+      "notes": "Advanced simulator with moving swing plate and motion plates, featuring Unreal Engine 5 graphics. High-speed camera sensors capture 400 frames per second for instant feedback."
+    }
+  ],
+  "simulator_software": [
+    "Golfzon Software"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://24precisiongolf.com/book/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 50,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|lockers|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The facility does not specify whether clubs are provided. It is recommended to bring your own clubs for the most accurate simulation experience."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue offers a lunch special with food from Sweet Magnolia Smokehouse. There is no mention of a BYOB policy, so it is best to inquire directly about external food and drink."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "While the exact time for 18 holes is not specified, the auto-tee system and high-speed sensors are designed to minimize delays, allowing for a faster pace of play compared to traditional golf."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, 24 Precision Golf offers junior golf camps and lessons, making it a suitable environment for young golfers to learn and practice in a safe setting."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": null
+}

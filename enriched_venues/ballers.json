@@ -1,0 +1,91 @@
+{
+  "name": "Ballers",
+  "address": "1325 N Beach St, Philadelphia, PA 19125",
+  "city": "Philadelphia",
+  "region": "Pennsylvania",
+  "country": "US",
+  "latitude": 39.967446,
+  "longitude": -75.126293,
+  "phone": "+12677614288",
+  "website": "https://www.ballers-us.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770229372/golf_simulators/www_ballers-us_com_ChIJB9p8GwDJxokR4DKGyiVpELI.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Ballers/@39.967445999999995,-75.12629299999999,14z/data=!4m8!1m2!2m1!1sBallers!3m4!1s0x89c6c9001b7cda07:0xb2106925ca8632e0!8m2!3d39.967445999999995!4d-75.12629299999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJB9p8GwDJxokR4DKGyiVpELI",
+  "email": "join.phl@ballers-us.com",
+  "venue_type": "multi_sport_sim",
+  "about": "Ballers is a multi-sport social club that offers a premium indoor golf simulation experience alongside other athletic activities like pickleball, soccer, and tennis. The venue features multiple simulator bays designed for both casual play and serious practice, providing a professional-grade environment for golfers of all skill levels. Members and non-members have access to the facilities, with various membership tiers offering benefits such as discounted simulator time, priority booking, and complimentary guest passes. The club emphasizes a social, upscale atmosphere with amenities including a full-service restaurant, bar, and wellness facilities, making it a destination for both athletic activity and social gatherings.",
+  "tags": "food_and_drinks|corporate_events|leagues|premium_tech|club_rentals|coaching_available|private_rooms|upscale_lounge|community_club",
+  "vibe_tags": "upscale_lounge|sports_bar|community_club|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Multiple professional-grade simulator bays for high-quality practice and play",
+    "Comprehensive club storage options and advanced booking windows for members",
+    "All-day access to simulator facilities with peak and off-peak availability",
+    "Integrated food and beverage options for a complete social golf experience",
+    "Access to global partner clubs, extending the membership benefits beyond the local venue"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full-service restaurant available on-site with a detailed food menu."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with cocktails available for service during and after play."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "unknown",
+      "notes": "Premium launch monitor technology for accurate ball and club tracking."
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": 4,
+  "booking_url": "https://book.ballers-us.com/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|lockers|pro_shop|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you will need to bring your own golf clubs to use the simulator bays."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drink are not permitted; the venue has its own full-service restaurant and bar available."
+    },
+    {
+      "question": "How long does an 18-hole round take?",
+      "answer": "An 18-hole round typically takes between 1-2 hours depending on the number of players and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Ballers is kid-friendly and offers activities and programming suitable for families and children."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"6AM-10PM\"], \"Tuesday\": [\"6AM-10PM\"], \"Wednesday\": [\"6AM-10PM\"], \"Thursday\": [\"6AM-10PM\"], \"Friday\": [\"6AM-10PM\"], \"Saturday\": [\"7AM-10PM\"], \"Sunday\": [\"7AM-10PM\"]}"
+}

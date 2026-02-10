@@ -1,0 +1,89 @@
+{
+  "name": "Valley Golf Center",
+  "address": "562 Danbury Rd, New Milford, CT 06776",
+  "city": "New Milford",
+  "region": "Connecticut",
+  "country": "US",
+  "latitude": 41.509822,
+  "longitude": -73.42139,
+  "phone": "+18607997605",
+  "website": "http://www.valleygolfcenterct.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770219746/golf_simulators/www_valleygolfcenterct_com_ChIJmY6FM53354kR6KBl-CWBJP4.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Valley+Golf+Center/@41.5098215,-73.4213895,14z/data=!4m8!1m2!2m1!1sValley+Golf+Center!3m4!1s0x89e7f79d33858e99:0xfe248125f865a0e8!8m2!3d41.5098215!4d-73.4213895",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJmY6FM53354kR6KBl-CWBJP4",
+  "venue_type": "multi_sport_sim",
+  "about": "Valley Golf Center is a family-owned and operated golf facility with over 30 years of experience, offering a golf course experience in a driving range setting along with an 18-hole miniature golf course. The venue features year-round teaching instruction by golf professional Bob Dugan, utilizing high-definition video analysis and FlightScope golf swing technology. For indoor play, they offer a simulator with FlightScope X3 and TruGolf E6 Connect software with over 90 virtual courses available. The facility also provides outdoor driving range with course-like features and a self-service driving range option. Operating hours for the shop and mini golf are 10am till 8pm, with the self-service driving range open 24/7 requiring exact change cash payment.",
+  "tags": "beginner_friendly|kids_friendly|corporate_events|premium_tech|budget_friendly|coaching_available|private_rooms|club_rentals",
+  "vibe_tags": "family_fun_center|tech_lab|community_club|welcoming|modern",
+  "who_its_for": "beginners|families|juniors_youth|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Professional instruction with advanced FlightScope X3 swing analysis technology",
+    "Year-round indoor simulator access with TruGolf E6 Connect and over 90 virtual courses",
+    "Family-friendly environment with both adult and junior pricing options",
+    "Natural outdoor setting with target flags and water features on the driving range"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of on-site food service"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "FlightScope",
+      "model": "X3",
+      "notes": "Radar-based launch monitor with 24 club and ball parameters, used for both instruction and simulation"
+    }
+  ],
+  "simulator_software": [
+    "TruGolf E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 16,
+  "booking_url": "unknown",
+  "pricing_model": "mixed",
+  "price_range_min_local": 30,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|pro_shop|club_fitting|leagues|coaching_available",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website doesn't explicitly state, but since they offer club rentals and regripping services, they likely have equipment available for those who don't have their own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "There is no mention of food or drink service at the venue, and no restrictions on outside items are specified."
+    },
+    {
+      "question": "How long does it take to play 18 holes on the simulator?",
+      "answer": "The website doesn't specify the duration for 18 holes on the simulator, but typical simulator play ranges from 1-2 hours depending on course complexity and player pace."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, Valley Golf Center explicitly markets as family-friendly with special pricing for children (12 & Under) at $5 for mini golf and mentions they offer activities great for all ages."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-8PM\"], \"Tuesday\": [\"10AM-8PM\"], \"Wednesday\": [\"10AM-8PM\"], \"Thursday\": [\"10AM-8PM\"], \"Friday\": [\"10AM-8PM\"], \"Saturday\": [\"10AM-8PM\"], \"Sunday\": [\"10AM-8PM\"]}"
+}

@@ -1,0 +1,93 @@
+{
+  "name": "Suite Shots",
+  "address": "3400 James Wy S, Fargo, ND 58104",
+  "city": "Fargo",
+  "region": "North Dakota",
+  "country": "US",
+  "latitude": 46.807175,
+  "longitude": -96.835504,
+  "phone": "+17015324653",
+  "website": "https://suiteshotsfargo.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770208569/golf_simulators/suiteshotsfargo_com_ChIJ_Yx8XXfNyFIRCHX9nJOUBQI.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Suite+Shots/@46.807175,-96.83550439999999,14z/data=!4m8!1m2!2m1!1sSuite+Shots!3m4!1s0x52c8cd775d7c8cfd:0x20594939cfd7508!8m2!3d46.807175!4d-96.83550439999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ_Yx8XXfNyFIRCHX9nJOUBQI",
+  "email": "info@suiteshots.com",
+  "venue_type": "sim_bar",
+  "about": "Suite Shots Fargo is a premier entertainment venue featuring indoor golf simulators alongside a full-service grill and lounge. The facility provides a variety of golf experiences including multi-sport simulators, Toptracer driving range technology, and outdoor hitting areas. It is designed for both casual players and serious golfers, with offerings like leagues, lessons, and club fitting services. The venue also hosts events, live music, and social gatherings, creating a multi-purpose entertainment hub. Pricing is accessible with options like hourly bay rates, VIP memberships, and special deals such as unlimited weekday golf for $15 per person.",
+  "tags": "food_and_drinks|beginner_friendly|date_night|kids_friendly|corporate_events|leagues|premium_tech|budget_friendly|private_rooms|coaching_available",
+  "vibe_tags": "sports_bar|family_fun_center|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "5 indoor Full Swing simulators with advanced tracking technology for realistic play",
+    "Toptracer Range bays with instant shot replays and statistical feedback",
+    "Junior-friendly offerings including free bays for golfers 18 and under",
+    "Multi-sport software options for non-golf entertainment like football, hockey, and zombie dodgeball",
+    "On-site PXG club fitting for premium equipment customization"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full-service kitchen with burgers, fries, and other food items available at DJ's Grill & Lounge. Sunday Burger Bundle includes 4 burgers, 4 drinks, fries, and 1 hour of outdoor golf for $60."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar at DJ's Grill & Lounge with happy hour specials Monday-Friday, 3:30pm-6:30pm ($5 taps and house wine, half-price apps)."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Full Swing",
+      "model": "Simulator",
+      "notes": "5 indoor Full Swing simulators with advanced tracking technology, industry-standard used by professionals like Tiger Woods."
+    }
+  ],
+  "simulator_software": [
+    "Showdown Golf",
+    "PinSeeker",
+    "MultiSport Software"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 12,
+  "booking_url": "https://www.sevenrooms.com/reservations/suiteshots?duration_picker=true",
+  "pricing_model": "mixed",
+  "price_range_min_local": 15,
+  "price_range_max_local": 30,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|leagues|club_fitting|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you will need to bring your own golf clubs to play in the simulators. Club rentals are not mentioned as an available service."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, outside food and drinks are not allowed. DJ's Grill & Lounge offers a full menu and bar options on-site."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes depends on the simulator software and number of players, but typical rounds last 1-2 hours. Unlimited golf options are available weekdays until 12pm."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Suite Shots offers free bays for junior golfers 18 and younger on specific days and times, along with family-oriented events and a casual atmosphere."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"11AM-10PM\"], \"Tuesday\": [\"11AM-10PM\"], \"Wednesday\": [\"11AM-10PM\"], \"Thursday\": [\"11AM-10PM\"], \"Friday\": [\"11AM-12AM\"], \"Saturday\": [\"10AM-12AM\"], \"Sunday\": [\"10AM-10PM\"]}"
+}

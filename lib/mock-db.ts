@@ -26,6 +26,8 @@ const mockVenues: Venue[] = [
     tags: ["date_night", "corporate_events", "serious_practice"],
     vibeTags: ["premium", "social", "competitive"],
     simulatorSystems: [{ brand: "Trackman", model: "4" }],
+    hardwareBrands: ["trackman"],
+    softwareSlugs: ["e6", "trackman-virtual"],
     launchMonitorType: LaunchMonitorType.radar,
     ballTracking: true,
     clubTracking: true,
@@ -92,6 +94,8 @@ const mockVenues: Venue[] = [
     tags: ["serious_practice", "coaching_available"],
     vibeTags: ["training_focused", "professional"],
     simulatorSystems: [{ brand: "GCQuad", model: "GCQuad" }],
+    hardwareBrands: ["gc-quad"],
+    softwareSlugs: ["fsx"],
     launchMonitorType: LaunchMonitorType.photometric_camera,
     ballTracking: true,
     clubTracking: true,
@@ -158,6 +162,8 @@ const mockVenues: Venue[] = [
     tags: ["date_night", "groups", "kid_friendly"],
     vibeTags: ["casual", "rowdy", "social"],
     simulatorSystems: [{ brand: "Toptracer", model: "Range" }],
+    hardwareBrands: ["toptracer"],
+    softwareSlugs: [],
     launchMonitorType: LaunchMonitorType.radar,
     ballTracking: true,
     clubTracking: false,
@@ -205,11 +211,13 @@ const mockVenues: Venue[] = [
 ];
 
 // Mock DB interface
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export const mockDb = {
   venue: {
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     findMany: async ({ where, orderBy, take, skip, select, distinct }: any = {}) => {
+      void orderBy;
+      void skip;
+      void select;
       let results = [...mockVenues];
       
       if (where?.status) {
@@ -223,9 +231,22 @@ export const mockDb = {
         const stateQuery = where.state.equals.toLowerCase();
         results = results.filter(v => v.state.toLowerCase() === stateQuery);
       }
+      if (where?.country) {
+        results = results.filter(v => v.country === where.country);
+      }
       if (where?.city?.not?.equals) {
         const cityQuery = where.city.not.equals.toLowerCase();
         results = results.filter(v => v.city.toLowerCase() !== cityQuery);
+      }
+      if (where?.id?.in) {
+        const ids = new Set(where.id.in);
+        results = results.filter(v => ids.has(v.id));
+      }
+      if (where?.hardwareBrands?.has) {
+        results = results.filter(v => (v.hardwareBrands || []).includes(where.hardwareBrands.has));
+      }
+      if (where?.softwareSlugs?.has) {
+        results = results.filter(v => (v.softwareSlugs || []).includes(where.softwareSlugs.has));
       }
       if (where?.featured === true) {
         results = results.filter(v => v.featured);
@@ -307,11 +328,15 @@ export const mockDb = {
     },
   },
   favorite: {
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any, @typescript-eslint/no-unused-vars
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     findMany: async ({ where, include, orderBy }: any = {}) => {
+      void where;
+      void include;
+      void orderBy;
       return [];
     },
     findUnique: async ({ where }: { where: { userId_venueId: { userId: string; venueId: string } } }) => {
+      void where;
       return null;
     },
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -321,6 +346,7 @@ export const mockDb = {
   },
   user: {
     findUnique: async ({ where }: { where: { id?: string; email?: string } }) => {
+      void where;
       return null;
     },
     // eslint-disable-next-line @typescript-eslint/no-explicit-any

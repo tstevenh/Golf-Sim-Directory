@@ -1,0 +1,92 @@
+{
+  "name": "Airway Hills Golf Center",
+  "address": "4811 Pullman Airport Rd, Pullman, WA 99163",
+  "city": "Pullman",
+  "region": "Washington",
+  "country": "US",
+  "latitude": 46.7517,
+  "longitude": -117.066548,
+  "phone": "+15098723092",
+  "website": "https://airwayhills.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770234820/golf_simulators/airwayhills_com_ChIJk9XkeXmIn1QRaCL9m7eZqcs.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Airway+Hills+Golf+Center/@46.751699599999995,-117.066548,14z/data=!4m8!1m2!2m1!1sAirway+Hills+Golf+Center!3m4!1s0x549f887979e4d593:0xcba999b79bfd2268!8m2!3d46.751699599999995!4d-117.066548",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJk9XkeXmIn1QRaCL9m7eZqcs",
+  "email": "trent@airwayhills.com",
+  "venue_type": "multi_sport_sim",
+  "about": "Airway Hills Golf & Event Center is a family-run 'fun hub' located between Moscow, ID and Pullman, WA. The facility offers a diverse range of activities including a mini golf course, a 24-hour driving range, a pro shop, and golf simulators. It also provides vacation rentals, event hosting, and various leagues and lessons. The venue is known for its scenic views of the Palouse, welcoming atmosphere, and activities suitable for all ages and skill levels.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|kids_friendly|corporate_events|leagues|budget_friendly|club_rentals|coaching_available",
+  "vibe_tags": "family_fun_center|community_club|casual|welcoming",
+  "who_its_for": "families|large_groups|corporate_teams|solo_practice|tourists_travelers",
+  "why_golfers_like_it": [
+    "Temperature-controlled simulator bays for year-round play",
+    "Over 80 virtual golf courses available to choose from",
+    "Variety of leagues with flexible play schedules and affordable pricing",
+    "On-site pro shop with club fittings and repairs",
+    "Scenic location with views of the Palouse"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Pizza and other food available on-site"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Beer and wine menu available"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Unknown",
+      "model": "Unknown",
+      "notes": "Website mentions 'brand new golf simulators' but does not specify brand or model"
+    }
+  ],
+  "simulator_software": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://foreupsoftware.com/index.php/booking/20851/5884#teetimes",
+  "pricing_model": "per_bay_hour|mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 175,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|kitchen_food|tv_sports|private_party_room|pro_shop|club_fitting|leagues",
+  "rating_tech_quality": 4.0,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Rental clubs are available for use on the driving range and in the simulators."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "The venue offers a food and drink menu, but outside food and drink may not be permitted."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Play time varies, but simulators offer the flexibility to play at your own pace. Leagues are designed to accommodate convenience-based play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Airway Hills is highly kid-friendly, featuring a mini golf course, party packages, and activities suitable for all ages. For events, they require one adult chaperone per 10 children or one per simulator in use."
+    }
+  ],
+  "rating_overall": 4.1,
+  "opening_hours": "{\"Monday\": [\"11:30AM-8PM\"], \"Tuesday\": [\"11:30AM-8PM\"], \"Wednesday\": [\"11:30AM-8PM\"], \"Thursday\": [\"11:30AM-8PM\"], \"Friday\": [\"10AM-8PM\"], \"Saturday\": [\"10AM-8PM\"], \"Sunday\": [\"1-6PM\"]}"
+}

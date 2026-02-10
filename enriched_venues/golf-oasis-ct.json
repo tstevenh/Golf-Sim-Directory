@@ -1,0 +1,94 @@
+{
+  "name": "Golf Oasis CT",
+  "address": "695 Main St, Monroe, CT 06468",
+  "city": "Monroe",
+  "region": "Connecticut",
+  "country": "US",
+  "latitude": 41.339172,
+  "longitude": -73.263037,
+  "phone": "+12038809720",
+  "website": "http://www.golfoasisct.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770209047/golf_simulators/www_golfoasisct_com_ChIJZZ8iPY_j54kRc_dEf6j6Brc.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Golf+Oasis+CT/@41.3391721,-73.263037,14z/data=!4m8!1m2!2m1!1sGolf+Oasis+CT!3m4!1s0x89e7e38f3d229f65:0xb706faa87f44f773!8m2!3d41.3391721!4d-73.263037",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJZZ8iPY_j54kRc_dEf6j6Brc",
+  "email": "info@golfoasisct.com",
+  "venue_type": "sim_bar",
+  "about": "Golf Oasis CT is a golf simulation venue offering hourly bay rentals for up to four players per hour. The facility combines high-tech golf simulators with a sports bar atmosphere, featuring Zuppardi's Pizza and a full bar with 7 TVs for sports viewing. It operates on a pay-per-hour model rather than per person, allowing groups to split costs. The venue also hosts private events, leagues, and offers coaching services. It is open daily from 10 AM to 10 PM, providing flexible hours for both casual and serious golfers.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|budget_friendly|private_rooms|coaching_available",
+  "vibe_tags": "sports_bar|family_fun_center|community_club|modern",
+  "who_its_for": "families|large_groups|corporate_teams|beginners|solo_practice",
+  "why_golfers_like_it": [
+    "Pay-per-hour pricing model is cost-effective for groups of up to four",
+    "Full bar with sports TVs and pizza creates a casual social atmosphere",
+    "Venue is available for private events and league play",
+    "Coaching services are available for skill development"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Zuppardi's Pizza available on-site"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar available with multiple TVs for sports viewing"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Premium radar technology for accurate ball and club tracking"
+    }
+  ],
+  "simulator_so": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://booking.trackmangolf.com/venues/golf-oasis/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 40,
+  "price_range_max_local": 40,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 0,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|leagues|coaching_available",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify whether clubs are provided or if you must bring your own. It's recommended to bring your own clubs for the best experience."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Golf Oasis CT offers on-site food (Zuppardi's Pizza) and a full bar. It does not mention a BYOB policy, so outside food and drinks may not be permitted."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify the time required to complete 18 holes. Since pricing is per hour, the duration would depend on the players' pace and group size."
+    },
+    {
+      "question": "Is Golf Oasis CT kid-friendly?",
+      "answer": "Yes, the venue appears kid-friendly as it allows up to 4 players per bay, offers a casual sports bar atmosphere with pizza, and is open during family-friendly hours."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-10PM\"], \"Saturday\": [\"10AM-10PM\"], \"Sunday\": [\"10AM-10PM\"]}"
+}

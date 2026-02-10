@@ -1,0 +1,91 @@
+{
+  "name": "Golf Lounge 18",
+  "address": "220 Indian River Rd, Orange, CT 06477",
+  "city": "Orange",
+  "region": "Connecticut",
+  "country": "US",
+  "latitude": 41.262387,
+  "longitude": -73.002423,
+  "phone": "+12033075134",
+  "website": "http://www.golflounge18.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770209159/golf_simulators/www_golflounge18_com_ChIJ4UaorGh16IkRSzHgvR8nroM.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Golf+Lounge+18/@41.2623868,-73.0024233,14z/data=!4m8!1m2!2m1!1sGolf+Lounge+18!3m4!1s0x89e87568aca846e1:0x83ae271fbde0314b!8m2!3d41.2623868!4d-73.0024233",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ4UaorGh16IkRSzHgvR8nroM",
+  "email": "info@golflounge18.com",
+  "venue_type": "sim_bar",
+  "about": "Golf Lounge 18 is a multi-location indoor golf facility that utilizes Trackman 4 technology in its simulator bays. The venues are designed for socializing and playing golf, featuring a full bar, food menu, and multiple HDTVs for watching sports. Reservations can be made online for members up to 21 days in advance and for non-members up to 7 days in advance, with walk-ins also welcome. The facilities host a variety of offerings including leagues, lessons, junior academies, and corporate or private events.",
+  "tags": "food_and_drinks|leagues|coaching_available|beginner_friendly|corporate_events|juniors_youth|premium_tech|private_rooms",
+  "vibe_tags": "sports_bar|family_fun_center|tech_lab|community_club",
+  "who_its_for": "beginners|families|corporate_teams|solo_practice|juniors_youth",
+  "why_golfers_like_it": [
+    "State-of-the-art Trackman 4 Dual Radar Technology for precise ball and club tracking",
+    "Access to over 450 world-famous golf courses for play and practice",
+    "Full bar and food menu available on-site for a complete social experience",
+    "Flexible hourly bay rates that can be split among groups",
+    "Welcoming atmosphere for all skill levels, from beginners to serious golfers"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "An expanded food menu is available, with catering options for events."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Facilities are equipped with a full bar serving drinks."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "Dual Radar Technology, trusted by hundreds of pros"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://golflounge18.com/book/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify if club rentals are available, so it is recommended to bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, outside food and drinks are not allowed. The venue has its own full bar and an expanded food menu available for purchase."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not provide a specific time estimate for completing 18 holes."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue offers a Junior Academy for group instruction and clinics, making it suitable for children."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"8AM-11PM\"], \"Saturday\": [\"8AM-11PM\"], \"Sunday\": [\"8AM-11PM\"]}"
+}

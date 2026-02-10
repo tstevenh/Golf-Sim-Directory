@@ -1,0 +1,89 @@
+{
+  "name": "The Deep End",
+  "address": "3601 US-83 BUS, Harlingen, TX 78552",
+  "city": "Harlingen",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 26.184339,
+  "longitude": -97.735517,
+  "phone": "+19562300507",
+  "website": "https://www.thedeependrgv.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770252273/golf_simulators/www_thedeependrgv_com_ChIJ9VFJawCBb4YRe2ze3ozVi34.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Deep+End/@26.184338999999998,-97.735517,14z/data=!4m8!1m2!2m1!1sThe+Deep+End!3m4!1s0x866f81006b4951f5:0x7e8bd58cdede6c7b!8m2!3d26.184338999999998!4d-97.735517",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ9VFJawCBb4YRe2ze3ozVi34",
+  "email": "info@thedeependrgv.com",
+  "venue_type": "sim_bar",
+  "about": "The Deep End is a family entertainment venue in the RGV offering a multi-sport experience centered around golf simulation. It features State-of-the-Art Trackman Golf Simulators in an indoor facility, complemented by pool tables, darts, and arcade games. With over 40 TVs streaming sports, a full bar with 30+ self-serve taps, and a kitchen serving food, it is designed as a comprehensive destination for play, dining, and viewing. The venue operates on a reservation basis for golf bays and pool tables, with distinct pricing for weekdays versus weekends. It caters to individuals, groups, and event bookings, positioning itself as a go-to spot for casual and competitive entertainment.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|kids_friendly|corporate_events|premium_tech|sports_bar|family_fun_center|party_atmosphere|community_club",
+  "vibe_tags": "sports_bar|family_fun_center|party_atmosphere|community_club|casual|welcoming",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams|tourists_travelers",
+  "why_golfers_like_it": [
+    "Access to premium Trackman technology for accurate swing analysis and practice",
+    "A fun, social atmosphere with multiple entertainment options beyond golf",
+    "On-site food and drinks allow for a complete, convenient experience without leaving the venue"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Kitchen available with a menu including pizzas, sandwiches, and other bites"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with over 30 self-serve, temperature-controlled beer taps and drink specials"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "unknown",
+      "notes": "State-of-the-Art Trackman Golf Simulators"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.thedeependrgv.com/golf-bay-reservation",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 30,
+  "price_range_max_local": 50,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|kitchen_food|tv_sports|private_party_room|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue provides all necessary equipment for the golf simulators, so you do not need to bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, outside food and drinks are not permitted as The Deep End has an on-site kitchen and full bar with drink specials and food options available."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "While a specific time for 18 holes is not provided, golf is booked by the hour, with rates of $30/hour on weekdays and variable rates on weekends."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, The Deep End is described as a family entertainment venue with activities like arcade games, and it hosts events, making it suitable for families and kids."
+    }
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"4PM-12AM\"], \"Tuesday\": [\"Closed\"], \"Wednesday\": [\"4PM-12AM\"], \"Thursday\": [\"4PM-12AM\"], \"Friday\": [\"11AM-2AM\"], \"Saturday\": [\"11AM-2AM\"], \"Sunday\": [\"11AM-12AM\"]}"
+}

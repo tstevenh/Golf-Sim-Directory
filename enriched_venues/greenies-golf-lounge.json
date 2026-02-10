@@ -1,0 +1,90 @@
+{
+  "name": "Greenies Golf Lounge",
+  "address": "4595 NY-31, Clay, NY 13041",
+  "city": "Clay",
+  "region": "New York",
+  "country": "US",
+  "latitude": 43.186746,
+  "longitude": -76.197128,
+  "phone": "+13156603818",
+  "website": "https://greeniesgolflounge.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770229224/golf_simulators/greeniesgolflounge_com_ChIJ6SNAvELp2YkRj_2oK5Yo9-M.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Greenies+Golf+Lounge/@43.186745699999996,-76.1971284,14z/data=!4m8!1m2!2m1!1sGreenies+Golf+Lounge!3m4!1s0x89d9e942bc4023e9:0xe3f728962ba8fd8f!8m2!3d43.186745699999996!4d-76.1971284",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ6SNAvELp2YkRj_2oK5Yo9-M",
+  "email": "GREENIESGOLFLOUNGE@GMAIL.COM",
+  "venue_type": "sim_bar",
+  "about": "Greenies Golf Lounge and Par Bar is a premium indoor golf experience that combines cutting-edge technology with a customer-centric approach. The venue utilizes Golfzon simulators to offer year-round access to over 290 courses, catering to both serious golfers and social groups. With a full-service bar and kitchen, Greenies provides a comprehensive lounge experience for sports enthusiasts seeking a fun, all-encompassing environment.",
+  "tags": "serious_golfers|food_and_drinks|date_night|corporate_events|leagues|premium_tech|private_rooms|late_night|group_events",
+  "vibe_tags": "upscale_lounge|sports_bar|tech_lab",
+  "who_its_for": "serious_golfers|families|corporate_teams|large_groups|solo_practice",
+  "why_golfers_like_it": [
+    "Access to over 290 courses on state-of-the-art Golfzon simulators year-round",
+    "Extensive after-hours access for members with no off-season restrictions",
+    "Premium Black Tee Bay available for group events and large parties",
+    "In-house full bar with self-pour beer wall and gourmet food offerings"
+  ],
+  "kid_friendly": "yes",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen offering gourmet burgers, appetizers, and shareables."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full-service bar with signature cocktails, beer, wine, and an 8-tap self-pour beer wall."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Golfzon",
+      "model": "unknown",
+      "notes": "State-of-the-art simulators with updated software and course access."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.greeniesgolflounge.com/book-online",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|leagues|ada_accessible",
+  "rating_tech_quality": 4.0,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need a membership to golf?",
+      "answer": "No, golf simulators are open to all. We do recommend a tee-time to ensure you can golf when you would like. Members get after-hours access from 11 PM - 1 AM."
+    },
+    {
+      "question": "Can I bring my own clubs?",
+      "answer": "Yes, we highly encourage guests to bring their own clubs. Rental sets are available for adults and kids on a first-come, first-served basis. Only spikeless shoes are permitted on our simulator surfaces."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "For the average golfer, it takes anywhere from 45 minutes to 1 hour to play a round of 18 holes. For each additional golfer, add an hour."
+    },
+    {
+      "question": "Is Greenies kid-friendly?",
+      "answer": "The venue does not explicitly state its policy on children, but it does offer food and events that could accommodate families. Contact the venue directly for specific inquiries."
+    }
+  ],
+  "rating_overall": 4.1,
+  "opening_hours": "{\"Monday\": [\"11AM-10PM\"], \"Tuesday\": [\"11AM-10PM\"], \"Wednesday\": [\"11AM-10PM\"], \"Thursday\": [\"11AM-10PM\"], \"Friday\": [\"11AM-11PM\"], \"Saturday\": [\"11AM-11PM\"], \"Sunday\": [\"11AM-9PM\"]}"
+}

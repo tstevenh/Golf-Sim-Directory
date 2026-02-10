@@ -1,0 +1,91 @@
+{
+  "name": "Eagle Crest Golf Club",
+  "address": "Golf Club, 1201 S Huron St, Ypsilanti, MI 48197",
+  "city": "Ypsilanti",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 42.225658,
+  "longitude": -83.611868,
+  "phone": "+17344872441",
+  "website": "https://eaglecrestresort.com/%3Futm_source%3DGMB%2520Listing%26utm_medium%3DOrganic",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770216524/golf_simulators/eaglecrestresort_com_ChIJFfHKCnKoPIgRZ160_Hi5t6U.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Eagle+Crest+Golf+Club/@42.2256577,-83.6118685,14z/data=!4m8!1m2!2m1!1sEagle+Crest+Golf+Club!3m4!1s0x883ca8720acaf115:0xa5b7b978fcb45e67!8m2!3d42.2256577!4d-83.6118685",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJFfHKCnKoPIgRZ160_Hi5t6U",
+  "email": "wblevins@eaglecrestresort.com",
+  "venue_type": "sim_bar",
+  "about": "Eagle Crest Golf Club is a public and collegiate golf facility owned by Eastern Michigan University, featuring an 18-hole course and four indoor Trackman simulator bays. The venue offers a dual experience with outdoor golf in warmer months and indoor simulation year-round, adjacent to the Lakeview Restaurant and Bar for integrated dining options. Their Trackman simulator facility allows golfers to play world-renowned courses or practice with food and beverage service available, making it a versatile destination for both on-course and off-season play.",
+  "tags": "food_and_drinks|serious_golfers|beginner_friendly|corporate_events|leagues|premium_tech|club_rentals|coaching_available",
+  "vibe_tags": "community_club|tech_lab|casual|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|corporate_teams|families|solo_practice",
+  "why_golfers_like_it": [
+    "Premium Trackman simulator technology",
+    "On-site dining with full bar service",
+    "Flexible hourly bay rentals and memberships",
+    "Integrated with on-course golf experience",
+    "Available for both practice and virtual play on famous courses"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full menu available at Lakeview Restaurant & Bar, with winter menu downloadable online"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available at the restaurant, adjacent to simulator bays"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Four brand-new indoor Trackman simulator bays, opened in November 2023"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "auto_putt",
+  "lefty_friendly": true,
+  "bay_count_total": 4,
+  "booking_url": "https://eagle-crest-simulator.book.teeitup.com/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 55,
+  "price_range_max_local": 70,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 4,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|lockers|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue doesn't explicitly state club rental availability, so it's recommended to bring your own clubs. They do offer club fitting services."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drinks are not mentioned, but the venue has an on-site restaurant and bar (Lakeview Restaurant & Bar) with full menu and bar service available."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The content doesn't specify exact timing for simulator rounds, but Trackman simulator sessions are typically rented by the hour."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Eagle Crest is described as family-friendly and open to the public, making it suitable for golfers of all ages, including juniors and youth players."
+    }
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"12-8PM\"], \"Tuesday\": [\"12-8PM\"], \"Wednesday\": [\"12-8PM\"], \"Thursday\": [\"12-8PM\"], \"Friday\": [\"12-8PM\"], \"Saturday\": [\"12-8PM\"], \"Sunday\": [\"12-8PM\"]}"
+}

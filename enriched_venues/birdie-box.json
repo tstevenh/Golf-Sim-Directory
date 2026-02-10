@@ -1,0 +1,94 @@
+{
+  "name": "Birdie Box",
+  "address": "1929 2nd Ave SW, Cullman, AL 35055",
+  "city": "Cullman",
+  "region": "Alabama",
+  "country": "US",
+  "latitude": 34.149541,
+  "longitude": -86.8343,
+  "phone": "+12567475660",
+  "website": "https://www.birdie-box.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770242206/golf_simulators/www_birdie-box_com_ChIJzSxEA6wbiIgRAwj5Aki1DdU.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Birdie+Box/@34.149541299999996,-86.8342998,14z/data=!4m8!1m2!2m1!1sBirdie+Box!3m4!1s0x88881bac03442ccd:0xd50db54802f90803!8m2!3d34.149541299999996!4d-86.8342998",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJzSxEA6wbiIgRAwj5Aki1DdU",
+  "email": "support@birdie-box.com",
+  "venue_type": "sim_bar",
+  "about": "Birdie Box is an indoor golf simulator and clubhouse in Cullman, Alabama, offering access to over 20,000 Garmin courses with real-time stats and premium technology. The facility features simulator bays, a clubhouse with food and drinks, and options for public play, memberships with 24/7 access, and group events. It is designed for casual play, practice, and social gatherings, catering to both golf enthusiasts and those looking for a relaxed indoor experience.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|private_rooms|club_rentals|family_friendly|coaching_available",
+  "vibe_tags": "sports_bar|community_club|casual|welcoming|modern",
+  "who_its_for": "beginners|families|corporate_teams|large_groups|solo_practice",
+  "why_golfers_like_it": [
+    "20,000+ Garmin courses including famous locations like Augusta National",
+    "Premium Garmin Approach R50 simulator with radar technology tracking over 20 data metrics",
+    "Clubhouse atmosphere with food, drinks, and social events",
+    "24/7 access for members",
+    "Regular league nights and tournaments"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Clubhouse bites available"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Cold beer and refreshing seltzers available"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Garmin",
+      "model": "Approach R50",
+      "notes": "Industry-leading golf simulator with tour-level accuracy and performance"
+    }
+  ],
+  "simulator_so": [
+    "Garmin Approach"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://birdiebox.gymmasteronline.com/portal/account/book/class/schedule?companyid=2&week=2026-1-13",
+  "pricing_model": "mixed",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify whether clubs are provided, so it is recommended to bring your own clubs or contact the venue for clarification."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue offers food and beverages, but it does not explicitly mention a BYOB policy. Contact Birdie Box for details on outside food and drink policies."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not provide specific timing for 18 holes, but league nights play 9-hole competitions. Contact the venue for estimated play times."
+    },
+    {
+      "question": "Is Birdie Box kid-friendly?",
+      "answer": "Yes, Birdie Box is kid-friendly and welcomes families. It offers activities and events suitable for all ages, including juniors and youth."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"11AM-2PM\", \"4-9PM\"], \"Tuesday\": [\"11AM-2PM\", \"4-9PM\"], \"Wednesday\": [\"11AM-2PM\", \"4-9PM\"], \"Thursday\": [\"11AM-2PM\", \"4-9PM\"], \"Friday\": [\"11AM-2PM\", \"4-10PM\"], \"Saturday\": [\"11AM-3PM\", \"5-10PM\"], \"Sunday\": [\"1-7PM\"]}"
+}

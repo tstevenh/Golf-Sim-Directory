@@ -1,0 +1,96 @@
+{
+  "name": "Get Loose Golf Club",
+  "address": "3903 Indian River Rd, Chesapeake, VA 23325",
+  "city": "Chesapeake",
+  "region": "Virginia",
+  "country": "US",
+  "latitude": 36.822063,
+  "longitude": -76.232214,
+  "phone": "+17572062836",
+  "website": "http://www.getloosegolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770206737/golf_simulators/www_getloosegolf_com_ChIJcQQzEPa9uokRVpiEBOWPg6s.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Get+Loose+Golf+Club/@36.8220625,-76.2322137,14z/data=!4m8!1m2!2m1!1sGet+Loose+Golf+Club!3m4!1s0x89babdf610330471:0xab838fe504849856!8m2!3d36.8220625!4d-76.2322137",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJcQQzEPa9uokRVpiEBOWPg6s",
+  "email": "contact@getloosegolf.com",
+  "venue_type": "sim_bar",
+  "about": "Get Loose Golf is a 24/7 indoor golf facility located in Chesapeake, VA, offering a membership-based space for flexible and private play. The venue features a state-of-the-art simulator suite equipped with premium GSPRO and Uneekor Gameday systems, providing access to over 1,600 virtual courses worldwide. Designed for convenience and affordability, it allows members to schedule sessions on their time and bring up to three guests per visit. The facility emphasizes a relaxed and welcoming atmosphere with dedicated staff support available during weekend hours.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|private_rooms|club_rentals|community_club",
+  "vibe_tags": "casual|welcoming|modern|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "24/7 accessibility for ultimate flexibility",
+    "Premium GSPRO and Uneekor Gameday technology for accurate simulation",
+    "Private and comfortable environment for groups up to 4 guests",
+    "BYOB policy and relaxed atmosphere for social play",
+    "Dedicated staff support during weekend hours"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Patrons are allowed to bring their own food."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Patrons are allowed to bring their own drinks (BYOB)."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "GSPRO",
+      "model": "GSPro Simulator System",
+      "notes": "State-of-the-art simulator system with over 1600 courses."
+    },
+    {
+      "brand": "Uneekor",
+      "model": "Gameday",
+      "notes": "Premium launch monitor system with dual-camera technology."
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.getloosegolf.com/book-online",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "yes",
+  "coaching_available": "unknown",
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|tv_sports|private_party_room|wifi|pro_shop|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, players are expected to bring their own golf clubs to use with the simulators."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, the venue allows patrons to bring their own food and non-alcoholic beverages. Alcohol is also permitted with a BYOB policy."
+    },
+    {
+      "question": "How long does an 18-hole round typically take?",
+      "answer": "The time for an 18-hole round can vary depending on the number of players and pace of play, but sessions are booked by the hour."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The facility is geared towards adult golfers and does not specifically advertise itself as kid-friendly."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"Closed\"], \"Wednesday\": [\"Closed\"], \"Thursday\": [\"Closed\"], \"Friday\": [\"Closed\"], \"Saturday\": [\"12-6PM\"], \"Sunday\": [\"12-6PM\"]}"
+}

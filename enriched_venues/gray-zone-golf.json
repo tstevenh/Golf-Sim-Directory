@@ -1,0 +1,83 @@
+{
+  "name": "Gray Zone Golf",
+  "address": "1004 Industrial Dr, Pleasant Hill, MO 64080",
+  "city": "Pleasant Hill",
+  "region": "Missouri",
+  "country": "US",
+  "latitude": 38.815587,
+  "longitude": -94.265984,
+  "phone": "+18162871566",
+  "website": "https://grayzonegolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770212242/golf_simulators/grayzonegolf_com_ChIJIbw8EvclwYcRYPG3I75MKYk.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Gray+Zone+Golf/@38.8155873,-94.26598399999999,14z/data=!4m8!1m2!2m1!1sGray+Zone+Golf!3m4!1s0x87c125f7123cbc21:0x89294cbe23b7f160!8m2!3d38.8155873!4d-94.26598399999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJIbw8EvclwYcRYPG3I75MKYk",
+  "email": "info@grayzonegolf.com",
+  "venue_type": "sim_bar|training_studio",
+  "about": "Gray Zone Golf, operating as The Tee Box, is an indoor golf simulator facility that provides a year-round golfing experience regardless of weather conditions. The venue features state-of-the-art golf simulators with advanced tracking technology to capture detailed swing and ball data, offering players the ability to play on world-renowned courses with realistic gameplay. Catering to various skill levels from beginners to seasoned golfers, the facility provides a comfortable, climate-controlled environment for practice, play, and social events. Pricing is structured per simulator bay with options for hourly bookings and membership plans.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|premium_tech|club_rentals|solo_practice|budget_friendly|leagues",
+  "vibe_tags": "tech_lab|community_club|casual|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "State-of-the-art simulator technology with precise shot analysis",
+    "Year-round indoor access to world-renowned golf courses",
+    "Caters to all skill levels in a comfortable, climate-controlled environment"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Pre-packaged, non-perishable, and low-maintenance food items available for purchase."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "Outside food and drinks are not allowed."
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://clients.uschedule.com/grayzonegolf/booking",
+  "pricing_model": "per_bay_hour|mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|tv_sports|private_party_room|wifi|pro_shop|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, clean clubs are required. The facility does not mention club rentals."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drinks are not allowed, but a variety of pre-packaged snack options are available for purchase."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify the duration for playing 18 holes."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The venue does not explicitly mention being kid-friendly, and the absence of alcohol service suggests a more focused environment."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"3-10PM\"], \"Tuesday\": [\"3-10PM\"], \"Wednesday\": [\"3-10PM\"], \"Thursday\": [\"3-10PM\"], \"Friday\": [\"3-10PM\"], \"Saturday\": [\"10AM-10PM\"], \"Sunday\": [\"3-10PM\"]}"
+}

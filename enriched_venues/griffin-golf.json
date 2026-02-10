@@ -1,0 +1,89 @@
+{
+  "name": "Griffin Golf",
+  "address": "13701 24th St E Suite F-6, Sumner, WA 98390",
+  "city": "Sumner",
+  "region": "Washington",
+  "country": "US",
+  "latitude": 47.23899,
+  "longitude": -122.245802,
+  "phone": "+12537500649",
+  "website": "http://www.teamgriffingolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770261074/golf_simulators/www_teamgriffingolf_com_ChIJsy80krD5kFQRiCrTsFOl-IA.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Griffin+Golf/@47.238990099999995,-122.24580239999999,14z/data=!4m8!1m2!2m1!1sGriffin+Golf!3m4!1s0x5490f9b092342fb3:0x80f8a553b0d32a88!8m2!3d47.238990099999995!4d-122.24580239999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJsy80krD5kFQRiCrTsFOl-IA",
+  "email": "info@teamgriffingolf.com",
+  "venue_type": "training_studio",
+  "about": "Griffin Golf is a year-round golf instruction and practice facility in Washington, operating an indoor studio to combat unpredictable weather. They offer a range of programs for all ages and skill levels, from youth development like Birdie Basics and Operation 36 to adult coaching and high-performance LTD programs for aspiring competitive players. The facility is equipped with advanced technology, including Foresight Sports GCQuad Simulators, Boditrak Pressure Mats, and CoachNow video software, allowing for comprehensive game analysis and practice in a controlled environment.",
+  "tags": "beginner_friendly|kids_friendly|coaching_available|serious_practice|family_friendly|juniors_youth",
+  "vibe_tags": "industrial_training|community_club|casual|welcoming",
+  "who_its_for": "beginners|serious_golfers|families|juniors_youth|coaches_instructors",
+  "why_golfers_like_it": [
+    "12-month indoor access regardless of weather",
+    "Advanced technology suite including GCQuad launch monitors and video analysis",
+    "Structured curriculum programs like Operation 36 for skill progression"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of food service"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight Sports",
+      "model": "GCQuad",
+      "notes": "High-end photometric launch monitor with dual units available"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.teamgriffingolf.com/book-now",
+  "pricing_model": "mixed",
+  "price_range_min_local": 45,
+  "price_range_max_local": 325,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|pro_shop|coaching_available",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website mentions providing 'magic shoes and magic tracks' for young golfers in the Birdie Basics program and 'no equipment needed' for ladies' bootcamps. For other programs, it's recommended to bring your own clubs as it's not explicitly stated that they are provided."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "There is no mention of food or drink policies on the website. It is common for indoor facilities to allow personal non-alcoholic beverages, but it's best to confirm directly with the venue."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website details a 3-day summer camp that includes a 9-hole round from Operation 36 yardage. This suggests that a full 9-hole play session is part of their programming, but specific time estimates for 18 holes are not provided."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Griffin Golf offers several programs specifically designed for children, including Birdie Basics for ages 3-6, Operation 36 for ages 7-14, and the LTD Program for ages 14+, making it very kid-friendly."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"12-6PM\"], \"Tuesday\": [\"10AM-7PM\"], \"Wednesday\": [\"10AM-7PM\"], \"Thursday\": [\"10AM-6PM\"], \"Friday\": [\"10AM-6PM\"], \"Saturday\": [\"10AM-4PM\"], \"Sunday\": [\"10AM-4PM\"]}"
+}

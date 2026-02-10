@@ -1,0 +1,92 @@
+{
+  "name": "Golf Center of Arlington",
+  "address": "1301 NE Green Oaks Blvd, Arlington, TX 76006",
+  "city": "Arlington",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 32.784842,
+  "longitude": -97.090725,
+  "phone": "+18174699005",
+  "website": "https://golfcenterofarlington.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770210977/golf_simulators/golfcenterofarlington_com_ChIJuwp86lWHToYRNkiuHxrXSDA.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Golf+Center+of+Arlington/@32.7848423,-97.0907246,14z/data=!4m8!1m2!2m1!1sGolf+Center+of+Arlington!3m4!1s0x864e8755ea7c0abb:0x3048d71a1fae4836!8m2!3d32.7848423!4d-97.0907246",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJuwp86lWHToYRNkiuHxrXSDA",
+  "email": "Play@GolfCenterofArlington.com",
+  "venue_type": "multi_sport_sim",
+  "about": "Golf Center of Arlington is a premier golf destination in the Dallas-Fort Worth metroplex, featuring an award-winning driving range with Toptracer and TrackMan technologies. The facility offers a comprehensive golf experience with 36-hole miniature golf, putting and chipping greens, and covered and heated bays for year-round play. It also includes a local craft beer bar with over 50 options and amenities like the PowerTee automatic teeing system and a pristine grass hitting area. The venue is designed for various activities, from individual practice to hosting large events like corporate outings, birthday parties, and fundraisers.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|kids_friendly|coaching_available|juniors_youth|family_fun_center",
+  "vibe_tags": "family_fun_center|tech_lab|casual|welcoming",
+  "who_its_for": "beginners|families|corporate_teams|juniors_youth|large_groups",
+  "why_golfers_like_it": [
+    "State-of-the-art Toptracer and TrackMan technologies for advanced ball flight data",
+    "Variety of amenities including a craft beer bar and 36-hole miniature golf course",
+    "Heated and covered bays for year-round comfort and play"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No explicit mention of food service beyond the bar"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Local craft beer bar with over 50 options available"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "TrackMan",
+      "model": "iO",
+      "notes": "High-end launch monitor with advanced ball tracking"
+    }
+  ],
+  "simulator_so": [
+    "Toptracer"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://book.squareup.com/appointments/fmidi6w535rbiv/location/DD44CWNZ2BKZK/services/5CQXVP3GBEOPK3JBGFQLOJLL",
+  "pricing_model": "mixed",
+  "price_range_min_local": 10,
+  "price_range_max_local": 25,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|club_rentals|tv_sports|private_party_room|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, club rentals are available, though bringing your own clubs is recommended for a personalized experience."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "No outside food or drink is allowed, but the venue has a craft beer bar with over 50 options."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time varies, but typically 18 holes on the Toptracer system takes 1-2 hours depending on the number of players and the game mode chosen."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is very kid-friendly, featuring a 36-hole miniature golf course and options for hosting birthday parties."
+    }
+  ],
+  "simulator_software": [
+    "Toptracer"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"9AM-11PM\"], \"Saturday\": [\"9AM-11PM\"], \"Sunday\": [\"9AM-9PM\"]}"
+}

@@ -1,0 +1,88 @@
+{
+  "name": "White Plains Golf Course",
+  "address": "4000 Plantation Dr, Cookeville, TN 38506",
+  "city": "Cookeville",
+  "region": "Tennessee",
+  "country": "US",
+  "latitude": 36.179067,
+  "longitude": -85.431559,
+  "phone": "+19315376397",
+  "website": "http://whiteplainsgolfcourse.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770267317/golf_simulators/whiteplainsgolfcourse_com_ChIJwdj2WP0XZ4gRO5y92243Wg0.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/White+Plains+Golf+Course/@36.1790672,-85.4315586,14z/data=!4m8!1m2!2m1!1sWhite+Plains+Golf+Course!3m4!1s0x886717fd58f6d8c1:0xd5a376edbbd9c3b!8m2!3d36.1790672!4d-85.4315586",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJwdj2WP0XZ4gRO5y92243Wg0",
+  "email": "wpgcdog@gmail.com",
+  "venue_type": "multi_sport_sim",
+  "about": "White Plains Golf Course is a public golf facility with a SkyTrak Plus golf simulator, located in Cookeville, TN. The venue offers year-round play, weather permitting, with a focus on accessibility for all players. They provide a variety of membership options, leagues, and events, along with a pro shop featuring custom club fitting services and equipment from major brands. The simulator technology and amenities are designed for both casual play and serious practice sessions.",
+  "tags": "beginner_friendly|corporate_events|leagues|premium_tech|budget_friendly|private_rooms|club_rentals|coaching_available|food_and_drinks",
+  "vibe_tags": "casual|welcoming|modern|community_club",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "SkyTrak Plus simulator offers advanced indoor play year-round",
+    "Custom club fitting services with sessions often offered at no charge",
+    "Variety of membership options and leagues for regular players",
+    "Public course with a welcoming atmosphere for all skill levels"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "On-site dining available with a full kitchen"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "SkyTrak",
+      "model": "Plus",
+      "notes": "Indoor golf simulator technology"
+    }
+  ],
+  "simulator_software": [],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": null,
+  "booking_url": "https://www.whiteplainsgolfcourse.com/teetimes/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": null,
+  "coaching_available": true,
+  "private_rooms_count": null,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|kitchen_food|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 3.5,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 4.2,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, players should bring their own clubs to use with the simulator. Custom club fitting services are available on-site."
+    },
+    {
+      "question": "Can I bring my own food or drink?",
+      "answer": "The venue has an on-site dining kitchen, but no mention of outside food or drink policies was found."
+    },
+    {
+      "question": "How long does it take to play 18 holes on the simulator?",
+      "answer": "Standard playtime for 18 holes on a simulator typically takes 1-2 hours depending on pace of play."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, White Plains Golf Course appears to be kid-friendly as they are described as a public course that welcomes all players."
+    }
+  ],
+  "rating_overall": 3.9,
+  "opening_hours": "{\"Monday\": [\"7AM-7PM\"], \"Tuesday\": [\"7AM-7PM\"], \"Wednesday\": [\"7AM-7PM\"], \"Thursday\": [\"7AM-7PM\"], \"Friday\": [\"7AM-7PM\"], \"Saturday\": [\"7AM-7PM\"], \"Sunday\": [\"7AM-7PM\"]}"
+}

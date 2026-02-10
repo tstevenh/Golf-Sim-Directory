@@ -1,0 +1,91 @@
+{
+  "name": "Tee Box Centerville",
+  "address": "702 W 400 S, Centerville, UT 84014",
+  "city": "Centerville",
+  "region": "Utah",
+  "country": "US",
+  "latitude": 40.913478,
+  "longitude": -111.890068,
+  "phone": "+18012159168",
+  "website": "https://tbx.golf/centerville",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770233484/golf_simulators/tbx_golf_ChIJgZPEJqj5UocRtl3ZRPiZUtE.png",
+  "google_maps_url": "https://www.google.com/maps/place/Tee+Box+Centerville/@40.913478,-111.8900685,14z/data=!4m8!1m2!2m1!1sTee+Box+Centerville!3m4!1s0x8752f9a826c49381:0xd15299f844d95db6!8m2!3d40.913478!4d-111.8900685",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJgZPEJqj5UocRtl3ZRPiZUtE",
+  "venue_type": "training_studio",
+  "about": "Tee Box Centerville is a 24-hour indoor golf training facility located in Centerville, Utah. The venue focuses on comprehensive game improvement rather than casual entertainment, utilizing advanced TrackMan simulators to provide precise data on swing mechanics, ball flight, and club movement. The facility offers a holistic approach to golf development, combining swing evaluation with strength and fitness programs, nutrition coaching, and club fitting services. The environment is designed to support golfers of all levels with a professional, open, and inviting atmosphere that encourages serious practice and community engagement. Membership options include access to private instruction, league play, and state-of-the-art training tools. The facility also features a gym and a Puttview area for putting practice.",
+  "tags": "indoor_golf|training_studio|trackman|coaching|club_fitting|fitness|24_hours|leagues|serious_practice",
+  "vibe_tags": "industrial_training|professional|welcoming|modern|focus|intensive",
+  "who_its_for": "serious_golfers|beginners|juniors_youth|solo_practice|coaches_instructors",
+  "why_golfers_like_it": [
+    "Open 24 hours for flexible scheduling",
+    "Comprehensive 'Box Assessment' combining swing and physical evaluation",
+    "TrackMan simulators for precise data analysis",
+    "On-site strength and fitness gym for golf-specific training",
+    "Professional club fitting and repair services",
+    "Inclusive community with leagues and group events"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned; appears to be a training facility"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No bar service mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "TrackMan",
+      "model": "unknown",
+      "notes": "Utilizes TrackMan SIM technology with radar and camera tracking"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "TrackMan",
+  "ball_tracking": "Radar",
+  "club_tracking": "Radar",
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "https://book.tbx.golf/users/sign_in",
+  "pricing_model": "Membership",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": false,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "Trackman Simulators|Gym|Strength & Fitness Area|Club Fitting|Club Repair|Private Instruction|Changing Rooms|Puttview|Locker Rooms|Wi-Fi|Parking",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "While bringing your own clubs is recommended for fittings, the venue offers club rentals and repairs. It is best to confirm availability when booking your assessment."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The facility focuses on training and fitness. While specific outside food policies are not listed, there is no mention of a restaurant or bar on-site."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Typically, 18 holes on a simulator can take about 45 to 60 minutes, depending on the pace of play and the number of players in the bay."
+    },
+    {
+      "question": "Is this kid-friendly?",
+      "answer": "Yes, Tee Box Centerville is kid-friendly and offers youth programs. They have patient coaches dedicated to nurturing a love for the game in young golfers."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

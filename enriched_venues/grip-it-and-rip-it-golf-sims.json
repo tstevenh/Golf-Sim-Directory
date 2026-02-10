@@ -1,0 +1,89 @@
+{
+  "name": "Grip it and Rip it Golf Sims",
+  "address": "3377 S County Trl, East Greenwich, RI 02818",
+  "city": "East Greenwich",
+  "region": "Rhode Island",
+  "country": "US",
+  "latitude": 41.605563,
+  "longitude": -71.496196,
+  "phone": "+14013883230",
+  "website": "https://gripitandripitgolfsims.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770209293/golf_simulators/gripitandripitgolfsims_com_ChIJSZMcGIu15YkRQWwr9yF4BEM.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Grip+it+and+Rip+it+Golf+Sims/@41.6055628,-71.4961957,14z/data=!4m8!1m2!2m1!1sGrip+it+and+Rip+it+Golf+Sims!3m4!1s0x89e5b58b181c9349:0x43047821f72b6c41!8m2!3d41.6055628!4d-71.4961957",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJSZMcGIu15YkRQWwr9yF4BEM",
+  "venue_type": "sim_bar",
+  "about": "Grip it and Rip it Golf Sims is an indoor golf venue in South County, Rhode Island, offering a premier experience with top-of-the-line technology and a comfortable, private space. The facility features FlightScope Mevo+ launch monitors and E6 Connect software, providing a realistic, responsive golf simulation experience without weather or tee time constraints. It is suitable for solo practice, casual rounds with friends, and various events, with bays available for 60-90 minute sessions.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|premium_tech|club_rentals|private_rooms|coaching_available",
+  "vibe_tags": "casual|welcoming|modern",
+  "who_its_for": "serious_golfers|families|solo_practice|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "Professional-grade FlightScope Mevo+ launch monitors providing detailed real-time swing data",
+    "Access to over 90 world-famous golf courses including Pinehurst, Bay Hill, and Torrey Pines via E6 Connect",
+    "BYOB-friendly get-togethers in a private space perfect for practice or play",
+    "Easy online booking system with flexible time slots"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of on-site food service"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "BYOB-friendly get-togethers allowed"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "FlightScope",
+      "model": "Mevo+",
+      "notes": "Professional-grade launch monitor providing real-time data on ball speed, club path, launch angle, and spin"
+    }
+  ],
+  "simulator_software": [
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://clients.uschedule.com/gripitandripit/booking?filter=loc[14503]",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 90,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|private_party_room|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you must bring your own clubs as the venue provides everything else you need to get started."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "Yes, the venue is BYOB-friendly, allowing you to bring your own drinks. No mention of outside food is made."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Most players book for 60-90 minutes depending on group size."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is welcoming to beginners and offers a low-pressure setting for learning, making it suitable for families and kids."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"8AM-3PM\"], \"Tuesday\": [\"8AM-6PM\"], \"Wednesday\": [\"9AM-5PM\"], \"Thursday\": [\"8AM-6PM\"], \"Friday\": [\"9AM-4PM\"], \"Saturday\": [\"9AM-4PM\"], \"Sunday\": [\"10AM-4PM\"]}"
+}

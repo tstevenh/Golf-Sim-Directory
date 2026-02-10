@@ -1,0 +1,91 @@
+{
+  "name": "The Bunker Club",
+  "address": "NA, Royal Oak, MI 49203",
+  "city": "Royal Oak",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 42.485794,
+  "longitude": -83.118504,
+  "phone": "+15177459100",
+  "website": "https://www.playbunkerclubgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770203288/golf_simulators/www_playbunkerclubgolf_com_ChIJFYs2sJ3PJIgRhRRRmKEyuGk.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Bunker+Club/@42.4857942,-83.1185035,14z/data=!4m8!1m2!2m1!1sThe+Bunker+Club!3m4!1s0x8824cf9db0368b15:0x69b832a198511485!8m2!3d42.4857942!4d-83.1185035",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJFYs2sJ3PJIgRhRRRmKEyuGk",
+  "email": "founder@playbunkerclubgolf.com",
+  "venue_type": "sim_bar",
+  "about": "The Bunker Club is an upcoming indoor golf venue in Royal Oak, Michigan, featuring premium TrackMan simulators in a high-end, clubhouse-inspired atmosphere. The venue offers both hourly bookings and 24/7 memberships, targeting golfers seeking a serious practice environment or a place to socialize. Currently in development, it emphasizes a premium experience with smart-access technology and a focus on community, designed to raise the standard for indoor golf in Southeast Michigan.",
+  "tags": "serious_golfers|food_and_drinks|date_night|corporate_events|leagues|premium_tech|private_rooms|club_rentals|late_night|coaching_available",
+  "vibe_tags": "upscale_lounge|sports_bar|tech_lab|community_club",
+  "who_its_for": "serious_golfers|corporate_teams|solo_practice|large_groups|tourists_travelers",
+  "why_golfers_like_it": [
+    "Premium TrackMan 4 simulators for the most accurate data and performance analysis",
+    "24/7 access for flexible practice sessions, ideal for serious golfers with busy schedules",
+    "High-end, clubhouse-inspired atmosphere designed for both focused practice and social play",
+    "Exclusive founding memberships offering lifetime perks and early access benefits",
+    "Located in Royal Oak, Michigan, serving the Southeast Michigan area with a focus on quality"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Available; venue describes a premium, clubhouse-inspired atmosphere."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Available; venue describes a premium, clubhouse-inspired atmosphere suitable for events."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "TrackMan",
+      "model": "4",
+      "notes": "Cutting-edge TrackMan simulators are the core technology of the venue."
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.playbunkerclubgolf.com/founding-members",
+  "pricing_model": "mixed",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|lockers|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.9,
+  "rating_facility_comfort": 4.5,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own golf clubs?",
+      "answer": "Players must bring their own golf clubs to use at The Bunker Club, as the venue does not mention club rentals."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "The Bunker Club offers a full bar and kitchen food, but policies on outside food and drink are not explicitly stated."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "The time to play 18 holes is not specified, as the focus is on TrackMan simulator use for practice or play with flexible session lengths."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The Bunker Club is not marketed as kid-friendly; its atmosphere and focus are directed towards serious golfers and adults."
+    }
+  ],
+  "rating_overall": 4.5,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

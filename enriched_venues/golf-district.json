@@ -1,0 +1,90 @@
+{
+  "name": "Golf District",
+  "address": "1808 W Francis Ave, Spokane, WA 99205",
+  "city": "Spokane",
+  "region": "Washington",
+  "country": "US",
+  "latitude": 47.716619,
+  "longitude": -117.438511,
+  "phone": "+15095031000",
+  "website": "http://www.thegolfdistrict.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770214703/golf_simulators/www_thegolfdistrict_com_ChIJH0el0ocZnlQRFT-tL9dQcKw.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Golf+District/@47.7166186,-117.4385106,14z/data=!4m8!1m2!2m1!1sGolf+District!3m4!1s0x549e1987d2a5471f:0xac7050d72fad3f15!8m2!3d47.7166186!4d-117.4385106",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJH0el0ocZnlQRFT-tL9dQcKw",
+  "email": "TheGolfDistrict@gmail.com",
+  "venue_type": "sim_bar",
+  "about": "Golf District is an indoor golf facility in Spokane, WA, featuring 10 aboutGOLF simulators. It operates as a family-owned sports bar with a full kitchen and bar, combining a virtual golf experience with social and dining options. Each bay accommodates up to six players and is equipped with technology designed to provide an immersive and realistic golf simulation. The venue offers league play, lessons with a pro, and event hosting for corporate gatherings, birthdays, and private parties.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|group_friendly|coaching_available|social_gathering",
+  "vibe_tags": "sports_bar|family_fun_center|community_club",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|social_golfers",
+  "why_golfers_like_it": [
+    "State-of-the-art aboutGOLF simulator technology providing accurate ball tracking and immersive gameplay",
+    "A full bar and kitchen with a locally-sourced beer, wine, and cider selection to enhance the experience",
+    "League play options with weekly competitions and prizes for a fun, competitive environment",
+    "Private and semi-private event spaces available for corporate gatherings and parties"
+  ],
+  "kid_friendly": "no",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen with a curated menu including bar bites like mozzarella sticks and chicken tenders, as well as lighter fare like salads."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with locally sourced beers, wines, ciders, and spirits. A rotating selection of 12 taps."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "aboutGOLF",
+      "model": "unknown",
+      "notes": "Top-tier simulator technology crafted for accuracy and immersive indoor golf experiences."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 10,
+  "booking_url": "https://foreupsoftware.com/index.php/booking/22017/9598#teetimes",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 35,
+  "price_range_max_local": 40,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|kitchen_food|private_party_room|leagues|coaching_available|tv_sports",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify whether clubs are provided, so it is recommended to bring your own."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, the venue has a full bar and kitchen on-site, and guests must be 21 or older."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify the time required to complete 18 holes, but it mentions booking by the hour."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "No, Golf District is a sports bar and guests must be 21 or older."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-10PM\"], \"Saturday\": [\"10AM-10PM\"], \"Sunday\": [\"10AM-10PM\"]}"
+}

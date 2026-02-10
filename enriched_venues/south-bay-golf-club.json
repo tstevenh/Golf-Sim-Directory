@@ -1,0 +1,91 @@
+{
+  "name": "South Bay Golf Club",
+  "address": "1601 Pacific Coast Hwy Ste. 180, Hermosa Beach, CA 90254",
+  "city": "Hermosa Beach",
+  "region": "California",
+  "country": "US",
+  "latitude": 33.867009,
+  "longitude": -118.394314,
+  "phone": "+14243585281",
+  "website": "https://www.sbgolfclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770203630/golf_simulators/www_sbgolfclub_com_ChIJfTUlPhCzwoARB03o-VGiMRc.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/South+Bay+Golf+Club/@33.8670086,-118.394314,14z/data=!4m8!1m2!2m1!1sSouth+Bay+Golf+Club!3m4!1s0x80c2b3103e25357d:0x1731a251f9e84d07!8m2!3d33.8670086!4d-118.394314",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJfTUlPhCzwoARB03o-VGiMRc",
+  "email": "info@sbgolfclub.com",
+  "venue_type": "sim_bar|training_studio",
+  "about": "South Bay Golf Club is an indoor golf simulator facility featuring five bays equipped with TrackMan iO technology. They offer a convenient, welcoming environment for golfers to play on over 350 virtual courses without the crowds of traditional courses. The facility operates on an hourly, package, and membership pricing model, with no initiation or cancellation fees for memberships. Their focus is on providing a space for golfers to spend more time playing and improving their game through technology and practice.",
+  "tags": "beginner_friendly|serious_practice|corporate_events|leagues|premium_tech|budget_friendly|club_rentals|coaching_available",
+  "vibe_tags": "tech_lab|community_club|modern|welcoming",
+  "who_its_for": "beginners|serious_golfers|corporate_teams|solo_practice|coaches_instructors",
+  "why_golfers_like_it": [
+    "Premium TrackMan iO technology for detailed swing and ball data",
+    "Convenient, climate-controlled environment with free parking",
+    "Access to 350+ golf courses with new options added monthly",
+    "Flexible booking system with packages and memberships available",
+    "Encourages rapid improvement through high-volume, focused practice sessions"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No information on food service available. Guests are encouraged to bring their own clubs."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No information on alcohol service available. No mention of a bar."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "5 bays equipped with TrackMan iO units for advanced ball and club tracking."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 5,
+  "booking_url": "https://booking.registrygolf.com/?organizationId=1f080e71-0f18-4bae-932d-7f4e09869b3f",
+  "pricing_model": "mixed",
+  "price_range_min_local": 50,
+  "price_range_max_local": 500,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": false,
+  "private_rooms_count": 5,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|lockers|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "You are encouraged to bring your own clubs for the best experience. A limited selection of clubs is available for rent for $15.00 per hour if needed."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No information on bringing outside food or drinks is provided. Please refer to the venue for their specific policy."
+    },
+    {
+      "question": "How much time should I book for 18 holes?",
+      "answer": "For a full 18-hole round, they recommend booking 1 hour per person."
+    },
+    {
+      "question": "Is South Bay Golf Club kid-friendly?",
+      "answer": "There is no specific information provided regarding child-friendly amenities or policies. It is recommended to contact the venue directly for details on accommodating children."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"9AM-9PM\"], \"Tuesday\": [\"9AM-9PM\"], \"Wednesday\": [\"9AM-9PM\"], \"Thursday\": [\"9AM-9PM\"], \"Friday\": [\"9AM-9PM\"], \"Saturday\": [\"9AM-9PM\"], \"Sunday\": [\"9AM-3PM\"]}"
+}

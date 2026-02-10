@@ -1,0 +1,91 @@
+{
+  "name": "Bayview Golf Center",
+  "address": "6501 E Lombard St, Baltimore, MD 21224",
+  "city": "Baltimore",
+  "region": "Maryland",
+  "country": "US",
+  "latitude": 39.295614,
+  "longitude": -76.535282,
+  "phone": "+14433047402",
+  "website": "https://www.bayviewgolfsimulator.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770209829/golf_simulators/www_bayviewgolfsimulator_com_ChIJpR9I5bwGyIkRusmCUsuN-3A.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Bayview+Golf+Center/@39.2956141,-76.5352819,14z/data=!4m8!1m2!2m1!1sBayview+Golf+Center!3m4!1s0x89c806bce5481fa5:0x70fb8dcb5282c9ba!8m2!3d39.2956141!4d-76.5352819",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJpR9I5bwGyIkRusmCUsuN-3A",
+  "venue_type": "sim_bar",
+  "about": "Bayview Golf Center is a dedicated golf simulator venue offering a tech-driven experience for golfers of all skill levels. The facility features multiple simulator bays equipped with advanced technology to provide realistic golf simulations and practice opportunities. Pricing is structured on an hourly basis per bay, making it accessible for both individual sessions and group outings. The venue combines golf technology with a social atmosphere, featuring a full bar and food options to enhance the overall experience for casual players, serious golfers, and groups seeking entertainment.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|private_rooms|club_rentals|coaching_available|solo_practice",
+  "vibe_tags": "casual|welcoming|modern|sports_bar|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Premium simulator technology with accurate ball and club tracking",
+    "Full bar and food options available on-site",
+    "Flexible booking for both individuals and groups",
+    "Private rooms available for events and parties",
+    "Coaching options for skill improvement"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen available with food options"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar available on-site"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Premium radar-based launch monitor for accurate ball and club tracking"
+    }
+  ],
+  "simulator_software": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://www.bayviewgolfsimulator.com/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|lockers|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Club rentals are available on-site if you don't have your own equipment."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drinks are not permitted, as the venue has a full kitchen and bar available."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "18 holes typically take 1.5 to 2 hours per bay, depending on simulator software and player pace."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The venue is accessible to families, though specific kid-friendly amenities or policies are not detailed."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-10PM\"], \"Saturday\": [\"10AM-10PM\"], \"Sunday\": [\"10AM-10PM\"]}"
+}

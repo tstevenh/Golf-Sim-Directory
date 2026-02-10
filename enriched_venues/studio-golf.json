@@ -1,0 +1,88 @@
+{
+  "name": "Studio Golf",
+  "address": "3810 900 E, Montgomery, IN 47558",
+  "city": "Montgomery",
+  "region": "Indiana",
+  "country": "US",
+  "latitude": 38.71185,
+  "longitude": -86.997816,
+  "phone": "+18126361051",
+  "website": "https://studiogolfsim.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770204014/golf_simulators/studiogolfsim_com_ChIJTT1XzkHRbYgRXB8TDWkYUPU.png",
+  "google_maps_url": "https://www.google.com/maps/place/Studio+Golf/@38.71185,-86.9978155,14z/data=!4m8!1m2!2m1!1sStudio+Golf!3m4!1s0x886dd141ce573d4d:0xf55018690d131f5c!8m2!3d38.71185!4d-86.9978155",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJTT1XzkHRbYgRXB8TDWkYUPU",
+  "venue_type": "training_studio",
+  "about": "Studio Golf is a 24/7 members-only golf simulator facility located in Montgomery, Indiana. It utilizes TrackMan 4 technology, the same system used by professional PGA golfers, to provide players with pro-level tracking, shot analytics, and access to virtual golf courses. The venue offers a flexible pricing model, including monthly memberships, seasonal passes, and pay-as-you-go options, allowing players to book sessions in advance and use the facility at their convenience.",
+  "tags": "serious_golfers|beginner_friendly|leagues|premium_tech|budget_friendly|private_rooms|club_rentals|coaching_available|community_club",
+  "vibe_tags": "industrial_training|tech_lab|community_club",
+  "who_its_for": "serious_golfers|beginners|families|solo_practice|corporate_teams",
+  "why_golfers_like_it": [
+    "Access to the same professional-grade TrackMan 4 technology used by PGA Tour players",
+    "Convenient 24/7 access with easy session scheduling via an app",
+    "The ability to play on over 500 renowned virtual courses like Pebble Beach and St Andrews"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of food service provided."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service. BYOB policy is not specified."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "Uses dual radar and one camera for pro-level shot tracking and data analysis."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 1,
+  "booking_url": "https://studio-golf.helloclub.com/register?membership=671b9c41401151c528083e68",
+  "pricing_model": "mixed",
+  "price_range_min_local": 40,
+  "price_range_max_local": 575,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|leagues|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not explicitly state whether clubs are provided. It is recommended to bring your own clubs for the best experience, but a contact inquiry would be needed for confirmation."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "There is no mention of a policy regarding outside food and drinks. The venue does not list on-site dining or bar services."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "A full round of golf on the simulator takes approximately 1 hour per player."
+    },
+    {
+      "question": "Is Studio Golf kid-friendly?",
+      "answer": "The website does not specifically market to or mention accommodations for children, suggesting the primary focus is on adult golfers."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

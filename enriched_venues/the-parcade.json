@@ -1,0 +1,88 @@
+{
+  "name": "The Parcade",
+  "address": "615 Locust St, Chillicothe, MO 64601",
+  "city": "Chillicothe",
+  "region": "Missouri",
+  "country": "US",
+  "latitude": 39.793961,
+  "longitude": -93.552222,
+  "phone": "+16602409484",
+  "website": "http://theparcadechillicothe.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770225477/golf_simulators/theparcadechillicothe_com_ChIJzYezCP4PwocRtBytaP3rI30.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Parcade/@39.793960999999996,-93.5522216,14z/data=!4m8!1m2!2m1!1sThe+Parcade!3m4!1s0x87c20ffe08b387cd:0x7d23ebfd68ad1cb4!8m2!3d39.793960999999996!4d-93.5522216",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJzYezCP4PwocRtBytaP3rI30",
+  "venue_type": "multi_sport_sim",
+  "about": "The Parcade is a golf simulator facility located in Chillicothe, Missouri. It operates as members-only but welcomes the public for tee times, featuring state-of-the-art Uneekor-powered Swing Suite simulators with access to over 400+ courses, including iconic PGA Tour venues. The facility offers flexible booking options, including hourly rentals, punch cards, and memberships, and also sells custom used golf carts. It is open 365 days a year, with extended hours for members.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|leagues|premium_tech|budget_friendly|private_rooms|club_rentals|community_club",
+  "vibe_tags": "tech_lab|community_club|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Access to over 400+ courses, including major PGA Tour venues like TPC courses, Pinehurst, and Augusta National",
+    "365-day operation with flexible hours (7am-11pm for members, public hours vary)",
+    "Option to purchase custom used golf carts, extending the experience beyond the simulators"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Outside food is allowed."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service or BYOB policy."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "Swing Suite",
+      "notes": "Uneekor-powered Swing Suite"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "gimme_circle",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://clients.uschedule.com/theparcade/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|kitchen_food|tv_sports|leagues|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The provided text does not specify. Please contact the venue directly for confirmation."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, outside food is allowed. The policy on alcohol is not mentioned."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The provided text does not specify. Please contact the venue directly for confirmation."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "The provided text does not specify. Please contact the venue directly for confirmation."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"4:30-8:30PM\"], \"Wednesday\": [\"4:30-8:30PM\"], \"Thursday\": [\"4:30-8:30PM\"], \"Friday\": [\"4:30-8:30PM\"], \"Saturday\": [\"10AM-9PM\"], \"Sunday\": [\"Closed\"]}"
+}

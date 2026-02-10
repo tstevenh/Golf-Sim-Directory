@@ -1,0 +1,94 @@
+{
+  "name": "Lititz Golf LLC - PVFiT | Manheim Location",
+  "address": "2028 Town Square, Manheim, PA 17545",
+  "city": "Manheim",
+  "region": "Pennsylvania",
+  "country": "US",
+  "latitude": 40.185422,
+  "longitude": -76.378626,
+  "phone": "+11627440034",
+  "website": "https://www.lititzgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770206303/golf_simulators/www_lititzgolf_com_ChIJVehSwLUfxokRyjYSVDQj9Pg.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Lititz+Golf+LLC+-+PVFiT+%7C+Manheim+Location/@40.185421999999996,-76.378626,14z/data=!4m8!1m2!2m1!1sLititz+Golf+LLC+-+PVFiT+%7C+Manheim+Location!3m4!1s0x89c61fb5c052e855:0xf8f42334541236ca!8m2!3d40.185421999999996!4d-76.378626",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJVehSwLUfxokRyjYSVDQj9Pg",
+  "email": "info@lititzgolf.com",
+  "venue_type": "sim_bar|multi_sport_sim",
+  "about": "Lititz Golf LLC operates two simulator venues in Pennsylvania, one located under the Appalachian Brewing Company in downtown Lititz and a second at PVFiT in Manheim. The facilities provide high-tech sports simulation experiences using Full Swing Ion camera systems with 13 available virtual games, from golf to soccer, rugby, and more. The venues are designed for both serious practice with instant swing analysis and social events, with a focus on convenience and accessibility in a contactless environment.",
+  "tags": "food_and_drinks|serious_practice|social_fun|date_night|family_friendly|corporate_events|premium_tech|private_rooms",
+  "vibe_tags": "sports_bar|family_fun_center|modern|welcoming",
+  "who_its_for": "serious_golfers|families|corporate_teams|large_groups|solo_practice",
+  "why_golfers_like_it": [
+    "Access to 80+ world-renowned golf courses including Pebble Beach and Bethpage Black",
+    "Real-time swing analysis with detailed clubhead and ball impact data",
+    "Year-round practice capability regardless of weather",
+    "Convenient food and drink options, including 10% off ABC for golfers",
+    "Advanced Full Swing Ion camera system for precise tracking"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Food available from on-site Appalachian Brewing Company (Lititz) and takeout from Hearth & Harrow/Mill72 (Manheim). Outside food is permitted."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Alcohol available at Lititz location under ABC. No alcohol permitted at Manheim PVFiT location."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Full Swing",
+      "model": "Ion",
+      "notes": "Multi-sport simulator with high-speed cameras and infrared measurements, supports golf and 12 other sports"
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "overhead_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://app.squarespacescheduling.com/schedule.php?owner=23359761",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 50,
+  "price_range_max_local": 50,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 12,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|wifi|pro_shop|club_fitting|leagues",
+  "rating_tech_quality": 4.0,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you need to bring your own golf clubs to use the simulator."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and non-alcoholic drinks are permitted at both locations. At the Manheim location, no alcohol is allowed on premises."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Time for 18 holes can vary based on play pace, but the simulator provides an efficient way to complete rounds regardless of weather."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, all ages are welcome as long as you can throw a ball. Children must be at least 18 years old to rent the simulator."
+    }
+  ],
+  "simulator_software": [
+    "Full Swing"
+  ],
+  "rating_overall": 4.0,
+  "opening_hours": "{\"Monday\": [\"7AM-8PM\"], \"Tuesday\": [\"7AM-8PM\"], \"Wednesday\": [\"7AM-8PM\"], \"Thursday\": [\"7AM-8PM\"], \"Friday\": [\"7AM-8PM\"], \"Saturday\": [\"7AM-8PM\"], \"Sunday\": [\"7AM-8PM\"]}"
+}

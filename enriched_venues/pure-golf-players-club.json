@@ -1,0 +1,90 @@
+{
+  "name": "Pure Golf Players Club",
+  "address": "445 N 2000 W Unit 3, Springville, UT 84663",
+  "city": "Springville",
+  "region": "Utah",
+  "country": "US",
+  "latitude": 40.172731,
+  "longitude": -111.647745,
+  "phone": "+13855955045",
+  "website": "http://www.puregolfplayersclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770226421/golf_simulators/www_puregolfplayersclub_com_ChIJz0xBKgmXTYcRvw3w6KxeCqg.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Pure+Golf+Players+Club/@40.172731399999996,-111.64774519999999,14z/data=!4m8!1m2!2m1!1sPure+Golf+Players+Club!3m4!1s0x874d97092a414ccf:0xa80a5eace8f00dbf!8m2!3d40.172731399999996!4d-111.64774519999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJz0xBKgmXTYcRvw3w6KxeCqg",
+  "venue_type": "multi_sport_sim",
+  "about": "Pure Golf Players Club is a private, indoor golf simulator facility in Springville, Utah, offering 24/7 access to golf year-round. The venue features the largest private golf bays in Utah Valley and utilizes Trackman technology with 26 distinct data points to provide detailed shot analysis. It caters to individual players, groups, and families with options for hourly rentals, monthly memberships, and corporate accounts. The facility offers private lessons with Steve Nelson, the creator of the Automatic Swing Trainer, and is designed for both serious practice and casual play.",
+  "tags": "beginner_friendly|corporate_events|premium_tech|private_rooms|coaching_available|kids_friendly",
+  "vibe_tags": "private_luxury|tech_lab|family_fun_center",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "24/7 access with no off-season",
+    "Largest private golf bays in Utah Valley",
+    "Trackman technology with 26 data points for detailed analysis",
+    "Creator of Automatic Swing Trainer on staff for lessons",
+    "Flexible pricing with hourly, monthly, and corporate options"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No on-site kitchen mentioned; BYOB policy not explicitly stated."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No bar or alcohol service mentioned."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Premium radar-based launch monitor with 26 data points"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://clients.uschedule.com/puregolfplayersclub/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 20,
+  "price_range_max_local": 45,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|tv_sports|private_party_room|wifi|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you will need to bring your own golf clubs to use at the facility."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The website does not explicitly mention a BYOB policy, and no on-site food or drink service is described."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes is not specified on the website, but the facility offers hourly rentals and flexible play options."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, Pure Golf is kid-friendly and offers youth lessons through their partnership with First Tee. The facility is suitable for families and players of all skill levels."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

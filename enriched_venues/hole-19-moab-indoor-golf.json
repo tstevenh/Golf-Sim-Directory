@@ -1,0 +1,91 @@
+{
+  "name": "Hole 19 - Moab Indoor Golf",
+  "address": "1030 Bowling Alley Ln suite 1, Moab, UT 84532",
+  "city": "Moab",
+  "region": "Utah",
+  "country": "US",
+  "latitude": 38.55719,
+  "longitude": -109.538536,
+  "phone": "+14352602662",
+  "website": "https://moabindoorgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770226461/golf_simulators/moabindoorgolf_com_ChIJjdgPqPbjR4cRBOQNd1KL-tw.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Hole+19+-+Moab+Indoor+Golf/@38.557190399999996,-109.53853559999999,14z/data=!4m8!1m2!2m1!1sHole+19+-+Moab+Indoor+Golf!3m4!1s0x8747e3f6a80fd88d:0xdcfa8b52770de404!8m2!3d38.557190399999996!4d-109.53853559999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJjdgPqPbjR4cRBOQNd1KL-tw",
+  "email": "h19indoorgolf@gmail.com",
+  "venue_type": "private_rental",
+  "about": "Hole 19 Indoor Golf is a self-service facility in Moab, UT, featuring two private hitting bays equipped with Trackman launch monitors. It offers access to 300 golf courses and various practice modes, providing a flexible environment for golfers of all skill levels. The facility operates on an advanced booking system with online-only access, allowing players to book by the hour, purchase punch passes, or opt for a membership to enjoy discounted rates and extended practice sessions. The venue is designed for those looking for serious practice or a fun, private golf experience without the pressures of a crowded range or the constraints of weather.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|budget_friendly|private_rooms|club_rentals|family_friendly|solo_practice",
+  "vibe_tags": "private_luxury|tech_lab|family_fun_center|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Industry-leading Trackman launch monitors provide comprehensive club and ball data for precise skill improvement",
+    "Two private hitting bays offer a comfortable, pressure-free environment for players of all levels",
+    "Access to 300 golf courses worldwide, allowing for diverse playing experiences regardless of weather conditions",
+    "Affordable membership and punch pass options for frequent practice and game improvement",
+    "Self-service model with 24/7 access (except peak hours) provides flexibility for busy schedules"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Outside food and drinks are allowed, with cleanup required. No food or drinks allowed on the turf."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol is mentioned as available for consumption at the facility."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Radar-based launch monitor used by 1,000+ PGA tour players, providing real-time data for club and ball tracking."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://clients.uschedule.com/hole19indoorgolf/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 25,
+  "price_range_max_local": 80,
+  "currency": "USD",
+  "walk_ins_allowed": false,
+  "coaching_available": "unknown",
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 5,
+  "amenities_list": "club_rentals|private_party_room|wifi|leagues|corporate_events|food_and_drinks|family_friendly",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, most golfers are encouraged to bring their own clubs. All clubs must be clean before using the simulator to prevent damage to the screens. Club rentals are not mentioned as an option."
+    },
+    {
+      "question": "Can I bring food and drinks?",
+      "answer": "Yes, you are welcome to bring your own food and drinks. Please be responsible and clean up after yourself. No food or drinks are allowed on the turf."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "It takes approximately 1 hour per person to play 18 holes. For a group of 4, the facility recommends booking 4 hours to complete 18 holes."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the facility is suitable for all levels of golfers and family fun, with private hitting bays providing a comfortable environment for players of all ages."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"6AM-12AM\"], \"Tuesday\": [\"6AM-12AM\"], \"Wednesday\": [\"6AM-12AM\"], \"Thursday\": [\"6AM-12AM\"], \"Friday\": [\"6AM-12AM\"], \"Saturday\": [\"6AM-12AM\"], \"Sunday\": [\"6AM-12AM\"]}"
+}

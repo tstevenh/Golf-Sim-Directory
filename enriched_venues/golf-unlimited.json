@@ -1,0 +1,89 @@
+{
+  "name": "Golf Unlimited",
+  "address": "189 US-89, North Salt Lake, UT 84054",
+  "city": "North Salt Lake",
+  "region": "Utah",
+  "country": "US",
+  "latitude": 40.845567,
+  "longitude": -111.908878,
+  "phone": "+18013812337",
+  "website": "https://golf24hrs.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770217005/golf_simulators/golf24hrs_com_ChIJP1sLUmr3UocRbUJbapdRZME.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Golf+Unlimited/@40.8455673,-111.9088776,14z/data=!4m8!1m2!2m1!1sGolf+Unlimited!3m4!1s0x8752f76a520b5b3f:0xc16451976a5b426d!8m2!3d40.8455673!4d-111.9088776",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJP1sLUmr3UocRbUJbapdRZME",
+  "venue_type": "multi_sport_sim",
+  "about": "Golf Unlimited is a 24-hour private golf facility offering state-of-the-art simulator technology for practice, play, and improvement. The venue utilizes Trugolf technology, providing an authentic experience with advanced software, HD graphics, accurate ball physics, and real-world course data. Membership options include month-to-month, 6-month, and annual plans, all offering unlimited use and 24/7/365 simulator access. The facility also features high-speed cameras for automatic multi-angle swing analysis, offering instant feedback to enhance gameplay. It caters to golfers looking for flexible, private access to top-tier simulation technology outside of traditional golf hours or seasons.",
+  "tags": "serious_golfers|beginner_friendly|premium_tech|private_rooms|coaching_available|leagues|corporate_events|solo_practice",
+  "vibe_tags": "tech_lab|private_luxury|modern|welcoming",
+  "who_its_for": "serious_golfers|beginner_friendly|families|solo_practice|corporate_teams",
+  "why_golfers_like_it": [
+    "Trugolf technology with authentic ball physics and HD graphics",
+    "High-speed multi-angle swing analysis for instant feedback",
+    "24/7/365 private simulator access with flexible membership options",
+    "Unlimited use, not per person, allowing guests to join members"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "BYOB allowed; memberships reserve simulator by the hour, not per person"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "BYOB allowed; memberships reserve simulator by the hour, not per person"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trugolf",
+      "model": "unknown",
+      "notes": "Provides authentic golfing experience with advanced software and real-world course data"
+    }
+  ],
+  "simulator_software": [
+    "Trugolf"
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://golf24hrs.com/book",
+  "pricing_model": "membership_only",
+  "price_range_min_local": 190,
+  "price_range_max_local": 220,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|private_rooms|pro_shop|club_fitting|leagues|wifi|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The content does not specify, but it is common practice at simulator venues to allow guests to use their own clubs or provide rentals if available."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, your membership reserves the simulator by the hour and not per person, so guests are always welcome, implying BYOB (Bring Your Own Beverages) is permitted."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "The content does not provide a specific time estimate for playing 18 holes, but simulator play is generally faster than on-course golf, typically ranging from 1.5 to 3 hours depending on the number of players and pace."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is kid-friendly as memberships are not per person, allowing family members and guests to join, making it suitable for families with children."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

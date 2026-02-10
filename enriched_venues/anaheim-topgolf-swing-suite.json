@@ -1,0 +1,89 @@
+{
+  "name": "Anaheim Topgolf Swing Suite",
+  "address": "Located in The Anaheim Hotel, 1700 S Harbor Blvd, Anaheim, CA 92802",
+  "city": "Anaheim",
+  "region": "California",
+  "country": "US",
+  "latitude": 33.806142,
+  "longitude": -117.914489,
+  "phone": "+17147725900",
+  "website": "https://anaheimtopgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770230827/golf_simulators/anaheimtopgolf_com_ChIJ1aJfB2XX3IARfbZVBzZ44nc.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Anaheim+Topgolf+Swing+Suite/@33.8061424,-117.91448919999999,14z/data=!4m8!1m2!2m1!1sAnaheim+Topgolf+Swing+Suite!3m4!1s0x80dcd765075fa2d5:0x77e278360755b67d!8m2!3d33.8061424!4d-117.91448919999999",
+  "google_rating": 3.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ1aJfB2XX3IARfbZVBzZ44nc",
+  "email": "info@theanaheimhotel.com",
+  "venue_type": "sim_bar",
+  "about": "Anaheim Topgolf Swing Suite is a state-of-the-art indoor entertainment venue located within The Anaheim Hotel. It features interactive sports simulators offering a mix of golf and non-golf games, suitable for all skill levels. The venue provides an upscale environment with comfortable lounge seating, food and beverage service, and is designed for social gatherings, corporate events, and individual play. Pricing starts at $70 per hour for individual use and $140 per hour for private events.",
+  "tags": "food_and_drinks|date_night|corporate_events|premium_tech|private_rooms|club_rentals|beginner_friendly|party_atmosphere",
+  "vibe_tags": "upscale_lounge|sports_bar|private_luxury|tech_lab",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|tourists_travelers",
+  "why_golfers_like_it": [
+    "Immersive technology with a mix of golf and non-golf games for diverse entertainment",
+    "Upscale surroundings and exceptional food and beverage service from The Front Room Lounge",
+    "Ideal for both individual practice and social gatherings, offering a flexible and engaging atmosphere"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen and food service available, including award-winning pizzas and chicken wings from The Pizza Press"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Handcrafted cocktails and premium beverages served from The Front Room Lounge"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Topgolf",
+      "model": "Swing Suite",
+      "notes": "Interactive sports simulators capable of tracking both golf and non-golf activities"
+    }
+  ],
+  "simulator_software": [
+    "Topgolf Swing Suite"
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://anaheimtopgolf.as.me/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 70,
+  "price_range_max_local": 140,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|ada_accessible",
+  "rating_tech_quality": 4.1,
+  "rating_facility_comfort": 4.1,
+  "rating_value_for_money": 4.2,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue provides all necessary equipment, including clubs, so bringing your own is not required."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drinks are not permitted due to health and safety practices, but the venue offers a full menu of food and beverages."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Playing 18 holes typically takes about 1-2 hours depending on group size and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is suitable for families and offers a welcoming environment for children."
+    }
+  ],
+  "rating_overall": 4.1,
+  "opening_hours": "{\"Monday\": [\"11AM-11PM\"], \"Tuesday\": [\"11AM-11PM\"], \"Wednesday\": [\"11AM-11PM\"], \"Thursday\": [\"11AM-11PM\"], \"Friday\": [\"11AM-11PM\"], \"Saturday\": [\"11AM-11PM\"], \"Sunday\": [\"11AM-11PM\"]}"
+}

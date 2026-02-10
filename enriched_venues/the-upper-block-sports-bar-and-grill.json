@@ -1,0 +1,91 @@
+{
+  "name": "The Upper Block Sports Bar and Grill",
+  "address": "318 Silver St, Hurley, WI 54534",
+  "city": "Hurley",
+  "region": "Wisconsin",
+  "country": "US",
+  "latitude": 46.450072,
+  "longitude": -90.184275,
+  "phone": "+17155612198",
+  "website": "http://theupperblock.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770242606/golf_simulators/theupperblock_com_ChIJi8XiE6jpqVIRHVVgjyG13W8.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Upper+Block+Sports+Bar+and+Grill/@46.4500722,-90.184275,14z/data=!4m8!1m2!2m1!1sThe+Upper+Block+Sports+Bar+and+Grill!3m4!1s0x52a9e9a813e2c58b:0x6fddb5218f60551d!8m2!3d46.4500722!4d-90.184275",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJi8XiE6jpqVIRHVVgjyG13W8",
+  "venue_type": "sim_bar",
+  "about": "The Upper Block is a sports bar and grill in Hurley, WI, featuring a single golf simulator bay. The venue offers a casual atmosphere where guests can enjoy food, drinks, and sports while utilizing the golf technology. It is equipped with a Uneekor eye XO launch monitor, which uses high-speed cameras to track both the ball and club, providing detailed shot data. The bay is 15 feet wide, and the simulator includes over 240 course options and a driving range mode. The location operates with a 15-minute buffer between hourly bookings to ensure the space is clean and ready for the next group.",
+  "tags": "food_and_drinks|sports_bar|beginner_friendly|date_night|corporate_events|leagues|budget_friendly|club_rentals|late_night|community_club",
+  "vibe_tags": "sports_bar|family_fun_center|party_atmosphere|community_club|casual|welcoming",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|solo_practice|tourists_travelers",
+  "why_golfers_like_it": [
+    "High-tech Uneekor eye XO launch monitor with detailed ball and club tracking",
+    "15-foot wide hitting bay providing ample space for comfortable swings",
+    "Over 240 golf courses and a driving range mode for varied practice",
+    "Casual sports bar atmosphere with food, drinks, and other activities",
+    "Affordable hourly rates with seasonal pricing options",
+    "Convenient location with a buffer time between bookings"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen menu available including starters, sandwiches, wraps, pizzas, and daily specials like Taco Tuesday and Wednesday Poutine"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with domestic and rail drinks, plus happy hour specials (4-6PM $2.00, 10-11PM $1.50)"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "eye XO",
+      "notes": "Ceiling mount launch monitor using high-speed cameras and validated photographic technology"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "overhead_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 1,
+  "booking_url": "https://theupperblock.com/book-now/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 25,
+  "price_range_max_local": 40,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "While not explicitly stated, it is standard practice to bring your own golf clubs to use with the simulator."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No, the venue has its own full kitchen and bar, and food and drinks must be purchased on-site."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "18 holes take 1 hour for 1 player, 2 hours for 2 players, 3 hours for 3 players, and 4 hours for 4 players."
+    },
+    {
+      "question": "Is this place kid-friendly?",
+      "answer": "Yes, The Upper Block is family-friendly with a casual atmosphere that welcomes all ages."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"11AM-12AM\"], \"Tuesday\": [\"11AM-12AM\"], \"Wednesday\": [\"11AM-12AM\"], \"Thursday\": [\"11AM-12AM\"], \"Friday\": [\"11AM-2:30AM\"], \"Saturday\": [\"11AM-2:30AM\"], \"Sunday\": [\"11AM-12AM\"]}"
+}

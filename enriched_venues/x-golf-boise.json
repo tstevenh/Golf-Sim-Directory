@@ -1,0 +1,91 @@
+{
+  "name": "X-GOLF BOISE",
+  "address": "8101 W Emerald St, Boise, ID 83704",
+  "city": "Boise",
+  "region": "Idaho",
+  "country": "US",
+  "latitude": 43.610468,
+  "longitude": -116.283169,
+  "phone": "+12089184653",
+  "website": "http://playxgolf.com/location/boise",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770225283/golf_simulators/playxgolf_com_ChIJWXQHL1dXrlQREZREWIc5lWA.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/X-GOLF+BOISE/@43.6104677,-116.2831691,14z/data=!4m8!1m2!2m1!1sX-GOLF+BOISE!3m4!1s0x54ae57572f077459:0x6095398758449411!8m2!3d43.6104677!4d-116.2831691",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJWXQHL1dXrlQREZREWIc5lWA",
+  "email": "HELLO@XGOLFBOISE.COM",
+  "venue_type": "sim_bar",
+  "about": "X-Golf Boise offers indoor golf simulator bays equipped with state-of-the-art camera systems, infrared lasers, and impact sensors for high-accuracy virtual play. The venue features 7 simulator bays, including a fully private VIP room, and accommodates up to 110 guests for events. Each simulator bay is priced per hour and can host groups of up to 6 people, with additional hours required for larger parties. The facility provides a modern, technologically advanced environment for playing, training, and socializing, supported by PGA-certified coaching and various league formats.",
+  "tags": "food_and_drinks|leagues|corporate_events|coaching_available|club_rentals|premium_tech|beginner_friendly|private_rooms",
+  "vibe_tags": "sports_bar|tech_lab|modern",
+  "who_its_for": "families|corporate_teams|beginners|serious_golfers|solo_practice",
+  "why_golfers_like_it": [
+    "Highly accurate simulator technology combining cameras, lasers, and impact sensors",
+    "Flexible hourly pricing accommodating groups of up to 6 people per bay",
+    "PGA-certified professional coaching available for skill development",
+    "Variety of leagues including team scrambles and Ryder Cup formats",
+    "Full bar and extensive food menu available for a complete experience"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen with food options available"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "X-Golf",
+      "model": "Simulator",
+      "notes": "State-of-the-art simulator with camera systems, infrared lasers, and impact sensors"
+    }
+  ],
+  "simulator_software": [
+    "X-Golf Software"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 7,
+  "booking_url": "http://playxgolf.com/location/boise",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 39,
+  "price_range_max_local": 59,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues|pro_shop|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Club rentals are available at the venue, but you are welcome to use your own clubs."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No outside food or drinks are allowed. The venue has a full bar and kitchen with food options available."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Generally it takes 1 hour for an individual player to play 18 holes. If you have more than one player, you may want to book an additional hour for each player in your group, but skill level can affect the pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The venue welcomes children of all ages, making it suitable for family outings."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"8AM-11PM\"], \"Saturday\": [\"8AM-11PM\"], \"Sunday\": [\"8AM-10PM\"]}"
+}

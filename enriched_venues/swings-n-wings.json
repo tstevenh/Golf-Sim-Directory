@@ -1,0 +1,91 @@
+{
+  "name": "Swings N Wings",
+  "address": "645 W Church St, Newark, OH 43055",
+  "city": "Newark",
+  "region": "Ohio",
+  "country": "US",
+  "latitude": 40.057367,
+  "longitude": -82.425787,
+  "phone": "+17405228457",
+  "website": "https://www.swingsnwings.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770214515/golf_simulators/www_swingsnwings_com_ChIJWYyLW1sXOIgR3Afq1qtZYPg.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Swings+N+Wings/@40.0573666,-82.4257873,14z/data=!4m8!1m2!2m1!1sSwings+N+Wings!3m4!1s0x8838175b5b8b8c59:0xf86059abd6ea07dc!8m2!3d40.0573666!4d-82.4257873",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJWYyLW1sXOIgR3Afq1qtZYPg",
+  "venue_type": "sim_bar",
+  "about": "Swings N Wings is an indoor golf simulator facility featuring 4 Golfzon TwovisionNX bays, offering a realistic and immersive golfing experience for both beginners and seasoned golfers. The venue provides top-of-the-line technology in a comfortable setting, with additional amenities including food and drink services and golf equipment rental. Located in a modern facility with a bourbon bar, it caters to casual play, practice sessions, and private events.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|private_events|equipment_rental|late_night",
+  "vibe_tags": "sports_bar|casual|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "State-of-the-art Golfzon TwovisionNX simulators for realistic play",
+    "Full food and drink service available during play",
+    "Flexible booking system with extended hours (8am-11pm daily)",
+    "High-quality golf equipment rental available on-site",
+    "Private event hosting tailored to corporate or social gatherings"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full food service including pizza and wings"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Refreshing beverages and bourbon bar available"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Golfzon",
+      "model": "TwovisionNX",
+      "notes": "4 bays available"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "unknown",
+  "ball_tracking": "unknown",
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 4,
+  "booking_url": "https://foreupsoftware.com/index.php/booking/22997#/login",
+  "pricing_model": "per_bay_hour|mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|full_bar|kitchen_food|private_party_room|wifi",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own golf clubs?",
+      "answer": "No, Swings N Wings offers high-quality golf equipment for rent if you don't have your own clubs."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No, the venue provides a full food and drink service with pizza, wings, and beverages available on-site."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes varies depending on simulator usage and booking, but sessions can be booked through their tee times system."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Swings N Wings welcomes families and offers a casual environment suitable for golfers of all skill levels, including beginners."
+    }
+  ],
+  "simulator_software": [
+    "Golfzon Vision"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"8AM-11PM\"], \"Tuesday\": [\"8AM-11PM\"], \"Wednesday\": [\"8AM-11PM\"], \"Thursday\": [\"8AM-11PM\"], \"Friday\": [\"8AM-11PM\"], \"Saturday\": [\"8AM-11PM\"], \"Sunday\": [\"8AM-11PM\"]}"
+}

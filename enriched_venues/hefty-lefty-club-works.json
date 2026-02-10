@@ -1,0 +1,89 @@
+{
+  "name": "Hefty Lefty Club Works",
+  "address": "8674 Nashville Rd Suite 107, Bowling Green, KY 42101",
+  "city": "Bowling Green",
+  "region": "Kentucky",
+  "country": "US",
+  "latitude": 36.890656,
+  "longitude": -86.522183,
+  "phone": "+12703680012",
+  "website": "https://paddockgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770213702/golf_simulators/paddockgolf_com_ChIJZ83V0TzpZYgRIzh54yx8l8I.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Hefty+Lefty+Club+Works/@36.890656299999996,-86.522183,14z/data=!4m8!1m2!2m1!1sHefty+Lefty+Club+Works!3m4!1s0x8865e93cd1d5cd67:0xc2977c2ce3793823!8m2!3d36.890656299999996!4d-86.522183",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJZ83V0TzpZYgRIzh54yx8l8I",
+  "venue_type": "sim_bar",
+  "about": "The Paddock Golf is a state-of-the-art golf shop and simulator venue located in Bowling Green, Kentucky. It operates as a one-stop shop for golfers, featuring three Full Swing simulator bays, club fitting and repair services, and a Kentucky-branded apparel line. The venue also includes a self-serve 16-beer tap wall and is positioned as an ultimate hangout spot for playing golf, watching sports, and enjoying drinks with friends. The facility provides various rental options for simulators and the full space, along with pricing for lessons and club repairs, catering to both casual players and serious golfers in the south central Kentucky area.",
+  "tags": "food_and_drinks|corporate_events|leagues|coaching_available|date_night|beginner_friendly",
+  "vibe_tags": "sports_bar|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Three Full Swing golf simulator bays for high-quality simulation experiences",
+    "On-site bar with a 16-beer tap wall for a social and relaxed atmosphere",
+    "Comprehensive services including club fitting, repairs, and golf lessons",
+    "Flexible rental options for both individual bays and the entire facility"
+  ],
+  "kid_friendly": false,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Restaurant food options are available when renting the full facility"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Self-serve 16-beer tap wall available on-site"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Full Swing",
+      "model": "Unknown",
+      "notes": "Three Full Swing simulator bays available"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": "unknown",
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://booking.cojilio.com/3743/online",
+  "pricing_model": "mixed",
+  "price_range_min_local": 25,
+  "price_range_max_local": 150,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 3,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|club_fitting|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you will need to bring your own golf clubs to use the simulators."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drinks are not allowed, but the venue offers a self-serve 16-beer tap wall and restaurant food options when renting the full facility."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Playing 18 holes typically takes 1-4 hours depending on your group size and simulator booking duration."
+    },
+    {
+      "question": "Is The Paddock Golf kid-friendly?",
+      "answer": "The Paddock Golf does not specifically mention kid-friendly policies, so it is recommended to contact them directly for inquiries about children using the facilities."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"12-9PM\"], \"Tuesday\": [\"12-9PM\"], \"Wednesday\": [\"10AM-9PM\"], \"Thursday\": [\"10AM-9PM\"], \"Friday\": [\"10AM-9PM\"], \"Saturday\": [\"10AM-9PM\"], \"Sunday\": [\"10AM-6PM\"]}"
+}

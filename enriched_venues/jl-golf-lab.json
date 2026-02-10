@@ -1,0 +1,101 @@
+{
+  "name": "JL Golf Lab",
+  "address": "4344 Tuller Rd, Dublin, OH 43017",
+  "city": "Dublin",
+  "region": "Ohio",
+  "country": "US",
+  "latitude": 40.108726,
+  "longitude": -83.106526,
+  "phone": "+16144772495",
+  "website": "https://jlgolflab.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770234018/golf_simulators/jlgolflab_com_ChIJmWIAfDPtOIgROySr8n7pjUg.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/JL+Golf+Lab/@40.108726,-83.106526,14z/data=!4m8!1m2!2m1!1sJL+Golf+Lab!3m4!1s0x8838ed337c006299:0x488de97ef2ab243b!8m2!3d40.108726!4d-83.106526",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJmWIAfDPtOIgROySr8n7pjUg",
+  "email": "info@jlgolflab.com",
+  "venue_type": "training_studio",
+  "about": "JL Golf Lab is a premier indoor golf studio located in Dublin, Ohio, offering a state-of-the-art facility equipped with the finest technology available. The studio provides a controlled environment for golfers of all levels to improve their game through expert instruction, purposeful practice, and immersive simulator play. It is owned and operated by Jimmy Logue, a seasoned PGA Professional with over 20 years of experience. JL Golf Lab features premium technology including Trackman launch monitors, Foresight Sports simulators, and SAM PuttLab systems for comprehensive swing and putting analysis. The facility offers various membership options that include monthly simulator time and access to lessons, with flexible booking and practice hours from 5am to 11pm daily.",
+  "tags": "beginner_friendly|coaching_available|serious_practice|premium_tech|membership|juniors_youth",
+  "vibe_tags": "tech_lab|community_club|modern|welcoming",
+  "who_its_for": "beginners|serious_golfers|juniors_youth|solo_practice",
+  "why_golfers_like_it": [
+    "Access to industry-leading Trackman and Foresight Sports technology for precise swing and ball data",
+    "Personalized instruction from PGA Professional Jimmy Logue with a background at prestigious country clubs",
+    "Flexible membership plans that include monthly simulator time and discounted lesson rates",
+    "Indoor environment allows for focused practice without weather distractions",
+    "Ability to play world-famous courses like St. Andrews and Pebble Beach in high-definition"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of on-site food service"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of bar service or BYOB policy"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Industry's leading launch monitor providing data on ball flight and club performance"
+    },
+    {
+      "brand": "Foresight Sports",
+      "model": "Unknown",
+      "notes": "High-definition simulator with realistic course play"
+    },
+    {
+      "brand": "SAM PuttLab",
+      "model": "Unknown",
+      "notes": "Advanced putting analysis and training system"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://clients.uschedule.com/jimmyloguegolf/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 20,
+  "price_range_max_local": 125,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|club_fitting|wifi",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not explicitly state if clubs are provided, but since it's a golf studio focused on instruction and fitting, it's recommended to bring your own clubs for personal practice and fitting sessions."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "There is no mention of food or drink service at JL Golf Lab, and no BYOB policy is specified. It's advisable to contact them directly for clarification on outside food and beverages."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "While exact timing isn't specified, high-definition simulators typically allow for rounds of 18 holes to be completed in approximately 2-3 hours depending on course pace and player speed."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, JL Golf Lab appears to be kid-friendly as it offers expert programs for 'all ages and abilities' and has a PGA instructor who can work with younger golfers, though specific junior programs aren't detailed."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"5AM-11PM\"], \"Tuesday\": [\"5AM-11PM\"], \"Wednesday\": [\"5AM-11PM\"], \"Thursday\": [\"5AM-11PM\"], \"Friday\": [\"5AM-11PM\"], \"Saturday\": [\"5AM-11PM\"], \"Sunday\": [\"5AM-11PM\"]}"
+}

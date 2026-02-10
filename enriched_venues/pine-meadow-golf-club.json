@@ -1,0 +1,93 @@
+{
+  "name": "Pine Meadow Golf Club",
+  "address": "4324 Fairfax Park Dr, Eau Claire, WI 54701",
+  "city": "Eau Claire",
+  "region": "Wisconsin",
+  "country": "US",
+  "latitude": 44.772049,
+  "longitude": -91.473413,
+  "phone": "+17158326011",
+  "website": "https://www.pinemeadowgolfclubinc.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770233653/golf_simulators/www_pinemeadowgolfclubinc_com_ChIJKyK_cCW8-IcRHfQ8HSuOtvQ.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Pine+Meadow+Golf+Club/@44.7720488,-91.47341259999999,14z/data=!4m8!1m2!2m1!1sPine+Meadow+Golf+Club!3m4!1s0x87f8bc2570bf222b:0xf4b68e2b1d3cf41d!8m2!3d44.7720488!4d-91.47341259999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJKyK_cCW8-IcRHfQ8HSuOtvQ",
+  "email": "pinemeadow1@outlook.com",
+  "venue_type": "sim_bar",
+  "about": "Pine Meadow Golf Club is a Par-3 course and indoor golf simulator venue in Eau Claire, WI, offering both outdoor and year-round indoor play. They feature two HD Golf simulators and provide club rentals for all sizes and both left and right-handed players. The venue also includes a full-service restaurant with a menu featuring items like a popular fish fry and pizzas. Pine Meadow offers simulator punch cards, group party packages, and a casual atmosphere suitable for various events and individual practice sessions.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|club_rentals|private_rooms|late_night|family_friendly",
+  "vibe_tags": "casual|welcoming|modern|community_club",
+  "who_its_for": "beginners|families|corporate_teams|large_groups|solo_practice",
+  "why_golfers_like_it": [
+    "Year-round access to play regardless of weather conditions with HD simulators",
+    "Casual pace of play on the Par-3 course, playable in under 2 hours on foot",
+    "Convenient simulator punch card offer with 10 hours for the price of 8 and a free pizza with a 2-hour booking",
+    "Inclusive atmosphere with club rentals available for all skill levels and handedness"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full food menu available including a popular baked or fried fish fry, pizzas, and other menu items. A 12\" one-topping pizza is included with a 2-hour simulator booking."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service on the website."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "HD Golf",
+      "model": "unknown",
+      "notes": "High Definition digital golf rooms for year-round play"
+    }
+  ],
+  "simulator_so": [
+    "HD Golf"
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://foreupsoftware.com/index.php/booking/22363/10511#teetimes",
+  "pricing_model": "mixed",
+  "price_range_min_local": 30,
+  "price_range_max_local": 40,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": false,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|kitchen_food|private_party_room|wifi",
+  "rating_tech_quality": 4.0,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, club rentals are available for all sizes and for both left and right-handed players."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, the venue has a full-service kitchen and bar. A 12\" one-topping pizza is included with a 2-hour simulator booking."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The outdoor Par-3 course can be played in under 2 hours on foot or with a leisurely golf cart. For simulators, time depends on the course and players."
+    },
+    {
+      "question": "Is Pine Meadow kid-friendly?",
+      "answer": "Yes, the Par-3 course is described as perfect for golfers of all ages and skill levels, making it suitable for families."
+    }
+  ],
+  "simulator_software": [
+    "HD Golf"
+  ],
+  "rating_overall": 4.1,
+  "opening_hours": "{\"Monday\": [\"10:30AM-10PM\"], \"Tuesday\": [\"10:30AM-10PM\"], \"Wednesday\": [\"10:30AM-10PM\"], \"Thursday\": [\"10:30AM-10PM\"], \"Friday\": [\"10:30AM-11PM\"], \"Saturday\": [\"10:30AM-11PM\"], \"Sunday\": [\"10:30AM-11PM\"]}"
+}

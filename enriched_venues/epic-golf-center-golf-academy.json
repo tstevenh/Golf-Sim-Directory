@@ -1,0 +1,97 @@
+{
+  "name": "EPIC Golf Center (Golf Academy)",
+  "address": "24 Link Dr, Rockleigh, NJ 07647",
+  "city": "Rockleigh",
+  "region": "New Jersey",
+  "country": "US",
+  "latitude": 41.008393,
+  "longitude": -73.939113,
+  "phone": "+12012977025",
+  "website": "http://www.epicgolfcenter.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770230786/golf_simulators/www_epicgolfcenter_com_ChIJBRH4xN7vwokRUtRVxpYXx14.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/EPIC+Golf+Center+%28Golf+Academy%29/@41.0083927,-73.9391132,14z/data=!4m8!1m2!2m1!1sEPIC+Golf+Center+%28Golf+Academy%29!3m4!1s0x89c2efdec4f81105:0x5ec71796c655d452!8m2!3d41.0083927!4d-73.9391132",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJBRH4xN7vwokRUtRVxpYXx14",
+  "email": "Artboard-1@4x.png",
+  "venue_type": "training_studio",
+  "about": "Epic Golf Center is a 7,400 sq. ft. indoor golf training facility featuring state-of-the-art simulators and practice areas. It is equipped with Trackman 4 technology, seven Uneekor EYE XO hitting bays, and a 1,400 sq. ft. indoor chipping/putting green with a genuine greenside bunker. The venue offers various game modes, including driving range, target practice, and access to hundreds of real-life courses. Lessons are available for all skill levels, with options for adults, juniors, and on-course field sessions. Membership packages and bookings can be made through their website.",
+  "tags": "beginner_friendly|serious_golfers|juniors_youth|coaching_available|premium_tech|membership|private_rooms|leagues|club_rentals",
+  "vibe_tags": "industrial_training|community_club|modern",
+  "who_its_for": "beginners|serious_golfers|families|juniors_youth|coaches_instructors",
+  "why_golfers_like_it": [
+    "Premium Trackman 4 and Uneekor EYE XO simulator technology",
+    "Year-round indoor training with real-time data and analysis",
+    "Comprehensive facility including a bunker-equipped chipping green",
+    "Flexible lesson programs for all ages and skill levels",
+    "Access to hundreds of world-famous golf courses"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "Premium launch monitor for real-time data"
+    },
+    {
+      "brand": "Uneekor",
+      "model": "EYE XO",
+      "notes": "High-speed camera-based launch monitor"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 7,
+  "booking_url": "https://epicgolfcenter.com/book/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 85,
+  "price_range_max_local": 170,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 7,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue does not explicitly mention club rentals, so it is recommended to bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No food or drink service is mentioned, but it is not explicitly prohibited."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The venue does not specify an estimated time for 18 holes, as it depends on the simulator game mode and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Epic Golf Center offers junior lessons, after-school programs, and seasonal golf camps for youth."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"9:30AM-9:30PM\"], \"Tuesday\": [\"9:30AM-9:30PM\"], \"Wednesday\": [\"9:30AM-9:30PM\"], \"Thursday\": [\"9:30AM-9:30PM\"], \"Friday\": [\"9:30AM-9:30PM\"], \"Saturday\": [\"9:30AM-8PM\"], \"Sunday\": [\"10AM-7PM\"]}"
+}

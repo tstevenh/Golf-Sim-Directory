@@ -1,0 +1,93 @@
+{
+  "name": "The Range at Cold Springs",
+  "address": "45 SC-201, Abbeville, SC 29620",
+  "city": "Abbeville",
+  "region": "South Carolina",
+  "country": "US",
+  "latitude": 34.226559,
+  "longitude": -82.390175,
+  "phone": "+18644464653",
+  "website": "http://therangeatcoldsprings.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770233228/golf_simulators/therangeatcoldsprings_com_ChIJJfanN7jj94gRxL1ZjAxPLGw.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Range+at+Cold+Springs/@34.2265586,-82.3901748,14z/data=!4m8!1m2!2m1!1sThe+Range+at+Cold+Springs!3m4!1s0x88f7e3b837a7f625:0x6c2c4f0c8c59bdc4!8m2!3d34.2265586!4d-82.3901748",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJJfanN7jj94gRxL1ZjAxPLGw",
+  "venue_type": "sim_bar",
+  "about": "The Range at Cold Springs is a golf simulation and practice facility located in Abbeville, SC. It offers both Toptracer-equipped covered bays and a traditional grass tee area, catering to various preferences. The venue features a family-friendly atmosphere with a Clubhouse, Range Cafe, and fire pit, providing a space for both serious practice and social gatherings. Operations include leagues, lessons, event hosting, and a weekly happy hour.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|families|leagues|premium_tech|club_rentals|coaching_available|kids_friendly|community_club",
+  "vibe_tags": "family_fun_center|community_club|casual|welcoming",
+  "who_its_for": "beginners|families|serious_golfers|juniors_youth|corporate_teams",
+  "why_golfers_like_it": [
+    "Ten covered bays with Toptracer technology for enhanced practice and gameplay",
+    "A dedicated grass tee area for a more traditional driving range experience",
+    "Family-friendly atmosphere with a cafe and fire pit for socializing",
+    "Hosts leagues and events for community engagement",
+    "Coaching options available for skill improvement"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Range Cafe offers pizza and other food items. Open 10am-2pm and 5pm-10pm, closed on Sundays."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service available at the venue."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Toptracer",
+      "model": "Range",
+      "notes": "Ten covered bays equipped with Toptracer technology"
+    }
+  ],
+  "simulator_so": [
+    "Toptracer"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 10,
+  "booking_url": "https://yourgolfbooking.com/venues/the-range-at-cold-springs/booking/bays",
+  "pricing_model": "mixed",
+  "price_range_min_local": 15,
+  "price_range_max_local": 45,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|kitchen_food|tv_sports|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "The website does not explicitly state whether clubs are provided or required, so it is recommended to bring your own."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue has a Range Cafe that serves food. There is no mention of BYOB or outside food policies, so it is best to enjoy the offerings on-site."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website mentions hosting 18-hole virtual golf events, but does not specify the standard time required for an 18-hole round."
+    },
+    {
+      "question": "Is this kid-friendly?",
+      "answer": "Yes, The Range at Cold Springs promotes a family-friendly atmosphere, mentioning a Clubhouse, fire pit, and activities suitable for the whole family."
+    }
+  ],
+  "simulator_software": [
+    "Toptracer"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"8AM-10PM\"], \"Tuesday\": [\"8AM-10PM\"], \"Wednesday\": [\"8AM-10PM\"], \"Thursday\": [\"8AM-10PM\"], \"Friday\": [\"8AM-10PM\"], \"Saturday\": [\"8AM-10PM\"], \"Sunday\": [\"1-10PM\"]}"
+}

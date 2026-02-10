@@ -1,0 +1,89 @@
+{
+  "name": "Simplay Golf",
+  "address": "611 Locust St, Monticello, MN 55362",
+  "city": "Monticello",
+  "region": "Minnesota",
+  "country": "US",
+  "latitude": 45.301856,
+  "longitude": -93.800317,
+  "phone": "+17634380425",
+  "website": "https://simplaygolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770221341/golf_simulators/simplaygolf_com_ChIJZSuzTOhjs1IR7OYGAW_phg0.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Simplay+Golf/@45.301855599999996,-93.8003171,14z/data=!4m8!1m2!2m1!1sSimplay+Golf!3m4!1s0x52b363e84cb32b65:0xd86e96f0106e6ec!8m2!3d45.301855599999996!4d-93.8003171",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJZSuzTOhjs1IR7OYGAW_phg0",
+  "email": "contact@simplaygolf.com",
+  "venue_type": "multi_sport_sim",
+  "about": "Simplay Golf is a premier 24/7 indoor golf simulator facility located in Monticello, MN, offering year-round practice and play during its November to May season. The venue utilizes GCQuad launch monitors, the same professional-grade technology trusted by PGA Tour players, to provide players with detailed metrics on ball speed, spin rate, launch angle, and club path. With a flexible pricing model that includes both pay-as-you-go options and various membership plans, the facility is designed to accommodate everyone from casual golfers to serious practitioners looking to elevate their game.",
+  "tags": "premium_tech|beginner_friendly|serious_golfers|date_night|corporate_events|leagues|coaching_available|late_night|budget_friendly",
+  "vibe_tags": "tech_lab|community_club|modern|welcoming",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Access to professional-grade GCQuad launch monitors trusted by PGA Tour players",
+    "24/7 self-service access with automated door entry via app for maximum convenience",
+    "A wide selection of world-famous courses including Pebble Beach, Augusta National, and St. Andrews"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned; BYOB policy is likely but not explicitly stated."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned; BYOB policy is likely but not explicitly stated."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "GCQuad",
+      "model": "GCQuad",
+      "notes": "Professional-grade launch monitor trusted by PGA Tour players in each bay."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://simplaygolf.com/book-a-bay",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 125,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|wifi|online_booking|lessons|late_night",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you should bring your own golf clubs to use at the simulator bays."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "The website does not explicitly state a policy on bringing outside food and drink, but as a self-service facility, it is likely permitted."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify the time required to play 18 holes, as this can vary greatly depending on the player's pace and the course chosen."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, Simplay Golf appears to be kid-friendly, offering a family membership option and various game modes that could appeal to different age groups."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

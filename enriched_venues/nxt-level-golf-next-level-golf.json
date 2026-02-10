@@ -1,0 +1,91 @@
+{
+  "name": "NXT LEVEL GOLF (Next Level Golf)",
+  "address": "415 College Rd Unit #15, Wilmington, NC 28403",
+  "city": "Wilmington",
+  "region": "North Carolina",
+  "country": "US",
+  "latitude": 34.232568,
+  "longitude": -77.873739,
+  "phone": "+19108000968",
+  "website": "https://www.nextlevel-golf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770253084/golf_simulators/www_nextlevel-golf_com_ChIJEewavNT1qYkRgoj_X8ic9zM.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/NXT+LEVEL+GOLF+%28Next+Level+Golf%29/@34.2325681,-77.8737385,14z/data=!4m8!1m2!2m1!1sNXT+LEVEL+GOLF+%28Next+Level+Golf%29!3m4!1s0x89a9f5d4bc1aec11:0x33f79cc85fff8882!8m2!3d34.2325681!4d-77.8737385",
+  "google_rating": 4.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJEewavNT1qYkRgoj_X8ic9zM",
+  "email": "jonathan@nextlevel-golf.com",
+  "venue_type": "training_studio",
+  "about": "NXT LEVEL GOLF is a performance studio and golf club located in Wilmington, offering state-of-the-art golf instruction, practice, and play using TrackMan and Foresight simulator technology. The facility is designed to help golfers of all skill levels, from beginners to PGA Tour players, improve their game through detailed analysis and coaching. Services include private lessons, performance programs, club memberships, and corporate outings, all aimed at taking a player's game to the next level with a focus on measurable results and personalized improvement plans. With a 450 sq ft. putting green and dual TrackMan simulators, the venue provides a comprehensive environment for both practice and play, accessible by appointment Monday through Saturday.",
+  "tags": "serious_practice|coaching_available|juniors_youth|corporate_events|premium_tech|private_rooms|club_rentals|beginner_friendly",
+  "vibe_tags": "tech_lab|private_luxury|industrial_training|modern",
+  "who_its_for": "serious_golfers|juniors_youth|coaches_instructors|solo_practice|corporate_teams",
+  "why_golfers_like_it": [
+    "Access to dual TrackMan 4 simulators for tour-level accuracy and data analysis",
+    "Comprehensive putting technology with SAM PuttLab for detailed feedback",
+    "Elite coaching from PGA professionals with 20+ years of experience",
+    "450 sq ft. putting green for realistic short-game practice",
+    "Monthly memberships offering structured practice sessions and price lock guarantees"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No on-site food service mentioned."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned; BYOB policy not specified."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "Dual doppler radars operating at 40,000 samples per second with camera for 4D tracking."
+    }
+  ],
+  "simulator_software": [
+    "Trackman Virtual Golf"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://www.nextlevel-golf.com/contact",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 1000,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.2,
+  "rating_facility_comfort": 4.1,
+  "rating_value_for_money": 4.1,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "Yes, clients are expected to bring their own golf clubs for lessons and practice sessions."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No on-site food or drink service is mentioned, and there is no information regarding outside food or alcohol policies."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "18 holes can be played in approximately 45 minutes using the TrackMan simulator technology."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, NXT LEVEL GOLF offers junior lesson packages and programs specifically designed for young golfers, including a 5-lesson package for juniors."
+    }
+  ],
+  "rating_overall": 4.1,
+  "opening_hours": "{\"Monday\": [\"9AM-7PM\"], \"Tuesday\": [\"9AM-7PM\"], \"Wednesday\": [\"9AM-7PM\"], \"Thursday\": [\"9AM-7PM\"], \"Friday\": [\"9AM-7PM\"], \"Saturday\": [\"9AM-3PM\"], \"Sunday\": [\"Closed\"]}"
+}

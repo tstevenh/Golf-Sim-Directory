@@ -1,0 +1,89 @@
+{
+  "name": "Another Nine",
+  "address": "3545 Columbia Pkwy, Cincinnati, OH 45226",
+  "city": "Cincinnati",
+  "region": "Ohio",
+  "country": "US",
+  "latitude": 39.115605,
+  "longitude": -84.43754,
+  "phone": "+15138084653",
+  "website": "https://www.anothernine.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770198710/golf_simulators/www_anothernine_com_ChIJr1teVGCtQYgR9a97-S6t3nk.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Another+Nine/@39.115605099999996,-84.4375404,14z/data=!4m8!1m2!2m1!1sAnother+Nine!3m4!1s0x8841ad60545e5baf:0x79dead2ef97baff5!8m2!3d39.115605099999996!4d-84.4375404",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJr1teVGCtQYgR9a97-S6t3nk",
+  "venue_type": "sim_bar",
+  "about": "Another Nine is a premier indoor golf simulator venue offering private, bookable suites equipped with state-of-the-art Trackman technology. The facility provides a flexible, on-demand golf experience with 350+ immersive courses, practice ranges, and mini games, accessible by reservation or through various membership tiers. Patrons enjoy a relaxed, social atmosphere in private suites featuring smart TVs, seating for groups, and mini fridges, making it suitable for casual play, group outings, or serious practice sessions. The venue caters to a wide range of golfers, from beginners to low handicappers, with options for league play, lessons, and corporate events, all while emphasizing convenience and accessibility outside traditional golf course hours.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|private_rooms|coaching_available",
+  "vibe_tags": "private_luxury|tech_lab|community_club|sports_bar",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice|low_handicap|juniors_youth",
+  "why_golfers_like_it": [
+    "State-of-the-art Trackman iO launch monitors for realistic gameplay",
+    "350+ immersive courses including world-renowned golf courses",
+    "Flexible booking with private suites and BYOB policy",
+    "Membership options offering discounted rates and priority access"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Patrons can bring their own food to consume in the private suites"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "BYOB (Bring Your Own Beverage) policy is permitted in the private suites"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "State-of-the-art launch monitor in each private sim suite"
+    }
+  ],
+  "simulator_software": [
+    "Virtual Golf 3"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "mixed",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://www.anothernine.com/products/reservation-1",
+  "pricing_model": "mixed",
+  "price_range_min_local": 30,
+  "price_range_max_local": 150,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 12,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own golf clubs?",
+      "answer": "Yes, you need to bring your own golf clubs as they are not provided by the venue. Golf clubs are listed as an amenity but the context suggests patrons use their own equipment."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, Another Nine operates on a BYOB (Bring Your Own Beverage) policy, and patrons are welcome to bring their own food and drinks to consume in the private suites."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "A full 18-hole round typically takes about 2 hours to play, though this can vary depending on the course and the number of players in your group."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Another Nine is kid-friendly, as evidenced by its offerings including group lessons and an atmosphere suitable for families."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

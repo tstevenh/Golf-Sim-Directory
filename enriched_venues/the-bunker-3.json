@@ -1,0 +1,91 @@
+{
+  "name": "The Bunker",
+  "address": "500 Schooleys Mountain Rd, Hackettstown, NJ 07840",
+  "city": "Hackettstown",
+  "region": "New Jersey",
+  "country": "US",
+  "latitude": 40.83484,
+  "longitude": -74.821902,
+  "phone": "+19089790366",
+  "website": "https://www.rockridgegolfcourse.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770241062/golf_simulators/www_rockridgegolfcourse_com_ChIJgcNAnWqDw4kRBJ9r_xs4W18.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Bunker/@40.83484,-74.8219022,14z/data=!4m8!1m2!2m1!1sThe+Bunker!3m4!1s0x89c3836a9d40c381:0x5f5b381bff6b9f04!8m2!3d40.83484!4d-74.8219022",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJgcNAnWqDw4kRBJ9r_xs4W18",
+  "email": "proshop@rockridgegolfcourse.com",
+  "venue_type": "sim_bar",
+  "about": "The Bunker is a golf simulator venue located within the Rock Ridge Golf Course complex in Hackettstown, New Jersey. It is a dedicated indoor facility featuring two top-of-the-line Trackman iO golf simulator bays, designed to provide a year-round golfing experience regardless of weather conditions. The venue is part of a larger family-run business that also includes The Nook, a bar and grill, and The Rock Room, a banquet hall, creating a comprehensive entertainment and golf destination. The Bunker aims to blend high-tech golf simulation with a social lounge atmosphere, offering amenities like a pool table, shuffleboard, and a bar to enhance the overall experience for golfers and social groups alike.",
+  "tags": "serious_golfers|food_and_drinks|date_night|corporate_events|leagues|premium_tech|private_rooms|club_rentals|community_club|coaching_available",
+  "vibe_tags": "upscale_lounge|sports_bar|tech_lab|community_club",
+  "who_its_for": "serious_golfers|corporate_teams|families|large_groups|solo_practice",
+  "why_golfers_like_it": [
+    "Access to top-of-the-line Trackman iO technology for realistic practice and play",
+    "Year-round golfing available in a climate-controlled indoor environment",
+    "Integrated social lounge with bar, pool table, and shuffleboard for a complete entertainment experience",
+    "Convenient location within a multi-venue complex offering dining and event options",
+    "Leagues available for both singles and two-player formats"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of on-site food service within The Bunker itself. Food is available at The Nook bar and grill, located in the clubhouse."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "The Bunker features a bar, offering alcoholic drinks for guests."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "State-of-the-art radar-based launch monitor installed in two dedicated bays."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 2,
+  "booking_url": "https://apimanager-cc29.clubcaddie.com/activities/view/aifdabab",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|kitchen_food|tv_sports|private_party_room|pro_shop|leagues",
+  "rating_tech_quality": 5.0,
+  "rating_facility_comfort": 4.5,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own golf clubs?",
+      "answer": "The website does not specify if clubs are provided. It is recommended to bring your own equipment for a familiar and comfortable playing experience."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "The Bunker features its own bar, but the website does not explicitly mention a policy on bringing outside food or drink. The Nook, a separate on-site restaurant and bar, is available for food and additional drinks."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "A specific time for 18 holes is not provided. Typically, simulator play is faster than on-course golf, but duration can vary based on the number of players and pace of play."
+    },
+    {
+      "question": "Is The Bunker kid-friendly?",
+      "answer": "The venue is an adults-oriented lounge featuring a bar, pool table, and golf simulators. There is no specific mention of child-friendly amenities or policies, suggesting it is primarily geared towards an adult clientele."
+    }
+  ],
+  "rating_overall": 4.5,
+  "opening_hours": "{\"Monday\": [\"9AM-6PM\"], \"Tuesday\": [\"9AM-6PM\"], \"Wednesday\": [\"9AM-9PM\"], \"Thursday\": [\"9AM-12AM\"], \"Friday\": [\"9AM-12AM\"], \"Saturday\": [\"9AM-12AM\"], \"Sunday\": [\"9AM-6PM\"]}"
+}

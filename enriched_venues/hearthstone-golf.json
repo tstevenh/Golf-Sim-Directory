@@ -1,0 +1,89 @@
+{
+  "name": "Hearthstone Golf",
+  "address": "8632 A Commerce Dr, Easton, MD 21601",
+  "city": "Easton",
+  "region": "Maryland",
+  "country": "US",
+  "latitude": 38.786332,
+  "longitude": -76.081906,
+  "phone": "+14106903838",
+  "website": "http://www.hearthstonegolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770202451/golf_simulators/www_hearthstonegolf_com_ChIJ00p6BndAuIkRuil1k_K21EU.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Hearthstone+Golf/@38.7863324,-76.08190549999999,14z/data=!4m8!1m2!2m1!1sHearthstone+Golf!3m4!1s0x89b84077067a4ad3:0x45d4b6f2937529ba!8m2!3d38.7863324!4d-76.08190549999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ00p6BndAuIkRuil1k_K21EU",
+  "email": "dan@hearthstonehealthandfitness.com",
+  "venue_type": "training_studio",
+  "about": "Hearthstone Golf is an indoor golf training facility focused on game improvement through HD Golf simulators, professional instruction, and custom club fitting. The venue offers a comprehensive approach to skill development, utilizing simulator data for analysis and certified TPI (Titleist Performance Institute) assessments for personalized training programs. With over 20 years of experience, they cater to golfers of all ages and skill levels, from juniors to adults, providing a year-round environment to practice and play regardless of weather conditions. The facility combines technology with professional services, including golf-specific personal training, custom club fitting for brands like Callaway and TaylorMade, and various instructional programs to elevate a player's performance on the course.",
+  "tags": "beginner_friendly|kids_friendly|coaching_available|club_fitting|juniors_youth|serious_practice|leagues|budget_friendly|community_club",
+  "vibe_tags": "industrial_training|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|families|juniors_youth|coaches_instructors",
+  "why_golfers_like_it": [
+    "HD Golf simulators provide detailed performance data for effective skill improvement",
+    "Certified TPI assessments and personalized training programs for on-course performance enhancement",
+    "Custom club fitting services for major brands to optimize equipment performance"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "Food and beverages are not allowed on the synthetic turf area; designated areas may permit consumption."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service; BYOB policy not specified."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "HD Golf",
+      "model": "HD Golf Simulator",
+      "notes": "Custom HD Golf simulator providing realistic virtual golf experience with data tracking."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "http://www.hearthstonegolf.com/contact-us",
+  "pricing_model": "per_person_hour",
+  "price_range_min_local": 35,
+  "price_range_max_local": 80,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|club_fitting|leagues|pro_shop|tv_sports|wifi",
+  "rating_tech_quality": 4.0,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "Players must use the facility's golf balls for the simulator to accurately compute metrics. While not explicitly stated, it is implied that players can use their own clubs, but custom fitting services are available to ensure equipment is optimized for performance."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Food and beverages are not allowed on the synthetic turf area. They are permitted in designated areas of the facility."
+    },
+    {
+      "question": "How long does it take to play 18 holes on the simulator?",
+      "answer": "It takes approximately one hour for an individual player to complete 18 holes on the simulator. For multiple players, an additional hour should be booked."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, children under 16 can use the simulator with parental/legal guardian supervision. The facility offers junior programs, small group classes, and a focus on growing the game for young players."
+    }
+  ],
+  "rating_overall": 4.0,
+  "opening_hours": "{\"Monday\": [\"7AM-8PM\"], \"Tuesday\": [\"7AM-8PM\"], \"Wednesday\": [\"7AM-8PM\"], \"Thursday\": [\"7AM-8PM\"], \"Friday\": [\"7AM-8PM\"], \"Saturday\": [\"7AM-6PM\"], \"Sunday\": [\"7AM-6PM\"]}"
+}

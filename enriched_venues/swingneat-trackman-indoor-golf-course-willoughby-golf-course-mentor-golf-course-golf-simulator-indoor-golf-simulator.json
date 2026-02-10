@@ -1,0 +1,94 @@
+{
+  "name": "SwingNEat, Trackman, indoor golf course, Willoughby golf course, mentor golf course, golf simulator, indoor golf simulator",
+  "address": "36944 Vine St, Willoughby, OH 44094",
+  "city": "Willoughby",
+  "region": "Ohio",
+  "country": "US",
+  "latitude": 41.642263,
+  "longitude": -81.422478,
+  "phone": "+14405714020",
+  "website": "http://www.swingneat.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770216032/golf_simulators/www_swingneat_com_ChIJPenBU--pMYgR8Br6vnjTRvE.png",
+  "google_maps_url": "https://www.google.com/maps/place/SwingNEat%2C+Trackman%2C+indoor+golf+course%2C+Willoughby+golf+course%2C+mentor+golf+course%2C+golf+simulator%2C+indoor+golf+simulator/@41.6422635,-81.4224784,14z/data=!4m8!1m2!2m1!1sSwingNEat%2C+Trackman%2C+indoor+golf+course%2C+Willoughby+golf+course%2C+mentor+golf+course%2C+golf+simulator%2C+indoor+golf+simulator!3m4!1s0x8831a9ef53c1e93d:0xf146d378befa1af0!8m2!3d41.6422635!4d-81.4224784",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJPenBU--pMYgR8Br6vnjTRvE",
+  "email": "swingneat@gmail.com",
+  "venue_type": "sim_bar",
+  "about": "SwingNEat is a family entertainment center that combines indoor golf simulator technology with a full-service restaurant and bar. The venue features high-end Trackman simulators within dedicated golf bays, providing year-round golfing opportunities. It offers a casual, multifunctional space designed for both dining and recreation, with a focus on providing a fun experience for groups of varying sizes. The venue is equipped with self-service dining options from multiple eateries and a beverage wall, catering to patrons looking for a social outing that includes both food and golf.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|kids_friendly|corporate_events|leagues|premium_tech|private_rooms|club_rentals|community_club",
+  "vibe_tags": "family_fun_center|sports_bar|tech_lab|casual|welcoming|modern",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Premium Trackman simulator technology for accurate ball and club tracking",
+    "On-site dining and beverage options available for a complete entertainment package",
+    "Multiple booking options including hourly bay rates and memberships for flexibility",
+    "Indoor environment allows for golf practice and play regardless of weather conditions"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "On-site dining with three eateries: P&P Pizzeria, Bombay Burrito, and Krispy Krunchy Chicken. Take-out and dine-in options are available."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Self-serve beer wall with 30 different brews/drinks available."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "High-end Trackman simulators in dedicated bays"
+    }
+  ],
+  "simulator_so": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://yourgolfbooking.com/venues/swing-neat/booking/bays",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": false,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can bring your own clubs, but the venue likely provides rental clubs for use with their simulators if needed."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No, outside food and drinks are not permitted. SwingNEat offers its own full-service dining and bar with multiple food options and a self-serve beer wall."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Playing 18 holes typically takes about 1 to 2 hours depending on the number of players and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, SwingNEat is a family entertainment center that welcomes children and offers a casual, fun atmosphere suitable for families."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"11AM-9PM\"], \"Tuesday\": [\"11AM-9PM\"], \"Wednesday\": [\"11AM-9PM\"], \"Thursday\": [\"11AM-9PM\"], \"Friday\": [\"11AM-10PM\"], \"Saturday\": [\"11AM-10PM\"], \"Sunday\": [\"12-8PM\"]}"
+}

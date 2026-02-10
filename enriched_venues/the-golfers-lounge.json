@@ -1,0 +1,94 @@
+{
+  "name": "The Golfers Lounge",
+  "address": "2467 Savannah Hwy suite 505, Charleston, SC 29414",
+  "city": "Charleston",
+  "region": "South Carolina",
+  "country": "US",
+  "latitude": 32.792048,
+  "longitude": -80.051506,
+  "phone": "+13152442098",
+  "website": "http://www.golfersloungechs.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770208237/golf_simulators/www_golfersloungechs_com_ChIJyfssrUV9_ogRWfB5ueOqm6M.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Golfers+Lounge/@32.792048199999996,-80.0515059,14z/data=!4m8!1m2!2m1!1sThe+Golfers+Lounge!3m4!1s0x88fe7d45ad2cfbc9:0xa39baae3b979f059!8m2!3d32.792048199999996!4d-80.0515059",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJyfssrUV9_ogRWfB5ueOqm6M",
+  "email": "thegolfersloungechs@gmail.com",
+  "venue_type": "sim_bar",
+  "about": "The Golfers Lounge is a multi-location golf simulation venue in South Carolina, offering access to Trackman simulator technology at its West Ashley, Summerville, and Columbia facilities. The venue operates on a membership model, providing 24/7 access to bays for members, with free bay time included in all membership tiers. Members can use a range of simulator features, including Shot Analysis mode with over 30 data points and access to a library of over 400 courses. Pricing varies by location and membership length, with options from month-to-month to 12-month plans, and initiation fees where applicable.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|budget_friendly|club_rentals|coaching_available|community_club",
+  "vibe_tags": "casual|welcoming|modern|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "24/7 access to top-of-the-line Trackman Simulator Technology",
+    "Free bay time for members with no hourly booking costs",
+    "Access to over 400 courses, including Pebble Beach and Bethpage Black",
+    "Shot Analysis mode offering over 30 data points on swing and ball flight"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "On-site kitchen available for food service"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available at all locations"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Top-of-the-line Trackman Simulator Technology at all locations"
+    }
+  ],
+  "simulator_so": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "auto_putt",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://clients.uschedule.com/golferslounge/account/login",
+  "pricing_model": "membership_only",
+  "price_range_min_local": 125,
+  "price_range_max_local": 190,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "While you can bring your own clubs, the venue provides club rentals for members and guests."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drink are not permitted as the venue offers its own full bar and kitchen service."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "18 holes typically take 1.5-2 hours depending on simulator wait times and player pace."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue offers putt-putt and easier games for those with less golf experience, making it suitable for families."
+    }
+  ],
+  "simulator_software": [
+    "Trackman Simulator Technology"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

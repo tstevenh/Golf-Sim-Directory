@@ -1,0 +1,91 @@
+{
+  "name": "24/7 Golf Haslett",
+  "address": "2121 Haslett Rd, Haslett, MI 48840",
+  "city": "Haslett",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 42.746535,
+  "longitude": -84.427073,
+  "phone": "+16163509482",
+  "website": "https://24-7golf.com/haslett/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770220488/golf_simulators/24-7golf_com_ChIJRWHEm1TnIogR8gS666bcjb8.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/24%2F7+Golf+Haslett/@42.7465349,-84.42707279999999,14z/data=!4m8!1m2!2m1!1s24%2F7+Golf+Haslett!3m4!1s0x8822e7549bc46145:0xbf8ddca6ebba04f2!8m2!3d42.7465349!4d-84.42707279999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJRWHEm1TnIogR8gS666bcjb8",
+  "email": "info@24-7golf.com",
+  "venue_type": "multi_sport_sim",
+  "about": "24/7 Golf Haslett is an indoor golf and pickleball facility located at 2121 Haslett Rd in Haslett, MI. The venue offers four golf simulator bays available for hourly rental, providing a convenient option for golfers to play regardless of weather conditions. The facility is open 24 hours a day, 7 days a week, allowing for flexible scheduling for individuals, groups, and parties. While primarily focused on golf and pickleball, the venue does not mention in-house food or drink service beyond a potential BYOB policy.",
+  "tags": "beginner_friendly|corporate_events|leagues|premium_tech|late_night|club_rentals|coaching_available",
+  "vibe_tags": "casual|welcoming|modern|sports_bar",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "24/7 access provides maximum flexibility for any schedule",
+    "Top-of-the-line Trackman iO technology for accurate shot data",
+    "Available for private parties and corporate events",
+    "Simple hourly rental model with no group size restrictions",
+    "Multiple locations provide convenient options around Lansing"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No in-house food service mentioned; likely BYOB policy."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No in-house bar mentioned; likely BYOB policy."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Latest technology using radar, infrared, and high-speed imaging for real-time ball and club data."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 4,
+  "booking_url": "https://24-7golf.com/booking/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 25,
+  "price_range_max_local": 40,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 4,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|leagues|private_party_room|wifi",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "The website does not explicitly state whether clubs are provided or if you must bring your own. It is recommended to call them directly to confirm."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "The website does not have a clear policy on outside food and drink. While no in-house bar or kitchen is mentioned, it's best to check their FAQ or contact them directly regarding BYOB policies."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify an average time for playing 18 holes, as this will depend on the number of players in your bay and your pace of play."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "Yes, the venue appears to be kid-friendly, mentioning that you can bring a friend or a group, and hosting work parties and other events suggests a family-friendly atmosphere."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

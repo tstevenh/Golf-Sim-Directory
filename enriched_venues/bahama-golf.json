@@ -1,0 +1,92 @@
+{
+  "name": "Bahama Golf",
+  "address": "2780 Cabot Dr #160-5, Corona, CA 92883",
+  "city": "Corona",
+  "region": "California",
+  "country": "US",
+  "latitude": 33.81127,
+  "longitude": -117.50748,
+  "phone": "+19516385400",
+  "website": "http://bahamagolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770230076/golf_simulators/bahamagolf_com_ChIJBbelhUy53IARA-yEji-974k.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Bahama+Golf/@33.8112703,-117.5074798,14z/data=!4m8!1m2!2m1!1sBahama+Golf!3m4!1s0x80dcb94c85a5b705:0x89efbd2f8e84ec03!8m2!3d33.8112703!4d-117.5074798",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJBbelhUy53IARA-yEji-974k",
+  "email": "memberservices@bahamagolf.com",
+  "venue_type": "sim_bar",
+  "about": "Bahama Golf is a premier virtual golf destination offering a blend of high-tech simulation, professional coaching, and social entertainment. The facility features advanced indoor simulators with high-speed cameras and sophisticated swing analysis software, allowing golfers of all skill levels to play world-class courses, practice, and receive personalized instruction. Membership tiers provide varying access to simulator hours, lessons, and event hosting, with options ranging from 8 hours to unlimited play. The venue caters to individual practice, group play, leagues, corporate events, and private parties, positioning itself as a comprehensive hub for both serious golfers and social players seeking a modern golf experience.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|club_rentals|coaching_available|family_friendly|solo_practice",
+  "vibe_tags": "tech_lab|community_club|casual|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "State-of-the-art Uneekor simulators with high-speed cameras providing detailed swing analysis",
+    "Access to a PGA-certified Head Professional with 17+ years of competitive and instructional experience",
+    "Flexible membership options including unlimited simulator hours and complimentary lessons",
+    "Host of leagues and events including individual scrambles and parent-child tournaments",
+    "Private event and corporate hosting capabilities with customizable bay packages"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "BYOB - Guests can bring their own food and drinks for events"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "BYOB - Guests can bring their own alcoholic beverages"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "QED/View",
+      "notes": "High-speed cameras capture swing motion at 180 fps in 1440x1080 resolution with club face impact analysis"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.bahamagolf.com/kipon",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|pro_shop|leagues|private_party_room|coaching_available|tv_sports",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "While the venue doesn't explicitly state club rentals, golfers typically bring their own clubs to use with the simulators."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, BYOB is allowed. Guests can bring their own food and drinks, especially for private events and corporate packages."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes varies depending on the simulator and play style, but typically ranges from 1.5 to 2.5 hours."
+    },
+    {
+      "question": "Is Bahama Golf kid-friendly?",
+      "answer": "Yes, Bahama Golf is kid-friendly, offering junior lessons and hosting parent-child scrambles and leagues."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"8AM-10PM\"], \"Saturday\": [\"8AM-10PM\"], \"Sunday\": [\"8AM-8PM\"]}"
+}

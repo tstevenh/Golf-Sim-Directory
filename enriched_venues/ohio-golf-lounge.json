@@ -1,0 +1,91 @@
+{
+  "name": "Ohio Golf Lounge",
+  "address": "5542 Columbus Pike B, Lewis Center, OH 43035",
+  "city": "Lewis Center",
+  "region": "Ohio",
+  "country": "US",
+  "latitude": 40.215435,
+  "longitude": -83.034304,
+  "phone": "+17402074352",
+  "website": "https://ohiogolflounge.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770210994/golf_simulators/ohiogolflounge_com_ChIJXRze4G3xOIgRTLcVn4deA28.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Ohio+Golf+Lounge/@40.215435,-83.03430379999999,14z/data=!4m8!1m2!2m1!1sOhio+Golf+Lounge!3m4!1s0x8838f16de0de1c5d:0x6f035e879f15b74c!8m2!3d40.215435!4d-83.03430379999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJXRze4G3xOIgRTLcVn4deA28",
+  "email": "info@ohiogolflounge.com",
+  "venue_type": "other",
+  "about": "The Ohio Golf Lounge is an indoor golf facility located in Lewis Center, Ohio, serving the Columbus, Delaware, and Central Ohio areas. It offers 24/7 keyless access and is designed for golfers to play on their own terms, regardless of weather conditions. The facility is equipped with TrackMan launch monitors, integrated video cameras in every bay, and club repair services, with club fitting and virtual golf instruction noted as coming soon. Memberships are available with flexible pricing and terms, emphasizing unlimited play and convenience for both casual and serious golfers.",
+  "tags": "beginner_friendly|corporate_events|premium_tech|coaching_available|private_rooms|community_club|serious_practice|year_round_access|flexible_pricing|solo_practice",
+  "vibe_tags": "industrial_training|tech_lab|modern|welcoming",
+  "who_its_for": "beginners|serious_golfers|corporate_teams|solo_practice|families",
+  "why_golfers_like_it": [
+    "24/7 keyless access for ultimate convenience",
+    "Professional-grade TrackMan technology for accurate swing analysis",
+    "Flexible membership options to fit various playing schedules and budgets",
+    "All-weather indoor facility ensuring year-round play",
+    "Integrated video cameras for swing review and improvement"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of on-site food service."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service or BYOB policy."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Professional-grade radar launch monitor used in all bays."
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "https://booking.trackmangolf.com/venues/ohio-golf-lounge/booking/bays",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|club_fitting|coaching_available|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need clubs?",
+      "answer": "The venue does not specify if they provide rental clubs, so players should assume they need to bring their own clubs."
+    },
+    {
+      "question": "Can I bring my own food or drink?",
+      "answer": "There is no mention of outside food or drink policies on the website, so it's recommended to contact the venue directly."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify the time required to play 18 holes, as this can vary based on simulator software and player speed."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The website does not explicitly state whether the venue is kid-friendly, though it does mention it is accessible to golfers of all skill levels."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

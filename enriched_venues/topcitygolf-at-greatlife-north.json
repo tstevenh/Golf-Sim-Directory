@@ -1,0 +1,89 @@
+{
+  "name": "TopCITYGolf at GreatLIFE North",
+  "address": "350 NE US 24 HWY, Topeka, KS 66608",
+  "city": "Topeka",
+  "region": "Kansas",
+  "country": "US",
+  "latitude": 39.091799,
+  "longitude": -95.65428,
+  "phone": "+17853570026",
+  "website": "https://www.topcitygolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770216143/golf_simulators/www_topcitygolf_com_ChIJOVHujfoDv4cRSF6uMKECcg4.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/TopCITYGolf+at+GreatLIFE+North/@39.0917986,-95.6542796,14z/data=!4m8!1m2!2m1!1sTopCITYGolf+at+GreatLIFE+North!3m4!1s0x87bf03fa8dee5139:0xe7202a130ae5e48!8m2!3d39.0917986!4d-95.6542796",
+  "google_rating": 4.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJOVHujfoDv4cRSF6uMKECcg4",
+  "email": "membership@greatlifegolf.com",
+  "venue_type": "sim_bar",
+  "about": "TopCITYGolf is a golf entertainment venue featuring 25 outdoor bays equipped with Toptracer Range technology. The facility offers a driving range experience, a 9-hole golf course, and a self-pour beer station with a full kitchen. It is designed for a range of skill levels and ages, providing games for individual practice, group competitions, and events. The venue is open daily from 9am to 5pm, with the clubhouse possibly closed if the temperature is below 40 degrees at noon.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|kids_friendly|corporate_events|leagues|premium_tech|family_fun_center|private_rooms|club_rentals",
+  "vibe_tags": "family_fun_center|tech_lab|casual|welcoming|modern",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Features 25 Toptracer-powered simulators allowing play on world-renowned virtual courses",
+    "Offers a mix of driving range practice and a challenging 9-hole golf course for a complete golf experience",
+    "Self-pour beer station and full kitchen provide a social and relaxed atmosphere for groups and events"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen available for food service"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Self-pour Pour My Beer station available on-site"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Toptracer",
+      "model": "Range",
+      "notes": "25 outdoor driving range simulators with virtual course gameplay and skill challenges"
+    }
+  ],
+  "simulator_software": [
+    "Toptracer Range"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 25,
+  "booking_url": "https://alleytrak.com/app/client/4406/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": null,
+  "price_range_max_local": null,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": null,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|pro_shop|leagues",
+  "rating_tech_quality": 4.2,
+  "rating_facility_comfort": 4.1,
+  "rating_value_for_money": 4.1,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify whether club rentals are available, so it is recommended to bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue has a full kitchen and a self-pour beer station, but it does not explicitly state if outside food and drinks are permitted."
+    },
+    {
+      "question": "How long does an 18-hole virtual game take?",
+      "answer": "The website does not specify the duration for an 18-hole virtual game; it is recommended to contact the venue directly for this information."
+    },
+    {
+      "question": "Is TopCITYGolf kid-friendly?",
+      "answer": "Yes, the venue states it has games for all levels of golfers and ages, including those as young as 10 years old."
+    }
+  ],
+  "rating_overall": 4.1,
+  "opening_hours": "{\"Monday\": [\"9AM-5PM\"], \"Tuesday\": [\"9AM-5PM\"], \"Wednesday\": [\"9AM-5PM\"], \"Thursday\": [\"9AM-5PM\"], \"Friday\": [\"9AM-5PM\"], \"Saturday\": [\"9AM-5PM\"], \"Sunday\": [\"9AM-5PM\"]}"
+}

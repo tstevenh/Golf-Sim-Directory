@@ -1,0 +1,94 @@
+{
+  "name": "Mountain View Country Club",
+  "address": "310 Elks Club Rd, Boalsburg, PA 16827",
+  "city": "Boalsburg",
+  "region": "Pennsylvania",
+  "country": "US",
+  "latitude": 40.785053,
+  "longitude": -77.759959,
+  "phone": "+18144667231",
+  "website": "http://www.mtviewcountryclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770247486/golf_simulators/www_mtviewcountryclub_com_ChIJLYRDK_evzokRsYDCQNAZ8TM.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Mountain+View+Country+Club/@40.7850533,-77.7599589,14z/data=!4m8!1m2!2m1!1sMountain+View+Country+Club!3m4!1s0x89ceaff72b43842d:0x33f119d040c280b1!8m2!3d40.7850533!4d-77.7599589",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJLYRDK_evzokRsYDCQNAZ8TM",
+  "email": "sales@mtviewcountryclub.com.",
+  "venue_type": "country_club|sim_bar",
+  "about": "Mountain View Country Club is a full-service golf and leisure facility located in Boalsburg, PA. The venue features a 1963-built golf course and operates Hacktivist Happy Valley, an indoor golf simulation center equipped with two Trackman bays and racing simulators. The club offers a range of memberships, dining at The View Restaurant & Bar, and facilities for banquets, meetings, and weddings. Its primary focus is on providing a comprehensive golf experience, including on-course play, year-round simulator access, and event hosting.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|budget_friendly|club_rentals|coaching_available|juniors_youth",
+  "vibe_tags": "sports_bar|community_club|tech_lab",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "Premium Trackman technology for accurate ball and club tracking",
+    "Year-round indoor golf simulation with two dedicated bays",
+    "Access to discounted play at 20 other reciprocal courses",
+    "On-site dining and event facilities for a complete golf outing experience",
+    "A full tournament schedule and member leagues for competitive play"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full restaurant and bar service available at The View Restaurant & Bar with daily lunch and dinner hours."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Bar service available on-site; BYOB policy not specified."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "2 bays equipped for golf simulation with advanced ball and club tracking."
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://booking.trackmangolf.com/venues/hacktivist-happy-valley/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 45,
+  "price_range_max_local": 79,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|kitchen_food|tv_sports|pro_shop|leagues|club_fitting",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify, but it is standard practice for simulator bays to allow players to use their own clubs. Clubs may also be available for rent at the pro shop."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "Food and drink are available for purchase on-site at The View Restaurant & Bar. The BYOB policy is not explicitly stated."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not provide a specific time estimate for playing 18 holes on a simulator, as this can vary based on player speed and number of people sharing a bay."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue offers a Junior Membership for players under 18 and appears to host family-oriented events, indicating a kid-friendly environment."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": null
+}

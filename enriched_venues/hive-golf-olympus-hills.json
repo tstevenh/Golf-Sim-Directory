@@ -1,0 +1,91 @@
+{
+  "name": "Hive Golf Olympus Hills",
+  "address": "3939 S Wasatch Blvd #19-B, Millcreek, UT 84124",
+  "city": "Millcreek",
+  "region": "Utah",
+  "country": "US",
+  "latitude": 40.686582,
+  "longitude": -111.796028,
+  "phone": "+13854832010",
+  "website": "http://hivegolf.us/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770206014/golf_simulators/hivegolf_us_ChIJg_1sWd9hUocRpof72Ph9zAA.png",
+  "google_maps_url": "https://www.google.com/maps/place/Hive+Golf+Olympus+Hills/@40.686582099999995,-111.79602799999999,14z/data=!4m8!1m2!2m1!1sHive+Golf+Olympus+Hills!3m4!1s0x875261df596cfd83:0xcc7df8d8fb87a6!8m2!3d40.686582099999995!4d-111.79602799999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJg_1sWd9hUocRpof72Ph9zAA",
+  "email": "hivegolf@hivegolf.us",
+  "venue_type": "sim_bar",
+  "about": "Hive Golf provides an elevated indoor golf experience utilizing TrackMan technology with private simulator bays. The venue offers memberships, leagues, coaching, and private event capabilities with 24/7 access for members. While customers can bring their own food and beverage, alcohol is not permitted due to Utah liquor laws. The facility emphasizes a welcoming atmosphere for golfers of all levels to practice, compete, and socialize.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|private_rooms|coaching_available|community_club|budget_friendly",
+  "vibe_tags": "casual|welcoming|modern|tech_lab",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "State-of-the-art TrackMan 4 technology for precise shot tracking",
+    "24/7 access for members with the Pro Data Key app",
+    "Free 30-minute introductory session for new customers",
+    "Variety of league formats including team and solo competitions",
+    "Private event bays accommodating up to 4 people each"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Customers can bring outside food; no food available for purchase"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "Alcohol not permitted due to Utah liquor laws"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "Dual radar technology favored by professionals"
+    }
+  ],
+  "simulator_software": [
+    "TrackMan"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 12,
+  "booking_url": "https://hivegolf.us/location-picker-booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 4,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|wifi|leagues|private_party_room",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The content doesn't explicitly mention club rentals, so it's recommended to bring your own clubs."
+    },
+    {
+      "question": "Can I bring food and drinks?",
+      "answer": "Yes, customers can bring outside food and non-alcoholic beverages. Alcohol is not permitted due to Utah liquor laws."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The content doesn't specify the time required for 18 holes, as it varies depending on simulator usage and group size."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue appears kid-friendly with coaching available for all ages and skill levels."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

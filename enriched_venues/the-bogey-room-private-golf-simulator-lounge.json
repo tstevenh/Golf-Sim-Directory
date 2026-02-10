@@ -1,0 +1,90 @@
+{
+  "name": "The Bogey Room | Private Golf Simulator Lounge",
+  "address": "121 S Sullivan Rd, Spokane Valley, WA 99037",
+  "city": "Spokane Valley",
+  "region": "Washington",
+  "country": "US",
+  "latitude": 47.655439,
+  "longitude": -117.196174,
+  "phone": "+19862057090",
+  "website": "http://www.bogeyroom.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770221271/golf_simulators/www_bogeyroom_com_ChIJZbkldp7fYVMR9PUrFZpDKws.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Bogey+Room+%7C+Private+Golf+Simulator+Lounge/@47.6554388,-117.196174,14z/data=!4m8!1m2!2m1!1sThe+Bogey+Room+%7C+Private+Golf+Simulator+Lounge!3m4!1s0x5361df9e7625b965:0xb2b439a152bf5f4!8m2!3d47.6554388!4d-117.196174",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJZbkldp7fYVMR9PUrFZpDKws",
+  "email": "golf@bogeyroom.com",
+  "venue_type": "sim_bar",
+  "about": "The Bogey Room is a private, member-only indoor golf lounge operating across three locations in the Pacific Northwest. It provides exclusive access to state-of-the-art golf simulators with a focus on community, convenience, and game improvement. Membership is required for access, with pricing varying per location and based on an initiation fee plus a monthly membership cost, offering unlimited access and no contracts. The venue is designed as a private lounge environment where members can bring their own food and drink, with on-site refrigerators available, and features a mix of social and competitive golf activities.",
+  "tags": "food_and_drinks|premium_tech|coaching_available|family_friendly|corporate_events|leagues|community_club|private_rooms",
+  "vibe_tags": "private_luxury|community_club|casual|welcoming",
+  "who_its_for": "serious_golfers|families|corporate_teams|coaches_instructors|solo_practice",
+  "why_golfers_like_it": [
+    "24/7 key card access to the facility with mobile booking and scheduling",
+    "State-of-the-art Uneekor launch monitors providing industry-leading accuracy and realism",
+    "Access to 100+ top golf courses from around the world and real-time swing analytics",
+    "A family-friendly environment with bi-monthly leagues, member tournaments, and virtual challenges"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Members can bring their own food; fridges are available on-site to store food during bookings. Eating and drinking are not permitted on the turf."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Members can bring their own alcoholic drinks; fridges are available on-site to store drinks during bookings. Drinking is not permitted on the turf."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "Launch Monitor",
+      "notes": "Premium launch monitors cited as being less than 1% off in accuracy and providing exceptional realism."
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://clients.uschedule.com/bogeyroom/booking",
+  "pricing_model": "membership_only",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|kitchen_food|tv_sports|private_party_room|leagues|pro_shop",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.5,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "The website does not specify if rental clubs are available. It is recommended that members bring their own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "Yes, members can bring their own food and drink. The venue provides fridges for storage during bookings. However, eating and drinking on the turf is not permitted."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify the time required to play 18 holes. Booking policy allows for up to 2 hours at a time."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, The Bogey Room is described as a family-friendly environment where members can bring guests."
+    }
+  ],
+  "rating_overall": 4.4,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

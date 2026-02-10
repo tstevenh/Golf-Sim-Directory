@@ -1,0 +1,94 @@
+{
+  "name": "Golf Kings",
+  "address": "56 Chambers Brg Rd, Brick Township, NJ 08723",
+  "city": "Brick Township",
+  "region": "New Jersey",
+  "country": "US",
+  "latitude": 40.057345,
+  "longitude": -74.140608,
+  "phone": "+17328006923",
+  "website": "https://golfkingsnj.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770209020/golf_simulators/golfkingsnj_com_ChIJzzJPweKDwYkRUkwUwsOQvp4.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Golf+Kings/@40.0573452,-74.1406075,14z/data=!4m8!1m2!2m1!1sGolf+Kings!3m4!1s0x89c183e2c14f32cf:0x9ebe90c3c2144c52!8m2!3d40.0573452!4d-74.1406075",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJzzJPweKDwYkRUkwUwsOQvp4",
+  "venue_type": "sim_bar",
+  "about": "Golf Kings is an indoor golf simulator lounge and pro shop with locations in Brick, Toms River, and Wall, New Jersey. The facility offers TrackMan-powered golf simulations, allowing players to experience courses from around the world in a climate-controlled environment. Each bay includes a private TV for watching sports, alongside professional instruction, club fittings, and a pro shop. The venue is designed for both casual play and serious practice, with options for hourly rentals, lessons, and private events.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|coaching_available|club_rentals|group_friendly",
+  "vibe_tags": "casual|welcoming|modern|sports_bar",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "TrackMan technology provides detailed swing analytics and course simulations",
+    "Private TVs in each bay for a personalized entertainment experience",
+    "On-site PGA professionals for lessons and club fittings",
+    "Flexible booking system for individual and group sessions",
+    "Pro shop offers equipment, regripping, and apparel services"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Pro shop available with club rentals, regripping, and apparel"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service; BYOB policy not specified"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "unknown",
+      "notes": "Premium radar-based launch monitor with detailed swing analytics"
+    }
+  ],
+  "simulator_so": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://clients.uschedule.com/golfkingsnj/booking",
+  "pricing_model": "per_bay_hour|mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 70,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "pro_shop|club_fitting|club_rentals|tv_sports|leagues|coaching_available",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, players should bring their own clubs, though club rentals may be available at the pro shop."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue has a pro shop with equipment, but no mention of outside food/drink policies."
+    },
+    {
+      "question": "How long does an 18-hole round take?",
+      "answer": "Typically 2-3 hours depending on course and player pace."
+    },
+    {
+      "question": "Is this kid-friendly?",
+      "answer": "No specific kid-friendly policies mentioned, but family groups are welcome."
+    }
+  ],
+  "simulator_software": [
+    "TrackMan"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"9AM-10PM\"], \"Saturday\": [\"8AM-10PM\"], \"Sunday\": [\"8AM-10PM\"]}"
+}

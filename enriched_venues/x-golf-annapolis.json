@@ -1,0 +1,89 @@
+{
+  "name": "X-Golf Annapolis",
+  "address": "167 Jennifer Rd Suite Y, Annapolis, MD 21401",
+  "city": "Annapolis",
+  "region": "Maryland",
+  "country": "US",
+  "latitude": 38.986851,
+  "longitude": -76.542882,
+  "phone": "+14105715944",
+  "website": "http://www.xgolfannapolis.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770202462/golf_simulators/www_xgolfannapolis_com_ChIJhemCSHz3t4kRLBDJLpVnnLc.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/X-Golf+Annapolis/@38.986850499999996,-76.5428822,14z/data=!4m8!1m2!2m1!1sX-Golf+Annapolis!3m4!1s0x89b7f77c4882e985:0xb79c67952ec9102c!8m2!3d38.986850499999996!4d-76.5428822",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJhemCSHz3t4kRLBDJLpVnnLc",
+  "email": "contact@xgolfannapolis.com",
+  "venue_type": "sim_bar",
+  "about": "X-Golf Annapolis is an indoor golf simulator venue featuring state-of-the-art technology for realistic golf simulation. The facility offers 7 simulator bays, each accommodating up to 6 people, with options for both group and individual play. Pricing is charged per bay per hour, with rates being $65 for groups and $45 for single players. The venue is designed for play, training, and entertainment, complemented by a full bar, food service, and various amenities. X-Golf Annapolis caters to a diverse range of patrons, including casual players, serious golfers, families, and corporate groups seeking a comprehensive indoor golf experience.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|club_rentals|private_rooms|coaching_available|ada_accessible|low_handicap",
+  "vibe_tags": "casual|welcoming|modern|tech_lab|sports_bar",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "Unparalleled accuracy and realism through advanced camera systems, infrared lasers, and impact sensors",
+    "Comprehensive amenities including a full bar, lounge, and food service with all-day breakfast options",
+    "Flexible booking options for various group sizes and customizable events with private bay access"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen service with all-day breakfast options, catering available for events"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "X-Golf",
+      "model": "Simulator",
+      "notes": "State-of-the-art indoor golf simulator system with camera, laser, and sensor technology"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "auto_putt",
+  "lefty_friendly": true,
+  "bay_count_total": 7,
+  "booking_url": "http://www.xgolfannapolis.com/#booknow",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 45,
+  "price_range_max_local": 65,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.5,
+  "rating_value_for_money": 4.2,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "Rental clubs are available for $10 per booking. You can also use your own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, X-Golf Annapolis has a full kitchen and bar with food and beverages available for purchase."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "On average, it takes one golfer one hour to play 18 holes. Each additional person in a group will add approximately one hour to play 18 holes."
+    },
+    {
+      "question": "Is it kid-friendly?",
+      "answer": "Yes, children of all ages are welcome. Guests under 18 should be supervised by an adult when playing."
+    }
+  ],
+  "rating_overall": 4.5,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"9AM-11PM\"], \"Saturday\": [\"9AM-11PM\"], \"Sunday\": [\"9AM-10PM\"]}"
+}

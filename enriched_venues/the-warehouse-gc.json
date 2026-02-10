@@ -1,0 +1,97 @@
+{
+  "name": "The Warehouse GC",
+  "address": "8350B S Madison St, Burr Ridge, IL 60527",
+  "city": "Burr Ridge",
+  "region": "Illinois",
+  "country": "US",
+  "latitude": 41.73722,
+  "longitude": -87.938676,
+  "phone": "+13316844501",
+  "website": "https://www.golfthewarehouse.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770218266/golf_simulators/www_golfthewarehouse_com_ChIJPaPed6xPDogRdolt_9B_RwU.png",
+  "google_maps_url": "https://www.google.com/maps/place/The+Warehouse+GC/@41.7372198,-87.93867569999999,14z/data=!4m8!1m2!2m1!1sThe+Warehouse+GC!3m4!1s0x880e4fac77dea33d:0x5477fd0ff6d8976!8m2!3d41.7372198!4d-87.93867569999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJPaPed6xPDogRdolt_9B_RwU",
+  "venue_type": "training_studio",
+  "about": "The Warehouse GC is a private, membership-based indoor golf training facility focused on providing expert instruction, structured practice plans, and cutting-edge technology for golfers seeking to improve their game. The venue offers a comprehensive environment with 1,600 sq. ft. of putting and chipping green, golf-specific strength training, and advanced data tracking technology. Members receive monthly simulator bay hours and unlimited access to short game areas, supported by a team of instructors and coaches dedicated to skill development across all levels.",
+  "tags": "serious_practice|beginner_friendly|coaching_available|juniors_youth|premium_tech|leagues",
+  "vibe_tags": "industrial_training|community_club|tech_lab",
+  "who_its_for": "serious_golfers|beginners|juniors_youth|coaches_instructors",
+  "why_golfers_like_it": [
+    "Access to premium TrackMan and Foresight simulators for precise swing data",
+    "Unlimited short game practice on a realistic 1,600 sq. ft. putting and chipping green",
+    "Golf-specific strength training programs designed to enhance performance and prevent injury",
+    "Personalized instruction from top-tier coaches with cutting-edge feedback technology"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No on-site food service mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No bar or alcohol service mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "unknown",
+      "notes": "Premium radar-based launch monitor for swing and ball tracking"
+    },
+    {
+      "brand": "Foresight",
+      "model": "unknown",
+      "notes": "Premium photometric camera system for swing analysis"
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar|photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 5,
+  "booking_url": "https://www.supersaas.com/schedule/TheWarehouseGC/Simulator_Bay_Rentals",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 5,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|pro_shop|leagues|ada_accessible|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The facility does not mention club rentals, so golfers are expected to bring their own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No on-site food or alcohol service is mentioned, and BYOB policies are not specified."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Exact timing for 18 holes is not specified, but simulator bay rentals are available by the hour."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, The Warehouse offers dedicated junior golf programs, camps, and coaching for young golfers."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"5AM-10PM\"], \"Tuesday\": [\"5AM-10PM\"], \"Wednesday\": [\"5AM-10PM\"], \"Thursday\": [\"5AM-10PM\"], \"Friday\": [\"5AM-10PM\"], \"Saturday\": [\"5AM-10PM\"], \"Sunday\": [\"5AM-10PM\"]}"
+}

@@ -1,0 +1,91 @@
+{
+  "name": "Gateway Golf Simulator",
+  "address": "815 Gateway Ln Suite 2, Tea, SD 57064",
+  "city": "Tea",
+  "region": "South Dakota",
+  "country": "US",
+  "latitude": 43.458887,
+  "longitude": -96.824658,
+  "phone": "+16052131500",
+  "website": "https://www.gatewaygolfsim.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770201974/golf_simulators/www_gatewaygolfsim_com_ChIJXXPn4aPJjocRf51Eo_UQ3Ec.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Gateway+Golf+Simulator/@43.4588867,-96.8246576,14z/data=!4m8!1m2!2m1!1sGateway+Golf+Simulator!3m4!1s0x878ec9a3e1e7735d:0x47dc10f5a3449d7f!8m2!3d43.4588867!4d-96.8246576",
+  "google_rating": 4.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJXXPn4aPJjocRf51Eo_UQ3Ec",
+  "email": "605-213-1500info@gatewaygolfsim.com",
+  "venue_type": "sim_bar",
+  "about": "Gateway Golf Simulator is an indoor golf destination that combines premium simulator technology with a modern, social atmosphere. The facility features ProTee VX technology with high-speed cameras and AI for swing analysis, offering access to over 2000 meticulously rendered 4K courses worldwide. Pricing includes hourly rentals starting at $30/hr and memberships from $90/mo, with bay rates accommodating up to 4 players. The venue is designed for both serious golfers seeking detailed data and casual players looking for a relaxed, group-friendly environment.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|budget_friendly|private_rooms|club_rentals|late_night|community_club",
+  "vibe_tags": "upscale_lounge|sports_bar|modern|casual|welcoming|tech_lab",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "Tour-level ProTee VX technology with instant swing and ball flight analysis",
+    "Access to 2000+ 4K-rendered courses from around the globe",
+    "Premium lounge areas for socializing between shots in spacious group bays",
+    "24-hour availability for flexible booking",
+    "Video analysis tools to break down swings frame-by-frame"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Kitchen available for food service"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "BYOB not explicitly mentioned, but venue type suggests bar service"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "ProTee",
+      "model": "VX",
+      "notes": "High-speed cameras and AI algorithms for swing and ball tracking"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://www.gatewaygolfsim.com/#/pricing",
+  "pricing_model": "per_bay_hour|membership",
+  "price_range_min_local": 30,
+  "price_range_max_local": 90,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|tv_sports|private_party_room|wifi|leagues|ada_accessible",
+  "rating_tech_quality": 4.2,
+  "rating_facility_comfort": 4.1,
+  "rating_value_for_money": 4.1,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue doesn't explicitly mention club rentals, so bringing your own clubs is likely required."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue offers kitchen food service, and BYOB policies are not specified."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Standard simulator time is 1 hour per bay, accommodating up to 4 players."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue welcomes all skill levels including beginners, making it suitable for families."
+    }
+  ],
+  "rating_overall": 4.1,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

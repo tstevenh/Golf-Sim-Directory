@@ -1,0 +1,90 @@
+{
+  "name": "Top Shot",
+  "address": "508 W Frisco, Clinton, OK 73601",
+  "city": "Clinton",
+  "region": "Oklahoma",
+  "country": "US",
+  "latitude": 35.514101,
+  "longitude": -98.966436,
+  "phone": "+15804457468",
+  "website": "https://topshot.my.canva.site/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770215940/golf_simulators/topshot_my_canva_site_ChIJOZIP9CQdrIcRXNAcs4yKsoI.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Top+Shot/@35.514101,-98.9664361,14z/data=!4m8!1m2!2m1!1sTop+Shot!3m4!1s0x87ac1d24f40f9239:0x82b28a8cb31cd05c!8m2!3d35.514101!4d-98.9664361",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJOZIP9CQdrIcRXNAcs4yKsoI",
+  "venue_type": "multi_sport_sim",
+  "about": "Top Shot is a golf shop and indoor entertainment venue featuring two HD Golf Multi-Sport simulators that offer over 30 different sports and games, making it suitable for all ages and skill levels. The facility provides bay rentals by the hour, with opportunities for family hangouts, corporate events, and private parties. In addition to simulator access, the venue offers golf instruction and a selection of golf apparel, creating a comprehensive sports experience beyond just traditional golf practice. Pricing is structured for both individuals and groups, with flexible options for casual play and organized leagues, while also allowing outside food and drinks to enhance the social aspect of the visit.",
+  "tags": "beginner_friendly|food_and_drinks|family_friendly|corporate_events|leagues|premium_tech|private_rooms|club_rentals|coaching_available|juniors_youth",
+  "vibe_tags": "family_fun_center|tech_lab|community_club",
+  "who_its_for": "families|large_groups|corporate_teams|solo_practice|juniors_youth",
+  "why_golfers_like_it": [
+    "Two state-of-the-art HD Golf Multi-Sport simulators with 30+ sports and games",
+    "Flexible pricing model allowing for casual play or organized leagues",
+    "Golf instruction available for all skill levels in a virtual environment",
+    "Ability to bring outside food and drinks, creating a social atmosphere",
+    "Access to both bays for group parties and events"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Outside food is allowed at any time."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service; BYOB policy not specified."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "HD Golf",
+      "model": "Multi-Sport",
+      "notes": "30+ sports and games simulator, including golf, soccer, baseball, and shooting sports."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://g.co/kgs/bY1MYX",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 40,
+  "price_range_max_local": 250,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|kitchen_food|tv_sports|private_party_room|pro_shop|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Clubs are provided on location, but you can bring your own if you prefer to use the same clubs you play with elsewhere."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "Yes, outside food and drinks are allowed at any time."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The venue does not specify a fixed time for 18 holes, as most games last between 5-10 minutes. League play involves 18 holes over a 10-week season."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Top Shot is family-friendly and suitable for all ages, with over 30 sports and games designed to appeal to kids and adults alike."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"4-8PM\"], \"Wednesday\": [\"4-8PM\"], \"Thursday\": [\"4-8PM\"], \"Friday\": [\"4-8PM\"], \"Saturday\": [\"12-10PM\"], \"Sunday\": [\"Closed\"]}"
+}

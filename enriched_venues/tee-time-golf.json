@@ -1,0 +1,93 @@
+{
+  "name": "Tee Time Golf",
+  "address": "286 5th Ave FL8, New York, NY 10001",
+  "city": "New York",
+  "region": "New York",
+  "country": "US",
+  "latitude": 40.746255,
+  "longitude": -73.98661,
+  "phone": "+16468476982",
+  "website": "https://www.teetimenyc.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770205807/golf_simulators/www_teetimenyc_com_ChIJS9gs7hFZwokRr7FWjJ3VDa8.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Tee+Time+Golf/@40.746254799999996,-73.9866105,14z/data=!4m8!1m2!2m1!1sTee+Time+Golf!3m4!1s0x89c25911ee2cd84b:0xaf0dd59d8c56b1af!8m2!3d40.746254799999996!4d-73.9866105",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJS9gs7hFZwokRr7FWjJ3VDa8",
+  "email": "info@teetimenyc.com",
+  "venue_type": "training_studio",
+  "about": "Tee Time Golf is a dedicated golf simulator venue focused on improving gameplay with the latest indoor technology. The facility offers a range of services including simulator bays, private lessons, and a pro shop. Patrons can practice their swing year-round without weather concerns, and the venue emphasizes personalized instruction from professional coaches to help players reach their full potential. Memberships and packages provide flexible access options for different skill levels and commitment preferences.",
+  "tags": "serious_practice|coaching_available|indoor_practice|beginner_friendly|serious_golfers|solo_practice|juniors_youth|retail_fitting_center|corporate_teams|leagues",
+  "vibe_tags": "modern|tech_lab|private_luxury|welcoming",
+  "who_its_for": "serious_golfers|beginners|solo_practice|juniors_youth|corporate_teams",
+  "why_golfers_like_it": [
+    "Advanced KGOLF BGS2.0 simulator technology with high-accuracy ball tracking",
+    "All-day simulator access without weather or travel constraints",
+    "Personalized instruction from professional coaches for game improvement",
+    "Flexible membership options with advanced booking privileges"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No information on food service provided"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No information on alcohol service provided"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "KGOLF",
+      "model": "BGS2.0",
+      "notes": "Leading golf simulator technology with launch monitor capabilities"
+    }
+  ],
+  "simulator_so": [
+    "KGOLF"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.teetimenyc.com/services",
+  "pricing_model": "mixed",
+  "price_range_min_local": 299,
+  "price_range_max_local": 299,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|pro_shop|coaching_available|private_events",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website doesn't specify whether clubs are provided or if you need to bring your own. It's recommended to check with the venue directly or bring your own clubs to ensure a smooth experience."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The website doesn't mention any food or drink service, suggesting it might be a BYOB (bring your own) venue. However, you should confirm this directly with Tee Time Golf as their policy may vary."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes on a simulator?",
+      "answer": "While the website doesn't specify exact timing for 18 holes, golf simulator sessions typically range from 1-2 hours depending on the number of players and pace of play. The venue offers 90-minute simulator time slots for members."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The website doesn't explicitly mention kid-friendly policies, but they do offer junior/youth-oriented coaching services. Families are listed as a target audience, suggesting children are welcome, though it's best to confirm age restrictions directly with the venue."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"11AM-9PM\"], \"Tuesday\": [\"11AM-9PM\"], \"Wednesday\": [\"11AM-9PM\"], \"Thursday\": [\"11AM-9PM\"], \"Friday\": [\"11AM-9PM\"], \"Saturday\": [\"11AM-9PM\"], \"Sunday\": [\"11AM-8PM\"]}"
+}

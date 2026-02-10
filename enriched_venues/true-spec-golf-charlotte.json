@@ -1,0 +1,91 @@
+{
+  "name": "True Spec Golf - Charlotte",
+  "address": "4425 Sharon Rd M200, Charlotte, NC 28211",
+  "city": "Charlotte",
+  "region": "North Carolina",
+  "country": "US",
+  "latitude": 35.151407,
+  "longitude": -80.825927,
+  "phone": "+18447298809",
+  "website": "https://www.truespecgolf.com/charlotte/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770242812/golf_simulators/www_truespecgolf_com_ChIJOXkLvoCfVogRs_mrFTtF4Sc.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/True+Spec+Golf+-+Charlotte/@35.1514068,-80.8259274,14z/data=!4m8!1m2!2m1!1sTrue+Spec+Golf+-+Charlotte!3m4!1s0x88569f80be0b7939:0x27e1453b15abf9b3!8m2!3d35.1514068!4d-80.8259274",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJOXkLvoCfVogRs_mrFTtF4Sc",
+  "email": "info@truespecgolf.com",
+  "venue_type": "retail_fitting_center",
+  "about": "True Spec Golf - Charlotte is an indoor golf fitting studio located within the private Intown Golf Club. It features a single, premium fitting bay and utilizes industry-leading launch monitor technology to provide club fittings. The facility offers a brand-agnostic fitting matrix with over 70,000 clubhead and shaft combinations, allowing certified master fitters to find optimal equipment for any golfer. Appointments are required for access to the fitting services.",
+  "tags": "serious_golfers|club_fitting|premium_tech|coaching_available|private_rooms|byob|corporate_teams",
+  "vibe_tags": "tech_lab|private_luxury|modern",
+  "who_its_for": "serious_golfers|coaches_instructors|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Access to a comprehensive matrix of over 70,000 clubhead and shaft combinations",
+    "Utilizes industry-leading TrackMan launch monitor technology for precise data",
+    "Fitting process led by certified master fitters for expert recommendations",
+    "Located at a private club, offering a premium and exclusive experience"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "Not mentioned as available on-site."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "Not mentioned as available on-site. BYOB policy is not specified."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "TrackMan",
+      "model": "iO",
+      "notes": "Industry-leading technology for precise launch and flight data."
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 1,
+  "booking_url": "https://www.truespecgolf.com/get-fit/",
+  "pricing_model": "mixed",
+  "price_range_min_local": null,
+  "price_range_max_local": null,
+  "currency": "USD",
+  "walk_ins_allowed": false,
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|club_fitting|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "While you can bring your existing clubs for a gap analysis, the fitting is designed to help you find new equipment. The facility provides a wide range of clubheads and shafts for you to test during the session."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The provided information does not specify a food and drink policy. It is recommended to contact the venue directly for details on outside food and beverage."
+    },
+    {
+      "question": "How long does an 18-hole simulator session take?",
+      "answer": "The provided information does not specify the duration for an 18-hole session. Standard simulator play typically takes 2-3 hours, but this can vary based on the number of players and pace of play."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "No, this venue is not specifically marketed as kid-friendly. It is a premium club fitting and practice studio focused on serious golfers and adult clientele."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"10AM-6PM\"], \"Tuesday\": [\"10AM-6PM\"], \"Wednesday\": [\"10AM-6PM\"], \"Thursday\": [\"10AM-6PM\"], \"Friday\": [\"10AM-6PM\"], \"Saturday\": [\"10AM-6PM\"], \"Sunday\": [\"Closed\"]}"
+}

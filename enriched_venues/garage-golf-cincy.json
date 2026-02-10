@@ -1,0 +1,93 @@
+{
+  "name": "Garage Golf Cincy",
+  "address": "4242 Mt Carmel Tobasco Rd, Cincinnati, OH 45255",
+  "city": "Cincinnati",
+  "region": "Ohio",
+  "country": "US",
+  "latitude": 39.085454,
+  "longitude": -84.299752,
+  "phone": "+15135280186",
+  "website": "https://garagegolfcincy.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770211695/golf_simulators/garagegolfcincy_com_ChIJkT1n2gGpQYgRolUMJMtCMfw.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Garage+Golf+Cincy/@39.0854545,-84.29975189999999,14z/data=!4m8!1m2!2m1!1sGarage+Golf+Cincy!3m4!1s0x8841a901da673d91:0xfc3142cb240c55a2!8m2!3d39.0854545!4d-84.29975189999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJkT1n2gGpQYgRolUMJMtCMfw",
+  "email": "garagegolfcincy@gmail.com",
+  "venue_type": "sim_bar",
+  "about": "Garage Golf Cincy is an indoor golf simulator venue offering a casual, entertainment-focused experience. The facility features four state-of-the-art golf simulator bays powered by Trackman technology, complete with 8-foot video boards, TVs, and premium sound systems. It operates on a pay-by-hour model with peak and off-peak rates, offering memberships and leagues for regular patrons. The venue combines golfing with a relaxed atmosphere, including a custom-built putting green, arcade games, and a food and drink menu, positioning itself as a 'hangout' spot for both golfers and social groups.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|leagues|premium_tech|family_friendly|date_night|private_rooms|coaching_available",
+  "vibe_tags": "sports_bar|tech_lab|community_club|family_fun_center",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|large_groups",
+  "why_golfers_like_it": [
+    "Four bays equipped with high-end Trackman simulators and large screens",
+    "Unique 'man cave' atmosphere with a custom putting green and arcade games",
+    "Flexible pricing with off-peak rates and membership options available",
+    "Social atmosphere suitable for both focused practice and group events"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Pizza, soft pretzels, hot dogs, bagged snacks"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Canned beer, seltzer, bottled drinks"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Four bays with 8-foot video boards, TVs, and premium sound systems"
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 4,
+  "booking_url": "https://yourgolfbooking.com/venues/garage-golf-cincy/booking/bays",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 40,
+  "price_range_max_local": 50,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": 4,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|kitchen_food|tv_sports|private_party_room|wifi|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify club rentals, so it is recommended to bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, outside food and drink are not permitted inside the golf simulator bays. The venue offers 'Bites & Beers' including pizza, pretzels, hot dogs, and various drinks."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify the time required for an 18-hole round, as it depends on player pace and simulator settings."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, children are welcome but must be supervised; no children under 10 are allowed without a non-golfing adult present."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"9AM-9PM\"], \"Tuesday\": [\"9AM-9PM\"], \"Wednesday\": [\"9AM-9PM\"], \"Thursday\": [\"9AM-9PM\"], \"Friday\": [\"9AM-10PM\"], \"Saturday\": [\"9AM-10PM\"], \"Sunday\": [\"9AM-9PM\"]}"
+}

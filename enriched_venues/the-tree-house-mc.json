@@ -1,0 +1,92 @@
+{
+  "name": "The Tree House MC",
+  "address": "10 S 8th St, Miles City, MT 59301",
+  "city": "Miles City",
+  "region": "Montana",
+  "country": "US",
+  "latitude": 46.406512,
+  "longitude": -105.847459,
+  "phone": "+14064161179",
+  "website": "https://www.thetreehousemc.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770216831/golf_simulators/www_thetreehousemc_com_ChIJsX1M3IN1OlMRg636ESig-ns.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Tree+House+MC/@46.4065124,-105.8474586,14z/data=!4m8!1m2!2m1!1sThe+Tree+House+MC!3m4!1s0x533a7583dc4c7db1:0x7bfaa02811faad83!8m2!3d46.4065124!4d-105.8474586",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJsX1M3IN1OlMRg636ESig-ns",
+  "email": "themctreehouse@gmail.com",
+  "venue_type": "sim_bar",
+  "about": "The Tree House MC is a golf simulator venue in Miles City, Montana, featuring two top-of-the-line Trackman simulators. It offers a fun and friendly atmosphere for playing various courses, practicing on a virtual range, or enjoying games with friends and family. The venue operates by appointment daily from 8:00am-8:00pm, with walk-in hours available Thursday-Saturday from 2:00-6:00pm. It is locally owned and operated, providing a casual environment for golf enthusiasts of all skill levels.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|kids_friendly|corporate_events|leagues|premium_tech|club_rentals|community_club",
+  "vibe_tags": "family_fun_center|community_club|casual|welcoming",
+  "who_its_for": "beginners|families|corporate_teams|solo_practice|juniors_youth",
+  "why_golfers_like_it": [
+    "High-end Trackman simulators for accurate ball tracking",
+    "Right and left-handed golf clubs available for use",
+    "BYOB policy allowing customers to bring their own alcoholic beverages",
+    "Variety of courses and games for entertainment",
+    "Flexible booking options with 1/2 and 1-hour tee times"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Snacks and non-alcoholic beverages are offered."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "Alcoholic beverages are not sold but customers are welcome to bring their own."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Two top-of-the-line Trackman simulators"
+    }
+  ],
+  "simulator_software": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://www.thetreehousemc.com/memberships",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|kitchen_food|tv_sports|private_party_room|wifi|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need clubs?",
+      "answer": "No, right and left-handed golf clubs are available for use at the venue."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Alcoholic beverages are not sold but customers are welcome to bring their own. The venue offers snacks and non-alcoholic beverages."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "1-hour tee times are available Monday-Saturday 8am-8pm and Sunday 8am-6pm. 1/2 hour tee times are available upon request."
+    },
+    {
+      "question": "Is it kid-friendly?",
+      "answer": "Yes, the venue offers games and activities suitable for kids, making it a family-friendly environment."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"8AM-8PM\"], \"Tuesday\": [\"8AM-8PM\"], \"Wednesday\": [\"8AM-8PM\"], \"Thursday\": [\"8AM-8PM\"], \"Friday\": [\"8AM-8PM\"], \"Saturday\": [\"8AM-8PM\"], \"Sunday\": [\"8AM-6PM\"]}"
+}

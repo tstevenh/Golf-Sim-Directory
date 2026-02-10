@@ -1,0 +1,94 @@
+{
+  "name": "Simply Golf",
+  "address": "1004 Charlie Daniels Pkwy, Mt. Juliet, TN 37122",
+  "city": "Mt. Juliet",
+  "region": "Tennessee",
+  "country": "US",
+  "latitude": 36.221461,
+  "longitude": -86.513858,
+  "phone": "+16154579537",
+  "website": "https://www.simplygolfmtj.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770225018/golf_simulators/www_simplygolfmtj_com_ChIJ5UyrHWk_ZIgR1IJhyAoAUas.png",
+  "google_maps_url": "https://www.google.com/maps/place/Simply+Golf/@36.2214613,-86.5138583,14z/data=!4m8!1m2!2m1!1sSimply+Golf!3m4!1s0x88643f691dab4ce5:0xab51000ac86182d4!8m2!3d36.2214613!4d-86.5138583",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ5UyrHWk_ZIgR1IJhyAoAUas",
+  "email": "ylan.waters@simplygolfmtj.com",
+  "venue_type": "multi_sport_sim",
+  "about": "Simply Golf is an indoor golf club in Mount Juliet, TN, offering a climate-controlled environment for golfers to practice and play year-round. The facility utilizes TrackMan technology for precise ball tracking and provides 24/7 access to state-of-the-art simulators. Members can book flexible tee times ranging from 30 minutes to 3 hours and enjoy unlimited play on iconic courses like Pebble Beach and Pinehurst #2. The venue is designed for both serious players seeking to refine their skills and casual golfers looking to enjoy the game on their own schedule. With certified coaching options, data-driven improvement tools, and multiple membership plans, Simply Golf caters to a wide range of golfers, from individuals looking for solo practice to groups wanting to share the experience.",
+  "tags": "serious_golfers|beginner_friendly|coaching_available|corporate_events|leagues|club_rentals|premium_tech|budget_friendly|community_club|solo_practice",
+  "vibe_tags": "modern|welcoming|sports_bar|tech_lab|community_club",
+  "who_its_for": "serious_golfers|beginners|families|solo_practice|corporate_teams",
+  "why_golfers_like_it": [
+    "24/7 member access with flexible booking options",
+    "TrackMan technology for precise ball tracking and instant feedback",
+    "Access to world-class courses like Pebble Beach and Bethpage Black",
+    "Data-driven improvement with certified coaching available",
+    "Multiple membership options to fit different needs and budgets"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of on-site food service; BYOB not specified"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service; BYOB not specified"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "TrackMan",
+      "model": "iO",
+      "notes": "Premium simulator with precision ball tracking and instant feedback"
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://yourgolfbooking.com/venues/simply-golf-mt-juliet/memberships",
+  "pricing_model": "membership_only",
+  "price_range_min_local": 150,
+  "price_range_max_local": 275,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 3,
+  "amenities_list": "club_rentals|coaching_available|wifi|pro_shop|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue does not explicitly state whether they provide club rentals, so it's recommended to bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "There is no mention of food or drink policies, so it's best to contact the venue directly for their BYOB policy."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "The venue does not specify an average time for 18 holes, but tee times can be booked in 30-minute to 3-hour increments."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "There is no specific information about child-friendly amenities or policies, so it's best to contact the venue directly if planning to bring children."
+    }
+  ],
+  "simulator_software": [
+    "TrackMan"
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

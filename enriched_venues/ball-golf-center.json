@@ -1,0 +1,106 @@
+{
+  "name": "Ball Golf Center",
+  "address": "7501 N Robinson Ave, Oklahoma City, OK 73116",
+  "city": "Oklahoma City",
+  "region": "Oklahoma",
+  "country": "US",
+  "latitude": 35.548512,
+  "longitude": -97.516516,
+  "phone": "+14058422626",
+  "website": "https://ballgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770218740/golf_simulators/ballgolf_com_ChIJQ2D5UYIZsocR4jEvalR0t0U.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Ball+Golf+Center/@35.5485117,-97.5165157,14z/data=!4m8!1m2!2m1!1sBall+Golf+Center!3m4!1s0x87b2198251f96043:0x45b774546a2f31e2!8m2!3d35.5485117!4d-97.5165157",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJQ2D5UYIZsocR4jEvalR0t0U",
+  "email": "sballfore@yahoo.com",
+  "venue_type": "retail_fitting_center",
+  "about": "Ball Golf Center is a custom golf fitting and instruction facility in Oklahoma, featuring an outdoor driving range, expansive putting green, and four heated bays. The facility utilizes premium technology from TrackMan, ForeSight, FlightScope, and BodiTrak to fit every club from drivers to putters with top brands like Titleist and Callaway. With 30 years of experience and over 39,000 custom fittings, the center offers instruction from Golf Digest-recognized teachers and a no-bias approach to fitting, ensuring the best equipment for each golfer's game.",
+  "tags": "beginner_friendly|serious_golfers|juniors_youth|coaching_available|club_fitting|premium_tech|family_friendly",
+  "vibe_tags": "industrial_training|tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|families|juniors_youth|coaches_instructors",
+  "why_golfers_like_it": [
+    "30 years of expert club fitting experience",
+    "Premium technology including TrackMan and FlightScope",
+    "Instruction from Golf Digest Best Teachers",
+    "No-bias fitting approach focused on the golfer",
+    "Outdoor facility with full-length range"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of food service"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "TrackMan",
+      "model": null,
+      "notes": "Premium radar launch monitor technology"
+    },
+    {
+      "brand": "ForeSight",
+      "model": null,
+      "notes": "Premium launch monitor technology"
+    },
+    {
+      "brand": "FlightScope",
+      "model": null,
+      "notes": "Premium launch monitor technology"
+    },
+    {
+      "brand": "BodiTrak",
+      "model": null,
+      "notes": "Pressure plate technology for swing analysis"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": 4,
+  "booking_url": "https://ballgolf.com/contact/",
+  "pricing_model": "mixed",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The facility provides club fitting services and works with top brands like Titleist and Callaway. You can bring your own clubs or get fitted for new ones during your visit."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "There is no mention of food or drink service at the facility, so outside food and drinks may be permitted, though this is not explicitly stated."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "As an outdoor practice facility rather than a simulator venue, 18-hole play times aren't applicable. The facility focuses on practice, lessons, and club fitting."
+    },
+    {
+      "question": "Is this facility kid-friendly?",
+      "answer": "Yes, Ball Golf Center offers junior golf programs and camps, making it suitable for young golfers to learn and improve their skills."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-5:30PM\"], \"Tuesday\": [\"10AM-5:30PM\"], \"Wednesday\": [\"10AM-5:30PM\"], \"Thursday\": [\"10AM-5:30PM\"], \"Friday\": [\"10AM-5:30PM\"], \"Saturday\": [\"10AM-5:30PM\"], \"Sunday\": [\"Closed\"]}"
+}

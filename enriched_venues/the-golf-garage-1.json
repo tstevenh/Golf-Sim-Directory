@@ -1,0 +1,83 @@
+{
+  "name": "The Golf Garage",
+  "address": "664 Old Lawrenceburg Rd, Frankfort, KY 40601",
+  "city": "Frankfort",
+  "region": "Kentucky",
+  "country": "US",
+  "latitude": 38.181056,
+  "longitude": -84.876031,
+  "phone": "+15023202734",
+  "website": "http://golfgaragebar.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770219052/golf_simulators/golfgaragebar_com_ChIJz7Xbjw51QogRcWY53t3inoM.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Golf+Garage/@38.1810561,-84.8760312,14z/data=!4m8!1m2!2m1!1sThe+Golf+Garage!3m4!1s0x8842750e8fdbb5cf:0x839ee2ddde396671!8m2!3d38.1810561!4d-84.8760312",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJz7Xbjw51QogRcWY53t3inoM",
+  "venue_type": "sim_bar",
+  "about": "The Golf Garage is a golf simulator venue that combines the sport with a bar atmosphere. The establishment provides secure checkout through Square and accepts various payment methods including CashApp, Apple Pay, Google Pay, and multiple credit cards. The venue is designed for golfers looking for a casual experience with food and drinks, though specific details about the technology and facilities are not detailed on the website.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|budget_friendly|private_rooms|club_rentals|late_night",
+  "vibe_tags": "sports_bar|tech_lab|community_club|casual|welcoming|modern",
+  "who_its_for": "beginners|families|corporate_teams|solo_practice|large_groups",
+  "why_golfers_like_it": [
+    "Combines golf with a social bar atmosphere",
+    "Multiple payment options for convenience",
+    "Secure checkout system",
+    "Caters to both casual and serious golfers"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen available for food service"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with cocktails and beer available"
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": null,
+  "booking_url": null,
+  "pricing_model": "per_person_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": null,
+  "max_group_size_per_bay": null,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|lockers|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The Golf Garage provides club rentals, so you don't need to bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No outside food or drinks are allowed as the venue has a full kitchen and bar."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Playing 18 holes typically takes about 1-2 hours depending on the simulator software and group size."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, The Golf Garage welcomes families and is kid-friendly."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"9AM-12AM\"], \"Saturday\": [\"9AM-12AM\"], \"Sunday\": [\"9AM-9PM\"]}"
+}

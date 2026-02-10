@@ -1,0 +1,91 @@
+{
+  "name": "Bing's Golf Barn",
+  "address": "142 Walnut St, Hanover, MA 02339",
+  "city": "Hanover",
+  "region": "Massachusetts",
+  "country": "US",
+  "latitude": 42.149912,
+  "longitude": -70.867528,
+  "phone": "+19786027756",
+  "website": "http://www.bingsgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770244166/golf_simulators/www_bingsgolf_com_ChIJ_Zsch2uf5IkRsCwCOc9C_Sc.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Bing%27s+Golf+Barn/@42.1499119,-70.867528,14z/data=!4m8!1m2!2m1!1sBing%27s+Golf+Barn!3m4!1s0x89e49f6b871c9bfd:0x27fd42cf39022cb0!8m2!3d42.1499119!4d-70.867528",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ_Zsch2uf5IkRsCwCOc9C_Sc",
+  "email": "david@bingsgolf.com",
+  "venue_type": "training_studio",
+  "about": "Bing's Golf Barn is a private indoor golfing experience and training facility located in Hanover, MA. Founded by David Bingham, a Class A PGA Professional with over 25 years of industry experience, the venue operates as a custom-built barn designed for year-round golf. It offers private lessons, group sessions, and custom club fittings, utilizing technology like the Foresight GCQuad Launch Monitor and Sportsbox 3D video analysis. David also builds custom backyard spaces, accommodating home gyms, offices, and personal simulators. The facility provides a focused, personalized environment for players looking to improve their game through professional coaching and advanced swing analysis.",
+  "tags": "beginner_friendly|coaching_available|premium_tech|private_rooms|club_rentals|club_fitting|serious_golfers|budget_friendly|solo_practice",
+  "vibe_tags": "industrial_training|private_luxury|tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|families|solo_practice|coaches_instructors",
+  "why_golfers_like_it": [
+    "Access to PGA professional instruction with 25+ years of experience",
+    "3D video analysis using Sportsbox AI technology for detailed swing insights",
+    "Custom Titleist club fitting sessions tailored to individual player needs",
+    "Private indoor facility allowing for year-round golf regardless of weather",
+    "Foresight GCQuad launch monitor for precise shot data and analysis"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No on-site food service mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned; BYOB policy not specified"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": "GCQuad",
+      "notes": "Professional-grade launch monitor for shot analysis"
+    }
+  ],
+  "simulator_software": [
+    "FSX 2020"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 1,
+  "booking_url": "http://www.bingsgolf.com/bookings",
+  "pricing_model": "package",
+  "price_range_min_local": 100,
+  "price_range_max_local": 400,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 2,
+  "amenities_list": "club_rentals|club_fitting|wifi",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The facility provides club rentals for fitting sessions and lessons. For practice sessions, you can use your own clubs or utilize the available equipment."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "There is no mention of on-site food or drink service. BYOB policy is not specified, but as a private facility, it may be permissible."
+    },
+    {
+      "question": "How long does an 18-hole simulator session take?",
+      "answer": "Standard lesson packages are 1-hour sessions. The time for a full 18-hole simulation would depend on the number of players and pace of play."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "The venue does not specifically advertise kid-friendly features or junior programs, though it may accommodate children during family lessons."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": null
+}

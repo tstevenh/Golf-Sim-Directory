@@ -1,0 +1,91 @@
+{
+  "name": "The Clubhouse",
+  "address": "476 Meeting St Suite E, Charleston, SC 29403",
+  "city": "Charleston",
+  "region": "South Carolina",
+  "country": "US",
+  "latitude": 32.79565,
+  "longitude": -79.939851,
+  "phone": "+18433642692",
+  "website": "https://theclubhousechs.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770208226/golf_simulators/theclubhousechs_com_ChIJ-_ojZ097_ogRsfMNZsGApBk.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Clubhouse/@32.7956498,-79.93985049999999,14z/data=!4m8!1m2!2m1!1sThe+Clubhouse!3m4!1s0x88fe7b4f6723fafb:0x19a480c1660df3b1!8m2!3d32.7956498!4d-79.93985049999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ-_ojZ097_ogRsfMNZsGApBk",
+  "email": "theclubhousechs@gmail.com",
+  "venue_type": "sim_bar",
+  "about": "The Clubhouse is Charleston's first indoor golf simulator bar, offering a unique blend of virtual golf and a lively social atmosphere. Powered by TrackMan technology, the venue features high-definition simulators that allow players to access over 400 golf courses worldwide. The space combines state-of-the-art golf simulators with a full bar, live music, and dining options, creating an environment suitable for both serious golfers and casual visitors. Public access is available from 7 AM on weekdays and 8 AM on weekends, with advance booking recommended, especially during peak hours.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|coaching_available|late_night|sports_bar|casual_atmosphere",
+  "vibe_tags": "sports_bar|casual|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|corporate_teams|large_groups|solo_practice",
+  "why_golfers_like_it": [
+    "Premium TrackMan 4 simulator technology providing real-time shot data and AI-driven coaching",
+    "Over 400 virtual golf courses available for play in various weather conditions",
+    "Vibrant social atmosphere combining golf with a full bar, live music, and sports viewing",
+    "Flexible booking system with both public hours and membership options",
+    "Private event and tournament hosting capabilities for groups"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Grab-and-go menu from partner Atlyss Food Collective (9am-2pm daily), wraps, sandwiches, fresh bowls, and snackable sides. Guests may also bring food from downstairs vendor between 2pm and close."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with beer, wine, specialty frozen cocktails, and signature drinks like the Clubhouse Mule. Happy hour available with discounted drinks."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "Industry-leading dual radar system with optical camera for precise ball and club tracking"
+    }
+  ],
+  "simulator_software": [
+    "TrackMan"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 4,
+  "booking_url": "https://yourgolfbooking.com/venues/the-clubhouse/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|leagues|private_party_room|pro_shop|coaching_available",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The Clubhouse provides all necessary equipment, including clubs, for use during your session. Guests are also welcome to bring their own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drinks are not permitted. The venue offers a full bar and food options from their partner Atlyss Food Collective, with a grab-and-go menu available during daytime hours."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes can vary based on simulator usage and group size, but typically a full 18-hole round takes approximately 1-2 hours depending on course and simulator availability."
+    },
+    {
+      "question": "Is The Clubhouse kid-friendly?",
+      "answer": "The Clubhouse is geared towards adults and offers a bar environment, making it more suitable for adult visitors rather than children."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-10PM\"], \"Saturday\": [\"10AM-10PM\"], \"Sunday\": [\"10AM-10PM\"]}"
+}

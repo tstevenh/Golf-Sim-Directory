@@ -1,0 +1,90 @@
+{
+  "name": "That Golf Place",
+  "address": "212 E Chicago Ave, Westmont, IL 60559",
+  "city": "Westmont",
+  "region": "Illinois",
+  "country": "US",
+  "latitude": 41.803331,
+  "longitude": -87.969409,
+  "phone": "+16302966678",
+  "website": "https://www.thatgolfplace.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770215281/golf_simulators/www_thatgolfplace_com_ChIJE6wysMVPDogRt4hdwGL_q4M.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/That+Golf+Place/@41.803331,-87.9694095,14z/data=!4m8!1m2!2m1!1sThat+Golf+Place!3m4!1s0x880e4fc5b032ac13:0x83abff62c05d88b7!8m2!3d41.803331!4d-87.9694095",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJE6wysMVPDogRt4hdwGL_q4M",
+  "email": "clubhouse@thatgolfplace.com",
+  "venue_type": "training_studio",
+  "about": "That Golf Place is a private indoor golf studio located in Westmont, Illinois. It offers a premium, flexible environment for golfers to practice or play year-round, utilizing high-end technology in soundproofed simulator bays. The venue is exclusively for members and provides keyless access and an online booking system to accommodate a range of schedules, from early morning to late night sessions.",
+  "tags": "serious_practice|premium_tech|private_rooms|coaching_available|corporate_events|leagues|juniors_youth|late_night|beginner_friendly",
+  "vibe_tags": "private_luxury|tech_lab|modern|upscale_lounge",
+  "who_its_for": "serious_golfers|corporate_teams|coaches_instructors|juniors_youth|solo_practice",
+  "why_golfers_like_it": [
+    "Tour-grade Foresight Falcon launch monitor technology providing precise ball and club data",
+    "Private, soundproofed simulator bays with no lines or distractions",
+    "Flexible 4 AM to 12 AM access with keyless entry for ultimate convenience",
+    "GSPro gameplay access to play iconic courses like Augusta National and Pebble Beach"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "Not mentioned as an on-site amenity"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "Not mentioned as an on-site amenity"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": "Falcon",
+      "notes": "Radar-based launch monitor technology used by pros and coaches"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://thatgolfplace.golfoclock.com/",
+  "pricing_model": "membership_only",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": false,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|private_rooms|coaching_available|leagues|juniors_youth",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "The website does not explicitly state whether you need to bring your own clubs or if rentals are available."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The website does not mention a policy on bringing outside food or drinks."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not provide an estimated time for playing a full 18 holes on the simulators."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, That Golf Place offers free and discounted youth lessons, mentorship, and supervised access for young golfers."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"4AM-12AM\"], \"Tuesday\": [\"4AM-12AM\"], \"Wednesday\": [\"4AM-12AM\"], \"Thursday\": [\"4AM-12AM\"], \"Friday\": [\"4AM-12AM\"], \"Saturday\": [\"4AM-12AM\"], \"Sunday\": [\"4AM-12AM\"]}"
+}

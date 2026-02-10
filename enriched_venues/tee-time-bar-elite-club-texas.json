@@ -1,0 +1,91 @@
+{
+  "name": "Tee Time Bar Elite Club Texas",
+  "address": "1301 Custer Rd #482, Plano, TX 75075",
+  "city": "Plano",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 33.017375,
+  "longitude": -96.735319,
+  "phone": "+12145012163",
+  "website": "https://teetimebar.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770252903/golf_simulators/teetimebar_com_ChIJd3boH04ZTIYRm6awZU0xUK0.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Tee+Time+Bar+Elite+Club+Texas/@33.017375099999995,-96.7353186,14z/data=!4m8!1m2!2m1!1sTee+Time+Bar+Elite+Club+Texas!3m4!1s0x864c194e1fe87677:0xad50314d65b0a69b!8m2!3d33.017375099999995!4d-96.7353186",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJd3boH04ZTIYRm6awZU0xUK0",
+  "email": "info@teetimebar.com",
+  "venue_type": "sim_bar",
+  "about": "Tee Time Bar Elite Club Texas is an upscale sports entertainment venue founded in 2025, combining indoor golf simulation with gourmet dining in a country club atmosphere without strict rules. The facility features state-of-the-art Golfzon simulators with access to over 250 iconic courses and advanced TwoVision technology for real-time swing analysis, catering to both seasoned players and beginners. Its eclectic mix of upscale food, contemporary ambiance, and social energy makes it suitable for golfers, sports fans, and neighborhood locals looking for an immersive golf and dining experience.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|private_rooms|club_rentals|coaching_available|community_club",
+  "vibe_tags": "upscale_lounge|sports_bar|tech_lab|community_club|casual|welcoming",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Golfzon simulators with TwoVision technology for real-time swing analysis",
+    "Access to over 250 of the world's most iconic courses",
+    "Upscale dining and bar options in a relaxed, social atmosphere",
+    "Flexible membership plans with bay time and additional perks",
+    "Private rooms and event spaces for groups and corporate functions"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Elevated dining with signature savory dishes and a gourmet menu"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with happy hour drink prices for members"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Golfzon",
+      "model": "TwoVision",
+      "notes": "Advanced swing analysis technology with real-time feedback"
+    }
+  ],
+  "simulator_software": [
+    "Golfzon"
+  ],
+  "launch_monitor_type": "infrared_optical",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://teetimebar.com/bay-rentals/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|lockers|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "Club rentals and fittings are available, including free club fitting with iron, wedge, and driver for certain membership tiers."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "Outside food and drinks are not mentioned; the venue offers an upscale dining menu and full bar service."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Time varies based on simulator usage and group size, but members get 2-3 hours of bay time per week/day depending on membership tier."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Tee Time Bar caters to families with a casual atmosphere and kid-friendly dining options."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"11AM-10PM\"], \"Tuesday\": [\"11AM-10PM\"], \"Wednesday\": [\"11AM-10PM\"], \"Thursday\": [\"11AM-10PM\"], \"Friday\": [\"11AM-10PM\"], \"Saturday\": [\"11AM-10PM\"], \"Sunday\": [\"11AM-10PM\"]}"
+}

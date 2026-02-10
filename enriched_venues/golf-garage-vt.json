@@ -1,0 +1,90 @@
+{
+  "name": "Golf Garage VT",
+  "address": "1185 Shelburne Rd # 001, South Burlington, VT 05403",
+  "city": "South Burlington",
+  "region": "Vermont",
+  "country": "US",
+  "latitude": 44.437091,
+  "longitude": -73.211254,
+  "phone": "+18025003131",
+  "website": "https://golfgaragevt.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770210461/golf_simulators/golfgaragevt_com_ChIJHTBSce17ykwR6BGs2NL5LzM.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Golf+Garage+VT/@44.4370912,-73.2112539,14z/data=!4m8!1m2!2m1!1sGolf+Garage+VT!3m4!1s0x4cca7bed7152301d:0x332ff9d2d8ac11e8!8m2!3d44.4370912!4d-73.2112539",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJHTBSce17ykwR6BGs2NL5LzM",
+  "email": "info@golfgaragevt.com.",
+  "venue_type": "training_studio",
+  "about": "Golf Garage VT and NH offers a state-of-the-art indoor golf training facility with multiple locations in Burlington, VT and Lebanon, NH. The venue provides a unique space for golfers to practice and improve their skills year-round using TrackMan simulators, a 250 square foot putting green, and professional coaching. Players can access a variety of virtual courses and challenges, with memberships granting extended access to the facilities.",
+  "tags": "beginner_friendly|serious_golfers|coaching_available|premium_tech|juniors_youth|corporate_events|leagues|club_rentals|private_rooms",
+  "vibe_tags": "tech_lab|modern|professional|community_club",
+  "who_its_for": "beginners|serious_golfers|families|juniors_youth|corporate_teams",
+  "why_golfers_like_it": [
+    "Premium TrackMan technology provides detailed ball flight analytics and swing data",
+    "Year-round practice and play regardless of weather conditions",
+    "Professional instruction from award-winning PGA coaches and personalized improvement plans"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned, BYOB policy not specified"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Multiple simulators at both locations (2 in VT, 3 in NH)"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 5,
+  "booking_url": "https://clients.uschedule.com/golfgarage/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|club_fitting|leagues|pro_shop|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you should bring your own golf clubs. The venue does not mention club rentals as an available amenity."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Food and drink policies are not clearly specified on the website. There is no mention of an on-site kitchen or bar, so it's recommended to contact the venue directly regarding outside food and drink."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify an exact time for playing 18 holes, but TrackMan simulators typically allow for faster rounds than traditional golf, with completion times usually ranging from 1.5 to 3 hours depending on pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Golf Garage offers junior development programs, camps, and clinics. They specifically mention accommodating juniors and new golfers with simple, enjoyable instruction methods."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"9AM-4PM\"], \"Tuesday\": [\"9AM-5PM\"], \"Wednesday\": [\"9AM-4PM\"], \"Thursday\": [\"9AM-4PM\"], \"Friday\": [\"9AM-4PM\"], \"Saturday\": [\"9AM-2PM\"], \"Sunday\": [\"Closed\"]}"
+}

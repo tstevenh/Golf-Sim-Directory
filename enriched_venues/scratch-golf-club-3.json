@@ -1,0 +1,91 @@
+{
+  "name": "Scratch Golf Club",
+  "address": "1855 Dallas Pkwy Suite 500, Plano, TX 75093",
+  "city": "Plano",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 33.026007,
+  "longitude": -96.831046,
+  "phone": "+18444131701",
+  "website": "https://scratchgolfclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770209819/golf_simulators/scratchgolfclub_com_ChIJB3Nm8csjTIYR-9Z5S1z7IxA.png",
+  "google_maps_url": "https://www.google.com/maps/place/Scratch+Golf+Club/@33.026006699999996,-96.8310456,14z/data=!4m8!1m2!2m1!1sScratch+Golf+Club!3m4!1s0x864c23cbf1667307:0x1023fb5c4b79d6fb!8m2!3d33.026006699999996!4d-96.8310456",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJB3Nm8csjTIYR-9Z5S1z7IxA",
+  "email": "hello@scratchgc.com",
+  "venue_type": "private_rental",
+  "about": "Scratch Golf Club is a private, members-only golf simulation facility in Dallas. It provides an elite experience with tour-grade technology, including Trackman simulators, AI swing analysis, and slow-motion video. The facility is designed for golfers looking to improve their game through data-driven practice, offering 24/7 access via a mobile app. Membership is required to use the facility, with various tiers available to suit different needs and budgets.",
+  "tags": "serious_practice|premium_tech|coaching_available|private_rooms|club_rentals|upscale_lounge|tech_lab",
+  "vibe_tags": "private_luxury|tech_lab|casual|welcoming",
+  "who_its_for": "serious_golfers|low_handicap|solo_practice|corporate_teams|coaches_instructors",
+  "why_golfers_like_it": [
+    "Elite Trackman technology in every bay for accurate shot tracking",
+    "24/7 unlimited access with mobile app for ultimate convenience",
+    "AI-powered swing analysis and slow-motion video for detailed feedback",
+    "Multiple practice modes to simulate real course conditions",
+    "Private, distraction-free environment for focused practice"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "Members may bring their own food to enjoy during their reservation"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "Members may bring their own alcohol to enjoy during their reservation"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Radar-based launch monitor installed in every bay"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://scratchgolfclub.com/membership",
+  "pricing_model": "membership_only",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|wifi|pro_shop|coaching_available|private_rooms",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not explicitly state whether equipment is provided. It's recommended to bring your own clubs for the most authentic experience."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, Scratch Golf Club allows members to bring their own food and alcohol to enjoy during their reservation."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify the time required to play 18 holes, but with 6 practice modes and simulator technology, golfers can simulate full rounds at their own pace."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "No, Scratch Golf Club is a private, members-only facility focused on serious practice and improvement, and is not marketed as kid-friendly."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

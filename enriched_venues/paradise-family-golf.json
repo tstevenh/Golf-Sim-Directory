@@ -1,0 +1,89 @@
+{
+  "name": "Paradise Family Golf",
+  "address": "25 Lonergan Rd, Middleton, MA 01949",
+  "city": "Middleton",
+  "region": "Massachusetts",
+  "country": "US",
+  "latitude": 42.574135,
+  "longitude": -70.997925,
+  "phone": "+19787504653",
+  "website": "https://www.paradisefamilygolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770232466/golf_simulators/www_paradisefamilygolf_com_ChIJNRKNKvwR44kRP4SLTEnZzc4.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Paradise+Family+Golf/@42.574134799999996,-70.99792479999999,14z/data=!4m8!1m2!2m1!1sParadise+Family+Golf!3m4!1s0x89e311fc2a8d1235:0xcecdd9494c8b843f!8m2!3d42.574134799999996!4d-70.99792479999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJNRKNKvwR44kRP4SLTEnZzc4",
+  "venue_type": "multi_sport_sim",
+  "about": "Paradise Family Golf is a comprehensive golf facility in Middleton, offering a full range of services including a driving range, mini golf, TrackMan simulators, PGA instruction, club fitting, and a pro shop. The venue features covered and heated tee stations for year-round practice, dedicated short game areas, and six TrackMan simulator studios. It operates on a per-bay or per-person hourly basis, with a focus on providing value-added perks like fresh mats, new balls, and loyalty programs alongside its core golf services. The facility is designed to cater to golfers of all skill levels, from beginners looking for casual play to serious players seeking advanced technology and coaching for game improvement.",
+  "tags": "beginner_friendly|food_and_drinks|kids_friendly|corporate_events|leagues|premium_tech|private_rooms|club_rentals|coaching_available|family_friendly",
+  "vibe_tags": "family_fun_center|tech_lab|community_club|welcoming",
+  "who_its_for": "beginners|serious_golfers|families|juniors_youth|corporate_teams",
+  "why_golfers_like_it": [
+    "State-of-the-art TrackMan simulators with detailed ball and club data for analysis and virtual play",
+    "Premium practice facilities with covered, heated bays and dedicated short game training areas",
+    "Comprehensive offerings including PGA instruction, custom club fitting, and a fully stocked pro shop",
+    "Flexible pricing and value-added perks like 2-for-1 weekday buckets and loyalty programs"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "On-site snack bar with Treadwells Ice Cream, Richies Premium Slush, softserve ice cream, and custom treats."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol mentioned."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Six TrackMan studios available for private or open play."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 6,
+  "booking_url": "https://clients.uschedule.com/paradisefamilygolf/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 35,
+  "price_range_max_local": 55,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|pro_shop|club_fitting|leagues|private_party_room|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "While you can bring your own clubs, demo clubs are available for use with bucket purchases."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No outside food or drinks are allowed. The venue offers an on-site snack bar with ice cream, slush, and other treats."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "A full 18-hole round on the simulator takes 60 minutes."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Paradise Family Golf is highly kid-friendly, featuring a mini golf course, birthday party packages in a pirate ship-themed room, and a snack bar with treats."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"8AM-11PM\"], \"Tuesday\": [\"8AM-11PM\"], \"Wednesday\": [\"8AM-11PM\"], \"Thursday\": [\"8AM-11PM\"], \"Friday\": [\"8AM-11PM\"], \"Saturday\": [\"8AM-11PM\"], \"Sunday\": [\"8AM-11PM\"]}"
+}

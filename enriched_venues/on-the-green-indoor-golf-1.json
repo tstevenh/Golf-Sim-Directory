@@ -1,0 +1,91 @@
+{
+  "name": "On the Green, Indoor Golf",
+  "address": "12571 Central Ave NE, Blaine, MN 55434",
+  "city": "Blaine",
+  "region": "Minnesota",
+  "country": "US",
+  "latitude": 45.199368,
+  "longitude": -93.232069,
+  "phone": "+16517286936",
+  "website": "http://www.onthegreen-golf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770213276/golf_simulators/www_onthegreen-golf_com_ChIJh-plqL0js1IRvPDdLry5lgM.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/On+the+Green%2C+Indoor+Golf/@45.1993679,-93.2320688,14z/data=!4m8!1m2!2m1!1sOn+the+Green%2C+Indoor+Golf!3m4!1s0x52b323bda865ea87:0x396b9bc2eddf0bc!8m2!3d45.1993679!4d-93.2320688",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJh-plqL0js1IRvPDdLry5lgM",
+  "email": "elliottjang@onthegreen-golf.com",
+  "venue_type": "sim_bar",
+  "about": "On the Green is an indoor golf simulator facility in Blaine, MN, offering a social and technical golfing experience. The venue is equipped with simulators that allow for play on virtual courses without the risk of rainouts, catering to a wide range of golfers from beginners to those looking for a competitive environment. It combines golfing with a full-service bar and food options, as well as event spaces, making it suitable for both practice and social gatherings. Pricing is based on bay time, with available memberships and special event packages, while the facility features private rooms and a layout designed for both solo play and group events.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|private_rooms|club_rentals|late_night|coaching_available",
+  "vibe_tags": "sports_bar|family_fun_center|party_atmosphere|community_club|tech_lab",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "Premium simulator technology with adjustable hitting decks for uphill/downhill lies",
+    "Indoor facility eliminates weather-related cancellations",
+    "Full-service bar and food options available on-site",
+    "Private 'Par-Tee' room with two simulators and a putting area for events",
+    "Supportive and friendly staff, especially helpful for beginners"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "On-site kitchen offers food items such as pizza and potstickers"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full-service cash bar available with drinks"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Premium radar technology with adjustable hitting decks for various lies"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://onthegreen.golfbook.in/calendar.php",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "The venue provides golf clubs for use, but you are also welcome to bring your own equipment."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drinks are not permitted as the venue offers its own full kitchen and bar services."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Playing 18 holes typically takes around 2-3 hours depending on the number of players and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is kid-friendly, offering junior programs, camps, and a welcoming atmosphere for families."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"8AM-10PM\"], \"Tuesday\": [\"8AM-10PM\"], \"Wednesday\": [\"8AM-10PM\"], \"Thursday\": [\"8AM-10PM\"], \"Friday\": [\"8AM-11PM\"], \"Saturday\": [\"8AM-11PM\"], \"Sunday\": [\"8AM-9PM\"]}"
+}

@@ -1,0 +1,92 @@
+{
+  "name": "Snohomish Valley Golf Center",
+  "address": "8511 Marsh Rd, Snohomish, WA 98296",
+  "city": "Snohomish",
+  "region": "Washington",
+  "country": "US",
+  "latitude": 47.899724,
+  "longitude": -122.117671,
+  "phone": "+13605682493",
+  "website": "http://snohomishvalleygolfcenter.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770237976/golf_simulators/snohomishvalleygolfcenter_com_ChIJDQjFIyuomlQRd4dFBe1FGwg.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Snohomish+Valley+Golf+Center/@47.899723599999994,-122.11767119999999,14z/data=!4m8!1m2!2m1!1sSnohomish+Valley+Golf+Center!3m4!1s0x549aa82b23c5080d:0x81b45ed05458777!8m2!3d47.899723599999994!4d-122.11767119999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJDQjFIyuomlQRd4dFBe1FGwg",
+  "email": "info@snohomishvalleygolfcenter.com",
+  "venue_type": "sim_bar|training_studio|private_rental|retail_fitting_center",
+  "about": "Snohomish Valley Golf Center is a multi-faceted golf and entertainment venue offering a driving range with Toptracer technology, an 18-hole championship mini-golf course, a full-service restaurant (Valley Grill), and a pro shop with PGA instruction. The facility is a family-owned and operated establishment founded in 2001, providing amenities for both casual recreation and serious golf practice. It caters to a wide audience with group lessons, fitting events, and party rental options, creating a hub for both individual skill development and social gatherings.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|kids_friendly|corporate_events|coaching_available|leagues|premium_tech|club_rentals",
+  "vibe_tags": "casual|welcoming|modern|family_fun_center",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "All stalls are equipped with Toptracer Range technology included with a bucket of balls",
+    "PGA Professional Patrick Ackerman offers comprehensive lessons and club fitting services",
+    "The venue features both a driving range for practice and a championship 18-hole mini-golf course for entertainment"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full-service restaurant (Valley Grill) with a new homestyle menu from scratch. Open for takeout and eat-at-your-stall service, including a breakfast menu."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol mentioned on the premises. BYOB keywords not found."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4 Dual Radar",
+      "notes": "Available for rental, described as the #1 Launch Monitor on the PGA Tour."
+    }
+  ],
+  "simulator_so": [
+    "Toptracer"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://clients.uschedule.com/ackermangolf/schedule",
+  "pricing_model": "per_bay_hour|mixed",
+  "price_range_min_local": 10,
+  "price_range_max_local": 12,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|full_bar|kitchen_food|private_party_room|club_fitting",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you should bring your own clubs. The venue does have a pro shop for club rentals and purchases, and PGA fitting services are available."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No, outside food and drinks are not permitted. The venue has its own restaurant, Valley Grill, with a full menu available for takeout or to eat at your stall."
+    },
+    {
+      "question": "How long does it take to play 18 holes of mini-golf?",
+      "answer": "The website does not specify the time to complete the 18-hole mini-golf course."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, it is very kid-friendly. The venue features a dedicated 18-hole mini-golf course, offers junior golf programs and clinics, and has a family-oriented atmosphere."
+    }
+  ],
+  "simulator_software": [
+    "Toptracer Range"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"8AM-10PM\"], \"Tuesday\": [\"8AM-10PM\"], \"Wednesday\": [\"8AM-10PM\"], \"Thursday\": [\"8AM-10PM\"], \"Friday\": [\"8AM-10PM\"], \"Saturday\": [\"8AM-10PM\"], \"Sunday\": [\"8AM-10PM\"]}"
+}

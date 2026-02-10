@@ -1,0 +1,79 @@
+{
+  "name": "Reilly Golf Academy",
+  "address": "1103 Division Ave, Willow Grove, PA 19090",
+  "city": "Willow Grove",
+  "region": "Pennsylvania",
+  "country": "US",
+  "latitude": 40.144679,
+  "longitude": -75.103301,
+  "phone": "+12157785723",
+  "website": "https://reillygolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770225164/golf_simulators/reillygolf_com_ChIJVwHXX6CxxokRi0bs3g5vx6o.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Reilly+Golf+Academy/@40.1446786,-75.10330069999999,14z/data=!4m8!1m2!2m1!1sReilly+Golf+Academy!3m4!1s0x89c6b1a05fd70157:0xaac76f0edeec468b!8m2!3d40.1446786!4d-75.10330069999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJVwHXX6CxxokRi0bs3g5vx6o",
+  "email": "hugh@reillygolf.com",
+  "venue_type": "training_studio",
+  "about": "Reilly Golf Academy is a professional golf instruction facility operating across three locations: Willow Grove, Devon, and Norristown, PA. The academy, led by PGA Professional Hugh Reilly, provides indoor training year-round using advanced FlightScope launch monitor technology and OnForm video analysis software. Outdoor lessons are available seasonally at Westover Golf Club in Norristown. The facility focuses on personalized coaching for golfers of all skill levels, with instruction tailored to individual goals from building fundamentals to competitive play preparation. Pricing is structured through lesson packages, with a standard one-hour session costing $120.",
+  "tags": "beginner_friendly|serious_practice|coaching_available|juniors_youth|private_rooms|corporate_teams",
+  "vibe_tags": "industrial_training|tech_lab|private_luxury|casual",
+  "who_its_for": "beginners|serious_golfers|juniors_youth|coaches_instructors|solo_practice",
+  "why_golfers_like_it": [
+    "State-of-the-art FlightScope launch monitor providing instant feedback on swing parameters",
+    "OnForm video analysis allowing side-by-side comparison with PGA Tour professionals",
+    "Private indoor training environment for year-round practice regardless of weather",
+    "Personalized instruction from a PGA Professional with 40 years of teaching experience"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": null,
+  "simulator_hardware": [
+    {
+      "brand": "FlightScope",
+      "model": "Launch Monitor",
+      "notes": "Primary launch monitor used for swing analysis and ball tracking"
+    }
+  ],
+  "simulator_software": [
+    "OnForm"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://xflex.gymmasteronline.com/portal/book/service?serviceid=567872",
+  "pricing_model": "package",
+  "price_range_min_local": 120,
+  "price_range_max_local": 800,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|wifi|pro_shop",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The academy provides necessary equipment, but students are welcome to bring their own clubs for lessons."
+    },
+    {
+      "question": "Can I bring food or drinks?",
+      "answer": "The academy does not mention food or drink services, suggesting a BYOB policy may apply but is not explicitly confirmed."
+    },
+    {
+      "question": "How long does an 18-hole simulation take?",
+      "answer": "The website does not specify timeframes for 18-hole simulations, as focus is on individual lesson packages rather than full course play."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "The academy offers lessons for golfers of all ages including juniors, but specific kid-friendly amenities or programs are not detailed."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"Closed\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"Closed\"], \"Friday\": [\"9AM-10PM\"], \"Saturday\": [\"Closed\"], \"Sunday\": [\"Closed\"]}"
+}

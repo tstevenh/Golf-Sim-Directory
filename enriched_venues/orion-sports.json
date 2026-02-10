@@ -1,0 +1,91 @@
+{
+  "name": "Orion Sports",
+  "address": "6800 Eastman Ave, Midland, MI 48642",
+  "city": "Midland",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 43.658969,
+  "longitude": -84.242697,
+  "phone": "+19894863999",
+  "website": "http://osmidland.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770204464/golf_simulators/osmidland_com_ChIJgU-m3vR_IYgRV2xVRlAP8GU.png",
+  "google_maps_url": "https://www.google.com/maps/place/Orion+Sports/@43.6589685,-84.2426972,14z/data=!4m8!1m2!2m1!1sOrion+Sports!3m4!1s0x88217ff4dea64f81:0x65f00f5046556c57!8m2!3d43.6589685!4d-84.2426972",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJgU-m3vR_IYgRV2xVRlAP8GU",
+  "venue_type": "multi_sport_sim",
+  "about": "Orion Sports is a family fun center in Midland offering a variety of activities including indoor golf simulators. They provide two golf simulator bays equipped with the latest technology and software, featuring access to dozens of renowned golf courses worldwide such as Torrey Pines and Pebble Beach. The facility caters to groups of up to four players per bay and offers both walk-in and reservation options. Pricing varies by day, with lower rates available on weekdays and higher rates on weekends, and they host seasonal golf leagues. While primarily focused on simulation technology, the venue positions itself as an all-ages destination for entertainment and group activities.",
+  "tags": "beginner_friendly|food_and_drinks|kids_friendly|corporate_events|leagues|premium_tech|budget_friendly|private_rooms|club_rentals|family_fun_center",
+  "vibe_tags": "family_fun_center|tech_lab|community_club",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Access to dozens of renowned golf courses worldwide including Torrey Pines and Pebble Beach",
+    "Latest technology with advanced projectors and simulator software for realistic gameplay",
+    "Flexible booking options with weekday and weekend pricing to suit different schedules",
+    "Supports groups up to 4 players, making it ideal for friends or family outings",
+    "Seasonal leagues available for those looking to compete"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Catering available for events; may have on-site food options for groups"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service; venue has strict policy against players under influence"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "unknown",
+      "model": "unknown",
+      "notes": "Latest technology with advanced projectors, but specific brand not specified"
+    }
+  ],
+  "simulator_software": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar|photometric_camera|hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://app.primesignup.com/e/uvyosp/presentation",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 30,
+  "price_range_max_local": 40,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|kitchen_food|tv_sports|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue does not specify whether clubs are provided, so it is recommended to bring your own equipment for the best experience."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "The venue does not mention BYOB policies, but catering services are available for events. Outside food/drink policies are not explicitly stated."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time for 18 holes is not specified, but sessions are booked by the hour, with typical sessions being 1-2 hours depending on the activity."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Orion Sports is family-friendly with activities like bumper cars and laser tag specifically designed for younger audiences, though golf simulators may have age or height restrictions."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"Closed\"], \"Wednesday\": [\"12-8PM\"], \"Thursday\": [\"12-8PM\"], \"Friday\": [\"12-9PM\"], \"Saturday\": [\"12-9PM\"], \"Sunday\": [\"12-7PM\"]}"
+}

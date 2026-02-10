@@ -1,0 +1,89 @@
+{
+  "name": "X-Golf Royal Oak",
+  "address": "30955 Woodward Ave Suite 720, Royal Oak, MI 48073",
+  "city": "Royal Oak",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 42.516357,
+  "longitude": -83.18632,
+  "phone": "+12486073976",
+  "website": "https://playxgolf.com/locations/royal-oak/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770203323/golf_simulators/playxgolf_com_ChIJI3c07n_HJIgRSTopXhSzRFo.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/X-Golf+Royal+Oak/@42.5163574,-83.1863204,14z/data=!4m8!1m2!2m1!1sX-Golf+Royal+Oak!3m4!1s0x8824c77fee347723:0x5a44b3145e293a49!8m2!3d42.5163574!4d-83.1863204",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJI3c07n_HJIgRSTopXhSzRFo",
+  "email": "info@xgolfroyaloak.com",
+  "venue_type": "sim_bar",
+  "about": "X-Golf Royal Oak is a facility featuring indoor golf simulators designed for play, training, and entertainment. It provides a state-of-the-art golf simulator experience with technology including camera systems, infrared lasers, and impact sensors. The venue is suitable for all skill levels, offering a range of services from league play to corporate events. Located in Royal Oak, Michigan, it also includes a full bar and food service, making it an entertainment center for golfers and social groups.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|club_rentals|coaching_available|private_rooms",
+  "vibe_tags": "sports_bar|family_fun_center|community_club",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "Unparalleled accuracy and realism with state-of-the-art camera systems, infrared lasers, and impact sensors",
+    "Full-service entertainment venue with a sports bar and restaurant serving food and drinks",
+    "PGA-certified instructors available for lessons and club fitting services"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen service with shareable bites, appetizers, snacks, and pizzas available"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full liquor bar with beer, cocktails, and wine available"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "X-Golf",
+      "model": "X-Golf Simulator",
+      "notes": "Proprietary indoor golf simulator with a combination of camera systems, infrared lasers, and impact sensors"
+    }
+  ],
+  "simulator_software": [
+    "Proprietary X-Golf Software"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "auto_putt",
+  "lefty_friendly": true,
+  "bay_count_total": 6,
+  "booking_url": "https://clients.uschedule.com/xgolfroyaloak/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 0,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|private_party_room|wifi|club_fitting|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need clubs?",
+      "answer": "Yes, club rentals are available if you do not have your own equipment."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "The venue has its own restaurant and bar, outside food and drink are not permitted."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "It generally takes about one hour for an individual player to complete 18 holes. For multiple players, an additional hour per person is recommended."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is welcoming to all ages and skill levels, making it suitable for families and juniors."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-12AM\"], \"Tuesday\": [\"10AM-12AM\"], \"Wednesday\": [\"10AM-12AM\"], \"Thursday\": [\"10AM-12AM\"], \"Friday\": [\"10AM-12AM\"], \"Saturday\": [\"8AM-12AM\"], \"Sunday\": [\"8AM-10PM\"]}"
+}

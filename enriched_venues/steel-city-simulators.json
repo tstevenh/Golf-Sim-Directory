@@ -1,0 +1,93 @@
+{
+  "name": "Steel City Simulators",
+  "address": "12591 US-30, North Huntingdon, PA 15642",
+  "city": "North Huntingdon",
+  "region": "Pennsylvania",
+  "country": "US",
+  "latitude": 40.338038,
+  "longitude": -79.74696,
+  "phone": "+17245155226",
+  "website": "https://steelcitysimulators.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770201353/golf_simulators/steelcitysimulators_com_ChIJdaENOPznNIgRwTc4AE0R5fY.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Steel+City+Simulators/@40.3380377,-79.7469599,14z/data=!4m8!1m2!2m1!1sSteel+City+Simulators!3m4!1s0x8834e7fc380da175:0xf6e5114d003837c1!8m2!3d40.3380377!4d-79.7469599",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJdaENOPznNIgRwTc4AE0R5fY",
+  "email": "info@steelcitysimulators.com",
+  "venue_type": "multi_sport_sim",
+  "about": "Steel City Simulators is an indoor sports simulation venue located in North Huntingdon, PA. It features Trackman technology in three simulator bays, allowing for year-round play on over 200 of the world's greatest golf courses. The facility caters to a wide range of activities beyond golf, including baseball, football, basketball, lacrosse, and various shooting and carnival-style games. Pricing is straightforward, starting at $50 per hour for up to six guests per bay, with options for private events and leagues.",
+  "tags": "beginner_friendly|corporate_events|leagues|premium_tech|food_and_drinks|private_rooms|club_rentals|family_friendly",
+  "vibe_tags": "family_fun_center|tech_lab|modern",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "Realistic gameplay powered by state-of-the-art Trackman radar technology",
+    "Access to over 200 championship courses for all-season play",
+    "App integration allows for stat tracking and performance analysis",
+    "Accommodates up to 6 players per bay for group play"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Food is available upon request."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service or BYOB policy."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "State-of-the-art radar technology trusted by tour players and coaches for tracking and simulation."
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://steelcitysimulators.com/reserve-a-simulator/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 50,
+  "price_range_max_local": 50,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|private_party_room|parking|wifi",
+  "rating_tech_quality": 4.7,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You will need to bring your own golf clubs to play on the simulators."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "Food is available upon request at the venue. There is no mention of a BYOB policy for alcohol."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify an exact time for playing 18 holes, but it provides pricing on a per-hour basis."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Steel City Simulators welcomes individuals of all ages and sizes, and offers various games and activities suitable for kids, like Wild West Shootout and Zombie Dodgeball."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"9AM-9PM\"], \"Tuesday\": [\"9AM-9PM\"], \"Wednesday\": [\"9AM-9PM\"], \"Thursday\": [\"9AM-9PM\"], \"Friday\": [\"9AM-9PM\"], \"Saturday\": [\"9AM-9PM\"], \"Sunday\": [\"9AM-9PM\"]}"
+}

@@ -1,0 +1,88 @@
+{
+  "name": "Eaglewood Golf Course",
+  "address": "1401 Nordic Rd, Itasca, IL 60143",
+  "city": "Itasca",
+  "region": "Illinois",
+  "country": "US",
+  "latitude": 41.958211,
+  "longitude": -88.039442,
+  "phone": "+16307731400",
+  "website": "https://eaglewoodresort.com/golf",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770215289/golf_simulators/eaglewoodresort_com_ChIJm1ltj7mtD4gRGvkZAyYeLbs.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Eaglewood+Golf+Course/@41.958211399999996,-88.03944179999999,14z/data=!4m8!1m2!2m1!1sEaglewood+Golf+Course!3m4!1s0x880fadb98f6d599b:0xbb2d1e260319f91a!8m2!3d41.958211399999996!4d-88.03944179999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJm1ltj7mtD4gRGvkZAyYeLbs",
+  "venue_type": "hotel_resort",
+  "about": "The Golf Club at Eaglewood is a Par 72 championship USGA-certified course located at a resort hotel. The venue offers traditional outdoor golf with 18 and 9-hole play options, tournament planning, and event hosting capabilities. It also features a dedicated Foresight golf simulator available for rent by the hour, located within the Prairie River Bar and Grill. The resort setting provides a full-service experience with on-site dining, a pro shop, and various other recreational activities like bowling and spa services. Pricing varies by season, time of day, and includes mandatory cart fees, with simulator rentals costing $50 per hour.",
+  "tags": "food_and_drinks|corporate_events|premium_tech|club_rentals|coaching_available|family_friendly|leagues|private_rooms|upscale_lounge",
+  "vibe_tags": "upscale_lounge|private_luxury|family_fun_center|community_club",
+  "who_its_for": "families|corporate_teams|large_groups|beginners|tourists_travelers",
+  "why_golfers_like_it": [
+    "Full-service resort atmosphere combining traditional golf with a high-tech simulator experience",
+    "Variety of event options including night golf putting tournaments and group outings",
+    "Pro shop credit included with group packages and on-site dining available"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full Picnic Menu available for tournaments; American-style breakfast buffet available at Prairie River Restaurant"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Bar service available at Prairie River Bar and Patio and during golf tournaments"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": "Golf Simulator",
+      "notes": "Private room connected to Prairie River Bar and Grill, accommodates up to 6 people"
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": "unknown",
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 1,
+  "booking_url": "https://eaglewood-resort-and-spa.play.teeitup.golf/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 50,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|pro_shop|private_party_room|fitness_center|spa|pool|bowling|wifi|shuttle_service",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, club rentals are available. Callaway XR or TaylorMade clubs cost $50 per set, and Callaway Mavrik clubs cost $60."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue offers a full kitchen and bar service, so outside food and drinks may not be permitted. On-course food and beverage are available via hospitality carts."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Regular play is typically 4-5 hours. Night golf events have an average playing time of 1.5 hours for the 4-hole event."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, junior rates are available for ages 12-16, and the resort features family-friendly amenities like a bowling alley and pool."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": null
+}

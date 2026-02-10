@@ -1,0 +1,97 @@
+{
+  "name": "Gulf Shore Golf Co.",
+  "address": "6870 Del Mar Terrace, Naples, FL 34105",
+  "city": "Naples",
+  "region": "Florida",
+  "country": "US",
+  "latitude": 26.19506,
+  "longitude": -81.749452,
+  "phone": "+12397994853",
+  "website": "https://gulfshoregolfco.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770213107/golf_simulators/gulfshoregolfco_com_ChIJR6QTwiZDoWwRj4ol1Eo6Wd0.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Gulf+Shore+Golf+Co./@26.1950604,-81.7494516,14z/data=!4m8!1m2!2m1!1sGulf+Shore+Golf+Co.!3m4!1s0x6ca14326c213a447:0xdd593a4ad4258a8f!8m2!3d26.1950604!4d-81.7494516",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJR6QTwiZDoWwRj4ol1Eo6Wd0",
+  "venue_type": "other",
+  "about": "Gulf Shore Golf Co. is a mobile golf service provider offering a range of specialized golf analysis, training, and simulator experiences at the client's location. The company focuses on bringing professional-grade equipment and expertise directly to homes, clubs, or gyms. Services include TPI-certified fitness screenings, golf swing and putting analysis, club distance assessments using the GC Quad Max launch monitor, and mobile golf simulator rentals for events or personal use. Data is securely stored in client portals for tracking progress and sharing with PGA professionals. The service is designed to provide convenient, affordable access to advanced golf technology and training.",
+  "tags": "serious_golfers|corporate_events|coaching_available|premium_tech|mobile_service|beginner_friendly|low_handicap|juniors_youth",
+  "vibe_tags": "tech_lab|private_luxury|industrial_training|modern",
+  "who_its_for": "serious_golfers|families|corporate_teams|solo_practice|coaches_instructors",
+  "why_golfers_like_it": [
+    "Brings professional-grade golf simulator technology to your preferred location",
+    "Offers highly accurate launch monitoring with the GC Quad Max using the golfer's own ball",
+    "Provides comprehensive data analysis stored in personal portals for tracking and sharing",
+    "Features TPI-certified fitness and swing analysis for customized training",
+    "Offers customizable event experiences with professional on-site management"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "Not mentioned. BYOB policy not specified."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "Not mentioned. BYOB policy not specified."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": "GC Quad Max",
+      "notes": "Primary launch monitor for simulator rentals and club assessments"
+    },
+    {
+      "brand": "FlightScope",
+      "model": "unknown",
+      "notes": "Available as an alternative launch monitor for events"
+    }
+  ],
+  "simulator_software": [
+    "GSPro",
+    "FSX Play",
+    "FSX2020"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green|mixed",
+  "lefty_friendly": true,
+  "bay_count_total": 1,
+  "booking_url": "https://gulfshoregolfco.com/contact",
+  "pricing_model": "package",
+  "price_range_min_local": 60,
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 0,
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|wifi|pro_shop|club_fitting|private_party_room",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The service provides premium clubs and balls, but you are encouraged to bring your own clubs, especially for the 'Know Your Numbers' service to get accurate carry distance data with your personal equipment."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The service does not specify a food or drink policy, as they operate at the client's location. It's best to confirm when booking if you plan to have catering or beverages for your event."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "For simulator rentals, there is a 3-hour minimum booking. For club assessments, the 'Know Your Numbers' session is approximately one hour long."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "Yes, the service is family-friendly and can be customized for events including children. The mobile simulator can provide entertainment for all ages at parties and gatherings."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"7AM-7PM\"], \"Tuesday\": [\"7AM-7PM\"], \"Wednesday\": [\"7AM-7PM\"], \"Thursday\": [\"7AM-7PM\"], \"Friday\": [\"7AM-7PM\"], \"Saturday\": [\"7AM-7PM\"], \"Sunday\": [\"7AM-7PM\"]}"
+}

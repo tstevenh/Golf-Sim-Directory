@@ -1,0 +1,85 @@
+{
+  "name": "X-Golf Fairlawn",
+  "address": "55 Springside Dr, Fairlawn, OH 44333",
+  "city": "Fairlawn",
+  "region": "Ohio",
+  "country": "US",
+  "latitude": 41.134098,
+  "longitude": -81.644177,
+  "phone": "+13305763139",
+  "website": "https://playxgolf.com/locations/fairlawn/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770225368/golf_simulators/playxgolf_com_ChIJK5UFIhLRMIgR1pX2xsmD-88.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/X-Golf+Fairlawn/@41.1340977,-81.64417689999999,14z/data=!4m8!1m2!2m1!1sX-Golf+Fairlawn!3m4!1s0x8830d1122205952b:0xcffb83c9c6f695d6!8m2!3d41.1340977!4d-81.64417689999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJK5UFIhLRMIgR1pX2xsmD-88",
+  "email": "info@xgolffairlawn.com",
+  "venue_type": "sim_bar|training_studio",
+  "about": "X-Golf Fairlawn is an indoor golf simulator venue that combines high-accuracy technology with a social sports bar environment. It features 8 state-of-the-art simulators utilizing camera systems, infrared lasers, and impact sensors to provide a realistic golf experience. The venue caters to a range of patrons, from beginners to serious golfers, offering playing time, professional coaching, and a full bar and food menu. Pricing is structured per simulator per hour, accommodating up to six people per bay, with rates varying by day and time.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|kids_friendly|corporate_events|leagues|premium_tech|club_rentals|coaching_available",
+  "vibe_tags": "sports_bar|family_fun_center|community_club|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "World's most accurate golf simulator technology",
+    "Social atmosphere with full bar and restaurant",
+    "PGA-certified professional instruction available",
+    "Flexible indoor play regardless of weather",
+    "Competitive leagues and tournament opportunities"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen offering shareable bites, appetizers, snacks, and pizzas."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full liquor bar with beer on tap, by the glass, as well as cocktails and wines."
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": 8,
+  "booking_url": "https://clients.uschedule.com/xgolffairlawn/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 45,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 8,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|private_party_room|club_fitting|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, bringing your own clubs is encouraged but not required. Club rentals are available if needed."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No outside food or drinks are permitted. X-Golf has a full kitchen and bar available for all guests."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Generally, it takes about one hour for an individual to play 18 holes. With more players, you may want to book an additional hour per person."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "Yes, children of all ages are welcome to play at X-Golf Fairlawn."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-12AM\"], \"Friday\": [\"9AM-12AM\"], \"Saturday\": [\"8AM-12AM\"], \"Sunday\": [\"8AM-10PM\"]}"
+}

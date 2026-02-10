@@ -1,0 +1,90 @@
+{
+  "name": "Private Fairway Farmington",
+  "address": "1050 Shepard Ln, Farmington, UT 84025",
+  "city": "Farmington",
+  "region": "Utah",
+  "country": "US",
+  "latitude": 41.001549,
+  "longitude": -111.91033,
+  "phone": "+18016966503",
+  "website": "http://farmington.privatefairway.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770235560/golf_simulators/farmington_privatefairway_com_ChIJ6eYbWcT_UocRuHicJhUDzdk.png",
+  "google_maps_url": "https://www.google.com/maps/place/Private+Fairway+Farmington/@41.0015486,-111.91032969999999,14z/data=!4m8!1m2!2m1!1sPrivate+Fairway+Farmington!3m4!1s0x8752ffc4591be6e9:0xd9cd0315269c78b8!8m2!3d41.0015486!4d-111.91032969999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ6eYbWcT_UocRuHicJhUDzdk",
+  "email": "farmington@privatefairway.com",
+  "venue_type": "private_rental",
+  "about": "Private Fairway Farmington is a 24-hour indoor golf facility offering members unlimited access to a private golf studio equipped with TrackMan technology. The venue provides a complete private environment for individuals and their guests to practice, play, and improve their golf game. Memberships include options for unlimited monthly access or punch passes with a set number of sessions available over six months. The facility is designed for convenient, self-service operation with key fob access and an easy-to-use booking app.",
+  "tags": "serious_golfers|solo_practice|premium_tech|private_rooms|coaching_available|membership_only|trackman",
+  "vibe_tags": "private_luxury|tech_lab|modern",
+  "who_its_for": "serious_golfers|low_handicap|coaches_instructors|solo_practice|families",
+  "why_golfers_like_it": [
+    "Complete privacy in a dedicated bay with no waiting or crowds",
+    "Access to TrackMan 4 technology providing 26 data points for every swing",
+    "Unlimited 24-hour access with flexible monthly memberships",
+    "Option to play on 100+ hyper-accurate mapped courses including Pebble Beach and St. Andrews"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Members can order food delivery services like DoorDash to the studio."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "Not mentioned as available."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "PGA Tour-level radar launch monitor with 26 data points and 3 video angles per swing."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 1,
+  "booking_url": "https://www.farmington.privatefairway.com/booking-calendar/free-studio-trial-tour?referral=service_list_widget",
+  "pricing_model": "membership_only",
+  "price_range_min_local": 25,
+  "price_range_max_local": 150,
+  "currency": "USD",
+  "walk_ins_allowed": false,
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "wifi|tv_sports|club_rentals|kitchen_food",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, the venue expects you to bring your own clubs to use with the TrackMan system."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, members can order food from services like DoorDash to be delivered to the studio. Alcohol is not mentioned as being available."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The content does not specify a typical time for an 18-hole round on the simulator."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "There is no specific information provided about whether the venue is kid-friendly or has amenities for children."
+    }
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

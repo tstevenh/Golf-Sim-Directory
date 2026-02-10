@@ -1,0 +1,95 @@
+{
+  "name": "Energy First Golf Academy",
+  "address": "1300 Peachtree Industrial Blvd Suite: 1208, Suwanee, GA 30024",
+  "city": "Suwanee",
+  "region": "Georgia",
+  "country": "US",
+  "latitude": 34.041321,
+  "longitude": -84.095814,
+  "phone": "+16783816346",
+  "website": "http://www.efilgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770232638/golf_simulators/www_efilgolf_com_ChIJo1OM3XKn9YgRukfFvSKQ5TQ.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Energy+First+Golf+Academy/@34.0413207,-84.09581349999999,14z/data=!4m8!1m2!2m1!1sEnergy+First+Golf+Academy!3m4!1s0x88f5a772dd8c53a3:0x34e59022bdc547ba!8m2!3d34.0413207!4d-84.09581349999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJo1OM3XKn9YgRukfFvSKQ5TQ",
+  "email": "energy1stgolf@gmail.com",
+  "venue_type": "training_studio",
+  "about": "Energy First Golf Academy is a golf training studio in Suwanee, GA, that uses a unique 'Energy First, Impact Later' philosophy to teach the game. The facility is equipped with eight large simulator bays featuring advanced technologies like SkyTrak and GCQuads, offering an immersive learning environment for golfers of all skill levels. Lessons are provided by a team of experienced PGA-certified professionals, utilizing video analysis and a methodology focused on Swing Path, Club-Head Speed, and Face Angle to help students achieve consistent, powerful swings.",
+  "tags": "beginner_friendly|serious_practice|coaching_available|premium_tech|juniors_youth",
+  "vibe_tags": "industrial_training|tech_lab|modern",
+  "who_its_for": "beginners|serious_golfers|juniors_youth|solo_practice",
+  "why_golfers_like_it": [
+    "Advanced GCQuad and SkyTrak technology for detailed swing analysis",
+    "Experienced coaching team with over 15-22 years of professional experience",
+    "Comprehensive lessons covering long game, short game, and mental approach",
+    "Focus on fitness and swing mechanics to improve performance and reduce injury"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of an on-site kitchen or food service."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of a bar or alcohol service."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "SkyTrak",
+      "model": null,
+      "notes": "Mid-range launch monitor for practice and swing analysis"
+    },
+    {
+      "brand": "GCQuad",
+      "model": null,
+      "notes": "Advanced photometric launch monitor for precise data tracking"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green|auto_putt",
+  "lefty_friendly": true,
+  "bay_count_total": 8,
+  "booking_url": "https://booking.teebly.io/energyfirstgolf",
+  "pricing_model": "per_bay_hour|mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 0,
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|pro_shop|wifi|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website mentions a pro shop, but it's unclear if club rentals are available. It's best to contact the venue directly to confirm."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "There is no mention of an on-site kitchen or BYOB policy. It is recommended to contact the venue for their specific rules outside catering or alcohol."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify the time required to complete an 18-hole simulation. This information can typically be obtained by checking the simulator software or by asking a staff member."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is kid-friendly. They offer junior programs and have received testimonials mentioning children taking lessons, with a focus on instilling a strong interest and respect for the game."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"8AM-11PM\"], \"Tuesday\": [\"8AM-11PM\"], \"Wednesday\": [\"8AM-11PM\"], \"Thursday\": [\"8AM-11PM\"], \"Friday\": [\"8AM-11PM\"], \"Saturday\": [\"8AM-11PM\"], \"Sunday\": [\"8AM-11PM\"]}"
+}

@@ -1,0 +1,90 @@
+{
+  "name": "Dave Gedris, PGA",
+  "address": "605 Allegheny Ave, Oakmont, PA 15139",
+  "city": "Oakmont",
+  "region": "Pennsylvania",
+  "country": "US",
+  "latitude": 40.520384,
+  "longitude": -79.843114,
+  "phone": "+14128281580",
+  "website": "http://www.oakmontgolfcenter.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770252766/golf_simulators/www_oakmontgolfcenter_com_ChIJaReCmU-TNIgR5CL4SvLskPE.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Dave+Gedris%2C+PGA/@40.520383599999995,-79.8431136,14z/data=!4m8!1m2!2m1!1sDave+Gedris%2C+PGA!3m4!1s0x8834934f99821769:0xf190ecf24af822e4!8m2!3d40.520383599999995!4d-79.8431136",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJaReCmU-TNIgR5CL4SvLskPE",
+  "venue_type": "training_studio",
+  "about": "Oakmont Golf Center is a premier indoor golf facility located in Oakmont, Pennsylvania, offering year-round golf experiences through its TrackMan 4 simulator technology. The center provides three TrackMan 4 units, allowing players to choose from over 100 world-renowned courses, including Pebble Beach and St. Andrews. State-of-the-art instruction is available from PGA professionals using V1 Video analysis, BodiTrak pressure mapping, and the club's extensive fitting and repair services. Simulators are rented by the hour, making it accessible for individual practice, group play, or lessons, with extended lesson packages and memberships also offered. Located just 20 minutes from downtown Pittsburgh, it serves as a convenient option for golfers seeking to improve their game or play in any weather.",
+  "tags": "serious_golfers|beginner_friendly|coaching_available|premium_tech|club_fitting|leagues|corporate_events",
+  "vibe_tags": "industrial_training|tech_lab|community_club|casual",
+  "who_its_for": "serious_golfers|beginners|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "TrackMan 4 dual radar technology for precise shot tracking",
+    "Over 100 world-class courses available for play",
+    "PGA instruction with V1 Video analysis and pressure mapping",
+    "Custom club fitting with TrackMan integration",
+    "Indoor practice facilities including a putting green"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of food services or kitchen on-site."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service, but BYOB is not explicitly ruled out."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "TrackMan",
+      "model": "4",
+      "notes": "Three TrackMan 4 dual radar units available for simulators, instruction, and club fitting."
+    }
+  ],
+  "simulator_software": [
+    "TrackMan Performance Studio"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "http://oakmontgc.appointy.com",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 19.5,
+  "price_range_max_local": 49,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|pro_shop|club_fitting|leagues|putting_green|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can bring your own clubs, but the facility also offers club rentals and a full repair service. Custom club fitting is available using TrackMan 4 and other advanced tools."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "There is no mention of food services, so bringing your own snacks and non-alcoholic beverages may be allowed, but alcohol policies are not specified."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Generally, one person can play 18 holes in one hour, two players can play 9 holes in an hour, and rates are per hour, not per person."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, the facility is family-oriented, offering lessons for juniors and accommodating groups of up to 4 players per simulator, making it suitable for families."
+    }
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"10AM-5PM\"], \"Tuesday\": [\"10AM-6PM\"], \"Wednesday\": [\"10AM-6PM\"], \"Thursday\": [\"10AM-8PM\"], \"Friday\": [\"10AM-4PM\"], \"Saturday\": [\"9AM-2PM\"], \"Sunday\": [\"Closed\"]}"
+}

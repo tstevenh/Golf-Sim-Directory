@@ -1,0 +1,79 @@
+{
+  "name": "Four Seasons Indoor Golf",
+  "address": "668 County Rd 39, Southampton, NY 11968",
+  "city": "Southampton",
+  "region": "New York",
+  "country": "US",
+  "latitude": 40.894569,
+  "longitude": -72.42098,
+  "phone": "+16312832158",
+  "website": "http://www.fourseasonsindoorgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770224944/golf_simulators/www_fourseasonsindoorgolf_com_ChIJDzSUvaGU6IkRCZftjgBvQAc.png",
+  "google_maps_url": "https://www.google.com/maps/place/Four+Seasons+Indoor+Golf/@40.8945687,-72.4209796,14z/data=!4m8!1m2!2m1!1sFour+Seasons+Indoor+Golf!3m4!1s0x89e894a1bd94340f:0x7406f008eed9709!8m2!3d40.8945687!4d-72.4209796",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJDzSUvaGU6IkRCZftjgBvQAc",
+  "venue_type": "multi_sport_sim",
+  "about": "Four Seasons Indoor Golf is a year-round golf simulation facility located at the Southampton Golf Range in Southampton, NY. The venue offers private rooms equipped with a TruGolf simulator featuring E6 Connect software, allowing players to choose from over 90 world-renowned courses, including replicas of top-ranked courses from Golf Digest and Golfweek. Each course is a precise replica of its real-world counterpart, providing a realistic golfing experience. The facility is equipped with TruFlight 2 technology, a 3-camera launch monitor system that captures comprehensive club and ball data for detailed swing analysis. Private play for up to four players is available, as well as online tournaments through E6 Connect. The private room is set up with TVs, couches, a pool table, foosball, and darts, creating a comprehensive entertainment space. Pricing is based on hourly simulator time, with the cost remaining the same regardless of the number of players.",
+  "tags": "serious_golfers|corporate_events|private_rooms|premium_tech|coaching_available|beginner_friendly|solo_practice|families|low_handicap",
+  "vibe_tags": "private_luxury|modern|tech_lab",
+  "who_its_for": "serious_golfers|corporate_teams|families|solo_practice|low_handicap",
+  "why_golfers_like_it": [
+    "Realistic simulation of over 90 world-renowned golf courses",
+    "Comprehensive swing analysis with 3-camera TruFlight 2 technology",
+    "Private rooms with amenities for social events and group play",
+    "Online tournament capability through E6 Connect",
+    "Year-round access regardless of weather conditions"
+  ],
+  "kid_friendly": false,
+  "food_and_drink": null,
+  "simulator_hardware": [
+    {
+      "brand": "TruGolf",
+      "model": "TruFlight 2",
+      "notes": "3-camera launch monitor system for club and ball data"
+    }
+  ],
+  "simulator_software": [
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": false,
+  "bay_count_total": 1,
+  "booking_url": "http://www.fourseasonsindoorgolf.com/contact",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|tv_sports|private_party_room|wifi|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The provided content does not specify if clubs are available for rental or if players must bring their own."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The provided content does not specify if outside food and drinks are allowed or if there is an on-site kitchen or bar."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "According to the pricing page, it takes an average golfer 1 hour to play 18 holes on a simulator. For multiple players, it is recommended to book an additional hour for each player in the group."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The provided content does not explicitly mention features or policies aimed at children, though it could accommodate families."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"9AM-11PM\"], \"Tuesday\": [\"9AM-11PM\"], \"Wednesday\": [\"9AM-11PM\"], \"Thursday\": [\"9AM-11PM\"], \"Friday\": [\"9AM-11PM\"], \"Saturday\": [\"9AM-11PM\"], \"Sunday\": [\"9AM-11PM\"]}"
+}

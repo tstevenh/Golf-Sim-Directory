@@ -1,0 +1,93 @@
+{
+  "name": "Major Golf Sports Center",
+  "address": "3536 Santa Fe Dr, Merced, CA 95348",
+  "city": "Merced",
+  "region": "California",
+  "country": "US",
+  "latitude": 37.339268,
+  "longitude": -120.537546,
+  "phone": "+12092339543",
+  "website": "http://www.majorgolfsportscenter.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770224274/golf_simulators/www_majorgolfsportscenter_com_ChIJFRFLPABCkYAR9O7YroPcPbc.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Major+Golf+Sports+Center/@37.3392676,-120.53754579999999,14z/data=!4m8!1m2!2m1!1sMajor+Golf+Sports+Center!3m4!1s0x809142003c4b1115:0xb73ddc83aed8eef4!8m2!3d37.3392676!4d-120.53754579999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJFRFLPABCkYAR9O7YroPcPbc",
+  "email": "info@majorgolfcenter.com",
+  "venue_type": "multi_sport_sim",
+  "about": "Major Golf Sports Center is a multi-sport entertainment venue offering golf simulation, batting cages, and on-site dining. The facility features Top Tracer technology on its driving range and provides services for golf club repair and regripping. It caters to various activities including individual practice, group events, and parties, with a bistro offering food made from locally sourced ingredients. The venue operates with extended hours on weekends and is suitable for both casual visitors and serious players seeking a comprehensive golf and sports experience.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|kids_friendly|multi_sport|tech_focused|group_activities|bistro_atmosphere|golf_practice|event_venue",
+  "vibe_tags": "family_fun_center|tech_lab|welcoming|modern",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Top Tracer technology for advanced shot analysis and virtual course play",
+    "On-site bistro with fresh, locally-sourced ingredients for post-game dining",
+    "Golf club repair and regripping services to maintain equipment performance",
+    "Multi-sport offerings including batting cages for variety and entertainment"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Bistro offering fresh dishes made with locally sourced ingredients"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service on premises"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Top Tracer",
+      "model": "Range System",
+      "notes": "Top Tracer technology integrated into driving range bays"
+    }
+  ],
+  "simulator_so": [
+    "Top Tracer"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.majorgolfsportscenter.com/partyreservation",
+  "pricing_model": "mixed",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|kitchen_food|tv_sports|private_party_room|wifi|pro_shop|leagues",
+  "rating_tech_quality": 4.0,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own golf clubs?",
+      "answer": "The venue offers golf club repair and regripping services, but it's not explicitly stated if club rentals are available."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue has its own bistro serving food, but there's no mention of outside food or drink being allowed."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes is not specified as the venue primarily offers a driving range experience rather than full course simulation."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Major Golf Sports Center promotes itself as offering 'fun for all ages' and features activities like batting cages suitable for children."
+    }
+  ],
+  "simulator_software": [
+    "Toptracer"
+  ],
+  "rating_overall": 4.0,
+  "opening_hours": "{\"Monday\": [\"8:30AM-5PM\"], \"Tuesday\": [\"8:30AM-5PM\"], \"Wednesday\": [\"8:30AM-5PM\"], \"Thursday\": [\"8:30AM-5PM\"], \"Friday\": [\"8:30AM-5PM\"], \"Saturday\": [\"8:30AM-5PM\"], \"Sunday\": [\"8:30AM-5PM\"]}"
+}

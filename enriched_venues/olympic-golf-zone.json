@@ -1,0 +1,90 @@
+{
+  "name": "Olympic Golf Zone",
+  "address": "6988 Beach Blvd #B208, Buena Park, CA 90621",
+  "city": "Buena Park",
+  "region": "California",
+  "country": "US",
+  "latitude": 33.859997,
+  "longitude": -117.995826,
+  "phone": "+17142289900",
+  "website": "http://www.olympicgolfzone.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770203676/golf_simulators/www_olympicgolfzone_com_ChIJ55ZKZOor3YARM9qtjJrINXs.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Olympic+Golf+Zone/@33.8599975,-117.99582559999999,14z/data=!4m8!1m2!2m1!1sOlympic+Golf+Zone!3m4!1s0x80dd2bea644a96e7:0x7b35c89a8cadda33!8m2!3d33.8599975!4d-117.99582559999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ55ZKZOor3YARM9qtjJrINXs",
+  "email": "olymicgolfzone@gmail.com",
+  "venue_type": "sim_bar",
+  "about": "Olympic Golf Zone is a multi-sport entertainment venue offering indoor golf simulators and baseball batting cages. The facility features a sports bar with large LED screens for watching games, pub quiz nights, and movie nights. It is designed as a place for people to have fun, learn golf or baseball, and socialize, with a focus on providing activities for families, groups, and special events. The venue positions itself as a comprehensive entertainment destination, combining sports with food and drink options under one roof.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|families|kids_friendly|date_night|group_events|private_rooms",
+  "vibe_tags": "family_fun_center|sports_bar|casual|welcoming|modern",
+  "who_its_for": "families|large_groups|corporate_teams|beginners|tourists_travelers",
+  "why_golfers_like_it": [
+    "Voted #1 Golf Simulator by Golf Digest, indicating high-quality technology",
+    "Offers virtual reality golf simulators with high accuracy for various games",
+    "Provides a fun, social atmosphere with a full bar and sports viewing capabilities",
+    "Hosts golf tournaments and events, adding a competitive element to the experience"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen available with a delicious food menu"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar available with select drinks"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Unknown",
+      "model": "Unknown",
+      "notes": "Website mentions being voted #1 Golf Simulator by Golf Digest but does not specify hardware brands"
+    }
+  ],
+  "simulator_software": [
+    "Unknown"
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 12,
+  "booking_url": "https://www.olympicgolfzone.com/book/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|club_fitting|leagues|group_events",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue offers club fitting services, suggesting they may provide clubs or allow you to use your own."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No, the venue has its own full kitchen and bar, offering a variety of food and drink options."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify the duration for 18 holes, but the golf simulator allows you to choose between various games quickly."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Olympic Golf Zone is explicitly marketed as a place for families and offers activities suitable for children."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"11AM-11PM\"], \"Tuesday\": [\"11AM-11PM\"], \"Wednesday\": [\"11AM-1AM\"], \"Thursday\": [\"11AM-1AM\"], \"Friday\": [\"11AM-2AM\"], \"Saturday\": [\"11AM-2AM\"], \"Sunday\": [\"11AM-11PM\"]}"
+}

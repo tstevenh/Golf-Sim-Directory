@@ -1,0 +1,91 @@
+{
+  "name": "Elev8 Indoor Golf",
+  "address": "117 Overseas Hwy Unit C4, Key West, FL 33040",
+  "city": "Key West",
+  "region": "Florida",
+  "country": "US",
+  "latitude": 24.592199,
+  "longitude": -81.680355,
+  "phone": "+13055176325",
+  "website": "https://elev8ig.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770239671/golf_simulators/elev8ig_com_ChIJ017CuOut0YgRTKT2ItMAfQQ.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Elev8+Indoor+Golf/@24.592198699999997,-81.6803551,14z/data=!4m8!1m2!2m1!1sElev8+Indoor+Golf!3m4!1s0x88d1adebb8c25ed3:0x47d00d322f6a44c!8m2!3d24.592198699999997!4d-81.6803551",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ017CuOut0YgRTKT2ItMAfQQ",
+  "email": "elev8ig@gmail.com",
+  "venue_type": "sim_bar",
+  "about": "Elev8 Indoor Golf is an indoor golf simulator venue in Key West, Florida, offering a private and comfortable environment for golfers to play and practice. The facility is equipped with GSPro technology, real ball flight simulators, and advanced tracking systems including overhead ProTee VX cameras and swing replay functionality. The venue operates as a remote-operated facility with private bays designed for individuals or small groups, offering flexible booking options and a locals-focused atmosphere. Pricing is structured on a per-bay basis with the same rate regardless of the number of players, making it suitable for solo practice or group outings.",
+  "tags": "beginner_friendly|corporate_events|premium_tech|private_rooms|club_rentals|budget_friendly|food_and_drinks",
+  "vibe_tags": "casual|welcoming|modern|private_luxury",
+  "who_its_for": "beginners|serious_golfers|families|solo_practice|corporate_teams",
+  "why_golfers_like_it": [
+    "Real ball flight simulation with GSPro courses",
+    "Automatic slow-motion replay after every swing",
+    "Private bays with no crowds or pressure",
+    "Same price for solo or group play",
+    "Flexible booking options and practice packages"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food allowed near hitting areas"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "BYOB-friendly, with a fridge available"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "ProTee",
+      "model": "VX",
+      "notes": "Overhead contact view and shot data tracking"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "overhead_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://elev8ig.com/book-a-bay/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 50,
+  "price_range_max_local": 175,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": false,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|wifi|tv_sports|private_party_room|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you must bring your own clubs."
+    },
+    {
+      "question": "Can I bring food or drinks?",
+      "answer": "Yes, they are BYOB-friendly with a fridge available, but no food or drink is allowed near hitting areas."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Groups of 3-4 players usually prefer 3 hours to comfortably finish 18 holes."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, junior golf programs are available, but a parent or legal guardian must be present for the duration of every session."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"6AM-12AM\"], \"Tuesday\": [\"6AM-12AM\"], \"Wednesday\": [\"6AM-12AM\"], \"Thursday\": [\"6AM-12AM\"], \"Friday\": [\"6AM-12AM\"], \"Saturday\": [\"6AM-12AM\"], \"Sunday\": [\"6AM-12AM\"]}"
+}

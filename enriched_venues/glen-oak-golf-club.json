@@ -1,0 +1,91 @@
+{
+  "name": "Glen Oak Golf Club",
+  "address": "711 Smith Rd, East Amherst, NY 14051",
+  "city": "East Amherst",
+  "region": "New York",
+  "country": "US",
+  "latitude": 43.050404,
+  "longitude": -78.714317,
+  "phone": "+17166885454",
+  "website": "http://www.glenoak.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770253464/golf_simulators/www_glenoak_com_ChIJC5_IKRt304kRO9S0D6aCab8.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Glen+Oak+Golf+Club/@43.0504035,-78.71431729999999,14z/data=!4m8!1m2!2m1!1sGlen+Oak+Golf+Club!3m4!1s0x89d3771b29c89f0b:0xbf6982a60fb4d43b!8m2!3d43.0504035!4d-78.71431729999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJC5_IKRt304kRO9S0D6aCab8",
+  "email": "info@glenoak.com",
+  "venue_type": "country_club",
+  "about": "Glen Oak Golf Club is an 18-hole championship golf course designed by Robert Trent Jones, located just 25 minutes from downtown Buffalo, NY. The venue offers traditional golf on a championship course complemented by a new indoor golf simulator facility. Simulators are available year-round, and the club provides a full range of services including PGA instruction, equipment fittings, and catering for events. The facility uses a dynamic pricing model for tee times and offers online booking for both on-course play and simulator sessions.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|coaching_available|juniors_youth|club_rentals|private_rooms",
+  "vibe_tags": "upscale_lounge|sports_bar|family_fun_center|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "State-of-the-art GCHawk Premium launch monitor technology in the simulator room",
+    "18-hole championship course designed by Robert Trent Jones",
+    "PGA Professional instruction available for all skill levels",
+    "Full-service club with on-site dining and event spaces",
+    "GPS-enabled Tempo Club Car golf carts with charging stations"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full restaurant and bar service available at Mahaney's Pub, with drop-off catering and wedding packages offered"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Available at Mahaney's Pub, with DoorDash delivery service"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "GCHawk",
+      "model": "Premium",
+      "notes": "Premium launch monitor technology used in the winter simulator room"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": "unknown",
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://clients.uschedule.com/glenoak/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can use your own clubs or rentals are likely available, though specific rental policies aren't detailed on the website."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drink policies aren't specified, but the venue has an on-site pub (Mahaney's Pub) that offers food and drinks."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website doesn't specify typical round times, but it's a championship 18-hole course with GPS carts and large practice facilities."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, the venue offers youth golf programs and appears to accommodate families, though specific age restrictions aren't mentioned."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"6:30AM-8PM\"], \"Tuesday\": [\"6:30AM-8PM\"], \"Wednesday\": [\"6:30AM-8PM\"], \"Thursday\": [\"6:30AM-8PM\"], \"Friday\": [\"6:30AM-8PM\"], \"Saturday\": [\"6AM-8:30PM\"], \"Sunday\": [\"6AM-8:30PM\"]}"
+}

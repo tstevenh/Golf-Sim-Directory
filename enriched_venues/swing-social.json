@@ -1,0 +1,90 @@
+{
+  "name": "Swing Social",
+  "address": "527 Fifth Ave, San Diego, CA 92101",
+  "city": "San Diego",
+  "region": "California",
+  "country": "US",
+  "latitude": 32.710825,
+  "longitude": -117.159885,
+  "phone": "+16196422652",
+  "website": "https://swingsocialsd.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770213981/golf_simulators/swingsocialsd_com_ChIJtX-5ynRT2YARxI8sfon0uIg.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Swing+Social/@32.7108251,-117.15988449999999,14z/data=!4m8!1m2!2m1!1sSwing+Social!3m4!1s0x80d95374cab97fb5:0x88b8f4897e2c8fc4!8m2!3d32.7108251!4d-117.15988449999999",
+  "google_rating": 4.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJtX-5ynRT2YARxI8sfon0uIg",
+  "venue_type": "sim_bar",
+  "about": "Swing Social is an interactive sports bar and golf simulator venue located in San Diego's Gaslamp Quarter. It features three Full Swing golf simulators with over 13 interactive virtual sports options, including golf, football, soccer, and dodgeball. The venue offers a high-energy dining and drinking experience with a lively bar atmosphere, handcrafted fare, and exciting cocktails. Simulators are rented by the hour with pricing varying by time and day, and an additional food and beverage minimum applies.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|large_groups|premium_tech|party_atmosphere|budget_friendly|private_rooms|late_night",
+  "vibe_tags": "sports_bar|tech_lab|party_atmosphere|modern",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|tourists_travelers",
+  "why_golfers_like_it": [
+    "Three Full Swing simulators with iconic courses worldwide",
+    "Interactive gameplay across 13+ sports including golf",
+    "High-energy atmosphere with dining and drinking options",
+    "Special events and promotions like happy hour and tournament play",
+    "Convenient downtown Gaslamp location"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full menu available with handcrafted fare and brunch options"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with cocktails, draft beer, and well drinks available"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Full Swing",
+      "model": "unknown",
+      "notes": "Three Full Swing simulators available with interactive virtual sports"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://www.opentable.com/r/swing-social-reservations-san-diego?restref=141247&lang=en-US&ot_source=Restaurant%20website",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 50,
+  "price_range_max_local": 75,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": false,
+  "private_rooms_count": 0,
+  "max_group_size_per_bay": 15,
+  "amenities_list": "full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues",
+  "rating_tech_quality": 4.2,
+  "rating_facility_comfort": 4.1,
+  "rating_value_for_money": 4.1,
+  "faq": [
+    {
+      "question": "Do I need to bring my own golf clubs?",
+      "answer": "Yes, you'll need to bring your own golf clubs to use the simulators."
+    },
+    {
+      "question": "Can I bring outside food and drinks?",
+      "answer": "No, outside food and drinks are not permitted as the venue offers its own menu and bar."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time for 18 holes varies depending on simulator availability and pace of play, but typically takes 1-2 hours."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Swing Social is family-friendly and welcomes kids, with special events and brunch options available."
+    }
+  ],
+  "rating_overall": 4.1,
+  "opening_hours": "{\"Monday\": [\"3PM-12AM\"], \"Tuesday\": [\"3PM-12AM\"], \"Wednesday\": [\"3PM-12AM\"], \"Thursday\": [\"3PM-12AM\"], \"Friday\": [\"3PM-2AM\"], \"Saturday\": [\"10AM-2AM\"], \"Sunday\": [\"10AM-12AM\"]}"
+}

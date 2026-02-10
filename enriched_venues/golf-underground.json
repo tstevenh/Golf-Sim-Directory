@@ -1,0 +1,94 @@
+{
+  "name": "Golf Underground",
+  "address": "301 N Randall Rd, Batavia, IL 60510",
+  "city": "Batavia",
+  "region": "Illinois",
+  "country": "US",
+  "latitude": 41.856846,
+  "longitude": -88.342148,
+  "phone": "+16302012880",
+  "website": "https://www.golfunderground.net/contact/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770204970/golf_simulators/www_golfunderground_net_ChIJVVWV2UP9DogR8yulvu7mCAk.png",
+  "google_maps_url": "https://www.google.com/maps/place/Golf+Underground/@41.856845899999996,-88.3421481,14z/data=!4m8!1m2!2m1!1sGolf+Underground!3m4!1s0x880efd43d9955555:0x908e6eebea52bf3!8m2!3d41.856845899999996!4d-88.3421481",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJVVWV2UP9DogR8yulvu7mCAk",
+  "email": "plenski@pga.com630-201-2880",
+  "venue_type": "multi_sport_sim",
+  "about": "Golf Underground is an indoor golf simulator facility located in Batavia, IL, situated within the Pickled indoor pickleball facility. The venue provides year-round golf practice and play opportunities using advanced technology, primarily centered around the Trackman simulator system. It caters to golfers looking to improve their game through lessons, play on famous courses, or participate in leagues and camps. The facility is designed for a range of users, from beginners to experienced players, with a focus on high-quality simulation technology and professional coaching options.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|private_rooms|club_rentals|coaching_available|kids_friendly",
+  "vibe_tags": "industrial_training|family_fun_center|tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "Access to premium Trackman technology for realistic simulation and swing analysis",
+    "Professional coaching from PGA professionals like Pat Lenski",
+    "Ability to play world-renowned golf courses like Pinehurst No. 2",
+    "Flexible booking system for individual sessions and group rentals",
+    "Variety of leagues and camps for players of all skill levels"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "BYOB is permitted as no on-site kitchen or food service is mentioned."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "BYOB is permitted as no bar or alcohol service is mentioned."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Radar-based launch and ball tracking system with full swing data"
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://www.golfunderground.net/reserve-a-session",
+  "pricing_model": "per_bay_hour|package",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|leagues|pro_shop|coaching_available|ada_accessible",
+  "rating_tech_quality": 5.0,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "The venue does not explicitly state whether they provide club rentals, so it's recommended to bring your own clubs for the best experience."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, the facility operates on a BYOB (Bring Your Own Beverage) policy, as no bar or kitchen is mentioned on-site."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "The provided content does not specify a time estimate for completing 18 holes, but a typical simulator session can range from 1-2 hours depending on the number of players and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Golf Underground offers junior golf camps, leagues, and lessons, making it a suitable environment for children to learn and play the game."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"9AM-9PM\"], \"Tuesday\": [\"9AM-9PM\"], \"Wednesday\": [\"9AM-9PM\"], \"Thursday\": [\"9AM-9PM\"], \"Friday\": [\"9AM-9PM\"], \"Saturday\": [\"8AM-9PM\"], \"Sunday\": [\"9AM-7PM\"]}"
+}

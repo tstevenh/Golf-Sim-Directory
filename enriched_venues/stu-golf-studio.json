@@ -1,0 +1,90 @@
+{
+  "name": "STU Golf Studio",
+  "address": "9223 W Olympic Blvd, Beverly Hills, CA 90212",
+  "city": "Beverly Hills",
+  "region": "California",
+  "country": "US",
+  "latitude": 34.059616,
+  "longitude": -118.392599,
+  "phone": null,
+  "website": "https://stugolfstudio.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770242642/golf_simulators/stugolfstudio_com_ChIJ71q2Y1S5woAR9TAbCA8dv2g.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/STU+Golf+Studio/@34.0596165,-118.3925986,14z/data=!4m8!1m2!2m1!1sSTU+Golf+Studio!3m4!1s0x80c2b95463b65aef:0x68bf1d0f081b30f5!8m2!3d34.0596165!4d-118.3925986",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ71q2Y1S5woAR9TAbCA8dv2g",
+  "email": "90212stewart@stugolfstudio.comBy",
+  "venue_type": "private_rental",
+  "about": "STU Golf Studio is a private, 24/7 indoor golf facility located in Beverly Hills. It features a single, custom-designed hitting bay where members can practice on the newest Trackman simulator, play the best virtual courses with friends, or take lessons with a pro. The studio is designed as a premium oasis for golfers seeking a private and distraction-free experience. Membership is available in three tiers, offering different levels of access, guest privileges, and monthly play hours. There are no initiation or cancellation fees, and the booking process is managed through a partnership with Registry Golf.",
+  "tags": "serious_golfers|solo_practice|coaching_available|premium_tech|private_rooms|food_and_drinks|upscale_lounge|private_luxury",
+  "vibe_tags": "private_luxury|tech_lab|modern",
+  "who_its_for": "serious_golfers|solo_practice|coaches_instructors",
+  "why_golfers_like_it": [
+    "24/7 private access with no on-site staff for a distraction-free experience",
+    "Premium Trackman iO technology for real-time data and course play",
+    "Complimentary amenities including espresso, snacks, and Sonos audio system",
+    "Simple, hassle-free membership model with no initiation or cancellation fees"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Complimentary snacks available for members."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service; BYOB is not specified."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Premium launch monitor with radar, infrared, and high-speed imaging technology."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 1,
+  "booking_url": "https://booking.registrygolf.com?organizationId=d67ce599-47f6-493e-bc28-0f821ddca6fc",
+  "pricing_model": "membership_only",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": "no",
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 3,
+  "amenities_list": "club_rentals|kitchen_food|tv_sports|wifi|pro_shop",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not explicitly state whether clubs are provided. Members may need to bring their own clubs for use in the simulator."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The studio provides complimentary espresso, snacks, and bottled water. There is no mention of a BYOB policy for outside alcohol."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify an estimated time for completing 18 holes of simulator golf."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "No, the facility is designed for adults. The private membership model, premium amenities, and lack of kid-focused activities suggest it is not a kid-friendly environment."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

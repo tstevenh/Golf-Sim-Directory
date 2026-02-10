@@ -1,0 +1,90 @@
+{
+  "name": "Ellicottville Indoor Golf",
+  "address": "6633 US-219 #8, Ellicottville, NY 14731",
+  "city": "Ellicottville",
+  "region": "New York",
+  "country": "US",
+  "latitude": 42.286423,
+  "longitude": -78.660573,
+  "phone": "+15167125941",
+  "website": "http://ellicottvilleindoorgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770213365/golf_simulators/ellicottvilleindoorgolf_com_ChIJtc6kjPaL0okReVDmewB3xr0.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Ellicottville+Indoor+Golf/@42.2864226,-78.6605727,14z/data=!4m8!1m2!2m1!1sEllicottville+Indoor+Golf!3m4!1s0x89d28bf68ca4ceb5:0xbdc677007be65079!8m2!3d42.2864226!4d-78.6605727",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJtc6kjPaL0okReVDmewB3xr0",
+  "venue_type": "training_studio",
+  "about": "Ellicottville Indoor Golf Studio provides members and guests with access to TrackMan 4 golf simulation technology in a private, 24/7 accessible space. The venue is PGA Professional-inspired, founded by Jake Northrup, and is designed for building golf routines and habits throughout the season. It offers flexible membership options, including hourly, monthly, and quarterly plans, with access to over 300 world-class golf courses. The studio is equipped with industry-standard launch monitor technology used by numerous PGA Tour players and coaches, and includes features like keyless entry, comprehensive stat tracking through the TrackMan app, and booking capabilities up to 30 days in advance.",
+  "tags": "beginner_friendly|serious_practice|corporate_events|private_rooms|premium_tech|coaching_available",
+  "vibe_tags": "industrial_training|community_club|modern",
+  "who_its_for": "serious_golfers|beginners|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "24/7 all-access private golf space for flexible practice and play",
+    "Industry-standard TrackMan 4 technology used by PGA professionals",
+    "Comprehensive stat tracking and data analysis via the TrackMan app",
+    "Access to over 300 world-class golf courses for simulation"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "BYOB allowed, food must be kept at provided tables"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "BYOB allowed, alcohol must be kept at provided tables"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "Industry standard launch monitor technology"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "http://ellicottvilleindoorgolf.com/book",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 130,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|wifi|pro_shop|club_fitting",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you need to bring your own golf clubs to use the simulators."
+    },
+    {
+      "question": "Can I bring food and drink?",
+      "answer": "Yes, you can bring your own food and drinks, which must be kept at the provided tables."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes depends on your pace and whether you're practicing or playing a full round, but typical simulator rounds can range from 1-2 hours."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The venue does not specifically mention kid-friendly amenities or policies, so it's unclear if it's suitable for children."
+    }
+  ],
+  "simulator_software": [
+    "TrackMan"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

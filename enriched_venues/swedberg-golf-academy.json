@@ -1,0 +1,89 @@
+{
+  "name": "Swedberg Golf Academy",
+  "address": "4192 Geneva Golf Club Dr, Alexandria, MN 56308",
+  "city": "Alexandria",
+  "region": "Minnesota",
+  "country": "US",
+  "latitude": 45.899548,
+  "longitude": -95.313338,
+  "phone": "+13202197677",
+  "website": "http://swedberggolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770235353/golf_simulators/swedberggolf_com_ChIJ-Xd7ldMJylIRZ8lZF3qj5m4.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Swedberg+Golf+Academy/@45.8995482,-95.3133379,14z/data=!4m8!1m2!2m1!1sSwedberg+Golf+Academy!3m4!1s0x52ca09d3957b77f9:0x6ee6a37a1759c967!8m2!3d45.8995482!4d-95.3133379",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ-Xd7ldMJylIRZ8lZF3qj5m4",
+  "venue_type": "training_studio",
+  "about": "Swedberg Golf Academy is a premier teaching and practice facility located at Geneva Golf Club in Alexandria, MN. It offers over 4,500 square feet of space featuring four indoor/outdoor heated hitting bays equipped with Trackman golf simulators, an indoor putting green with a SAM PuttLab, and a club fitting studio. The academy is designed for year-round practice and instruction, providing a professional environment for golfers to develop their skills regardless of weather conditions. With technology such as 240fps cameras and TrackMan launch monitors, lessons are data-driven and tailored to individual player development goals.",
+  "tags": "serious_practice|beginner_friendly|coaching_available|corporate_events|juniors_youth|premium_tech|club_rentals|leagues|private_rooms",
+  "vibe_tags": "tech_lab|modern|professional|welcoming",
+  "who_its_for": "serious_golfers|beginners|families|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "Year-round access to heated bays and premium Trackman simulators",
+    "Expert club fitting services using top-tier brands and technology",
+    "Personalized instruction with high-speed video analysis and TrackMan data"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food services mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol services mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "unknown",
+      "notes": "Four Trackman golf simulators installed in bays"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 4,
+  "booking_url": "http://swedberggolf.com/contact",
+  "pricing_model": "mixed",
+  "price_range_min_local": 40,
+  "price_range_max_local": 40.0,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|club_fitting|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you should bring your own golf clubs. The academy offers custom club fitting services if you need equipment tailored to your swing."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "There are no food or drink services mentioned on-site. It is not specified if outside food or drinks are permitted."
+    },
+    {
+      "question": "How long does an 18-hole simulator session take?",
+      "answer": "A standard one-hour simulator session costs $40, which is typically enough time for a partial round or focused practice session."
+    },
+    {
+      "question": "Is the academy kid-friendly?",
+      "answer": "Yes, the academy offers junior golf programs and has instructors dedicated to youth development, making it a suitable environment for young golfers."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"10AM-6PM\"], \"Tuesday\": [\"10AM-9PM\"], \"Wednesday\": [\"10AM-9PM\"], \"Thursday\": [\"10AM-9PM\"], \"Friday\": [\"10AM-6PM\"], \"Saturday\": [\"9AM-5PM\"], \"Sunday\": [\"12-5PM\"]}"
+}

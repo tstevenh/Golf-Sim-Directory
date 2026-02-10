@@ -1,0 +1,104 @@
+{
+  "name": "Golf Evolution",
+  "address": "446 W 12th St, Erie, PA 16501",
+  "city": "Erie",
+  "region": "Pennsylvania",
+  "country": "US",
+  "latitude": 42.120002,
+  "longitude": -80.09152,
+  "phone": "+18145282774",
+  "website": "https://golfevolution.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770221541/golf_simulators/golfevolution_com_ChIJG60JwON_LYgRWJmgSK7m7-w.png",
+  "google_maps_url": "https://www.google.com/maps/place/Golf+Evolution/@42.120002199999995,-80.09152019999999,14z/data=!4m8!1m2!2m1!1sGolf+Evolution!3m4!1s0x882d7fe3c009ad1b:0xecefe6ae48a09958!8m2!3d42.120002199999995!4d-80.09152019999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJG60JwON_LYgRWJmgSK7m7-w",
+  "email": "info@golfevolution.com",
+  "venue_type": "training_studio",
+  "about": "Golf Evolution is an indoor golf academy located in downtown Erie, PA, offering comprehensive training and instruction. The facility spans 7,600 square feet and is equipped with state-of-the-art technology, including the GEARS 3D motion capture system, Foresight GCQuad launch monitors, and SAM PuttLab. They provide lessons for all skill levels, from beginners to tour professionals, with a focus on full swing, short game, and putting instruction. Memberships are available on an annual basis from November to October, offering capped access to ensure ample availability.",
+  "tags": "serious_practice|coaching_available|juniors_youth|premium_tech|beginner_friendly|club_fitting|leagues",
+  "vibe_tags": "industrial_training|tech_lab",
+  "who_its_for": "serious_golfers|juniors_youth|beginners|coaches_instructors|solo_practice",
+  "why_golfers_like_it": [
+    "Access to world-class technology like GEARS 3D motion capture with 0.2mm accuracy",
+    "Instruction from award-winning PGA professionals recognized by Golf Digest",
+    "Comprehensive junior and elite programs for competitive golf development"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No on-site food service mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No on-site alcohol service mentioned; BYOB policy not specified"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": "GCQuad",
+      "notes": "Premium photometric camera launch monitor with ball tracking"
+    },
+    {
+      "brand": "GEARS",
+      "model": "3D",
+      "notes": "High-speed motion capture system using 12-14 cameras"
+    },
+    {
+      "brand": "SAM PuttLab",
+      "model": "unknown",
+      "notes": "Putting analysis system"
+    },
+    {
+      "brand": "Smart2Move",
+      "model": "unknown",
+      "notes": "3D force plates for ground analysis"
+    }
+  ],
+  "simulator_software": [
+    "Analyzr"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://golfevolution.com/contact/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 150,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|club_fitting|lockers|wifi|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you should bring your own clubs for lessons and practice sessions. For GEARS sessions, one of your clubs will be marked and calibrated."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "No specific policy on outside food or drinks is mentioned on the website."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify time for simulator rounds, as the focus is on instruction and practice rather than virtual play."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, Golf Evolution offers a Junior Elite Program for ages 12-18 and provides instruction for younger golfers."
+    }
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"6AM-10PM\"], \"Tuesday\": [\"6AM-10PM\"], \"Wednesday\": [\"6AM-10PM\"], \"Thursday\": [\"6AM-10PM\"], \"Friday\": [\"6AM-10PM\"], \"Saturday\": [\"6AM-10PM\"], \"Sunday\": [\"6AM-10PM\"]}"
+}

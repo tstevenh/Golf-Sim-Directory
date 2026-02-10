@@ -1,0 +1,91 @@
+{
+  "name": "GolfDojo",
+  "address": "1154 Niagara Falls Blvd Suite 2, Tonawanda Town, NY 14150",
+  "city": "Tonawanda Town",
+  "region": "New York",
+  "country": "US",
+  "latitude": 42.985646,
+  "longitude": -78.823342,
+  "phone": "+17162492526",
+  "website": "https://www.mygolfdojo.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770213374/golf_simulators/www_mygolfdojo_com_ChIJ35jdgj9z04kRvU4Og6L2ouM.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/GolfDojo/@42.9856464,-78.8233423,14z/data=!4m8!1m2!2m1!1sGolfDojo!3m4!1s0x89d3733f82dd98df:0xe3a2f6a2830e4ebd!8m2!3d42.9856464!4d-78.8233423",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ35jdgj9z04kRvU4Og6L2ouM",
+  "venue_type": "training_studio",
+  "about": "GolfDojo is an indoor golf simulator venue operating in Western New York with multiple locations. The facilities use TrackMan dual radar technology in their simulator bays, providing players with high-quality data and course simulations. Public bookings are available daily from 10am to 10pm, with members enjoying 24/7 access. The venue offers memberships, individual and group lessons, and hosts leagues and clinics. In addition to the main facilities, a location is integrated into the 1812 Tavern.",
+  "tags": "beginner_friendly|serious_practice|food_and_drinks|corporate_events|leagues|premium_tech|coaching_available|juniors_youth",
+  "vibe_tags": "industrial_training|community_club|modern",
+  "who_its_for": "serious_golfers|beginners|families|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "Premium TrackMan dual radar technology for accurate ball and club data",
+    "24/7 member access for flexible practice and play schedules",
+    "Multiple locations across Western New York for convenient access"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Food is available, as evidenced by images of tables with pizza. One location is inside a tavern, suggesting a food service partnership."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Alcohol is available at the 1812 Tavern location, as it is an integrated tavern."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "Dual Radar",
+      "notes": "TrackMan dual radar devices are used in the simulator bays."
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://yourgolfbooking.com/venues/golf-dojo-nfb/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 5,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|kitchen_food|tv_sports|leagues|pro_shop|club_fitting",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "You can bring your own clubs, but the venue provides everything needed for the golf simulation experience."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Food and drinks are available for purchase at the venues. The 1812 Tavern location offers food and alcohol service."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes can vary depending on the simulator software and number of players, but a typical round takes approximately 1-2 hours."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, GolfDojo offers junior lesson packages and is a welcoming environment for families to practice and play."
+    }
+  ],
+  "simulator_software": [
+    "TrackMan"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

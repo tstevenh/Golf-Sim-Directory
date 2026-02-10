@@ -1,0 +1,88 @@
+{
+  "name": "Club Golf Valencia",
+  "address": "22945 Soledad Canyon Rd, Santa Clarita, CA 91350",
+  "city": "Santa Clarita",
+  "region": "California",
+  "country": "US",
+  "latitude": 34.422484,
+  "longitude": -118.538154,
+  "phone": "+16614178002",
+  "website": "http://www.clubgolfvalencia.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770230711/golf_simulators/www_clubgolfvalencia_com_ChIJ72yRMP-HwoARlVIWIgSLjsg.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Club+Golf+Valencia/@34.4224841,-118.5381536,14z/data=!4m8!1m2!2m1!1sClub+Golf+Valencia!3m4!1s0x80c287ff30916cef:0xc88e8b0422165295!8m2!3d34.4224841!4d-118.5381536",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ72yRMP-HwoARlVIWIgSLjsg",
+  "venue_type": "training_studio",
+  "about": "Club Golf Valencia is an indoor golf facility in Santa Clarita, California, offering state-of-the-art training and play experiences using Uneekor launch monitor technology. The venue provides a premier golf environment with 16-foot 4K enabled screens and access to over 100 virtual courses. It caters to golfers looking to practice, take lessons, or play year-round, with membership options that include daily play time and discounted lesson rates. The facility is equipped with TPI-certified instructors and a variety of lesson packages, making it suitable for both individual skill development and group activities.",
+  "tags": "beginner_friendly|serious_golfers|leagues|coaching_available|premium_tech|club_rentals|juniors_youth",
+  "vibe_tags": "tech_lab|community_club|modern",
+  "who_its_for": "beginners|serious_golfers|families|solo_practice|juniors_youth",
+  "why_golfers_like_it": [
+    "Uneekor QED launch monitors provide precise real-time data on ball speed, spin, and launch angle for advanced training",
+    "Access to over 100 virtual courses including prestigious locations like Pebble Beach and Georgia National",
+    "TPI-certified instructors offer structured lesson packages for skill improvement"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No information on food service"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "QED",
+      "notes": "Overhead launch monitor with dual high-speed cameras for real-time club and ball contact analysis"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "overhead_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://clubgolfvalencia.golfbook.in",
+  "pricing_model": "mixed",
+  "price_range_min_local": 135,
+  "price_range_max_local": 190,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|leagues|pro_shop|club_fitting",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "The venue doesn't explicitly state whether they provide club rentals, so it's recommended to bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No information on outside food or drinks is provided. Contact the venue for their policy on bringing your own refreshments."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes isn't specified. Indoor golf typically takes less time than outdoor play, but exact timing depends on simulator software and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "No specific mention of junior programs or family-oriented amenities, though lessons for juniors may be available based on coaching options."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-5PM\"], \"Tuesday\": [\"7AM-8PM\"], \"Wednesday\": [\"7AM-8PM\"], \"Thursday\": [\"7AM-8PM\"], \"Friday\": [\"7AM-8PM\"], \"Saturday\": [\"7AM-8PM\"], \"Sunday\": [\"9AM-5PM\"]}"
+}

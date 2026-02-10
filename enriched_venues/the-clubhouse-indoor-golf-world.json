@@ -1,0 +1,90 @@
+{
+  "name": "The Clubhouse Indoor Golf World",
+  "address": "26951 Date St, Murrieta, CA 92563",
+  "city": "Murrieta",
+  "region": "California",
+  "country": "US",
+  "latitude": 33.551948,
+  "longitude": -117.14217,
+  "phone": "+19514178002",
+  "website": "http://www.clubhousegolfworld.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770210047/golf_simulators/www_clubhousegolfworld_com_ChIJzX0NbDl_24AR0TEKcQPRYHA.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Clubhouse+Indoor+Golf+World/@33.5519481,-117.14216959999999,14z/data=!4m8!1m2!2m1!1sThe+Clubhouse+Indoor+Golf+World!3m4!1s0x80db7f396c0d7dcd:0x7060d103710a31d1!8m2!3d33.5519481!4d-117.14216959999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJzX0NbDl_24AR0TEKcQPRYHA",
+  "email": "Quentinmurphy@clubhousegolfworld.com",
+  "venue_type": "sim_bar|multi_sport_sim",
+  "about": "The Clubhouse Indoor Golf World is a 3,300-square-foot facility in Murrieta featuring three standard bays with 15-foot screens and a premium 19th Hole Suite. It provides a blend of technology and social entertainment, offering access to over 2,000 world-class golf courses, interactive sports games, and private event options. Pricing is flexible with hourly rates for bays and a membership program starting at $49 per month, while also offering special discounts and a private bar.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|kids_friendly|premium_tech|leagues|date_night|private_rooms|club_rentals",
+  "vibe_tags": "upscale_lounge|private_luxury|family_fun_center|tech_lab",
+  "who_its_for": "families|beginners|large_groups|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Access to premium GS Pro course library with ultra-realistic physics",
+    "The exclusive 19th Hole Suite with a 21-foot curved-screen simulator",
+    "A wide variety of interactive games and non-golf sports options",
+    "Private bar with over 35 beers, seltzers, and specialty cocktails"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of food service on site."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Private bar with a selection of over 35 beers, seltzers, and specialty canned cocktails."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "AboutGolf",
+      "model": "3Trak",
+      "notes": "Premium technology used in the 19th Hole Suite and 2 standard bays."
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 3,
+  "booking_url": "https://clubhouseindoorgolfworld.reservewithrex.com",
+  "pricing_model": "per_bay_hour|mixed",
+  "price_range_min_local": 25,
+  "price_range_max_local": 59,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 35,
+  "amenities_list": "full_bar|private_party_room|tv_sports|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "The website does not explicitly state whether club rentals are available, so it's recommended to call them directly to inquire."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "The venue has a private bar on site serving a selection of over 35 beers, seltzers, and specialty canned cocktails."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify a time estimate for playing 18 holes, as time varies based on player skill and game mode chosen."
+    },
+    {
+      "question": "Is it kid-friendly?",
+      "answer": "Yes, The Clubhouse is described as a place for everyone, with interactive games like soccer, dodgeball, and mini-golf that are hits with kids of all ages."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"12-10PM\"], \"Tuesday\": [\"12-10PM\"], \"Wednesday\": [\"12-10PM\"], \"Thursday\": [\"12-10PM\"], \"Friday\": [\"12-10PM\"], \"Saturday\": [\"9AM-10PM\"], \"Sunday\": [\"9AM-8PM\"]}"
+}

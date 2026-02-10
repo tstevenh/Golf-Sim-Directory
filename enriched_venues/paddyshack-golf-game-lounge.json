@@ -1,0 +1,91 @@
+{
+  "name": "PaddyShack Golf & Game Lounge",
+  "address": "201 S Main St, Fort Atkinson, WI 53538",
+  "city": "Fort Atkinson",
+  "region": "Wisconsin",
+  "country": "US",
+  "latitude": 42.926703,
+  "longitude": -88.83671,
+  "phone": "+19203977005",
+  "website": "https://www.golfpaddyshack.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770228552/golf_simulators/www_golfpaddyshack_com_ChIJzXomzBd1BogRj_ZONDF_TuA.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/PaddyShack+Golf+%26+Game+Lounge/@42.9267034,-88.83670959999999,14z/data=!4m8!1m2!2m1!1sPaddyShack+Golf+%26+Game+Lounge!3m4!1s0x88067517cc267acd:0xe04e7f31344ef68f!8m2!3d42.9267034!4d-88.83670959999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJzXomzBd1BogRj_ZONDF_TuA",
+  "email": "GolfPaddyShack@gmail.com",
+  "venue_type": "sim_bar",
+  "about": "PaddyShack Golf & Game Lounge is a family-owned venue in Fort Atkinson that combines golf simulation with a social bar and arcade atmosphere. They feature state-of-the-art TrackMan golf simulators offering an immersive experience with access to world-famous courses. The venue provides entertainment for all ages with a mix of golf, arcade games, and a lounge area. It is available for both casual play and private events, including corporate gatherings and celebrations. Pricing is structured on a per-bay basis, with sessions available in half-hour increments through their online booking system.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|leagues|premium_tech|family_friendly|coaching_available|private_rooms|retro_gaming",
+  "vibe_tags": "sports_bar|family_fun_center|retro_gaming|casual|welcoming",
+  "who_its_for": "beginners|families|corporate_teams|solo_practice|large_groups",
+  "why_golfers_like_it": [
+    "Access to premium TrackMan simulators with course-play technology",
+    "A social environment combining golf with arcade games and a lounge",
+    "All-weather indoor golf experience available year-round",
+    "Half-hour booking increments for flexible session lengths",
+    "Available for both casual play and serious practice"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen available with a dedicated food menu accessible via their website."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Well-stocked bar featuring various bourbons and brews."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "State-of-the-art TrackMan golf simulators installed for an immersive experience."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://yourgolfbooking.com/venues/paddy-shack-golf-and-gaming-lounge/booking/bays",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": false,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "full_bar|kitchen_food|tv_sports|private_party_room|leagues|arcade_games|indoor_putting_green",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify club rentals, so it is recommended to bring your own clubs for the best experience."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "PaddyShack has a full kitchen and bar on-site, serving food and drinks, but their policy on outside food and beverages is not specified."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "With half-hour booking increments, the time to play 18 holes can vary depending on the simulator software and player pace, but it is typically estimated to be around 2-3 hours."
+    },
+    {
+      "question": "Is PaddyShack kid-friendly?",
+      "answer": "Yes, PaddyShack is designed to be a family-friendly venue offering entertainment for all ages, including arcade games and a social atmosphere."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"11AM-10PM\"], \"Tuesday\": [\"11AM-10PM\"], \"Wednesday\": [\"11AM-10PM\"], \"Thursday\": [\"11AM-10PM\"], \"Friday\": [\"11AM-12AM\"], \"Saturday\": [\"9AM-12AM\"], \"Sunday\": [\"9AM-10PM\"]}"
+}

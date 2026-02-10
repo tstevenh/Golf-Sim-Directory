@@ -1,0 +1,84 @@
+{
+  "name": "Eagle's Landing Indoor Golf",
+  "address": "304 US-80, Demopolis, AL 36732",
+  "city": "Demopolis",
+  "region": "Alabama",
+  "country": "US",
+  "latitude": 32.503176,
+  "longitude": -87.835069,
+  "phone": "+13346549374",
+  "website": "https://www.eagleslandingindoorgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770210507/golf_simulators/www_eagleslandingindoorgolf_com_ChIJo0Vi8ECZhYgRtK9Xfpyh4dk.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Eagle%27s+Landing+Indoor+Golf/@32.503175999999996,-87.83506899999999,14z/data=!4m8!1m2!2m1!1sEagle%27s+Landing+Indoor+Golf!3m4!1s0x88859940f06245a3:0xd9e1a19c7e57afb4!8m2!3d32.503175999999996!4d-87.83506899999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJo0Vi8ECZhYgRtK9Xfpyh4dk",
+  "venue_type": "sim_bar",
+  "about": "Eagles Landing Indoor Golf is an indoor golf facility located in Demopolis, Alabama, featuring three state-of-the-art simulator bays. The venue utilizes an AI-powered overhead launch monitor with dual high-speed cameras to provide precise tracking of both club and ball data, offering detailed analytics for short game and putting. Pricing is described as competitive, with options for hourly rates and annual memberships, and the facility also includes a bar with a modest selection of food and snacks. The venue is designed for golfers to improve their game, play on hundreds of virtual courses, or enjoy a social experience with friends and family.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|leagues|premium_tech|budget_friendly|club_rentals|community_club",
+  "vibe_tags": "sports_bar|family_fun_center|tech_lab|community_club|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "AI-powered overhead launch monitor provides precise club and ball tracking analytics",
+    "Large hitting zone allows for a more comfortable and natural playing experience",
+    "Opportunity to play 18 holes on hundreds of virtual courses with friends",
+    "Detailed video playback of swings helps with game improvement",
+    "Competitive pricing and membership options available"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Offers a modest selection of food and snacks"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "On-site bar available with an alcohol selection"
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "overhead_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://eagleslandingindoorgolf.snapreservations.com/",
+  "pricing_model": "mixed",
+  "price_range_min_local": null,
+  "price_range_max_local": null,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": false,
+  "private_rooms_count": 3,
+  "max_group_size_per_bay": null,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|leagues|wifi|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Content does not specify club rental policy; it is recommended to contact the venue directly for details."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue offers an on-site bar with a modest selection of food and snacks, but does not specify if outside food and drinks are permitted."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Content does not specify the average time to play 18 holes; this may vary depending on the number of players and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is described as family-friendly, offering activities for all ages and a 'guaranteed good time' for the family."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"10AM-8PM\"], \"Tuesday\": [\"10AM-8PM\"], \"Wednesday\": [\"10AM-8PM\"], \"Thursday\": [\"10AM-8PM\"], \"Friday\": [\"10AM-10PM\"], \"Saturday\": [\"10AM-10PM\"], \"Sunday\": [\"10AM-8PM\"]}"
+}

@@ -1,4 +1,5 @@
 import { db } from "../lib/db";
+import { extractHardwareBrandsFromSimulatorSystems } from "../lib/hardware-brands";
 
 const sampleVenues = [
   {
@@ -212,9 +213,13 @@ async function main() {
   console.log("Creating venues...");
 
   for (const venue of sampleVenues) {
+    const venueData = {
+      ...venue,
+      hardwareBrands: extractHardwareBrandsFromSimulatorSystems(venue.simulatorSystems),
+    };
     await db.venue.create({
       // eslint-disable-next-line @typescript-eslint/no-explicit-any
-      data: venue as any,
+      data: venueData as any,
     });
     console.log(`Created: ${venue.name}`);
   }

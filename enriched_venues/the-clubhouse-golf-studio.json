@@ -1,0 +1,90 @@
+{
+  "name": "The Clubhouse Golf Studio",
+  "address": "232 Kent Stone Blvd #600, Alabaster, AL 35007",
+  "city": "Alabaster",
+  "region": "Alabama",
+  "country": "US",
+  "latitude": 33.213247,
+  "longitude": -86.824297,
+  "phone": "+17109278023",
+  "website": "https://www.theclubhousegolfstudio.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770201912/golf_simulators/www_theclubhousegolfstudio_com_ChIJNV3N_h0piYgRAjUoYYA13eU.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Clubhouse+Golf+Studio/@33.2132473,-86.82429739999999,14z/data=!4m8!1m2!2m1!1sThe+Clubhouse+Golf+Studio!3m4!1s0x8889291dfecd5d35:0xe5dd358061283502!8m2!3d33.2132473!4d-86.82429739999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJNV3N_h0piYgRAjUoYYA13eU",
+  "email": "Theclubhousealabaster@gmail.com",
+  "venue_type": "other",
+  "about": "The Clubhouse Golf Studio is an indoor virtual golf facility in Alabaster, Alabama. It utilizes Launch Pro monitors and GSPro software to provide an immersive golf simulation experience, allowing players to choose from over 3,000 courses. The studio operates on an automated basis with online booking and keyless entry access, focusing on convenience and accessibility for golfers of all skill levels. Pricing starts at $25 per hour for individual players, with options for up to eight players per bay, and seasonal rates and membership discounts are available.",
+  "tags": "beginner_friendly|leagues|premium_tech|coaching_available|private_rooms|club_rentals",
+  "vibe_tags": "tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Over 3,000 virtual courses available for play",
+    "Fully automated booking system with keyless entry",
+    "Premium Launch Pro monitors for accurate ball and club tracking",
+    "Ability to play local or online with GSPro software"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of food service on premises"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service on premises"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Bushnell",
+      "model": "Launch Pro",
+      "notes": "Used for its precision and ease of use"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://theclubhousegolfstudio.golfbooking.us/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 25,
+  "price_range_max_local": 50,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 8,
+  "amenities_list": "club_rentals|leagues|club_fitting",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not explicitly state whether clubs are provided. It is recommended to bring your own clubs for the best experience."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The website does not mention any policies on bringing outside food or drinks, so it is unclear if this is permitted."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website recommends checking the services and rates page for the recommended time needed for 9 or 18 holes per player, but does not provide a specific duration."
+    },
+    {
+      "question": "Is The Clubhouse Golf Studio kid-friendly?",
+      "answer": "Yes, the facility is open to families and can accommodate groups of various sizes, making it suitable for younger players to enjoy the golf simulation experience."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

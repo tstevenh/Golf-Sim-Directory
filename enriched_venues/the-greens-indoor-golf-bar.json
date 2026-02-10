@@ -1,0 +1,89 @@
+{
+  "name": "The Greens Indoor Golf & Bar",
+  "address": "9101 International Dr, Orlando, FL 32819",
+  "city": "Orlando",
+  "region": "Florida",
+  "country": "US",
+  "latitude": 28.43288,
+  "longitude": -81.470933,
+  "phone": "+14074402006",
+  "website": "https://www.thegreensindoorgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770218048/golf_simulators/www_thegreensindoorgolf_com_ChIJSUk-NZF_54gR8cXKYsAGpuc.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Greens+Indoor+Golf+%26+Bar/@28.4328801,-81.4709331,14z/data=!4m8!1m2!2m1!1sThe+Greens+Indoor+Golf+%26+Bar!3m4!1s0x88e77f91353e4949:0xe7a606c062cac5f1!8m2!3d28.4328801!4d-81.4709331",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJSUk-NZF_54gR8cXKYsAGpuc",
+  "email": "contact@thegreensindoorgolf.com",
+  "venue_type": "sim_bar",
+  "about": "The Greens Indoor Golf & Bar is an indoor golf simulator venue located in Orlando, Florida. It is powered by TrackMan technology, offering simulators that provide real-time shot feedback, club path analysis, and ball speed data on over 230 famous golf courses. The venue features a practice putting green, a full bar with beverages, and food delivery from neighboring restaurants, including JoJo's Shake Shack. It is designed to be a family-friendly environment that caters to both serious golfers and those looking for entertainment. Pricing is based on per bay hourly rates, with the option to rent clubs for $10 and accommodate up to four players per bay.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|club_rentals|private_rooms|coaching_available|family_friendly",
+  "vibe_tags": "sports_bar|family_fun_center|tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|tourists_travelers",
+  "why_golfers_like_it": [
+    "Powered by TrackMan, the world's #1 rated simulator, providing high precision and accuracy",
+    "Access to over 230 of the world's most famous golf courses and tournament opportunities",
+    "Family-friendly environment with a full bar and food delivery options for a complete experience"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Food delivered from neighboring restaurants, including JoJo's Shake Shack, with options ranging from wings to award-winning gourmet burgers"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar offering an extensive assortment of cocktails, draft beers, and wines"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Advanced radar technology trusted by PGA professionals"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 5,
+  "booking_url": "https://www.thegreensindoorgolf.com/book-a-tee-time",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 30,
+  "price_range_max_local": 40,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|leagues|pro_shop",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.3,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need clubs?",
+      "answer": "You can bring your own clubs for the most accurate numbers, or rent them for $10."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "Outside food and drink are not mentioned; the venue offers a full bar and food delivery from neighboring restaurants."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes is not explicitly stated, but it depends on the simulator's software and course selection."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, The Greens is described as a family-friendly environment suitable for golfers and non-golfers alike."
+    }
+  ],
+  "rating_overall": 4.4,
+  "opening_hours": "{\"Monday\": [\"2-10PM\"], \"Tuesday\": [\"2-10PM\"], \"Wednesday\": [\"2-10PM\"], \"Thursday\": [\"2-10PM\"], \"Friday\": [\"2-10PM\"], \"Saturday\": [\"2-10PM\"], \"Sunday\": [\"Closed\"]}"
+}

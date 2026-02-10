@@ -1,0 +1,94 @@
+{
+  "name": "Golf Complex",
+  "address": "5980 US-60, Paducah, KY 42001",
+  "city": "Paducah",
+  "region": "Kentucky",
+  "country": "US",
+  "latitude": 37.070909,
+  "longitude": -88.719167,
+  "phone": "+12704429221",
+  "website": "http://www.thegolfcomplex.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770219072/golf_simulators/www_thegolfcomplex_com_ChIJq6qqensceogROsFdfsKk08k.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Golf+Complex/@37.0709095,-88.7191665,14z/data=!4m8!1m2!2m1!1sGolf+Complex!3m4!1s0x887a1c7b7aaaaaab:0xc9d3a4c27e5dc13a!8m2!3d37.0709095!4d-88.7191665",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJq6qqensceogROsFdfsKk08k",
+  "email": "nathan@thegolfcomplex.com",
+  "venue_type": "training_studio",
+  "about": "The Golf Complex is a premier learning center and pro shop located in Paducah, KY. It features a 200-yard wide by 300+ yard long driving range equipped with Toptracer technology, allowing for virtual golf, challenge competitions, and practice drills. The facility offers club fitting, club repair services, and an online pro shop. Instruction is provided by a team of 3 Class A professionals and 3 PGA apprentices, with various lesson options available. The venue also includes a short game area with a dedicated putting green and sand trap for chipping practice.",
+  "tags": "beginner_friendly|serious_practice|coaching_available|club_fitting|pro_shop|food_and_drinks|family_friendly",
+  "vibe_tags": "casual|welcoming|community_club",
+  "who_its_for": "beginners|serious_golfers|families|juniors_youth|solo_practice",
+  "why_golfers_like_it": [
+    "Toptracer technology for advanced practice and virtual play",
+    "Comprehensive short game area with dedicated green and sand traps",
+    "Professional instruction from a team of Class A and PGA pros",
+    "In-house club fitting and repair services",
+    "Affordable lesson rates and specials"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "On-site kitchen with a menu featuring items like Chicken Crispy Roll, Baked Crab Cheese, and Cheese Crispy Roll."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No information on alcohol service available."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Toptracer",
+      "model": "Range Technology",
+      "notes": "Toptracer technology installed in all hitting bays for ball tracking and virtual golf experiences."
+    }
+  ],
+  "simulator_so": [
+    "Toptracer"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": "unknown",
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "https://thegolfcomplex.com/contact-us",
+  "pricing_model": "mixed",
+  "price_range_min_local": 25,
+  "price_range_max_local": 125,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|kitchen_food|pro_shop|club_fitting|leagues",
+  "rating_tech_quality": 4.0,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can use your own clubs, and the facility also offers club rentals and a pro shop for purchasing equipment."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue has an on-site kitchen with a food menu. There is no mention of a policy on outside food or alcohol."
+    },
+    {
+      "question": "How long does it take to play 18 holes on a simulator?",
+      "answer": "The time required to play 18 holes on the Toptracer range is not specified, as it's primarily a practice facility."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is kid-friendly. It offers a welcoming environment and services suitable for families and juniors."
+    }
+  ],
+  "simulator_software": [
+    "Toptracer"
+  ],
+  "rating_overall": 4.0,
+  "opening_hours": "{\"Monday\": [\"9AM-6PM\"], \"Tuesday\": [\"9AM-6PM\"], \"Wednesday\": [\"9AM-6PM\"], \"Thursday\": [\"9AM-6PM\"], \"Friday\": [\"9AM-6PM\"], \"Saturday\": [\"9AM-4PM\"], \"Sunday\": [\"12-5PM\"]}"
+}

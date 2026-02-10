@@ -1,0 +1,84 @@
+{
+  "name": "BigShots Golf Springfield",
+  "address": "1930 E Kearney St, Springfield, MO 65803",
+  "city": "Springfield",
+  "region": "Missouri",
+  "country": "US",
+  "latitude": 37.239009,
+  "longitude": -93.257891,
+  "phone": "+14174273040",
+  "website": "https://www.bigshotsgolf.com/locations/springfield-mo/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770224499/golf_simulators/www_bigshotsgolf_com_ChIJm62y5vNjz4cR8WCGhE-c1pc.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/BigShots+Golf+Springfield/@37.2390093,-93.2578911,14z/data=!4m8!1m2!2m1!1sBigShots+Golf+Springfield!3m4!1s0x87cf63f3e6b2ad9b:0x97d69c4f848660f1!8m2!3d37.2390093!4d-93.2578911",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJm62y5vNjz4cR8WCGhE-c1pc",
+  "email": "springfield@bigshotsgolf.com",
+  "venue_type": "sim_bar",
+  "about": "BigShots Golf Springfield is a hybrid entertainment venue combining a virtual golf driving range with a sports bar and full restaurant. It features 56 climate-controlled tee boxes equipped with simulator technology, alongside a 6-hole putting course and various yard games. The venue offers a full scratch kitchen and cocktail bar, with over 100 TVs for viewing sporting events. It operates daily with variable hours and hosts a variety of events, from corporate gatherings to birthday parties and sports viewing parties. The facility is owned and operated by O'Reilly Hospitality Management, LLC.",
+  "tags": "food_and_drinks|corporate_events|leagues|beginner_friendly|family_friendly|kids_friendly|premium_tech|late_night",
+  "vibe_tags": "sports_bar|family_fun_center|party_atmosphere|tech_lab",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "56 tee boxes with simulator technology available for up to 6 people per bay",
+    "Full restaurant and bar service available directly at the tee boxes",
+    "Dedicated 6-hole putting course for short game practice",
+    "Combination of virtual golf, yard games, and sports viewing in one location"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full scratch kitchen with a menu featuring items like Stuffed Cheddar-Bacon Tots, Big Pig pizza, Cali chicken sandwich, PB & Jam burger, and more. Food can be ordered at the tee box or from the bar."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar serving handcrafted cocktails, frozen margaritas, and other beverages. Sports bar atmosphere with game-day specials."
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": "unknown",
+  "club_tracking": "unknown",
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 56,
+  "booking_url": "https://www.sevenrooms.com/reservations/bigshotsgolfspringfieldmo/bsg-sgf-website?duration-picker=true",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 18,
+  "price_range_max_local": 52,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": false,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own golf clubs?",
+      "answer": "No, golf clubs and good times come at no extra cost. The venue provides all necessary equipment for the simulator and putting course."
+    },
+    {
+      "question": "Can I bring in my own food and drinks?",
+      "answer": "No, outside food and drinks are not permitted. The venue operates a full scratch kitchen and bar where you can order food and cocktails directly to your tee box."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "Pricing is based on hourly rates for the tee boxes, not per hole. Each box can accommodate up to 6 people and costs between $18-$52 per hour depending on the time of day and day of the week."
+    },
+    {
+      "question": "Is BigShots Golf kid-friendly?",
+      "answer": "Yes, BigShots Golf is family-friendly and offers activities for all ages, including mini golf, yard games, and a dedicated putting course, making it suitable for kids."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"11AM-10PM\"], \"Tuesday\": [\"4-10PM\"], \"Wednesday\": [\"4-10PM\"], \"Thursday\": [\"4-10PM\"], \"Friday\": [\"11AM-10PM\"], \"Saturday\": [\"11AM-10PM\"], \"Sunday\": [\"11AM-10PM\"]}"
+}

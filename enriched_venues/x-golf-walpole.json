@@ -1,0 +1,83 @@
+{
+  "name": "X-Golf Walpole",
+  "address": "50 Providence Hwy, East Walpole, MA 02032",
+  "city": "East Walpole",
+  "region": "Massachusetts",
+  "country": "US",
+  "latitude": 42.156051,
+  "longitude": -71.201299,
+  "phone": "+15087346147",
+  "website": "http://www.playxgolf.com/locations/walpole/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770199266/golf_simulators/www_playxgolf_com_ChIJ0fWzXWd_5IkRDq4hiW58lrY.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/X-Golf+Walpole/@42.1560509,-71.2012987,14z/data=!4m8!1m2!2m1!1sX-Golf+Walpole!3m4!1s0x89e47f675db3f5d1:0xb6967c6e8921ae0e!8m2!3d42.1560509!4d-71.2012987",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ0fWzXWd_5IkRDq4hiW58lrY",
+  "email": "info@xgolfwalpole.com",
+  "venue_type": "sim_bar",
+  "about": "X-Golf Walpole offers an indoor golf simulator experience with a bar and food menu. It features state-of-the-art simulators with camera systems, infrared lasers, and impact sensors for accurate gameplay. The venue provides hourly simulator rentals that accommodate up to 6 people per bay, with pricing varying by day and time. It also hosts winter memberships, leagues, and offers PGA-certified lessons, making it suitable for both casual play and serious practice. The facility hosts corporate events, birthday parties, and features a full bar with food options.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|club_rentals|coaching_available",
+  "vibe_tags": "sports_bar|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "State-of-the-art simulator technology with high accuracy",
+    "Accommodates groups of up to 6 people per hour",
+    "Full bar and food menu available on-site"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen with shareable bites, appetizers, snacks, and pizzas available"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with beer by the glass or on tap, cocktails, and wines"
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://clients.uschedule.com/xgolfwalpole/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 55,
+  "price_range_max_local": 70,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, club rental is available at the venue."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No, outside food and drinks are not allowed. The venue has a full bar and kitchen with food and drink options available."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "It takes about one hour for an individual player to complete 18 holes. For multiple players, it's recommended to book an additional hour for each player in your group."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, X-Golf Walpole welcomes children of all ages."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"9AM-11PM\"], \"Saturday\": [\"9AM-11PM\"], \"Sunday\": [\"8AM-10PM\"]}"
+}

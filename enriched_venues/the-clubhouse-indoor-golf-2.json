@@ -1,0 +1,92 @@
+{
+  "name": "The Clubhouse Indoor Golf",
+  "address": "2445 Lineville Rd Suite D, Green Bay, WI 54313",
+  "city": "Green Bay",
+  "region": "Wisconsin",
+  "country": "US",
+  "latitude": 44.58973,
+  "longitude": -88.078862,
+  "phone": "+19204898304",
+  "website": "http://theclubhousegb.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770210114/golf_simulators/theclubhousegb_com_ChIJaXB0B_DxAogRvk9FGlM6t8Y.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Clubhouse+Indoor+Golf/@44.5897296,-88.0788621,14z/data=!4m8!1m2!2m1!1sThe+Clubhouse+Indoor+Golf!3m4!1s0x8802f1f007747069:0xc6b73a531a454fbe!8m2!3d44.5897296!4d-88.0788621",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJaXB0B_DxAogRvk9FGlM6t8Y",
+  "venue_type": "sim_bar",
+  "about": "The Clubhouse Indoor Golf is Green Bay's premier indoor golf experience, offering year-round golf regardless of weather conditions. The facility features five Full Swing simulators, with three offering a unique widescreen option not available elsewhere in the area. They provide a range of entertainment options including traditional golf, a MultiSport package for various athletic activities, and private event space with food and beverage service. The venue is designed to cater to both serious golfers and casual players looking for a fun group activity.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|kids_friendly|corporate_events|leagues|premium_tech|private_rooms|coaching_available",
+  "vibe_tags": "casual|welcoming|modern|family_fun_center",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "Five Full Swing simulators with three exclusive widescreen options",
+    "MultiSport package for variety and entertainment beyond golf",
+    "PGA professional lessons available for skill improvement",
+    "Full bar and food service available while playing",
+    "Private event space with customizable options"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full menu of popular pub food favorites including flatbreads and appetizers. Custom food options can be preordered for groups at a discounted rate. Outside food is generally not permitted except for party cakes or desserts."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar available with local craft beers, wine, and cocktails. Alcoholic beverages are available at regular price."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Full Swing",
+      "model": "Sport Simulator",
+      "notes": "Features five Full Swing Sport Simulators, with three offering a widescreen experience exclusive to this venue."
+    }
+  ],
+  "simulator_software": [
+    "FullSwing Golf",
+    "Showdown Golf",
+    "MultiSport"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 5,
+  "booking_url": "https://foreupsoftware.com/index.php/booking/22120/9918#teetimes",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own golf clubs?",
+      "answer": "The website does not specify whether club rentals are available or if you need to bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food is generally not permitted without prior permission, with the exception of a party cake or dessert. The Clubhouse provides paper plates, cutlery, and napkins upon request. Alcoholic beverages are available at regular price but outside alcohol is not mentioned."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "The website does not provide specific information on the time required to play 18 holes."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is kid-friendly. They offer a MultiSport package that includes activities for kids, and the facility is described as having something for everyone, including children."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": null
+}

@@ -1,0 +1,98 @@
+{
+  "name": "North Bend Golf Club",
+  "address": "119 W North Bend Way, North Bend, WA 98045",
+  "city": "North Bend",
+  "region": "Washington",
+  "country": "US",
+  "latitude": 47.495004,
+  "longitude": -121.786473,
+  "phone": "+14253319354",
+  "website": "http://www.northbendgolfclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770230196/golf_simulators/www_northbendgolfclub_com_ChIJA-GBZXh9kFQRGps53xma-JY.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/North+Bend+Golf+Club/@47.495004099999996,-121.786473,14z/data=!4m8!1m2!2m1!1sNorth+Bend+Golf+Club!3m4!1s0x54907d786581e103:0x96f89a19df399b1a!8m2!3d47.495004099999996!4d-121.786473",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJA-GBZXh9kFQRGps53xma-JY",
+  "email": "team@northbendgolfclub.com",
+  "venue_type": "sim_bar",
+  "about": "North Bend Golf Club offers a premier indoor golf simulation experience designed to elevate your game with state-of-the-art simulators. The facility provides a realistic golfing environment regardless of weather conditions, allowing golfers of all skill levels to practice their swing, play a round with friends, or compete in tournaments. Flexible membership options and hourly booking are available, providing options for training or casual play. The venue features a 19th Hole Lounge with beer, seltzers, and cider, and allows guests to bring their own food. With a 200-square-foot putting green and multisport simulators for activities like soccer, baseball, and zombie dodgeball, it serves as both a training facility and an entertainment venue.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|kids_friendly|private_rooms|late_night|coaching_available",
+  "vibe_tags": "sports_bar|family_fun_center|tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "State-of-the-art simulators with real-time swing and ball data",
+    "365-day access with flexible membership options and hourly booking",
+    "200-square-foot putting green for on-course practice",
+    "Multisport simulators for entertainment beyond golf"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "BYOF (Bring Your Own Food) allowed from nearby restaurants"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Beer, seltzers, and cider available in the 19th Hole Lounge"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "unknown",
+      "notes": "Four TrackMan simulators"
+    },
+    {
+      "brand": "Uneekor",
+      "model": "GSPro",
+      "notes": "One Uneekor GSPro simulator"
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 5,
+  "booking_url": "https://clients.uschedule.com/northbendgolfclub/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "It is not explicitly stated on the website, but as a golf simulation facility, you would typically need to bring your own clubs to use the simulators effectively."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, the venue allows you to bring your own food (BYOF) from nearby restaurants. They also serve beer, seltzers, and cider in the 19th Hole Lounge."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify the time it takes to play 18 holes, but typical golf simulations take 1.5 to 2 hours for a full round depending on the number of players."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, North Bend Golf Club is kid-friendly, offering memberships that include immediate family (spouse and children under 18), and hosting events like the Fall Junior Golf Academy."
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"9AM-8PM\"], \"Tuesday\": [\"9AM-8PM\"], \"Wednesday\": [\"9AM-8PM\"], \"Thursday\": [\"9AM-8PM\"], \"Friday\": [\"9AM-9PM\"], \"Saturday\": [\"9AM-9PM\"], \"Sunday\": [\"9AM-7PM\"]}"
+}

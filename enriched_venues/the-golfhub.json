@@ -1,0 +1,90 @@
+{
+  "name": "The GolfHub",
+  "address": "1121 State Ave, Holly Hill, FL 32117",
+  "city": "Holly Hill",
+  "region": "Florida",
+  "country": "US",
+  "latitude": 29.246454,
+  "longitude": -81.043422,
+  "phone": "+13864927804",
+  "website": "http://www.thegolfhubonline.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770240526/golf_simulators/www_thegolfhubonline_com_ChIJ2wkbaqXb5ogRYxKwM8WFcVg.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+GolfHub/@29.246453499999998,-81.0434216,14z/data=!4m8!1m2!2m1!1sThe+GolfHub!3m4!1s0x88e6dba56a1b09db:0x587185c533b01263!8m2!3d29.246453499999998!4d-81.0434216",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ2wkbaqXb5ogRYxKwM8WFcVg",
+  "email": "sroberts@pga.com",
+  "venue_type": "retail_fitting_center",
+  "about": "The Golf Hub is a golf training and retail facility located in Holly Hill, Florida. It specializes in the development of local golfers of all ages and abilities, offering services such as club fitting, swing analysis with TrackMan technology, grip replacement, club repair, custom club building, and lessons with a PGA professional. The facility is staffed by PGA Professional Steve Roberts and his wife, Joanie, an accomplished amateur golfer with a strong competitive background. The venue's primary focus is on game improvement through professional instruction and club technology.",
+  "tags": "beginner_friendly|coaching_available|club_rentals|premium_tech|juniors_youth|serious_golfers",
+  "vibe_tags": "industrial_training|community_club",
+  "who_its_for": "beginners|serious_golfers|juniors_youth|coaches_instructors",
+  "why_golfers_like_it": [
+    "Access to TrackMan Pro launch monitor for precise swing analysis",
+    "PGA Professional instruction available by appointment",
+    "Custom club fitting and building services on-site",
+    "Comprehensive club repair and grip replacement services"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned. BYOB policy not specified."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned. BYOB policy not specified."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "Pro",
+      "notes": "Used for swing analysis and club fitting services."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "http://www.thegolfhubonline.com/contact/contact.htm",
+  "pricing_model": "unknown",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|club_fitting|lessons",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "You can bring your own clubs, but the facility also offers club rentals, grip replacements, and custom club building services."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "There is no mention of food or drink service on-site. The BYOB policy is not specified."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "This information is not available as the venue does not appear to offer full simulator play sessions."
+    },
+    {
+      "question": "Is The Golf Hub kid-friendly?",
+      "answer": "The venue states it specializes in development of local talent 'no matter of age or ability,' making it suitable for juniors and youth golfers."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"9:30AM-1PM\"], \"Wednesday\": [\"9:30AM-12PM\"], \"Thursday\": [\"9:30AM-1PM\"], \"Friday\": [\"9:30AM-1PM\"], \"Saturday\": [\"9:30AM-12PM\"], \"Sunday\": [\"Closed\"]}"
+}

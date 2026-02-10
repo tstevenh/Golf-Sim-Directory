@@ -1,0 +1,89 @@
+{
+  "name": "Golf Defined",
+  "address": "8250 Greensboro Dr, McLean, VA 22102",
+  "city": "McLean",
+  "region": "Virginia",
+  "country": "US",
+  "latitude": 38.923297,
+  "longitude": -77.230141,
+  "phone": "+17032684653",
+  "website": "http://www.golfdefined.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770216903/golf_simulators/www_golfdefined_com_ChIJJfSjoDNLtokRDv0CgJXriBo.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Golf+Defined/@38.923297399999996,-77.23014069999999,14z/data=!4m8!1m2!2m1!1sGolf+Defined!3m4!1s0x89b64b33a0a3f425:0x1a88eb958002fd0e!8m2!3d38.923297399999996!4d-77.23014069999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJJfSjoDNLtokRDv0CgJXriBo",
+  "venue_type": "training_studio",
+  "about": "Golf Defined is a premier golf training studio in McLean, VA, focusing on personalized instruction using state-of-the-art technology. They offer individualized lessons, a complete game analysis, and club fitting services, emphasizing a 'no model swing' philosophy tailored to each student's goals. The facility is located inside OneLife Fitness, featuring a climate-controlled environment with a putting green and bunker bay for year-round practice. Technology includes GC Quad launch monitors and Swing Catalyst software with 290 FPS cameras for detailed swing analysis.",
+  "tags": "beginner_friendly|serious_practice|coaching_available|premium_tech|club_fitting|private_rooms",
+  "vibe_tags": "upscale_lounge|industrial_training|tech_lab",
+  "who_its_for": "beginners|serious_golfers|solo_practice|coaches_instructors",
+  "why_golfers_like_it": [
+    "State-of-the-art GC Quad launch monitor and Swing Catalyst technology for precise swing analysis",
+    "Personalized instruction with no 'model swing' approach, tailored to individual goals",
+    "Climate-controlled facility with a dedicated putting green and bunker bay for year-round practice",
+    "Barn doors and natural wood ambiance create a stress-free, private learning environment"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned; BYOB not specified"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "GC Quad",
+      "model": "unknown",
+      "notes": "Premium launch monitor capturing ball speed, launch angles, spin, carry distance, and club data"
+    }
+  ],
+  "simulator_software": [
+    "Swing Catalyst"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "http://www.golfdefined.com/book-now",
+  "pricing_model": "package",
+  "price_range_min_local": 1000,
+  "price_range_max_local": 200,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|club_fitting|private_rooms|wifi",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need clubs?",
+      "answer": "The Complete Game Analysis will review the clubs you have (or don't have), and club fitting is included in packages."
+    },
+    {
+      "question": "Can I bring food or drinks?",
+      "answer": "Complimentary specialty coffees are available, but no outside food or drinks are mentioned."
+    },
+    {
+      "question": "How long does an 18-hole simulation take?",
+      "answer": "No specific time mentioned for 18-hole simulations."
+    },
+    {
+      "question": "Is it kid-friendly?",
+      "answer": "No specific information about junior programs or kid-friendly amenities."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"8AM-4PM\"], \"Tuesday\": [\"8AM-8PM\"], \"Wednesday\": [\"8AM-8PM\"], \"Thursday\": [\"8AM-8PM\"], \"Friday\": [\"8AM-6PM\"], \"Saturday\": [\"8AM-4PM\"], \"Sunday\": [\"8AM-4PM\"]}"
+}

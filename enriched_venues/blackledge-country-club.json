@@ -1,0 +1,85 @@
+{
+  "name": "Blackledge Country Club",
+  "address": "180 West St, Hebron, CT 06248",
+  "city": "Hebron",
+  "region": "Connecticut",
+  "country": "US",
+  "latitude": 41.678859,
+  "longitude": -72.442399,
+  "phone": "+18602280250",
+  "website": "https://blackledgecc.net/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770209250/golf_simulators/blackledgecc_net_ChIJwVba52lb5okRVUq1_QIv-MU.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Blackledge+Country+Club/@41.6788588,-72.44239929999999,14z/data=!4m8!1m2!2m1!1sBlackledge+Country+Club!3m4!1s0x89e65b69e7da56c1:0xc5f82f02fdb54a55!8m2!3d41.6788588!4d-72.44239929999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJwVba52lb5okRVUq1_QIv-MU",
+  "email": "Kevin@blackledgecc.net",
+  "venue_type": "country_club",
+  "about": "Blackledge Country Club is a 36-hole public golf facility located in Hebron, Connecticut, featuring two courses: Anderson's Glen and Gilead Highlands. The venue provides an enjoyable challenge for players of all abilities with its lush rolling fairways, scenic views, and carefully manicured greens. During the off-season, the facility operates three HD Golf Simulators and its Blackledge River Tavern, which is open 7 days a week and offers weekend entertainment and dinner specials. Blackledge is also available for corporate tournaments, fundraising events, and golf groups of any size.",
+  "tags": "food_and_drinks|corporate_events|beginner_friendly|families|coaching_available|premium_tech|club_rentals|private_rooms|leagues",
+  "vibe_tags": "casual|welcoming|modern|family_fun_center|community_club",
+  "who_its_for": "beginners|families|corporate_teams|serious_golfers|large_groups",
+  "why_golfers_like_it": [
+    "3 HD Golf Simulators for year-round play",
+    "Rated #7 nationally by Golf Advisor for course conditions",
+    "Full-service tavern with weekend entertainment and dining specials",
+    "Hosts corporate tournaments and private events of all sizes",
+    "Comprehensive practice facility with instruction available"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "The Blackledge River Tavern offers a full dining experience, voted 'Reader's Choice Best Restaurant in Tolland County' by Connecticut Magazine. Available for private parties and special events."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available at the Tavern, with a dedicated 'Now on Tap!' section featuring draft beers."
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://www.blackledgecc.net/request_tt/",
+  "pricing_model": "per_bay_hour|mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 3,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.0,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "While you can bring your own clubs, the facility likely provides rental options as it's a full-service golf facility. The pro shop would have club rentals available."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The Blackledge River Tavern offers full food and beverage service, so external food and drinks are likely not permitted inside the facility."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes on the simulator?",
+      "answer": "Standard 18-hole simulator rounds typically take 1-2 hours depending on the number of players and pace of play."
+    },
+    {
+      "question": "Is Blackledge Country Club kid-friendly?",
+      "answer": "Yes, Blackledge is family-friendly and offers a welcoming environment for juniors and youth golfers, as indicated by their family-oriented facilities and services."
+    }
+  ],
+  "rating_overall": 4.1,
+  "opening_hours": "{\"Monday\": [\"8AM-9PM\"], \"Tuesday\": [\"8AM-9PM\"], \"Wednesday\": [\"8AM-9PM\"], \"Thursday\": [\"8AM-9PM\"], \"Friday\": [\"8AM-10PM\"], \"Saturday\": [\"8AM-10PM\"], \"Sunday\": [\"8AM-7PM\"]}"
+}

@@ -1,0 +1,90 @@
+{
+  "name": "Bongo Golf",
+  "address": "26 Summit Ave, Somerville, MA 02143",
+  "city": "Somerville",
+  "region": "Massachusetts",
+  "country": "US",
+  "latitude": 42.38391,
+  "longitude": -71.09664,
+  "phone": "+18606702126",
+  "website": "https://www.bongo-golf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770237670/golf_simulators/www_bongo-golf_com_ChIJl27xfHxx44kRTp43-Pf4bBI.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Bongo+Golf/@42.3839101,-71.0966402,14z/data=!4m8!1m2!2m1!1sBongo+Golf!3m4!1s0x89e3717c7cf16e97:0x126cf8f7f8379e4e!8m2!3d42.3839101!4d-71.0966402",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJl27xfHxx44kRTp43-Pf4bBI",
+  "email": "hello@bongo-golf.com",
+  "venue_type": "sim_bar",
+  "about": "Bongo Golf is a mobile golf simulator rental service operating throughout Greater Boston. They deliver, set up, and staff all-inclusive golf simulator experiences at client locations, handling all technical and equipment details. The service offers various gameplay modes and customizable events, with a minimum booking duration of three hours at a starting rate of $200 per hour. Their equipment includes a Flightscope Mevo Gen2 launch monitor, GSPro software, a premium BenQ projector, and a gaming computer, providing an immersive golfing experience.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|budget_friendly|private_rooms|club_rentals|late_night|coaching_available",
+  "vibe_tags": "casual|welcoming|modern|party_atmosphere",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|bachelor_parties",
+  "why_golfers_like_it": [
+    "All-inclusive service with no setup required from the client",
+    "Premium tech including Flightscope Mevo Gen2 and GSPro software",
+    "Highly customizable gameplay for various event types and group sizes",
+    "Staffed by experts to ensure a fun and inclusive experience for all skill levels"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "BYOB food policy allows clients to bring their own food."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "BYOB alcohol policy allows clients to bring their own drinks."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Flightscope",
+      "model": "Mevo Gen2",
+      "notes": "Launch monitor used at all events"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 1,
+  "booking_url": "https://www.bongo-golf.com/booking",
+  "pricing_model": "package",
+  "price_range_min_local": 200,
+  "price_range_max_local": 200,
+  "currency": "USD",
+  "walk_ins_allowed": false,
+  "coaching_available": true,
+  "private_rooms_count": 0,
+  "max_group_size_per_bay": 16,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|pro_shop|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 4.2,
+  "faq": [
+    {
+      "question": "Do I need to bring my own golf clubs?",
+      "answer": "No, Bongo Golf provides all necessary equipment including clubs. However, guests are also welcome to bring their own clubs."
+    },
+    {
+      "question": "Can we bring our own food and drinks?",
+      "answer": "Yes, Bongo Golf operates on a BYOB (Bring Your Own Beverage) policy, allowing clients to bring their own food and drinks to the event."
+    },
+    {
+      "question": "How much time is needed for an 18-hole game?",
+      "answer": "Bongo Golf offers various gameplay modes. An 18-hole match play typically takes 30-75 minutes per player depending on the match length. They also offer shorter game modes like closest-to-pin contests that take about 5 minutes per player."
+    },
+    {
+      "question": "Is the experience kid-friendly?",
+      "answer": "Yes, Bongo Golf welcomes all ages and skill levels. They offer target practice and open range sessions that work well for kids and adults, with staff on hand to ensure safe and fun gameplay."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"8AM-12AM\"], \"Tuesday\": [\"8AM-12AM\"], \"Wednesday\": [\"8AM-12AM\"], \"Thursday\": [\"8AM-12AM\"], \"Friday\": [\"8AM-12AM\"], \"Saturday\": [\"8AM-12AM\"], \"Sunday\": [\"8AM-12AM\"]}"
+}

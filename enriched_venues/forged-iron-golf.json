@@ -1,0 +1,90 @@
+{
+  "name": "Forged Iron Golf",
+  "address": "145 Kisco Ave, Mt Kisco, NY 10549",
+  "city": "Mt Kisco",
+  "region": "New York",
+  "country": "US",
+  "latitude": 41.21403,
+  "longitude": -73.725999,
+  "phone": "+19142183038",
+  "website": "http://forgedirongolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770224791/golf_simulators/forgedirongolf_com_ChIJX0Hbjoy7wokRNH-1ZbA25XU.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Forged+Iron+Golf/@41.2140299,-73.72599919999999,14z/data=!4m8!1m2!2m1!1sForged+Iron+Golf!3m4!1s0x89c2bb8c8edb415f:0x75e536b065b57f34!8m2!3d41.2140299!4d-73.72599919999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJX0Hbjoy7wokRNH-1ZbA25XU",
+  "email": "forgedirongolf@gmail.com",
+  "venue_type": "training_studio",
+  "about": "Forged Iron Golf is a high-tech golf training and simulation studio equipped with premium TrackMan technology. It offers a professional environment for players of all skill levels to practice, take lessons, and compete through leagues and events. The facility provides a range of services from hourly bay rentals to memberships, club fitting, and instruction by a PGA-certified professional. Pricing varies based on time of day, with peak hours and holidays commanding higher rates.",
+  "tags": "serious_practice|coaching_available|leagues|club_fitting|premium_tech|beginner_friendly|juniors_youth|corporate_events",
+  "vibe_tags": "tech_lab|community_club|welcoming",
+  "who_its_for": "serious_golfers|beginners|families|coaches_instructors|juniors_youth",
+  "why_golfers_like_it": [
+    "Premium TrackMan technology for detailed shot analysis",
+    "PGA-certified coaching from a top 2% professional",
+    "Active leagues and events for competitive play",
+    "Professional club fitting services available"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen available for events and group bookings, with access to the 1907 restaurant for breakfast, lunch, and dinner."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "Not specified on website, but no BYOB policy indicated."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "TrackMan",
+      "model": "unknown",
+      "notes": "Premium radar-based launch monitor with comprehensive ball and club tracking"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "http://forgedirongolf.com/appointments",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 45,
+  "price_range_max_local": 70,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|club_fitting|leagues|coaching_available",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "Yes, you should bring your own clubs. The facility does not mention club rentals."
+    },
+    {
+      "question": "Can I bring my own food or drink?",
+      "answer": "Outside food and drink are not mentioned. For groups, access to the 1907 restaurant and full kitchen is available."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Time varies based on simulator software and pace of play, but typically 1-2 hours for a full round."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, the head instructor is U.S. Kids Golf Certified, and the facility is suitable for juniors and youth players."
+    }
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"9AM-10PM\"], \"Saturday\": [\"9AM-10PM\"], \"Sunday\": [\"9AM-8PM\"]}"
+}

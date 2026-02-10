@@ -1,0 +1,89 @@
+{
+  "name": "Champions Indoor Golf - Billerica",
+  "address": "446 Boston Rd Unit 8, Billerica, MA 01821",
+  "city": "Billerica",
+  "region": "Massachusetts",
+  "country": "US",
+  "latitude": 42.558781,
+  "longitude": -71.267281,
+  "phone": "+19782948971",
+  "website": "https://www.championsindoor.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770199986/golf_simulators/www_championsindoor_com_ChIJb84hYTih44kRhGjjDPjohBw.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Champions+Indoor+Golf+-+Billerica/@42.5587806,-71.2672813,14z/data=!4m8!1m2!2m1!1sChampions+Indoor+Golf+-+Billerica!3m4!1s0x89e3a1386121ce6f:0x1c84e8f80ce36884!8m2!3d42.5587806!4d-71.2672813",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJb84hYTih44kRhGjjDPjohBw",
+  "email": "contact@championsindoor.com",
+  "venue_type": "sim_bar",
+  "about": "Champions Indoor Golf is a golf simulation venue with multiple locations, featuring immersive simulator bays that allow players to play, train, and compete on world-class courses. The venues offer a range of services including bay rentals, professional coaching, club fittings, and participation in leagues and tournaments. They provide a convenient alternative to traditional golf, especially during inclement weather or for those looking to improve their game in a controlled environment.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|leagues|premium_tech|coaching_available|club_rentals|corporate_events|family_friendly",
+  "vibe_tags": "casual|welcoming|modern|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Access to world's top golf courses through high-end simulation technology",
+    "Comprehensive coaching programs with multiple experienced instructors available",
+    "Structured leagues and tournaments like the Champions Cup with cash prizes"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen available for food service"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": "unknown",
+      "notes": "High-end simulation technology"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://www.championsindoor.com/pinehills-booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, players are expected to bring their own golf clubs for simulator sessions."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, food and drinks are provided by the venue's full kitchen and bar service."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Typically, 18 holes take approximately 1.5-2 hours depending on the pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Champions Indoor Golf is family-friendly and welcomes junior golfers."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-10PM\"], \"Saturday\": [\"10AM-10PM\"], \"Sunday\": [\"10AM-10PM\"]}"
+}

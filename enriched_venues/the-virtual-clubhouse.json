@@ -1,0 +1,92 @@
+{
+  "name": "The Virtual Clubhouse",
+  "address": "9815 Monroe St Ste 104, Sandy, UT 84070",
+  "city": "Sandy",
+  "region": "Utah",
+  "country": "US",
+  "latitude": 40.57344,
+  "longitude": -111.89808,
+  "phone": "+18018931462",
+  "website": "https://virtualclubhousegolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770205887/golf_simulators/virtualclubhousegolf_com_ChIJFT_eK1GHUocRYgHL-oYURqI.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Virtual+Clubhouse/@40.5734397,-111.8980799,14z/data=!4m8!1m2!2m1!1sThe+Virtual+Clubhouse!3m4!1s0x875287512bde3f15:0xa2461486facb0162!8m2!3d40.5734397!4d-111.8980799",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJFT_eK1GHUocRYgHL-oYURqI",
+  "email": "vc@virtualclubhousegolf.com",
+  "venue_type": "sim_bar|training_studio|private_rental",
+  "about": "The Virtual Clubhouse is a luxury indoor golf facility featuring four private Trackman IO suites available for play, practice, and events. The venue offers 24/7 access with flexible membership options and high-end amenities, including complimentary refreshments and large entertainment TVs in each suite. Located in Sandy, UT, the facility is designed to provide a premium golfing experience with advanced technology and comfortable accommodations for solo players and groups.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|premium_tech|private_rooms|club_rentals|coaching_available",
+  "vibe_tags": "private_luxury|tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "24/7 access with flexible membership options",
+    "Industry-leading Trackman IO technology with 26 data points",
+    "Four private luxury suites with premium amenities",
+    "Mobile app for easy booking and reservation management",
+    "Ideal for both solo practice and group events"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Complimentary refreshments included with membership"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol mentioned on website"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Cutting-edge radar technology with 26 data points"
+    }
+  ],
+  "simulator_software": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": 4,
+  "booking_url": "https://www.virtualclubhousegolf.com/contact-us",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 200,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 4,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|private_party_room|tv_sports|wifi|pro_shop|club_fitting|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, players are expected to bring their own clubs as they are not provided by the venue."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No outside food or drinks are allowed. Complimentary refreshments are included with membership, but personal beverages are not permitted."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Typically, 18 holes take approximately 2-3 hours depending on group size and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The Virtual Clubhouse is primarily designed for adult golfers and is not specifically marketed as a kid-friendly venue."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

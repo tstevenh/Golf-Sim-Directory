@@ -1,0 +1,90 @@
+{
+  "name": "Dryvebox Charleston",
+  "address": "164 Market St #121, Charleston, SC 29401",
+  "city": "Charleston",
+  "region": "South Carolina",
+  "country": "US",
+  "latitude": 32.780742,
+  "longitude": -79.934482,
+  "phone": "+11000001118",
+  "website": "https://www.dryvebox.com/locations/charleston",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770208386/golf_simulators/www_dryvebox_com_ChIJTxSD0g17_ogRo_iI5B-OIRw.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Dryvebox+Charleston/@32.7807421,-79.934482,14z/data=!4m8!1m2!2m1!1sDryvebox+Charleston!3m4!1s0x88fe7b0dd283144f:0x1c218e1fe488f8a3!8m2!3d32.7807421!4d-79.934482",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJTxSD0g17_ogRo_iI5B-OIRw",
+  "email": "info@dryvebox.com.",
+  "venue_type": "other",
+  "about": "Dryvebox Charleston is a mobile golf simulator venue that brings state-of-the-art, climate-controlled golf studios powered by Tour-trusted TrackMan technology directly to events, parties, and locations throughout the Charleston, SC area. The service specializes in providing an interactive, high-tech golf entertainment experience for various occasions, including corporate gatherings, private celebrations, and brand activations. Their offerings include a variety of form factors such as patented mobile simulator trailers and indoor pop-up enclosures, fully equipped with golf clubs, balls, and professional staff to manage setup and operation. The venue is designed to provide a complete golf experience for both beginners and experienced players, focusing on accessibility and fun at any event location.",
+  "tags": "beginner_friendly|corporate_events|private_rooms|premium_tech|coaching_available|food_and_drinks|kids_friendly|large_groups|solo_practice",
+  "vibe_tags": "party_atmosphere|family_fun_center|private_luxury|tech_lab",
+  "who_its_for": "beginners|families|corporate_teams|large_groups|solo_practice",
+  "why_golfers_like_it": [
+    "Convenient mobile service that brings professional golf simulation directly to your event location",
+    "Tour-trusted TrackMan technology for accurate ball and club tracking",
+    "Variety of form factors including trailers and indoor pop-ups to fit any space"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "On-site setup can accommodate event catering; BYOB policies are not explicitly mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "On-site setup can include beverages; specific alcohol policies are not detailed"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Tour-trusted technology used across all mobile simulator configurations"
+    }
+  ],
+  "simulator_software": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "auto_putt",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://clients.uschedule.com/dryveboxcharleston/booking",
+  "pricing_model": "per_person_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|lockers|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need clubs?",
+      "answer": "No, all clubs, balls, and equipment are provided with your rental. The venue offers a full set of golf clubs for use during your session."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "On-site setups can accommodate food and beverages for events. While BYOB policies are not explicitly mentioned, the service appears flexible for catering and drinks at private parties."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes varies by group size and skill level, but a typical session lasts 1-2 hours depending on the number of players and activities planned."
+    },
+    {
+      "question": "Is this kid-friendly?",
+      "answer": "Yes, Dryvebox is kid-friendly. The service has been used for children's birthday parties and accommodates both beginners and young golfers with appropriate games and activities."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"8AM-10PM\"], \"Tuesday\": [\"8AM-10PM\"], \"Wednesday\": [\"8AM-10PM\"], \"Thursday\": [\"8AM-10PM\"], \"Friday\": [\"8AM-10PM\"], \"Saturday\": [\"8AM-10PM\"], \"Sunday\": [\"8AM-10PM\"]}"
+}

@@ -1,7 +1,6 @@
 import { Metadata } from "next";
 import { db, venueCardSelect } from "@/lib/db";
 import { BestByPageContent } from "@/components/seo/BestByPageContent";
-import { matchesVibe } from "@/lib/best-by";
 import { getStateDisplayName, getStateAbbrevFromName } from "@/lib/states";
 import { getStaticRelatedLinks } from "@/lib/category-config.generated";
 
@@ -10,7 +9,7 @@ interface CityBestVibePageProps {
   searchParams?: Promise<Record<string, string | string[] | undefined>>;
 }
 
-export const revalidate = 3600;
+export const revalidate = 86400;
 
 // Vibe-specific descriptions for city pages
 const vibeDescriptions: Record<string, { tagline: string; description: string }> = {
@@ -74,42 +73,50 @@ export async function generateMetadata({ params }: CityBestVibePageProps): Promi
 export default async function CityBestVibePage({ params, searchParams }: CityBestVibePageProps) {
   const paramsResolved = (await searchParams) || {};
   const page = Math.max(1, Number(paramsResolved.page || 1));
+  const pageSize = 12;
   const { state, city, vibe } = await params;
   const stateAbbrev = getStateAbbrevFromName(state) || state.toUpperCase();
   const stateName = getStateDisplayName(stateAbbrev);
   const cityFormatted = city.replace(/-/g, " ").replace(/\b\w/g, l => l.toUpperCase());
   const vibeLabel = vibe.replace(/_/g, " ").replace(/-/g, " ").replace(/\b\w/g, l => l.toUpperCase());
   const vibeKey = vibe.toLowerCase();
+  const vibeVariants = Array.from(new Set([vibe, vibe.replace(/-/g, "_"), vibe.replace(/_/g, "-")]));
+  const skip = (page - 1) * pageSize;
 
-  const venues = await db.venue.findMany({
-    where: {
-      city: { equals: cityFormatted, mode: "insensitive" },
-      state: stateAbbrev.toUpperCase(),
-      country: "US",
-      status: "active",
-    },
-    orderBy: [{ featured: "desc" }, { ratingOverall: "desc" }, { name: "asc" }],
-    select: venueCardSelect,
-  });
+  const where = {
+    city: { equals: cityFormatted, mode: "insensitive" as const },
+    state: stateAbbrev.toUpperCase(),
+    country: "US" as const,
+    status: "active" as const,
+    vibeTags: { hasSome: vibeVariants },
+  };
 
-  const filteredVenues = venues.filter((venue) => matchesVibe(venue, vibe));
+  const [totalVenues, venues, nearbyCitiesResult] = await Promise.all([
+    db.venue.count({ where }),
+    db.venue.findMany({
+      where,
+      orderBy: [{ featured: "desc" }, { ratingOverall: "desc" }, { name: "asc" }],
+      select: venueCardSelect,
+      take: pageSize,
+      skip,
+    }),
+    db.venue.findMany({
+      where: {
+        state: stateAbbrev.toUpperCase(),
+        country: "US",
+        status: "active",
+        NOT: { city: { equals: cityFormatted, mode: "insensitive" } },
+      },
+      select: { city: true },
+      distinct: ["city"],
+      take: 6,
+    }),
+  ]);
 
   const vibeDesc = vibeDescriptions[vibeKey] || {
     tagline: `${vibeLabel} Atmosphere`,
     description: `Venues with a ${vibeLabel.toLowerCase()} vibe in ${cityFormatted}.`,
   };
-
-  const nearbyCitiesResult = await db.venue.findMany({
-    where: {
-      state: stateAbbrev.toUpperCase(),
-      country: "US",
-      status: "active",
-      NOT: { city: { equals: cityFormatted, mode: "insensitive" } },
-    },
-    select: { city: true },
-    distinct: ["city"],
-    take: 6,
-  });
 
   const nearbyLinks = nearbyCitiesResult.map((c) => ({
     label: `${vibeLabel} in ${c.city}`,
@@ -131,11 +138,11 @@ export default async function CityBestVibePage({ params, searchParams }: CityBes
     },
     {
       question: `How many ${vibeLabel.toLowerCase()} venues are in ${cityFormatted}?`,
-      answer: `We found ${filteredVenues.length} venues with a ${vibeLabel.toLowerCase()} vibe in ${cityFormatted}. These spots match the atmosphere you're looking for.`,
+      answer: `We found ${totalVenues} venues with a ${vibeLabel.toLowerCase()} vibe in ${cityFormatted}. These spots match the atmosphere you're looking for.`,
     },
     {
       question: `Is this vibe right for groups?`,
-      answer: "Many ${vibeLabel.toLowerCase()} venues are perfect for groups — check for amenities like food, drinks, and private rooms if you're planning an outing.",
+      answer: `Many ${vibeLabel.toLowerCase()} venues are perfect for groups — check for amenities like food, drinks, and private rooms if you're planning an outing.`,
     },
     {
       question: `Can I combine vibe with other filters?`,
@@ -169,13 +176,15 @@ export default async function CityBestVibePage({ params, searchParams }: CityBes
       ctaDescription="Claim your listing to update your vibe details and attract local golfers looking for this atmosphere."
       ctaPrimary={{ label: "Claim Your Listing", href: "/claim" }}
       ctaSecondary={{ label: "Submit New Venue", href: "/submit" }}
-      venues={filteredVenues}
+      venues={venues}
+      totalVenues={totalVenues}
       categoryType="vibe"
       categoryValue={vibeKey}
       heroSubtitle={vibeDesc.tagline}
       breadcrumbItems={breadcrumbs}
       showRanking={true}
       currentPage={page}
+      pageSize={pageSize}
       baseUrl={`/venue/us/${state}/${city}/best/vibe/${vibe}`}
     />
   );

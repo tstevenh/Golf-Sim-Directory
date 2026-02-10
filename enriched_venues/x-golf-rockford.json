@@ -1,0 +1,90 @@
+{
+  "name": "X-Golf Rockford",
+  "address": "7047 Newburg Rd Ste B, Rockford, IL 61108",
+  "city": "Rockford",
+  "region": "Illinois",
+  "country": "US",
+  "latitude": 42.252895,
+  "longitude": -88.979229,
+  "phone": "+18152068531",
+  "website": "https://playxgolf.com/locations/rockford/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770221004/golf_simulators/playxgolf_com_ChIJv8QU6oO5CIgRzO6lCHGuFlw.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/X-Golf+Rockford/@42.252894999999995,-88.97922899999999,14z/data=!4m8!1m2!2m1!1sX-Golf+Rockford!3m4!1s0x8808b983ea14c4bf:0x5c16ae7108a5eecc!8m2!3d42.252894999999995!4d-88.97922899999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJv8QU6oO5CIgRzO6lCHGuFlw",
+  "email": "melissa@vass.group",
+  "venue_type": "sim_bar",
+  "about": "X-Golf Rockford offers indoor golf simulation technology in a sports bar environment. The facility utilizes state-of-the-art simulators that provide players with an accurate and realistic golf experience. Pricing is structured per hour, per simulator bay, with specific rates for weekdays, weekends, and special promotions. It is an ideal venue for those seeking a fun, tech-driven golf experience combined with social dining options.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|coaching_available",
+  "vibe_tags": "sports_bar|modern|community_club",
+  "who_its_for": "beginners|families|corporate_teams|solo_practice|juniors_youth",
+  "why_golfers_like_it": [
+    "The world's most accurate golf simulator technology using camera systems, lasers, and impact sensors",
+    "A full bar and grill available to fuel your game with food and drinks",
+    "Host of weekly leagues and tournaments for players of all skill levels"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full menu available including shareable bites, appetizers, snacks, and pizzas."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with beer by the glass or on tap, cocktails, and wines."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "X-Golf",
+      "model": "Proprietary Simulator",
+      "notes": "State-of-the-art indoor golf simulator system using camera systems, infrared lasers, and impact sensors."
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://playxgolf.com/locations/rockford/#booknow",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 40,
+  "price_range_max_local": 65,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|leagues|coaching_available",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own golf clubs?",
+      "answer": "No, club rentals are available. Additionally, the simulator has its own tee built into the system that collects and tees the balls automatically."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "No, X-Golf Rockford has a full bar and grill on-site serving food and drinks."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Generally, it takes one hour for an individual player to complete 18 holes. For each additional player, you may want to book an extra hour, though skill level can affect the pace of play."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "Yes, X-Golf welcomes children of all ages."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-11PM\"], \"Tuesday\": [\"11AM-10PM\"], \"Wednesday\": [\"11AM-10PM\"], \"Thursday\": [\"11AM-10PM\"], \"Friday\": [\"9AM-12AM\"], \"Saturday\": [\"9AM-12AM\"], \"Sunday\": [\"9AM-10PM\"]}"
+}

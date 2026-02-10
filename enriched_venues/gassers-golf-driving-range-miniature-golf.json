@@ -1,0 +1,91 @@
+{
+  "name": "Gasser's Golf Driving Range & Miniature Golf",
+  "address": "3251 Pricetown Rd, Fleetwood, PA 19522",
+  "city": "Fleetwood",
+  "region": "Pennsylvania",
+  "country": "US",
+  "latitude": 40.404691,
+  "longitude": -75.851513,
+  "phone": "+16109299941",
+  "website": "https://www.gassersgolfclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770229185/golf_simulators/www_gassersgolfclub_com_ChIJQ7Vb34B4xokRxg9sDPIzEqE.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Gasser%27s+Golf+Driving+Range+%26+Miniature+Golf/@40.4046911,-75.85151309999999,14z/data=!4m8!1m2!2m1!1sGasser%27s+Golf+Driving+Range+%26+Miniature+Golf!3m4!1s0x89c67880df5bb543:0xa11233f20c6c0fc6!8m2!3d40.4046911!4d-75.85151309999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJQ7Vb34B4xokRxg9sDPIzEqE",
+  "email": "EddieSmithGolf@gmail.com",
+  "venue_type": "sim_bar|training_studio",
+  "about": "Gasser's Golf Driving Range & Miniature Golf is a multi-faceted golf venue featuring a driving range, 19-hole mini golf course, snack bar, and indoor golf simulator. The simulator bay utilizes TrackMan™ technology for realistic practice sessions and virtual play on prestigious golf courses. The facility also offers PGA professional instruction with packages for private lessons and video swing analysis. The venue is equipped with a covered patio and outdoor eatery that can host private parties and corporate events.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|family_fun_center|coaching_available|premium_tech|kids_friendly",
+  "vibe_tags": "family_fun_center|community_club|casual|welcoming",
+  "who_its_for": "beginners|families|corporate_teams|juniors_youth|solo_practice",
+  "why_golfers_like_it": [
+    "State-of-the-art TrackMan™ technology providing accurate shot data and feedback",
+    "Ability to play on some of the most prestigious golf courses in the world",
+    "Covered patio and outdoor eatery creating a complete experience for groups",
+    "PGA professional instruction available for personalized training",
+    "19-hole mini golf course with unique features like a waterfall and gristmill"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Snack bar and grill offering food and refreshments"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "Not mentioned as available"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Indoor Heater Simulator Bay"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 1,
+  "booking_url": "https://www.gassersgolfclub.com/golf-simulator",
+  "pricing_model": "per_bay_hour|package",
+  "price_range_min_local": 70,
+  "price_range_max_local": 120,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|kitchen_food|tv_sports|private_party_room|wifi|pro_shop",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The provided content does not specify whether clubs are provided for use at the simulator."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue has a snack bar and grill on-site, but it does not mention if outside food or drinks are permitted."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The content does not provide an estimated time for playing a full 18-hole simulation."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, Gasser's is kid-friendly, offering a 19-hole miniature golf course and junior golf lesson pricing."
+    }
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"11AM-5PM\"], \"Tuesday\": [\"11AM-5PM\"], \"Wednesday\": [\"11AM-5PM\"], \"Thursday\": [\"11AM-5PM\"], \"Friday\": [\"11AM-5PM\"], \"Saturday\": [\"11AM-5PM\"], \"Sunday\": [\"11AM-5PM\"]}"
+}

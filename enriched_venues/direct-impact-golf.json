@@ -1,0 +1,96 @@
+{
+  "name": "Direct Impact Golf",
+  "address": "3000 Grapevine Mills Pkwy Suite 329-20A, Grapevine, TX 76051",
+  "city": "Grapevine",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 32.96798,
+  "longitude": -97.040027,
+  "phone": "+12142393097",
+  "website": "https://dig.golf/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770209774/golf_simulators/dig_golf_ChIJ29sy6WgrTIYR3LBsf-tG8DQ.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Direct+Impact+Golf/@32.967979899999996,-97.04002729999999,14z/data=!4m8!1m2!2m1!1sDirect+Impact+Golf!3m4!1s0x864c2b68e932dbdb:0x34f046eb7f6cb0dc!8m2!3d32.967979899999996!4d-97.04002729999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ29sy6WgrTIYR3LBsf-tG8DQ",
+  "email": "info@dig.golf",
+  "venue_type": "training_studio",
+  "about": "Direct Impact Golf is an indoor golf training facility focused on individual coaching and practice. The venue utilizes advanced technology with 4 full-size hitting bays powered by Foresight Sports GC3 and GC Quad launch monitors, providing detailed swing data for performance improvement. It includes a dedicated chipping area and a separate PuttView putting green. The facility offers various programs for adults, juniors, and ladies, as well as individual lessons and practice memberships. The coaching philosophy emphasizes personalized instruction to help golfers develop their own game, tailored to their specific goals and pace.",
+  "tags": "beginner_friendly|serious_golfers|juniors_youth|coaching_available|corporate_events|premium_tech|training_studio",
+  "vibe_tags": "industrial_training|tech_lab|modern|welcoming",
+  "who_its_for": "beginners|serious_golfers|juniors_youth|corporate_teams|families",
+  "why_golfers_like_it": [
+    "Advanced Foresight Sports launch monitors provide detailed swing data for immediate performance feedback",
+    "Personalized coaching philosophy tailored to individual goals and skill levels",
+    "Separate dedicated short game areas for chipping and putting to improve all aspects of the game",
+    "Climate-controlled indoor facility for year-round practice regardless of weather conditions",
+    "Technology like slow-motion camera systems and PuttView offering detailed visual feedback"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food services mentioned."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol services mentioned."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": "GC3",
+      "notes": "High-end launch monitor providing accurate swing data including ball speed, club speed, distances, club path, and face angle."
+    },
+    {
+      "brand": "Foresight",
+      "model": "GC Quad",
+      "notes": "Premium launch monitor with comprehensive data tracking for detailed swing analysis."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": 4,
+  "booking_url": "https://directimpactgolf.pike13.com/offerings",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 4,
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.5,
+  "rating_value_for_money": 4.3,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "Yes, you should bring your own golf clubs to use during your session at Direct Impact Golf."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "The website does not specify policies on outside food or drink, so it's best to contact them directly for confirmation."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "The time required to play 18 virtual holes can vary depending on simulator software and player pace, though it generally ranges from 2-3 hours."
+    },
+    {
+      "question": "Is this facility kid-friendly?",
+      "answer": "Yes, Direct Impact Golf offers junior golf programs and has been positively reviewed by parents for their children's instruction and improvement."
+    }
+  ],
+  "rating_overall": 4.5,
+  "opening_hours": "{\"Monday\": [\"10AM-7PM\"], \"Tuesday\": [\"10AM-7PM\"], \"Wednesday\": [\"10AM-7PM\"], \"Thursday\": [\"10AM-7PM\"], \"Friday\": [\"10AM-7PM\"], \"Saturday\": [\"Closed\"], \"Sunday\": [\"Closed\"]}"
+}

@@ -1,0 +1,90 @@
+{
+  "name": "Draper Indoor Golf Club",
+  "address": "126 12300 S Suite A, Draper, UT 84020",
+  "city": "Draper",
+  "region": "Utah",
+  "country": "US",
+  "latitude": 40.527448,
+  "longitude": -111.89477,
+  "phone": "+18016783337",
+  "website": "http://draperindoorgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770206002/golf_simulators/draperindoorgolf_com_ChIJBx2vYF6HUocR8XB2mRT04hs.png",
+  "google_maps_url": "https://www.google.com/maps/place/Draper+Indoor+Golf+Club/@40.5274479,-111.89476959999999,14z/data=!4m8!1m2!2m1!1sDraper+Indoor+Golf+Club!3m4!1s0x8752875e60af1d07:0x1be2f414997670f1!8m2!3d40.5274479!4d-111.89476959999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJBx2vYF6HUocR8XB2mRT04hs",
+  "email": "jeffdanielsemail@gmail.com",
+  "venue_type": "multi_sport_sim",
+  "about": "Draper Indoor Golf Club is a high-tech golf simulation venue featuring Full Swing Pro Series technology. They utilize infrared lightwave technology combined with high-speed cameras to provide a realistic ball flight experience with no delay. The facility offers memberships that provide access to their advanced equipment, over 50 golf courses, and various games for all ages. Members get 24-hour access to reserve bays for events, work gatherings, and family nights. The venue caters to both casual players and serious golfers looking for a premium indoor experience.",
+  "tags": "beginner_friendly|serious_golfers|families|corporate_events|leagues|premium_tech|private_rooms|club_rentals|coaching_available",
+  "vibe_tags": "tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Ultimate simulator experience with infrared lightwave technology and high-speed cameras",
+    "Access to Full Swing Pro Series equipment used by PGA Tour professionals",
+    "24-hour access for private members to practice and play on their own schedule",
+    "Over 50+ golf courses available for play"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of food service on premises"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service on premises"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Full Swing",
+      "model": "Pro Series",
+      "notes": "Infrared lightwave technology with high-speed cameras, used by PGA Tour professionals like Tiger Woods"
+    }
+  ],
+  "simulator_software": [
+    "Full Swing Golf"
+  ],
+  "launch_monitor_type": "infrared_optical",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "http://draperindoorgolf.com/pricing",
+  "pricing_model": "membership_only",
+  "price_range_min_local": 150,
+  "price_range_max_local": 1500,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|leagues|private_party_room",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website doesn't specify whether equipment is provided or if members need to bring their own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "There's no mention of food or drink service, suggesting a BYOB policy may be in place, but this is not explicitly confirmed."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website doesn't provide information on typical duration for playing 18 holes on the simulators."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue describes itself as having games for 'all ages' and mentions family nights as a use case for their bays."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": null
+}

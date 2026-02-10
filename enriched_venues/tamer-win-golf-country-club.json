@@ -1,0 +1,93 @@
+{
+  "name": "Tamer Win Golf & Country Club",
+  "address": "3020 Niles Cortland Rd NE, Cortland, OH 44410",
+  "city": "Cortland",
+  "region": "Ohio",
+  "country": "US",
+  "latitude": 41.299756,
+  "longitude": -80.730819,
+  "phone": "+13306372881",
+  "website": "http://www.tamerwin.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770269900/golf_simulators/www_tamerwin_com_ChIJX2tBa67eM4gRZ_5yGdbx50M.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Tamer+Win+Golf+%26+Country+Club/@41.299755999999995,-80.730819,14z/data=!4m8!1m2!2m1!1sTamer+Win+Golf+%26+Country+Club!3m4!1s0x8833deae6b416b5f:0x43e7f1d61972fe67!8m2!3d41.299755999999995!4d-80.730819",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJX2tBa67eM4gRZ_5yGdbx50M",
+  "venue_type": "country_club",
+  "about": "Tamer Win Golf & Country Club is a public golf facility in Cortland, Ohio, featuring 18 holes, a driving range, and a full-service golf shop. The venue includes indoor golf capabilities with a TrackMan simulator and a PuttView virtual green for year-round practice and play. It offers a comprehensive golf school, club fitting services, pro shop, and snack bar, catering to a wide range of golfers from beginners to serious players.",
+  "tags": "beginner_friendly|food_and_drinks|coaching_available|leagues|premium_tech|club_rentals|family_friendly|juniors_youth",
+  "vibe_tags": "community_club|family_fun_center|sports_bar",
+  "who_its_for": "beginners|serious_golfers|families|juniors_youth|solo_practice",
+  "why_golfers_like_it": [
+    "Premium TrackMan simulator technology for accurate ball and club tracking",
+    "Custom club fitting services with PGA professional and demo equipment",
+    "Indoor golf leagues and full 18-hole simulator play options",
+    "Comprehensive junior golf programs and instructional classes",
+    "On-site golf shop with custom fitting and repair services"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Snack bar available on-site"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Bar service available in the facility"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "TrackMan",
+      "model": "iO",
+      "notes": "Premier ball and club tracking radar for simulator sessions"
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://yourgolfbooking.com/venues/pro-performance-golf-academy/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|pro_shop|club_fitting|leagues|ada_accessible|wifi|tv_sports",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "Rental clubs are available upon request for a nominal fee and can be reserved in advance."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue has a snack bar on-site, but BYOB policies are not explicitly mentioned."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The exact time for 18 holes in the simulator is not specified, but typical sessions range from 1-2 hours depending on group size and pace."
+    },
+    {
+      "question": "Is it kid-friendly?",
+      "answer": "Yes, the venue offers junior golf clinics and programs specifically designed for youth golfers."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"7AM-8PM\"], \"Tuesday\": [\"7AM-8PM\"], \"Wednesday\": [\"7AM-8PM\"], \"Thursday\": [\"7AM-8PM\"], \"Friday\": [\"7AM-8PM\"], \"Saturday\": [\"7AM-8PM\"], \"Sunday\": [\"7AM-8PM\"]}"
+}

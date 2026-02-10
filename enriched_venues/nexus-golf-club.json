@@ -1,0 +1,79 @@
+{
+  "name": "NEXUS Golf Club",
+  "address": "100 Church St Basement, New York, NY 10007",
+  "city": "New York",
+  "region": "New York",
+  "country": "US",
+  "latitude": 40.713317,
+  "longitude": -74.010111,
+  "phone": "+19293887030",
+  "website": "https://www.nexusgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770207788/golf_simulators/www_nexusgolf_com_ChIJaWYTRqBbwokRONcYEIxCk1k.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/NEXUS+Golf+Club/@40.7133174,-74.0101115,14z/data=!4m8!1m2!2m1!1sNEXUS+Golf+Club!3m4!1s0x89c25ba046136669:0x5993428c1018d738!8m2!3d40.7133174!4d-74.0101115",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJaWYTRqBbwokRONcYEIxCk1k",
+  "email": "info@nexusgolf.com",
+  "venue_type": "training_studio",
+  "about": "NEXUS Golf Club is a premium private indoor golf facility located in Downtown Manhattan. It is equipped with state-of-the-art hitting bays and Trackman iO technology, allowing golfers to improve their game year-round. Members enjoy complimentary bay usage and access to personalized training with in-house professionals. The facility also features a True Spec Golf location for club fittings and is led by instructor Collin Woods, offering a holistic coaching approach focused on biomechanics, technology, and wellness. Membership is required for bay usage, priced at $5,000 annually.",
+  "tags": "serious_practice|coaching_available|premium_tech|private_rooms|club_rentals|club_fitting|upscale_lounge",
+  "vibe_tags": "private_luxury|tech_lab",
+  "who_its_for": "serious_golfers|solo_practice|coaches_instructors|corporate_teams",
+  "why_golfers_like_it": [
+    "Access to Trackman iO technology for real-time performance data and score tracking",
+    "Complimentary annual club fitting with True Spec Golf",
+    "Flexible bay availability with nearly 24/7 access for members",
+    "Holistic coaching approach from a lead instructor with elite industry connections"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": null,
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Combines radar, infrared, and high-speed imaging for real-time 3D spin and spin axis data"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://checkout.square.site/merchant/ML1FWRPK5SAAR/checkout/37IWPLDBFVDYFDDIUE3CDCK5?src=embed",
+  "pricing_model": "membership_only",
+  "price_range_min_local": 5000,
+  "price_range_max_local": 5000,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|club_fitting|private_rooms",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Members can securely store their clubs at the facility (additional fee applies), but bringing your own clubs is recommended for personalized fitting and practice sessions."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The website does not mention any food or drink services, so it appears BYOB is not available. Contact the facility for more details."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify a time estimate for 18 holes, but with Trackman technology and flexible booking, golfers can play at their own pace."
+    },
+    {
+      "question": "Is NEXUS Golf Club kid-friendly?",
+      "answer": "No, the facility is a premium private indoor golf club focused on serious golf practice and coaching, not a family-oriented environment."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"5AM-12AM\"], \"Tuesday\": [\"5AM-12AM\"], \"Wednesday\": [\"5AM-12AM\"], \"Thursday\": [\"5AM-12AM\"], \"Friday\": [\"5AM-12AM\"], \"Saturday\": [\"7AM-11PM\"], \"Sunday\": [\"7AM-11PM\"]}"
+}

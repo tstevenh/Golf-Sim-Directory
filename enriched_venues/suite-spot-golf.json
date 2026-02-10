@@ -1,0 +1,95 @@
+{
+  "name": "Suite Spot Golf",
+  "address": "3710 Hobson Rd, Fort Wayne, IN 46815",
+  "city": "Fort Wayne",
+  "region": "Indiana",
+  "country": "US",
+  "latitude": 41.110907,
+  "longitude": -85.098843,
+  "phone": "+12607970444",
+  "website": "http://suitespotgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770204591/golf_simulators/suitespotgolf_com_ChIJ5-aT02T9FYgRWWKLBjzznM4.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Suite+Spot+Golf/@41.110906899999996,-85.09884339999999,14z/data=!4m8!1m2!2m1!1sSuite+Spot+Golf!3m4!1s0x8815fd64d393e6e7:0xce9cf33c068b6259!8m2!3d41.110906899999996!4d-85.09884339999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ5-aT02T9FYgRWWKLBjzznM4",
+  "email": "Ryan@suitespotgolf.com",
+  "venue_type": "sim_bar",
+  "about": "Suite Spot Golf is a high-end indoor golf and bourbon entertainment venue featuring eight oversized simulator suites with massive HD screens. The facility utilizes TrackMan technology for advanced golf simulation and offers a full-service sports bar with an extensive selection of over 100 bourbons and 40 beers. It operates with winter hours and is designed as a premium experience for both golf and sports viewing.",
+  "tags": "food_and_drinks|serious_golfers|corporate_events|leagues|premium_tech|date_night|large_groups|private_rooms",
+  "vibe_tags": "upscale_lounge|sports_bar",
+  "who_its_for": "serious_golfers|corporate_teams|large_groups|date_night|tourists_travelers",
+  "why_golfers_like_it": [
+    "Premium TrackMan technology for accurate ball and club tracking",
+    "Upscale bar with extensive bourbon and beer selection for socializing",
+    "Large HD screens with NFL Sunday Ticket for sports entertainment",
+    "Spacious oversized simulator suites for group play",
+    "High-end golf and bourbon experience in a casual setting"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full-service sports bar with a food menu"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Extensive selection of over 100 bourbons and 40 beers"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "TrackMan",
+      "model": "iO",
+      "notes": "Premium radar-based launch technology with advanced ball and club tracking"
+    }
+  ],
+  "simulator_so": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 8,
+  "booking_url": "https://www.suitespotgolf.com/booklocation",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you should bring your own golf clubs for the simulation experience."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No, the venue offers a full-service sports bar with an extensive food and drink menu."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to complete 18 holes varies depending on the number of players and pace of play, but typically ranges from 1-2 hours."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "No, Suite Spot Golf is an adult-oriented venue focused on a high-end golf and bourbon experience."
+    }
+  ],
+  "simulator_software": [
+    "TrackMan"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"12-10PM\"], \"Tuesday\": [\"12-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-10PM\"], \"Saturday\": [\"10AM-10PM\"], \"Sunday\": [\"11AM-7PM\"]}"
+}

@@ -1,0 +1,91 @@
+{
+  "name": "Golf Lounge 18",
+  "address": "7 Backus Ave Space# C101, Danbury, CT 06810",
+  "city": "Danbury",
+  "region": "Connecticut",
+  "country": "US",
+  "latitude": 41.380833,
+  "longitude": -73.48113,
+  "phone": "+12037946254",
+  "website": "http://www.golflounge18.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770209163/golf_simulators/www_golflounge18_com_ChIJCTFCeVBV3YkRh8p6r0f3cCo.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Golf+Lounge+18/@41.3808334,-73.4811296,14z/data=!4m8!1m2!2m1!1sGolf+Lounge+18!3m4!1s0x89dd555079423109:0x2a70f747af7aca87!8m2!3d41.3808334!4d-73.4811296",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJCTFCeVBV3YkRh8p6r0f3cCo",
+  "email": "info@golflounge18.com",
+  "venue_type": "sim_bar",
+  "about": "Golf Lounge 18 is a state-of-the-art indoor golf facility featuring TrackMan 4 dual radar technology across multiple locations in the Northeastern United States. The venue provides an upscale environment with amenities including a full bar and multiple HDTVs for watching sports. Guests can reserve hourly simulator bays for play, practice, or lessons, with rates that can be split among groups. The facility is equipped to host a variety of events, from corporate outings to personal parties, and features an academy for golf instruction. Memberships offer benefits such as advanced booking privileges up to 21 days in advance.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|coaching_available|club_rentals",
+  "vibe_tags": "upscale_lounge|sports_bar|family_fun_center|tech_lab",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Access to premium TrackMan 4 technology with dual radar for detailed club and ball data",
+    "Ability to play on over 450 famous golf courses worldwide from an indoor setting",
+    "Full bar and food service available, making it suitable for social and casual play",
+    "Flexible booking system allows for drop-in play or advanced reservations",
+    "Professional instruction available using TrackMan data for game improvement"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Expanded food menu available for socializing before, during, or after play"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar available on-site"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "Dual Radar Technology trusted by hundreds of professionals"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://golflounge18.com/book/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|pro_shop|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue offers club rentals, though you are welcome to bring your own clubs to use in the simulators."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No, outside food and drinks are not permitted. The facility offers an expanded menu with a full bar available for purchase."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "Playing 18 holes depends on your pace and simulator usage. The facility operates on hourly bay reservations, allowing flexibility for your group's timing."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Golf Lounge 18 offers junior clinics and instruction programs, making it suitable for families with children interested in golf."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"8AM-11PM\"], \"Saturday\": [\"8AM-11PM\"], \"Sunday\": [\"8AM-10PM\"]}"
+}

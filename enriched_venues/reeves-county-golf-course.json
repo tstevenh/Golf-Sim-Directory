@@ -1,0 +1,90 @@
+{
+  "name": "Reeves County Golf Course",
+  "address": "88 Starley Dr, Pecos, TX 79772",
+  "city": "Pecos",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 31.393245,
+  "longitude": -103.502601,
+  "phone": "+14322870444",
+  "website": "http://reevescountygolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770240895/golf_simulators/reevescountygolf_com_ChIJv1d6PvTM-oYRFYa0zQA5e9U.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Reeves+County+Golf+Course/@31.3932449,-103.5026015,14z/data=!4m8!1m2!2m1!1sReeves+County+Golf+Course!3m4!1s0x86faccf43e7a57bf:0xd57b3900cdb48615!8m2!3d31.3932449!4d-103.5026015",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJv1d6PvTM-oYRFYa0zQA5e9U",
+  "venue_type": "country_club",
+  "about": "Reeves County Golf Course is a public 18-hole facility in Pecos, Texas, featuring a driving range equipped with TrackMan digital golf technology at no extra cost. The course offers GPS-enabled rental carts with 10-inch tablets and hosts various tournaments, leagues, and special events like glow-in-the-dark scrambles. Daily and yearly memberships are available, with special rates for military and veterans, making it a versatile destination for golfers of all skill levels.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|family_friendly|juniors_youth|corporate_teams|solo_practice",
+  "vibe_tags": "community_club|family_fun_center|tech_lab",
+  "who_its_for": "beginners|serious_golfers|families|juniors_youth|corporate_teams",
+  "why_golfers_like_it": [
+    "TrackMan digital games available at no extra cost",
+    "GPS-enabled rental carts with tablets for immersive rounds",
+    "Regular tournaments and leagues for competitive play",
+    "Family-friendly events like glow-in-the-dark scrambles"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Pizza, hot dogs, nachos, and other snacks available on-site; 19th Hole specials include Ribeye and Pork Chop meals"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Ice-cold drinks available for purchase"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "TrackMan",
+      "model": "iO",
+      "notes": "Digital golf system available at driving range at no extra cost, with Power Tee coming soon"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://reevescountygolfcourse.teesnap.net",
+  "pricing_model": "mixed",
+  "price_range_min_local": 16,
+  "price_range_max_local": 664,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|kitchen_food|tv_sports|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Club rentals are available, but players are welcome to bring their own equipment."
+    },
+    {
+      "question": "Can I bring outside food or drinks?",
+      "answer": "Outside food and drinks are not mentioned; on-site food and drinks are available for purchase."
+    },
+    {
+      "question": "How long does an 18-hole round typically take?",
+      "answer": "The course is open Monday-Sunday, with specific play hours (2 PM-11 PM on Mondays, sunrise-sunset Tuesday-Sunday), but typical round times are not specified."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the facility hosts junior high and high school tournaments and has a welcoming environment for families."
+    }
+  ],
+  "simulator_software": [
+    "TrackMan"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"8AM-7PM\"], \"Wednesday\": [\"8AM-7PM\"], \"Thursday\": [\"8AM-7PM\"], \"Friday\": [\"8AM-7PM\"], \"Saturday\": [\"8AM-7PM\"], \"Sunday\": [\"8AM-7PM\"]}"
+}

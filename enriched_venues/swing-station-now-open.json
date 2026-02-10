@@ -1,0 +1,95 @@
+{
+  "name": "Swing Station - Now Open!",
+  "address": "1900 I 35 N Frontage Rd #104, San Marcos, TX 78666",
+  "city": "San Marcos",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 29.898668,
+  "longitude": -97.905849,
+  "phone": "+15122003770",
+  "website": "https://swingstationgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770228938/golf_simulators/swingstationgolf_com_ChIJz885Q4-pXIYRSgv3Pdzm2dM.png",
+  "google_maps_url": "https://www.google.com/maps/place/Swing+Station+-+Now+Open%21/@29.898667699999997,-97.9058494,14z/data=!4m8!1m2!2m1!1sSwing+Station+-+Now+Open%21!3m4!1s0x865ca98f4339cfcf:0xd3d9e6dc3df70b4a!8m2!3d29.898667699999997!4d-97.9058494",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJz885Q4-pXIYRSgv3Pdzm2dM",
+  "email": "_info@swingstationgolf.com_",
+  "venue_type": "multi_sport_sim",
+  "about": "Swing Station is an indoor golf simulation venue in San Marcos, Texas, offering year-round access to climate-controlled golf bays. The facility utilizes Full Swing simulators with PGA-licensed technology to provide realistic golfing experiences. Patrons can book by the hour for individual play or reserve bays for groups, with options available for parties, leagues, private lessons, and corporate events. The venue accommodates up to 4 players per bay and features additional non-golf activities like soccer, zombie dodgeball, and baseball pitching simulations. Membership programs are available, offering hourly packages and priority booking benefits.",
+  "tags": "beginner_friendly|corporate_events|leagues|premium_tech|kids_friendly|coaching_available|food_and_drinks|date_night|family_fun_center",
+  "vibe_tags": "family_fun_center|tech_lab|community_club|casual|welcoming",
+  "who_its_for": "families|beginners|corporate_teams|solo_practice|kids",
+  "why_golfers_like_it": [
+    "Year-round climate-controlled indoor golf regardless of weather",
+    "Full Swing PGA-licensed simulators offering realistic course accuracy",
+    "Variety of non-golf activities including soccer and zombie dodgeball",
+    "BYOB policy allowing guests to bring their own food and drinks",
+    "Accommodates up to 4 players per bay for group play",
+    "Available for private parties and corporate events"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "BYOB policy allows guests to bring their own food and drinks"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "BYOB policy allows guests to bring their own alcohol"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Full Swing",
+      "model": "PGA Licensed",
+      "notes": "Used by Tiger Woods, featuring high-speed cameras and sophisticated sensors"
+    }
+  ],
+  "simulator_so": [
+    "PGA Licensed"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://yourgolfbooking.com/venues/swing-station/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|tv_sports|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue does not specify whether clubs are provided, so it is recommended to bring your own golf equipment."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, Swing Station operates on a BYOB (Bring Your Own Beverage) policy, allowing guests to bring their own food and drinks."
+    },
+    {
+      "question": "How much time is needed for 18 holes?",
+      "answer": "The venue recommends 1-2 hours for 18 holes, depending on the number of players and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Swing Station is kid-friendly and offers non-golf activities like soccer goal simulators, zombie dodgeball, and baseball pitching games."
+    }
+  ],
+  "simulator_software": [
+    "Full Swing"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"Closed\"], \"Wednesday\": [\"9AM-7PM\"], \"Thursday\": [\"9AM-7PM\"], \"Friday\": [\"10AM-8PM\"], \"Saturday\": [\"10AM-8PM\"], \"Sunday\": [\"10AM-8PM\"]}"
+}

@@ -1,0 +1,92 @@
+{
+  "name": "Swing Space Golf",
+  "address": "5931 E Main St, Columbus, OH 43213",
+  "city": "Columbus",
+  "region": "Ohio",
+  "country": "US",
+  "latitude": 39.953404,
+  "longitude": -82.840259,
+  "phone": "+16146940006",
+  "website": "https://swingspace.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770211413/golf_simulators/swingspace_com_ChIJQVojuuNjOIgRHsCE3Hh63O0.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Swing+Space+Golf/@39.9534041,-82.8402593,14z/data=!4m8!1m2!2m1!1sSwing+Space+Golf!3m4!1s0x883863e3ba235a41:0xeddc7a78dc84c01e!8m2!3d39.9534041!4d-82.8402593",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJQVojuuNjOIgRHsCE3Hh63O0",
+  "email": "jamesp@swingspace.com",
+  "venue_type": "other",
+  "about": "Swing Space Golf is a comprehensive indoor golf facility located in Columbus, Ohio. It serves as a hub for golf performance, social entertainment, and instruction, utilizing state-of-the-art technology to provide an authentic experience. The venue features a sports bar and offers mobile simulator services, catering to both serious golfers looking to improve their game and casual players seeking a fun outing.\n\nThe facility is equipped with Trackman simulators, allowing for precise data analysis and gameplay on world-famous courses. Swing Space offers various pricing tiers, including facility memberships and monthly options, as well as hourly rentals for individuals and groups. The space is designed to accommodate a range of activities, from solo practice sessions and league play to private corporate events and parties.\n\nBeyond the virtual fairways, Swing Space provides a full-service sports bar atmosphere. Guests can enjoy beers, seltzers, cocktails, and simple food options during their visit. The venue emphasizes a community feel, hosting leagues and events while maintaining a professional environment for golf instruction and club fittings.",
+  "tags": "indoor_golf|simulator|social|bar_food|lessons|leagues|events|trackman|mobile_simulators",
+  "vibe_tags": "sports_bar|casual|modern|family_friendly|community|entertainment",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "Trackman launch monitor technology for accurate data",
+    "Full-service sports bar with happy hour specials",
+    "Flexible memberships and hourly booking options",
+    "Mobile simulator rental service for off-site events",
+    "Golf performance center with professional instruction",
+    "League play and competitive events"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar including beer, seltzers, and cocktails"
+    },
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Simple food menu available"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "unknown",
+      "notes": "Trackman iO implied by 'camera bay add' options and general Trackman tech references"
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "launch_monitor_type": "Trackman",
+  "ball_tracking": "Radar",
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "https://yourgolfbooking.com/venues/swing-space-golf/booking",
+  "pricing_model": "Hourly rentals and Memberships",
+  "price_range_min_local": 40,
+  "price_range_max_local": 50,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "Sports Bar|Happy Hour|Private Events|Club Fitting|Golf Instruction|Mobile Simulators|Leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "While not explicitly stated, most indoor golf facilities offer rental clubs. It is recommended to contact the venue directly if you need to borrow equipment."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, as a venue with a full sports bar serving beer, cocktails, and food, outside food and drink are likely prohibited."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Typically, 18 holes on a simulator takes about 45 to 60 minutes, depending on the skill level and pace of the players."
+    },
+    {
+      "question": "Is this kid-friendly?",
+      "answer": "Yes, Swing Space is family-friendly and welcomes children. They offer specific Junior Memberships and host family outings."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-9PM\"], \"Tuesday\": [\"9AM-9PM\"], \"Wednesday\": [\"9AM-9PM\"], \"Thursday\": [\"9AM-9PM\"], \"Friday\": [\"9AM-10PM\"], \"Saturday\": [\"9AM-10PM\"], \"Sunday\": [\"9AM-10PM\"]}"
+}

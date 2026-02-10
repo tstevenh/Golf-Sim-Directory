@@ -1,0 +1,89 @@
+{
+  "name": "True Spec Golf - Denver",
+  "address": "7600 E 1st Pl, Denver, CO 80230",
+  "city": "Denver",
+  "region": "Colorado",
+  "country": "US",
+  "latitude": 39.720978,
+  "longitude": -104.897915,
+  "phone": "+18447298809",
+  "website": "https://truespecgolf.com/denver/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770222579/golf_simulators/truespecgolf_com_ChIJS5BiZRSbbIcR5MyLFWDVRR8.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/True+Spec+Golf+-+Denver/@39.7209784,-104.8979146,14z/data=!4m8!1m2!2m1!1sTrue+Spec+Golf+-+Denver!3m4!1s0x876c9b146562904b:0x1f45d560158bcce4!8m2!3d39.7209784!4d-104.8979146",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJS5BiZRSbbIcR5MyLFWDVRR8",
+  "email": "info@truespecgolf.com",
+  "venue_type": "training_studio",
+  "about": "True Spec Golf Denver is a dedicated indoor fitting bay located within Hangar Club, an indoor golf entertainment social club. The venue provides brand-agnostic club fittings utilizing a matrix of over 70,000 clubhead and shaft combinations, helping fitters identify the best equipment to improve a golfer's game. It operates by appointment only, with hours on Mondays from 12pm-8pm and Tuesday through Friday from 9am-5pm.",
+  "tags": "serious_golfers|club_fitting|beginner_friendly|coaching_available|premium_tech",
+  "vibe_tags": "modern|tech_lab",
+  "who_its_for": "serious_golfers|beginners|coaches_instructors|solo_practice",
+  "why_golfers_like_it": [
+    "Brand-agnostic fitting with access to over 70,000 clubhead and shaft combinations",
+    "Master fitters use industry-leading launch monitor technology for precise recommendations",
+    "Located within Hangar Club, offering an elevated golf entertainment experience"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "Food and drink options likely available through the host venue, Hangar Club, but not explicitly mentioned for the True Spec fitting bay."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "Alcohol service likely available through the host venue, Hangar Club, but not explicitly mentioned for the True Spec fitting bay."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "TrackMan",
+      "model": "iO",
+      "notes": "Industry-leading launch monitor technology used for fittings."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 1,
+  "booking_url": "https://truespecgolf.com/get-fit/",
+  "pricing_model": "unknown",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "false",
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|club_fitting",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you should bring your own clubs for the fitting session, especially if you are doing a Gap Analysis or Shaft Only retrofit. Fitters will use your existing equipment as a baseline for comparison."
+    },
+    {
+      "question": "Can I bring food or drink to my fitting?",
+      "answer": "As a fitting service, True Spec itself does not mention food or drink policies. However, since it is located within Hangar Club, which is an indoor golf entertainment social club, it's likely that food and beverage options are available through the host venue."
+    },
+    {
+      "question": "How long does an 18-hole fitting session take?",
+      "answer": "A full 18-hole fitting is not a standard service. The fitting process is tailored to the specific clubs being tested and the golfer's needs, with timing varying based on the scope of the fitting."
+    },
+    {
+      "question": "Is this location kid-friendly?",
+      "answer": "The provided information does not specify if the True Spec Denver location is particularly kid-friendly, though the service of fitting golf clubs is generally not aimed at children."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"12-8PM\"], \"Tuesday\": [\"9AM-5PM\"], \"Wednesday\": [\"9AM-5PM\"], \"Thursday\": [\"9AM-5PM\"], \"Friday\": [\"9AM-5PM\"], \"Saturday\": [\"Closed\"], \"Sunday\": [\"Closed\"]}"
+}

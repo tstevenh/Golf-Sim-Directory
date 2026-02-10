@@ -1,0 +1,83 @@
+{
+  "name": "Virtual Links Golf",
+  "address": "229 Main St, Platte City, MO 64079",
+  "city": "Platte City",
+  "region": "Missouri",
+  "country": "US",
+  "latitude": 39.369964,
+  "longitude": -94.781648,
+  "phone": "+18168586005",
+  "website": "https://virtuallinksgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770229629/golf_simulators/virtuallinksgolf_com_ChIJjZYb8F9nwIcRjW8Og3_JY3Q.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Virtual+Links+Golf/@39.369963999999996,-94.78164799999999,14z/data=!4m8!1m2!2m1!1sVirtual+Links+Golf!3m4!1s0x87c0675ff01b968d:0x7463c97f830e6f8d!8m2!3d39.369963999999996!4d-94.78164799999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJjZYb8F9nwIcRjW8Og3_JY3Q",
+  "venue_type": "sim_bar|training_studio|retail_fitting_center|multi_sport_sim",
+  "about": "Virtual Links Golf is an indoor golf facility offering state-of-the-art simulators for play in any weather. As a family-owned and operated business, they prioritize customer satisfaction and provide a range of services including club repair and fitting. The venue features covered hitting bays, putting greens, and chipping areas, making it suitable for both casual play and serious practice. Their simulators allow golfers to enjoy the game year-round, with options for booking tee times and hosting group events or corporate outings.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|premium_tech|club_rentals|coaching_available",
+  "vibe_tags": "casual|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "State-of-the-art simulators for weather-proof play",
+    "Comprehensive club repair and fitting services",
+    "Family-owned and operated with customer satisfaction as a priority",
+    "Flexible booking system for tee times and group events"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "BYOB allowed, no food service mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "BYOB (Bring Your Own Beverage) policy"
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://apimanager-cc20.clubcaddie.com/activities/view/iefdabab",
+  "pricing_model": "per_person_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|lockers|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, players are expected to bring their own golf clubs for use in the simulators."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, BYOB (Bring Your Own Beverage) is allowed, and the venue does not mention food service."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Typically, 18 holes can be completed in 1.5 to 2 hours depending on the number of players in your group."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is described as family-friendly and suitable for group events, making it accommodating for children."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"11AM-8PM\"], \"Tuesday\": [\"11AM-8PM\"], \"Wednesday\": [\"11AM-8PM\"], \"Thursday\": [\"11AM-8PM\"], \"Friday\": [\"10AM-10PM\"], \"Saturday\": [\"10AM-10PM\"], \"Sunday\": [\"10AM-5PM\"]}"
+}

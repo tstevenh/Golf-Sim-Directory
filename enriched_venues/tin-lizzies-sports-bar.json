@@ -1,0 +1,89 @@
+{
+  "name": "Tin Lizzie's Sports Bar",
+  "address": "620 Mc Pherson St, Casey, IA 50048",
+  "city": "Casey",
+  "region": "Iowa",
+  "country": "US",
+  "latitude": 41.50649,
+  "longitude": -94.519549,
+  "phone": "+16417463316",
+  "website": "https://www.tinlizziessportsbar.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770256381/golf_simulators/www_tinlizziessportsbar_com_ChIJORUFWzuN7IcRCZJAIH1lcRM.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Tin+Lizzie%27s+Sports+Bar/@41.5064899,-94.5195494,14z/data=!4m8!1m2!2m1!1sTin+Lizzie%27s+Sports+Bar!3m4!1s0x87ec8d3b5b051539:0x1371657d20409209!8m2!3d41.5064899!4d-94.5195494",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJORUFWzuN7IcRCZJAIH1lcRM",
+  "venue_type": "sim_bar",
+  "about": "Tin Lizzie's Sports Bar is a modern venue offering golf simulator experiences alongside a full-service bar and food menu. Located in downtown historic Casey, Iowa, it operates with a unique speakeasy vibe and is an extension of Pioneers Pub & Grub. The facility features high-tech Full Swing golf simulators and is designed for both casual play and serious practice, catering to individuals and groups looking for a relaxed entertainment option. Reservations are highly recommended, and the venue can accommodate up to six people per simulator bay, making it suitable for both small groups and larger parties.",
+  "tags": "food_and_drinks|beginner_friendly|date_night|corporate_events|premium_tech|private_rooms|club_rentals|community_club",
+  "vibe_tags": "sports_bar|speakeasy|tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|tourists_travelers",
+  "why_golfers_like_it": [
+    "State-of-the-art Full Swing simulator system with dual-tracking technology for precise swing data",
+    "One of only two locations in Iowa offering this premium simulator technology",
+    "Ability to play on 84 championship golf courses in a relaxed, social bar environment"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Fully functioning kitchen with a small plates menu"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full-service bar available"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Full Swing",
+      "model": "Full Swing Simulator System",
+      "notes": "Patented dual-tracking technology with high-speed cameras and infrared light wave"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "https://tinlizziessportsbar.setmore.com",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": false,
+  "private_rooms_count": 0,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you are required to bring your own golf clubs to use the simulators."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No, outside food and drinks are not permitted. The venue offers a full bar and a small plates kitchen menu."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "It takes roughly one hour per person to complete 18 holes."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The website does not explicitly state if the venue is kid-friendly, so it is recommended to contact them directly for specific policies regarding children."
+    }
+  ],
+  "simulator_software": [
+    "Full Swing"
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"Closed\"], \"Wednesday\": [\"5-10PM\"], \"Thursday\": [\"5-10PM\"], \"Friday\": [\"5PM-1AM\"], \"Saturday\": [\"11AM-1AM\"], \"Sunday\": [\"1-6PM\"]}"
+}

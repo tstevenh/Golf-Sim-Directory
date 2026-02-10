@@ -1,0 +1,84 @@
+{
+  "name": "Sam's Bar & Gaming (+Golf)",
+  "address": "12320 W 143rd St, Homer Glen, IL 60491",
+  "city": "Homer Glen",
+  "region": "Illinois",
+  "country": "US",
+  "latitude": 41.629718,
+  "longitude": -87.919408,
+  "phone": "+17089662829",
+  "website": "http://samshomerglen.com/golf",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770230533/golf_simulators/samshomerglen_com_ChIJqzMomBBBDogRUVhIudsnGc4.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Sam%27s+Bar+%26+Gaming+%28%2BGolf%29/@41.6297176,-87.91940819999999,14z/data=!4m8!1m2!2m1!1sSam%27s+Bar+%26+Gaming+%28%2BGolf%29!3m4!1s0x880e4110982833ab:0xce1927dbb9485851!8m2!3d41.6297176!4d-87.91940819999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJqzMomBBBDogRUVhIudsnGc4",
+  "email": "samshomerglen@outlook.com",
+  "venue_type": "sim_bar",
+  "about": "Sam's Bar & Gaming is a family-run establishment offering indoor golf alongside bar and gaming amenities. The facility provides golf simulators for year-round play, allowing patrons to avoid weather-related disruptions. It caters to both individual practice sessions and group outings, with a focus on creating a welcoming environment for sports enthusiasts. Pricing is structured by time of day and day of the week, offering an accessible option for casual players looking for a combined golf and social experience.",
+  "tags": "food_and_drinks|beginner_friendly|date_night|sports_bar|leagues|budget_friendly|community_club|late_night",
+  "vibe_tags": "sports_bar|family_fun_center|casual|welcoming",
+  "who_its_for": "beginners|families|large_groups|solo_practice|corporate_teams",
+  "why_golfers_like_it": [
+    "Year-round, weather-proof indoor golf experience",
+    "Combines golfing with social and dining options",
+    "Flexible and affordable hourly pricing",
+    "A relaxed, family-run atmosphere"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "On-site kitchen available with a full menu"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar available with daily specials"
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "https://booking.registrygolf.com?organizationId=87413e89-8892-45b9-9ab9-1ed412a89f23",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 20,
+  "price_range_max_local": 40,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "full_bar|kitchen_food|tv_sports|leagues|ada_accessible",
+  "rating_tech_quality": 3.5,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 4.2,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you are encouraged to bring your own clubs. If you do, please ensure the club faces are clean before play. The venue also has rentals available."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, outside food and drinks are not permitted inside the simulators. However, there is a full kitchen and bar available on-site. All food and drinks must be kept at the provided tables."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "It takes one person roughly one hour to golf 18 holes. A group of four would need four hours to complete their round."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Sam's Bar & Gaming is a family-run establishment with a welcoming atmosphere. Guests under 18 are required to be supervised by an adult when playing."
+    }
+  ],
+  "rating_overall": 3.9,
+  "opening_hours": "{\"Monday\": [\"9AM-12AM\"], \"Tuesday\": [\"9AM-12AM\"], \"Wednesday\": [\"9AM-12AM\"], \"Thursday\": [\"9AM-12AM\"], \"Friday\": [\"9AM-2AM\"], \"Saturday\": [\"10AM-2AM\"], \"Sunday\": [\"10AM-11PM\"]}"
+}

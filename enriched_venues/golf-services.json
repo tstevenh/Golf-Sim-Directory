@@ -1,0 +1,91 @@
+{
+  "name": "Golf Services",
+  "address": "6958 W Main St, Kalamazoo, MI 49009",
+  "city": "Kalamazoo",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 42.299317,
+  "longitude": -85.686233,
+  "phone": "+12693725956",
+  "website": "http://www.golf-services.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770249144/golf_simulators/www_golf-services_com_ChIJLcR84rRwF4gRFEpFpyJPWFg.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Golf+Services/@42.2993167,-85.68623339999999,14z/data=!4m8!1m2!2m1!1sGolf+Services!3m4!1s0x881770b4e27cc42d:0x58584f22a7454a14!8m2!3d42.2993167!4d-85.68623339999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJLcR84rRwF4gRFEpFpyJPWFg",
+  "email": "thestaff@golf-services.com",
+  "venue_type": "training_studio",
+  "about": "Golf Services is a golf facility established in 1984, located in Kalamazoo, Michigan. It offers a comprehensive range of services including a driving range, pro shop, golf lessons, club repair and regripping, and golf club fitting. The facility is equipped with a TrackMan Range system, providing advanced swing analysis and club fitting technology. It caters to golfers of all ages and skill levels, offering personalized instruction and equipment solutions to improve performance.",
+  "tags": "beginner_friendly|coaching_available|pro_shop|club_fitting|leagues|juniors_youth|serious_practice",
+  "vibe_tags": "casual|welcoming|modern|community_club",
+  "who_its_for": "beginners|serious_golfers|families|solo_practice|coaches_instructors",
+  "why_golfers_like_it": [
+    "Access to TrackMan Range technology for advanced swing analysis",
+    "Personalized club fitting using TrackMan TM4 system",
+    "Comprehensive services including lessons, repairs, and retail",
+    "Welcoming environment for all skill levels with group and private options",
+    "Convenient location with ample parking and a well-maintained facility"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned on the website."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned on the website."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "TM4",
+      "notes": "Primary launch monitor for fitting and range analysis"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 30,
+  "booking_url": "unknown",
+  "pricing_model": "mixed",
+  "price_range_min_local": 50,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "pro_shop|club_fitting|leagues|club_rentals|wifi",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, Golf Services offers club rentals and a 'Try Before You Buy' option with clubs from their fitting stock and inventory."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No outside food or drinks are mentioned on the website. The facility does not have an on-site kitchen or bar."
+    },
+    {
+      "question": "How long does it take to play 18 holes on the simulator?",
+      "answer": "Simulator play time is not specified on the website, as the focus is on practice, fitting, and lessons rather than virtual course play."
+    },
+    {
+      "question": "Is Golf Services kid-friendly?",
+      "answer": "Yes, Golf Services offers golf lessons for all ages, including programs specifically designed for juniors and youth golfers."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-6PM\"], \"Tuesday\": [\"9AM-6PM\"], \"Wednesday\": [\"9AM-6PM\"], \"Thursday\": [\"9AM-6PM\"], \"Friday\": [\"9AM-6PM\"], \"Saturday\": [\"9AM-6PM\"], \"Sunday\": [\"Closed\"]}"
+}

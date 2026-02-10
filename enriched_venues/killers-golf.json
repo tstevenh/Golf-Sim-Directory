@@ -1,0 +1,88 @@
+{
+  "name": "Killers Golf",
+  "address": "400 W Nolana Ave Suite A3, McAllen, TX 78501",
+  "city": "McAllen",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 26.239917,
+  "longitude": -98.218546,
+  "phone": "+19564764653",
+  "website": "http://killersgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770231739/golf_simulators/killersgolf_com_ChIJDcwwWMuhZYYR_B_WwUwuAO8.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Killers+Golf/@26.239916899999997,-98.2185456,14z/data=!4m8!1m2!2m1!1sKillers+Golf!3m4!1s0x8665a1cb5830cc0d:0xef002e4cc1d61ffc!8m2!3d26.239916899999997!4d-98.2185456",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJDcwwWMuhZYYR_B_WwUwuAO8",
+  "venue_type": "sim_bar",
+  "about": "Killers Golf is McAllen's first indoor Trackman golf club and sports bar. The venue features 130 top-rated golf courses worldwide, accessible through advanced simulator technology. It combines a high-tech golfing experience with a full-service sports bar, offering golfers of all ages the opportunity to play, practice, or socialize. The facility is equipped with Trackman technology for precise swing analysis and metrics, complemented by a bar menu with hot food, cold drinks, and live sporting events broadcast on ten large screen TVs throughout the club.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|kids_friendly|corporate_events|leagues|premium_tech|club_rentals|coaching_available|family_friendly",
+  "vibe_tags": "sports_bar|family_fun_center|tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "Access to 130+ top-rated golf courses worldwide",
+    "Advanced Trackman technology for precise swing analysis and metrics",
+    "Family-friendly environment with full bar and sports viewing options"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Hot food available on-site"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with cold drinks available; BYOB not mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Advanced dual radar and camera system for precise tracking"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "https://foreupsoftware.com/index.php/booking/21457/7852#/teetimes",
+  "pricing_model": "mixed",
+  "price_range_min_local": 20,
+  "price_range_max_local": 55,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|kitchen_food|tv_sports|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 3.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Not specified - it's recommended to bring your own clubs for the best experience, though rentals may be available."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No, outside food and drinks are not allowed as the venue offers a full bar and kitchen on-site."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "For groups of 3 or less, it takes approximately 3 to 4 hours to complete 18 holes."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Killers Golf is family-friendly and welcomes golfers of all ages, including children."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"2PM-12AM\"], \"Tuesday\": [\"2PM-12AM\"], \"Wednesday\": [\"2PM-12AM\"], \"Thursday\": [\"2PM-12AM\"], \"Friday\": [\"10AM-12AM\"], \"Saturday\": [\"10AM-12AM\"], \"Sunday\": [\"10AM-12AM\"]}"
+}

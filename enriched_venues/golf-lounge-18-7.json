@@ -1,0 +1,93 @@
+{
+  "name": "Golf Lounge 18",
+  "address": "401 Evergreen Way, South Windsor, CT 06074",
+  "city": "South Windsor",
+  "region": "Connecticut",
+  "country": "US",
+  "latitude": 41.812383,
+  "longitude": -72.556427,
+  "phone": "+18602008655",
+  "website": "https://golflounge18.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770209083/golf_simulators/golflounge18_com_ChIJ58Y9f-1X5okR6EowLYDSCNg.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Golf+Lounge+18/@41.812382899999996,-72.5564275,14z/data=!4m8!1m2!2m1!1sGolf+Lounge+18!3m4!1s0x89e657ed7f3dc6e7:0xd808d2802d304ae8!8m2!3d41.812382899999996!4d-72.5564275",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ58Y9f-1X5okR6EowLYDSCNg",
+  "email": "info@golflounge18.com",
+  "venue_type": "sim_bar|training_studio",
+  "about": "Golf Lounge 18 is an indoor golf facility equipped with TrackMan 4 simulators and available for various activities including league play, private lessons, and event hosting. The venue offers a social atmosphere with a full bar, TVs for sports viewing, and food and beverage service. Bay reservations can be made up to 21 days in advance for members and 7 days for non-members, with walk-ins also welcome. Their technology is focused on performance improvement with TrackMan 4 Dual Radar, trusted by professionals and offering a library of over 450 world-famous courses.",
+  "tags": "beginner_friendly|food_and_drinks|leagues|premium_tech|coaching_available|juniors_youth|corporate_events",
+  "vibe_tags": "sports_bar|community_club|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "State-of-the-art TrackMan 4 dual radar technology for accurate ball and club tracking",
+    "Access to a vast library of over 450 world-famous golf courses",
+    "Social atmosphere with a full bar and multiple TVs for sports viewing",
+    "Junior and ladies-specific instruction programs available"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen available with an expanded food menu served during operating hours."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar available on-site."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "Dual Radar Technology, trusted by hundreds of pros"
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://golflounge18.com/book/",
+  "pricing_model": "per_bay_hour|membership",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues|junior_academy",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, players are expected to bring their own golf clubs to use with the simulators."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drinks are not permitted, as the venue offers its own full bar and expanded food and beverage menu."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "Time to play 18 holes can vary but is typically completed in 1-2 hours depending on group size and play pace."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Golf Lounge 18 offers a Junior Academy with group instruction and clinics, making it suitable for children to learn and play."
+    }
+  ],
+  "simulator_software": [
+    "Trackman 4"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"8AM-11PM\"], \"Saturday\": [\"8AM-11PM\"], \"Sunday\": [\"9AM-10PM\"]}"
+}

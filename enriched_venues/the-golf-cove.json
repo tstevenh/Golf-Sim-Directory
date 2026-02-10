@@ -1,0 +1,91 @@
+{
+  "name": "The Golf Cove",
+  "address": "4713 S 200 W, Murray, UT 84107",
+  "city": "Murray",
+  "region": "Utah",
+  "country": "US",
+  "latitude": 40.669486,
+  "longitude": -111.896571,
+  "phone": "+18019156283",
+  "website": "https://www.thegolfcove.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770205995/golf_simulators/www_thegolfcove_com_ChIJWx8iYeOLUocRWzCXn632XDo.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Golf+Cove/@40.6694856,-111.8965715,14z/data=!4m8!1m2!2m1!1sThe+Golf+Cove!3m4!1s0x87528be361221f5b:0x3a5cf6ad9f97305b!8m2!3d40.6694856!4d-111.8965715",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJWx8iYeOLUocRWzCXn632XDo",
+  "email": "info@thegolfcove.com",
+  "venue_type": "training_studio",
+  "about": "The Golf Cove is a private golf studio offering a temperature-controlled environment for year-round practice and play. It features the largest single bay private studio in the state and utilizes Trackman technology, providing access to 350+ world-famous courses and advanced tools like AI swing coaching. The venue caters to both serious practice sessions and social golf experiences with options to play 18 holes in as little as one hour, making it ideal during Utah's winter months. Membership plans offer flexible options, including unlimited access and one-hour daily sessions, with complimentary drinks for members.",
+  "tags": "serious_practice|food_and_drinks|beginner_friendly|corporate_events|premium_tech|budget_friendly|private_rooms|club_rentals|coaching_available",
+  "vibe_tags": "private_luxury|tech_lab|community_club",
+  "who_its_for": "serious_golfers|beginners|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "350+ iconic golf courses available for play",
+    "24/7 access to private temperature-controlled studios",
+    "Complimentary drinks and snacks included with membership",
+    "AI swing coach and Trackman technology for advanced analysis",
+    "Flexible membership options including one-hour daily bookings"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Complimentary snacks included with membership"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Complimentary drinks included with membership"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Premium launch monitor with radar technology"
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.thegolfcove.com/book-online",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 125,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 2,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|wifi|club_fitting",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.5,
+  "rating_value_for_money": 4.2,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue does not specify whether club rentals are available. It's recommended to bring your own clubs for the best experience."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, outside food and drinks are not needed. The venue provides complimentary snacks and drinks for all members."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "An 18-hole round can be played in as little as one hour using the Trackman simulator."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The venue does not specifically mention kid-friendly amenities or policies. It's primarily focused on adult golf practice and play."
+    }
+  ],
+  "rating_overall": 4.5,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

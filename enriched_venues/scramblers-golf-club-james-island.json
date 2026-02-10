@@ -1,0 +1,91 @@
+{
+  "name": "Scramblers Golf Club - James Island",
+  "address": "1291 Folly Rd Suite 110, Charleston, SC 29412",
+  "city": "Charleston",
+  "region": "South Carolina",
+  "country": "US",
+  "latitude": 32.71783,
+  "longitude": -79.968047,
+  "phone": "+18439204477",
+  "website": "https://scramblersgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770208276/golf_simulators/scramblersgolf_com_ChIJ83dQgrB5_ogRH1e02qKZfAQ.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Scramblers+Golf+Club+-+James+Island/@32.7178301,-79.9680474,14z/data=!4m8!1m2!2m1!1sScramblers+Golf+Club+-+James+Island!3m4!1s0x88fe79b0825077f3:0x47c99a2dab4571f!8m2!3d32.7178301!4d-79.9680474",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ83dQgrB5_ogRH1e02qKZfAQ",
+  "email": "info@scramblersgolf.com",
+  "venue_type": "sim_bar|training_studio",
+  "about": "Scramblers Golf Club is a collection of private member-only indoor golf simulation venues focused on game improvement, access, and community. The facilities offer 24/7 access to simulator bays equipped with best-in-class technology for practice with live swing data or playing rounds on over 100 golf courses. Membership is required, providing an affordable monthly model with recurring access. The James Island location is part of a group with five locations in Charleston, SC and one in Florida, designed to create a modern clubhouse environment for golfers to improve, socialize, and compete.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|budget_friendly|club_rentals|coaching_available",
+  "vibe_tags": "community_club|modern|tech_lab",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "24/7 access to premium simulator technology",
+    "Member-based community with leagues and events",
+    "Affordable monthly membership model",
+    "Access to over 100+ golf courses and 13 mini-games",
+    "Best-in-class Uneekor launch monitors with <1% data accuracy"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Members are allowed to bring in their own food; no in-house kitchen mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Members are allowed to bring in their own drinks (BYOB policy)"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "Pressure Plate",
+      "notes": "Premium camera IR-based technology with ball and Refine tech for instant spin analysis"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "infrared_optical",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://clients.uschedule.com/scramblersgolf/account/login",
+  "pricing_model": "membership_only",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": "false",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need clubs?",
+      "answer": "Yes, members must provide their own golf equipment to use the simulators."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, members are allowed to bring in their own food and drinks; please be respectful and clean up after yourself."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "While specific time isn't mentioned, typical simulator rounds take 2-3 hours depending on pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "No, Scramblers is a private member-only club with no specific mentions of child-focused amenities or activities."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

@@ -1,15 +1,17 @@
 import { Metadata } from "next";
+import { Prisma } from "@prisma/client";
 import { db, venueCardSelect } from "@/lib/db";
 import { BestByPageContent } from "@/components/seo/BestByPageContent";
-import { matchesSoftware } from "@/lib/best-by";
 import { getStaticRelatedLinks } from "@/lib/category-config.generated";
+import { extractSoftwareSlugsFromComprehensiveData, normalizeSoftwareSlug } from "@/lib/software-slugs";
 
 interface BestSoftwarePageProps {
   params: Promise<{ software: string }>;
   searchParams?: Promise<Record<string, string | string[] | undefined>>;
 }
 
-export const revalidate = 3600;
+export const revalidate = 86400;
+type VenueCardRow = Prisma.VenueGetPayload<{ select: typeof venueCardSelect }>;
 
 // Pre-render all software pages at build time
 export async function generateStaticParams() {
@@ -83,17 +85,48 @@ export async function generateMetadata({ params }: BestSoftwarePageProps): Promi
 export default async function BestSoftwarePage({ params, searchParams }: BestSoftwarePageProps) {
   const paramsResolved = (await searchParams) || {};
   const page = Math.max(1, Number(paramsResolved.page || 1));
+  const pageSize = 12;
   const { software } = await params;
   const label = software.replace(/-/g, " ").replace(/\b\w/g, l => l.toUpperCase());
   const softwareKey = software.toLowerCase();
+  const softwareSlug = normalizeSoftwareSlug(softwareKey);
+  const skip = (page - 1) * pageSize;
+  const canUseArrayFilters = typeof (db as unknown as { $queryRaw?: unknown }).$queryRaw === "function";
 
-  const venues = await db.venue.findMany({
-    where: { status: "active" },
-    orderBy: [{ featured: "desc" }, { ratingOverall: "desc" }, { name: "asc" }],
-    select: { ...venueCardSelect, comprehensiveData: true },
-  });
+  let totalVenues = 0;
+  let venues: VenueCardRow[] = [];
 
-  const filteredVenues = venues.filter((venue) => matchesSoftware(venue, label));
+  if (!softwareSlug) {
+    totalVenues = 0;
+    venues = [];
+  } else if (canUseArrayFilters) {
+    const where = {
+      status: "active" as const,
+      softwareSlugs: { has: softwareSlug },
+    };
+    [totalVenues, venues] = await Promise.all([
+      db.venue.count({ where }),
+      db.venue.findMany({
+        where,
+        orderBy: [{ featured: "desc" }, { ratingOverall: "desc" }, { name: "asc" }],
+        select: venueCardSelect,
+        take: pageSize,
+        skip,
+      }),
+    ]);
+  } else {
+    const allVenues = await db.venue.findMany({
+      where: { status: "active" },
+      orderBy: [{ featured: "desc" }, { ratingOverall: "desc" }, { name: "asc" }],
+      select: { ...venueCardSelect, softwareSlugs: true, comprehensiveData: true },
+    });
+    const filteredVenues = allVenues.filter((venue) => {
+      if ((venue.softwareSlugs || []).includes(softwareSlug)) return true;
+      return extractSoftwareSlugsFromComprehensiveData(venue.comprehensiveData).includes(softwareSlug);
+    });
+    totalVenues = filteredVenues.length;
+    venues = filteredVenues.slice(skip, skip + pageSize) as VenueCardRow[];
+  }
 
   const content = softwareContent[softwareKey] || {
     tagline: `${label} Simulator Software`,
@@ -149,13 +182,15 @@ export default async function BestSoftwarePage({ params, searchParams }: BestSof
       ctaDescription="Claim your listing to verify software details and appear in our curated collections."
       ctaPrimary={{ label: "Claim Your Listing", href: "/claim" }}
       ctaSecondary={{ label: "Submit New Venue", href: "/submit" }}
-      venues={filteredVenues}
+      venues={venues}
+      totalVenues={totalVenues}
       categoryType="software"
-      categoryValue={softwareKey}
+      categoryValue={softwareSlug || softwareKey}
       heroSubtitle={content.tagline}
       breadcrumbItems={breadcrumbs}
       showRanking={true}
       currentPage={page}
+      pageSize={pageSize}
       baseUrl={`/best/software/${software}`}
     />
   );

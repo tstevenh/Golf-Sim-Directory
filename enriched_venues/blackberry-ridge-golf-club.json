@@ -1,0 +1,91 @@
+{
+  "name": "Blackberry Ridge Golf Club",
+  "address": "3125 Clubhouse Rd, Sartell, MN 56377",
+  "city": "Sartell",
+  "region": "Minnesota",
+  "country": "US",
+  "latitude": 45.662182,
+  "longitude": -94.243813,
+  "phone": "+13202574653",
+  "website": "http://blackberryridgegolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770252749/golf_simulators/blackberryridgegolf_com_ChIJxekthrlctFIR-3DXDGCzOrc.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Blackberry+Ridge+Golf+Club/@45.662182,-94.24381299999999,14z/data=!4m8!1m2!2m1!1sBlackberry+Ridge+Golf+Club!3m4!1s0x52b45cb9862de9c5:0xb73ab3600cd770fb!8m2!3d45.662182!4d-94.24381299999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJxekthrlctFIR-3DXDGCzOrc",
+  "email": "events@blackberryridgegolf.com",
+  "venue_type": "sim_bar|training_studio",
+  "about": "Blackberry Ridge Golf Club is a multi-venue facility featuring an 18-hole public golf course, a state-of-the-art golf academy with TrackMan technology, and a golf simulator bay available for off-season practice and events. The venue offers a blend of on-course play, year-round instruction, and high-tech simulation in a climate-controlled setting. It also includes a full-service restaurant, Grill19, and space for weddings and special events, providing a comprehensive golf and dining experience.",
+  "tags": "serious_golfers|food_and_drinks|beginner_friendly|corporate_events|leagues|premium_tech|coaching_available|club_fitting",
+  "vibe_tags": "upscale_lounge|sports_bar|modern|community_club",
+  "who_its_for": "serious_golfers|beginners|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Premium TrackMan technology for data-driven swing analysis",
+    "Year-round indoor practice available regardless of weather",
+    "On-site dining at Grill19 for a complete experience",
+    "Professional instruction and custom club fitting services",
+    "Multiple bays and technology for different practice needs"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full dining service available at Grill19 with local and fresh food options."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Bar service available on-site at Grill19."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "TrackMan",
+      "model": "iO",
+      "notes": "Professional-grade launch monitor used for lessons, fittings, and simulator sessions."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 1,
+  "booking_url": "https://blackberryridgegolf.com/golf-course/#simulator",
+  "pricing_model": "per_person_hour|mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|club_fitting|leagues|wifi|pro_shop",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You are welcome to bring your own clubs, but the facility also offers rental clubs for convenience."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drinks are not mentioned, but the venue offers a full-service restaurant, Grill19, with food and beverage options."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Information on simulator time for 18 holes is not specified; it is recommended to contact the venue for details on session duration."
+    },
+    {
+      "question": "Is the simulator kid-friendly?",
+      "answer": "Yes, the venue is described as suitable for all ages and skill levels, making it kid-friendly."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"7:30AM-8PM\"], \"Tuesday\": [\"7:30AM-9PM\"], \"Wednesday\": [\"7:30AM-9PM\"], \"Thursday\": [\"7:30AM-9PM\"], \"Friday\": [\"7:30AM-8PM\"], \"Saturday\": [\"7:30AM-8PM\"], \"Sunday\": [\"7:30AM-8PM\"]}"
+}

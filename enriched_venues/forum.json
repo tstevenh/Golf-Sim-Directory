@@ -1,0 +1,91 @@
+{
+  "name": "Forum",
+  "address": "125 Woodland Rd, Delano, MN 55328",
+  "city": "Delano",
+  "region": "Minnesota",
+  "country": "US",
+  "latitude": 45.035413,
+  "longitude": -93.792127,
+  "phone": "+17639009111",
+  "website": "https://forumdelano.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770215843/golf_simulators/forumdelano_com_ChIJDyIbBmuptFIRfj38E2o-P0A.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Forum/@45.035413399999996,-93.7921269,14z/data=!4m8!1m2!2m1!1sForum!3m4!1s0x52b4a96b061b220f:0x403f3e6a13fc3d7e!8m2!3d45.035413399999996!4d-93.7921269",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJDyIbBmuptFIRfj38E2o-P0A",
+  "email": "memberships@forumdelano.com",
+  "venue_type": "multi_sport_sim",
+  "about": "Forum is a multi-sport venue in Delano, MN, featuring indoor pickleball courts, a health club, and two Trackman iO golf simulators. The simulators are located in a private lounge overlooking the pickleball courts. The facility offers a membership model that includes complimentary access to fitness areas, locker rooms, and sauna facilities. Reservations for the golf simulators can be booked online, and the venue is marketed as a place to practice, compete, or have fun with a realistic golfing experience. The space also includes amenities such as complimentary coffee and healthy grab-and-go snacks, and free parking is available.",
+  "tags": "beginner_friendly|corporate_events|leagues|premium_tech|club_rentals|community_club|coaching_available",
+  "vibe_tags": "upscale_lounge|community_club|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Professional swing analysis with Trackman iO technology",
+    "Access to hundreds of world-class courses",
+    "Private, comfortable lounge environment overlooking courts",
+    "Realistic gameplay measuring ball flight data",
+    "Team-based formats like Scramble for social play"
+  ],
+  "kid_friendly": false,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Complimentary coffee and healthy grab-and-go snacks and meals available."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service on-site."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Two simulators located in a private lounge."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://forum.podplay.app/book/forum?pod=golf-simulator",
+  "pricing_model": "mixed",
+  "price_range_min_local": null,
+  "price_range_max_local": null,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|wifi|pro_shop|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The content does not specify, but it is standard practice for golf simulator venues that players bring their own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "Outside food and drink are not mentioned, but the venue offers complimentary coffee and healthy grab-and-go snacks. It's best to contact them directly for specific policies."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The content does not provide an estimated time for playing a full 18 holes on the simulator."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "The venue is a multi-sport center with pickleball, but there is no specific information regarding child-friendly amenities or policies for the golf simulator area."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Saturday\": [\"Open 24 hours\"]}"
+}

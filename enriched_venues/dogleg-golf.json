@@ -1,0 +1,90 @@
+{
+  "name": "Dogleg Golf",
+  "address": "155 US-130 Suite C, Cinnaminson, NJ 08077",
+  "city": "Cinnaminson",
+  "region": "New Jersey",
+  "country": "US",
+  "latitude": 39.991531,
+  "longitude": -75.00808,
+  "phone": "+18565434417",
+  "website": "https://dogleggolfnj.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770207078/golf_simulators/dogleggolfnj_com_ChIJacpf4TG1xokRaDIs2JHsz2Y.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Dogleg+Golf/@39.991530999999995,-75.0080796,14z/data=!4m8!1m2!2m1!1sDogleg+Golf!3m4!1s0x89c6b531e15fca69:0x66cfec91d82c3268!8m2!3d39.991530999999995!4d-75.0080796",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJacpf4TG1xokRaDIs2JHsz2Y",
+  "email": "info@dogleggolfnj.com",
+  "venue_type": "sim_bar",
+  "about": "Dogleg Golf is an indoor golf simulator venue in Cinnaminson, NJ, offering year-round access to golf through its TrackMan 4 simulator bays. The facility provides a space for all skill levels to play, practice, and socialize, featuring high-tech simulation and a casual BYOB environment. Pricing is based on hourly bay rentals, with non-peak and peak hour rates, and options for memberships for frequent players. It is best suited for casual play, group events, and golfers seeking a modern, tech-driven experience without weather constraints.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|club_rentals|community_club|private_rooms|coaching_available",
+  "vibe_tags": "sports_bar|community_club|modern|casual|welcoming",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "State-of-the-art TrackMan 4 technology provides precise ball and club data for detailed swing analysis",
+    "BYOB policy allows guests to bring their own food and drinks, creating a relaxed, social atmosphere",
+    "Over 250 virtual golf courses available for a diverse and authentic playing experience"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Guests may bring their own food or order from local restaurants; no on-site kitchen or food service."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "BYOB establishment. Guests may bring their own beer or wine. Must be 21+ to consume alcohol; ID may be checked."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "Dual high-speed cameras for precise swing and ball tracking data."
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://yourgolfbooking.com/venues/dogleg/booking/bays",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 150,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 0,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|wifi|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You are encouraged to bring your own clubs. However, club rentals are available for $10 per round."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "Yes, the venue is BYOB (Bring Your Own Beer/Wine) for alcohol (21+ ID required) and food. You can also order from local restaurants."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "For 18 holes on the simulator, it takes approximately 1 hour for 1 player, 2 hours for 2 players, 2.5 hours for 3 players, and 3.5 hours for 4 players."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is accessible and suitable for families, with policies that accommodate guests of all ages."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-9PM\"], \"Tuesday\": [\"9AM-9PM\"], \"Wednesday\": [\"9AM-9PM\"], \"Thursday\": [\"9AM-9PM\"], \"Friday\": [\"9AM-11PM\"], \"Saturday\": [\"9AM-11PM\"], \"Sunday\": [\"9AM-9PM\"]}"
+}

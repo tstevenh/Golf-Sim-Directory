@@ -1,0 +1,90 @@
+{
+  "name": "Clubhouse Sports Bar",
+  "address": "12 Pottstown Pike Suite 1B, Chester Springs, PA 19425",
+  "city": "Chester Springs",
+  "region": "Pennsylvania",
+  "country": "US",
+  "latitude": 40.072019,
+  "longitude": -75.680542,
+  "phone": "+14846173344",
+  "website": "https://chsportsbar.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770230173/golf_simulators/chsportsbar_com_ChIJlYKQGNaLxokRxxmmpN-vDBM.png",
+  "google_maps_url": "https://www.google.com/maps/place/Clubhouse+Sports+Bar/@40.0720187,-75.6805419,14z/data=!4m8!1m2!2m1!1sClubhouse+Sports+Bar!3m4!1s0x89c68bd618908295:0x130cafdfa4a619c7!8m2!3d40.0720187!4d-75.6805419",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJlYKQGNaLxokRxxmmpN-vDBM",
+  "email": "joe@xgolfchestersprings.com",
+  "venue_type": "sim_bar",
+  "about": "Clubhouse Sports Bar offers a comprehensive indoor golf experience combined with a vibrant sports bar atmosphere. The facility features XGolf indoor simulation technology, providing realistic gameplay on multiple screens. Patrons can enjoy a full bar and food from Epicurean Garage while having access to a variety of entertainment options including pool tables, darts, shuffleboard, and cornhole. The venue hosts regular leagues and events, creating a social environment suitable for both casual play and organized competition.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|family_friendly|private_rooms|community_club",
+  "vibe_tags": "sports_bar|family_fun_center|community_club|modern",
+  "who_its_for": "beginners|families|corporate_teams|large_groups|solo_practice",
+  "why_golfers_like_it": [
+    "XGolf simulation technology offers accurate and realistic gameplay",
+    "Combined bar and food service allows for full entertainment experience",
+    "Regular golf leagues provide competitive and social opportunities",
+    "Variety of screens enhances the viewing experience for sports"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full food menu available from Epicurean Garage"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar available on-site"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "XGolf",
+      "model": "Indoor Simulator",
+      "notes": "Camera systems, infrared lasers, impact sensors and advanced gaming software"
+    }
+  ],
+  "simulator_software": [
+    "XGolf"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://iframe.uschedule.com/xgolfchestersprings/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue provides golf equipment, but players can bring their own clubs if preferred."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No, the venue has a full bar and kitchen from Epicurean Garage serving food and drinks on-site."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "Standard 18-hole rounds typically take 60-90 minutes depending on the number of players in your bay."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Clubhouse Sports Bar welcomes families and offers a family-friendly atmosphere with various activities suitable for different age groups."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"4-11PM\"], \"Tuesday\": [\"4-11PM\"], \"Wednesday\": [\"12-11PM\"], \"Thursday\": [\"12-11PM\"], \"Friday\": [\"12-11PM\"], \"Saturday\": [\"9AM-12AM\"], \"Sunday\": [\"9AM-9PM\"]}"
+}

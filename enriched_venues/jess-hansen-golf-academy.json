@@ -1,0 +1,91 @@
+{
+  "name": "Jess Hansen Golf Academy",
+  "address": "19310 E 50th Terrace Suite N, Independence, MO 64055",
+  "city": "Independence",
+  "region": "Missouri",
+  "country": "US",
+  "latitude": 39.028155,
+  "longitude": -94.357637,
+  "phone": "+18164054531",
+  "website": "https://jesshansengolfacademy.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770229859/golf_simulators/jesshansengolfacademy_com_ChIJYbGRE0QdwYcRPpxgjQA6Ois.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Jess+Hansen+Golf+Academy/@39.0281549,-94.357637,14z/data=!4m8!1m2!2m1!1sJess+Hansen+Golf+Academy!3m4!1s0x87c11d441391b161:0x2b3a3a008d609c3e!8m2!3d39.0281549!4d-94.357637",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJYbGRE0QdwYcRPpxgjQA6Ois",
+  "venue_type": "training_studio",
+  "about": "Jess Hansen Golf Academy is a premier golf training facility located within the APEX Sports Complex. The academy offers a comprehensive suite of golf improvement services including private instruction, group classes, and technology-enhanced practice sessions using TrackMan launch monitors and SAM PuttLab systems. Their core offerings feature a Golf School Crash Course, private lessons for all skill levels, and specialized junior programs, all designed to provide a structured pathway for skill development. The facility emphasizes data-driven improvement with pro video analysis, club fitting, and personalized practice plans.",
+  "tags": "serious_practice|coaching_available|juniors_youth|beginner_friendly|club_fitting|group_lessons|tech_lab",
+  "vibe_tags": "industrial_training|community_club|modern",
+  "who_its_for": "beginners|serious_golfers|juniors_youth|families|coaches_instructors",
+  "why_golfers_like_it": [
+    "Access to premium TrackMan and SAM PuttLab technology for detailed swing analysis",
+    "PGA-certified professional instruction with a focus on personalized practice plans",
+    "Flexible options ranging from private lessons to group classes and home simulator sales"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No on-site food or drink services mentioned."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol services mentioned."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "TrackMan",
+      "model": "iO",
+      "notes": "Five range bays equipped with TrackMan technology for launch monitor services and golf simulations."
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 5,
+  "booking_url": "https://clients.uschedule.com/jesshansengolfacademy/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 125,
+  "price_range_max_local": 695,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|club_fitting|wifi",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The academy provides all necessary equipment for lessons and practice sessions."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "No on-site food or drink services are mentioned; BYOB is not specified."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "18-hole play time is not specified, as the focus is on practice and lessons rather than full course simulation."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Jess Hansen Golf Academy offers dedicated junior programs including Beginner and Elite Summer Camps for young golfers."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-5PM\"], \"Tuesday\": [\"9AM-7PM\"], \"Wednesday\": [\"9AM-7PM\"], \"Thursday\": [\"9AM-7PM\"], \"Friday\": [\"9AM-5PM\"], \"Saturday\": [\"8AM-4PM\"], \"Sunday\": [\"9AM-4PM\"]}"
+}

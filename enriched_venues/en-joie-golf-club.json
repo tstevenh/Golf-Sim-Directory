@@ -1,0 +1,90 @@
+{
+  "name": "En-Joie Golf Club",
+  "address": "722 W Main St, Endicott, NY 13760",
+  "city": "Endicott",
+  "region": "New York",
+  "country": "US",
+  "latitude": 42.092083,
+  "longitude": -76.080366,
+  "phone": "+16077851661",
+  "website": "http://www.enjoiegolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770262444/golf_simulators/www_enjoiegolf_com_ChIJBZBQWlTr2okR0ftE1JGZnAI.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/En-Joie+Golf+Club/@42.0920829,-76.0803662,14z/data=!4m8!1m2!2m1!1sEn-Joie+Golf+Club!3m4!1s0x89daeb545a509005:0x29c9991d444fbd1!8m2!3d42.0920829!4d-76.0803662",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJBZBQWlTr2okR0ftE1JGZnAI",
+  "venue_type": "sim_bar",
+  "about": "En-Joie Golf Club features an indoor golf simulator with Foresight GCQuad technology, open Tuesday, Thursday, and Saturday during the winter season. The venue offers over 50 virtual courses and is located within the club's upstairs restaurant, providing a comfortable atmosphere with food and beverage options. The golf course itself is a public championship layout in Endicott, NY, and the club hosts professional events like the Dick's Sporting Goods Open.",
+  "tags": "food_and_drinks|serious_practice|premium_tech|corporate_events|date_night|club_rentals|coaching_available",
+  "vibe_tags": "sports_bar|community_club|casual|welcoming",
+  "who_its_for": "serious_golfers|corporate_teams|solo_practice|tourists_travelers|coaches_instructors",
+  "why_golfers_like_it": [
+    "Foresight GCQuad technology trusted by PGA Tour professionals",
+    "Convenient indoor play during winter months",
+    "Over 50 virtual courses to choose from",
+    "Food and beverage available in the restaurant"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Food available for purchase at the upstairs restaurant"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": "GCQuad",
+      "notes": "Trusted by PGA Tour professionals"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": false,
+  "bay_count_total": "unknown",
+  "booking_url": "https://sc.cps.golf/EnjoieV3",
+  "pricing_model": "per_person_hour",
+  "price_range_min_local": 50,
+  "price_range_max_local": 50,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "food_and_drinks|club_rentals|pro_shop",
+  "rating_tech_quality": 5.0,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Not specified, but typically personal golf clubs are recommended for the simulator experience."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drinks are not mentioned; food and beverages are available for purchase at the venue's restaurant."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Tee times are sold in 30-minute increments, so 18 holes would take approximately 2 hours depending on group size and pace."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The simulator is specified as right-handers only, and there is no mention of kid-specific features, making it less suitable for families."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"8AM-6PM\"], \"Tuesday\": [\"8AM-6PM\"], \"Wednesday\": [\"8AM-6PM\"], \"Thursday\": [\"8AM-6PM\"], \"Friday\": [\"8AM-6PM\"], \"Saturday\": [\"8AM-6PM\"], \"Sunday\": [\"8AM-6PM\"]}"
+}

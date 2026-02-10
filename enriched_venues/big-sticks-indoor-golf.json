@@ -1,0 +1,101 @@
+{
+  "name": "Big Sticks Indoor Golf",
+  "address": "26 Ray Ave, Burlington, MA 01803",
+  "city": "Burlington",
+  "region": "Massachusetts",
+  "country": "US",
+  "latitude": 42.482212,
+  "longitude": -71.184212,
+  "phone": "+17812292269",
+  "website": "http://bigsticksgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770200032/golf_simulators/bigsticksgolf_com_ChIJJ9lvZYR144kRotlJOmbypJI.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Big+Sticks+Indoor+Golf/@42.482212,-71.1842121,14z/data=!4m8!1m2!2m1!1sBig+Sticks+Indoor+Golf!3m4!1s0x89e37584656fd927:0x92a4f2663a49d9a2!8m2!3d42.482212!4d-71.1842121",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJJ9lvZYR144kRotlJOmbypJI",
+  "email": "BSGoffice@verizon.net",
+  "venue_type": "training_studio",
+  "about": "Big Sticks Indoor Golf is a year-round golf training, practice, and instruction facility founded in 2004. Located minutes from Boston, it offers professional PGA lessons and state-of-the-art technology including aboutGolf simulators, Foresight Sports launch monitors, and JC Video swing analysis systems. The facility focuses on accuracy and improvement, providing a professional environment for golfers of all levels to practice with precise data, including detailed club and ball tracking metrics.",
+  "tags": "serious_practice|beginner_friendly|corporate_events|premium_tech|coaching_available|private_rooms|juniors_youth|budget_friendly",
+  "vibe_tags": "industrial_training|community_club|modern",
+  "who_its_for": "serious_golfers|beginners|coaches_instructors|juniors_youth|corporate_teams",
+  "why_golfers_like_it": [
+    "Tour-level, PGA-endorsed technology for precise swing and ball data",
+    "Year-round practice with no weather limitations",
+    "Personalized PGA instruction with detailed video swing analysis",
+    "Focus on improvement over entertainment with accurate, reliable data",
+    "Flexible booking options including hourly bays and lesson packages"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service offered; nearby restaurants available for takeout/delivery"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service provided; BYOB is not mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "aboutGolf",
+      "model": "Simulators",
+      "notes": "PGA-endorsed with GSP software and 1,000+ courses"
+    },
+    {
+      "brand": "Foresight Sports",
+      "model": "GCQuad",
+      "notes": "Camera-based and infrared technology for precise ball and club data"
+    },
+    {
+      "brand": "Foresight Sports",
+      "model": "GCHawk",
+      "notes": "Overhead-mounted launch monitor for simultaneous left/right-handed play"
+    }
+  ],
+  "simulator_software": [
+    "GSP"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.bigsticksgolf.com/book-lesson-or-practice/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 55,
+  "price_range_max_local": 170,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 2,
+  "amenities_list": "club_rentals|pro_shop|wifi|private_party_room|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, golfers must bring their own clubs to practice at Big Sticks Indoor Golf."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, Big Sticks does not allow outside food or drinks. The facility focuses entirely on golf practice and does not offer food service."
+    },
+    {
+      "question": "How much time is needed for 18 holes on a simulator?",
+      "answer": "One player typically requires one hour to play 18 holes; two players should allow two hours, and so on."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, Big Sticks offers private lessons for kids ages 7 and up, making it a great place for junior golfers to learn and play."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-9PM\"], \"Tuesday\": [\"9AM-9PM\"], \"Wednesday\": [\"9AM-9PM\"], \"Thursday\": [\"9AM-9PM\"], \"Friday\": [\"9AM-8PM\"], \"Saturday\": [\"9AM-8PM\"], \"Sunday\": [\"9AM-6PM\"]}"
+}

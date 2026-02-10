@@ -1,0 +1,90 @@
+{
+  "name": "Southern Dunes Golf Course",
+  "address": "8220 S Tibbs Ave, Indianapolis, IN 46217",
+  "city": "Indianapolis",
+  "region": "Indiana",
+  "country": "US",
+  "latitude": 39.645896,
+  "longitude": -86.212531,
+  "phone": "+13178651800",
+  "website": "https://southerndunesgolfcourse.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770221973/golf_simulators/southerndunesgolfcourse_com_ChIJ96ZWxuNea4gRo5x8AKnpDws.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Southern+Dunes+Golf+Course/@39.6458961,-86.21253109999999,14z/data=!4m8!1m2!2m1!1sSouthern+Dunes+Golf+Course!3m4!1s0x886b5ee3c656a6f7:0xb0fe9a9007c9ca3!8m2!3d39.6458961!4d-86.21253109999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ96ZWxuNea4gRo5x8AKnpDws",
+  "venue_type": "country_club",
+  "about": "Southern Dunes Golf Course is a golf facility offering both on-course play and indoor TrackMan simulator sessions. The venue operates with a traditional course booking system and features a comprehensive membership program with various tiers. Amenities include a pro shop, practice facility with PGA staff for lessons, and event spaces for gatherings. The pricing is presented as competitive, with a stated 24-hour cancellation policy for group reservations.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|private_rooms|club_rentals|coaching_available",
+  "vibe_tags": "casual|welcoming|modern|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|coaches_instructors",
+  "why_golfers_like_it": [
+    "Advanced TrackMan simulator technology for realistic indoor play and swing analysis",
+    "Comprehensive membership options offering access to both the course and simulators",
+    "On-site PGA instruction available for players seeking to improve their game",
+    "Versatile event spaces suitable for corporate outings and private parties"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Food, drinks, and snacks are available for purchase at the 19th Hole located inside the clubhouse."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "A full bar is available at the 19th Hole. Outside coolers and alcoholic beverages are strictly prohibited."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "3 Indoor Golf Simulators available"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://southerndunesgolfcourse.com/tee-times/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|pro_shop|club_fitting|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not explicitly state if clubs are provided. It is recommended to bring your own set of clubs for the best experience."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "Outside coolers and alcoholic beverages are strictly prohibited. Food, drinks, and snacks are available for purchase at the 19th Hole located inside the clubhouse."
+    },
+    {
+      "question": "How long does it take to play 18 holes on a simulator?",
+      "answer": "The website does not specify the average time required to complete a full 18-hole round on their simulators."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The website does not provide specific information regarding child-friendly features, age restrictions, or junior programs."
+    }
+  ],
+  "simulator_software": [
+    "TrackMan"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-8PM\"], \"Tuesday\": [\"9AM-8PM\"], \"Wednesday\": [\"9AM-8PM\"], \"Thursday\": [\"9AM-8PM\"], \"Friday\": [\"9AM-9PM\"], \"Saturday\": [\"9AM-9PM\"], \"Sunday\": [\"9AM-6PM\"]}"
+}

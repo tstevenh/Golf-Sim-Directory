@@ -1,0 +1,90 @@
+{
+  "name": "Fox Hills Golf Performance Center",
+  "address": "8768 N Territorial Rd, Plymouth, MI 48170",
+  "city": "Plymouth",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 42.368781,
+  "longitude": -83.594303,
+  "phone": "+17349271028",
+  "website": "https://www.foxhills.com/performance-center",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770216416/golf_simulators/www_foxhills_com_ChIJ53tdvD2rPIgRSN_JNnjbU-A.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Fox+Hills+Golf+Performance+Center/@42.3687809,-83.59430309999999,14z/data=!4m8!1m2!2m1!1sFox+Hills+Golf+Performance+Center!3m4!1s0x883cab3dbc5d7be7:0xe053db7836c9df48!8m2!3d42.3687809!4d-83.59430309999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ53tdvD2rPIgRSN_JNnjbU-A",
+  "email": "chatfield@heritagegolfgroup.com",
+  "venue_type": "sim_bar",
+  "about": "Fox Hills Golf Performance Center is an indoor golf simulator venue located in Plymouth, Michigan. It is equipped with eight cutting-edge Trackman simulators, offering players the ability to play over 260 virtual courses, receive detailed swing analysis, and engage in interactive games. The venue operates on a per-bay-hour pricing model and features a full-service bar, making it a social destination as well as a serious practice facility. The Performance Center is open year-round, providing a weather-proof golfing experience with professional instruction available for players of all skill levels, from beginners to seasoned golfers.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|coaching_available|date_night|family_friendly",
+  "vibe_tags": "upscale_lounge|sports_bar|modern|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Industry-leading Trackman technology for precise swing analysis and realistic course play",
+    "Full-service bar offering craft beers, fine wines, and signature cocktails to enhance the social experience",
+    "Versatile environment suitable for both focused practice and fun group events like parties and corporate outings"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full-service food available; a public grill menu is referenced on-site."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full-service bar offering premium beverages, including craft beers, fine wines, signature cocktails, and non-alcoholic options."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "8 cutting-edge simulators featuring advanced radar and camera tracking."
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 8,
+  "booking_url": "https://yourgolfbooking.com/venues/fox-hills-golf/booking/bays",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 45,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 0,
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|pro_shop|club_fitting|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not explicitly state whether club rentals are available, so it is recommended to bring your own clubs or inquire directly with the venue."
+    },
+    {
+      "question": "Can I bring my own food or drink?",
+      "answer": "The venue offers a full-service bar and food options. The website does not mention a policy regarding bringing outside food or drink, so it is best to confirm their policy beforehand."
+    },
+    {
+      "question": "How long does an 18-hole round typically take on the simulator?",
+      "answer": "While the website does not provide a specific time for an 18-hole simulator round, a typical session can vary, usually taking between 2-3 hours depending on the number of players and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is kid-friendly. It offers junior programs and camps for children as young as four, and its various amenities and games make it suitable for families."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-9PM\"], \"Tuesday\": [\"9AM-9PM\"], \"Wednesday\": [\"9AM-9PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"9AM-10PM\"], \"Saturday\": [\"9AM-10PM\"], \"Sunday\": [\"9AM-9PM\"]}"
+}

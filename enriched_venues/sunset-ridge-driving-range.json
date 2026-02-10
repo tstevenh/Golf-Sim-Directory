@@ -1,0 +1,95 @@
+{
+  "name": "Sunset Ridge Driving Range",
+  "address": "771 Cumberland St, Westbrook, ME 04092",
+  "city": "Westbrook",
+  "region": "Maine",
+  "country": "US",
+  "latitude": 43.700157,
+  "longitude": -70.372954,
+  "phone": "+12078549463",
+  "website": "https://sunsetridgeme.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770229769/golf_simulators/sunsetridgeme_com_ChIJR56R5ByRskwRZbEuOxmgZsc.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Sunset+Ridge+Driving+Range/@43.700156899999996,-70.3729536,14z/data=!4m8!1m2!2m1!1sSunset+Ridge+Driving+Range!3m4!1s0x4cb2911ce4919e47:0xc766a0193b2eb165!8m2!3d43.700156899999996!4d-70.3729536",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJR56R5ByRskwRZbEuOxmgZsc",
+  "venue_type": "sim_bar",
+  "about": "Sunset Ridge Golf Links in Westbrook, Maine, offers a comprehensive golf and entertainment experience featuring both outdoor golf and disc golf courses alongside indoor golf simulator bays. The venue provides a unique blend of traditional golf activities and modern simulation technology, catering to a wide range of customers from serious golfers to families and event hosts. With a focus on year-round accessibility, the facility includes 5 indoor golf simulators during winter months and a seasonal outdoor swimming pool, making it a versatile community destination.",
+  "tags": "food_and_drinks|family_friendly|corporate_events|leagues|premium_tech|coaching_available|beginner_friendly|private_rooms|club_rentals|community_club",
+  "vibe_tags": "casual|welcoming|modern|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "Wide selection of over 80 virtual golf courses for simulation play",
+    "Both Full Swing and Foresight GCHawk simulator systems for premium experience",
+    "Membership options provide discounted simulator rates and all-year access",
+    "Additional amenities include outdoor swimming pool and event spaces",
+    "Convenient location near Westbrook with ample activities for all seasons"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "On-site Bar & Grill available for food service"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Bar & Grill provides alcohol service"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Full Swing",
+      "model": "unknown",
+      "notes": "Premium simulator system with driving range mode"
+    },
+    {
+      "brand": "Foresight",
+      "model": "GCHawk",
+      "notes": "High-quality simulator system available"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 5,
+  "booking_url": "http://sunsetridge.teesnap.net",
+  "pricing_model": "mixed",
+  "price_range_min_local": 35,
+  "price_range_max_local": 950,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 5,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|leagues|pro_shop|club_fitting",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you should bring your own golf clubs to use with the simulators."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, outside food and drinks are not allowed as the venue has an on-site Bar & Grill."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "18 holes in a simulator takes approximately 1 hour, or you can play a quick 9 in about 30 minutes."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, Sunset Ridge is family-friendly and offers youth memberships and a seasonal swimming pool."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"8AM-5:45PM\"], \"Tuesday\": [\"8AM-5:45PM\"], \"Wednesday\": [\"8AM-5:45PM\"], \"Thursday\": [\"8AM-5:45PM\"], \"Friday\": [\"8AM-5:45PM\"], \"Saturday\": [\"7AM-5:45PM\"], \"Sunday\": [\"7AM-5:45PM\"]}"
+}

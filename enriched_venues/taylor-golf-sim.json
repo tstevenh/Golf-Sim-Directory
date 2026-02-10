@@ -1,0 +1,90 @@
+{
+  "name": "Taylor Golf Sim",
+  "address": "208 S Broad St, Edenton, NC 27932",
+  "city": "Edenton",
+  "region": "North Carolina",
+  "country": "US",
+  "latitude": 36.059354,
+  "longitude": -76.609003,
+  "phone": "+12523681596",
+  "website": "https://taylorgolfsim.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770228365/golf_simulators/taylorgolfsim_com_ChIJsbAr5IePr4kRXbNcQQpzLvY.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Taylor+Golf+Sim/@36.059354,-76.6090032,14z/data=!4m8!1m2!2m1!1sTaylor+Golf+Sim!3m4!1s0x89af8f87e42bb0b1:0xf62e730a415cb35d!8m2!3d36.059354!4d-76.6090032",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJsbAr5IePr4kRXbNcQQpzLvY",
+  "email": "Info@taylorgolfsim.com",
+  "venue_type": "multi_sport_sim",
+  "about": "Taylor Golf Sim is a state-of-the-art indoor golf simulator attraction located inside the Taylor Theater in Edenton, NC. Utilizing Foresight Falcon overhead launch monitor technology, it provides players with highly accurate ball and club data, immersive virtual course play, and realistic graphics. The venue offers hourly simulator rentals, memberships, and party rental options, making it suitable for individuals, groups, and special events. Walk-in bookings are accepted during theater hours, with members having the ability to schedule online and occasionally during after-hours sessions.",
+  "tags": "beginner_friendly|corporate_events|premium_tech|club_rentals|private_rooms|coaching_available",
+  "vibe_tags": "casual|welcoming|modern|tech_lab",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "Advanced Foresight Falcon launch monitor provides precise swing and ball data",
+    "Access to a wide variety of world-renowned and fantasy golf courses",
+    "Flexible booking options including walk-ins and online scheduling for members"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "Outside food and drink are not permitted inside the simulator; they must be kept at provided tables."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service; outside beverages are not allowed inside the simulator."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": "Falcon",
+      "notes": "Overhead launch monitor providing detailed ball and club data analysis"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "overhead_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.picktime.com/4b593f5d-44fc-42bf-8ea3-b17f61014d1a",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 45,
+  "price_range_max_local": 150,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|tv_sports|private_party_room|club_fitting",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue does not specify whether rental clubs are available. Players should plan to bring their own clubs for their session."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drinks are not permitted inside the simulator area or near the computer. All food and drinks must be kept at the provided tables."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The minimum rental time is 1 hour for $45. For a more comfortable 18-hole experience, especially with a group, the 2-hour rental for $85 (recommended for 2 people) or 3-hour rental for $130 (suitable for 4 golfers) would be necessary."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "While the venue hosts birthday parties and has a party option with kids' popcorn, it also uses waiver language acknowledging 'serious risk of physical injury to both active participants and spectators.' It's best to contact the venue directly for specifics on children's participation."
+    }
+  ],
+  "simulator_software": [
+    "FSX Play, FSX Pro"
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"6-10PM\"], \"Tuesday\": [\"6-10PM\"], \"Wednesday\": [\"6-10PM\"], \"Thursday\": [\"6-10PM\"], \"Friday\": [\"6-10PM\"], \"Saturday\": [\"10AM-10PM\"], \"Sunday\": [\"10AM-10PM\"]}"
+}

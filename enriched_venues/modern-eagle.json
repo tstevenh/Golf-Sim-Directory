@@ -1,0 +1,90 @@
+{
+  "name": "Modern Eagle",
+  "address": "4088 Haggerty Rd, Commerce Township, MI 48390",
+  "city": "Commerce Township",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 42.576526,
+  "longitude": -83.441132,
+  "phone": "+12482919060",
+  "website": "https://www.moderneaglegolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770203119/golf_simulators/www_moderneaglegolf_com_ChIJyzhbLy2lJIgR3qs0DL3cBjo.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Modern+Eagle/@42.576526099999995,-83.44113209999999,14z/data=!4m8!1m2!2m1!1sModern+Eagle!3m4!1s0x8824a52d2f5b38cb:0x3a06dcbd0c34abde!8m2!3d42.576526099999995!4d-83.44113209999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJyzhbLy2lJIgR3qs0DL3cBjo",
+  "email": "play@moderneaglegolf.com",
+  "venue_type": "private_rental",
+  "about": "Modern Eagle is a members-only golf simulator studio offering 24/7 access in a private, country club-like setting. The facility features a single premium hitting bay equipped with a Trackman iO simulator and high-end technology. Members can book tee times through the website or Trackman golf app and access the facility using a digital door link. The club is designed for serious golfers who want to improve their game in a distraction-free environment, with options for monthly memberships or prepaid session cards. There are no initiation fees, and memberships operate on a month-to-month basis that renews automatically until cancelled.",
+  "tags": "serious_practice|premium_tech|private_rooms|club_rentals|coaching_available|leagues|adults_only",
+  "vibe_tags": "private_luxury|tech_lab|modern|upscale_lounge",
+  "who_its_for": "serious_golfers|low_handicap|solo_practice|corporate_teams",
+  "why_golfers_like_it": [
+    "24/7 unmanned access provides ultimate flexibility for practice and play",
+    "High-end Trackman iO simulator with 4K projector offers precise data and immersive gameplay",
+    "Private country-club-like environment ensures a distraction-free experience",
+    "No initiation fees and flexible month-to-month membership options"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of on-site food service; members are likely allowed to bring their own."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service; the facility is members-only and appears focused on golf."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Primary simulator with a top of the line 4k BenQ projector, multiple external monitors, premium impact screen, and Sonos sound system."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 1,
+  "booking_url": "https://yourgolfbooking.com/venues/modern-eagle/booking/bays",
+  "pricing_model": "membership_only",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": false,
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|private_rooms|tv_sports|leagues|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "It is assumed that members would need to bring their own clubs, as the venue is a simulator facility and not a club rental service."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "While not explicitly stated, the venue's private, members-only club model suggests that bringing your own food and drinks is likely permitted."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Standard 18-hole simulator times typically range from 1.5 to 2.5 hours, depending on the simulator software and player speed."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "No, members must be 21 years or older, so the venue is not kid-friendly."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

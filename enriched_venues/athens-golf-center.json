@@ -1,0 +1,89 @@
+{
+  "name": "Athens Golf Center",
+  "address": "4400 Athens Boonesboro Rd, Lexington, KY 40509",
+  "city": "Lexington",
+  "region": "Kentucky",
+  "country": "US",
+  "latitude": 37.97794,
+  "longitude": -84.417686,
+  "phone": "+18592632152",
+  "website": "http://www.athensgolfcenter.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770228305/golf_simulators/www_athensgolfcenter_com_ChIJ0crdAF5QQogRZVzVwSZQGhE.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Athens+Golf+Center/@37.9779396,-84.4176864,14z/data=!4m8!1m2!2m1!1sAthens+Golf+Center!3m4!1s0x8842505e00ddcad1:0x111a5026c1d55c65!8m2!3d37.9779396!4d-84.4176864",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ0crdAF5QQogRZVzVwSZQGhE",
+  "venue_type": "training_studio",
+  "about": "Athens Golf Center is a comprehensive golf training facility in Lexington offering a Toptracer range with real-time shot tracking and interactive games, along with professional instruction and personalized club fitting services. The facility includes covered, heated bays for year-round practice, a 300-foot Bermuda turf hitting area with a short-game facility, and options for both mat and grass hitting. Center is committed to enhancing golfer experiences through technology and personalized services, offering a full range of products including new and used clubs, on-site repairs, and rental equipment.",
+  "tags": "beginner_friendly|serious_practice|premium_tech|club_rentals|coaching_available|budget_friendly|family_friendly|corporate_events",
+  "vibe_tags": "casual|welcoming|modern|community_club",
+  "who_its_for": "beginners|serious_golfers|families|solo_practice|coaches_instructors",
+  "why_golfers_like_it": [
+    "Toptracer technology for detailed swing analysis and interactive gameplay",
+    "Year-round practice with heated, covered bays and Bermuda grass hitting area",
+    "Comprehensive services from lessons and fitting to club repair and shop",
+    "Flexible pricing options with different ball bucket sizes and VIP bay rentals"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of on-site food service"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service or BYOB policy"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Toptracer",
+      "model": "Range",
+      "notes": "Interactive screens with ball tracking and virtual golf capabilities"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "http://athensgolfcenter.com/simulator-bay-rental/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 9,
+  "price_range_max_local": 18,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|pro_shop|club_fitting|leagues|ada_accessible|wifi",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, rental clubs are available for $5 per set."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No specific policy mentioned, but the facility focuses on golf services without mentioning food/drink service."
+    },
+    {
+      "question": "How long does it take to play 18 holes on the simulator?",
+      "answer": "No specific time mentioned, but virtual rounds are available at bucket-list venues like Pebble Beach, Oakmont, and others."
+    },
+    {
+      "question": "Is Athens Golf Center kid-friendly?",
+      "answer": "Yes, the facility is described as beginner-friendly and offers rental clubs, making it suitable for junior golfers."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-7PM\"], \"Tuesday\": [\"9AM-7PM\"], \"Wednesday\": [\"9AM-7PM\"], \"Thursday\": [\"9AM-7PM\"], \"Friday\": [\"9AM-7PM\"], \"Saturday\": [\"9AM-7PM\"], \"Sunday\": [\"9AM-7PM\"]}"
+}

@@ -1,0 +1,90 @@
+{
+  "name": "Fairway Lounge",
+  "address": "2949 Triverton Pike Dr, Fitchburg, WI 53711",
+  "city": "Fitchburg",
+  "region": "Wisconsin",
+  "country": "US",
+  "latitude": 43.014709,
+  "longitude": -89.430304,
+  "phone": "+16082171524",
+  "website": "https://www.fairwayloungewi.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770201184/golf_simulators/www_fairwayloungewi_com_ChIJu6TXHEKzB4gRqmGlpsmCUDk.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Fairway+Lounge/@43.0147094,-89.4303036,14z/data=!4m8!1m2!2m1!1sFairway+Lounge!3m4!1s0x8807b3421cd7a4bb:0x395082c9a6a561aa!8m2!3d43.0147094!4d-89.4303036",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJu6TXHEKzB4gRqmGlpsmCUDk",
+  "venue_type": "sim_bar",
+  "about": "Fairway Lounge is an inclusive indoor golf venue located in Fitchburg, WI, offering a space for golfers to connect, compete, and play regardless of weather conditions. The facility operates six private bays equipped with industry-leading Trackman simulators, providing advanced technology for both practice and play. Guests can enjoy a welcoming atmosphere with full bar service, food options, and customizable event hosting capabilities, making it suitable for casual rounds, group outings, and corporate events.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|kids_friendly|premium_tech",
+  "vibe_tags": "sports_bar|community_club|family_fun_center",
+  "who_its_for": "families|corporate_teams|beginners|large_groups|solo_practice",
+  "why_golfers_like_it": [
+    "Six private bays with industry-leading Trackman simulators",
+    "Largest indoor Trackman Golf Simulator bays in Dane County",
+    "Full bar and food service available on-site",
+    "Welcoming atmosphere suitable for all skill levels",
+    "Weather-independent golfing environment"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Snacks and Salvatore's Pizza available on-site"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "unknown",
+      "notes": "Industry-leading simulators with largest indoor bays in Dane County"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 6,
+  "booking_url": "https://booking.trackmangolf.com/venues/fairway-lounge-1/booking/bays",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": 6,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|kitchen_food|tv_sports|private_party_room",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify whether club rentals are available, so it's recommended to bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, outside food and drinks are not allowed as the venue offers a full bar and serves Salvatore's Pizza and snacks."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify the duration for 18 holes, but booking is available by the hour for up to six players."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Fairway Lounge is family-friendly and hosts youth birthday parties, offering a welcoming environment for all ages."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": null
+}

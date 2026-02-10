@@ -1,0 +1,93 @@
+{
+  "name": "Atlanta Golf & Social | Chamblee",
+  "address": "5346 Peachtree Rd, Chamblee, GA 30341",
+  "city": "Chamblee",
+  "region": "Georgia",
+  "country": "US",
+  "latitude": 33.890925,
+  "longitude": -84.302131,
+  "phone": "+14705671908",
+  "website": "http://atlantagolfandsocial.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770202083/golf_simulators/atlantagolfandsocial_com_ChIJyfDosAQJ9YgRud4FNZcrTEA.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Atlanta+Golf+%26+Social+%7C+Chamblee/@33.8909252,-84.302131,14z/data=!4m8!1m2!2m1!1sAtlanta+Golf+%26+Social+%7C+Chamblee!3m4!1s0x88f50904b0e8f0c9:0x404c2b973505deb9!8m2!3d33.8909252!4d-84.302131",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJyfDosAQJ9YgRud4FNZcrTEA",
+  "email": "Hello@atlantagolfandsocial.com",
+  "venue_type": "sim_bar",
+  "about": "Atlanta Golf & Social is a public indoor golf club combining Trackman simulator technology with a casual bar vibe. It is Atlanta's first and only locally-owned indoor golf club with multiple neighborhood locations. The venue features Trackman simulators for golfing, along with a full bar and food menu, creating a space for both playing golf and socializing. Membership options are available for frequent players, offering expanded access and exclusive perks, while non-members can book bays for play or host private events.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|coaching_available|date_night|private_rooms|club_rentals|community_club",
+  "vibe_tags": "sports_bar|community_club|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "State-of-the-art Trackman simulator technology provides data-driven insights and a realistic course experience",
+    "Unique combination of golf and a full-service sports bar for a complete social experience",
+    "Multiple membership packages designed for different levels of play, from casual to frequent players"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen and food menu available"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar available on-site"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "State-of-the-art Trackman simulators"
+    }
+  ],
+  "simulator_so": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "http://atlantagolfandsocial.com/book",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, club rentals are included with membership and available for non-members."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, the venue has a full kitchen and bar available on-site."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Play times can vary depending on the simulator and number of players, but typically 18 holes takes about 1-2 hours."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Atlanta Golf & Social is suitable for families and kids, offering a casual environment for all ages."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"8AM-10PM\"], \"Tuesday\": [\"8AM-10PM\"], \"Wednesday\": [\"8AM-10PM\"], \"Thursday\": [\"8AM-10PM\"], \"Friday\": [\"8AM-12AM\"], \"Saturday\": [\"8AM-12AM\"], \"Sunday\": [\"10AM-8PM\"]}"
+}

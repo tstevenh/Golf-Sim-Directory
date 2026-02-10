@@ -1,0 +1,84 @@
+{
+  "name": "Penn State Golf Courses",
+  "address": "1523 W College Ave, State College, PA 16801",
+  "city": "State College",
+  "region": "Pennsylvania",
+  "country": "US",
+  "latitude": 40.787975,
+  "longitude": -77.883969,
+  "phone": "+18148630257",
+  "website": "http://pennstategolfcourses.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770255963/golf_simulators/pennstategolfcourses_com_ChIJrYIkq4mozokRRTDEQVU0GQM.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Penn+State+Golf+Courses/@40.7879748,-77.8839687,14z/data=!4m8!1m2!2m1!1sPenn+State+Golf+Courses!3m4!1s0x89cea889ab2482ad:0x319345541c43045!8m2!3d40.7879748!4d-77.8839687",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJrYIkq4mozokRRTDEQVU0GQM",
+  "email": "joepro@psu.edu",
+  "venue_type": "country_club",
+  "about": "Penn State Golf Courses is a dual-course facility featuring the Blue Course and White Course, both championship-level layouts. The Blue Course was renovated in 2006, adding three ponds and extending over 640 yards, while the White Course, with holes dating back to 1926, offers a traditional challenge. The venue includes an indoor golf simulator with three bays available for play, as well as a golf shop, practice facilities, and the 19th Hole at the Walker Clubhouse. It hosts a variety of events, including trivia nights, leagues, and outings.",
+  "tags": "serious_golfers|corporate_events|leagues|food_and_drinks|coaching_available|family_friendly|private_rooms|club_rentals",
+  "vibe_tags": "community_club|welcoming|modern",
+  "who_its_for": "serious_golfers|families|corporate_teams|solo_practice|juniors_youth",
+  "why_golfers_like_it": [
+    "Two championship golf courses with unique layouts and scenic views",
+    "Indoor golf simulators available for weather-proof play and practice",
+    "Extensive event hosting capabilities including leagues and corporate outings",
+    "On-site dining at the 19th Hole and full golf shop amenities"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full menu available at the 19th Hole of the Walker Clubhouse"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available at the 19th Hole"
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://www.pennstategolfcourses.com/bookteetimes",
+  "pricing_model": "mixed",
+  "price_range_min_local": 18,
+  "price_range_max_local": 40,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 3.5,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "Yes, players are expected to bring their own golf clubs to use on the courses and simulators."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drinks are not permitted, but the 19th Hole offers a full menu and bar service."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "18 holes on the simulators take approximately 60 minutes for one person, depending on pace of play."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, the venue is family-friendly and offers junior golf programs and youth instruction."
+    }
+  ],
+  "rating_overall": 3.8,
+  "opening_hours": "{\"Monday\": [\"7:30AM-7PM\"], \"Tuesday\": [\"7:30AM-7PM\"], \"Wednesday\": [\"7:30AM-7PM\"], \"Thursday\": [\"7:30AM-7PM\"], \"Friday\": [\"7:30AM-7PM\"], \"Saturday\": [\"7AM-7PM\"], \"Sunday\": [\"7:30AM-7PM\"]}"
+}

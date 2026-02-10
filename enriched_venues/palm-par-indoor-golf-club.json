@@ -1,0 +1,90 @@
+{
+  "name": "Palm + Par Indoor Golf Club",
+  "address": "171 Hood Ave #9, Tavernier, FL 33070",
+  "city": "Tavernier",
+  "region": "Florida",
+  "country": "US",
+  "latitude": 25.008046,
+  "longitude": -80.520099,
+  "phone": "+13053961518",
+  "website": "https://www.palmandparindoorgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770237116/golf_simulators/www_palmandparindoorgolf_com_ChIJ6_v6j4lB14gRn2QNQWQTr7o.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Palm+%2B+Par+Indoor+Golf+Club/@25.008045799999998,-80.5200988,14z/data=!4m8!1m2!2m1!1sPalm+%2B+Par+Indoor+Golf+Club!3m4!1s0x88d741898ffafbeb:0xbaaf1364410d649f!8m2!3d25.008045799999998!4d-80.5200988",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ6_v6j4lB14gRn2QNQWQTr7o",
+  "email": "Palmandparhq@gmail.com",
+  "venue_type": "sim_bar|training_studio",
+  "about": "Palm + Par Indoor Golf Club is a members-only facility in the Upper Florida Keys, offering a premium indoor golf experience powered by TrackMan technology. The club provides 24/7 access to players seeking a quiet, focused environment for game improvement and casual play, without the typical noise of a public venue. Members can enjoy full rounds on iconic courses like St. Andrews and Pebble Beach, utilize advanced swing analysis tools, and participate in exclusive league nights and social events, all within a private BYOB-friendly space designed for both solo practice and social play.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|private_rooms|club_rentals|late_night|community_club",
+  "vibe_tags": "private_luxury|tech_lab|community_club|modern",
+  "who_its_for": "serious_golfers|families|solo_practice|coaches_instructors|juniors_youth",
+  "why_golfers_like_it": [
+    "24/7 access with no staff or waiting times",
+    "TrackMan technology used by tour professionals for real-time swing analysis",
+    "Members-only environment ensuring privacy and focused gameplay"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "BYOB-friendly space, members can bring their own food and non-alcoholic beverages"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "BYOB-friendly space, members can bring their own alcoholic beverages"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Dual radar technology used by 95 of the top 100 players in the world"
+    }
+  ],
+  "simulator_software": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://yourgolfbooking.com/venues/palm-and-par/booking",
+  "pricing_model": "membership_only",
+  "price_range_min_local": 25,
+  "price_range_max_local": 35,
+  "currency": "USD",
+  "walk_ins_allowed": false,
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|leagues|wifi|pro_shop",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need my own golf clubs?",
+      "answer": "Yes, members are expected to bring their own golf clubs to use with the TrackMan simulators."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, the venue is BYOB-friendly, allowing members to bring their own food and alcoholic beverages."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "One player can typically complete 18 holes in 30-45 minutes, while groups of 2-4 should plan for 1.5 to 2+ hours depending on pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, junior memberships are available for ages 13-20 as an add-on to an adult Champions Club membership, with mandatory supervision at all times."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

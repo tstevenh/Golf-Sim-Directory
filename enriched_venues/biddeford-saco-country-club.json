@@ -1,0 +1,91 @@
+{
+  "name": "Biddeford-Saco Country Club",
+  "address": "101 Old Orchard Rd, Saco, ME 04072",
+  "city": "Saco",
+  "region": "Maine",
+  "country": "US",
+  "latitude": 43.501713,
+  "longitude": -70.416718,
+  "phone": "+12072829892",
+  "website": "https://biddefordsacocc.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770245413/golf_simulators/biddefordsacocc_com_ChIJk_Dp9BSkskwRCLWhdxWBNtY.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Biddeford-Saco+Country+Club/@43.5017127,-70.41671749999999,14z/data=!4m8!1m2!2m1!1sBiddeford-Saco+Country+Club!3m4!1s0x4cb2a414f4e9f093:0xd636811577a1b508!8m2!3d43.5017127!4d-70.41671749999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJk_Dp9BSkskwRCLWhdxWBNtY",
+  "venue_type": "country_club",
+  "about": "Biddeford-Saco Country Club is a premier golf destination in Maine featuring an 18-hole Donald Ross-designed course and extensive practice facilities. The venue has operated since the early 1920s and has evolved into a member-owned club maintaining affordable rates and competitive play opportunities. The facility offers a comprehensive golf experience with professional instruction, group lessons, and TrackMan 4 technology for winter training, along with amenities for public play, private events, and dining overlooking the course.",
+  "tags": "food_and_drinks|corporate_events|coaching_available|beginner_friendly|families|serious_golfers|leagues|premium_tech|budget_friendly|club_rentals",
+  "vibe_tags": "community_club|upscale_lounge|family_fun_center",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "Donald Ross-designed 18-hole course",
+    "Premium TrackMan 4 technology for instruction",
+    "One of the best ranges and practice facilities in the state",
+    "Affordable membership rates with full capacity",
+    "Host to numerous state championships and tournaments",
+    "Proximity to Old Orchard Beach vacation destination"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Clubhouse dining room available for private functions"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full-service clubhouse with beverage service"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "Available for winter instruction sessions"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://biddefordsacocc.teesnap.net/",
+  "pricing_model": "mixed",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|lockers|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Players should bring their own golf equipment to enjoy the full course experience, though equipment rentals may be available upon request."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The clubhouse dining room is available for private functions and offers food and beverage service, but external food and drink policies may vary."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Standard 18-hole play time is typical of a full round, though specific duration may vary based on course conditions and pace of play."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, Biddeford-Saco Country Club offers junior memberships and is home to the State Champion Thornton Academy Golf Team, making it suitable for youth golfers."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"7AM-9PM\"], \"Tuesday\": [\"7AM-9PM\"], \"Wednesday\": [\"7AM-9PM\"], \"Thursday\": [\"7AM-9PM\"], \"Friday\": [\"7AM-9PM\"], \"Saturday\": [\"7AM-9PM\"], \"Sunday\": [\"7AM-9PM\"]}"
+}

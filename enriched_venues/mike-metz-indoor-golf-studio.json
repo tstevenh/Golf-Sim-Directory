@@ -1,0 +1,93 @@
+{
+  "name": "Mike Metz Indoor Golf Studio",
+  "address": "3977 Cochran St Suite 2B, Simi Valley, CA 93063",
+  "city": "Simi Valley",
+  "region": "California",
+  "country": "US",
+  "latitude": 34.28014,
+  "longitude": -118.7182,
+  "phone": "+18057507653",
+  "website": "http://www.mikemetzgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770236666/golf_simulators/www_mikemetzgolf_com_ChIJpx1x9gop6IARb0AbjbVkgj8.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Mike+Metz+Indoor+Golf+Studio/@34.280139999999996,-118.7181997,14z/data=!4m8!1m2!2m1!1sMike+Metz+Indoor+Golf+Studio!3m4!1s0x80e8290af6711da7:0x3f8264b58d1b406f!8m2!3d34.280139999999996!4d-118.7181997",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJpx1x9gop6IARb0AbjbVkgj8",
+  "email": "mike@mikemetzgolf.com",
+  "venue_type": "training_studio",
+  "about": "Mike Metz Indoor Golf Studio is a specialized golf training facility offering private lessons and data-driven coaching. The studio utilizes advanced technology including the Foresight GCQuad launch monitor, V1 Swing Suite software, and BodiTrak pressure mapping to provide precise swing analysis and improvement strategies. Instruction focuses on diagnosing swing flaws, recommending specific drills, and creating personalized practice routines for players of all skill levels. The venue is an indoor studio setting, providing a controlled environment for technical skill development without on-course play or food and beverage services.",
+  "tags": "serious_practice|beginner_friendly|coaching_available|premium_tech|data_driven",
+  "vibe_tags": "industrial_training|tech_lab|private_luxury",
+  "who_its_for": "beginners|serious_golfers|solo_practice|low_handicap|juniors_youth",
+  "why_golfers_like_it": [
+    "Premium technology with Foresight GCQuad and V1 Swing Suite",
+    "Personalized, data-driven coaching and swing analysis",
+    "Effective drill-based instruction for quick improvement",
+    "Indoor facility for year-round practice in a controlled environment"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": "GCQuad",
+      "notes": "Advanced launch monitor providing precise performance data."
+    }
+  ],
+  "simulator_so": [
+    "V1 Swing Suite"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://mikemetzgolf.com/book-in-person/",
+  "pricing_model": "per_person_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|wifi|pro_shop|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "The website does not specify club rental policies. It is recommended to bring your own clubs for your lesson."
+    },
+    {
+      "question": "Can I bring my own food or drink?",
+      "answer": "There is no mention of food or drink services on-site, and no BYOB policy is specified. It is advisable to contact the venue directly for clarification."
+    },
+    {
+      "question": "How long does an 18-hole round take?",
+      "answer": "The venue is a training studio focused on lessons and practice, not on-course simulation. The duration for 18 holes is not applicable to this facility."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The website does not explicitly state kid-friendliness, but it does mention working with 'all ages and abilities' and provides testimonials that could include juniors. The nature of a private lesson setting is suitable for individual juniors."
+    }
+  ],
+  "simulator_software": [
+    "V1 Swing Suite"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"9AM-5PM\"], \"Wednesday\": [\"9AM-5PM\"], \"Thursday\": [\"8AM-6PM\"], \"Friday\": [\"9AM-5PM\"], \"Saturday\": [\"9AM-5PM\"], \"Sunday\": [\"Closed\"]}"
+}

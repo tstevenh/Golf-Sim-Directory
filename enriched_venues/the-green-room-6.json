@@ -1,0 +1,95 @@
+{
+  "name": "The Green Room",
+  "address": "454 Mountain Rd, Stowe, VT 05672",
+  "city": "Stowe",
+  "region": "Vermont",
+  "country": "US",
+  "latitude": 44.47158,
+  "longitude": -72.686877,
+  "phone": "+18025853195",
+  "website": "https://www.thegreenroomstowe.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770210436/golf_simulators/www_thegreenroomstowe_com_ChIJRVX_-QyXtUwRKjduJPCf0zI.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Green+Room/@44.4715798,-72.6868772,14z/data=!4m8!1m2!2m1!1sThe+Green+Room!3m4!1s0x4cb5970cf9ff5545:0x32d39ff0246e372a!8m2!3d44.4715798!4d-72.6868772",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJRVX_-QyXtUwRKjduJPCf0zI",
+  "email": "05672thegreenroomstowe@gmail.comText",
+  "venue_type": "sim_bar",
+  "about": "The Green Room Stowe offers an immersive entertainment experience combining Full Swing golf and multisport simulators with a full bar service. Located in Stowe, Vermont, the venue features two simulator bays stacked vertically, each equipped with identical technology and software, catering to both individual players and groups. Pricing is $75 per hour, per simulator, with a 7% sales tax included. Advance reservations are highly recommended, though walk-ins may be accommodated if availability allows.",
+  "tags": "food_and_drinks|beginner_friendly|kids_friendly|corporate_events|premium_tech|date_night|private_rooms|party_atmosphere|budget_friendly|coaching_available",
+  "vibe_tags": "sports_bar|family_fun_center|party_atmosphere|tech_lab|casual|welcoming",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|tourists_travelers",
+  "why_golfers_like_it": [
+    "Unique combination of golf simulation and a full bar for social play",
+    "Two distinct simulator spaces (upstairs and downstairs) to accommodate different group sizes and player needs",
+    "Connected to The Stowe Cinema for expanded entertainment options",
+    "State-of-the-art Full Swing hardware with realistic course simulation",
+    "Flexible booking system for dedicated time slots"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full bar service available while playing. Food options are not explicitly detailed but the venue is set up for casual dining."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available. Patrons can sip drinks while playing and relax at the bar afterward."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Full Swing",
+      "model": "Multisport Simulator",
+      "notes": "State-of-the-art simulator with golf and multisport capabilities. Two simulators available, one upstairs and one downstairs."
+    }
+  ],
+  "simulator_so": [
+    "Full Swing Golf",
+    "Full Swing Multisport"
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://www.thegreenroomstowe.com/reservations",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 75,
+  "price_range_max_local": 75,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 10,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|private_party_room|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, rental clubs are available if you do not have your own."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue offers a full bar with food service available. It does not appear to allow outside food or drinks."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes is not specified on the website."
+    },
+    {
+      "question": "Is The Green Room kid-friendly?",
+      "answer": "Yes. The downstairs simulator is a larger space great for kids, and adult supervision is required at all times for children 17 and under."
+    }
+  ],
+  "simulator_software": [
+    "Full Swing"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"11AM-9PM\"], \"Tuesday\": [\"11AM-9PM\"], \"Wednesday\": [\"11AM-9PM\"], \"Thursday\": [\"11AM-9PM\"], \"Friday\": [\"11AM-11PM\"], \"Saturday\": [\"11AM-11PM\"], \"Sunday\": [\"11AM-9PM\"]}"
+}

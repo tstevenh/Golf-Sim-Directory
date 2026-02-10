@@ -1,0 +1,90 @@
+{
+  "name": "Broadway Driving Range & Miniature Golf",
+  "address": "4367 Broadway, Depew, NY 14043",
+  "city": "Depew",
+  "region": "New York",
+  "country": "US",
+  "latitude": 42.902889,
+  "longitude": -78.712567,
+  "phone": "+17166832403",
+  "website": "http://www.broadwaydrivingrange.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770233784/golf_simulators/www_broadwaydrivingrange_com_ChIJC9Z6PRoL04kRQKWEhCDphng.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Broadway+Driving+Range+%26+Miniature+Golf/@42.9028886,-78.7125671,14z/data=!4m8!1m2!2m1!1sBroadway+Driving+Range+%26+Miniature+Golf!3m4!1s0x89d30b1a3d7ad60b:0x7886e9208484a540!8m2!3d42.9028886!4d-78.7125671",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJC9Z6PRoL04kRQKWEhCDphng",
+  "venue_type": "multi_sport_sim",
+  "about": "Broadway Driving Range & Miniature Golf offers a comprehensive golf experience with both outdoor and indoor facilities. The venue features a 350+ yard driving range with covered and natural turf tees, an 18-hole miniature golf course, and an indoor golf simulator facility. The property is themed around a 1930s barn, providing a rustic atmosphere. The indoor golf simulator uses Foresight Sports Falcon technology and is available year-round by reservation. The venue also includes a pro shop selling golf equipment and pickleball accessories, and offers event hosting for various occasions.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|budget_friendly|private_rooms|club_rentals|family_friendly|coaching_available",
+  "vibe_tags": "family_fun_center|community_club|casual|welcoming|modern",
+  "who_its_for": "families|beginners|serious_golfers|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "Premium Foresight Sports Falcon simulator technology with accurate ball and club tracking",
+    "Year-round indoor access with reservation-only bookings ensuring availability",
+    "Supports both left and right-handed players with a massive ball-capture range",
+    "Variety of booking options from 1 to 4 hours to accommodate different group sizes",
+    "Beautifully landscaped 18-hole miniature golf course with ponds, streams, and waterfalls"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Snack shop with a variety of cold beverages and snacks available in the pro shop"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service or bar on the website"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": "Falcon",
+      "notes": "High-end simulator with massive ball-capture range for accurate tracking of all clubs from driver to putter"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 1,
+  "booking_url": "https://www.broadwaydrivingrange.com/golf-simulator",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 50,
+  "price_range_max_local": 200,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "pro_shop|club_rentals|kitchen_food|tv_sports|private_party_room|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The pro shop offers new and used golf clubs for purchase or rental. You can bring your own clubs if you prefer."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue has a snack shop with cold beverages and snacks available for purchase. BYOB is not mentioned."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "On average, it takes one hour per golfer to play 18 holes on the miniature golf course."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, the miniature golf course is fun and challenging for all ages, with 10 of 18 holes being wheelchair accessible."
+    }
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"9AM-9PM\"], \"Tuesday\": [\"9AM-9PM\"], \"Wednesday\": [\"9AM-9PM\"], \"Thursday\": [\"9AM-9PM\"], \"Friday\": [\"9AM-9PM\"], \"Saturday\": [\"9AM-9PM\"], \"Sunday\": [\"9AM-9PM\"]}"
+}

@@ -1,0 +1,92 @@
+{
+  "name": "Future Country Club",
+  "address": "4401 NW 25th Pl. STE M, Gainesville, FL 32606",
+  "city": "Gainesville",
+  "region": "Florida",
+  "country": "US",
+  "latitude": 29.675753,
+  "longitude": -82.38993,
+  "phone": null,
+  "website": "https://www.futurecountryclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770204667/golf_simulators/www_futurecountryclub_com_ChIJH8TwZre76IgRUxmZE3itsAQ.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Future+Country+Club/@29.675753099999998,-82.3899299,14z/data=!4m8!1m2!2m1!1sFuture+Country+Club!3m4!1s0x88e8bbb766f0c41f:0x4b0ad7813991953!8m2!3d29.675753099999998!4d-82.3899299",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJH8TwZre76IgRUxmZE3itsAQ",
+  "venue_type": "sim_bar",
+  "about": "Future Country Club is a members-only indoor golf venue located in Gainesville, Florida, with two locations. The club offers premium golf simulator experiences using Uneekor technology in private, climate-controlled bays. Membership provides 24/7 access to book tee times via an app, with the option to bring guests and attend member events. The flagship location includes a pro shop, beverage service, and a social lounge space. Memberships have been historically in high demand, often selling out quickly, and a waitlist is currently active.",
+  "tags": "serious_golfers|food_and_drinks|premium_tech|private_rooms|coaching_available|leagues|club_rentals|community_club",
+  "vibe_tags": "casual|welcoming|modern|private_luxury",
+  "who_its_for": "serious_golfers|solo_practice|families|corporate_teams|coaches_instructors",
+  "why_golfers_like_it": [
+    "24/7 member access via app for flexible booking",
+    "Private bays ensure no crowds and a focused practice environment",
+    "Premium Uneekor simulator technology provides high-fidelity data for improvement",
+    "Membership works at two locations for added convenience"
+  ],
+  "kid_friendly": false,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of food service"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Beer and wine available at the FGX Pro Shop in the flagship location"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "Premium",
+      "notes": "High-fidelity ball tracking and club data used at both locations"
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://www.futurecountryclub.com/membership",
+  "pricing_model": "membership_only",
+  "price_range_min_local": 49,
+  "price_range_max_local": 1200,
+  "currency": "USD",
+  "walk_ins_allowed": false,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|pro_shop|club_rentals|leagues|private_rooms|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website states that bays have premium clubs and equipment available for use."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "The venue provides beer and wine at the FGX Pro Shop. BYO policies are not explicitly mentioned."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "A specific time for 18 holes is not stated, but members can book tee times via the app, and bays are private."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "No, the venue is explicitly members-only and does not mention any child-oriented activities or facilities."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"5AM-12AM\"], \"Tuesday\": [\"5AM-12AM\"], \"Wednesday\": [\"5AM-12AM\"], \"Thursday\": [\"5AM-12AM\"], \"Friday\": [\"5AM-12AM\"], \"Saturday\": [\"5AM-12AM\"], \"Sunday\": [\"5AM-12AM\"]}"
+}

@@ -1,0 +1,90 @@
+{
+  "name": "Angry Horse Eatery & Country Club",
+  "address": "1 Superior Dr, Superior, CO 80027",
+  "city": "Superior",
+  "region": "Colorado",
+  "country": "US",
+  "latitude": 39.951794,
+  "longitude": -105.158829,
+  "phone": "+17203793194",
+  "website": "http://www.eaterysuperior.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770217448/golf_simulators/www_eaterysuperior_com_ChIJA5DA6c2Ma4cR1b8d5uaBoX4.png",
+  "google_maps_url": "https://www.google.com/maps/place/Angry+Horse+Eatery+%26+Country+Club/@39.951793599999995,-105.1588287,14z/data=!4m8!1m2!2m1!1sAngry+Horse+Eatery+%26+Country+Club!3m4!1s0x876b8ccde9c09003:0x7ea181e6e61dbfd5!8m2!3d39.951793599999995!4d-105.1588287",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJA5DA6c2Ma4cR1b8d5uaBoX4",
+  "venue_type": "sim_bar",
+  "about": "Angry Horse Eatery & Country Club is a multi-venue complex in Downtown Superior, Colorado, featuring a bar and grill alongside indoor golf and pickleball facilities. The golf simulation center is equipped with seven state-of-the-art Trackman bays, offering players access to world-renowned golf courses. Reservations are required and are booked by the hour. The venue caters to both casual players and serious golfers, with memberships available that include a 2-hour daily limit and discounts on food and beverage. The atmosphere combines a sports bar environment with a modern training facility, making it suitable for groups, individuals, and corporate events.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|leagues|premium_tech|club_rentals",
+  "vibe_tags": "sports_bar|modern|casual|welcoming",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|large_groups",
+  "why_golfers_like_it": [
+    "Seven state-of-the-art Trackman bays providing a realistic golf experience",
+    "Access to iconic global golf courses without leaving the facility",
+    "Flexible hourly booking system for convenient practice sessions",
+    "Membership options with a 2-hour daily limit and F&B discounts"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full-service restaurant with a locally-sourced menu, featuring Colorado-inspired dishes and a full bar"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar available on-site"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Seven state-of-the-art bays available for booking"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 7,
+  "booking_url": "https://apimanager-cc28.clubcaddie.com/activities/view/aefdabab",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you will need to bring your own golf clubs for use in the simulation bays."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, outside food and drinks are not allowed. The venue offers a full-service bar and restaurant with a locally-sourced menu."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Playing 18 holes in a simulator typically takes about 1.5 to 2 hours per person, depending on the number of players and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is family-friendly and welcomes kids, making it a suitable destination for families and groups."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"11AM-11:30PM\"], \"Tuesday\": [\"11AM-11:30PM\"], \"Wednesday\": [\"11AM-11:30PM\"], \"Thursday\": [\"11AM-11:30PM\"], \"Friday\": [\"11AM-11:30PM\"], \"Saturday\": [\"11AM-11:30PM\"], \"Sunday\": [\"11AM-11:30PM\"]}"
+}

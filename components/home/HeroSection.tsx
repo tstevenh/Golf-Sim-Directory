@@ -1,4 +1,5 @@
 "use client";
+/* eslint-disable @next/next/no-img-element */
 
 import { useState, useEffect, useRef, useMemo } from "react";
 import { MapPin, ChevronDown, ArrowRight } from "lucide-react";

@@ -1,0 +1,91 @@
+{
+  "name": "Par 4 The Course",
+  "address": "22069 US Hwy 19 N, Clearwater, FL 33765",
+  "city": "Clearwater",
+  "region": "Florida",
+  "country": "US",
+  "latitude": 27.97279,
+  "longitude": -82.727959,
+  "phone": "+17273306548",
+  "website": "https://par4tc.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770200875/golf_simulators/par4tc_com_ChIJNUXajszvwogROJa1il3wxzc.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Par+4+The+Course/@27.9727897,-82.7279594,14z/data=!4m8!1m2!2m1!1sPar+4+The+Course!3m4!1s0x88c2efcc8eda4535:0x37c7f05d8ab59638!8m2!3d27.9727897!4d-82.7279594",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJNUXajszvwogROJa1il3wxzc",
+  "email": "Tyson@par4tc.com",
+  "venue_type": "multi_sport_sim",
+  "about": "Par 4 The Course is an indoor golf simulator venue in Clearwater, Florida, powered by TrackMan technology. The facility offers year-round golf access with two simulator bays, accommodating up to six players per bay. It provides a premium golf experience for all skill levels, featuring over 180 virtual courses, including 43 Tour Venues, allowing players to tee off at legendary destinations. The venue is designed to be accessible and enjoyable regardless of weather conditions, offering flexible booking for solo practice, group play, and monthly leagues. The upcoming membership program is intended to provide consistent access and exclusive perks for regular golfers.",
+  "tags": "beginner_friendly|corporate_events|leagues|premium_tech|private_rooms|club_rentals|community_club|solo_practice|low_handicap",
+  "vibe_tags": "community_club|modern|welcoming",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|solo_practice",
+  "why_golfers_like_it": [
+    "Tour-level accuracy with TrackMan technology providing instant shot feedback and swing analysis",
+    "Year-round play regardless of weather conditions with no waiting times",
+    "Flexible booking options for solo practice, groups of up to six, and monthly leagues",
+    "Access to over 180 virtual courses, including 43 professional Tour Venues",
+    "Community-focused environment with an upcoming membership program for regulars"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of food services available on-site"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol services available on-site"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Two state-of-the-art TrackMan simulators trusted by PGA professionals"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://par4tcbookings.as.me/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": null,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|leagues|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website doesn't explicitly state whether club rentals are available, so it's recommended to bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "There is no mention of food or drink services, so it's unclear if outside food and drinks are permitted."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website doesn't specify the time required to play 18 holes, but sessions are booked in 60-minute increments."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue accommodates groups and families, with each bay fitting up to six players, making it suitable for children."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"12-10PM\"], \"Tuesday\": [\"12-10PM\"], \"Wednesday\": [\"12-10PM\"], \"Thursday\": [\"12-10PM\"], \"Friday\": [\"12-10PM\"], \"Saturday\": [\"12-10PM\"], \"Sunday\": [\"12-10PM\"]}"
+}

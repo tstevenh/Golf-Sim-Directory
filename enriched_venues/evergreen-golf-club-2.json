@@ -1,0 +1,96 @@
+{
+  "name": "Evergreen Golf Club",
+  "address": "2101 Mildred St W, Fircrest, WA 98466",
+  "city": "Fircrest",
+  "region": "Washington",
+  "country": "US",
+  "latitude": 47.241097,
+  "longitude": -122.524823,
+  "phone": "+12533234653",
+  "website": "https://evergreengolfclub.com/Tacoma",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770219809/golf_simulators/evergreengolfclub_com_ChIJVzyZZj-rkVQRt30X6kmkD30.png",
+  "google_maps_url": "https://www.google.com/maps/place/Evergreen+Golf+Club/@47.2410972,-122.5248235,14z/data=!4m8!1m2!2m1!1sEvergreen+Golf+Club!3m4!1s0x5491ab3f66993c57:0x7d0fa449ea177db7!8m2!3d47.2410972!4d-122.5248235",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJVzyZZj-rkVQRt30X6kmkD30",
+  "email": "tacoma@evergreengolfclub.com",
+  "venue_type": "training_studio",
+  "about": "Evergreen Golf Club Tacoma is a 13,000-square-foot indoor golf facility offering year-round training with state-of-the-art technology. The club features Trackman simulators using Doppler radar and camera technology, a short game complex with a chipping green, 7 hole locations, 5 chipping bays, and a sand bunker, as well as a PuttView putting green for performance tracking. Membership options include various simulator hour packages, and the venue hosts events, lessons, and programs for all skill levels, including junior and ladies-specific offerings.",
+  "tags": "beginner_friendly|serious_practice|corporate_events|juniors_youth|coaching_available",
+  "vibe_tags": "community_club|tech_lab|modern",
+  "who_its_for": "serious_golfers|families|juniors_youth|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Top-of-the-line Trackman technology for accurate data and immersive course experience",
+    "Comprehensive short game complex with realistic chipping and putting areas",
+    "Variety of membership options to suit different usage needs and skill levels",
+    "Professional instruction available in group or one-on-one settings",
+    "Host of amenities including events, ladies programs, and junior golf leagues"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No on-site food service mentioned, BYOB policy not specified"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No on-site bar mentioned, BYOB policy not specified"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Primary simulator brand using Doppler radar and camera technology"
+    },
+    {
+      "brand": "About Golf",
+      "model": null,
+      "notes": "Secondary simulator brand using camera technology"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://clients.uschedule.com/evergreengolfclub/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|leagues|pro_shop|coaching_available|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need clubs?",
+      "answer": "Yes, you will need to bring your own clubs to use the simulators and practice facilities."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "The BYOB policy is not explicitly mentioned on the website, so it's recommended to contact the venue directly for clarification."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website doesn't specify the typical time required to play 18 holes in the simulators."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the club offers junior golf programs including Evergreen Elite and PGA Junior League, making it kid-friendly."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-10PM\"], \"Saturday\": [\"10AM-10PM\"], \"Sunday\": [\"10AM-7PM\"]}"
+}

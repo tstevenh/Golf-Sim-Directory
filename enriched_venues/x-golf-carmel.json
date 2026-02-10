@@ -1,0 +1,85 @@
+{
+  "name": "X-Golf Carmel",
+  "address": "14511 Clay Terrace Blvd #120, Carmel, IN 46032",
+  "city": "Carmel",
+  "region": "Indiana",
+  "country": "US",
+  "latitude": 39.998793,
+  "longitude": -86.129648,
+  "phone": "+13176692422",
+  "website": "http://www.xgolfcarmel.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770204008/golf_simulators/www_xgolfcarmel_com_ChIJJ07urbitFIgRSN--EIZCj3U.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/X-Golf+Carmel/@39.9987935,-86.1296478,14z/data=!4m8!1m2!2m1!1sX-Golf+Carmel!3m4!1s0x8814adb8adee4e27:0x758f428610bedf48!8m2!3d39.9987935!4d-86.1296478",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJJ07urbitFIgRSN--EIZCj3U",
+  "email": "info@xgolfcarmel.com",
+  "venue_type": "sim_bar",
+  "about": "X-Golf Carmel operates as a high-tech indoor golf venue featuring 6 state-of-the-art simulators. The space is designed for both play and socializing, offering a full bar and food options alongside golf activities. Pricing is structured per simulator, per hour, with rates varying by day and time, making it accessible for casual visits and longer sessions. The facility accommodates groups up to 90 guests and is equipped with amenities suitable for corporate events, private parties, and individual practice sessions. The venue emphasizes accuracy and realism in its golf simulation technology, supported by PGA-certified instruction for those looking to improve their skills.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|coaching_available|family_friendly|group_events",
+  "vibe_tags": "modern|sports_bar|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Highly accurate simulators using camera systems, lasers, and impact sensors",
+    "On-site PGA-certified coaching for skill improvement",
+    "Full bar and food options available on-site",
+    "Flexible booking system with online tee times",
+    "Leagues and events for competitive play and social engagement"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Shareable bites, appetizers, snacks, and pizzas available. Full menu provided online."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with beer by the glass or on tap, cocktails, and wines."
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": 6,
+  "booking_url": "https://clients.uschedule.com/xgolfcarmel/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 45,
+  "price_range_max_local": 65,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|leagues|wifi|club_fitting|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Club rentals are available on-site. You are welcome to use your own clubs if you prefer."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "Outside food and drinks are not permitted, as the venue offers a full bar and kitchen with a variety of food and beverage options."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Generally, it takes about 1 hour for an individual to play 18 holes. For multiple players, an additional hour per player is recommended, though skill level can affect pace of play."
+    },
+    {
+      "question": "Is X-Golf kid-friendly?",
+      "answer": "Yes, children of all ages are welcome. Junior lessons are available for ages 16 and under, and the venue is suitable for family events and parties."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"9AM-12AM\"], \"Saturday\": [\"9AM-12AM\"], \"Sunday\": [\"9AM-10PM\"]}"
+}

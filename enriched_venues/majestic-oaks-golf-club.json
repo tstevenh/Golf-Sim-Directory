@@ -1,0 +1,90 @@
+{
+  "name": "Majestic Oaks Golf Club",
+  "address": "701 Bunker Lake Blvd NE, Ham Lake, MN 55304",
+  "city": "Ham Lake",
+  "region": "Minnesota",
+  "country": "US",
+  "latitude": 45.222265,
+  "longitude": -93.252332,
+  "phone": "+17637552140",
+  "website": "https://www.majesticoaksgolfclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770269365/golf_simulators/www_majesticoaksgolfclub_com_ChIJW7yWbv8is1IRBtB605lu_Xc.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Majestic+Oaks+Golf+Club/@45.2222653,-93.2523319,14z/data=!4m8!1m2!2m1!1sMajestic+Oaks+Golf+Club!3m4!1s0x52b322ff6e96bc5b:0x77fd6e99d37ad006!8m2!3d45.2222653!4d-93.2523319",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJW7yWbv8is1IRBtB605lu_Xc",
+  "venue_type": "country_club",
+  "about": "Majestic Oaks Golf Club is a premier golf venue in the Twin Cities, offering both traditional on-course play and advanced golf simulator technology. The facility features 45 remarkable holes of golf, a private golf simulator bay area with multiple bays, and upscale amenities including an award-winning dinner theater and The Oaks Bar & Grill. The club caters to a diverse clientele, from casual players to serious golfers, with options for individual practice, group outings, leagues, and special events like weddings and tournaments. The golf simulators are accessible for practice, play on virtual courses, and skill analysis, with a focus on providing a comprehensive golf and entertainment experience.",
+  "tags": "food_and_drinks|corporate_events|leagues|premium_tech|private_rooms|club_rentals|coaching_available|family_friendly|beginner_friendly|upscale_lounge",
+  "vibe_tags": "upscale_lounge|family_fun_center|private_luxury|community_club|sports_bar",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|large_groups",
+  "why_golfers_like_it": [
+    "Access to over 100 virtual golf courses for play and practice",
+    "Detailed swing analytics including clubhead speed, ball launch angle, and spin rate",
+    "Private, exclusive bay reservations accommodating groups up to 6 players",
+    "Integration with Arcis Players Membership for advanced booking and discounts",
+    "Upscale amenities combining golf with dining and event spaces"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Available for purchase on-site at The Oaks Bar & Grill and during simulator sessions"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Available for purchase on-site at The Oaks Bar & Grill and during simulator sessions"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "unknown",
+      "model": "unknown",
+      "notes": "Brand not specified, but features detailed swing analytics including clubhead speed, ball launch angle, and spin rate"
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.majesticoaksgolfclub.com/reserve-simulator",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.0,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Content does not specify club rental options, but it's recommended to bring your own clubs for the best experience."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, outside food and drinks are not permitted. Food and beverages are available for purchase on-site at The Oaks Bar & Grill."
+    },
+    {
+      "question": "How long does it take to play 18 holes on a simulator?",
+      "answer": "Content does not specify the duration for 18 holes on a simulator."
+    },
+    {
+      "question": "Is Majestic Oaks Golf Club kid-friendly?",
+      "answer": "Yes, the club offers junior golf programs and is designed to accommodate families, making it a kid-friendly venue."
+    }
+  ],
+  "rating_overall": 4.1,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"3-9PM\"], \"Wednesday\": [\"3-9PM\"], \"Thursday\": [\"3-9PM\"], \"Friday\": [\"11AM-10PM\"], \"Saturday\": [\"11AM-10PM\"], \"Sunday\": [\"11AM-9PM\"]}"
+}

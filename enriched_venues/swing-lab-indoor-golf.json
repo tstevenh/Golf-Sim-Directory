@@ -1,0 +1,87 @@
+{
+  "name": "Swing Lab Indoor Golf",
+  "address": "6661 Odana Rd, Madison, WI 53719",
+  "city": "Madison",
+  "region": "Wisconsin",
+  "country": "US",
+  "latitude": 43.055956,
+  "longitude": -89.496264,
+  "phone": "+16082184592",
+  "website": "https://swinglabgolfsim.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770201168/golf_simulators/swinglabgolfsim_com_ChIJD1yyla6vB4gRszhg8UFhcTk.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Swing+Lab+Indoor+Golf/@43.0559563,-89.49626359999999,14z/data=!4m8!1m2!2m1!1sSwing+Lab+Indoor+Golf!3m4!1s0x8807afae95b25c0f:0x39716141f16038b3!8m2!3d43.0559563!4d-89.49626359999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJD1yyla6vB4gRszhg8UFhcTk",
+  "email": "info@swinglabgolfsim.com",
+  "venue_type": "sim_bar",
+  "about": "Swing Lab Indoor Golf is a membership-based golf simulator facility in Madison, WI, offering 24/7 access to three private, luxury suites. The venue is equipped with top-of-the-line Trackman iO technology, providing ultra-accurate ball and club data with fast response times in a controlled environment. Access is granted via membership, with booking managed through the MindBody app, and is designed for individual practice or group play on over 400 available courses.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|private_rooms|late_night|coaching_available",
+  "vibe_tags": "private_luxury|tech_lab",
+  "who_its_for": "serious_golfers|families|corporate_teams|solo_practice|coaches_instructors",
+  "why_golfers_like_it": [
+    "Tour-Grade Trackman iO technology provides precise and fast ball and club data",
+    "24/7 access to three spacious, private suites offers complete flexibility and convenience",
+    "Play on over 400 premier courses year-round with a variety of game modes and challenges"
+  ],
+  "kid_friendly": false,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Members may bring their own food; a large trash bin is provided for disposal."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "Alcohol is not permitted on the premises."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Industry-leading radar optimized for indoor use, mounted overhead with total lighting control for a crisp visual experience."
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://swinglabgolfsim.com/membership",
+  "pricing_model": "membership_only",
+  "price_range_min_local": null,
+  "price_range_max_local": null,
+  "currency": "USD",
+  "walk_ins_allowed": false,
+  "coaching_available": true,
+  "private_rooms_count": 3,
+  "max_group_size_per_bay": null,
+  "amenities_list": "club_rentals|private_party_room|pro_shop|leagues|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The content does not specify whether club rentals are available. It is recommended to bring your own clubs for your session."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, you may bring your own food. Beverages are also available for purchase. Alcohol is not allowed. Members are asked to remove and dispose of any food or waste after their session."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website content does not provide an estimated time for playing a full 18-hole round."
+    },
+    {
+      "question": "Is Swing Lab kid-friendly?",
+      "answer": "While the venue does not specifically mention catering to children, its private, adult-oriented atmosphere and no-alcohol policy suggest it may not be designed with families or children in mind."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

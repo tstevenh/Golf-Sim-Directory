@@ -1,0 +1,90 @@
+{
+  "name": "Fore Seasons Golf Club",
+  "address": "28 Old Amity Rd, Bethany, CT 06524",
+  "city": "Bethany",
+  "region": "Connecticut",
+  "country": "US",
+  "latitude": 41.400206,
+  "longitude": -72.999703,
+  "phone": "+12033930800",
+  "website": "https://foreseasonsgolfclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770209112/golf_simulators/foreseasonsgolfclub_com_ChIJySOHqobc54kRwgMCHuL3F8g.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Fore+Seasons+Golf+Club/@41.400206399999995,-72.9997028,14z/data=!4m8!1m2!2m1!1sFore+Seasons+Golf+Club!3m4!1s0x89e7dc86aa8723c9:0xc817f7e21e0203c2!8m2!3d41.400206399999995!4d-72.9997028",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJySOHqobc54kRwgMCHuL3F8g",
+  "venue_type": "training_studio",
+  "about": "Fore Seasons Golf Club is an indoor golf facility located in Bethany, Connecticut. The venue operates from November through April, offering a 25,000 sq. ft. space for golfers to learn, practice, and hone their skills. It features 7 golf simulators, 20 full swing stations, 2,200 sq feet of putting green, 5,500 sq feet of chipping green, and 2 bunkers. The facility provides Trackman dual radar technology simulators and offers golf instruction through private and group lessons. Pricing is based on per-hour or per-hole simulator usage, with lesson packages also available.",
+  "tags": "beginner_friendly|food_and_drinks|coaching_available|premium_tech|serious_practice|budget_friendly",
+  "vibe_tags": "casual|welcoming|modern|industrial_training",
+  "who_its_for": "beginners|serious_golfers|families|solo_practice|coaches_instructors",
+  "why_golfers_like_it": [
+    "Real golf ball and club play on simulators",
+    "Extensive practice areas including a 2,200 sq ft putting green and 5,500 sq ft chipping green",
+    "Trackman dual radar technology for accurate shot analysis",
+    "Professional coaching available through private and group lessons",
+    "Flexible booking options including walk-ins"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Outside food is allowed"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "5 of the 7 simulators feature Trackman dual radar technology"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 7,
+  "booking_url": "unknown",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 20,
+  "price_range_max_local": 35,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 5,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|kitchen_food|wifi|pro_shop|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you use your own clubs with real golf balls on the simulators and practice areas."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, outside food and drinks are allowed."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Time for 18 holes varies but simulator rates are $25 for 18 holes or $35 per hour."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, the facility is welcoming to beginners and families, making it kid-friendly."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"11AM-7PM\"], \"Tuesday\": [\"11AM-7PM\"], \"Wednesday\": [\"11AM-7PM\"], \"Thursday\": [\"11AM-7PM\"], \"Friday\": [\"11AM-7PM\"], \"Saturday\": [\"10AM-6PM\"], \"Sunday\": [\"10AM-6PM\"]}"
+}

@@ -1,0 +1,90 @@
+{
+  "name": "Swing 365 Golf",
+  "address": "10600 S Pennsylvania Ave Ste 11, Oklahoma City, OK 73170",
+  "city": "Oklahoma City",
+  "region": "Oklahoma",
+  "country": "US",
+  "latitude": 35.362237,
+  "longitude": -97.54581,
+  "phone": "+14053671005",
+  "website": "https://swing365oklahoma.com/south-okc",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770209387/golf_simulators/swing365oklahoma_com_ChIJ2UVYSuYTsocRTkvszx0NgoY.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Swing+365+Golf/@35.3622367,-97.54580949999999,14z/data=!4m8!1m2!2m1!1sSwing+365+Golf!3m4!1s0x87b213e64a5845d9:0x86820d1dcfec4b4e!8m2!3d35.3622367!4d-97.54580949999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ2UVYSuYTsocRTkvszx0NgoY",
+  "venue_type": "private_rental",
+  "about": "Swing 365 Golf is a private, members-only indoor golf simulator venue with two locations in Oklahoma City. It offers 24/7 access to private simulator suites equipped with professional-grade Full Swing simulators, allowing golfers to practice and play year-round without weather restrictions. The facility provides a premium, uncrowded environment with no walk-ins, ensuring consistent conditions and clean rooms. Memberships operate on a month-to-month, flat-rate model with various tiers offering daily time allocations ranging from one to two hours.",
+  "tags": "serious_golfers|private_rooms|food_and_drinks|24_7_access|premium_tech|no_walk_ins|beginner_friendly|corporate_events|solo_practice",
+  "vibe_tags": "private_luxury|modern|upscale_lounge",
+  "who_its_for": "serious_golfers|beginners|solo_practice|corporate_teams|families",
+  "why_golfers_like_it": [
+    "24/7 access to private, members-only simulator rooms",
+    "Professional-grade Full Swing simulator technology",
+    "No hourly fees; flat monthly rate model",
+    "Option to bring food and drinks to sessions",
+    "Private, uncrowded environment with no walk-ins"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Members can bring their own food; no food or beverage service is provided."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "Members can bring their own drinks; no alcohol service is provided."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Full Swing",
+      "model": "Simulator",
+      "notes": "Professional-grade technology used by PGA Tour professionals, featuring a larger hitting area, real golf balls, and immediate, no-lag feedback."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://swing365oklahoma.com/membership.html",
+  "pricing_model": "membership_only",
+  "price_range_min_local": 149,
+  "price_range_max_local": 7000,
+  "currency": "USD",
+  "walk_ins_allowed": false,
+  "coaching_available": "unknown",
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "private_rooms|tv_sports|wifi|club_rentals",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes. Members must bring their own golf clubs. The facility uses real golf balls and allows members to use the provided balls or bring their own for consistent practice."
+    },
+    {
+      "question": "Can I bring food and drinks?",
+      "answer": "Yes. All outside food and drinks are welcome. The venue does not offer food or beverage service, so members can bring whatever they would like to enjoy during their session."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes depends on the simulator software and the player's pace, as it is not explicitly specified on the website."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes. The facility is described as kid-friendly, clean, and inviting, making it suitable for families. Private rooms ensure no judgment, just improvement for golfers of all skill levels."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

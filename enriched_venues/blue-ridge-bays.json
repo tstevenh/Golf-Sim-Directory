@@ -1,0 +1,90 @@
+{
+  "name": "Blue Ridge Bays",
+  "address": "271 Old Barn Rd Suite A, Hendersonville, NC 28791",
+  "city": "Hendersonville",
+  "region": "North Carolina",
+  "country": "US",
+  "latitude": 35.343502,
+  "longitude": -82.550075,
+  "phone": "+18282335589",
+  "website": "https://www.blueridgebays.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770201115/golf_simulators/www_blueridgebays_com_ChIJL0W0I-zrWYgRpWn7rfOxabg.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Blue+Ridge+Bays/@35.343501499999995,-82.5500749,14z/data=!4m8!1m2!2m1!1sBlue+Ridge+Bays!3m4!1s0x8859ebec23b4452f:0xb869b1f3adfb69a5!8m2!3d35.343501499999995!4d-82.5500749",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJL0W0I-zrWYgRpWn7rfOxabg",
+  "venue_type": "sim_bar",
+  "about": "Blue Ridge Bays is a self-service, fully-automated golf simulator facility located in Hendersonville, NC. It operates as a gym-for-golf model, where members and guests book sessions online, receive a door code for entry, and enjoy access to climate-controlled bays 24/7. The facility is powered by Trackman technology, offering a premium indoor golf experience with real-time performance data and access to over 400 global courses. Pricing is structured with hourly sessions starting from $60 per hour, and membership options beginning at $90 per month, with discounted rates for additional players. This venue is best for golfers seeking flexible, year-round practice and play in a modern, convenient setting.",
+  "tags": "beginner_friendly|food_and_drinks|serious_practice|corporate_events|premium_tech|budget_friendly|private_rooms|club_rentals|coaching_available",
+  "vibe_tags": "casual|welcoming|modern|tech_lab",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "24/7 self-service access with online booking and door codes",
+    "Premium Trackman technology with detailed shot tracking and course variety",
+    "Flexible pricing model with hourly sessions and membership options",
+    "Climate-controlled environment for year-round play",
+    "Integration with the Trackman app for performance tracking and session planning"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Complimentary non-alcoholic snacks available; outside food is prohibited."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "Alcohol is prohibited inside the facility."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Premium radar-based launch monitor providing real-time shot data"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "auto_putt",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://yourgolfbooking.com/venues/blue-ridge-bays/booking/bays",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": false,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|kitchen_food|tv_sports|wifi|pro_shop|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, golfers must bring their own clubs as the facility does not provide club rentals."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Non-alcoholic beverages are allowed, and complimentary non-alcoholic snacks are provided. Alcohol and outside food are prohibited."
+    },
+    {
+      "question": "How long does an 18-hole round take?",
+      "answer": "The time for an 18-hole round depends on the course and pace of play, but sessions are booked by the hour, typically allowing 1-2 hours for a full round."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the facility welcomes families and is suitable for juniors and youth golfers."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Friday\": [\"6AM-10PM\"]}"
+}

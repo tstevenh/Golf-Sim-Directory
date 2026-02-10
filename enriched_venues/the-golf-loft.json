@@ -1,0 +1,90 @@
+{
+  "name": "The Golf Loft",
+  "address": "6 N Railroad St, Hanover, PA 17331",
+  "city": "Hanover",
+  "region": "Pennsylvania",
+  "country": "US",
+  "latitude": 39.801158,
+  "longitude": -76.982829,
+  "phone": "+17176323232",
+  "website": "http://thegolfloft.us/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770206254/golf_simulators/thegolfloft_us_ChIJO4b7VyZbyIkR1dc1Boki0Oo.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Golf+Loft/@39.801158199999996,-76.982829,14z/data=!4m8!1m2!2m1!1sThe+Golf+Loft!3m4!1s0x89c85b2657fb863b:0xead022890635d7d5!8m2!3d39.801158199999996!4d-76.982829",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJO4b7VyZbyIkR1dc1Boki0Oo",
+  "venue_type": "sim_bar",
+  "about": "The Golf Loft provides premium indoor golf experiences with a relaxed, social atmosphere. It blends tour-level golf technology with an environment designed for both practice and leisure. The venue utilizes Trackman-powered simulator bays, offers professional instruction, leagues, memberships, and hosts events for various group types.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|late_night|coaching_available",
+  "vibe_tags": "casual|welcoming|modern|sports_bar",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "Premium Trackman-powered simulator technology for accurate performance data",
+    "Relaxed, social atmosphere suitable for both practice and social play",
+    "Professional instruction and brand-agnostic club fitting services available",
+    "Flexible booking system with options for individuals, groups, and corporate events"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full-service kitchen available at the State College location, designed to complement longer sessions and group gatherings."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full-service bar available at the State College location."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Used in simulator bays for tracking and performance data."
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "https://book.squareup.com/appointments/d15wloy17m9563/location/LRTCDK3TYJXPE/services",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|leagues|club_fitting",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue is brand-agnostic for club fitting, but players can bring their own clubs for simulator sessions."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "The State College location has a full-service bar and restaurant, while outside food and drink policies are not specified."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "The content does not specify an average time for completing 18 holes."
+    },
+    {
+      "question": "Is The Golf Loft kid-friendly?",
+      "answer": "Yes, the venue is described as approachable for all kinds of golfers, including families, with a relaxed atmosphere."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"10AM-8PM\"], \"Tuesday\": [\"10AM-8PM\"], \"Wednesday\": [\"10AM-8PM\"], \"Thursday\": [\"10AM-8PM\"], \"Friday\": [\"10AM-12AM\"], \"Saturday\": [\"10AM-12AM\"], \"Sunday\": [\"10AM-8PM\"]}"
+}

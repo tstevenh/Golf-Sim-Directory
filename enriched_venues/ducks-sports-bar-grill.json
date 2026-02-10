@@ -1,0 +1,83 @@
+{
+  "name": "Duck's Sports Bar & Grill",
+  "address": "3606 W Division St, St Cloud, MN 56301",
+  "city": "St Cloud",
+  "region": "Minnesota",
+  "country": "US",
+  "latitude": 45.552625,
+  "longitude": -94.202495,
+  "phone": "+13202290909",
+  "website": "http://ducksbar.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770237371/golf_simulators/ducksbar_com_ChIJN9g_kwdftFIRVTxRTM_nEPI.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Duck%27s+Sports+Bar+%26+Grill/@45.5526252,-94.2024951,14z/data=!4m8!1m2!2m1!1sDuck%27s+Sports+Bar+%26+Grill!3m4!1s0x52b45f07933fd837:0xf210e7cf4c513c55!8m2!3d45.5526252!4d-94.2024951",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJN9g_kwdftFIRVTxRTM_nEPI",
+  "venue_type": "sim_bar",
+  "about": "Duck's Sports Bar and Grill is an indoor golf and sports venue located in St. Cloud, Minnesota. The facility features three state-of-the-art golf simulators and offers a range of other activities including pool tables, darts, and sand volleyball courts. The venue operates as a sports bar and grill, serving traditional pub fare such as burgers, wings, pizzas, and mozzarella sticks. It is known for hosting various sports leagues and tournaments, including golf simulator leagues, pool, darts, and volleyball competitions.",
+  "tags": "food_and_drinks|leagues|serious_golfers|beginner_friendly|corporate_events|budget_friendly|community_club",
+  "vibe_tags": "sports_bar|community_club|casual|welcoming",
+  "who_its_for": "serious_golfers|beginner_friendly|families|corporate_teams|leagues",
+  "why_golfers_like_it": [
+    "State-of-the-art golf simulators with over 80 courses available",
+    "Driving range features that track shot distance and ball speed",
+    "Option to play 18 holes regardless of season",
+    "Weekly golf simulator leagues with cash and gift card prizes"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Traditional pub fare including burgers, wings, pizzas, and mozzarella sticks."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available."
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": "yes",
+  "club_tracking": "yes",
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 3,
+  "booking_url": "https://ducksbar.com/contact-us/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 30,
+  "price_range_max_local": 30,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": 0,
+  "max_group_size_per_bay": 2,
+  "amenities_list": "full_bar|kitchen_food|tv_sports|leagues|sports_bar|private_party_room",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own golf clubs?",
+      "answer": "The website does not explicitly state whether club rentals are available. It is recommended to contact the venue directly to inquire about club availability."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "The venue offers a full kitchen and bar service, serving traditional pub fare and drinks. It does not mention a BYOB policy, so outside food and drinks may not be permitted."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "A nine-hole match is stated to take 45 minutes to an hour. Therefore, a full 18-hole match would likely take approximately 1.5 to 2 hours."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The website does not specifically mention child-friendly policies or amenities. It is recommended to contact the venue directly to inquire about their policies regarding children."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"3PM-1AM\"], \"Tuesday\": [\"11AM-1AM\"], \"Wednesday\": [\"11AM-1AM\"], \"Thursday\": [\"11AM-1AM\"], \"Friday\": [\"11AM-1AM\"], \"Saturday\": [\"9AM-1AM\"], \"Sunday\": [\"9AM-10PM\"]}"
+}

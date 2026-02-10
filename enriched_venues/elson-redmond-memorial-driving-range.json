@@ -1,0 +1,93 @@
+{
+  "name": "Elson Redmond Memorial Driving Range",
+  "address": "400 School St, Richmond, VA 23222",
+  "city": "Richmond",
+  "region": "Virginia",
+  "country": "US",
+  "latitude": 37.559688,
+  "longitude": -77.437722,
+  "phone": "+18047283857",
+  "website": "http://www.playgolfrva.org/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770262038/golf_simulators/www_playgolfrva_org_ChIJmy5n1TIRsYkRTYavUV2mAGA.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Elson+Redmond+Memorial+Driving+Range/@37.559688099999995,-77.4377216,14z/data=!4m8!1m2!2m1!1sElson+Redmond+Memorial+Driving+Range!3m4!1s0x89b11132d5672e9b:0x6000a65d51af864d!8m2!3d37.559688099999995!4d-77.4377216",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJmy5n1TIRsYkRTYavUV2mAGA",
+  "email": "sterling@firstteerva.org",
+  "venue_type": "training_studio",
+  "about": "Elson Redmond Memorial Driving Range is a golf training and practice facility part of First Tee – Greater Richmond. The venue features a 6-hole par-3 course with holes ranging from 185 to 45 yards, combined with a full covered range, Champion Bermuda practice areas, and an indoor Trackman bay. It is designed as a space for game improvement and is an entry point for the entire community. The facility is currently open for Trackman sessions only, with advance reservations required, as the main Belmont course remains closed.",
+  "tags": "beginner_friendly|serious_golfers|juniors_youth|coaching_available|leagues|club_fitting|premium_tech|community_club",
+  "vibe_tags": "industrial_training|tech_lab|community_club",
+  "who_its_for": "serious_golfers|beginners|juniors_youth|coaches_instructors",
+  "why_golfers_like_it": [
+    "Indoor Trackman bay for advanced data analysis",
+    "Covered driving range for all-weather practice",
+    "6-hole par-3 course for on-course skills",
+    "Champion Bermuda practice areas for realistic conditions"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned on-site"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned on-site"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Indoor Trackman bay for launch monitor and simulator use"
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 1,
+  "booking_url": "https://playgolfrva.org/elson-redmond/",
+  "pricing_model": "per_person_hour|mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need clubs?",
+      "answer": "Yes, you will need to bring your own clubs to use the facility."
+    },
+    {
+      "question": "Can I bring food or drink?",
+      "answer": "No outside food or drink is permitted at the facility."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Not applicable, as Elson Redmond is a driving range with a 6-hole par-3 course, not an 18-hole course."
+    },
+    {
+      "question": "Is it kid-friendly?",
+      "answer": "Yes, the facility is part of the First Tee program and offers a welcoming environment for juniors and youth golfers."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"10AM-7PM\"], \"Wednesday\": [\"10AM-7PM\"], \"Thursday\": [\"10AM-7PM\"], \"Friday\": [\"Closed\"], \"Saturday\": [\"Closed\"], \"Sunday\": [\"Closed\"]}"
+}

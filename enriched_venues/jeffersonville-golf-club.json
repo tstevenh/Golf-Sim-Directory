@@ -1,0 +1,92 @@
+{
+  "name": "Jeffersonville Golf Club",
+  "address": "2400 W Main St, Norristown, PA 19403",
+  "city": "Norristown",
+  "region": "Pennsylvania",
+  "country": "US",
+  "latitude": 40.136264,
+  "longitude": -75.389606,
+  "phone": "+16105390422",
+  "website": "http://www.jeffersonvillegolfclub.org/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770255857/golf_simulators/www_jeffersonvillegolfclub_org_ChIJX8k_MPaWxokRQingOJ6KhiQ.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Jeffersonville+Golf+Club/@40.1362636,-75.3896055,14z/data=!4m8!1m2!2m1!1sJeffersonville+Golf+Club!3m4!1s0x89c696f6303fc95f:0x24868a9e38e02942!8m2!3d40.1362636!4d-75.3896055",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJX8k_MPaWxokRQingOJ6KhiQ",
+  "email": "Asset-10@2x-8.png",
+  "venue_type": "sim_bar",
+  "about": "Jeffersonville Golf Club is an 18-Hole, par 70 public course designed by Donald J. Ross, offering both on-course play and a state-of-the-art golf simulation facility. The venue includes six Trackman Golf Simulators under a facility called The Stables, which features a Bunker Bar. In addition to simulators, the club operates a full-service restaurant called The Burgess and offers banquet facilities for hosting various events, from weddings to corporate gatherings. The location is owned and operated by West Norriton Township and is consistently rated as one of the top 10 public golf courses in Pennsylvania.",
+  "tags": "serious_golfers|food_and_drinks|corporate_events|coaching_available|premium_tech|family_friendly|leagues|club_rentals|private_rooms",
+  "vibe_tags": "sports_bar|modern|community_club",
+  "who_its_for": "serious_golfers|corporate_teams|families|coaches_instructors|solo_practice",
+  "why_golfers_like_it": [
+    "State-of-the-art Trackman simulators offering access to over 300 global courses",
+    "On-course facility designed by legendary architect Donald J. Ross",
+    "Full-service Bunker Bar and The Burgess restaurant on-site",
+    "Advanced swing feedback with detailed Trackman data",
+    "Host for tournaments, corporate events, and special occasions"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen service at The Burgess Restaurant & Bar, serving steaks, seafood, salads, and more"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Bunker Bar offers a variety of drinks, with special food and drink offerings available"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Six state-of-the-art Trackman simulators with detailed swing feedback"
+    }
+  ],
+  "simulator_software": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 6,
+  "booking_url": "https://yourgolfbooking.com/venues/jeffersonville-golf-club/booking/bays",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you'll need to bring your own golf clubs to use the simulators effectively."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, outside food and drinks are not permitted. The facility has The Burgess Restaurant and the Bunker Bar on-site for dining and beverage options."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes in the simulators?",
+      "answer": "Time to complete 18 holes can vary based on the number of players and pace of play, but typically ranges from 2-3 hours for a standard round."
+    },
+    {
+      "question": "Is Jeffersonville Golf Club kid-friendly?",
+      "answer": "Yes, the venue appears to be kid-friendly with family-oriented amenities and events, though specific junior programs or age restrictions for simulator use weren't detailed."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"11AM-10PM\"], \"Tuesday\": [\"11AM-10PM\"], \"Wednesday\": [\"11AM-10PM\"], \"Thursday\": [\"11AM-10PM\"], \"Friday\": [\"11AM-10PM\"], \"Saturday\": [\"10AM-10PM\"], \"Sunday\": [\"10AM-10PM\"]}"
+}

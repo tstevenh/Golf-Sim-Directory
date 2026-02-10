@@ -1,0 +1,91 @@
+{
+  "name": "Under Par Golf",
+  "address": "5480 Southern Maryland Blvd, Lothian, MD 20711",
+  "city": "Lothian",
+  "region": "Maryland",
+  "country": "US",
+  "latitude": 38.806937,
+  "longitude": -76.696349,
+  "phone": "+13013043056",
+  "website": "https://underpargolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770204220/golf_simulators/underpargolf_com_ChIJtWi491iTt4kRr41Gsri7I4k.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Under+Par+Golf/@38.8069371,-76.6963488,14z/data=!4m8!1m2!2m1!1sUnder+Par+Golf!3m4!1s0x89b79358f7b868b5:0x8923bbb8b2468daf!8m2!3d38.8069371!4d-76.6963488",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJtWi491iTt4kRr41Gsri7I4k",
+  "email": "info@underpargolf.com",
+  "venue_type": "sim_bar",
+  "about": "Under Par Golf is a golf simulator venue in Lothian, MD, offering premium technology and a relaxed social atmosphere. It features Golfzon's TwoVision simulator systems, allowing players to experience world-class courses like Pebble Beach and St. Andrews with high accuracy. The venue operates on a simple flat rate of $68 per bay per hour and caters to both casual players and dedicated golfers seeking an elevated experience. A limited inaugural membership is available for priority booking, exclusive events, and discounts on food and drinks.",
+  "tags": "serious_golfers|food_and_drinks|corporate_events|leagues|premium_tech|private_rooms|club_rentals|date_night|coaching_available|members_only",
+  "vibe_tags": "casual|welcoming|modern|upscale_lounge",
+  "who_its_for": "serious_golfers|corporate_teams|families|solo_practice|large_groups",
+  "why_golfers_like_it": [
+    "Access to iconic, world-class golf courses with stunning 4K visuals",
+    "State-of-the-art Golfzon TwoVision simulator system with real-time data feedback",
+    "Private, comfortable simulator bays with a relaxed atmosphere and full bar service",
+    "Easy online booking system with streamlined reservation management"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Curated selection of small bites available on-site. No outside food permitted."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with cocktails, craft beer, wine, and sodas. No outside beverages allowed."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Golfzon",
+      "model": "TwoVision",
+      "notes": "Features ultra-high-speed sensors (400 fps), a 24-way movable swing plate, and multi-surface hitting mats."
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar|photometric_camera|hybrid|overhead_camera|floor_camera|infrared_optical|unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface|dedicated_green|moving_floor_green|mixed|unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://underpargolf.gymmasteronline.com/portal/login",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 68,
+  "price_range_max_local": 68,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|club_rentals|kitchen_food|tv_sports|private_party_room|wifi|pro_shop|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The provided information does not specify whether clubs are provided or if you need to bring your own."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No, outside food and beverages are not permitted. The venue offers a curated selection of cocktails, beer, wine, sodas, water, and small bites."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "On average, it takes one golfer one hour to play 18 holes."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "No, the information explicitly states that flip flops and open-toed shoes are not allowed for safety reasons, and the general atmosphere appears geared towards adults."
+    }
+  ],
+  "simulator_software": [
+    "Golfzon"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"8AM-8PM\"], \"Tuesday\": [\"8AM-8PM\"], \"Wednesday\": [\"8AM-8PM\"], \"Thursday\": [\"8AM-8PM\"], \"Friday\": [\"8AM-8PM\"], \"Saturday\": [\"8AM-8PM\"], \"Sunday\": [\"8AM-8PM\"]}"
+}

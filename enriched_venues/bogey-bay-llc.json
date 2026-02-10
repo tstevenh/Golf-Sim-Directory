@@ -1,0 +1,89 @@
+{
+  "name": "Bogey Bay LLC",
+  "address": "1475 SW Gatlin Blvd, Port St. Lucie, FL 34953",
+  "city": "Port St. Lucie",
+  "region": "Florida",
+  "country": "US",
+  "latitude": 27.264555,
+  "longitude": -80.393489,
+  "phone": "+17723535688",
+  "website": "http://www.bogeybaypsl.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770218334/golf_simulators/www_bogeybaypsl_com_ChIJ3TX_Nojr3ogRb6jLIuTwGww.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Bogey+Bay+LLC/@27.264555299999998,-80.3934891,14z/data=!4m8!1m2!2m1!1sBogey+Bay+LLC!3m4!1s0x88deeb8836ff35dd:0xc1bf0e422cba86f!8m2!3d27.264555299999998!4d-80.3934891",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ3TX_Nojr3ogRb6jLIuTwGww",
+  "venue_type": "sim_bar",
+  "about": "Bogey Bay LLC is an indoor golf simulator venue located in Port St. Lucie, Florida. It offers a modern, climate-controlled environment where players can use their own clubs or rentals to hit real balls and see true ball flight on state-of-the-art simulators. The facility is designed to provide a fast-paced golfing experience, complete with full-service drinks and food, alongside a lively sports-bar atmosphere that serves as an alternative to traditional golf courses. The venue emphasizes convenience, allowing golfers to play regardless of weather conditions like Florida heat or storms, and offers amenities such as league play, lessons, and space for group events.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|leagues|premium_tech|family_friendly|coaching_available|date_night",
+  "vibe_tags": "sports_bar|casual|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "State-of-the-art simulators provide real ball flight and precise stats",
+    "Climate-controlled environment for play in any weather",
+    "Full-service bar and food available in a sports-bar atmosphere",
+    "Convenient tee time booking and flexible group event options"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Upscale casual fare including salads, sandwiches, wraps, nachos, and hot dogs"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar serving beer, including Bud Light, and other beverages like Corona, Coke, and Monster"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Golfzon",
+      "model": "Unknown",
+      "notes": "Premium simulators using high-speed cameras to capture swing and clubface data"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "auto_putt|gimme_circle",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://tables.toasttab.com/restaurants/acd5149b-5617-4e72-b1bb-6f7e842a7a94/findTime",
+  "pricing_model": "per_bay_hour|mixed",
+  "price_range_min_local": 20,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 0,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, you can use your own clubs or rentals are available on-site."
+    },
+    {
+      "question": "Can I bring outside food or drinks?",
+      "answer": "Outside food and drinks are not mentioned as being allowed; the venue offers a full-service bar and food menu."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "A full round of 18 holes can be played in about 1 hour, making for a fast and fun session."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is family-friendly and can accommodate large group events, including family reunions and birthday parties."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"11AM-10PM\"], \"Tuesday\": [\"11AM-10PM\"], \"Wednesday\": [\"11AM-10PM\"], \"Thursday\": [\"11AM-10PM\"], \"Friday\": [\"11AM-12AM\"], \"Saturday\": [\"11AM-12AM\"], \"Sunday\": [\"11AM-10PM\"]}"
+}

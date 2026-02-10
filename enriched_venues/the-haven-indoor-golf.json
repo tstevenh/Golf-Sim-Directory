@@ -1,0 +1,91 @@
+{
+  "name": "The Haven Indoor Golf",
+  "address": "12317 S Harlem Ave, Palos Heights, IL 60463",
+  "city": "Palos Heights",
+  "region": "Illinois",
+  "country": "US",
+  "latitude": 41.667288,
+  "longitude": -87.79605,
+  "phone": "+17086718052",
+  "website": "https://thehavenindoorgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770220878/golf_simulators/thehavenindoorgolf_com_ChIJqynlBqk5DogRFZbKr36X9YY.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Haven+Indoor+Golf/@41.6672875,-87.79604979999999,14z/data=!4m8!1m2!2m1!1sThe+Haven+Indoor+Golf!3m4!1s0x880e39a906e529ab:0x86f5977eafca9615!8m2!3d41.6672875!4d-87.79604979999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJqynlBqk5DogRFZbKr36X9YY",
+  "email": "info@thehavenindoorgolf.com",
+  "venue_type": "sim_bar",
+  "about": "The Haven Indoor Golf & Bar is an indoor golf facility equipped with four separate bays featuring state-of-the-art simulators. The venue maintains a consistent climate at 72 degrees year-round and offers amenities including a full bar, food service, and an event space for private gatherings. It provides flexible booking options for tee times and hosts leagues, private lessons, and corporate or social events. Pricing is structured on a per-bay, hourly basis, with rates and hours subject to seasonal changes.",
+  "tags": "food_and_drinks|leagues|coaching_available|corporate_events|date_night|serious_golfers|premium_tech|private_rooms",
+  "vibe_tags": "casual|sports_bar|community_club|modern",
+  "who_its_for": "serious_golfers|corporate_teams|families|large_groups|solo_practice",
+  "why_golfers_like_it": [
+    "Professional-grade Foresight GC Hawk launch monitors for highly accurate shot data",
+    "Climate-controlled environment for year-round play",
+    "On-site full bar and food service available during play",
+    "Four separate bays for private or group sessions",
+    "75+ world-class and local golf courses available to simulate"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Finger foods and a full food menu are available for purchase on-site."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available with cocktails, ice cold draft beer, and other drink options."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": "GC Hawk",
+      "notes": "Professional-grade launch monitors used by the PGA, providing precise ball and club data tracking."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 4,
+  "booking_url": "https://booking.registrygolf.com/?organizationId=bd4340f7-b784-49bc-9d49-7239047111e3",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 37.5,
+  "price_range_max_local": 50,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 4,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you will need to bring your own golf clubs to play at The Haven."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, outside food and drinks are not allowed. The Haven has an on-site full bar and kitchen with food available for purchase."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "A typical 18-hole round on the simulators takes approximately one hour."
+    },
+    {
+      "question": "Is The Haven kid-friendly?",
+      "answer": "Yes, the venue is suitable for families and can host parties for children, such as birthday parties."
+    }
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-11PM\"], \"Saturday\": [\"10AM-11PM\"], \"Sunday\": [\"11AM-5PM\"]}"
+}

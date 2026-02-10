@@ -1,0 +1,89 @@
+{
+  "name": "Golf Lessons Boston",
+  "address": "516 Gallivan Blvd, Boston, MA 02124",
+  "city": "Boston",
+  "region": "Massachusetts",
+  "country": "US",
+  "latitude": 42.282775,
+  "longitude": -71.05558,
+  "phone": "+11593529031",
+  "website": "https://www.golflessonsboston.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770243430/golf_simulators/www_golflessonsboston_com_ChIJnTiroKpw44kRUBrhZxdoqaE.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Golf+Lessons+Boston/@42.282775,-71.0555801,14z/data=!4m8!1m2!2m1!1sGolf+Lessons+Boston!3m4!1s0x89e370aaa0ab389d:0xa1a9681767e11a50!8m2!3d42.282775!4d-71.0555801",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJnTiroKpw44kRUBrhZxdoqaE",
+  "email": "golfcaviar@gmail.com",
+  "venue_type": "training_studio",
+  "about": "Golf Lessons Boston is a golf instruction and training facility connecting golfers with coaches for comprehensive game improvement. The venue offers a variety of services including private golf lessons, group sessions, indoor lessons, golf conditioning through the Titleist Performance Institute, club fitting, and yoga specifically for golfers. While they utilize Trackman technology for instruction and practice, the primary focus is on coaching and skill development rather than entertainment-style simulation. The site emphasizes a holistic approach to golf improvement, integrating technical skills, course management strategy, physical fitness, and mental game.",
+  "tags": "beginner_friendly|serious_golfers|coaching_available|private_rooms|club_rentals|premium_tech|budget_friendly",
+  "vibe_tags": "industrial_training|community_club",
+  "who_its_for": "beginners|serious_golfers|families|solo_practice|juniors_youth",
+  "why_golfers_like_it": [
+    "Access to Trackman technology for data-driven instruction and shot tracking",
+    "Comprehensive coaching that covers technical, strategic, and physical aspects of the game",
+    "Year-round practice capabilities with heated bays for consistent training conditions"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of on-site food service"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service; BYOB policy not specified"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Used for lessons and practice to track ball flight and provide shot data"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://www.golflessonsboston.com/schedule-a-golf-lesson",
+  "pricing_model": "per_person_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|club_fitting|coaching_available",
+  "rating_tech_quality": 5.0,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 3.5,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "The site does not explicitly state whether clubs are provided. It is recommended to bring your own clubs for lessons and practice sessions."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "There is no mention of food service or a BYOB policy on the website. It is advisable to contact the venue directly for clarification on outside food and drink."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "The website focuses on lessons and practice rather than playing full simulated rounds. The time for a full 18-hole simulation is not specified."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue offers 'Beginner Golf Lessons' and 'Juniors Youth' are listed as a target audience, indicating a kid-friendly environment for learning golf."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"8AM-9PM\"], \"Tuesday\": [\"8AM-9PM\"], \"Wednesday\": [\"8AM-9PM\"], \"Thursday\": [\"8AM-9PM\"], \"Friday\": [\"8AM-6PM\"], \"Saturday\": [\"8AM-3PM\"], \"Sunday\": [\"8-10AM\"]}"
+}

@@ -1,0 +1,91 @@
+{
+  "name": "The Divot",
+  "address": "8191 S Grant Way, Littleton, CO 80122",
+  "city": "Littleton",
+  "region": "Colorado",
+  "country": "US",
+  "latitude": 39.569053,
+  "longitude": -104.985867,
+  "phone": "+17205736557",
+  "website": "https://thedivot.golf/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770215520/golf_simulators/thedivot_golf_ChIJP6uIUWGDbIcRE0j79O3lJZw.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Divot/@39.5690531,-104.9858675,14z/data=!4m8!1m2!2m1!1sThe+Divot!3m4!1s0x876c83615188ab3f:0x9c25e5edf4fb4813!8m2!3d39.5690531!4d-104.9858675",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJP6uIUWGDbIcRE0j79O3lJZw",
+  "email": "thedivotcolorado@gmail.com",
+  "venue_type": "sim_bar|training_studio|private_rental",
+  "about": "The Divot is a year-round golf simulator facility with 4 bays in Littleton, CO. It operates as a publicly accessible indoor venue during the off-season (November-March) and as a member-only club from April through October. The facility is equipped with Uneekor and GSPro technology, offering extensive data tracking and access to world-renowned virtual courses. Private and group instruction is available from four certified PGA professionals, with lessons held indoors at The Divot and outdoors at The Links Golf Course in-season. The venue operates on a mixed pricing model, including hourly rentals and various membership options ranging from punch passes to unlimited 24/7 access, with blackout periods during peak times.",
+  "tags": "beginner_friendly|food_and_drinks|coaching_available|leagues|premium_tech|family_friendly|solo_practice|juniors_youth",
+  "vibe_tags": "community_club|tech_lab|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|families|juniors_youth|coaches_instructors",
+  "why_golfers_like_it": [
+    "Premium Uneekor Swing Optix technology provides detailed swing data",
+    "24/7 unlimited access with flexible membership options",
+    "Access to legendary courses like Augusta National and Pebble Beach",
+    "PGA-certified professional instruction available year-round",
+    "BYOB food policy enhances the social experience"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Patrons may bring their own food. Free water, coffee, and tea are provided."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol is allowed on the premises."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "Swing Optix",
+      "notes": "Premium video cameras with data points including swing path, club face, and swing speed."
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 4,
+  "booking_url": "https://TheDivot.as.me/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 50,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 4,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|tv_sports|pro_shop|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you must bring your own golf clubs to use the simulators."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "You may bring your own food and non-alcoholic beverages. Free water, coffee, and tea are also provided."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Typically, it takes about one hour for one player to play 18 holes or two hours for two players to play 18 holes."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, The Divot welcomes youth and is a year-round golf home for kids and adults, making it a family-friendly environment."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"11AM-3PM\"], \"Tuesday\": [\"11AM-3PM\"], \"Wednesday\": [\"11AM-3PM\"], \"Thursday\": [\"11AM-3PM\"], \"Friday\": [\"11AM-3PM\"], \"Saturday\": [\"10AM-5PM\"], \"Sunday\": [\"10AM-5PM\"]}"
+}

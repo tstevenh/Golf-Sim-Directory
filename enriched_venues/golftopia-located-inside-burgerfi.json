@@ -1,0 +1,93 @@
+{
+  "name": "Golftopia (Located inside BurgerFi)",
+  "address": "106 Sayebrook Pkwy, Myrtle Beach, SC 29588",
+  "city": "Myrtle Beach",
+  "region": "South Carolina",
+  "country": "US",
+  "latitude": 33.652087,
+  "longitude": -78.983482,
+  "phone": "+18432938800",
+  "website": "https://golftopiamyrtlebeach.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770216656/golf_simulators/golftopiamyrtlebeach_com_ChIJ7V5tXfpBAIkR3bEbfkV8UBw.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Golftopia+%28Located+inside+BurgerFi%29/@33.6520868,-78.9834819,14z/data=!4m8!1m2!2m1!1sGolftopia+%28Located+inside+BurgerFi%29!3m4!1s0x890041fa5d6d5eed:0x1c507c457e1bb1dd!8m2!3d33.6520868!4d-78.9834819",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ7V5tXfpBAIkR3bEbfkV8UBw",
+  "email": "info@golftopiamyrtlebeach.com",
+  "venue_type": "sim_bar",
+  "about": "Golftopia is a golf simulator and entertainment venue located inside BurgerFi in Myrtle Beach, SC. It features Trackman technology for golf simulation and provides an all-in-one experience that combines golf with food and drinks from the adjacent restaurant. The venue is designed for a casual, social atmosphere where players can enjoy a round of golf without leaving the building. Pricing is straightforward at $35 per hour for a bay, with an additional $5 for each extra player up to a maximum of six people. The facility is ideal for both golfers looking for a quick practice session and those seeking a unique venue for social gatherings.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|budget_friendly|private_rooms|club_rentals|coaching_available|kids_friendly",
+  "vibe_tags": "casual|welcoming|modern|family_fun_center",
+  "who_its_for": "beginners|families|corporate_teams|tourists_travelers|solo_practice",
+  "why_golfers_like_it": [
+    "Convenient all-in-one golf and dining experience",
+    "Professional-level Trackman technology for accurate data",
+    "Club rentals and new balls provided for convenience",
+    "Located inside BurgerFi for easy access to food and drinks"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "All-natural food available from BurgerFi, including bowls, burgers, shakes, and custard treats. Food can be enjoyed while playing."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol is mentioned as being available for sale on-site."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Trackman system is the core technology used for golf simulation, with detailed ball and club tracking."
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://booking.trackmangolf.com/venues/golftopia-myrtlebeach/booking/bays",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 35,
+  "price_range_max_local": 65,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|kitchen_food|tv_sports|club_fitting|leagues|kids_friendly",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, dirty clubs are not allowed in the simulator bay. The venue has brand new Callaway clubs available for use, including women's and left-handed options."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No outside food or drinks are allowed as the venue is located inside BurgerFi, where you can purchase food and beverages to enjoy while playing."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes is not specified, but it is recommended to set up a free Trackman account prior to arrival to maximize your play time."
+    },
+    {
+      "question": "Is Golftopia kid-friendly?",
+      "answer": "Yes, Golftopia is family-friendly and suitable for kids, with a casual atmosphere and food options available."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"9AM-8PM\"], \"Tuesday\": [\"9AM-8PM\"], \"Wednesday\": [\"9AM-8PM\"], \"Thursday\": [\"9AM-8PM\"], \"Friday\": [\"9AM-8PM\"], \"Saturday\": [\"9AM-8PM\"], \"Sunday\": [\"9AM-8PM\"]}"
+}

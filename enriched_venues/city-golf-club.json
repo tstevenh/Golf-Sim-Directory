@@ -1,0 +1,92 @@
+{
+  "name": "City Golf Club",
+  "address": "200 Crescent Ct Suite 95, Dallas, TX 75201",
+  "city": "Dallas",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 32.793654,
+  "longitude": -96.803908,
+  "phone": "+14696772244",
+  "website": "http://citygolfclub.co/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770199356/golf_simulators/citygolfclub_co_ChIJ0yvJEr6ZToYRZJLEgtt_Ykg.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/City+Golf+Club/@32.7936538,-96.8039079,14z/data=!4m8!1m2!2m1!1sCity+Golf+Club!3m4!1s0x864e99be12c92bd3:0x48627fdb82c49264!8m2!3d32.7936538!4d-96.8039079",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ0yvJEr6ZToYRZJLEgtt_Ykg",
+  "email": "contact@citygolfclub.co",
+  "venue_type": "sim_bar|training_studio",
+  "about": "City Golf Club provides convenient golf practice and expert instruction within urban office settings across the Dallas-Fort Worth metroplex. The venue features high-tech simulators and dedicated practice areas with 24/7 access for members, allowing golfers to elevate their game on their own schedule regardless of weather or time constraints. Membership options include access to multiple locations with amenities such as Trackman bays, on-site putting courses, gym access at select locations, and club fittings by Titleist.",
+  "tags": "beginner_friendly|corporate_events|premium_tech|coaching_available|serious_practice|club_rentals|private_rooms",
+  "vibe_tags": "upscale_lounge|tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "24/7 access to luxurious lounge environments with high-tech simulators",
+    "Private lessons from PGA Professionals including Golf Digest top instructor Jonathan Buchanan",
+    "Multiple locations throughout Dallas with convenient amenities like on-site putting courses and gyms"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of food service; BYOB policy not specified"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service; BYOB policy not specified"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Multiple Trackman bays with video and swing analysis applications at all locations"
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 9,
+  "booking_url": "https://clients.citygolfclub.co/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 75,
+  "price_range_max_local": 4200,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 9,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|pro_shop|club_fitting|private_party_room|wifi|tv_sports",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 3.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Club rentals are available and club fittings by Titleist are offered at all locations."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "notes": "No information provided on outside food and drink policies."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "No specific time mentioned for 18 holes, but simulators offer over 300 courses to play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "No specific mention of kid-friendly amenities or programs, but instruction is available for all skill levels including beginners."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.1,
+  "opening_hours": "{\"Monday\": [\"8AM-8PM\"], \"Tuesday\": [\"8AM-8PM\"], \"Wednesday\": [\"8AM-8PM\"], \"Thursday\": [\"8AM-8PM\"], \"Friday\": [\"8AM-8PM\"], \"Saturday\": [\"8AM-8PM\"], \"Sunday\": [\"8AM-8PM\"]}"
+}

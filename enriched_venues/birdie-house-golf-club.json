@@ -1,0 +1,90 @@
+{
+  "name": "Birdie House Golf Club",
+  "address": "4405 Belmont Ave, Dallas, TX 75204",
+  "city": "Dallas",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 32.808905,
+  "longitude": -96.788826,
+  "phone": "+18338790052",
+  "website": "https://www.birdiehousegolfclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770199339/golf_simulators/www_birdiehousegolfclub_com_ChIJ6SSJPdIB6Q8R4NkOQ2ag_i4.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Birdie+House+Golf+Club/@32.8089048,-96.78882639999999,14z/data=!4m8!1m2!2m1!1sBirdie+House+Golf+Club!3m4!1s0xfe901d23d8924e9:0x2efea066430ed9e0!8m2!3d32.8089048!4d-96.78882639999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ6SSJPdIB6Q8R4NkOQ2ag_i4",
+  "email": "Membership@BirdieHouseGolfClub.com",
+  "venue_type": "other",
+  "about": "Birdie House Golf Club operates as a private, member-only golf simulator venue with multiple locations in Texas and Oklahoma. It utilizes a membership model, offering two tiers: a Par membership at $19/month for 1-2 visits and a Birdie membership at $99/month for 3+ visits, which includes one free hour of daily use. The facility is focused on providing an affordable and accessible golf experience with unlimited access from 5 AM to 11 PM. Members can play at any location, with all locations offering full member benefits. The experience is powered by advanced technology, including ProTee VX launch monitors and GSPro simulation software, aiming to deliver a scientific and data-driven approach to golf improvement.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|budget_friendly|private_rooms|club_rentals|community_club",
+  "vibe_tags": "casual|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|families|solo_practice|corporate_teams",
+  "why_golfers_like_it": [
+    "Membership at any location provides full access to all locations",
+    "Unlimited access from 5 AM to 11 PM every day",
+    "Powered by ProTee VX launch monitors, the latest in launch monitor technology",
+    "GSPro simulation software with 500+ created courses, including over 100 high-quality, lidar-based courses"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "Members are allowed to bring their own food"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "Members are allowed to bring their own drinks"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "ProTee",
+      "model": "VX",
+      "notes": "Latest in launch monitor technology"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://birdiehousegolfclub.playbypoint.com/",
+  "pricing_model": "membership_only",
+  "price_range_min_local": 19,
+  "price_range_max_local": 99,
+  "currency": "USD",
+  "walk_ins_allowed": "No",
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|private_party_room|wifi",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 4.5,
+  "faq": [
+    {
+      "question": "Do I need clubs?",
+      "answer": "You will need to bring your own clubs as they are not provided by the venue."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "Yes, members are allowed to bring their own food and drinks, as long as they treat the facility like their own."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes can vary, but with unlimited access to bays and GSPro software, members can play at their own pace."
+    },
+    {
+      "question": "Is Birdie House kid-friendly?",
+      "answer": "The venue does not have specific information regarding kid-friendly amenities or policies mentioned."
+    }
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"5AM-11PM\"], \"Tuesday\": [\"5AM-11PM\"], \"Wednesday\": [\"5AM-11PM\"], \"Thursday\": [\"5AM-11PM\"], \"Friday\": [\"5AM-11PM\"], \"Saturday\": [\"5AM-11PM\"], \"Sunday\": [\"5AM-11PM\"]}"
+}

@@ -1,0 +1,92 @@
+{
+  "name": "Twisted Tees",
+  "address": "77 Wind Creek Blvd, Bethlehem, PA 18015",
+  "city": "Bethlehem",
+  "region": "Pennsylvania",
+  "country": "US",
+  "latitude": 40.614771,
+  "longitude": -75.359709,
+  "phone": "+18334204899",
+  "website": "https://www.playtwisted.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770206285/golf_simulators/www_playtwisted_com_ChIJRdBo6SY_xIkRiT9B106yvAA.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Twisted+Tees/@40.6147707,-75.3597095,14z/data=!4m8!1m2!2m1!1sTwisted+Tees!3m4!1s0x89c43f26e968d045:0xbcb24ed7413f89!8m2!3d40.6147707!4d-75.3597095",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJRdBo6SY_xIkRiT9B106yvAA",
+  "venue_type": "sim_bar",
+  "about": "Twisted Tees is an indoor golf simulator venue and sports bar located in Bethlehem, PA. The facility features TruGolf simulator bays that offer virtual golf experiences alongside multi-sports options like soccer, baseball, and ice hockey. The venue operates with a per-bay, hourly pricing model and accommodates groups up to six people per bay. The atmosphere combines a vintage golf club aesthetic with an industrial vibe, emphasizing a casual, welcoming environment for both serious golf practice and social gatherings.",
+  "tags": "food_and_drinks|corporate_events|beginner_friendly|date_night|family_friendly|large_groups",
+  "vibe_tags": "sports_bar|casual|welcoming|modern|family_fun_center",
+  "who_its_for": "beginners|families|corporate_teams|large_groups|solo_practice",
+  "why_golfers_like_it": [
+    "Year-round play with perfect weather conditions using TruGolf technology",
+    "Per-bay pricing allows for flexible group sizes from 1 to 6 people",
+    "Combination of golf practice and social activities in a relaxed sports bar setting"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen with pub fare and local brews available"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Local brews and spirits served onsite"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "TruGolf",
+      "model": "unknown",
+      "notes": "State-of-the-art simulators with advanced performance analysis technology"
+    }
+  ],
+  "simulator_so": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.playtwisted.com/book-now/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website doesn't explicitly state whether club rentals are available, but it mentions having a putting green and virtual golf bays."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "The venue has its own kitchen and bar serving food and local brews, so outside food/drink policies aren't specified."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Approximately 1 hour per person to play a round of 18 holes."
+    },
+    {
+      "question": "Is Twisted Tees kid-friendly?",
+      "answer": "Yes, the venue features backyard games like cornhole and is described as suitable for families and group activities."
+    }
+  ],
+  "simulator_software": [
+    "TruGolf"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"4-10PM\"], \"Wednesday\": [\"4-10PM\"], \"Thursday\": [\"4-10PM\"], \"Friday\": [\"11AM-10PM\"], \"Saturday\": [\"9AM-11PM\"], \"Sunday\": [\"9AM-8PM\"]}"
+}

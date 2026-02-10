@@ -1,0 +1,96 @@
+{
+  "name": "Bridgeport Golf Club",
+  "address": "3612 S Morgan St Unit 5, Chicago, IL 60609",
+  "city": "Chicago",
+  "region": "Illinois",
+  "country": "US",
+  "latitude": 41.828212,
+  "longitude": -87.652557,
+  "phone": "+13123809101",
+  "website": "https://bridgeportgolfclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770199459/golf_simulators/bridgeportgolfclub_com_ChIJc9JSkcgtDogRPXjMRFTXuXY.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Bridgeport+Golf+Club/@41.8282118,-87.6525565,14z/data=!4m8!1m2!2m1!1sBridgeport+Golf+Club!3m4!1s0x880e2dc89152d273:0x76b9d75444cc783d!8m2!3d41.8282118!4d-87.6525565",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJc9JSkcgtDogRPXjMRFTXuXY",
+  "venue_type": "multi_sport_sim",
+  "about": "Bridgeport Golf Club is a members-only indoor golf facility located on Chicago's Southside, offering year-round access to six state-of-the-art hitting bays. The venue provides a premium golfing experience with expert instruction and a community-focused environment. Members benefit from flexible scheduling, personalized access codes, and the ability to book sessions through a mobile app or website without peak-hour restrictions.",
+  "tags": "serious_golfers|premium_tech|community_club|coaching_available|leagues|private_rooms|club_rentals|wifi|modern|upscale_lounge",
+  "vibe_tags": "tech_lab|community_club|modern|upscale_lounge",
+  "who_its_for": "serious_golfers|beginners|families|solo_practice|corporate_teams",
+  "why_golfers_like_it": [
+    "Access to premium TrackMan and Uneekor launch monitor technology",
+    "Flexible scheduling with no peak-hour restrictions",
+    "Inclusive community with member leagues and social events",
+    "Professional instruction from PGA-certified coaches",
+    "Secure personal access codes for convenient play"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of on-site food service"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service; BYOB policy not specified"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Three bays equipped with TrackMan launch monitors"
+    },
+    {
+      "brand": "Uneekor",
+      "model": "EyeXO",
+      "notes": "Three bays equipped with Uneekor EyeXO launch monitors"
+    }
+  ],
+  "simulator_software": [
+    "Virtual Golf 3",
+    "GSPro"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 6,
+  "booking_url": "https://bridgeportgolfclub.com/become-a-member/",
+  "pricing_model": "membership_only",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 6,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|wifi|pro_shop|club_fitting|leagues|ada_accessible|private_party_room",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Members should bring their own clubs, though the venue may offer club rentals for visitors or new members."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No specific policy mentioned, but as a members-only facility, outside food and drink may be permitted."
+    },
+    {
+      "question": "How long does an 18-hole round take?",
+      "answer": "No specific time mentioned, but members can book sessions at their convenience and play full rounds when it suits their schedule."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue welcomes families and allows members to bring friends and family to sessions with no guest fees."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": null
+}

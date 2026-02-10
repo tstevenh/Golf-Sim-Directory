@@ -1,0 +1,92 @@
+{
+  "name": "Fairways On High, LLC",
+  "address": "15 High St #1, North Andover, MA 01845",
+  "city": "North Andover",
+  "region": "Massachusetts",
+  "country": "US",
+  "latitude": 42.701098,
+  "longitude": -71.125303,
+  "phone": "+13512047561",
+  "website": "https://www.fairwaysonhigh.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770232351/golf_simulators/www_fairwaysonhigh_com_ChIJFde7SygH44kRw4CYSE5IfVQ.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Fairways+On+High%2C+LLC/@42.7010977,-71.12530319999999,14z/data=!4m8!1m2!2m1!1sFairways+On+High%2C+LLC!3m4!1s0x89e307284bbbd715:0x547d484e489880c3!8m2!3d42.7010977!4d-71.12530319999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJFde7SygH44kRw4CYSE5IfVQ",
+  "email": "karen@fairwaysonhigh.com",
+  "venue_type": "sim_bar",
+  "about": "Fairways On High, LLC is an indoor golf venue featuring advanced simulators with a cozy lounge vibe. The facility provides a climate-controlled environment for players to use real clubs and golf balls to play full rounds, practice, or enjoy games. Pricing is based on a per-bay, per-hour model that varies by time of day and season, with an average play time of 1.25 hours for 18 holes per person. The venue is equipped with multiple bays, amenities, and space for events.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|private_rooms|coaching_available|family_friendly|group_friendly",
+  "vibe_tags": "upscale_lounge|sports_bar|family_fun_center|community_club|modern",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "State-of-the-art simulators with 4K graphics and lifelike physics",
+    "Over 1,700 courses available including iconic locations like Augusta National and Pebble Beach",
+    "Cozy lounge atmosphere with amenities like billiards, darts, and a fireplace",
+    "Variety of private event and party options for groups",
+    "Practice modes with detailed shot analysis for skill improvement"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Small menu available with bites, soft drinks, and coffee bar"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Craft cocktails and other alcoholic beverages served"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "State-of-the-art simulators with 4K graphics and accurate ball tracking"
+    }
+  ],
+  "simulator_software": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "auto_putt",
+  "lefty_friendly": true,
+  "bay_count_total": 7,
+  "booking_url": "https://clients.uschedule.com/fairwaysonhigh/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 8,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|lockers|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You're welcome to bring your own clubs, but we also offer rental sets for those who don't have their own. These are first-come-first-serve with a charge of $25 per use."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "Outside food and beverages are not permitted, with the exception of birthday cakes or special events (please inquire in advance). Delivery from neighboring restaurants is encouraged."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "On average, it takes about 1.25 hours per person to play 18 holes. Two players can expect to finish in about 2.5 hours. We suggest allowing an additional 30 minutes if available."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, our simulators are great for all skill levels. We have some fun courses for children, including a Bluey course, and the facility is welcoming for families."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"3-9PM\"], \"Tuesday\": [\"9AM-9PM\"], \"Wednesday\": [\"9AM-11PM\"], \"Thursday\": [\"9AM-11PM\"], \"Friday\": [\"9AM-11PM\"], \"Saturday\": [\"9AM-11PM\"], \"Sunday\": [\"9AM-6PM\"]}"
+}

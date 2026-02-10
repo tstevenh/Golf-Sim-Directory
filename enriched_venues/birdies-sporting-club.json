@@ -1,0 +1,89 @@
+{
+  "name": "Birdie's Sporting Club",
+  "address": "103 N 13th St, Brooklyn, NY 11249",
+  "city": "Brooklyn",
+  "region": "New York",
+  "country": "US",
+  "latitude": 40.722538,
+  "longitude": -73.956135,
+  "phone": "+17189711165",
+  "website": "http://www.xgolfbrooklyn.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770219627/golf_simulators/www_xgolfbrooklyn_com_ChIJKf2mr2VZwokRFa-Q-HEdbR4.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Birdie%27s+Sporting+Club/@40.7225379,-73.9561348,14z/data=!4m8!1m2!2m1!1sBirdie%27s+Sporting+Club!3m4!1s0x89c25965afa6fd29:0x1e6d1d71f890af15!8m2!3d40.7225379!4d-73.9561348",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJKf2mr2VZwokRFa-Q-HEdbR4",
+  "email": "birdies@xgolfbrooklyn.com",
+  "venue_type": "sim_bar",
+  "about": "Birdie's Sporting Club, located in Brooklyn, is an indoor golf venue featuring X-Golf technology, which combines laser, light, impact, and camera sensory technologies to collect raw golf data. The facility offers golf simulators that can accommodate 1-6 players per bay, with a total capacity of 10 people per bay. A range of playing options is available, including driving ranges, practice shots, par 3 courses, 46 full courses, and competitive games. The venue also functions as a clubhouse with food and beverage offerings, making it suitable for both casual play and social events. Bookings are typically opened 7 days in advance, with members receiving access to early booking windows.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|club_rentals|community_club",
+  "vibe_tags": "sports_bar|community_club|modern",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "Proprietary X-Golf technology providing the most accurate and comprehensive indoor golf simulation in the world",
+    "Variety of playing options including 46 full courses and driving ranges",
+    "Amenities like a clubhouse, food and beverage options, and club rentals for a complete experience"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Gluten-free options available; child-friendly food options; no outside food allowed"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar available"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "X-Golf",
+      "model": "Proprietary Simulator",
+      "notes": "Custom-built simulator combining laser, light, impact, and camera sensory technologies"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "http://www.xgolfbrooklyn.com/booknow",
+  "pricing_model": "per_bay_hour|mixed",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|wifi|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "No, club rentals are available for $35 per set, per booking."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, outside food and drinks are not allowed. The venue offers its own menu with gluten-free options and child-friendly choices."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time required to play 18 holes is not specified, but it depends on the course and player speed."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue welcomes all ages and offers youth club rentals and child-friendly food and drink options."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"7AM-10PM\"], \"Tuesday\": [\"7AM-10PM\"], \"Wednesday\": [\"7AM-10PM\"], \"Thursday\": [\"7AM-12AM\"], \"Friday\": [\"7AM-2AM\"], \"Saturday\": [\"9AM-2AM\"], \"Sunday\": [\"9AM-10PM\"]}"
+}

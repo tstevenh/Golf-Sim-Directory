@@ -1,0 +1,85 @@
+{
+  "name": "X-Golf Reno",
+  "address": "Shayden Summit, 13925 S Virginia St Ste. 234, Reno, NV 89511",
+  "city": "Reno",
+  "region": "Nevada",
+  "country": "US",
+  "latitude": 39.405944,
+  "longitude": -119.752277,
+  "phone": "+17755673415",
+  "website": "https://playxgolf.com/locations/reno/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770218233/golf_simulators/playxgolf_com_ChIJXUJ8Dt0VmYARg7ThuKO1zHQ.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/X-Golf+Reno/@39.4059443,-119.75227679999999,14z/data=!4m8!1m2!2m1!1sX-Golf+Reno!3m4!1s0x809915dd0e7c425d:0x74ccb5a3b8e1b483!8m2!3d39.4059443!4d-119.75227679999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJXUJ8Dt0VmYARg7ThuKO1zHQ",
+  "email": "info@xgolfreno.com",
+  "venue_type": "sim_bar",
+  "about": "X-Golf Reno is an indoor golf simulator venue that combines advanced technology with a sports bar atmosphere. The facility features 8 state-of-the-art golf simulators, utilizing camera systems, infrared lasers, and impact sensors for accurate and realistic gameplay. Each simulator bay can accommodate up to 6 people and is priced per hour, making it suitable for both individual players and groups. The venue offers a full bar and food service, along with various amenities like TVs, private event hosting, and PGA-certified lessons. It caters to a diverse clientele including beginners, serious golfers, and those looking for entertainment, with a strong emphasis on booking tee times in advance.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|club_rentals|coaching_available|private_rooms",
+  "vibe_tags": "sports_bar|community_club|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|large_groups",
+  "why_golfers_like_it": [
+    "World's most accurate golf simulator technology",
+    "Flexible pricing per hour for groups of up to 6 people",
+    "Full bar and food menu available on-site",
+    "PGA-certified professional lessons offered",
+    "Private rooms available for events and parties"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen with shareable bites, appetizers, snacks, and pizzas. Food menu available online."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with beer on tap or by the glass, cocktails, and wines."
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 8,
+  "booking_url": "https://clients.uschedule.com/xgolfreno/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 55,
+  "price_range_max_local": 65,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "No, you can bring your own clubs, but rental clubs are available. Adult rentals are $10/session per set, while kid rentals are free."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No outside food or drinks are allowed, as the venue offers a full bar and kitchen service with its own menu of food and beverages."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Generally, it takes 1 hour for an individual player to complete 18 holes. For groups, each additional player typically adds an hour to play 18 holes."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, children of all ages are welcome, and the venue offers club rentals for kids at no extra charge."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"9AM-11PM\"], \"Saturday\": [\"9AM-11PM\"], \"Sunday\": [\"9AM-8PM\"]}"
+}

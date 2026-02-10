@@ -1,0 +1,93 @@
+{
+  "name": "Swing Zone",
+  "address": "24036 Kuykendahl Rd #100, Tomball, TX 77375",
+  "city": "Tomball",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 30.110863,
+  "longitude": -95.551914,
+  "phone": "+13468087959",
+  "website": "https://www.swingzonegolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770209612/golf_simulators/www_swingzonegolf_com_ChIJaeVbLQ0yR4YRWyAsXoUT6i8.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Swing+Zone/@30.110863199999997,-95.5519138,14z/data=!4m8!1m2!2m1!1sSwing+Zone!3m4!1s0x8647320d2d5be569:0x2fea13855e2c205b!8m2!3d30.110863199999997!4d-95.5519138",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJaeVbLQ0yR4YRWyAsXoUT6i8",
+  "email": "info@swingzonegolf.com",
+  "venue_type": "sim_bar",
+  "about": "Swing Zone Golf is an indoor golf simulator venue offering a full-service experience with a bar, food, and event hosting capabilities. The facility features six GOLFZON VISION simulator bays, each accommodating up to six players. Bays are rented by the hour, with a minimum booking time of 30 minutes. On average, it takes about one hour for an individual to play 18 holes. Pricing varies by day of the week, ranging from $25 to $45 per hour, with a full bar and food service available. The venue is a climate-controlled space suitable for individuals, groups, and private events.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|leagues|premium_tech|family_friendly",
+  "vibe_tags": "sports_bar|family_fun_center|community_club",
+  "who_its_for": "beginners|families|corporate_teams|large_groups|solo_practice",
+  "why_golfers_like_it": [
+    "State-of-the-art GOLFZON VISION simulators provide the most realistic golf experience",
+    "Advanced swing analysis with streaming video and statistics to a smartphone app",
+    "Access to over 160 real-life famous golf courses from around the world",
+    "Indoor climate-controlled environment playable day or night, regardless of weather"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "A variety of food and snacks served in your bay or at the bar"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service with a variety of alcoholic and non-alcoholic beverages"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "GOLFZON",
+      "model": "VISION",
+      "notes": "Industry leader, official simulator of the LPGA, featuring high-speed camera sensors and 3D graphics"
+    }
+  ],
+  "simulator_so": [
+    "GOLFZON Software"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 6,
+  "booking_url": "https://booksy.com/en-us/instant-experiences/widget/637148?instant_experiences_enabled=true&ig_ix=true&is_fb=1&fbclid=IwAR0PQzvoTwsWQ4kGBeI0TU3Vys8sRtJdNobgN11xniTWU2NfVSb2rDyspKs",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 25,
+  "price_range_max_local": 45,
+  "currency": "USD",
+  "walk_ins_allowed": "yes",
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|private_party_room|wifi|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, complimentary loaner clubs are provided."
+    },
+    {
+      "question": "Can I bring my own food or beverages?",
+      "answer": "No. A variety of beverages and food options are available for purchase on-site."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "On average, it takes about one hour for an individual to play 18 holes."
+    },
+    {
+      "question": "Is Swing Zone kid-friendly?",
+      "answer": "Yes, Swing Zone is a family-friendly environment for all ages. Children under 16 must be accompanied by an adult at all times."
+    }
+  ],
+  "simulator_software": [
+    "GOLFZON VISION"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-11PM\"], \"Saturday\": [\"10AM-11PM\"], \"Sunday\": [\"10AM-10PM\"]}"
+}

@@ -1,0 +1,89 @@
+{
+  "name": "The Links at Mass Golf",
+  "address": "300 W Main St, Norton, MA 02766",
+  "city": "Norton",
+  "region": "Massachusetts",
+  "country": "US",
+  "latitude": 41.950533,
+  "longitude": -71.222757,
+  "phone": "+15082220555",
+  "website": "http://www.linksatmassgolf.org/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770236198/golf_simulators/www_linksatmassgolf_org_ChIJn3372kVg5IkRMXYAEy_FgSo.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Links+at+Mass+Golf/@41.950533,-71.22275669999999,14z/data=!4m8!1m2!2m1!1sThe+Links+at+Mass+Golf!3m4!1s0x89e46045dafb7d9f:0x2a81c52f13007631!8m2!3d41.950533!4d-71.22275669999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJn3372kVg5IkRMXYAEy_FgSo",
+  "email": "kharris@massgolf.org",
+  "venue_type": "multi_sport_sim",
+  "about": "The Links at Mass Golf is an 18-hole Par-3 golf course and indoor golf simulator venue. The outdoor course is seasonally closed, while the indoor GOLFZON simulators remain open year-round. The facility offers a public-access simulation experience with the option to book by the hour or half-hour, featuring different pricing for weekdays and weekends. It is equipped with a pro shop and provides various membership options, including junior programs. The venue is designed for golfers looking to practice or play during inclement weather and those seeking to book events like outings or tournaments.",
+  "tags": "beginner_friendly|corporate_events|leagues|premium_tech|budget_friendly|club_rentals|coaching_available|juniors_youth",
+  "vibe_tags": "sports_bar|family_fun_center|tech_lab|community_club",
+  "who_its_for": "beginners|families|corporate_teams|solo_practice|juniors_youth",
+  "why_golfers_like_it": [
+    "GOLFZON simulators provide a realistic golfing experience year-round, regardless of weather conditions",
+    "Competitive pricing with discounts for juniors, seniors, college students, military, and members",
+    "Versatile booking system suitable for individuals, groups, and corporate outings"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of on-site food services. BYOB policy not specified."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of on-site bar or alcohol services. BYOB policy not specified."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "GOLFZON",
+      "model": "unknown",
+      "notes": "Specific GOLFZON model not mentioned, but referred to as 'GOLFZON simulators'"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": "unknown",
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.linksatmassgolf.org/simulator-tee-times.html",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 35,
+  "price_range_max_local": 40,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.0,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own golf clubs?",
+      "answer": "The website does not specify whether they provide club rentals. It is recommended to bring your own clubs or call the pro shop at 508-222-0555 to inquire about rental options."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "There is no mention of a BYOB policy or food service on-site. It is advisable to call ahead to confirm if outside food and beverages are permitted."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "A typical 18-hole round of golf on the simulators takes approximately 1 hour to complete. A foursome should plan for about 4 hours to play 18 holes."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes. Participants 13 years of age and under must be accompanied by an adult. The venue also offers dedicated junior golf memberships, which include unlimited play and free clinics."
+    }
+  ],
+  "rating_overall": 4.0,
+  "opening_hours": "{\"Monday\": [\"10AM-4PM\"], \"Tuesday\": [\"10AM-5PM\"], \"Wednesday\": [\"Closed\"], \"Thursday\": [\"10AM-5PM\"], \"Friday\": [\"10AM-5PM\"], \"Saturday\": [\"9AM-5PM\"], \"Sunday\": [\"9AM-5PM\"]}"
+}

@@ -1,0 +1,91 @@
+{
+  "name": "BC Golf Sim",
+  "address": "110 Salzburg Ave, Bay City, MI 48706",
+  "city": "Bay City",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 43.580523,
+  "longitude": -83.905395,
+  "phone": "+19894021331",
+  "website": "http://www.bcgolfsim.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770204427/golf_simulators/www_bcgolfsim_com_ChIJD9OqYPXhI4gRx7JZvmYS-Us.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/BC+Golf+Sim/@43.5805228,-83.9053954,14z/data=!4m8!1m2!2m1!1sBC+Golf+Sim!3m4!1s0x8823e1f560aad30f:0x4bf91266be59b2c7!8m2!3d43.5805228!4d-83.9053954",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJD9OqYPXhI4gRx7JZvmYS-Us",
+  "venue_type": "sim_bar|training_studio|retail_fitting_center",
+  "about": "BC Golf Sim is a golf simulation venue located in Bay County, offering a high-tech environment for practicing, playing virtual courses, and undergoing club fittings. The facility is equipped with Trackman technology, providing accurate data tracking for golfers of all skill levels. It operates on a cashless basis with credit/debit card requirements for all bookings and features a strict 24-hour cancellation policy for refunds. The venue is designed to accommodate both casual players and serious golfers, with additional offerings like leagues, private parties, and PING club fittings available.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|coaching_available|private_rooms|club_rentals|family_friendly|kids_friendly",
+  "vibe_tags": "tech_lab|community_club|family_fun_center|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "Access to premium Trackman technology for precise shot tracking",
+    "Option to bring your own food and beverages (no alcohol served on-site)",
+    "24/7 access for members with flexible booking options",
+    "Official PING retailer with club fittings and demo equipment available",
+    "Hosts leagues and events for both adults and juniors"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Customers can bring their own food; beverages and snacks are available for purchase"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol is served on-site"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "High-end radar launch monitor for accurate ball and club tracking"
+    }
+  ],
+  "simulator_software": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "http://www.bcgolfsim.com/what-to-expect",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|private_party_room|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.3,
+  "rating_value_for_money": 4.1,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, customers are required to bring their own golf clubs. While a very limited selection is available on-site, it is best to bring your own. Clubs must be deep cleaned by staff upon arrival."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, customers can bring their own food and beverages of choice. The venue also offers beverages and snacks for purchase (no alcohol). Food must remain on tables provided, not on the green."
+    },
+    {
+      "question": "How long is an 18-hole round on the simulator?",
+      "answer": "Sessions are timed for 60 minutes per bay, after which the system shuts off to the main screen. One golf ball per bay is used, and plastic tees are provided."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, children are welcome but must be accompanied by an adult if 13 years or younger. The venue also offers junior league opportunities and kids' movie nights."
+    }
+  ],
+  "rating_overall": 4.4,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-10PM\"], \"Saturday\": [\"10AM-10PM\"], \"Sunday\": [\"10AM-10PM\"]}"
+}

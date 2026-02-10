@@ -1,0 +1,89 @@
+{
+  "name": "Rockaway Beach Golf Club",
+  "address": "2-19 Beach 100th St, Rockaway Beach, NY 11693",
+  "city": "Rockaway Beach",
+  "region": "New York",
+  "country": "US",
+  "latitude": 40.584405,
+  "longitude": -73.821631,
+  "phone": "+17184744653",
+  "website": "http://www.rockawaybeachgolfclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770223083/golf_simulators/www_rockawaybeachgolfclub_com_ChIJhyBtzDlowokR-4F_vJPW7bU.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Rockaway+Beach+Golf+Club/@40.5844053,-73.8216314,14z/data=!4m8!1m2!2m1!1sRockaway+Beach+Golf+Club!3m4!1s0x89c26839cc6d2087:0xb5edd693bc7f81fb!8m2!3d40.5844053!4d-73.8216314",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJhyBtzDlowokR-4F_vJPW7bU",
+  "email": "rbgolfclub@gmail.com",
+  "venue_type": "sim_bar",
+  "about": "Rockaway Beach Golf Club is an indoor golf facility offering a stately country club atmosphere in Rockaway Park, NY. The venue features state-of-the-art PGA Tour Simulators, a full bar, and a comfortable lounge. It is owned and operated by long-standing locals of the Rockaway community. Simulators are available for rent at $50 per hour, with 18 holes taking approximately one hour per person to complete. The facility also offers golf club rentals and is equipped with intuitive UNEEKOR simulators providing realistic HD graphics and detailed swing analysis.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|budget_friendly|private_rooms|club_rentals|coaching_available",
+  "vibe_tags": "sports_bar|community_club|family_fun_center|party_atmosphere",
+  "who_its_for": "beginners|families|corporate_teams|solo_practice|bachelor_parties",
+  "why_golfers_like_it": [
+    "State-of-the-art UNEEKOR simulators with HD graphics and detailed swing analysis",
+    "Full bar and comfortable lounge atmosphere for a complete golf and social experience",
+    "Flexible booking options with the ability to bring your own clubs or rent them on-site"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen available for food service"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available on-site"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "QED",
+      "notes": "High-speed camera 3D ball detection system with top quality enclosure designs"
+    }
+  ],
+  "simulator_software": [
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "gimme_circle",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "http://www.rockawaybeachgolfclub.com/bookonline",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 50,
+  "price_range_max_local": 50,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You are welcome to bring your own clubs. Golf club rentals are available at an additional cost of $5.00 per session."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue has a full bar and kitchen food service available. BYOB is not mentioned as an option."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The approximate amount of time to play an 18-hole game is 1 hour per person."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is described as a gathering place for both golfers and non-golfers, and offers a 'Boost' setting in the software for beginners and younger players."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"5PM-12AM\"], \"Tuesday\": [\"5PM-12AM\"], \"Wednesday\": [\"5PM-12AM\"], \"Thursday\": [\"3PM-12AM\"], \"Friday\": [\"3PM-12AM\"], \"Saturday\": [\"12PM-12AM\"], \"Sunday\": [\"12PM-12AM\"]}"
+}

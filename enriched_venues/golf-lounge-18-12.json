@@ -1,0 +1,91 @@
+{
+  "name": "Golf Lounge 18",
+  "address": "619 Smith Haven Mall, Lake Grove, NY 11755",
+  "city": "Lake Grove",
+  "region": "New York",
+  "country": "US",
+  "latitude": 40.86428,
+  "longitude": -73.132962,
+  "phone": "+16313668156",
+  "website": "https://golflounge18.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770214962/golf_simulators/golflounge18_com_ChIJS3RcPq456IkRkGfRuoeE7fc.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Golf+Lounge+18/@40.8642805,-73.1329621,14z/data=!4m8!1m2!2m1!1sGolf+Lounge+18!3m4!1s0x89e839ae3e5c744b:0xf7ed8487bad16790!8m2!3d40.8642805!4d-73.1329621",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJS3RcPq456IkRkGfRuoeE7fc",
+  "email": "info@golflounge18.com",
+  "venue_type": "sim_bar",
+  "about": "Golf Lounge 18 is an indoor golf facility equipped with state-of-the-art Trackman 4 simulators, providing access to over 450 worldwide courses. The venue features a full bar, multiple HDTVs for sports viewing, and amenities for socializing, making it suitable for both casual play and events. Bay reservations can be made online up to 21 days in advance for members and 7 days for non-members, with walk-in guests also welcome.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|leagues|premium_tech|coaching_available|family_friendly",
+  "vibe_tags": "sports_bar|casual|modern|family_fun_center",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "Advanced Trackman 4 technology for accurate shot data",
+    "Over 450 worldwide courses to play on simulators",
+    "Full bar and sports TVs for social atmosphere",
+    "Available coaching from PGA professionals",
+    "Flexible hourly bay rates for groups"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen with an expanded food menu available"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar available with drinks"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "Dual radar technology trusted by professionals"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://golflounge18.com/book/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue does not specify whether club rentals are available, so it's recommended to bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No, the venue has an expanded food and drink menu available on-site, but no BYOB policy is mentioned."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The exact time for 18 holes is not specified, but bay rates are hourly, and time can be split among group members."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Golf Lounge 18 offers junior academy programs and clinics, making it suitable for families and youth."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"8AM-11PM\"], \"Saturday\": [\"8AM-11PM\"], \"Sunday\": [\"8AM-10PM\"]}"
+}

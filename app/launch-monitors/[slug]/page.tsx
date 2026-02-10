@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { Radar, Camera, Target, Check, DollarSign, Building2, User, HelpCircle, Wrench, ArrowRight, ChevronRight } from "lucide-react";
+import { Radar, Camera, Target, Check, DollarSign, Building2, User, HelpCircle, Wrench, ArrowRight } from "lucide-react";
 import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
 
 interface LaunchMonitorPageProps {

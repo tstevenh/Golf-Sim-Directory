@@ -1,0 +1,91 @@
+{
+  "name": "Sturgis Indoor Golf",
+  "address": "26457 US-12, Sturgis, MI 49091",
+  "city": "Sturgis",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 41.796467,
+  "longitude": -85.438701,
+  "phone": "+12696516886",
+  "website": "http://sturgisindoorgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770198988/golf_simulators/sturgisindoorgolf_com_ChIJlQR_aIJSFogRGX10eB5VogI.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Sturgis+Indoor+Golf/@41.796467,-85.438701,14z/data=!4m8!1m2!2m1!1sSturgis+Indoor+Golf!3m4!1s0x88165282687f0495:0x2a2551e78747d19!8m2!3d41.796467!4d-85.438701",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJlQR_aIJSFogRGX10eB5VogI",
+  "email": "robjenks50@gmail.com",
+  "venue_type": "sim_bar",
+  "about": "Sturgis Indoor Golf is a golf simulator venue featuring TruGolf Apogee launch monitors and TruGolf Apex software. They offer standard simulators and a semi-private 'Garage' room, with a focus on providing a realistic indoor golfing experience. Pricing is per hour with punch card options available, and the facility includes a pro shop, private lessons, and food and drink services.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|leagues|premium_tech|private_rooms|coaching_available",
+  "vibe_tags": "sports_bar|private_luxury|tech_lab",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice|coaches_instructors",
+  "why_golfers_like_it": [
+    "Advanced TruGolf Apogee launch monitors for precise data",
+    "Semi-private 'Garage' room with a TV and soundbar",
+    "On-site pro shop with Cleveland Golf and Srixon products",
+    "Food and beverage options available in each simulator bay"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Candy Bars, Chips, Beef Sticks, and other food items"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Bar for snacks and beverages available in each bay"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "TruGolf",
+      "model": "Apogee",
+      "notes": "Dual camera launch monitors"
+    }
+  ],
+  "simulator_software": [
+    "E6 Connect",
+    "APEX"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "unknown",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 36,
+  "price_range_max_local": 40,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|full_bar|tv_sports|private_party_room|pro_shop|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue allows both right and left-handed golfers, but it is not explicitly stated whether club rentals are available. It is recommended to bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue has a bar for snacks and beverages in each simulator bay, but outside food and drinks are not mentioned."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes is not specified on the website."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The venue is suitable for families, but specific kid-friendly amenities or policies are not detailed."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"1-9PM\"], \"Tuesday\": [\"3-9PM\"], \"Wednesday\": [\"3-9PM\"], \"Thursday\": [\"1-9PM\"], \"Friday\": [\"3-9PM\"], \"Saturday\": [\"12-6PM\"], \"Sunday\": [\"12-4PM\"]}"
+}

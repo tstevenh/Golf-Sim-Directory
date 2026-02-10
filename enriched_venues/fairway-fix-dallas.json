@@ -1,0 +1,92 @@
+{
+  "name": "Fairway Fix Dallas",
+  "address": "10675 E NW Hwy Suite A2850, Dallas, TX 75238",
+  "city": "Dallas",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 32.86517,
+  "longitude": -96.702515,
+  "phone": "+12142539299",
+  "website": "https://www.fairwayfixdallas.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770200582/golf_simulators/www_fairwayfixdallas_com_ChIJ6ytE9DyhToYRYeLTeUZ166Q.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Fairway+Fix+Dallas/@32.8651705,-96.7025152,14z/data=!4m8!1m2!2m1!1sFairway+Fix+Dallas!3m4!1s0x864ea13cf4442beb:0xa4eb754679d3e261!8m2!3d32.8651705!4d-96.7025152",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ6ytE9DyhToYRYeLTeUZ166Q",
+  "email": "adam@fairwayfixdallas.com",
+  "venue_type": "sim_bar",
+  "about": "Fairway Fix Dallas is a 24/7 indoor golf simulator lounge located in Lake Highlands, Dallas. It features industry-leading TrackMan technology with access to over 400 courses and 13 games. The venue offers monthly memberships and hourly walk-in rates, designed for convenient, flexible, and fun golfing experiences any time of day. Members have 24/7 secure access to swing suites via Open Door technology, while non-members can book during standard hours. The facility is climate-controlled with two new AC units and includes two swing suites, with the potential to expand further.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|kids_friendly|corporate_events|leagues|premium_tech|budget_friendly|private_rooms|late_night|coaching_available",
+  "vibe_tags": "community_club|casual|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "24/7 access with secure Open Door technology",
+    "Premium TrackMan simulators with over 400 courses",
+    "Flexible monthly memberships with no long-term contracts",
+    "BYOB and BYOS policy with a relaxed, community-focused atmosphere",
+    "Host of leagues, challenges, and events for all skill levels"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "BYOS (Bring Your Own Snacks) policy. Self-service with cleanup expected."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "BYOB (Bring Your Own Beverages) policy is permitted."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Ultra-accurate ball tracking and real-time feedback, trusted by PGA pros"
+    }
+  ],
+  "simulator_software": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://yourgolfbooking.com/venues/fairway-fix/booking/bays",
+  "pricing_model": "mixed",
+  "price_range_min_local": 30,
+  "price_range_max_local": 250,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|kitchen_food|tv_sports|private_party_room|wifi|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You are welcome to bring your own clubs. If you forget, loaner clubs are available, including men's RH and kids clubs in various sizes and handedness."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes! Fairway Fix is BYOB (Bring Your Own Beverages) and BYOS (Bring Your Own Snacks). You are expected to clean up after yourself."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time for a full 18-hole round is not specified, but play is managed by a timer that starts once your booking begins and counts down your remaining time. The system auto-shuts off at the end of each time slot."
+    },
+    {
+      "question": "Is it kid-friendly?",
+      "answer": "Yes. Loaner clubs are available for kids, and the venue hosts events and challenges suitable for families. The relaxed, community-oriented atmosphere makes it accessible for golfers of all ages."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

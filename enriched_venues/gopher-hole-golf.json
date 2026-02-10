@@ -1,0 +1,92 @@
+{
+  "name": "Gopher Hole Golf",
+  "address": "260 W Main St Unit 200, Abingdon, VA 24210",
+  "city": "Abingdon",
+  "region": "Virginia",
+  "country": "US",
+  "latitude": 36.708867,
+  "longitude": -81.979091,
+  "phone": "+12767013378",
+  "website": "https://www.gopherhole.golf/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770223981/golf_simulators/www_gopherhole_golf_ChIJFRnscMUTUIgRPVepxiChGAU.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Gopher+Hole+Golf/@36.7088675,-81.9790914,14z/data=!4m8!1m2!2m1!1sGopher+Hole+Golf!3m4!1s0x885013c570ec1915:0x518a120c6a9573d!8m2!3d36.7088675!4d-81.9790914",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJFRnscMUTUIgRPVepxiChGAU",
+  "email": "gopherholegolf@gmail.com",
+  "venue_type": "sim_bar",
+  "about": "The Gopher Hole is an indoor sports entertainment lounge combining state-of-the-art golf simulators with full food and beverage service. Play a world-class virtual course, sharpen your swing with a pro instructor, or challenge friends in a relaxed, social setting. The venue is fully open Thursday–Sunday with full service during open hours, plus self-service simulator access available throughout the week for flexible play options.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|private_rooms|club_rentals|late_night|coaching_available",
+  "vibe_tags": "sports_bar|community_club|modern|welcoming",
+  "who_its_for": "beginners|families|corporate_teams|solo_practice|juniors_youth",
+  "why_golfers_like_it": [
+    "Premium Uneekor EYE X02 simulator technology with photometric cameras",
+    "Full-service bar and social lounge atmosphere",
+    "Variety of other sports amenities (billiards, ping pong, darts)",
+    "Flexible hours including self-service access during the week",
+    "Professional golf instruction available for all skill levels"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full food service available"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service with drink specials during events"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "EYE X02",
+      "notes": "Precision photometric camera system with three cameras, larger hitting zone, and trouble mat compatibility"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.gopherhole.golf/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|leagues|wifi|pro_shop",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue doesn't specify whether clubs are provided, so it's recommended to bring your own equipment for the best experience."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "Outside food and drinks are not mentioned as permitted, and the venue offers full food and bar service on-site."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "The website doesn't specify the duration for 18 holes, but simulator time is typically booked by the hour."
+    },
+    {
+      "question": "Is The Gopher Hole kid-friendly?",
+      "answer": "Yes, the venue offers junior memberships and is described as a welcoming environment that accommodates families."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"Closed\"], \"Wednesday\": [\"Closed\"], \"Thursday\": [\"11AM-11PM\"], \"Friday\": [\"11AM-12AM\"], \"Saturday\": [\"11AM-12AM\"], \"Sunday\": [\"11AM-9PM\"]}"
+}

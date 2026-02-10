@@ -1,0 +1,91 @@
+{
+  "name": "Next Level Golf",
+  "address": "3910 Wayne Ave #110, Wichita Falls, TX 76308",
+  "city": "Wichita Falls",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 33.871145,
+  "longitude": -98.53421,
+  "phone": "+19402444653",
+  "website": "https://www.gonextlevelgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770227491/golf_simulators/www_gonextlevelgolf_com_ChIJC_2WVZ4hU4YRF7fm-Y-1lUo.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Next+Level+Golf/@33.8711449,-98.53421019999999,14z/data=!4m8!1m2!2m1!1sNext+Level+Golf!3m4!1s0x8653219e5596fd0b:0x4a95b58ff9e6b717!8m2!3d33.8711449!4d-98.53421019999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJC_2WVZ4hU4YRF7fm-Y-1lUo",
+  "email": "Play18@GoNextLevelGolf.com",
+  "venue_type": "sim_bar",
+  "about": "Next Level Golf is an indoor golf simulator facility located in Wichita Falls. The venue utilizes high-definition full swing simulators to provide golfers with an immersive experience, including detailed analytics on ball speed, launch angle, spin rate, club face angle, and swing path. While not a traditional country club, it offers a modern, inviting atmosphere suitable for both serious practice and casual play. The facility is open to the public with a pricing model that includes hourly rates and a monthly membership option, making it accessible for a range of golfers from beginners to serious players.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|kids_friendly|corporate_events|premium_tech|coaching_available",
+  "vibe_tags": "sports_bar|family_fun_center|tech_lab",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "Comprehensive data analysis for shot improvement",
+    "Year-round practice regardless of weather",
+    "Variety of world-famous virtual courses to play",
+    "Professional instruction available with simulator technology",
+    "Flexible and affordable membership plans"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "On-site snacks available for purchase; outside food is allowed, no outside drinks. Delivery service recommended (Quickies Delivery)."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "On-site bar with cold beverages including beer, seltzers, bottled water, and sodas."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Other",
+      "model": "High-definition full swing simulator",
+      "notes": "Industry-leading simulators, precise measurements of ball speed, launch angle, spin rate, club face angle, and swing path."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 5,
+  "booking_url": "https://clients.uschedule.com/gonextlevelgolf/Account/Login?ReturnUrl=/gonextlevelgolf/schedule",
+  "pricing_model": "mixed",
+  "price_range_min_local": 20,
+  "price_range_max_local": 45,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|full_bar|private_party_room|wifi|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue is equipped with all necessary golf clubs and equipment, but you are welcome to bring your own if you prefer."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "You can bring your own food, but outside drinks are not allowed. The venue has a variety of snacks available for purchase and a full bar with alcoholic and non-alcoholic beverages."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to complete 18 holes can vary based on the number of players and pace of play, but a typical session for a group of four can range from 2 to 3 hours."
+    },
+    {
+      "question": "Is Next Level Golf kid-friendly?",
+      "answer": "Yes, the facility is suitable for children and offers Top-golf style games designed for all ages and skill levels, making it a great choice for family outings and birthday parties."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"12-7PM\"], \"Tuesday\": [\"9AM-8PM\"], \"Wednesday\": [\"9AM-8PM\"], \"Thursday\": [\"9AM-8PM\"], \"Friday\": [\"9AM-8PM\"], \"Saturday\": [\"9AM-8PM\"], \"Sunday\": [\"12-7PM\"]}"
+}

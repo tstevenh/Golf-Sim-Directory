@@ -1,0 +1,91 @@
+{
+  "name": "24 Golf Club",
+  "address": "13131 Mukilteo Speedway Suite 102, Lynnwood, WA 98087",
+  "city": "Lynnwood",
+  "region": "Washington",
+  "country": "US",
+  "latitude": 47.878904,
+  "longitude": -122.276833,
+  "phone": null,
+  "website": "http://24golfclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770200441/golf_simulators/24golfclub_com_ChIJG6kTDNMFkFQRc6Qkp-kHHvQ.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/24+Golf+Club/@47.8789041,-122.2768332,14z/data=!4m8!1m2!2m1!1s24+Golf+Club!3m4!1s0x549005d30c13a91b:0xf41e07e9a724a473!8m2!3d47.8789041!4d-122.2768332",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJG6kTDNMFkFQRc6Qkp-kHHvQ",
+  "email": "info@24golfclub.com",
+  "venue_type": "training_studio",
+  "about": "24 Golf Club is a 24-hour indoor golf simulator facility offering affordable monthly memberships. The venue allows members to book bays through its website or app, provides self-check-in, and enables golfing anytime, day or night, in any weather. The facility is equipped with advanced Uneekor simulators that provide a realistic and enjoyable experience designed to improve golf swings. The focus is on convenience and comfort for golfers looking to practice and play on their own schedule.",
+  "tags": "beginner_friendly|budget_friendly|serious_practice|late_night|membership|leagues|coaching_available",
+  "vibe_tags": "casual|welcoming|modern|tech_lab",
+  "who_its_for": "beginners|serious_golfers|solo_practice|families|coaches_instructors",
+  "why_golfers_like_it": [
+    "24/7 access allows for practice anytime, day or night",
+    "Advanced Uneekor simulators provide realistic experience and detailed swing data",
+    "Affordable monthly memberships with various options for individuals and families",
+    "Convenient booking system with self-check-in",
+    "Focus on improvement with accurate feedback technology"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No information provided about on-site food services"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No information provided about on-site alcohol services"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "unknown",
+      "notes": "Uneekor excels in indoor golf solutions, offering precise launch monitors and simulators that provide detailed swing and ball data."
+    }
+  ],
+  "simulator_software": [
+    "Uneekor"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://app.courtreserve.com/Online/Memberships/Public/12050",
+  "pricing_model": "membership_only",
+  "price_range_min_local": 45,
+  "price_range_max_local": 389,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|leagues|coaching_available",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not explicitly state whether you need to bring your own clubs. It is recommended to bring your own equipment for the best practice experience."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "The website does not provide information on bringing outside food and drink. It is best to contact the venue directly for their policy on outside food and beverages."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "The website does not specify the time required to play 18 holes. This information may vary depending on the number of players and booking details."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, 24 Golf Club appears to be kid-friendly as it offers family memberships and focuses on providing a welcoming environment for golfers of all levels."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

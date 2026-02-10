@@ -1,0 +1,92 @@
+{
+  "name": "Stingers Indoor Golf",
+  "address": "679 Farmington Ave, New Britain, CT 06053",
+  "city": "New Britain",
+  "region": "Connecticut",
+  "country": "US",
+  "latitude": 41.695962,
+  "longitude": -72.790655,
+  "phone": "+18603560399",
+  "website": "https://www.stingersindoorgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770200168/golf_simulators/www_stingersindoorgolf_com_ChIJSekRjvez54kRV_JoV6xiz0I.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Stingers+Indoor+Golf/@41.695961499999996,-72.79065489999999,14z/data=!4m8!1m2!2m1!1sStingers+Indoor+Golf!3m4!1s0x89e7b3f78e11e949:0x42cf62ac5768f257!8m2!3d41.695961499999996!4d-72.79065489999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJSekRjvez54kRV_JoV6xiz0I",
+  "email": "info@stingersindoorgolf.com",
+  "venue_type": "sim_bar",
+  "about": "Stingers Indoor Golf is an indoor golf facility offering a comfortable environment for golfers to play regardless of weather conditions. The venue utilizes TrackMan technology for accurate swing analysis and access to virtual golf courses. It provides various services including simulator bay rentals, private events, golf lessons, and leagues, with multiple pricing options available throughout the week.",
+  "tags": "food_and_drinks|leagues|corporate_events|beginner_friendly|private_rooms|club_rentals|coaching_available",
+  "vibe_tags": "casual|welcoming|modern|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Professional-grade TrackMan technology for detailed swing analysis",
+    "All-weather access to top virtual golf courses",
+    "Flexible booking and multiple bay options for groups and individuals"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food information available"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Beer and wine bar available on-site"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "TrackMan",
+      "model": "Vector",
+      "notes": "TrackMan radar system for ball and club tracking"
+    }
+  ],
+  "simulator_so": [
+    "TrackMan Golf"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://clients.uschedule.com/stingersindoorgolf/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 35,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|full_bar|leagues|private_party_room|tv_sports",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not explicitly state whether clubs are provided, so it's recommended to bring your own."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue has an on-site beer and wine bar, but outside food and drink policies are not specified."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Average time needed: 1 hour for 1 golfer, 2 hours for 2 golfers, 3 hours for 3 golfers, and 4 hours for 4 golfers."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue appears to be kid-friendly based on its family-oriented services and events."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-11PM\"], \"Saturday\": [\"8AM-11PM\"], \"Sunday\": [\"8AM-6PM\"]}"
+}

@@ -1,0 +1,89 @@
+{
+  "name": "Club 313 Golf",
+  "address": "313 N Dorset Ave, Ventnor City, NJ 08406",
+  "city": "Ventnor City",
+  "region": "New Jersey",
+  "country": "US",
+  "latitude": 39.345404,
+  "longitude": -74.480988,
+  "phone": "+16096007776",
+  "website": "http://www.club313golf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770215037/golf_simulators/www_club313golf_com_ChIJrcvidt7vwIkR50n8dQRfeAU.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Club+313+Golf/@39.3454043,-74.4809878,14z/data=!4m8!1m2!2m1!1sClub+313+Golf!3m4!1s0x89c0efde76e2cbad:0x5785f0475fc49e7!8m2!3d39.3454043!4d-74.4809878",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJrcvidt7vwIkR50n8dQRfeAU",
+  "email": "club313golf@gmail.com",
+  "venue_type": "sim_bar|training_studio|private_rental|retail_fitting_center|country_club|multi_sport_sim|hotel_resort|other",
+  "about": "Club 313 Indoor Golf is an indoor golf simulator venue located in Ventnor City, NJ. It offers a country club atmosphere with two state-of-the-art 15-foot TruGolf simulators, a putting green, and amenities like private member lockers and multiple flat-screen TVs. The venue provides detailed golf swing data analysis and access to over 100 virtual golf courses, including Pebble Beach. For non-members, the facility operates on a pay-per-hour basis with weekday and weekend rates, while members enjoy unlimited play, 24/7 access, and preferred tee times.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|premium_tech|club_rentals|community_club|serious_golfers",
+  "vibe_tags": "casual|welcoming|modern|country_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Two TruGolf simulators provide detailed swing data analysis",
+    "Access to over 100 virtual courses including Pebble Beach",
+    "Country club atmosphere with amenities like a putting green and private lockers"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Food available next door at Capri Pizza"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "BYOB policy in effect"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "TruGolf",
+      "model": "15-foot simulator",
+      "notes": "State-of-the-art simulators with swing data tracking"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://clients.uschedule.com/club313golf/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 50,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|lockers|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "Yes, players should bring their own golf clubs to use with the simulators."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, the venue operates on a BYOB (Bring Your Own Beverage) policy, and food is available next door at Capri Pizza."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "The time to play 18 holes may vary depending on the number of players and course selection, but typical simulator sessions are based on hourly rates."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is kid-friendly and welcomes families, though parental supervision is recommended for younger players."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"9AM-5PM\"], \"Tuesday\": [\"9AM-5PM\"], \"Wednesday\": [\"9AM-5PM\"], \"Thursday\": [\"9AM-5PM\"], \"Friday\": [\"9AM-5PM\"], \"Saturday\": [\"9AM-5PM\"], \"Sunday\": [\"9AM-5PM\"]}"
+}

@@ -1,0 +1,90 @@
+{
+  "name": "GolfSuites Baton Rouge",
+  "address": "8181 Siegen Ln, Baton Rouge, LA 70810",
+  "city": "Baton Rouge",
+  "region": "Louisiana",
+  "country": "US",
+  "latitude": 30.373743,
+  "longitude": -91.069624,
+  "phone": "+12252184570",
+  "website": "https://golfsuites.com/baton-rouge/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770205834/golf_simulators/golfsuites_com_ChIJ44y-Zy2lJoYRKECCwNYk3QQ.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/GolfSuites+Baton+Rouge/@30.373743299999997,-91.0696238,14z/data=!4m8!1m2!2m1!1sGolfSuites+Baton+Rouge!3m4!1s0x8626a52d67be8ce3:0x4dd24d6c0824028!8m2!3d30.373743299999997!4d-91.0696238",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ44y-Zy2lJoYRKECCwNYk3QQ",
+  "email": "contactus@golfsuites.com",
+  "venue_type": "sim_bar",
+  "about": "GolfSuites Baton Rouge is an authentic, golf-centric entertainment facility that combines advanced indoor golf simulation with a social dining experience. It features the latest Trackman technology for realistic golf simulation, catering to both serious golfers and casual players seeking a fun outing. The venue offers a variety of hourly rates depending on the time of day and day of the week, along with food, drinks, and private event hosting capabilities.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|coaching_available|premium_tech|party_atmosphere|family_friendly",
+  "vibe_tags": "sports_bar|family_fun_center|party_atmosphere|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|large_groups",
+  "why_golfers_like_it": [
+    "Uses Trackman 4 technology for the most accurate golf simulation available",
+    "Combines golf with gourmet food and handcrafted cocktails for a complete entertainment experience",
+    "Offers a variety of pricing options, including discounted happy hour and weekly specials",
+    "Provides a private space for groups with suites accommodating up to 6 guests"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Gourmet food available, including burgers, pizza, and game-day nachos"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with handcrafted cocktails, beer, and wine; happy hour specials available"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "Dual Doppler radar technology captures over 40 parameters of club and ball data"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "https://tables.toasttab.com/restaurants/2e8fe7db-6799-4a98-a5b7-92bb252e38fa/findTime",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 13,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|private_party_room|leagues|ada_accessible",
+  "rating_tech_quality": 5.0,
+  "rating_facility_comfort": 4.5,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own golf clubs?",
+      "answer": "No, professional-quality golf equipment and balls are provided at the venue."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No, outside food and drinks are not allowed. The venue offers a full menu and bar with gourmet food and handcrafted cocktails."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes is not specified, but reservations can be made for hourly sessions in private suites."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue caters to families and is suitable for kids, offering a fun environment for all ages."
+    }
+  ],
+  "rating_overall": 4.5,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-12AM\"], \"Friday\": [\"10AM-12AM\"], \"Saturday\": [\"10AM-12AM\"], \"Sunday\": [\"10AM-10PM\"]}"
+}

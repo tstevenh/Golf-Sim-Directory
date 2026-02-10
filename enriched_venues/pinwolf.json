@@ -1,0 +1,89 @@
+{
+  "name": "PinWolf",
+  "address": "1912 S Walton Blvd Unit A, Bentonville, AR 72712",
+  "city": "Bentonville",
+  "region": "Arkansas",
+  "country": "US",
+  "latitude": 36.350328,
+  "longitude": -94.211406,
+  "phone": "+14792691872",
+  "website": "https://www.pinwolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770234783/golf_simulators/www_pinwolf_com_ChIJk-I-xnoRyYcR3Lgpy-oAaa4.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/PinWolf/@36.3503282,-94.2114064,14z/data=!4m8!1m2!2m1!1sPinWolf!3m4!1s0x87c9117ac63ee293:0xae6900eacb29b8dc!8m2!3d36.3503282!4d-94.2114064",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJk-I-xnoRyYcR3Lgpy-oAaa4",
+  "venue_type": "sim_bar",
+  "about": "PinWolf is an indoor golf simulator venue that provides both entertainment and game improvement services for the general public and golf enthusiasts. The facility features technology-focused environments with access to over 150,000 virtual golf courses. PinWolf operates a league system and offers coaching through Titleist Performance Institute (TPI) certified professionals. Services include simulator rentals, fitness sessions, and club fitting with data-driven analysis.",
+  "tags": "beginner_friendly|leagues|coaching_available|premium_tech|food_and_drinks|corporate_events|private_rooms",
+  "vibe_tags": "tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Access to a massive library of 150,000+ virtual golf courses",
+    "Data-driven instruction using premium technology like Foresight Sports GC2+HMT and K-Vest/K-Motion software",
+    "Regular league play and weekly Skins competitions with cash prizes"
+  ],
+  "kid_friendly": false,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food allowed in the simulator room."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No drugs or alcohol on the premises."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight Sports",
+      "model": "GC2+HMT",
+      "notes": "High-end launch monitor with ball and club tracking"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.pinwolf.com/book-online",
+  "pricing_model": "mixed",
+  "price_range_min_local": 20,
+  "price_range_max_local": 105,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|wifi|pro_shop|club_fitting|leagues|private_rooms",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "The venue does not explicitly state whether clubs are provided, so it's advisable to bring your own set."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "No food or drinks are allowed in the simulator room. No drugs or alcohol are permitted on the premises."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "A typical round is not specified, but the venue offers 2-hour and 3-hour golf simulator sessions, suggesting an 18-hole round can be completed within this timeframe."
+    },
+    {
+      "question": "Is PinWolf kid-friendly?",
+      "answer": "No specific information is provided regarding children's activities or facilities, but the environment appears geared toward adults, with a strict no-food/no-drink policy in the simulator room."
+    }
+  ],
+  "simulator_software": [
+    "Foresight Sports"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": null
+}

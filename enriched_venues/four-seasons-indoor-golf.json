@@ -1,0 +1,96 @@
+{
+  "name": "Four Seasons Indoor Golf",
+  "address": "114 Williams Blvd, Fairfax, IA 52228",
+  "city": "Fairfax",
+  "region": "Iowa",
+  "country": "US",
+  "latitude": 41.925396,
+  "longitude": -91.782968,
+  "phone": "+13195508229",
+  "website": "https://golffourseasons.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770201251/golf_simulators/golffourseasons_com_ChIJT8nVi8f_5IcRg63BVSZzJuI.png",
+  "google_maps_url": "https://www.google.com/maps/place/Four+Seasons+Indoor+Golf/@41.9253958,-91.7829679,14z/data=!4m8!1m2!2m1!1sFour+Seasons+Indoor+Golf!3m4!1s0x87e4ffc78bd5c94f:0xe226732655c1ad83!8m2!3d41.9253958!4d-91.7829679",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJT8nVi8f_5IcRg63BVSZzJuI",
+  "venue_type": "sim_bar|private_rental",
+  "about": "Four Seasons Indoor Golf is a premier indoor golf simulator and entertainment facility located in Fairfax, IA, minutes from Cedar Rapids. It offers private simulator suites equipped with About Golf Simulators for Single Suites and Full Swing Simulators for the Executive Suite, each designed for year-round play and private group events. The venue operates on a per-bay-hour pricing model, where a single price covers all occupants in the suite. All suites are private rooms, featuring amenities like refrigerators, microwaves, flat-screen TVs with streaming services, and high-fidelity simulators that offer dozens of golf courses and arcade-style games.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|private_rooms|family_friendly|date_night|tech_lab|community_club",
+  "vibe_tags": "private_luxury|tech_lab|family_fun_center|community_club|casual|welcoming",
+  "who_its_for": "families|large_groups|corporate_teams|beginners|tourists_travelers",
+  "why_golfers_like_it": [
+    "Fully private suites for exclusive group experiences",
+    "High-end simulator technology with detailed club and ball tracking",
+    "BYOB and food policy allows for customizable and cost-effective outings",
+    "Versatile space suitable for both serious golf practice and casual entertainment",
+    "App-based booking and account management for convenience"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "BYOB and food facility. Guests can bring their own food or order from delivery services like Uber Eats or DoorDash. No food or drinks are sold on-site."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "BYOB and food facility. Guests can bring their own beer, wine, and other beverages. No alcohol is sold on-site."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "About Golf",
+      "model": "3Trak® System",
+      "notes": "Three-dimensional camera and tracking system used in Single Suites A-F, powered by Machine Vision technology."
+    },
+    {
+      "brand": "Full Swing",
+      "model": "Ion3 Camera System",
+      "notes": "High-speed camera system used in the Executive Suite, featuring HD playback and 688 infrared sensors for accurate ball tracking."
+    }
+  ],
+  "simulator_software": [
+    "About Golf",
+    "Show Down Golf"
+  ],
+  "launch_monitor_type": "infrared_optical",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 9,
+  "booking_url": "https://golffourseasons.com/book-a-tee-time/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": 9,
+  "max_group_size_per_bay": 8,
+  "amenities_list": "club_rentals|tv_sports|private_party_room|wifi|pro_shop|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue does not specify whether they provide club rentals. It is recommended that guests bring their own clubs for the best experience."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, Four Seasons Indoor Golf is a BYOB and food facility. Guests can bring their own beer, wine, food, or order from delivery services. No food or drinks are available for purchase on-site."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The venue does not specify the exact time for an 18-hole round, but the simulators are designed for full-course play. Play time will vary based on group size and pace."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the private simulator suites are suitable for families and can be used for parties and gatherings of any kind, including events with children."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-12AM\"], \"Tuesday\": [\"9AM-12AM\"], \"Wednesday\": [\"9AM-12AM\"], \"Thursday\": [\"9AM-12AM\"], \"Friday\": [\"9AM-12AM\"], \"Saturday\": [\"9AM-12AM\"], \"Sunday\": [\"9AM-12AM\"]}"
+}

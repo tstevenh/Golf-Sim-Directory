@@ -1,0 +1,88 @@
+{
+  "name": "Hidden Fairway Golf Club",
+  "address": "910 N Rome Ave, Tampa, FL 33606",
+  "city": "Tampa",
+  "region": "Florida",
+  "country": "US",
+  "latitude": 27.951849,
+  "longitude": -82.476866,
+  "phone": "+18138980052",
+  "website": "https://www.hiddenfairway.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770200730/golf_simulators/www_hiddenfairway_com_ChIJKxkg0H7DwogRgh62F3MEiNE.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Hidden+Fairway+Golf+Club/@27.951848899999998,-82.47686639999999,14z/data=!4m8!1m2!2m1!1sHidden+Fairway+Golf+Club!3m4!1s0x88c2c37ed020192b:0xd188047317b61e82!8m2!3d27.951848899999998!4d-82.47686639999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJKxkg0H7DwogRgh62F3MEiNE",
+  "venue_type": "sim_bar",
+  "about": "Hidden Fairway Golf Club is a private indoor golf simulator facility located in Tampa, FL. The venue features a single 15-foot-wide Uneekor Eye X02 simulator in a 1,800 square foot space, offering a private and modern golfing experience. Members and guests can book sessions in one to two-hour increments, with a focus on privacy and high technology, including Uneekor AI and Swing Optix for detailed swing analysis.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|families|corporate_events|premium_tech|private_rooms|late_night|coaching_available",
+  "vibe_tags": "private_luxury|modern|tech_lab",
+  "who_its_for": "serious_golfers|families|solo_practice|corporate_teams|tourists_travelers",
+  "why_golfers_like_it": [
+    "Dedicated private simulator for an uninterrupted experience",
+    "Premium Uneekor Eye X02 launch monitor with high accuracy",
+    "200+ frames per second swing analysis with Swing Optix"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "You may bring your own food. Please clean up and keep all food behind the safety line."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No information on alcohol service. BYOB status unclear."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "Eye X02",
+      "notes": "15-foot wide simulator"
+    }
+  ],
+  "simulator_software": [
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 1,
+  "booking_url": "https://app.courtreserve.com/Online/Portal/Index/10443",
+  "pricing_model": "mixed",
+  "price_range_min_local": 25,
+  "price_range_max_local": 225,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "private_party_room|club_rentals|kitchen_food|tv_sports",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The provided information does not explicitly state whether customers need to bring their own clubs. It is recommended to contact the venue directly for clarification."
+    },
+    {
+      "question": "Can I bring food and drinks?",
+      "answer": "Yes, you may bring your own food and drinks. We ask that you clean up afterwards and keep all food and drinks behind the safety line."
+    },
+    {
+      "question": "How long does it take to play 18 holes on the simulator?",
+      "answer": "The time required to play 18 holes depends on the number of people in your group. 1 Person can play a round in 1 hour, 2 People in 2 hours, 3 People in 3 hours, and 4 people in 4 hours."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Children under the age of 16 can use the simulators, however, they must be accompanied by an adult at all times."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"6AM-2AM\"], \"Tuesday\": [\"6AM-2AM\"], \"Wednesday\": [\"6AM-2AM\"], \"Thursday\": [\"6AM-2AM\"], \"Friday\": [\"6AM-2AM\"], \"Saturday\": [\"6AM-2AM\"], \"Sunday\": [\"6AM-2AM\"]}"
+}

@@ -1,0 +1,89 @@
+{
+  "name": "Golf Emporium",
+  "address": "10831 14 Mile Rd NE, Rockford, MI 49341",
+  "city": "Rockford",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 43.176999,
+  "longitude": -85.401182,
+  "phone": "+16167542280",
+  "website": "https://thegolfemporium.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770258061/golf_simulators/thegolfemporium_com_ChIJVVKJDd7wGIgRE_uiS2FPDKc.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Golf+Emporium/@43.176999099999996,-85.4011816,14z/data=!4m8!1m2!2m1!1sGolf+Emporium!3m4!1s0x8818f0de0d895255:0xa70c4f614ba2fb13!8m2!3d43.176999099999996!4d-85.4011816",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJVVKJDd7wGIgRE_uiS2FPDKc",
+  "venue_type": "retail_fitting_center",
+  "about": "The Golf Emporium is a comprehensive golf facility located in Rockford, MI, that combines a pro shop, driving range, and club fitting services. It features an all-weather Tech Center with Trackman launch monitors for year-round practice and custom club fitting. The venue offers a wide range of name brand golf equipment at discounted prices and is known for its 'Try Before You Buy' policy. It serves as both a retail destination and a training facility, providing services from club sales and repairs to personalized lessons and swing analysis.",
+  "tags": "beginner_friendly|serious_golfers|budget_friendly|coaching_available|club_rentals|premium_tech|pro_shop|leagues|private_rooms",
+  "vibe_tags": "industrial_training|community_club|modern|welcoming",
+  "who_its_for": "beginners|serious_golfers|families|coaches_instructors|juniors_youth",
+  "why_golfers_like_it": [
+    "Professional-grade Trackman launch monitor technology for precise club and ball flight data",
+    "One of the largest club fitting facilities in the country with extensive brand selection",
+    "All-weather practice facility allowing for year-round training and fitting sessions",
+    "Discounted pricing on top golf equipment brands and a 'Try Before You Buy' policy"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned on website"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned on website"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "unknown",
+      "notes": "Primary launch monitor used for fittings and lessons"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "https://thegolfemporium.com/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|pro_shop|club_fitting|leagues|driving_range|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, they offer club rentals and a 'Try Before You Buy' policy where you can test equipment before purchasing."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No food or drink service is mentioned, so it appears to be a BYOB facility."
+    },
+    {
+      "question": "How long does it take to play 18 holes on a simulator?",
+      "answer": "No specific 18-hole time is mentioned, but single lessons are about 1 hour and fittings take 40-60 minutes."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, they mention family-oriented services and a welcoming atmosphere suitable for beginners of all ages."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-6PM\"], \"Tuesday\": [\"9AM-6PM\"], \"Wednesday\": [\"9AM-6PM\"], \"Thursday\": [\"9AM-6PM\"], \"Friday\": [\"9AM-6PM\"], \"Saturday\": [\"9AM-6PM\"], \"Sunday\": [\"9AM-6PM\"]}"
+}

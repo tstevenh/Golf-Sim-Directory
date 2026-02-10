@@ -1,0 +1,89 @@
+{
+  "name": "Motovation Fitness & Golf",
+  "address": "N4691 County Rd HH, Mauston, WI 53948",
+  "city": "Mauston",
+  "region": "Wisconsin",
+  "country": "US",
+  "latitude": 43.810055,
+  "longitude": -89.938168,
+  "phone": "+16088530880",
+  "website": "https://www.motovationfitnesswi.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770214184/golf_simulators/www_motovationfitnesswi_com_ChIJ4VmmUvurAIgREukSqvO-_Bc.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Motovation+Fitness+%26+Golf/@43.810055299999995,-89.9381676,14z/data=!4m8!1m2!2m1!1sMotovation+Fitness+%26+Golf!3m4!1s0x8800abfb52a659e1:0x17fcbef3aa12e912!8m2!3d43.810055299999995!4d-89.9381676",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ4VmmUvurAIgREukSqvO-_Bc",
+  "email": "motovationfitnessmauston@gmail.com",
+  "venue_type": "multi_sport_sim",
+  "about": "Motovation Fitness & Golf is a dual-purpose facility offering both fitness training and golf simulation technology. The venue provides a welcoming environment for individuals looking to improve their physical health through personal training, nutritional guidance, and various fitness programs. For golfers, it features Trackman technology for practice and simulation, with multiple bays available for booking. The facility combines wellness and recreation, making it suitable for those seeking an all-in-one experience for fitness improvement and golf entertainment.",
+  "tags": "beginner_friendly|serious_practice|fitness_integration|coaching_available|corporate_events|private_rooms|community_club",
+  "vibe_tags": "casual|welcoming|modern|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Advanced Trackman technology for precise shot tracking and simulation",
+    "Dual-purpose facility allows combining golf practice with fitness training",
+    "Multiple bays available for flexible booking and group sessions"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned, likely BYOB"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned, likely BYOB"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Multiple Trackman bays available for golf simulation"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://www.motovationfitnesswi.com/booking-calendar/golf-simulator",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|private_rooms|wifi|pro_shop|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue doesn't specify, but it's recommended to bring your own clubs for the best experience."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No food or drink service is mentioned, so bringing your own may be allowed."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The venue doesn't specify typical play times, but it's likely 1-2 hours depending on group size."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "No specific kid-friendly features are mentioned, though the dual-purpose nature might appeal to families."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"5AM-10PM\"], \"Tuesday\": [\"5AM-10PM\"], \"Wednesday\": [\"5AM-10PM\"], \"Thursday\": [\"5AM-10PM\"], \"Friday\": [\"5AM-9PM\"], \"Saturday\": [\"6AM-9PM\"], \"Sunday\": [\"6AM-9PM\"]}"
+}

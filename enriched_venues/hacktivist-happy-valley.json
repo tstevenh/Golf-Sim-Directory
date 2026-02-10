@@ -1,0 +1,93 @@
+{
+  "name": "Hacktivist Happy Valley",
+  "address": "310 Elks Club Rd, Boalsburg, PA 16827",
+  "city": "Boalsburg",
+  "region": "Pennsylvania",
+  "country": "US",
+  "latitude": 40.785107,
+  "longitude": -77.760954,
+  "phone": "+18337774225",
+  "website": "https://www.hacktivistsports.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770202821/golf_simulators/www_hacktivistsports_com_ChIJU2Mry5GvzokRxx77xvHDLqA.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Hacktivist+Happy+Valley/@40.7851073,-77.7609543,14z/data=!4m8!1m2!2m1!1sHacktivist+Happy+Valley!3m4!1s0x89ceaf91cb2b6353:0xa02ec3f1c6fb1ec7!8m2!3d40.7851073!4d-77.7609543",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJU2Mry5GvzokRxx77xvHDLqA",
+  "email": "Admin@Hacktivist.com",
+  "venue_type": "sim_bar",
+  "about": "Hacktivist Happy Valley is an indoor sports simulation lounge offering both golf and racing experiences. The venue utilizes premium Trackman technology for golf simulation and professional racing rigs for their automotive offerings. Patrons can book simulators by the hour, with options for individuals, groups, and private events. The facility emphasizes a social atmosphere with food and drink service provided by a local partner restaurant, creating an experience that combines sports simulation with hospitality.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|leagues|premium_tech|families|large_groups",
+  "vibe_tags": "upscale_lounge|sports_bar|family_fun_center",
+  "who_its_for": "families|large_groups|serious_golfers|beginners|corporate_teams",
+  "why_golfers_like_it": [
+    "State-of-the-art Trackman technology for accurate data and course simulation",
+    "Luxurious and comfortable private bays that accommodate up to six players",
+    "Full social experience with integrated table service and food and drink offerings",
+    "Flexible hourly booking system for both practice and play"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Quality chef-made food from partner restaurants, delivered to your bay"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service with cocktails and beers from local partner The Bull Pen Restaurant"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Premium radar-based launch monitor in private golf bays"
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://www.hacktivistsports.com/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|kitchen_food|full_bar|tv_sports|private_party_room|wifi|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, you can bring your own clubs or rent a set for no additional charge."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, Hacktivist has a full bar and kitchen service from their local partner, The Bull Pen Restaurant, available to order directly to your bay."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The site mentions a league format plays a 9-hole round in about 2-3 hours of sim time. A full 18-hole round would typically take 4-6 hours depending on simulator software and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the Huntingdon location is specifically mentioned as being one of the most family-friendly environments available, with comfortable seating and a welcoming atmosphere."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"7AM-11PM\"], \"Tuesday\": [\"7AM-11PM\"], \"Wednesday\": [\"7AM-11PM\"], \"Thursday\": [\"7AM-11PM\"], \"Friday\": [\"7AM-11PM\"], \"Saturday\": [\"7AM-11PM\"], \"Sunday\": [\"7AM-11PM\"]}"
+}

@@ -1,0 +1,100 @@
+{
+  "name": "Hal Sutton Golf Academy",
+  "address": "13455 Cutten Rd #1j, Houston, TX 77069",
+  "city": "Houston",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 29.975759,
+  "longitude": -95.539582,
+  "phone": "+18326021329",
+  "website": "http://halsuttongolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770223787/golf_simulators/halsuttongolf_com_ChIJzYbTlzHNQIYRSdnuTNG9hGU.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Hal+Sutton+Golf+Academy/@29.975759399999998,-95.5395818,14z/data=!4m8!1m2!2m1!1sHal+Sutton+Golf+Academy!3m4!1s0x8640cd3197d386cd:0x6584bdd14ceed949!8m2!3d29.975759399999998!4d-95.5395818",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJzYbTlzHNQIYRSdnuTNG9hGU",
+  "email": "halsuttongolf@gmail.com",
+  "venue_type": "training_studio",
+  "about": "Hal Sutton Golf Academy is an elite golf training and performance center focusing on athletic development and personalized coaching. The facility features a performance gym equipped for strength, stability, and mobility training, with a strong emphasis on developing golfers as complete athletes. Their instruction is powered by state-of-the-art technology, including TrackMan and Foresight launch monitors, providing data-driven insights for both lessons and club fittings. The academy offers various lesson plans and membership tiers, catering to golfers of all skill levels seeking structured improvement programs.",
+  "tags": "serious_golfers|beginner_friendly|coaching_available|premium_tech|club_fitting|leagues|membership_only",
+  "vibe_tags": "tech_lab|community_club|modern|welcoming",
+  "who_its_for": "serious_golfers|beginners|coaches_instructors|solo_practice",
+  "why_golfers_like_it": [
+    "Elite coaching team with a focus on athletic development",
+    "Advanced technology including TrackMan, Foresight, and Swing Catalyst",
+    "Comprehensive club fitting services using launch monitor data",
+    "Multiple lesson plans and membership options for all skill levels"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "Not mentioned on website"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "Not mentioned on website"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "unknown",
+      "notes": "Multiple units used for lessons and fittings"
+    },
+    {
+      "brand": "Foresight",
+      "model": "GCQuad",
+      "notes": "GCQuad launch monitor for analysis"
+    },
+    {
+      "brand": "Uneekor",
+      "model": "EYEXO",
+      "notes": "3 units for simulation"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar|photometric_camera|hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 6,
+  "booking_url": "https://halsuttongolf.com/book-now-main/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|pro_shop|club_fitting|leagues|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can bring your own clubs, but the academy provides equipment including Mizuno Swing DNA clubs for fittings. They also offer major manufacturer fitting carts for custom club fittings."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "The website does not mention a food and drink service, and there are no references to BYOB policies. It appears to be a training-focused facility without on-site dining."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not provide specific timing for playing 18 holes on simulators. As a training facility, the focus is on lessons, practice, and fittings rather than full simulation rounds."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The website does not specifically mention programs or features for children, making it unclear if the facility is designed with a junior audience in mind."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"9AM-7PM\"], \"Tuesday\": [\"9AM-7PM\"], \"Wednesday\": [\"9AM-7PM\"], \"Thursday\": [\"9AM-7PM\"], \"Friday\": [\"9AM-7PM\"], \"Saturday\": [\"9AM-5PM\"], \"Sunday\": [\"12-5PM\"]}"
+}

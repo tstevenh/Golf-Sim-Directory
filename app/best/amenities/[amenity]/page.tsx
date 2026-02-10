@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import { Prisma } from "@prisma/client";
 import { db, venueCardSelect } from "@/lib/db";
 import { BestByPageContent } from "@/components/seo/BestByPageContent";
 import { matchesAmenity } from "@/lib/best-by";
@@ -9,7 +10,8 @@ interface BestAmenityPageProps {
   searchParams?: Promise<Record<string, string | string[] | undefined>>;
 }
 
-export const revalidate = 3600;
+export const revalidate = 86400;
+type VenueCardRow = Prisma.VenueGetPayload<{ select: typeof venueCardSelect }>;
 
 // Pre-render all amenity pages at build time
 export async function generateStaticParams() {
@@ -107,17 +109,87 @@ export async function generateMetadata({ params }: BestAmenityPageProps): Promis
 export default async function BestAmenityPage({ params, searchParams }: BestAmenityPageProps) {
   const paramsResolved = (await searchParams) || {};
   const page = Math.max(1, Number(paramsResolved.page || 1));
+  const pageSize = 12;
   const { amenity } = await params;
   const label = amenity.replace(/_/g, " ").replace(/-/g, " ").replace(/\b\w/g, l => l.toUpperCase());
   const amenityKey = amenity.toLowerCase();
+  const skip = (page - 1) * pageSize;
+  const canRawQuery = typeof (db as unknown as { $queryRaw?: unknown }).$queryRaw === "function";
 
-  const venues = await db.venue.findMany({
-    where: { status: "active" },
-    orderBy: [{ featured: "desc" }, { ratingOverall: "desc" }, { name: "asc" }],
-    select: venueCardSelect,
-  });
+  const normalizedAmenity = amenityKey.replace(/-/g, "_");
+  const amenityWhereMap: Record<string, Record<string, unknown>> = {
+    private_rooms: { hasPrivateRooms: true },
+    coaching_available: { coachingAvailable: true },
+    wifi: { wifi: true },
+    free_parking: { parking: "free_lot" },
+    valet_parking: { parking: "valet" },
+    lessons: { coachingAvailable: true },
+  };
 
-  const filteredVenues = venues.filter((venue) => matchesAmenity(venue, amenity));
+  let totalVenues = 0;
+  let venues: VenueCardRow[] = [];
+
+  if (amenityWhereMap[normalizedAmenity]) {
+    const where = {
+      status: "active" as const,
+      ...amenityWhereMap[normalizedAmenity],
+    };
+    [totalVenues, venues] = await Promise.all([
+      db.venue.count({ where }),
+      db.venue.findMany({
+        where,
+        orderBy: [{ featured: "desc" }, { ratingOverall: "desc" }, { name: "asc" }],
+        select: venueCardSelect,
+        take: pageSize,
+        skip,
+      }),
+    ]);
+  } else if (canRawQuery && (normalizedAmenity === "full_bar" || normalizedAmenity === "kitchen_food")) {
+    const rows =
+      normalizedAmenity === "full_bar"
+        ? await db.$queryRaw<{ id: string }[]>`
+            SELECT v.id
+            FROM "venues" v
+            WHERE v."status" = 'active'
+              AND (
+                lower(COALESCE(v."foodAndDrink"->>'alcohol', 'false')) = 'true'
+                OR lower(COALESCE(v."foodAndDrink"->>'hasBar', 'false')) = 'true'
+              )
+          `
+        : await db.$queryRaw<{ id: string }[]>`
+            SELECT v.id
+            FROM "venues" v
+            WHERE v."status" = 'active'
+              AND (
+                lower(COALESCE(v."foodAndDrink"->>'food', 'false')) = 'true'
+                OR lower(COALESCE(v."foodAndDrink"->>'hasFood', 'false')) = 'true'
+              )
+          `;
+    const ids = rows.map((row) => row.id);
+
+    if (ids.length > 0) {
+      const where = { status: "active" as const, id: { in: ids } };
+      [totalVenues, venues] = await Promise.all([
+        db.venue.count({ where }),
+        db.venue.findMany({
+          where,
+          orderBy: [{ featured: "desc" }, { ratingOverall: "desc" }, { name: "asc" }],
+          select: venueCardSelect,
+          take: pageSize,
+          skip,
+        }),
+      ]);
+    }
+  } else {
+    const allVenues = await db.venue.findMany({
+      where: { status: "active" },
+      orderBy: [{ featured: "desc" }, { ratingOverall: "desc" }, { name: "asc" }],
+      select: venueCardSelect,
+    });
+    const filteredVenues = allVenues.filter((venue) => matchesAmenity(venue, amenity));
+    totalVenues = filteredVenues.length;
+    venues = filteredVenues.slice(skip, skip + pageSize);
+  }
 
   const content = amenityContent[amenityKey] || {
     tagline: `${label} Amenity`,
@@ -173,13 +245,15 @@ export default async function BestAmenityPage({ params, searchParams }: BestAmen
       ctaDescription="Claim your listing to verify amenities and appear in our curated collections."
       ctaPrimary={{ label: "Claim Your Listing", href: "/claim" }}
       ctaSecondary={{ label: "Submit New Venue", href: "/submit" }}
-      venues={filteredVenues}
+      venues={venues}
+      totalVenues={totalVenues}
       categoryType="amenity"
       categoryValue={amenityKey}
       heroSubtitle={content.tagline}
       breadcrumbItems={breadcrumbs}
       showRanking={true}
       currentPage={page}
+      pageSize={pageSize}
       baseUrl={`/best/amenities/${amenity}`}
     />
   );

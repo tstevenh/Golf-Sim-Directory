@@ -1,0 +1,83 @@
+{
+  "name": "The Fairway Lounge",
+  "address": "8476 N Friant Rd suite 102, Fresno, CA 93720",
+  "city": "Fresno",
+  "region": "California",
+  "country": "US",
+  "latitude": 36.857849,
+  "longitude": -119.782621,
+  "phone": "+15595001848",
+  "website": "http://thefairwaylounge.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770227595/golf_simulators/thefairwaylounge_com_ChIJs6e-zDVDlIARhBs1uBoX07U.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Fairway+Lounge/@36.857848499999996,-119.7826209,14z/data=!4m8!1m2!2m1!1sThe+Fairway+Lounge!3m4!1s0x80944335ccbea7b3:0xb5d3171ab8351b84!8m2!3d36.857848499999996!4d-119.7826209",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJs6e-zDVDlIARhBs1uBoX07U",
+  "email": "info@thefairwaylounge.com",
+  "venue_type": "sim_bar",
+  "about": "The Fairway Lounge is an indoor golf simulator venue offering state-of-the-art technology with advanced sensors and high-definition graphics to recreate every aspect of the game. The facility features 6 simulation bays, including a VIP bay, and provides an upscale, climate-controlled lounge atmosphere. While primarily a pay-per-play venue, it also offers membership options for discounted rates and hosts various tournaments and events, catering to both serious golfers and casual players.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|club_rentals|family_friendly|coaching_available",
+  "vibe_tags": "upscale_lounge|sports_bar|family_fun_center|tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|large_groups",
+  "why_golfers_like_it": [
+    "State-of-the-art simulators with advanced sensors and HD graphics for a realistic experience",
+    "Climate-controlled bays with complimentary golf clubs and direct food/drink service",
+    "Family-friendly environment with a clubhouse atmosphere appealing to all ages"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Elevated clubhouse cuisine available via full-service bar with a menu provided"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full-service bar offering drinks, with happy hour specials available"
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 6,
+  "booking_url": "https://www.sevenrooms.com/explore/thefairwaylounge/reservations/create/search/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, complimentary golf clubs are provided for use in the simulators."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "Outside food and drinks are not mentioned; the venue offers its own clubhouse cuisine and a full-service bar."
+    },
+    {
+      "question": "How long does an 18-hole round take?",
+      "answer": "The time for an 18-hole round is not specified, but the process includes game setup, profile creation, and gameplay with food/drink service available during the session."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, The Fairway Lounge is described as a family-friendly destination with an ambiance that appeals to both adults and kids, offering creative twists on clubhouse classics."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"9AM-12AM\"], \"Saturday\": [\"9AM-12AM\"], \"Sunday\": [\"9AM-10PM\"]}"
+}

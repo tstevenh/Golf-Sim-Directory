@@ -1,0 +1,91 @@
+{
+  "name": "Indoor National",
+  "address": "8127 Mesa Dr Suite B-200, Austin, TX 78759",
+  "city": "Austin",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 30.372836,
+  "longitude": -97.755565,
+  "phone": "+15125221232",
+  "website": "https://indoornational.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770221810/golf_simulators/indoornational_com_ChIJmbjNKJ7LRIYR-v1mDwf3hYs.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Indoor+National/@30.3728363,-97.75556449999999,14z/data=!4m8!1m2!2m1!1sIndoor+National!3m4!1s0x8644cb9e28cdb899:0x8b85f7070f66fdfa!8m2!3d30.3728363!4d-97.75556449999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJmbjNKJ7LRIYR-v1mDwf3hYs",
+  "email": "Asset-1@4x-2-1024x244.png",
+  "venue_type": "private_rental",
+  "about": "Indoor National is an unstaffed, private access, simulator golf studio open 24/7 to members and their guests. The venue features two private simulator bays equipped with Trackman iO launch monitor systems and Fiberbuilt Player Preferred hitting mats. Members have access to a practice putting green and can bring their own food and drink. The facility aims to provide an affordable and convenient place for dedicated golfers to work on their game without the noise and distraction of larger golf entertainment venues. The club is designed to cater to golfers of all skill levels, offering a warm and inviting atmosphere for both serious grinders and casual players.",
+  "tags": "serious_golfers|solo_practice|coaching_available|leagues|budget_friendly|private_rooms|club_rentals",
+  "vibe_tags": "private_luxury|tech_lab|community_club",
+  "who_its_for": "serious_golfers|solo_practice|coaches_instructors|low_handicap",
+  "why_golfers_like_it": [
+    "24/7 access for members and their guests",
+    "Premium Trackman iO technology for accurate data",
+    "Private access simulator bays for a focused experience",
+    "Affordable membership pricing without distractions",
+    "Self-service simplicity with no staff required"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Members are allowed to bring their own food"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Members are allowed to bring their own drinks"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Premium launch monitor system for accurate ball and club tracking"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://www.indoornational.com/booking/",
+  "pricing_model": "membership_only",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|kitchen_food|private_party_room|leagues|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 4.2,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify, but members are expected to bring their own equipment as it's a private access facility."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "Yes, members are allowed to bring their own food and drink to the facility."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not provide specific timing details, but with Trackman technology and private bays, play time would depend on player pace and simulator software used."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The website does not explicitly mention kid-friendly features or policies, though it does state golfers of all skill levels are welcome."
+    }
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

@@ -1,0 +1,89 @@
+{
+  "name": "X-Golf Mason",
+  "address": "5395 Deerfield Blvd Suite 2090, Mason, OH 45040",
+  "city": "Mason",
+  "region": "Ohio",
+  "country": "US",
+  "latitude": 39.305966,
+  "longitude": -84.318333,
+  "phone": "+15134861006",
+  "website": "https://playxgolf.com/locations/mason/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770198713/golf_simulators/playxgolf_com_ChIJI4SQdaVXQIgRqjHrsAEnT3U.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/X-Golf+Mason/@39.3059659,-84.3183332,14z/data=!4m8!1m2!2m1!1sX-Golf+Mason!3m4!1s0x884057a575908423:0x754f2701b0eb31aa!8m2!3d39.3059659!4d-84.3183332",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJI4SQdaVXQIgRqjHrsAEnT3U",
+  "email": "info@xgolfmason.com",
+  "venue_type": "sim_bar",
+  "about": "X-Golf Mason is an indoor golf simulator venue offering high-tech simulation experiences with a full-service bar and food menu. The facility utilizes advanced camera systems, infrared lasers, and impact sensors to provide accurate ball and club tracking across eight state-of-the-art simulators. Pricing operates on a per-bay, hourly basis with tiered rates for weekdays and weekends, alongside multiple membership options ranging from $100 to $1,000 per month. It caters to casual players, serious golfers, and groups looking for entertainment, training, or event hosting.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|club_rentals|private_rooms|coaching_available",
+  "vibe_tags": "sports_bar|tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams|solo_practice|juniors_youth",
+  "why_golfers_like_it": [
+    "8 state-of-the-art golf simulators with unparalleled accuracy",
+    "Full bar and food menu available on-site",
+    "Flexible booking system with walk-ins welcome",
+    "Variety of membership tiers for frequent players",
+    "Option to host private events and corporate gatherings"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen with 'tasty bites' and 'XGM Signature Bites' available"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar serving spirits, draft beer, tap beer, and local beers"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "X-Golf",
+      "model": "State of the Art Simulator",
+      "notes": "Proprietary system with camera systems, infrared lasers, and impact sensors"
+    }
+  ],
+  "simulator_software": "X-Golf proprietary software",
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": 8,
+  "booking_url": "https://playxgolf.com/locations/mason/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 40,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need clubs?",
+      "answer": "No, club rentals are available for $15 per set, or you can bring your own."
+    },
+    {
+      "question": "Can I bring my own food or drink?",
+      "answer": "No outside food or drinks are allowed, as the venue has a full bar and kitchen on-site."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "It takes about 1 hour per player to complete 18 holes, so adjust booking time based on group size."
+    },
+    {
+      "question": "Is it kid-friendly?",
+      "answer": "Yes, children of all ages are welcome, and junior golf lessons are available."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-12AM\"], \"Saturday\": [\"10AM-12AM\"], \"Sunday\": [\"10AM-10PM\"]}"
+}

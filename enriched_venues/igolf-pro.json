@@ -1,0 +1,90 @@
+{
+  "name": "iGolf Pro",
+  "address": "551 S Otterbein Ave, Westerville, OH 43081",
+  "city": "Westerville",
+  "region": "Ohio",
+  "country": "US",
+  "latitude": 40.111064,
+  "longitude": -82.922411,
+  "phone": "+16143920425",
+  "website": "https://igolfpro.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770211021/golf_simulators/igolfpro_com_ChIJB9gpSFP1OIgR-NOJQQKtsW0.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/iGolf+Pro/@40.1110642,-82.9224115,14z/data=!4m8!1m2!2m1!1siGolf+Pro!3m4!1s0x8838f5534829d807:0x6db1ad024189d3f8!8m2!3d40.1110642!4d-82.9224115",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJB9gpSFP1OIgR-NOJQQKtsW0",
+  "venue_type": "sim_bar|training_studio",
+  "about": "iGolf Pro is an indoor golf simulator venue located in Westerville, OH. The facility uses Uneekor hardware paired with GSPro software to provide realistic golf simulation experiences. It features a booking system with timed bay rentals, operates with public hours, and offers tiered memberships. The venue is designed for individual practice, group play, and social events, emphasizing technology and convenience for golfers of all skill levels. Pricing is structured on a per-bay basis with separate peak and non-peak rates, along with membership options that include discounted hourly rates and rental credits.",
+  "tags": "beginner_friendly|serious_golfers|families|corporate_events|leagues|premium_tech|coaching_available",
+  "vibe_tags": "modern|casual|welcoming",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "High-end Uneekor simulator technology paired with GSPro software for accurate data and detailed swing analysis",
+    "Flexible booking system with text-based entry codes and reserved time slots for a seamless experience",
+    "Variety of renowned virtual courses available, including famous tracks like Pebble Beach and St. Andrews",
+    "Supports multiplayer modes for group play, tournaments, and friendly competitions",
+    "24/7 access for higher-tier members with flexible reservation options"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "BYOB policy not explicitly stated, but no mention of on-site food service"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "BYOB policy not explicitly stated, but no mention of on-site bar service"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "QED or Eye XO",
+      "notes": "Top-of-the-line simulators paired with GSPro software, featuring replay functionality for swing analysis"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://app.birrdi.com/u/reserve?team_booking_link_id=igolf-pro&date=2025-02-01",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 35,
+  "price_range_max_local": 45,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|leagues|pro_shop|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify club rental policies, so it's recommended to bring your own clubs for the best experience."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The website does not explicitly state a BYOB policy, but there is no mention of an on-site bar or kitchen service."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The venue emphasizes 'no time constraints' and allows players to enjoy a full round or quick 9 holes at their own pace."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "While the venue welcomes families and groups, there is no specific information about child-friendly features or junior programs."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"10AM-8PM\"], \"Tuesday\": [\"10AM-8PM\"], \"Wednesday\": [\"10AM-8PM\"], \"Thursday\": [\"10AM-8PM\"], \"Friday\": [\"10AM-9PM\"], \"Saturday\": [\"9AM-9PM\"], \"Sunday\": [\"9AM-8PM\"]}"
+}

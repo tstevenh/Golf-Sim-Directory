@@ -1,4 +1,6 @@
 import { VenueListItem } from "@/types";
+import { normalizeHardwareBrand } from "@/lib/hardware-brands";
+import { extractSoftwareSlugsFromComprehensiveData, normalizeSoftwareSlug } from "@/lib/software-slugs";
 
 export function normalizeSlug(value: string) {
   return value.toLowerCase().replace(/\s+/g, "-");
@@ -22,25 +24,23 @@ export function matchesWhoItsFor(venue: VenueListItem, segment: string) {
 }
 
 export function matchesHardware(venue: VenueListItem, brand: string) {
+  const normalizedBrand = normalizeHardwareBrand(brand);
+  if (!normalizedBrand) return false;
+  if ((venue.hardwareBrands || []).includes(normalizedBrand)) return true;
   if (!venue.simulatorSystems) return false;
   try {
     const systems = venue.simulatorSystems as { brand?: string; model?: string }[];
-    return systems.some((system) => system.brand?.toLowerCase() === brand.toLowerCase());
+    return systems.some((system) => normalizeHardwareBrand(system.brand || "") === normalizedBrand);
   } catch {
     return false;
   }
 }
 
-export function matchesSoftware(venue: { comprehensiveData?: unknown }, software: string) {
-  if (!venue.comprehensiveData) return false;
-  try {
-    const data = venue.comprehensiveData as { simulator_software?: string[] };
-    return (data.simulator_software || []).some(
-      (item) => item.toLowerCase() === software.toLowerCase()
-    );
-  } catch {
-    return false;
-  }
+export function matchesSoftware(venue: { softwareSlugs?: string[] | null; comprehensiveData?: unknown }, software: string) {
+  const softwareSlug = normalizeSoftwareSlug(software);
+  if (!softwareSlug) return false;
+  if ((venue.softwareSlugs || []).includes(softwareSlug)) return true;
+  return extractSoftwareSlugsFromComprehensiveData(venue.comprehensiveData).includes(softwareSlug);
 }
 
 export function matchesAmenity(venue: VenueListItem, amenity: string) {

@@ -1,0 +1,89 @@
+{
+  "name": "The Club at the Highlands",
+  "address": "2700 Highland Blvd S, Archbald, PA 18403",
+  "city": "Archbald",
+  "region": "Pennsylvania",
+  "country": "US",
+  "latitude": 41.505968,
+  "longitude": -75.553257,
+  "phone": "+15705214143",
+  "website": "http://clubatthehighlands.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770232572/golf_simulators/clubatthehighlands_com_ChIJw7mg0zjQxIkReRy4YBaW2B0.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Club+at+the+Highlands/@41.5059682,-75.5532571,14z/data=!4m8!1m2!2m1!1sThe+Club+at+the+Highlands!3m4!1s0x89c4d038d3a0b9c3:0x1dd8961660b81c79!8m2!3d41.5059682!4d-75.5532571",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJw7mg0zjQxIkReRy4YBaW2B0",
+  "venue_type": "country_club",
+  "about": "The Club at The Highlands is a premier destination for recreation in Archbald, PA, offering both an outdoor 9-hole golf course and an indoor golf simulator facility. The venue provides a complete experience with dining at the Highlander Pub, event hosting capabilities, pro shop services, and instructional programs. Players can enjoy the scenic outdoor course during warmer months or utilize the state-of-the-art indoor simulator bays for year-round play, practice, and league participation. The facility caters to various skill levels with flexible pricing options and no membership requirement for public access.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|club_rentals|coaching_available|juniors_youth|community_club",
+  "vibe_tags": "community_club|family_fun_center|private_luxury|tech_lab",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Year-round golf access with premium indoor simulator technology",
+    "Flexible outdoor and indoor play options to suit weather preferences",
+    "Active community leagues for all skill levels including seasonal simulator competitions",
+    "Professional instruction available for swing improvement"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full dining available at Highlander Pub with pizza, Stromboli, and other food options for pickup"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Flightscope",
+      "model": "unknown",
+      "notes": "Uses Flightscope launch monitors"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "gimme_circle|auto_putt",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "http://clubatthehighlands.com/play.html",
+  "pricing_model": "per_bay_hour|mixed",
+  "price_range_min_local": 40,
+  "price_range_max_local": 40,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need clubs to use the simulator?",
+      "answer": "Yes, you can bring your own clubs. The venue requires that clubs be clean before hitting on the simulator."
+    },
+    {
+      "question": "Can I bring food and drink?",
+      "answer": "Food is available at the Highlander Pub on-site. There's no mention of BYOB policies for the simulator area."
+    },
+    {
+      "question": "How long does it take to play 18 holes on the simulator?",
+      "answer": "It takes approximately 1 hour for 1 person to play 18 holes on the simulator."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, the venue offers child lessons and family-friendly amenities, making it suitable for junior golfers."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"12-9PM\"], \"Tuesday\": [\"12-9PM\"], \"Wednesday\": [\"12-9PM\"], \"Thursday\": [\"12-9PM\"], \"Friday\": [\"12-9PM\"], \"Saturday\": [\"12-9PM\"], \"Sunday\": [\"12-9PM\"]}"
+}

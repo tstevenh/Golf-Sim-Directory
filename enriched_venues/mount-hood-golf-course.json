@@ -1,0 +1,90 @@
+{
+  "name": "Mount Hood Golf Course",
+  "address": "100 Slayton Rd, Melrose, MA 02176",
+  "city": "Melrose",
+  "region": "Massachusetts",
+  "country": "US",
+  "latitude": 42.451533,
+  "longitude": -71.036946,
+  "phone": "+17816656656",
+  "website": "https://mthoodgolfclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770244207/golf_simulators/mthoodgolfclub_com_ChIJ5SKZ0ERy44kRGyZFx9Zh73g.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Mount+Hood+Golf+Course/@42.451533399999995,-71.0369461,14z/data=!4m8!1m2!2m1!1sMount+Hood+Golf+Course!3m4!1s0x89e37244d09922e5:0x78ef61d6c745261b!8m2!3d42.451533399999995!4d-71.0369461",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ5SKZ0ERy44kRGyZFx9Zh73g",
+  "email": "kscarito@sagamoregolf.com",
+  "venue_type": "sim_bar",
+  "about": "Mount Hood Golf Course is a historic public golf venue in Melrose, Massachusetts, offering an 18-hole course within 300 acres of wooded parkland. The facility features a beautiful, historic clubhouse with three state-of-the-art Trackman Indoor Golf Simulators, open seven days a week all winter. The simulators provide a premium indoor golf experience accompanied by a bar menu with comfort food and cocktails. The course is managed by Sagamore Golf and emphasizes a welcoming atmosphere for both on-course and simulator play.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|premium_tech|budget_friendly|private_rooms|community_club",
+  "vibe_tags": "casual|welcoming|modern|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Premium Trackman technology provides accurate ball and club tracking",
+    "Comfortable indoor setting available year-round, especially during winter",
+    "On-site bar and food service for a complete social experience"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Bar menu with comfort food options available"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Top-pour cocktails available at the bar"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Three state-of-the-art simulators in the clubhouse"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://mthoodgolfclub.com/golf-simulators-melrose-ma",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 40,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": 3,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|kitchen_food|pro_shop|club_rentals",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "The website does not specify whether clubs are provided, so it is recommended to bring your own."
+    },
+    {
+      "question": "Can I bring my own food or drink?",
+      "answer": "The venue offers a bar menu with comfort food and top-pour cocktails, but does not mention a BYOB policy."
+    },
+    {
+      "question": "How long does an 18-hole simulator session take?",
+      "answer": "The website does not specify the duration for an 18-hole simulator session."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The venue does not have specific age restrictions listed and is described as welcoming to all golfers, making it likely kid-friendly."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"6AM-8PM\"], \"Tuesday\": [\"6AM-8PM\"], \"Wednesday\": [\"6AM-8PM\"], \"Thursday\": [\"6AM-8PM\"], \"Friday\": [\"6AM-8PM\"], \"Saturday\": [\"6AM-8PM\"], \"Sunday\": [\"6AM-8PM\"]}"
+}

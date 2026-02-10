@@ -1,0 +1,85 @@
+{
+  "name": "Hoboken Game Lounge",
+  "address": "1012 Grand St 3rd floor, Hoboken, NJ 07030",
+  "city": "Hoboken",
+  "region": "New Jersey",
+  "country": "US",
+  "latitude": 40.750167,
+  "longitude": -74.032961,
+  "phone": "+12018769666",
+  "website": "https://playhoboken.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770208996/golf_simulators/playhoboken_com_ChIJzXP9GDFXwokR9_AcqYmGNo0.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Hoboken+Game+Lounge/@40.750167399999995,-74.0329615,14z/data=!4m8!1m2!2m1!1sHoboken+Game+Lounge!3m4!1s0x89c2573118fd73cd:0x8d368689a91cf0f7!8m2!3d40.750167399999995!4d-74.0329615",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJzXP9GDFXwokR9_AcqYmGNo0",
+  "email": "ask@playhoboken.com",
+  "venue_type": "sim_bar",
+  "about": "Play! Hoboken is a multi-sport entertainment venue featuring a variety of attractions including golf simulators, billiards, bowling, ping pong, and board games. The venue operates on a simplified pricing model with wristbands for general access and specific hourly rates for golf and bowling simulators, which are rented to groups. It offers a casual and welcoming environment suitable for various activities from individual practice to group events, with additional services such as lessons and league play. The location is described as affordable with accommodating staff and a BYOB policy, making it a versatile spot for entertainment and social gatherings.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|kids_friendly|corporate_events|budget_friendly|coaching_available|community_club|party_atmosphere",
+  "vibe_tags": "casual|welcoming|modern|family_fun_center",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Variety of attractions beyond golf, including billiards and board games",
+    "Affordable pricing with flexible membership options",
+    "Convenient online booking system for simulator reservations",
+    "BYOB policy allows for a relaxed, social atmosphere",
+    "Staff described as knowledgeable and accommodating"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Snacks are available for purchase"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "BYOB policy allows patrons to bring their own alcoholic beverages"
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": "unknown",
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "https://playhoboken.com/booking/golf/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 25,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 5,
+  "amenities_list": "club_rentals|kitchen_food|tv_sports|private_party_room|wifi|leagues|ada_accessible",
+  "rating_tech_quality": 4.0,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.5,
+  "faq": [
+    {
+      "question": "Do I need to bring my own golf clubs?",
+      "answer": "The website does not explicitly mention club rentals, so it is recommended to bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, the venue operates on a BYOB (Bring Your Own Beverage) policy. Snacks are also available for purchase."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify the time required for 18 holes. Golf simulator sessions can be booked for 1-5 hours."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Play! Hoboken is kid-friendly and offers activities such as children's golf, parties, and special events like Mommy & Me Mini Bowling."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"11AM-10PM\"], \"Tuesday\": [\"11AM-10PM\"], \"Wednesday\": [\"11AM-10PM\"], \"Thursday\": [\"11AM-10PM\"], \"Friday\": [\"9AM-12AM\"], \"Saturday\": [\"8AM-12AM\"], \"Sunday\": [\"8AM-10PM\"]}"
+}

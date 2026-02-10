@@ -1,0 +1,89 @@
+{
+  "name": "Gastrau's Golf Center",
+  "address": "1300 E Rawson Ave, Oak Creek, WI 53154",
+  "city": "Oak Creek",
+  "region": "Wisconsin",
+  "country": "US",
+  "latitude": 42.91589,
+  "longitude": -87.895012,
+  "phone": "+14145717002",
+  "website": "http://www.gastrausgolfcenter.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770224392/golf_simulators/www_gastrausgolfcenter_com_ChIJA63V0ywUBYgRQVE1oWySwao.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Gastrau%27s+Golf+Center/@42.9158897,-87.8950119,14z/data=!4m8!1m2!2m1!1sGastrau%27s+Golf+Center!3m4!1s0x8805142cd3d5ad03:0xaac1926ca1355141!8m2!3d42.9158897!4d-87.8950119",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJA63V0ywUBYgRQVE1oWySwao",
+  "email": "gastrausmanager@gmail.com",
+  "venue_type": "multi_sport_sim",
+  "about": "Gastrau's Golf Center is a comprehensive golf and entertainment venue offering a full range of services including a driving range, club fitting, virtual golf simulators, mini golf, and a pro shop. The facility utilizes Trackman technology for launch monitor data and club fittings, catering to various skill levels from beginners to serious golfers. Operating with flexible hours, the venue provides a one-stop-shop experience for practice, play, and equipment needs.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|kids_friendly|corporate_events|leagues|premium_tech|budget_friendly|private_rooms|club_rentals",
+  "vibe_tags": "family_fun_center|community_club|tech_lab",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "Utilizes premium Trackman technology for accurate data and fittings",
+    "Time-based bays allow for unhurried practice and simulation play",
+    "Offers a comprehensive suite of services from practice to club repair and shopping"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Food and drink specials available on-site"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Drink specials available on-site, including happy hour specials"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Primary launch monitor used for fittings and virtual golf"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.gastrausgolfcenter.com",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|lockers|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can bring your own clubs, but the venue also offers club rentals and has a pro shop on-site for purchasing or trying new equipment."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "Food and drinks are available for purchase on-site, with special offers and happy hours available. Bringing outside food and drinks is not mentioned in the provided information."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify the time required to complete 18 holes. It does mention the facility is not time-based, allowing golfers to play at their own pace."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Gastrau's Golf Center is kid-friendly, offering a mini golf course and birthday party packages."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-9PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-10PM\"], \"Saturday\": [\"9AM-10PM\"], \"Sunday\": [\"9AM-9PM\"]}"
+}

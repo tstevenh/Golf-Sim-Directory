@@ -1,0 +1,94 @@
+{
+  "name": "Canteen Golf & Billiards, Inc.",
+  "address": "41701 Garfield Rd, Clinton Township, MI 48038",
+  "city": "Clinton Township",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 42.603219,
+  "longitude": -82.954611,
+  "phone": "+15862215400",
+  "website": "https://www.canteengolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770216451/golf_simulators/www_canteengolf_com_ChIJaQLx8ADfJIgR8xlbmXT66Dc.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Canteen+Golf+%26+Billiards%2C+Inc./@42.6032193,-82.9546108,14z/data=!4m8!1m2!2m1!1sCanteen+Golf+%26+Billiards%2C+Inc.!3m4!1s0x8824df00f0f10269:0x37e8fa74995b19f3!8m2!3d42.6032193!4d-82.9546108",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJaQLx8ADfJIgR8xlbmXT66Dc",
+  "email": "bertcopple@canteengolf.com",
+  "venue_type": "sim_bar",
+  "about": "Canteen Golf & Billiards is a dual-venue facility offering both high-end golf simulation and augmented reality billiards. The venue utilizes eight Trackman-powered golf bays that can accommodate up to four guests each, with access to over 300 global courses and a variety of practice modes. Their six Olhausen billiards tables feature augmented reality technology for interactive gameplay. The facility operates on a peak and off-peak schedule, offering members 24/7 access. Canteen provides a full-service bar and kitchen, serving food, drinks, and hosting customized events from small birthdays to large corporate gatherings. It is positioned as an affordable entertainment hub in Metro Detroit, offering a mix of sports, technology, and social dining.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|kids_friendly|corporate_events|leagues|premium_tech|budget_friendly|private_rooms|late_night|party_atmosphere",
+  "vibe_tags": "sports_bar|family_fun_center|tech_lab|community_club",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Premium Trackman technology used by PGA and LPGA professionals",
+    "Affordable pricing with a summer rate of $25/hour",
+    "Family-friendly environment with a wide variety of games and activities",
+    "24/7 member access for flexible practice and play",
+    "Full food and beverage service available on-site"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen service including appetizers, award-winning pizzas, sandwiches, burgers, desserts, and a catering menu."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with 40+ beers, drafts, canned/bottled beverages, mixed drinks, shots, and bottomless Coca-Cola products."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "unknown",
+      "notes": "State-of-the-art radar technology used by PGA and LPGA; eight bays available, each holding up to four guests."
+    }
+  ],
+  "simulator_so": [
+    "unknown"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 8,
+  "booking_url": "https://yourgolfbooking.com/venues/canteen-golf-and-billiards/booking/bays",
+  "pricing_model": "mixed",
+  "price_range_min_local": 25,
+  "price_range_max_local": 49,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|private_party_room|tv_sports|arcade|air_hockey|darts|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, loaner adult clubs are available for $15 per session, and kid's sets are free. However, bringing your own clubs is recommended as loaner sets may not be complete."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, all food and drink must be purchased through the venue. Members may bring their own non-alcoholic snacks and drinks when the facility is closed to the public, but no alcohol is allowed during non-public hours."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify a standard time for 18 holes. Booking is done by the hour, and it is recommended to book online to guarantee availability, especially on weekends."
+    },
+    {
+      "question": "Is Canteen kid-friendly?",
+      "answer": "Yes, Canteen is a family-friendly establishment. Kids and teens can enjoy the golf games, learn to play pool, and access the arcade with ticket redemption games and Pokémon center."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"6PM-12AM\"], \"Tuesday\": [\"6PM-12AM\"], \"Wednesday\": [\"6PM-12AM\"], \"Thursday\": [\"6PM-12AM\"], \"Friday\": [\"6PM-12AM\"], \"Saturday\": [\"10AM-12AM\"], \"Sunday\": [\"1-7PM\"]}"
+}

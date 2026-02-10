@@ -1,0 +1,90 @@
+{
+  "name": "Cedars Golf Club",
+  "address": "305 Cases Ln, Cutchogue, NY 11935",
+  "city": "Cutchogue",
+  "region": "New York",
+  "country": "US",
+  "latitude": 41.004044,
+  "longitude": -72.485542,
+  "phone": "+16317346363",
+  "website": "http://www.cedarsgolfclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770228822/golf_simulators/www_cedarsgolfclub_com_ChIJJ6nx402Q6IkR60M5qT5yt5g.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Cedars+Golf+Club/@41.0040435,-72.4855422,14z/data=!4m8!1m2!2m1!1sCedars+Golf+Club!3m4!1s0x89e8904de3f1a927:0x98b7723ea93943eb!8m2!3d41.0040435!4d-72.4855422",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJJ6nx402Q6IkR60M5qT5yt5g",
+  "email": "ken@cedarsgolfclub.com",
+  "venue_type": "multi_sport_sim",
+  "about": "Cedars Golf Club is a par-3 golf facility on the North Fork of Long Island, featuring a nine-hole course and an indoor TrackMan iO golf simulator. The venue is known for being family-friendly, with short holes ranging from 100 to 175 yards that are accessible to beginners while still providing challenges for experienced players with water hazards and sand traps. The TrackMan iO simulator is used for lessons, custom club fitting, and virtual golf play, and the facility also hosts leagues, junior camps, and private events.",
+  "tags": "beginner_friendly|food_and_drinks|kids_friendly|corporate_events|leagues|premium_tech|juniors_youth|community_club",
+  "vibe_tags": "family_fun_center|community_club|casual|welcoming",
+  "who_its_for": "beginners|families|juniors_youth|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "The only indoor TrackMan iO simulator on the North Fork",
+    "Quick play times (rarely more than an hour for 9 holes)",
+    "Relaxed and welcoming atmosphere for all skill levels",
+    "Focus on both on-course instruction and simulator-based long game training"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Convenience foods available on-site"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Beer and soft drinks available on-site"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Advanced indoor simulator with Optically Enhanced Radar Tracking (OERT) using radar, high-speed cameras, and infrared for unmatched indoor accuracy. Includes Virtual Golf software with courses, practice modes, and league play."
+    }
+  ],
+  "simulator_software": [
+    "Trackman Virtual Golf"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 1,
+  "booking_url": "https://teewire.net/cedarsgolfclub/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|kitchen_food|tv_sports|private_party_room|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need clubs?",
+      "answer": "Golf clubs and pull carts are available for rent at the pro shop, which also offers equipment sales and expert club re-gripping and repair services."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "The venue offers convenience foods, beer, and soft drinks for purchase on-site. No explicit BYOB policy is mentioned."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The nine-hole course at Cedars rarely takes much longer than an hour to play, making it a quick and accessible option for golfers."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, junior play and instruction is a priority. Junior camps are offered in July and August, and junior play is welcomed at all times with special lesson rates available."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"7AM-8PM\"], \"Tuesday\": [\"2-8PM\"], \"Wednesday\": [\"7AM-8PM\"], \"Thursday\": [\"7AM-8PM\"], \"Friday\": [\"1-8PM\"], \"Saturday\": [\"7AM-8PM\"], \"Sunday\": [\"7AM-8PM\"]}"
+}

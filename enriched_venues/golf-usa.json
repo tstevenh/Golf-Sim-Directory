@@ -1,0 +1,90 @@
+{
+  "name": "Golf USA",
+  "address": "232 W Ridge Pike, Limerick, PA 19468",
+  "city": "Limerick",
+  "region": "Pennsylvania",
+  "country": "US",
+  "latitude": 40.22488,
+  "longitude": -75.514121,
+  "phone": "+16109063139",
+  "website": "http://www.golfusalimerick.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770233664/golf_simulators/www_golfusalimerick_com_ChIJ26MhCbiaxokRqophwgnJuUk.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Golf+USA/@40.2248795,-75.5141208,14z/data=!4m8!1m2!2m1!1sGolf+USA!3m4!1s0x89c69ab80921a3db:0x49b9c909c2618aaa!8m2!3d40.2248795!4d-75.5141208",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ26MhCbiaxokRqophwgnJuUk",
+  "email": "golfusalimerick19468@gmail.com",
+  "venue_type": "retail_fitting_center",
+  "about": "GolfUSA of Limerick is an indoor golf simulator facility and retail store offering precise club fitting services using advanced technology like the Flightscope® Launch Monitor and Mizuno Shaft Optimizer. The venue features a variety of services including indoor simulator play with access to 46 virtual golf courses from North America, Europe, and Asia, professional lessons with a Director of Instruction, and a full-service pro shop. Pricing includes per-bay hourly rates with weekday specials and a yearly membership option that provides unlimited simulator rentals during off-peak hours.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|club_rentals|coaching_available|juniors_youth|families",
+  "vibe_tags": "community_club|modern|welcoming",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "Premium club fitting technology with Flightscope Launch Monitor and Mizuno Shaft Optimizer",
+    "Access to 46 virtual golf courses including famous courses like Pebble Beach and St. Andrews",
+    "Yearly membership offers significant discounts on simulator time, leagues, and pro shop items"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Food delivery options available from local eateries"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "BYOB policy allowed"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Flightscope",
+      "model": "Launch Monitor",
+      "notes": "Used for club fitting and ball tracking"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "http://www.golfusalimerick.com/member-sign-in/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 25,
+  "price_range_max_local": 35,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can bring your own clubs, but the venue also offers club rentals and a pro shop for purchasing equipment."
+    },
+    {
+      "question": "Can I bring food and drinks?",
+      "answer": "Yes, the facility has a BYOB policy and offers food delivery options from local eateries."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "A nine-hole round typically takes about 45 minutes to complete."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue accommodates junior golfers and offers leagues for all skill levels."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-6PM\"], \"Tuesday\": [\"10AM-6PM\"], \"Wednesday\": [\"10AM-6PM\"], \"Thursday\": [\"10AM-6PM\"], \"Friday\": [\"10AM-6PM\"], \"Saturday\": [\"10AM-6PM\"], \"Sunday\": [\"11AM-5PM\"]}"
+}

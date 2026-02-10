@@ -1,0 +1,92 @@
+{
+  "name": "Billy Winters Golf",
+  "address": "7502 Snow Hill Rd, Ooltewah, TN 37363",
+  "city": "Ooltewah",
+  "region": "Tennessee",
+  "country": "US",
+  "latitude": 35.136627,
+  "longitude": -85.06438,
+  "phone": "+13046613563",
+  "website": "https://www.pga.com/coach/billywinters",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770225877/golf_simulators/www_pga_com_ChIJObsg0BKHYIgR04r8qyJDrSU.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Billy+Winters+Golf/@35.1366268,-85.06437969999999,14z/data=!4m8!1m2!2m1!1sBilly+Winters+Golf!3m4!1s0x88608712d020bb39:0x25ad4322abfc8ad3!8m2!3d35.1366268!4d-85.06437969999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJObsg0BKHYIgR04r8qyJDrSU",
+  "venue_type": "training_studio",
+  "about": "Billy Winters Golf is a professional golf training studio located in Chattanooga, TN, focusing on private instruction, junior programs, golf schools, and club fitting for players of all abilities. The facility is led by PGA Professional Billy Winters Jr., a highly regarded instructor with 20 years of experience, including tenures at The Greenbrier Resort and collaborations with top-tier players like Nick Faldo and Lee Trevino. The studio specializes in personalized coaching, swing diagnostics, and TrackMan 4 technology, offering a serious practice environment for golfers looking to improve their skills.",
+  "tags": "serious_practice|beginner_friendly|juniors_youth|coaching_available|club_fitting|premium_tech|low_handicap|solo_practice",
+  "vibe_tags": "industrial_training|modern|welcoming",
+  "who_its_for": "beginners|serious_golfers|juniors_youth|coaches_instructors|solo_practice",
+  "why_golfers_like_it": [
+    "Access to TrackMan 4 technology for advanced swing analysis",
+    "Personalized coaching from a PGA Professional with 20+ years of experience",
+    "Specialized club fitting services with certified Callaway fitter"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No on-site food service mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "Level 2 Professional Certified"
+    }
+  ],
+  "simulator_so": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface|dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.pga.com/coach/billywinters",
+  "pricing_model": "per_person_hour|mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|club_fitting|pro_shop|coaching_available",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, players should bring their own clubs, though club fitting services are available on-site."
+    },
+    {
+      "question": "Can I bring my own food or drink?",
+      "answer": "No external food or drink is mentioned, suggesting on-site services may be limited."
+    },
+    {
+      "question": "How long does an 18-hole simulation take?",
+      "answer": "Standard 18-hole simulation times typically range from 1.5 to 2 hours per player."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, the facility offers junior instruction and specializes in coaching players of all ages and abilities."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": null
+}

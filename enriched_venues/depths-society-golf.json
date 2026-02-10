@@ -1,0 +1,92 @@
+{
+  "name": "Depths Society Golf",
+  "address": "2670 W John Beers Rd, Stevensville, MI 49127",
+  "city": "Stevensville",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 42.014153,
+  "longitude": -86.518287,
+  "phone": "+12699322642",
+  "website": "https://depthssociety.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770230391/golf_simulators/depthssociety_com_ChIJB53mruDdEIgRy81X9Qr38M8.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Depths+Society+Golf/@42.0141529,-86.5182873,14z/data=!4m8!1m2!2m1!1sDepths+Society+Golf!3m4!1s0x8810dde0aee69d07:0xcff0f70af557cdcb!8m2!3d42.0141529!4d-86.5182873",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJB53mruDdEIgRy81X9Qr38M8",
+  "email": "golf@watermarkbrewing.com",
+  "venue_type": "sim_bar",
+  "about": "Depths Society Golf is a high-tech golf simulator venue and underground society founded by Watermark Brewing Co. It combines a focus on serious golf practice with a social, community-oriented atmosphere. The venue emphasizes a ritualistic approach to golf, positioning itself as a sanctuary for dedicated players who value precision and mindset.",
+  "tags": "serious_golfers|food_and_drinks|corporate_events|leagues|premium_tech|coaching_available|date_night|upscale_lounge|tech_lab|community_club",
+  "vibe_tags": "tech_lab|community_club|speakeasy|upscale_lounge",
+  "who_its_for": "serious_golfers|corporate_teams|solo_practice|coaches_instructors|large_groups",
+  "why_golfers_like_it": [
+    "Premium Trackman technology provides detailed data analysis for serious practice",
+    "Integration with the Trackman app enhances the overall experience",
+    "A strong community-focused atmosphere for networking and connection",
+    "Emphasis on precision and mindset caters to dedicated golfers",
+    "Exclusive event and membership opportunities"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Food service available, as indicated by kitchen amenities"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Founded by a brewery (Watermark Brewing Co.) suggesting bar service"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Premium radar technology for ball and club tracking"
+    }
+  ],
+  "simulator_software": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://booking.trackmangolf.com/venues/depths-society/booking/bays",
+  "pricing_model": "per_bay_hour|membership_only|mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|lockers|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can bring your own clubs, but club rentals are available at the venue."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "Food and drinks are available for purchase at the venue, with a full bar service provided."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "A standard 18-hole round typically takes about 1-2 hours depending on simulator wait times."
+    },
+    {
+      "question": "Is Depths Society Golf kid-friendly?",
+      "answer": "Depths Society Golf is not specifically marketed as kid-friendly and appears to cater more to serious golfers and adults."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"3-9PM\"], \"Tuesday\": [\"10AM-9PM\"], \"Wednesday\": [\"10AM-9PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-10PM\"], \"Saturday\": [\"8AM-10PM\"], \"Sunday\": [\"8AM-9PM\"]}"
+}

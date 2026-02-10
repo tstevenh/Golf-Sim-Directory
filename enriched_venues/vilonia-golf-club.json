@@ -1,0 +1,93 @@
+{
+  "name": "Vilonia Golf Club",
+  "address": "1163 Main St Ste. #102, Vilonia, AR 72173",
+  "city": "Vilonia",
+  "region": "Arkansas",
+  "country": "US",
+  "latitude": 35.086272,
+  "longitude": -92.196647,
+  "phone": "+15017649234",
+  "website": "https://www.viloniagolfclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770226118/golf_simulators/www_viloniagolfclub_com_ChIJ15_yLkCN0ocRotAM8R2QDrE.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Vilonia+Golf+Club/@35.0862724,-92.1966468,14z/data=!4m8!1m2!2m1!1sVilonia+Golf+Club!3m4!1s0x87d28d402ef29fd7:0xb10e901df10cd0a2!8m2!3d35.0862724!4d-92.1966468",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ15_yLkCN0ocRotAM8R2QDrE",
+  "email": "viloniagolfclub@gmail.com",
+  "venue_type": "sim_bar",
+  "about": "Vilonia Golf Club is a premium indoor golf venue in Vilonia, Arkansas, featuring state-of-the-art Garmin-powered simulators that allow year-round play on over 42,000 courses worldwide, including local Arkansas favorites. The facility offers flexible memberships with tiered plans, daily sessions at $35 per hour, and event hosting options for corporate groups, birthdays, and tournaments. With precise ball tracking technology and a focus on accuracy, the venue is designed for golfers of all skill levels seeking a realistic golf experience in an all-weather environment.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|private_rooms|club_rentals|family_friendly|late_night|community_club",
+  "vibe_tags": "casual|welcoming|modern|family_fun_center|tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "Accurate Garmin-powered ball tracking technology",
+    "Access to 42,000+ courses including local Arkansas favorites",
+    "All-weather golf available year-round",
+    "Flexible membership options for different skill levels",
+    "Food-friendly environment for events and casual play",
+    "Private bays available for Birdie and Eagle members"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Food-friendly environment, snacks available for purchase"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol mentioned on website"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Garmin",
+      "model": "Approach R50",
+      "notes": "State-of-the-art simulators with precise ball tracking"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://viloniagolfclub.square.site/s/appointments",
+  "pricing_model": "mixed",
+  "price_range_min_local": 35,
+  "price_range_max_local": 35,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|kitchen_food|tv_sports|private_party_room|wifi|pro_shop|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need clubs?",
+      "answer": "We provide a full set of clubs, balls, and tees. You're welcome to bring your own clubs as well."
+    },
+    {
+      "question": "Can I bring food and drink?",
+      "answer": "Yes, we have a food-friendly environment. Snacks are available for purchase, and you can bring your own food. No alcohol is served on premises."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website doesn't specify the exact time for 18 holes, but standard simulator sessions are 60 minutes for Par members and 90 minutes for Eagle members."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is family-friendly with regular events and a welcoming atmosphere for golfers of all ages and skill levels."
+    }
+  ],
+  "simulator_software": [
+    "Garmin"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"Closed\"], \"Wednesday\": [\"10AM-8PM\"], \"Thursday\": [\"10AM-8PM\"], \"Friday\": [\"10AM-10PM\"], \"Saturday\": [\"10AM-10PM\"], \"Sunday\": [\"1-6PM\"]}"
+}

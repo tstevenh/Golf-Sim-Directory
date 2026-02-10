@@ -1,0 +1,88 @@
+{
+  "name": "Spring Hills Golf Course",
+  "address": "103 Corder Dr, Bergholz, OH 43908",
+  "city": "Bergholz",
+  "region": "Ohio",
+  "country": "US",
+  "latitude": 40.4524,
+  "longitude": -80.83992,
+  "phone": "+17405433270",
+  "website": "https://www.golfatspringhills.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770230549/golf_simulators/www_golfatspringhills_com_ChIJV0fLQiOdNogRiNwIDyGMf_8.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Spring+Hills+Golf+Course/@40.4524002,-80.83991999999999,14z/data=!4m8!1m2!2m1!1sSpring+Hills+Golf+Course!3m4!1s0x88369d2342cb4757:0xff7f8c210f08dc88!8m2!3d40.4524002!4d-80.83991999999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJV0fLQiOdNogRiNwIDyGMf_8",
+  "venue_type": "retail_fitting_center",
+  "about": "Spring Hills Golf Club & Fitting Center is an 18-hole public course and driving range in East Springfield, Ohio, featuring a newly-renovated Pro Shop with custom-fit equipment for all skill levels. The facility offers a state-of-the-art TrackMan indoor simulator for year-round golf practice and gameplay, along with professional club fitting services to optimize player performance.",
+  "tags": "beginner_friendly|corporate_events|premium_tech|club_rentals|coaching_available|pro_shop",
+  "vibe_tags": "family_fun_center|community_club|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "State-of-the-art TrackMan simulator for year-round play",
+    "Professional club fitting services with discounts on purchases",
+    "Convenient East Springfield location with driving range access"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of food services available on-site"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol services available on-site"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "Indoor golf simulator with real-time stats measuring club speed, attack angle, and spin rate"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 1,
+  "booking_url": "tel:740-543-3270",
+  "pricing_model": "per_person_hour",
+  "price_range_min_local": 30,
+  "price_range_max_local": 50,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "pro_shop|club_fitting|driving_range|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own golf clubs?",
+      "answer": "You can bring your own clubs, but the Pro Shop offers custom fitting services and is fully stocked with the latest name brands for any level of player."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The website does not specify any food or drink services, so it's recommended to contact the Pro Shop directly regarding outside food and beverage policies."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "The website doesn't specify average completion times, but the TrackMan simulator allows play on over 100 golf courses including famous ones like Pebble Beach and St. Andrews."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "The website doesn't explicitly mention child-specific features, but as a public course with simulator access, it may be suitable for families with children who are interested in golf."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"7:30AM-9PM\"], \"Tuesday\": [\"7:30AM-9PM\"], \"Wednesday\": [\"7:30AM-9PM\"], \"Thursday\": [\"7:30AM-9PM\"], \"Friday\": [\"7:30AM-9PM\"], \"Saturday\": [\"7:30AM-9PM\"], \"Sunday\": [\"7:30AM-9PM\"]}"
+}

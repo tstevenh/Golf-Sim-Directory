@@ -114,8 +114,10 @@ export function PageHero({
   icon,
   bgPattern = true,
 }: PageHeroProps) {
+  const variantClass = variant === "default" ? "" : "";
+
   return (
-    <section className="relative overflow-hidden">
+    <section className={`relative overflow-hidden ${variantClass}`}>
       {/* Background pattern */}
       {bgPattern && (
         <div className="absolute inset-0 opacity-5">

@@ -1,0 +1,90 @@
+{
+  "name": "Bunker Golf",
+  "address": "15 Baker Rd Suite 2, Newnan, GA 30265",
+  "city": "Newnan",
+  "region": "Georgia",
+  "country": "US",
+  "latitude": 33.405408,
+  "longitude": -84.706426,
+  "phone": "+16157695110",
+  "website": "http://www.bunkergolfga.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770267963/golf_simulators/www_bunkergolfga_com_ChIJGXHFvyDH9IgRNDxgPcEUaHE.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Bunker+Golf/@33.4054077,-84.7064264,14z/data=!4m8!1m2!2m1!1sBunker+Golf!3m4!1s0x88f4c720bfc57119:0x716814c13d603c34!8m2!3d33.4054077!4d-84.7064264",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJGXHFvyDH9IgRNDxgPcEUaHE",
+  "venue_type": "sim_bar",
+  "about": "Bunker Golf is an indoor golf venue located in Newnan, Georgia, featuring two private bays equipped with Trackman iO launch monitors. The facility allows golfers to practice their swing or play on iconic courses such as Pebble Beach and Pinehurst No. 2. The venue positions itself as a community-focused space where golfers can work on their game, socialize, and host events. It also offers membership options and merchandise for purchase. The atmosphere is described as a modern, casual environment for both serious practice and social gatherings.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|private_rooms|club_rentals|community_club",
+  "vibe_tags": "casual|welcoming|modern|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Premium Trackman iO technology for accurate swing and shot data",
+    "Private bays for a focused and uninterrupted golf experience",
+    "Social atmosphere with space for events and league nights",
+    "Location in Newnan making it accessible for local golfers",
+    "Variety of activities including practice, playing famous courses, and social events"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of food service or kitchen facilities"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of a bar or alcohol service"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "2 indoor simulators with Trackman iO launch monitors in private bays"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://booking.trackmangolf.com/venues/bunker-golf-1/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "coming soon",
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|private_party_room|pro_shop|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify whether club rentals are available, so it is recommended to bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The website does not mention a BYOB policy or food service, so it is best to check with the venue directly."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not provide specific information on the time required for 18 holes, so this would depend on the simulator software and player pace."
+    },
+    {
+      "question": "Is Bunker Golf kid-friendly?",
+      "answer": "There is no specific mention of child-friendly features or activities on the website."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"10AM-8PM\"], \"Wednesday\": [\"10AM-8PM\"], \"Thursday\": [\"10AM-8PM\"], \"Friday\": [\"10AM-8PM\"], \"Saturday\": [\"10AM-8PM\"], \"Sunday\": [\"1-5PM\"]}"
+}

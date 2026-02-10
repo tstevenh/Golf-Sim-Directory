@@ -1,4 +1,5 @@
 "use client";
+/* eslint-disable @next/next/no-img-element */
 
 import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
@@ -13,7 +14,6 @@ interface Venue {
   city: string;
   state: string;
   heroImage: string | null;
-  shortDescription: string | null;
   venueType: string;
   simulatorSystems: string[] | null;
   launchMonitorType: string;
@@ -127,7 +127,6 @@ export function FeaturedVenues({ venues }: FeaturedVenuesProps) {
                 city={venue.city}
                 state={venue.state}
                 heroImage={venue.heroImage}
-                shortDescription={venue.shortDescription}
                 venueType={venue.venueType}
                 simulatorSystems={venue.simulatorSystems}
                 launchMonitorType={venue.launchMonitorType}

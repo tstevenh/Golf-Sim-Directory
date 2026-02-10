@@ -1,0 +1,90 @@
+{
+  "name": "Birdies Indoor Golf",
+  "address": "1863 MO-7, Blue Springs, MO 64015",
+  "city": "Blue Springs",
+  "region": "Missouri",
+  "country": "US",
+  "latitude": 38.997233,
+  "longitude": -94.273875,
+  "phone": "+18169888463",
+  "website": "https://birdiesindoorgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770212294/golf_simulators/birdiesindoorgolf_com_ChIJLfOOdJcbwYcRPKNPubIr44E.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Birdies+Indoor+Golf/@38.997232499999996,-94.2738748,14z/data=!4m8!1m2!2m1!1sBirdies+Indoor+Golf!3m4!1s0x87c11b97748ef32d:0x81e32bb2b94fa33c!8m2!3d38.997232499999996!4d-94.2738748",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJLfOOdJcbwYcRPKNPubIr44E",
+  "email": "ROY.K.HART@GMAIL.COM",
+  "venue_type": "sim_bar",
+  "about": "Birdies Indoor Golf is a premier indoor golf destination located in Blue Springs, MO, featuring 5 GSPro simulator bays. The facility offers high-fidelity golf simulation experiences with access to over 158 world-famous courses rendered in 3D graphics. Each bay is equipped with dual high-speed camera technology, providing precise data points to help golfers improve their skills. The venue accommodates groups of 1-6 players and is designed for both casual play and serious practice, with a focus on convenience and technological accuracy.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|club_rentals|family_friendly",
+  "vibe_tags": "casual|welcoming|modern|family_fun_center",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "GSPro simulators with dual high-speed camera technology for precise data tracking",
+    "Access to 158+ world-famous courses with stunning 3D graphics",
+    "Flexible booking system with both daily rates and membership options",
+    "Clean, well-maintained facility with clear rules and guidelines"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food allowed in simulators; outside food not permitted"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol allowed in simulators; BYOB not mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "GSPro",
+      "model": "Overhead Launch Monitor",
+      "notes": "Dual high-speed camera technology for precise data points"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "overhead_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 5,
+  "booking_url": "https://birdies-indoor-golf.book.teeitup.com",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": 5,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|tv_sports|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you should bring your own clubs. Club faces must be clean, though rentals are available onsite if needed."
+    },
+    {
+      "question": "Can I bring food or drinks to the simulators?",
+      "answer": "No, food and drink are not allowed inside the simulators. Outside food is also not permitted."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "It takes roughly 1 hour for the average golfer to play 18 holes. Completion is not guaranteed due to varying player paces."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, children under 12 must have an adult present at all times, and the facility accommodates families."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-11PM\"], \"Saturday\": [\"10AM-11PM\"], \"Sunday\": [\"10AM-10PM\"]}"
+}

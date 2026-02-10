@@ -1,0 +1,91 @@
+{
+  "name": "Pars & Rec Golf and Social Shop",
+  "address": "8212 Menaul Blvd NE, Albuquerque, NM 87110",
+  "city": "Albuquerque",
+  "region": "New Mexico",
+  "country": "US",
+  "latitude": 35.10877,
+  "longitude": -106.552609,
+  "phone": "+15058083714",
+  "website": "https://parsandrec.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770231005/golf_simulators/parsandrec_com_ChIJWVkQALQKIocRPMoXLLarKPs.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Pars+%26+Rec+Golf+and+Social+Shop/@35.1087701,-106.5526086,14z/data=!4m8!1m2!2m1!1sPars+%26+Rec+Golf+and+Social+Shop!3m4!1s0x87220ab400105959:0xfb28abb62c17ca3c!8m2!3d35.1087701!4d-106.5526086",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJWVkQALQKIocRPMoXLLarKPs",
+  "email": "info@parsandrec.com",
+  "venue_type": "sim_bar",
+  "about": "Pars & Rec Golf and Social Shop is an indoor golf simulator venue in Albuquerque, offering a social and golfing experience. The facility features Trackman simulators, providing an immersive golf environment with food and beverage services. Membership options are available, offering benefits like monthly credits and discounts. The venue is suitable for both casual play and serious practice, catering to various skill levels and social groups.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|private_rooms|club_rentals|coaching_available|community_club",
+  "vibe_tags": "sports_bar|community_club|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Premium Trackman simulators for accurate tracking and gameplay",
+    "On-site food and beverage service for a complete social experience",
+    "Flexible booking options with memberships and bay rentals",
+    "PGA professional instruction and club fitting services available",
+    "Engaging leagues and events for competitive play"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Food options available, including pizza and other savory treats"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service with beer, cocktails, and wine available"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "State-of-the-art radar technology for accurate ball and club tracking"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://yourgolfbooking.com/venues/pars-rec/booking/bays",
+  "pricing_model": "mixed",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 3.5,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "Yes, players are expected to bring their own golf clubs for use with the simulators."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No, the venue offers an on-site food and beverage menu with options like pizza, cocktails, beer, and wine."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes can vary based on the simulator software and number of players, but typically ranges from 2-3 hours."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "While not explicitly stated, the venue's social atmosphere and variety of activities suggest it can accommodate families, though specific age restrictions may apply."
+    }
+  ],
+  "rating_overall": 4.0,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"10AM-9PM\"], \"Wednesday\": [\"10AM-9PM\"], \"Thursday\": [\"10AM-9PM\"], \"Friday\": [\"10AM-10PM\"], \"Saturday\": [\"10AM-10PM\"], \"Sunday\": [\"11AM-6PM\"]}"
+}

@@ -1,0 +1,89 @@
+{
+  "name": "A.S.M. Golf Academy",
+  "address": "8055 SW Nimbus Ave, Beaverton, OR 97008",
+  "city": "Beaverton",
+  "region": "Oregon",
+  "country": "US",
+  "latitude": 45.461558,
+  "longitude": -122.789085,
+  "phone": "+10166001922",
+  "website": "https://www.asmgolfacademy.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770223525/golf_simulators/www_asmgolfacademy_com_ChIJg2ZIlGQNlVQRmoIxn8M9kJ0.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/A.S.M.+Golf+Academy/@45.4615577,-122.78908519999999,14z/data=!4m8!1m2!2m1!1sA.S.M.+Golf+Academy!3m4!1s0x54950d6494486683:0x9d903dc39f31829a!8m2!3d45.4615577!4d-122.78908519999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJg2ZIlGQNlVQRmoIxn8M9kJ0",
+  "venue_type": "training_studio",
+  "about": "A.S.M. Golf Academy is an indoor golf training facility focused on providing in-depth swing and mental game training. The facility is designed for golfers seeking expert guidance, offering memberships with flexible hours and private instruction from a PGA professional. Located in a compact space, they emphasize making a significant impact on player performance through structured practice and personalized coaching.",
+  "tags": "serious_practice|coaching_available|flexible_hours|training_aid_available|exclusive_events|private_instruction|juniors_friendly|adult_focused",
+  "vibe_tags": "industrial_training|tech_lab|welcoming|focused",
+  "who_its_for": "serious_golfers|beginners|juniors_youth|coaches_instructors|solo_practice",
+  "why_golfers_like_it": [
+    "Premium Foresight GC Falcon simulator technology for detailed ball and club tracking",
+    "Flexible membership structure to accommodate various practice needs",
+    "Personalized coaching from a PGA professional with over 10,000 lessons taught",
+    "Exclusive events and training aids available for members"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No information on food service provided. BYOB status unclear."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No information on alcohol service provided. BYOB status unclear."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": "GC Falcon",
+      "notes": "Three bays equipped with GC Falcon technology for ball/club data and course play"
+    }
+  ],
+  "simulator_software": [
+    "Foresight GC"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://www.asmgolfacademy.com/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": false,
+  "coaching_available": true,
+  "private_rooms_count": 3,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|training_aid_available|exlusive_events|private_instruction|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify whether club rentals are available, so it is recommended to bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "There is no information on-site about outside food or drink policies."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "The website does not provide specific timing for 18-hole rounds, but it offers flexible booking options for practice sessions."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, the facility offers junior coaching programs and is suitable for youth golfers."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"5AM-10PM\"], \"Tuesday\": [\"5AM-10PM\"], \"Wednesday\": [\"5AM-10PM\"], \"Thursday\": [\"5AM-10PM\"], \"Friday\": [\"5AM-10PM\"], \"Saturday\": [\"5AM-10PM\"], \"Sunday\": [\"5AM-10PM\"]}"
+}

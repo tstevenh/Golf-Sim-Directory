@@ -1,0 +1,91 @@
+{
+  "name": "GolfCave",
+  "address": "675 Central Ave # 2, New Providence, NJ 07974",
+  "city": "New Providence",
+  "region": "New Jersey",
+  "country": "US",
+  "latitude": 40.698549,
+  "longitude": -74.408502,
+  "phone": "+19082632283",
+  "website": "https://www.golfcave.com/locations/new-providence",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770209001/golf_simulators/www_golfcave_com_ChIJJQO8AQClw4kR7AkHhRgY9c4.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/GolfCave/@40.6985495,-74.4085023,14z/data=!4m8!1m2!2m1!1sGolfCave!3m4!1s0x89c3a50001bc0325:0xcef51818850709ec!8m2!3d40.6985495!4d-74.4085023",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJJQO8AQClw4kR7AkHhRgY9c4",
+  "email": "clark@golfcave.com",
+  "venue_type": "sim_bar",
+  "about": "GolfCave New Providence is a 24/7 indoor golf facility that offers private simulator bays equipped with TrackMan technology, providing golfers of all skill levels with a space to play or practice in privacy. The venue specializes in utilizing the world's most accurate golf simulator, TrackMan, to offer advanced metrics and video analysis during lessons. It operates on a per-bay-hour pricing model, allowing for flexible booking and is designed to be a convenient, high-tech alternative to traditional golf outings or practice sessions.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|private_rooms|club_rentals|late_night|coaching_available",
+  "vibe_tags": "tech_lab|private_luxury|upscale_lounge|modern|welcoming",
+  "who_its_for": "beginners|serious_golfers|corporate_teams|solo_practice|families",
+  "why_golfers_like_it": [
+    "World's most accurate TrackMan simulator technology for precise data",
+    "Completely private 'Cave' bays for focused play and practice",
+    "24/7 access offering ultimate flexibility for scheduling",
+    "BYOB policy allowed, creating a relaxed, social atmosphere",
+    "Advanced data tracking and video analysis available for lessons"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "BYOK (Bring Your Own Kitchen) is encouraged, with nearby dining options including a brewery, deli, pizzeria, and liquor store for delivery."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "BYOB (Bring Your Own Beverage) is allowed, with nearby options for purchasing."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "TrackMan",
+      "model": "iO",
+      "notes": "World's most accurate golf simulator, used for lessons and play."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 12,
+  "booking_url": "https://clients.uschedule.com/golfcave/booking?filter=loc[12638]",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 45,
+  "price_range_max_local": 45,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 12,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|tv_sports|private_party_room|wifi|club_fitting|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, golfers are expected to bring their own clubs to use in the simulators."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, GolfCave operates on a BYOB (Bring Your Own Beverage) policy, allowing you to bring your own food and drinks. Nearby dining options are available for delivery."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time required to play 18 holes can vary, but simulator sessions are booked by the hour."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The venue does not market itself as specifically kid-friendly, focusing more on an adult-oriented social and practice environment."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"9AM-9PM\"], \"Tuesday\": [\"9AM-9PM\"], \"Wednesday\": [\"9AM-9PM\"], \"Thursday\": [\"9AM-9PM\"], \"Friday\": [\"9AM-9PM\"], \"Saturday\": [\"9AM-9PM\"], \"Sunday\": [\"9AM-9PM\"]}"
+}

@@ -1,0 +1,90 @@
+{
+  "name": "1899 Indoor Golf",
+  "address": "3094 Glenwood Blvd, Twinsburg, OH 44087",
+  "city": "Twinsburg",
+  "region": "Ohio",
+  "country": "US",
+  "latitude": 41.34125,
+  "longitude": -81.418412,
+  "phone": "+13308407146",
+  "website": "http://www.1899golf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770225405/golf_simulators/www_1899golf_com_ChIJG3xsEzMZMYgRGayT00B6DHQ.png",
+  "google_maps_url": "https://www.google.com/maps/place/1899+Indoor+Golf/@41.3412504,-81.4184118,14z/data=!4m8!1m2!2m1!1s1899+Indoor+Golf!3m4!1s0x88311933136c7c1b:0x740c7a40d393ac19!8m2!3d41.3412504!4d-81.4184118",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJG3xsEzMZMYgRGayT00B6DHQ",
+  "venue_type": "sim_bar",
+  "about": "1899 Indoor Golf is a premier indoor golf and lounge experience in Ohio, featuring multiple locations including Twinsburg. The facility offers TrackMan 4 simulators with access to over 400 virtual courses, a full bar with craft cocktails, and an elevated food menu focused on fresh local ingredients. Patrons can book by the hour, with a maximum of eight players per bay, and the venue hosts various events, leagues, and private parties. Beyond golf, the space includes amenities like a 1,600 sq. ft. patio with fire pits and a 9-hole Magnolia putting course.",
+  "tags": "food_and_drinks|date_night|corporate_events|leagues|premium_tech|private_rooms|late_night|coaching_available",
+  "vibe_tags": "upscale_lounge|sports_bar|tech_lab",
+  "who_its_for": "beginners|serious_golfers|corporate_teams|large_groups|solo_practice",
+  "why_golfers_like_it": [
+    "Premium TrackMan 4 technology for accurate ball and club tracking",
+    "Extensive course library with over 400 global courses",
+    "Combines golf with a full bar and elevated food menu",
+    "Flexible private event hosting for groups up to 250 people",
+    "Option for up to eight players per simulator bay"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Elevated bar food with fresh local ingredients, including sharables, flatbreads, tacos, wings, and salads. Full kitchen available."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with craft cocktails, beer, and extensive bourbon/whiskey selection. Happy hour daily 3-6 PM with $1 off beer and wine."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "Premium radar-based launch monitors for accurate ball and club tracking"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.sevenrooms.com/reservations/1899golfreminderville?duration-picker=true",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 50,
+  "price_range_max_local": 70,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 8,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|club_fitting|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you should bring your own clubs. The facility does not provide club rentals."
+    },
+    {
+      "question": "Can I bring outside food or drinks?",
+      "answer": "No, outside food and drinks are not permitted. The venue offers an elevated food menu and full bar."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "It takes approximately one hour for the average golfer to play 18 holes. Reservations end 5 minutes before the scheduled time to ensure timely turnover."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "No information is provided regarding kid-friendly policies or amenities."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"11AM-10PM\"], \"Tuesday\": [\"11AM-10PM\"], \"Wednesday\": [\"11AM-12AM\"], \"Thursday\": [\"11AM-10PM\"], \"Friday\": [\"9AM-12AM\"], \"Saturday\": [\"9AM-12AM\"], \"Sunday\": [\"9AM-12AM\"]}"
+}

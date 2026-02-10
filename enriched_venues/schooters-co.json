@@ -1,0 +1,90 @@
+{
+  "name": "Schooters & Co.",
+  "address": "2241 Foothill Blvd Ste B, Rock Springs, WY 82901",
+  "city": "Rock Springs",
+  "region": "Wyoming",
+  "country": "US",
+  "latitude": 41.579158,
+  "longitude": -109.265138,
+  "phone": "+16156640295",
+  "website": "https://schootersandco.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770234718/golf_simulators/schootersandco_com_ChIJAbM-sD5hWocRBB73wiI6mTE.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Schooters+%26+Co./@41.579157599999995,-109.26513779999999,14z/data=!4m8!1m2!2m1!1sSchooters+%26+Co.!3m4!1s0x875a613eb03eb301:0x31993a22c2f71e04!8m2!3d41.579157599999995!4d-109.26513779999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJAbM-sD5hWocRBB73wiI6mTE",
+  "email": "filler@godaddy.com",
+  "venue_type": "sim_bar",
+  "about": "Schooters & Co. is a golf simulator venue located in Rock Springs, Wyoming. The facility features industry-leading Trackman radar technology across three bays, offering players advanced ball monitoring and a comprehensive suite of golf tools. Pricing is straightforward at $35 per hour for up to four players, with the option to purchase punch passes or memberships. The venue is designed for a casual, accessible experience, welcoming all players without requiring a membership for bookings.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|kids_friendly|corporate_events|leagues|premium_tech|budget_friendly|private_rooms|club_rentals",
+  "vibe_tags": "casual|welcoming|modern|tech_lab",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Industry-leading Trackman radar technology provides precise ball tracking",
+    "Flexible group pricing at a flat rate of $35/hour for up to four players",
+    "No membership required to book, making it accessible for all",
+    "Online booking system with easy bay unlocking via a 4-digit code"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of on-site food service; policy not specified"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of on-site alcohol service; BYOB policy not specified"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Industry-leading radar technology available in all 3 bays"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://yourgolfbooking.com/venues/schooters-and-co/booking/bays",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 35,
+  "price_range_max_local": 35,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "wifi|leagues|private_party_room|club_rentals|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify if clubs are provided or required. Players should assume they need to bring their own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The website does not have a policy on outside food or drinks. Players are encouraged to clean up after themselves."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify a time estimate for playing 18 holes, but bookings are made in hourly increments at $35 per hour."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is kid-friendly, as it encourages family outings and does not require memberships for bookings."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

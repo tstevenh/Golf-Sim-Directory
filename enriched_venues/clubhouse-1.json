@@ -1,0 +1,92 @@
+{
+  "name": "Clubhouse",
+  "address": "305 Pisgah Church Rd E, Greensboro, NC 27455",
+  "city": "Greensboro",
+  "region": "North Carolina",
+  "country": "US",
+  "latitude": 36.131038,
+  "longitude": -79.793904,
+  "phone": "+13365420104",
+  "website": "https://clubhousegso.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770255564/golf_simulators/clubhousegso_com_ChIJIeloSGIfU4gR8S5BtnIfOAo.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Clubhouse/@36.1310376,-79.7939037,14z/data=!4m8!1m2!2m1!1sClubhouse!3m4!1s0x88531f624868e921:0xa381f72b6412ef1!8m2!3d36.1310376!4d-79.7939037",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJIeloSGIfU4gR8S5BtnIfOAo",
+  "email": "info@clubhousegso.com",
+  "venue_type": "sim_bar",
+  "about": "Clubhouse is a sports bar and entertainment venue located in The Village at North Elm in Greensboro. The venue features three Full Swing golf simulators and two interactive Dartsee dart bays, alongside a premium pool table. The facility is designed as a social lounge where guests can participate in virtual sports while enjoying craft cocktails and a full food menu. The interior includes a large center bar with 22 TVs, NFL Sunday Ticket, and indoor lounge seating, creating an environment suitable for both sports viewing and active play.\n\nThe technology at Clubhouse focuses on immersion and realism, utilizing Full Swing simulators that measure ball flight using overhead cameras and infrared technology. Guests can choose from over 50 world-renowned golf courses or opt for alternative sports such as football, soccer, and zombie dodgeball. The venue accommodates groups by offering bays that hold up to 10 people, with a maximum of 6 players allowed per simulator bay at one time.\n\nPricing is structured by the hour for bay rentals, with rates varying by day of the week. Tuesdays through Thursdays are priced at $45 per hour, while Fridays through Sundays cost $60 per hour. Darts are available at a flat rate of $20 per hour, and pool table rental is $10 per hour. Reservations are recommended and can be made online, though walk-ins are welcome if space is available.",
+  "tags": "food_and_drinks|social|premium_tech|date_night|events|sports_bar|leagues|multi_sport",
+  "vibe_tags": "upscale_lounge|sports_bar|social|modern|entertainment_focused",
+  "who_its_for": "beginners|large_groups|corporate_teams|casual_golfers|sports_fans",
+  "why_golfers_like_it": [
+    "Full Swing simulators featuring ION3 Camera technology",
+    "Extensive food menu and full bar service",
+    "Access to over 50 world-renowned golf courses",
+    "Multi-sport options including football, soccer, and hockey",
+    "Social atmosphere with 22 TVs and NFL Sunday Ticket",
+    "League play opportunities"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full restaurant menu available, described as delicious food."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Craft cocktails and extensive drink menu."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Full Swing",
+      "model": "unknown",
+      "notes": "Features ION3 Camera, infrared technology, and high-speed LED cameras."
+    }
+  ],
+  "simulator_software": [
+    "Full Swing Software"
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": "Camera and Infrared",
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 3,
+  "booking_url": "https://clubhousegso.com/book-now/",
+  "pricing_model": "Hourly Bay Rental",
+  "price_range_min_local": 45,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": false,
+  "private_rooms_count": 0,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "Full Bar|Restaurant|Pool Table|Darts|Outdoor Patio|NFL Sunday Ticket|22 TVs|League Play|Private Events",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.5,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not explicitly specify rental availability, but guests can reserve a time to play. It is recommended to contact the venue directly regarding club rentals."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, Clubhouse offers a full menu of craft cocktails and delicious food, so outside food and drinks are likely not permitted."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Serious golfers may take 45-60 minutes to complete an 18-hole round per player. Casual visits typically range from 2 to 4 hours."
+    },
+    {
+      "question": "Is this kid-friendly?",
+      "answer": "Yes, the venue is family-friendly during the day, but it transitions to a 21+ environment after 8pm."
+    }
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"4-10PM\"], \"Tuesday\": [\"4-10PM\"], \"Wednesday\": [\"4-10PM\"], \"Thursday\": [\"4-10PM\"], \"Friday\": [\"4PM-12AM\"], \"Saturday\": [\"12PM-12AM\"], \"Sunday\": [\"12-8PM\"]}"
+}

@@ -1,0 +1,91 @@
+{
+  "name": "Royal Scot Golf",
+  "address": "4722 W Grand River Ave, Lansing, MI 48906",
+  "city": "Lansing",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 42.775751,
+  "longitude": -84.615461,
+  "phone": "+15173214653",
+  "website": "https://royalscot.net/golf/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770245172/golf_simulators/royalscot_net_ChIJz91o6_KVIogRJq8vjk0cSEY.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Royal+Scot+Golf/@42.7757508,-84.61546059999999,14z/data=!4m8!1m2!2m1!1sRoyal+Scot+Golf!3m4!1s0x882295f2eb68ddcf:0x46481c4d8e2faf26!8m2!3d42.7757508!4d-84.61546059999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJz91o6_KVIogRJq8vjk0cSEY",
+  "email": "info@royalscot.net",
+  "venue_type": "sim_bar|multi_sport_sim",
+  "about": "Royal Scot Golf & Bowl is a multi-venue entertainment complex in Lansing, MI, featuring a 27-hole championship outdoor course and a state-of-the-art indoor golf simulator facility with four Trackman units. The venue combines traditional golf play with high-tech simulation and bowling, offering services for individual players, leagues, tournaments, and large group events. Pricing includes various options for golf rounds, simulator use, buckets of range balls, and bowling lanes, with opportunities for early bird and twilight rates. The complex includes pro shops for golf and bowling, food and beverage options, and facilities for banquets and parties, creating a comprehensive sports and entertainment destination.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|family_friendly|kids_friendly|private_rooms|club_rentals|coaching_available",
+  "vibe_tags": "family_fun_center|sports_bar|tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "Four state-of-the-art Trackman simulators for accurate play and data",
+    "27-hole championship course offers variety for all skill levels",
+    "Combines outdoor and indoor golf options for year-round play",
+    "Facilities available for tournaments, leagues, and group events"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "On-site food options including pizza, nachos, and other snacks available for outings and events"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service in provided content"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Four Trackman simulators available with a private room featuring its own bar"
+    }
+  ],
+  "simulator_software": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 4,
+  "booking_url": "https://royal-scot-golf-club-mi.book.teeitup.com/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 8,
+  "price_range_max_local": 65,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|private_party_room|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "Yes, you'll need to bring your own clubs to use the simulators or play the outdoor course. The pro shop offers golf apparel and equipment."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "No, outside food and drink are not mentioned as permitted. The venue offers its own food options and there's a private bar in the simulator room."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "While not explicitly stated, typical simulator rounds usually take 60-90 minutes depending on the number of players and pace of play."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "Yes, Royal Scot offers bowling parties and family events, making it suitable for families with children of various ages."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"7:30AM-7:30PM\"], \"Tuesday\": [\"7:30AM-7:30PM\"], \"Wednesday\": [\"7:30AM-7:30PM\"], \"Thursday\": [\"7:30AM-7:30PM\"], \"Friday\": [\"7:30AM-7:30PM\"], \"Saturday\": [\"7:30AM-7:30PM\"], \"Sunday\": [\"7:30AM-7:30PM\"]}"
+}

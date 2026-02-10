@@ -1,0 +1,96 @@
+{
+  "name": "IndoorGolfClub",
+  "address": "6440 N. Business Park Loop Rd, STE M, Park City, UT 84098",
+  "city": "Park City",
+  "region": "Utah",
+  "country": "US",
+  "latitude": 40.723319,
+  "longitude": -111.488001,
+  "phone": "+14356599914",
+  "website": "http://indoorgolfclub.club/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770212617/golf_simulators/indoorgolfclub_club_ChIJ77ARRx5tUocRDEdB1pqGO1E.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/IndoorGolfClub/@40.723318899999995,-111.48800109999999,14z/data=!4m8!1m2!2m1!1sIndoorGolfClub!3m4!1s0x87526d1e4711b0ef:0x513b869ad641470c!8m2!3d40.723318899999995!4d-111.48800109999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ77ARRx5tUocRDEdB1pqGO1E",
+  "email": "jtjohnson@pga.com",
+  "venue_type": "training_studio",
+  "about": "IndoorGolfClub is a local, family-owned facility in Park City, Utah, offering golf memberships and instruction using Trackman technology. The club features three private bays equipped with Trackman 4 and iO systems, providing year-round access to over 450 courses and training modules. Membership benefits include PGA Professional coaching, bag storage, club fitting and repair, and access to member events, games, and leagues. The venue operates 24/7 and prides itself on a coaching philosophy that combines timeless technique with modern technology.",
+  "tags": "serious_practice|coaching_available|family_friendly|leagues|premium_tech|private_rooms|club_rentals|membership|juniors_youth",
+  "vibe_tags": "tech_lab|community_club|modern|welcoming",
+  "who_its_for": "serious_golfers|families|juniors_youth|coaches_instructors|solo_practice",
+  "why_golfers_like_it": [
+    "Trackman 4 & iO technology for precise shot data",
+    "24/7 access to three private bays",
+    "PGA Professional coaching tailored to individual swing and learning style",
+    "Family memberships with included guest access",
+    "Comprehensive amenities including club fitting and repair"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No information on food service provided"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No information on alcohol service provided"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "Premium launch monitor with comprehensive data tracking"
+    },
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Launch monitor with club delivery tracking"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 3,
+  "booking_url": "https://booking.registrygolf.com/?organizationId=de2c397c-ef78-4dcc-8a3b-7513806f707b",
+  "pricing_model": "mixed",
+  "price_range_min_local": 150,
+  "price_range_max_local": 150,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 3,
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|club_fitting|leagues|bag_storage|pro_shop|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue offers club rentals and fitting services, but you are welcome to bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "There is no mention of outside food or drink policies on the website."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify the time required to play 18 holes, as access is based on time rather than number of holes."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, IndoorGolfClub offers family memberships and includes juniors/youth among its target audiences, making it suitable for kids."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

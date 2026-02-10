@@ -1,0 +1,90 @@
+{
+  "name": "Detroit Golf Sim",
+  "address": "661 S Main St, Clawson, MI 48017",
+  "city": "Clawson",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 42.528179,
+  "longitude": -83.145405,
+  "phone": "+12486773599",
+  "website": "https://detroitgolfsim.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770216282/golf_simulators/detroitgolfsim_com_ChIJgwZk9jHFJIgRkwvHVnIf9k0.png",
+  "google_maps_url": "https://www.google.com/maps/place/Detroit+Golf+Sim/@42.5281789,-83.145405,14z/data=!4m8!1m2!2m1!1sDetroit+Golf+Sim!3m4!1s0x8824c531f6640683:0x4df61f7256c70b93!8m2!3d42.5281789!4d-83.145405",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJgwZk9jHFJIgRkwvHVnIf9k0",
+  "email": "info@detroitgolfsim.com",
+  "venue_type": "private_rental",
+  "about": "Detroit Golf Sim is a dedicated golf simulation facility in Clawson, Michigan, offering hourly bay rentals and monthly memberships. The venue features high-end Uneekor Eye XR launch monitors and GSPro software, providing players with 19 data points for practice and play on over 1000 virtual courses. Pricing is structured around a $30 hourly rate, with packages available for multi-hour bookings and a $150 unlimited monthly option, making it suitable for both casual players and serious golfers looking for technology-driven practice or entertainment.",
+  "tags": "beginner_friendly|serious_golfers|budget_friendly|leagues|private_rooms|tech_lab|coaching_available",
+  "vibe_tags": "casual|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|families|solo_practice|coaches_instructors",
+  "why_golfers_like_it": [
+    "Advanced Uneekor Eye XR launch monitor with 19 data points and no need for ball stickers",
+    "GSPro software access to over 1000 of the world's most popular golf courses",
+    "Affordable pricing model with hourly, package, and membership options",
+    "Immersive experience with 15' wide 4k projection screen"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned; BYOB policies not specified"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned; BYOB policies not specified"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "Eye XR",
+      "notes": "Premium launch monitor providing 19 club and ball data points without sticker requirement"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://detroitgolfsim.as.me/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 30,
+  "price_range_max_local": 150,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "Players are expected to bring their own golf clubs as no club rentals are mentioned."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No information is provided regarding outside food or drink policies."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "One 9-hole round is recommended per hour reservation, suggesting 18 holes would take approximately 2 hours."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "No specific information is provided regarding child-friendly features or policies."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"10AM-7PM\"], \"Tuesday\": [\"10AM-7PM\"], \"Wednesday\": [\"10AM-7PM\"], \"Thursday\": [\"10AM-9PM\"], \"Friday\": [\"10AM-7PM\"], \"Saturday\": [\"9AM-7PM\"], \"Sunday\": [\"9AM-7PM\"]}"
+}

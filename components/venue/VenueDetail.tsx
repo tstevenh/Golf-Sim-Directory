@@ -1,4 +1,5 @@
 "use client";
+/* eslint-disable @next/next/no-img-element */
 
 import { Venue, SessionUser } from "@/types";
 import { getStateSlug } from "@/lib/states";
@@ -1095,7 +1096,6 @@ export function VenueDetail({
                     city={nearby.city}
                     state={nearby.state}
                     heroImage={nearby.heroImage}
-                    shortDescription={null}
                     venueType={nearby.venueType}
                     simulatorSystems={nearby.simulatorSystems as string[] | null}
                     launchMonitorType={nearby.launchMonitorType}

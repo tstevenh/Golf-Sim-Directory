@@ -1,0 +1,85 @@
+{
+  "name": "Fox Run Golf Club",
+  "address": "129 County Hwy 142A, Johnstown, NY 12095",
+  "city": "Johnstown",
+  "region": "New York",
+  "country": "US",
+  "latitude": 42.998886,
+  "longitude": -74.318863,
+  "phone": "+15187623717",
+  "website": "http://foxrungolfclub.net/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770241247/golf_simulators/foxrungolfclub_net_ChIJ9YydmKaM3okRAXW1fHNU-DA.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Fox+Run+Golf+Club/@42.9988861,-74.3188629,14z/data=!4m8!1m2!2m1!1sFox+Run+Golf+Club!3m4!1s0x89de8ca6989d8cf5:0x30f854737cb57501!8m2!3d42.9988861!4d-74.3188629",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ9YydmKaM3okRAXW1fHNU-DA",
+  "email": "richardscott@pga.com",
+  "venue_type": "sim_bar|training_studio",
+  "about": "Fox Run Golf Club is a facility featuring both an 18-hole championship golf course and an indoor golf simulator center. The course is known for its scenic views of the Mohawk Valley and the Adirondack Mountains, with five sets of tee boxes to accommodate all skill levels. The indoor golf area is equipped with five custom simulators and offers a full bar and food service, providing a space for practice, lessons, or playing virtual rounds on world-class courses.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|coaching_available",
+  "vibe_tags": "sports_bar|community_club|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "Championship course with scenic mountain valley views",
+    "5 state-of-the-art indoor simulators for year-round play",
+    "PGA Professional instruction available for all ages and skill levels",
+    "On-site full bar and food service for a complete experience",
+    "Flexible booking available online or in-person"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Food is available at the indoor golf facility."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service is available at the indoor golf facility."
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 5,
+  "booking_url": "https://www.foxrungolf.club/teetime",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 5,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|kitchen_food|tv_sports|pro_shop|coaching_available|leagues",
+  "rating_tech_quality": 4.0,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you will need to bring your own golf clubs to use the simulators."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "The facility offers a full bar and food service, but policies on outside food and drink are not specified."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes in the simulators is not specified, but it is typically faster than playing on a real course."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, the facility offers Junior Golf programs and instruction from a PGA Professional who is also a Junior Player Development award winner, making it suitable for children."
+    }
+  ],
+  "rating_overall": 4.0,
+  "opening_hours": "{\"Monday\": [\"7:30AM-6PM\"], \"Tuesday\": [\"7:30AM-6PM\"], \"Wednesday\": [\"7:30AM-6PM\"], \"Thursday\": [\"7:30AM-6PM\"], \"Friday\": [\"7:30AM-6PM\"], \"Saturday\": [\"7:30AM-6PM\"], \"Sunday\": [\"7:30AM-6PM\"]}"
+}

@@ -1,0 +1,91 @@
+{
+  "name": "Dryvebox golf lounge lancaster",
+  "address": "852 W Lancaster Blvd, Lancaster, CA 93534",
+  "city": "Lancaster",
+  "region": "California",
+  "country": "US",
+  "latitude": 34.697121,
+  "longitude": -118.146394,
+  "phone": "+16612065556",
+  "website": "https://www.dryvebox.com/locations/lancaster",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770219676/golf_simulators/www_dryvebox_com_ChIJi8nvv9VbwoARwVPfXiRXhho.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Dryvebox+golf+lounge+lancaster/@34.697120999999996,-118.1463943,14z/data=!4m8!1m2!2m1!1sDryvebox+golf+lounge+lancaster!3m4!1s0x80c25bd5bfefc98b:0x1a8657245edf53c1!8m2!3d34.697120999999996!4d-118.1463943",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJi8nvv9VbwoARwVPfXiRXhho",
+  "email": "info@dryvebox.com.",
+  "venue_type": "sim_bar",
+  "about": "Dryvebox Lancaster is an indoor golf lounge featuring two TrackMan simulator bays and an intelligent putting green called The Puttr. The venue offers a social atmosphere with a comfortable lounge area, a fully stocked bar serving beer, seltzer, and soda, and snacks like chips, jerky, and trail mix. It is designed for both serious golfers looking to use tour-proven data and for groups seeking a fun, unique night out. The facility is open Tuesday through Sunday and is located at 852 W. Lancaster Blvd.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|kids_friendly|corporate_events|premium_tech|coaching_available|social_atmosphere|group_friendly",
+  "vibe_tags": "sports_bar|family_fun_center|party_atmosphere|tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "Access to state-of-the-art TrackMan technology for accurate swing and ball data analysis",
+    "The ability to play on iconic golf courses from around the globe",
+    "A comfortable lounge and bar area to relax after playing",
+    "A dedicated space for both practice and socializing"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Snacks such as chips, jerky, and trail mix are available."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Fully stocked bar with beer, seltzer, and soda."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Two state-of-the-art TrackMan bays"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://clients.uschedule.com/dryveboxlancaster/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|wifi|pro_shop",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "No, all clubs and equipment are provided."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "notes": "No, the venue has a fully stocked bar and snack options available for purchase."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time for 18 holes varies based on group size and pace, but it typically takes about 1.5 to 2 hours."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Dryvebox Lancaster has a vibrant, family-friendly atmosphere and is open to everyone, including families looking for a fun afternoon."
+    }
+  ],
+  "simulator_software": [
+    "TrackMan"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"10AM-8PM\"], \"Wednesday\": [\"10AM-8PM\"], \"Thursday\": [\"10AM-8PM\"], \"Friday\": [\"10AM-8PM\"], \"Saturday\": [\"10AM-8PM\"], \"Sunday\": [\"10AM-8PM\"]}"
+}

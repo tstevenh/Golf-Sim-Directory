@@ -1,0 +1,91 @@
+{
+  "name": "X-Golf North Canton",
+  "address": "4385 Whipple Ave NW, Canton, OH 44718",
+  "city": "Canton",
+  "region": "Ohio",
+  "country": "US",
+  "latitude": 40.848399,
+  "longitude": -81.425564,
+  "phone": "+12343603086",
+  "website": "http://xgolfnorthcanton.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770211381/golf_simulators/xgolfnorthcanton_com_ChIJ33CgQ0TRNogRGDF04r9ZDN4.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/X-Golf+North+Canton/@40.8483993,-81.4255642,14z/data=!4m8!1m2!2m1!1sX-Golf+North+Canton!3m4!1s0x8836d14443a070df:0xde0c59bfe2743118!8m2!3d40.8483993!4d-81.4255642",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ33CgQ0TRNogRGDF04r9ZDN4",
+  "email": "jen@xgolfnorthcanton.com",
+  "venue_type": "sim_bar",
+  "about": "X-Golf North Canton offers indoor golf simulator experiences in a facility with full bar and food services. The venue provides 8 simulator bays equipped with advanced technology that delivers accurate golf simulation. It caters to individual players, groups, and corporate events with hourly bay rentals and various leagues available. The facility emphasizes a social atmosphere with sports viewing, dining options, and event hosting capabilities alongside golf simulation.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|club_rentals|family_friendly|coaching_available",
+  "vibe_tags": "sports_bar|family_fun_center|community_club",
+  "who_its_for": "beginners|families|corporate_teams|solo_practice|juniors_youth",
+  "why_golfers_like_it": [
+    "Advanced simulator technology with camera systems, lasers and sensors for accurate tracking",
+    "Accommodates groups up to 6 people per bay with social atmosphere and full bar",
+    "PGA-certified coaching available using cutting-edge training technology",
+    "Multiple league formats and tournaments for competitive play",
+    "Large undulated putting green for practice alongside simulator play"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Food available including shareable bites, appetizers, snacks, and pizzas"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full liquor bar including Sunday sales, 8 seasonal rotating drafts, and beer by the glass or on tap"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "X-Golf",
+      "model": "Simulator",
+      "notes": "State of the art indoor golf simulator with camera systems, infrared lasers, impact sensors and advanced gaming software"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 8,
+  "booking_url": "https://clients.uschedule.com/xgolfnorthcanton/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 40,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|leagues|wifi|pro_shop|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "No, rental clubs are available, but players are encouraged to bring their own clubs if they prefer."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drinks are not mentioned; the venue offers its own full bar and food service including appetizers, snacks, and pizzas."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Generally it takes 1 hour for an individual player to complete 18 holes. For multiple players, you may want to book an additional hour for each player in your group."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, children of all ages are welcome. The venue has activities like Golden Tee video game, darts, pool table, cornhole, and shuffleboard that appeal to different age groups."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-10PM\"], \"Saturday\": [\"10AM-10PM\"], \"Sunday\": [\"10AM-7PM\"]}"
+}

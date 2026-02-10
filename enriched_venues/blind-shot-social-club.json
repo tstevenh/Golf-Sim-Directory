@@ -1,0 +1,91 @@
+{
+  "name": "Blind Shot Social Club",
+  "address": "177 S Fair Oaks Ave, Madison, WI 53704",
+  "city": "Madison",
+  "region": "Wisconsin",
+  "country": "US",
+  "latitude": 43.095843,
+  "longitude": -89.337668,
+  "phone": "+16082305278",
+  "website": "https://www.blindshotsocialclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770228629/golf_simulators/www_blindshotsocialclub_com_ChIJcbr1zqhVBogRAwsHrY1R7uc.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Blind+Shot+Social+Club/@43.095843099999996,-89.337668,14z/data=!4m8!1m2!2m1!1sBlind+Shot+Social+Club!3m4!1s0x880655a8cef5ba71:0xe7ee518dad070b03!8m2!3d43.095843099999996!4d-89.337668",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJcbr1zqhVBogRAwsHrY1R7uc",
+  "email": "leaflet@1.3.1",
+  "venue_type": "sim_bar",
+  "about": "Blind Shot Social Club is a venue that combines golf simulation with food, cocktails, and a social atmosphere. It features golf simulators available for play, instruction, leagues, and membership options. The venue is equipped with premium technology, including TrackMan launch monitors, and offers amenities like a full bar and kitchen serving food made from scratch. It caters to both casual players and serious golfers, with options for group events, parties, and private fittings. The atmosphere is described as welcoming and comfortable, suitable for various group sizes from small gatherings to large events of up to 150 people.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|private_rooms|club_rentals|coaching_available|community_club",
+  "vibe_tags": "casual|welcoming|modern|sports_bar|community_club|tech_lab",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Premium TrackMan 4 launch monitor technology for accurate data and analysis",
+    "All-in-one venue offering golf, food, and drinks in a comfortable atmosphere",
+    "Custom club fitting services with PXG technology for game improvement",
+    "Flexible booking options for individuals, groups, and events",
+    "Access to detailed lesson notes and videos via MyTrackman app"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen serving American cuisine made from scratch, including options like burgers, sliders, and French toast"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with house cocktails, local beers, and wine selection; happy hour offers half-price house cocktails"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "TrackMan",
+      "model": "4",
+      "notes": "Premium launch monitor providing ball and club tracking technology"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://squareup.com/appointments/buyer/widget/qh5avphxhagadh/LTKNDGCRCZJZT",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.5,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, you do not need to bring your own clubs. The venue provides equipment, though you are welcome to bring your own clubs if preferred. Custom club fitting services are also available."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No outside food or drinks are allowed, as the venue offers a full kitchen and bar with a variety of food and beverage options, including house cocktails and local beers."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes depends on the simulator software and number of players, but typically ranges from 1.5 to 2.5 hours per group."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is kid-friendly, offering a free 1-hour family pass and a welcoming atmosphere suitable for families and groups of all sizes."
+    }
+  ],
+  "rating_overall": 4.4,
+  "opening_hours": "{\"Monday\": [\"3-10PM\"], \"Tuesday\": [\"12-10PM\"], \"Wednesday\": [\"4-10PM\"], \"Thursday\": [\"11AM-10PM\"], \"Friday\": [\"11AM-12AM\"], \"Saturday\": [\"9AM-12AM\"], \"Sunday\": [\"9AM-10PM\"]}"
+}

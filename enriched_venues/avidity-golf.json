@@ -1,0 +1,90 @@
+{
+  "name": "Avidity Golf",
+  "address": "3300 Crescent Oaks Blvd, Tarpon Springs, FL 34688",
+  "city": "Tarpon Springs",
+  "region": "Florida",
+  "country": "US",
+  "latitude": 28.159227,
+  "longitude": -82.688638,
+  "phone": "+18632253131",
+  "website": "http://www.aviditygolf.com/",
+  "hero_image": "",
+  "google_maps_url": "https://www.google.com/maps/place/Avidity+Golf/@28.1592269,-82.68863809999999,14z/data=!4m8!1m2!2m1!1sAvidity+Golf!3m4!1s0x88c2931530117469:0xe017d039908f1115!8m2!3d28.1592269!4d-82.68863809999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJaXQRMBWTwogRFRGPkDnQF-A",
+  "email": "Aviditygolf@gmail.com",
+  "venue_type": "training_studio",
+  "about": "Avidity Golf is a specialized golf training venue focused on data-driven instruction using advanced technology. The facility offers private lessons, multi-lesson packages with FlightScope X3 launch monitor analysis, and on-course coaching sessions. It operates as a Club Champion Partner, providing expert guidance tailored to both beginners and advanced players to improve swing technique, short game, and overall performance.",
+  "tags": "beginner_friendly|serious_practice|coaching_available|premium_tech|private_rooms|club_rentals",
+  "vibe_tags": "tech_lab|private_luxury|modern",
+  "who_its_for": "beginners|serious_golfers|coaches_instructors",
+  "why_golfers_like_it": [
+    "Access to advanced FlightScope X3 launch monitor for data-driven swing analysis",
+    "Personalized instruction from experienced PGA professionals",
+    "Combination of indoor simulation and on-course real-world coaching",
+    "Multi-lesson packages for structured improvement plans"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "FlightScope",
+      "model": "X3",
+      "notes": "Advanced launch monitor used for lesson packages and data analysis"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "http://www.aviditygolf.com/lessons",
+  "pricing_model": "package|per_person_hour",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|pro_shop|club_fitting|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Clients should bring their own golf clubs, though rentals may be available through the Club Champion pro shop partnership."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No food or drink service is mentioned, so outside food and drinks may not be permitted. BYOB is not indicated."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Exact timing for 18 holes is not specified, but typical simulator sessions average 1-2 hours depending on group size and pace."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "No specific information about junior programs or family-friendly features is provided. The focus appears to be on adult instruction."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"9AM-6PM\"], \"Tuesday\": [\"9AM-6PM\"], \"Wednesday\": [\"Closed\"], \"Thursday\": [\"Closed\"], \"Friday\": [\"9AM-5PM\"], \"Saturday\": [\"12:30AM-6PM\"], \"Sunday\": [\"9AM-5PM\"]}"
+}

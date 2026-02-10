@@ -1,0 +1,89 @@
+{
+  "name": "Sugar Springs Golf Course",
+  "address": "1930 Sugar River Rd, Gladwin, MI 48624",
+  "city": "Gladwin",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 44.131828,
+  "longitude": -84.444416,
+  "phone": "+19894264391",
+  "website": "http://www.sugarsprings.net/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770250463/golf_simulators/www_sugarsprings_net_ChIJxVI3oxiwIYgRdXBhwCieE_I.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Sugar+Springs+Golf+Course/@44.131828,-84.44441599999999,14z/data=!4m8!1m2!2m1!1sSugar+Springs+Golf+Course!3m4!1s0x8821b018a33752c5:0xf2139e28c0617075!8m2!3d44.131828!4d-84.44441599999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJxVI3oxiwIYgRdXBhwCieE_I",
+  "venue_type": "hotel_resort",
+  "about": "Sugar Springs is a comprehensive recreational community and golf venue located in north central Michigan, spanning over 4,000 acres. The facility features an 18-hole golf course designed by Jerry Matthews, which has been recognized by Golf Digest and The Michigan Golfer, alongside a full suite of amenities including a pro shop, a restaurant called The Hearth, an indoor swimming pool, tennis courts, and an airstrip. The venue also offers a Trackman Full Swing Indoor Golf Simulator for year-round play and practice, with information and pricing available online.",
+  "tags": "food_and_drinks|corporate_events|beginner_friendly|families|coaching_available|premium_tech",
+  "vibe_tags": "community_club|casual|welcoming|modern",
+  "who_its_for": "beginners|families|corporate_teams|serious_golfers|solo_practice",
+  "why_golfers_like_it": [
+    "Premium Trackman simulator technology for advanced swing analysis",
+    "Variety of amenities including dining, fitness, and recreational activities",
+    "Access to a well-regarded 18-hole public golf course",
+    "Four-season recreational activities in a scenic Michigan setting"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "The Hearth restaurant offers a wide variety of menu items including wings, pizza, burgers, steak, and fish and chips. New smoker menu items also available."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No information provided on alcohol service; BYOB policy not mentioned."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Full Swing Indoor Golf Simulator available for winter practice and fun."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "https://sugarsprings.net/golf/trackman/",
+  "pricing_model": "per_person_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "pro_shop|club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own golf clubs?",
+      "answer": "The venue's Trackman simulator is likely compatible with personal clubs, and the pro shop may offer rentals, though specific club rental policies are not detailed on the website."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The on-site restaurant, The Hearth, is available for dining, but the website does not specify a policy on outside food or drinks, particularly for simulator use."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes on the simulator?",
+      "answer": "Standard time for a full 18-hole simulator session is typically 1 to 2 hours, depending on the number of players and pace of play."
+    },
+    {
+      "question": "Is Sugar Springs Golf Simulator kid-friendly?",
+      "answer": "Yes, the venue is family-oriented and offers recreational activities for all ages, including a swimming pool and social events, making it suitable for children."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"8AM-1PM\"], \"Tuesday\": [\"8AM-6PM\"], \"Wednesday\": [\"8AM-6PM\"], \"Thursday\": [\"8AM-6PM\"], \"Friday\": [\"8AM-6PM\"], \"Saturday\": [\"8AM-6PM\"], \"Sunday\": [\"8AM-6PM\"]}"
+}

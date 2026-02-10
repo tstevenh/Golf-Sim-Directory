@@ -1,7 +1,6 @@
 import { Metadata } from "next";
 import { db, venueCardSelect } from "@/lib/db";
 import { BestByPageContent } from "@/components/seo/BestByPageContent";
-import { matchesWhoItsFor } from "@/lib/best-by";
 import { getStaticRelatedLinks } from "@/lib/category-config.generated";
 
 interface BestWhoItsForPageProps {
@@ -9,7 +8,7 @@ interface BestWhoItsForPageProps {
   searchParams?: Promise<Record<string, string | string[] | undefined>>;
 }
 
-export const revalidate = 3600;
+export const revalidate = 86400;
 
 // Pre-render all segment pages at build time
 export async function generateStaticParams() {
@@ -88,17 +87,28 @@ export async function generateMetadata({ params }: BestWhoItsForPageProps): Prom
 export default async function BestWhoItsForPage({ params, searchParams }: BestWhoItsForPageProps) {
   const paramsResolved = (await searchParams) || {};
   const page = Math.max(1, Number(paramsResolved.page || 1));
+  const pageSize = 12;
   const { segment } = await params;
   const label = segment.replace(/_/g, " ").replace(/-/g, " ").replace(/\b\w/g, l => l.toUpperCase());
   const segmentKey = segment.toLowerCase();
+  const segmentVariants = Array.from(new Set([segment, segment.replace(/-/g, "_"), segment.replace(/_/g, "-")]));
+  const skip = (page - 1) * pageSize;
 
-  const venues = await db.venue.findMany({
-    where: { status: "active" },
-    orderBy: [{ featured: "desc" }, { ratingOverall: "desc" }, { name: "asc" }],
-    select: venueCardSelect,
-  });
+  const where = {
+    status: "active" as const,
+    whoItsFor: { hasSome: segmentVariants },
+  };
 
-  const filteredVenues = venues.filter((venue) => matchesWhoItsFor(venue, segment));
+  const [totalVenues, venues] = await Promise.all([
+    db.venue.count({ where }),
+    db.venue.findMany({
+      where,
+      orderBy: [{ featured: "desc" }, { ratingOverall: "desc" }, { name: "asc" }],
+      select: venueCardSelect,
+      take: pageSize,
+      skip,
+    }),
+  ]);
 
   const content = segmentContent[segmentKey] || {
     tagline: `Perfect for ${label}`,
@@ -154,13 +164,15 @@ export default async function BestWhoItsForPage({ params, searchParams }: BestWh
       ctaDescription="Claim your listing to update your audience tags and attract the right crowd."
       ctaPrimary={{ label: "Claim Your Listing", href: "/claim" }}
       ctaSecondary={{ label: "Submit New Venue", href: "/submit" }}
-      venues={filteredVenues}
+      venues={venues}
+      totalVenues={totalVenues}
       categoryType="segment"
       categoryValue={segmentKey}
       heroSubtitle={content.tagline}
       breadcrumbItems={breadcrumbs}
       showRanking={true}
       currentPage={page}
+      pageSize={pageSize}
       baseUrl={`/best/who-its-for/${segment}`}
     />
   );

@@ -1,0 +1,91 @@
+{
+  "name": "Golf Lab 24",
+  "address": "550 W Plumb Ln # D, Reno, NV 89509",
+  "city": "Reno",
+  "region": "Nevada",
+  "country": "US",
+  "latitude": 39.504995,
+  "longitude": -119.816798,
+  "phone": "+17755242191",
+  "website": "https://www.golflab24.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770216730/golf_simulators/www_golflab24_com_ChIJA4Z-iApBmYAR8Q8IBHRYDJQ.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Golf+Lab+24/@39.504994499999995,-119.81679779999999,14z/data=!4m8!1m2!2m1!1sGolf+Lab+24!3m4!1s0x8099410a887e8603:0x940c587404080ff1!8m2!3d39.504994499999995!4d-119.81679779999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJA4Z-iApBmYAR8Q8IBHRYDJQ",
+  "email": "info@golflab24.com",
+  "venue_type": "multi_sport_sim",
+  "about": "Golf Lab 24 is a self-serve indoor golf simulation facility located in Reno's Old Southwest neighborhood. The facility features two extra-wide, 18-foot hitting bays powered by industry-leading Trackman technology. This setup provides access to detailed club and ball data and hundreds of the world's most exclusive golf courses any day of the year. The venue operates on an hourly booking and membership model, catering to players looking for practice, play, or competition in a private, temperature-controlled environment. With options ranging from casual play to serious skill development, it serves a wide range of golfers, from beginners and tourists to serious golfers and juniors.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|premium_tech|private_rooms|club_rentals|coaching_available|juniors_youth|tourists_travelers",
+  "vibe_tags": "tech_lab|casual|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "Premium Trackman iO technology provides over 40 data points per swing for accurate performance analysis",
+    "24/7 access for members and flexible hours, allowing golf to fit any schedule",
+    "Over 450 virtual courses available for play, including famous tracks like Pebble Beach",
+    "Comprehensive stats tracking via the Trackman app to monitor progress and improvement",
+    "Professional coaching available with notable collegiate golf experience"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "BYOB is allowed; patrons can bring their own food and drinks"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "BYOB is allowed; patrons can bring their own drinks"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Each bay equipped with Trackman's Indoor Optimized (iO) system featuring high-resolution cameras and AI Motion Analysis"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://booking.trackmangolf.com/venues/golf-lab-24/booking/bays",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|tv_sports|private_party_room|wifi|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "No, Golf Lab 24 provides complimentary right-handed and left-handed club sets. A youth right-handed set is also available at no cost."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, patrons are welcome to bring their own food and drinks. Water and coffee are provided on-site."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Tee times range from 1 hour up to 4 hours, allowing flexibility for different session lengths."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, children may be guests of adult users/members, and a youth golf club set is available. However, children may not be left unattended."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"7AM-9:30PM\"], \"Tuesday\": [\"7AM-9:30PM\"], \"Wednesday\": [\"7AM-9:30PM\"], \"Thursday\": [\"7AM-9:30PM\"], \"Friday\": [\"7AM-9:30PM\"], \"Saturday\": [\"7AM-9:30PM\"], \"Sunday\": [\"7AM-9:30PM\"]}"
+}

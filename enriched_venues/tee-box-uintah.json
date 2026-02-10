@@ -1,0 +1,93 @@
+{
+  "name": "Tee Box Uintah",
+  "address": "2491 E 6700 S, Uintah, UT 84405",
+  "city": "Uintah",
+  "region": "Utah",
+  "country": "US",
+  "latitude": 41.138408,
+  "longitude": -111.917699,
+  "phone": "+18015084807",
+  "website": "https://tbx.golf/uintah",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770223900/golf_simulators/tbx_golf_ChIJ6c_Sij0HU4cRJfhKV3pybm8.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Tee+Box+Uintah/@41.138407799999996,-111.9176992,14z/data=!4m8!1m2!2m1!1sTee+Box+Uintah!3m4!1s0x8753073d8ad2cfe9:0x6f6e727a574af825!8m2!3d41.138407799999996!4d-111.9176992",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ6c_Sij0HU4cRJfhKV3pybm8",
+  "venue_type": "multi_sport_sim",
+  "about": "Tee Box Uintah is an indoor golf training facility equipped with Trackman simulator technology. The venue offers a comprehensive golf improvement program that includes swing analysis, athletic development, club fitting, gym access, and community events. The facility is open 24 hours and features multiple simulator bays, a full gym, and on-site coaching. It is designed to serve both beginners and serious golfers, with a focus on data-driven training and personalized coaching.",
+  "tags": "beginner_friendly|corporate_events|leagues|premium_tech|coaching_available|club_rentals|private_rooms|late_night|community_club",
+  "vibe_tags": "tech_lab|community_club|modern|welcoming",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Professional-grade Trackman technology for precise swing analysis",
+    "24/7 access for flexible practice and training schedules",
+    "Comprehensive programs including fitness, coaching, and club fitting",
+    "Inclusive community atmosphere with leagues and events"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "On-site snacks available, suitable for events and parties"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Dual radar and camera system for high accuracy"
+    }
+  ],
+  "simulator_so": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://book-uintah.tbx.golf/users/sign_in",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|club_fitting|leagues|tv_sports|private_party_room|wifi|gym|pro_shop",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own golf clubs?",
+      "answer": "While you can bring your own clubs, Tee Box also offers club rentals and professional club fittings to ensure optimal performance."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The facility offers on-site snacks for purchase, but outside food and drinks are not mentioned as prohibited. BYOB policy is not explicitly stated."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "With Trackman technology, 30 minutes of practice at Tee Box is comparable to 90 minutes on the course, allowing for efficient and effective training sessions."
+    },
+    {
+      "question": "Is Tee Box Uintah kid-friendly?",
+      "answer": "Yes, Tee Box is kid-friendly with youth programs, patient coaches who work with kids to build skills and confidence, and a welcoming environment for junior golfers."
+    }
+  ],
+  "simulator_software": [
+    "TrackMan SIM"
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

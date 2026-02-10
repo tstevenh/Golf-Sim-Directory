@@ -1,0 +1,96 @@
+{
+  "name": "TeeShots",
+  "address": "209 N Cleveland Ave, Loveland, CO 80537",
+  "city": "Loveland",
+  "region": "Colorado",
+  "country": "US",
+  "latitude": 40.393799,
+  "longitude": -105.074982,
+  "phone": "+19706525975",
+  "website": "http://www.teeshotsnoco.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770217608/golf_simulators/www_teeshotsnoco_com_ChIJ-SohzfxTaYcRqGMAnK5bmtw.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/TeeShots/@40.393799,-105.0749817,14z/data=!4m8!1m2!2m1!1sTeeShots!3m4!1s0x876953fccd212af9:0xdc9a5bae9c0063a8!8m2!3d40.393799!4d-105.0749817",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ-SohzfxTaYcRqGMAnK5bmtw",
+  "email": "filler@godaddy.com",
+  "venue_type": "sim_bar",
+  "about": "TeeShots is an indoor golf simulator bar located in Loveland, Colorado, offering year-round golf regardless of weather. The venue provides a social atmosphere combining golf entertainment with a full bar and lounge area. Utilizing premium Trackman technology, it allows players to experience famous courses like Pebble Beach and St. Andrews. The facility is designed for golfers of all skill levels, from beginners to seasoned players, and can accommodate groups for both casual play and events.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|private_rooms|coaching_available|solo_practice|families",
+  "vibe_tags": "sports_bar|casual|welcoming|modern",
+  "who_its_for": "beginners|families|corporate_teams|solo_practice|tourists_travelers",
+  "why_golfers_like_it": [
+    "Premium Trackman technology for realistic course simulation",
+    "Social atmosphere with full bar and comfortable lounge seating",
+    "Year-round indoor golf regardless of weather conditions",
+    "Variety of famous global courses available to play",
+    "Flexible group sizes from individual players to large gatherings"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned, but external food delivery is allowed"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with craft cocktails, beer, and wine available on-site"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Premium radar-based launch monitor for accurate ball and club tracking"
+    },
+    {
+      "brand": "Foresight Sports",
+      "model": "unknown",
+      "notes": "Premium simulator system also available"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "http://www.teeshotsnoco.com/m/bookings",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|club_rentals|private_party_room|wifi|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, loaner clubs are available if you don't have your own, but you're welcome to bring them."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "External food delivery is allowed, and the venue has a full bar with drinks available for purchase on-site."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "A regular single golfer can play 18 holes in about an hour, while a group of 4 would typically take 3-4 hours."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "Yes, TeeShots is family-friendly and offers games suitable for kids, including putt-putt and other fun activities."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"12-10PM\"], \"Tuesday\": [\"12-10PM\"], \"Wednesday\": [\"12-10PM\"], \"Thursday\": [\"12-10PM\"], \"Friday\": [\"12PM-12AM\"], \"Saturday\": [\"10AM-12AM\"], \"Sunday\": [\"10AM-10PM\"]}"
+}

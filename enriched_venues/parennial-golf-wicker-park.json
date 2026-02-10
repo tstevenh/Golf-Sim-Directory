@@ -1,0 +1,90 @@
+{
+  "name": "PARennial Golf - Wicker Park",
+  "address": "1276 N Milwaukee Ave, Chicago, IL 60622",
+  "city": "Chicago",
+  "region": "Illinois",
+  "country": "US",
+  "latitude": 41.904923,
+  "longitude": -87.669124,
+  "phone": "+13123136218",
+  "website": "https://parennialgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770204833/golf_simulators/parennialgolf_com_ChIJjX_bhYfTD4gRO5hS0GKwHHM.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/PARennial+Golf+-+Wicker+Park/@41.9049232,-87.6691238,14z/data=!4m8!1m2!2m1!1sPARennial+Golf+-+Wicker+Park!3m4!1s0x880fd38785db7f8d:0x731cb062d052983b!8m2!3d41.9049232!4d-87.6691238",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJjX_bhYfTD4gRO5hS0GKwHHM",
+  "venue_type": "sim_bar",
+  "about": "PARennial Golf is a premium indoor golf simulator venue located in Chicago, offering a high-tech golfing experience with Trackman technology. The facilities are designed to provide an environment that is second only to being on a real golf course, featuring multiple locations including Wicker Park, West Loop, and Lincoln Park. The venue offers a seamless experience through a mobile app that allows for real-time bay availability checks, easy booking, and 24/7 access for members. Players can enjoy a variety of virtual courses and personalized settings in each bay, with the option to book in advance or walk in depending on membership status.",
+  "tags": "beginner_friendly|serious_golfers|food_and_drinks|corporate_events|premium_tech|coaching_available|private_rooms|club_rentals",
+  "vibe_tags": "upscale_lounge|tech_lab|modern",
+  "who_its_for": "serious_golfers|corporate_teams|solo_practice|tourists_travelers|juniors_youth",
+  "why_golfers_like_it": [
+    "Premium Trackman technology provides accurate shot data and a realistic golf experience",
+    "Mobile app offers real-time bay availability and easy booking for convenience",
+    "24/7 walk-in access for members with no booking required",
+    "Access to a wide variety of world-renowned virtual golf courses",
+    "PGA professional instruction available for all skill levels"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No on-site food service mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No on-site bar mentioned, BYOB policy not specified"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Premium radar-based launch monitor technology"
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 12,
+  "booking_url": "https://parennialgolf.com/bookings",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 5.0,
+  "rating_facility_comfort": 4.5,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you will need to bring your own golf clubs to use the simulators."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No information is provided on outside food or drinks policy. Please check with the venue directly."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "The time for 18 holes isn't specified, but it depends on your pace of play and bay availability."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "No specific information about kid-friendly policies or features is provided."
+    }
+  ],
+  "rating_overall": 4.5,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

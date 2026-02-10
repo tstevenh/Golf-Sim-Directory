@@ -1,0 +1,91 @@
+{
+  "name": "X-Golf Algonquin",
+  "address": "1704 S Randall Rd, Algonquin, IL 60102",
+  "city": "Algonquin",
+  "region": "Illinois",
+  "country": "US",
+  "latitude": 42.148236,
+  "longitude": -88.337942,
+  "phone": "+18152068531",
+  "website": "https://playxgolf.com/locations/algonquin/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770224228/golf_simulators/playxgolf_com_ChIJO761NfwTD4gRjmfNZSKa0XI.png",
+  "google_maps_url": "https://www.google.com/maps/place/X-Golf+Algonquin/@42.1482363,-88.337942,14z/data=!4m8!1m2!2m1!1sX-Golf+Algonquin!3m4!1s0x880f13fc35b5be3b:0x72d19a2265cd678e!8m2!3d42.1482363!4d-88.337942",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJO761NfwTD4gRjmfNZSKa0XI",
+  "email": "jess@vass.group",
+  "venue_type": "sim_bar",
+  "about": "X-Golf Algonquin offers indoor golf simulator experiences for all skill levels, featuring state-of-the-art simulators that provide accurate and realistic gameplay. The venue operates under a per-bay, hourly pricing model and includes a full-service bar and restaurant, making it suitable for casual play, dining, and private events. Additional offerings include PGA-certified lessons, leagues, and membership options, catering to both serious golfers and social groups looking for an entertaining activity.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|private_rooms|club_rentals|coaching_available",
+  "vibe_tags": "sports_bar|tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "State-of-the-art simulator technology with unparalleled accuracy",
+    "Flexible pricing model with BOGO Monday deals and senior discounts",
+    "On-site PGA-certified instructors for lessons and skill improvement",
+    "Full bar and restaurant amenities for a complete entertainment experience",
+    "Support for leagues and tournaments for competitive play"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen with wings, pizza, appetizers, and other shareable bites"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with beer by the glass or on tap, cocktails, and wines"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "X-Golf",
+      "model": "Simulator",
+      "notes": "State-of-the-art indoor golf simulator with camera systems, infrared lasers, and impact sensors"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://clients.uschedule.com/xgolfalgonquin/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 40,
+  "price_range_max_local": 65,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|private_party_room|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, rental clubs are available, though players are encouraged to bring their own clubs."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No, the venue has a full-service bar and kitchen where food and drinks can be purchased."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "It generally takes about one hour for an individual player to complete 18 holes. If you have more than one player, you may want to book an additional hour per player."
+    },
+    {
+      "question": "Is X-Golf Algonquin kid-friendly?",
+      "answer": "Yes, the venue welcomes children of all ages and is suitable for families."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"11AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"11AM-10PM\"], \"Thursday\": [\"10AM-11PM\"], \"Friday\": [\"11AM-11PM\"], \"Saturday\": [\"9AM-11PM\"], \"Sunday\": [\"9AM-9PM\"]}"
+}

@@ -1,0 +1,92 @@
+{
+  "name": "Melrose Golf Club",
+  "address": "438 Melrose Ave, Nashville, TN 37211",
+  "city": "Nashville",
+  "region": "Tennessee",
+  "country": "US",
+  "latitude": 36.119154,
+  "longitude": -86.755711,
+  "phone": "+16152366556",
+  "website": "https://golf-melrose.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770233172/golf_simulators/golf-melrose_com_ChIJL4KN8cJlZIgRN32bJVC4864.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Melrose+Golf+Club/@36.1191539,-86.7557114,14z/data=!4m8!1m2!2m1!1sMelrose+Golf+Club!3m4!1s0x886465c2f18d822f:0xaef3b850259b7d37!8m2!3d36.1191539!4d-86.7557114",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJL4KN8cJlZIgRN32bJVC4864",
+  "venue_type": "sim_bar",
+  "about": "Melrose Golf Club is a members-only golf simulator venue located in Nashville, TN. It features TrackMan™ simulators, a putting green, pool table, darts, and a lounge area with large screens for sports viewing. The club is designed to be a relaxed, local-focused social hub with a retro Palm Springs vibe, emphasizing fun and community. Membership is required, with one-time joining fees and monthly or annual dues.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|premium_tech|club_rentals|community_club|private_rooms|low_handicap",
+  "vibe_tags": "sports_bar|casual|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Premium TrackMan™ simulators for accurate data",
+    "Relaxed, social atmosphere with retro design",
+    "No guest fees for friends and family",
+    "BYOB policy with food allowed",
+    "Unlimited access to golf sims with membership",
+    "Free parking included"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Members can bring their own food or order in from outside vendors"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "BYOB policy allows members to bring their own alcohol"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Three TrackMan™ Golf simulators"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://yourgolfbooking.com/venues/melrose-golf-club/booking",
+  "pricing_model": "membership_only",
+  "price_range_min_local": 295,
+  "price_range_max_local": 3450,
+  "currency": "USD",
+  "walk_ins_allowed": false,
+  "coaching_available": "unknown",
+  "private_rooms_count": 0,
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, members are expected to bring their own golf equipment to use with the simulators."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, members can bring their own food and alcohol. The venue operates on a BYOB (bring your own booze) policy."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes is not specified on the website, but typical simulator sessions range from 1-2 hours depending on the number of players and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Melrose Golf Club is described as a family-friendly venue where kids are welcome."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"7AM-10PM\"], \"Tuesday\": [\"7AM-10PM\"], \"Wednesday\": [\"7AM-10PM\"], \"Thursday\": [\"7AM-10PM\"], \"Friday\": [\"7AM-10PM\"], \"Saturday\": [\"7AM-10PM\"], \"Sunday\": [\"7AM-10PM\"]}"
+}

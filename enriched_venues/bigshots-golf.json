@@ -1,0 +1,83 @@
+{
+  "name": "BigShots Golf",
+  "address": "15700 Golf View Dr, Fort Worth, TX 76177",
+  "city": "Fort Worth",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 33.01764,
+  "longitude": -97.284981,
+  "phone": "+16826100099",
+  "website": "https://bigshotsgolf.com/locations/ft-worth-tx/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770210843/golf_simulators/bigshotsgolf_com_ChIJXUvI4tfbTYYR-5cz-9S1-pw.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/BigShots+Golf/@33.0176405,-97.284981,14z/data=!4m8!1m2!2m1!1sBigShots+Golf!3m4!1s0x864ddbd7e2c84b5d:0x9cfab5d4fb3397fb!8m2!3d33.0176405!4d-97.284981",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJXUvI4tfbTYYR-5cz-9S1-pw",
+  "email": "fortworth@bigshotsgolf.com",
+  "venue_type": "sim_bar",
+  "about": "BigShots Golf is a multi-faceted entertainment venue in Fort Worth, Texas, offering virtual golf, a driving range, and a sports bar. It features 56 climate-controlled tee boxes equipped with virtual golf games suitable for all skill levels, complemented by a 6-hole putting course and various yard games. The venue includes a full restaurant and a sports bar with over 100 TVs for watching sports events. Owned and operated by O'Reilly Hospitality Management, LLC, it is designed to provide a fun and relaxed atmosphere for individuals, families, and groups, with options for private events, meetings, and weekly social activities.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|kids_friendly|corporate_events|leagues|premium_tech|private_rooms|club_rentals|party_atmosphere",
+  "vibe_tags": "family_fun_center|sports_bar|party_atmosphere|tech_lab",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|bachelor_parties",
+  "why_golfers_like_it": [
+    "56 climate-controlled tee boxes for year-round comfort",
+    "Virtual golf games and smart target response technology for an immersive experience",
+    "Full-service sports bar and restaurant with 100+ TVs for sports viewing"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full restaurant with made-true fresh food, featuring items like Stuffed Bacon-Cheddar Tots and Cali Chicken Sandwich."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Crafted cocktails, beer, and wine available at the sports bar."
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": "unknown",
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 56,
+  "booking_url": "https://www.sevenrooms.com/reservations/bigshotsgolffortworth/bsg-ftw-website?duration-picker=true",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 16,
+  "price_range_max_local": 42,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": false,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|leagues",
+  "rating_tech_quality": 4.0,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need golf clubs?",
+      "answer": "No, golf clubs are not required as the venue offers virtual golf games and yard games for all skill levels."
+    },
+    {
+      "question": "Can I bring my own food or drink?",
+      "answer": "No, outside food or drink is not allowed, but the venue offers a full restaurant and sports bar with a variety of food and beverages."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 virtual golf holes varies, but each tee box can accommodate up to 6 people and is rented by the hour."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, BigShots Golf is kid-friendly and offers activities like mini golf and yard games suitable for all ages."
+    }
+  ],
+  "rating_overall": 4.1,
+  "opening_hours": "{\"Monday\": [\"11AM-9PM\"], \"Tuesday\": [\"4-9PM\"], \"Wednesday\": [\"4-9PM\"], \"Thursday\": [\"4-9PM\"], \"Friday\": [\"11AM-10PM\"], \"Saturday\": [\"11AM-10PM\"], \"Sunday\": [\"11AM-9PM\"]}"
+}

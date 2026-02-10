@@ -1,0 +1,92 @@
+{
+  "name": "Whitetail Ridge Golf Club",
+  "address": "7671 Clubhouse Dr, Yorkville, IL 60560",
+  "city": "Yorkville",
+  "region": "Illinois",
+  "country": "US",
+  "latitude": 41.611728,
+  "longitude": -88.370559,
+  "phone": "+16308828988",
+  "website": "https://whitetailridgegc.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770246816/golf_simulators/whitetailridgegc_com_ChIJZcx8AufsDogRkHQub-DHYKc.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Whitetail+Ridge+Golf+Club/@41.6117275,-88.370559,14z/data=!4m8!1m2!2m1!1sWhitetail+Ridge+Golf+Club!3m4!1s0x880eece7027ccc65:0xa760c7e06f2e7490!8m2!3d41.6117275!4d-88.370559",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJZcx8AufsDogRkHQub-DHYKc",
+  "email": "_atAlex@whitetailridgegc.com",
+  "venue_type": "multi_sport_sim",
+  "about": "Whitetail Ridge Golf Club offers a comprehensive golf experience with both an outdoor course and an indoor golf facility. The main venue features a par-71 championship course designed by Greg Martin, situated in the rolling hills of Yorkville. The facility includes an indoor golf dome, the WTR Golf Dome, which provides year-round play regardless of weather conditions. The venue caters to golfers of all skill levels with options for individual play, leagues, tournaments, and professional instruction. Pricing is dynamically based on demand, with opportunities for early booking discounts. The venue is well-suited for both casual rounds and serious practice sessions, offering multiple amenities and event spaces.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|club_rentals|coaching_available|family_friendly|golf_outings|private_rooms",
+  "vibe_tags": "community_club|sports_bar|family_fun_center|modern|welcoming",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Premium Trackman Range technology for realistic ball and club tracking",
+    "Full-service bar and restaurant with food and beverage service directly to each bay",
+    "30-bay, climate-controlled facility for year-round play",
+    "Professional PGA instruction using launch monitors for data-driven coaching",
+    "Versatile event spaces for tournaments, parties, and corporate outings"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full-service restaurant and food service available to each golf bay"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full-service bar available on-site"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "Range",
+      "notes": "30-bay indoor golf range with Trackman technology"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 30,
+  "booking_url": "https://yourgolfbooking.com/venues/whitetail/booking/bays",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Players may bring their own clubs. The venue also offers club repair and fitting services."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drinks are not mentioned, but the venue has a full-service bar and restaurant available on-site."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time for 18 holes is not specified, but dynamic pricing is based on demand, suggesting typical golf course timeframes apply."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, the venue offers family-friendly programs and is suitable for junior golfers, with instructional programs available."
+    }
+  ],
+  "simulator_software": [
+    "Trackman Range"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-8PM\"], \"Tuesday\": [\"9AM-8PM\"], \"Wednesday\": [\"9AM-8PM\"], \"Thursday\": [\"9AM-8PM\"], \"Friday\": [\"9AM-9PM\"], \"Saturday\": [\"9AM-9PM\"], \"Sunday\": [\"9AM-8PM\"]}"
+}

@@ -1,0 +1,92 @@
+{
+  "name": "Golf Island - Spokane",
+  "address": "9956 N Newport Hwy, Spokane, WA 99218",
+  "city": "Spokane",
+  "region": "Washington",
+  "country": "US",
+  "latitude": 47.748322,
+  "longitude": -117.398783,
+  "phone": "+15094131172",
+  "website": "https://www.golfisland.com/spokane",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770214719/golf_simulators/www_golfisland_com_ChIJoR4byBodnlQRR_EeQMxZ5fk.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Golf+Island+-+Spokane/@47.7483219,-117.39878259999999,14z/data=!4m8!1m2!2m1!1sGolf+Island+-+Spokane!3m4!1s0x549e1d1ac81b1ea1:0xf9e559cc401ef147!8m2!3d47.7483219!4d-117.39878259999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJoR4byBodnlQRR_EeQMxZ5fk",
+  "email": "info@golfisland.com",
+  "venue_type": "sim_bar",
+  "about": "Golf Island - Spokane is a premier virtual golf facility in Eastern Washington, featuring oversized bays equipped with dual 55-inch TVs and TrackMan technology for accurate ball and club tracking. The venue operates as a hybrid sports bar and golf simulator center, offering a relaxed atmosphere where guests can play virtual courses, enjoy food and drinks, or host events. Pricing is based on bay rental rather than per person, with memberships available for frequent visitors. The facility is designed for both casual play and serious practice, accommodating groups up to six players per bay.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|leagues|premium_tech|date_night|family_friendly|late_night|group_friendly",
+  "vibe_tags": "sports_bar|family_fun_center|modern|welcoming",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "Largest bays in the industry with two 55-inch TVs",
+    "Powered by TrackMan technology for high accuracy",
+    "Combines golf simulation with a full bar and food menu",
+    "Accommodates up to 6 players per bay",
+    "Supports leagues, tournaments, and private events"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen with pizza, wings, pretzels, and other fan-favorite items available. Menu accessible via PDF."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available. Drink menu accessible via PDF."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Radar-based launch monitor providing accurate ball and club tracking"
+    }
+  ],
+  "simulator_so": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "mixed",
+  "lefty_friendly": true,
+  "bay_count_total": null,
+  "booking_url": "https://foreupsoftware.com/index.php/booking/22424/10738#teetimes",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": null,
+  "price_range_max_local": null,
+  "currency": "USD",
+  "walk_ins_allowed": null,
+  "coaching_available": true,
+  "private_rooms_count": null,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|kitchen_food|tv_sports|private_party_room|leagues|ada_accessible|club_rentals|wifi",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify whether clubs are provided or if you must bring your own. It's recommended to call ahead to confirm club rental availability or requirements."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "The venue offers a full food and drink menu, but it does not explicitly mention if outside food or drinks are allowed. This policy should be confirmed directly with the venue."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not provide specific timing for 18 holes. The duration will depend on the number of players in your bay and the pace of play, but with 6 players per bay, it may take 2-3 hours."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue appears to be kid-friendly, offering a family atmosphere, food options like pizza and wings, and accommodations for groups that could include children."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"9AM-11PM\"], \"Saturday\": [\"9AM-11PM\"], \"Sunday\": [\"9AM-8PM\"]}"
+}

@@ -1,0 +1,91 @@
+{
+  "name": "Swing Lab",
+  "address": "2320 Pendragon Rd, Kingsport, TN 37660",
+  "city": "Kingsport",
+  "region": "Tennessee",
+  "country": "US",
+  "latitude": 36.54959,
+  "longitude": -82.605245,
+  "phone": "+14238178857",
+  "website": "https://www.swinglabsim.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770214652/golf_simulators/www_swinglabsim_com_ChIJAQCwKX7yWogRT74M8RM_QIg.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Swing+Lab/@36.5495903,-82.6052447,14z/data=!4m8!1m2!2m1!1sSwing+Lab!3m4!1s0x885af27e29b00001:0x88403f13f10cbe4f!8m2!3d36.5495903!4d-82.6052447",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJAQCwKX7yWogRT74M8RM_QIg",
+  "venue_type": "multi_sport_sim",
+  "about": "Swing Lab is an indoor golf simulator venue that utilizes Uneekor's EYE XO Launch Monitor technology, paired with both E6 Connect and GS Pro software systems. This setup provides a premium experience for practice, full rounds of golf, and various skills challenges. The venue offers a range of rates and packages, including standard and junior sessions, making it accessible for different player types. Adjacent to the Pro Shop at Ridgefields Golf & Athletic Club, Swing Lab aims to create a fun environment for enjoying golf, serving as both a social spot and a resource for teaching and club fitting.",
+  "tags": "premium_tech|beginner_friendly|serious_golfers|families|coaching_available|corporate_events|leagues|private_rooms",
+  "vibe_tags": "tech_lab|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "Cutting-edge Uneekor EYE XO launch monitor with patented non-marked ball technology",
+    "Access to 100+ golf courses worldwide through E6 Connect software",
+    "Supports both practice and competitive play with leagues and events",
+    "Comprehensive data capture for ball and club performance analysis",
+    "Private and comfortable environment for focused training and social play"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "Not explicitly mentioned on the website"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "Not explicitly mentioned on the website; BYOB not indicated"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "EYE XO",
+      "notes": "Overhead launch monitor with dual high-speed camera technology and patented non-marked ball tracking"
+    }
+  ],
+  "simulator_software": [
+    "E6 Connect",
+    "GS Pro"
+  ],
+  "launch_monitor_type": "overhead_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.swinglabsim.com/#rates",
+  "pricing_model": "per_person_hour",
+  "price_range_min_local": 40,
+  "price_range_max_local": 55,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|pro_shop|club_fitting|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not explicitly state whether clubs are provided. It's recommended to bring your own clubs for the best experience, especially if you're particular about your equipment."
+    },
+    {
+      "question": "Can I bring food and drinks?",
+      "answer": "The website does not mention a food and drink service. It's unclear if outside food and drinks are permitted, so it's best to check with the venue directly."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Based on tournament information, each team gets 1.5 hours in the lab to warm up and play their round, which suggests a typical 18-hole simulation can be completed within this time frame."
+    },
+    {
+      "question": "Is Swing Lab kid-friendly?",
+      "answer": "Yes, Swing Lab offers a junior rate of $40 for 60 minutes, indicating they cater to younger golfers. The venue aims to create a fun environment for families to enjoy golf together."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"Closed\"], \"Wednesday\": [\"12-8PM\"], \"Thursday\": [\"12-8PM\"], \"Friday\": [\"12-8PM\"], \"Saturday\": [\"11AM-8PM\"], \"Sunday\": [\"1-6PM\"]}"
+}

@@ -1,0 +1,85 @@
+{
+  "name": "Club Twirl Golf Lounge",
+  "address": "4161 W Thunderbird Rd, Phoenix, AZ 85053",
+  "city": "Phoenix",
+  "region": "Arizona",
+  "country": "US",
+  "latitude": 33.609389,
+  "longitude": -112.147948,
+  "phone": "+16023999237",
+  "website": "http://clubtwirl.us/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770209902/golf_simulators/clubtwirl_us_ChIJEzjy15BpK4cRRxHbNiwhYH8.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Club+Twirl+Golf+Lounge/@33.6093895,-112.1479478,14z/data=!4m8!1m2!2m1!1sClub+Twirl+Golf+Lounge!3m4!1s0x872b6990d7f23813:0x7f60212c36db1147!8m2!3d33.6093895!4d-112.1479478",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJEzjy15BpK4cRRxHbNiwhYH8",
+  "venue_type": "sim_bar",
+  "about": "Club Twirl Golf Lounge is an indoor golf simulator venue offering state-of-the-art technology with access to over 1500 courses worldwide. The facility provides a range of options including hourly tee times, practice sessions, leagues, lessons, and private events. Pricing is based on hourly bay rentals with tiered rates for 1, 2, and 3-hour sessions. The venue caters to both serious golfers looking to improve their game and casual players seeking a relaxed social environment. Its BYOB policy and modern atmosphere make it suitable for groups, parties, and individual practice.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|large_groups|corporate_events|leagues|premium_tech|private_rooms|coaching_available|serious_practice",
+  "vibe_tags": "modern|casual|welcoming|sports_bar|tech_lab",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Over 1500 global courses available with daily software updates",
+    "High-quality simulators with accurate ball and club tracking data",
+    "No waiting times - play at your own pace",
+    "Affordable pricing for various session lengths",
+    "Professional coaching options available for all skill levels",
+    "BYOB policy enhances the social experience"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned, BYOB policy suggests external food allowed"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "BYOB (Bring Your Own Beverage) policy with no on-premise alcohol service"
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": "true",
+  "club_tracking": "true",
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "https://clubtwirl.us/collections/tee-times",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 65,
+  "price_range_max_local": 150,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|private_party_room|leagues|coaching_available|wifi|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue doesn't specify whether they provide club rentals, so it's recommended to bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, Club Twirl has a BYOB policy, allowing you to bring your own beverages. External food is also likely permitted given the venue's social nature."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "With no waiting times, players can complete 18 holes at their own pace, though specific timing isn't mentioned. The hourly sessions suggest flexibility in playing duration."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "There's no specific information about child-friendly amenities or age restrictions mentioned on the website."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"11AM-8PM\"], \"Tuesday\": [\"11AM-8PM\"], \"Wednesday\": [\"11AM-8PM\"], \"Thursday\": [\"11AM-8PM\"], \"Friday\": [\"11AM-10PM\"], \"Saturday\": [\"9AM-10PM\"], \"Sunday\": [\"9AM-8PM\"]}"
+}

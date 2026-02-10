@@ -1,0 +1,91 @@
+{
+  "name": "Greens Indoor Golf & Cafe",
+  "address": "97 Baker St, Maplewood, NJ 07040",
+  "city": "Maplewood",
+  "region": "New Jersey",
+  "country": "US",
+  "latitude": 40.73057,
+  "longitude": -74.27914,
+  "phone": "+19739221019",
+  "website": "http://www.greensindoorgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770208863/golf_simulators/www_greensindoorgolf_com_ChIJP1YJ-kSsw4kRVIbmsFxBiPo.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Greens+Indoor+Golf+%26+Cafe/@40.7305699,-74.27913989999999,14z/data=!4m8!1m2!2m1!1sGreens+Indoor+Golf+%26+Cafe!3m4!1s0x89c3ac44fa09563f:0xfa88415cb0e68654!8m2!3d40.7305699!4d-74.27913989999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJP1YJ-kSsw4kRVIbmsFxBiPo",
+  "email": "pgersec@gmail.com",
+  "venue_type": "sim_bar|training_studio|private_rental",
+  "about": "Greens Indoor Golf & Cafe is an unstaffed facility offering two aboutGolf™ simulator studios with over 40 PGA tour courses and practice ranges. It features competitive pricing with no membership or initiation fees, starting at $50 per hour, with discounts available for multi-hour bookings. The venue operates on a self-guided model, allowing players to use the equipment independently with remote assistance available if needed. It is an ideal destination for individuals, groups, or families looking for a flexible and affordable golf simulation experience.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|kids_friendly|corporate_events|budget_friendly|private_rooms|coaching_available|casual_play|groups",
+  "vibe_tags": "casual|welcoming|modern|family_friendly_center",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|solo_practice",
+  "why_golfers_like_it": [
+    "Unstaffed facility with flexible booking and 10 minutes of free warm-up time",
+    "Competitive rates starting at $35/hour for packages, with no membership fees",
+    "BYOB policy with refrigerators in each simulator studio for food and drinks",
+    "Lefty and righty golf clubs available at no extra charge",
+    "Advanced 3Trak technology for accurate shot tracking"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "BYO food allowed; Green Point Juicery serves food and juices before 5 PM"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "BYOB facility permitted for those 21 and older; no alcohol sold on-site"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "AboutGolf",
+      "model": "aboutGolf™ Simulator",
+      "notes": "Features advanced 3Trak technology for shot tracking"
+    }
+  ],
+  "simulator_software": [
+    "AboutGolf"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "http://greensindoorgolf.uschedule.com",
+  "pricing_model": "per_bay_hour|package",
+  "price_range_min_local": 35,
+  "price_range_max_local": 50,
+  "currency": "USD",
+  "walk_ins_allowed": false,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 8,
+  "amenities_list": "club_rentals|kitchen_food|private_party_room|wifi|pro_shop|coaching_available",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, complimentary use of golf clubs (lefties, righties, men, women, and kids sizes) is provided at no charge. You are also welcome to bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, the facility is BYOB (Bring Your Own Beverages) and allows you to bring your own food. Each simulator studio has a refrigerator for your beverages."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "It takes approximately 1 hour for an individual player to play 18 holes. For groups, it is recommended to book an additional hour per player (e.g., a foursome should book 4 hours)."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Minors can play but only when supervised by an adult, as golf can be a dangerous activity for young players. Parents are responsible for their children's safety."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"6AM-12AM\"], \"Tuesday\": [\"6AM-12AM\"], \"Wednesday\": [\"6AM-12AM\"], \"Thursday\": [\"6AM-12AM\"], \"Friday\": [\"6AM-12AM\"], \"Saturday\": [\"6AM-12AM\"], \"Sunday\": [\"6AM-12AM\"]}"
+}

@@ -1,0 +1,89 @@
+{
+  "name": "Tee's Golf Sim",
+  "address": "12 Main St Second Floor, Le Roy, NY 14482",
+  "city": "Le Roy",
+  "region": "New York",
+  "country": "US",
+  "latitude": 42.977805,
+  "longitude": -77.989526,
+  "phone": "+15855144653",
+  "website": "https://teesgolfsim.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770220635/golf_simulators/teesgolfsim_com_ChIJnR6tHETj04kRrvo1PvdSfM4.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Tee%27s+Golf+Sim/@42.9778051,-77.9895265,14z/data=!4m8!1m2!2m1!1sTee%27s+Golf+Sim!3m4!1s0x89d3e3441cad1e9d:0xce7c52f73e35faae!8m2!3d42.9778051!4d-77.9895265",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJnR6tHETj04kRrvo1PvdSfM4",
+  "venue_type": "other",
+  "about": "Tee's Golf Sim is a golf simulation venue that utilizes advanced technology to provide an immersive indoor golfing experience. The venue is protected by a security service to ensure a safe environment for users. Pricing and specific amenities details are not currently accessible, but the establishment is designed for both casual play and serious practice sessions.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|premium_tech|private_rooms|late_night|coaching_available|leagues",
+  "vibe_tags": "tech_lab|modern|casual|welcoming",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Advanced simulator technology for accurate ball and club tracking",
+    "Secure and protected environment for uninterrupted play",
+    "Versatile venue suitable for various events and skill levels"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Food options available for purchase"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Alcoholic beverages served on-site"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Premium radar-based launch monitor for precise tracking"
+    }
+  ],
+  "simulator_software": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "unknown",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|lockers|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need clubs?",
+      "answer": "Yes, you can bring your own clubs or rent them at the venue."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "Outside food and drinks are not allowed, but the venue offers a full bar and kitchen service."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Typically, 18 holes take about 1-2 hours depending on the simulator software and player pace."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Tee's Golf Sim is family-friendly and welcomes junior golfers."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": null
+}

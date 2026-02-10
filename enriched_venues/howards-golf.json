@@ -1,0 +1,100 @@
+{
+  "name": "Howard's Golf",
+  "address": "4401 E Morgan Ave, Evansville, IN 47715",
+  "city": "Evansville",
+  "region": "Indiana",
+  "country": "US",
+  "latitude": 37.990789,
+  "longitude": -87.496856,
+  "phone": "+18124764500",
+  "website": "http://howardsgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770230599/golf_simulators/howardsgolf_com_ChIJD53DEQErbogRahgOKupGMrI.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Howard%27s+Golf/@37.9907889,-87.49685559999999,14z/data=!4m8!1m2!2m1!1sHoward%27s+Golf!3m4!1s0x886e2b0111c39d0f:0xb23246ea2a0e186a!8m2!3d37.9907889!4d-87.49685559999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJD53DEQErbogRahgOKupGMrI",
+  "email": "customerservice@howardsgolf.com",
+  "venue_type": "retail_fitting_center",
+  "about": "Howard's Golf is a locally owned, family-run golf shop with 30+ years of business experience. The venue operates primarily as a retail and fitting center, offering an indoor driving range with 4 club fitting bays equipped with FlightScope Launch Monitors. While the website mentions golf simulator technology, including the Foresight GCHawk and GCQuad systems, the primary focus appears to be on club fitting, repair services, and equipment sales. The facility provides expert services to elevate golfers' games through technology and personalized advice.",
+  "tags": "beginner_friendly|coaching_available|premium_tech|club_rentals|club_fitting|private_rooms|budget_friendly",
+  "vibe_tags": "tech_lab|community_club|welcoming",
+  "who_its_for": "beginners|serious_golfers|families|solo_practice|coaches_instructors",
+  "why_golfers_like_it": [
+    "Multiple club fitting bays with advanced FlightScope launch monitors",
+    "Expert club repair and regripping services at competitive prices",
+    "Access to the latest golf technology and brand demos through scheduled events",
+    "Knowledgeable staff providing personalized advice and customer service"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No on-site food service mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned, BYOB policy not specified"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "FlightScope",
+      "model": "unknown",
+      "notes": "Mentioned in club fitting bays"
+    },
+    {
+      "brand": "Foresight",
+      "model": "GCHawk",
+      "notes": "Ceiling-mounted imaging technology simulator"
+    },
+    {
+      "brand": "Foresight",
+      "model": "GCQuad",
+      "notes": "Award-winning launch monitor technology"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 4,
+  "booking_url": "unknown",
+  "pricing_model": "unknown",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|club_fitting|pro_shop|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The facility offers club rentals and fitting services, but you can also bring your own clubs for practice or fitting sessions."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No information about external food or drink policies is provided on the website."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "No specific information about 18-hole simulation time is available, as the venue appears focused on practice and fitting rather than full rounds."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The website doesn't specifically address child-friendly amenities or policies, though it welcomes golfers of all levels."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-6PM\"], \"Tuesday\": [\"10AM-6PM\"], \"Wednesday\": [\"10AM-6PM\"], \"Thursday\": [\"10AM-6PM\"], \"Friday\": [\"10AM-6PM\"], \"Saturday\": [\"10AM-6PM\"], \"Sunday\": [\"12-4PM\"]}"
+}

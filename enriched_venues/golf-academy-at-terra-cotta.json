@@ -1,0 +1,97 @@
+{
+  "name": "Golf Academy at Terra Cotta",
+  "address": "5200 Pleasant Hill Rd, Crystal Lake, IL 60012",
+  "city": "Crystal Lake",
+  "region": "Illinois",
+  "country": "US",
+  "latitude": 42.274343,
+  "longitude": -88.29969,
+  "phone": "+18153554225",
+  "website": "http://www.golfacademytc.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770234357/golf_simulators/www_golfacademytc_com_ChIJHQg_okJyD4gRMT1h2WW6DFI.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Golf+Academy+at+Terra+Cotta/@42.2743426,-88.2996904,14z/data=!4m8!1m2!2m1!1sGolf+Academy+at+Terra+Cotta!3m4!1s0x880f7242a23f081d:0x520cba65d9613d31!8m2!3d42.2743426!4d-88.2996904",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJHQg_okJyD4gRMT1h2WW6DFI",
+  "email": "Dkreutzer@pga.com",
+  "venue_type": "training_studio",
+  "about": "The Golf Academy at Terra Cotta is a comprehensive golf training and practice facility in Prairie Grove, IL, featuring both outdoor driving ranges and indoor technology-equipped bays. The venue operates year-round, with an indoor season from November 1 to March 31 and an outdoor season from April 1 to October 31, offering flexible hours for both. It utilizes advanced technologies including TrackMan, Foresight GC Quad, and SAM PuttLab for lessons, fitting, and play. The academy provides a range of programs from elite and junior golf to adult clinics, complemented by pro shop services, club fitting, and repair. Membership options are available for the outdoor season.",
+  "tags": "beginner_friendly|leagues|premium_tech|coaching_available|juniors_youth|serious_practice|family_friendly|budget_friendly|club_rentals",
+  "vibe_tags": "industrial_training|community_club|modern",
+  "who_its_for": "beginners|serious_golfers|families|juniors_youth|coaches_instructors",
+  "why_golfers_like_it": [
+    "Access to premium launch monitors like TrackMan and Foresight GC Quad for detailed game analysis",
+    "Comprehensive junior golf and elite programs for all skill levels",
+    "Year-round practice capabilities with both indoor and outdoor facilities"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Pizza is included in some class sessions, like the Adult Beginner Clinic"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Beer is included in the last night of certain classes, like the Adult Beginner Clinic"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "TrackMan",
+      "model": "unknown",
+      "notes": "Premium radar-based launch monitor used for fitting, lessons, and league play"
+    },
+    {
+      "brand": "Foresight",
+      "model": "GC Quad",
+      "notes": "Photometric camera-based launch monitor used for fitting, lessons, and league play"
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://golfacademytc.com/rates/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.7,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue provides club rentals, but you are welcome to bring your own clubs for use on the range or simulators."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue provides food and drinks in certain programs, like pizza and beer included in the Adult Beginner Clinic. Outside food and drink policies are not specified, but the presence of a pro shop suggests some concessions may be available."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The winter TrackMan league is a 13-week, 10-round, 9-hole format, suggesting a typical 9-hole round takes about an hour. Standard 18-hole simulator time would depend on group size and pace."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the academy offers a full schedule of junior golf programs year-round, including seasonal classes, camps, and clinics, making it very family-oriented."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"7:30AM-9PM\"], \"Tuesday\": [\"7:30AM-9PM\"], \"Wednesday\": [\"7:30AM-9PM\"], \"Thursday\": [\"7:30AM-9PM\"], \"Friday\": [\"7:30AM-9PM\"], \"Saturday\": [\"7AM-9PM\"], \"Sunday\": [\"7AM-9PM\"]}"
+}

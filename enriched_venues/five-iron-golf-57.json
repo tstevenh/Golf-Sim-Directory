@@ -1,0 +1,91 @@
+{
+  "name": "Five Iron Golf",
+  "address": "8015 Forsyth Blvd, Clayton, MO 63105",
+  "city": "Clayton",
+  "region": "Missouri",
+  "country": "US",
+  "latitude": 38.650675,
+  "longitude": -90.340377,
+  "phone": "+18005135153",
+  "website": "https://fiveirongolf.com/locations/st-louis-clayton/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770201610/golf_simulators/fiveirongolf_com_ChIJ6-WRLnzL2IcR86gtwUiUjDM.png",
+  "google_maps_url": "https://www.google.com/maps/place/Five+Iron+Golf/@38.650675299999996,-90.34037699999999,14z/data=!4m8!1m2!2m1!1sFive+Iron+Golf!3m4!1s0x87d8cb7c2e91e5eb:0x338c9448c12da8f3!8m2!3d38.650675299999996!4d-90.34037699999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ6-WRLnzL2IcR86gtwUiUjDM",
+  "email": "Clayton@fiveirongolf.com",
+  "venue_type": "sim_bar",
+  "about": "Five Iron Golf Clayton is an all-in-one indoor golf and entertainment facility in the St. Louis metro area. It combines elite golf technology with a vibrant social atmosphere, featuring an 8,300 square foot venue with 10 premium Trackman simulator bays. The facility offers access to 200+ PGA Tour venue courses, along with golf minigames and multi-sport simulators. Patrons can enjoy a full-service bar with a chef-curated menu, craft cocktails, and local beers on tap. The venue is designed as a world-class one-stop-shop for fun, offering golf practice, lessons, events, and social gatherings in a modern, accessible environment.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|coaching_available|private_rooms|club_rentals|party_atmosphere",
+  "vibe_tags": "sports_bar|tech_lab|community_club|modern",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "State-of-the-art Trackman technology provides accurate data for practice and improvement",
+    "Access to 200+ PGA Tour courses allows for playing world-renowned venues",
+    "On-site PGA-certified coaches offer structured lessons and club fitting services",
+    "Full-service bar and food menu create a social atmosphere for golf and entertainment",
+    "Flexible booking options for individual play, group events, and league participation"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Chef-curated menu available, featuring options like boneless wings"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full-service bar with craft cocktails and local beers on tap"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Premium dual-radar Trackman technology with multiple high-speed cameras"
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 10,
+  "booking_url": "https://booking.fiveirongolf.com/select-experience?location=st-louis-clayton",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|club_fitting|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, players are expected to bring their own golf clubs to use with the simulators."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No, outside food and drinks are not permitted. The venue offers a full-service bar and chef-curated menu."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "18 holes typically take 1-2 hours depending on the course and number of players in your group."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Five Iron Golf Clayton offers kids' parties and junior clinics, making it suitable for families with children."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"6AM-11PM\"], \"Tuesday\": [\"6AM-11PM\"], \"Wednesday\": [\"6AM-11PM\"], \"Thursday\": [\"6AM-11PM\"], \"Friday\": [\"6AM-1AM\"], \"Saturday\": [\"8AM-1AM\"], \"Sunday\": [\"8AM-11PM\"]}"
+}

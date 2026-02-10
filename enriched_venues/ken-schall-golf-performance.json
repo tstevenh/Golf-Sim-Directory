@@ -1,0 +1,94 @@
+{
+  "name": "Ken Schall Golf Performance",
+  "address": "2700 University Ave Suite 330, West Des Moines, IA 50266",
+  "city": "West Des Moines",
+  "region": "Iowa",
+  "country": "US",
+  "latitude": 41.598487,
+  "longitude": -93.741502,
+  "phone": "+15155282054",
+  "website": "http://kenschallgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770247810/golf_simulators/kenschallgolf_com_ChIJ6aAGLiCe7ocREZGh__IY5HE.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Ken+Schall+Golf+Performance/@41.598487399999996,-93.741502,14z/data=!4m8!1m2!2m1!1sKen+Schall+Golf+Performance!3m4!1s0x87ee9e202e06a0e9:0x71e418f2ffa19111!8m2!3d41.598487399999996!4d-93.741502",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ6aAGLiCe7ocREZGh__IY5HE",
+  "email": "kenschallgolfstudio@gmail.com",
+  "venue_type": "training_studio",
+  "about": "Ken Schall Golf Performance is a state-of-the-art teaching and club fitting studio established in 2015. The facility is powered by industry-leading Trackman radar and SAM Putt Lab technologies, enabling detailed analysis of swings and putting mechanics. Staffed entirely by PGA Professionals, the studio offers a serious practice environment with a focus on game improvement through technology-driven instruction, club fitting, and repair services. It caters to golfers of all abilities with a structured approach to coaching, including game evaluations and a junior development program called The Podium Project.",
+  "tags": "serious_golfers|juniors_youth|coaching_available|premium_tech|private_rooms|club_fitting|corporate_events|beginner_friendly|budget_friendly",
+  "vibe_tags": "tech_lab|industrial_training|community_club|welcoming",
+  "who_its_for": "serious_golfers|juniors_youth|coaches_instructors|beginners|corporate_teams",
+  "why_golfers_like_it": [
+    "Access to premium Trackman and SAM Putt Lab technology for precise data analysis",
+    "PGA Professional instruction with regular training and a focus on scoring, not just swings",
+    "Flexible simulator rental hours available early morning and late at night for focused practice"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service is mentioned."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service is mentioned."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Primary launch monitor used for all game analysis and lessons."
+    },
+    {
+      "brand": "Foresight",
+      "model": "Quad",
+      "notes": "Also utilized as a secondary launch monitor for data gathering."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar|hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface|dedicated_green",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "https://clients.uschedule.com/kenschallgolfstudio/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|club_fitting|pro_shop|wifi|tv_sports|leagues|ada_accessible",
+  "rating_tech_quality": 5.0,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The facility is fully equipped and club rentals are available. You can also bring your own clubs for lessons, practice, or fitting sessions."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "The studio's focus is on practice and instruction; no food or beverage service is mentioned. Bringing outside items may not be permitted."
+    },
+    {
+      "question": "How long does it take to play 18 holes on the simulator?",
+      "answer": "An 18-hole simulator session is not explicitly timed, but the environment is designed for focused practice and individual play, allowing players to complete rounds at their own pace."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, Ken Schall Golf offers junior programs, including The Podium Project for high school students, and is dedicated to developing young golfers, making it a kid-friendly environment."
+    }
+  ],
+  "rating_overall": 4.4,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"10AM-6PM\"], \"Wednesday\": [\"10AM-6PM\"], \"Thursday\": [\"10AM-6PM\"], \"Friday\": [\"10AM-5PM\"], \"Saturday\": [\"10AM-5PM\"], \"Sunday\": [\"Closed\"]}"
+}

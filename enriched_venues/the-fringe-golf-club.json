@@ -1,0 +1,90 @@
+{
+  "name": "The Fringe Golf Club",
+  "address": "214 N Franklin St STE A, Red Lion, PA 17356",
+  "city": "Red Lion",
+  "region": "Pennsylvania",
+  "country": "US",
+  "latitude": 39.899915,
+  "longitude": -76.612428,
+  "phone": "+12232237110",
+  "website": "https://fringegolfclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770222184/golf_simulators/fringegolfclub_com_ChIJywccj0GHyIkR3-hX0d_Ymxc.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Fringe+Golf+Club/@39.8999149,-76.6124285,14z/data=!4m8!1m2!2m1!1sThe+Fringe+Golf+Club!3m4!1s0x89c887418f1c07cb:0x179bd8dfd157e8df!8m2!3d39.8999149!4d-76.6124285",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJywccj0GHyIkR3-hX0d_Ymxc",
+  "venue_type": "sim_bar",
+  "about": "The Fringe Golf Club offers a premier indoor golf simulator experience suitable for both casual players and serious golfers. The facility features comprehensive golfing amenities including simulator rentals, professional lessons, and a convenient online booking system. Located adjacent to Franklin Street Social, a dining complex with 13 unique restaurants, it provides a convenient and enjoyable environment for golfers of all skill levels. The club operates as a BYOB establishment, allowing guests to bring their own beverages while playing. Memberships and group event rentals are available, with special accommodations for parties of six or more.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|coaching_available|private_rooms|club_rentals",
+  "vibe_tags": "casual|welcoming|modern|sports_bar",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "Premium golf simulator technology suitable for all skill levels",
+    "Convenient location with extensive dining options nearby",
+    "Flexible booking system and BYOB policy",
+    "Professional golf lessons available",
+    "Ideal for group events and corporate outings"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Available at adjacent Franklin Street Social complex with 13 unique restaurants"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "BYOB policy - guests can bring their own beverages to enjoy while playing"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "unknown",
+      "model": "unknown",
+      "notes": "Brand and model not specified, but described as 'top-notch golf simulator experiences'"
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://book.squareup.com/appointments/cz4of2nlnjmg0h/location/LHP4H5XTT75Q8/services",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "true",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|kitchen_food|tv_sports|private_party_room|wifi|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website doesn't explicitly mention whether club rentals are available or if you need to bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, The Fringe Golf Club operates as a BYOB establishment, allowing you to bring your favorite beverages to enjoy while you play. Food is available at the adjacent Franklin Street Social complex."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website doesn't specify the average time required to complete 18 holes on their simulators."
+    },
+    {
+      "question": "Is The Fringe Golf Club kid-friendly?",
+      "answer": "While not explicitly stated, the venue appears family-friendly with its welcoming atmosphere and availability for group outings, suggesting it can accommodate children and families."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"9AM-9PM\"], \"Wednesday\": [\"9AM-9PM\"], \"Thursday\": [\"9AM-9PM\"], \"Friday\": [\"9AM-11PM\"], \"Saturday\": [\"9AM-11PM\"], \"Sunday\": [\"9AM-6PM\"]}"
+}

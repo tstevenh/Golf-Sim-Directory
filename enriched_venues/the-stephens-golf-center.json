@@ -1,0 +1,89 @@
+{
+  "name": "The Stephens Golf Center",
+  "address": "5390 Limaburg Rd, Burlington, KY 41005",
+  "city": "Burlington",
+  "region": "Kentucky",
+  "country": "US",
+  "latitude": 39.028499,
+  "longitude": -84.69086,
+  "phone": "+18592821110",
+  "website": "https://stephensgolfcenter.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770209939/golf_simulators/stephensgolfcenter_com_ChIJM0NcqQDGQYgRV4tTqQYFMcY.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Stephens+Golf+Center/@39.0284994,-84.69085969999999,14z/data=!4m8!1m2!2m1!1sThe+Stephens+Golf+Center!3m4!1s0x8841c600a95c4333:0xc6310506a9538b57!8m2!3d39.0284994!4d-84.69085969999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJM0NcqQDGQYgRV4tTqQYFMcY",
+  "email": "chandlermcmahan06@gmail.com",
+  "venue_type": "sim_bar|training_studio",
+  "about": "The Stephens Golf Center is a high-tech golf practice and entertainment facility operating on 17 acres of terrain in Burlington, KY. It features a driving range with 34 covered bays equipped with Toptracer monitors, a 35,000 square foot grass tee, an 11,000 square foot putting green, and a short game area with a practice bunker. The venue is recognized as a Golf Range Association of America Top 50 Stand Alone Driving Range and is owned and operated by PGA Professional Andrew Stephens. The facility is powered by Toptracer technology and offers both golf simulation and instructional services. It also houses a bar with an affordable beer selection.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|kids_friendly|corporate_events|leagues|premium_tech|budget_friendly|coaching_available",
+  "vibe_tags": "casual|welcoming|modern|community_club",
+  "who_its_for": "beginners|serious_golfers|families|juniors_youth|solo_practice",
+  "why_golfers_like_it": [
+    "34 covered bays equipped with Toptracer touchscreen monitors for real-time shot data",
+    "Country club quality 35,000 square foot grass tee that accommodates 45 golfers",
+    "Access to an 11,000 square foot putting green and a dedicated short game practice area"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "BYOB is not mentioned; food options are unclear"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Home of the cheapest beer prices in town; beer and hard seltzer selection rotates by season"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Used for golf lessons and analysis"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 34,
+  "booking_url": "https://foreupsoftware.com/index.php/booking/20005/#/teetimes",
+  "pricing_model": "per_bay_hour|mixed",
+  "price_range_min_local": 25,
+  "price_range_max_local": null,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": null,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|full_bar|pro_shop|leagues|coaching_available",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need clubs?",
+      "answer": "The website does not explicitly state if clubs are provided, so it is recommended to bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "The venue has a bar with affordable beer and hard seltzer, but it is unclear if outside food and drink are permitted."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify the time required to play 18 holes, as it primarily focuses on practice and simulation."
+    },
+    {
+      "question": "Is it kid-friendly?",
+      "answer": "Yes, the facility offers junior golf programs, group classes for kids, and is generally welcoming to families, making it kid-friendly."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-8PM\"], \"Tuesday\": [\"10AM-8PM\"], \"Wednesday\": [\"10AM-8PM\"], \"Thursday\": [\"10AM-8PM\"], \"Friday\": [\"10AM-8PM\"], \"Saturday\": [\"10AM-8PM\"], \"Sunday\": [\"10AM-8PM\"]}"
+}

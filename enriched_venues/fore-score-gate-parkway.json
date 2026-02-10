@@ -1,0 +1,90 @@
+{
+  "name": "Fore Score Gate Parkway",
+  "address": "7570 Gate Pkwy #109, Jacksonville, FL 32256",
+  "city": "Jacksonville",
+  "region": "Florida",
+  "country": "US",
+  "latitude": 30.242566,
+  "longitude": -81.520937,
+  "phone": "+19042067801",
+  "website": "https://forescoregolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770244317/golf_simulators/forescoregolf_com_ChIJC6pwEsTL5YgRekUhsRHIJw8.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Fore+Score+Gate+Parkway/@30.242566,-81.52093649999999,14z/data=!4m8!1m2!2m1!1sFore+Score+Gate+Parkway!3m4!1s0x88e5cbc41270aa0b:0xf27c811b121457a!8m2!3d30.242566!4d-81.52093649999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJC6pwEsTL5YgRekUhsRHIJw8",
+  "email": "membership@forescoregolf.com",
+  "venue_type": "sim_bar",
+  "about": "Fore Score Golf Tavern operates two locations in Jacksonville, Florida (San Marco and Gate Parkway), offering a combination of golf simulation, food, and drink under one roof. The venue features Full Swing golf simulators, providing a platform for users to play virtual golf courses, practice their swing, or engage in competitive long drive challenges. It operates as a fast casual sports bar with a focus on being a local hangout, featuring events like trivia, live music, and league play alongside its golf offerings. Bays are reserved by the hour, and the facility caters to a range of activities from casual golf games to group outings and private events.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|private_rooms|club_rentals|community_club",
+  "vibe_tags": "sports_bar|family_fun_center|community_club",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Industry-leading Full Swing simulator technology for high-quality practice and play",
+    "Ability to play on famous courses like Pebble Beach and challenge friends to long drive competitions",
+    "Convenient all-in-one location combining golf, food, and drink for a complete social experience"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Elevated fast casual menu available at both San Marco and Gate Parkway locations"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with an inviting atmosphere for hanging out"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Full Swing",
+      "model": null,
+      "notes": "Industry leader in simulator technology, with 4 simulators at San Marco and 6 at Gate Parkway locations"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 10,
+  "booking_url": "https://www.forescoregolf.com/book-online",
+  "pricing_model": "per_bay_hour|membership",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 8,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, clubs and sporting equipment are provided for use, though you are welcome to bring your own."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, outside food and drinks are not allowed. The venue offers an elevated fast casual menu and a full bar."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "It takes an average golfer roughly an hour and a half to play 18 holes."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Fore Score Golf Tavern is designed as a family-friendly environment where people can make exciting memories over golf and games."
+    }
+  ],
+  "simulator_software": [
+    "Full Swing Golf"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"11AM-11PM\"], \"Tuesday\": [\"11AM-11PM\"], \"Wednesday\": [\"11AM-11PM\"], \"Thursday\": [\"11AM-11PM\"], \"Friday\": [\"11AM-12AM\"], \"Saturday\": [\"11AM-1AM\"], \"Sunday\": [\"10AM-10PM\"]}"
+}

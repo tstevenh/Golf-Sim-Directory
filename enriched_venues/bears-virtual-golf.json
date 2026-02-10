@@ -1,0 +1,91 @@
+{
+  "name": "Bear's Virtual Golf",
+  "address": "31 Commerce Ave, Danielson, CT 06239",
+  "city": "Danielson",
+  "region": "Connecticut",
+  "country": "US",
+  "latitude": 41.805752,
+  "longitude": -71.885025,
+  "phone": "+18602340842",
+  "website": "https://bearsvirtualgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770209175/golf_simulators/bearsvirtualgolf_com_ChIJI9i6tD4p5IkRlGFHCJWjrfg.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Bear%27s+Virtual+Golf/@41.805751799999996,-71.885025,14z/data=!4m8!1m2!2m1!1sBear%27s+Virtual+Golf!3m4!1s0x89e4293eb4bad823:0xf8ada39508476194!8m2!3d41.805751799999996!4d-71.885025",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJI9i6tD4p5IkRlGFHCJWjrfg",
+  "email": "BearsVirtualGolf@gmail.com",
+  "venue_type": "retail_fitting_center|training_studio|multi_sport_sim",
+  "about": "Bears Virtual Golf is a multi-bay simulator facility equipped with Trackman technology, offering a space for practice, lessons, club fittings, and league play. Located in Danielson, CT, the venue is attached to a pro shop that provides fittings and clubs from major manufacturers. The facility emphasizes professional instruction, with access to lessons from PGA Professional Fletcher Babcock, and offers seasonal leagues and tournaments. With a clear focus on technology and skill development, the venue is suited for golfers looking for a comprehensive training environment.",
+  "tags": "serious_golfers|club_fitting|coaching_available|leagues|premium_tech|beginner_friendly|juniors_youth",
+  "vibe_tags": "industrial_training|tech_lab|community_club",
+  "who_its_for": "serious_golfers|coaches_instructors|families|beginners|juniors_youth",
+  "why_golfers_like_it": [
+    "Access to premium Trackman launch monitor technology for precise data and simulation",
+    "On-site professional golf instruction from PGA-certified coaches",
+    "Comprehensive club fitting services with access to major brands like Callaway, Titleist, and TaylorMade",
+    "Supportive community environment with organized leagues and group events",
+    "Convenient location attached to a fully stocked pro shop"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No on-site food service mentioned."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Trackman Virtual Golf system powering two bays"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://bearsvirtualgolf.com/",
+  "pricing_model": "per_bay_hour|mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_fitting|pro_shop|leagues|coaching_available",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can bring your own clubs, or the venue offers club rentals and fittings with a wide selection of major brands available for purchase or fitting."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No outside food or drinks are permitted. The venue does not have an on-site kitchen or bar."
+    },
+    {
+      "question": "How long does an 18-hole round take?",
+      "answer": "While specific timing isn't mentioned, a typical simulated round at a multi-bay venue usually takes between 1.5 to 2 hours, depending on the simulator software and player pace."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The facility does not specifically advertise as kid-friendly, but it offers junior lessons and is likely welcoming to families for casual play and practice."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"8AM-10PM\"], \"Wednesday\": [\"8AM-10PM\"], \"Thursday\": [\"8AM-10PM\"], \"Friday\": [\"8AM-10PM\"], \"Saturday\": [\"8AM-10PM\"], \"Sunday\": [\"8AM-8PM\"]}"
+}

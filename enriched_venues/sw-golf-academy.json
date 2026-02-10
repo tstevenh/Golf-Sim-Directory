@@ -1,0 +1,95 @@
+{
+  "name": "SW Golf Academy",
+  "address": "4270 Henninger Ct Unit C, Chantilly, VA 20151",
+  "city": "Chantilly",
+  "region": "Virginia",
+  "country": "US",
+  "latitude": 38.885741,
+  "longitude": -77.434529,
+  "phone": "+18442247343",
+  "website": "http://www.theswgolfacademy.com/location/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770242988/golf_simulators/www_theswgolfacademy_com_ChIJE-tfrPQ_tokRN-uMC5uvu2g.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/SW+Golf+Academy/@38.8857406,-77.4345292,14z/data=!4m8!1m2!2m1!1sSW+Golf+Academy!3m4!1s0x89b63ff4ac5feb13:0x68bbaf9b0b8ceb37!8m2!3d38.8857406!4d-77.4345292",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJE-tfrPQ_tokRN-uMC5uvu2g",
+  "email": "2-BIRDIEwenpetren@pga.com",
+  "venue_type": "training_studio",
+  "about": "The SW Golf Academy is an indoor performance studio focused on game improvement through technology and professional coaching. Established in 2014, the facility utilizes industry-leading technology including dual TrackMan launch monitors with video analysis, a SAM Putt Lab, and a Flatstick Fire device to provide comprehensive swing and putting data. The academy offers various membership plans, private lessons, and practice sessions tailored to golfers of all skill levels, emphasizing structured learning strategies and long-term skill development.",
+  "tags": "serious_practice|beginner_friendly|coaching_available|juniors_youth|premium_tech|membership_only|casual",
+  "vibe_tags": "industrial_training|tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|juniors_youth|coaches_instructors|solo_practice",
+  "why_golfers_like_it": [
+    "Dual TrackMan bays with 21 specific shot measurements for precise analysis",
+    "Access to PGA professional instruction with a focus on mental game development",
+    "Flexible membership options including 24/7 access and premium studio plans",
+    "Junior camps and workshops available for developing players",
+    "Indoor facility allowing year-round practice regardless of weather"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of on-site food service"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Dual TrackMan bays with video analysis capabilities"
+    }
+  ],
+  "simulator_so": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://booknow.appointment-plus.com/7383pdx6/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 40,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "2",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, players should bring their own golf clubs for practice and lessons. The facility doesn't mention club rentals."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No outside food or drinks are mentioned as being permitted. The facility appears to be focused on golf practice with no dining facilities mentioned."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "No specific time is mentioned for 18 holes, but with dual TrackMan bays and focus on practice sessions, the facility is designed for skill development rather than full round simulation."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, the SW Golf Academy offers junior camp programs and is welcoming to young golfers, with specific programs designed for developing players."
+    }
+  ],
+  "simulator_software": [
+    "TrackMan Virtual Golf"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"10AM-7PM\"], \"Tuesday\": [\"10AM-7PM\"], \"Wednesday\": [\"10AM-7PM\"], \"Thursday\": [\"10AM-7PM\"], \"Friday\": [\"10AM-7PM\"], \"Saturday\": [\"10AM-7PM\"], \"Sunday\": [\"10AM-7PM\"]}"
+}

@@ -1,0 +1,95 @@
+{
+  "name": "Ready Golf Club",
+  "address": "300 E 5th St, New York, NY 10003",
+  "city": "New York",
+  "region": "New York",
+  "country": "US",
+  "latitude": 40.726603,
+  "longitude": -73.988811,
+  "phone": "+19178306987",
+  "website": "https://www.ready-gc.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770202375/golf_simulators/www_ready-gc_com_ChIJMypjpBVZwokRHR_IsqVi4nM.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Ready+Golf+Club/@40.7266026,-73.98881089999999,14z/data=!4m8!1m2!2m1!1sReady+Golf+Club!3m4!1s0x89c25915a4632a33:0x73e262a5b2c81f1d!8m2!3d40.7266026!4d-73.98881089999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJMypjpBVZwokRHR_IsqVi4nM",
+  "email": "info@readygc.com",
+  "venue_type": "sim_bar|training_studio|private_rental",
+  "about": "Ready Golf Club is a golf simulator venue located in the East Village of New York City, focused on providing accessible golf practice and play opportunities. The facility is equipped with two full-sized bays featuring Trackman Indoor Optimized (iO) and Foresight Falcon launch monitors, utilizing radar, infrared, and high-speed imaging to provide real-time ball data. Open 24/7 with hourly rates starting at $25, the venue is positioned as NYC's most accessible golf experience. Its mission is to simplify practice for city golfers by offering top-tier technology without the distractions of a bar or restaurant, catering to both individual players and groups looking for a convenient place to improve their game.",
+  "tags": "beginner_friendly|coaching_available|budget_friendly|private_rooms|late_night|community_club",
+  "vibe_tags": "industrial_training|tech_lab|casual|welcoming",
+  "who_its_for": "beginners|serious_golfers|families|solo_practice|corporate_teams",
+  "why_golfers_like_it": [
+    "24/7 access allows for flexible practice and play schedules",
+    "Top-tier Trackman and Foresight technology provides advanced ball tracking",
+    "Affordable hourly rates and memberships make premium practice accessible",
+    "Dedicated golf-only environment focused on the sport"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service available; the venue is strictly golf-focused."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service available; the venue is strictly golf-focused."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Industry-leading radar-based launch monitor in one bay"
+    },
+    {
+      "brand": "Foresight",
+      "model": "Falcon",
+      "notes": "Advanced launch monitor in the other bay"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 2,
+  "booking_url": "https://readygolf.podplay.app/book/east-village?pod=manhattan-golf-sim-bay",
+  "pricing_model": "mixed",
+  "price_range_min_local": 25,
+  "price_range_max_local": 55,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|wifi|coaching_available|private_rooms",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue does not specify whether club rentals are available. It's recommended to bring your own clubs for the best experience."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, the venue is strictly golf-focused and does not allow food or drinks, as it is 'Not a bar. Not a restaurant. Just golf.'"
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The venue does not specify a time for playing 18 holes, as it primarily focuses on practice and play sessions booked by the hour."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The venue does not specifically mention policies for children. However, it does state that its weekly clinics are open to 'all skill levels,' which could include juniors."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

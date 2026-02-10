@@ -1,0 +1,91 @@
+{
+  "name": "Apex Golf Club",
+  "address": "18039 SW Lower Boones Ferry Rd, Tigard, OR 97224",
+  "city": "Tigard",
+  "region": "Oregon",
+  "country": "US",
+  "latitude": 45.391969,
+  "longitude": -122.751017,
+  "phone": "+15034610298",
+  "website": "https://playapexgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770219936/golf_simulators/playapexgolf_com_ChIJRyWx7y9zlVQRehu_NgT_4ms.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Apex+Golf+Club/@45.3919693,-122.75101719999999,14z/data=!4m8!1m2!2m1!1sApex+Golf+Club!3m4!1s0x5495732fefb12547:0x6be2ff0436bf1b7a!8m2!3d45.3919693!4d-122.75101719999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJRyWx7y9zlVQRehu_NgT_4ms",
+  "email": "info@playapexgolf.com",
+  "venue_type": "sim_bar",
+  "about": "Apex Golf Club is an indoor golf and bar facility in Tigard, Oregon, featuring GolfZon simulator technology. The venue offers private bays for hourly play, along with a full-service bar and kitchen. It caters to all skill levels with a focus on providing a premium, year-round golf experience complemented by a lounge atmosphere and social amenities. The club supports various activities including leagues, lessons, corporate events, and private parties with food and beverage service.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|private_rooms|club_rentals|coaching_available",
+  "vibe_tags": "upscale_lounge|sports_bar|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Cutting-edge GolfZon simulator technology with tour-level accuracy",
+    "Full bar and kitchen service delivered directly to the bay",
+    "Private bays accommodating up to 6 players for group play",
+    "Beginner-friendly environment with complimentary club rentals",
+    "Year-round indoor golf experience unaffected by weather"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Curated menu of snacks and shareables available for delivery to bays"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service with craft cocktails, local beers, and beverage delivery to bays"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "GolfZon",
+      "model": "Simulator",
+      "notes": "High-speed overhead cameras providing tour-level data on ball speed, launch angle, and spin rate with moving swing plates and auto-tee technology"
+    }
+  ],
+  "simulator_software": [
+    "GolfZon"
+  ],
+  "launch_monitor_type": "overhead_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green|mixed",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://app.whoosh.io/patron/club/apex-golf-club",
+  "pricing_model": "per_bay_hour|mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|leagues|private_party_room",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, complimentary high-quality clubs are provided for all guests."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "Outside food and drink are not mentioned as allowed. The venue provides a full bar and kitchen with food and beverage service delivered to your bay."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "It is recommended to allow 4 players for a full 18-hole round, though specific time frames are not detailed."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue welcomes all skill levels and mentions birthday parties as an option, indicating it is suitable for families and children."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-11PM\"], \"Saturday\": [\"9AM-11PM\"], \"Sunday\": [\"9AM-10PM\"]}"
+}

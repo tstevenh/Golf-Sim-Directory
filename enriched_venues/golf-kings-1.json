@@ -1,0 +1,92 @@
+{
+  "name": "Golf Kings",
+  "address": "1825 NJ-35 Ste 5, Wall Township, NJ 07719",
+  "city": "Wall Township",
+  "region": "New Jersey",
+  "country": "US",
+  "latitude": 40.166626,
+  "longitude": -74.051041,
+  "phone": "+17328006923",
+  "website": "http://www.golfkingsnj.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770211626/golf_simulators/www_golfkingsnj_com_ChIJo9DHbomHwYkRnxaJa2XppWU.png",
+  "google_maps_url": "https://www.google.com/maps/place/Golf+Kings/@40.1666259,-74.0510406,14z/data=!4m8!1m2!2m1!1sGolf+Kings!3m4!1s0x89c187896ec7d0a3:0x65a5e9656b89169f!8m2!3d40.1666259!4d-74.0510406",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJo9DHbomHwYkRnxaJa2XppWU",
+  "venue_type": "sim_bar|training_studio|retail_fitting_center",
+  "about": "Golf Kings is an indoor golf simulator lounge and pro shop with multiple locations in New Jersey, including Brick, Wall, and Toms River. The facility offers a modern golf experience powered by TrackMan technology, featuring a virtual driving range, a library of courses from around the world, and private bays equipped with TVs. Memberships are available and include benefits like reduced hourly rates and discounted lessons. The venue also operates a pro shop for club fittings, regripping services, and apparel sales.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|club_rentals|coaching_available",
+  "vibe_tags": "sports_bar|tech_lab|community_club|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "Access to TrackMan technology for detailed swing analytics",
+    "Private bays with TVs for watching sports while playing",
+    "Variety of courses available for play from around the world",
+    "On-site PGA professionals for lessons and club fittings"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No on-site food service mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No on-site bar or alcohol service mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Premium radar-based launch monitor"
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://clients.uschedule.com/golfkingsnj/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 70,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|pro_shop|club_fitting|leagues|tv_sports",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue offers club rentals and pro shop services, but bringing your own clubs is recommended for consistency."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No on-site food or alcohol service is mentioned, so outside food and drinks are likely not permitted."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Time for 18 holes varies depending on player skill level and simulator usage, but typically ranges from 2-3 hours."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "There is no specific information regarding child-friendly amenities or policies."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"9AM-10PM\"], \"Saturday\": [\"8AM-10PM\"], \"Sunday\": [\"8AM-10PM\"]}"
+}

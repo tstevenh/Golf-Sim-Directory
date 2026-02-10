@@ -1,0 +1,84 @@
+{
+  "name": "The Green Room",
+  "address": "151 FM 407 Suite 103, Argyle, TX 76226",
+  "city": "Argyle",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 33.102677,
+  "longitude": -97.188214,
+  "phone": "+19402052705",
+  "website": "https://www.tgr.golf/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770200632/golf_simulators/www_tgr_golf_ChIJOxyJjATPTYYRSpKLHvnSGR4.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Green+Room/@33.1026774,-97.18821439999999,14z/data=!4m8!1m2!2m1!1sThe+Green+Room!3m4!1s0x864dcf048c891c3b:0x1e19d2f91e8b924a!8m2!3d33.1026774!4d-97.18821439999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJOxyJjATPTYYRSpKLHvnSGR4",
+  "email": "info@TGR.GOLF",
+  "venue_type": "sim_bar",
+  "about": "The Green Room is a 24/7 indoor golf simulator lounge located in Argyle, Texas. It utilizes state-of-the-art launch monitor technology to provide a data-driven environment for players to track every swing, improve with real-time data, and play world-famous courses. The facility emphasizes a community-focused atmosphere, catering to all skill levels, and offers amenities such as leagues, lessons, and corporate event hosting. Booking is done online through a third-party system, and the venue highlights its convenient location behind CVS.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|coaching_available|late_night|club_rentals|community_club",
+  "vibe_tags": "upscale_lounge|community_club|modern",
+  "who_its_for": "beginners|serious_golfers|corporate_teams|solo_practice|families",
+  "why_golfers_like_it": [
+    "24/7 access for flexible play schedules",
+    "Advanced launch monitor technology providing detailed swing data",
+    "Community and leagues for competitive and social play",
+    "Professional PXG club fitting available"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "Not explicitly mentioned, but event hosting suggests catering options."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Delivered cocktails or wine are available during the PXG fitting day events."
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": null,
+  "booking_url": "https://app.birrdi.com/u/reserve?team_booking_link_id=the-green-room-sims&date=2025-05-17",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": null,
+  "coaching_available": true,
+  "private_rooms_count": null,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|private_party_room|leagues|club_fitting",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify, but the availability of club rentals and fitting services suggests it may be optional."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Not explicitly stated. The venue mentions delivered cocktails or wine during specific events, suggesting a BYOB policy might not be standard."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "The website does not provide an estimated time for an 18-hole round."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "Yes, the head coach mentions having experience teaching students as young as 2 years old, and the facility is described as welcoming all skill levels."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

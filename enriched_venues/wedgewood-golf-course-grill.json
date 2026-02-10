@@ -1,0 +1,90 @@
+{
+  "name": "Wedgewood Golf Course & Grill",
+  "address": "1200 E Huron St, Omro, WI 54963",
+  "city": "Omro",
+  "region": "Wisconsin",
+  "country": "US",
+  "latitude": 44.038526,
+  "longitude": -88.730492,
+  "phone": "+19206856161",
+  "website": "http://www.wedgewoodgolfandgrill.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770263823/golf_simulators/www_wedgewoodgolfandgrill_com_ChIJJei4dj7hA4gR-iiTQxFbHPc.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Wedgewood+Golf+Course+%26+Grill/@44.038526399999995,-88.7304918,14z/data=!4m8!1m2!2m1!1sWedgewood+Golf+Course+%26+Grill!3m4!1s0x8803e13e76b8e825:0xf71c5b11439328fa!8m2!3d44.038526399999995!4d-88.7304918",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJJei4dj7hA4gR-iiTQxFbHPc",
+  "venue_type": "sim_bar",
+  "about": "Wedgewood Golf & Grill is a 9-hole, par 35 golf course located south of State Highway 21 in Omro, WI. The facility features a full-service grill and bar, offering a family-friendly environment with a menu that includes everything from kids' meals to catered steak dinners. The venue provides both outdoor golf on a tight, challenging course and year-round indoor access via a single golf simulator bay for practice and play.",
+  "tags": "beginner_friendly|food_and_drinks|families|corporate_events|budget_friendly|club_rentals|private_rooms|coaching_available",
+  "vibe_tags": "casual|welcoming|community_club|family_fun_center",
+  "who_its_for": "beginners|families|corporate_teams|solo_practice|juniors_youth",
+  "why_golfers_like_it": [
+    "Affordable and accessible golf for all skill levels",
+    "Indoor simulator available year-round for practice and play",
+    "Full-service kitchen and bar for post-round dining and socializing",
+    "Tight course layout provides a challenging and unique on-course experience",
+    "Friendly and welcoming atmosphere for golfers and non-golfers alike"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full-service kitchen with a full menu, including kids' meals, fish & seafood, and catered steak dinners"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar available after your round"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "E6 Connect",
+      "model": "Simulator",
+      "notes": "Available for use all year long"
+    }
+  ],
+  "simulator_software": [
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 1,
+  "booking_url": "http://www.wedgewoodgolfandgrill.com/golf-simulator",
+  "pricing_model": "per_person_hour",
+  "price_range_min_local": 25,
+  "price_range_max_local": 35,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|pro_shop",
+  "rating_tech_quality": 4.0,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify club rentals, so it is recommended to bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, the venue features a full-service kitchen and bar, so outside food and drinks are likely not permitted."
+    },
+    {
+      "question": "How long does it take to play 18 holes on the simulator?",
+      "answer": "The website does not specify the duration for playing 18 holes on the simulator, but reservations are scheduled on an hourly basis."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is family-friendly and offers a full menu with kids' meals."
+    }
+  ],
+  "rating_overall": 4.0,
+  "opening_hours": null
+}

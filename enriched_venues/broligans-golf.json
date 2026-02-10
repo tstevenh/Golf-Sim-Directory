@@ -1,0 +1,88 @@
+{
+  "name": "Broligans Golf",
+  "address": "3825 Quanah Hill Rd Unit 7, Brock, TX 76087",
+  "city": "Brock",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 32.719472,
+  "longitude": -97.898832,
+  "phone": "+18172218390",
+  "website": "https://www.broligans.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770210716/golf_simulators/www_broligans_com_ChIJ78W_OFX7UYYRF3IVlAiZTWs.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Broligans+Golf/@32.7194718,-97.898832,14z/data=!4m8!1m2!2m1!1sBroligans+Golf!3m4!1s0x8651fb5538bfc5ef:0x6b4d990894157217!8m2!3d32.7194718!4d-97.898832",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ78W_OFX7UYYRF3IVlAiZTWs",
+  "venue_type": "sim_bar|training_studio",
+  "about": "Broligans Golf is an indoor golf simulation studio in Parker County, Texas. The venue features two bays equipped with Trackman simulators, allowing golfers to play year-round regardless of weather conditions. It caters to golfers of every level with a focus on technology, realistic course experiences, and a variety of membership options designed for regular play and practice. The facility is powered by Hyper CB and offers a space for both casual play and serious skill development through its advanced tracking systems and league programs.",
+  "tags": "beginner_friendly|serious_golfers|leagues|corporate_events|private_rooms|club_rentals|premium_tech|community_club",
+  "vibe_tags": "sports_bar|tech_lab|casual|welcoming",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Premium Trackman technology provides the most realistic virtual course experience and extensive ball flight data",
+    "Year-round access to two simulator bays, allowing for consistent practice and play regardless of weather",
+    "Flexible membership tiers with daily play hours and significant savings for committed golfers"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned on the website"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No bar or alcohol service mentioned on the website"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "2 bays equipped with Trackman simulators"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://www.broligans.com/book-a-bay",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|leagues|private_rooms",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, free club rentals are included with all memberships and are available for non-members as well."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No outside food or drinks are mentioned as being permitted. The website does not list a kitchen or bar service."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify the time required for an 18-hole round, but memberships are structured around 1-hour daily play sessions."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "The website does not explicitly state that the venue is kid-friendly, though it mentions it's perfect for golfers of every level and is available for hosting events like birthday parties."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

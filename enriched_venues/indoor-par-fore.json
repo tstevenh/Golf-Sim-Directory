@@ -1,0 +1,89 @@
+{
+  "name": "Indoor Par Fore",
+  "address": "1326 NW Hwy 7, Blue Springs, MO 64014",
+  "city": "Blue Springs",
+  "region": "Missouri",
+  "country": "US",
+  "latitude": 39.033981,
+  "longitude": -94.270738,
+  "phone": "+18169887088",
+  "website": "http://www.indoorparfore.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770202689/golf_simulators/www_indoorparfore_com_ChIJ9b7sF1QbwYcRbk73Dhs33lI.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Indoor+Par+Fore/@39.0339812,-94.2707377,14z/data=!4m8!1m2!2m1!1sIndoor+Par+Fore!3m4!1s0x87c11b5417ecbef5:0x52de371b0ef74e6e!8m2!3d39.0339812!4d-94.2707377",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ9b7sF1QbwYcRbk73Dhs33lI",
+  "venue_type": "sim_bar",
+  "about": "Indoor Par Fore is an indoor golf simulator venue that opened in 2023. The facility is equipped with Uneekor Eye XO launch monitors paired with GSPro software, offering players access to over 2,000 worldwide golf courses in 3D graphics. Pricing is structured per hour, with rates varying by day and time, and accommodates up to six people per bay. The venue offers a casual, welcoming environment with on-site club rentals and a full bar featuring craft beers and specialty cocktails.",
+  "tags": "food_and_drinks|beginner_friendly|leagues|premium_tech|corporate_events|club_rentals",
+  "vibe_tags": "sports_bar|casual|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "High-tech Uneekor Eye XO launch monitors for precise swing data",
+    "Access to over 2,000 3D golf courses via GSPro software",
+    "Casual atmosphere with craft beers and specialty cocktails available",
+    "Flexible pricing with discounted rates for military and first responders"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Appetizers available"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Craft beers and specialty cocktails served"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "Eye XO",
+      "notes": "Overhead launch monitor with dual high-speed camera technology"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "overhead_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://clients.uschedule.com/indoorparfore/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 25,
+  "price_range_max_local": 40,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": false,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, clubs are available for rental on-site, but you can also bring your own."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No, outside food or drink is not permitted in the simulator areas."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "1 hour is equal to 1 person for 18 holes once familiar with the system. However, all golfers play at different paces, so completion cannot be guaranteed within your reserved time."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, children under 14 must have an adult present at all times."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"11AM-10PM\"], \"Tuesday\": [\"11AM-10PM\"], \"Wednesday\": [\"11AM-10PM\"], \"Thursday\": [\"11AM-10PM\"], \"Friday\": [\"11AM-12AM\"], \"Saturday\": [\"11AM-12AM\"], \"Sunday\": [\"11AM-6PM\"]}"
+}

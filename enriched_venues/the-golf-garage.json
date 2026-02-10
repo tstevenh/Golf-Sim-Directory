@@ -1,0 +1,91 @@
+{
+  "name": "The Golf Garage",
+  "address": "1282 Vierling Dr E, Shakopee, MN 55379",
+  "city": "Shakopee",
+  "region": "Minnesota",
+  "country": "US",
+  "latitude": 44.779575,
+  "longitude": -93.506077,
+  "phone": "+19529779181",
+  "website": "https://thegolfgaragemn.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770203889/golf_simulators/thegolfgaragemn_com_ChIJjakg26IR9ocRo_nblwuKbfE.png",
+  "google_maps_url": "https://www.google.com/maps/place/The+Golf+Garage/@44.7795752,-93.5060773,14z/data=!4m8!1m2!2m1!1sThe+Golf+Garage!3m4!1s0x87f611a2db20a98d:0xf16d8a0b97dbf9a3!8m2!3d44.7795752!4d-93.5060773",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJjakg26IR9ocRo_nblwuKbfE",
+  "email": "info@thegolfgaragemn.com",
+  "venue_type": "sim_bar",
+  "about": "The Golf Garage is an indoor golf simulator venue located in Shakopee, MN, offering premium golf simulators that deliver tour-level accuracy and entertainment. The facility features eight simulator bays, each equipped with 4K projectors and Foresight GC Hawk launch monitors. Simulators are rented by the hour, accommodating up to six players per bay, and are suitable for various skill levels and activities, including practice, full rounds, and special events. The venue also incorporates a food and drink menu, offering options like pizza and chicken wings, and features TVs for sports viewing, particularly Minnesota Vikings games with 2-for-1 drink specials.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|kids_friendly|corporate_events|leagues|premium_tech|family_fun_center|party_atmosphere|community_club",
+  "vibe_tags": "sports_bar|family_fun_center|party_atmosphere|modern|welcoming",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "Premium Foresight GC Hawk launch monitors with tour-level accuracy",
+    "8 climate-controlled simulator bays with 4K projectors for high-quality visuals",
+    "Flexible pricing model allowing up to 6 players per bay at the same hourly rate",
+    "No rain delays or dress code constraints, enabling year-round play",
+    "Combines golf with food, drinks, and sports entertainment for a multi-faceted experience"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Wide variety of food including pizza and chicken wings available for dine-in."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with beer, cider, and seltzers; 2-for-1 specials during Vikings games."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": "GC Hawk",
+      "notes": "4K projectors paired with Foresight GC Hawk launch monitors in each of the 8 bays."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 8,
+  "booking_url": "https://clients.uschedule.com/thegolfgarage/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 40,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": false,
+  "coaching_available": true,
+  "private_rooms_count": 0,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|leagues|wifi|pro_shop|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, players are expected to bring their own golf clubs to use with the simulators."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drinks are not mentioned; the venue offers its own menu with food and drinks available for purchase."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "On average, it takes about one hour per person to complete 18 holes."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, The Golf Garage offers a Junior Golf Program for ages 6-9 and welcomes families with children."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"11AM-10PM\"], \"Tuesday\": [\"11AM-10PM\"], \"Wednesday\": [\"11AM-10PM\"], \"Thursday\": [\"11AM-10PM\"], \"Friday\": [\"11AM-10PM\"], \"Saturday\": [\"9AM-10PM\"], \"Sunday\": [\"11AM-7PM\"]}"
+}

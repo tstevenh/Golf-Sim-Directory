@@ -1,0 +1,90 @@
+{
+  "name": "Mulligan's Golf Bar",
+  "address": "4525 Milwaukee Ave #300, Lubbock, TX 79407",
+  "city": "Lubbock",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 33.55131,
+  "longitude": -101.956476,
+  "phone": "+18064075605",
+  "website": "https://www.mulliganstx.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770250980/golf_simulators/www_mulliganstx_com_ChIJcRfVPv5z_oYRaQiMQdwPmWs.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Mulligan%27s+Golf+Bar/@33.5513104,-101.9564759,14z/data=!4m8!1m2!2m1!1sMulligan%27s+Golf+Bar!3m4!1s0x86fe73fe3ed51771:0x6b990fdc418c0869!8m2!3d33.5513104!4d-101.9564759",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJcRfVPv5z_oYRaQiMQdwPmWs",
+  "email": "golf@mulliganstx.com",
+  "venue_type": "sim_bar",
+  "about": "Mulligan's Golf Bar offers a golf simulator experience within a bar and restaurant setting. The venue provides bays for reserving simulator time and operates with extended hours, opening at 11:00 AM on weekends and weekdays. It features a full kitchen and bar menu available for customers, combining golf simulation with food and beverage service. The facility is accessible by reservation, with options to book online or by phone, and has a liability waiver for equipment use.",
+  "tags": "food_and_drinks|date_night|corporate_events|leagues|premium_tech|private_rooms|club_rentals|late_night|coaching_available",
+  "vibe_tags": "casual|welcoming|sports_bar",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Combines golf simulation with a bar and restaurant experience",
+    "Extended hours allow for late-night practice and socializing",
+    "Online reservation system for convenient booking",
+    "Full kitchen and bar menu available during play"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen menu available, including brunch"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "unknown",
+      "notes": "Premium radar technology based on liability waiver terms"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://www.sevenrooms.com/reservations/mulligansgolfbar/?duration-picker=true",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue doesn't explicitly mention club rentals, so it's recommended to bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, Mulligan's has a full kitchen and bar that is available for customers during their visit."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Standard 18-hole simulation typically takes 1-2 hours depending on player speed and settings."
+    },
+    {
+      "question": "Is Mulligan's kid-friendly?",
+      "answer": "Yes, the venue operates with extended weekend hours starting at 11:00 AM and appears to accommodate families."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"3PM-2AM\"], \"Tuesday\": [\"3PM-2AM\"], \"Wednesday\": [\"3PM-2AM\"], \"Thursday\": [\"3PM-2AM\"], \"Friday\": [\"3PM-2AM\"], \"Saturday\": [\"11AM-2AM\"], \"Sunday\": [\"11AM-2AM\"]}"
+}

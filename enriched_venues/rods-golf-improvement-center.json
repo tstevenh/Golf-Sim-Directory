@@ -1,0 +1,94 @@
+{
+  "name": "Rod's Golf Improvement Center",
+  "address": "320 Great Rd, Littleton, MA 01460",
+  "city": "Littleton",
+  "region": "Massachusetts",
+  "country": "US",
+  "latitude": 42.545752,
+  "longitude": -71.471913,
+  "phone": "+19782631800",
+  "website": "https://rodsindoorgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770232358/golf_simulators/rodsindoorgolf_com_ChIJg6Vv_nmW44kRgdXIlz-2oSc.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Rod%27s+Golf+Improvement+Center/@42.5457523,-71.4719126,14z/data=!4m8!1m2!2m1!1sRod%27s+Golf+Improvement+Center!3m4!1s0x89e39679fe6fa583:0x27a1b63f97c8d581!8m2!3d42.5457523!4d-71.4719126",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJg6Vv_nmW44kRgdXIlz-2oSc",
+  "venue_type": "training_studio",
+  "about": "Rod's Golf Improvement Center is a facility focused on golf training and practice, featuring two indoor golf simulators and comprehensive instruction services. The center utilizes DeadSolid and Flightscope technology with E6 software to provide a realistic golfing experience year-round. Services include private and group lessons, club repair, custom fitting, and a pro shop for equipment. The venue is suitable for golfers of all ages and skill levels, from beginners looking to learn basics to experienced players refining their technique.",
+  "tags": "beginner_friendly|serious_practice|coaching_available|club_rentals|pro_shop|custom_fitting|group_lessons|family_friendly",
+  "vibe_tags": "industrial_training|community_club|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|families|solo_practice|coaches_instructors",
+  "why_golfers_like_it": [
+    "State-of-the-art DeadSolid and Flightscope simulators with detailed swing analysis",
+    "Year-round weather-independent golf practice with advanced tracking technology",
+    "Comprehensive services including lessons, club repair, and custom fitting",
+    "Flexible lesson packages and group rates for different skill levels"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned, BYOB not specified"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "DeadSolid",
+      "model": "unknown",
+      "notes": "Two state-of-the-art simulators"
+    },
+    {
+      "brand": "Flightscope",
+      "model": "unknown",
+      "notes": "Advanced tracking technology"
+    }
+  ],
+  "simulator_software": [
+    "E6"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://rodsindoorgolf.com/contact-us/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 25,
+  "price_range_max_local": 70,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|pro_shop|club_fitting|coaching_available|group_lessons",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you should bring your own clubs as the venue doesn't explicitly mention club rentals."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No food or drink services are mentioned, so bringing your own is not specified."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time for 18 holes isn't specified, but simulator time can be booked in advance with slots filling up quickly."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "Yes, the venue offers golf lessons for all ages and skill levels, making it suitable for juniors and youth golfers."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-8PM\"], \"Tuesday\": [\"10AM-8PM\"], \"Wednesday\": [\"10AM-8PM\"], \"Thursday\": [\"10AM-8PM\"], \"Friday\": [\"10AM-8PM\"], \"Saturday\": [\"8AM-6PM\"], \"Sunday\": [\"8AM-6PM\"]}"
+}

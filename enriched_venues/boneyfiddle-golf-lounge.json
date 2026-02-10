@@ -1,0 +1,91 @@
+{
+  "name": "Boneyfiddle Golf & Lounge",
+  "address": "348rd St, Portsmouth, OH 45662",
+  "city": "Portsmouth",
+  "region": "Ohio",
+  "country": "US",
+  "latitude": 38.731743,
+  "longitude": -82.997674,
+  "phone": "+17405291151",
+  "website": "http://www.boneyfiddlegolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770211367/golf_simulators/www_boneyfiddlegolf_com_ChIJuxoOz7GNRogR-R5kxUNjnfU.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Boneyfiddle+Golf+%26+Lounge/@38.731743099999996,-82.99767419999999,14z/data=!4m8!1m2!2m1!1sBoneyfiddle+Golf+%26+Lounge!3m4!1s0x88468db1cf0e1abb:0xf59d6343c5641ef9!8m2!3d38.731743099999996!4d-82.99767419999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJuxoOz7GNRogR-R5kxUNjnfU",
+  "email": "filler@godaddy.com",
+  "venue_type": "sim_bar",
+  "about": "Boneyfiddle Golf & Lounge is a golf simulator venue that provides an indoor golf experience combined with a lounge atmosphere. The facility features Foresight Sports simulator bays, widely regarded as a top-rated brand in the industry, allowing players to access over 25 golf courses worldwide. Pricing is structured at $35 per bay hour, with the facility accommodating up to four players per bay. Recommended time frames for an 18-hole round are 2 hours for two players and 3-4 hours for four players. The venue also offers a full pro shop with club rentals, grip services, apparel, and accessories, along with golf lessons available for groups of 1-3 players. Guests can enjoy drinks and snack foods in the lounge area, which is equipped with TVs, making it suitable for both golfers and social gatherings. The venue is available for large party rentals and is also home to golf leagues, offering a community-oriented environment for players of all skill levels.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|club_rentals|family_friendly|coaching_available",
+  "vibe_tags": "casual|welcoming|modern",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|serious_golfers",
+  "why_golfers_like_it": [
+    "Top-tier Foresight Sports simulator technology for a realistic golf experience",
+    "Flexible booking with per-bay pricing, accommodating groups up to 4 players",
+    "On-site pro shop offering rentals, repairs, and a selection of top golf brands",
+    "Lounge atmosphere with TVs and food/drinks available for a social experience",
+    "Support for large parties and golf leagues, fostering a community environment"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Snack foods are available on-site."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Drinks are available in the lounge area."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight Sports",
+      "model": null,
+      "notes": "Top-rated simulator brand mentioned as #1 in the industry"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "http://www.boneyfiddlegolf.com/m/bookings",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 35,
+  "price_range_max_local": 35,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|kitchen_food|tv_sports|pro_shop|leagues|private_party_room",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own golf clubs?",
+      "answer": "No, club rentals are available for $10 per session."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "Drinks and snack foods are available for purchase on-site. There is no mention of outside food or drink policies."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The recommended time for 2 players to play 18 holes is 2 hours, and for 4 players, it is 3-4 hours."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, golfers under 18 must be accompanied by an adult, indicating a family-friendly environment."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"10AM-9PM\"], \"Wednesday\": [\"10AM-9PM\"], \"Thursday\": [\"10AM-9PM\"], \"Friday\": [\"10AM-10PM\"], \"Saturday\": [\"10AM-10PM\"], \"Sunday\": [\"10AM-8PM\"]}"
+}

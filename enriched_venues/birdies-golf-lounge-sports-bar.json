@@ -1,0 +1,89 @@
+{
+  "name": "Birdies Golf Lounge & Sports Bar",
+  "address": "380 Seville Dr, Jordan, MN 55352",
+  "city": "Jordan",
+  "region": "Minnesota",
+  "country": "US",
+  "latitude": 44.666407,
+  "longitude": -93.638175,
+  "phone": "+19522561593",
+  "website": "http://birdieslounge.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770260969/golf_simulators/birdieslounge_com_ChIJNd18x0wN9ocRPV_Vlb0bVCM.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Birdies+Golf+Lounge+%26+Sports+Bar/@44.666406699999996,-93.63817449999999,14z/data=!4m8!1m2!2m1!1sBirdies+Golf+Lounge+%26+Sports+Bar!3m4!1s0x87f60d4cc77cdd35:0x23541bbd95d55f3d!8m2!3d44.666406699999996!4d-93.63817449999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJNd18x0wN9ocRPV_Vlb0bVCM",
+  "email": "j.pieper@birdieslounge.com",
+  "venue_type": "sim_bar",
+  "about": "Birdies Golf Lounge & Sports Bar is a modern indoor golf facility featuring three state-of-the-art Full Swing simulators. The venue caters to both new golfers seeking immediate swing feedback and experienced players looking for advanced data analytics. While the primary focus is golf simulation, the establishment also operates as a sports bar with food and drinks, creating an inviting atmosphere for non-golfers as well. Pricing is structured around time-based reservations rather than per-person fees, with packages available for longer play sessions.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|families|corporate_events|leagues|premium_tech|budget_friendly|private_rooms|club_rentals|community_club",
+  "vibe_tags": "sports_bar|tech_lab|casual|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Full Swing's industry-leading infrared and blue light LED technology for precise ball tracking",
+    "Immediate swing data feedback including carry distance, club speed, and launch angle",
+    "Time-based reservation system allowing flexible sessions for individuals or groups"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen available with food menu for non-golfers and players"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available with sports games on TV upon request"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Full Swing",
+      "model": "Pro Series",
+      "notes": "Features 688 infrared sensors across two tracks for measuring ball mid-flight at the speed of light"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://clients.uschedule.com/birdieslounge/booking",
+  "pricing_model": "package",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website doesn't specify club rental options, so it's recommended to bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "Outside food and drinks are not mentioned, but the venue has a full kitchen and bar on-site."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "On average, one person can play 18 holes in one hour. A group of 4 players can finish in 4 hours."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "Yes, the venue offers a welcoming atmosphere and is suitable for families."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"3-10PM\"], \"Tuesday\": [\"3-10PM\"], \"Wednesday\": [\"3-10PM\"], \"Thursday\": [\"11AM-10PM\"], \"Friday\": [\"11AM-10PM\"], \"Saturday\": [\"11AM-10PM\"], \"Sunday\": [\"11AM-7PM\"]}"
+}

@@ -1,0 +1,89 @@
+{
+  "name": "Old Line Golf Club",
+  "address": "302 Harry S. Truman Pkwy Suite E, Annapolis, MD 21401",
+  "city": "Annapolis",
+  "region": "Maryland",
+  "country": "US",
+  "latitude": 38.974857,
+  "longitude": -76.555623,
+  "phone": "+16156785597",
+  "website": "https://www.oldlinegolfclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770202477/golf_simulators/www_oldlinegolfclub_com_ChIJvZ0IebPxt4kR2SQBsxoSsF8.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Old+Line+Golf+Club/@38.9748567,-76.5556228,14z/data=!4m8!1m2!2m1!1sOld+Line+Golf+Club!3m4!1s0x89b7f1b379089dbd:0x5fb0121ab30124d9!8m2!3d38.9748567!4d-76.5556228",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJvZ0IebPxt4kR2SQBsxoSsF8",
+  "venue_type": "training_studio",
+  "about": "Old Line Golf Club is a members-only indoor golf facility located in Annapolis, MD, that provides an upscale environment for golf practice and play. The venue features three Trackman simulators, equipped with 4K resolution and advanced analytics, designed to deliver a realistic and technically precise golfing experience. The club operates on a membership-only basis, offering flexible tiers with no initiation fees, allowing members to book bay time with a minimum reservation of 30 minutes. The facility is open daily from 5:00 AM to midnight and is designed for those looking to supplement their on-course play with high-quality indoor practice.",
+  "tags": "serious_practice|membership_only|premium_tech|beginner_friendly|corporate_events|coaching_available|club_rentals|late_night|community_club",
+  "vibe_tags": "upscale_lounge|tech_lab|private_luxury|community_club",
+  "who_its_for": "serious_golfers|beginners|corporate_teams|solo_practice|coaches_instructors",
+  "why_golfers_like_it": [
+    "Access to world-class Trackman simulators with 4K graphics and advanced analytics",
+    "True unlimited bay time with no peak/off-peak pricing or restrictions",
+    "Upscale, purpose-built facility designed for focused practice and social play",
+    "Member-only competitions and events with a limited membership base for exclusivity"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Members are free to bring their own food. No food service is provided by the club."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol is provided by the club. Members are not allowed to bring their own."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Three simulators outfitted with the latest Trackman technology, featuring 4K screen resolution and advanced performance analytics."
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "auto_putt",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://yourgolfbooking.com/venues/old-line-golf-club/memberships",
+  "pricing_model": "membership_only",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": "no",
+  "coaching_available": true,
+  "private_rooms_count": 3,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "wifi|pro_shop|club_fitting|leagues|ada_accessible|club_rentals",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, members are required to bring their own clubs to use at the facility."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Members can bring their own food, but no alcohol is allowed. Water and ice are provided at the facility."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes depends on the player's pace and simulator usage. Members can book bay time in 30-minute increments and extend as needed if the next time slot is available."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "No, the club is an adult-oriented members-only facility and does not cater to children."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"6AM-9PM\"], \"Tuesday\": [\"6AM-9PM\"], \"Wednesday\": [\"6AM-9PM\"], \"Thursday\": [\"6AM-9PM\"], \"Friday\": [\"6AM-9PM\"], \"Saturday\": [\"6AM-9PM\"], \"Sunday\": [\"6AM-9PM\"]}"
+}

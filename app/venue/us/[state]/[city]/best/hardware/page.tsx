@@ -5,12 +5,13 @@ import { getStateDisplayName, getStateAbbrevFromName } from "@/lib/states";
 import { HARDWARE_CATEGORIES, getCityHardwareUrl, getStateUrl, getCityUrl } from "@/lib/best-by-config";
 import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
 import { Monitor, ArrowRight } from "lucide-react";
+import { normalizeHardwareBrand } from "@/lib/hardware-brands";
 
 interface CityHardwareIndexPageProps {
   params: Promise<{ state: string; city: string }>;
 }
 
-export const revalidate = 60;
+export const revalidate = 86400;
 
 export async function generateMetadata({ params }: CityHardwareIndexPageProps): Promise<Metadata> {
   const { state, city } = await params;
@@ -52,32 +53,51 @@ export default async function CityHardwareIndexPage({ params }: CityHardwareInde
   const cityFormatted = city
     .replace(/-/g, " ")
     .replace(/\b\w/g, (l) => l.toUpperCase());
-  const citySlug = city.toLowerCase().replace(/\s+/g, "-");
+  const canRawQuery = typeof (db as unknown as { $queryRaw?: unknown }).$queryRaw === "function";
 
-  // Get venue counts for each hardware brand
-  const venues = await db.venue.findMany({
-    where: {
-      city: { equals: cityFormatted, mode: "insensitive" },
-      state: stateAbbrev.toUpperCase(),
-      country: "US",
-      status: "active",
-    },
-    select: { simulatorSystems: true },
-  });
+  const normalizeHardware = (value: string) => normalizeHardwareBrand(value).replace(/[^a-z0-9]/g, "");
+  let countsByBrand = new Map<string, number>();
 
-  // Calculate counts for each hardware brand
+  if (canRawQuery) {
+    const rows = await db.$queryRaw<{ brand_key: string; count: bigint | number }[]>`
+      SELECT
+        regexp_replace(lower(brand_slug), '[^a-z0-9]', '', 'g') AS brand_key,
+        COUNT(*)::bigint AS count
+      FROM "venues" v
+      CROSS JOIN LATERAL unnest(v."hardwareBrands") AS brand_slug
+      WHERE v."city" ILIKE ${cityFormatted}
+        AND v."state" = ${stateAbbrev.toUpperCase()}
+        AND v."country" = 'US'
+        AND v."status" = 'active'
+        AND brand_slug <> ''
+      GROUP BY brand_key
+    `;
+    countsByBrand = new Map(rows.map((row) => [row.brand_key, Number(row.count)]));
+  } else {
+    // Fallback path for mock DB (no raw SQL support).
+    const venues = await db.venue.findMany({
+      where: {
+        city: { equals: cityFormatted, mode: "insensitive" },
+        state: stateAbbrev.toUpperCase(),
+        country: "US",
+        status: "active",
+      },
+      select: { simulatorSystems: true },
+    });
+    countsByBrand = new Map(
+      HARDWARE_CATEGORIES.map((hardware) => [
+        normalizeHardware(hardware.slug),
+        venues.filter((v) => {
+          const systems = v.simulatorSystems as { brand?: string; model?: string }[] | null;
+          if (!systems) return false;
+          return systems.some((s) => normalizeHardware(s.brand || "") === normalizeHardware(hardware.slug));
+        }).length,
+      ])
+    );
+  }
+
   const hardwareCounts = HARDWARE_CATEGORIES.map((hardware) => {
-    const count = venues.filter((v) => {
-      // Check simulatorSystems array for brand
-      const systems = v.simulatorSystems as { brand?: string; model?: string }[] | null;
-      if (systems) {
-        return systems.some(
-          (s) => s.brand?.toLowerCase() === hardware.slug.toLowerCase() ||
-                 s.brand?.toLowerCase().replace(/\s+/g, "-") === hardware.slug.toLowerCase()
-        );
-      }
-      return false;
-    }).length;
+    const count = countsByBrand.get(normalizeHardware(hardware.slug)) || 0;
     return { 
       ...hardware, 
       count,

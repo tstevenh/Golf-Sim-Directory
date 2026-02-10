@@ -1,0 +1,92 @@
+{
+  "name": "Tipsy Pickle",
+  "address": "201 Camp Rd #120, Charlotte, NC 28206",
+  "city": "Charlotte",
+  "region": "North Carolina",
+  "country": "US",
+  "latitude": 35.246822,
+  "longitude": -80.831807,
+  "phone": "+19803044848",
+  "website": "https://www.tipsypickle.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770254115/golf_simulators/www_tipsypickle_com_ChIJv9JWCvChVogRrI3H7F1IS9o.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Tipsy+Pickle/@35.2468217,-80.83180709999999,14z/data=!4m8!1m2!2m1!1sTipsy+Pickle!3m4!1s0x8856a1f00a56d2bf:0xda4b485decc78dac!8m2!3d35.2468217!4d-80.83180709999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJv9JWCvChVogRrI3H7F1IS9o",
+  "email": "reservations@tipsypickle.com.",
+  "venue_type": "sim_bar",
+  "about": "Tipsy Pickle is a 23,000 sq ft entertainment destination in Charlotte, NC, operating as a golf simulator and multi-sport bar. It combines indoor golf simulators with a variety of other recreational activities like pickleball, ping pong, and cornhole, all complemented by a full-service Tex-Mex kitchen and bar. The venue features trackman golf simulators and is designed for both casual play and social gatherings, offering a relaxed atmosphere for food, drinks, and games.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|private_rooms|coaching_available|leagues|kids_friendly|date_night",
+  "vibe_tags": "sports_bar|party_atmosphere|family_fun_center|casual|welcoming",
+  "who_its_for": "beginners|families|corporate_teams|large_groups|solo_practice",
+  "why_golfers_like_it": [
+    "Premium Trackman simulator technology for accurate ball and club tracking",
+    "Full bar and Tex-Mex food service available on-site",
+    "Social atmosphere with multiple activities for non-golfers in the group",
+    "Flexible booking options for individuals and groups",
+    "Multiple simulator bays available for play"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full Tex-Mex kitchen with sliders, tacos, nachos, burrito bars, and other crowd-pleasers available."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service with craft cocktails, beer, wine, and margaritas available."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Premium radar-based launch monitors integrated into the golf simulators"
+    }
+  ],
+  "simulator_software": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://app.tipsypickle.com",
+  "pricing_model": "per_person_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|private_party_room|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue provides all necessary equipment for golf simulator play, including clubs and balls."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "Outside food and drink are not permitted, as the venue has a full kitchen and bar available for all guests."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Playing 18 holes typically takes about 60-90 minutes, depending on simulator usage and group size."
+    },
+    {
+      "question": "Is this place kid-friendly?",
+      "answer": "Yes, Tipsy Pickle is family-friendly and welcomes children, making it suitable for birthday parties and family gatherings."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"7AM-10PM\"], \"Tuesday\": [\"7AM-10PM\"], \"Wednesday\": [\"7AM-10PM\"], \"Thursday\": [\"7AM-10PM\"], \"Friday\": [\"7AM-11PM\"], \"Saturday\": [\"7AM-11PM\"], \"Sunday\": [\"7AM-9PM\"]}"
+}

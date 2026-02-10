@@ -1,0 +1,91 @@
+{
+  "name": "Below Par Golf Lounge",
+  "address": "616 Main St, Osage, IA 50461",
+  "city": "Osage",
+  "region": "Iowa",
+  "country": "US",
+  "latitude": 43.283882,
+  "longitude": -92.812049,
+  "phone": "+15074409798",
+  "website": "https://www.belowparlounge.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770227224/golf_simulators/www_belowparlounge_com_ChIJETzugNLz8IcRDXSfF3PZFfM.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Below+Par+Golf+Lounge/@43.2838822,-92.8120491,14z/data=!4m8!1m2!2m1!1sBelow+Par+Golf+Lounge!3m4!1s0x87f0f3d280ee3c11:0xf315d973179f740d!8m2!3d43.2838822!4d-92.8120491",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJETzugNLz8IcRDXSfF3PZFfM",
+  "email": "belowparlounge@gmail.com",
+  "venue_type": "sim_bar",
+  "about": "Below Par Golf Lounge is an indoor golf simulator and club regripping facility located in Osage, Iowa. The venue features customized golf simulators from Uneekor, a trusted brand by PGA Tour professionals. It offers a relaxed environment for golfers to play on virtual courses and receive golf club regripping services. The facility is open Tuesday through Sunday from 12:00 PM to 9:00 PM and provides rental clubs for those without equipment.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|budget_friendly|club_rentals",
+  "vibe_tags": "casual|welcoming|modern",
+  "who_its_for": "beginners|families|corporate_teams|solo_practice|tourists_travelers",
+  "why_golfers_like_it": [
+    "Premium Uneekor simulators trusted by PGA Tour professionals",
+    "Convenient rental clubs available for players without equipment",
+    "Flexible booking options for various time durations",
+    "Additional golf services like club regripping"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned, BYOB likely allowed"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "BYOB policy likely as no bar service is mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "Unknown",
+      "notes": "Customized Uneekor golf simulator"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 1,
+  "booking_url": "https://www.belowparlounge.com/reserve",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 25,
+  "price_range_max_local": 50,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|wifi|private_party_room",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need clubs?",
+      "answer": "No, a limited number of golf sets are available to rent if you don't have your own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "BYOB (Bring Your Own Beverage) is likely allowed as no bar service is mentioned. No food service is specified."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time for 18 holes isn't specified, but the venue offers hourly bookings ranging from 1 to 3 hours."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is family-friendly and welcomes golfers of all skill levels including beginners and children."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"9AM-9PM\"], \"Wednesday\": [\"9AM-9PM\"], \"Thursday\": [\"9AM-9PM\"], \"Friday\": [\"9AM-9PM\"], \"Saturday\": [\"9AM-9PM\"], \"Sunday\": [\"9AM-9PM\"]}"
+}

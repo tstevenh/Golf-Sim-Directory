@@ -1,0 +1,91 @@
+{
+  "name": "The Birdie Bar",
+  "address": "947 Pine St, Louisville, CO 80027",
+  "city": "Louisville",
+  "region": "Colorado",
+  "country": "US",
+  "latitude": 39.977187,
+  "longitude": -105.131053,
+  "phone": "+17208816111",
+  "website": "https://www.thebirdie.bar/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770221520/golf_simulators/www_thebirdie_bar_ChIJ-WPIBgDza4cRrQwpRmPEMyQ.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Birdie+Bar/@39.977186599999996,-105.13105279999999,14z/data=!4m8!1m2!2m1!1sThe+Birdie+Bar!3m4!1s0x876bf30006c863f9:0x2433c46346290cad!8m2!3d39.977186599999996!4d-105.13105279999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ-WPIBgDza4cRrQwpRmPEMyQ",
+  "email": "hello@thebirdie.bar",
+  "venue_type": "sim_bar",
+  "about": "The Birdie Bar is an indoor golf bar located in Louisville, Colorado, featuring cutting-edge Uneekor simulators with GSPro software. The venue combines golf simulation with craft cocktails, elevated casual dining, and a family-friendly atmosphere that includes a miniature golf course. It is designed for golfers of all skill levels, from seasoned players to first-timers, offering a social environment to play, practice, or host events. Patrons can access over 500 world-class courses, enjoy a foodie-friendly menu, and take advantage of memberships for discounted playtime.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|kids_friendly|corporate_events|leagues|premium_tech|budget_friendly|private_rooms|club_rentals|community_club",
+  "vibe_tags": "sports_bar|family_fun_center|casual|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Ultra-realistic gameplay with top-tier Uneekor simulators and GSPro software",
+    "Access to 500+ world-class courses without travel",
+    "Social atmosphere combining golf with craft cocktails and dining",
+    "Family-friendly amenities including outdoor mini-golf",
+    "Flexible membership options with discounted hourly rates"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Elevated casual dining with sharables, mains, and kid-friendly options"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Craft cocktails, local beers, and a curated wine list"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "Unknown",
+      "notes": "Top-rated simulators with GSPro software"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": "unknown",
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "https://admin.activebooker.com/franchise-lanes/thebirdiebar",
+  "pricing_model": "mixed",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own golf clubs?",
+      "answer": "The venue provides golf equipment; however, you may bring your own clubs if preferred."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "Outside food and drinks are not allowed, as the venue offers a full menu and bar with craft cocktails, local beers, and wine."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Playing time varies depending on the simulator software and pace, but typically 18 holes take 1-2 hours."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, The Birdie Bar is family-friendly with kid-friendly menu options and an outdoor miniature golf course."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"5-9PM\"], \"Tuesday\": [\"2-9PM\"], \"Wednesday\": [\"2-9PM\"], \"Thursday\": [\"2-9PM\"], \"Friday\": [\"11AM-10PM\"], \"Saturday\": [\"10AM-10PM\"], \"Sunday\": [\"10AM-9PM\"]}"
+}

@@ -1,0 +1,93 @@
+{
+  "name": "Silicon Valley Golf Performance Center",
+  "address": "2940 N Shoreline Blvd, Mountain View, CA 94043",
+  "city": "Mountain View",
+  "region": "California",
+  "country": "US",
+  "latitude": 37.430508,
+  "longitude": -122.085417,
+  "phone": "+15105891644",
+  "website": "http://www.svgolfpc.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770246125/golf_simulators/www_svgolfpc_com_ChIJxSfcQR66j4AR2NC1X5q57pE.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Silicon+Valley+Golf+Performance+Center/@37.430507999999996,-122.08541699999999,14z/data=!4m8!1m2!2m1!1sSilicon+Valley+Golf+Performance+Center!3m4!1s0x808fba1e41dc27c5:0x91eeb99a5fb5d0d8!8m2!3d37.430507999999996!4d-122.08541699999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJxSfcQR66j4AR2NC1X5q57pE",
+  "email": "kim@svgolfpc.com.",
+  "venue_type": "training_studio",
+  "about": "Silicon Valley Golf Performance Center is a golf training facility that uses advanced TrackMan radar technology to help players improve their game through detailed ball and club data analysis. They offer a comprehensive range of services including private lessons, group classes for adults and juniors, corporate team-building events, and on-site clinics at various Bay Area golf courses. The center caters to golfers of all skill levels, with a focus on personalized instruction, mental game coaching, and practical application from the range to the course.",
+  "tags": "beginner_friendly|corporate_events|premium_tech|coaching_available|juniors_youth|serious_golfers|family_friendly",
+  "vibe_tags": "tech_lab|community_club|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "Advanced TrackMan technology provides precise ball flight and club data for faster improvement",
+    "Experienced instructors focus on both physical swing mechanics and mental game strategy",
+    "Flexible program options including private lessons, group classes, and corporate events",
+    "Junior programs are comprehensive, offering academy, camps, and leagues for young players"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of food service"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "TrackMan",
+      "model": "iO",
+      "notes": "Radar technology providing ball flight and club data"
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "https://svgolfpc.com/contact-us/",
+  "pricing_model": "per_person_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|club_fitting|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website mentions club fitting services but doesn't explicitly state if club rentals are available. It's recommended to bring your own clubs or contact the center directly for rental options."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "There is no mention of food or drink service at the facility, and no specific policy about outside food or drinks is stated. It's best to contact the center directly to confirm their policy."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website doesn't specify the time required for a full 18-hole simulation. Typical simulator sessions for 18 holes range from 1-2 hours depending on the number of players and pace of play."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, Silicon Valley Golf Performance Center offers comprehensive junior programs including Tiny Tykes, Junior Academy, SV Golf Camps, and the PGA Junior League, making it very suitable for young golfers."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

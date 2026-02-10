@@ -1,0 +1,94 @@
+{
+  "name": "The Bunker at Waters Edge",
+  "address": "1100 Ramshorn Dr, Fremont, MI 49412",
+  "city": "Fremont",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 43.478052,
+  "longitude": -85.925891,
+  "phone": "+12313351003",
+  "website": "https://watersedgefremont.com/top-tracer/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770237759/golf_simulators/watersedgefremont_com_ChIJLazrrJpBGYgRopewrQwg-hI.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Bunker+at+Waters+Edge/@43.478052399999996,-85.9258914,14z/data=!4m8!1m2!2m1!1sThe+Bunker+at+Waters+Edge!3m4!1s0x8819419aacebac2d:0x12fa200cadb097a2!8m2!3d43.478052399999996!4d-85.9258914",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJLazrrJpBGYgRopewrQwg-hI",
+  "email": "terry50moore@gmail.com",
+  "venue_type": "sim_bar",
+  "about": "The Bunker at Waters Edge is a golf simulator venue powered by Toptracer Range technology. It offers a space for golf practice, leagues, and events, with on-site food and beverage options. The facility features bay reservations, lessons, and a dedicated app for booking. The kitchen closes half an hour before the bays, and the venue has extended fall and winter hours for 2025.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|kids_friendly|corporate_events|leagues|premium_tech|budget_friendly|private_rooms|club_rentals|late_night|coaching_available",
+  "vibe_tags": "sports_bar|community_club|family_fun_center",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "Powered by Toptracer Range technology for advanced ball tracking",
+    "On-site food and beverage options available",
+    "Offers leagues and events for community engagement",
+    "Dedicated app for easy bay reservations",
+    "Available for private events and corporate outings"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen and food menu available; kitchen closes 1/2 hour before bays"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar available at The Bunker and Lakes Restaurant & Pub"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Toptracer",
+      "model": "Range",
+      "notes": "Powered by Toptracer Range technology"
+    }
+  ],
+  "simulator_so": [
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://alleytrak.com/App/Client/4476",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|lockers|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Clubs are not explicitly mentioned as being provided, so it is recommended to bring your own."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "The venue has a full kitchen and bar, so outside food and drinks may not be permitted."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes is not specified on the website."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue offers junior golf programs and is considered kid-friendly."
+    }
+  ],
+  "simulator_software": [
+    "Toptracer Range"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"4-9PM\"], \"Tuesday\": [\"4-9PM\"], \"Wednesday\": [\"4-9PM\"], \"Thursday\": [\"4-9PM\"], \"Friday\": [\"11AM-10PM\"], \"Saturday\": [\"11AM-10PM\"], \"Sunday\": [\"11AM-7PM\"]}"
+}

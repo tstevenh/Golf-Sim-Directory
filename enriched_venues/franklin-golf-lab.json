@@ -1,0 +1,93 @@
+{
+  "name": "Franklin Golf Lab",
+  "address": "3252 Aspen Grove Dr #9, Franklin, TN 37067",
+  "city": "Franklin",
+  "region": "Tennessee",
+  "country": "US",
+  "latitude": 35.946067,
+  "longitude": -86.829028,
+  "phone": "+16155677914",
+  "website": "https://franklingolflab.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770213500/golf_simulators/franklingolflab_com_ChIJ156l4Nd_ZIgRt_iyVTakpvA.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Franklin+Golf+Lab/@35.9460665,-86.8290281,14z/data=!4m8!1m2!2m1!1sFranklin+Golf+Lab!3m4!1s0x88647fd7e0a59ed7:0xf0a6a43655b2f8b7!8m2!3d35.9460665!4d-86.8290281",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ156l4Nd_ZIgRt_iyVTakpvA",
+  "email": "info@franklingolflab.com",
+  "venue_type": "training_studio",
+  "about": "Franklin Golf Lab is a modern, membership-based indoor golf facility focused on player improvement through cutting-edge technology and expert coaching. The venue features 5 private TrackMan simulator bays that provide tour-level data analysis for every shot, complemented by PuttView putting systems for precise short-game training. It serves golfers in Franklin, Brentwood, and Berry Farms with a data-driven approach to improvement, combining 24/7 access with personalized coaching programs. The facility emphasizes continuous development through its analytics platform and structured membership tiers designed for various skill levels, from casual players to competitive juniors.",
+  "tags": "serious_practice|coaching_available|premium_tech|juniors_youth|membership_only|24_7_access|trackman|data_driven|performance_tracking|byob",
+  "vibe_tags": "tech_lab|community_club|modern|welcoming",
+  "who_its_for": "serious_golfers|juniors_youth|low_handicap|coaches_instructors|solo_practice",
+  "why_golfers_like_it": [
+    "Tour-level TrackMan technology provides unmatched ball and club data accuracy",
+    "24/7 access allows flexible practice schedules around busy lifestyles",
+    "PGA coaching with TrackMan integration for personalized swing analysis",
+    "PuttView technology offers detailed putting feedback and interactive challenges",
+    "Performance analytics track progress over time for measurable improvement",
+    "Junior development programs with structured skill assessments and coaching"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned; venue appears to allow outside consumption (BYOB)"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "BYOB likely permitted but no formal bar service; no alcohol mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "5 private bays with professional-grade launch monitor accuracy"
+    }
+  ],
+  "simulator_software": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": 5,
+  "booking_url": "https://franklingolflab.com/join",
+  "pricing_model": "membership_only",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 5,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|wifi|pro_shop|club_fitting|leagues|ada_accessible|24_7_access",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need my own golf clubs?",
+      "answer": "The venue does not explicitly mention club rentals, so bringing your own clubs is recommended. Some options for club fitting services are available through their PGA coaching program."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "BYOB (bring your own beverages) appears to be allowed based on the community club atmosphere, though no formal kitchen or bar service is mentioned. No food service is indicated."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "With 5 private bays and 24/7 access, playing time is flexible. TrackMan sessions allow 2-3 hour blocks depending on membership tier, enough time for a full 18 holes on simulated courses."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "Yes, Franklin Golf Lab offers a Junior Elite Lab program specifically for ages 7-17, with supervised family access, bi-weekly coaching, and quarterly skill assessments, making it suitable for young golfers."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

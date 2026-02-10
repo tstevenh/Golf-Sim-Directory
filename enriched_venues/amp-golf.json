@@ -1,0 +1,90 @@
+{
+  "name": "AMP Golf",
+  "address": "8 NE Skyline Dr, Lee's Summit, MO 64086",
+  "city": "Lee's Summit",
+  "region": "Missouri",
+  "country": "US",
+  "latitude": 38.935609,
+  "longitude": -94.381478,
+  "phone": "+18164774364",
+  "website": "http://www.ampperformancegolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770212191/golf_simulators/www_ampperformancegolf_com_ChIJz9qe2NEfwYcRx2Toyb6sNh0.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/AMP+Golf/@38.9356091,-94.3814776,14z/data=!4m8!1m2!2m1!1sAMP+Golf!3m4!1s0x87c11fd1d89edacf:0x1d36acbec9e864c7!8m2!3d38.9356091!4d-94.3814776",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJz9qe2NEfwYcRx2Toyb6sNh0",
+  "venue_type": "training_studio",
+  "about": "AMP Golf is a 24/7 Golf Performance Lab in Lees Summit, MO, offering a comprehensive training environment with indoor simulators, a functional gym, and PGA instruction. The facility features 3 Foresight Falcon Golf Simulators and a regulation putting green, providing year-round practice capabilities regardless of weather. AMP is designed for golfers seeking structured improvement through technology, coaching, and fitness programs, with a membership model that combines access to simulators and gym facilities. The venue emphasizes a serious, results-oriented approach to golf training, offering personalized practice plans and performance-based coaching.",
+  "tags": "serious_practice|coaching_available|premium_tech|leagues|corporate_events|community_club|beginners|juniors_youth",
+  "vibe_tags": "industrial_training|tech_lab|community_club|modern",
+  "who_its_for": "serious_golfers|beginners|coaches_instructors|juniors_youth|corporate_teams",
+  "why_golfers_like_it": [
+    "24/7 access to premium simulator technology and gym facilities",
+    "Personalized coaching and data-driven improvement plans",
+    "Ability to play 18 holes in under 45 minutes",
+    "Surrounded by a community of like-minded golfers focused on improvement",
+    "Comprehensive golf-fitness programs with TPI assessments"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "BYOB (Bring Your Own Beverage) allowed for members"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": "Falcon",
+      "notes": "3 overhead camera simulator bays with real-time ball and club data tracking"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "overhead_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 3,
+  "booking_url": "https://ampperformancegolf.com/founders-100-golf-gym",
+  "pricing_model": "membership_only",
+  "price_range_min_local": 199,
+  "price_range_max_local": 399,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 3,
+  "max_group_size_per_bay": 2,
+  "amenities_list": "club_rentals|leagues|pro_shop|gym|lockers|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, members are expected to bring their own clubs for use at the facility."
+    },
+    {
+      "question": "Can I bring food and drinks?",
+      "answer": "Yes, BYOB (Bring Your Own Beverage) is allowed for members. No food service is mentioned."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Playing 18 holes at AMP Golf takes approximately 45 minutes compared to 4+ hours on an outdoor course."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "There is no specific information regarding child-friendly amenities or policies mentioned on the website."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

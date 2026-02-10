@@ -1,0 +1,91 @@
+{
+  "name": "Majors Golf",
+  "address": "19 Paradise Rd, Salem, MA 01970",
+  "city": "Salem",
+  "region": "Massachusetts",
+  "country": "US",
+  "latitude": 42.485561,
+  "longitude": -70.898903,
+  "phone": "+17814795516",
+  "website": "https://majorsgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770199846/golf_simulators/majorsgolf_com_ChIJtQ3-mBwV44kRHk-_LNhXV4E.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Majors+Golf/@42.4855607,-70.8989028,14z/data=!4m8!1m2!2m1!1sMajors+Golf!3m4!1s0x89e3151c98fe0db5:0x815757d82cbf4f1e!8m2!3d42.4855607!4d-70.8989028",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJtQ3-mBwV44kRHk-_LNhXV4E",
+  "email": "info@majorsgolf.com",
+  "venue_type": "sim_bar|training_studio|retail_fitting_center",
+  "about": "Majors Golf is an indoor golf facility featuring six Trackman simulator bays and two putting studios, offering a range of services from practice and play to retail and coaching. The venue combines high-end technology with a family-friendly atmosphere, featuring Trackman 4 and iO systems for accurate shot tracking and a variety of software options for course play and skill improvement. Pricing is accessible through memberships, hourly packages, and a dedicated mobile app for booking, catering to both casual players and serious golfers seeking a comprehensive indoor experience.",
+  "tags": "beginner_friendly|food_and_drinks|kids_friendly|corporate_events|premium_tech|coaching_available|family_friendly|juniors_youth|retail_fitting_center|sim_bar",
+  "vibe_tags": "family_fun_center|modern|welcoming|tech_lab",
+  "who_its_for": "beginners|families|juniors_youth|serious_golfers|solo_practice",
+  "why_golfers_like_it": [
+    "World-class Trackman technology for precise swing and ball tracking",
+    "Family-friendly environment with kids' clinics and arcade-style games",
+    "Full retail shop with modern and classic golf brands",
+    "Dedicated indoor putting suite with Full Swing and PuttView technologies",
+    "Convenient mobile app for real-time booking and membership management"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Rizzo's pizza available for events; snacks provided during kids' clinics"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Beer, wine, and hard cider available on-site"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Six bays with Trackman 4 and iO technology"
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 6,
+  "booking_url": "https://majorsgolf.com/",
+  "pricing_model": "mixed",
+  "price_range_min_local": null,
+  "price_range_max_local": null,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 6,
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|pro_shop|wifi|coaching_available|family_friendly|kids_friendly|food_and_drinks",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Majors Golf provides free access to right- and left-handed golf clubs for kids' clinics. Personal clubs are recommended for adult sessions, but rentals may be available."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drinks are not mentioned, but the venue offers snacks and Rizzo's pizza for events. Beer, wine, and hard cider are available for purchase on-site."
+    },
+    {
+      "question": "How long does an 18-hole round take?",
+      "answer": "The time for an 18-hole round is not specified, but sessions are booked by the hour, and the mobile app allows for real-time scheduling."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Majors Golf offers Cubs Clinics for kids, arcade-style Trackman games, and family events like Arcade Night, with age and skill-based grouping."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"6AM-10PM\"], \"Tuesday\": [\"6AM-10PM\"], \"Wednesday\": [\"6AM-10PM\"], \"Thursday\": [\"6AM-10PM\"], \"Friday\": [\"6AM-10PM\"], \"Saturday\": [\"8AM-10PM\"], \"Sunday\": [\"8AM-8PM\"]}"
+}

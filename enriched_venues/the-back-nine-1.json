@@ -1,0 +1,91 @@
+{
+  "name": "The Back Nine",
+  "address": "336 Main St Suite C, Wray, CO 80758",
+  "city": "Wray",
+  "region": "Colorado",
+  "country": "US",
+  "latitude": 40.078277,
+  "longitude": -102.221924,
+  "phone": "+19709659902",
+  "website": "http://backninewray.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770249693/golf_simulators/backninewray_com_ChIJITTLvYiFc4cR3ONi2kybMmg.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Back+Nine/@40.078277,-102.2219241,14z/data=!4m8!1m2!2m1!1sThe+Back+Nine!3m4!1s0x87738588bdcb3421:0x68329b4cda62e3dc!8m2!3d40.078277!4d-102.2219241",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJITTLvYiFc4cR3ONi2kybMmg",
+  "email": "contact@backninewray.com",
+  "venue_type": "sim_bar",
+  "about": "The Back Nine is a golf simulator venue featuring state-of-the-art HD Golf Simulators combined with a top shelf whiskey and cocktail bar. The venue offers both per-bay hourly rentals and tiered membership options, with capabilities for solo practice, group outings, and private events. Located in Wray, Colorado, it is designed as a social hub for golfers and non-golfers alike to enjoy simulated golf in a relaxed setting with full bar service.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|leagues|private_rooms|club_rentals",
+  "vibe_tags": "sports_bar|casual|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "State-of-the-art HD Golf Simulators",
+    "Flexible membership plans with significant discounts",
+    "Top shelf whiskey and cocktail bar for a complete social experience",
+    "Ability to rent both bays simultaneously for group events"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen available for food service"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Top shelf whiskey and cocktail bar with premium brands like Crown Royal Reserve, Russell's Reserve Single Barrel, and Van Winkle Special Reserve"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "HD Golf",
+      "model": "Simulator",
+      "notes": "State-of-the-art golf simulators with advanced tracking capabilities"
+    }
+  ],
+  "simulator_software": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "http://backninewray.com/book",
+  "pricing_model": "mixed",
+  "price_range_min_local": 45,
+  "price_range_max_local": 120,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can bring your own clubs, but club heads must be clean to protect the simulators. Club rentals are also available."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drinks are not allowed as the venue has a full kitchen and top shelf whiskey and cocktail bar available for customers."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Reservations can be made for up to 4 hours of continuous play time, allowing ample time for a full 18-hole round."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, kids under 15 years old can play at no additional cost when accompanied by a parent or guardian."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"Closed\"], \"Wednesday\": [\"4-9PM\"], \"Thursday\": [\"4-9PM\"], \"Friday\": [\"4-10PM\"], \"Saturday\": [\"1-10PM\"], \"Sunday\": [\"1-5PM\"]}"
+}

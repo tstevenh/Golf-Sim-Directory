@@ -1,0 +1,92 @@
+{
+  "name": "Elevate Golf",
+  "address": "102 Clements Bridge Rd Suite 3, Barrington, NJ 08007",
+  "city": "Barrington",
+  "region": "New Jersey",
+  "country": "US",
+  "latitude": 39.873443,
+  "longitude": -75.050451,
+  "phone": "+16157644405",
+  "website": "https://elevate-golf.co/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770215006/golf_simulators/elevate-golf_co_ChIJaSJfIXXNxokR0CkiVl1ZAhg.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Elevate+Golf/@39.8734433,-75.0504515,14z/data=!4m8!1m2!2m1!1sElevate+Golf!3m4!1s0x89c6cd75215f2269:0x1802595d562229d0!8m2!3d39.8734433!4d-75.0504515",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJaSJfIXXNxokR0CkiVl1ZAhg",
+  "email": "Info@elevate-golf.co",
+  "venue_type": "sim_bar",
+  "about": "Elevate Golf is a golf simulator lounge and training facility located in Barrington, NJ, offering a BYOB experience with state-of-the-art technology. The venue provides immersive golf simulation experiences with 24/7 access for members, allowing players to practice their swings or play rounds on courses worldwide, regardless of weather. Non-members can book time at an hourly rate, while members benefit from discounted pricing, extended booking windows, and access to private events. The facility features upscale amenities and is situated in a restored building surrounded by local breweries and restaurants, blending a modern lounge atmosphere with serious golf technology.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|coaching_available|private_rooms|club_rentals",
+  "vibe_tags": "upscale_lounge|sports_bar|tech_lab",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "24/7 access for members allowing flexible practice and play",
+    "State-of-the-art simulators with immersive gameplay and course variety",
+    "BYOB policy creating a relaxed, social atmosphere",
+    "Coaching options available with discounted lesson rates for members",
+    "Prime location in a restored building with neighborhood charm"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned; BYOB policy applies to alcohol only"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "BYOB policy; customers can bring their own alcohol to consume on-site"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Premium launch monitor used for high-accuracy tracking"
+    }
+  ],
+  "simulator_software": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://elevategolfteetime.skedda.com/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 55,
+  "price_range_max_local": 75,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|private_party_room|wifi|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need clubs?",
+      "answer": "Yes, customers must bring their own golf clubs to use the simulators."
+    },
+    {
+      "question": "Can I bring food and drink?",
+      "answer": "Yes, Elevate Golf is a BYOB facility, allowing customers to bring their own alcohol. No food service is mentioned."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes depends on the number of players and pace of play, but typical simulator rounds range from 2-3 hours for a full 18 holes."
+    },
+    {
+      "question": "Is it kid-friendly?",
+      "answer": "The website does not specifically mention kid-friendly policies or features, but families are mentioned as a target audience in the 'who_its_for' section."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"7AM-10PM\"], \"Tuesday\": [\"7AM-10PM\"], \"Wednesday\": [\"7AM-10PM\"], \"Thursday\": [\"7AM-10PM\"], \"Friday\": [\"7AM-10PM\"], \"Saturday\": [\"7AM-10PM\"], \"Sunday\": [\"7AM-10PM\"]}"
+}

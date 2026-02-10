@@ -1,0 +1,90 @@
+{
+  "name": "Salem Golf Simulator",
+  "address": "200 E 4th St, Salem, VA 24153",
+  "city": "Salem",
+  "region": "Virginia",
+  "country": "US",
+  "latitude": 37.286677,
+  "longitude": -80.053845,
+  "phone": "+18262409503",
+  "website": "https://salemgolfsimulator.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770206766/golf_simulators/salemgolfsimulator_com_ChIJL5sjT6ALTYgR38SPfcCjr6A.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Salem+Golf+Simulator/@37.2866772,-80.053845,14z/data=!4m8!1m2!2m1!1sSalem+Golf+Simulator!3m4!1s0x884d0ba04f239b2f:0xa0afa3c07d8fc4df!8m2!3d37.2866772!4d-80.053845",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJL5sjT6ALTYgR38SPfcCjr6A",
+  "email": "support@salemgolfsimulator.com",
+  "venue_type": "multi_sport_sim",
+  "about": "Salem Golf Simulator provides a premium indoor golf experience utilizing Golfzon Vision Standard Simulators. The venue features 8-directional swing plates, auto-tee and ball retrieval systems, and high-speed camera sensors to deliver a true-to-life golf simulation. Available for hourly bookings, the facility accommodates up to 6 players per bay and is well-suited for individuals, small groups, corporate events, and parties. The simulator experience includes over 200 world-famous golf courses faithfully reproduced for an authentic challenge. With a focus on technology and convenience, Salem Golf Simulator offers an environment suitable for serious practice, casual play, and private events in Salem, Virginia.",
+  "tags": "serious_golfers|corporate_events|food_and_drinks|private_rooms|club_rentals|premium_tech|beginner_friendly|family_fun_center",
+  "vibe_tags": "modern|tech_lab|community_club|welcoming",
+  "who_its_for": "serious_golfers|families|corporate_teams|large_groups|beginners",
+  "why_golfers_like_it": [
+    "High-speed camera sensors capture 2,000 frames per second for instant and accurate shot feedback",
+    "8-directional swing plate provides 80 possible lies for a realistic playing experience",
+    "Auto-tee and ball retrieval system increases pace of play and reduces physical strain"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Food options are available for private events"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "Not explicitly mentioned, but BYOB is not indicated"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Golfzon",
+      "model": "Vision Standard Simulator",
+      "notes": "Top ranked simulator capable of handling up to 6 players per bay"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://salemgolfsimulator.com/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 30,
+  "price_range_max_local": 50,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "private_rooms|club_rentals|kitchen_food|tv_sports|leagues|pro_shop",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "You will need to bring your own golf clubs to use the simulators."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue has food options available for private events. It is not explicitly stated if customers can bring their own food and drinks."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The average golfer can complete 18 holes in 1 hour. For a group of 3 playing 18 holes, a 3-hour reservation is recommended."
+    },
+    {
+      "question": "Is Salem Golf Simulator kid-friendly?",
+      "answer": "Yes, the venue is described as being suitable for families, and the booking page mentions options for parties."
+    }
+  ],
+  "simulator_software": [
+    "Golfzon"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"7AM-9PM\"], \"Tuesday\": [\"7AM-9PM\"], \"Wednesday\": [\"7AM-9PM\"], \"Thursday\": [\"7AM-9PM\"], \"Friday\": [\"8AM-10PM\"], \"Saturday\": [\"8AM-10PM\"], \"Sunday\": [\"8AM-10PM\"]}"
+}

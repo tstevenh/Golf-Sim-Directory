@@ -1,0 +1,91 @@
+{
+  "name": "Future Country Club",
+  "address": "6500 SW Archer Rd Suite G, Gainesville, FL 32608",
+  "city": "Gainesville",
+  "region": "Florida",
+  "country": "US",
+  "latitude": 29.604261,
+  "longitude": -82.412436,
+  "phone": null,
+  "website": "https://futurecountryclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770204673/golf_simulators/futurecountryclub_com_ChIJqYjhtPC96IgRRV-Z04sufVE.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Future+Country+Club/@29.604260699999998,-82.4124357,14z/data=!4m8!1m2!2m1!1sFuture+Country+Club!3m4!1s0x88e8bdf0b4e188a9:0x517d2e8bd3995f45!8m2!3d29.604260699999998!4d-82.4124357",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJqYjhtPC96IgRRV-Z04sufVE",
+  "venue_type": "private_rental",
+  "about": "Future Country Club is a members-only indoor golf facility located in Gainesville, Florida, featuring two private locations with premium golf simulator technology. The club offers 24/7 access for members to book tee times via an app, regardless of weather conditions, with a focus on private indoor bays equipped with high-fidelity Uneekor simulators. Membership includes access to both locations, a pro shop, member events, leagues, and discounted lessons with their Head Pro, Tyler. The venue caters to golfers of all skill levels from beginners to advanced players, with a pricing model currently sold out but offering a waitlist option.",
+  "tags": "serious_practice|private_rooms|food_and_drinks|leagues|premium_tech|coaching_available|corporate_events|club_rentals|community_club",
+  "vibe_tags": "private_luxury|tech_lab|community_club|modern",
+  "who_its_for": "serious_golfers|beginners|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "24/7 member access with no crowds or wait times",
+    "Premium Uneekor simulator technology providing high-fidelity data for serious improvement",
+    "Two private simulator bays at the flagship location with an elevated clubhouse atmosphere",
+    "Membership works at both locations for maximum flexibility",
+    "Discounted lessons and access to member events and leagues"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned, but pro shop available"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Beer and wine available at the FGX Pro Shop in the Flagship location"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "Premium",
+      "notes": "High-fidelity ball tracking and club data at both locations"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://futurecountryclub.com/preview",
+  "pricing_model": "membership_only",
+  "price_range_min_local": 0,
+  "price_range_max_local": 35,
+  "currency": "USD",
+  "walk_ins_allowed": false,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "pro_shop|full_bar|private_party_room|leagues|coaching_available|club_rentals|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can bring your own clubs, but premium clubs and equipment are also provided in the simulator bays."
+    },
+    {
+      "question": "Can I bring food or drink?",
+      "answer": "Outside food and drink are not mentioned, but the FGX Pro Shop at the Flagship location serves beer and wine for members and guests."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Time for 18 holes is not specified, but sessions can be booked in 1-hour previews or booked by members via the app for any time."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "No, Future Country Club is a members-only indoor golf club focused on adult golfers and does not appear to cater to children."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"5AM-12AM\"], \"Tuesday\": [\"5AM-12AM\"], \"Wednesday\": [\"5AM-12AM\"], \"Thursday\": [\"5AM-12AM\"], \"Friday\": [\"5AM-12AM\"], \"Saturday\": [\"5AM-12AM\"], \"Sunday\": [\"5AM-12AM\"]}"
+}

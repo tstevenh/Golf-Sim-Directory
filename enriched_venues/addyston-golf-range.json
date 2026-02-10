@@ -1,0 +1,88 @@
+{
+  "name": "Addyston Golf Range",
+  "address": "51 E Main St, Addyston, OH 45001",
+  "city": "Addyston",
+  "region": "Ohio",
+  "country": "US",
+  "latitude": 39.127163,
+  "longitude": -84.694897,
+  "phone": "+15138452700",
+  "website": "http://www.addystongolfrange.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770258315/golf_simulators/www_addystongolfrange_com_ChIJezkPrVTNQYgR_BsdPWx2LpU.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Addyston+Golf+Range/@39.127162999999996,-84.6948974,14z/data=!4m8!1m2!2m1!1sAddyston+Golf+Range!3m4!1s0x8841cd54ad0f397b:0x952e766c3d1d1bfc!8m2!3d39.127162999999996!4d-84.6948974",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJezkPrVTNQYgR_BsdPWx2LpU",
+  "venue_type": "multi_sport_sim",
+  "about": "Addyston Golf Range is a driving range facility in Addyston, Ohio, equipped with TopTracer technology for virtual golf experiences. It offers 12 covered bays out of 20 total, allowing golfers to practice in various weather conditions. The venue provides a fun and welcoming environment suitable for all skill levels, featuring TopTracer technology that offers instant feedback on ball speed, trajectory, distance, and other performance metrics.",
+  "tags": "beginner_friendly|food_and_drinks|family_friendly|corporate_events|premium_tech|budget_friendly|club_rentals|coaching_available|casual",
+  "vibe_tags": "casual|welcoming|modern|community_club",
+  "who_its_for": "beginners|families|corporate_teams|solo_practice|juniors_youth",
+  "why_golfers_like_it": [
+    "Advanced TopTracer technology provides instant shot feedback and tracking",
+    "Covered bays allow for practice regardless of weather conditions",
+    "Virtual golf games and skills assessments enhance practice sessions"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Food available on-site"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol information provided"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "TopTracer",
+      "model": "TopTracer Range",
+      "notes": "Ball tracking and virtual golf technology"
+    }
+  ],
+  "simulator_software": [
+    "TopTracer Range"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "unknown",
+  "pricing_model": "per_person_hour",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 0,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|pro_shop|covered_bays|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need clubs?",
+      "answer": "Yes, you will need to bring your own clubs to use the driving range and TopTracer technology."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Food is available on-site, but alcohol information is not specified."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Time for 18 holes is not specified, as the venue focuses on driving range and TopTracer games."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue offers a fun environment suitable for all skill levels, including juniors and youth."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"7AM-11PM\"], \"Tuesday\": [\"7AM-11PM\"], \"Wednesday\": [\"7AM-11PM\"], \"Thursday\": [\"7AM-11PM\"], \"Friday\": [\"7AM-11PM\"], \"Saturday\": [\"7AM-11PM\"], \"Sunday\": [\"7AM-11PM\"]}"
+}

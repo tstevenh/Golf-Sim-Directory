@@ -1,0 +1,89 @@
+{
+  "name": "Golf Lab CT",
+  "address": "2317 Black Rock Tpke, Fairfield, CT 06825",
+  "city": "Fairfield",
+  "region": "Connecticut",
+  "country": "US",
+  "latitude": 41.18267,
+  "longitude": -73.255872,
+  "phone": "+14754229266",
+  "website": "https://www.golflabct.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770209184/golf_simulators/www_golflabct_com_ChIJ4b1RgTMP6IkRb5xWLhfgQdw.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Golf+Lab+CT/@41.1826697,-73.2558722,14z/data=!4m8!1m2!2m1!1sGolf+Lab+CT!3m4!1s0x89e80f338151bde1:0xdc41e0172e569c6f!8m2!3d41.1826697!4d-73.2558722",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ4b1RgTMP6IkRb5xWLhfgQdw",
+  "venue_type": "private_rental",
+  "about": "Golf Lab CT is a members-only indoor golf club in Fairfield, Connecticut, providing private access to three Trackman simulator rooms, a PuttView putting studio, and a GolfForever training room. The facility operates on a self-serve basis with 24/7 access, emphasizing convenience and technology-driven practice in a member-capped environment. Membership is required for access, with rental rates available for members who want to use the simulators, putting studio, and training room on their own schedule.",
+  "tags": "serious_practice|premium_tech|private_rooms|coaching_available|club_rentals|solo_practice|low_handicap|juniors_youth",
+  "vibe_tags": "tech_lab|private_luxury|community_club",
+  "who_its_for": "serious_golfers|solo_practice|coaches_instructors|low_handicap|juniors_youth",
+  "why_golfers_like_it": [
+    "24/7 self-serve access to private, state-of-the-art simulator rooms",
+    "Premium Trackman technology with AI-driven swing analysis and course simulation",
+    "Member-capped environment ensuring privacy and no wait times",
+    "Comprehensive practice options including Trackman simulators, PuttView studio, and GolfForever training"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "BYOB facility; members can bring their own food and drinks"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "BYOB facility; members can bring their own alcoholic beverages"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "High-end golf simulation and launch-monitor system with radar and optical sensors"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://www.golflabct.com/contact",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 3,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|pro_shop|club_fitting|wifi|tv_sports",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The facility is BYOB (Bring Your Own Clubs), so members are expected to bring their own golf clubs for use in the simulators and putting studio."
+    },
+    {
+      "question": "Can I bring food and drinks?",
+      "answer": "Yes, Golf Lab CT is a BYOB facility, allowing members to bring their own food and alcoholic beverages."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "18 holes typically take 1-2 hours depending on the number of players and pace of play in the simulator rooms."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the facility offers junior coaching programs and is suitable for youth golfers under the guidance of the PGA professionals on staff."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

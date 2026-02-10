@@ -1,0 +1,92 @@
+{
+  "name": "Five Iron Golf",
+  "address": "421 N Pennsylvania St Suite 101, Indianapolis, IN 46204",
+  "city": "Indianapolis",
+  "region": "Indiana",
+  "country": "US",
+  "latitude": 39.773077,
+  "longitude": -86.155811,
+  "phone": "+18005135153",
+  "website": "https://fiveirongolf.com/locations/indianapolis-downtown/%3Futm_source%3Dlocal%26utm_medium%3Dorganic%26utm_campaign%3Din%26utm_content%3Dindianapolis",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770204066/golf_simulators/fiveirongolf_com_ChIJQeJPfHJRa4gRlYkV1_dtnAM.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Five+Iron+Golf/@39.7730769,-86.15581089999999,14z/data=!4m8!1m2!2m1!1sFive+Iron+Golf!3m4!1s0x886b51727c4fe241:0x39c6df7d7158995!8m2!3d39.7730769!4d-86.15581089999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJQeJPfHJRa4gRlYkV1_dtnAM",
+  "email": "indianapolis@fiveirongolf.com",
+  "venue_type": "sim_bar",
+  "about": "Five Iron Golf Indianapolis Downtown is an indoor golf simulator venue that blends technology with a social bar atmosphere. They feature state-of-the-art Trackman simulators and high-speed cameras, providing accurate data for golfers of all skill levels. The venue offers a full-service bar and chef-inspired menu, creating an accessible, no-dress-code environment for playing, practicing, and socializing. Patrons can play at virtual PGA Tour venues like Pebble Beach and St. Andrews, or engage in multi-simulator games including hockey, soccer, and football. Membership options are available, providing free play, discounts on food and beverages, and exclusive rates on instruction and events. They host corporate events, private parties, and leagues, making it a versatile spot for both serious practice and entertainment.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|kids_friendly|corporate_events|leagues|premium_tech|budget_friendly|late_night|coaching_available",
+  "vibe_tags": "casual|welcoming|modern|sports_bar",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "Premium Trackman technology provides accurate data for serious practice",
+    "Full-service bar and food menu create a fun social atmosphere",
+    "Access to 200+ world-class virtual golf courses",
+    "Kid-friendly multisport options for family entertainment",
+    "Flexible booking with walk-in availability and member benefits"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Chef-inspired menu with items including wings, pizza, and appetizers"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full-service bar with drink packages and specials available"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "State-of-the-art Trackman technology with high-speed cameras for accurate ball and club tracking"
+    }
+  ],
+  "simulator_software": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "auto_putt",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://booking.fiveirongolf.com/select-experience?location=indianapolis-downtown",
+  "pricing_model": "per_bay_hour|package|membership_only|mixed",
+  "price_range_min_local": 29,
+  "price_range_max_local": 345,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, you can use your own clubs or rent/borrow clubs at the venue."
+    },
+    {
+      "question": "Can I bring outside food or drinks?",
+      "answer": "Outside food and drinks are not allowed as the venue offers a full-service bar and kitchen."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "Playing 18 holes on a simulator typically takes around 2-2.5 hours depending on the course and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is kid-friendly and offers multisport simulators and kids' party packages."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"6AM-11PM\"], \"Tuesday\": [\"6AM-11PM\"], \"Wednesday\": [\"6AM-11PM\"], \"Thursday\": [\"6AM-11PM\"], \"Friday\": [\"6AM-1AM\"], \"Saturday\": [\"8AM-1AM\"], \"Sunday\": [\"8AM-11PM\"]}"
+}

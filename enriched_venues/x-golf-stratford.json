@@ -1,0 +1,88 @@
+{
+  "name": "X-Golf Stratford",
+  "address": "Across from Trumbull Target, 345 Hawley Ln, Stratford, CT 06614",
+  "city": "Stratford",
+  "region": "Connecticut",
+  "country": "US",
+  "latitude": 41.232004,
+  "longitude": -73.14909,
+  "phone": "+14758673332",
+  "website": "https://www.xgolfstratford.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770213561/golf_simulators/www_xgolfstratford_com_ChIJL_B7MRkL6IkRwKfssY1oZUk.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/X-Golf+Stratford/@41.2320043,-73.1490896,14z/data=!4m8!1m2!2m1!1sX-Golf+Stratford!3m4!1s0x89e80b19317bf02f:0x4965688db1eca7c0!8m2!3d41.2320043!4d-73.1490896",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJL_B7MRkL6IkRwKfssY1oZUk",
+  "venue_type": "sim_bar",
+  "about": "X-Golf Stratford is an indoor golf simulator venue in Connecticut featuring 10 state-of-the-art simulators. The facility offers a relaxed atmosphere suitable for players of all ages and skill levels, providing virtual play on bucket-list courses, competitive leagues, private events, and lessons. The venue is open daily with extended evening hours on weekends and features a full bar with food and beverage packages to complement the golf experience. Pricing is structured at $55 per hour Monday-Thursday and $65 per hour Friday-Sunday, with online booking available.",
+  "tags": "food_and_drinks|corporate_events|leagues|coaching_available|beginner_friendly|date_night|large_groups|premium_tech|private_rooms",
+  "vibe_tags": "casual|welcoming|modern|sports_bar|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Play 18 holes on world-renowned courses in about 60 minutes",
+    "State-of-the-art simulator technology with high-speed cameras, lasers, and impact sensors",
+    "Full food and beverage service with a modern lounge and bar area"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Food & Beverage packages available; full kitchen service"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full liquor, beer, wine & seltzer selection; large draft selection & craft beer"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Unknown Premium",
+      "model": "X-Golf System",
+      "notes": "Proprietary high-speed cameras, lasers, optical and impact sensors"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 10,
+  "booking_url": "https://www.xgolfstratford.com/book",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 55,
+  "price_range_max_local": 65,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|kitchen_food|tv_sports|leagues|club_fitting|wifi|pro_shop|private_party_room|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can bring your own clubs or rentals are likely available at the venue."
+    },
+    {
+      "question": "Can I bring outside food or drinks?",
+      "answer": "Outside food and drinks are not allowed; the venue offers a full menu and bar."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "You can play 18 holes on bucket-list courses in about 60 minutes."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, X-Golf Stratford welcomes players of all ages and skill levels."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-11:30PM\"], \"Friday\": [\"10AM-11:30PM\"], \"Saturday\": [\"8AM-11:30PM\"], \"Sunday\": [\"8AM-9PM\"]}"
+}

@@ -1,0 +1,91 @@
+{
+  "name": "X-Golf Libertyville",
+  "address": "1177 S Milwaukee Ave, Libertyville, IL 60048",
+  "city": "Libertyville",
+  "region": "Illinois",
+  "country": "US",
+  "latitude": 42.264608,
+  "longitude": -87.951064,
+  "phone": "+12245042940",
+  "website": "http://www.xgolf-libertyville.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770215304/golf_simulators/www_xgolf-libertyville_com_ChIJefLXqrqXD4gRwyHSoucYtVY.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/X-Golf+Libertyville/@42.264607999999996,-87.9510641,14z/data=!4m8!1m2!2m1!1sX-Golf+Libertyville!3m4!1s0x880f97baaad7f279:0x56b518e7a2d221c3!8m2!3d42.264607999999996!4d-87.9510641",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJefLXqrqXD4gRwyHSoucYtVY",
+  "email": "info@xgolf-libertyville.com",
+  "venue_type": "sim_bar",
+  "about": "X-Golf Libertyville is an indoor golf facility featuring seven state-of-the-art golf simulators. The venue offers a comprehensive experience combining golf simulation, a full-service bar, and a lounge. Pricing is per hour per simulator, accommodating up to six people per bay, making it suitable for both individual play and group events. It is an ideal destination for year-round golf, corporate outings, private parties, and leagues.",
+  "tags": "food_and_drinks|corporate_events|leagues|beginner_friendly|date_night|late_night|coaching_available|premium_tech",
+  "vibe_tags": "sports_bar|modern|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|groups",
+  "why_golfers_like_it": [
+    "Unparalleled accuracy and realism with advanced simulator technology",
+    "Comprehensive food and beverage service including craft beer and full liquor",
+    "Flexible and accommodating space for up to 120 guests for events",
+    "Variety of simulator hours and pricing to fit different schedules and budgets",
+    "Opportunity for competitive play through leagues and tournaments"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen with food and beverage packages available."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with craft beer and liquor."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "X-Golf",
+      "model": "unknown",
+      "notes": "State-of-the-art golf simulator system combining camera systems, infrared lasers, and impact sensors."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green|auto_putt",
+  "lefty_friendly": true,
+  "bay_count_total": 7,
+  "booking_url": "https://clients.uschedule.com/xgolflibertyville/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 30,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|leagues|coaching_available|wifi|on_site_parking",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, club rental is available on-site. Simulators have their own automatic tees."
+    },
+    {
+      "question": "Can I bring my own food or drink?",
+      "answer": "The venue has a full bar and kitchen offering food and beverage packages. No information on outside food/drink policies."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Generally, it takes about 1 hour for an individual to play 18 holes. With more players, allow approximately 1 hour per person."
+    },
+    {
+      "question": "Is it kid-friendly?",
+      "answer": "Yes, X-Golf Libertyville welcomes children of all ages."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"8AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"9AM-11:30PM\"], \"Saturday\": [\"8AM-11:30PM\"], \"Sunday\": [\"8AM-10PM\"]}"
+}

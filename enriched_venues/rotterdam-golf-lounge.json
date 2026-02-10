@@ -1,0 +1,93 @@
+{
+  "name": "Rotterdam Golf Lounge",
+  "address": "93 W Campbell Rd Unit 53, Schenectady, NY 12306",
+  "city": "Schenectady",
+  "region": "New York",
+  "country": "US",
+  "latitude": 42.807902,
+  "longitude": -73.989071,
+  "phone": "+15187013361",
+  "website": "http://rotterdamgolflounge.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770200250/golf_simulators/rotterdamgolflounge_com_ChIJo5SJMclx3okREvvPeP24I3I.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Rotterdam+Golf+Lounge/@42.807901799999996,-73.9890707,14z/data=!4m8!1m2!2m1!1sRotterdam+Golf+Lounge!3m4!1s0x89de71c9318994a3:0x7223b8fd78cffb12!8m2!3d42.807901799999996!4d-73.9890707",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJo5SJMclx3okREvvPeP24I3I",
+  "venue_type": "training_studio",
+  "about": "Rotterdam Golf Lounge is an exclusive members-only indoor golf facility located at Via Port Mall in Rotterdam, New York. It offers year-round access to state-of-the-art TrackMan golf simulators, professional coaching, and a community environment for golf enthusiasts. The venue focuses on improving your swing with tour-level analytics and practicing on world-famous courses, unaffected by weather conditions. Members can enjoy flexible scheduling, access to premium technology, and participation in leagues and social events. The facility provides a premium indoor golf experience designed for serious golfers looking to enhance their skills with professional-grade equipment and analysis.",
+  "tags": "beginner_friendly|leagues|premium_tech|coaching_available|serious_golfers|private_rooms|club_rentals|community_club|upscale_lounge|tech_lab",
+  "vibe_tags": "upscale_lounge|tech_lab|community_club|modern",
+  "who_its_for": "serious_golfers|families|solo_practice|coaches_instructors|beginners",
+  "why_golfers_like_it": [
+    "Access to industry-leading TrackMan technology with tour-level swing analysis and performance metrics",
+    "24/7 member access allowing practice or play at any time of day",
+    "Over 100 virtual golf courses available for year-round play regardless of weather",
+    "Professional coaching and personalized lessons from PGA instructors",
+    "Community-focused environment with leagues and social events for networking"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of food service available on-site"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service available on-site"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Five premium hitting bays with industry-leading TrackMan golf launch monitor technology"
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 5,
+  "booking_url": "http://rotterdamgolflounge.com/become-a-member/",
+  "pricing_model": "membership_only",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 5,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|leagues|wifi|pro_shop|club_fitting|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website doesn't explicitly mention club rentals, so it's recommended to bring your own clubs if you have them. Club storage is available for members with an annual plan."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "There is no mention of food or drink service on-site, and no specific policies regarding bringing outside food or drinks are stated. It's advisable to contact the venue directly for clarification."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website doesn't specify an exact time for completing 18 holes. Sessions can be booked for quick 30-minute practice sessions or full 18-hole rounds, suggesting that the time can vary based on your pace and booking."
+    },
+    {
+      "question": "Is Rotterdam Golf Lounge kid-friendly?",
+      "answer": "While the website doesn't specifically target children, it mentions family benefits including 'Enjoy group lessons and social golf experiences together' and 'Welcome friends and family to join your sessions,' indicating it can be suitable for families with children."
+    }
+  ],
+  "simulator_software": [
+    "TrackMan"
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

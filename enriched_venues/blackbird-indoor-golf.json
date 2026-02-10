@@ -1,0 +1,91 @@
+{
+  "name": "Blackbird Indoor Golf",
+  "address": "333 S State St H, Lake Oswego, OR 97034",
+  "city": "Lake Oswego",
+  "region": "Oregon",
+  "country": "US",
+  "latitude": 45.413963,
+  "longitude": -122.663162,
+  "phone": "+15038822876",
+  "website": "https://www.blackbirdindoorgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770220023/golf_simulators/www_blackbirdindoorgolf_com_ChIJmaLAq9d1lVQRgJbc0gSrBjo.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Blackbird+Indoor+Golf/@45.4139631,-122.66316219999999,14z/data=!4m8!1m2!2m1!1sBlackbird+Indoor+Golf!3m4!1s0x549575d7abc0a299:0x3a06ab04d2dc9680!8m2!3d45.4139631!4d-122.66316219999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJmaLAq9d1lVQRgJbc0gSrBjo",
+  "email": "sales@blackbirdindoorgolf.com",
+  "venue_type": "sim_bar",
+  "about": "Blackbird Indoor Golf is a premier indoor golf facility offering a year-round destination for golfers of all skill levels. The venue features 6 state-of-the-art simulator bays, including a dedicated private VIP suite, providing a comfortable and welcoming environment for practice, play, and social events. Guests can enjoy world-class technology with pro-level accuracy and immersive gameplay powered by the APOGEE Launch Monitor and E6 CONNECT software. The facility offers competitive pricing, flexible hourly rates, and various membership options to accommodate different needs and schedules.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|kids_friendly|corporate_events|leagues|premium_tech|private_rooms|club_rentals|coaching_available",
+  "vibe_tags": "casual|welcoming|modern|family_fun_center|community_club|sports_bar",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "Premium APOGEE launch monitor technology for highly accurate ball and club data",
+    "Access to over 100+ world-class golf courses and 1,000+ course options via E6 CONNECT",
+    "Welcoming, family-friendly atmosphere with amenities like TVs and comfortable seating for non-players",
+    "Flexible booking per bay, not per person, allowing groups of up to 4 players",
+    "Dedicated private VIP suite for an exclusive golfing experience"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Offers snacks and a relaxed social environment with seating for non-golfers."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Provides wine and other beverages, mentioned in a review for birthday parties."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "APOGEE",
+      "model": "TruGolf",
+      "notes": "State-of-the-art camera-based launch monitor delivering precise club and ball data without needing special balls or marked clubs."
+    }
+  ],
+  "simulator_software": [
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 6,
+  "booking_url": "https://apimanager-cc37.clubcaddie.com/activities/view/ejedabab",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "false",
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "The venue provides information about club rentals, indicating you can rent clubs if needed, but bringing your own is likely also an option."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue offers food, drinks, and a bar for guests. The policy on outside food and drinks is not explicitly stated in the provided content."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The provided content does not specify an average time for completing 18 holes. Simulator time is booked per bay, allowing for flexible group sizes."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is explicitly kid-friendly, as mentioned in a review of a birthday party event and the presence of junior clinics and leagues."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"10AM-9PM\"], \"Tuesday\": [\"10AM-9PM\"], \"Wednesday\": [\"10AM-9PM\"], \"Thursday\": [\"10AM-9PM\"], \"Friday\": [\"10AM-10PM\"], \"Saturday\": [\"10AM-10PM\"], \"Sunday\": [\"10AM-8PM\"]}"
+}

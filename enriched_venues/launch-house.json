@@ -1,0 +1,104 @@
+{
+  "name": "Launch House",
+  "address": "1960 NE 25th Ave Ste 11, Hillsboro, OR 97124",
+  "city": "Hillsboro",
+  "region": "Oregon",
+  "country": "US",
+  "latitude": 45.539655,
+  "longitude": -122.955812,
+  "phone": "+19712304731",
+  "website": "http://booking.launchhouse.golf/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770221676/golf_simulators/booking_launchhouse_golf_ChIJ9zeONVADlVQR1zM_sSIOgXM.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Launch+House/@45.5396546,-122.9558117,14z/data=!4m8!1m2!2m1!1sLaunch+House!3m4!1s0x54950350358e37f7:0x73810e22b13f33d7!8m2!3d45.5396546!4d-122.9558117",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ9zeONVADlVQR1zM_sSIOgXM",
+  "email": "sales@launchhouse.golf",
+  "venue_type": "private_rental",
+  "about": "Launch House is an indoor golf simulator venue that operates on a private rental model, allowing customers to book the entire facility like an Airbnb. The Hillsboro, Oregon location features a single simulator bay with recent updates including a rebuilt enclosure, new auto-tee system, and software upgrades. The space offers a private, self-service experience with remote keypad access and no staff on-site, making it suitable for casual rounds of golf, driving range practice, and swing training sessions. The facility is designed for groups seeking a private golf experience, with options to bring outside food and drinks to enhance the comfort and convenience of their visit.",
+  "tags": "private_rental|serious_practice|beginner_friendly|food_and_drinks|solo_practice|low_handicap|family_friendly|coaching_available|budget_friendly|corporate_teams",
+  "vibe_tags": "private_luxury|casual|welcoming|modern|community_club",
+  "who_its_for": "serious_golfers|families|corporate_teams|solo_practice|coaches_instructors",
+  "why_golfers_like_it": [
+    "Complete privacy with the entire facility reserved for your group",
+    "24/7 access for members with remote keypad entry",
+    "Updated technology including auto-tee system and simulator software",
+    "Ability to bring outside food and drinks to make yourself at home",
+    "No-staff required operation for convenient, flexible booking"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Outside food is allowed; BYOK (Bring Your Own Kitchen)"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Outside drinks are allowed; BYOB (Bring Your Own Beverages)"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "EYE XO",
+      "notes": "Featured in simulator packages; one of the available options for hardware"
+    },
+    {
+      "brand": "Uneekor",
+      "model": "EYE XO2",
+      "notes": "Featured in simulator packages; premium upgrade option for hardware"
+    },
+    {
+      "brand": "Bushnell",
+      "model": "Launch Pro",
+      "notes": "Featured in simulator packages; more budget-friendly hardware option"
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": 1,
+  "booking_url": "https://app.birrdi.com/u/reserve?team_booking_link_id=launch-house-studio",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|kitchen_food|tv_sports|wifi|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you will need to bring your own golf clubs as they are not provided by the venue."
+    },
+    {
+      "question": "Can I bring food and drink?",
+      "answer": "Yes, Launch House allows you to bring your own food and drinks to the facility, making yourself at home during your session."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "The duration of an 18-hole round can vary, but the new auto-tee system is designed to speed up your pace of play considerably compared to traditional simulators."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is family-friendly and allows juniors, though specific programs or equipment for youth may require checking directly with the location."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"8AM-8PM\"], \"Tuesday\": [\"8AM-8PM\"], \"Wednesday\": [\"8AM-8PM\"], \"Thursday\": [\"8AM-8PM\"], \"Friday\": [\"8AM-8PM\"], \"Saturday\": [\"8AM-8PM\"], \"Sunday\": [\"8AM-8PM\"]}"
+}

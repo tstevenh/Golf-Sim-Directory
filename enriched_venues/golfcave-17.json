@@ -1,0 +1,91 @@
+{
+  "name": "GolfCave",
+  "address": "176 US-202, Ringoes, NJ 08551",
+  "city": "Ringoes",
+  "region": "New Jersey",
+  "country": "US",
+  "latitude": 40.479436,
+  "longitude": -74.863529,
+  "phone": "+19086152283",
+  "website": "https://www.golfcave.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770214445/golf_simulators/www_golfcave_com_ChIJXfTNfzDxw4kRI_QIYqKr6mY.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/GolfCave/@40.479436299999996,-74.8635285,14z/data=!4m8!1m2!2m1!1sGolfCave!3m4!1s0x89c3f1307fcdf45d:0x66eaaba26208f423!8m2!3d40.479436299999996!4d-74.8635285",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJXfTNfzDxw4kRI_QIYqKr6mY",
+  "email": "clark@golfcave.com",
+  "venue_type": "sim_bar",
+  "about": "GolfCave is a 24/7 indoor golf facility that provides golfers of all skill levels with private simulator bays for practice and play. The venue utilizes TrackMan simulators, widely regarded as the most accurate technology in the industry, offering real-time data and analysis. Pricing appears to include hourly bay rentals, special promotions like a $45 happy hour, and membership options. It is best suited for individuals and groups looking for a flexible, high-tech golf experience outside of traditional course hours.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|private_rooms|coaching_available|late_night",
+  "vibe_tags": "casual|welcoming|modern|tech_lab",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Access to premium TrackMan simulator technology for highly accurate shot data",
+    "24/7 availability for flexible practice and play sessions",
+    "Private 'Caves' (bays) offer a focused and comfortable atmosphere",
+    "BYOB policy allows for a relaxed, social environment"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Patrons can bring their own food (BYOB includes food)."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Patrons can bring their own alcohol (BYOB everything)."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "World's most accurate golf simulator; mentioned as the primary technology."
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 12,
+  "booking_url": "https://clients.uschedule.com/golfcave/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 45,
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 12,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|private_party_room|club_fitting|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The provided content does not explicitly state whether club rentals are available. It is recommended to contact the venue directly to inquire about club availability."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes. GolfCave operates on a BYOB (Bring Your Own Beverage) policy, which includes both food and alcohol."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify a time estimate for playing 18 holes. Duration will depend on the number of players in your bay, the course selected, and the pace of play."
+    },
+    {
+      "question": "Is GolfCave kid-friendly?",
+      "answer": "The available information does not specify whether the venue offers amenities or programs specifically for children. It is recommended to contact a specific location to inquire about their policy on younger guests."
+    }
+  ],
+  "simulator_software": [
+    "TrackMan"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"9AM-9PM\"], \"Tuesday\": [\"9AM-9PM\"], \"Wednesday\": [\"9AM-9PM\"], \"Thursday\": [\"9AM-9PM\"], \"Friday\": [\"9AM-9PM\"], \"Saturday\": [\"9AM-9PM\"], \"Sunday\": [\"9AM-9PM\"]}"
+}

@@ -1,0 +1,91 @@
+{
+  "name": "True Spec Golf - Miami",
+  "address": "650 Curtiss Pkwy, Miami Springs, FL 33166",
+  "city": "Miami Springs",
+  "region": "Florida",
+  "country": "US",
+  "latitude": 25.814472,
+  "longitude": -80.288964,
+  "phone": "+18447298809",
+  "website": "https://truespecgolf.com/miami/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770237111/golf_simulators/truespecgolf_com_ChIJRyHCY9-72YgRMIDKkrg6xaQ.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/True+Spec+Golf+-+Miami/@25.814472,-80.28896379999999,14z/data=!4m8!1m2!2m1!1sTrue+Spec+Golf+-+Miami!3m4!1s0x88d9bbdf63c22147:0xa4c53ab892ca8030!8m2!3d25.814472!4d-80.28896379999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJRyHCY9-72YgRMIDKkrg6xaQ",
+  "email": "info@truespecgolf.com",
+  "venue_type": "retail_fitting_center",
+  "about": "True Spec Golf - Miami is a specialized golf fitting center dedicated to custom club fitting services. The facility operates by appointment only and utilizes advanced technology, including two Foresight GCQuad launch monitors and a comprehensive matrix of over 70,000 clubhead and shaft combinations. It is designed for golfers seeking precision equipment optimization, offering various fitting options from full bag assessments to specific club analyses like drivers, irons, and wedges. The center emphasizes data-driven recommendations and provides detailed fitting reports to help golfers improve their game through tailored equipment solutions.",
+  "tags": "serious_golfers|coaching_available|premium_tech|club_fitting|beginner_friendly|corporate_teams|solo_practice",
+  "vibe_tags": "tech_lab|professional|modern",
+  "who_its_for": "serious_golfers|beginners|solo_practice|coaches_instructors|corporate_teams",
+  "why_golfers_like_it": [
+    "Industry-leading Foresight GCQuad launch monitor technology",
+    "Extensive brand-agnostic fitting matrix with 70,000+ clubhead and shaft combinations",
+    "Comprehensive data-driven fitting reports with detailed recommendations",
+    "Variety of specialized fitting options for specific club types"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No on-site food service mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": "GCQuad",
+      "notes": "Two units available; quadroscopic launch monitor technology"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://truespecgolf.com/get-fit/",
+  "pricing_model": "package",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "false",
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_fitting|pro_shop|wifi",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you should bring your current golf clubs for fitting comparison, especially for gap analysis fittings."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No outside food or drinks are allowed as the facility is focused on professional fitting services."
+    },
+    {
+      "question": "How long does a full fitting session take?",
+      "answer": "A full bag fitting typically takes 2-3 hours, while specific club fittings may take 1-2 hours depending on the scope."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "No specific information regarding child-friendly amenities or services is provided."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"8:30AM-5PM\"], \"Tuesday\": [\"8:30AM-5PM\"], \"Wednesday\": [\"8:30AM-5PM\"], \"Thursday\": [\"8:30AM-5PM\"], \"Friday\": [\"8:30AM-5PM\"], \"Saturday\": [\"9AM-5PM\"], \"Sunday\": [\"9AM-5PM\"]}"
+}

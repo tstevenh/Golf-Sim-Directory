@@ -1,0 +1,92 @@
+{
+  "name": "Condor Club 24/7 Indoor Golf Lounge",
+  "address": "109 Northtown Rd Unit E, Normal, IL 61761",
+  "city": "Normal",
+  "region": "Illinois",
+  "country": "US",
+  "latitude": 40.546442,
+  "longitude": -88.984702,
+  "phone": "+13093061105",
+  "website": "https://condorclub.golf/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770221847/golf_simulators/condorclub_golf_ChIJ4yrNGERxC4gR2jmcgw21N08.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Condor+Club+24%2F7+Indoor+Golf+Lounge/@40.5464415,-88.9847017,14z/data=!4m8!1m2!2m1!1sCondor+Club+24%2F7+Indoor+Golf+Lounge!3m4!1s0x880b714418cd2ae3:0x4f37b50d839c39da!8m2!3d40.5464415!4d-88.9847017",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ4yrNGERxC4gR2jmcgw21N08",
+  "email": "condorclubgolfsimulator@gmail.com",
+  "venue_type": "sim_bar",
+  "about": "Condor Club is an indoor golf simulator venue offering self-service play in a private, 1,500 sq ft space located in Bloomington/Normal, IL. The facility features professional-level Uneekor Eye X02 technology with 3 cameras for accurate shot tracking and can accommodate up to 6 guests per bay. It operates 24/7/365 with flexible booking options including hourly rentals and various monthly memberships designed for different usage levels. The venue includes additional entertainment options like darts, cornhole, and a lounge area, making it suitable for both serious practice and social gatherings.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|budget_friendly|private_rooms|late_night|family_friendly",
+  "vibe_tags": "casual|welcoming|modern|tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Premium Uneekor Eye X02 technology with 3 cameras tracking 25+ data points",
+    "24/7 availability with flexible booking up to 45 days in advance for members",
+    "Private bay space accommodating up to 6 guests with no additional guest fees",
+    "Multiple entertainment options including golf, darts, cornhole, and lounge area",
+    "Transparent pricing with no club rental fees or hidden surcharges"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "BYOB (Bring Your Own Food) allowed; venue provides complimentary water"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "BYOB (Bring Your Own Beverages) allowed"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "Eye X02",
+      "notes": "3-camera system tracking 25+ data points per shot"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": 1,
+  "booking_url": "https://clients.uschedule.com/condorclub/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 50,
+  "price_range_max_local": 225,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|tv_sports|private_party_room|wifi|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own golf clubs?",
+      "answer": "Yes, you need to bring your own golf clubs as club rentals are not available."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, BYOB (Bring Your Own Beverages) and BYOF (Bring Your Own Food) are allowed. The venue provides complimentary water."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "18 holes typically take about 1-2 hours depending on pace of play and simulator settings."
+    },
+    {
+      "question": "Is Condor Club kid-friendly?",
+      "answer": "Yes, the venue is family-friendly and welcomes children. They can enjoy the golf simulator, darts, cornhole, and other activities."
+    }
+  ],
+  "venue": "Condor Club 24/7 Indoor Golf Lounge",
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

@@ -1,0 +1,94 @@
+{
+  "name": "Golf Paradise Club",
+  "address": "311 Pompton Ave, Verona, NJ 07044",
+  "city": "Verona",
+  "region": "New Jersey",
+  "country": "US",
+  "latitude": 40.834937,
+  "longitude": -74.225146,
+  "phone": "+12018083723",
+  "website": "http://golfparadiseclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770205587/golf_simulators/golfparadiseclub_com_ChIJJ5i3AksBw4kREX37oc8epF8.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Golf+Paradise+Club/@40.8349373,-74.2251461,14z/data=!4m8!1m2!2m1!1sGolf+Paradise+Club!3m4!1s0x89c3014b02b79827:0x5fa41ecfa1fb7d11!8m2!3d40.8349373!4d-74.2251461",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJJ5i3AksBw4kREX37oc8epF8",
+  "email": "info@golfparadiseclub.com",
+  "venue_type": "sim_bar",
+  "about": "Golf Paradise Club is an indoor golf simulator facility located in Verona, New Jersey. The venue features 24 bays equipped with GOLFZON simulator technology, which uses advanced sensor technology and high-speed cameras to capture swing data with high precision. The facility provides year-round access, operating Monday-Thursday 8AM-10PM, Friday-Saturday 8AM-midnight, and Sunday 8AM-8PM. Golfers can choose from dozens of world-renowned golf courses, with rates starting at $20 per hour for members and walk-ins are accepted. The club offers various membership tiers, PGA-certified instruction, and a BYOB policy with food options.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|coaching_available|private_rooms|club_rentals|community_club",
+  "vibe_tags": "casual|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "24 bays with GOLFZON simulator technology offering advanced data tracking for all swing types",
+    "Year-round access with extended hours and no weather limitations",
+    "Multiple membership tiers providing significant savings and flexible play options",
+    "BYOB-friendly policy with in-house food options for a relaxed social atmosphere",
+    "PGA-certified instructors available for personalized skill development"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Sandwiches, snacks, and ice cream cones are available."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "BYOB-friendly policy, allowing guests to bring their own alcohol."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "GOLFZON",
+      "model": "Unknown",
+      "notes": "Premium system featuring advanced sensor technology and high-speed cameras for precise tracking."
+    }
+  ],
+  "simulator_so": [
+    "GOLFZON"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": 24,
+  "booking_url": "https://app.birrdi.com/u/reserve?team_booking_link_id=golf-paradise-club",
+  "pricing_model": "per_bay_hour|membership_only|mixed",
+  "price_range_min_local": 20,
+  "price_range_max_local": 27,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 8,
+  "amenities_list": "club_rentals|kitchen_food|private_party_room|wifi|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you should bring your own golf clubs to use on the simulators. The facility also offers equipment storage options for regular players."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, Golf Paradise Club has a BYOB (Bring Your Own Beverage) policy, allowing you to bring your own alcohol. The facility also offers in-house food options including sandwiches, snacks, and ice cream."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "While the exact time isn't specified, typical simulator rounds of 18 holes usually take between 1.5 to 2 hours per person depending on the number of players and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is kid-friendly. It offers a High School Golf Program, Saturday SNAG Clinics, and welcomes families for events and parties."
+    }
+  ],
+  "simulator_software": [
+    "GOLFZON"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"8AM-10PM\"], \"Tuesday\": [\"8AM-10PM\"], \"Wednesday\": [\"8AM-10PM\"], \"Thursday\": [\"8AM-10PM\"], \"Friday\": [\"8AM-12AM\"], \"Saturday\": [\"8AM-12AM\"], \"Sunday\": [\"10AM-8PM\"]}"
+}

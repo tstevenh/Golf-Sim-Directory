@@ -1,0 +1,91 @@
+{
+  "name": "Uptown Golf Club",
+  "address": "125 W Broadway St, Butte, MT 59701",
+  "city": "Butte",
+  "region": "Montana",
+  "country": "US",
+  "latitude": 46.013606,
+  "longitude": -112.538758,
+  "phone": "+11961860896",
+  "website": "https://uptowngolfclubbutte.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770221037/golf_simulators/uptowngolfclubbutte_com_ChIJNZhqHAAJW1MRbklIbJvTVCM.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Uptown+Golf+Club/@46.0136061,-112.538758,14z/data=!4m8!1m2!2m1!1sUptown+Golf+Club!3m4!1s0x535b09001c6a9835:0x2354d39b6c48496e!8m2!3d46.0136061!4d-112.538758",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJNZhqHAAJW1MRbklIbJvTVCM",
+  "email": "uptowngolfclub@gmail.com",
+  "venue_type": "sim_bar|training_studio|private_rental|retail_fitting_center|country_club|multi_sport_sim|hotel_resort|other",
+  "about": "Uptown Golf Club is an indoor golf facility featuring two 17.5-foot wide Trackman iO simulator bays. It is the only Trackman iO facility in Butte, Montana, offering advanced technology to help golfers improve their game. The venue is open to the public, members, and guests 24/7 and also provides rental clubs for those without their own equipment. PGA Professional instruction is available through lessons, and the club offers various membership options for regular visitors.",
+  "tags": "beginner_friendly|coaching_available|club_rentals|premium_tech|budget_friendly|private_rooms|family_friendly|serious_practice",
+  "vibe_tags": "industrial_training|tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|families|juniors_youth|solo_practice",
+  "why_golfers_like_it": [
+    "Access to premium Trackman iO technology for detailed swing analysis",
+    "Convenient 24/7 access to two spacious simulator bays",
+    "Professional PGA instruction available for all skill levels",
+    "Option to rent clubs, eliminating the need to bring your own",
+    "Specialized software offering games like Scrapyard for entertainment"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "17.5' wide bays, advanced radar technology"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://yourgolfbooking.com/venues/uptown-simulators/booking/bays",
+  "pricing_model": "mixed",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|coaching_available|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need clubs?",
+      "answer": "No, rental clubs are available in men's, women's, and junior sizes in both left and right-handed options."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The website does not mention any policy regarding outside food or drinks, so it's recommended to contact the venue directly for confirmation."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify time estimates for 18 holes, as simulator times are typically booked by the hour."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue offers junior rental clubs, junior lessons, and has a junior membership category, making it suitable for young golfers."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

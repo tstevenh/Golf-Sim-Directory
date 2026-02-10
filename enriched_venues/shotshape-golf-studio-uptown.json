@@ -1,0 +1,88 @@
+{
+  "name": "Shotshape Golf Studio - Uptown",
+  "address": "2609 Aldrich Ave S #103, Minneapolis, MN 55408",
+  "city": "Minneapolis",
+  "region": "Minnesota",
+  "country": "US",
+  "latitude": 44.955199,
+  "longitude": -93.288926,
+  "phone": "+16752492072",
+  "website": "https://www.shotshapegolfstudio.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770213266/golf_simulators/www_shotshapegolfstudio_com_ChIJ1-vhHpEzs1IRysgACcXKrEM.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Shotshape+Golf+Studio+-+Uptown/@44.9551987,-93.2889257,14z/data=!4m8!1m2!2m1!1sShotshape+Golf+Studio+-+Uptown!3m4!1s0x52b333911ee1ebd7:0x43accac50900c8ca!8m2!3d44.9551987!4d-93.2889257",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ1-vhHpEzs1IRysgACcXKrEM",
+  "venue_type": "private_rental",
+  "about": "Shotshape Golf Studio - Uptown is Minneapolis' only premiere and private golf simulator venue. Designed with the golfer in mind, members gain access to the best technology in the industry in a space that is entirely their own during a reservation. The studio operates on a 24/7, 365-day-a-year schedule, ensuring members can refine their golf game at their convenience, regardless of the time, season, or weather. With a limited membership to guarantee availability, Shotshape offers an environment suitable for everything from beginner practice to professional game optimization.",
+  "tags": "beginner_friendly|corporate_events|premium_tech|private_rooms|club_rentals|late_night|coaching_available|solo_practice",
+  "vibe_tags": "private_luxury|tech_lab|casual|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|corporate_teams|solo_practice|coaches_instructors",
+  "why_golfers_like_it": [
+    "Complete privacy with the entire studio reserved exclusively for you and your guests",
+    "24/7 access with Bluetooth key entry for ultimate flexibility and convenience",
+    "Premium Trackman technology for detailed data-based swing analysis and course play"
+  ],
+  "kid_friendly": false,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Members are welcome to bring or order their own food; a cleaning policy is in place to leave the studio trash-free for the next member."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Members are welcome to bring their own beverages; a mini fridge is provided to keep drinks cool."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Industry-leading radar launch monitor providing detailed ball and club data analysis."
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 1,
+  "booking_url": "https://shotshapegolf.gymmasteronline.com/portal/signup",
+  "pricing_model": "membership_only",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": false,
+  "coaching_available": false,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|wifi|tv_sports|parking",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own golf clubs?",
+      "answer": "Yes, members are expected to bring their own golf clubs to use in the simulator bay."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "Yes, members are welcome to bring or order their own food and drinks. A mini fridge is provided for beverages, and members must clean up after themselves."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "The time to play 18 virtual holes can vary depending on the player's pace and the course, but it generally takes one to two hours."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The venue is not specifically marketed or designed as kid-friendly; it is primarily a private golf studio for adults focusing on serious practice and play."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

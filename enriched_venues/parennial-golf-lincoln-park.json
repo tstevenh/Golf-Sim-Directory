@@ -1,0 +1,90 @@
+{
+  "name": "PARennial Golf - Lincoln Park",
+  "address": "2355 N Clark St, Chicago, IL 60614",
+  "city": "Chicago",
+  "region": "Illinois",
+  "country": "US",
+  "latitude": 41.925272,
+  "longitude": -87.640084,
+  "phone": "+13123136218",
+  "website": "https://parennialgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770199611/golf_simulators/parennialgolf_com_ChIJ6WibpIvTD4gRYwht_Pu2dxA.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/PARennial+Golf+-+Lincoln+Park/@41.9252725,-87.6400843,14z/data=!4m8!1m2!2m1!1sPARennial+Golf+-+Lincoln+Park!3m4!1s0x880fd38ba49b68e9:0x1077b6fbfc6d0863!8m2!3d41.9252725!4d-87.6400843",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ6WibpIvTD4gRYwht_Pu2dxA",
+  "venue_type": "sim_bar|training_studio",
+  "about": "PARennial Golf offers a premium indoor golf experience centered around state-of-the-art Trackman technology. The venue features multiple simulator bays across three Chicago locations, providing a golf experience second only to being on the course itself. Facilities are designed with a high-end, modern aesthetic and emphasize 24/7 accessibility for members. The membership model is central to the operation, offering flexible booking options, walk-in access, and packages that include free booking hours. Pricing and services are structured to appeal to both serious golfers looking for practice and casual players seeking a premium social experience.",
+  "tags": "serious_golfers|beginner_friendly|coaching_available|corporate_events|premium_tech|food_and_drinks|club_rentals|leagues|private_rooms|late_night",
+  "vibe_tags": "upscale_lounge|tech_lab|modern|welcoming",
+  "who_its_for": "serious_golfers|beginners|corporate_teams|solo_practice|tourists_travelers",
+  "why_golfers_like_it": [
+    "Real-time simulator bay availability and walk-in play through the mobile app",
+    "Premium Trackman technology for accurate shot data and course simulation",
+    "Flexible membership model with 24/7 access and included booking hours",
+    "Multiple PGA-certified instructors available for personalized coaching",
+    "Ability to play on world-renowned virtual golf courses"
+  ],
+  "kid_friendly": false,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of food service; BYOB may be allowed but unclear."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of an on-site bar or alcohol service."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Premium radar-based launch technology; primary simulator hardware used."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://parennialg.com/bookings",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|private_rooms|lockers|wifi|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.5,
+  "rating_value_for_money": 4.2,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, it is standard practice to bring your own golf clubs to use with the simulators."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "The venue's policy on outside food and drink is not explicitly mentioned on the website."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time required to play 18 holes depends on the simulator and the number of people sharing the bay. Typically, it can range from 2 to 4 hours."
+    },
+    {
+      "question": "Is PARennial Golf kid-friendly?",
+      "answer": "The website does not specifically mention child-friendly features or policies."
+    }
+  ],
+  "rating_overall": 4.5,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

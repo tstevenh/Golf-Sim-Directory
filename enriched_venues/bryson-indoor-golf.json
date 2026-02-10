@@ -1,0 +1,89 @@
+{
+  "name": "Bryson Indoor Golf",
+  "address": "3 S Tunnel Rd, Asheville, NC 28805",
+  "city": "Asheville",
+  "region": "North Carolina",
+  "country": "US",
+  "latitude": 35.581246,
+  "longitude": -82.526315,
+  "phone": "+18287024063",
+  "website": "https://www.brysonindoorgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770218161/golf_simulators/www_brysonindoorgolf_com_ChIJUdzMxx7zWYgRgbuncA7dG8Y.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Bryson+Indoor+Golf/@35.581245599999995,-82.52631459999999,14z/data=!4m8!1m2!2m1!1sBryson+Indoor+Golf!3m4!1s0x8859f31ec7ccdc51:0xc61bdd0e70a7bb81!8m2!3d35.581245599999995!4d-82.52631459999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJUdzMxx7zWYgRgbuncA7dG8Y",
+  "email": "Brandon@BrysonIndoorGolf.com",
+  "venue_type": "sim_bar",
+  "about": "Bryson Indoor Golf is a modern golf simulator facility in Asheville, NC, offering year-round play regardless of weather conditions. The venue provides a community hub for golfers of all ages and abilities to use state-of-the-art simulators to experience famous courses, analyze their swings, and enjoy golf in an indoor setting. Operating with hourly rentals and membership options, the facility caters to both solo players and groups looking for a social golfing experience.",
+  "tags": "beginner_friendly|kids_friendly|corporate_events|leagues|premium_tech|private_rooms|club_rentals|coaching_available",
+  "vibe_tags": "casual|welcoming|modern",
+  "who_its_for": "beginners|families|corporate_teams|solo_practice|bachelor_parties",
+  "why_golfers_like_it": [
+    "Access to world-famous golf courses like Pebble Beach and St. Andrews",
+    "High-speed cameras and sensors for precise swing analysis",
+    "Customizable private events for birthdays, bachelor parties, and corporate outings"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service available; BYOB is permitted"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service available; BYOB is permitted"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Unknown",
+      "model": "Unknown",
+      "notes": "Advanced simulator technology with high-speed cameras and sensors mentioned, but specific brand not stated"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://app.whoosh.io/patron/club/bryson-indoor-golf/agenda/bryson-indoor-golf/today",
+  "pricing_model": "mixed",
+  "price_range_min_local": 35,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|private_party_room|wifi|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not explicitly state whether club rentals are available, so it's recommended to bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, the venue allows BYOB (Bring Your Own Beverages) and food, as there is no in-house food or alcohol service."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "A solo player can finish 18 holes in about an hour, while groups will take longer depending on the number of players."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the simulators are beginner-friendly and suitable for families, making it a great option for kids to play."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"11AM-7PM\"], \"Wednesday\": [\"11AM-7PM\"], \"Thursday\": [\"11AM-7PM\"], \"Friday\": [\"11AM-7PM\"], \"Saturday\": [\"11AM-8PM\"], \"Sunday\": [\"12-7PM\"]}"
+}

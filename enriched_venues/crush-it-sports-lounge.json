@@ -1,0 +1,84 @@
+{
+  "name": "Crush It! Sports Lounge",
+  "address": "401 W State Hwy 114, Grapevine, TX 76051",
+  "city": "Grapevine",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 32.921459,
+  "longitude": -97.081436,
+  "phone": "+18172709600",
+  "website": "http://crushitsports.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770210867/golf_simulators/crushitsports_com_ChIJFaPBanUrTIYRzXAexUPQOhs.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Crush+It%21+Sports+Lounge/@32.9214591,-97.08143609999999,14z/data=!4m8!1m2!2m1!1sCrush+It%21+Sports+Lounge!3m4!1s0x864c2b756ac1a315:0x1b3ad043c51e70cd!8m2!3d32.9214591!4d-97.08143609999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJFaPBanUrTIYRzXAexUPQOhs",
+  "email": "support@crushitsports.com",
+  "venue_type": "sim_bar",
+  "about": "Crush It! Sports Lounge is an upscale, boutique entertainment and social lounge located in Grapevine, Texas. The venue offers a multi-sport experience with golf simulators, duckpin bowling, augmented reality darts, arcade games, and a dedicated pickleball simulator coming soon. It operates as a full-service sports bar and event space, providing food, drinks, and various booking options for individuals and groups. Each golf bay accommodates up to 10 guests, making it suitable for both casual play and larger parties.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|large_groups|private_rooms",
+  "vibe_tags": "upscale_lounge|sports_bar|party_atmosphere",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|tourists_travelers",
+  "why_golfers_like_it": [
+    "Multi-sport simulator offering a variety of virtual sports experiences",
+    "Upscale, boutique atmosphere providing a premium entertainment environment",
+    "Full-service food and beverage menu available on-site",
+    "Ability to book private events and multi-bay packages for groups"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen available with an irresistible food menu to stay energized during games"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar available with draft beer and specialty drinks, including group drink packages"
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": "unknown",
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "https://crushitsports.com/book-a-bay",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": 3,
+  "max_group_size_per_bay": 10,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi",
+  "rating_tech_quality": 4.0,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify whether clubs are provided or if you need to bring your own."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, the venue offers a full kitchen and bar on-site, and there's no mention of being able to bring outside food or drinks."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify the time required to play a full 18-hole round on the simulators."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is kid-friendly, with activities for all ages including arcade games, and the only age restriction is that guests must be 13+ to enter after 8PM on Thursday-Saturday."
+    }
+  ],
+  "rating_overall": 4.1,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"3-9PM\"], \"Wednesday\": [\"3-9PM\"], \"Thursday\": [\"3-9PM\"], \"Friday\": [\"11AM-11PM\"], \"Saturday\": [\"11AM-11PM\"], \"Sunday\": [\"11AM-7PM\"]}"
+}

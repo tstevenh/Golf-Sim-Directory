@@ -1,0 +1,89 @@
+{
+  "name": "Pure Swing Golf",
+  "address": "13617 Inwood Rd suite 205, Dallas, TX 75244",
+  "city": "Dallas",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 32.934587,
+  "longitude": -96.82408,
+  "phone": "+14697799991",
+  "website": "http://www.pureswinggolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770200670/golf_simulators/www_pureswinggolf_com_ChIJh5awNwIhTIYRu-JlDGj4HRI.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Pure+Swing+Golf/@32.934587199999996,-96.82407959999999,14z/data=!4m8!1m2!2m1!1sPure+Swing+Golf!3m4!1s0x864c210237b09687:0x121df8680c65e2bb!8m2!3d32.934587199999996!4d-96.82407959999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJh5awNwIhTIYRu-JlDGj4HRI",
+  "venue_type": "training_studio",
+  "about": "Pure Swing Golf is a state-of-the-art indoor training facility in Dallas, Texas, founded by professional golfer Anthony Broussard. The facility provides a climate-controlled environment where golfers can use top-of-the-line technology to play, practice, and learn, regardless of weather conditions. The coaching approach is centered on long-term player development, utilizing advanced measurement tools to create personalized game plans for individuals with varying skill levels and goals.",
+  "tags": "serious_practice|coaching_available|premium_tech|juniors_youth|club_fitting|beginner_friendly",
+  "vibe_tags": "industrial_training|tech_lab|welcoming",
+  "who_its_for": "beginners|serious_golfers|juniors_youth|solo_practice",
+  "why_golfers_like_it": [
+    "Access to professional-grade technology including Foresight GC Quad launch monitor and Swing Catalyst pressure plates",
+    "Coaching from professionals with competitive experience, including a founder who played in a major championship",
+    "A personalized, data-driven approach focused on long-term skill development and measurable results"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": "GC Quad",
+      "notes": "High-speed camera launch monitor providing detailed data on club path, face angle, ball speed, and more"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.pureswinggolf.com/contact",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|wifi|pro_shop|club_fitting|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.5,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you will need to bring your own clubs to practice at Pure Swing Golf."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "There is no mention of food or drink service at Pure Swing Golf, suggesting BYOB may be allowed but is not explicitly confirmed."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify the time required to play a full 18 holes on a simulator."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "Yes, Pure Swing Golf offers junior lessons with customized game plans and a supportive environment for young golfers."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.4,
+  "opening_hours": "{\"Monday\": [\"8:30AM-8:30PM\"], \"Tuesday\": [\"8:30AM-8:30PM\"], \"Wednesday\": [\"7AM-8:30PM\"], \"Thursday\": [\"7AM-8:30PM\"], \"Friday\": [\"7AM-5PM\"], \"Saturday\": [\"8AM-3PM\"], \"Sunday\": [\"8AM-4PM\"]}"
+}

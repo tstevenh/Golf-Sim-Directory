@@ -1,0 +1,91 @@
+{
+  "name": "Studio Golf",
+  "address": "388 Danbury Rd, Wilton, CT 06897",
+  "city": "Wilton",
+  "region": "Connecticut",
+  "country": "US",
+  "latitude": 41.209288,
+  "longitude": -73.430926,
+  "phone": "+12037610824",
+  "website": "http://studiogolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770264212/golf_simulators/studiogolf_com_ChIJOcLVbFAC6IkRL48yLQSvEYA.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Studio+Golf/@41.209287599999996,-73.430926,14z/data=!4m8!1m2!2m1!1sStudio+Golf!3m4!1s0x89e802506cd5c239:0x8011af042d328f2f!8m2!3d41.209287599999996!4d-73.430926",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJOcLVbFAC6IkRL48yLQSvEYA",
+  "email": "angelo@studiogolf.com",
+  "venue_type": "training_studio",
+  "about": "Studio Golf is an indoor/outdoor training facility in Wilton, CT, focused on golf lessons, practice, and simulator play. Founded in 1999 by PGA Professional Angelo Lopiano, a Top 100 Instructor, the center offers a mix of traditional coaching and Trackman IO simulator technology. The venue provides memberships, individual lessons, clinics, and access to on-course playing sessions. With a staff of experienced instructors, the facility caters to golfers of all ages and skill levels, offering both short-term and annual membership options.",
+  "tags": "beginner_friendly|coaching_available|juniors_youth|serious_golfers|families|corporate_events",
+  "vibe_tags": "industrial_training|community_club",
+  "who_its_for": "beginners|serious_golfers|families|juniors_youth|corporate_teams",
+  "why_golfers_like_it": [
+    "Access to premium Trackman IO simulator technology",
+    "Customizable lesson packages from Top 100 PGA instructors",
+    "Flexible membership options with key access for off-hours practice",
+    "On-course playing lessons with instructor-led guidance",
+    "Junior-specific programs and equipment fitting services"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of food services on-site; BYOB likely allowed"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol services mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Premium radar-based launch monitor with ball and club tracking, available starting Jan 15, 2026"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.studiogolf.com/contact-us-2.shtml",
+  "pricing_model": "mixed",
+  "price_range_min_local": 20,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|club_fitting|pro_shop",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can bring your own clubs, but the facility also offers club rentals and is a PXG and US Kids Golf fitting center with available clubs and fittings starting Jan 15, 2026."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No food or drink services are mentioned on-site, and no policies are specified regarding outside food or drinks, so it's unclear if BYOB is permitted."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Golfers must allow for an hour of time per person to play 18 holes, so a foursome can take up to 4 hours to complete a round on the simulator."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Studio Golf offers specific junior programs including PeeWee lessons for ages 3-7 and US Kids Golf equipment, making it suitable for young golfers."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": null
+}

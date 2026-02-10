@@ -1,0 +1,90 @@
+{
+  "name": "Tee Up Taproom golf simulators and bar",
+  "address": "70 James St Suite 235, Worcester, MA 01603",
+  "city": "Worcester",
+  "region": "Massachusetts",
+  "country": "US",
+  "latitude": 42.232765,
+  "longitude": -71.851387,
+  "phone": "+15083047699",
+  "website": "http://www.teeuptaproom.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770209362/golf_simulators/www_teeuptaproom_com_ChIJq0_kcUIF5IkRl45pcWbkxeM.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Tee+Up+Taproom+golf+simulators+and+bar/@42.232765099999995,-71.851387,14z/data=!4m8!1m2!2m1!1sTee+Up+Taproom+golf+simulators+and+bar!3m4!1s0x89e4054271e44fab:0xe3c5e46671698e97!8m2!3d42.232765099999995!4d-71.851387",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJq0_kcUIF5IkRl45pcWbkxeM",
+  "email": "hello@teeuptaproom.com",
+  "venue_type": "sim_bar",
+  "about": "Tee Up Taproom is a 9,000 square foot warehouse facility in Worcester, MA, equipped with five full-size Apogee golf simulator bays. The venue provides an indoor golf experience with access to over 125 playable courses worldwide. Patrons can enjoy drinks from the full bar, including local and national beers on tap, along with a menu of subs and snacks. The facility is designed for groups, offering amenities like dart boards, corn hole, and table games alongside the golf simulators.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|kids_friendly|corporate_events|leagues|premium_tech|budget_friendly|private_rooms|club_rentals|late_night",
+  "vibe_tags": "sports_bar|family_fun_center|party_atmosphere|tech_lab|community_club",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Access to over 125 courses worldwide, including professional-level greens in 6 continents",
+    "Apogee simulator technology with 4K visuals and realistic ball tracking",
+    "Full bar and food service available directly in the bays",
+    "No need for an 18-hole time commitment; flexible 2-3 hour sessions"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Variety of cold and hot subs, snacks, and food available for in-bay service"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar selection with beer on tap, canned beverages, mixed drinks, and wine by the glass"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Apogee",
+      "model": "Full-size",
+      "notes": "Five full-size bays with state-of-the-art Apogee golf simulators"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 5,
+  "booking_url": "http://www.teeuptaproom.com/reserve",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 45,
+  "price_range_max_local": 50,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 5,
+  "max_group_size_per_bay": 5,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|wifi|private_party_room|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, players are expected to bring their own golf clubs for use in the simulators."
+    },
+    {
+      "question": "Can I bring outside food or drinks?",
+      "answer": "No, outside food and drinks are not allowed. Tee Up Taproom offers a full bar and food menu with subs, snacks, and beverages available for in-bay service."
+    },
+    {
+      "question": "How long does an 18-hole round take?",
+      "answer": "The recommended time for 18 holes is 3-4 hours for groups of three or more golfers."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Tee Up Taproom is kid-friendly and welcomes families. The venue offers food options that appeal to children and provides a fun atmosphere with activities beyond golf."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"5-9PM\"], \"Tuesday\": [\"5PM-12AM\"], \"Wednesday\": [\"2PM-12AM\"], \"Thursday\": [\"2PM-12AM\"], \"Friday\": [\"2PM-1AM\"], \"Saturday\": [\"10AM-1AM\"], \"Sunday\": [\"10AM-9PM\"]}"
+}

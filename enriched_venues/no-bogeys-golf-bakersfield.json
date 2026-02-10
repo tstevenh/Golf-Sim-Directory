@@ -1,0 +1,93 @@
+{
+  "name": "No Bogeys Golf - Bakersfield",
+  "address": "8800 Crippen St Ste 300, Bakersfield, CA 93311",
+  "city": "Bakersfield",
+  "region": "California",
+  "country": "US",
+  "latitude": 35.307444,
+  "longitude": -119.100222,
+  "phone": "+16617414700",
+  "website": "https://www.nobogeysgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770227963/golf_simulators/www_nobogeysgolf_com_ChIJ23iOY_tB6oAR-JZ2WuhDaag.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/No+Bogeys+Golf+-+Bakersfield/@35.3074443,-119.1002223,14z/data=!4m8!1m2!2m1!1sNo+Bogeys+Golf+-+Bakersfield!3m4!1s0x80ea41fb638e78db:0xa86943e85a7696f8!8m2!3d35.3074443!4d-119.1002223",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ23iOY_tB6oAR-JZ2WuhDaag",
+  "email": "info@nobogeysgolf.com",
+  "venue_type": "training_studio",
+  "about": "No Bogeys Golf - Bakersfield is an indoor golf performance center offering a comprehensive suite of services including TrackMan simulator bays, professional instruction, and custom club fitting. The facility utilizes advanced radar and ultrasonic technology, including TrackMan4 and SAM PuttLab, to provide precise data on ball flight and putting. Services range from individual bay rentals for practice and virtual play to structured coaching for golfers of all ages and skill levels, with a focus on data-driven improvement.",
+  "tags": "beginner_friendly|serious_practice|juniors_youth|coaching_available|premium_tech|club_rentals|private_rooms",
+  "vibe_tags": "tech_lab|community_club|modern|welcoming",
+  "who_its_for": "serious_golfers|families|juniors_youth|solo_practice|coaches_instructors",
+  "why_golfers_like_it": [
+    "Professional club fitting and building services with over 20 years of experience",
+    "Top-tier technology including TrackMan4 and SAM PuttLab for precise swing analysis",
+    "Family-friendly atmosphere with dedicated junior golf programs and group lessons"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of on-site food service"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "TrackMan4",
+      "notes": "Dual Radar Technology for precise ball and club data"
+    }
+  ],
+  "simulator_so": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://clients.uschedule.com/nobogeysgolf/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 45,
+  "price_range_max_local": 150,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can bring your own clubs, or No Bogeys offers club rentals and a full pro shop with premium brands."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue does not mention on-site food or drink service. There is no explicit mention of BYOB policies."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Exact times are not specified, but the facility offers hourly bay rentals to practice or play TrackMan's 100+ virtual courses."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "Yes, No Bogeys offers dedicated junior golf programs including private lessons for ages 6-18 and group lessons for ages 6-12."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"9AM-6PM\"], \"Tuesday\": [\"9AM-6PM\"], \"Wednesday\": [\"9AM-6PM\"], \"Thursday\": [\"9AM-8PM\"], \"Friday\": [\"9AM-8PM\"], \"Saturday\": [\"9AM-8PM\"], \"Sunday\": [\"Closed\"]}"
+}

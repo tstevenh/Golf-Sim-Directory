@@ -1,0 +1,91 @@
+{
+  "name": "Venice Golf Center",
+  "address": "2371 E Venice Ave, Venice, FL 34292",
+  "city": "Venice",
+  "region": "Florida",
+  "country": "US",
+  "latitude": 27.098342,
+  "longitude": -82.386395,
+  "phone": "+19414977910",
+  "website": "http://venicegolfcenter.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770247063/golf_simulators/venicegolfcenter_com_ChIJ7wlG9oJQw4gRMCTX05ywd_E.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Venice+Golf+Center/@27.0983421,-82.3863946,14z/data=!4m8!1m2!2m1!1sVenice+Golf+Center!3m4!1s0x88c35082f64609ef:0xf177b09cd3d72430!8m2!3d27.0983421!4d-82.3863946",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ7wlG9oJQw4gRMCTX05ywd_E",
+  "email": "info@venicegolfcenter.com",
+  "venue_type": "retail_fitting_center",
+  "about": "Venice Golf Center is a local golf facility in Venice, Florida, offering a state-of-the-art indoor simulator experience with climate-controlled conditions and TrackMan technology. They provide a range of services including custom club fitting, club repairs, and professional golf lessons, along with an online store for premium golf equipment. The venue is designed to help golfers practice and improve their game year-round, particularly during extreme weather, with access to over 100 world-renowned courses. They offer a variety of membership options with benefits such as priority booking, complimentary sessions, and discounted coaching.",
+  "tags": "serious_golfers|coaching_available|club_fitting|leagues|premium_tech|family_friendly|corporate_events|solo_practice|beginner_friendly",
+  "vibe_tags": "tech_lab|community_club|modern|welcoming",
+  "who_its_for": "serious_golfers|families|solo_practice|beginners|coaches_instructors",
+  "why_golfers_like_it": [
+    "State-of-the-art TrackMan technology for precise shot feedback",
+    "Climate-controlled indoor facility allowing year-round play",
+    "Access to over 100 world-renowned golf courses",
+    "Priority booking and member-only hours",
+    "Professional fitting services and expert instruction"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "State-of-the-art radar technology for precise shot tracking"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "unknown",
+  "pricing_model": "membership_only|mixed",
+  "price_range_min_local": 30,
+  "price_range_max_local": 45,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 0,
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|club_fitting|leagues|ada_accessible|pro_shop",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "Yes, you'll need your own clubs for the simulator experience. The venue also offers custom fitting services to optimize your equipment."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No outside food or drinks are mentioned as being allowed. The venue focuses on golf services without on-site dining options."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Playing time varies depending on the simulator setup and group size, but sessions are typically booked by the hour with advance scheduling required."
+    },
+    {
+      "question": "Is it kid-friendly?",
+      "answer": "Yes, the facility is family-friendly with professional instruction available for all skill levels, including juniors and youth golfers."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"8AM-5PM\"], \"Tuesday\": [\"8AM-5PM\"], \"Wednesday\": [\"8AM-5PM\"], \"Thursday\": [\"8AM-5PM\"], \"Friday\": [\"8AM-5PM\"], \"Saturday\": [\"9AM-5PM\"], \"Sunday\": [\"10AM-3PM\"]}"
+}

@@ -1,0 +1,91 @@
+{
+  "name": "The Club at Woodbridge",
+  "address": "585 Main St, Woodbridge, NJ 07095",
+  "city": "Woodbridge",
+  "region": "New Jersey",
+  "country": "US",
+  "latitude": 40.543595,
+  "longitude": -74.301409,
+  "phone": "+17326345000",
+  "website": "http://www.theclub.org/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770211664/golf_simulators/www_theclub_org_ChIJg2gmCt21w4kRYfNpuDbU7R0.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Club+at+Woodbridge/@40.5435948,-74.30140879999999,14z/data=!4m8!1m2!2m1!1sThe+Club+at+Woodbridge!3m4!1s0x89c3b5dd0a266883:0x1dedd436b869f361!8m2!3d40.5435948!4d-74.30140879999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJg2gmCt21w4kRYfNpuDbU7R0",
+  "email": "info@theclub.org",
+  "venue_type": "country_club",
+  "about": "The Club at Woodbridge is a full-service country club offering a wide range of amenities including a golf simulator, fitness facilities, swimming pool, sports courts, and childcare services. The centerpiece is the Golf Den, a private room equipped with a state-of-the-art golf simulator for up to 6 players, featuring a mini-fridge, TV, recliners, and a putting green. The venue provides a community-focused experience with programs for all ages, from Kidsports Academy preschool to adult fitness classes and golf lessons. Membership options are available for families, young adults, juniors, and seniors, with the facility designed to meet diverse activity levels and needs.",
+  "tags": "family_friendly|food_and_drinks|corporate_events|leagues|premium_tech|club_rentals|coaching_available|juniors_youth",
+  "vibe_tags": "community_club|family_fun_center|tech_lab",
+  "who_its_for": "families|serious_golfers|juniors_youth|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "State-of-the-art TrackMan simulator technology for year-round practice",
+    "Private, luxury room accommodating up to 6 players with recliners and TV",
+    "Includes a dedicated putting green for comprehensive skill development",
+    "Available for both individual practice and group sessions"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "On-site restaurant Barbells Bar & Restaurant available"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No specific mention of alcohol service; BYOB status unclear"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "unknown",
+      "notes": "TrackMan technology for golf simulation"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 1,
+  "booking_url": "https://theclub.org/membership/",
+  "pricing_model": "membership_only",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|lockers|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not explicitly specify whether clubs are provided, so it's recommended to bring your own equipment."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue features an on-site restaurant Barbells Bar & Restaurant, but outside food/drink policies are not detailed."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "The website does not provide specific timing for 18-hole sessions."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "Yes, The Club at Woodbridge offers Kidsports programs, a preschool, and KidsZone childcare services, making it very family-friendly."
+    }
+  ],
+  "simulator_software": [
+    "TrackMan"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"5:30AM-11PM\"], \"Tuesday\": [\"5:30AM-11PM\"], \"Wednesday\": [\"5:30AM-11PM\"], \"Thursday\": [\"5:30AM-11PM\"], \"Friday\": [\"5:30AM-10PM\"], \"Saturday\": [\"6:30AM-7PM\"], \"Sunday\": [\"6:30AM-7PM\"]}"
+}

@@ -1,0 +1,89 @@
+{
+  "name": "X-Golf Commack",
+  "address": "108 Veterans Memorial Hwy Suite A, Commack, NY 11725",
+  "city": "Commack",
+  "region": "New York",
+  "country": "US",
+  "latitude": 40.837884,
+  "longitude": -73.284585,
+  "phone": "+16314864417",
+  "website": "http://playxgolf.com/locations/commack",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770214943/golf_simulators/playxgolf_com_ChIJ5-xP7rUv6IkRCSzbOqdSwDM.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/X-Golf+Commack/@40.8378836,-73.2845853,14z/data=!4m8!1m2!2m1!1sX-Golf+Commack!3m4!1s0x89e82fb5ee4fece7:0x33c052a73adb2c09!8m2!3d40.8378836!4d-73.2845853",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ5-xP7rUv6IkRCSzbOqdSwDM",
+  "email": "info@xgolfcommack.com",
+  "venue_type": "sim_bar",
+  "about": "X-Golf Commack is a golf simulator venue offering the world's most accurate indoor golf experience. The facility features 9 simulator bays equipped with state-of-the-art technology that uses camera systems, infrared lasers, and impact sensors for precise ball and club tracking. Each bay accommodates up to 6 players and is priced per hour, making it suitable for both individual practice and group play. The venue also includes a full bar with premium liquors, food service, and private event spaces, combining golf simulation with social and dining options. Beyond standard play, X-Golf provides lessons with a PGA-certified professional, hosts various leagues, and offers karaoke room rentals, creating a comprehensive entertainment destination for golf enthusiasts.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|club_rentals|private_rooms|coaching_available|late_night",
+  "vibe_tags": "sports_bar|tech_lab|party_atmosphere|community_club",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "Most accurate indoor golf simulator technology with camera and laser tracking",
+    "Flexible pricing per bay hour accommodating up to 6 players",
+    "Full-service bar and food options available on-site",
+    "PGA-certified coaching and lesson programs for all skill levels",
+    "Private karaoke room and event spaces for group entertainment"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full restaurant menu with shareable bites, appetizers, snacks, and pizzas available"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with premium liquors, beer by the glass/on tap, and cocktails"
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_so": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": 9,
+  "booking_url": "https://clients.uschedule.com/xgolfcommack/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 59,
+  "price_range_max_local": 85,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|leagues|karaoke_room|pool_table",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Club rentals are available on-site if needed. The simulator has its own built-in tee system that collects and tees balls automatically."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "Outside food and drinks are not permitted as the venue offers a full restaurant and bar menu with various food and beverage options for purchase."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Generally, it takes about one hour for an individual player to complete 18 holes. For multiple players, it's recommended to book additional time (approximately one hour per additional player) depending on skill levels."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, X-Golf Commack welcomes children of all ages and is suitable for families. The private karaoke room can accommodate up to 30 guests including children."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"11AM-11PM\"], \"Tuesday\": [\"9AM-11PM\"], \"Wednesday\": [\"9AM-11PM\"], \"Thursday\": [\"9AM-11PM\"], \"Friday\": [\"9AM-12AM\"], \"Saturday\": [\"8AM-12AM\"], \"Sunday\": [\"8AM-11PM\"]}"
+}

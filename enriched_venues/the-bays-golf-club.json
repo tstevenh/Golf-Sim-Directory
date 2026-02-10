@@ -1,0 +1,94 @@
+{
+  "name": "The Bays Golf Club",
+  "address": "1248 S Main St, Bryan, OH 43506",
+  "city": "Bryan",
+  "region": "Ohio",
+  "country": "US",
+  "latitude": 41.460069,
+  "longitude": -84.552767,
+  "phone": "+14192129153",
+  "website": "https://thebaysgc.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770217991/golf_simulators/thebaysgc_com_ChIJZ2_ASQDBPYgRPs29AmiU06E.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Bays+Golf+Club/@41.4600692,-84.55276719999999,14z/data=!4m8!1m2!2m1!1sThe+Bays+Golf+Club!3m4!1s0x883dc10049c06f67:0xa1d3946802bdcd3e!8m2!3d41.4600692!4d-84.55276719999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJZ2_ASQDBPYgRPs29AmiU06E",
+  "email": "events@magerdesigns.com",
+  "venue_type": "multi_sport_sim",
+  "about": "The Bays Golf Club is a premium indoor golf facility in Bryan, Ohio, utilizing state-of-the-art GC Hawk Launch Monitors to provide an all-weather golfing experience across four simulator suites. It offers access to real-life PGA courses, a driving range, and performance-improvement software, with pricing based on an hourly fee per bay. The facility caters to golfers of all skill levels and includes a climate-controlled environment, a putting practice area, and a lounge space with TVs, making it suitable for both practice and social play. Beyond golf, it features multi-sport capabilities for soccer and footgolf, along with arcade-style games like skee ball and darts, positioning itself as a comprehensive entertainment and training destination.",
+  "tags": "beginner_friendly|family_friendly|corporate_events|leagues|kids_friendly|premium_tech|coaching_available|private_rooms|club_rentals|budget_friendly",
+  "vibe_tags": "family_fun_center|tech_lab|community_club|casual|welcoming|modern",
+  "who_its_for": "families|beginners|serious_golfers|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "GC Hawk Launch Monitors for precise ball and club tracking",
+    "Access to famous PGA courses like Pebble Beach and Augusta",
+    "Real-time performance analytics to improve your game",
+    "Junior golf programs and family-friendly atmosphere",
+    "Multi-sport capabilities for variety beyond golf"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food allowed inside the hitting bays. Snacks are available for purchase."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "BYOB is not mentioned, indicating alcohol is not available."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "GC Hawk",
+      "model": "Launch Monitor",
+      "notes": "State-of-the-art GC Hawk Launch Monitors used in all four simulator bays."
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 4,
+  "booking_url": "https://thebaysgc.golf918.net/embed/x9bn5d6tjplupz8kv7gym",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 14,
+  "price_range_max_local": 40,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 4,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|private_party_room|pro_shop|leagues|tv_sports|wifi",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, players are responsible for their own equipment. The facility does not provide club rentals."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No outside food or drink is allowed inside the hitting bays. Snacks and cold drinks are available for purchase."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "It takes one golfer roughly 1 hour to play 18 holes at an average pace. For four golfers playing 18 holes, plan on 4 hours."
+    },
+    {
+      "question": "Is The Bays Golf Club kid-friendly?",
+      "answer": "Yes, it offers junior golf programs, a family-friendly atmosphere, and multi-sport games, making it suitable for kids."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"9AM-12AM\"], \"Saturday\": [\"8AM-12AM\"], \"Sunday\": [\"9AM-10PM\"]}"
+}

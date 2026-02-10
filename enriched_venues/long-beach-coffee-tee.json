@@ -1,0 +1,83 @@
+{
+  "name": "Long Beach Coffee & Tee",
+  "address": "220 W Park Ave, Long Beach, NY 11561",
+  "city": "Long Beach",
+  "region": "New York",
+  "country": "US",
+  "latitude": 40.588078,
+  "longitude": -73.670681,
+  "phone": "+15166089333",
+  "website": "https://www.longbeachcoffeeandtee.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770244689/golf_simulators/www_longbeachcoffeeandtee_com_ChIJhQfyUEJvwokRrj5Is1U_t1k.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Long+Beach+Coffee+%26+Tee/@40.588077999999996,-73.670681,14z/data=!4m8!1m2!2m1!1sLong+Beach+Coffee+%26+Tee!3m4!1s0x89c26f4250f20785:0x59b73f55b3483eae!8m2!3d40.588077999999996!4d-73.670681",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJhQfyUEJvwokRrj5Is1U_t1k",
+  "venue_type": "sim_bar",
+  "about": "Long Beach Coffee & Tee is an indoor golf simulator venue combined with a coffee shop and full bar. The facility features three state-of-the-art golf simulator bays available for both walk-ins and private events. Patrons can enjoy 18 holes of golf, complemented by a range of other activities including dart boards, shuffleboard, bowling, and cornhole. The venue is styled with indoor and outdoor play spaces and is positioned as a multi-functional spot for work, casual outings, or events. Pricing is offered on an hourly basis, with different packages available, including options that include food and drinks. The venue operates on a 24-hour cancellation policy and requires pre-authorization for weekend and holiday bookings.",
+  "tags": "food_and_drinks|sim_bar|leagues|corporate_events|private_rooms|club_rentals|beginner_friendly",
+  "vibe_tags": "casual|welcoming|modern|sports_bar",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "State-of-the-art golf simulator bays for high-quality practice and play",
+    "Convenient mix of golf and other activities like darts and shuffleboard in one location",
+    "Flexible booking options for both individual walk-ins and private events",
+    "Availability of club rentals for those without their own equipment"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen service available with a full menu."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available, including wine and beer."
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://www.longbeachcoffeeandtee.com/teetimes",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 350,
+  "price_range_max_local": 850,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": false,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, free club rental is included with all simulator packages."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, outside food and drinks are not allowed as the venue has its own full kitchen and bar."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "18 holes typically take about 1 hour to complete, depending on simulator software and player pace."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Long Beach Coffee & Tee is family-friendly and offers activities suitable for all ages, including cornhole and other games."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"7AM-11PM\"], \"Tuesday\": [\"7AM-11PM\"], \"Wednesday\": [\"7AM-11PM\"], \"Thursday\": [\"7AM-11PM\"], \"Friday\": [\"7AM-12AM\"], \"Saturday\": [\"8AM-12AM\"], \"Sunday\": [\"8AM-9PM\"]}"
+}

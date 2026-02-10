@@ -1,0 +1,83 @@
+{
+  "name": "Meetinghouse Golf",
+  "address": "152 North St, New Martinsville, WV 26155",
+  "city": "New Martinsville",
+  "region": "West Virginia",
+  "country": "US",
+  "latitude": 39.643729,
+  "longitude": -80.864373,
+  "phone": "+16032860303",
+  "website": "https://meetinghousegolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770201825/golf_simulators/meetinghousegolf_com_ChIJWTdRDVMBNogRSVLY7FDWzNk.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Meetinghouse+Golf/@39.6437291,-80.8643725,14z/data=!4m8!1m2!2m1!1sMeetinghouse+Golf!3m4!1s0x883601530d513759:0xd9ccd650ecd85249!8m2!3d39.6437291!4d-80.8643725",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJWTdRDVMBNogRSVLY7FDWzNk",
+  "venue_type": "sim_bar",
+  "about": "Meetinghouse Golf is an indoor golf simulator venue that provides year-round golfing in perfect weather. The facility features a loyalty program offering 5% cash back and accepts various credit cards, Apple Pay, Google Pay, and Cash App. It offers online booking through a third-party system and provides services like leagues, events, lessons, and memberships. The venue emphasizes community with local support and social golfing opportunities.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|coaching_available|budget_friendly|date_night|party_atmosphere|community_club",
+  "vibe_tags": "casual|welcoming|modern|sports_bar|community_club|party_atmosphere",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Year-round golfing in perfect weather conditions",
+    "Loyalty program with 5% cash back on all spending",
+    "Variety of services including leagues, events, and data-powered lessons",
+    "Convenient online booking system for easy reservations"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Kitchen available with food offerings"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "BYOB not mentioned, payment options indicate no on-site alcohol sales"
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://app.birrdi.com/u/reserve?team_booking_link_id=meetinghouse-golf&date=2025-02-15",
+  "pricing_model": "per_bay_hour|membership_only|mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|lockers|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "It's recommended to bring your own clubs, but the venue likely has rentals available."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Food is available on-site, but alcohol is not mentioned as being served, so BYOB may be allowed."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "18 holes typically take 1-2 hours depending on group size and simulator usage."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue appears to be family-friendly with events and a welcoming atmosphere."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"Closed\"], \"Wednesday\": [\"12-9PM\"], \"Thursday\": [\"12-9PM\"], \"Friday\": [\"12-9PM\"], \"Saturday\": [\"12-9PM\"], \"Sunday\": [\"Closed\"]}"
+}

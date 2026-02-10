@@ -1,0 +1,93 @@
+{
+  "name": "LoftLinks - Upper East Side Golf",
+  "address": "177 E 87th St Suite 200, New York, NY 10128",
+  "city": "New York",
+  "region": "New York",
+  "country": "US",
+  "latitude": 40.779793,
+  "longitude": -73.95396,
+  "phone": "+16466092642",
+  "website": "https://loftlinks.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770199233/golf_simulators/loftlinks_com_ChIJEXvczKxZwokR_gl63SphJw4.png",
+  "google_maps_url": "https://www.google.com/maps/place/LoftLinks+-+Upper+East+Side+Golf/@40.7797929,-73.95395959999999,14z/data=!4m8!1m2!2m1!1sLoftLinks+-+Upper+East+Side+Golf!3m4!1s0x89c259acccdc7b11:0xe27612add7a09fe!8m2!3d40.7797929!4d-73.95395959999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJEXvczKxZwokR_gl63SphJw4",
+  "email": "info@loftlinks.com",
+  "venue_type": "sim_bar",
+  "about": "LoftLinks is an indoor golf simulator venue located on the Upper East Side of New York City. It features state-of-the-art FULL SWING™ high-definition simulators and is staffed by PGA teaching professionals, providing a comprehensive golf experience for players of all skill levels. The venue offers a range of services including simulator rentals, private and group lessons, memberships, and league play. It also serves as a community hub, emphasizing a welcoming atmosphere that encourages both serious practice and social engagement.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|kids_friendly|corporate_events|leagues|premium_tech|club_rentals|coaching_available|community_club",
+  "vibe_tags": "upscale_lounge|tech_lab|community_club|modern",
+  "who_its_for": "beginners|serious_golfers|families|juniors_youth|corporate_teams",
+  "why_golfers_like_it": [
+    "Access to FULL SWING™ high-definition simulators for a realistic golfing experience",
+    "Professional instruction from PGA teaching professionals for all skill levels",
+    "A wide array of services including lessons, memberships, leagues, and events",
+    "Convenient location on NYC's Upper East Side with a modern, community-oriented vibe"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Guests can purchase drinks from the in-house loft bar"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Guests can purchase drinks from the in-house loft bar"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "FullSwing",
+      "model": "HD Simulator",
+      "notes": "High-definition sports simulators used for private and semi-private play"
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "gimme_circle",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://loftlinks.com/reserve-a-bay/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|leagues|pro_shop|club_fitting|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "While the website doesn't explicitly state club rentals, it is standard practice for such venues to provide clubs for those who do not have their own."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "The venue has an in-house loft bar where guests can purchase drinks. It is recommended to check with staff about outside food and beverage policies."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "A standard 18-hole round on a simulator typically takes about 2-3 hours, depending on the number of players and pace of play."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "Yes, LoftLinks offers junior lessons, including 'Little Champs' programs for children aged 6-9, indicating a family-friendly environment."
+    }
+  ],
+  "simulator_software": [
+    "FullSwing"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"7AM-9PM\"], \"Tuesday\": [\"7AM-9PM\"], \"Wednesday\": [\"7AM-9PM\"], \"Thursday\": [\"7AM-9PM\"], \"Friday\": [\"7AM-9PM\"], \"Saturday\": [\"9AM-8PM\"], \"Sunday\": [\"10AM-6PM\"]}"
+}

@@ -1,0 +1,93 @@
+{
+  "name": "The Bunkers",
+  "address": "1701 Big Horn Ave, Worland, WY 82401",
+  "city": "Worland",
+  "region": "Wyoming",
+  "country": "US",
+  "latitude": 44.01712,
+  "longitude": -107.945459,
+  "phone": "+13072695699",
+  "website": "http://www.thebunkersworland.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770249941/golf_simulators/www_thebunkersworland_com_ChIJ531xqPxtS1MReBYIwu2CxJE.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Bunkers/@44.0171196,-107.9454593,14z/data=!4m8!1m2!2m1!1sThe+Bunkers!3m4!1s0x534b6dfca8717de7:0x91c482edc2081678!8m2!3d44.0171196!4d-107.9454593",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ531xqPxtS1MReBYIwu2CxJE",
+  "email": "thebunkersworland@gmail.com",
+  "venue_type": "sim_bar",
+  "about": "The Bunkers is a 2-bay indoor golf simulator facility located in Worland, Wyoming. It leverages Trackman iO technology to provide year-round golfing experiences, featuring real-time swing and shot analytics in a modern, un-manned facility. The venue offers a range of membership options and public bookings, catering to golfers looking to practice, play virtual courses, or engage in family-friendly activities. Guests can utilize the facility from 5am to midnight daily.",
+  "tags": "beginner_friendly|food_and_drinks|family_friendly|leagues|premium_tech|private_rooms|club_rentals|late_night|coaching_available|community_club",
+  "vibe_tags": "modern|tech_lab|family_fun_center|community_club",
+  "who_its_for": "beginners|serious_golfers|families|solo_practice|coaches_instructors",
+  "why_golfers_like_it": [
+    "Advanced Trackman iO technology providing detailed swing and ball data",
+    "Un-manned facility with extended hours from 5am to midnight",
+    "Variety of game modes and virtual courses for entertainment and skill development",
+    "Family-oriented environment suitable for all skill levels"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "External food and drinks are not permitted inside the simulator bays or on the artificial turf. Must be consumed at designated tables."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "Consumption of alcohol is forbidden on the premises."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Combines radar, infrared, and high-speed imaging for real-time club and ball analytics"
+    }
+  ],
+  "simulator_so": [
+    "Trackman App"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://yourgolfbooking.com/venues/the-bunkers/booking/bays",
+  "pricing_model": "mixed",
+  "price_range_min_local": 30,
+  "price_range_max_local": 50,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|tv_sports|wifi|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "The content does not specify whether clubs are provided, so you may need to bring your own."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, external food and drinks are not permitted inside the simulator bays or on the artificial turf. Consumption is only allowed at designated tables."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The content does not provide a specific time for completing 18 holes."
+    },
+    {
+      "question": "Is The Bunkers kid-friendly?",
+      "answer": "Yes, The Bunkers is family-oriented and features games like putt-putt golf, making it suitable for children. Guests under 16 must be accompanied by a parent or guardian."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"5AM-12AM\"], \"Tuesday\": [\"5AM-12AM\"], \"Wednesday\": [\"5AM-12AM\"], \"Thursday\": [\"5AM-12AM\"], \"Friday\": [\"5AM-12AM\"], \"Saturday\": [\"5AM-12AM\"], \"Sunday\": [\"5AM-12AM\"]}"
+}

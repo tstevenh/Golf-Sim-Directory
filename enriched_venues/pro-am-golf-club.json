@@ -1,0 +1,92 @@
+{
+  "name": "Pro-Am Golf Club",
+  "address": "9082 W Golf Rd, Niles, IL 60714",
+  "city": "Niles",
+  "region": "Illinois",
+  "country": "US",
+  "latitude": 42.055393,
+  "longitude": -87.853359,
+  "phone": "+18473200010",
+  "website": "http://www.proamgolfchicago.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770234123/golf_simulators/www_proamgolfchicago_com_ChIJCZ28SLvJD4gRbMTP2IbjxvI.png",
+  "google_maps_url": "https://www.google.com/maps/place/Pro-Am+Golf+Club/@42.055392999999995,-87.85335909999999,14z/data=!4m8!1m2!2m1!1sPro-Am+Golf+Club!3m4!1s0x880fc9bb48bc9d09:0xf2c6e386d8cfc46c!8m2!3d42.055392999999995!4d-87.85335909999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJCZ28SLvJD4gRbMTP2IbjxvI",
+  "email": "info@proamgolfchicago.com",
+  "venue_type": "sim_bar",
+  "about": "Pro-Am Golf Club is an indoor golf entertainment venue located in Niles, Illinois, managed by WJ Golf. The facility features UDR simulators with 99.85% accuracy, offering 200+ world-class golf courses alongside arcade games and a full-service bar and kitchen. With 6 open and 2 private bays, the space is designed for both individual practice and group events, providing a comprehensive golf experience with a focus on technology and social entertainment. The venue operates on a seasonal schedule with extended hours during the fall to spring period, making it accessible for various activities from casual play to corporate gatherings.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|private_rooms|club_rentals|coaching_available|late_night",
+  "vibe_tags": "sports_bar|family_fun_center|tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|large_groups",
+  "why_golfers_like_it": [
+    "99.85% accurate UDR simulators with dual-camera swing analysis",
+    "200+ world-class golf courses for diverse playing experiences",
+    "Full-service bar and kitchen with 20+ culinary delights",
+    "Option for private and corporate events in a 5000sqft facility",
+    "PGA Pro coaching available for all skill levels"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full-service kitchen with 20+ culinary delights available on-site."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full-service bar with refreshing beverages available."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "UDR",
+      "model": "UDR",
+      "notes": "Precision-perfected simulators with 99.85% accuracy and dual-camera swing analysis"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 8,
+  "booking_url": "https://clients.uschedule.com/proamgolfclub/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|club_fitting|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue provides golf equipment, but players are welcome to bring their own clubs if preferred."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No outside food or drinks are allowed. The venue offers a full-service bar and kitchen with 20+ culinary delights and refreshing beverages."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes depends on simulator availability and pace of play, but typically ranges from 2-3 hours."
+    },
+    {
+      "question": "Is Pro-Am Golf Club kid-friendly?",
+      "answer": "Yes, the venue is kid-friendly and offers arcade games suitable for all ages and skill levels."
+    }
+  ],
+  "simulator_software": [
+    "UDR"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-11PM\"], \"Tuesday\": [\"9AM-11PM\"], \"Wednesday\": [\"9AM-11PM\"], \"Thursday\": [\"9AM-11PM\"], \"Friday\": [\"9AM-12AM\"], \"Saturday\": [\"9AM-12AM\"], \"Sunday\": [\"9AM-10PM\"]}"
+}

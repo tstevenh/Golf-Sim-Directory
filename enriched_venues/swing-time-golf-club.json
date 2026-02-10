@@ -1,0 +1,94 @@
+{
+  "name": "Swing Time Golf Club",
+  "address": "3110 Jefferson Ave, Midland, MI 48640",
+  "city": "Midland",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 43.627302,
+  "longitude": -84.226364,
+  "phone": "+19894928905",
+  "website": "https://swingtimegolfclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770229349/golf_simulators/swingtimegolfclub_com_ChIJuYDi32vVI4gRVwG5txmcJ18.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Swing+Time+Golf+Club/@43.6273015,-84.22636349999999,14z/data=!4m8!1m2!2m1!1sSwing+Time+Golf+Club!3m4!1s0x8823d56bdfe280b9:0x5f279c19b7b90157!8m2!3d43.6273015!4d-84.22636349999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJuYDi32vVI4gRVwG5txmcJ18",
+  "email": "info@swingtimegolfclub.com",
+  "venue_type": "sim_bar",
+  "about": "Swing Time Golf Club is a golf simulation venue located in Midland, Michigan, offering year-round golf experiences through advanced TrackMan simulators. The facility was founded by a Michigan native and Navy veteran with a lifelong passion for the game, providing an environment for players of all skill levels to improve and enjoy the sport. The club combines technology with tradition to offer a relaxed atmosphere where golfers can perfect their game in any weather condition.",
+  "tags": "beginner_friendly|food_and_drinks|family_friendly|corporate_events|leagues|premium_tech|budget_friendly|club_rentals|coaching_available|community_club",
+  "vibe_tags": "casual|welcoming|modern|tech_lab|family_fun_center",
+  "who_its_for": "beginners|families|corporate_teams|solo_practice|juniors_youth",
+  "why_golfers_like_it": [
+    "Premium TrackMan technology providing accurate shot tracking and course simulation",
+    "Year-round indoor play unaffected by weather conditions",
+    "Relaxed atmosphere suitable for golfers of all skill levels",
+    "Convenient location in Midland with professional service"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Available on-site"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Available on-site"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "High-end radar technology for precise shot tracking"
+    }
+  ],
+  "simulator_so": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://yourgolfbooking.com/venues/swing-time-golf-club/booking/bays",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|leagues|ada_accessible|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, golfers are expected to bring their own clubs to Swing Time Golf Club. The facility is designed for golfers to use their personal equipment during simulator sessions."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, Swing Time Golf Club offers food and beverages on-site. While they have a kitchen and full bar, they do not appear to allow outside food or drinks to be brought into the facility."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "A typical 18-hole round at Swing Time Golf Club takes approximately 1-2 hours depending on the number of golfers in your group and the pace of play. The simulators allow for efficient play without waiting times between shots."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "Yes, Swing Time Golf Club is family-friendly and welcomes junior golfers. The facility is designed for players of all skill levels and ages, making it suitable for families who want to enjoy golf together."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-12AM\"], \"Wednesday\": [\"9AM-12AM\"], \"Thursday\": [\"9AM-12AM\"], \"Friday\": [\"9AM-12AM\"], \"Saturday\": [\"9AM-12AM\"], \"Sunday\": [\"9AM-10PM\"]}"
+}

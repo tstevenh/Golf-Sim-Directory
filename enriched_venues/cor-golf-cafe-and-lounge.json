@@ -1,0 +1,89 @@
+{
+  "name": "COR-Golf Cafe and Lounge",
+  "address": "4298 Kipling St Suite A, Wheat Ridge, CO 80033",
+  "city": "Wheat Ridge",
+  "region": "Colorado",
+  "country": "US",
+  "latitude": 39.776095,
+  "longitude": -105.108902,
+  "phone": "+13035650810",
+  "website": "http://cor-golf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770215439/golf_simulators/cor-golf_com_ChIJUwGvEXOHa4cReihAsaeINIk.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/COR-Golf+Cafe+and+Lounge/@39.776095,-105.1089023,14z/data=!4m8!1m2!2m1!1sCOR-Golf+Cafe+and+Lounge!3m4!1s0x876b877311af0153:0x893488a7b140287a!8m2!3d39.776095!4d-105.1089023",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJUwGvEXOHa4cReihAsaeINIk",
+  "venue_type": "sim_bar",
+  "about": "COR-Golf Cafe and Lounge is an indoor golf facility located in Wheat Ridge, Colorado, featuring three full-size Uneekor simulator bays. The venue offers PGA-level instruction, club fitting and repair services, and a full-service cafe. It is designed for golfers of all levels to practice, play, and enjoy food and drinks in a climate-controlled environment. The facility operates on a mixed pricing model, with hourly bay rentals and various membership tiers available to suit different needs.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|coaching_available|casual|family_friendly",
+  "vibe_tags": "casual|welcoming|modern|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Premium Uneekor technology with Full Swing software for accurate data and realistic simulation",
+    "Full-service cafe with craft coffee, food, and a robust beer and wine selection",
+    "PGA professionals offering personalized instruction with no sales pressure",
+    "Multiple membership tiers offering flexibility and value for regular users"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full-service cafe offering tasty bites"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Robust beer and wine selection available"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "QED/VEC",
+      "notes": "Three full-size simulator bays equipped with Uneekor launch monitors"
+    }
+  ],
+  "simulator_software": [
+    "Full Swing"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://app.acuityscheduling.com/schedule.php?owner=35639488&appointmentType=category:Book%20a%20Reservation",
+  "pricing_model": "mixed",
+  "price_range_min_local": 80,
+  "price_range_max_local": 150,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|full_bar|kitchen_food|pro_shop|club_fitting|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "The venue provides all necessary equipment, but golfers are welcome to bring their own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, outside food and drinks are not permitted as the facility has a full-service cafe."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "The time varies based on group size and pace, but a typical 18-hole simulation can take 1.5 to 2 hours."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, the venue is family-friendly and offers junior golf programs and lessons."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"11AM-10PM\"], \"Tuesday\": [\"8AM-10PM\"], \"Wednesday\": [\"8AM-10PM\"], \"Thursday\": [\"8AM-10PM\"], \"Friday\": [\"8AM-11PM\"], \"Saturday\": [\"10AM-11PM\"], \"Sunday\": [\"10AM-10PM\"]}"
+}

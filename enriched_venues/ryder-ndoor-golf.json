@@ -1,0 +1,89 @@
+{
+  "name": "Ryder NDoor Golf",
+  "address": "10401 E McDowell Mountain Ranch Rd #150, Scottsdale, AZ 85255",
+  "city": "Scottsdale",
+  "region": "Arizona",
+  "country": "US",
+  "latitude": 33.627212,
+  "longitude": -111.854799,
+  "phone": "+14807370009",
+  "website": "http://ryderndoorgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770212518/golf_simulators/ryderndoorgolf_com_ChIJ_019gfKfK4cRV6qIbFp7br0.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Ryder+NDoor+Golf/@33.6272124,-111.8547991,14z/data=!4m8!1m2!2m1!1sRyder+NDoor+Golf!3m4!1s0x872b9ff2817d4dff:0xbd6e7b5a6c88aa57!8m2!3d33.6272124!4d-111.8547991",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ_019gfKfK4cRV6qIbFp7br0",
+  "venue_type": "private_rental",
+  "about": "Ryder NDoor Golf is a luxury indoor golf facility in Scottsdale, AZ, featuring fully-private studios equipped with Trackman 4 technology. The venue operates 24/7 and limits memberships to ensure an exclusive, uncrowded experience with no wait times for tee times. Members receive access to up to 50 hours of golf per month, can bring up to six guests at no extra fee, and have use of an in-house PXG golf set and a custom putting green designed by Celebrity Greens. The onboarding process includes a mandatory in-person demo to familiarize new members with the simulator software and facility policies.",
+  "tags": "serious_golfers|private_rooms|food_and_drinks|premium_tech|club_rentals|coaching_available|upscale_lounge",
+  "vibe_tags": "private_luxury|modern|tech_lab",
+  "who_its_for": "serious_golfers|solo_practice|low_handicap|corporate_teams|coaches_instructors",
+  "why_golfers_like_it": [
+    "Fully-private studios ensuring uninterrupted play and privacy",
+    "Access to premium Trackman 4 technology for accurate data simulation",
+    "All-inclusive membership with zero guest fees and premium club rentals"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Coffee bar area available on-site"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service; BYOB not specified"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "Premium radar-based launch monitor; Scottsdale's only fully-private Trackman studio"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.ryderndoorgolf.com/book-online",
+  "pricing_model": "membership_only",
+  "price_range_min_local": 0,
+  "price_range_max_local": 0,
+  "currency": "USD",
+  "walk_ins_allowed": false,
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|coffee_bar|private_rooms|dedicated_green|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, an in-house PXG golf set is provided for members and their guests, though you can bring your own clubs if preferred."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "The venue has a coffee bar area, but outside food and drinks are not explicitly mentioned as allowed or prohibited."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify the duration for an 18-hole simulation, but it does mention up to 50 hours of golf per month are available to members."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "No, the venue is described as a private, luxury golf studio focused on serious golfers, with no mention of amenities or programs for children."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

@@ -1,0 +1,90 @@
+{
+  "name": "Sports Factory of the Lehigh Valley",
+  "address": "6616 Ruppsville Rd, Allentown, PA 18106",
+  "city": "Allentown",
+  "region": "Pennsylvania",
+  "country": "US",
+  "latitude": 40.587258,
+  "longitude": -75.602747,
+  "phone": "+16103517358",
+  "website": "http://www.sportsfactorylv.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770235267/golf_simulators/www_sportsfactorylv_com_ChIJz9yLe_wxxIkRwtegu788CRw.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Sports+Factory+of+the+Lehigh+Valley/@40.587257799999996,-75.6027466,14z/data=!4m8!1m2!2m1!1sSports+Factory+of+the+Lehigh+Valley!3m4!1s0x89c431fc7b8bdccf:0x1c093cbfbba0d7c2!8m2!3d40.587257799999996!4d-75.6027466",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJz9yLe_wxxIkRwtegu788CRw",
+  "email": "info@sportsfactorylv.com",
+  "venue_type": "multi_sport_sim",
+  "about": "Sports Factory of the Lehigh Valley is a premier sports and entertainment complex spanning 22,000 sq. ft. The facility offers a comprehensive range of services, including indoor high-tech golf simulation, sport-specific training, athletic events, turf rentals, and birthday parties. It is a multipurpose venue designed to cater to diverse activities, from individual practice to group events, all within a state-of-the-art environment. The venue features an on-site restaurant, Casa Di Italia, and has partnered with HiJinx Brewing Co and All Star Grill to provide food and beverage options, creating an all-in-one destination for sports and entertainment.",
+  "tags": "food_and_drinks|family_friendly|corporate_events|leagues|premium_tech|kids_friendly|coaching_available|private_rooms|club_rentals",
+  "vibe_tags": "family_fun_center|industrial_training|community_club",
+  "who_its_for": "families|large_groups|corporate_teams|juniors_youth|solo_practice",
+  "why_golfers_like_it": [
+    "Indoor high-tech golf simulator for year-round practice",
+    "On-site food and beverage options available",
+    "Multipurpose facility allows for combined activities and events",
+    "State-of-the-art technology for refining golf skills"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "On-site restaurant, Casa Di Italia, available for ordering."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Partnerships with HiJinx Brewing Co and All Star Grill provide beverage options."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "High-tech indoor golf simulator system for practice and skill refinement."
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://app.upperhand.io/customers/1487-sports-factory-of-the-lehigh-valley/events",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|lockers|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The content does not specify whether clubs are provided. It is recommended to bring your own clubs for the best personal experience."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue has an on-site restaurant, Casa Di Italia, and food/drink partnerships. BYOB policies are not explicitly mentioned, so it is best to check their website or contact them directly."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The content does not provide a specific time estimate for 18 holes. Simulator play time can vary, so it's recommended to inquire directly with the venue."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Sports Factory of the Lehigh Valley is kid-friendly. They offer birthday parties, summer camps, and organized sports activities for children."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"3-10PM\"], \"Tuesday\": [\"3-10PM\"], \"Wednesday\": [\"3-10PM\"], \"Thursday\": [\"3-10PM\"], \"Friday\": [\"3-10PM\"], \"Saturday\": [\"8AM-8PM\"], \"Sunday\": [\"8AM-8PM\"]}"
+}

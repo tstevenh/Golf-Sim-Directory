@@ -1,0 +1,89 @@
+{
+  "name": "Inside Edge Golf",
+  "address": "16514 W 78th St, Eden Prairie, MN 55346",
+  "city": "Eden Prairie",
+  "region": "Minnesota",
+  "country": "US",
+  "latitude": 44.863537,
+  "longitude": -93.487544,
+  "phone": "+19529376251",
+  "website": "http://www.insideedgegolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770199046/golf_simulators/www_insideedgegolf_com_ChIJSbjwZE8Z9ocR8mjYUMNLBYI.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Inside+Edge+Golf/@44.8635368,-93.487544,14z/data=!4m8!1m2!2m1!1sInside+Edge+Golf!3m4!1s0x87f6194f64f0b849:0x82054bc350d868f2!8m2!3d44.8635368!4d-93.487544",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJSbjwZE8Z9ocR8mjYUMNLBYI",
+  "email": "golf@insideedgegolf.com",
+  "venue_type": "sim_bar",
+  "about": "Inside Edge Golf is an indoor golf entertainment and training facility featuring aboutGolf PGA Tour Simulators with over 90 world-famous courses rendered in 3D graphics. The venue offers 9 simulators, including 2 Curve models, and provides game improvement technology with 3Trak data capture. It caters to golfers of all skill levels with amenities like private rooms, individually controlled HDTVs, and food and drink options. Pricing varies by time of day and simulator type, with discounts for leagues and group events.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|private_rooms|coaching_available",
+  "vibe_tags": "sports_bar|community_club",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams|solo_practice|juniors_youth|bachelor_parties",
+  "why_golfers_like_it": [
+    "90+ world-famous courses in 3D graphics",
+    "9 accurate simulators including 2 Curve models",
+    "Sophisticated game improvement technology with 3Trak data",
+    "Flexible leagues and events with cash payouts",
+    "Ample parking and private rooms for group events"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "On-site kitchen with food options available"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with food and drink options"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "aboutGolf",
+      "model": "PGA Tour Simulators",
+      "notes": "9 total simulators including 2 Curve models"
+    }
+  ],
+  "simulator_software": "aboutGolf PGA Tour Simulators",
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 9,
+  "booking_url": "https://clients.uschedule.com/insideedgegolf/booking",
+  "pricing_model": "per_person_hour",
+  "price_range_min_local": 25,
+  "price_range_max_local": 35,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 8,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need clubs?",
+      "answer": "Bring your own clubs. They have a limited number of rentals available onsite."
+    },
+    {
+      "question": "Can I bring food/drink?",
+      "answer": "No food or drink in the simulators. Counters are available outside each sim."
+    },
+    {
+      "question": "How long for 18 holes?",
+      "answer": "Use 1 hour per person as a guide for 18 holes. Recommend 4 players per simulator to speed play."
+    },
+    {
+      "question": "Is it kid-friendly?",
+      "answer": "Yes. Children under 12 must have an adult present at all times. Junior rates available."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"8:30AM-10PM\"], \"Tuesday\": [\"8AM-10PM\"], \"Wednesday\": [\"8AM-10PM\"], \"Thursday\": [\"8AM-10PM\"], \"Friday\": [\"8AM-11PM\"], \"Saturday\": [\"6:30AM-11PM\"], \"Sunday\": [\"7AM-7PM\"]}"
+}

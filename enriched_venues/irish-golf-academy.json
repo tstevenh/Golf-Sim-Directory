@@ -1,0 +1,88 @@
+{
+  "name": "Irish Golf Academy",
+  "address": "6379 Airlie Rd, Warrenton, VA 20187",
+  "city": "Warrenton",
+  "region": "Virginia",
+  "country": "US",
+  "latitude": 38.740138,
+  "longitude": -77.768006,
+  "phone": "+15403499761",
+  "website": "https://golfspot29.com/irish-golf-academy/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770255263/golf_simulators/golfspot29_com_ChIJz75PYKh9tokRP-XjUHrfhro.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Irish+Golf+Academy/@38.740138,-77.7680058,14z/data=!4m8!1m2!2m1!1sIrish+Golf+Academy!3m4!1s0x89b67da8604fbecf:0xba86df7a50e3e53f!8m2!3d38.740138!4d-77.7680058",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJz75PYKh9tokRP-XjUHrfhro",
+  "venue_type": "training_studio",
+  "about": "Irish Golf Academy is a golf training studio located within Spot 29, offering indoor golf simulation and professional coaching services. The facility features 3 Trackman simulators for year-round play, allowing golfers to experience 18 holes in approximately two hours on courses worldwide. The academy provides individualized coaching using Trackman Radar technology, video analysis, and on-course observation to help golfers of all skill levels improve their game. Additional services include club fittings, junior memberships, and group event hosting.",
+  "tags": "beginner_friendly|kids_friendly|corporate_events|coaching_available|premium_tech|juniors_youth",
+  "vibe_tags": "industrial_training|tech_lab|community_club|casual",
+  "who_its_for": "beginners|serious_golfers|families|juniors_youth|solo_practice",
+  "why_golfers_like_it": [
+    "Trackman's dual radar system provides highly accurate ball flight tracking with real spin and distance data",
+    "Year-round indoor play regardless of weather conditions with weather-protected hitting bays",
+    "Professional coaching using advanced video analysis technology for personalized swing improvement"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No on-site food service mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No on-site alcohol service mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "unknown",
+      "notes": "Multiple Trackman simulators available, specific model not specified"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://golfspot29.com/irish-golf-academy/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|pro_shop|club_fitting|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not explicitly state whether clubs are provided or must be brought by the golfer."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No information is provided about outside food and drink policies."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "You can golf 18 holes in approximately two hours on the Trackman simulators."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue offers junior memberships and specifically mentions kids in its target audience."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"10AM-6PM\"], \"Tuesday\": [\"8AM-8PM\"], \"Wednesday\": [\"8AM-8PM\"], \"Thursday\": [\"8AM-8PM\"], \"Friday\": [\"8AM-8PM\"], \"Saturday\": [\"8AM-6PM\"], \"Sunday\": [\"11AM-3PM\"]}"
+}

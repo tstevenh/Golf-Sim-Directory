@@ -1,0 +1,98 @@
+{
+  "name": "The Golf Nut Performance Center and Pro Shop",
+  "address": "5121 Towson Ave, Fort Smith, AR 72901",
+  "city": "Fort Smith",
+  "region": "Arkansas",
+  "country": "US",
+  "latitude": 35.333945,
+  "longitude": -94.421385,
+  "phone": "+14796464430",
+  "website": "http://www.thegolfnut.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770239512/golf_simulators/www_thegolfnut_com_ChIJ1S-B-hRNyocRId1vEjn8i7Y.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Golf+Nut+Performance+Center+and+Pro+Shop/@35.333945,-94.421385,14z/data=!4m8!1m2!2m1!1sThe+Golf+Nut+Performance+Center+and+Pro+Shop!3m4!1s0x87ca4d14fa812fd5:0xb68bfc39126fdd21!8m2!3d35.333945!4d-94.421385",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ1S-B-hRNyocRId1vEjn8i7Y",
+  "venue_type": "retail_fitting_center",
+  "about": "The Golf Nut Performance Center is a golf-focused venue in Fort Smith, AR, offering a combination of retail, simulation, and instruction services. It is a locally-owned and operated establishment that has served the community for nearly 30 years, featuring a pro shop with over 30 national brands, a Trackman simulator for club fitting and lessons, and a Foresight FSX Play simulator for indoor virtual play. The venue provides a climate-controlled environment for practice, club selection, and game improvement, with all services offered from a single location.",
+  "tags": "beginner_friendly|serious_golfers|families|coaching_available|corporate_events|premium_tech|pro_shop|club_fitting",
+  "vibe_tags": "tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|families|solo_practice|coaches_instructors",
+  "why_golfers_like_it": [
+    "Access to a public Trackman simulator, the same technology used on the PGA Tour",
+    "One of the only public Trackman simulators in the state of Arkansas",
+    "A wide selection of major brand clubs, apparel, and accessories in the pro shop",
+    "Climate-controlled indoor play for year-round comfort and practice"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of on-site food or beverage service."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of on-site alcohol service or BYOB policy."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "indoor simulator",
+      "notes": "Used for club fitting and lessons. The only public Trackman simulator in the state."
+    },
+    {
+      "brand": "Foresight",
+      "model": "FSX Play",
+      "notes": "Used for indoor virtual play and practice with over 60 courses available."
+    }
+  ],
+  "simulator_so": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "unknown",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 20,
+  "price_range_max_local": 50,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "pro_shop|club_fitting|coaching_available",
+  "rating_tech_quality": 5.0,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, for lessons and play, you bring your own clubs. The facility will clean them at no cost."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "No information is provided about bringing outside food or drinks."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time for an 18-hole round is not specified, as the simulator is available by the hour."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "No, the facility's use of golf shoes and focus on technical equipment suggests an environment more suited to adults."
+    }
+  ],
+  "simulator_software": [
+    "Foresight FSX Play"
+  ],
+  "rating_overall": 4.4,
+  "opening_hours": "{\"Monday\": [\"9AM-6PM\"], \"Tuesday\": [\"9AM-6PM\"], \"Wednesday\": [\"9AM-6PM\"], \"Thursday\": [\"9AM-6PM\"], \"Friday\": [\"9AM-6PM\"], \"Saturday\": [\"9AM-6PM\"], \"Sunday\": [\"12-5PM\"]}"
+}

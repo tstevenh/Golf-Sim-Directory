@@ -1,0 +1,90 @@
+{
+  "name": "Mastodon Golf Club",
+  "address": "4600 Ridgely Tract Rd SE, Heath, OH 43056",
+  "city": "Heath",
+  "region": "Ohio",
+  "country": "US",
+  "latitude": 39.981795,
+  "longitude": -82.453692,
+  "phone": "+17405223464",
+  "website": "https://www.mastodongolfclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770211454/golf_simulators/www_mastodongolfclub_com_ChIJP85GFksROIgR_9QiyzLBTgA.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Mastodon+Golf+Club/@39.981795399999996,-82.4536924,14z/data=!4m8!1m2!2m1!1sMastodon+Golf+Club!3m4!1s0x8838114b1646ce3f:0x4ec132cb22d4ff!8m2!3d39.981795399999996!4d-82.4536924",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJP85GFksROIgR_9QiyzLBTgA",
+  "venue_type": "other",
+  "about": "Mastodon Golf Club is an 18-hole public course located between Newark and Hebron, Ohio, offering both outdoor play and year-round indoor golf. The facility features three upgraded GSPro golf simulators housed in a recently revamped indoor area, allowing golfers to play almost 500 different courses regardless of weather. The venue combines a traditional golf course with modern simulator technology, providing a space for leagues, parties, and individual practice.\n\nThe indoor simulator experience at Mastodon is designed for realism rather than arcade-style play, utilizing 4K graphics and accurate ball physics. The space includes amenities such as a virtual golf room with a Srixon fitting solution, a downstairs bar area with pool tables, and options for private event rentals. Pricing for the simulators is structured by the hour or bay, with specific rates for individuals and leagues.",
+  "tags": "indoor_golf|simulator|leagues|social|events|public_course|winter_golf|group_outings",
+  "vibe_tags": "casual|welcoming|community|social|indoor_outdoor_combo",
+  "who_its_for": "beginners|casual_golfers|families|large_groups|leagues",
+  "why_golfers_like_it": [
+    "Year-round golf regardless of weather",
+    "GSPro software with realistic physics and 4K graphics",
+    "Full-service bar and food options",
+    "League and tournament opportunities",
+    "Public course with no membership required for simulators"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Downstairs bar area available"
+    },
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Food & Beverage ordering available via cart GPS and bar service"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "GSPro",
+      "model": "Golf Simulator",
+      "notes": "Uses high-tech sensors, LIDAR modeling, and Unity software"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 3,
+  "booking_url": "https://apimanager-cc24.clubcaddie.com/webapi/view/fiedabab",
+  "pricing_model": "Per bay per hour",
+  "price_range_min_local": 30,
+  "price_range_max_local": 35,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": false,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "restrooms|parking|pool_tables|bar|club_retail|fitting_center|lockers|heating|ac|wifi|food_service",
+  "rating_tech_quality": 4.0,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "While the website does not explicitly state rental availability, locker rentals are available for those who wish to leave clubs on-site, suggesting bringing your own is standard."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue has a downstairs bar area and food ordering options, so outside food and drink are likely not permitted in party areas."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Golf simulators generally allow 18 holes to be played in about 45 minutes to an hour, though this can vary based on group size."
+    },
+    {
+      "question": "Is this kid-friendly?",
+      "answer": "Yes, the venue is family-friendly and simulators can be a fun way for juniors to learn the game in a controlled environment."
+    }
+  ],
+  "rating_overall": 4.0,
+  "opening_hours": "{\"Monday\": [\"7:30AM-10PM\"], \"Tuesday\": [\"7:30AM-10PM\"], \"Wednesday\": [\"7:30AM-10PM\"], \"Thursday\": [\"7:30AM-10PM\"], \"Friday\": [\"7:30AM-10PM\"], \"Saturday\": [\"7:30AM-10PM\"], \"Sunday\": [\"7AM-10PM\"]}"
+}

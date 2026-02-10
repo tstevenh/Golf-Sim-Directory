@@ -1,0 +1,93 @@
+{
+  "name": "MY SWING STUDIO",
+  "address": "1021 Howard Ave Suite A, San Carlos, CA 94070",
+  "city": "San Carlos",
+  "region": "California",
+  "country": "US",
+  "latitude": 37.499854,
+  "longitude": -122.247929,
+  "phone": "+16503843474",
+  "website": "http://www.myswingstudio.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770246106/golf_simulators/www_myswingstudio_com_ChIJueDRC8Wjj4ARnWbTFsCbLp4.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/MY+SWING+STUDIO/@37.4998542,-122.2479295,14z/data=!4m8!1m2!2m1!1sMY+SWING+STUDIO!3m4!1s0x808fa3c50bd1e0b9:0x9e2e9bc016d3669d!8m2!3d37.4998542!4d-122.2479295",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJueDRC8Wjj4ARnWbTFsCbLp4",
+  "email": "myswingstudio@gmail.com",
+  "venue_type": "training_studio",
+  "about": "MY SWING STUDIO is a full-service indoor golf studio located in San Carlos, CA, providing personalized instruction and practice for all ages and skill levels. The facility utilizes state-of-the-art Foresight GCquad Rangex launch monitor technology to capture detailed 3D data on ball flight and club movement. Their philosophy centers on building tailored golf programs to help golfers uncover their strengths and weaknesses, establishing a solid foundation for an effective golf swing. With a team of experienced coaches, they offer lessons focusing on swing mechanics, performance, and competitive mindset, combining expert guidance with powerful data and technology to deliver measurable improvement.",
+  "tags": "serious_practice|beginner_friendly|coaching_available|premium_tech|juniors_youth|solo_practice|private_rooms|club_fitting",
+  "vibe_tags": "tech_lab|industrial_training|modern",
+  "who_its_for": "beginners|serious_golfers|juniors_youth|solo_practice|coaches_instructors",
+  "why_golfers_like_it": [
+    "State-of-the-art Foresight GCquad Rangex technology for precise data analysis",
+    "Personalized instruction from experienced coaches with tour-level playing backgrounds",
+    "Customizable training environments and visual data tools for targeted improvement",
+    "On-course playing lessons available to apply skills in real-world scenarios"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of food service"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": "GCquad Rangex",
+      "notes": "Triple Camera system with patented 'eXact Raw' algorithm"
+    }
+  ],
+  "simulator_so": [
+    "FSX PLAY"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "https://app.squareup.com/appointments/book/smjs06lkx8e3md/LAJXXKF6J8R0B/start",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 150,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 1,
+  "amenities_list": "club_fitting|pro_shop",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, golfers must bring their own clubs. Rental clubs are not provided."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "There is no mention of food or drink service, so it appears outside food and drinks are not available."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Not specified, but FSX PLAY software is mentioned, which typically allows for standard 18-hole rounds."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "While they mention teaching students of all ages and skill levels, there is no specific information on junior programs or family-friendly amenities."
+    }
+  ],
+  "simulator_software": [
+    "FSX Play"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"9AM-10PM\"], \"Saturday\": [\"9AM-10PM\"], \"Sunday\": [\"10AM-5PM\"]}"
+}

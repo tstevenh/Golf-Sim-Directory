@@ -13,8 +13,8 @@ export interface VenueWithFavorites extends Venue {
 // Lightweight venue type for list/card pages — only the fields needed
 // for rendering VenueCard + client-side filtering (vibe, tag, hardware, etc.)
 export type VenueListItem = Pick<Venue,
-  'id' | 'slug' | 'name' | 'city' | 'state' | 'heroImage' | 'shortDescription' |
-  'venueType' | 'simulatorSystems' | 'launchMonitorType' | 'priceRangeMin' |
+  'id' | 'slug' | 'name' | 'city' | 'state' | 'heroImage' |
+  'venueType' | 'simulatorSystems' | 'hardwareBrands' | 'launchMonitorType' | 'priceRangeMin' |
   'priceRangeMax' | 'ratingOverall' | 'featured' | 'tags' | 'vibeTags' |
   'whoItsFor' | 'foodAndDrink' | 'wifi' | 'hasPrivateRooms' | 'parking' |
   'coachingAvailable' | 'kidFriendly'

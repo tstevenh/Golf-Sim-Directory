@@ -1,0 +1,83 @@
+{
+  "name": "Hillcrest Golf Club",
+  "address": "2300 Rim Dr, Durango, CO 81301",
+  "city": "Durango",
+  "region": "Colorado",
+  "country": "US",
+  "latitude": 37.286593,
+  "longitude": -107.862464,
+  "phone": "+19702471499",
+  "website": "http://www.golfhillcrest.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770256411/golf_simulators/www_golfhillcrest_com_ChIJuXw6l_-nPocRCYr1YaIi87Q.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Hillcrest+Golf+Club/@37.2865927,-107.8624636,14z/data=!4m8!1m2!2m1!1sHillcrest+Golf+Club!3m4!1s0x873ea7ff973a7cb9:0xb4f322a261f58a09!8m2!3d37.2865927!4d-107.8624636",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJuXw6l_-nPocRCYr1YaIi87Q",
+  "email": "info@golfhillcrest.com.",
+  "venue_type": "country_club",
+  "about": "Hillcrest Golf Club, established in 1969, is a scenic public golf course located atop a mesa in Durango, Colorado, offering views of the La Plata Mountains and the Animas River Valley. The venue operates a full-size driving range, putting green, and short-game facilities, complemented by an indoor golf simulator with 34 global courses for winter play. The simulator supports regular play, tournament modes, practice options, and is equipped for club fittings and professional instruction. Outside of winter, the facility offers affordable greens fees, rental carts, push carts, and a relaxed atmosphere on its 18-hole, par-71 course.",
+  "tags": "food_and_drinks|beginner_friendly|leagues|coaching_available|club_rentals|family_friendly|corporate_events|juniors_youth",
+  "vibe_tags": "community_club|casual|welcoming|scenic",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "Comprehensive indoor simulator with 34 global courses available year-round",
+    "Versatile facility offering practice, leagues, tournaments, and club fitting services",
+    "Scenic mountain course design that is walkable with affordable greens fees"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "On-site deli and grille available for food service"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No specific mention of alcohol service"
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://foreupsoftware.com/index.php/booking/20929/11794#teetimes",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|pro_shop|club_fitting|leagues|kitchen_food|ada_accessible",
+  "rating_tech_quality": 4.0,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue offers club rentals and demo days for those who need them. They also provide club fitting services."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue has an on-site deli and grille for food service. BYOB policy is not explicitly mentioned."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "In the simulator, one player generally plays 9 holes in 30 minutes and 18 holes in 1 hour."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Hillcrest offers a junior golf program and an adaptive golf program, making it suitable for young players."
+    }
+  ],
+  "rating_overall": 4.1,
+  "opening_hours": "{\"Monday\": [\"8AM-8PM\"], \"Tuesday\": [\"8AM-8PM\"], \"Wednesday\": [\"8AM-8PM\"], \"Thursday\": [\"8AM-8PM\"], \"Friday\": [\"8AM-8PM\"], \"Saturday\": [\"8AM-8PM\"], \"Sunday\": [\"8AM-8PM\"]}"
+}

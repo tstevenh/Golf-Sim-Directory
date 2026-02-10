@@ -1,0 +1,91 @@
+{
+  "name": "Lake Ripley Lanes",
+  "address": "W9534 US-12, Cambridge, WI 53523",
+  "city": "Cambridge",
+  "region": "Wisconsin",
+  "country": "US",
+  "latitude": 42.999912,
+  "longitude": -89.004115,
+  "phone": "+16084233233",
+  "website": "http://www.lakeripleylanes.golf/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770270132/golf_simulators/www_lakeripleylanes_golf_ChIJoUA7PEFvBogRMiZ3Eo1nzJY.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Lake+Ripley+Lanes/@42.9999122,-89.0041145,14z/data=!4m8!1m2!2m1!1sLake+Ripley+Lanes!3m4!1s0x88066f413c3b40a1:0x96cc678d12772632!8m2!3d42.9999122!4d-89.0041145",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJoUA7PEFvBogRMiZ3Eo1nzJY",
+  "venue_type": "multi_sport_sim",
+  "about": "Albatross Alley & Lake Ripley Lanes is a combined bowling alley and golf simulator facility located in Cambridge, Wisconsin. The venue operates with two dedicated golf simulator rooms and offers a comfortable atmosphere suitable for various skill levels, from beginners looking for casual play to those aiming to improve their game. It is positioned as a one-of-a-kind entertainment destination that merges traditional bowling with modern golf technology, providing indoor activities for individuals, families, and groups year-round.",
+  "tags": "beginner_friendly|families|corporate_events|leagues|premium_tech|private_rooms|club_rentals|community_club|late_night|coaching_available",
+  "vibe_tags": "family_fun_center|sports_bar|tech_lab|casual|welcoming",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Immersive Trackman simulator technology allowing play on world's most iconic courses",
+    "Dedicated golf simulator rooms for focused practice without distractions",
+    "Flexible booking system available online for convenient tee time scheduling",
+    "Indoor facility offering year-round play regardless of weather conditions",
+    "Supportive atmosphere suitable for both casual players and serious practice sessions"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "On-site kitchen available for food service"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Premium launch monitor technology with dual radar and camera system"
+    }
+  ],
+  "simulator_software": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://yourgolfbooking.com/venues/ripley/booking/bays",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue does not specify if they provide club rentals, so bringing your own clubs is recommended."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "The venue has an on-site kitchen for food service, but does not mention allowing outside food or drinks."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Typical simulator sessions range from 1-2 hours depending on pace of play and number of players per bay."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is family-friendly with a welcoming atmosphere suitable for children and offers activities for all ages."
+    }
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"11AM-12AM\"], \"Tuesday\": [\"11AM-12AM\"], \"Wednesday\": [\"11AM-12AM\"], \"Thursday\": [\"11AM-12AM\"], \"Friday\": [\"11AM-12AM\"], \"Saturday\": [\"11AM-12AM\"], \"Sunday\": [\"11AM-6PM\"]}"
+}

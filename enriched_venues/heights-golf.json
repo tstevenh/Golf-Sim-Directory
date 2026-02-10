@@ -1,0 +1,89 @@
+{
+  "name": "Heights Golf",
+  "address": "5815 Kavanaugh Blvd, Little Rock, AR 72207",
+  "city": "Little Rock",
+  "region": "Arkansas",
+  "country": "US",
+  "latitude": 34.770086,
+  "longitude": -92.338889,
+  "phone": "+15014061500",
+  "website": "https://heightsgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770226690/golf_simulators/heightsgolf_com_ChIJ8fwtUXaj0ocRu5gSdz6lLnQ.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Heights+Golf/@34.7700861,-92.338889,14z/data=!4m8!1m2!2m1!1sHeights+Golf!3m4!1s0x87d2a376512dfcf1:0x742ea53e771298bb!8m2!3d34.7700861!4d-92.338889",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ8fwtUXaj0ocRu5gSdz6lLnQ",
+  "email": "birdie@heightsgolf.com",
+  "venue_type": "sim_bar|training_studio|retail_fitting_center",
+  "about": "Heights Golf is a multi-faceted venue combining a golf retail shop, professional instruction, and simulator bays. The facility is equipped with two TrackMan simulators for game practice or virtual play on various courses. In addition to golf technology, it offers an atmosphere with a full bar, the Golf Channel, and club rentals. Services include custom club fittings, repairs, and professional lessons led by a Golf Pro and General Manager, making it suitable for both equipment shoppers and serious practice sessions.",
+  "tags": "food_and_drinks|beginner_friendly|serious_golfers|corporate_events|coaching_available|date_night|premium_tech|club_rentals",
+  "vibe_tags": "sports_bar|community_club|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Premium TrackMan technology for accurate swing and ball data",
+    "Full bar and relaxed atmosphere for a casual round after work",
+    "Professional fitting and coaching services from a certified golf pro"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar available on-site"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Two bays available; club and ball tracking capabilities"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://heights-golf.book.teeitup.golf/",
+  "pricing_model": "per_bay_hour|mixed",
+  "price_range_min_local": 20,
+  "price_range_max_local": 400,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|full_bar|tv_sports|club_fitting|pro_shop|coaching_available",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 3.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can use your own clubs or rent them at the venue; a bag drop is available behind the store."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drinks are not mentioned; the venue offers its own full bar on-site."
+    },
+    {
+      "question": "How long does an 18-hole round take?",
+      "answer": "The website does not specify an exact time for an 18-hole simulator round."
+    },
+    {
+      "question": "Is Heights Golf kid-friendly?",
+      "answer": "There is no specific information about kid-friendly amenities or policies."
+    }
+  ],
+  "rating_overall": 4.1,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"9AM-7PM\"], \"Wednesday\": [\"9AM-7PM\"], \"Thursday\": [\"9AM-7PM\"], \"Friday\": [\"9AM-7PM\"], \"Saturday\": [\"9AM-7PM\"], \"Sunday\": [\"12-6PM\"]}"
+}

@@ -1,0 +1,89 @@
+{
+  "name": "PSG Golf",
+  "address": "615 Maple Ave #2, Saratoga Springs, NY 12866",
+  "city": "Saratoga Springs",
+  "region": "New York",
+  "country": "US",
+  "latitude": 43.117407,
+  "longitude": -73.770142,
+  "phone": "+15184159471",
+  "website": "https://psggolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770200208/golf_simulators/psggolf_com_ChIJeXIPNCM33okRLzf8WHXZ_Tc.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/PSG+Golf/@43.1174071,-73.7701419,14z/data=!4m8!1m2!2m1!1sPSG+Golf!3m4!1s0x89de3723340f7279:0x37fdd97558fc372f!8m2!3d43.1174071!4d-73.7701419",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJeXIPNCM33okRLzf8WHXZ_Tc",
+  "email": "_mike@psggolf.com_",
+  "venue_type": "training_studio",
+  "about": "PSG Golf is an indoor golf facility offering memberships, expert lessons, swing analysis, and event bookings. It is tailored for young professionals and golf enthusiasts seeking a modern golfing experience. The facility provides 24-hour access for members, along with flexible plans designed for all levels of golfers and enthusiasts.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|coaching_available|club_rentals|premium_tech",
+  "vibe_tags": "modern|community_club|tech_lab",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "24-hour access for members",
+    "PGA-certified instructors with included lessons",
+    "State-of-the-art golf simulators and launch monitors"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Discounts on food and drinks for members."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Cutting-edge analysis technology used for fitting and instruction."
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://book.squareup.com/appointments/nwt7g3xj61pg1q/location/LSMWQ3V8ZZKZM/services",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|kitchen_food|tv_sports|private_party_room|club_fitting|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can bring your own clubs, and club rentals or fitting services are also available."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No outside food or drinks are permitted. The facility offers discounts on food and drinks for members."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Playing time can vary depending on the simulator software and your pace of play, typically ranging from 1.5 to 2 hours for 18 holes."
+    },
+    {
+      "question": "Is PSG Golf kid-friendly?",
+      "answer": "Yes, the facility is welcoming to golfers of all ages and skill levels, including juniors and youth."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"Closed\"], \"Wednesday\": [\"5-10PM\"], \"Thursday\": [\"5-10PM\"], \"Friday\": [\"5-10PM\"], \"Saturday\": [\"10AM-10PM\"], \"Sunday\": [\"10AM-10PM\"]}"
+}

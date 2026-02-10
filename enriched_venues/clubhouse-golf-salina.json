@@ -1,0 +1,89 @@
+{
+  "name": "Clubhouse Golf Salina",
+  "address": "117B N Santa Fe Ave, Salina, KS 67401",
+  "city": "Salina",
+  "region": "Kansas",
+  "country": "US",
+  "latitude": 38.841301,
+  "longitude": -97.609516,
+  "phone": "+17858332103",
+  "website": "https://clubhousegolfsalina.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770229291/golf_simulators/clubhousegolfsalina_com_ChIJWZXgT2nFvIcRFFgH4yBZLwE.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Clubhouse+Golf+Salina/@38.8413007,-97.6095156,14z/data=!4m8!1m2!2m1!1sClubhouse+Golf+Salina!3m4!1s0x87bcc5694fe09559:0x12f5920e3075814!8m2!3d38.8413007!4d-97.6095156",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJWZXgT2nFvIcRFFgH4yBZLwE",
+  "venue_type": "multi_sport_sim",
+  "about": "Clubhouse Golf Salina is an indoor golf simulator facility founded in 2023, designed for golfers of all ages and ability levels. It provides a year-round environment to play, practice, and improve one's game regardless of weather conditions. The facility is equipped with four hitting bays, each featuring Foresight Sports GC Hawk launch monitors that provide real-time, accurate feedback. The venue offers access to an extensive library of over 200 virtual courses and supports both practice sessions and competitive play through tournaments and leagues. Pricing is structured around individual bay hour rentals and membership options.",
+  "tags": "beginner_friendly|corporate_events|leagues|premium_tech|coaching_available|family_friendly",
+  "vibe_tags": "modern|community_club|tech_lab",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "State-of-the-art Foresight Sports GC Hawk launch monitors for precise data and feedback",
+    "200+ virtual course library accessible for practice and play",
+    "Year-round, weather-proof golfing environment with flexible operating hours"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned. Website links to a partner, 'the Middle Pin', but does not specify if food is available on-site."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned. BYOB policy is not indicated."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": "GC Hawk",
+      "notes": "Installed in each of the four hitting bays to provide real-time, accurate feedback."
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 4,
+  "booking_url": "https://clubhousegolfsalina.com/product/tee-time-reservation/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 40,
+  "price_range_max_local": 40,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 4,
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "While not explicitly stated on the website, it is standard practice at golf simulator venues for players to bring their own equipment, though some may provide rentals."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The website does not mention any food or drink service or policies regarding outside food and beverages."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not provide an estimated time for completing an 18-hole round, which can vary based on the number of players and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Clubhouse Golf Salina offers junior camps, lessons, and a family membership option, indicating it is designed to accommodate children and youth golfers."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"4-10PM\"], \"Tuesday\": [\"4-10PM\"], \"Wednesday\": [\"4-10PM\"], \"Thursday\": [\"4-10PM\"], \"Friday\": [\"1-10PM\"], \"Saturday\": [\"10AM-10PM\"], \"Sunday\": [\"10AM-10PM\"]}"
+}

@@ -1,0 +1,90 @@
+{
+  "name": "The Bunker Golf Lounge",
+  "address": "43207 Woodward Ave, Bloomfield Township, MI 48302",
+  "city": "Bloomfield Township",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 42.605537,
+  "longitude": -83.268083,
+  "phone": "+12485004517",
+  "website": "https://bunkergolfsim.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770200537/golf_simulators/bunkergolfsim_com_ChIJG6E7qy6_JIgRB1Z4hSG6c4E.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Bunker+Golf+Lounge/@42.6055375,-83.26808249999999,14z/data=!4m8!1m2!2m1!1sThe+Bunker+Golf+Lounge!3m4!1s0x8824bf2eab3ba11b:0x8173ba2185785607!8m2!3d42.6055375!4d-83.26808249999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJG6E7qy6_JIgRB1Z4hSG6c4E",
+  "email": "_thebunkergolfsim@yahoo.com_",
+  "venue_type": "sim_bar|training_studio|private_rental|retail_fitting_center|country_club|multi_sport_sim|hotel_resort|other",
+  "about": "The Bunker is a fully automated, indoor golf simulator facility designed for golfers who want complete flexibility. Open 24/7 with no on-site employees, the venue provides private, uninterrupted access to world-class golf simulation on your schedule. The facility offers 3 premium simulator bays, allowing you to book remotely and play at a time that works best for you. Whether you're a seasoned golfer or a beginner, the simulators provide a realistic and interactive experience with access to hundreds of courses around the world. The Bunker's mission is to make golf accessible, convenient, and enjoyable—no matter the weather or time of day.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|private_rooms|club_rentals|late_night|tech_lab",
+  "vibe_tags": "industrial_training|tech_lab|casual|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "24/7 access with no on-site employees",
+    "Fully automated facility for a private experience",
+    "World-class Trackman technology for accurate data",
+    "Flexible booking system with remote access"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "Venue does not offer food for purchase but encourages you to bring your own or order from nearby neighbors."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "Venue does not offer alcohol for purchase but encourages you to bring your own or order from nearby neighbors."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Gold standard in golf simulator technology used for accurate ball tracking, stats, and immersive golf experience."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://yourgolfbooking.com/venues/the-bunker-2/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": false,
+  "coaching_available": "unknown",
+  "private_rooms_count": 3,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|tv_sports|wifi|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you will need to bring your own golf clubs to use the simulators."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, you are encouraged to bring your own food and drinks or order from nearby neighbors. Please clean up after yourself to maintain a clean atmosphere."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes can vary depending on the number of players and pace of play. It's recommended to check with the booking system for estimated session times."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The venue does not specify whether it is kid-friendly, but it is a welcoming space for families to enjoy golf together."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

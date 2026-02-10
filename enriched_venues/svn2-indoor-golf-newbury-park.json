@@ -1,0 +1,91 @@
+{
+  "name": "SVN2 Indoor Golf Newbury Park",
+  "address": "3311 Grande Vista Dr, Thousand Oaks, CA 91320",
+  "city": "Thousand Oaks",
+  "region": "California",
+  "country": "US",
+  "latitude": 34.193898,
+  "longitude": -118.945158,
+  "phone": "+18053760276",
+  "website": "http://www.svn2golf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770218582/golf_simulators/www_svn2golf_com_ChIJr5VjP58x6IARlFPcqT_VSoQ.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/SVN2+Indoor+Golf+Newbury+Park/@34.1938982,-118.9451581,14z/data=!4m8!1m2!2m1!1sSVN2+Indoor+Golf+Newbury+Park!3m4!1s0x80e8319f3f6395af:0x844ad53fa9dc5394!8m2!3d34.1938982!4d-118.9451581",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJr5VjP58x6IARlFPcqT_VSoQ",
+  "email": "svn2@svn2golf.com",
+  "venue_type": "sim_bar|training_studio|private_rental|retail_fitting_center|multi_sport_sim",
+  "about": "SVN2 Indoor Golf is a multi-location facility featuring private, self-service bays equipped with TrackMan technology. The venue offers flexible booking options, allowing players to pay per session or purchase monthly memberships for access to 7 hours of play. Designed for golfers seeking focused practice, SVN2 provides a premium environment with detailed swing metrics and simulated rounds on championship courses. Operating from early morning to late evening, the facilities cater to serious golfers looking for data-driven improvement and a clean, well-maintained atmosphere.",
+  "tags": "serious_practice|food_and_drinks|corporate_events|leagues|premium_tech|budget_friendly|private_rooms|club_rentals|late_night|coaching_available",
+  "vibe_tags": "casual|welcoming|modern|tech_lab",
+  "who_its_for": "serious_golfers|corporate_teams|solo_practice|coaches_instructors|large_groups",
+  "why_golfers_like_it": [
+    "Industry-leading TrackMan simulators provide instant, detailed feedback on every swing",
+    "Private, self-service bays offer a focused environment free from distractions",
+    "Flexible pricing includes off-peak specials and credit packages for significant savings",
+    "Convenient early morning and late-night hours accommodate diverse schedules",
+    "Premium amenities allow players to bring their own food and drinks"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Players are allowed to bring their own food into the facility"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Players are allowed to bring their own drinks into the facility"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Industry-leading radar technology with dual camera system for detailed ball and club tracking"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://booking.trackmangolf.com/venues/svn-2-indoor-golf/booking/bays",
+  "pricing_model": "mixed",
+  "price_range_min_local": 30,
+  "price_range_max_local": 50,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|lockers|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.5,
+  "rating_value_for_money": 4.2,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, players must bring their own golf clubs to use at SVN2 Indoor Golf."
+    },
+    {
+      "question": "Can I bring food and drinks?",
+      "answer": "Yes, SVN2 allows you to bring your own food and non-alcoholic beverages into the facility. Alcohol is also permitted to be brought in."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time required to play 18 holes depends on the course and number of players, but typical rounds at simulator venues range from 1.5 to 2.5 hours."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "SVN2 Indoor Golf is not specifically marketed as a kid-friendly venue and appears to cater more to serious golfers and adults."
+    }
+  ],
+  "rating_overall": 4.5,
+  "opening_hours": "{\"Monday\": [\"6AM-10PM\"], \"Tuesday\": [\"6AM-10PM\"], \"Wednesday\": [\"6AM-10PM\"], \"Thursday\": [\"6AM-10PM\"], \"Friday\": [\"6AM-11PM\"], \"Saturday\": [\"6AM-11PM\"], \"Sunday\": [\"6AM-11PM\"]}"
+}

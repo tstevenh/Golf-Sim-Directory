@@ -1,0 +1,89 @@
+{
+  "name": "AndersMattsonGolf",
+  "address": "62 Excelsior Ave, Saratoga Springs, NY 12866",
+  "city": "Saratoga Springs",
+  "region": "New York",
+  "country": "US",
+  "latitude": 43.089452,
+  "longitude": -73.773921,
+  "phone": "+15188105596",
+  "website": "http://www.andersmattsongolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770228392/golf_simulators/www_andersmattsongolf_com_ChIJS1CgDOM33okRGrBVz7HfvQk.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/AndersMattsonGolf/@43.0894519,-73.7739209,14z/data=!4m8!1m2!2m1!1sAndersMattsonGolf!3m4!1s0x89de37e30ca0504b:0x9bddfb1cf55b01a!8m2!3d43.0894519!4d-73.7739209",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJS1CgDOM33okRGrBVz7HfvQk",
+  "email": "andersmattsongolf@gmail.com",
+  "venue_type": "training_studio",
+  "about": "AndersMattsonGolf is a golf training studio established in 2019, focused on providing coaching services to the Saratoga Springs community. It utilizes a holistic approach to player development for adults, families, and youths, combining state-of-the-art technology with traditional golf values. The facility, known as the Saratoga Golf Studio, serves as a year-round training hub where students have access to mentorship and advanced equipment to advance their skills.",
+  "tags": "coaching_available|juniors_youth|serious_golfers|beginners|club_fitting|training_studio",
+  "vibe_tags": "industrial_training|tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|juniors_youth|families",
+  "why_golfers_like_it": [
+    "Access to TrackMan launch monitor and simulator technology for data-driven fitting and instruction",
+    "Comprehensive club fitting services with a wide selection of premium clubs like Vokey and Scotty Cameron",
+    "Structured coaching programs for both adults and juniors with a focus on holistic player development"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of food service available on-site."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service available on-site."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Used for club fitting, launch condition optimization, and virtual leagues."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "auto_putt",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "http://www.andersmattsongolf.com/about/meet-the-team",
+  "pricing_model": "per_person_hour",
+  "price_range_min_local": 150,
+  "price_range_max_local": 275,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|club_fitting|pro_shop",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "While you can use your own clubs, the facility offers club fitting services with a selection of premium clubs like Vokey and Scotty Cameron. They also accept used club donations for junior players."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No, the website does not mention any food or drink service, so bringing outside items may not be permitted."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes on a simulator is not specified, but typical simulator sessions are booked by the hour."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, AndersMattsonGolf has dedicated junior programs, including a Junior Golf Academy, and actively supports junior golfers through training and equipment donations."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"9AM-5PM\"], \"Tuesday\": [\"9AM-5PM\"], \"Wednesday\": [\"9AM-5PM\"], \"Thursday\": [\"9AM-5PM\"], \"Friday\": [\"9AM-5PM\"], \"Saturday\": [\"8AM-3PM\"], \"Sunday\": [\"Closed\"]}"
+}

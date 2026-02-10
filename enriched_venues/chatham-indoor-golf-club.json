@@ -1,0 +1,94 @@
+{
+  "name": "Chatham Indoor Golf Club",
+  "address": "11A Roosevelt Ave, Chatham, NJ 07928",
+  "city": "Chatham",
+  "region": "New Jersey",
+  "country": "US",
+  "latitude": 40.739913,
+  "longitude": -74.375709,
+  "phone": "+19734370487",
+  "website": "http://chathamigc.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770198992/golf_simulators/chathamigc_com_ChIJZzOdm--vw4kRtw5eVoFGKFM.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Chatham+Indoor+Golf+Club/@40.7399133,-74.3757095,14z/data=!4m8!1m2!2m1!1sChatham+Indoor+Golf+Club!3m4!1s0x89c3afef9b9d3367:0x53284681565e0eb7!8m2!3d40.7399133!4d-74.3757095",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJZzOdm--vw4kRtw5eVoFGKFM",
+  "email": "help@chathamIGC.com",
+  "venue_type": "other",
+  "about": "Chatham Indoor Golf Club (CIGC) is a local facility offering two golf simulator bays accessible 7 days a week, 365 days a year via smartphone remote access. The venue utilizes TrackMan 4 and TrackMan IO DUO technology, providing highly accurate launch data and access to iconic courses like Pebble Beach. CIGC operates as a club rather than a traditional membership, catering to golfers of all skill levels with flexible membership tiers and event hosting capabilities. The facility is located in Chatham, NJ, adjacent to a highly-rated restaurant, and emphasizes a comfortable, tour-level indoor golf experience for both improvement and recreational play.",
+  "tags": "beginner_friendly|corporate_events|leagues|premium_tech|club_rentals|coaching_available",
+  "vibe_tags": "community_club|tech_lab",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice|coaches_instructors",
+  "why_golfers_like_it": [
+    "Premium TrackMan 4 and IO DUO technology for precise data analysis",
+    "Flexible membership options with no long-term commitments",
+    "Remote access booking via smartphone for convenience",
+    "Access to iconic virtual courses like Pebble Beach",
+    "Ability to host events and accommodate existing leagues"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No on-site food service mentioned; located near Serenade restaurant"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned; BYOB policy not specified"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "Highly advanced launch monitor combining radar and high-end optics"
+    },
+    {
+      "brand": "Trackman",
+      "model": "IO",
+      "notes": "Newest model allowing unencumbered swings for both right and left handed players"
+    }
+  ],
+  "simulator_software": "Trackman Performance Simulator",
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://clients.uschedule.com/chathamindoorgolfclub/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 135,
+  "price_range_max_local": 240,
+  "currency": "USD",
+  "walk_ins_allowed": false,
+  "coaching_available": false,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 3,
+  "amenities_list": "club_rentals|leagues|wifi",
+  "rating_tech_quality": 5.0,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "Members are required to bring their own clubs for use in the simulator bays."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No on-site food or beverage service is mentioned; the venue is located near Serenade restaurant."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Time to play 18 holes is not specified, but members can book sessions up to 3 hours at a time."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "No specific information about kid-friendly amenities or policies is provided."
+    }
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"6AM-12AM\"], \"Tuesday\": [\"6AM-12AM\"], \"Wednesday\": [\"6AM-12AM\"], \"Thursday\": [\"6AM-12AM\"], \"Friday\": [\"6AM-12AM\"], \"Saturday\": [\"6AM-12AM\"], \"Sunday\": [\"6AM-12AM\"]}"
+}

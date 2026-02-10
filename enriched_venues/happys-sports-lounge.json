@@ -1,0 +1,89 @@
+{
+  "name": "Happy's Sports Lounge",
+  "address": "302 W Main St, Murfreesboro, TN 37130",
+  "city": "Murfreesboro",
+  "region": "Tennessee",
+  "country": "US",
+  "latitude": 35.84652,
+  "longitude": -86.394009,
+  "phone": "+16159566541",
+  "website": "http://happystn.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770239020/golf_simulators/happystn_com_ChIJpz4ofJT5Y4gRUiE9zWjCcoQ.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Happy%27s+Sports+Lounge/@35.8465199,-86.3940087,14z/data=!4m8!1m2!2m1!1sHappy%27s+Sports+Lounge!3m4!1s0x8863f9947c283ea7:0x8472c268cd3d2152!8m2!3d35.8465199!4d-86.3940087",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJpz4ofJT5Y4gRUiE9zWjCcoQ",
+  "venue_type": "sim_bar",
+  "about": "Happy's Sports Lounge is an indoor entertainment venue that combines high-tech golf simulation with duckpin bowling. The venue features Trackman 4 golf simulators that provide pro-level accuracy for golfers, alongside bowling lanes for casual play. Patrons can enjoy food and drinks while participating in activities, making it suitable for a range of social and recreational gatherings. The space is designed for both serious practice sessions and casual outings with friends.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|premium_tech|date_night|private_rooms|club_rentals|late_night|coaching_available",
+  "vibe_tags": "sports_bar|family_fun_center|party_atmosphere|tech_lab",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|large_groups",
+  "why_golfers_like_it": [
+    "Powered by Trackman 4, the same technology used by 80% of PGA Tour pros",
+    "Choose from 200+ iconic courses with ultra-realistic down-to-the-inch accuracy",
+    "No tee time required; play with drinks and friends in a casual social setting",
+    "Constant software updates ensure the best and most up-to-date experience"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen available for food service"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with beers, wines, and liquors"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "Dual radar and camera system with pro-level accuracy"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://secure.meriq.com/happystn/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|kitchen_food|tv_sports|private_party_room|club_rentals|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue provides all necessary equipment, but you are welcome to bring your own clubs if desired."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drinks are not allowed; however, the venue offers a full menu and bar with food and drinks available for purchase."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Playing 18 holes typically takes about 1-2 hours depending on group size and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Happy's Sports Lounge is family-friendly and welcomes guests of all ages."
+    }
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"4-10PM\"], \"Tuesday\": [\"Closed\"], \"Wednesday\": [\"Closed\"], \"Thursday\": [\"4-10PM\"], \"Friday\": [\"11AM-2AM\"], \"Saturday\": [\"11AM-2AM\"], \"Sunday\": [\"11AM-10PM\"]}"
+}

@@ -1,0 +1,93 @@
+{
+  "name": "X-Golf El Dorado Hills",
+  "address": "2085 Vine St Suite 201, El Dorado Hills, CA 95762",
+  "city": "El Dorado Hills",
+  "region": "California",
+  "country": "US",
+  "latitude": 38.65165,
+  "longitude": -121.062601,
+  "phone": "+19165421374",
+  "website": "http://www.xgolfeldoradohills.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770199270/golf_simulators/www_xgolfeldoradohills_com_ChIJLUhBsSHlmoARxZqj4uNHpSE.png",
+  "google_maps_url": "https://www.google.com/maps/place/X-Golf+El+Dorado+Hills/@38.6516501,-121.0626015,14z/data=!4m8!1m2!2m1!1sX-Golf+El+Dorado+Hills!3m4!1s0x809ae521b141482d:0x21a547e3e2a39ac5!8m2!3d38.6516501!4d-121.0626015",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJLUhBsSHlmoARxZqj4uNHpSE",
+  "email": "info@xgolfeldoradohills.com",
+  "venue_type": "sim_bar",
+  "about": "X-Golf El Dorado Hills is a golf simulator facility offering 7 state-of-the-art golf simulators. The venue provides a comprehensive environment for play, training, and entertainment, with a full bar, food and beverage options, and space for up to 150 guests. Pricing is per simulator, per hour, accommodating up to 6 people per bay, with rates varying by day and time.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|club_rentals|coaching_available|juniors_youth",
+  "vibe_tags": "sports_bar|family_fun_center|tech_lab|community_club",
+  "who_its_for": "families|large_groups|corporate_teams|solo_practice|juniors_youth",
+  "why_golfers_like_it": [
+    "Access to the world's most accurate golf simulator with camera systems, infrared lasers, and impact sensors",
+    "Year-round play and training regardless of weather conditions",
+    "A social atmosphere with live TV sports, a bar, and events like DJ trivia and watch parties"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Tasty bites available; menu available online"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with beer and wine; specials available for events"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "X-Golf",
+      "model": "Simulator",
+      "notes": "State-of-the-art indoor golf simulator with camera systems, infrared lasers, and impact sensors"
+    }
+  ],
+  "simulator_so": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 7,
+  "booking_url": "https://clients.uschedule.com/xgolfeldoradohills/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 45,
+  "price_range_max_local": 75,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 0,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|wifi|leagues|club_fitting|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, rental clubs are available. Adult premium TaylorMade clubs are $15 per session, and Kids U.S. Kids clubs are $10 per session."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue has a full bar and offers food and beverages for purchase. BYOB is not mentioned as an option."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Each individual can finish 18 holes in about one hour. If you add more people, it will take approximately one hour per person added to play 18 holes."
+    },
+    {
+      "question": "Is it kid-friendly?",
+      "answer": "Yes, children of all ages are welcome. The facility offers junior lessons and events suitable for families."
+    }
+  ],
+  "simulator_software": [
+    "X-Golf"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"8AM-10PM\"], \"Tuesday\": [\"8AM-10PM\"], \"Wednesday\": [\"8AM-10PM\"], \"Thursday\": [\"8AM-10PM\"], \"Friday\": [\"8AM-10PM\"], \"Saturday\": [\"10AM-10PM\"], \"Sunday\": [\"10AM-8PM\"]}"
+}

@@ -1,0 +1,90 @@
+{
+  "name": "Indy Golf Den",
+  "address": "1003 E 106th St, Carmel, IN 46280",
+  "city": "Carmel",
+  "region": "Indiana",
+  "country": "US",
+  "latitude": 39.941572,
+  "longitude": -86.142914,
+  "phone": "+13179832224",
+  "website": "https://indygolfden.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770204500/golf_simulators/indygolfden_com_ChIJp68OBBStFIgRYJMKTWitRPA.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Indy+Golf+Den/@39.941572099999995,-86.14291399999999,14z/data=!4m8!1m2!2m1!1sIndy+Golf+Den!3m4!1s0x8814ad14040eafa7:0xf044ad684d0a9360!8m2!3d39.941572099999995!4d-86.14291399999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJp68OBBStFIgRYJMKTWitRPA",
+  "venue_type": "private_rental",
+  "about": "Located in Carmel, IN, Indy Golf Den offers a premier golf simulation experience in a private, immersive environment. The venue features a single, private simulator equipped with professional-grade technology including an Advanced Overhead Launch Monitor, high-performance gaming computer, and premium projector screen. It is designed to be a peaceful, focused sanctuary for golfers of all skill levels to practice, play, or take lessons without distractions. The space is equipped with private bathroom facilities, a kitchen with ice maker and water, and on-site golf club rentals for traveling guests.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|premium_tech|private_rooms|coaching_available",
+  "vibe_tags": "private_luxury|tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Entire private space for a distraction-free environment",
+    "Professional-grade overhead launch monitor with comprehensive data tracking",
+    "Access to thousands of real-world and user-created golf courses",
+    "Ideal setting for focused golf instruction and practice",
+    "Comfortable amenities including kitchen facilities and club rentals"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Kitchen facilities with ice maker and water available on-site"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service or BYOB policy"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Unknown",
+      "model": "Advanced Overhead Launch Monitor",
+      "notes": "Professional-grade overhead launch monitor tracking ball speed, launch angle, spin rate, carry distance, and smash factor"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "overhead_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 1,
+  "booking_url": "https://indygolfden.com/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|kitchen_food|private_party_room|wifi",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own golf clubs?",
+      "answer": "No, on-site golf clubs are available for traveling guests, though you are welcome to bring your own."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, the venue has kitchen facilities with an ice maker and water available for guest use."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes varies depending on the course selected and number of players, but golf simulation typically rounds are faster than traditional golf."
+    },
+    {
+      "question": "Is Indy Golf Den kid-friendly?",
+      "answer": "The venue is private and focused, making it suitable for families with older children, though there are no specific kid-oriented amenities mentioned."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"Closed\"], \"Wednesday\": [\"Closed\"], \"Thursday\": [\"Closed\"], \"Friday\": [\"8AM-9PM\"], \"Saturday\": [\"8AM-9PM\"], \"Sunday\": [\"8AM-9PM\"]}"
+}

@@ -1,0 +1,92 @@
+{
+  "name": "Under Cover Golf",
+  "address": "19 W Marshall St, Rice Lake, WI 54868",
+  "city": "Rice Lake",
+  "region": "Wisconsin",
+  "country": "US",
+  "latitude": 45.504514,
+  "longitude": -91.734877,
+  "phone": "+16515603773",
+  "website": "https://www.undercovergolfwi.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770260313/golf_simulators/www_undercovergolfwi_com_ChIJ5XpQnVz7rFIRqwr9hWwjd0Y.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Under+Cover+Golf/@45.504513599999996,-91.73487659999999,14z/data=!4m8!1m2!2m1!1sUnder+Cover+Golf!3m4!1s0x52acfb5c9d507ae5:0x4677236c85fd0aab!8m2!3d45.504513599999996!4d-91.73487659999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ5XpQnVz7rFIRqwr9hWwjd0Y",
+  "email": "austin@undercovergolfwi.com",
+  "venue_type": "sim_bar|training_studio|retail_fitting_center",
+  "about": "Under Cover Golf is a golf simulator and club repair facility offering a climate-controlled environment for year-round practice and play. The venue features professional-grade simulators and a dedicated club repair shop, catering to both recreational golfers and serious players seeking to refine their skills. With a focus on convenience and quality, it provides a versatile space for individual practice, lessons, and group bookings, complemented by a workshop for custom club fittings and repairs.",
+  "tags": "beginner_friendly|serious_practice|food_and_drinks|corporate_events|club_rentals|coaching_available|modern|tech_focused",
+  "vibe_tags": "tech_lab|community_club|casual|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Professional-grade TruGolf and E6 Connect simulators for realistic play on world-class courses",
+    "On-site club repair and fitting services for equipment optimization",
+    "Flexible booking options for 1-hour or 2-hour simulator sessions and 30-minute or 1-hour lessons",
+    "Multiple bays available for groups or solo practice",
+    "Climate-controlled indoor facility for all-weather play",
+    "Variety of renowned golf courses available for simulation"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "BYOB (Bring Your Own Food) policy allows guests to bring their own snacks and meals."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "BYOB (Bring Your Own Beverage) policy allows guests to bring their own alcoholic drinks."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "TruGolf",
+      "model": "E6 Connect",
+      "notes": "High-end simulator system paired with E6 Connect software for course simulation"
+    }
+  ],
+  "simulator_software": [
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 4,
+  "booking_url": "https://www.undercovergolfwi.com/book-online",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 120,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.7,
+  "rating_facility_comfort": 4.3,
+  "rating_value_for_money": 4.1,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, guests are expected to bring their own golf clubs for simulator sessions and lessons. The venue also offers club repair and fitting services."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, Under Cover Golf operates on a BYOB (Bring Your Own Beverage) and BYOF (Bring Your Own Food) policy, allowing guests to bring their own snacks and alcoholic drinks."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "A full 18-hole simulation typically takes approximately 2-3 hours, depending on the course and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Under Cover Golf is family-friendly and suitable for juniors, with offerings including lessons and simulator play for younger golfers."
+    }
+  ],
+  "rating_overall": 4.4,
+  "opening_hours": "{\"Monday\": [\"11AM-6PM\"], \"Tuesday\": [\"12-9PM\"], \"Wednesday\": [\"12-9PM\"], \"Thursday\": [\"12-9PM\"], \"Friday\": [\"10AM-7PM\"], \"Saturday\": [\"10AM-10PM\"], \"Sunday\": [\"10AM-6PM\"]}"
+}

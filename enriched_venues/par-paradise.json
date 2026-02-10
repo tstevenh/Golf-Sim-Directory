@@ -1,0 +1,89 @@
+{
+  "name": "Par Paradise",
+  "address": "866 Island Park Dr Suite 104, Charleston, SC 29492",
+  "city": "Charleston",
+  "region": "South Carolina",
+  "country": "US",
+  "latitude": 32.863279,
+  "longitude": -79.906003,
+  "phone": "+18544292734",
+  "website": "https://www.parparadise.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770208289/golf_simulators/www_parparadise_com_ChIJ_wHM__1v_ogRNV8M3_6obSU.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Par+Paradise/@32.8632786,-79.9060027,14z/data=!4m8!1m2!2m1!1sPar+Paradise!3m4!1s0x88fe6ffdffcc01ff:0x256da8fedf0c5f35!8m2!3d32.8632786!4d-79.9060027",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ_wHM__1v_ogRNV8M3_6obSU",
+  "email": "Kent.lawrence.x@gmail.com",
+  "venue_type": "sim_bar",
+  "about": "Par Paradise is an exclusive, membership-based indoor golf simulator facility located in the heart of Daniel Island, South Carolina. The venue operates on a membership-only model, offering a premium space for golf enthusiasts to practice, play, and compete in a state-of-the-art environment. With three top-of-the-line TruGolf Commercial Simulator Bays featuring Apogee launch monitors and E6 course software providing access to 100 courses, the facility is designed for serious practice and leisure. The experience is enhanced by a high-end lounge, a multisport arcade with eight games, and a PuttView Interactive Green for augmented reality putting practice.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|budget_friendly|private_rooms|club_rentals|coaching_available|kids_friendly",
+  "vibe_tags": "upscale_lounge|private_luxury|family_fun_center|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Premium TruGolf Apogee launch monitor technology for precise club and ball tracking",
+    "Access to 100 global golf courses via high-quality E6 course software",
+    "Specialized augmented reality putting system with the PuttView Interactive Green"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "BYOB allowed for events; contact for information on local restaurant partnerships"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "BYOB allowed for events; contact for information on local restaurant partnerships"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "TruGolf",
+      "model": "Apogee",
+      "notes": "Laser assisted ball placement and high-speed cameras"
+    }
+  ],
+  "simulator_software": [
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://www.parparadise.com/membership",
+  "pricing_model": "membership_only",
+  "price_range_min_local": 149,
+  "price_range_max_local": 325,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|kitchen_food|tv_sports|private_party_room|leagues|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue does not specify if club rentals are provided. It is recommended to bring your own clubs for the best experience."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, for events and parties, guests are allowed to bring in their own food, drinks, cupcakes, and more."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "A golfer can easily complete 18 holes of golf in approximately one hour on the simulator."
+    },
+    {
+      "question": "Is Par Paradise kid-friendly?",
+      "answer": "Yes, the facility is kid-friendly. Members are allowed to bring family, and the venue offers a multisport arcade with eight games that can accommodate up to eight players."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"7AM-10:30PM\"], \"Tuesday\": [\"7AM-10PM\"], \"Wednesday\": [\"7AM-10PM\"], \"Thursday\": [\"7AM-10PM\"], \"Friday\": [\"7AM-10PM\"], \"Saturday\": [\"7AM-10PM\"], \"Sunday\": [\"7AM-10PM\"]}"
+}

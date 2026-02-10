@@ -1,0 +1,90 @@
+{
+  "name": "Birdie Golf Studios",
+  "address": "45 NE 26th St Units C-D, Miami, FL 33137",
+  "city": "Miami",
+  "region": "Florida",
+  "country": "US",
+  "latitude": 25.801857,
+  "longitude": -80.19413,
+  "phone": "+13054564149",
+  "website": "https://birdiegolfstudios.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770223656/golf_simulators/birdiegolfstudios_com_ChIJWZAZdnq32YgRkLfb89GUnKE.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Birdie+Golf+Studios/@25.8018568,-80.1941295,14z/data=!4m8!1m2!2m1!1sBirdie+Golf+Studios!3m4!1s0x88d9b77a76199059:0xa19c94d1f3dbb790!8m2!3d25.8018568!4d-80.1941295",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJWZAZdnq32YgRkLfb89GUnKE",
+  "email": "info@birdiegolfstudios.com",
+  "venue_type": "sim_bar|training_studio",
+  "about": "Birdie Golf Studios is an indoor golf venue in Miami offering a state-of-the-art experience with Trackman IO simulators. It provides a climate-controlled environment for year-round play and practice, with flexible scheduling options for busy professionals. The venue features luxury facilities, premium technology, and a membership program that includes complimentary simulator hours and discounts on food, beverages, and merchandise. Coaching is available with certified instructors, and the facility also hosts wellness classes and partnerships with local restaurants.",
+  "tags": "food_and_drinks|coaching_available|serious_practice|premium_tech|upscale|beginner_friendly|leagues|corporate_events",
+  "vibe_tags": "upscale_lounge|tech_lab|community_club|modern",
+  "who_its_for": "serious_golfers|beginners|corporate_teams|solo_practice|families",
+  "why_golfers_like_it": [
+    "Premium Trackman IO technology for precise performance metrics",
+    "Climate-controlled facility allowing year-round comfortable play",
+    "Flexible scheduling ideal for busy professionals",
+    "In-house coffee spot and restaurant partnerships for dining convenience"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Fresh items from local bakeries available throughout the day; signature dishes from Doma restaurant delivered to your bay (5 PM - 9 PM)"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "Not explicitly mentioned on the website"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Industry-leading launch monitor technology delivering real-time performance metrics"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "https://app.birrdi.com/u/reserve?team_booking_link_id=birdie-golf-studios&fbp=fb.1.1770457454784.986356253251524820",
+  "pricing_model": "mixed",
+  "price_range_min_local": 45,
+  "price_range_max_local": 600,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|kitchen_food|wifi|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 3.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify whether clubs are provided or if you need to bring your own."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drinks are not mentioned. The venue offers a coffee spot and delivers food from Doma restaurant to your bay."
+    },
+    {
+      "question": "How long does an 18-hole round take?",
+      "answer": "The website does not specify the duration for an 18-hole round."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "There is no specific mention of kid-friendly features or services on the website."
+    }
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"7AM-10PM\"], \"Tuesday\": [\"7AM-10PM\"], \"Wednesday\": [\"7AM-10PM\"], \"Thursday\": [\"7AM-10PM\"], \"Friday\": [\"7AM-10PM\"], \"Saturday\": [\"9AM-9PM\"], \"Sunday\": [\"9AM-9PM\"]}"
+}

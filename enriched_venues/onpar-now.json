@@ -1,0 +1,93 @@
+{
+  "name": "OnPar Now",
+  "address": "1669 Smallman St, Pittsburgh, PA 15222",
+  "city": "Pittsburgh",
+  "region": "Pennsylvania",
+  "country": "US",
+  "latitude": 40.450403,
+  "longitude": -79.987199,
+  "phone": "+14128491617",
+  "website": "https://www.onparnow.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770201378/golf_simulators/www_onparnow_com_ChIJCcPMU1nzNIgRX0Myao3gLdg.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/OnPar+Now/@40.450403,-79.98719899999999,14z/data=!4m8!1m2!2m1!1sOnPar+Now!3m4!1s0x8834f35953ccc309:0xd82de08d6a32435f!8m2!3d40.450403!4d-79.98719899999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJCcPMU1nzNIgRX0Myao3gLdg",
+  "email": "Contact@onparnow.com",
+  "venue_type": "sim_bar|training_studio",
+  "about": "OnPar Now is a state-of-the-art golf simulator and training facility located in Pittsburgh's Strip District. The venue offers a welcoming environment for golfers of all levels to practice and play, featuring premium technology including TrackMan simulators, a PuttView putting green, and an indoor sand trap. Walk-ins are welcome, and memberships are available for those seeking cost-effective access to the facilities and lessons.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|premium_tech|coaching_available|club_rentals",
+  "vibe_tags": "casual|welcoming|modern|tech_lab",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Industry-leading TrackMan simulators with over 400 global courses",
+    "Revolutionary PuttView putting green with SAM PuttLab analysis",
+    "BYOB policy with nominal corkage fee for a social experience",
+    "PGA/LPGA pros and a master club fitter on staff"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service is mentioned, though the venue is adjacent to other Strip District establishments."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "BYOB policy is permitted with a nominal corkage fee per bay."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Premium launch monitor; exact model unspecified, but described as 'best-in-class'."
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://clients.mindbodyonline.com/classic/ws?studioid=685163&stype=-9",
+  "pricing_model": "mixed",
+  "price_range_min_local": 70,
+  "price_range_max_local": 140,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|pro_shop|club_fitting|private_party_room",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 3.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can bring your own clubs, but rentals are not explicitly mentioned. The venue focuses on fitting and selling clubs through its master club fitter."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, OnPar Now is BYOB. A nominal corkage fee per bay applies for bringing your own beverages."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes is not specified on the website, but playing on TrackMan simulators typically takes 1.5 to 2.5 hours depending on group size and pace."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "While the venue is welcoming to all, there is no specific mention of junior programs, youth-sized equipment, or activities designed for children, suggesting it is not a primary focus."
+    }
+  ],
+  "simulator_software": [
+    "TrackMan"
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"9AM-8PM\"], \"Tuesday\": [\"9AM-8PM\"], \"Wednesday\": [\"9AM-8PM\"], \"Thursday\": [\"9AM-9PM\"], \"Friday\": [\"9AM-9PM\"], \"Saturday\": [\"9AM-9PM\"], \"Sunday\": [\"9AM-8PM\"]}"
+}

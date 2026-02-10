@@ -1,0 +1,93 @@
+{
+  "name": "Greenside Golf Club",
+  "address": "647 Camino De Los Mares #200, San Clemente, CA 92673",
+  "city": "San Clemente",
+  "region": "California",
+  "country": "US",
+  "latitude": 33.458349,
+  "longitude": -117.650017,
+  "phone": "+19494855747",
+  "website": "http://greensidegolfclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770209964/golf_simulators/greensidegolfclub_com_ChIJFd8IYLzx3IARI9SvUIxYSHM.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Greenside+Golf+Club/@33.4583495,-117.6500167,14z/data=!4m8!1m2!2m1!1sGreenside+Golf+Club!3m4!1s0x80dcf1bc6008df15:0x7348588c50afd423!8m2!3d33.4583495!4d-117.6500167",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJFd8IYLzx3IARI9SvUIxYSHM",
+  "venue_type": "training_studio",
+  "about": "Greenside Golf Club is a 24-hour indoor golf facility offering a modern alternative to traditional driving ranges. It features spacious hitting bays equipped with Trackman launch monitors, premium hitting mats, and impact screens, along with access to hundreds of virtual golf courses. The venue provides a range of membership options, including an Executive plan with 4 hours per month and a Professional plan with unlimited golf up to 3 hours per day, both including self-serve access and online booking. Greenside is designed for golfers seeking a premium, convenient practice environment without the crowds of public ranges.",
+  "tags": "beginner_friendly|serious_practice|corporate_events|leagues|premium_tech|budget_friendly|private_rooms|club_rentals|coaching_available",
+  "vibe_tags": "industrial_training|community_club|modern",
+  "who_its_for": "beginners|serious_golfers|corporate_teams|solo_practice|coaches_instructors",
+  "why_golfers_like_it": [
+    "24-hour self-serve access for flexible practice schedules",
+    "Trackman launch monitors for advanced shot analysis and ball flight insights",
+    "Premium equipment including spacious bays, high-quality mats, and golf balls",
+    "Variety of virtual golf courses for diverse playing experiences"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No on-site food service mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Premium launch monitor for shot analysis and ball tracking"
+    }
+  ],
+  "simulator_so": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://booking.registrygolf.com?organizationId=fd6a72b8-0316-4794-88bd-6fbc167919d1",
+  "pricing_model": "membership_only",
+  "price_range_min_local": 160,
+  "price_range_max_local": 225,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": false,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 3,
+  "amenities_list": "club_rentals|online_booking|self_serve|tv_sports|wifi",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, members are expected to bring their own golf clubs to use in the hitting bays."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "The website does not mention restrictions on outside food or drinks, so it appears to be allowed."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify exact timing, but with unlimited play up to 3 hours per day for Professional members, 18 holes can typically be completed within 1.5-2 hours depending on pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the facility allows up to 3 guests per member and does not have age restrictions mentioned, making it suitable for families with children."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

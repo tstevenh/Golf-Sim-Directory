@@ -1,0 +1,92 @@
+{
+  "name": "The Monroe Golf Club",
+  "address": "108 E Washington St, Monroe, IA 50170",
+  "city": "Monroe",
+  "region": "Iowa",
+  "country": "US",
+  "latitude": 41.522668,
+  "longitude": -93.102538,
+  "phone": "+15152590378",
+  "website": "https://themonroegolfclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770207544/golf_simulators/themonroegolfclub_com_ChIJv-82K1jf7ocRXIUgvzVZb-8.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Monroe+Golf+Club/@41.5226678,-93.10253829999999,14z/data=!4m8!1m2!2m1!1sThe+Monroe+Golf+Club!3m4!1s0x87eedf582b36efbf:0xef6f5935bf20855c!8m2!3d41.5226678!4d-93.10253829999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJv-82K1jf7ocRXIUgvzVZb-8",
+  "venue_type": "sim_bar",
+  "about": "The Monroe Golf Club is a public golf simulator venue in Monroe, Iowa, established by a group of golfers seeking to bring simulator access to the community. It features two simulator bays equipped with Uneekor QED launch monitors, allowing players to practice or play on over 60 different courses. The facility offers a straightforward, hourly pricing model at $35 per hour, with premium rates available for weekend morning sessions. The venue is designed to be an accessible and flexible space for golfers to play, practice, or relax in a casual environment.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|families|corporate_events|leagues|budget_friendly|private_rooms|club_rentals|community_club",
+  "vibe_tags": "casual|welcoming|modern|sports_bar|community_club",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Spacious bays with high ceilings (14') allow for comfortable club swinging",
+    "Equipped with premium Uneekor QED launch monitors for accurate shot tracking",
+    "Flexible booking system allows for groups of various sizes to play together",
+    "Casual social atmosphere with comfortable seating areas and TVs"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "BYOK (Bring Your Own Food) allowed with a fridge available in the front sitting area"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "Not explicitly mentioned as available; appears to be BYOB only"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "QED",
+      "notes": "Launch monitor installed in each bay"
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "infrared_optical",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://themonroegolfclub.com/register/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 35,
+  "price_range_max_local": 80,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|kitchen_food|tv_sports|private_party_room|wifi|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The content does not specify, but it is standard practice for golf simulator venues to allow players to use their own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, you can bring your own food and drinks. A fridge is available in the front sitting area to keep them cold."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time varies by group size: one person can complete 18 holes in about 1 hour, two people in about 2 hours, and four people in about 4 hours."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue appears to be family-friendly, with spacious areas and no restrictions on children mentioned."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"5AM-11PM\"], \"Tuesday\": [\"5AM-11PM\"], \"Wednesday\": [\"5AM-11PM\"], \"Thursday\": [\"5AM-11PM\"], \"Friday\": [\"5AM-12AM\"], \"Saturday\": [\"5AM-12AM\"], \"Sunday\": [\"5AM-11PM\"]}"
+}

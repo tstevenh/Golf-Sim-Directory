@@ -1,0 +1,91 @@
+{
+  "name": "Dogleg North",
+  "address": "2700 Broadway N, Fargo, ND 58102",
+  "city": "Fargo",
+  "region": "North Dakota",
+  "country": "US",
+  "latitude": 46.911663,
+  "longitude": -96.788852,
+  "phone": "+17013535675",
+  "website": "https://www.doglegnorth.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770201860/golf_simulators/www_doglegnorth_com_ChIJF3z5O5vJyFIRs9Joy5m8e3g.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Dogleg+North/@46.911662799999995,-96.7888521,14z/data=!4m8!1m2!2m1!1sDogleg+North!3m4!1s0x52c8c99b3bf97c17:0x787bbc99cb68d2b3!8m2!3d46.911662799999995!4d-96.7888521",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJF3z5O5vJyFIRs9Joy5m8e3g",
+  "email": "DOGLEGNORTH@GMAIL.COM",
+  "venue_type": "sim_bar",
+  "about": "Dogleg North is an indoor golf facility located in Fargo, ND, offering a welcoming environment for golfers of all skill levels. The venue utilizes ultra high-definition golf simulators with over 600 courses available and provides swing data monitors for in-depth analysis. It caters to a diverse clientele, offering league play, professional lessons, and event rental options. The facility promotes a community-driven atmosphere, aiming to provide the best indoor golf experience in the Fargo-Moorhead area while also being inviting to non-golfers.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|coaching_available",
+  "vibe_tags": "casual|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Ultra high-definition golf simulators with over 600 courses",
+    "Access to professional instructors and detailed swing data analysis",
+    "Multiple league options, including Spring Doubles and Singles leagues",
+    "Welcoming environment for all skill levels, from beginners to serious golfers",
+    "Potential for events and private rentals with a community-focused vibe"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "BYOB policy mentioned as community-driven service"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "BYOB policy mentioned as community-driven service"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "Data",
+      "notes": "4 ultra high-definition golf simulators"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://www.doglegnorth.com/booking/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need clubs?",
+      "answer": "The website does not explicitly state if rental clubs are available. It is recommended to bring your own clubs or contact them directly to inquire about rental options."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue appears to operate on a BYOB (Bring Your Own Beverage) policy, as they are described as community-driven with a welcoming environment."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify the duration for an 18-hole round. The time can vary based on simulator software and player pace, but typically ranges from 1.5 to 2.5 hours."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Dogleg North promotes making youth golf more accessible and has instructors focused on growing the game for younger players, indicating a family-friendly environment."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"5:30-11PM\"], \"Tuesday\": [\"5:30-11PM\"], \"Wednesday\": [\"5:30-11PM\"], \"Thursday\": [\"5:30-11PM\"], \"Friday\": [\"5:30-11PM\"], \"Saturday\": [\"9AM-11PM\"], \"Sunday\": [\"12-10PM\"]}"
+}

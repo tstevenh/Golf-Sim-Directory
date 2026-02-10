@@ -1,0 +1,92 @@
+{
+  "name": "Bubba Golf",
+  "address": "21 Gordon St, Statesboro, GA 30458",
+  "city": "Statesboro",
+  "region": "Georgia",
+  "country": "US",
+  "latitude": 32.450414,
+  "longitude": -81.77447,
+  "phone": "+19122253962",
+  "website": "https://www.bubbagolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770244837/golf_simulators/www_bubbagolf_com_ChIJKbqRIOpH-ogReGJrxHaOw3A.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Bubba+Golf/@32.450414099999996,-81.7744696,14z/data=!4m8!1m2!2m1!1sBubba+Golf!3m4!1s0x88fa47ea2091ba29:0x70c38e76c46b6278!8m2!3d32.450414099999996!4d-81.7744696",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJKbqRIOpH-ogReGJrxHaOw3A",
+  "email": "BUBBAGOLFCLUBS@GMAIL.COM",
+  "venue_type": "sim_bar|training_studio|private_rental|retail_fitting_center|country_club|multi_sport_sim|hotel_resort|other",
+  "about": "Bubba Golf is a multifaceted venue that combines a high-tech golf simulator experience with a full-service pro shop and apparel retail. The facility is equipped with Trackman simulators, offering a premium platform for golfers to practice their game in a climate-controlled environment. In addition to simulator sessions, Bubba Golf provides professional club fittings with experts like Ed Dennis and custom putter fitting services, catering to golfers looking to optimize their equipment. The venue also operates as a retail store, offering a wide array of golf gear including clubs, balls, bags, apparel, and accessories from major brands, making it a one-stop-shop for both practice and purchasing needs.",
+  "tags": "beginner_friendly|serious_practice|food_and_drinks|corporate_events|leagues|premium_tech|club_fitting|juniors_youth|retail_shop",
+  "vibe_tags": "casual|welcoming|modern|tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice|coaches_instructors",
+  "why_golfers_like_it": [
+    "Premium Trackman simulator technology for accurate shot tracking",
+    "Professional club fitting services with industry experts",
+    "Comprehensive retail store offering all necessary golf equipment and apparel",
+    "Flexible booking options for both practice sessions and shopping",
+    "Variety of simulator and fitting services to suit different skill levels"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full retail shop available, no in-house kitchen or food service mentioned."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned, appears to be a BYOB-friendly establishment."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Premium simulator system for detailed ball and club tracking"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.bubbagolf.com/products/appointment",
+  "pricing_model": "per_bay_hour|membership_only",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, the venue provides all necessary equipment. However, you are welcome to bring your own clubs if you prefer."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, the venue is BYOB-friendly, allowing you to bring your own food and beverages for your session."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "A standard 18-hole round typically takes about 1 hour to complete, depending on the number of players in your group."
+    },
+    {
+      "question": "Is Bubba Golf kid-friendly?",
+      "answer": "Yes, the venue is family-friendly and offers youth golf sets, making it suitable for children and beginners."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"9AM-6PM\"], \"Tuesday\": [\"9AM-6PM\"], \"Wednesday\": [\"9AM-6PM\"], \"Thursday\": [\"9AM-6PM\"], \"Friday\": [\"9AM-6PM\"], \"Saturday\": [\"9AM-3PM\"], \"Sunday\": [\"Closed\"]}"
+}

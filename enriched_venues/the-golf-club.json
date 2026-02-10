@@ -1,0 +1,91 @@
+{
+  "name": "The Golf Club",
+  "address": "6 Railroad Yard Rd, Deerfield, MA 01342",
+  "city": "Deerfield",
+  "region": "Massachusetts",
+  "country": "US",
+  "latitude": 42.573007,
+  "longitude": -72.570737,
+  "phone": "+16035577756",
+  "website": "http://thegolf-club.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770199809/golf_simulators/thegolf-club_com_ChIJy2MDGQAv4YkRTHtaREbnUhk.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Golf+Club/@42.573006799999995,-72.57073729999999,14z/data=!4m8!1m2!2m1!1sThe+Golf+Club!3m4!1s0x89e12f00190363cb:0x1952e746445a7b4c!8m2!3d42.573006799999995!4d-72.57073729999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJy2MDGQAv4YkRTHtaREbnUhk",
+  "email": "thegolfclub777@gmail.com603-557-7756",
+  "venue_type": "sim_bar|training_studio|private_rental|retail_fitting_center|country_club|multi_sport_sim|hotel_resort|other",
+  "about": "The Golf Club is a members-only, semi-private indoor golf facility providing 24-hour access to state-of-the-art golf simulators and practice areas. The venue is equipped with aboutGOLF simulators featuring 3D virtual courses and a custom-built chipping and putting area. It offers various membership tiers, including per-hour usage, free play, and weekday options, with non-members able to book by appointment. The facility emphasizes advanced swing analysis with high-speed cameras and provides a comfortable environment for both casual play and serious practice.",
+  "tags": "beginner_friendly|serious_practice|family_friendly|corporate_events|premium_tech|budget_friendly|club_rentals|coaching_available|community_club",
+  "vibe_tags": "tech_lab|community_club|modern|welcoming",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "24/7 member access to simulators and practice areas",
+    "Advanced swing analysis with high-speed cameras and detailed metrics",
+    "Flexible membership options including per-hour and no-fee play",
+    "Ability to bring guests for a small fee",
+    "State-of-the-art aboutGOLF simulators for realistic gameplay"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food or drink service mentioned; BYOB likely allowed"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned; BYOB likely allowed"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "aboutGOLF",
+      "model": "unknown",
+      "notes": "Professional-level simulators used by PGA professionals"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "http://thegolf-club.com/membership",
+  "pricing_model": "mixed",
+  "price_range_min_local": 40,
+  "price_range_max_local": 49,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|lockers|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need clubs?",
+      "answer": "The website does not specify, but as a golf simulator facility, it is assumed you need to bring your own clubs or can rent them if available."
+    },
+    {
+      "question": "Can I bring food and drink?",
+      "answer": "No food or drink service is mentioned; BYOB (Bring Your Own Beverage) is likely allowed but not explicitly stated."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Two players can play 9 holes in an hour or 18 holes in 2 hours on the simulators."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The facility welcomes everyone, but the primary focus is on golf. There are no specific kid-friendly amenities mentioned, but it is not explicitly restricted."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

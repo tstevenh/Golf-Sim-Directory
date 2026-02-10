@@ -1,0 +1,89 @@
+{
+  "name": "Prospect Golf",
+  "address": "144 Waterbury Rd, Prospect, CT 06712",
+  "city": "Prospect",
+  "region": "Connecticut",
+  "country": "US",
+  "latitude": 41.52264,
+  "longitude": -72.993759,
+  "phone": "+12037584121",
+  "website": "https://www.prospectgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770214973/golf_simulators/www_prospectgolf_com_ChIJZwYxOk3B54kRKIddgPE07Ek.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Prospect+Golf/@41.5226402,-72.99375909999999,14z/data=!4m8!1m2!2m1!1sProspect+Golf!3m4!1s0x89e7c14d3a310667:0x49ec34f1805d8728!8m2!3d41.5226402!4d-72.99375909999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJZwYxOk3B54kRKIddgPE07Ek",
+  "email": "jeff@prospectgolf.com.",
+  "venue_type": "training_studio",
+  "about": "Prospect Golf is a golf training facility established in 1982, serving the Waterbury area. It features a comprehensive range of amenities including a driving range, an 18-hole mini-golf course, a pro shop, and a golf school. The facility is equipped with an HD Golf simulator that provides highly accurate data capture for instruction and practice. Their services are focused on player improvement, with PGA instructors offering customized lessons, expert club fitting, and the use of advanced technology like computer video analysis to help golfers of all levels enhance their game.",
+  "tags": "serious_practice|beginner_friendly|coaching_available|pro_shop|club_fitting|leagues|corporate_events|family_friendly|budget_friendly",
+  "vibe_tags": "family_fun_center|community_club|tech_lab|welcoming",
+  "who_its_for": "beginners|serious_golfers|families|juniors_youth|coaches_instructors",
+  "why_golfers_like_it": [
+    "HD Golf simulator provides accurate, real-world data for instruction and play",
+    "PGA instructors offer customized, non-method-based instruction tailored to individual needs",
+    "On-site expert club fitting service ensures players get properly fitted equipment"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "HD Golf",
+      "model": "Simulator",
+      "notes": "HD Golf simulator system with club and ball tracking hardware and software."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 1,
+  "booking_url": "https://www.prospectgolf.com/contact/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 120,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "pro_shop|club_fitting|leagues|coaching_available|club_rentals",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You do not need to bring your own clubs, as the facility provides club rentals and has a well-stocked Pro Shop for all your golf equipment needs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The website does not mention a BYOB policy, so it is advisable to contact them directly at 203.758.4121 to inquire about bringing outside food and drinks."
+    },
+    {
+      "question": "How long does it take to play 18 holes on the simulator?",
+      "answer": "The website does not specify the duration for 18 holes on the simulator; it is recommended to call them at 203.758.4121 to inquire about typical play times."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, Prospect Golf is kid-friendly, featuring an 18-hole mini-golf course perfect for families, with special pricing for children under 12 and birthday party offerings."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-4PM\"], \"Tuesday\": [\"10AM-4PM\"], \"Wednesday\": [\"10AM-4PM\"], \"Thursday\": [\"10AM-4PM\"], \"Friday\": [\"10AM-4PM\"], \"Saturday\": [\"10AM-4PM\"], \"Sunday\": [\"10AM-3PM\"]}"
+}

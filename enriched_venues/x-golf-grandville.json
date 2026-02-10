@@ -1,0 +1,83 @@
+{
+  "name": "X-Golf Grandville",
+  "address": "4830 Wilson Ave SW suite 500, Grandville, MI 49418",
+  "city": "Grandville",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 42.876729,
+  "longitude": -85.758445,
+  "phone": "+16162655262",
+  "website": "https://playxgolf.com/grandville",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770207507/golf_simulators/playxgolf_com_ChIJbdkRqRuxGYgRRQKq1ord7m0.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/X-Golf+Grandville/@42.8767292,-85.7584455,14z/data=!4m8!1m2!2m1!1sX-Golf+Grandville!3m4!1s0x8819b11ba911d96d:0x6deedd8ad6aa0245!8m2!3d42.8767292!4d-85.7584455",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJbdkRqRuxGYgRRQKq1ord7m0",
+  "email": "info@xgolfgrandville.com",
+  "venue_type": "sim_bar",
+  "about": "X-Golf Grandville offers a state-of-the-art indoor golf experience using advanced simulator technology with camera systems, infrared lasers, and impact sensors. It provides a full-service venue with food, beverages, and event spaces, featuring 8 simulator bays that can accommodate groups up to 178 guests. Pricing is straightforward, charged per bay per hour, with rates varying by day of the week and discounted for seniors, military, veterans, and first responders.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|club_rentals|coaching_available|private_rooms",
+  "vibe_tags": "modern|sports_bar|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|large_groups",
+  "why_golfers_like_it": [
+    "Unparalleled accuracy and realism through advanced camera and laser technology",
+    "All-in-one venue combining golf simulation with dining and event hosting",
+    "Flexible and straightforward pricing model accommodating groups of up to 6 per bay"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen available with shareable bites, appetizers, snacks, and pizzas"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with beer by the glass or on tap, cocktails, and wines"
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "infrared_optical",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": 8,
+  "booking_url": "https://clients.uschedule.com/xgolfgrandville/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 40,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|private_party_room|wifi|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, club rentals are available at the venue if you don't have your own equipment."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, outside food and drinks are not permitted as the venue offers its own full kitchen and bar service."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "It generally takes about one hour for an individual player to complete 18 holes, or one hour per additional person in a group."
+    },
+    {
+      "question": "Is X-Golf kid-friendly?",
+      "answer": "Yes, X-Golf welcomes children of all ages and can arrange extra time for beginners."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"9AM-12AM\"], \"Saturday\": [\"8AM-12AM\"], \"Sunday\": [\"9AM-9PM\"]}"
+}

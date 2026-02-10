@@ -1,0 +1,99 @@
+{
+  "name": "Next Level Golf",
+  "address": "312 Victory Dr, Herndon, VA 20170",
+  "city": "Herndon",
+  "region": "Virginia",
+  "country": "US",
+  "latitude": 38.958281,
+  "longitude": -77.378568,
+  "phone": "+15713751123",
+  "website": "https://www.nextlevelgolfusa.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770218761/golf_simulators/www_nextlevelgolfusa_com_ChIJF7yQj_1HtokRf25nU6oq7nQ.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Next+Level+Golf/@38.9582815,-77.3785675,14z/data=!4m8!1m2!2m1!1sNext+Level+Golf!3m4!1s0x89b647fd8f90bc17:0x74ee2aaa53676e7f!8m2!3d38.9582815!4d-77.3785675",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJF7yQj_1HtokRf25nU6oq7nQ",
+  "venue_type": "training_studio",
+  "about": "Next Level Golf USA is a year-round indoor golf training facility located in Herndon, Virginia. It features state-of-the-art equipment including 6 hitting stations, 2 private simulator bays, video analysis capabilities, and dedicated chipping and putting areas. The facility serves as the primary training site for the Next Level Golf USA Academy, which uses a specialized 12 Level Golf Performance Program founded by Rick Burk. It also operates an outdoor training facility at the Sterling Park Par 3 Championship Course. The venue offers practice space, professional lessons, and a bar and lounge area for up to 40 people, making it suitable for both individual training and group events.",
+  "tags": "serious_practice|coaching_available|juniors_youth|leagues|corporate_events|food_and_drinks|club_rentals|private_rooms",
+  "vibe_tags": "modern|tech_lab|community_club",
+  "who_its_for": "serious_golfers|juniors_youth|coaches_instructors|families|corporate_teams",
+  "why_golfers_like_it": [
+    "Comprehensive 12-level performance program for structured skill development",
+    "State-of-the-art technology with launch monitors and video analysis for detailed feedback",
+    "Extensive track record of producing successful collegiate golfers and professionals",
+    "Dedicated private simulator bays for focused, uninterrupted practice sessions"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of food service, but BYOB may be permitted"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "On-site bar available for lounge area guests"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "OptiShot",
+      "model": "OptiShot2",
+      "notes": "2 simulator bays with OptiShot2 technology offering basic feedback"
+    },
+    {
+      "brand": "FLIGHTSCOPE",
+      "model": "Mevo+",
+      "notes": "1 simulator station equipped with FLIGHTSCOPE Mevo+ technology"
+    },
+    {
+      "brand": "Pro-Tee",
+      "model": "System",
+      "notes": "1 simulator station using Pro-Tee technology with access to 1000+ courses"
+    }
+  ],
+  "simulator_software": [
+    "OptiShot2"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 8,
+  "booking_url": "https://www.nextlevelgolfusa.com/Indoor%20Golf%20Facility",
+  "pricing_model": "mixed",
+  "price_range_min_local": 15,
+  "price_range_max_local": 45,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|private_party_room|wifi|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Players are expected to bring their own golf clubs for use at the facility."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The facility has a bar and lounge area where drinks can be purchased. BYOB policy is not explicitly stated but may be permitted for group events."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Time to complete 18 holes varies depending on simulator used and pace of play. Standard simulator sessions are booked in 30-minute increments."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, Next Level Golf USA offers extensive junior programs including camps, tournaments, and a 12 Level Performance Program specifically designed for youth golfers."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": null
+}

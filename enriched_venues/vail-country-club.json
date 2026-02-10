@@ -1,0 +1,90 @@
+{
+  "name": "Vail Country Club",
+  "address": "240 Chapel Pl Unit-B126, Avon, CO 81620",
+  "city": "Avon",
+  "region": "Colorado",
+  "country": "US",
+  "latitude": 39.632387,
+  "longitude": -106.517841,
+  "phone": "+19706885465",
+  "website": "https://www.vailcountryclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770237360/golf_simulators/www_vailcountryclub_com_ChIJJyptvkJ3aocR8utam7Bw7p8.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Vail+Country+Club/@39.6323874,-106.5178409,14z/data=!4m8!1m2!2m1!1sVail+Country+Club!3m4!1s0x876a7742be6d2a27:0x9fee70b09b5aebf2!8m2!3d39.6323874!4d-106.5178409",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJJyptvkJ3aocR8utam7Bw7p8",
+  "email": "info@vailcountryclub.com",
+  "venue_type": "sim_bar",
+  "about": "Vail Country Club is a year-round golf and sports bar facility featuring two state-of-the-art TrackMan golf simulators with access to over 400 courses globally. The venue offers a full bar, eight large screen TVs, and hosts private events, parties, and golf leagues. Services include golf lessons with a PGA professional, TaylorMade club fittings, and various practice tools like the TrackMan Combine and Shot Optimizer to improve game performance.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|kids_friendly|corporate_events|leagues|premium_tech|club_rentals|coaching_available",
+  "vibe_tags": "sports_bar|family_fun_center|community_club|tech_lab",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Year-round access to premium TrackMan technology with real-time shot data",
+    "Multiple amenities including a full bar, TVs, and event hosting capabilities",
+    "Comprehensive services from lessons and fittings to leagues and practice tools"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen available"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "TrackMan",
+      "model": "iO",
+      "notes": "State-of-the-art dual simulator setup"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://www.vailcountryclub.com/simulator-booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 65,
+  "price_range_max_local": 85,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 8,
+  "amenities_list": "full_bar|kitchen_food|tv_sports|club_rentals|leagues|club_fitting",
+  "rating_tech_quality": 5,
+  "rating_facility_comfort": 4,
+  "rating_value_for_money": 4,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, the venue offers rental clubs, including junior sets for children."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No, the venue has a full bar and kitchen available for food and drink service."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The winter league allows 2 hours per 9 holes, so 18 holes would take approximately 4 hours."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue welcomes families and kids, offering junior rental sets and fun golf games for all ages."
+    }
+  ],
+  "simulator_software": [
+    "TrackMan"
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"2-9PM\"], \"Tuesday\": [\"9AM-9PM\"], \"Wednesday\": [\"9AM-9PM\"], \"Thursday\": [\"9AM-9PM\"], \"Friday\": [\"9AM-9PM\"], \"Saturday\": [\"9AM-9PM\"], \"Sunday\": [\"2-9PM\"]}"
+}

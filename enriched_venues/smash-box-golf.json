@@ -1,0 +1,93 @@
+{
+  "name": "Smash Box Golf",
+  "address": "2658 Shadelands Dr, Walnut Creek, CA 94598",
+  "city": "Walnut Creek",
+  "region": "California",
+  "country": "US",
+  "latitude": 37.92793,
+  "longitude": -122.02315,
+  "phone": "+19259409407",
+  "website": "https://smashboxgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770204751/golf_simulators/smashboxgolf_com_ChIJcbu0FJphhYARsJH9zgRL2k8.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Smash+Box+Golf/@37.9279303,-122.0231501,14z/data=!4m8!1m2!2m1!1sSmash+Box+Golf!3m4!1s0x8085619a14b4bb71:0x4fda4b04cefd91b0!8m2!3d37.9279303!4d-122.0231501",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJcbu0FJphhYARsJH9zgRL2k8",
+  "email": "info@smashbox.com",
+  "venue_type": "private_rental",
+  "about": "Smash Box Golf is a self-service, automated golf simulation studio located at the Shadelands Sports Mall. It offers a fully private Trackman bay accessible 24/7, allowing golfers to book a time, receive a secure access code, and unlock the door to practice or play on their own schedule. The facility is equipped with Trackman iO technology for real-time ball and club data, featuring over 250 iconic courses and tour-level analytics. Pricing is structured through memberships, flex passes, and hourly bookings, designed to be flexible without a long-term commitment.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|private_rooms|premium_tech|solo_practice",
+  "vibe_tags": "tech_lab|private_luxury|modern",
+  "who_its_for": "beginners|serious_golfers|solo_practice|corporate_teams",
+  "why_golfers_like_it": [
+    "24/7 access to a fully private automated bay",
+    "Premium Trackman iO technology for real-time feedback and data",
+    "Flexibility in booking without a long-term membership commitment",
+    "Ability to bring your own food and drinks for a personalized experience"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Golfers can bring their own food and beverage."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Golfers can bring their own alcohol."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Fully automated private bay with tour-level ball and club data."
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 1,
+  "booking_url": "https://yourgolfbooking.com/venues/shadelands-sports-mall/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": false,
+  "coaching_available": false,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 3,
+  "amenities_list": "wifi|tv_sports",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "Yes, you are required to bring your own clubs to use at Smash Box Golf."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "Yes, you can bring your own food and beverages to enjoy during your session."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes varies based on the number of players and pace, but sessions are booked by the hour."
+    },
+    {
+      "question": "Is Smash Box Golf kid-friendly?",
+      "answer": "The venue does not specifically advertise itself as kid-friendly, and the focus is on individual or small group practice and play."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

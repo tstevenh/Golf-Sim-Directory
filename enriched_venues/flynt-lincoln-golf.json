@@ -1,0 +1,94 @@
+{
+  "name": "Flynt Lincoln Golf",
+  "address": "504 Cottage St, Springfield, MA 01104",
+  "city": "Springfield",
+  "region": "Massachusetts",
+  "country": "US",
+  "latitude": 42.143861,
+  "longitude": -72.534825,
+  "phone": "+14132374653",
+  "website": "https://flyntlincolngolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770227890/golf_simulators/flyntlincolngolf_com_ChIJmV_3IAHd5okR1fghM3M0p14.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Flynt+Lincoln+Golf/@42.143861099999995,-72.534825,14z/data=!4m8!1m2!2m1!1sFlynt+Lincoln+Golf!3m4!1s0x89e6dd0120f75f99:0x5ea734733321f8d5!8m2!3d42.143861099999995!4d-72.534825",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJmV_3IAHd5okR1fghM3M0p14",
+  "email": "flynt.lincoln@gmail.com",
+  "venue_type": "training_studio",
+  "about": "Flynt Lincoln Golf is a golf training facility focused on technology-driven instruction and virtual play experiences. The venue offers indoor golf lessons using advanced equipment like Swing Catalyst 3D Motion Plates, Trackman, SAM PuttLab, HackMotion, and Blast Motion. They provide both individual and junior lesson packages along with Trackman-powered virtual golf featuring over 150 courses. The facility is ideal for golfers seeking data-driven improvement or indoor play regardless of weather.",
+  "tags": "serious_practice|beginner_friendly|coaching_available|corporate_events|premium_tech|juniors_youth",
+  "vibe_tags": "tech_lab|modern|welcoming",
+  "who_its_for": "beginners|serious_golfers|juniors_youth|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Comprehensive 3D motion analysis with Swing Catalyst and Trackman technology",
+    "Flexible virtual golf options with 150+ courses and multiplayer capability",
+    "Specialized junior programs and discounted lesson packages for young players"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of food service"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "unknown",
+      "notes": "Used for virtual golf and lessons"
+    },
+    {
+      "brand": "Swing Catalyst",
+      "model": "3D Motion Plate",
+      "notes": "Measures balance and ground reaction forces"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "https://app.coachnow.io/public/availability?coach=911327999bbc424f656a6223ab",
+  "pricing_model": "mixed",
+  "price_range_min_local": 35,
+  "price_range_max_local": 150,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|pro_shop|coaching_available",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you'll need to bring your own golf clubs for lessons and virtual play sessions."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The website doesn't mention food or drink service, so outside items may not be permitted."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Approximately 45 minutes per person to play 18 holes of virtual golf."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, they offer junior lessons for ages 17 and under with specific pricing for 30 and 60-minute sessions."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": null
+}

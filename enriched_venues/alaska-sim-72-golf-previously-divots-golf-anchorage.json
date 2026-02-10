@@ -1,0 +1,91 @@
+{
+  "name": "Alaska Sim 72 Golf (previously Divots Golf Anchorage)",
+  "address": "4230 Old Seward Hwy, Anchorage, AK 99503",
+  "city": "Anchorage",
+  "region": "Alaska",
+  "country": "US",
+  "latitude": 61.181866,
+  "longitude": -149.868881,
+  "phone": "+19073013700",
+  "website": "https://alaskasim72.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770219338/golf_simulators/alaskasim72_com_ChIJg_e0axqXyFYRNnuT-B9Zdjc.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Alaska+Sim+72+Golf+%28previously+Divots+Golf+Anchorage%29/@61.181865599999995,-149.86888109999998,14z/data=!4m8!1m2!2m1!1sAlaska+Sim+72+Golf+%28previously+Divots+Golf+Anchorage%29!3m4!1s0x56c8971a6bb4f783:0x3776591ff8937b36!8m2!3d61.181865599999995!4d-149.86888109999998",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJg_e0axqXyFYRNnuT-B9Zdjc",
+  "email": "anchorage@alaskasim72.com",
+  "venue_type": "sim_bar",
+  "about": "Alaska Sim 72 is an indoor golf facility in Anchorage offering year-round access to golf through high-tech simulator bays. The venue uses 6 state-of-the-art TruGolf Apogee sim paired with E6 Connect software, providing players with access to over 100 courses worldwide. Pricing is based on bay rental, with rates starting at $50 per hour for up to 6 players. The facility includes a lounge area with a big screen for sporting events and a pro shop offering club repair services.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|leagues|premium_tech|date_night|family_friendly|serious_golfers",
+  "vibe_tags": "casual|welcoming|modern|sports_bar",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|large_groups",
+  "why_golfers_like_it": [
+    "Year-round access to golf regardless of weather",
+    "State-of-the-art TruGolf Apogee technology for accurate shot tracking",
+    "Ability to bring in food and order delivery for a comfortable social experience",
+    "Variety of leagues and events to compete and improve skills",
+    "Comprehensive amenities including a pro shop and bar"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Customers are encouraged to bring or order food for delivery"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Beer and wine options available for purchase on-site"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "TruGolf",
+      "model": "Apogee",
+      "notes": "Ceiling-mounted launch monitor using ultra-high-speed stereoscopic cameras; no specialty balls or marked clubs required"
+    }
+  ],
+  "simulator_software": [
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "overhead_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 6,
+  "booking_url": "https://alaskasim72.com/booking/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 50,
+  "price_range_max_local": 300,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|pro_shop|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue does not specify whether rental clubs are available, so it is recommended that players bring their own clubs for the best experience."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, you are encouraged to bring your own food or order delivery. A selection of beer, wine, and non-alcoholic beverages is also available for purchase on-site."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not provide a specific time for an 18-hole round, as it can vary greatly depending on the number of players and pace of play."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, Alaska Sim 72 is family-friendly and a suitable environment for children to experience golf in a high-tech setting."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-10PM\"], \"Saturday\": [\"10AM-10PM\"], \"Sunday\": [\"10AM-10PM\"]}"
+}

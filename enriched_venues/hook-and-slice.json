@@ -1,0 +1,88 @@
+{
+  "name": "HOOK and Slice",
+  "address": "2921 MN-29, Alexandria, MN 56308",
+  "city": "Alexandria",
+  "region": "Minnesota",
+  "country": "US",
+  "latitude": 45.863245,
+  "longitude": -95.380251,
+  "phone": "+13203915353",
+  "website": "https://hookandslicemn.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770235369/golf_simulators/hookandslicemn_com_ChIJTV5OXlQPylIRB0A2VBmJr38.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/HOOK+and+Slice/@45.863245,-95.3802505,14z/data=!4m8!1m2!2m1!1sHOOK+and+Slice!3m4!1s0x52ca0f545e4e5e4d:0x7faf891954364007!8m2!3d45.863245!4d-95.3802505",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJTV5OXlQPylIRB0A2VBmJr38",
+  "venue_type": "sim_bar",
+  "about": "HOOK & Slice is a premier golf simulator venue located in Alexandria, Minnesota, offering a dual-purpose experience combining advanced golf technology with a full-service bar and pizzeria. The venue features 4 simulator bays equipped with Golfzon technology, providing both entertainment for casual players and serious data analysis for golfers. It operates with a mixed pricing model, offering hourly bay rentals, monthly memberships, and event packages. The facility is designed to accommodate various groups, from families and friends to corporate teams, with a focus on creating an elevated yet accessible environment for all skill levels.",
+  "tags": "food_and_drinks|beginner_friendly|date_night|corporate_events|premium_tech|kids_friendly",
+  "vibe_tags": "sports_bar|family_fun_center|upscale_lounge|community_club",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "Industry-leading Golfzon simulators with real-time data and swing analysis",
+    "Dual-purpose 'arcade' mode for beginners and advanced mode for serious players",
+    "All-in-one venue with on-site dining, drinks, and event hosting capabilities"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen menu featuring oven-fired pizza, sandwiches, salads, and appetizers; specializes in Detroit-style 4-corner pizza"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service with cocktails, beer including local taps like 22 Northmen"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Golfzon",
+      "model": "unknown",
+      "notes": "Industry leading golf simulators with real-time data and swing analysis capabilities"
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 4,
+  "booking_url": "https://hookandslicemn.com/tee-times",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 150,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|pro_shop|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "No, club rentals are available, though you're encouraged to bring your own clubs for the best experience."
+    },
+    {
+      "question": "Can I bring my own food or drink?",
+      "answer": "No, outside food and drink are not permitted. However, HOOK & Slice offers a full menu of Detroit-style pizza, sandwiches, salads, and a full bar with beer and cocktails."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Simulator bays are booked in 1-hour blocks, with a 2-hour minimum for private events. Playing 18 holes typically takes 1-2 hours depending on group size and pace of play."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "Yes, HOOK & Slice is designed for golfers and non-golfers of all ages with 'arcade' mode for kids, pool table, shuffleboard, and kid-friendly food options."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-9PM\"], \"Tuesday\": [\"10AM-9PM\"], \"Wednesday\": [\"10AM-9PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-10PM\"], \"Saturday\": [\"10AM-10PM\"], \"Sunday\": [\"10AM-9PM\"]}"
+}

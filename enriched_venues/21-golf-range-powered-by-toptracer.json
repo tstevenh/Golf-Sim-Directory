@@ -1,0 +1,89 @@
+{
+  "name": "21 Golf Range Powered by Toptracer",
+  "address": "1 US-46 W, Palisades Park, NJ 07650",
+  "city": "Palisades Park",
+  "region": "New Jersey",
+  "country": "US",
+  "latitude": 40.845398,
+  "longitude": -74.007478,
+  "phone": "+12019414455",
+  "website": "http://www.21golfrange.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770205557/golf_simulators/www_21golfrange_com_ChIJ6dPFJXP3wokRkw4M_sGBtCQ.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/21+Golf+Range+Powered+by+Toptracer/@40.8453978,-74.0074777,14z/data=!4m8!1m2!2m1!1s21+Golf+Range+Powered+by+Toptracer!3m4!1s0x89c2f77325c5d3e9:0x24b481c1fe0c0e93!8m2!3d40.8453978!4d-74.0074777",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ6dPFJXP3wokRkw4M_sGBtCQ",
+  "venue_type": "multi_sport_sim",
+  "about": "21 Golf Range is a modern, state-of-the-art golf driving range and simulator venue located in Palisades Park, New Jersey. It features a large Toptracer range with 54 heated and covered bays, equipped with automatic tees and temperature control, ensuring a comfortable experience year-round. The facility also offers three private rooms equipped with Golfzon simulators, which can accommodate up to six players. The venue is positioned as a premier golf destination near New York City, Bergen County, and Jersey City, offering a tech-driven experience with ball tracking technology and various interactive games.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|kids_friendly|corporate_events|leagues|premium_tech|private_rooms|club_rentals|late_night",
+  "vibe_tags": "family_fun_center|tech_lab|modern|welcoming",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "54 heated and covered bays with automatic tee-up system for year-round play",
+    "All bays feature Toptracer technology for a fun, tech-driven experience",
+    "Three private rooms with the world's best Golfzon simulators accommodating up to 6 players"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "On-site cafe, Cafe 21, offering food and beverages"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Golfzon",
+      "model": "Simulator",
+      "notes": "World's Best Golfzon simulators in 3 large private rooms"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 54,
+  "booking_url": "https://21golfrange.com/pages/golfzon-simulator-booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 3,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, players are expected to bring their own clubs for both the Toptracer range and simulator sessions."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drinks are not mentioned; however, the venue has Cafe 21 on-site for food and beverage options."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time for 18 holes depends on the chosen simulator or activity, but simulator sessions are booked per hour, with rooms accommodating up to 6 players."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, 21 Golf Range is designed as a family-friendly facility with a heated range, putting area, and interactive games suitable for all ages."
+    }
+  ],
+  "simulator_software": [
+    "GOLFZON"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"7AM-11PM\"], \"Tuesday\": [\"7AM-11PM\"], \"Wednesday\": [\"7AM-11PM\"], \"Thursday\": [\"7AM-11PM\"], \"Friday\": [\"7AM-11PM\"], \"Saturday\": [\"7AM-11PM\"], \"Sunday\": [\"7AM-11PM\"]}"
+}

@@ -1,0 +1,90 @@
+{
+  "name": "Beaver Meadow Golf Course",
+  "address": "1 Beaver Meadow Dr, Concord, NH 03301",
+  "city": "Concord",
+  "region": "New Hampshire",
+  "country": "US",
+  "latitude": 43.258922,
+  "longitude": -71.567566,
+  "phone": "+16032288954",
+  "website": "http://bmgc.golf/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770237652/golf_simulators/bmgc_golf_ChIJJ5d4k1Fr4okRrVa7f3l_gdQ.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Beaver+Meadow+Golf+Course/@43.2589225,-71.56756589999999,14z/data=!4m8!1m2!2m1!1sBeaver+Meadow+Golf+Course!3m4!1s0x89e26b5193789727:0xd4817f797fbb56ad!8m2!3d43.2589225!4d-71.56756589999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJJ5d4k1Fr4okRrVa7f3l_gdQ",
+  "venue_type": "country_club",
+  "about": "Beaver Meadow Golf Course is a city-owned and operated facility that combines traditional golf with modern simulator technology. The venue offers a full-service experience including an 18-hole golf course, comprehensive pro shop with PGA instruction, and dedicated indoor golf simulators. Located in Concord, NH, the course maintains a focus on both outdoor play and year-round indoor opportunities, making it suitable for golfers of all skill levels looking for a complete golfing experience.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|coaching_available|club_rentals|pro_shop|country_club",
+  "vibe_tags": "community_club|welcoming|casual|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "Full-service pro shop with PGA Class A professional instruction available",
+    "Year-round golf simulator access for practice and league play",
+    "Combines traditional outdoor course play with modern indoor technology",
+    "Home to multiple simulator leagues with organized competition",
+    "Offers free lesson programs and 'Get Golf Ready' clinics"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "On-site restaurant service available (The Broken Tee Restaurant)"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No information on alcohol service provided"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "unknown",
+      "model": "unknown",
+      "notes": "Multiple bays available but specific hardware brands not listed"
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://beavermeadow.teesnap.net/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 3.5,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 4.2,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "While you can bring your own clubs, the venue offers club rentals and has equipment available for use in both the outdoor course and simulator bays."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue offers on-site food service at The Broken Tee Restaurant, but outside food and drink policies are not specified."
+    },
+    {
+      "question": "How long does it take to play 18 holes on the simulator?",
+      "answer": "Simulator league information suggests regular play is possible, but specific time estimates for 18 holes are not provided."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "Yes, Beaver Meadow offers junior programs, youth instruction, and family-oriented activities, making it suitable for younger golfers."
+    }
+  ],
+  "rating_overall": 3.9,
+  "opening_hours": "{\"Monday\": [\"7:30AM-7PM\"], \"Tuesday\": [\"7:30AM-7PM\"], \"Wednesday\": [\"7:30AM-7PM\"], \"Thursday\": [\"7:30AM-7PM\"], \"Friday\": [\"7:30AM-7PM\"], \"Saturday\": [\"7AM-7PM\"], \"Sunday\": [\"7AM-7PM\"]}"
+}

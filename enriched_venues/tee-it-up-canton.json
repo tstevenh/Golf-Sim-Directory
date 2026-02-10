@@ -1,0 +1,94 @@
+{
+  "name": "Tee It Up Canton",
+  "address": "7976 Whipple Ave NW, North Canton, OH 44720",
+  "city": "North Canton",
+  "region": "Ohio",
+  "country": "US",
+  "latitude": 40.896476,
+  "longitude": -81.424398,
+  "phone": "+13304619840",
+  "website": "https://teeitupcanton.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770225417/golf_simulators/teeitupcanton_com_ChIJVfaW983TNogRnCGmPSLdWXQ.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Tee+It+Up+Canton/@40.8964755,-81.4243978,14z/data=!4m8!1m2!2m1!1sTee+It+Up+Canton!3m4!1s0x8836d3cdf796f655:0x7459dd223da6219c!8m2!3d40.8964755!4d-81.4243978",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJVfaW983TNogRnCGmPSLdWXQ",
+  "email": "tiu-logo-left-tag-white@2x.png",
+  "venue_type": "training_studio",
+  "about": "Tee It Up Canton is a golf performance center in North Canton, Ohio, equipped with four indoor golf bays and a large putting green. The facility uses Foresight launch monitors, including two GCFalcons and two GCQuads, providing advanced ball and club-tracking technology. Bay rentals are priced at $30 per hour, with no per-person charges, and lessons are available with PGA-certified professionals.",
+  "tags": "beginner_friendly|food_and_drinks|coaching_available|budget_friendly|community_club",
+  "vibe_tags": "industrial_training|tech_lab",
+  "who_its_for": "beginners|serious_golfers|families|solo_practice|juniors_youth",
+  "why_golfers_like_it": [
+    "Premium Foresight launch monitors for accurate ball tracking",
+    "Hourly bay pricing is flat rate regardless of group size",
+    "Coaching available with PGA-certified professionals using launch monitor data"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Free snacks provided; guests may bring their own food (no alcohol)"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol permitted in the facility"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": "GCFalcon",
+      "notes": "High-end radar launch monitor for ball and club tracking"
+    },
+    {
+      "brand": "Foresight",
+      "model": "GCQuad",
+      "notes": "High-end photometric launch monitor for ball and club tracking"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 4,
+  "booking_url": "https://clients.uschedule.com/teeitupcanton/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 30,
+  "price_range_max_local": 30,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|tv_sports|wifi|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you will need to bring your own golf clubs to use in the simulators."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "Yes, you may bring your own food and non-alcoholic beverages. The facility provides free water, soda, and snacks."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "They recommend booking two hours to play a full 18 holes."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, the facility is designed for golfers of all skill levels, including juniors, and they offer lessons for beginners."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"9AM-9PM\"], \"Tuesday\": [\"9AM-9PM\"], \"Wednesday\": [\"9AM-9PM\"], \"Thursday\": [\"9AM-9PM\"], \"Friday\": [\"9AM-9PM\"], \"Saturday\": [\"9AM-9PM\"], \"Sunday\": [\"10AM-6PM\"]}"
+}

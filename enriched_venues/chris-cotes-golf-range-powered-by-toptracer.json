@@ -1,0 +1,97 @@
+{
+  "name": "Chris Cote's Golf Range powered by Toptracer",
+  "address": "125 Jude Ln, Southington, CT 06489",
+  "city": "Southington",
+  "region": "Connecticut",
+  "country": "US",
+  "latitude": 41.608769,
+  "longitude": -72.903306,
+  "phone": "+18606213663",
+  "website": "https://www.chriscotegolf.com/pages/toptracer-range",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770250790/golf_simulators/www_chriscotegolf_com_ChIJrUhc_Ci454kREsXM6l3b9Uc.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Chris+Cote%27s+Golf+Range+powered+by+Toptracer/@41.6087689,-72.9033061,14z/data=!4m8!1m2!2m1!1sChris+Cote%27s+Golf+Range+powered+by+Toptracer!3m4!1s0x89e7b828fc5c48ad:0x47f5db5deaccc512!8m2!3d41.6087689!4d-72.9033061",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJrUhc_Ci454kREsXM6l3b9Uc",
+  "venue_type": "retail_fitting_center",
+  "about": "Chris Cote's Golf Range powered by Toptracer is a family-owned operation specializing in golf club fitting, lessons, and club repair. The venue features two Toptracer driving ranges and TrackMan Indoor Golf technology for both practice and simulation. Pricing is based on bucket size, with Toptracer included in the price; bays are first-come, first-served and cannot be reserved in advance. The facility offers both free club fittings (with purchase) at their retail locations and premium Tour Level fittings at the Portland Performance Center.",
+  "tags": "beginner_friendly|serious_golfers|families|juniors_youth|coaching_available|premium_tech|club_fitting",
+  "vibe_tags": "community_club|tech_lab|family_fun_center|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|families|juniors_youth|coaches_instructors",
+  "why_golfers_like_it": [
+    "Access to Toptracer technology used on the PGA Tour for high accuracy",
+    "First-come, first-served bays with no time-based fees",
+    "Comprehensive services including club fitting, lessons, and repair",
+    "Indoor TrackMan simulators available for year-round practice"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No on-site food service mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Used for indoor simulators and club fittings"
+    },
+    {
+      "brand": "Toptracer",
+      "model": "Range",
+      "notes": "Used for driving ranges"
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.chriscotegolf.com/pages/book-indoor-golf",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|pro_shop|club_fitting|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "While you can bring your own clubs, the venue offers club rentals and specializes in club fitting services to help you find the right equipment."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No external food or drink options are mentioned on the website."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "The website doesn't specify a standard time for playing 18 holes, as focus is on practice and range sessions."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Chris Cote's offers junior clinics and lessons, making it suitable for young golfers."
+    }
+  ],
+  "simulator_software": [
+    "Toptracer"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-8PM\"], \"Tuesday\": [\"9AM-8PM\"], \"Wednesday\": [\"9AM-8PM\"], \"Thursday\": [\"9AM-8PM\"], \"Friday\": [\"9AM-8PM\"], \"Saturday\": [\"9AM-7PM\"], \"Sunday\": [\"9AM-7PM\"]}"
+}

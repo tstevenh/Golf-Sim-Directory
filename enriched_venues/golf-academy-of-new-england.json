@@ -1,0 +1,91 @@
+{
+  "name": "Golf Academy of New England",
+  "address": "105 Washington St #10, North Easton, MA 02356",
+  "city": "North Easton",
+  "region": "Massachusetts",
+  "country": "US",
+  "latitude": 42.082181,
+  "longitude": -71.090397,
+  "phone": "+15084728969",
+  "website": "http://golfacademyofne.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770243391/golf_simulators/golfacademyofne_com_ChIJ97wMUWnuLAYR3Pgu9kR1PWM.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Golf+Academy+of+New+England/@42.082181,-71.09039729999999,14z/data=!4m8!1m2!2m1!1sGolf+Academy+of+New+England!3m4!1s0x62cee69510cbcf7:0x633d7544f62ef8dc!8m2!3d42.082181!4d-71.09039729999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ97wMUWnuLAYR3Pgu9kR1PWM",
+  "email": "filler@godaddy.com",
+  "venue_type": "training_studio",
+  "about": "The Golf Academy of New England is a premier training facility specializing in year-round junior and adult golf instruction. Located in southeastern Massachusetts, the academy offers a range of programs including prep teams, PGA Jr League, private lessons, and group sessions. The facility utilizes advanced TrackMan IO technology for indoor training and provides access to the Links & Drinks location for practice and simulator rentals. The academy emphasizes swing knowledge, proper technique, and effective practice habits for golfers of all ages.",
+  "tags": "serious_practice|beginner_friendly|coaching_available|juniors_youth|food_and_drinks|tech_lab",
+  "vibe_tags": "industrial_training|family_fun_center|tech_lab",
+  "who_its_for": "juniors_youth|beginners|serious_golfers|families",
+  "why_golfers_like_it": [
+    "Advanced TrackMan IO technology for precise swing analysis",
+    "Year-round indoor training options",
+    "Specialized junior and adult programs",
+    "Flexible membership and lesson packages",
+    "On-site simulator bays at Links & Drinks"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Bar food available at Links & Drinks location"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Beer available at Links & Drinks location"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "IO",
+      "notes": "The most accurate in the industry, endorsed by the PGA Tour"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 2,
+  "booking_url": "https://yourgolfbooking.com/venues/links-and-drinks/booking/bays",
+  "pricing_model": "mixed",
+  "price_range_min_local": 45,
+  "price_range_max_local": 250,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|club_fitting",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you should bring your own clubs for lessons and simulator sessions. The academy specializes in instruction using personal equipment."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drinks are not mentioned. The Links & Drinks location offers bar food and beer on-site."
+    },
+    {
+      "question": "How long does an 18-hole simulator session take?",
+      "answer": "The website doesn't specify exact time for 18 holes, but standard sessions are typically 1-2 hours depending on group size and pace."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, the Golf Academy specializes in junior training with programs for ages 8-18, including prep classes and PGA Jr League options."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": null
+}

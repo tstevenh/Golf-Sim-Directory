@@ -1,0 +1,90 @@
+{
+  "name": "Cranford Golf Studio",
+  "address": "15 Eastman St, Cranford, NJ 07016",
+  "city": "Cranford",
+  "region": "New Jersey",
+  "country": "US",
+  "latitude": 40.655684,
+  "longitude": -74.305476,
+  "phone": "+19084422779",
+  "website": "http://www.cranfordgolfstudio.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770213766/golf_simulators/www_cranfordgolfstudio_com_ChIJLcwXUWKzw4kRcpgMydqVdNU.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Cranford+Golf+Studio/@40.6556843,-74.3054758,14z/data=!4m8!1m2!2m1!1sCranford+Golf+Studio!3m4!1s0x89c3b3625117cc2d:0xd57495dac90c9872!8m2!3d40.6556843!4d-74.3054758",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJLcwXUWKzw4kRcpgMydqVdNU",
+  "email": "cranfordgolfstudio@gmail.com",
+  "venue_type": "sim_bar",
+  "about": "Cranford Golf Studio is a golf simulator venue located in downtown Cranford, NJ. They feature industry-leading TrackMan technology used by PGA TOUR players, offering real-time feedback and precision. The venue provides a fun, relaxing atmosphere accessible before sunrise and after sunset, making it suitable for various skill levels and occasions.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|premium_tech|club_rentals|late_night|coaching_available",
+  "vibe_tags": "casual|welcoming|modern|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Industry-leading TrackMan simulator technology for precise swing analysis",
+    "Extended hours availability for early morning and late-night sessions",
+    "Wide range of services including lessons, leagues, and group packages"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Food service available on-site"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "BYOB allowed based on venue type and common practice"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Industry-leading radar technology used by PGA TOUR players"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://yourgolfbooking.com/venues/cranford-golf-studio/booking/bays",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|kitchen_food|tv_sports|private_party_room|wifi|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Club rentals are available on-site if needed."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Food service is available on-site, and BYOB policy is typically allowed."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Playing time varies depending on your group size and pace, typically 2-3 hours."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Cranford Golf Studio welcomes families and is suitable for children."
+    }
+  ],
+  "simulator_software": [
+    "TrackMan"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"5AM-11PM\"], \"Tuesday\": [\"5AM-11PM\"], \"Wednesday\": [\"5AM-11PM\"], \"Thursday\": [\"5AM-11PM\"], \"Friday\": [\"5AM-11PM\"], \"Saturday\": [\"5AM-11PM\"], \"Sunday\": [\"5AM-11PM\"]}"
+}

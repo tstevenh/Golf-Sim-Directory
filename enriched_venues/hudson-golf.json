@@ -1,0 +1,90 @@
+{
+  "name": "Hudson Golf",
+  "address": "16 Hudson Pl, Hoboken, NJ 07030",
+  "city": "Hoboken",
+  "region": "New Jersey",
+  "country": "US",
+  "latitude": 40.736049,
+  "longitude": -74.028621,
+  "phone": "+12012530030",
+  "website": "http://hudsongolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770198965/golf_simulators/hudsongolf_com_ChIJw22hrxpZwokRNLU_9qSJum8.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Hudson+Golf/@40.7360494,-74.02862139999999,14z/data=!4m8!1m2!2m1!1sHudson+Golf!3m4!1s0x89c2591aafa16dc3:0x6fba89a4f63fb534!8m2!3d40.7360494!4d-74.02862139999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJw22hrxpZwokRNLU_9qSJum8",
+  "email": "info@hudsongolf.com16",
+  "venue_type": "sim_bar",
+  "about": "Hudson Golf is a golf simulator venue that combines a high-tech practice facility with a full-service bar and kitchen. It utilizes TrackMan technology for its golf simulations, providing a premium indoor golfing experience. The venue is suitable for individual practice, group events, and corporate gatherings, offering a relaxed yet professional atmosphere with a focus on both game improvement and socializing. Membership options are available for regular users, while the space is also designed to accommodate one-time visitors and large group rentals.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|coaching_available|private_rooms",
+  "vibe_tags": "sports_bar|tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams|solo_practice|coaches_instructors",
+  "why_golfers_like_it": [
+    "High-quality TrackMan simulators with detailed data and course variety",
+    "Spacious and comfortable simulator bays for an enjoyable experience",
+    "Ability to host events with attentive service and quality food and drinks",
+    "On-site coaching and club fitting services for game improvement"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen service with a diverse menu, including appetizers, burgers, tacos, and fried foods."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service with beer, cocktails, and wine; happy hour specials available Monday-Friday."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "TrackMan",
+      "model": "iO",
+      "notes": "Primary simulator hardware, used for its high accuracy and course simulation."
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://clients.uschedule.com/hudsongolf/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, club rentals are available on-site for those who do not have their own equipment."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drink are not permitted, as Hudson Golf offers a full kitchen and bar with a variety of options."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "Playing 18 holes typically takes 1.5 to 2 hours, depending on the number of players and simulator availability."
+    },
+    {
+      "question": "Is Hudson Golf kid-friendly?",
+      "answer": "Yes, Hudson Golf is a family-friendly venue that welcomes players of all ages and skill levels."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"6:30AM-10:30PM\"], \"Tuesday\": [\"6:30AM-10:30PM\"], \"Wednesday\": [\"6:30AM-10:30PM\"], \"Thursday\": [\"6:30AM-10:30PM\"], \"Friday\": [\"6:30AM-11:30PM\"], \"Saturday\": [\"7AM-11:30PM\"], \"Sunday\": [\"8AM-8PM\"]}"
+}

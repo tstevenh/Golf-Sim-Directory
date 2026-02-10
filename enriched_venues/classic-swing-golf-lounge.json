@@ -1,0 +1,94 @@
+{
+  "name": "Classic Swing Golf Lounge",
+  "address": "8A School St, Watkinsville, GA 30677",
+  "city": "Watkinsville",
+  "region": "Georgia",
+  "country": "US",
+  "latitude": 33.863172,
+  "longitude": -83.408522,
+  "phone": "+17067052612",
+  "website": "https://www.classicswinggolflounge.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770210348/golf_simulators/www_classicswinggolflounge_com_ChIJo5RSSv1v9ogRnpjOKr24iDA.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Classic+Swing+Golf+Lounge/@33.863171699999995,-83.4085222,14z/data=!4m8!1m2!2m1!1sClassic+Swing+Golf+Lounge!3m4!1s0x88f66ffd4a5294a3:0x3088b8bd2ace989e!8m2!3d33.863171699999995!4d-83.4085222",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJo5RSSv1v9ogRnpjOKr24iDA",
+  "email": "classicswinggolflounge@gmail.com",
+  "venue_type": "sim_bar",
+  "about": "Classic Swing Golf Lounge is a golf simulator venue located at 8a School Street, Watkinsville, GA 30677. The facility features four Trackman IO simulator bays, a putting green, lounge areas, and TVs, offering an experience beyond a traditional range. Guests can play on over 300 global courses and utilize advanced technology trusted by professionals to receive comprehensive swing data. The venue offers public bay rentals, memberships, and space for team practices, corporate events, leagues, and tournaments. Access is available 24/7, with pricing based on peak and non-peak hours.",
+  "tags": "serious_golfers|corporate_events|leagues|premium_tech|budget_friendly|private_rooms|club_rentals|late_night|coaching_available|food_and_drinks",
+  "vibe_tags": "upscale_lounge|community_club|casual|welcoming|modern",
+  "who_its_for": "serious_golfers|corporate_teams|large_groups|solo_practice|coaches_instructors",
+  "why_golfers_like_it": [
+    "Access to professional-grade Trackman technology for precise swing and ball data analysis",
+    "Ability to play on over 300 global golf courses from an intimate, climate-controlled setting",
+    "24/7 access and flexible booking options for both public and member rates",
+    "Availability of a putting green and lounge areas for socializing and practice",
+    "Space hosting corporate events, leagues, and tournaments for a full golf experience"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "BYOB and food delivery are permitted; no on-site kitchen or food service."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "BYOB is permitted; no on-site bar or alcohol service."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Uses Titleist Pro V1 RCT golf balls"
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 4,
+  "booking_url": "https://yourgolfbooking.com/venues/classic-swing-golf-lounge/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 40,
+  "price_range_max_local": 50,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 4,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|wifi|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own golf clubs?",
+      "answer": "Yes, you must use your own clubs to get the most accurate feedback from the Trackman technology."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, BYOB and food delivery are permitted. The venue does not have an on-site kitchen or bar service."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Time to play 18 holes depends on your pace and whether there are groups waiting, but a typical round can last 1.5 to 2 hours."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is suitable for families and youth groups; it is welcoming for juniors and allows for group activities."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

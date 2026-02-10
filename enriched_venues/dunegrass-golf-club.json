@@ -1,0 +1,91 @@
+{
+  "name": "Dunegrass Golf Club",
+  "address": "65 Wild Dunes Way, Old Orchard Beach, ME 04064",
+  "city": "Old Orchard Beach",
+  "region": "Maine",
+  "country": "US",
+  "latitude": 43.525264,
+  "longitude": -70.39424,
+  "phone": "+12079344513",
+  "website": "https://www.dunegrass.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770221892/golf_simulators/www_dunegrass_com_ChIJ4Zn3xuujskwRjBo25cyf7WE.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Dunegrass+Golf+Club/@43.525264,-70.39423959999999,14z/data=!4m8!1m2!2m1!1sDunegrass+Golf+Club!3m4!1s0x4cb2a3ebc6f799e1:0x61ed9fcce5361a8c!8m2!3d43.525264!4d-70.39423959999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ4Zn3xuujskwRjBo25cyf7WE",
+  "email": "Danny@dunegrass.com",
+  "venue_type": "country_club",
+  "about": "Dunegrass Golf Club is a premier public golf course and event venue located in Old Orchard Beach, Maine. The facility features an 18-hole course designed by Dan Maples, spanning over 300 acres of coastal terrain with a par 72 layout from 6,644 yards. It offers four sets of tees to accommodate all skill levels. The club operates year-round and includes state-of-the-art golf simulators for indoor play during the off-season, along with a full-service restaurant and event spaces. The venue is known for its pristine conditions, scenic beauty, and comprehensive amenities for both golf and social events.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|club_rentals|coaching_available|upscale_lounge|family_fun_center",
+  "vibe_tags": "upscale_lounge|family_fun_center|community_club|private_luxury",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|tourists_travelers",
+  "why_golfers_like_it": [
+    "Year-round access with indoor golf simulators for off-season play",
+    "Premium golf course designed by renowned architect Dan Maples with natural coastal features",
+    "Comprehensive dining and event facilities with scenic views of the course",
+    "PGA-certified coaching available for all skill levels",
+    "Flexible tees and challenging layout for a variety of golfer abilities"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full-service restaurant Grill65 offers fine and casual fare with seasonal menus and catering services"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available at Grill65 restaurant and event spaces"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Unknown",
+      "model": "Unknown",
+      "notes": "State-of-the-art golf simulators mentioned but specific brand details not provided"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://app.whoosh.io/patron/club/dunegrass-golf-club/agenda/golf-course/2025-07-01",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue offers club rentals, though players are welcome to bring their own equipment. Golf carts are available for use on the course."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drinks are not permitted as the venue features an on-site restaurant and full bar service. Catering is available for events."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "A standard 18-hole round typically takes 4-5 hours depending on pace of play and course conditions."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Dunegrass Golf Club is family-friendly with amenities suitable for children, though parental supervision is required for minors on the course and in dining areas."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"6:30AM-7PM\"], \"Tuesday\": [\"6:30AM-7PM\"], \"Wednesday\": [\"6:30AM-7PM\"], \"Thursday\": [\"6:30AM-7PM\"], \"Friday\": [\"6:30AM-7PM\"], \"Saturday\": [\"6:30AM-7PM\"], \"Sunday\": [\"6:30AM-7PM\"]}"
+}

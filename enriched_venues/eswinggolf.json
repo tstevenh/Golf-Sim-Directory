@@ -1,0 +1,85 @@
+{
+  "name": "eSwing.golf",
+  "address": "535 Lakeview Plaza Blvd, Worthington, OH 43085",
+  "city": "Worthington",
+  "region": "Ohio",
+  "country": "US",
+  "latitude": 40.112214,
+  "longitude": -83.002601,
+  "phone": "+18077139457",
+  "website": "https://eswing.golf/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770211106/golf_simulators/eswing_golf_ChIJO4gIU-vzOIgRlPkVtp6mglY.png",
+  "google_maps_url": "https://www.google.com/maps/place/eSwing.golf/@40.112213499999996,-83.0026014,14z/data=!4m8!1m2!2m1!1seSwing.golf!3m4!1s0x8838f3eb5308883b:0x5682a69eb615f994!8m2!3d40.112213499999996!4d-83.0026014",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJO4gIU-vzOIgRlPkVtp6mglY",
+  "email": "Bookings@eswing.golf",
+  "venue_type": "sim_bar",
+  "about": "eSwing.golf is an indoor golf simulator venue located in Worthington, OH. The facility is open 365 days a year and features two state-of-the-art simulators. It offers hourly bay rentals, with pricing that varies by day and time. Each bay can accommodate up to six players. The venue is positioned as a social golfing destination suitable for all skill levels, from novices to experienced golfers, and also serves as a location for lessons, leagues, and private events. A restaurant and bar on-site provide a lounge-style atmosphere.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|coaching_available|premium_tech|family_friendly|private_rooms",
+  "vibe_tags": "casual|welcoming|modern|community_club",
+  "who_its_for": "beginners|families|corporate_teams|juniors_youth|solo_practice",
+  "why_golfers_like_it": [
+    "Year-round access to golf regardless of weather conditions",
+    "State-of-the-art simulator technology providing real-time swing and ball-flight data",
+    "Social atmosphere with an on-site restaurant and bar perfect for groups and events",
+    "Flexible booking for a full bay accommodating up to 6 players",
+    "Availability of lessons led by a PGA Professional with 38 years of industry experience"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Restaurant and bar on-site, suitable for groups and events."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar available on-site."
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 2,
+  "booking_url": "https://eswing.golfbooking.us/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 40,
+  "price_range_max_local": 50,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue does not specify whether club rentals are available, so it is recommended to bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue has an on-site restaurant and bar, so outside food and drink policies are not specified."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes is not explicitly mentioned, but bay rentals are sold by the hour, so the duration depends on the pace of play."
+    },
+    {
+      "question": "Is eSwing kid-friendly?",
+      "answer": "Yes, eSwing is kid-friendly, offering lessons and leagues for junior golfers and accommodating family groups."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"6AM-10PM\"], \"Tuesday\": [\"6AM-10PM\"], \"Wednesday\": [\"6AM-10PM\"], \"Thursday\": [\"6AM-10PM\"], \"Friday\": [\"6AM-10PM\"], \"Saturday\": [\"6AM-10PM\"], \"Sunday\": [\"6AM-10PM\"]}"
+}

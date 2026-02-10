@@ -1,0 +1,91 @@
+{
+  "name": "Neighborhood National No. 1",
+  "address": "308 Waverly Way, Greensboro, NC 27403",
+  "city": "Greensboro",
+  "region": "North Carolina",
+  "country": "US",
+  "latitude": 36.07111,
+  "longitude": -79.823953,
+  "phone": "+16124142462",
+  "website": "http://www.neighborhoodnationalgc.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770247366/golf_simulators/www_neighborhoodnationalgc_com_ChIJIb_iydoZU4gRkSV-U6Kp-8M.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Neighborhood+National+No.+1/@36.0711101,-79.8239526,14z/data=!4m8!1m2!2m1!1sNeighborhood+National+No.+1!3m4!1s0x885319dac9e2bf21:0xc3fba9a2537e2591!8m2!3d36.0711101!4d-79.8239526",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJIb_iydoZU4gRkSV-U6Kp-8M",
+  "venue_type": "other",
+  "about": "Neighborhood National is a private golf club model that operates through a network of local, small clubs hosted by Club Pros in their homes, garages, or other personal spaces. Each club features state-of-the-art golf simulators that are accessible exclusively to a limited number of members. The membership model is designed to be affordable and convenient, with a focus on community and unlimited play. Members can book tee times as frequently as they like for a flat monthly fee, which varies by club but is typically in the $50-100 range. This model provides a flexible, year-round golf experience without the restrictions of traditional indoor venues or the high cost of exclusive country clubs.",
+  "tags": "membership_only|beginner_friendly|community_club|budget_friendly|premium_tech|coaching_available|solo_practice",
+  "vibe_tags": "community_club|casual|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|families|solo_practice|low_handicap",
+  "why_golfers_like_it": [
+    "Unlimited access to high-end simulators for a flat monthly fee",
+    "Convenient neighborhood locations, eliminating long drives to courses",
+    "Strong community focus with a growing neighborhood of fellow golfers",
+    "Ability to bring unlimited guests at no extra cost",
+    "Flexible booking rain or shine with a 7-day maximum window"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of food service on-site."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service; clubs are hosted in private homes."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "High-End",
+      "model": "Not Specified",
+      "notes": "The website references 'state-of-the-art' and 'high-end simulators' and specifically mentions the GCQuad in their blog articles, but the exact hardware models are not listed on the main site."
+    }
+  ],
+  "simulator_software": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 1,
+  "booking_url": "http://www.neighborhoodnationalgc.com/membership-application",
+  "pricing_model": "membership_only",
+  "price_range_min_local": 50,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, as the clubs are hosted in personal spaces, members are expected to bring their own equipment."
+    },
+    {
+      "question": "Can I bring my own food or drink?",
+      "answer": "It is not explicitly mentioned, but as the clubs are hosted in private homes, bringing your own food and drink may be permitted depending on the individual club pro's rules."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time is not specified but is expected to be similar to a typical indoor simulator round, typically 1-2 hours, depending on the number of players and simulator software used."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "The model is family-friendly, with a focus on community and the ability to bring unlimited guests. However, the suitability for children may vary by the specific club and its location within a private home."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"7AM-7PM\"], \"Tuesday\": [\"7AM-7PM\"], \"Wednesday\": [\"7AM-7PM\"], \"Thursday\": [\"7AM-7PM\"], \"Friday\": [\"7AM-9PM\"], \"Saturday\": [\"7AM-9PM\"], \"Sunday\": [\"7AM-7PM\"]}"
+}

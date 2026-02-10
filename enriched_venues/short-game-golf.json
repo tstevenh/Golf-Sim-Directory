@@ -1,0 +1,93 @@
+{
+  "name": "Short Game Golf",
+  "address": "2205 FM471, Castroville, TX 78009",
+  "city": "Castroville",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 29.391383,
+  "longitude": -98.890601,
+  "phone": "+18309318891",
+  "website": "https://www.shortgameusa.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770231932/golf_simulators/www_shortgameusa_com_ChIJyw_guT85XIYRHkz7-isY4GU.png",
+  "google_maps_url": "https://www.google.com/maps/place/Short+Game+Golf/@29.391383299999998,-98.8906008,14z/data=!4m8!1m2!2m1!1sShort+Game+Golf!3m4!1s0x865c393fb9e00fcb:0x65e0182bfafb4c1e!8m2!3d29.391383299999998!4d-98.8906008",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJyw_guT85XIYRHkz7-isY4GU",
+  "email": "info@shortgameusa.com",
+  "venue_type": "sim_bar|training_studio|retail_fitting_center",
+  "about": "Short Game USA is a comprehensive golf destination offering both indoor and outdoor facilities. The venue features indoor TrackMan simulators and covered bays for year-round play, along with a dedicated short game area and putting greens with PuttView technology. It serves as a hub for skill development with club fitting services, lessons for adults and juniors, and a pro shop stocked with top golf brands. The facility operates on a pay-for-use model, with pricing starting at $25 per hour per bay for up to six players, and emphasizes a relaxed, family-friendly atmosphere suitable for golfers of all skill levels.",
+  "tags": "beginner_friendly|food_and_drinks|kids_friendly|corporate_events|premium_tech|club_rentals|coaching_available|family_fun_center|retail_fitting_center",
+  "vibe_tags": "casual|welcoming|modern|family_fun_center",
+  "who_its_for": "beginners|families|juniors_youth|serious_golfers|corporate_teams",
+  "why_golfers_like_it": [
+    "Premium TrackMan technology for detailed swing analysis and course simulation",
+    "Family-friendly environment with dedicated kids' lessons and junior programs",
+    "Comprehensive services including club fitting, repair, and a pro shop with top brands"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "On-site food and dining available, creating a relaxed atmosphere for golfers."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service or BYOB policy found."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Multiple indoor TrackMan simulators providing detailed performance data and course play."
+    }
+  ],
+  "simulator_so": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://booking.trackmangolf.com/venues/short-game-usa/booking/bays",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 25,
+  "price_range_max_local": 25,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|kitchen_food|tv_sports|private_party_room|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.5,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, the venue offers club rentals, but you are also welcome to bring your own equipment."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, the venue has an on-site food and dining option available for all guests."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "Playing 18 holes on a simulator typically takes about 2 to 3 hours, depending on the number of players in your group."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Short Game USA is family-friendly and offers specific programs for kids, including weekly group lessons and junior golf camps."
+    }
+  ],
+  "simulator_software": [
+    "TrackMan"
+  ],
+  "rating_overall": 4.4,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"9AM-10PM\"], \"Saturday\": [\"9AM-10PM\"], \"Sunday\": [\"9AM-9PM\"]}"
+}

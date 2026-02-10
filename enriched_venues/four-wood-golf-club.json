@@ -1,0 +1,92 @@
+{
+  "name": "Four Wood Golf Club",
+  "address": "828 Pico Blvd Suite 5, Santa Monica, CA 90405",
+  "city": "Santa Monica",
+  "region": "California",
+  "country": "US",
+  "latitude": 34.012678,
+  "longitude": -118.481984,
+  "phone": "+13109872100",
+  "website": "https://www.fourwoodgolf.com/",
+  "hero_image": "",
+  "google_maps_url": "https://www.google.com/maps/place/Four+Wood+Golf+Club/@34.0126778,-118.4819838,14z/data=!4m8!1m2!2m1!1sFour+Wood+Golf+Club!3m4!1s0x80c2bb67e06d9e45:0x4548aaf0f2c761fe!8m2!3d34.0126778!4d-118.4819838",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJRZ5t4Ge7woAR_mHH8vCqSEU",
+  "email": "hello@fourwoodgolf.com",
+  "venue_type": "sim_bar",
+  "about": "Four Wood Golf is Santa Monica's premier indoor golf club, blending state-of-the-art simulator technology with a refined, social atmosphere. The venue features spacious bays equipped with Uneekor EYE XO launch monitors and GSPro software, allowing players to experience over 1,000 world-famous courses. Beyond the screens, the facility offers an urban clubhouse environment complete with a lounge bar serving a casual menu of classics, curated drinks, and craft coffee.",
+  "tags": "food_and_drinks|social|premium_tech|date_night|events|simulator|league_play|lessons",
+  "vibe_tags": "upscale_lounge|casual|welcoming|urban_clubhouse|modern",
+  "who_its_for": "beginners|serious_golfers|large_groups|corporate_teams|families",
+  "why_golfers_like_it": [
+    "State-of-the-art Uneekor EYE XO launch monitors provide precise data",
+    "Spacious 250 sq ft bays utilizing GSPro software for realistic course play",
+    "Full-service lounge bar with food and drinks available in the bays",
+    "No dress codes or stuffy rules in a relaxed social atmosphere",
+    "Active community with leagues, tournaments, and weekly scrambles",
+    "PGA professional instruction available using high-speed video analysis"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "All-day menu of clubhouse classics including burgers, chicken sandwiches, and lobster rolls"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Curated beer and wine list served at The Lounge Bar"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "EYE XO",
+      "notes": "Used in all bays and teaching studios"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "Uneekor EYE XO",
+  "ball_tracking": "unknown",
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "https://clients.uschedule.com/fourwoodgolf/booking",
+  "pricing_model": "Hourly Rental|Memberships",
+  "price_range_min_local": 60,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "Lounge Bar|Food Menu|Changing Rooms|WiFi|Club Storage|Events Space|PGA Instruction|High-Speed Camera Analysis",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.5,
+  "rating_value_for_money": 4.2,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "While bringing your own clubs is recommended for familiarity, the venue is equipped to support your gear, and rentals may be available upon inquiry."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, outside food and drinks are not permitted as Four Wood Golf offers a full kitchen and bar service with a curated menu."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "An 18-hole round on the simulator typically takes about 45 to 60 minutes, depending on the pace of play and group size."
+    },
+    {
+      "question": "Is this kid-friendly?",
+      "answer": "Yes, Four Wood Golf is family-friendly and offers a Family Membership specifically designed for parents and children."
+    }
+  ],
+  "rating_overall": 4.5,
+  "opening_hours": "{\"Monday\": [\"9AM-9PM\"], \"Tuesday\": [\"9AM-9PM\"], \"Wednesday\": [\"9AM-9PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"9AM-10PM\"], \"Saturday\": [\"9AM-10PM\"], \"Sunday\": [\"9AM-9PM\"]}"
+}

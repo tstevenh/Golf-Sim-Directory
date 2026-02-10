@@ -1,0 +1,89 @@
+{
+  "name": "Range Time Golf",
+  "address": "14101 Washington Ave, Sturtevant, WI 53177",
+  "city": "Sturtevant",
+  "region": "Wisconsin",
+  "country": "US",
+  "latitude": 42.722604,
+  "longitude": -87.960418,
+  "phone": "+12627324268",
+  "website": "https://www.rangetimegolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770224425/golf_simulators/www_rangetimegolf_com_ChIJw-7sXSBvBYgRdAptwzbyoIQ.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Range+Time+Golf/@42.722603899999996,-87.9604179,14z/data=!4m8!1m2!2m1!1sRange+Time+Golf!3m4!1s0x88056f205deceec3:0x84a0f236c36d0a74!8m2!3d42.722603899999996!4d-87.9604179",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJw-7sXSBvBYgRdAptwzbyoIQ",
+  "venue_type": "sim_bar",
+  "about": "Range Time Golf is a year-round, family-owned golf facility located in Sturtevant, WI. It features a heated, covered driving range with 30 hitting bays, indoor and outdoor golf simulators, and a full-service sports lounge, allowing for play in any weather condition. The venue offers golf lessons from PGA professionals, private event rentals, and special range card programs that provide bonus value on ball purchases. Its location at Ives Grove Golf Links and extended hours make it a convenient option for local golfers seeking a complete practice and social experience.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|juniors_youth|family_friendly|premium_tech|private_rooms|coaching_available",
+  "vibe_tags": "sports_bar|community_club|family_fun_center",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "Heated hitting bays allow for year-round practice regardless of weather",
+    "On-site TrackMan launch monitor technology for precise swing analysis",
+    "Full-service bar and lounge atmosphere for a social golf experience",
+    "Range card specials provide up to 30% bonus value on ball purchases"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Light food sections available at the clubhouse"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full-service bar available at the clubhouse"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "unknown",
+      "notes": "Outdoor simulator bays equipped with TrackMan radar technology"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://www.rangetimegolf.com/contact",
+  "pricing_model": "per_bay_hour|mixed",
+  "price_range_min_local": 40,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|pro_shop|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The driving range has state-of-the-art golf mats suitable for your own clubs, and the simulators are compatible with personal equipment."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The facility has a full-service bar with food options available for purchase, but outside food and drink policies are not specified."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Time for 18 holes on the simulator isn't specified, but TrackMan technology typically allows for faster play than traditional golf."
+    },
+    {
+      "question": "Is this place kid-friendly?",
+      "answer": "Yes, the venue offers junior golf lessons at $25-$30 per half hour and describes itself as a family-friendly facility."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-9PM\"], \"Tuesday\": [\"9AM-9PM\"], \"Wednesday\": [\"9AM-9PM\"], \"Thursday\": [\"9AM-9PM\"], \"Friday\": [\"9AM-9PM\"], \"Saturday\": [\"9AM-9PM\"], \"Sunday\": [\"9AM-6PM\"]}"
+}

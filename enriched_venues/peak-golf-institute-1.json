@@ -1,0 +1,102 @@
+{
+  "name": "Peak Golf Institute",
+  "address": "21720 Red Rum Dr, Ashburn, VA 20147",
+  "city": "Ashburn",
+  "region": "Virginia",
+  "country": "US",
+  "latitude": 39.016671,
+  "longitude": -77.476382,
+  "phone": "+15714428915",
+  "website": "https://peakgolfinstitute.com/ashburn-va/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770218809/golf_simulators/peakgolfinstitute_com_ChIJt6qNoqU_tokRsnZZ_yOLM04.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Peak+Golf+Institute/@39.016670999999995,-77.4763815,14z/data=!4m8!1m2!2m1!1sPeak+Golf+Institute!3m4!1s0x89b63fa5a28daab7:0x4e338b23ff5976b2!8m2!3d39.016670999999995!4d-77.4763815",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJt6qNoqU_tokRsnZZ_yOLM04",
+  "venue_type": "training_studio",
+  "about": "Peak Golf Institute Ashburn is a 6,000 square-foot golf and fitness training facility in Northern Virginia. It operates as a 24/7 center focused on data-driven performance using advanced technology and Titleist Performance Institute (TPI) certified coaching. The facility features a variety of high-end simulators for practice and rental, along with fitness programs, physical therapy, and performance evaluations designed for golfers of all skill levels. Pricing includes hourly simulator rentals and various coaching packages, with membership options providing priority access and discounted rates.",
+  "tags": "serious_practice|coaching_available|premium_tech|training_studio|juniors_youth|corporate_teams|beginner_friendly|private_rooms|modern",
+  "vibe_tags": "industrial_training|tech_lab|casual|welcoming|modern",
+  "who_its_for": "serious_golfers|beginners|juniors_youth|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Access to tour-level launch monitors like TrackMan and GC Hawk for precise shot data",
+    "24/7 availability for flexible practice and training schedules",
+    "Comprehensive evaluations using 3D motion capture and pressure mapping for personalized coaching",
+    "Integrated approach combining fitness, physical therapy, and technical swing coaching"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No information on food service available"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No information on alcohol service available"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "TrackMan",
+      "model": "unknown",
+      "notes": "Dedicated bays for tour-level data on launch angle, spin rate, and swing path"
+    },
+    {
+      "brand": "Uneekor",
+      "model": "unknown",
+      "notes": "Three bays with ball and club tracking for instant feedback"
+    },
+    {
+      "brand": "GC Hawk",
+      "model": "unknown",
+      "notes": "Tour-grade launch monitors delivering ball and club data with detailed video analysis"
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar|hybrid|photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://peakgolfinstitute.com/book-an-evaluation/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 31,
+  "price_range_max_local": 200,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 4,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify whether rental clubs are provided. It is recommended to bring your own clubs for the best experience."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "The website does not have information on food or drink policies. It is best to contact the venue directly for details on outside food and beverage."
+    },
+    {
+      "question": "How long is a typical 18-hole simulator session?",
+      "answer": "The website does not specify the duration for an 18-hole simulator session. Pricing is based on hourly rates, so the time required would depend on the pace of play."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, Peak Golf Institute offers programs for juniors and youth, indicating it is kid-friendly and equipped to accommodate younger golfers."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-6PM\"], \"Tuesday\": [\"10AM-6PM\"], \"Wednesday\": [\"10AM-6PM\"], \"Thursday\": [\"10AM-6PM\"], \"Friday\": [\"10AM-6PM\"], \"Saturday\": [\"10AM-4PM\"], \"Sunday\": [\"10AM-4PM\"]}"
+}

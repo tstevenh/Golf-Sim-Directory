@@ -1,0 +1,90 @@
+{
+  "name": "Golf Kings",
+  "address": "111 W Water St, Toms River, NJ 08753",
+  "city": "Toms River",
+  "region": "New Jersey",
+  "country": "US",
+  "latitude": 39.953802,
+  "longitude": -74.201114,
+  "phone": "+19085040698",
+  "website": "https://golfkingsnj.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770229881/golf_simulators/golfkingsnj_com_ChIJE2ntgxmdwYkRnD1dwxnaxmI.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Golf+Kings/@39.9538022,-74.20111419999999,14z/data=!4m8!1m2!2m1!1sGolf+Kings!3m4!1s0x89c19d1983ed6913:0x62c6da19c35d3d9c!8m2!3d39.9538022!4d-74.20111419999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJE2ntgxmdwYkRnD1dwxnaxmI",
+  "venue_type": "sim_bar|training_studio",
+  "about": "Golf Kings is an indoor golf simulator venue with locations in Brick, Wall, and Toms River, New Jersey. The facility is equipped with TrackMan technology and provides both public bay rentals and professional coaching services. Members receive benefits such as reduced hourly rates and discounts on lessons and private events. The venue serves a dual purpose as a simulator lounge and a pro shop, offering club fittings, regripping services, and apparel for sale.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|private_rooms|club_rentals|coaching_available",
+  "vibe_tags": "casual|welcoming|modern|sports_bar",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|coaches_instructors",
+  "why_golfers_like_it": [
+    "Powered by premium TrackMan technology for precise swing analytics",
+    "Offers a private TV in each bay for sports viewing during play",
+    "Provides a full pro shop with club fitting and regripping services",
+    "Hosts leagues and private events for groups",
+    "Multiple locations in New Jersey for convenience"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "BYOB allowed, no on-site kitchen mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "BYOB allowed, no on-site bar mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "unknown",
+      "notes": "Premium radar launch monitor with detailed analytics"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://clients.uschedule.com/golfkingsnj/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 70,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|tv_sports|pro_shop|club_fitting|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, players are expected to bring their own clubs to use with the simulators."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, BYOB (Bring Your Own Beverages) is allowed at the venue."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time for 18 holes varies depending on the course and number of players in your bay."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Golf Kings is suitable for families and offers a welcoming environment for junior golfers."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"9AM-10PM\"], \"Saturday\": [\"8AM-10PM\"], \"Sunday\": [\"8AM-10PM\"]}"
+}

@@ -1,0 +1,89 @@
+{
+  "name": "TeeBox 24/7 Golf",
+  "address": "416 75th St, Downers Grove, IL 60516",
+  "city": "Downers Grove",
+  "region": "Illinois",
+  "country": "US",
+  "latitude": 41.7526,
+  "longitude": -87.994489,
+  "phone": "+16305281450",
+  "website": "https://www.teebox247golf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770237821/golf_simulators/www_teebox247golf_com_ChIJF3nFmj5PDogRu0SjdU7tc5U.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/TeeBox+24%2F7+Golf/@41.7525997,-87.99448939999999,14z/data=!4m8!1m2!2m1!1sTeeBox+24%2F7+Golf!3m4!1s0x880e4f3e9ac57917:0x9573ed4e75a344bb!8m2!3d41.7525997!4d-87.99448939999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJF3nFmj5PDogRu0SjdU7tc5U",
+  "venue_type": "sim_bar",
+  "about": "TeeBox Golf is a state-of-the-art indoor golf facility featuring 6 high-tech 4K simulators equipped with AI Trainers. The venue provides a premium, 24/7 golf experience with secure, keyless member access and flexible booking for non-members. Combining industry-leading Uneekor technology with expert PGA coaching, it is designed for players of all skill levels to practice, play, and improve their game year-round, regardless of weather conditions.",
+  "tags": "serious_practice|coaching_available|leagues|premium_tech|beginner_friendly|late_night|budget_friendly|solo_practice",
+  "vibe_tags": "modern|tech_lab|community_club",
+  "who_its_for": "serious_golfers|beginners|solo_practice|corporate_teams",
+  "why_golfers_like_it": [
+    "24/7 access with no weather or tee time restrictions",
+    "Industry-leading Uneekor XO2 launch monitors with precise data feedback",
+    "AI-powered training for personalized swing analysis and improvement"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "BYOB policy; food not mentioned as provided."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "BYOB policy; alcohol not mentioned as provided."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "XO2",
+      "notes": "Launch monitor with Swing Optix cameras for comprehensive ball and club tracking"
+    }
+  ],
+  "simulator_software": [
+    "GSPro",
+    "Uneekor Gameday"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 6,
+  "booking_url": "https://teebox247golf.skedda.com/booking?&viewtype=0",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 40,
+  "price_range_max_local": 45,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "6",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "coaching_available|leagues|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you need to bring your own clubs, but high-quality golf balls and tees are provided by the facility."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "The venue operates on a BYOB (Bring Your Own Beverage) policy, allowing guests to bring their own food and drinks."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "It takes approximately 1 hour for one person to play 18 holes of golf on a simulator."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, TeeBox Golf is a welcoming environment perfect for beginners, including juniors, to learn and practice in a relaxed, private setting."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"9AM-9PM\"], \"Tuesday\": [\"9AM-9PM\"], \"Wednesday\": [\"9AM-9PM\"], \"Thursday\": [\"9AM-9PM\"], \"Friday\": [\"9AM-9PM\"], \"Saturday\": [\"9AM-9PM\"], \"Sunday\": [\"9AM-9PM\"]}"
+}

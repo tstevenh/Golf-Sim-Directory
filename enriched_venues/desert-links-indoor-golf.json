@@ -1,0 +1,91 @@
+{
+  "name": "Desert Links Indoor Golf",
+  "address": "4522 E Thomas Rd, Phoenix, AZ 85018",
+  "city": "Phoenix",
+  "region": "Arizona",
+  "country": "US",
+  "latitude": 33.480729,
+  "longitude": -111.983933,
+  "phone": "+16025291489",
+  "website": "https://www.desertlinksgolf.com/home",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770204730/golf_simulators/www_desertlinksgolf_com_ChIJ0d0uGIENK4cRinSBN5nx-So.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Desert+Links+Indoor+Golf/@33.4807288,-111.9839329,14z/data=!4m8!1m2!2m1!1sDesert+Links+Indoor+Golf!3m4!1s0x872b0d81182eddd1:0x2af9f1993781748a!8m2!3d33.4807288!4d-111.9839329",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ0d0uGIENK4cRinSBN5nx-So",
+  "email": "info@desertlinksgolf.com",
+  "venue_type": "multi_sport_sim",
+  "about": "Desert Links Indoor Golf is a 24/7 golf simulation facility located in Phoenix's Arcadia neighborhood. Each hitting bay is powered by Trackman technology, providing access to detailed club and ball data and the ability to play exclusive courses year-round. The facility offers a temperature-controlled environment with options for hourly rentals and monthly memberships, catering to both practice and play.",
+  "tags": "food_and_drinks|serious_practice|premium_tech|beginner_friendly|coaching_available|corporate_events|leagues",
+  "vibe_tags": "tech_lab|modern|welcoming",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Powered by Trackman technology with over 40 data points per swing for precise analysis",
+    "Access to 450+ world-class courses including PGA Tour venues like Pebble Beach and St. Andrews",
+    "24/7 member access and flexible public booking hours with online reservations",
+    "Comprehensive amenities including club rentals and the ability to bring your own food and beverages"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Guests are free to bring their own food to enjoy during their session"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service or BYOB policy"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "High-speed cameras and AI motion analysis technology"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://booking.trackmangolf.com/venues/desert-links-indoor-golf/booking/bays",
+  "pricing_model": "mixed",
+  "price_range_min_local": 45,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|tv_sports|wifi|pro_shop|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, you can bring your own clubs, but we also provide men's left and right-handed sets and right-handed women's clubs for your convenience."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, guests are free to bring their own food and beverages to enjoy during their session. We also provide water and coffee on-site."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Tee times can be booked for 30 minutes to 4 hours, depending on your preference and group size."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "The facility does not specify any particular kid-friendly features, though families are welcome and can accommodate up to four people per hourly booking."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

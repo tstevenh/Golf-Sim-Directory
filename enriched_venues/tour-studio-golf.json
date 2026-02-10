@@ -1,0 +1,95 @@
+{
+  "name": "Tour Studio Golf",
+  "address": "5005 McKinney Ranch Pkwy STE 250, McKinney, TX 75070",
+  "city": "McKinney",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 33.158689,
+  "longitude": -96.680947,
+  "phone": "+14696365281",
+  "website": "https://tourstudiogolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770199376/golf_simulators/tourstudiogolf_com_ChIJ8USgrR4XTIYRGcW2iyVs1Mk.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Tour+Studio+Golf/@33.1586887,-96.6809474,14z/data=!4m8!1m2!2m1!1sTour+Studio+Golf!3m4!1s0x864c171eada044f1:0xc9d46c258bb6c519!8m2!3d33.1586887!4d-96.6809474",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ8USgrR4XTIYRGcW2iyVs1Mk",
+  "email": "outreach@tourstudiogolf.com",
+  "venue_type": "training_studio",
+  "about": "Tour Studio Golf is a high-performance indoor golf studio located in McKinney, TX. The facility features Trackman iO simulators paired with 4K laser projectors to provide a true-to-life playing experience, suitable for both casual rounds and serious game improvement. Membership options are available, with access ranging from 6 hours per month for the Basic tier to unlimited hours for the Elite and Tour Pro tiers, each offering varying levels of perks and booking privileges.",
+  "tags": "serious_golfers|premium_tech|corporate_events|private_rooms|club_rentals|coaching_available",
+  "vibe_tags": "tech_lab|private_luxury|community_club",
+  "who_its_for": "serious_golfers|corporate_teams|large_groups|solo_practice",
+  "why_golfers_like_it": [
+    "Tour-level Trackman iO technology for precise shot data and analysis",
+    "24/7 access for members, allowing for flexible practice schedules",
+    "High-quality, immersive visuals with 4K laser projectors",
+    "Multiple membership tiers with options for various skill levels and usage needs",
+    "Availability for private events and corporate outings"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of an on-site kitchen or food service"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of a full bar or alcohol service; BYOB policy not specified"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Latest Trackman iO simulators with 4K laser projectors"
+    }
+  ],
+  "simulator_so": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://yourgolfbooking.com/venues/tour-studio-golf/booking/bays",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|private_party_room|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify, so it is recommended to bring your own clubs for the most authentic experience."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "There is no mention of food or drink service on-site, so bringing your own may be permitted; however, this is not explicitly stated."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not provide a specific duration, but typical simulator rounds usually take between 2-3 hours depending on the number of players and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "There is no specific information regarding children's amenities or policies, so it is unclear if the venue is particularly kid-friendly."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

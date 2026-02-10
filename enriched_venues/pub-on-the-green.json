@@ -1,0 +1,88 @@
+{
+  "name": "Pub On The Green",
+  "address": "2101 Country Club Ln, Ontario, NY 14519",
+  "city": "Ontario",
+  "region": "New York",
+  "country": "US",
+  "latitude": 43.214727,
+  "longitude": -77.279773,
+  "phone": "+15854954653",
+  "website": "http://www.ontariogolfclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770212870/golf_simulators/www_ontariogolfclub_com_ChIJR0KLbJPX1okRvjplak4d9NQ.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Pub+On+The+Green/@43.2147266,-77.2797726,14z/data=!4m8!1m2!2m1!1sPub+On+The+Green!3m4!1s0x89d6d7936c8b4247:0xd4f41d4e6a653abe!8m2!3d43.2147266!4d-77.2797726",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJR0KLbJPX1okRvjplak4d9NQ",
+  "venue_type": "country_club",
+  "about": "Ontario Golf Club offers a blend of a traditional golf course experience with modern amenities, including a dedicated Trackman simulator bay for practice and play. The facility is a full-service country club featuring an 18-hole golf course, restaurant with pub atmosphere, and various events and leagues. While it provides a premium environment with both on-course and simulator offerings, specific pricing for simulator time is not publicly detailed on the website.",
+  "tags": "food_and_drinks|corporate_events|leagues|premium_tech|club_rentals|coaching_available",
+  "vibe_tags": "casual|welcoming|modern|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Access to premium Trackman technology for game analysis and play",
+    "Full-service country club amenities including dining and events",
+    "Combination of on-course golf and indoor simulator options"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full restaurant and pub available on-site"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available at the pub restaurant"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Premium launch monitor technology available for practice and play"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://foreupsoftware.com/index.php/booking/22348/10455#teetimes",
+  "pricing_model": "per_person_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|pro_shop|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, golfers are typically expected to bring their own clubs for simulator sessions."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, outside food and drinks are not permitted as the facility has a full restaurant and bar on-site."
+    },
+    {
+      "question": "How long does it take to play 18 holes on the simulator?",
+      "answer": "Typically, 18 holes on a simulator takes approximately 1-2 hours depending on the pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue appears to be family-friendly with a pool/patio area and hosting events that may appeal to families."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"11AM-11PM\"], \"Tuesday\": [\"11AM-11PM\"], \"Wednesday\": [\"11AM-11PM\"], \"Thursday\": [\"11AM-11PM\"], \"Friday\": [\"11AM-12AM\"], \"Saturday\": [\"11AM-12AM\"], \"Sunday\": [\"11AM-11PM\"]}"
+}

@@ -1,0 +1,89 @@
+{
+  "name": "Palm Tree Golf and Event Center",
+  "address": "100 Summerset Dr, Brentwood, CA 94513",
+  "city": "Brentwood",
+  "region": "California",
+  "country": "US",
+  "latitude": 37.924159,
+  "longitude": -121.727627,
+  "phone": "+19255163400",
+  "website": "https://palmtreegolfandevents.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770242151/golf_simulators/palmtreegolfandevents_com_ChIJS958dVL5j4AREuMC1sJwnC0.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Palm+Tree+Golf+and+Event+Center/@37.9241592,-121.72762689999999,14z/data=!4m8!1m2!2m1!1sPalm+Tree+Golf+and+Event+Center!3m4!1s0x808ff952757cde4b:0x2d9c70c2d602e312!8m2!3d37.9241592!4d-121.72762689999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJS958dVL5j4AREuMC1sJwnC0",
+  "venue_type": "sim_bar|training_studio|private_rental|retail_fitting_center|country_club|multi_sport_sim|hotel_resort|other",
+  "about": "Palm Tree Golf & Event Center is an all-in-one destination offering an 18-hole championship golf course, indoor golf simulators, and a full-service restaurant with sushi bar in Brentwood, CA. The venue provides a challenging yet rewarding golfing experience for players of all skill levels, with scenic views and strategic course design. Simulator sessions are available by the hour for practice or casual play, with hourly pricing and multi-hour package discounts.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|families|kid_friendly|premium_tech|budget_friendly|private_rooms|club_rentals|coaching_available",
+  "vibe_tags": "casual|welcoming|modern|family_fun_center",
+  "who_its_for": "beginners|families|corporate_teams|solo_practice|large_groups",
+  "why_golfers_like_it": [
+    "All-inclusive golf packages with meal and drink included",
+    "Indoor simulators perfect for off-season practice and bad weather",
+    "Scenic 18-hole championship course with multiple tee boxes",
+    "Professional event staff for weddings and corporate outings"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "California-inspired cuisine, fresh sushi, seasonal specials, full menu available"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available onsite"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "unknown",
+      "notes": "Technology described as impressive with real-time ball tracking and shot analysis"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://palmtreegolfandevents.com/book-tee-time/",
+  "pricing_model": "per_bay_hour|package",
+  "price_range_min_local": 39,
+  "price_range_max_local": 49,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Club rentals are available, but you're welcome to bring your own equipment."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "Outside food and drinks are not permitted as the venue offers a full restaurant and bar service."
+    },
+    {
+      "question": "How long does a typical 18 holes take on the simulator?",
+      "answer": "Simulator sessions are booked by the hour, allowing you to play as many holes as time permits in your booked session."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "Yes, the venue is family-friendly and offers simulator sessions suitable for birthday parties and family outings."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"7AM-5PM\"], \"Tuesday\": [\"7AM-5PM\"], \"Wednesday\": [\"7AM-5PM\"], \"Thursday\": [\"7AM-5PM\"], \"Friday\": [\"7AM-5PM\"], \"Saturday\": [\"7AM-5PM\"], \"Sunday\": [\"7AM-5PM\"]}"
+}

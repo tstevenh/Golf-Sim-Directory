@@ -1,0 +1,90 @@
+{
+  "name": "MIT Recreation - Indoor Golf Range",
+  "address": "120 Vassar St #4311, Cambridge, MA 02139",
+  "city": "Cambridge",
+  "region": "Massachusetts",
+  "country": "US",
+  "latitude": 42.358837,
+  "longitude": -71.096198,
+  "phone": "+16174523690",
+  "website": "http://www.mitrecsports.com/indoor-golf",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770232440/golf_simulators/www_mitrecsports_com_ChIJm16toKpw44kRNJtpl0YWXHE.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/MIT+Recreation+-+Indoor+Golf+Range/@42.358837,-71.096198,14z/data=!4m8!1m2!2m1!1sMIT+Recreation+-+Indoor+Golf+Range!3m4!1s0x89e370aaa0ad5e9b:0x715c164697699b34!8m2!3d42.358837!4d-71.096198",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJm16toKpw44kRNJtpl0YWXHE",
+  "email": "MIT-RECREATION@3x-4-300x21.png",
+  "venue_type": "multi_sport_sim",
+  "about": "The Rudovsky Indoor Golf Range at MIT Recreation is a high-tech training facility equipped with Trackman 4 technology. It offers hourly reservations for individual and group practice sessions, designed to provide comprehensive golf analysis and improvement opportunities. The venue is integrated within a larger recreational complex and offers a range of services including memberships, private lessons, and various wellness programs. While primarily focused on golf, the facility is part of a multi-sport recreation center that caters to students and community members.",
+  "tags": "serious_golfers|coaching_available|premium_tech|beginner_friendly|budget_friendly|community_club",
+  "vibe_tags": "tech_lab|industrial_training|modern|welcoming",
+  "who_its_for": "serious_golfers|beginners|juniors_youth|coaches_instructors|solo_practice",
+  "why_golfers_like_it": [
+    "Access to the premium Trackman 4 launch monitor for accurate data and swing analysis",
+    "Professional PGA instruction available for private and group lessons",
+    "Convenient online and mobile app reservation system for flexible booking",
+    "Located within a comprehensive fitness facility offering additional amenities"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No on-site food service mentioned. External food allowed."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "Industry-standard launch monitor providing swing and ball flight data"
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://mit.clubautomation.com/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|pro_shop|coaching_available|wifi|membership_only",
+  "rating_tech_quality": 5.0,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The facility does not specify club rental services, so it is recommended to bring your own equipment. The content does not mention any club rentals available on-site."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "There is no mention of food or drink services available within the golf facility. External food and drinks appear to be allowed, as no restrictions are listed."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The venue does not offer a traditional 18-hole golf experience. Sessions are booked by the hour for training and practice using the simulator, with no specific time allocated for a full round."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, the facility offers youth golf programs and lessons, indicating it is designed to accommodate junior golfers and children."
+    }
+  ],
+  "rating_overall": 4.4,
+  "opening_hours": "{\"Monday\": [\"5-9PM\"], \"Tuesday\": [\"10AM-2PM\"], \"Wednesday\": [\"10AM-2PM\"], \"Thursday\": [\"Closed\"], \"Friday\": [\"5-9PM\"], \"Saturday\": [\"9AM-3PM\"], \"Sunday\": [\"11AM-2PM\"]}"
+}

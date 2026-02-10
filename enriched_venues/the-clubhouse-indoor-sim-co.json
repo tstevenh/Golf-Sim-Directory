@@ -1,0 +1,94 @@
+{
+  "name": "The ClubHouse Indoor Sim Co.",
+  "address": "313 D St, Marysville, CA 95901",
+  "city": "Marysville",
+  "region": "California",
+  "country": "US",
+  "latitude": 39.138639,
+  "longitude": -121.588401,
+  "phone": "+15304431792",
+  "website": "https://theclubhousesimco.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770216711/golf_simulators/theclubhousesimco_com_ChIJ0UANenRTm4ARMuxR7bX9FLU.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+ClubHouse+Indoor+Sim+Co./@39.138638799999995,-121.5884014,14z/data=!4m8!1m2!2m1!1sThe+ClubHouse+Indoor+Sim+Co.!3m4!1s0x809b53747a0d40d1:0xb514fdb5ed51ec32!8m2!3d39.138638799999995!4d-121.5884014",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ0UANenRTm4ARMuxR7bX9FLU",
+  "email": "theclubhouse.tyler@gmail.com",
+  "venue_type": "sim_bar",
+  "about": "The ClubHouse Indoor Sim Co. is an indoor golf venue in Marysville, CA, featuring four state-of-the-art bays powered by Trackman technology. The facility offers a full indoor driving range experience where golfers can practice or play virtual rounds on top global courses. Pricing varies by day and time, with weekday rates ranging from $35-$45/hour and weekend rates at $45/hour. The venue is designed for golfers of all skill levels, with the option to bring personal clubs or borrow from the facility.",
+  "tags": "beginner_friendly|serious_practice|leagues|corporate_events|private_rooms|club_rentals|late_night|coaching_available|food_and_drinks",
+  "vibe_tags": "casual|welcoming|modern|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Premium Trackman technology for accurate ball and club tracking",
+    "Flexible hours with 24-hour prebooking Monday-Thursday",
+    "Ability to play on world's top golf courses",
+    "Club rentals available for those without equipment",
+    "League play options for regular competition"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "BYOB allowed, food policies not specified"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "BYOB allowed, alcohol policies not specified"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "4 bays equipped with Trackman technology"
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 4,
+  "booking_url": "https://app.whoosh.io/patron/club/the-clubhouse-simco",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 35,
+  "price_range_max_local": 45,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 4,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|lockers|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, you can bring your own clubs or borrow from The ClubHouse."
+    },
+    {
+      "question": "Can I bring food and drinks?",
+      "answer": "BYOB is allowed, but specific food policies are not detailed on the website."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Time to play 18 holes varies depending on simulator usage and group size, but typically ranges from 2-3 hours."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, The ClubHouse is welcoming to families and appears to be kid-friendly based on their general facility description."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"10AM-8PM\"], \"Tuesday\": [\"10AM-8PM\"], \"Wednesday\": [\"10AM-8PM\"], \"Thursday\": [\"10AM-8PM\"], \"Friday\": [\"10AM-10PM\"], \"Saturday\": [\"10AM-10PM\"], \"Sunday\": [\"10AM-10PM\"]}"
+}

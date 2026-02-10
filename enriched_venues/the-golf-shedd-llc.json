@@ -1,0 +1,95 @@
+{
+  "name": "The Golf Shedd LLC",
+  "address": "3231 GA-17, Toccoa, GA 30577",
+  "city": "Toccoa",
+  "region": "Georgia",
+  "country": "US",
+  "latitude": 34.559075,
+  "longitude": -83.285835,
+  "phone": "+17064917973",
+  "website": "https://www.thegolfsheddllc.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770210286/golf_simulators/www_thegolfsheddllc_com_ChIJox1BZL69WIgR6Llpk8bJKwk.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Golf+Shedd+LLC/@34.559075199999995,-83.2858347,14z/data=!4m8!1m2!2m1!1sThe+Golf+Shedd+LLC!3m4!1s0x8858bdbe64411da3:0x92bc9c69369b9e8!8m2!3d34.559075199999995!4d-83.2858347",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJox1BZL69WIgR6Llpk8bJKwk",
+  "venue_type": "sim_bar",
+  "about": "The Golf Shedd is a premier golfing facility located in Toccoa, Georgia. It offers state-of-the-art simulator technology for players of all skill levels, with a focus on providing both a serious practice environment and a fun social experience. The venue is equipped with high-end simulators for detailed swing analysis and a variety of game modes, alongside an apparel shop and facilities for private parties and events.",
+  "tags": "beginner_friendly|food_and_drinks|family_friendly|corporate_events|leagues|premium_tech|private_rooms|club_rentals|coaching_available|community_club",
+  "vibe_tags": "casual|welcoming|modern|family_fun_center|sports_bar",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "High-end GDR+ and Two Vision simulators with advanced tracking and playback",
+    "Realistic course simulation with duel action swing plates mimicking actual course lies",
+    "Family-friendly atmosphere with TVs and arcade game modes for entertainment",
+    "Comprehensive swing feedback including video playback and swing path analysis",
+    "Support for private parties and events with a pro shop for apparel"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of food service or kitchen facilities"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of bar or alcohol service"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "GDR+",
+      "model": "GDR+",
+      "notes": "High-speed camera with automatic tee and various lie simulations"
+    },
+    {
+      "brand": "Two Vision",
+      "model": "Two Vision",
+      "notes": "Premium simulator with duel action swing plate and over 200 courses"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.thegolfsheddllc.com/contact",
+  "pricing_model": "per_person_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|tv_sports|private_party_room|pro_shop|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to own a set of clubs?",
+      "answer": "No, we offer clubs for players who prefer not to bring their own."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Not specified, but no in-house food or drink service is mentioned."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Not specified, but typical simulator rounds take 1-2 hours depending on pace."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, they offer family-friendly experiences with TVs and arcade game modes."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"Closed\"], \"Wednesday\": [\"9AM-8PM\"], \"Thursday\": [\"9AM-8PM\"], \"Friday\": [\"9AM-8PM\"], \"Saturday\": [\"9AM-8PM\"], \"Sunday\": [\"9AM-4PM\"]}"
+}

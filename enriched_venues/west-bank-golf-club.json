@@ -1,0 +1,91 @@
+{
+  "name": "West Bank Golf Club",
+  "address": "2111 Center St Unit D, Cleveland, OH 44113",
+  "city": "Cleveland",
+  "region": "Ohio",
+  "country": "US",
+  "latitude": 41.494534,
+  "longitude": -81.705299,
+  "phone": "+12169065119",
+  "website": "http://westbankgolfclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770216049/golf_simulators/westbankgolfclub_com_ChIJncZ63d3xMIgRbTXG_Gkb6gE.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/West+Bank+Golf+Club/@41.494533499999996,-81.7052993,14z/data=!4m8!1m2!2m1!1sWest+Bank+Golf+Club!3m4!1s0x8830f1dddd7ac69d:0x1ea1b69fcc6356d!8m2!3d41.494533499999996!4d-81.7052993",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJncZ63d3xMIgRbTXG_Gkb6gE",
+  "email": "cleindoorgolf@gmail.com",
+  "venue_type": "sim_bar",
+  "about": "West Bank Golf Club is an indoor golf simulator and bar located in Downtown Cleveland. It is the first and only venue of its kind in the city, combining a realistic golf experience with a sports bar atmosphere. The facility offers hourly rentals of its golf bays and provides a venue for private events and corporate bookings. West Bank Golf Club aims to bring the course and clubhouse together, creating a unique environment for both golf practice and social relaxation.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|club_rentals|coaching_available",
+  "vibe_tags": "sports_bar|casual|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|corporate_teams|families|tourists_travelers",
+  "why_golfers_like_it": [
+    "Realistic golf experience with video analysis of club face and ball strike",
+    "Unique atmosphere combining golf course and clubhouse elements",
+    "Convenient downtown Cleveland location in the West Bank of the Flats",
+    "In-depth launch monitor technology for swing analysis"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "On-site kitchen available"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service with an extensive drink selection"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Premium simulator offering detailed video analysis of club face and ball strike"
+    }
+  ],
+  "simulator_software": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://www.westbankgolfclub.com/book-tee-times/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 45,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "The website does not specify, but as a simulator venue, they likely provide club rentals. Contact them directly for details."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, West Bank Golf Club has an on-site kitchen and full bar. Outside food and drinks are not permitted."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify the time for 18 holes, but it depends on the number of people in your group and simulator speed."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The website does not specifically mention child-friendliness, but it offers a casual atmosphere and could be suitable for families with older children."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"3-10PM\"], \"Tuesday\": [\"3-10PM\"], \"Wednesday\": [\"3-10PM\"], \"Thursday\": [\"3-10PM\"], \"Friday\": [\"3-11PM\"], \"Saturday\": [\"9AM-11PM\"], \"Sunday\": [\"9AM-8PM\"]}"
+}

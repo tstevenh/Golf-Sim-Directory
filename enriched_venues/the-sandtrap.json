@@ -1,0 +1,91 @@
+{
+  "name": "The SandTrap",
+  "address": "523 S Center St, Casper, WY 82601",
+  "city": "Casper",
+  "region": "Wyoming",
+  "country": "US",
+  "latitude": 42.845155,
+  "longitude": -106.324798,
+  "phone": "+13073331464",
+  "website": "http://www.thesandtrapigc.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770214666/golf_simulators/www_thesandtrapigc_com_ChIJxYeVTKC8YIcR4AJ_zNu2fqA.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+SandTrap/@42.845155,-106.3247985,14z/data=!4m8!1m2!2m1!1sThe+SandTrap!3m4!1s0x8760bca04c9587c5:0xa07eb6dbcc7f02e0!8m2!3d42.845155!4d-106.3247985",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJxYeVTKC8YIcR4AJ_zNu2fqA",
+  "email": "office@thesandtrapigc.com",
+  "venue_type": "sim_bar",
+  "about": "The SandTrap is an indoor golf center located in Casper, Wyoming, featuring 7 golfing suites with 78 available courses. The facility is equipped with AboutGolf simulators endorsed by the PGA, offering a climate-controlled environment for year-round play. They provide various services including league play, event hosting, pro shop amenities, and online tee time booking. The venue emphasizes a casual, welcoming atmosphere suitable for both casual rounds and competitive league play.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|club_rentals|coaching_available|family_friendly|community_club",
+  "vibe_tags": "casual|welcoming|modern|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "PGA-endorsed AboutGolf simulators with realistic shot tracking",
+    "Early bird rates for budget-friendly morning sessions",
+    "Comprehensive league program with competitive match play",
+    "On-site pro shop for club services and memberships",
+    "Climate-controlled environment for all-season play"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "BYOB policy allows outside food and beverages"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "BYOB policy allows outside alcoholic beverages"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "AboutGolf",
+      "model": "unknown",
+      "notes": "PGA-endorsed simulators featured on The Golf Channel"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 7,
+  "booking_url": "https://thesandtrapigc.acuityscheduling.com",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 30,
+  "price_range_max_local": 40,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 7,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|pro_shop|leagues|tv_sports|wifi|coaching_available|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "While you can use your own clubs, the facility is equipped with simulator technology that tracks shots without requiring clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, The SandTrap operates on a BYOB policy, allowing you to bring your own food and alcoholic beverages."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "It takes approximately 3 hours to complete 18 holes on the simulators."
+    },
+    {
+      "question": "Is The SandTrap kid-friendly?",
+      "answer": "Yes, the facility is family-friendly and welcomes junior golfers for practice and league play."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Saturday\": [\"8AM-10PM\"]}"
+}

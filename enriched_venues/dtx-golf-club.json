@@ -1,0 +1,91 @@
+{
+  "name": "DTX Golf Club",
+  "address": "17811 Davenport Rd Ste 4A, Dallas, TX 75252",
+  "city": "Dallas",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 32.991292,
+  "longitude": -96.7943,
+  "phone": "+14697814655",
+  "website": "https://dtxgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770199368/golf_simulators/dtxgolf_com_ChIJLY1pnUIjTIYRpvkHVdCXeTk.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/DTX+Golf+Club/@32.991291499999996,-96.79429979999999,14z/data=!4m8!1m2!2m1!1sDTX+Golf+Club!3m4!1s0x864c23429d698d2d:0x397997d05507f9a6!8m2!3d32.991291499999996!4d-96.79429979999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJLY1pnUIjTIYRpvkHVdCXeTk",
+  "email": "dtxgolfclub@gmail.com",
+  "venue_type": "sim_bar",
+  "about": "DTX Golf Club is an indoor golf simulator venue offering a state-of-the-art experience with spacious bays equipped for immersive play. The facility provides a premium indoor environment with precise ball tracking, realistic course play, and a variety of practice modes. Accessible to both casual players and serious competitors, DTX is committed to a community-driven atmosphere where players can connect, compete, and improve. Public hourly bookings are available at $50 per hour, with members enjoying extended hours and additional benefits like gym access and included GXF performance assessments.",
+  "tags": "beginner_friendly|food_and_drinks|leagues|premium_tech|budget_friendly|club_rentals|coaching_available|community_club",
+  "vibe_tags": "casual|welcoming|modern|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Spacious simulator bays feature AI trainer technology for instant feedback",
+    "State-of-the-art simulators provide an immersive golf experience",
+    "Clean and safe environment with a friendly, community-driven atmosphere",
+    "Flexible booking options with a 12-hour cancellation policy",
+    "Membership options include GXF performance assessments and rolling bay hours"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "Food must remain at tables; no food allowed inside simulators or near computers."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service is mentioned in the provided website content."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Unknown",
+      "model": "Unknown",
+      "notes": "Website describes simulators with AI trainer technology and precise ball tracking but does not specify hardware brands."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": "unknown",
+  "putting_mode": "auto_putt",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://app.birrdi.com/u/reserve?team_booking_link_id=dallas-golf-club",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 50,
+  "price_range_max_local": 50,
+  "currency": "USD",
+  "walk_ins_allowed": false,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|leagues|coaching_available",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Website content does not specify whether clubs are provided for rental. It is best to assume you must bring your own clubs or contact the venue directly."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Food and drinks are permitted but must remain at tables. No food or drinks are allowed inside simulators or near computers."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Website content does not specify the time required to play 18 holes. It mentions bookings end promptly at the scheduled time and unfinished holes may not be completed."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The venue welcomes players of all skill levels, and the 'leagues' section mentions 'a welcoming community of players of all skill levels.' While not explicitly stated as a family center, its all-inclusive nature suggests it is kid-friendly."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"12-8PM\"], \"Wednesday\": [\"12-8PM\"], \"Thursday\": [\"12-8PM\"], \"Friday\": [\"12-8PM\"], \"Saturday\": [\"12-8PM\"], \"Sunday\": [\"12-8PM\"]}"
+}

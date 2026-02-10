@@ -1,0 +1,82 @@
+{
+  "name": "GolfTec",
+  "address": "300 Keller St, Manchester, NH 03103",
+  "city": "Manchester",
+  "region": "New Hampshire",
+  "country": "US",
+  "latitude": 42.955502,
+  "longitude": -71.431388,
+  "phone": "+11877446538",
+  "website": "https://www.golftec.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770245702/golf_simulators/www_golftec_com_ChIJl6pmXIVP4okR4RgCBVYRnSQ.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/GolfTec/@42.955501999999996,-71.4313878,14z/data=!4m8!1m2!2m1!1sGolfTec!3m4!1s0x89e24f855c66aa97:0x249d1156050218e1!8m2!3d42.955501999999996!4d-71.4313878",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJl6pmXIVP4okR4RgCBVYRnSQ",
+  "venue_type": "training_studio",
+  "about": "GOLFTEC is a data-driven golf instruction and club fitting facility that uses advanced motion measurement technology like OPTIMOTION and high-speed video analysis to provide personalized coaching. They also offer custom club fitting services using TECFIT technology to match equipment to a golfer's swing. The service model centers on a Swing Evaluation to create a custom lesson plan, with additional services including practice bay access with launch monitors and virtual golf experiences. Pricing operates on a lesson and fitting basis rather than hourly bay rentals.",
+  "tags": "serious_practice|beginner_friendly|coaching_available|club_rentals|pro_shop|premium_tech|juniors_youth|low_handicap",
+  "vibe_tags": "tech_lab|industrial_training|modern|welcoming",
+  "who_its_for": "beginners|serious_golfers|low_handicap|juniors_youth|solo_practice",
+  "why_golfers_like_it": [
+    "Data-driven instruction using advanced motion tracking and launch monitor technology",
+    "Proven improvement metrics, with students averaging 7 shots better and gaining 21 more yards from fittings",
+    "Comprehensive service model covering lessons, club fitting, and practice in one location"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of food services provided on-site."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol services provided on-site."
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    "OPTI"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.golftec.com/book-a-service",
+  "pricing_model": "package",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|pro_shop|club_fitting|coaching_available",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, GOLFTEC provides equipment for lessons and fittings, though many students prefer to use their own clubs once they have a custom fitting."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "There is no mention of food or drink services or BYOB policies on the website."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website focuses on lessons and fittings rather than simulator play time for 18 holes."
+    },
+    {
+      "question": "Is GOLFTEC kid-friendly?",
+      "answer": "Yes, GOLFTEC offers junior programs and their technology-based approach is suitable for young golfers learning the game."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": null
+}

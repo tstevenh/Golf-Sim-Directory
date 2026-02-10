@@ -1,0 +1,96 @@
+{
+  "name": "STiKS Indoor Golf",
+  "address": "910 S Blue Mound Rd, Saginaw, TX 76131",
+  "city": "Saginaw",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 32.850821,
+  "longitude": -97.343671,
+  "phone": "+15756426206",
+  "website": "https://www.stiksgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770210730/golf_simulators/www_stiksgolf_com_ChIJ6VB-Qzd3ToYRE9nRFeVYyyM.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/STiKS+Indoor+Golf/@32.8508208,-97.34367139999999,14z/data=!4m8!1m2!2m1!1sSTiKS+Indoor+Golf!3m4!1s0x864e7737437e50e9:0x23cb58e515d1d913!8m2!3d32.8508208!4d-97.34367139999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ6VB-Qzd3ToYRE9nRFeVYyyM",
+  "email": "steve@stiksgolf.com",
+  "venue_type": "training_studio",
+  "about": "STiKS Indoor Golf is an elite indoor golf facility established in March 2025, designed by PGA professionals to help golfers improve through technology and instruction. The venue operates on a membership-only basis, offering 24/7 access to six simulator bays and a dedicated 1,100-square-foot short game area. Members receive unlimited practice time, access to common areas, and discounts on lessons and equipment. The facility utilizes high-end Foresight Sports simulators and a GC-QuadMAX launch monitor for accurate ball and club data analysis. It also offers club fitting services featuring Titleist, Srixon, and Cleveland brands, and hosts events such as parties, group lessons, and tournaments.",
+  "tags": "serious_golfers|beginners|families|corporate_events|coaching_available|premium_tech|leagues|juniors_youth|club_fitting|private_rooms",
+  "vibe_tags": "tech_lab|community_club|modern|professional",
+  "who_its_for": "serious_golfers|beginners|families|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "24/7 unlimited access to simulators and practice facilities",
+    "High-end Foresight Sports Falcon and GC-QuadMAX launch monitor technology",
+    "Personalized instruction from PGA professionals Steve Storey and Tyler Kuhn",
+    "Membership discounts on lessons, club fitting, and equipment",
+    "Versatile venue for hosting events and group activities"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service provided; members may bring their own food."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "BYOB policy; members may bring their own beverages."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": "Sports Falcon",
+      "notes": "High-end radar launch monitor simulator bay"
+    },
+    {
+      "brand": "GC",
+      "model": "QuadMAX",
+      "notes": "High-end launch monitor for accurate analysis"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": null,
+  "bay_count_total": 6,
+  "booking_url": "https://www.stiksgolf.com/book-online",
+  "pricing_model": "membership_only",
+  "price_range_min_local": null,
+  "price_range_max_local": null,
+  "currency": "USD",
+  "walk_ins_allowed": false,
+  "coaching_available": true,
+  "private_rooms_count": 6,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|wifi|pro_shop|club_fitting|leagues|private_party_room|tv_sports",
+  "rating_tech_quality": 4.7,
+  "rating_facility_comfort": 4.3,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "The facility provides club fitting services, but members typically use their own clubs for practice and simulator play."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, members may bring their own food and beverages. The venue operates a BYOB policy with the request to dispose of trash properly."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Time to complete 18 holes varies depending on the number of players and simulator booking, but typical play times are similar to traditional golf rounds."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, STiKS offers a junior membership option for golfers 21 and under enrolled in school, making it suitable for young golfers to practice and play."
+    }
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

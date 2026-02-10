@@ -1,0 +1,85 @@
+{
+  "name": "Birdies Sports Bar & Grill",
+  "address": "4036 W 111th St, Oak Lawn, IL 60453",
+  "city": "Oak Lawn",
+  "region": "Illinois",
+  "country": "US",
+  "latitude": 41.692134,
+  "longitude": -87.721598,
+  "phone": "+17089319550",
+  "website": "http://www.birdies111.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770256560/golf_simulators/www_birdies111_com_ChIJHdCx6QU7DogRuiYg1YO-Ly8.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Birdies+Sports+Bar+%26+Grill/@41.6921344,-87.7215975,14z/data=!4m8!1m2!2m1!1sBirdies+Sports+Bar+%26+Grill!3m4!1s0x880e3b05e9b1d01d:0x2f2fbe83d52026ba!8m2!3d41.6921344!4d-87.7215975",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJHdCx6QU7DogRuiYg1YO-Ly8",
+  "email": "mymail@mailservice.com",
+  "venue_type": "sim_bar",
+  "about": "Birdies Sports Bar & Grill is a multi-use indoor golf simulator venue that combines sports dining with virtual golf experiences. The facility offers year-round access to golf simulators, making it suitable for both serious practice and casual entertainment. Golfers can enjoy 18-hole rounds which take approximately one hour per person, with the requirement to bring personal clubs and new golf balls to maintain simulator screens. The venue features food and drink service, operates with extended hours, and hosts monthly tournaments and golf leagues, creating an environment that caters to both golf enthusiasts and social gatherings.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|leagues|sports_bar|family_friendly|late_night",
+  "vibe_tags": "sports_bar|family_fun_center|casual|welcoming|modern",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|serious_golfers",
+  "why_golfers_like_it": [
+    "Year-round indoor golf simulator access",
+    "18-hole rounds completed in approximately 1 hour per person",
+    "Hosts monthly tournaments and golf leagues",
+    "Partnership with Pin Seeker for enhanced play experience",
+    "No simulator rental fees, only pay for your time"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen with breakfast, lunch, and dinner menus including sandwiches, salads, burgers, entrees, and desserts. Party tray options available."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service with special holiday-themed drink menus."
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.sevenrooms.com/reservations/birdiesgolf?duration_picker=true",
+  "pricing_model": "per_person_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "full_bar|kitchen_food|tv_sports|leagues|private_party_room",
+  "rating_tech_quality": 4.0,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you must bring your own golf clubs as they are not available for rent."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No outside food or drinks are permitted as the venue has its own full kitchen and bar service."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "A round of 18 holes takes approximately 1 hour to complete per person."
+    },
+    {
+      "question": "Is this place kid-friendly?",
+      "answer": "Yes, Birdies Sports Bar & Grill is family-friendly with a casual atmosphere and food service suitable for all ages."
+    }
+  ],
+  "rating_overall": 4.1,
+  "opening_hours": "{\"Monday\": [\"11AM-12AM\"], \"Tuesday\": [\"11AM-12AM\"], \"Wednesday\": [\"11AM-12AM\"], \"Thursday\": [\"11AM-2AM\"], \"Friday\": [\"11AM-2AM\"], \"Saturday\": [\"9AM-2AM\"], \"Sunday\": [\"9AM-12AM\"]}"
+}

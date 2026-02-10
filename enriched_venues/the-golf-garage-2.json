@@ -1,0 +1,82 @@
+{
+  "name": "The Golf Garage",
+  "address": "7011 Realm Dr # A1, San Jose, CA 95119",
+  "city": "San Jose",
+  "region": "California",
+  "country": "US",
+  "latitude": 37.228773,
+  "longitude": -121.777787,
+  "phone": "+14085396636",
+  "website": "http://www.golfgaragesanjose.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770241416/golf_simulators/www_golfgaragesanjose_com_ChIJdZOfWOnLj4ARcXtUZtGDliY.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Golf+Garage/@37.228773,-121.7777874,14z/data=!4m8!1m2!2m1!1sThe+Golf+Garage!3m4!1s0x808fcbe9589f9375:0x269683d166547b71!8m2!3d37.228773!4d-121.7777874",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJdZOfWOnLj4ARcXtUZtGDliY",
+  "email": "info@golfgaragesanjose.com",
+  "venue_type": "training_studio",
+  "about": "The Golf Garage is a player development center in San Jose, CA, focused on technology-enhanced golf training. It offers TrackMan Dual Radar Technology for instant swing feedback, private lessons, club fitting with Avoda, and mental and strength conditioning coaching. The facility is designed for golfers looking to improve their skills through advanced data analysis and personalized training programs. It caters to a range of golfers, from beginners to seasoned professionals, providing a state-of-the-art environment for technical skill refinement and performance enhancement.",
+  "tags": "serious_practice|coaching_available|premium_tech|club_fitting|juniors_youth|beginner_friendly",
+  "vibe_tags": "tech_lab|industrial_training|modern",
+  "who_its_for": "beginners|serious_golfers|juniors_youth|coaches_instructors",
+  "why_golfers_like_it": [
+    "Instant feedback with TrackMan Dual Radar Technology",
+    "Custom club fitting with Avoda including on-site ordering",
+    "Comprehensive coaching covering swing mechanics, mental game, and physical conditioning",
+    "State-of-the-art facility with advanced swing DNA mapping and analysis"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": null,
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "Dual Radar",
+      "notes": "Provides instant swing feedback and advanced data analysis"
+    }
+  ],
+  "simulator_so": [
+    "TrackMan"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://golfgaragesanjose.com/book-now/",
+  "pricing_model": "package",
+  "price_range_min_local": 175,
+  "price_range_max_local": 150,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|club_fitting|coaching_available",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you should bring your own clubs for lessons and practice. The facility also offers club fitting services if you need custom clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "There is no mention of food or drink services, so it's likely a BYOB (Bring Your Own Beverage) policy."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time for 18 holes is not specified, but typical simulator sessions are 45-60 minutes for 9 holes."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the facility offers coaching for juniors and youth programs, making it suitable for kids."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"8AM-8PM\"], \"Tuesday\": [\"8AM-8PM\"], \"Wednesday\": [\"8AM-8PM\"], \"Thursday\": [\"8AM-8PM\"], \"Friday\": [\"8AM-8PM\"], \"Saturday\": [\"8AM-8PM\"], \"Sunday\": [\"10AM-5PM\"]}"
+}

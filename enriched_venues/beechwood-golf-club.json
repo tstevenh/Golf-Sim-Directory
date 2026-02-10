@@ -1,0 +1,85 @@
+{
+  "name": "Beechwood Golf Club",
+  "address": "6401 Gorski Rd, Fairview, PA 16415",
+  "city": "Fairview",
+  "region": "Pennsylvania",
+  "country": "US",
+  "latitude": 42.018342,
+  "longitude": -80.184681,
+  "phone": "+18148330527",
+  "website": "http://www.beechwoodgolfclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770230560/golf_simulators/www_beechwoodgolfclub_com_ChIJ0ypksH58MogR1_Yaz6vgXF8.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Beechwood+Golf+Club/@42.0183417,-80.1846814,14z/data=!4m8!1m2!2m1!1sBeechwood+Golf+Club!3m4!1s0x88327c7eb0642ad3:0x5f5ce0abcf1af6d7!8m2!3d42.0183417!4d-80.1846814",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ0ypksH58MogR1_Yaz6vgXF8",
+  "email": "info@beechwoodgolfclub.com",
+  "venue_type": "sim_bar|country_club",
+  "about": "Beechwood Golf Club is a family-owned and operated establishment featuring a challenging 18-hole outdoor course and an indoor golf simulator facility. The venue provides year-round golf access through three indoor simulators alongside a bar and grill, catering to both traditional golfers and those seeking indoor practice. Located off I-90 at Exit 18 and Sterrettania Road in Erie, PA, the club offers a mix of outdoor and indoor golfing options, along with event planning and dining services. It serves as a versatile destination for golfers looking for practice, play, or social gatherings in a friendly environment.",
+  "tags": "food_and_drinks|corporate_events|leagues|family_friendly|beginner_friendly|premium_tech|club_rentals",
+  "vibe_tags": "family_fun_center|community_club|welcoming|casual",
+  "who_its_for": "families|corporate_teams|beginners|serious_golfers|large_groups",
+  "why_golfers_like_it": [
+    "Year-round access to three indoor golf simulators",
+    "Family-friendly environment with on-site dining options",
+    "Challenging 18-hole outdoor course for traditional play",
+    "Convenient location near I-90 for easy access",
+    "Membership benefits including discounted simulator hours"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Bar and grill with kitchen open Tuesday-Saturday (11:00 AM - 8:00 PM). New menu available."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "On-site bar available during operating hours"
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": "unknown",
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 3,
+  "booking_url": "http://www.beechwoodgolfclub.com/indoor-golf",
+  "pricing_model": "per_bay_hour|membership_only",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": "true",
+  "coaching_available": true,
+  "private_rooms_count": 3,
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|leagues|pro_shop",
+  "rating_tech_quality": 3.5,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 3.5,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you'll need to bring your own clubs for both outdoor and indoor simulator play."
+    },
+    {
+      "question": "Can I bring my own food or drink?",
+      "answer": "Outside food and drink are not mentioned, but the venue has its own bar and grill with kitchen service."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "For outdoor play, 18 holes would typically take 4-5 hours depending on pace. Indoor simulator time varies by booking."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, Beechwood Golf Club is family-owned and operated, welcoming families and offering a family-friendly environment."
+    }
+  ],
+  "rating_overall": 3.7,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"11AM-8PM\"], \"Wednesday\": [\"11AM-8PM\"], \"Thursday\": [\"11AM-8PM\"], \"Friday\": [\"11AM-8PM\"], \"Saturday\": [\"11AM-8PM\"], \"Sunday\": [\"Closed\"]}"
+}

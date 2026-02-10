@@ -34,7 +34,6 @@ export function VenueList({ venues }: VenueListProps) {
             city={venue.city}
             state={venue.state}
             heroImage={venue.heroImage}
-            shortDescription={venue.shortDescription}
             venueType={venue.venueType}
             simulatorSystems={venue.simulatorSystems as string[] | null}
             launchMonitorType={venue.launchMonitorType}

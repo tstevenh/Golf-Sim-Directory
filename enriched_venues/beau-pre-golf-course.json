@@ -1,0 +1,90 @@
+{
+  "name": "Beau Pre Golf Course",
+  "address": "1777 Norton Rd, McKinleyville, CA 95519",
+  "city": "McKinleyville",
+  "region": "California",
+  "country": "US",
+  "latitude": 40.962994,
+  "longitude": -124.096384,
+  "phone": "+17078392342",
+  "website": "https://beaupre.golf/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770260526/golf_simulators/beaupre_golf_ChIJwWPQgChb0VQRKYvyfu16ypM.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Beau+Pre+Golf+Course/@40.9629938,-124.0963838,14z/data=!4m8!1m2!2m1!1sBeau+Pre+Golf+Course!3m4!1s0x54d15b2880d063c1:0x93ca7aed7ef28b29!8m2!3d40.9629938!4d-124.0963838",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJwWPQgChb0VQRKYvyfu16ypM",
+  "email": "info@beaupre.golf",
+  "venue_type": "country_club",
+  "about": "Beau Pre Golf Club is a public golf course and facility that opened in 1967, focused on providing an accessible and sustainable golfing experience. The venue features traditional golf elements including an 18-hole course, a driving range with various bucket sizes, and an on-site pro shop. It also offers indoor golf technology through TrackMan 4 launch monitors for lessons and practice, providing detailed swing data and camera analysis. The club emphasizes a family-friendly environment, supported by its cafe and event hosting capabilities, catering to both casual players and those looking for a more structured golf experience.",
+  "tags": "beginner_friendly|food_and_drinks|kids_friendly|corporate_events|leagues|premium_tech|budget_friendly|club_rentals|coaching_available|community_club",
+  "vibe_tags": "family_fun_center|community_club|casual|welcoming",
+  "who_its_for": "beginners|families|corporate_teams|solo_practice|juniors_youth",
+  "why_golfers_like_it": [
+    "Access to premium TrackMan 4 technology for detailed swing analysis and indoor practice",
+    "Affordable pricing for both driving range and frequent player memberships",
+    "Family-friendly atmosphere with a cafe and events for all ages"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "On-site cafe (Beau Pre Golf Club Café) available"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "TrackMan 4 launch monitor with internal and optional external cameras for multi-angle swing analysis"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://beaupre.golf/rates-booking/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 7,
+  "price_range_max_local": 25,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|kitchen_food|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "While not explicitly stated, it's standard practice to bring your own clubs for outdoor play. For indoor TrackMan sessions, club rental availability is not mentioned."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue has an on-site cafe, but outside food and drink policies are not specified."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Course duration is not specified on the website."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Beau Pre Golf Club markets itself as 'Where Families Connect with Golf' and offers programs suitable for juniors and youth."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"6AM-6PM\"], \"Tuesday\": [\"6AM-6PM\"], \"Wednesday\": [\"6AM-6PM\"], \"Thursday\": [\"6AM-6PM\"], \"Friday\": [\"6AM-6PM\"], \"Saturday\": [\"6AM-6PM\"], \"Sunday\": [\"6AM-6PM\"]}"
+}

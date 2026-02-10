@@ -1,0 +1,89 @@
+{
+  "name": "PAR Golf Club",
+  "address": "39580 W 14 Mile Rd, Commerce Township, MI 48390",
+  "city": "Commerce Township",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 42.528552,
+  "longitude": -83.439059,
+  "phone": "+12483190468",
+  "website": "http://www.playpargolfclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770203348/golf_simulators/www_playpargolfclub_com_ChIJz-Qb0EalJIgRCqBLdXd2lSc.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/PAR+Golf+Club/@42.5285522,-83.43905869999999,14z/data=!4m8!1m2!2m1!1sPAR+Golf+Club!3m4!1s0x8824a546d01be4cf:0x27957677754ba00a!8m2!3d42.5285522!4d-83.43905869999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJz-Qb0EalJIgRCqBLdXd2lSc",
+  "email": "teeoff@playpargolfclub.com.",
+  "venue_type": "private_rental",
+  "about": "PAR Golf Club is a private, unmanned golf simulator facility located in Commerce Township, MI. It offers 24/7 access to members via secure keypad entry and Trackman-powered simulator bays. The venue is designed for serious golfers who prioritize technology, convenience, and exclusive access, with a focus on performance through premium Trackman technology and a private club atmosphere.",
+  "tags": "serious_golfers|premium_tech|leagues|private_rooms|club_rentals|coaching_available|late_night",
+  "vibe_tags": "private_luxury|tech_lab|community_club",
+  "who_its_for": "serious_golfers|solo_practice|coaches_instructors|corporate_teams",
+  "why_golfers_like_it": [
+    "24/7 access with complete freedom to practice or play at any time",
+    "Tour-level accuracy with Trackman IO technology for data-driven improvement",
+    "Exclusive member rates and priority booking for a seamless experience"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Members may bring their own food and non-alcoholic drinks. Complimentary refreshments are available in the fridge for members. Food must be kept in the lounge area only."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol is permitted."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Private sim delivering tour-level accuracy, immersive visuals, and true-to-life golf experience"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://yourgolfbooking.com/venues/par-golf-club/booking/bays",
+  "pricing_model": "membership_only",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": false,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|leagues|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify, but it is a standard practice for golf simulators that players bring their own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, members are welcome to bring their own food and non-alcoholic drinks into the bays. Complimentary refreshments are available in the fridge. Food must be kept in the lounge area only."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify a time estimate for playing 18 holes."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "No, all members must be 21 years of age or older, making the venue strictly for adults."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

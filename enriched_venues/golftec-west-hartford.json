@@ -1,0 +1,89 @@
+{
+  "name": "GOLFTEC West Hartford",
+  "address": "1146 New Britain Ave, West Hartford, CT 06110",
+  "city": "West Hartford",
+  "region": "Connecticut",
+  "country": "US",
+  "latitude": 41.73295,
+  "longitude": -72.733534,
+  "phone": "+18602222299",
+  "website": "https://www.golftec.com/golf-lessons/west-hartford",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770214857/golf_simulators/www_golftec_com_ChIJJQ-RVj2t54kRKtgtjrDhnek.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/GOLFTEC+West+Hartford/@41.7329504,-72.7335342,14z/data=!4m8!1m2!2m1!1sGOLFTEC+West+Hartford!3m4!1s0x89e7ad3d56910f25:0xe99de1b08e2dd82a!8m2!3d41.7329504!4d-72.7335342",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJJQ-RVj2t54kRKtgtjrDhnek",
+  "venue_type": "training_studio",
+  "about": "GOLFTEC West Hartford is a training studio that provides golf lessons and club fitting services. They offer a Swing Evaluation for $95 to analyze a golfer's swing and create a personalized improvement plan. The facility uses advanced technology, including launch monitors, high-speed cameras, and motion capture systems to analyze swings and provide data-driven coaching. Membership plans are available, providing access to coaching, club fitting, and practice facilities for customized improvement plans. The center is located at 1146 New Britain Ave, West Hartford, and is currently operating with a 'coming soon' status.",
+  "tags": "beginner_friendly|coaching_available|premium_tech|serious_practice|club_rentals|pro_shop",
+  "vibe_tags": "tech_lab|industrial_training|modern|welcoming",
+  "who_its_for": "beginners|serious_golfers|juniors_youth|solo_practice|coaches_instructors",
+  "why_golfers_like_it": [
+    "Advanced technology like OPTIMOTION and launch monitors provides detailed swing analysis",
+    "Personalized lesson plans and game strategies tailored to individual goals",
+    "Custom club fitting services with access to top golf brands",
+    "Flexible membership plans for consistent improvement"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of food services on-site"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol services on-site"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": "Unknown",
+      "notes": "GOLFTEC uses Foresight launch monitors in their simulator bays"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.golftec.com/book-a-service?url_service=swingevaluation",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|pro_shop|club_fitting|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can use your own clubs, but GOLFTEC also provides club rentals and offers custom club fitting services."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "There is no mention of food or drink services on-site, so outside food and drink policies are unclear."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Time for 18 holes in the simulator is not specified, but typical simulator sessions vary based on the player's pace and the software being used."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, GOLFTEC offers youth golf lessons and programs specifically designed for juniors under 18."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"8AM-8PM\"], \"Tuesday\": [\"8AM-8PM\"], \"Wednesday\": [\"8AM-8PM\"], \"Thursday\": [\"8AM-8PM\"], \"Friday\": [\"8AM-6PM\"], \"Saturday\": [\"9AM-5PM\"], \"Sunday\": [\"9AM-5PM\"]}"
+}

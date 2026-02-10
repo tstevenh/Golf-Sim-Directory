@@ -1,0 +1,100 @@
+{
+  "name": "CityGolf Norwell",
+  "address": "119 Washington St, Norwell, MA 02061",
+  "city": "Norwell",
+  "region": "Massachusetts",
+  "country": "US",
+  "latitude": 42.170997,
+  "longitude": -70.876774,
+  "phone": "+17818784653",
+  "website": "https://citygolfboston.com/norwell/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770236225/golf_simulators/citygolfboston_com_ChIJ6QkMPgBh44kRyXsBJCCGKp4.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/CityGolf+Norwell/@42.1709965,-70.87677409999999,14z/data=!4m8!1m2!2m1!1sCityGolf+Norwell!3m4!1s0x89e361003e0c09e9:0x9e2a862024017bc9!8m2!3d42.1709965!4d-70.87677409999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ6QkMPgBh44kRyXsBJCCGKp4",
+  "email": "info@citygolfboston.com",
+  "venue_type": "training_studio",
+  "about": "CityGolf Norwell is an indoor golf facility offering elite-level instruction, cutting-edge simulators, and year-round golf experiences. Located at 119 Washington Street, Norwell, MA, the venue is positioned as a premier destination for golfers seeking to improve their game without traditional outdoor constraints. The facility emphasizes professional coaching using PGA-certified instructors and state-of-the-art technology, including video swing analysis and real-time data feedback. CityGolf Norwell provides a comprehensive range of services tailored to golfers of all skill levels, from beginners to low-handicap players, with a focus on measurable improvement and community engagement.",
+  "tags": "beginner_friendly|serious_golfers|coaching_available|corporate_events|premium_tech|juniors_youth|community_club|private_rooms|leagues|club_fitting",
+  "vibe_tags": "tech_lab|community_club|modern|welcoming",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "Unlimited PGA-certified instruction included in memberships",
+    "Access to premium golf simulators with real-time swing analysis",
+    "Year-round indoor play avoiding weather constraints",
+    "Proven 30% average handicap reduction for members",
+    "Flexible private event and corporate outing options"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": null,
+      "notes": "Premium launch monitor mentioned in tech section"
+    },
+    {
+      "brand": "Uneekor",
+      "model": null,
+      "notes": "Premium simulator brand mentioned in technology section"
+    }
+  ],
+  "simulator_so": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://citygolfboston.com/contact/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|pro_shop|club_fitting|leagues|private_party_room|tv_sports",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you should bring your own golf clubs, though club fitting services are available at the facility."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, outside food and drinks are not mentioned as permitted, and no on-site dining or bar services are advertised."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Time to complete 18 holes is not specified, but simulator sessions typically allow for flexible timing depending on the player's pace and goals."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, CityGolf Norwell offers junior golf programs and is designed to accommodate young golfers through PGA Junior League and youth instruction."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"11AM-8PM\"], \"Wednesday\": [\"11AM-8PM\"], \"Thursday\": [\"11AM-8PM\"], \"Friday\": [\"11AM-8PM\"], \"Saturday\": [\"11AM-4PM\"], \"Sunday\": [\"11AM-4PM\"]}"
+}

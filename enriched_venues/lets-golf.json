@@ -1,0 +1,83 @@
+{
+  "name": "Let's Golf",
+  "address": "12900 Eastlake Blvd Suite A112, El Paso, TX 79928",
+  "city": "El Paso",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 31.698108,
+  "longitude": -106.243194,
+  "phone": "+19152198065",
+  "website": "http://www.letsgolfnow.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770216926/golf_simulators/www_letsgolfnow_com_ChIJzeIkbwBB54YR971rbNt1Itc.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Let%27s+Golf/@31.6981076,-106.2431943,14z/data=!4m8!1m2!2m1!1sLet%27s+Golf!3m4!1s0x86e741006f24e2cd:0xd72275db6c6bbdf7!8m2!3d31.6981076!4d-106.2431943",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJzeIkbwBB54YR971rbNt1Itc",
+  "email": "admin@letsgolfnow.com",
+  "venue_type": "sim_bar",
+  "about": "Let's Golf is a sports and entertainment venue combining golf simulation with food, drinks, and live sports viewing. The facility features state-of-the-art golf simulators where players can practice their swing, play world-famous courses, or compete with friends. It operates as a hybrid sports bar and golf center, with a focus on providing a casual, social atmosphere for both golf enthusiasts and casual players. The venue offers hourly bay rentals and is open late, making it accessible for after-hours entertainment and group gatherings.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|late_night|date_night|party_atmosphere|premium_tech|club_rentals",
+  "vibe_tags": "sports_bar|casual|welcoming|modern",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Access to realistic golf simulators allowing play on world-famous courses",
+    "Social atmosphere combining golf with sports viewing and food/drinks",
+    "Flexible booking options for both casual play and group events"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Menu packed with fan favorites, though specific items not listed"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Craft beers, cocktails, and full bar service available"
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://tables.toasttab.com/restaurants/29b34b10-26b4-4a91-9bf4-36f9854d8440/findTime",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues|ada_accessible",
+  "rating_tech_quality": 4.0,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 3.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify whether clubs are provided or if players need to bring their own. It's recommended to check with the venue directly or inquire during booking."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue offers food and drink service, but there's no mention of BYOB policies. It appears they have a kitchen and full bar, suggesting outside food and drinks may not be permitted."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify the time required to complete 18 holes on the simulators. Typically, this can vary based on the number of players and pace of play, so it's best to ask when booking."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Let's Golf appears to be kid-friendly. They mention being a great venue for birthdays and other celebrations, and their description suggests a welcoming atmosphere for families."
+    }
+  ],
+  "rating_overall": 3.9,
+  "opening_hours": "{\"Monday\": [\"11AM-11PM\"], \"Tuesday\": [\"11AM-11PM\"], \"Wednesday\": [\"11AM-11PM\"], \"Thursday\": [\"11AM-11PM\"], \"Friday\": [\"11AM-11PM\"], \"Saturday\": [\"11AM-11PM\"], \"Sunday\": [\"11AM-11PM\"]}"
+}

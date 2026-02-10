@@ -1,0 +1,89 @@
+{
+  "name": "Birdie Train Golf Lounge",
+  "address": "245 Tully Rd, Orange, MA 01364",
+  "city": "Orange",
+  "region": "Massachusetts",
+  "country": "US",
+  "latitude": 42.636151,
+  "longitude": -72.247991,
+  "phone": "+15088017386",
+  "website": "https://www.birdietraingolflounge.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770225687/golf_simulators/www_birdietraingolflounge_com_ChIJPXuBPzpB4YkRHSiCp11h3zc.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Birdie+Train+Golf+Lounge/@42.6361506,-72.2479912,14z/data=!4m8!1m2!2m1!1sBirdie+Train+Golf+Lounge!3m4!1s0x89e1413a3f817b3d:0x37df615da782281d!8m2!3d42.6361506!4d-72.2479912",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJPXuBPzpB4YkRHSiCp11h3zc",
+  "email": "801-7386birdietraingolflounge@gmail.com",
+  "venue_type": "sim_bar",
+  "about": "Birdie Train Golf Lounge is a virtual golf simulator venue located inside The Boiler Bar & Grille in Orange, Massachusetts. It utilizes high-end Trackman technology to offer golfers the ability to play on over 200 virtual courses worldwide or work on their swing with detailed analytical data. The venue provides a casual, welcoming atmosphere with a full-service bar and restaurant on-site, making it a convenient all-in-one destination for golf, food, and drinks. It is suitable for individual practice, group events, league play, and tournaments, with flexible hours to accommodate various schedules and a special Sunday deal offering three hours for the price of two.",
+  "tags": "food_and_drinks|beginner_friendly|leagues|premium_tech|corporate_events|date_night|private_rooms|late_night",
+  "vibe_tags": "casual|welcoming|sports_bar",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "Premium Trackman technology provides detailed swing data for game improvement",
+    "Convenient in-house restaurant and bar allows for easy food and drink service during play",
+    "Supports various events from leagues and tournaments to corporate parties and casual outings"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full restaurant menu available through The Boiler Bar & Grille, featuring appetizers, salads, burgers, sandwiches, homemade entrees, and smoked BBQ"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Bar service available through The Boiler Bar & Grille"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Professional-grade simulator used for play, practice, and data analysis"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://yourgolfbooking.com/venues/birdie-train-golf-lounge/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": false,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own golf clubs?",
+      "answer": "You can bring your own clubs, but they also have club rentals available if needed."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No outside food or drinks are allowed, as the venue is located inside The Boiler Bar & Grille which offers a full menu and bar service."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "Playing 18 holes typically takes around 2 to 3 hours, depending on your pace and whether you are practicing or playing a full round."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is family-friendly and suitable for all ages, making it a good option for families to enjoy together."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"10AM-9PM\"], \"Tuesday\": [\"10AM-9PM\"], \"Wednesday\": [\"10AM-9PM\"], \"Thursday\": [\"10AM-9PM\"], \"Friday\": [\"10AM-10PM\"], \"Saturday\": [\"10AM-10PM\"], \"Sunday\": [\"9AM-9PM\"]}"
+}

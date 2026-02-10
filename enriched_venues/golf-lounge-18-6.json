@@ -1,0 +1,91 @@
+{
+  "name": "Golf Lounge 18",
+  "address": "125 Westchester Ave, White Plains, NY 10601",
+  "city": "White Plains",
+  "region": "New York",
+  "country": "US",
+  "latitude": 41.030687,
+  "longitude": -73.759162,
+  "phone": "+19142462666",
+  "website": "http://golflounge18.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770208802/golf_simulators/golflounge18_com_ChIJnxeKaJiVwokRlJ_uXpX0MV8.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Golf+Lounge+18/@41.0306874,-73.759162,14z/data=!4m8!1m2!2m1!1sGolf+Lounge+18!3m4!1s0x89c29598688a179f:0x5f31f4955eee9f94!8m2!3d41.0306874!4d-73.759162",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJnxeKaJiVwokRlJ_uXpX0MV8",
+  "email": "info@golflounge18.com",
+  "venue_type": "sim_bar",
+  "about": "Golf Lounge 18 is an indoor golf facility featuring TrackMan 4 technology simulator bays. The venue provides a social environment with a full bar, multiple HDTVs for sports viewing, and a focus on both play and private lessons. Membership options are available with various packages offering discounts on bay rates, and the facility hosts leagues, corporate events, and parties. The service model includes hourly bay reservations that can be split amongst groups.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|coaching_available|juniors_youth",
+  "vibe_tags": "casual|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "Premium TrackMan 4 Dual Radar Technology for accurate shot tracking",
+    "Access to over 450 world-famous golf courses to play on",
+    "Full bar and sports TVs create a social sports bar atmosphere",
+    "PGA Certified Golf Instructors available for lessons at all skill levels",
+    "Flexible hourly bay pricing suitable for individuals and groups"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "On-site food menu available with an expanded menu for socializing"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar available on-site"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "Dual Radar Technology trusted by hundreds of pros"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://golflounge18.com/book/",
+  "pricing_model": "per_bay_hour|mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|leagues|coaching_available",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The information provided does not specify if club rentals are available."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "The venue has an on-site food menu and full bar, making external food and drink unnecessary."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "The content does not specify an average time for playing 18 holes."
+    },
+    {
+      "question": "Is Golf Lounge 18 kid-friendly?",
+      "answer": "Yes, they offer a Junior Academy and after-school membership for juniors, indicating a kid-friendly environment."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"8AM-10PM\"], \"Tuesday\": [\"8AM-10PM\"], \"Wednesday\": [\"8AM-10PM\"], \"Thursday\": [\"8AM-10PM\"], \"Friday\": [\"8AM-10PM\"], \"Saturday\": [\"8AM-10PM\"], \"Sunday\": [\"8AM-8PM\"]}"
+}

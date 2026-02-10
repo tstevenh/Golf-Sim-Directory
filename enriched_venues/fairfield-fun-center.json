@@ -1,0 +1,98 @@
+{
+  "name": "Fairfield Fun Center",
+  "address": "6400 Dixie Hwy, Fairfield, OH 45014",
+  "city": "Fairfield",
+  "region": "Ohio",
+  "country": "US",
+  "latitude": 39.323563,
+  "longitude": -84.503491,
+  "phone": "+15138709268",
+  "website": "https://www.milesofgolf.com/cincinnati-entertainment",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770242305/golf_simulators/www_milesofgolf_com_ChIJWdtI9yJPQIgRnVbfRv9PJaE.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Fairfield+Fun+Center/@39.323563,-84.503491,14z/data=!4m8!1m2!2m1!1sFairfield+Fun+Center!3m4!1s0x88404f22f748db59:0xa1254fff46df569d!8m2!3d39.323563!4d-84.503491",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJWdtI9yJPQIgRnVbfRv9PJaE",
+  "venue_type": "multi_sport_sim",
+  "about": "Fairfield Fun Center, acquired by Miles of Golf in 2013, is a family-friendly entertainment venue located next to the company's Cincinnati facility. It offers a miniature golf course known as 'The Mountain,' featuring intricate design with waterfalls and landscaped surroundings. The center also includes batting cages for baseball and softball. The adjacent Miles of Golf facility provides year-round access to golf simulator bays equipped with Toptracer technology, food and beverage service, and private tee times, making it a comprehensive destination for both leisure and serious practice.",
+  "tags": "beginner_friendly|food_and_drinks|family_fun_center|corporate_events|premium_tech|kids_friendly|private_rooms|club_rentals",
+  "vibe_tags": "family_fun_center|sports_bar|private_luxury",
+  "who_its_for": "families|beginners|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "Toptracer technology in simulator bays provides instant feedback on ball speed, trajectory, and distance",
+    "Comprehensive practice facilities include 28 acres of state-of-the-art golf amenities",
+    "Private Masters Suites offer a premium golf experience with food and beverage service"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Food available from Stockton Beer Garden with delivery to suites"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Beverages available from Stockton Beer Garden with delivery to suites"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Toptracer",
+      "model": "unknown",
+      "notes": "Included in Masters Suites for game simulation and shot tracking"
+    },
+    {
+      "brand": "TrackMan",
+      "model": "unknown",
+      "notes": "Used for club fitting and instruction providing precise ball flight analytics"
+    },
+    {
+      "brand": "Foresight",
+      "model": "GC Quad",
+      "notes": "Used for launch monitoring during club fitting sessions"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar|hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://booknow.appointment-plus.com/ck5s9src/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 10,
+  "price_range_max_local": 12,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "full_bar|kitchen_food|tv_sports|private_party_room|pro_shop|club_fitting",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Club fittings are available to help you find the perfect equipment. For simulator sessions, clubs are typically provided, but personal clubs can be used."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drinks are not mentioned as permitted. The facility offers food and beverage service from Stockton Beer Garden that can be delivered directly to your suite."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time for 18 holes on the simulator is not specified, but it typically depends on the number of players and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Fairfield Fun Center is family-friendly and specifically offers a miniature golf course and batting cages that are accessible and enjoyable for children."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-6PM\"], \"Tuesday\": [\"10AM-6PM\"], \"Wednesday\": [\"10AM-6PM\"], \"Thursday\": [\"10AM-6PM\"], \"Friday\": [\"10AM-6PM\"], \"Saturday\": [\"10AM-6PM\"], \"Sunday\": [\"10AM-6PM\"]}"
+}

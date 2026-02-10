@@ -1,0 +1,91 @@
+{
+  "name": "Oasis Indoor Golf",
+  "address": "2487 E State St, Salem, OH 44460",
+  "city": "Salem",
+  "region": "Ohio",
+  "country": "US",
+  "latitude": 40.899563,
+  "longitude": -80.82573,
+  "phone": "+13307087112",
+  "website": "http://www.oasisgolfbar.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770211845/golf_simulators/www_oasisgolfbar_com_ChIJ7fbIFWqrNogRRPqv9gS8JYw.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Oasis+Indoor+Golf/@40.8995635,-80.82573,14z/data=!4m8!1m2!2m1!1sOasis+Indoor+Golf!3m4!1s0x8836ab6a15c8f6ed:0x8c25bc04f6affa44!8m2!3d40.8995635!4d-80.82573",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ7fbIFWqrNogRRPqv9gS8JYw",
+  "email": "oasisgolfbar@outlook.com",
+  "venue_type": "sim_bar",
+  "about": "Oasis Indoor Golf & Sports Bar in Salem, OH, is a golf simulator venue with a full-service bar and restaurant. It features four public bays equipped with TrackMan 4 launch monitor technology, each with bar-top seating and dedicated table service. The venue also offers a private bay, known as the Tiger Woods private bay, for a more exclusive experience. With a casual, sports bar atmosphere, the facility welcomes golfers and non-golfers alike, offering amenities such as arcade games, pool tables, and numerous TVs for entertainment. Pricing is based on the number of golfers and includes options for both public and private bays.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|private_rooms|party_atmosphere|family_friendly",
+  "vibe_tags": "sports_bar|family_fun_center|party_atmosphere|community_club",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "Premium TrackMan 4 launch monitor technology for accurate simulation",
+    "Dedicated table service in each bay for a seamless experience",
+    "Multiple booking options including public and private bays",
+    "In-house restaurant and full-service bar for a complete outing"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full-service in-house restaurant with lunch, dinner, and weekend brunch (Saturdays & Sundays 9 AM - 12 PM)"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full-service bar with dedicated table service in each bay"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "Four public bays equipped with TrackMan 4 launch monitor technology"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 5,
+  "booking_url": "https://site.booxi.com/book_v2.html?key=3140vD2S36n371177M8K76Zzi76WRk41&remote_origin=https%3A%2F%2Fwww.booxi.com&cfg=eyJwYWdlX3JlZiI6IiJ9",
+  "pricing_model": "mixed",
+  "price_range_min_local": 10,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|leagues|private_party_room|arcade_games|pool_table|jukebox",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue does not specify whether club rentals are available, so it's recommended to bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, outside food and drinks are not permitted as the venue offers a full-service bar and in-house restaurant."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify the time required to play 18 holes, as it depends on simulator usage and group size."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Oasis Indoor Golf & Sports Bar is kid-friendly, offering arcade games, pool tables, and a family-oriented atmosphere."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"4-10PM\"], \"Tuesday\": [\"4-10PM\"], \"Wednesday\": [\"11AM-10PM\"], \"Thursday\": [\"11AM-10PM\"], \"Friday\": [\"11AM-12AM\"], \"Saturday\": [\"9AM-12AM\"], \"Sunday\": [\"9AM-6PM\"]}"
+}

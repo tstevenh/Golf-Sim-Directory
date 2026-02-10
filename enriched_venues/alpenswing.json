@@ -1,0 +1,90 @@
+{
+  "name": "Alpenswing",
+  "address": "10242 Church St #206, Truckee, CA 96161",
+  "city": "Truckee",
+  "region": "California",
+  "country": "US",
+  "latitude": 39.330407,
+  "longitude": -120.180376,
+  "phone": "+15306065418",
+  "website": "https://www.alpenswing.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770255900/golf_simulators/www_alpenswing_com_ChIJv2H3MADfm4ARPOFztBkWpE4.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Alpenswing/@39.3304069,-120.180376,14z/data=!4m8!1m2!2m1!1sAlpenswing!3m4!1s0x809bdf0030f761bf:0x4ea41619b473e13c!8m2!3d39.3304069!4d-120.180376",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJv2H3MADfm4ARPOFztBkWpE4",
+  "email": "info@alpenswing.com",
+  "venue_type": "sim_bar",
+  "about": "Alpenswing is an indoor entertainment center in downtown Truckee, featuring three golf simulator bays with TrackMan technology and two axe throwing lanes. The venue offers a welcoming atmosphere for all ages, providing golf data and shot analysis, interactive games, and a selection of beer and snacks. Operating hours are daily, with varied timings from 10am to 9pm depending on the day. Pricing is structured per hour for golf bays and axe throwing lanes, alongside flexible membership options for frequent visitors.",
+  "tags": "food_and_drinks|beginner_friendly|family_friendly|corporate_events|premium_tech|date_night|kids_friendly",
+  "vibe_tags": "family_fun_center|sports_bar|community_club|modern|welcoming",
+  "who_its_for": "beginners|families|corporate_teams|solo_practice|tourists_travelers",
+  "why_golfers_like_it": [
+    "Premium TrackMan technology provides detailed swing and shot data for performance improvement",
+    "Indoor golf simulators offer year-round play regardless of weather conditions",
+    "Interactive games and features add entertainment value to practice sessions",
+    "Flexible pricing model allows for casual play or long-term memberships"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Variety of light bites and snacks available; outside food may be allowed with prior approval"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Beer and alcoholic beverages served; membership includes 10% off food and drinks"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "unknown",
+      "notes": "Doppler radar system with dual tracking for ball and clubhead, plus front-facing camera for calibration"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://booking.trackmangolf.com/venues/alpenswing/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 40,
+  "price_range_max_local": 1299,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": false,
+  "private_rooms_count": 0,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue does not specify whether clubs are provided, so it is recommended to bring your own equipment."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside snacks are welcome, but policies for outside food and drinks should be confirmed directly with the venue."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Golf simulator sessions are typically 1 hour per person for 18 holes, with adjustments possible based on preference."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Alpenswing is family-friendly and offers features and games suitable for children, including TrackMan's interactive games."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"11AM-8PM\"], \"Tuesday\": [\"11AM-8PM\"], \"Wednesday\": [\"11AM-8PM\"], \"Thursday\": [\"11AM-8PM\"], \"Friday\": [\"11AM-9PM\"], \"Saturday\": [\"10AM-9PM\"], \"Sunday\": [\"11AM-7PM\"]}"
+}

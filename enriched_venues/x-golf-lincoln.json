@@ -1,0 +1,85 @@
+{
+  "name": "X-Golf Lincoln",
+  "address": "622 George Washington Hwy Unit 1, Lincoln, RI 02865",
+  "city": "Lincoln",
+  "region": "Rhode Island",
+  "country": "US",
+  "latitude": 41.937057,
+  "longitude": -71.47982,
+  "phone": "+14013355595",
+  "website": "http://www.xgolflincoln.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770200343/golf_simulators/www_xgolflincoln_com_ChIJv3H9-ihB5IkR2s9Gp36Pdvw.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/X-Golf+Lincoln/@41.937056899999995,-71.4798201,14z/data=!4m8!1m2!2m1!1sX-Golf+Lincoln!3m4!1s0x89e44128fafd71bf:0xfc768f7ea746cfda!8m2!3d41.937056899999995!4d-71.4798201",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJv3H9-ihB5IkR2s9Gp36Pdvw",
+  "email": "info@xgolflincoln.com",
+  "venue_type": "sim_bar",
+  "about": "X-Golf Lincoln is an indoor golf facility equipped with 6 state-of-the-art golf simulators. The venue offers a comprehensive experience that combines practice, play, training, and entertainment. Each simulator is available for hourly rental, with prices varying by day and time. The facility also features a full-service restaurant and bar, on-site parking, and event spaces suitable for corporate gatherings and private parties. Golf lessons with PGA-certified instructors are available, and memberships are offered for those seeking more frequent access during the winter months.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|kids_friendly|corporate_events|leagues|premium_tech|coaching_available|late_night",
+  "vibe_tags": "sports_bar|family_fun_center|tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "State-of-the-art simulators provide unparalleled accuracy and realism",
+    "Full bar and restaurant on-site for a complete social experience",
+    "PGA-certified coaching available to improve golf skills",
+    "Flexible membership options for dedicated winter practice",
+    "Accommodates groups up to 6 people per simulator bay"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen offering shareable bites, appetizers, snacks, and pizzas"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full liquor license and craft beer on tap"
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 6,
+  "booking_url": "https://clients.uschedule.com/xgolflincoln/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 55,
+  "price_range_max_local": 70,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 6,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need clubs?",
+      "answer": "Club rental is available at the venue."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "No, outside food and drink are not permitted. The facility has a full-service restaurant and bar."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Generally, it takes about one hour for an individual to play 18 holes. Each additional person adds approximately one hour to the total time."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, children of all ages are welcome at X-Golf Lincoln."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"9AM-12AM\"], \"Saturday\": [\"8AM-12AM\"], \"Sunday\": [\"8AM-10PM\"]}"
+}

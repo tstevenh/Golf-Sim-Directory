@@ -1,0 +1,89 @@
+{
+  "name": "TeeBox Indoor Golf Club",
+  "address": "7100 E Cave Creek Rd Ste 145, Cave Creek, AZ 85331",
+  "city": "Cave Creek",
+  "region": "Arizona",
+  "country": "US",
+  "latitude": 33.829477,
+  "longitude": -111.927672,
+  "phone": "+14803995600",
+  "website": "https://www.teebox.club/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770224189/golf_simulators/www_teebox_club_ChIJF_-DnJl_K4cRhztHZKQXG2A.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/TeeBox+Indoor+Golf+Club/@33.8294774,-111.9276725,14z/data=!4m8!1m2!2m1!1sTeeBox+Indoor+Golf+Club!3m4!1s0x872b7f999c83ff17:0x601b17a464473b87!8m2!3d33.8294774!4d-111.9276725",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJF_-DnJl_K4cRhztHZKQXG2A",
+  "email": "info@teebox.club",
+  "venue_type": "sim_bar",
+  "about": "TeeBox Indoor Golf Club is a destination venue combining golf simulation, fitness, and social dining. It features 9 Trackman simulators in a climate-controlled environment with 3 ultra-premium and 6 premium bays, each accommodating up to 6 people. The facility includes an 11,000 sq ft indoor space and a 4,400 sq ft patio with heaters and misters, making it suitable for a range of events from casual gatherings to corporate parties. The venue is positioned as a modern golf and social club where golfers, athletes, and friends can connect, improve, and thrive, complemented by a chef-driven 'Scratch' Kitchen & Bar serving fresh, high-quality ingredients.",
+  "tags": "food_and_drinks|corporate_events|leagues|premium_tech|coaching_available|private_rooms|club_rentals|community_club|beginner_friendly",
+  "vibe_tags": "upscale_lounge|tech_lab|community_club|modern",
+  "who_its_for": "serious_golfers|families|corporate_teams|beginners|large_groups",
+  "why_golfers_like_it": [
+    "State-of-the-art Trackman technology for precise swing and ball flight analysis",
+    "Comprehensive fitness integration with advanced equipment like Proteus Motion and OxeFit",
+    "Elevated social atmosphere with premium bays featuring comfortable seating and food service"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Chef-driven 'Scratch' Kitchen & Bar with fresh, high-quality ingredients, offering breakfast, lunch, dinner, and happy hour specials"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service with craft cocktails and signature drinks"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "9 Trackman simulators for golf practice and simulation"
+    }
+  ],
+  "simulator_software": [
+    "Trackman Golf"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 9,
+  "booking_url": "https://www.sevenrooms.com/reservations/teeboxindoorgolfclub?duration-picker=true",
+  "pricing_model": "mixed",
+  "price_range_min_local": 49,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 3,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|pro_shop|club_fitting|leagues|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.5,
+  "rating_value_for_money": 4.2,
+  "faq": [
+    {
+      "question": "Do I need to bring my own golf clubs?",
+      "answer": "You can bring your own clubs or rent the latest PING equipment for $25, based on availability."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drinks are not mentioned; however, the venue features a full-service kitchen and bar with chef-crafted meals and cocktails."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time for 18 holes is not specified, but the venue offers various packages with hourly bay time, such as 30 minutes or 1-hour sessions."
+    },
+    {
+      "question": "Is TeeBox kid-friendly?",
+      "answer": "The venue does not explicitly mention kid-friendly features or activities, but its family-oriented events and social atmosphere suggest it may be accommodating for families."
+    }
+  ],
+  "rating_overall": 4.5,
+  "opening_hours": "{\"Monday\": [\"11AM-9PM\"], \"Tuesday\": [\"11AM-9PM\"], \"Wednesday\": [\"11AM-9PM\"], \"Thursday\": [\"11AM-9PM\"], \"Friday\": [\"11AM-9PM\"], \"Saturday\": [\"9AM-9PM\"], \"Sunday\": [\"9AM-7PM\"]}"
+}

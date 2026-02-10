@@ -1,0 +1,92 @@
+{
+  "name": "Fairway's Indoor Golf",
+  "address": "110 W Indiana Ave, DeLand, FL 32720",
+  "city": "DeLand",
+  "region": "Florida",
+  "country": "US",
+  "latitude": 29.028806,
+  "longitude": -81.303965,
+  "phone": "+17078144352",
+  "website": "https://www.fairways.fun/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770218068/golf_simulators/www_fairways_fun_ChIJn0hzMKwb54gR0Kyopjuln00.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Fairway%27s+Indoor+Golf/@29.0288057,-81.30396499999999,14z/data=!4m8!1m2!2m1!1sFairway%27s+Indoor+Golf!3m4!1s0x88e71bac3073489f:0x4d9fa53ba6a8acd0!8m2!3d29.0288057!4d-81.30396499999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJn0hzMKwb54gR0Kyopjuln00",
+  "email": "filler@godaddy.com",
+  "venue_type": "multi_sport_sim",
+  "about": "Fairway's Indoor Golf is an indoor golf studio that provides a tranquil environment for players of all skill levels to enjoy golf regardless of weather conditions. The facility offers club rentals, range balls, game balls, tees, and gloves, and features world-famous courses and driving ranges. Players can fix their slice, dial in their clubs, or challenge friends, with courses selected by staff based on current events and holidays. The venue is equipped with launch monitors that may misread practice swings as hits, and the application of rules is subject to the discretion of scorekeepers and event-workers.",
+  "tags": "beginner_friendly|club_rentals|coaching_available|leagues|premium_tech|serious_practice|solo_practice",
+  "vibe_tags": "casual|welcoming|modern|community_club",
+  "who_its_for": "beginners|serious_golfers|families|solo_practice|corporate_teams",
+  "why_golfers_like_it": [
+    "Access to world-famous golf courses and driving ranges in an indoor setting",
+    "Tranquil environment for finding your Zen in golf",
+    "Advanced launch monitor technology for accurate ball and club tracking",
+    "Variety of amenities including club rentals and game accessories",
+    "Ideal for both serious practice and fun with friends"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned, BYOB not specified"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned, BYOB not specified"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": "FSX Play",
+      "notes": "Premium launch monitor with ball and club tracking, may misread practice swings as hits"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.fairways.fun/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|pro_shop|leagues|coaching_available",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 3.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, club rentals are available at the venue."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "BYOB policy is not explicitly mentioned on the website."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Time to play 18 holes is not specified on the website."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The venue is described as being for everybody, but specific kid-friendly amenities or policies are not mentioned."
+    }
+  ],
+  "simulator_software": [
+    "FSX Play"
+  ],
+  "rating_overall": 4.1,
+  "opening_hours": "{\"Monday\": [\"7:30AM-9:30PM\"], \"Tuesday\": [\"7:30AM-9:30PM\"], \"Wednesday\": [\"7:30AM-9:30PM\"], \"Thursday\": [\"7:30AM-9:30PM\"], \"Friday\": [\"7:30AM-10:30PM\"], \"Saturday\": [\"7:30AM-9:30PM\"], \"Sunday\": [\"12:30-5:30PM\"]}"
+}

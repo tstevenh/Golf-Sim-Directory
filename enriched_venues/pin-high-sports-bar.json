@@ -1,0 +1,91 @@
+{
+  "name": "Pin High Sports Bar",
+  "address": "1951 E 18th St #102, Norwalk, IA 50211",
+  "city": "Norwalk",
+  "region": "Iowa",
+  "country": "US",
+  "latitude": 41.48553,
+  "longitude": -93.668618,
+  "phone": "+15156121850",
+  "website": "http://pinhighsports.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770252001/golf_simulators/pinhighsports_com_ChIJqQgdED6h7ocRlHDaNr5oA-4.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Pin+High+Sports+Bar/@41.4855303,-93.6686177,14z/data=!4m8!1m2!2m1!1sPin+High+Sports+Bar!3m4!1s0x87eea13e101d08a9:0xee0368be36da7094!8m2!3d41.4855303!4d-93.6686177",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJqQgdED6h7ocRlHDaNr5oA-4",
+  "venue_type": "sim_bar",
+  "about": "Pin High Sports Bar is a multi-sport entertainment venue that combines six premium AboutGolf simulators with four Qubica AMF bowling lanes. It offers a sports bar environment with pool tables, darts, and Golden Tee arcade games. The venue is equipped with state-of-the-art technology, including 3Trak launch monitors and Clubhouse software, to provide realistic golf simulations. Pricing varies by time of day and day of week, with hourly rates ranging from $30 to $60. The facility aims to create a welcoming atmosphere for both serious practice and casual recreation, positioning itself as a gameday destination with over 30 TVs and projectors.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|late_night|coaching_available|sports_bar",
+  "vibe_tags": "sports_bar|casual|welcoming|community_club",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "Premium AboutGolf simulators with 3Trak launch monitors",
+    "State-of-the-art Clubhouse and Clubhouse+ software suites",
+    "Multiple viewing options with over 30 TVs and projectors",
+    "Variety of pricing options throughout the week",
+    "Availability for both practice and league play"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full menu available from Mullets, located next door, for online purchase and pick-up"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Bar available with Happy Hour specials"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "AboutGolf",
+      "model": "Simulator",
+      "notes": "Premium golf simulator systems"
+    }
+  ],
+  "simulator_software": [
+    "Clubhouse",
+    "Clubhouse+"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 6,
+  "booking_url": "https://foreupsoftware.com/index.php/booking/22913/12310#teetimes",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 30,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 0,
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue does not explicitly state whether club rentals are available, but it's recommended to bring your own clubs for the best experience."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drink are not mentioned, but the venue offers a full menu from Mullets next door and has its own bar with Happy Hour specials."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "The exact time for 18 holes is not specified, but typical simulator rounds usually take 1-2 hours depending on the number of players."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Pin High Sports Bar appears to be kid-friendly with family-oriented activities like bowling and arcade games available."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"3-10PM\"], \"Tuesday\": [\"3-10PM\"], \"Wednesday\": [\"3-10PM\"], \"Thursday\": [\"3-10PM\"], \"Friday\": [\"3PM-12AM\"], \"Saturday\": [\"9AM-12AM\"], \"Sunday\": [\"9AM-10PM\"]}"
+}

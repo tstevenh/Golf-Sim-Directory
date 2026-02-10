@@ -1,0 +1,89 @@
+{
+  "name": "Orchards Golf Course & Restaurant",
+  "address": "1499 Golf Course Dr, Belleville, IL 62220",
+  "city": "Belleville",
+  "region": "Illinois",
+  "country": "US",
+  "latitude": 38.48798,
+  "longitude": -89.926459,
+  "phone": "+16182338921",
+  "website": "http://www.orchardsgolfclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770230294/golf_simulators/www_orchardsgolfclub_com_ChIJycKkmFUDdogR7MoQ2VXv0RU.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Orchards+Golf+Course+%26+Restaurant/@38.48798,-89.926459,14z/data=!4m8!1m2!2m1!1sOrchards+Golf+Course+%26+Restaurant!3m4!1s0x8876035598a4c2c9:0x15d1ef55d910caec!8m2!3d38.48798!4d-89.926459",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJycKkmFUDdogR7MoQ2VXv0RU",
+  "email": "info@orchardsgolfclub.com",
+  "venue_type": "multi_sport_sim",
+  "about": "The Orchards Golf Club & Restaurant in Belleville, Illinois, is a public facility featuring an 18-hole championship golf course, restaurant, and indoor simulator center. It is located minutes from St. Louis and offers both on-course and indoor golfing experiences. The venue provides a range of amenities including practice facilities, leagues, junior programs, and banquet spaces, making it suitable for individual players and groups alike.",
+  "tags": "food_and_drinks|leagues|juniors_youth|corporate_events|premium_tech|budget_friendly|club_rentals|coaching_available",
+  "vibe_tags": "family_fun_center|community_club|modern",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "State-of-the-art HD Golf simulators allow play on world's best courses",
+    "Expansive practice facility available for improvement and warm-ups",
+    "Affordable pricing and various membership options for regular players"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full restaurant service available at the venue"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Restaurant serves alcohol; no BYOB restrictions mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "HD Golf",
+      "model": "Simulator",
+      "notes": "Two state-of-the-art HD Golf simulators"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "http://theorchards.hdgolf.com",
+  "pricing_model": "per_person_hour|package",
+  "price_range_min_local": null,
+  "price_range_max_local": null,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 0,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify whether club rentals are available, but it's common practice at golf facilities to provide rental equipment."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue has a full-service restaurant and bar, so outside food and drink policies are not specified. It's recommended to inquire directly about BYOB options."
+    },
+    {
+      "question": "How long does it take to play 18 holes on the simulator?",
+      "answer": "While the exact time isn't specified, typical simulator rounds take 1-2 hours depending on group size and pace."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, The Orchards offers junior lessons and programs specifically designed for youth, making it a family-friendly option."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"7AM-9PM\"], \"Tuesday\": [\"7AM-9PM\"], \"Wednesday\": [\"7AM-9PM\"], \"Thursday\": [\"7AM-9PM\"], \"Friday\": [\"7AM-9PM\"], \"Saturday\": [\"7AM-9PM\"], \"Sunday\": [\"7AM-9PM\"]}"
+}

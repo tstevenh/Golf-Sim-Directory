@@ -1,0 +1,90 @@
+{
+  "name": "Zion Golf Club and BBQ & Bar",
+  "address": "15090 N Northsight Blvd #108, Scottsdale, AZ 85260",
+  "city": "Scottsdale",
+  "region": "Arizona",
+  "country": "US",
+  "latitude": 33.623596,
+  "longitude": -111.897049,
+  "phone": "+14807146791",
+  "website": "http://ziongolfclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770209843/golf_simulators/ziongolfclub_com_ChIJkeBVfj51K4cRGcmaIGOWGaw.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Zion+Golf+Club+and+BBQ+%26+Bar/@33.6235955,-111.8970495,14z/data=!4m8!1m2!2m1!1sZion+Golf+Club+and+BBQ+%26+Bar!3m4!1s0x872b753e7e55e091:0xac199663209ac919!8m2!3d33.6235955!4d-111.8970495",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJkeBVfj51K4cRGcmaIGOWGaw",
+  "email": "Touchteetimes@ziongolfclub.com",
+  "venue_type": "sim_bar",
+  "about": "Zion Golf Club & Bistro is an indoor golf facility and bar located in Scottsdale, Arizona. The venue utilizes TrackMan 4 simulators with dual radar technology for accurate shot tracking, allowing for golf regardless of weather conditions. It operates on a membership model with different tiers offering varying numbers of private one-hour sessions. The facility combines a high-tech golfing environment with a full-service bistro, providing food and drink options for members and guests.",
+  "tags": "food_and_drinks|serious_golfers|corporate_events|coaching_available|premium_tech|date_night|club_rentals|upscale_lounge|private_rooms",
+  "vibe_tags": "tech_lab|sports_bar|private_luxury|casual|welcoming|modern",
+  "who_its_for": "serious_golfers|corporate_teams|solo_practice|beginners|families",
+  "why_golfers_like_it": [
+    "Premium TrackMan 4 simulators with dual radar technology for high accuracy",
+    "Membership-based exclusivity ensuring no crowded greens and guaranteed access to bays",
+    "Flexible scheduling allows booking a bay for any date and time to fit your schedule",
+    "State-of-the-art facility with an in-house bistro for food and drinks"
+  ],
+  "kid_friendly": false,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "In-house bistro available with a menu offering BBQ items, smoked brisket sliders, and loaded fries."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available at the bistro."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "Dual radar technology for enhanced data accuracy"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://memberships.ziongolfclub.com/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 25,
+  "price_range_max_local": 75,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "The rules state players are responsible for equipment inside the simulators, implying you should bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "No, food and drinks must be kept at the provided tables. No food or drink is allowed inside the simulator at any time."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify a time for playing 18 holes."
+    },
+    {
+      "question": "Is it kid-friendly?",
+      "answer": "The venue appears focused on a serious golf and adult atmosphere; it does not explicitly market itself as kid-friendly."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"10AM-5PM\"], \"Wednesday\": [\"10AM-8PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-10PM\"], \"Saturday\": [\"10AM-10PM\"], \"Sunday\": [\"10AM-8PM\"]}"
+}

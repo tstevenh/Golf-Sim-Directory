@@ -1,0 +1,91 @@
+{
+  "name": "The Blue Duck",
+  "address": "130 2nd St E, Kalispell, MT 59901",
+  "city": "Kalispell",
+  "region": "Montana",
+  "country": "US",
+  "latitude": 48.197085,
+  "longitude": -114.310199,
+  "phone": "+14062823180",
+  "website": "http://blueduckgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770225347/golf_simulators/blueduckgolf_com_ChIJbwtibSZRZlMR5fKlPfQDkGA.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Blue+Duck/@48.1970846,-114.3101987,14z/data=!4m8!1m2!2m1!1sThe+Blue+Duck!3m4!1s0x536651266d620b6f:0x609003f43da5f2e5!8m2!3d48.1970846!4d-114.3101987",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJbwtibSZRZlMR5fKlPfQDkGA",
+  "venue_type": "sim_bar",
+  "about": "Blue Duck Golf Lounge is an indoor golf simulator venue that combines technology with a social lounge atmosphere. The facility offers various simulator sessions for different skill levels, from 1-hour to 4-hour durations, available on both weekdays and weekends. It appears to function as a multi-purpose space where golfers can play virtual courses on real courses while enjoying the environment of a sports lounge. The venue seems to cater to those looking for a combination of golf simulation and social entertainment.",
+  "tags": "food_and_drinks|beginner_friendly|date_night|corporate_events|leagues|premium_tech|budget_friendly",
+  "vibe_tags": "sports_bar|casual|welcoming|modern",
+  "who_its_for": "beginners|families|corporate_teams|solo_practice|tourists_travelers",
+  "why_golfers_like_it": [
+    "Access to premium golf simulator technology",
+    "Social atmosphere with sports bar amenities",
+    "Flexible booking options for various session lengths",
+    "Environment suitable for both practice and game nights",
+    "Convenient location in Kalispell, MT"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen available with food service"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Premium radar-based launch monitor technology"
+    }
+  ],
+  "simulator_software": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://www.blueduckgolf.com/book-online",
+  "pricing_model": "per_person_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": 0,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "While you can bring your own clubs, the venue likely provides rental clubs for those who don't have their own equipment."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, outside food and drinks are not permitted as the venue offers its own full kitchen and bar services."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "18 holes typically take 1-2 hours depending on your group size and session length chosen."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The venue appears family-friendly with its social atmosphere and sports lounge environment, though specific children's amenities are not explicitly mentioned."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"12-9PM\"], \"Tuesday\": [\"12-9PM\"], \"Wednesday\": [\"12-9PM\"], \"Thursday\": [\"12-9PM\"], \"Friday\": [\"12-10PM\"], \"Saturday\": [\"12-10PM\"], \"Sunday\": [\"12-9PM\"]}"
+}

@@ -1,0 +1,90 @@
+{
+  "name": "Elite Sports Academy",
+  "address": "27 Gauthier Dr, Epsom, NH 03234",
+  "city": "Epsom",
+  "region": "New Hampshire",
+  "country": "US",
+  "latitude": 43.234894,
+  "longitude": -71.364243,
+  "phone": "+16037360018",
+  "website": "https://esa-nh.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770251404/golf_simulators/esa-nh_com_ChIJlVzmVhhl4okRXKb9CcU18rk.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Elite+Sports+Academy/@43.2348937,-71.3642425,14z/data=!4m8!1m2!2m1!1sElite+Sports+Academy!3m4!1s0x89e2651856e65c95:0xb9f235c509fda65c!8m2!3d43.2348937!4d-71.3642425",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJlVzmVhhl4okRXKb9CcU18rk",
+  "email": "Support@esa-nh.com",
+  "venue_type": "sim_bar|training_studio",
+  "about": "Elite Sports Academy is an indoor sports facility that offers a multi-sport turf field, with the ability to convert into two full-size basketball courts seasonally. The facility includes 7 dedicated batting cages, a HitTrax program, a fitness center, and a golf simulator. The golf simulator provides an authentic playing experience using aboutGolf with 3Trak technology, widely regarded as one of the most accurate ball and club tracking systems available. Patrons can book by the hour during regular business hours, with onsite dining available at The Backstop snack shack and pub.",
+  "tags": "food_and_drinks|beginner_friendly|families|kids_friendly|leagues|premium_tech|coaching_available|corporate_events|family_fun_center",
+  "vibe_tags": "sports_bar|family_fun_center|community_club|modern",
+  "who_its_for": "beginners|families|kids_friendly|solo_practice|juniors_youth",
+  "why_golfers_like_it": [
+    "Uses aboutGolf 3Trak technology for highly accurate ball and club tracking",
+    "Features a comfortable indoor environment with an authentic playing experience",
+    "Onsite bar and lounge area available for relaxation",
+    "Convenient indoor facility for year-round practice and play"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Onsite snack shack and pub called The Backstop"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Drinks available at The Backstop onsite bar"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "aboutGolf",
+      "model": "Flatscreen Simulator",
+      "notes": "Uses 3Trak technology for ball and club tracking"
+    }
+  ],
+  "simulator_software": [
+    "aboutGolf"
+  ],
+  "launch_monitor_type": "infrared_optical",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 1,
+  "booking_url": "https://www.esoftplanner.com/v3/planner/login.php?access=0dG81LSVxNmo65a3xHuDxJqKqA==",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": false,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "full_bar|kitchen_food|tv_sports|leagues|family_friendly",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify whether clubs are provided, so it is recommended to bring your own clubs for the golf simulator session."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The facility has an onsite snack shack and pub called The Backstop where food and drinks are available, but bringing outside food and drinks is not mentioned."
+    },
+    {
+      "question": "How long does an 18-hole round take?",
+      "answer": "The website does not specify the duration of an 18-hole round; it only mentions hourly bookings for the golf simulator."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, Elite Sports Academy is designed with families in mind, offering a comfortable environment for parents and activities for young athletes, including golf simulator sessions."
+    }
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"4-9PM\"], \"Tuesday\": [\"4-9PM\"], \"Wednesday\": [\"4-9PM\"], \"Thursday\": [\"4-9PM\"], \"Friday\": [\"4-11PM\"], \"Saturday\": [\"8AM-9PM\"], \"Sunday\": [\"8AM-9PM\"]}"
+}

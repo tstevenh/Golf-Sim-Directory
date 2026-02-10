@@ -1,0 +1,91 @@
+{
+  "name": "GolfX",
+  "address": "842 Upper Union St, Franklin, MA 02038",
+  "city": "Franklin",
+  "region": "Massachusetts",
+  "country": "US",
+  "latitude": 42.060341,
+  "longitude": -71.393972,
+  "phone": "+15085303406",
+  "website": "https://www.golfxinc.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770200322/golf_simulators/www_golfxinc_com_ChIJn09J6fJv5IkRNELk_OwYwIg.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/GolfX/@42.060341099999995,-71.3939721,14z/data=!4m8!1m2!2m1!1sGolfX!3m4!1s0x89e46ff2e9494f9f:0x88c018ecfce44234!8m2!3d42.060341099999995!4d-71.3939721",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJn09J6fJv5IkRNELk_OwYwIg",
+  "email": "austin@golfxllc.com",
+  "venue_type": "sim_bar|training_studio",
+  "about": "GolfX is an indoor golf center in Franklin, Massachusetts, featuring five state-of-the-art golf simulators and a full pro shop offering regripping and repair services. The venue provides a private, judgment-free experience with rooms for each simulator, catering to golfers looking for affordable, high-quality practice and play. In 2024, a members-only private bay was built with extended hours and the latest technology. The facility also hosts leagues and offers a premium suite for larger groups and special events, equipped with amenities like a pool table, refrigerator, and 70-inch 4K TV for watching sports.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|private_rooms|club_rentals|coaching_available|late_night|budget_friendly",
+  "vibe_tags": "tech_lab|casual|welcoming|modern|private_luxury",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "Private, judgment-free simulator rooms",
+    "Premium suite with extra amenities for groups",
+    "Access to Uneekor QED and GSPro technology",
+    "Affordable hourly pricing with friend-friendly bookings",
+    "Members-only bay with extended hours and advanced tech"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "BYOB allowed; refrigerator available in premium suite"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "BYOB allowed; refrigerator available in premium suite"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "QED",
+      "notes": "Hyper-speed camera system providing accuracy from 10cm to 435 yards"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "overhead_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green|mixed",
+  "lefty_friendly": true,
+  "bay_count_total": 5,
+  "booking_url": "https://golfx.skedda.com/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 20,
+  "price_range_max_local": 50,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 5,
+  "max_group_size_per_bay": 8,
+  "amenities_list": "pro_shop|club_rentals|tv_sports|private_party_room|kitchen_food|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, players are expected to bring their own golf clubs to use with the simulators."
+    },
+    {
+      "question": "Can I bring food and drink?",
+      "answer": "Yes, BYOB is allowed; the premium suite is equipped with a refrigerator for storing food and drinks."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time for 18 holes varies based on the number of players and simulator usage, as bookings are made by the hour."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "No, there is no specific mention of kid-friendly amenities or features on the website."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"9AM-11PM\"], \"Saturday\": [\"9AM-11PM\"], \"Sunday\": [\"9AM-11PM\"]}"
+}

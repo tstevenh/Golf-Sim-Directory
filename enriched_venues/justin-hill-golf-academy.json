@@ -1,0 +1,96 @@
+{
+  "name": "Justin Hill Golf Academy",
+  "address": "2520 Arkansas Valley Dr, Little Rock, AR 72212",
+  "city": "Little Rock",
+  "region": "Arkansas",
+  "country": "US",
+  "latitude": 34.776454,
+  "longitude": -92.394884,
+  "phone": "+12145427613",
+  "website": "http://www.justinhillgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770248273/golf_simulators/www_justinhillgolf_com_ChIJhb0GchSl0ocR3tGxCO1oRWk.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Justin+Hill+Golf+Academy/@34.7764538,-92.3948839,14z/data=!4m8!1m2!2m1!1sJustin+Hill+Golf+Academy!3m4!1s0x87d2a5147206bd85:0x694568ed08b1d1de!8m2!3d34.7764538!4d-92.3948839",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJhb0GchSl0ocR3tGxCO1oRWk",
+  "email": "info@justinhillgolf.com",
+  "venue_type": "training_studio",
+  "about": "Justin Hill Golf Academy is a comprehensive golf instruction facility that utilizes advanced technology to provide lessons and analysis. The venue offers both indoor and outdoor bays equipped with Trackman, GC Quad, and high-speed video technology, alongside a dedicated SAM PuttLab for putting analysis. Instruction covers full swing, short game, sports psychology, and club fitting, with a focus on data-driven improvement. The academy emphasizes professional coaching with 19 years of PGA Tour experience and positions itself as a premium destination for serious golfers looking to enhance their game through technology-based training.",
+  "tags": "serious_practice|beginner_friendly|coaching_available|premium_tech|juniors_youth",
+  "vibe_tags": "tech_lab|professional_training",
+  "who_its_for": "serious_golfers|beginners|juniors_youth",
+  "why_golfers_like_it": [
+    "Advanced launch monitor technology including Trackman and GC Quad",
+    "Comprehensive SAM PuttLab for detailed putting analysis",
+    "Professional coaching with PGA Tour experience",
+    "Indoor and outdoor bay availability for year-round practice",
+    "Custom club fitting services"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "unknown",
+      "notes": "Premium radar launch monitor for ball flight analysis"
+    },
+    {
+      "brand": "GC Quad",
+      "model": "unknown",
+      "notes": "Dual camera launch monitor technology"
+    }
+  ],
+  "simulator_software": [
+    "V1-Golf"
+  ],
+  "launch_monitor_type": "radar|photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.justinhillgolf.com/contact-us",
+  "pricing_model": "per_person_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_fitting|pro_shop|coaching_available",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you should bring your own clubs. The venue also offers club fitting services if you're looking to optimize your equipment."
+    },
+    {
+      "question": "Can I bring food or drink?",
+      "answer": "No food or drink service is mentioned at the venue. It appears to be a focused training facility without dining options."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "Since this is a training facility with simulators, 18 holes would depend on your pace and whether you're taking lessons or just practicing. Typical simulator rounds range from 1-2 hours depending on play style."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, Justin Hill Golf Academy offers junior golf programs and has been recognized for teaching excellence, making it suitable for young golfers looking to improve their skills."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"8AM-8PM\"], \"Tuesday\": [\"8AM-8PM\"], \"Wednesday\": [\"8AM-8PM\"], \"Thursday\": [\"8AM-8PM\"], \"Friday\": [\"8AM-8PM\"], \"Saturday\": [\"8AM-8PM\"], \"Sunday\": [\"8AM-8PM\"]}"
+}

@@ -1,0 +1,90 @@
+{
+  "name": "M3 GOLF LAB",
+  "address": "1901 Curve Plaza Suite 2, Steamboat Springs, CO 80487",
+  "city": "Steamboat Springs",
+  "region": "Colorado",
+  "country": "US",
+  "latitude": 40.500562,
+  "longitude": -106.856281,
+  "phone": "+19708463863",
+  "website": "http://www.m3golflab.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770257130/golf_simulators/www_m3golflab_com_ChIJFy4tT5dpQocRmI7_wDLtuJ4.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/M3+GOLF+LAB/@40.5005622,-106.85628059999999,14z/data=!4m8!1m2!2m1!1sM3+GOLF+LAB!3m4!1s0x874269974f2d2e17:0x9eb8ed32c0ff8e98!8m2!3d40.5005622!4d-106.85628059999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJFy4tT5dpQocRmI7_wDLtuJ4",
+  "email": "lukeb@m3golflab.com",
+  "venue_type": "training_studio",
+  "about": "The M3 Golf Lab is a cutting-edge training studio focused on golf performance improvement. It combines technology, physical therapy, and coaching to offer a comprehensive approach to the game. The facility utilizes state-of-the-art equipment, including Trackman launch monitors and 3-D motion analysis, to provide data-driven feedback and personalized coaching programs. Memberships and single sessions are available, catering to golfers of all skill levels who are serious about improving their game.",
+  "tags": "serious_practice|beginner_friendly|corporate_events|juniors_youth|coaching_available|premium_tech",
+  "vibe_tags": "tech_lab|industrial_training",
+  "who_its_for": "serious_golfers|beginners|juniors_youth|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Comprehensive 360-degree approach focusing on motion, mechanics, and mindset",
+    "Access to premium Trackman 4 technology and 3-D motion analysis (K-Vest & Hackmotion)",
+    "Structured memberships offer a cost-effective way for dedicated practice",
+    "Collaboration between PGA coaching and physical therapy expertise"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No on-site kitchen or food service mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No bar service or alcohol policy mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "Primary launch monitor used for tracking ball flight and providing swing data"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://app.coachnow.io/public/facility_availability?facilityId=d1d1f3325b1161e42274597a0e",
+  "pricing_model": "mixed",
+  "price_range_min_local": 40,
+  "price_range_max_local": 75,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|wifi|pro_shop|club_fitting|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "It is not explicitly stated, but as a dedicated golf training facility, it is highly recommended to bring your own clubs for a personalized experience."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "The website does not mention any restrictions on bringing outside food or drink, nor does it list any on-site food or beverage services."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Standard simulator times are not detailed, but single sessions are booked by the hour (e.g., $75 for one hour, $50 for a second hour)."
+    },
+    {
+      "question": "Is it kid-friendly? Do you offer junior programs?",
+      "answer": "Yes, they have a specific 'Junior Golf' section with a membership option for 10 hours at $40/hour, indicating a focus on youth instruction."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"11AM-6PM\"], \"Tuesday\": [\"11AM-6PM\"], \"Wednesday\": [\"11AM-6PM\"], \"Thursday\": [\"11AM-8PM\"], \"Friday\": [\"11AM-8PM\"], \"Saturday\": [\"11AM-8PM\"], \"Sunday\": [\"12-5PM\"]}"
+}

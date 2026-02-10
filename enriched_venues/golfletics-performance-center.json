@@ -1,0 +1,95 @@
+{
+  "name": "Golfletics Performance Center",
+  "address": "308 1st Ave Ste 110, Coralville, IA 52241",
+  "city": "Coralville",
+  "region": "Iowa",
+  "country": "US",
+  "latitude": 41.671978,
+  "longitude": -91.565717,
+  "phone": "+13195691240",
+  "website": "http://www.begolfletic.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770207857/golf_simulators/www_begolfletic_com_ChIJ2V_Mzl5D5IcRXiKxzDp-Oqs.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Golfletics+Performance+Center/@41.6719778,-91.5657169,14z/data=!4m8!1m2!2m1!1sGolfletics+Performance+Center!3m4!1s0x87e4435ececc5fd9:0xab3a7e3accb1225e!8m2!3d41.6719778!4d-91.5657169",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ2V_Mzl5D5IcRXiKxzDp-Oqs",
+  "email": "austin@begolfletic.com",
+  "venue_type": "training_studio",
+  "about": "Golfletics Performance Center is an indoor golf training facility located in Coralville, Iowa, utilizing Foresight GC Hawk overhead simulators and a GCQuad launch monitor. The center offers a comprehensive range of services including simulator rentals, PGA instruction, Titleist Performance Institute (TPI) certified fitness programs, and club fittings with major brands like Callaway, Mizuno, and Ping. It is designed for both play and practice, with technology such as K-Motion 3D motion capture to provide detailed swing analysis and feedback.",
+  "tags": "beginner_friendly|serious_practice|corporate_events|leagues|premium_tech|coaching_available|juniors_youth",
+  "vibe_tags": "industrial_training|tech_lab",
+  "who_its_for": "serious_golfers|families|juniors_youth|coaches_instructors",
+  "why_golfers_like_it": [
+    "State-of-the-art Foresight GC Hawk and GCQuad technology for accurate simulation",
+    "TPI-certified staff combining golf instruction with fitness training for improved performance and injury prevention",
+    "K-Motion 3D motion capture provides detailed biomechanical feedback for swing analysis"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned on the website"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned on the website"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": "GC Hawk",
+      "notes": "Overhead simulator, two units available"
+    },
+    {
+      "brand": "Foresight",
+      "model": "GCQuad",
+      "notes": "Launch monitor/simulator unit"
+    }
+  ],
+  "simulator_software": [
+    "FSX 20",
+    "Foresight Fairgrounds"
+  ],
+  "launch_monitor_type": "overhead_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://www.begolfletic.com/online-booking",
+  "pricing_model": "per_person_hour",
+  "price_range_min_local": 34,
+  "price_range_max_local": 47,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 3,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|club_fitting|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 3.8,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "Yes, you need to bring your own clubs for simulator play and fitting sessions."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The website does not mention a policy on outside food and drinks, but there is no on-site food or alcohol service listed."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "You should anticipate approximately one hour per player for 18 holes, with a maximum of four players per bay."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, the facility offers a 'Junior Afternoon' rate for golfers 18 and under and provides access to family-friendly games like Putt Skee and Balloon Pop in the Foresight Fairgrounds software."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-8PM\"], \"Tuesday\": [\"10AM-8PM\"], \"Wednesday\": [\"10AM-8PM\"], \"Thursday\": [\"10AM-8PM\"], \"Friday\": [\"10AM-8PM\"], \"Saturday\": [\"9AM-4PM\"], \"Sunday\": [\"11AM-5PM\"]}"
+}

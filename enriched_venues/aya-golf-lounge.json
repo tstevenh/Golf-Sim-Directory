@@ -1,0 +1,89 @@
+{
+  "name": "Aya Golf Lounge",
+  "address": "641 Keeaumoku St suite 1, Honolulu, HI 96814",
+  "city": "Honolulu",
+  "region": "Hawaii",
+  "country": "US",
+  "latitude": 21.294138,
+  "longitude": -157.841609,
+  "phone": "+18082002982",
+  "website": "http://www.ayagolflounge.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770231553/golf_simulators/www_ayagolflounge_com_ChIJnXnGdwBtAHwRu8mo5lJqDjs.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Aya+Golf+Lounge/@21.294138,-157.8416093,14z/data=!4m8!1m2!2m1!1sAya+Golf+Lounge!3m4!1s0x7c006d0077c6799d:0x3b0e6a52e6a8c9bb!8m2!3d21.294138!4d-157.8416093",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJnXnGdwBtAHwRu8mo5lJqDjs",
+  "email": "filler@godaddy.com",
+  "venue_type": "sim_bar",
+  "about": "Aya Golf Lounge is a hybrid indoor golf and social lounge that combines state-of-the-art golf simulation with a full bar and casual dining experience. The venue features five premium Golfzon simulator suites, allowing guests to play world-class courses regardless of weather. It operates with a mix of hourly bay rentals and membership options, with special group rates and packages available for corporate events and private parties. The atmosphere blends a modern sports lounge vibe with private karaoke rooms, making it suitable for both focused practice sessions and social outings.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|private_rooms|club_rentals|coaching_available|late_night",
+  "vibe_tags": "upscale_lounge|sports_bar|party_atmosphere|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Golfzon technology provides realistic course play and swing tracking",
+    "Flexible booking system with half-hour slots and group discounts",
+    "Unique combination of golf simulation with karaoke and lounge amenities"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Curated food offerings and small bites available"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full-service bar with cocktails and drinks"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Golfzon",
+      "model": "TWOVISION",
+      "notes": "State-of-the-art simulator system mentioned on the website"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": "Golfzon TWOVISION",
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 5,
+  "booking_url": "http://www.ayagolflounge.com/reservations",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|karaoke",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website doesn't explicitly mention club rentals, but it's common practice at simulator venues to provide club rentals if needed. Contact them directly for details."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drinks are not permitted, as indicated by the venue's policy posted on their website. They offer a full bar and curated food menu instead."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "While the exact time isn't specified, simulator play typically takes 2-3 hours for a full round depending on group size and pace. Their half-hour booking option suggests flexible session lengths."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The venue doesn't specifically mention being kid-friendly, but it offers family-friendly golf activities. For specific policies on children, contact the venue directly."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"11AM-2AM\"], \"Tuesday\": [\"11AM-2AM\"], \"Wednesday\": [\"11AM-2AM\"], \"Thursday\": [\"11AM-2AM\"], \"Friday\": [\"11AM-2AM\"], \"Saturday\": [\"11AM-2AM\"], \"Sunday\": [\"8AM-2AM\"]}"
+}

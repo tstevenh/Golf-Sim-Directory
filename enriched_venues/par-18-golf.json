@@ -1,0 +1,90 @@
+{
+  "name": "Par 18 Golf",
+  "address": "12401 Folsom Blvd, Rancho Cordova, CA 95742",
+  "city": "Rancho Cordova",
+  "region": "California",
+  "country": "US",
+  "latitude": 38.63037,
+  "longitude": -121.21515,
+  "phone": "+19169908073",
+  "website": "https://www.par18golf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770199275/golf_simulators/www_par18golf_com_ChIJ83Ej2T_nmoAR0yMpgGEARPc.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Par+18+Golf/@38.6303705,-121.2151502,14z/data=!4m8!1m2!2m1!1sPar+18+Golf!3m4!1s0x809ae73fd92371f3:0xf7440061802923d3!8m2!3d38.6303705!4d-121.2151502",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ83Ej2T_nmoAR0yMpgGEARPc",
+  "email": "sarah@nextlevelcoachingandconsulting.com",
+  "venue_type": "multi_sport_sim",
+  "about": "Par 18 Golf is an elite self-service indoor golf facility in Rancho Cordova, CA, powered by TrackMan technology. It offers private and semi-private bays for year-round practice, play, and competition in a modern, 7700 sq. ft. space. The venue caters to golfers of all skill levels, providing flexible booking options, data-driven training, and a welcoming environment to connect and compete. With a veteran-owned background and amenities like a gym and work areas, it's designed for focused practice and social engagement.",
+  "tags": "serious_golfers|beginner_friendly|corporate_events|leagues|premium_tech|private_rooms|coaching_available|modern|group_events",
+  "vibe_tags": "tech_lab|community_club|modern|welcoming",
+  "who_its_for": "serious_golfers|beginners|corporate_teams|families|solo_practice",
+  "why_golfers_like_it": [
+    "Pro-level TrackMan technology for instant swing and ball flight data",
+    "Flexible booking with 30-minute increments for solo or group sessions",
+    "Year-round access to iconic courses like Pebble Beach and St. Andrews",
+    "Elite facility with a gym and built-in work areas for comprehensive training"
+  ],
+  "kid_friendly": "yes",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned; BYOB likely allowed"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned; BYOB likely allowed"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Pro-level dual-Doppler radar system with high-speed cameras and infrared sensors"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://yourgolfbooking.com/venues/par-18-golf/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 27.5,
+  "price_range_max_local": 70,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 8,
+  "amenities_list": "gym|work_areas|private_bays|semi_private_bays|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Golf shoes are not necessary on the turf, but you should wear comfortable athletic attire. Bringing your own clubs is recommended, though not explicitly stated."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The website does not mention food or drink service, suggesting a BYOB policy is likely allowed."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes is not specified, as sessions are booked in 30-minute increments. It depends on the number of players and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "No specific information about kid-friendliness is provided. The facility appears geared toward serious practice and adult social events."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"5AM-2AM\"], \"Tuesday\": [\"5AM-2AM\"], \"Wednesday\": [\"5AM-2AM\"], \"Thursday\": [\"5AM-2AM\"], \"Friday\": [\"5AM-2AM\"], \"Saturday\": [\"5AM-2AM\"], \"Sunday\": [\"5AM-2AM\"]}"
+}

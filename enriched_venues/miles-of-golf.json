@@ -1,0 +1,103 @@
+{
+  "name": "Miles of Golf",
+  "address": "3113 Carpenter Rd, Ypsilanti, MI 48197",
+  "city": "Ypsilanti",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 42.243873,
+  "longitude": -83.679416,
+  "phone": "+17349739004",
+  "website": "http://www.milesofgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770241171/golf_simulators/www_milesofgolf_com_ChIJtRNaeTSvPIgR9PJNZwMvqic.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Miles+of+Golf/@42.243873,-83.6794164,14z/data=!4m8!1m2!2m1!1sMiles+of+Golf!3m4!1s0x883caf34795a13b5:0x27aa2f03674df2f4!8m2!3d42.243873!4d-83.6794164",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJtRNaeTSvPIgR9PJNZwMvqic",
+  "venue_type": "retail_fitting_center",
+  "about": "Miles of Golf is a premier club fitting facility and golf academy with locations in Ann Arbor and Cincinnati. They specialize in personalized club fitting using advanced launch monitor technology and provide instruction through the Mark MacDonald Golf Academy. The facility features Masters Suites for entertainment and events, top 100-rated practice ranges, and all-weather hitting bays to ensure year-round usability. Their services cater to golfers of all levels, with a focus on data-driven fittings and coaching programs designed to improve performance and consistency.",
+  "tags": "serious_golfers|coaching_available|club_fitting|premium_tech|corporate_events|food_and_drinks|private_rooms",
+  "vibe_tags": "tech_lab|upscale_lounge",
+  "who_its_for": "serious_golfers|corporate_teams|beginners|juniors_youth",
+  "why_golfers_like_it": [
+    "Access to TrackMan, SAM, Quintic, and GC Quad launch monitors for precise club fitting",
+    "Top 100-rated practice facilities with grass tees and sheltered bays",
+    "Masters Suites with private bays, food and beverage service, and Toptracer technology for group events"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Available in Masters Suites for events and group reservations"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Available in Masters Suites for events and group reservations"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "TrackMan",
+      "model": "unknown",
+      "notes": "Pinnacle of ball flight technology, used for MAXX fittings"
+    },
+    {
+      "brand": "GCQuad",
+      "model": "unknown",
+      "notes": "Regarded as one of the best launch monitors, used for BASIXX fittings"
+    },
+    {
+      "brand": "SAM",
+      "model": "unknown",
+      "notes": "Launch monitor technology used for club fitting"
+    },
+    {
+      "brand": "Quintic",
+      "model": "unknown",
+      "notes": "Launch monitor technology used for club fitting"
+    }
+  ],
+  "simulator_software": [
+    "Toptracer"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.milesofgolf.com/club-fitting",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|pro_shop|club_fitting|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, club fittings provide all necessary equipment, though you can bring your current clubs for comparison."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Food and beverages are available through the Masters Suites, but BYOB policies are not specified."
+    },
+    {
+      "question": "How long is an 18-hole simulation experience?",
+      "answer": "Fitting sessions typically run between 1-1.5 hours and include 75-100 swings."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is kid-friendly with junior programs and instruction available for youth golfers."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-6PM\"], \"Tuesday\": [\"9AM-6PM\"], \"Wednesday\": [\"9AM-6PM\"], \"Thursday\": [\"9AM-6PM\"], \"Friday\": [\"9AM-6PM\"], \"Saturday\": [\"9AM-6PM\"], \"Sunday\": [\"9AM-6PM\"]}"
+}

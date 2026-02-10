@@ -1,0 +1,92 @@
+{
+  "name": "Tee'd up indoor Golf",
+  "address": "149 Cox Crk Pkwy S Suite C, Florence, AL 35630",
+  "city": "Florence",
+  "region": "Alabama",
+  "country": "US",
+  "latitude": 34.827185,
+  "longitude": -87.625657,
+  "phone": "+12563492266",
+  "website": "https://teedup-florence.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770231430/golf_simulators/teedup-florence_com_ChIJAz8FWRFJfYgRL9HGYRALy4M.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Tee%27d+up+indoor+Golf/@34.8271847,-87.62565649999999,14z/data=!4m8!1m2!2m1!1sTee%27d+up+indoor+Golf!3m4!1s0x887d491159053f03:0x83cb0b1061c6d12f!8m2!3d34.8271847!4d-87.62565649999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJAz8FWRFJfYgRL9HGYRALy4M",
+  "email": "filler@godaddy.com",
+  "venue_type": "sim_bar",
+  "about": "Tee'd Up Florence is an indoor golf simulation facility featuring 7 bays equipped with the newest PGA Tour proven technology. The venue offers high-level projection and screen image quality with immersive 4k graphics, along with detailed club and ball data for swing improvement. Pricing is bay-based, with rates of $32 per hour for weekday afternoons and $44 for evenings and weekends. It is open 7 days a week and allows for both online booking and walk-ins on availability.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|coaching_available|casual|welcoming",
+  "vibe_tags": "casual|welcoming|modern|sports_bar",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Premium PGA Tour proven simulator technology with detailed club and ball data feedback",
+    "Flexible booking with both online reservations and walk-in options available",
+    "On-site professional instruction available for swing improvement",
+    "Designed for groups with a maximum of 6 people per bay",
+    "Vibrant leagues and events for competitive and social play"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "Outside food is allowed from nearby restaurants, but no kitchen on-site."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Beer, wine coolers, and non-alcoholic beverages available for purchase."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "unknown",
+      "notes": "Premium PGA Tour proven equipment mentioned"
+    }
+  ],
+  "simulator_software": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 7,
+  "booking_url": "https://admin.activebooker.com/franchise-lanes/teedupBays",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 32,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 0,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|private_party_room|leagues|club_rentals|tv_sports",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue provides the necessary golf equipment, so you don't need to bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "You can bring food from external locations, but outside drinks are not allowed. The venue offers beer, wine coolers, sodas, water, and sports drinks for purchase."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time for 18 holes varies depending on the number of players and pace of play. Specific timing is not provided, but it's standard simulator golf duration."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The venue is not explicitly marketed as kid-friendly and focuses more on adult golfers and leagues."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"11AM-10PM\"], \"Tuesday\": [\"11AM-10PM\"], \"Wednesday\": [\"11AM-10PM\"], \"Thursday\": [\"11AM-10PM\"], \"Friday\": [\"10AM-11PM\"], \"Saturday\": [\"10AM-11PM\"], \"Sunday\": [\"11AM-9PM\"]}"
+}

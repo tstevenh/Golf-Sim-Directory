@@ -1,0 +1,88 @@
+{
+  "name": "GolfCave",
+  "address": "477 NJ-10 Unit# 17, Randolph, NJ 07869",
+  "city": "Randolph",
+  "region": "New Jersey",
+  "country": "US",
+  "latitude": 40.861862,
+  "longitude": -74.567425,
+  "phone": "+19735662283",
+  "website": "https://www.golfcave.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770198994/golf_simulators/www_golfcave_com_ChIJMdH4rWihw4kRk28Lm4WiCDA.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/GolfCave/@40.8618624,-74.5674246,14z/data=!4m8!1m2!2m1!1sGolfCave!3m4!1s0x89c3a168adf8d131:0x3008a2859b0b6f93!8m2!3d40.8618624!4d-74.5674246",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJMdH4rWihw4kRk28Lm4WiCDA",
+  "email": "clark@golfcave.com",
+  "venue_type": "sim_bar",
+  "about": "GolfCave is a 24/7 indoor golf facility providing golfers of all skill levels with the ability to play or practice in the privacy of their own 'Cave'. The venue utilizes TrackMan technology, considered the world's most accurate golf simulator, to offer an immersive experience with real-time metrics and video analysis. It features private simulator bays, a BYOB policy, and services including lessons, club fittings, and league play, catering to casual players, serious golfers, and social groups alike.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|private_rooms|club_rentals|coaching_available",
+  "vibe_tags": "private_luxury|speakeasy|tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams|solo_practice|coaches_instructors|juniors_youth|bachelor_parties",
+  "why_golfers_like_it": [
+    "Private bays allow for focused practice without distractions",
+    "TrackMan technology provides instant, accurate swing and ball data",
+    "BYOB policy enhances the social and relaxed atmosphere",
+    "24/7 access offers flexibility for any schedule"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "External food delivery appears to be allowed"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "BYOB (Bring Your Own Beverage) policy is in effect"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "World's most accurate golf simulator with dual camera and radar technology"
+    }
+  ],
+  "simulator_software": "TrackMan",
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://clients.uschedule.com/golfcave/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 45,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 12,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|club_fitting|leagues|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need my own golf clubs?",
+      "answer": "Yes, you must bring your own golf clubs. The venue does not provide club rentals."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, GolfCave operates on a BYOB (Bring Your Own Beverage) policy. External food delivery is also permitted."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "A full 18-hole simulation typically takes around 1.5 to 2 hours, depending on the number of players in your bay and your pace of play."
+    },
+    {
+      "question": "Is GolfCave kid-friendly?",
+      "answer": "The venue is accessible to juniors and youth golfers, offering lessons and a space for practice. The specific age policies and availability of junior programs are not detailed, but the environment is suitable for introducing younger players to the game."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"9AM-9:15PM\"], \"Tuesday\": [\"9AM-9:15PM\"], \"Wednesday\": [\"9AM-9:15PM\"], \"Thursday\": [\"9AM-9:15PM\"], \"Friday\": [\"9AM-9:15PM\"], \"Saturday\": [\"9AM-9:15PM\"], \"Sunday\": [\"9AM-9:15PM\"]}"
+}

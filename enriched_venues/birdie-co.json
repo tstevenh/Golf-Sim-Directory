@@ -1,0 +1,91 @@
+{
+  "name": "Birdie Co.",
+  "address": "714 Adams Ave #102, Huntington Beach, CA 92648",
+  "city": "Huntington Beach",
+  "region": "California",
+  "country": "US",
+  "latitude": 33.671732,
+  "longitude": -117.990101,
+  "phone": "+17146989933",
+  "website": "https://birdiecompany.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770231822/golf_simulators/birdiecompany_com_ChIJsdh1dJ0h3YARXh_0SF20K2A.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Birdie+Co./@33.6717321,-117.9901015,14z/data=!4m8!1m2!2m1!1sBirdie+Co.!3m4!1s0x80dd219d7475d8b1:0x602bb45d48f41f5e!8m2!3d33.6717321!4d-117.9901015",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJsdh1dJ0h3YARXh_0SF20K2A",
+  "email": "info@birdiecompany.com",
+  "venue_type": "other",
+  "about": "Birdie Company is a premier golf simulator and event space located in Huntington Beach, California. The facility features two state-of-the-art Trackman IO bays designed for both serious players and casual enthusiasts. Birdie Company combines advanced technology, expert instruction from PGA professional Steve Soule, and a relaxed atmosphere to help every golfer elevate their game. A PuttView putting simulator is noted as coming soon. The venue is also more than a simulator, functioning as a community for golfers through its offerings of private lessons, practice sessions, group events, and social rounds. Custom club fitting, repair, and maintenance services are available under the guidance of Steve Soule's expertise.",
+  "tags": "beginner_friendly|serious_golfers|corporate_events|premium_tech|coaching_available|community_club",
+  "vibe_tags": "tech_lab|community_club|casual|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|corporate_teams|solo_practice|families",
+  "why_golfers_like_it": [
+    "State-of-the-art Trackman IO technology for precise swing and ball data",
+    "Access to over 200 world-famous golf courses with stunning detail",
+    "Expert instruction from PGA professional Steve Soule with over 25 years of experience",
+    "Custom club fitting and repair services for optimal equipment performance",
+    "Relaxed and social atmosphere suitable for both practice and events"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No information on food service available."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No information on alcohol service available."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Two state-of-the-art bays with advanced radar technology"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://yourgolfbooking.com/venues/birdie-company/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|club_fitting|tv_sports|pro_shop|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue does not explicitly state whether club rentals are available, so it is recommended to bring your own clubs for your session."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "There is no information provided regarding outside food and drink policies, so it's best to contact the venue directly for clarification."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to complete 18 holes can vary based on simulator software and player pace, but typical sessions are booked by the hour."
+    },
+    {
+      "question": "Is Birdie Company kid-friendly?",
+      "answer": "The venue does not advertise specific kid-friendly amenities or programs, so it may be better suited for adult and junior golfers."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"8AM-8PM\"], \"Tuesday\": [\"8AM-8PM\"], \"Wednesday\": [\"8AM-8PM\"], \"Thursday\": [\"8AM-8PM\"], \"Friday\": [\"8AM-8PM\"], \"Saturday\": [\"8AM-8PM\"], \"Sunday\": [\"8AM-8PM\"]}"
+}

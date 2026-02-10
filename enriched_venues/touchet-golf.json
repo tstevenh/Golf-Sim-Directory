@@ -1,0 +1,91 @@
+{
+  "name": "Touchet Golf",
+  "address": "3910-4274 Engle Rd, Fort Wayne, IN 46804",
+  "city": "Fort Wayne",
+  "region": "Indiana",
+  "country": "US",
+  "latitude": 41.045983,
+  "longitude": -85.196354,
+  "phone": "+12604364535",
+  "website": "http://touchetgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770209546/golf_simulators/touchetgolf_com_ChIJ5Yqdb3HmFYgRvrqRhBzbTrA.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Touchet+Golf/@41.0459828,-85.19635439999999,14z/data=!4m8!1m2!2m1!1sTouchet+Golf!3m4!1s0x8815e6716f9d8ae5:0xb04edb1c8491babe!8m2!3d41.0459828!4d-85.19635439999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ5Yqdb3HmFYgRvrqRhBzbTrA",
+  "venue_type": "retail_fitting_center",
+  "about": "Touchet Golf, established in 2011 by Eric and Jerry Touchet, is a specialized golf performance center in Fort Wayne, Indiana. The venue provides a comprehensive range of services including TrackMan simulator usage, professional club fittings, and club repairs. It also offers fitness and therapy programs led by certified professionals. Touchet Golf operates with a focus on data-driven club fitting using its BGF (Better Golf Faster) software and features multiple TrackMan hitting bays. The facility is designed for golfers seeking to improve their game through technology, expert guidance, and personalized equipment solutions.",
+  "tags": "serious_golfers|corporate_events|coaching_available|premium_tech|club_rentals|private_rooms|club_fitting",
+  "vibe_tags": "tech_lab|community_club|modern|welcoming",
+  "who_its_for": "serious_golfers|corporate_teams|solo_practice|coaches_instructors",
+  "why_golfers_like_it": [
+    "Expert TrackMan simulator technology for precise game analysis",
+    "Professional club fittings with a history of top 100 status",
+    "On-site repairs and services for quick equipment maintenance",
+    "Comprehensive golf fitness and medical programs available",
+    "Focus on data-driven performance improvement"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of food service; BYOB policy not specified."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "TrackMan",
+      "model": "unknown",
+      "notes": "Multiple TrackMan hitting bays are available, but specific model not mentioned."
+    }
+  ],
+  "simulator_software": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://touchetgolf.com/appointments",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|club_fitting|private_rooms|pro_shop",
+  "rating_tech_quality": 5.0,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "While you can bring your own clubs, the facility offers expert club fittings and repairs. They can also provide clubs for fitting sessions, and you can purchase new clubs from their pro shop. The venue emphasizes data-driven fitting to ensure clubs match your swing."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "There is no mention of a kitchen or bar on-site. BYOB policies are not specified, so it's recommended to check with the venue directly for their policy outside drinks."
+    },
+    {
+      "question": "How long does it take to play a full 18 holes?",
+      "answer": "The venue does not specify the exact time for an 18-hole round on their TrackMan simulator. Typically, simulator sessions are booked by the hour, and the duration depends on group size and pace."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "Touchet Golf does not explicitly mention kid-friendly amenities or programs. They offer fitness programs that may include juniors, but the primary focus is on serious golf practice and equipment fitting. It's advisable to contact them directly for family or junior-specific services."
+    }
+  ],
+  "rating_overall": 4.4,
+  "opening_hours": "{\"Monday\": [\"10AM-7PM\"], \"Tuesday\": [\"11AM-7PM\"], \"Wednesday\": [\"10AM-7PM\"], \"Thursday\": [\"10AM-7PM\"], \"Friday\": [\"10AM-7PM\"], \"Saturday\": [\"10AM-4PM\"], \"Sunday\": [\"Closed\"]}"
+}

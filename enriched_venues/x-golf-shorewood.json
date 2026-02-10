@@ -1,0 +1,90 @@
+{
+  "name": "X-Golf Shorewood",
+  "address": "1004 Brook Forest Ave, Shorewood, IL 60404",
+  "city": "Shorewood",
+  "region": "Illinois",
+  "country": "US",
+  "latitude": 41.539051,
+  "longitude": -88.197414,
+  "phone": "+17792349652",
+  "website": "https://playxgolf.com/locations/shorewood/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770227708/golf_simulators/playxgolf_com_ChIJ0SexuCaLDogRIzfmJBYJS0o.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/X-Golf+Shorewood/@41.5390515,-88.19741409999999,14z/data=!4m8!1m2!2m1!1sX-Golf+Shorewood!3m4!1s0x880e8b26b8b127d1:0x4a4b091624e63723!8m2!3d41.5390515!4d-88.19741409999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ0SexuCaLDogRIzfmJBYJS0o",
+  "email": "info@xgolfshorewood.com",
+  "venue_type": "sim_bar",
+  "about": "X-Golf Shorewood is an indoor golf simulator venue that offers the world's most accurate golf simulation experience. The facility uses state-of-the-art technology, including camera systems, infrared lasers, and impact sensors to provide a realistic and immersive golfing environment. Each simulator bay can accommodate up to six people, making it suitable for both individual practice and group play. The venue also features a full-service sports bar with a food menu, providing a complete social and recreational experience.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|coaching_available|private_rooms",
+  "vibe_tags": "casual|welcoming|modern|sports_bar",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Unparalleled accuracy and realism from state-of-the-art simulator technology",
+    "Flexible options for all skill levels, from casual play to professional training",
+    "Full-service sports bar with food and drinks, creating a complete social experience",
+    "Availability of PGA-certified coaching for skill development"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full menu including apps, pizza, wraps, and more"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full service bar with beer by the glass or on tap, cocktails, and wines"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "X-Golf",
+      "model": "Simulator",
+      "notes": "State-of-the-art indoor golf simulator with camera systems, infrared lasers, and impact sensors"
+    }
+  ],
+  "simulator_software": [
+    "X-Golf Software"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://playxgolf.com/locations/shorewood/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 30,
+  "price_range_max_local": 59,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 0,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|kitchen_food|tv_sports|private_party_room|leagues|club_rentals",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, the simulator has its own tee built into the system and provides club rentals."
+    },
+    {
+      "question": "Can I bring my own food or drink?",
+      "answer": "The venue has a full-service bar and kitchen with its own menu; no BYOB is mentioned."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "It generally takes 1 hour for an individual player to play 18 holes. With more players, you may need to book additional hours depending on group size and skill level."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue welcomes children of all ages and offers junior golf lessons."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"8AM-12AM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"9AM-12AM\"], \"Saturday\": [\"8AM-12AM\"], \"Sunday\": [\"8AM-10PM\"]}"
+}

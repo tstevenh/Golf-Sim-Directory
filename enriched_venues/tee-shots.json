@@ -1,0 +1,91 @@
+{
+  "name": "Tee Shots",
+  "address": "806 Tri Point Ln., Jerseyville, IL 62052",
+  "city": "Jerseyville",
+  "region": "Illinois",
+  "country": "US",
+  "latitude": 39.115303,
+  "longitude": -90.315232,
+  "phone": "+16186398337",
+  "website": "https://www.teeshotsunlimited.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770205313/golf_simulators/www_teeshotsunlimited_com_ChIJoxbUSOUT34cRrYkdK8Ky7ig.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Tee+Shots/@39.115303,-90.3152321,14z/data=!4m8!1m2!2m1!1sTee+Shots!3m4!1s0x87df13e548d416a3:0x28eeb2c22b1d89ad!8m2!3d39.115303!4d-90.3152321",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJoxbUSOUT34cRrYkdK8Ky7ig",
+  "email": "info@teeshotsunlimited.com",
+  "venue_type": "sim_bar",
+  "about": "Tee Shots is an indoor golf and multisport simulator venue in Jerseyville, IL, featuring Full Swing Pro 2.0 simulators with pro-level tracking technology. The venue offers a family-friendly environment where players can access 50+ iconic golf courses and over 13 multisport games, including baseball, soccer, and football. Pricing is structured per bay, per hour, with rates varying by day, and allows for 4-6 players per bay. It is a locally owned establishment that combines advanced simulation technology with a casual bar atmosphere, making it suitable for both serious practice and social gatherings.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|kids_friendly|corporate_events|leagues|premium_tech|late_night|family_fun_center",
+  "vibe_tags": "family_fun_center|sports_bar|casual|welcoming",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "Ultra-accurate ball tracking with Full Swing Pro 2.0 technology",
+    "Access to 50+ iconic PGA TOUR courses like TPC Sawgrass",
+    "Flexible multisport options for variety and group entertainment",
+    "Family-friendly environment with a bar serving food and drinks",
+    "Convenient pricing with options for both weekdays and weekends"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Pizza ($10 Fema Pizza, Pepperoni, Meat Lovers) and hot dogs available"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Bar with a variety of cold drinks including seltzers, beer, and wine"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Full Swing",
+      "model": "Pro 2.0",
+      "notes": "Features ION 3 overhead camera + HyperClear tracking"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 4,
+  "booking_url": "https://book.squareup.com/appointments/4yudiy6u0fqgoa/location/L5SX72Y8ZJQZ9/services",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 20,
+  "price_range_max_local": 50,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The content does not specify whether club rentals are available, so it is recommended to bring your own clubs or contact the venue directly."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "The venue offers a full bar and food menu, including pizza and hot dogs, but it does not mention BYOB policies."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "A quick round on the simulators takes about an hour."
+    },
+    {
+      "question": "Is Tee Shots kid-friendly?",
+      "answer": "Yes, Tee Shots is family-friendly and offers multisport games suitable for all ages, including birthday parties and family nights."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-12AM\"], \"Saturday\": [\"10AM-12AM\"], \"Sunday\": [\"10AM-10PM\"]}"
+}

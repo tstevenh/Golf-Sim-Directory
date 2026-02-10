@@ -1,0 +1,90 @@
+{
+  "name": "Texas Double Deuce",
+  "address": "309 W Hidden Creek Pkwy Suite 3101, Burleson, TX 76028",
+  "city": "Burleson",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 32.524359,
+  "longitude": -97.324922,
+  "phone": "+18177172222",
+  "website": "https://www.txdoubledeuce.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770210953/golf_simulators/www_txdoubledeuce_com_ChIJ21TJPfJpToYRHr1nlUgskNY.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Texas+Double+Deuce/@32.5243592,-97.32492239999999,14z/data=!4m8!1m2!2m1!1sTexas+Double+Deuce!3m4!1s0x864e69f23dc954db:0xd6902c489567bd1e!8m2!3d32.5243592!4d-97.32492239999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ21TJPfJpToYRHr1nlUgskNY",
+  "email": "info@txdoubledeuce.com",
+  "venue_type": "sim_bar",
+  "about": "Texas Double Deuce is an entertainment venue in Burleson, Texas, featuring a poker room, golf simulators, bar, and grill. The venue offers two state-of-the-art Trackman golf simulator bays located next to a full-service bar, creating a social atmosphere for groups. Pricing is based on an hourly model, with rates starting at $13 per hour for gaming and access to over 270+ virtually replicated golf courses. The space is designed for both casual entertainment and competitive play, with a focus on providing a central hub for recreation in the DFW area.",
+  "tags": "food_and_drinks|beginner_friendly|date_night|corporate_events|budget_friendly|leagues|community_club",
+  "vibe_tags": "sports_bar|community_club|welcoming",
+  "who_its_for": "families|large_groups|corporate_teams|solo_practice|tourists_travelers",
+  "why_golfers_like_it": [
+    "State-of-the-art Trackman simulators for accurate ball and club tracking",
+    "Two bays available for groups, providing a social golfing experience",
+    "Large selection of over 270+ virtual golf courses to choose from",
+    "Convenient location within a full-service bar and food establishment"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "On-site grill available with a full menu for food service."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available for drinks and beverages."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "State-of-the-art Trackman golf simulators, two bays available."
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 2,
+  "booking_url": "https://www.txdoubledeuce.com/golf",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 13,
+  "price_range_max_local": 13,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": 0,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify if they provide club rentals, so it's best to assume you should bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, the venue has its own full bar and grill on-site. Food and drinks must be purchased directly from them."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify the time required for a full 18-hole round, but as an indoor simulator, it would likely depend on the number of players in your group."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "Yes, the venue describes itself as an 'entertainment destination' and features activities like a bar and grill that would be accessible for families, making it kid-friendly."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"1PM-2AM\"], \"Tuesday\": [\"1PM-2AM\"], \"Wednesday\": [\"1PM-2AM\"], \"Thursday\": [\"1PM-2AM\"], \"Friday\": [\"1PM-2AM\"], \"Saturday\": [\"12PM-2AM\"], \"Sunday\": [\"12PM-2AM\"]}"
+}

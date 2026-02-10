@@ -1,0 +1,91 @@
+{
+  "name": "Albatross Golf Sim & Bar",
+  "address": "388 Somerville Ave, Chattanooga, TN 37405",
+  "city": "Chattanooga",
+  "region": "Tennessee",
+  "country": "US",
+  "latitude": 35.064452,
+  "longitude": -85.313936,
+  "phone": "+14235418150",
+  "website": "https://www.albatrossgolfbar.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770238243/golf_simulators/www_albatrossgolfbar_com_ChIJHTR8KOn3YIgRrl_Xr8w6pdc.png",
+  "google_maps_url": "https://www.google.com/maps/place/Albatross+Golf+Sim+%26+Bar/@35.0644521,-85.3139365,14z/data=!4m8!1m2!2m1!1sAlbatross+Golf+Sim+%26+Bar!3m4!1s0x8860f7e9287c341d:0xd7a53accafd75fae!8m2!3d35.0644521!4d-85.3139365",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJHTR8KOn3YIgRrl_Xr8w6pdc",
+  "email": "info@albatrossgolf.com",
+  "venue_type": "sim_bar",
+  "about": "Albatross Golf Sim & Bar is a Chattanooga-based venue featuring indoor golf simulator bays combined with a full-service sports bar and event space. The facility utilizes Trackman technology to offer over 400 virtual golf courses and practice capabilities, with a stated 1-foot margin of error for ball tracking. It operates under a mixed pricing model, offering hourly bay rentals for non-members and tiered membership options for frequent users. The venue is designed to accommodate golfers of all skill levels, from beginners to veterans, and positions itself as an all-inclusive hangout regardless of weather conditions.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|kids_friendly|corporate_events|leagues|premium_tech|family_friendly|solo_practice|bachelor_parties",
+  "vibe_tags": "sports_bar|family_fun_center|tech_lab|casual|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Access to premium Trackman technology with 1-foot accuracy for realistic ball flight",
+    "All-weather play on over 400 virtual courses from around the world",
+    "Flexible hours and options for both casual play and serious practice sessions",
+    "Comprehensive food and drink menu available without requiring golf play",
+    "Regular leagues and tournaments for competitive play"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full scratch-made menu including hand-crafted burgers, gourmet hot dogs, famous wings, sandwiches, and finger foods. Kitchen opens at 11 AM. Food available without playing golf."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full liquor bar with cocktails, wine, and cold draft beer. No BYOB policy mentioned."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Premium radar system with 1-foot accuracy for ball landing location. Measures full trajectory of every shot."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://www.sevenrooms.com/reservations/albatrossgolfsimbar?duration-picker=true",
+  "pricing_model": "mixed",
+  "price_range_min_local": 30,
+  "price_range_max_local": 40,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": false,
+  "private_rooms_count": 0,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 5.0,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, rental golf clubs are available for $5. They have clubs for right and left-handed players, and kids clubs for ages 3-6."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No, BYOB is not mentioned. The venue has a full kitchen and bar with scratch-made food and a variety of beers, cocktails, and non-alcoholic beverages available."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Sessions have a 4-hour limit, which should be sufficient to play 18 holes on most courses."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, they offer kids golf clubs for ages 3-6, Trackman games like Magic Pond for all ages, and have a family-friendly atmosphere as noted in their marketing."
+    }
+  ],
+  "rating_overall": 4.4,
+  "opening_hours": "{\"Monday\": [\"12-8PM\"], \"Tuesday\": [\"12-8PM\"], \"Wednesday\": [\"12-8PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-10PM\"], \"Saturday\": [\"10AM-10PM\"], \"Sunday\": [\"10AM-6PM\"]}"
+}

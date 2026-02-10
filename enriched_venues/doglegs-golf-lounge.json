@@ -1,0 +1,85 @@
+{
+  "name": "Doglegs Golf Lounge",
+  "address": "1823 Broadway St, Pearland, TX 77581",
+  "city": "Pearland",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 29.548336,
+  "longitude": -95.23989,
+  "phone": "+12819358582",
+  "website": "https://www.doglegsgolflounge.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770223330/golf_simulators/www_doglegsgolflounge_com_ChIJvzw4GreRQIYRYZ48eXv7G1s.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Doglegs+Golf+Lounge/@29.5483361,-95.23988949999999,14z/data=!4m8!1m2!2m1!1sDoglegs+Golf+Lounge!3m4!1s0x864091b71a383cbf:0x5b1bfb7b793c9e61!8m2!3d29.5483361!4d-95.23988949999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJvzw4GreRQIYRYZ48eXv7G1s",
+  "email": "Brian@doglegsgolflounge.com",
+  "venue_type": "sim_bar",
+  "about": "Doglegs Golf Lounge is an indoor golf facility in Pearland, Texas, that combines golf simulation with a full-service bar and restaurant. It features 150,000+ virtual golf courses across multiple simulating bays, complemented by a lounge area, driving range with video capture, and a full kitchen and bar offering chef-curated meals and cocktails. The venue is designed as a social destination for golfers and non-golfers alike, with amenities for parties, corporate events, and individual practice. Pricing includes hourly bay rentals, memberships, and various packages for groups and special occasions.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|kids_friendly|corporate_events|leagues|premium_tech|private_rooms|club_rentals|coaching_available",
+  "vibe_tags": "upscale_lounge|sports_bar|family_fun_center|party_atmosphere|community_club",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "Access to 150,000+ virtual golf courses",
+    "State-of-the-art driving range with video capture playback",
+    "Full-service bar and restaurant with chef-curated meals",
+    "Kid-friendly atmosphere with multiple simulator games",
+    "Professional golf lessons available for all skill levels"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full menu with chef-curated meals; chef's name is Kayla"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with top-shelf whiskies, cocktails, bourbons, tequilas, martinis, beer, and kid-friendly options"
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 12,
+  "booking_url": "https://www.doglegsgolflounge.com/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue does not explicitly state whether club rentals are available, so it's recommended to bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No, outside food and drinks are not allowed. The venue offers a full kitchen with chef-curated meals and a full bar with a wide variety of cocktails and beverages."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The venue does not specify the exact time for 18 holes, but it mentions a 'relaxing day on the greens' and that the kitchen closes 30 minutes before closing time."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is kid-friendly, offering multiple simulator games for kids and a separate lounge area for non-golfers. Private viewing bays are also available for parties."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"11AM-10PM\"], \"Tuesday\": [\"11AM-10PM\"], \"Wednesday\": [\"11AM-10PM\"], \"Thursday\": [\"11AM-11PM\"], \"Friday\": [\"11AM-12AM\"], \"Saturday\": [\"11AM-12AM\"], \"Sunday\": [\"11AM-10PM\"]}"
+}

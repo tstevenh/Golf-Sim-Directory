@@ -1,0 +1,93 @@
+{
+  "name": "Legends Indoor Golf",
+  "address": "2091 63rd St, Downers Grove, IL 60516",
+  "city": "Downers Grove",
+  "region": "Illinois",
+  "country": "US",
+  "latitude": 41.771198,
+  "longitude": -88.034053,
+  "phone": "+16304091220",
+  "website": "http://www.legendsindoorgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770199617/golf_simulators/www_legendsindoorgolf_com_ChIJ0RA-mllQDogR5WB62fW6Tt0.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Legends+Indoor+Golf/@41.7711979,-88.0340528,14z/data=!4m8!1m2!2m1!1sLegends+Indoor+Golf!3m4!1s0x880e50599a3e10d1:0xdd4ebaf5d97a60e5!8m2!3d41.7711979!4d-88.0340528",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ0RA-mllQDogR5WB62fW6Tt0",
+  "venue_type": "sim_bar",
+  "about": "Legends Indoor Golf is a premier indoor golf facility in Downers Grove, IL, offering an immersive golfing experience with 9 state-of-the-art simulators. Patrons can play over 1,000 courses from around the world, including more than 100 bucket-list and iconic layouts, with options for par-3 and short courses. The venue provides a welcoming environment with food, drinks, and comfortable amenities, ideal for maintaining skills during Chicago's colder months. Operating on a seasonal basis from November to April, Legends caters to players of all abilities, offering everything from casual play to competitive leagues and corporate events.",
+  "tags": "food_and_drinks|corporate_events|leagues|premium_tech|beginner_friendly|date_night|serious_golfers|large_groups",
+  "vibe_tags": "casual|welcoming|sports_bar|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|large_groups",
+  "why_golfers_like_it": [
+    "Premium simulation technology with Foresight Sports GC3 and Uneekor Launch Monitors",
+    "Access to over 1,000 golf courses, including 100+ iconic and bucket-list layouts",
+    "A relaxed atmosphere with a full bar, food menu, and comfortable lounge space"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Light hot food menu available"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Beer, wine, and specialty drinks served"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": "GC3",
+      "notes": "High-performance launch monitor"
+    },
+    {
+      "brand": "Uneekor",
+      "model": "Launch",
+      "notes": "High-performance launch monitor"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "auto_putt",
+  "lefty_friendly": true,
+  "bay_count_total": 9,
+  "booking_url": "https://clients.uschedule.com/legendsindoorgolf/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 30,
+  "price_range_max_local": 45,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": 9,
+  "max_group_size_per_bay": 5,
+  "amenities_list": "full_bar|kitchen_food|tv_sports|leagues|pro_shop|private_party_room",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Players must bring their own clubs as there is no club rental service mentioned."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, Legends has an in-house bar and kitchen serving beer, wine, specialty drinks, and light hot food."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "A reasonable pace is just under one hour per player for 18 holes with simulated putting. Additional time may be needed for warmups."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Legends welcomes families and offers activities suitable for different skill levels, making it kid-friendly."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-11:30PM\"], \"Tuesday\": [\"9AM-11:30PM\"], \"Wednesday\": [\"9AM-11:30PM\"], \"Thursday\": [\"9AM-11:30PM\"], \"Friday\": [\"9AM-12AM\"], \"Saturday\": [\"7AM-12AM\"], \"Sunday\": [\"7AM-10PM\"]}"
+}

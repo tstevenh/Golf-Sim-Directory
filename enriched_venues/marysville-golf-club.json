@@ -1,0 +1,84 @@
+{
+  "name": "Marysville Golf Club",
+  "address": "13683 OH-38, Marysville, OH 43040",
+  "city": "Marysville",
+  "region": "Ohio",
+  "country": "US",
+  "latitude": 40.199757,
+  "longitude": -83.378708,
+  "phone": "+19376421816",
+  "website": "http://marysvillegolfclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770234083/golf_simulators/marysvillegolfclub_com_ChIJx_O9An_GOIgRFZn-hWRCaDY.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Marysville+Golf+Club/@40.1997566,-83.3787078,14z/data=!4m8!1m2!2m1!1sMarysville+Golf+Club!3m4!1s0x8838c67f02bdf3c7:0x3668426485fe9915!8m2!3d40.1997566!4d-83.3787078",
+  "google_rating": 4.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJx_O9An_GOIgRFZn-hWRCaDY",
+  "venue_type": "country_club",
+  "about": "Marysville Golf Club is a public golf facility in Marysville, Ohio, offering an 18-hole, Par 72 course with Bent grass tees and greens. The course features a three-tee system to challenge players of all abilities and has been recognized by Golf Digest as one of the 'Best Public Places to Play'. Alongside its traditional golf course, the venue includes a state-of-the-art golf simulator bay that is open year-round. The club provides public tee times and affordable membership options, making it accessible to a wide range of golfers. It also hosts corporate events, charity outings, and leagues, with professional staff available for assistance.",
+  "tags": "beginner_friendly|corporate_events|leagues|premium_tech|budget_friendly|club_rentals|coaching_available",
+  "vibe_tags": "community_club|family_fun_center|welcoming",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "State-of-the-art golf simulator open year-round",
+    "Affordable membership options and public tee times",
+    "Host to corporate, charity, and group events with professional assistance",
+    "Challenging yet accessible three-tee system course layout",
+    "Recognized as one of the 'Best Public Places to Play' by Golf Digest"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Kitchen and food service available; venue mentions 'elegant atmosphere' for events"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service; BYOB policy not specified"
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": "unknown",
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 1,
+  "booking_url": "https://apimanager-cc30.clubcaddie.com/activities/view/cdgdabab",
+  "pricing_model": "per_person_hour|package|mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|kitchen_food|tv_sports|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.2,
+  "rating_facility_comfort": 4.1,
+  "rating_value_for_money": 4.1,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "While the website doesn't explicitly state club rental policies, it's standard practice at golf facilities to have rental options. It's recommended to call ahead to confirm availability."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The club offers kitchen and food service for events, but personal food and drink policies are not detailed. BYOB (bring your own booze) is not mentioned, so it's advisable to inquire directly with the club."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The course is 6400 yards long with a Par 72 layout, typically taking 3.5-4.5 hours for a full round depending on pace of play. Simulator times would vary by user and game mode selected."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "While the venue doesn't specifically mention children's programs or features, its status as a public golf club with family-friendly membership options suggests it welcomes junior golfers, though specific kid amenities aren't detailed."
+    }
+  ],
+  "rating_overall": 4.1,
+  "opening_hours": "{\"Monday\": [\"6:30AM-8:30PM\"], \"Tuesday\": [\"6:30AM-8:30PM\"], \"Wednesday\": [\"6:30AM-8:30PM\"], \"Thursday\": [\"6:30AM-8:30PM\"], \"Friday\": [\"6:30AM-8:30PM\"], \"Saturday\": [\"6:30AM-8:30PM\"], \"Sunday\": [\"6:30AM-8:30PM\"]}"
+}

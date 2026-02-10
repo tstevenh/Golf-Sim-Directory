@@ -1,0 +1,89 @@
+{
+  "name": "Cinderella Story",
+  "address": "207 41st St S, Birmingham, AL 35222",
+  "city": "Birmingham",
+  "region": "Alabama",
+  "country": "US",
+  "latitude": 33.524381,
+  "longitude": -86.774111,
+  "phone": "+11626890509",
+  "website": "http://www.cinderellastory.golf/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770203949/golf_simulators/www_cinderellastory_golf_ChIJab4L_IQbiYgRb8WS7lQO1UQ.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Cinderella+Story/@33.524380799999996,-86.7741114,14z/data=!4m8!1m2!2m1!1sCinderella+Story!3m4!1s0x88891b84fc0bbe69:0x44d50e54ee92c56f!8m2!3d33.524380799999996!4d-86.7741114",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJab4L_IQbiYgRb8WS7lQO1UQ",
+  "venue_type": "sim_bar",
+  "about": "Cinderella Story is a golf simulator venue located within Avondale Brewing Co. It features an HD Golf simulator, considered the best on the market for its realism and accuracy, allowing players to experience championship courses like Pebble Beach and St. Andrews. The venue is designed for both serious golf practice and casual social gatherings, offering a comfortable lounge space and full bar service. It primarily operates on a reservation basis, with bookings available for groups up to 30 people when including the adjoining Clubhouse space.",
+  "tags": "food_and_drinks|serious_practice|corporate_events|date_night|private_rooms|premium_tech|adults_only|group_friendly|beer_golf",
+  "vibe_tags": "sports_bar|community_club|modern|casual",
+  "who_its_for": "serious_golfers|corporate_teams|families|large_groups|bachelor_parties",
+  "why_golfers_like_it": [
+    "Premium HD Golf simulator technology for realistic play on world-famous courses",
+    "Integrated full bar with craft beer and specialty cocktails from a local brewery",
+    "Social atmosphere combining golf with a high-end taproom experience",
+    "Flexible booking for groups with options to add an overflow clubhouse space"
+  ],
+  "kid_friendly": false,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "No outside food allowed. Catering must be ordered from approved partners like Saw's Soul Kitchen, Miracle Pizza Company, Black Market Bar & Grill, or The Goose."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar available. All drinks must be purchased from the Avondale Taproom or The Sour Room. Offers craft beer, handcrafted cocktails, and Coca-Cola products. Guests must be 21+ to rent."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "HD Golf",
+      "model": "Championship",
+      "notes": "High-end simulator known for realism and accuracy."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "http://www.cinderellastory.golf/reservations",
+  "pricing_model": "per_person_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": false,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|private_party_room|tv_sports|wifi|club_rentals",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "While not explicitly stated, golf simulator venues typically provide clubs, but bringing your own set is recommended for the best experience and fit."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, outside food is not allowed and all drinks must be purchased from the on-site Avondale Taproom or The Sour Room."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "A standard 18-hole round of golf typically takes about 1.5 to 2 hours on a simulator, depending on the pace of play and group size."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "No, all guests must be 21 years or older to rent Cinderella Story, and IDs are checked when ordering alcohol."
+    }
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"12-10PM\"], \"Tuesday\": [\"12-10PM\"], \"Wednesday\": [\"12-10PM\"], \"Thursday\": [\"12-11PM\"], \"Friday\": [\"12-11PM\"], \"Saturday\": [\"12-11PM\"], \"Sunday\": [\"1-10PM\"]}"
+}

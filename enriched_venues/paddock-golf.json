@@ -1,0 +1,91 @@
+{
+  "name": "Paddock Golf",
+  "address": "8624 Nashville Rd Suite 109, Bowling Green, KY 42101",
+  "city": "Bowling Green",
+  "region": "Kentucky",
+  "country": "US",
+  "latitude": 36.891214,
+  "longitude": -86.521924,
+  "phone": "+12703680012",
+  "website": "https://paddockgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770213704/golf_simulators/paddockgolf_com_ChIJKSG2DI7BZYgRdFxCE0TXe64.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Paddock+Golf/@36.8912136,-86.52192389999999,14z/data=!4m8!1m2!2m1!1sPaddock+Golf!3m4!1s0x8865c18e0cb62129:0xae7bd74413425c74!8m2!3d36.8912136!4d-86.52192389999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJKSG2DI7BZYgRdFxCE0TXe64",
+  "email": "mikehughes@paddockgolf.com",
+  "venue_type": "sim_bar",
+  "about": "The Paddock Golf is a state-of-the-art indoor golf facility and Kentucky-branded apparel shop located in Bowling Green, Kentucky. The venue features three Full Swing golf simulator bays, making it a one-stop shop for golfers seeking practice, fitting services, and social activities. It offers a unique blend of technology and hospitality, with services including simulator rentals, club fitting and repair, golf lessons, and leagues. The facility is designed to be a golfer's hangout spot, combining high-tech simulation with a self-serve 16-beer tap wall and sports viewing options, creating an environment for both serious practice and social events.",
+  "tags": "food_and_drinks|corporate_events|leagues|premium_tech|club_rentals|coaching_available|solo_practice|date_night|serious_golfers",
+  "vibe_tags": "sports_bar|community_club|modern",
+  "who_its_for": "serious_golfers|corporate_teams|solo_practice|large_groups|families",
+  "why_golfers_like_it": [
+    "Combines premium Full Swing simulators with a relaxed sports bar atmosphere",
+    "Offers comprehensive golf services including club fitting, repairs, and lessons",
+    "Provides unique social amenities like a 16-beer tap wall and sports viewing",
+    "Hosts leagues and events for both casual and competitive play",
+    "Convenient location and pricing structure for various usage scenarios"
+  ],
+  "kid_friendly": false,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Restaurant food options available on-site"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Self-serve 16-beer tap wall available"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Full Swing",
+      "model": "unknown",
+      "notes": "Premium golf simulator system with multiple bays"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 3,
+  "booking_url": "https://booking.cojilio.com/3743/online",
+  "pricing_model": "mixed",
+  "price_range_min_local": 25,
+  "price_range_max_local": 150,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 3,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own golf clubs?",
+      "answer": "Yes, you need to bring your own golf clubs to use the simulators, as they are not provided by the venue."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, outside food and drinks are not permitted. The venue offers a self-serve 16-beer tap wall and restaurant food options available on-site."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "The time for 18 holes can vary, but simulator bookings typically range from 1-4 hours depending on group size and pace."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The venue requires all league participants to be 18 years or older, and it's primarily geared toward adults, though specific family policies aren't detailed."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"10AM-9PM\"], \"Tuesday\": [\"10AM-9PM\"], \"Wednesday\": [\"10AM-9PM\"], \"Thursday\": [\"10AM-9PM\"], \"Friday\": [\"10AM-11PM\"], \"Saturday\": [\"10AM-11PM\"], \"Sunday\": [\"10AM-6PM\"]}"
+}

@@ -1,0 +1,92 @@
+{
+  "name": "Interlochen Golf Course",
+  "address": "10586 US-31, Interlochen, MI 49643",
+  "city": "Interlochen",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 44.659954,
+  "longitude": -85.79011,
+  "phone": "+12312757311",
+  "website": "http://www.interlochengolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770260981/golf_simulators/www_interlochengolf_com_ChIJ8Ya0BUs4HogRdfwupvdQm_w.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Interlochen+Golf+Course/@44.6599542,-85.7901097,14z/data=!4m8!1m2!2m1!1sInterlochen+Golf+Course!3m4!1s0x881e384b05b486f1:0xfc9b50f7a62efc75!8m2!3d44.6599542!4d-85.7901097",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ8Ya0BUs4HogRdfwupvdQm_w",
+  "email": "braddean@interlochengolf.com",
+  "venue_type": "sim_bar|country_club",
+  "about": "Interlochen Golf Course is an 18-hole public golf facility located seven miles west of Traverse City, Michigan. The venue features two state-of-the-art golf simulator bays alongside its traditional outdoor course, allowing for year-round play. The facility includes Bradley's Pub & Grille, a full-service restaurant and bar, creating a comprehensive golf and dining experience. Simulators offer access to 85+ global courses and swing analysis technology, while memberships provide discounts on pro shop merchandise and dining.",
+  "tags": "food_and_drinks|beginner_friendly|families|corporate_events|leagues|premium_tech|private_rooms|club_rentals|late_night|coaching_available",
+  "vibe_tags": "sports_bar|community_club|family_fun_center|tech_lab",
+  "who_its_for": "beginners|families|serious_golfers|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "85+ global courses available for simulator play",
+    "Advanced swing analysis with aboutGolf technology and aG Locker app integration",
+    "Year-round access with indoor climate-controlled bays",
+    "Dining on-site at Bradley's Pub & Grille with course views",
+    "Junior-specific programs and discounted rates"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full lunch and dinner menu at Bradley's Pub & Grille featuring favorites and local selections, plus smokehouse options. Online ordering available."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service at Bradley's Pub & Grille, open until 10pm, with craft cocktails and beer selections."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "aboutGolf",
+      "model": "unknown",
+      "notes": "State-of-the-art system with high-speed cameras and swing analysis capabilities"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 2,
+  "booking_url": "https://interlochengolfcourse.reservewithrex.com/package?venue=Interlochen%20Golf%20Course",
+  "pricing_model": "mixed",
+  "price_range_min_local": 45,
+  "price_range_max_local": 65,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 4.2,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You must bring your own clubs to use the golf simulators. The venue does not specify rental equipment availability."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No, outside food and drinks are not permitted. Bradley's Pub & Grille serves lunch and dinner year-round with an extensive menu and full bar available on-site."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "One golfer can complete 18 holes in approximately one hour in the simulator bays. Hourly rates accommodate up to 6 golfers per bay."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, Interlochen Golf Course is kid-friendly, offering junior membership for players 17 and under with 30% off all rates, and family-friendly amenities at Bradley's Pub & Grille."
+    }
+  ],
+  "simulator_software": [
+    "aboutGolf"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"7:30AM-10PM\"], \"Tuesday\": [\"7:30AM-10PM\"], \"Wednesday\": [\"7:30AM-10PM\"], \"Thursday\": [\"7:30AM-10PM\"], \"Friday\": [\"7:30AM-10PM\"], \"Saturday\": [\"7:30AM-10PM\"], \"Sunday\": [\"7:30AM-10PM\"]}"
+}

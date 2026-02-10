@@ -1,0 +1,94 @@
+{
+  "name": "l",
+  "address": "5508 W Pinnacle Pointe Dr, Rogers, AR 72758",
+  "city": "Rogers",
+  "region": "Arkansas",
+  "country": "US",
+  "latitude": 36.311416,
+  "longitude": -94.192109,
+  "phone": "+14792004069",
+  "website": "https://twentytoscratch.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770234799/golf_simulators/twentytoscratch_com_ChIJS4fx0GgRyYcRMhpGGd9vbSU.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/l/@36.3114159,-94.19210919999999,14z/data=!4m8!1m2!2m1!1sl!3m4!1s0x87c91168d0f1874b:0x256d6fdf19461a32!8m2!3d36.3114159!4d-94.19210919999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJS4fx0GgRyYcRMhpGGd9vbSU",
+  "email": "Twentytoscratch@gmail.com",
+  "venue_type": "training_studio",
+  "about": "Twenty to Scratch is a private, 24/7-access indoor golf facility designed for serious players and passionate golfers. The venue features two GC Hawk simulator bays, a PuttView 7+ AR putting green, and a dedicated putting studio with SAM PuttLab, offering a premium environment for play, practice, and relaxation on one's own schedule. It is led by NCAA and PGA Tour coach Barrett Lais and includes a private teaching bay equipped with Foresight and Swing Catalyst technology. The facility provides full club, putter, and ball fitting services, and partners with Diamond Training Fitness to offer TPI-based fitness training. Members can enjoy BYOB privileges, live Vegas sports odds, and access to a full-service Club Repair Center.",
+  "tags": "serious_practice|coaching_available|private_rooms|club_rentals|leagues|premium_tech|food_and_drinks",
+  "vibe_tags": "private_luxury|tech_lab|community_club",
+  "who_its_for": "serious_golfers|solo_practice|coaches_instructors|juniors_youth|corporate_teams",
+  "why_golfers_like_it": [
+    "24/7 private access for flexible scheduling",
+    "Premium technology with dual Foresight/Swing Catalyst bays",
+    "Comprehensive services including club fitting, fitness training, and expert repairs"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "Catering-friendly access available"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "BYOB privileges allowed"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": "GC Hawk",
+      "notes": "Two simulator bays with GSPro software"
+    },
+    {
+      "brand": "SAM PuttLab",
+      "model": "7+",
+      "notes": "Dedicated putting studio for AR putting analysis"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://twentytoscratch.com/membership-info/",
+  "pricing_model": "membership_only",
+  "price_range_min_local": 855,
+  "price_range_max_local": 2550,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|lockers|pro_shop|club_fitting|leagues|tv_sports",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "Yes, players should bring their own clubs. However, club rentals may be available through the facility's partnership with local providers."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, the venue offers BYOB privileges, allowing members to bring their own alcohol. Catering-friendly access is also available."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Playing 18 holes typically takes 2-3 hours depending on simulator availability and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the facility is kid-friendly and offers lessons and programs for juniors, making it suitable for families."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": null
+}

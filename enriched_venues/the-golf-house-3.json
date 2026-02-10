@@ -1,0 +1,95 @@
+{
+  "name": "The Golf House",
+  "address": "3946 Ice Way, Fort Wayne, IN 46808",
+  "city": "Fort Wayne",
+  "region": "Indiana",
+  "country": "US",
+  "latitude": 41.113533,
+  "longitude": -85.146149,
+  "phone": "+12604442788",
+  "website": "https://fwgolfhouse.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770204047/golf_simulators/fwgolfhouse_com_ChIJCxmD2oHjFYgRqqMTf4ZrXCc.png",
+  "google_maps_url": "https://www.google.com/maps/place/The+Golf+House/@41.113533,-85.14614859999999,14z/data=!4m8!1m2!2m1!1sThe+Golf+House!3m4!1s0x8815e381da83190b:0x275c6b867f13a3aa!8m2!3d41.113533!4d-85.14614859999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJCxmD2oHjFYgRqqMTf4ZrXCc",
+  "email": "fwgolfhouse@gmail.com",
+  "venue_type": "sim_bar",
+  "about": "The Golf House is a multi-bay golf simulator venue in Fort Wayne, Indiana. It features Full Swing Pro Series golf simulators and an indoor driving range equipped with Flightscope Mevo+ launch monitors. The venue offers online and walk-in bay reservations, leagues, events, private party packages, and a full-service lounge with food and beverages. Memberships are available for single, dual, and family play, with benefits including discounted simulator time.",
+  "tags": "food_and_drinks|leagues|corporate_events|private_rooms|club_rentals|beginner_friendly|date_night|family_friendly|premium_tech",
+  "vibe_tags": "sports_bar|community_club|family_fun_center",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Full Swing Pro Series for premium accuracy",
+    "Indoor driving range with FlightScope technology",
+    "Full-service bar and lounge for social play",
+    "Flexible booking system for individuals and groups"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full service lounge with snacks available"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full service bar with beverage service"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Full Swing",
+      "model": "Pro Series",
+      "notes": "Premium camera-based simulators"
+    },
+    {
+      "brand": "FlightScope",
+      "model": "Mevo+",
+      "notes": "3D Doppler radar launch monitor for indoor range"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://www.sevenrooms.com/reservations/golfhousefortwayne?duration-picker=true.",
+  "pricing_model": "mixed",
+  "price_range_min_local": 25,
+  "price_range_max_local": 40,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "No, you can use your own clubs or rent clubs from The Golf House."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The Golf House has a full-service lounge with food and beverage options available for purchase."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Typically a single player can play 18 holes in one hour, so book extra time for groups."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, The Golf House is family-friendly and offers amenities suitable for all ages."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"12-9PM\"], \"Tuesday\": [\"12-9PM\"], \"Wednesday\": [\"12-9PM\"], \"Thursday\": [\"12-9PM\"], \"Friday\": [\"12-9PM\"], \"Saturday\": [\"12-9PM\"], \"Sunday\": [\"12-9PM\"]}"
+}

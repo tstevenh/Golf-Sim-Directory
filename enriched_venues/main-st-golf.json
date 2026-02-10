@@ -1,0 +1,89 @@
+{
+  "name": "Main St Golf",
+  "address": "105 S Main St, Payson, UT 84651",
+  "city": "Payson",
+  "region": "Utah",
+  "country": "US",
+  "latitude": 40.04227,
+  "longitude": -111.731982,
+  "phone": "+18019951327",
+  "website": "https://mainstgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770226469/golf_simulators/mainstgolf_com_ChIJCREKKCGlTYcR_jTXVrsid4Q.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Main+St+Golf/@40.042270099999996,-111.73198169999999,14z/data=!4m8!1m2!2m1!1sMain+St+Golf!3m4!1s0x874da521280a1109:0x847722bb56d734fe!8m2!3d40.042270099999996!4d-111.73198169999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJCREKKCGlTYcR_jTXVrsid4Q",
+  "email": "mainstgolfut@gmail.com",
+  "venue_type": "sim_bar",
+  "about": "Main St Golf is a premier golf simulator venue offering an exclusive golfing experience. It is equipped with a new 14' impact screen and the latest Trackman IO launch monitor, providing access to hundreds of virtual golf courses and games for all ages and skill levels. The facility features a large private bay with luxury amenities including two 75' flat screen TVs, two fireplaces, a custom bar with a built-in vending machine, and complimentary water. The venue is designed for both skill improvement and recreational play, offering a private and comfortable environment for groups up to 8 guests.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|premium_tech|private_rooms|coaching_available",
+  "vibe_tags": "private_luxury|sports_bar|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "High-end Trackman IO technology provides accurate and professional-grade tracking",
+    "Complete privacy in a luxurious bay with TVs, fireplaces, and a custom bar",
+    "24/7 online booking for maximum flexibility and convenience"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Built-in vending machine available in the bay"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "Not explicitly mentioned; BYOB policy is not stated"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Newest release, trusted by professionals"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 1,
+  "booking_url": "https://clients.uschedule.com/mainstreetgolf/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 35,
+  "price_range_max_local": 125,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 8,
+  "amenities_list": "full_bar|tv_sports|private_party_room|wifi|club_fitting",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not explicitly state whether they provide rental clubs. It is recommended to bring your own clubs unless contacted otherwise after booking."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue has a custom bar with a built-in vending machine. BYOB (Bring Your Own Beverage) policy is not mentioned, so alcohol may need to be purchased on-site or is not permitted."
+    },
+    {
+      "question": "How long does an 18-hole round take?",
+      "answer": "The website does not specify the duration for an 18-hole round. Booking is available on an hourly basis, so timing will depend on the group's pace and the number of players."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Main St Golf is suitable for all ages and skill levels, with the ability to accommodate up to 8 guests comfortably. The private and engaging environment makes it a family-friendly option."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

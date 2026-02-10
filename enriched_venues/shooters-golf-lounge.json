@@ -1,0 +1,94 @@
+{
+  "name": "Shooters Golf Lounge",
+  "address": "108 N 2nd Ave, Chatsworth, GA 30705",
+  "city": "Chatsworth",
+  "region": "Georgia",
+  "country": "US",
+  "latitude": 34.766557,
+  "longitude": -84.768241,
+  "phone": "+17065172167",
+  "website": "http://shootersgolflounge.net/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770225866/golf_simulators/shootersgolflounge_net_ChIJu-A13T3DX4gRuhb0Y0qinOs.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Shooters+Golf+Lounge/@34.7665575,-84.7682406,14z/data=!4m8!1m2!2m1!1sShooters+Golf+Lounge!3m4!1s0x885fc33ddd35e0bb:0xeb9ca24a63f416ba!8m2!3d34.7665575!4d-84.7682406",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJu-A13T3DX4gRuhb0Y0qinOs",
+  "email": "filler@godaddy.com",
+  "venue_type": "sim_bar",
+  "about": "Shooters Golf Lounge is an indoor golf simulator venue that combines technology with a social atmosphere. They provide top golf simulators and a variety of drinks to enhance the customer experience. The venue is designed to be welcoming for both golf enthusiasts and socializers, offering a space for practice, play, and relaxation with food and beverage options available.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|private_rooms|club_rentals|community_club",
+  "vibe_tags": "sports_bar|casual|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Top-tier golf simulator technology for an authentic playing experience",
+    "Variety of drinks available to enhance the social aspect of the visit",
+    "Welcoming environment suitable for both focused practice and social gatherings",
+    "Convenient booking system for easy tee time reservations"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen available for food service"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Variety of drinks available to complement the golf experience"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Top-tier radar technology providing accurate ball and club data"
+    }
+  ],
+  "simulator_so": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "http://shootersgolflounge.net/m/bookings",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|lockers|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue likely provides club rentals, though bringing your own clubs is recommended for the most familiar experience."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No outside food or drinks are allowed as the venue has its own full kitchen and bar available for customers."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "Playing 18 holes typically takes 1-2 hours depending on simulator usage and group size."
+    },
+    {
+      "question": "Is Shooters Golf Lounge kid-friendly?",
+      "answer": "Yes, the venue is family-friendly and welcomes children, making it suitable for family outings and junior golfers."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"Closed\"], \"Wednesday\": [\"12-8PM\"], \"Thursday\": [\"12-8PM\"], \"Friday\": [\"12-11:30PM\"], \"Saturday\": [\"12-11:30PM\"], \"Sunday\": [\"Closed\"]}"
+}

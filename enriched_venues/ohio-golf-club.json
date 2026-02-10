@@ -1,0 +1,91 @@
+{
+  "name": "Ohio Golf Club",
+  "address": "2262 S Arlington Rd, Akron, OH 44319",
+  "city": "Akron",
+  "region": "Ohio",
+  "country": "US",
+  "latitude": 41.010301,
+  "longitude": -81.492988,
+  "phone": "+13309580052",
+  "website": "http://ohiogolfclubindoor.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770211032/golf_simulators/ohiogolfclubindoor_com_ChIJp_9WNUjbMIgR4Se2SiFdqIw.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Ohio+Golf+Club/@41.0103015,-81.4929882,14z/data=!4m8!1m2!2m1!1sOhio+Golf+Club!3m4!1s0x8830db483556ffa7:0x8ca85d214ab627e1!8m2!3d41.0103015!4d-81.4929882",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJp_9WNUjbMIgR4Se2SiFdqIw",
+  "email": "brandon@ohiogolfclubindoor.com",
+  "venue_type": "sim_bar|training_studio|private_rental|retail_fitting_center",
+  "about": "Ohio Golf Club is an indoor golf destination featuring TrackMan 4 simulators, private hitting bays, expert instruction, and a full-service bar. The facility offers bay rentals, private lessons with PGA-certified professionals, custom club fittings, and memberships. It provides a premium environment for golfers to practice, play virtual courses, receive coaching, and host events. Members benefit from discounted rates, complimentary lessons, and access to a 4,000 sq ft putting green and short game area.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|club_rentals|coaching_available|private_rooms|family_friendly",
+  "vibe_tags": "upscale_lounge|modern|community_club|tech_lab",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "State-of-the-art TrackMan 4 technology for the most accurate golf simulation",
+    "4,000 sq ft putting green and short game area for comprehensive practice",
+    "PGA-certified instruction and custom club fitting services",
+    "Full-service bar and upscale facility for social events"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "BYOB not mentioned; no kitchen or food service indicated"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full-service bar available for events and general use"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "Industry-standard technology recognized as the most accurate golf simulator system"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 9,
+  "booking_url": "https://apimanager-cc29.clubcaddie.com/activities/view/hafdabab",
+  "pricing_model": "mixed",
+  "price_range_min_local": 5,
+  "price_range_max_local": 10,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 9,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|tv_sports|private_party_room|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you should bring your own golf clubs to use with the simulators and practice areas."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No outside food or drinks are allowed, but the facility has a full-service bar available."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "18 holes typically take 1.5-2 hours depending on the course and number of players."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, the facility is designed for all ages including juniors and youth golfers."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"8AM-10PM\"], \"Tuesday\": [\"8AM-10PM\"], \"Wednesday\": [\"8AM-10PM\"], \"Thursday\": [\"8AM-10PM\"], \"Friday\": [\"8AM-10PM\"], \"Saturday\": [\"8AM-10PM\"], \"Sunday\": [\"8AM-10PM\"]}"
+}

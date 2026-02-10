@@ -1,0 +1,90 @@
+{
+  "name": "Golf Performance Academy",
+  "address": "8536 Shaver Rd, Portage, MI 49024",
+  "city": "Portage",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 42.193172,
+  "longitude": -85.59964,
+  "phone": "+12693216676",
+  "website": "http://www.golfperformanceacademy.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770242509/golf_simulators/www_golfperformanceacademy_com_ChIJxSPCaSueF4gRwEY0wJTseqM.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Golf+Performance+Academy/@42.193172399999995,-85.59963979999999,14z/data=!4m8!1m2!2m1!1sGolf+Performance+Academy!3m4!1s0x88179e2b69c223c5:0xa37aec94c03446c0!8m2!3d42.193172399999995!4d-85.59963979999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJxSPCaSueF4gRwEY0wJTseqM",
+  "venue_type": "training_studio",
+  "about": "The Golf Performance Academy (GPA) is a specialized training facility located at 4200 Lover Lane, Kalamazoo, MI, focused on instruction and club fitting. They leverage state-of-the-art technology, including Foresight GC2/HMT and Flightscope Launch Monitors, to provide comprehensive analysis for golfers of all skill levels. The academy is adjacent to Milham Park Golf Club's practice area, offering a large putting green and top-tier short game facilities. Their philosophy emphasizes personalized coaching, avoiding one-size-fits-all methods to help each student understand and improve their unique swing. GPA also offers custom club fitting services, claiming to be the most comprehensive in the area, and features a simulator bay using Foresight Sports technology for realistic golf simulation and club gapping analysis.",
+  "tags": "serious_practice|beginner_friendly|juniors_youth|coaching_available|premium_tech|club_fitting|retail_fitting_center|budget_friendly",
+  "vibe_tags": "tech_lab|industrial_training|community_club",
+  "who_its_for": "beginners|serious_golfers|juniors_youth|coaches_instructors|low_handicap",
+  "why_golfers_like_it": [
+    "Comprehensive club fitting process using premium launch monitors (Foresight GC2/HMT, Flightscope)",
+    "Dual video camera swing analysis with Swing View Pro software for detailed diagnostics",
+    "Customized instruction approach tailored to each golfer's unique swing mechanics",
+    "Indoor simulation with real golf balls, not range balls, for accurate fitting and practice",
+    "Access to a virtual driving range and championship course simulation"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of on-site food service available."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service or BYOB policy."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": "GC2",
+      "notes": "Primary launch monitor used for fitting and simulation, featuring HMT technology for club head tracking through impact"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 1,
+  "booking_url": "https://www.golfperformanceacademy.com/Online-Appointments",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can bring your own clubs, but they also offer club rentals, trade-ins for used clubs, and a pro shop with starter and intermediate clubs for purchase."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "There is no mention of on-site food and beverage services or a policy regarding bringing outside food and drinks."
+    },
+    {
+      "question": "How long does it take to play 18 holes on the simulator?",
+      "answer": "The text does not specify the time required to complete 18 holes on the simulator."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, the academy explicitly states they take pride in improving the games of junior golfers and offer junior golf programs."
+    }
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"12-7PM\"], \"Tuesday\": [\"11AM-7PM\"], \"Wednesday\": [\"11AM-7PM\"], \"Thursday\": [\"11AM-7PM\"], \"Friday\": [\"11AM-6PM\"], \"Saturday\": [\"12-5PM\"], \"Sunday\": [\"12-5PM\"]}"
+}

@@ -1,0 +1,91 @@
+{
+  "name": "Destin Golf Club",
+  "address": "150 Industrial Park Rd UNIT 10, Destin, FL 32541",
+  "city": "Destin",
+  "region": "Florida",
+  "country": "US",
+  "latitude": 30.394888,
+  "longitude": -86.48141,
+  "phone": "+18504671097",
+  "website": "https://www.destingolfclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770230118/golf_simulators/www_destingolfclub_com_ChIJk5FlXh9DkYgRfnbpfXkOrKs.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Destin+Golf+Club/@30.394887699999998,-86.48141,14z/data=!4m8!1m2!2m1!1sDestin+Golf+Club!3m4!1s0x8891431f5e659193:0xabac0e797de9767e!8m2!3d30.394887699999998!4d-86.48141",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJk5FlXh9DkYgRfnbpfXkOrKs",
+  "email": "spencerg@destingolfclub.com",
+  "venue_type": "sim_bar",
+  "about": "Destin Golf Simulator is a premier indoor golf venue in Destin, Florida, equipped with 4 state-of-the-art golf simulator bays. The facility combines high-quality golf technology with a laid-back, family-friendly atmosphere, offering a convenient and accessible environment for the game of golf year-round. Operating on a dual pricing model for off-peak and peak hours, the venue caters to a wide range of patrons, from families and tourists to avid golfers seeking practice or entertainment, with special perks and discounts for members.",
+  "tags": "beginner_friendly|food_and_drinks|budget_friendly|corporate_events|leagues|family_friendly|date_night|late_night|coaching_available",
+  "vibe_tags": "family_fun_center|casual|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|families|tourists_travelers|corporate_teams",
+  "why_golfers_like_it": [
+    "24-hour access for members",
+    "No sunburns or rainouts in a climate-controlled space",
+    "ProTee VX Launch Monitor for detailed shot tracking",
+    "Family-friendly atmosphere suitable for all skill levels",
+    "Exclusive member access to leagues and events"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Available on-site with bar credits included in higher-tier memberships"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Available on-site with bar credits included in higher-tier memberships"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "ProTee",
+      "model": "VX",
+      "notes": "Dual high-speed cameras track swing and ball flight in real time"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": false,
+  "bay_count_total": 4,
+  "booking_url": "https://clients.uschedule.com/destingolfclub/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 15,
+  "price_range_max_local": 30,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 4,
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "full_bar|kitchen_food|tv_sports|leagues|ada_accessible|wifi|club_rentals",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need clubs?",
+      "answer": "Yes, you can bring your own clubs or rentals may be available on-site."
+    },
+    {
+      "question": "Can I bring my own food or drink?",
+      "answer": "The facility offers food and drinks for purchase, including bar credits for members. Outside food or drink policies are not specified."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Time varies depending on simulator software and pace of play, but typically takes 1.5 to 2 hours."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Destin Golf Simulator is suitable for all ages and skill levels, making it a great option for families."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-8PM\"], \"Tuesday\": [\"9AM-8PM\"], \"Wednesday\": [\"9AM-8PM\"], \"Thursday\": [\"9AM-8PM\"], \"Friday\": [\"9AM-9PM\"], \"Saturday\": [\"9AM-9PM\"], \"Sunday\": [\"9AM-8PM\"]}"
+}

@@ -1,0 +1,84 @@
+{
+  "name": "San Pedro Golf Course",
+  "address": "6102 San Pedro Ave, San Antonio, TX 78216",
+  "city": "San Antonio",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 29.491721,
+  "longitude": -98.498536,
+  "phone": "+12103495113",
+  "website": "https://golfsanpedro.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770239163/golf_simulators/golfsanpedro_com_ChIJxdt_z6FfXIYR8bvlcRIq66o.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/San+Pedro+Golf+Course/@29.4917207,-98.4985363,14z/data=!4m8!1m2!2m1!1sSan+Pedro+Golf+Course!3m4!1s0x865c5fa1cf7fdbc5:0xaaeb2a1271e5bbf1!8m2!3d29.4917207!4d-98.4985363",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJxdt_z6FfXIYR8bvlcRIq66o",
+  "venue_type": "sim_bar",
+  "about": "San Pedro Golf Course is a multi-facility venue offering golf driving range, par 3 course, simulator bays, instruction, club fitting services, and a full-service bar and grill. The facility caters to golfers of all skill levels with a mix of outdoor practice areas and indoor simulator technology. While pricing details are somewhat limited, it appears to operate on an hourly basis for simulator use and offers various lesson packages, making it accessible for both casual players and serious golfers seeking practice or instruction in a relaxed environment.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|premium_tech|coaching_available|club_rentals|family_friendly",
+  "vibe_tags": "casual|welcoming|modern|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Extensive instruction programs with multiple PGA-certified professionals",
+    "All-day putting play with a flat rate for unlimited fun",
+    "On-site bar and grill offering food and drink options",
+    "Hosts private events and special promotions",
+    "Remains open during adverse weather when other courses close"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full-service kitchen with seasonal menus; available via Bar & Grill"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available at the on-site bar and grill"
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": "unknown",
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "https://foreupsoftware.com/index.php/booking/20109#/login",
+  "pricing_model": "mixed",
+  "price_range_min_local": 95,
+  "price_range_max_local": 750,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|kitchen_food|club_fitting|leagues|private_party_room",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue offers club rentals and a club fitting service, but personal clubs are recommended for the best experience."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drinks are not mentioned as an option, but the venue has a full-service bar and grill on-site."
+    },
+    {
+      "question": "How long does it take to play 18 holes on the simulator?",
+      "answer": "The venue mentions playing all day for one flat rate instead of per 18 holes, suggesting unlimited play for a set price."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "Yes, the facility appears family-friendly with junior instruction programs and mentions of kids in their promotional content."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"7AM-11PM\"], \"Tuesday\": [\"7AM-11PM\"], \"Wednesday\": [\"7AM-11PM\"], \"Thursday\": [\"7AM-11PM\"], \"Friday\": [\"7AM-11PM\"], \"Saturday\": [\"7AM-11PM\"], \"Sunday\": [\"7AM-11PM\"]}"
+}

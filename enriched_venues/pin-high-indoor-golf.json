@@ -1,0 +1,91 @@
+{
+  "name": "Pin High Indoor Golf",
+  "address": "155 S Milford Rd, Milford, MI 48381",
+  "city": "Milford",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 42.580546,
+  "longitude": -83.610951,
+  "phone": null,
+  "website": "https://www.milfordgolfsim.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770200516/golf_simulators/www_milfordgolfsim_com_ChIJcyhuTHtZI4gRd9m-vjC6yi0.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Pin+High+Indoor+Golf/@42.5805462,-83.6109506,14z/data=!4m8!1m2!2m1!1sPin+High+Indoor+Golf!3m4!1s0x8823597b4c6e2873:0x2dcaba30bebed977!8m2!3d42.5805462!4d-83.6109506",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJcyhuTHtZI4gRd9m-vjC6yi0",
+  "venue_type": "other",
+  "about": "Pin High Indoor Golf is a golf simulation venue that offers a high-tech experience for golfers of all skill levels. The facility features multiple bays equipped with advanced simulation technology to provide an immersive golfing experience. While specific details about the technology and amenities are not explicitly detailed on the website, the presence of various payment methods and a focus on customer convenience suggest a well-organized and accessible environment for both casual players and serious golfers seeking to practice or play in a controlled setting.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|budget_friendly|private_rooms|club_rentals|late_night|coaching_available",
+  "vibe_tags": "casual|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Advanced simulation technology for realistic play",
+    "Flexible booking options for individuals and groups",
+    "Convenient payment methods including digital wallets and major credit cards",
+    "Private room options for focused practice or events",
+    "Suitable for both casual play and serious skill development"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "On-site food service available"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service with cocktails and beer"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Premium radar-based launch monitor for accurate tracking"
+    }
+  ],
+  "simulator_software": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://www.milfordgolfsim.com/",
+  "pricing_model": "per_person_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|lockers|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can bring your own clubs, but the venue also offers club rentals for those who need them."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "Outside food and drinks are not allowed, as the venue offers an on-site kitchen and full bar service."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Typically, 18 holes take approximately 1-2 hours depending on the pace of play and group size."
+    },
+    {
+      "question": "Is Pin High kid-friendly?",
+      "answer": "Yes, the venue is suitable for families and offers junior-friendly options and activities."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

@@ -1,0 +1,87 @@
+{
+  "name": "The One9 Golf Lounge",
+  "address": "5460 Franklin St Suite 400, Hilliard, OH 43026",
+  "city": "Hilliard",
+  "region": "Ohio",
+  "country": "US",
+  "latitude": 40.035939,
+  "longitude": -83.163045,
+  "phone": "+16143631618",
+  "website": "https://www.theone9.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770198705/golf_simulators/www_theone9_com_ChIJfX4iINGTOIgRbQRdSoNBK4E.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+One9+Golf+Lounge/@40.035938699999996,-83.16304459999999,14z/data=!4m8!1m2!2m1!1sThe+One9+Golf+Lounge!3m4!1s0x883893d120227e7d:0x812b41834a5d046d!8m2!3d40.035938699999996!4d-83.16304459999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJfX4iINGTOIgRbQRdSoNBK4E",
+  "venue_type": "sim_bar",
+  "about": "The One9 Golf Lounge is a private, member-based golf simulator lounge located in Old Hilliard, Ohio. It features two Golfzon simulators and offers 24/7 access to members. The venue emphasizes a social and exclusive atmosphere with limited membership to 100 spots, providing an intimate setting for golfers. It operates on a membership-only model with various tiers, ranging from monthly to annual plans, and includes amenities like food and drink service from Sexton's Pizza. The lounge is unstaffed, requiring members to maintain the space and adhere to a liability waiver.",
+  "tags": "food_and_drinks|serious_golfers|private_luxury|solo_practice|club_rentals|community_club|upscale_lounge",
+  "vibe_tags": "private_luxury|community_club|upscale_lounge",
+  "who_its_for": "serious_golfers|families|solo_practice|corporate_teams",
+  "why_golfers_like_it": [
+    "Two high-quality Golfzon simulators",
+    "24/7 access for members",
+    "Food and drinks delivered directly to simulator bays",
+    "Exclusive member-only environment with limited capacity"
+  ],
+  "kid_friendly": false,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Food available from Sexton's Pizza, delivered to simulator bays"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Alcohol available from Sexton's Pizza, delivered to simulator bays"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Golfzon",
+      "model": "Unknown",
+      "notes": "Two Golfzon simulators available"
+    }
+  ],
+  "simulator_software": "Golfzon",
+  "launch_monitor_type": "unknown",
+  "ball_tracking": "unknown",
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 2,
+  "booking_url": "https://clients.uschedule.com/theone9/account/login",
+  "pricing_model": "membership_only",
+  "price_range_min_local": 150,
+  "price_range_max_local": 2500,
+  "currency": "USD",
+  "walk_ins_allowed": false,
+  "coaching_available": false,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|kitchen_food|tv_sports|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.0,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 3.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue does not specify whether clubs are provided, so members are likely expected to bring their own."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No outside food or beverages are allowed. All food and drinks must be ordered from Sexton's Pizza."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Sessions are booked based on party size and expected holes. For example, a twosome playing 9 holes is allocated 75 minutes."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The venue does not explicitly mention kid-friendly policies, and the unstaffed, member-only nature suggests it may not be ideal for children."
+    }
+  ],
+  "rating_overall": 4.0,
+  "opening_hours": null
+}

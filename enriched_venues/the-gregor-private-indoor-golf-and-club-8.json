@@ -1,0 +1,91 @@
+{
+  "name": "The Gregor Private Indoor Golf and Club",
+  "address": "90 N Rochester Rd, Clawson, MI 48017",
+  "city": "Clawson",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 42.53455,
+  "longitude": -83.134851,
+  "phone": "+19784724653",
+  "website": "https://www.gpcgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770203081/golf_simulators/www_gpcgolf_com_ChIJUayxPRrFJIgR__YZPC-DEWM.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Gregor+Private+Indoor+Golf+and+Club/@42.5345502,-83.13485109999999,14z/data=!4m8!1m2!2m1!1sThe+Gregor+Private+Indoor+Golf+and+Club!3m4!1s0x8824c51a3db1ac51:0x6311832f3c19f6ff!8m2!3d42.5345502!4d-83.13485109999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJUayxPRrFJIgR__YZPC-DEWM",
+  "email": "access@gpcgolf.com",
+  "venue_type": "private_rental",
+  "about": "The Gregor Private Indoor Golf and Club is a premium, private member club offering 24/7 access to indoor golf facilities across three locations in Michigan. The venue features AboutGOLF™ premium simulator enclosures with curved screens for immersive gameplay, providing a luxury golf experience similar to that of a premier country club but with more intimacy and modern amenities. Membership is limited to ensure greater access, and the facility is designed for passionate golfers looking to socialize, entertain, and play in a sophisticated environment year-round.",
+  "tags": "serious_golfers|food_and_drinks|corporate_events|leagues|premium_tech|private_rooms|club_rentals|coaching_available|upscale_environment",
+  "vibe_tags": "private_luxury|modern|upscale_lounge|community_club",
+  "who_its_for": "serious_golfers|corporate_teams|families|solo_practice|coaches_instructors",
+  "why_golfers_like_it": [
+    "24/7 access to premium AboutGOLF™ simulators",
+    "Membership limited for greater accessibility and exclusivity",
+    "Sophisticated modern design and premium furnishings",
+    "Private golf lessons and club fittings available",
+    "Immersive curved-screen technology for realistic gameplay"
+  ],
+  "kid_friendly": false,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Refreshment and wet bar area available, though specific food service details are limited."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Wet bar area with glassware, fridge, and ice machine. BYOB policy not specified."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "AboutGOLF",
+      "model": "Premium Simulator Enclosure",
+      "notes": "Curved screens for immersive gameplay; aG locker for stat tracking."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 6,
+  "booking_url": "https://www.gpcgolf.com/become-a-member",
+  "pricing_model": "membership_only",
+  "price_range_min_local": 100,
+  "price_range_max_local": 300,
+  "currency": "USD",
+  "walk_ins_allowed": false,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|club_rentals|pro_shop|club_fitting|leagues|private_party_room|lockers|tv_sports",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Club rentals are available, but members can bring their own clubs for personal use."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue has a refreshment and wet bar area with fridge, ice machine, and glassware, but external food/drink policies are not specified."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Time to play 18 holes is not specified, but the simulators are designed for immersive, efficient gameplay."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "No, The Gregor is a private luxury indoor golf club for members aged 21 and older."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

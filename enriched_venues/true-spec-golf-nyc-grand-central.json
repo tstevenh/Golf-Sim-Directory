@@ -1,0 +1,91 @@
+{
+  "name": "True Spec Golf - NYC Grand Central",
+  "address": "335 Madison Ave, New York, NY 10017",
+  "city": "New York",
+  "region": "New York",
+  "country": "US",
+  "latitude": 40.753744,
+  "longitude": -73.978383,
+  "phone": "+18447298809",
+  "website": "https://truespecgolf.com/nyc-grand-central/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770256788/golf_simulators/truespecgolf_com_ChIJQZEZnFFZwokRYIOpUQBNYIA.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/True+Spec+Golf+-+NYC+Grand+Central/@40.753744399999995,-73.9783829,14z/data=!4m8!1m2!2m1!1sTrue+Spec+Golf+-+NYC+Grand+Central!3m4!1s0x89c259519c199141:0x80604d0051a98360!8m2!3d40.753744399999995!4d-73.9783829",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJQZEZnFFZwokRYIOpUQBNYIA",
+  "email": "info@truespecgolf.com",
+  "venue_type": "retail_fitting_center",
+  "about": "True Spec Golf - NYC Grand Central is a premium indoor fitting studio located in the luxurious 22 Vanderbilt office tower in Midtown Manhattan, with direct access to Grand Central Terminal. The facility specializes in custom golf club fittings using a single spacious indoor bay and the Foresight GCQuad launch monitor, recognized as the industry's first quadroscopic system. Their brand-agnostic fitting matrix includes over 70,000 clubhead and shaft combinations to optimize player performance.",
+  "tags": "serious_golfers|premium_tech|coaching_available|club_rentals|private_rooms|byob",
+  "vibe_tags": "upscale_lounge|tech_lab|private_luxury",
+  "who_its_for": "serious_golfers|solo_practice|coaches_instructors|tourists_travelers",
+  "why_golfers_like_it": [
+    "Premium quadroscopic launch monitor technology with detailed data analysis",
+    "Over 70,000 club and shaft combinations for optimal customization",
+    "Convenient Midtown Manhattan location with Grand Central access",
+    "Master fitter expertise for personalized equipment recommendations"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No on-site food service mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned; BYOB policy not specified"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": "GCQuad",
+      "notes": "Industry's first quadroscopic launch monitor"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 1,
+  "booking_url": "https://truespecgolf.com/get-fit/",
+  "pricing_model": "mixed",
+  "price_range_min_local": null,
+  "price_range_max_local": null,
+  "currency": "USD",
+  "walk_ins_allowed": false,
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|club_fitting",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, you don't need to bring your own clubs. The studio provides a comprehensive matrix of over 70,000 clubhead and shaft combinations for testing during your fitting session."
+    },
+    {
+      "question": "Can I bring food or drinks to my fitting?",
+      "answer": "No on-site food or drink service is mentioned. BYOB policy is not specified, so it's recommended to inquire directly with the venue."
+    },
+    {
+      "question": "How long does a typical fitting session last?",
+      "answer": "The content doesn't specify exact session duration. Typically, club fittings at this level range from 1-3 hours depending on the scope of fitting requested."
+    },
+    {
+      "question": "Is this facility kid-friendly?",
+      "answer": "No, the venue appears focused on adult serious golfers with a premium fitting studio atmosphere. No specific kid-friendly amenities or services are mentioned."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-5PM\"], \"Tuesday\": [\"9AM-5PM\"], \"Wednesday\": [\"9AM-5PM\"], \"Thursday\": [\"9AM-5PM\"], \"Friday\": [\"7:30AM-5PM\"], \"Saturday\": [\"8AM-2PM\"], \"Sunday\": [\"Closed\"]}"
+}

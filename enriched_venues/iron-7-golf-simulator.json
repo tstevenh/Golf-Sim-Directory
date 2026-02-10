@@ -1,0 +1,90 @@
+{
+  "name": "Iron 7 Golf Simulator",
+  "address": "27 W Race St, Salamanca, NY 14779",
+  "city": "Salamanca",
+  "region": "New York",
+  "country": "US",
+  "latitude": 42.155587,
+  "longitude": -78.716952,
+  "phone": "+15794714881",
+  "website": "http://iron7golf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770233923/golf_simulators/iron7golf_com_ChIJb23MzGuJ0okRq_2U6oDDG3U.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Iron+7+Golf+Simulator/@42.1555873,-78.71695179999999,14z/data=!4m8!1m2!2m1!1sIron+7+Golf+Simulator!3m4!1s0x89d2896bcccc6d6f:0x751bc380ea94fdab!8m2!3d42.1555873!4d-78.71695179999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJb23MzGuJ0okRq_2U6oDDG3U",
+  "email": "support@iron7golf.com",
+  "venue_type": "multi_sport_sim",
+  "about": "Iron 7 Sports Simulator is a family-owned and operated venue in Salamanca, NY, offering a flexible and welcoming environment for sports simulation across multiple activities. Their primary focus is on golf, utilizing Full Swing Simulator 2.0 technology to recreate famous golf courses with exceptional accuracy. Customers can enjoy a laid-back, interactive experience that caters to all skill levels, from beginners to seasoned golfers. The venue also supports various other sports such as baseball, lacrosse, soccer, hockey, and zombie dodgeball, making it a versatile option for group entertainment.",
+  "tags": "beginner_friendly|kids_friendly|corporate_events|group_bookings|food_and_drinks|budget_friendly|family_fun_center|private_events|walk_in_friendly|multi_sport",
+  "vibe_tags": "casual|welcoming|family_fun_center|modern",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Access to premium Full Swing Simulator 2.0 technology for a realistic golf experience",
+    "Multiple course options including Augusta National and Royal Melbourne for variety",
+    "Self-serve model offers a pressure-free environment for practice and play",
+    "Club rentals available for those without their own equipment, including left-handed sets"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Vending machine with snacks available. Outside food is allowed."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "Not explicitly stated as served, but 'outside beverages are allowed' implies BYOB policy."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Full Swing",
+      "model": "Simulator 2.0",
+      "notes": "Primary simulator hardware for golf and sports simulations."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.iron7golf.com/book-online",
+  "pricing_model": "mixed",
+  "price_range_min_local": 45,
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": false,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|wifi|vending_machine|private_events",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, while you are encouraged to bring your own clubs, Iron 7 provides rental sets including right-handed men's and women's sets as well as a left-handed set for men."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, outside food and beverages are allowed. The venue also has a vending machine with snacks and beverages available."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time required to play 18 holes is not specified on the website. Pricing is based on session length, with options ranging from one to four hours."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, golfers of all ages are welcome, though minors require adult supervision (21+). Families are encouraged to enjoy the simulator together."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"7AM-10PM\"], \"Tuesday\": [\"7AM-10PM\"], \"Wednesday\": [\"7AM-10PM\"], \"Thursday\": [\"7AM-10PM\"], \"Friday\": [\"7AM-12AM\"], \"Saturday\": [\"7AM-12AM\"], \"Sunday\": [\"7AM-10PM\"]}"
+}

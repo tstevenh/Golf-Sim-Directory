@@ -1,0 +1,91 @@
+{
+  "name": "Beyond Golf - Bar + Kitchen",
+  "address": "1020 Capitol St, Eagle, CO 81631",
+  "city": "Eagle",
+  "region": "Colorado",
+  "country": "US",
+  "latitude": 39.64132,
+  "longitude": -106.830697,
+  "phone": "+19703281377",
+  "website": "https://www.beyondgolf.com/eagle/home-eagle",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770244311/golf_simulators/www_beyondgolf_com_ChIJc3FKmNvBQYcRkiKZkXdiG0c.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Beyond+Golf+-+Bar+%2B+Kitchen/@39.6413197,-106.83069739999999,14z/data=!4m8!1m2!2m1!1sBeyond+Golf+-+Bar+%2B+Kitchen!3m4!1s0x8741c1db984a7173:0x471b627791992292!8m2!3d39.6413197!4d-106.83069739999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJc3FKmNvBQYcRkiKZkXdiG0c",
+  "email": "patty@beyondgolf.com",
+  "venue_type": "sim_bar",
+  "about": "Beyond Golf in Eagle is an indoor golf simulator venue featuring GOLFZON technology, offering a casual atmosphere with a full bar and gourmet food menu. The facility provides year-round golf access to world-famous courses with high-speed camera-based tracking for realism. Pricing is based on hourly simulator rental, with rates varying by season and time of day, and the venue offers both individual play and leagues for golfers of all skill levels.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|leagues|premium_tech|budget_friendly|private_rooms|club_rentals|coaching_available",
+  "vibe_tags": "casual|welcoming|modern|sports_bar",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Realistic GOLFZON simulator technology with high-speed cameras",
+    "Casual bar and food atmosphere perfect for groups and events",
+    "Flexible pricing model with hourly rates and package deals",
+    "Year-round golf access regardless of weather conditions",
+    "Available leagues and tournament play opportunities"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Gourmet food menu prepared from scratch daily, including house-smoked meats, hand-sliced cheeses, fresh veggies, and elevated bar fare. Also offers a to-go menu and catering services."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with craft cocktails, local/regional craft beers on 12-tap system, house-made infused liquors, and wine selection."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "GOLFZON",
+      "model": "T1",
+      "notes": "High-speed ceiling-mounted camera system with booth design for a realistic feel; claims extreme accuracy over computer-generated graphics."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "overhead_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 4,
+  "booking_url": "https://www.beyondgolf.com/eagle/book-tee-time-eagle",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 30,
+  "price_range_max_local": 75,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, players are expected to bring their own clubs for use on the simulators."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No, outside food and drinks are not allowed as the venue offers its own gourmet food menu and full bar."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Typically, 9 holes take approximately 30 minutes per person, so 18 holes would take about 1 hour per person depending on group size and simulator time rented."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Beyond Golf is kid-friendly with a casual atmosphere and food menu suitable for families."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-11PM\"], \"Saturday\": [\"10AM-11PM\"], \"Sunday\": [\"10AM-10PM\"]}"
+}

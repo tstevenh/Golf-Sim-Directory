@@ -1,0 +1,91 @@
+{
+  "name": "Foxchase Golf Club",
+  "address": "300 Stevens Rd, Stevens, PA 17578",
+  "city": "Stevens",
+  "region": "Pennsylvania",
+  "country": "US",
+  "latitude": 40.220004,
+  "longitude": -76.138731,
+  "phone": "+17173363673",
+  "website": "http://www.foxchasegolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770206398/golf_simulators/www_foxchasegolf_com_ChIJwV0BL5kTxokRigSkRHku858.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Foxchase+Golf+Club/@40.2200038,-76.1387312,14z/data=!4m8!1m2!2m1!1sFoxchase+Golf+Club!3m4!1s0x89c613992f015dc1:0x9ff32e7944a4048a!8m2!3d40.2200038!4d-76.1387312",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJwV0BL5kTxokRigSkRHku858",
+  "email": "questionsdsgraybill@foxchasegolf.com",
+  "venue_type": "sim_bar|training_studio|multi_sport_sim",
+  "about": "Foxchase Golf Club is a public golf and entertainment venue located in Stevens, Pennsylvania, offering both an 18-hole outdoor course and a state-of-the-art indoor golf simulator facility. Opened in 1991, the venue caters to players of all skill levels with its links-style course, practice facilities, and year-round simulator access. The on-site pro shop provides equipment, repair services, and club fittings, while two restaurants, 'The Den' (snack bar, open daily) and 'The Grubbery' (seasonal dinner), offer dining options. The space is also available for events, banquets, and wedding receptions, featuring a dedicated pavilion for weekend rentals. The indoor golf simulator provides a climate-controlled environment for both practice and play, with access to over 1,000 virtual courses and food and beverage service during simulator sessions. The facility is designed to offer a full-service golf experience with a mix of outdoor and indoor options, making it suitable for various occasions, from casual rounds to group outings and corporate events.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|club_rentals|coaching_available|family_friendly",
+  "vibe_tags": "casual|welcoming|modern|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "State-of-the-art indoor golf simulators with access to over 1,000 world-renowned courses",
+    "One of the largest grass tee driving ranges in the area with night lights for extended practice hours",
+    "On-site pro shop with club repair, fittings, and a fully stocked inventory for all golfing needs",
+    "Flexible indoor and outdoor options, allowing golf regardless of weather conditions",
+    "Hosts regular leagues and events, fostering a strong community atmosphere among players"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full food service available with 'The Den' open daily for snacks and 'The Grubbery' open seasonally (May-Sept) for dinner, serving American cuisine"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Bar service available at both restaurants with mixed drinks and beverages"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Unknown",
+      "model": "Unknown",
+      "notes": "The website mentions 2 Indoor Simulators but does not specify the brand or model"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://app.foreupsoftware.com/index.php/booking/21118/6998#/teetimes",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 35,
+  "price_range_max_local": 40,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "pro_shop|club_fitting|leagues|full_bar|kitchen_food|club_rentals|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own golf clubs?",
+      "answer": "Yes, players are expected to bring their own golf clubs for use on both the outdoor course and indoor simulators. Club rentals are not mentioned as an option."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, outside food and drinks are not permitted. The venue offers full food and beverage service at its on-site restaurants, 'The Den' and 'The Grubbery', which can be enjoyed during simulator sessions."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes on the simulator?",
+      "answer": "The outdoor course has an overall average round time of 3 hours and 26 minutes, with 90% of rounds finishing 3 hours and 34 minutes or under. The simulator pace is not specified, but booking is by the hour, not by the number of holes."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is kid-friendly. It is described as a family-friendly environment with a variety of amenities suitable for all skill levels, and it hosts events like birthday parties."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-4PM\"], \"Tuesday\": [\"10AM-4PM\"], \"Wednesday\": [\"10AM-4PM\"], \"Thursday\": [\"10AM-4PM\"], \"Friday\": [\"10AM-4PM\"], \"Saturday\": [\"10AM-4PM\"], \"Sunday\": [\"10AM-4PM\"]}"
+}

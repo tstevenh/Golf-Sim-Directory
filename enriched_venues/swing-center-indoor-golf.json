@@ -1,0 +1,91 @@
+{
+  "name": "Swing Center Indoor Golf",
+  "address": "3801 Pelandale Ave Suite F3, Modesto, CA 95356",
+  "city": "Modesto",
+  "region": "California",
+  "country": "US",
+  "latitude": 37.700687,
+  "longitude": -121.064368,
+  "phone": "+12094884440",
+  "website": "http://www.swingcenter209.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770218853/golf_simulators/www_swingcenter209_com_ChIJD_iJZitRkIARKHeJh7p4O_E.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Swing+Center+Indoor+Golf/@37.7006874,-121.06436749999999,14z/data=!4m8!1m2!2m1!1sSwing+Center+Indoor+Golf!3m4!1s0x8090512b6689f80f:0xf13b78ba87897728!8m2!3d37.7006874!4d-121.06436749999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJD_iJZitRkIARKHeJh7p4O_E",
+  "email": "info@swingcenter209.com",
+  "venue_type": "sim_bar",
+  "about": "Swing Center Indoor Golf is a commercial indoor golf facility located in Modesto, California. It is the only such venue in Stanislaus County, offering a state-of-the-art golf simulation experience with aboutGOLF simulators. The facility combines traditional golf with modern technology, featuring over 85 courses, immersive practice ranges, and skills challenges, along with comfortable living-room-style seating. For those looking to improve their game, Swing Center provides private lessons with professionals like Al Owens and utilizes multi-camera technology for data-driven feedback. The venue caters to a wide range of users, from serious golfers and families to corporate groups, by offering flexible booking options, hourly rates, memberships, and packages for parties and events.",
+  "tags": "food_and_drinks|corporate_events|leagues|premium_tech|family_friendly|coaching_available|parties",
+  "vibe_tags": "family_fun_center|sports_bar|community_club|casual|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "State-of-the-art aboutGOLF simulators providing course variety and accurate shot data",
+    "Multi-camera technology delivers detailed analytics for game improvement",
+    "Comfortable, lounge-like atmosphere with seating for up to 7 guests per bay",
+    "Wide range of offerings from practice sessions to league play and social events",
+    "Private lessons available with PGA professionals like Al Owens"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Food and drinks are available for on-site consumption. No outside food or drink is permitted."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Alcohol is served on-site, with a 20% discount on all food and beverage items for party events."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "aboutGOLF",
+      "model": "aboutGOLF Simulator",
+      "notes": "Their simulator technology is used for instruction and an immersive golfing experience."
+    }
+  ],
+  "simulator_software": [
+    "aboutGOLF"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 6,
+  "booking_url": "https://www.swingcenter209.com/simulator",
+  "pricing_model": "mixed",
+  "price_range_min_local": 55,
+  "price_range_max_local": 65,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 8,
+  "amenities_list": "club_rentals|pro_shop|kitchen_food|full_bar|private_party_room|wifi|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Players are welcome to bring their own clubs for use on the simulators, which must be clean and free of dirt. Specially marked Pinnacle simulator balls are provided, with premium Titleist Pro V1 balls available for purchase on-site."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No outside food or drink is allowed in the Swing Center facility for health and safety reasons. Food and drinks are available for purchase on-site."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "The time to complete 18 holes can vary depending on the number of players and their pace of play. It is recommended to book a minimum of 3 hours for a full 18-hole experience per bay to ensure adequate time."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Swing Center is described as a fun and inclusive activity for the whole family. Player profiles can be customized to adjust power and accuracy for a more enjoyable experience for children."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-10PM\"], \"Saturday\": [\"9AM-10PM\"], \"Sunday\": [\"9AM-7PM\"]}"
+}

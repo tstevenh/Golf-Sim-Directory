@@ -1,0 +1,90 @@
+{
+  "name": "Golf Anytime",
+  "address": "220 State St, Salt Lake City, UT 84111",
+  "city": "Salt Lake City",
+  "region": "Utah",
+  "country": "US",
+  "latitude": 40.763968,
+  "longitude": -111.888803,
+  "phone": "+18014133568",
+  "website": "http://www.golfanytimeusa.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770216975/golf_simulators/www_golfanytimeusa_com_ChIJBwSmQA71UocRLxzAA_kp3ls.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Golf+Anytime/@40.763968299999995,-111.888803,14z/data=!4m8!1m2!2m1!1sGolf+Anytime!3m4!1s0x8752f50e40a60407:0x5bde29f903c01c2f!8m2!3d40.763968299999995!4d-111.888803",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJBwSmQA71UocRLxzAA_kp3ls",
+  "email": "golfanytimeusa@gmail.com",
+  "venue_type": "sim_bar|training_studio|private_rental|retail_fitting_center|multi_sport_sim",
+  "about": "Golf Anytime is an indoor golf simulator venue located in Salt Lake City, UT, offering a 24/7 accessible experience through membership or public session bookings. The facility is equipped with two Full Swing simulators, which use high-speed cameras and infrared ball tracking technology to provide detailed flight data. It caters to individual golfers, groups, and private events with a focus on affordability and technology, positioning itself as a competitive alternative to other local indoor golf and Top Golf facilities.",
+  "tags": "budget_friendly|corporate_events|private_rooms|food_and_drinks|beginner_friendly|family_fun_center",
+  "vibe_tags": "casual|welcoming|tech_lab|community_club",
+  "who_its_for": "beginners|families|corporate_teams|solo_practice|tourists_travelers",
+  "why_golfers_like_it": [
+    "Affordable membership pricing with 24/7 access",
+    "Premium Full Swing simulator technology with superior indoor accuracy",
+    "Flexible booking options for individuals and private parties"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "BYOK (Bring Your Own) food and hot items are welcome. Candy and nutrition bars are available for on-site purchase."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol is sold on-site."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Full Swing",
+      "model": "KIT Launch Monitor",
+      "notes": "Uses high-speed cameras and infrared technology for accurate ball tracking."
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://www.golfanytimeusa.com/book-online",
+  "pricing_model": "mixed",
+  "price_range_min_local": 19,
+  "price_range_max_local": 75,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 30,
+  "amenities_list": "club_rentals|private_party_room|tv_sports|pro_shop|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.5,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "No, club rentals are available: Wilson clubs for $5 plus tax per session, or TaylorMade clubs for $10 plus tax per session."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, customers are encouraged to bring in their own food and hot items to enjoy during their session. Candy and nutrition bars are also available for on-site purchase."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes varies depending on the simulator software and number of players, but a 90-minute session is a common booking length for practice or a partial game."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is suitable for families and kid-friendly events, with options for private parties that accommodate groups of all ages."
+    }
+  ],
+  "simulator_software": [
+    "Full Swing"
+  ],
+  "rating_overall": 4.4,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

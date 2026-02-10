@@ -1,0 +1,89 @@
+{
+  "name": "Mount Anthony Country Club",
+  "address": "180 Country Club Dr, Bennington, VT 05201",
+  "city": "Bennington",
+  "region": "Vermont",
+  "country": "US",
+  "latitude": 42.891655,
+  "longitude": -73.208168,
+  "phone": "+18024422617",
+  "website": "http://www.mtanthonycc.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770260761/golf_simulators/www_mtanthonycc_com_ChIJQ9g8B_SW4IkRkBsAL0xdB1w.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Mount+Anthony+Country+Club/@42.891655,-73.208168,14z/data=!4m8!1m2!2m1!1sMount+Anthony+Country+Club!3m4!1s0x89e096f4073cd843:0x5c075d4c2f001b90!8m2!3d42.891655!4d-73.208168",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJQ9g8B_SW4IkRkBsAL0xdB1w",
+  "venue_type": "country_club",
+  "about": "Mount Anthony Country Club, established in 1897, is a championship-rated public golf course located in Bennington, Vermont, offering a full-service golf and event experience. The facility features a recently renovated golf course with updated bunkers and tee complexes, supported by a systematic agronomic program for superior turf quality. In addition to its golf offerings, the venue includes the GRILLE restaurant, open year-round with New England classics and global cuisine, as well as banquet facilities, catering services, and pro-shop services, making it suitable for weddings, corporate events, and private parties.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|kids_friendly|club_rentals|premium_tech|private_rooms",
+  "vibe_tags": "upscale_lounge|family_fun_center|community_club|private_luxury|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "Premium Full Swing Simulators with booking options online",
+    "Renovated championship golf course with spectacular Green Mountain views",
+    "Year-round dining at the GRILLE with fresh local ingredients",
+    "Comprehensive event hosting capabilities for weddings and corporate functions"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "The GRILLE offers lunch, dinner, and Sunday Brunch with New England classics and global cuisine using fresh local ingredients"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available at the GRille"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Full Swing",
+      "model": "Simulator",
+      "notes": "Full Swing Simulators available for online booking"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://mtanthonycc.com/full-swing-simulator/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own golf clubs?",
+      "answer": "The venue likely provides rental clubs or expects players to bring their own. It's recommended to check with the pro-shop or simulator booking page for specific details on equipment availability."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The GRille restaurant and bar are available on-site, offering food and drink options. Outside food and drink policies are not specified, so it's best to inquire directly with the club."
+    },
+    {
+      "question": "How long does it take to play 18 holes on the simulator?",
+      "answer": "Typical simulator sessions for 18 holes range from 1.5 to 2.5 hours, depending on the number of players and pace of play."
+    },
+    {
+      "question": "Is Mount Anthony Country Club kid-friendly?",
+      "answer": "Yes, the club offers junior golf programs, camps, and mentions kids' pool birthday parties, indicating a family-friendly environment."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"11AM-8PM\"], \"Tuesday\": [\"11AM-8PM\"], \"Wednesday\": [\"11AM-8PM\"], \"Thursday\": [\"11AM-8PM\"], \"Friday\": [\"11AM-9PM\"], \"Saturday\": [\"11AM-9PM\"], \"Sunday\": [\"11AM-8PM\"]}"
+}

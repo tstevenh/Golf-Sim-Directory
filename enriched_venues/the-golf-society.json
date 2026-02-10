@@ -1,0 +1,91 @@
+{
+  "name": "The Golf Society",
+  "address": "4214 Solutions Ln #105, Bradenton, FL 34211",
+  "city": "Bradenton",
+  "region": "Florida",
+  "country": "US",
+  "latitude": 27.461001,
+  "longitude": -82.437809,
+  "phone": "+19412122002",
+  "website": "https://www.thegolfsociety.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770237045/golf_simulators/www_thegolfsociety_com_ChIJF9EgHyg7w4gR1HqdjDirEkE.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Golf+Society/@27.461001399999997,-82.43780939999999,14z/data=!4m8!1m2!2m1!1sThe+Golf+Society!3m4!1s0x88c33b281f20d117:0x4112ab388c9d7ad4!8m2!3d27.461001399999997!4d-82.43780939999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJF9EgHyg7w4gR1HqdjDirEkE",
+  "email": "info@thegolfsociety.com",
+  "venue_type": "sim_bar",
+  "about": "The Golf Society is a luxury golf simulator venue that combines cutting-edge technology with a private, upscale experience. It features private climate-controlled suites equipped with 15x10 ft screens and Foresight Sports simulator technology, offering an immersive golfing environment accessible 24/7. Membership is required, with options starting at $165 per month, providing unlimited simulator time and access to over 1,800 courses via GSPro software. The venue caters to golfers seeking a premium, flexible alternative to traditional courses, with amenities like private fridges, Wi-Fi, and free parking.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|premium_tech|private_rooms|club_rentals|late_night|coaching_available",
+  "vibe_tags": "upscale_lounge|private_luxury|tech_lab",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "24/7 access to private climate-controlled suites",
+    "State-of-the-art Foresight Sports simulators with 120fps tracking",
+    "BYOB policy with fridges in each suite",
+    "GSPro software with 1,800+ courses",
+    "Private booking app for flexible scheduling"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Members can bring their own food to enjoy in private suites"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "BYOB policy allows members to bring their own beverages; fridges provided in each suite"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": "Falcon Ball Tracker",
+      "notes": "High-speed 120fps camera system with FSX Live app integration"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": "Foresight Sports Falcon Ball Tracker",
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.thegolfsociety.com/trial/",
+  "pricing_model": "membership_only",
+  "price_range_min_local": 165,
+  "price_range_max_local": 4500,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "private_rooms|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "The Golf Society does not mention club rentals, so members are expected to bring their own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, members can bring their own food and beverages; each suite has a fridge for storage."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify the time required to play 18 holes, but unlimited simulator time is included with membership."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, children watching TV or not playing do not count as guests, making it family-friendly."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

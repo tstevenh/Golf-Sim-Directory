@@ -1,0 +1,96 @@
+{
+  "name": "Under Par Golf Performance Lab",
+  "address": "9456 Charlotte Hwy Suite 100, Indian Land, SC 29707",
+  "city": "Indian Land",
+  "region": "South Carolina",
+  "country": "US",
+  "latitude": 34.991084,
+  "longitude": -80.85284,
+  "phone": "+18032280645",
+  "website": "https://underpargolflab.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770227527/golf_simulators/underpargolflab_com_ChIJB6wRRc2DVogRH-OE1bQhFiM.png",
+  "google_maps_url": "https://www.google.com/maps/place/Under+Par+Golf+Performance+Lab/@34.9910838,-80.8528405,14z/data=!4m8!1m2!2m1!1sUnder+Par+Golf+Performance+Lab!3m4!1s0x885683cd4511ac07:0x231621b4d584e31f!8m2!3d34.9910838!4d-80.8528405",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJB6wRRc2DVogRH-OE1bQhFiM",
+  "email": "support@underpargolflab.com",
+  "venue_type": "training_studio",
+  "about": "Under Par Golf Performance Lab is a premier golf training and fitness facility combining technology, professional instruction, and fitness resources. The venue features six private bays equipped with Trackman launch monitors and two Puttview putting stations, providing members with tools for game analysis and improvement. A comprehensive membership model offers tiered packages with varying access to Trackman bay hours, supplemented with fitness amenities including TRX equipment and specialized golf training programs. The facility emphasizes a family-friendly atmosphere with social spaces, corporate event hosting, and a focus on holistic athlete development.",
+  "tags": "beginner_friendly|serious_practice|corporate_events|leagues|premium_tech|family_friendly|coaching_available|club_rentals|group_friendly",
+  "vibe_tags": "tech_lab|community_club|modern|family_fun_center",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Six private bays with premium Trackman launch monitor technology for precise shot data and course simulation",
+    "Two Puttview stations with interactive green reading and putting drills for comprehensive short game development",
+    "Integrated fitness programs with TRX and SuperSpeed equipment for golf-specific athletic conditioning",
+    "Flexible membership tiers with trackman bay hour packages and family plan options",
+    "Social and event-friendly lounge space ideal for post-practice relaxation or corporate gatherings"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned, but available a-la-cart snacks in the lounge."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No bar service mentioned; BYOB status not specified."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Six oversized private bays equipped with Trackman launch monitors, featuring course simulation and video analysis."
+    },
+    {
+      "brand": "Puttview",
+      "model": "Unknown",
+      "notes": "Two professional stations with simulated green reading and interactive putting games."
+    }
+  ],
+  "simulator_software": [
+    "Trackman App"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface|dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 8,
+  "booking_url": "https://usa.golfmanager.com/underpargolfstudio",
+  "pricing_model": "mixed",
+  "price_range_min_local": 90,
+  "price_range_max_local": 217,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 6,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|pro_shop|club_fitting|tv_sports|private_party_room|wifi|leagues|fitness_equipment|lounge|catering",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own golf clubs?",
+      "answer": "The venue provides a premium practice environment but does not explicitly state if clubs are provided; members and guests are advised to bring their own equipment for a personalized experience."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The facility offers assorted beverages and snacks available a-la-cart in the lounge. BYOB policy is not specified, but alcohol service is not mentioned."
+    },
+    {
+      "question": "How long is a typical 18-hole simulation session?",
+      "answer": "A typical 18-hole simulation session is not explicitly stated, but Trackman bay usage is quantified in monthly hours under membership plans, suggesting time is tracked per bay hour rather than per round."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue explicitly states it is family-friendly and welcomes families, individuals, and groups, with a social atmosphere accommodating children."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"10AM-9PM\"], \"Tuesday\": [\"2-9PM\"], \"Wednesday\": [\"10AM-9PM\"], \"Thursday\": [\"10AM-9PM\"], \"Friday\": [\"11AM-6PM\"], \"Saturday\": [\"10AM-6PM\"], \"Sunday\": [\"11AM-6PM\"]}"
+}

@@ -1,0 +1,95 @@
+{
+  "name": "Long Shots Restaurant & Driving Range",
+  "address": "2315 S Co Rd 25A, Troy, OH 45373",
+  "city": "Troy",
+  "region": "Ohio",
+  "country": "US",
+  "latitude": 40.006087,
+  "longitude": -84.200133,
+  "phone": "+19377034030",
+  "website": "http://longshotsoh.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770248694/golf_simulators/longshotsoh_com_ChIJix-Bj8x3P4gRRdmZ1NsZwhM.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Long+Shots+Restaurant+%26+Driving+Range/@40.006086599999996,-84.2001334,14z/data=!4m8!1m2!2m1!1sLong+Shots+Restaurant+%26+Driving+Range!3m4!1s0x883f77cc8f811f8b:0x13c219dbd499d945!8m2!3d40.006086599999996!4d-84.2001334",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJix-Bj8x3P4gRRdmZ1NsZwhM",
+  "email": "_info@longshotsoh.com_",
+  "venue_type": "sim_bar",
+  "about": "Long Shots Restaurant & Driving Range is a multi-faceted venue combining a full-service restaurant and bar with a golf driving range and indoor simulator facilities. The establishment offers 300+ yard driving range with covered, turf, and heated bays, a self-serve ball dispenser, and a 10-bay golf suite area powered by Toptracer Range technology. An indoor HD Golf simulator is available for reservations. The facility is located in Miami County and provides both indoor and outdoor spaces, with a covered and heated patio accessible year-round.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|date_night|families|private_rooms|premium_tech",
+  "vibe_tags": "sports_bar|family_fun_center|community_club",
+  "who_its_for": "beginners|families|corporate_teams|large_groups|solo_practice",
+  "why_golfers_like_it": [
+    "Toptracer Range technology in golf suites provides advanced shot data",
+    "Full-service bar and restaurant on-site for a complete experience",
+    "HD Golf simulator with global course selection available for reservations",
+    "Covered and heated bays allow for play in various weather conditions"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full restaurant menu with pizza, sandwiches, appetizers, and ice cream"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "16 rotating taps of draft beer, bottles, wine, and a full bar with domestic buckets, pitchers, and growlers"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Toptracer",
+      "model": "Range",
+      "notes": "10 bays with Toptracer Range technology"
+    },
+    {
+      "brand": "HD Golf",
+      "model": "Simulator",
+      "notes": "1 indoor HD Golf simulator"
+    }
+  ],
+  "simulator_software": [
+    "HD Golf"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 10,
+  "booking_url": "https://alleytrak.com/app/client/4793/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|pro_shop|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need clubs?",
+      "answer": "Yes, you need your own clubs. The simulator provides free clubs for use."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "No, outside food and drink are not allowed. The facility has a full restaurant and bar on-site."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "An 18-hole round typically takes about 1-2 hours depending on group size and pace."
+    },
+    {
+      "question": "Is it kid-friendly?",
+      "answer": "Yes, Long Shots is kid-friendly with a family-oriented restaurant menu and ice cream options."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"11AM-9PM\"], \"Wednesday\": [\"11AM-9PM\"], \"Thursday\": [\"11AM-9PM\"], \"Friday\": [\"11AM-10PM\"], \"Saturday\": [\"11AM-10PM\"], \"Sunday\": [\"11AM-8PM\"]}"
+}

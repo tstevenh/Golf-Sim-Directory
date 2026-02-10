@@ -1,0 +1,92 @@
+{
+  "name": "Play18 Chicago",
+  "address": "17 N Wabash Ave, Chicago, IL 60602",
+  "city": "Chicago",
+  "region": "Illinois",
+  "country": "US",
+  "latitude": 41.882671,
+  "longitude": -87.625849,
+  "phone": "+13124285470",
+  "website": "http://play18chicago.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770199470/golf_simulators/play18chicago_com_ChIJteNhU6QsDogRm0Qdc8brBBE.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Play18+Chicago/@41.8826709,-87.6258493,14z/data=!4m8!1m2!2m1!1sPlay18+Chicago!3m4!1s0x880e2ca45361e3b5:0x1104ebc6731d449b!8m2!3d41.8826709!4d-87.6258493",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJteNhU6QsDogRm0Qdc8brBBE",
+  "email": "info@play18chicago.com",
+  "venue_type": "sim_bar",
+  "about": "Play18 Chicago is a premier, year-round indoor golf venue located in the Loop. It offers top-shelf services within a relaxed country club atmosphere, featuring PGA Tour Simulators and personal Driving Bays. The venue is designed for golfers at every stage of their game, providing dedicated staff committed to delivering world-class service for learning, practicing, or playing. A full bar and lounge are available to enhance the experience for all visitors.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|premium_tech|club_rentals|date_night|private_rooms",
+  "vibe_tags": "upscale_lounge|sports_bar|modern|welcoming",
+  "who_its_for": "beginners|serious_golfers|corporate_teams|solo_practice|families",
+  "why_golfers_like_it": [
+    "PGA Tour Simulators for realistic course play",
+    "Convenient downtown Loop location",
+    "Full bar and lounge for socializing",
+    "Relaxed country club atmosphere",
+    "Dedicated staff for world-class service"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of a kitchen or food service."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar is available on-site."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "PGA Tour",
+      "model": "Simulators",
+      "notes": "PGA Tour Simulators are mentioned as the primary technology."
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.play18chicago.com/Online-Appointments",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|private_party_room|wifi",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need clubs?",
+      "answer": "No, clubs are available to rent."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "No outside food or drink is allowed. A full bar is available on-site."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify the time required to play 18 holes."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "The website does not specify if the venue is kid-friendly."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"12-10PM\"], \"Wednesday\": [\"12-10PM\"], \"Thursday\": [\"12-11PM\"], \"Friday\": [\"12-11PM\"], \"Saturday\": [\"9AM-11PM\"], \"Sunday\": [\"9AM-6PM\"]}"
+}

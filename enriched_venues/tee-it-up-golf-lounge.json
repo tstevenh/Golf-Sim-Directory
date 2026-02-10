@@ -1,0 +1,84 @@
+{
+  "name": "Tee it Up! Golf Lounge",
+  "address": "203 E Broad St, Texarkana, AR 71854",
+  "city": "Texarkana",
+  "region": "Arkansas",
+  "country": "US",
+  "latitude": 33.422272,
+  "longitude": -94.041825,
+  "phone": "+18706213377",
+  "website": "http://www.teeitupgolflounge.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770234422/golf_simulators/www_teeitupgolflounge_com_ChIJ3c9iEgFrNIYR3ee6kUuMzQw.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Tee+it+Up%21+Golf+Lounge/@33.4222715,-94.04182469999999,14z/data=!4m8!1m2!2m1!1sTee+it+Up%21+Golf+Lounge!3m4!1s0x86346b011262cfdd:0xccd8c4b91bae7dd!8m2!3d33.4222715!4d-94.04182469999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ3c9iEgFrNIYR3ee6kUuMzQw",
+  "venue_type": "sim_bar",
+  "about": "Tee it Up! Golf Lounge is an indoor golf destination in Texarkana, AR, featuring two state-of-the-art simulation bays and a dedicated putting green. The venue also offers a portable third simulator for off-site events. Beyond the golf experience, it provides a comfortable lounge area for relaxing, club repair and evaluation services, and a consignment program for used equipment. The facility is accessible via walk-ins and offers various membership options for frequent players.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|budget_friendly|club_rentals|private_rooms|coaching_available|community_club",
+  "vibe_tags": "casual|welcoming|modern|sports_bar|tech_lab",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Access to over 300 world-class and fantasy golf courses",
+    "Advanced launch monitor technology providing detailed swing data",
+    "Portable simulator option for bringing the game to off-site events",
+    "Comprehensive club fitting and repair services available on-site",
+    "Relaxed lounge atmosphere for practicing or socializing between rounds"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "Not explicitly mentioned on the website, but BYOB (Bring Your Own Beverage) is not stated."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "Not explicitly mentioned on the website, but BYOB (Bring Your Own Beverage) is not stated."
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green|real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://teeitupgolflounge.golfoclock.com",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|pro_shop|club_fitting|leagues|wifi|private_party_room|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue encourages you to use your existing clubs, as they offer club evaluation and adjustment services to fine-tune your equipment for your swing."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The website does not explicitly state a policy on bringing outside food and drinks. It focuses on its lounge atmosphere for relaxation between swings."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify a time for playing 18 holes, as it can vary greatly depending on simulator software, number of players, and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is described as having a laid-back lounge atmosphere for all skill levels, making it suitable for families and juniors."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"11AM-7PM\"], \"Tuesday\": [\"Closed\"], \"Wednesday\": [\"11AM-7PM\"], \"Thursday\": [\"11AM-10PM\"], \"Friday\": [\"11AM-10PM\"], \"Saturday\": [\"11AM-10PM\"], \"Sunday\": [\"11AM-7PM\"]}"
+}

@@ -1,0 +1,85 @@
+{
+  "name": "X-Golf Murfreesboro",
+  "address": "1720 Old Fort Pkwy L220, Murfreesboro, TN 37129",
+  "city": "Murfreesboro",
+  "region": "Tennessee",
+  "country": "US",
+  "latitude": 35.849054,
+  "longitude": -86.420227,
+  "phone": "+16156246600",
+  "website": "https://playxgolf.com/locations/murfreesboro",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770224990/golf_simulators/playxgolf_com_ChIJNdqqvNb3Y4gRF8G3UrjGZl0.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/X-Golf+Murfreesboro/@35.8490541,-86.4202273,14z/data=!4m8!1m2!2m1!1sX-Golf+Murfreesboro!3m4!1s0x8863f7d6bcaada35:0x5d66c6b852b7c117!8m2!3d35.8490541!4d-86.4202273",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJNdqqvNb3Y4gRF8G3UrjGZl0",
+  "email": "info@xgolfmurfreesboro.com",
+  "venue_type": "sim_bar",
+  "about": "X-Golf Murfreesboro is a premier indoor golf simulator venue offering state-of-the-art technology for playing, training, and entertainment. The facility is equipped with six simulator bays that use camera systems, infrared lasers, and impact sensors for accurate tracking. Pricing is structured per bay, per hour, accommodating up to six people. It serves as a comprehensive destination for golfers, featuring a full bar, food service, and options for leagues, lessons, and corporate events. The venue is designed to provide a modern and accessible golf experience for players of all skill levels.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|club_rentals|coaching_available|private_rooms|date_night",
+  "vibe_tags": "sports_bar|family_fun_center|community_club|modern",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "World's most accurate golf simulator technology",
+    "Comprehensive amenities including a full bar and food menu",
+    "Flexible booking options and group-friendly bays",
+    "Available PGA-certified coaching and leagues",
+    "Dedicated putting green with angulation"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen service including shareable bites, appetizers, snacks, and pizzas"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with 12 beers on tap (mostly local), wine bottles/cans, and cocktails"
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": 6,
+  "booking_url": "https://clients.uschedule.com/xgolfmurfreesboro/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 45,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|leagues|ada_accessible|putting_green|event_hosting",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You are encouraged to bring your own clubs, but rental clubs are available if needed."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "Outside food and drink are not mentioned, but the venue offers a full kitchen and bar service."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "An individual can typically complete 18 holes in about one hour. For multiple players, an additional hour is recommended per person."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, children of all ages are welcome, and the venue has been noted to be family-friendly."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-11PM\"], \"Saturday\": [\"9AM-11PM\"], \"Sunday\": [\"10AM-8PM\"]}"
+}

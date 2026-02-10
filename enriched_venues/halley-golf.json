@@ -1,0 +1,85 @@
+{
+  "name": "Halley Golf",
+  "address": "340 NE 219th Ave, Gresham, OR 97030",
+  "city": "Gresham",
+  "region": "Oregon",
+  "country": "US",
+  "latitude": 45.526512,
+  "longitude": -122.436182,
+  "phone": "+15034895406",
+  "website": "https://www.halleygolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770223544/golf_simulators/www_halleygolf_com_ChIJVV69Tz-jlVQRoyru9ASJnGk.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Halley+Golf/@45.526511799999994,-122.4361816,14z/data=!4m8!1m2!2m1!1sHalley+Golf!3m4!1s0x5495a33f4fbd5e55:0x699c8904f4ee2aa3!8m2!3d45.526511799999994!4d-122.4361816",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJVV69Tz-jlVQRoyru9ASJnGk",
+  "email": "info@HalleyGolf.com",
+  "venue_type": "sim_bar|training_studio",
+  "about": "Halley Golf is a modern golf simulator facility founded in 2025 by Scott and Ethan Halley. The venue focuses on providing year-round access to golf through its cutting-edge simulator technology, which delivers detailed ball flight and club data analytics. With a flexible membership model and a relaxed, community-oriented atmosphere, Halley Golf caters to both seasoned players and beginners. The facility features hourly bay rentals, professional coaching services, and is developing a full kitchen to complement its current beverage and snack offerings.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|coaching_available|family_friendly|community_club",
+  "vibe_tags": "casual|welcoming|modern|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "State-of-the-art simulator technology with detailed ball flight and club data",
+    "Flexible membership options with discounted rates for new members",
+    "Professional PGA coaching available for all skill levels",
+    "Relaxed community atmosphere centered around a love of golf",
+    "Year-round indoor golf experience regardless of weather"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Currently serving snacks including ice cream bars; hot food menu coming soon with kitchen construction in progress."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "Beer, wine, and cider are listed as 'Coming Soon' and not currently available."
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": "unknown",
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "https://booking.lightspeed.app/180c3187-89df-460d-a324-30c0b3494cea",
+  "pricing_model": "per_bay_hour|membership_only",
+  "price_range_min_local": 40,
+  "price_range_max_local": 40,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|kitchen_food|tv_sports|club_fitting|leagues|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue does not specify whether clubs are provided or if you need to bring your own. It's recommended to bring your own clubs for the best experience."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue currently serves soda, sports drinks, energy drinks, bottled water, and ice cream bars. Hot food and alcohol are coming soon. BYOB policies are not mentioned."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The venue does not specify the time required to complete 18 holes. Bay rentals are priced per hour, so the time would depend on your group's pace."
+    },
+    {
+      "question": "Is Halley Golf kid-friendly?",
+      "answer": "Yes, Halley Golf appears kid-friendly with PGA coaching available for juniiors and a relaxed atmosphere suitable for families."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"12-8PM\"], \"Wednesday\": [\"12-8PM\"], \"Thursday\": [\"12-8PM\"], \"Friday\": [\"12-8PM\"], \"Saturday\": [\"11AM-7PM\"], \"Sunday\": [\"10AM-6PM\"]}"
+}

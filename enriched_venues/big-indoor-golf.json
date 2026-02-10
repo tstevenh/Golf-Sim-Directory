@@ -1,0 +1,93 @@
+{
+  "name": "Big Indoor Golf",
+  "address": "1260 Broadhollow Rd, Farmingdale, NY 11735",
+  "city": "Farmingdale",
+  "region": "New York",
+  "country": "US",
+  "latitude": 40.73298,
+  "longitude": -73.424015,
+  "phone": "+16319232224",
+  "website": "http://bigindoorgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770207366/golf_simulators/bigindoorgolf_com_ChIJ4wDdb6op6IkR2AkXHIOjdio.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Big+Indoor+Golf/@40.7329799,-73.42401509999999,14z/data=!4m8!1m2!2m1!1sBig+Indoor+Golf!3m4!1s0x89e829aa6fdd00e3:0x2a76a3831c1709d8!8m2!3d40.7329799!4d-73.42401509999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ4wDdb6op6IkR2AkXHIOjdio",
+  "venue_type": "sim_bar",
+  "about": "Big Indoor Golf is a golf simulation venue featuring multiple Trackman simulator bays. The facility is known for its large, open bays designed to provide a more realistic golfing experience, with 20-foot widths and 15-foot ball-to-screen distances. Pricing is structured on a per-bay hourly basis with off-peak and peak rates, and bay reservations can be made online. The venue operates with specific main season and reduced offseason hours.",
+  "tags": "serious_golfers|beginner_friendly|corporate_events|leagues|premium_tech|private_rooms|club_rentals|coaching_available",
+  "vibe_tags": "tech_lab|private_luxury|welcoming|modern",
+  "who_its_for": "serious_golfers|beginner_friendly|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Premium Trackman simulators with 400+ courses including 60+ PGA Tour courses",
+    "Luxuriously large bays with 20ft width and 15ft ball-to-screen distance for accuracy",
+    "Alcohol-free environment focused on the golf experience",
+    "Instant replays at 1080p/240 fps with impact location tracking",
+    "Convenient ball return system in the oversized bays"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No information on food availability provided."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "The venue explicitly advertises an alcohol-free environment."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Fully loaded Trackman simulators with 400+ courses and premium turf."
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://yourgolfbooking.com/venues/big-indoor-golf/booking/bays",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 50,
+  "price_range_max_local": 80,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|tv_sports|private_party_room|wifi|pro_shop|leagues",
+  "rating_tech_quality": 5.0,
+  "rating_facility_comfort": 4.5,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue does not specify whether club rentals are available. It is recommended to bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The facility operates an alcohol-free environment and does not mention any food options. It is best to confirm their policy on outside food and drink directly with the venue."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify the time required to play 18 holes. This information can likely be obtained by contacting the venue directly or during the online booking process."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The provided information does not mention specific features or policies for children or juniors. It is recommended to contact the venue directly to inquire about their kid-friendliness."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.5,
+  "opening_hours": null
+}

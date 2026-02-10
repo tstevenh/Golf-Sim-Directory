@@ -1,0 +1,89 @@
+{
+  "name": "The Bunker Mohawk Harbor",
+  "address": "221 Harborside Dr, Schenectady, NY 12305",
+  "city": "Schenectady",
+  "region": "New York",
+  "country": "US",
+  "latitude": 42.825476,
+  "longitude": -73.932466,
+  "phone": "+15183489993",
+  "website": "https://getinthebunker.golf/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770222273/golf_simulators/getinthebunker_golf_ChIJb6C2B8Ft3okRvKmPvlhiRYE.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Bunker+Mohawk+Harbor/@42.825475999999995,-73.93246599999999,14z/data=!4m8!1m2!2m1!1sThe+Bunker+Mohawk+Harbor!3m4!1s0x89de6dc107b6a06f:0x81456258be8fa9bc!8m2!3d42.825475999999995!4d-73.93246599999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJb6C2B8Ft3okRvKmPvlhiRYE",
+  "email": "sean@getinthebunker.golf",
+  "venue_type": "sim_bar",
+  "about": "The Bunker is an indoor golf and social lounge that combines TrackMan simulators with a full-service bar and food menu. It caters to golfers and non-golfers alike with bays available for practice, competition, and events. The venue offers a dual-purpose experience of serious golf simulation combined with a casual sports bar atmosphere. Pricing is based on hourly bay rentals, with the cost split among the group, making it accessible for both solo players and larger groups.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|leagues|coaching_available|premium_tech|date_night|large_groups|private_rooms|club_rentals",
+  "vibe_tags": "sports_bar|upscale_lounge|tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|large_groups",
+  "why_golfers_like_it": [
+    "Uses premium TrackMan technology, the same system relied upon by PGA professionals for unmatched realism and data",
+    "The hourly rate is per bay, allowing groups to split the cost and making it an affordable option for multiple players",
+    "Offers a variety of coaching options, from private lessons to group clinics, to help players of all skill levels improve their game"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full food menu available at Clifton Park location; light food menu at Guilderland"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service with happy hours available at most locations"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "unknown",
+      "notes": "World's foremost golf simulator used by virtually all PGA professionals"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://getinthebunker.golf/location",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 125,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 8,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|leagues|coaching_available|happy_hour|catering|outdoor_seating",
+  "rating_tech_quality": 5.0,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you should bring your own golf clubs to use in the TrackMan bays."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, outside food and drinks are not permitted. The venue offers a full bar and food menu available for purchase."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The venue recommends one hour per person for 18 holes, or 30 minutes per person for 9 holes."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, The Bunker is a family-friendly environment where both golfers and non-golfers can feel at home, suitable for hosting celebrations and other events."
+    }
+  ],
+  "rating_overall": 4.4,
+  "opening_hours": "{\"Monday\": [\"11:30AM-11PM\"], \"Tuesday\": [\"11:30AM-11PM\"], \"Wednesday\": [\"11:30AM-11PM\"], \"Thursday\": [\"11:30AM-11PM\"], \"Friday\": [\"11:30AM-12AM\"], \"Saturday\": [\"10AM-11PM\"], \"Sunday\": [\"10AM-8PM\"]}"
+}

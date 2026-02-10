@@ -10,7 +10,7 @@ interface CityVibeIndexPageProps {
   params: Promise<{ state: string; city: string }>;
 }
 
-export const revalidate = 60;
+export const revalidate = 86400;
 
 export async function generateMetadata({ params }: CityVibeIndexPageProps): Promise<Metadata> {
   const { state, city } = await params;
@@ -42,22 +42,43 @@ export default async function CityVibeIndexPage({ params }: CityVibeIndexPagePro
   const cityFormatted = city
     .replace(/-/g, " ")
     .replace(/\b\w/g, (l) => l.toUpperCase());
-  const citySlug = city.toLowerCase().replace(/\s+/g, "-");
+  const canRawQuery = typeof (db as unknown as { $queryRaw?: unknown }).$queryRaw === "function";
 
-  // Get venue counts for each vibe category
-  const venues = await db.venue.findMany({
-    where: {
-      city: { equals: cityFormatted, mode: "insensitive" },
-      state: stateAbbrev.toUpperCase(),
-      country: "US",
-      status: "active",
-    },
-    select: { vibeTags: true },
-  });
+  let countsBySlug = new Map<string, number>();
 
-  // Calculate counts for each vibe
+  if (canRawQuery) {
+    const rows = await db.$queryRaw<{ slug: string; count: bigint | number }[]>`
+      SELECT tag AS slug, COUNT(*)::bigint AS count
+      FROM "venues" v
+      CROSS JOIN LATERAL unnest(v."vibeTags") AS tag
+      WHERE v."city" ILIKE ${cityFormatted}
+        AND v."state" = ${stateAbbrev.toUpperCase()}
+        AND v."country" = 'US'
+        AND v."status" = 'active'
+      GROUP BY tag
+    `;
+    countsBySlug = new Map(rows.map((row) => [row.slug, Number(row.count)]));
+  } else {
+    // Fallback path for mock DB (no raw SQL support).
+    const venues = await db.venue.findMany({
+      where: {
+        city: { equals: cityFormatted, mode: "insensitive" },
+        state: stateAbbrev.toUpperCase(),
+        country: "US",
+        status: "active",
+      },
+      select: { vibeTags: true },
+    });
+    countsBySlug = new Map(
+      VIBE_CATEGORIES.map((vibe) => [
+        vibe.slug,
+        venues.filter((v) => (v.vibeTags || []).includes(vibe.slug)).length,
+      ])
+    );
+  }
+
   const vibeCounts = VIBE_CATEGORIES.map((vibe) => {
-    const count = venues.filter((v) => (v.vibeTags || []).includes(vibe.slug)).length;
+    const count = countsBySlug.get(vibe.slug) || 0;
     return { ...vibe, count };
   }).filter((v) => v.count > 0);
 

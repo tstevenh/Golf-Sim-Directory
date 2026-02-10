@@ -1,0 +1,91 @@
+{
+  "name": "Golf Lounge 18",
+  "address": "210 Andover St, Peabody, MA 01960",
+  "city": "Peabody",
+  "region": "Massachusetts",
+  "country": "US",
+  "latitude": 42.542263,
+  "longitude": -70.945255,
+  "phone": "+19785951835",
+  "website": "http://golflounge18.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770232352/golf_simulators/golflounge18_com_ChIJLRfYK4wT44kR1ryaAHwBNW8.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Golf+Lounge+18/@42.542263399999996,-70.9452553,14z/data=!4m8!1m2!2m1!1sGolf+Lounge+18!3m4!1s0x89e3138c2bd8172d:0x6f35017c009abcd6!8m2!3d42.542263399999996!4d-70.9452553",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJLRfYK4wT44kR1ryaAHwBNW8",
+  "email": "info@golflounge18.com",
+  "venue_type": "sim_bar",
+  "about": "Golf Lounge 18 is an indoor golf facility featuring Trackman 4 technology with access to over 450 courses worldwide. The venue offers simulator bays with hourly rates that can be split among groups, along with a full bar and multiple HDTVs. It provides a space for practice, lessons, leagues, and events, catering to both casual players and serious golfers looking to improve their game or socialize.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|private_rooms|club_rentals|coaching_available|juniors_youth",
+  "vibe_tags": "sports_bar|modern|community_club|family_fun_center",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "Professional-grade Trackman 4 dual radar technology for accurate shot analysis",
+    "Extensive course library with over 450 famous and worldwide courses available",
+    "Full bar and sports TVs create a social atmosphere perfect for groups and events",
+    "Junior academy and ladies instruction programs for skill development"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen and expanded food menu available on-site"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "Dual Radar Technology with ball and club tracking"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://golflounge18.com/book/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues|junior_academy",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The facility does not explicitly state whether club rentals are available, so it's recommended to bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, external food and drinks are not allowed as the venue has its own full kitchen and bar service."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes can vary depending on the simulator software and player skill level, but typically ranges from 1-2 hours per bay."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Golf Lounge 18 offers a Junior Academy program and hosts junior clinics, making it suitable for children and youth golfers."
+    }
+  ],
+  "simulator_software": [
+    "Trackman 4"
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"8AM-11PM\"], \"Saturday\": [\"8AM-11PM\"], \"Sunday\": [\"8AM-10PM\"]}"
+}

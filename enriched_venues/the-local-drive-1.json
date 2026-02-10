@@ -1,0 +1,91 @@
+{
+  "name": "The Local Drive",
+  "address": "2501 Dallas St, Aurora, CO 80010",
+  "city": "Aurora",
+  "region": "Colorado",
+  "country": "US",
+  "latitude": 39.753048,
+  "longitude": -104.877388,
+  "phone": "+17209308394",
+  "website": "https://thelocaldrive.com/stanley-hangar/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770215701/golf_simulators/thelocaldrive_com_ChIJfQQjGRx7bIcRq7ZB1AFMPk8.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Local+Drive/@39.7530479,-104.87738759999999,14z/data=!4m8!1m2!2m1!1sThe+Local+Drive!3m4!1s0x876c7b1c1923047d:0x4f3e4c01d441b6ab!8m2!3d39.7530479!4d-104.87738759999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJfQQjGRx7bIcRq7ZB1AFMPk8",
+  "email": "ryan.mcdermott@thelocaldrive.com",
+  "venue_type": "sim_bar",
+  "about": "The Local Drive Stanley Hangar is Colorado's first-ever multi-level indoor golf facility and cocktail bar, blending championship golf simulation with a high-end lounge atmosphere. It features 12 Trackman-powered bays with access to over 400 legendary courses, professional services including club fittings and lessons with a PGA professional, and premium spirits sourced from local Colorado distilleries. The venue offers flexible booking for individuals and groups, with a full-service bar, two bar areas, and dedicated spaces for private events and social gatherings. Pricing is based on hourly bay rentals, with options for leagues, memberships, and event hosting for up to 1500 guests.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|leagues|premium_tech|private_rooms|late_night|coaching_available|upscale|social",
+  "vibe_tags": "upscale_lounge|sports_bar|speakeasy|tech_lab|community_club|party_atmosphere",
+  "who_its_for": "beginners|serious_golfers|corporate_teams|large_groups|solo_practice",
+  "why_golfers_like_it": [
+    "12 Trackman-powered bays with the most advanced launch monitor technology",
+    "Access to over 400 legendary golf courses, including iconic PGA Tour stops",
+    "Professional PGA professional services including club fittings, consultations, and lessons",
+    "Full-service cocktail bar with premium local spirits and multiple bar areas",
+    "Dedicated speakeasy-style private bay for exclusive events"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No information on food service available"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full-service cocktail bar with premium spirits sourced from Colorado's finest distilleries, including local spirits. Happy hours available with discounted drinks and shots."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "12 bays featuring the most advanced launch monitor technology in the world"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://thelocaldrivestanley.golfoclock.com/reserve?date=2025-05-22&t=0",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|private_party_room|leagues|pro_shop|club_fitting|speakeasy|bar_games|sand_volleyball",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, Srixon & Cleveland demo clubs are available for rent at the venue."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Food & beverages are not included in private event pricing. No specific information on outside food/drink for regular sessions."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website doesn't specify exact time requirements for 18 holes, but sessions are booked by the hour at $60 per bay."
+    },
+    {
+      "question": "Is this kid-friendly?",
+      "answer": "The venue appears to cater to adults with a cocktail bar and social atmosphere, with no specific mention of kid-friendly features or activities."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"11AM-10PM\"], \"Tuesday\": [\"11AM-10PM\"], \"Wednesday\": [\"11AM-10PM\"], \"Thursday\": [\"11AM-10PM\"], \"Friday\": [\"11AM-11PM\"], \"Saturday\": [\"11AM-11PM\"], \"Sunday\": [\"11AM-10PM\"]}"
+}

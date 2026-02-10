@@ -1,0 +1,94 @@
+{
+  "name": "The Golf Suite",
+  "address": "15046 Beltway Dr Ste 101, Addison, TX 75001",
+  "city": "Addison",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 32.952307,
+  "longitude": -96.833397,
+  "phone": "+12142029275",
+  "website": "https://www.thegolfsuite.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770200598/golf_simulators/www_thegolfsuite_com_ChIJNS6KQn0hTIYRa55QoeOS144.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Golf+Suite/@32.952307,-96.8333973,14z/data=!4m8!1m2!2m1!1sThe+Golf+Suite!3m4!1s0x864c217d428a2e35:0x8ed792e3a1509e6b!8m2!3d32.952307!4d-96.8333973",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJNS6KQn0hTIYRa55QoeOS144",
+  "email": "info@thegolfsuite.com",
+  "venue_type": "training_studio",
+  "about": "The Golf Suite is a 24/7 indoor golf facility located in the Dallas/Addison area, featuring one private bay equipped with Foresight Sports Simulator technology. It provides a flexible environment for golfers to play on over 500 courses, practice privately, or receive PGA instruction. The facility operates on a membership or pay-as-you-go model, with no initiation fees or yearly commitments, and offers 24/7 online booking access to accommodate busy schedules.",
+  "tags": "beginner_friendly|serious_golfers|solo_practice|coaching_available|private_rooms|late_night|community_club",
+  "vibe_tags": "tech_lab|private_luxury|modern",
+  "who_its_for": "beginners|serious_golfers|solo_practice|coaches_instructors",
+  "why_golfers_like_it": [
+    "24/7 access allows practicing around any schedule",
+    "Private bay ensures a distraction-free environment",
+    "Foresight Sports technology provides accurate ball and club tracking",
+    "No initiation fees or yearly commitments offer flexible payment options",
+    "PGA instruction available for all skill levels"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of food service"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": "Falcon",
+      "notes": "Uses infrared object tracking and high-speed, high-resolution camera-based technology"
+    }
+  ],
+  "simulator_so": [
+    "Simulator Golf Tour"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 1,
+  "booking_url": "https://www.thegolfsuite.com/book-time",
+  "pricing_model": "mixed",
+  "price_range_min_local": 35,
+  "price_range_max_local": 80,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 3,
+  "amenities_list": "club_rentals|private_rooms|wifi|gym_access",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify if clubs are provided. It's recommended to bring your own equipment for the best experience."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "There is no mention of food or drink service on-site, suggesting it may be a BYOB (Bring Your Own Beverage) facility, but this is not explicitly confirmed."
+    },
+    {
+      "question": "How long does an 18-hole round take?",
+      "answer": "The website does not provide an estimated time for an 18-hole round. Duration would depend on the course and player pace."
+    },
+    {
+      "question": "Is The Golf Suite kid-friendly?",
+      "answer": "There is no specific information about child-friendly features or policies. The facility may be suitable for older juniors with adult supervision."
+    }
+  ],
+  "simulator_software": [
+    "Foresight Sports"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

@@ -1,0 +1,91 @@
+{
+  "name": "The Corner Club",
+  "address": "1070 Ghent Rd, Akron, OH 44333",
+  "city": "Akron",
+  "region": "Ohio",
+  "country": "US",
+  "latitude": 41.153088,
+  "longitude": -81.633926,
+  "phone": "+13307542555",
+  "website": "https://cornerclubgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770211877/golf_simulators/cornerclubgolf_com_ChIJ_2K8WUPbMIgRs3VmRqDoN_s.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Corner+Club/@41.153088,-81.63392569999999,14z/data=!4m8!1m2!2m1!1sThe+Corner+Club!3m4!1s0x8830db4359bc62ff:0xfb37e8a0466675b3!8m2!3d41.153088!4d-81.63392569999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ_2K8WUPbMIgRs3VmRqDoN_s",
+  "email": "info@cornerclubgolf.com",
+  "venue_type": "sim_bar",
+  "about": "The Corner Club is a golf simulator lounge and social club located in Akron, Ohio, featuring four Full Swing Pro 2.0 simulators arranged around a central bar. The venue is designed as a multi-use space where patrons can play virtual golf, enjoy food and drinks, or watch sporting events. The facility offers both golf simulator time and social dining options, making it suitable for casual outings as well as organized leagues and private events. With the introduction of an onsite restaurant planned for 2026, the establishment aims to provide a comprehensive entertainment experience focused on indoor golf and social gathering.",
+  "tags": "food_and_drinks|beginner_friendly|leagues|premium_tech|corporate_events|kids_friendly|club_rentals|date_night|community_club",
+  "vibe_tags": "sports_bar|family_fun_center|tech_lab|community_club",
+  "who_its_for": "beginners|families|corporate_teams|large_groups|juniors_youth",
+  "why_golfers_like_it": [
+    "Four high-end Full Swing Pro 2.0 simulators with advanced ball tracking technology",
+    "Indoor golf available year-round regardless of weather conditions",
+    "Multi-sport functionality including golf, basketball, baseball, soccer, and dodgeball",
+    "Full-service bar with no simulator reservation needed for dining at the bar or patio",
+    "Private event hosting capabilities for groups and parties"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "New menu with onsite restaurant debuting in spring 2026; dining available at bar and patio without simulator reservation"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full-service bar situated between the four golf simulator bays"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Full Swing",
+      "model": "Pro 2.0",
+      "notes": "Top of the line simulators with ION3 Camera and infrared technology for accurate ball tracking"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 4,
+  "booking_url": "https://app.courtreserve.com/Online/Public/EmbedCode/9352/24950",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 4,
+  "max_group_size_per_bay": 5,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "Club rentals are available for $20/hour with Cobra sets"
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drinks are not mentioned; the venue offers dining from its onsite bar and restaurant"
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "On average, it takes about one person per hour to complete 18 holes of simulator golf, with an extra hour added for each additional golfer"
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, The Corner Club is family friendly, though children must remain in simulator bays with an adult and the venue is 21 and over on Friday and Saturday evenings after 7pm"
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"11:30AM-8PM\"], \"Wednesday\": [\"11:30AM-8PM\"], \"Thursday\": [\"11:30AM-8PM\"], \"Friday\": [\"11:30AM-10PM\"], \"Saturday\": [\"11:30AM-10PM\"], \"Sunday\": [\"11:30AM-4PM\"]}"
+}

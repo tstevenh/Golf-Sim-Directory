@@ -1,0 +1,94 @@
+{
+  "name": "Halfway House Indoor Golf",
+  "address": "555 S York St, Elmhurst, IL 60126",
+  "city": "Elmhurst",
+  "region": "Illinois",
+  "country": "US",
+  "latitude": 41.883315,
+  "longitude": -87.939599,
+  "phone": "+13316428050",
+  "website": "http://www.halfwayhousegolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770199556/golf_simulators/www_halfwayhousegolf_com_ChIJy7stT6JMDogRK9CrUEQPbgo.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Halfway+House+Indoor+Golf/@41.883314999999996,-87.939599,14z/data=!4m8!1m2!2m1!1sHalfway+House+Indoor+Golf!3m4!1s0x880e4ca24f2dbbcb:0xa6e0f4450abd02b!8m2!3d41.883314999999996!4d-87.939599",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJy7stT6JMDogRK9CrUEQPbgo",
+  "email": "Info@halfwayhousegolf.com",
+  "venue_type": "sim_bar",
+  "about": "Halfway House Indoor Golf is a facility in Elmhurst, IL, featuring 4 top-of-the-line golf simulators with over 40 real, professional golf courses. The venue offers a space for golf, as well as arcade-style games and other sports simulations like football, baseball, basketball, and zombie dodgeball. Food and beverage service is provided by partners Golden Boy BBQ and Gambino’s Deli, with alcoholic beverages managed by their servers. The venue is suitable for casual play, private events, parties, and leagues, operating with convenient hours throughout the week.",
+  "tags": "food_and_drinks|corporate_events|leagues|kids_friendly|beginner_friendly|premium_tech|late_night|private_rooms|coaching_available",
+  "vibe_tags": "sports_bar|family_fun_center|party_atmosphere|tech_lab|community_club",
+  "who_its_for": "families|large_groups|corporate_teams|solo_practice|juniors_youth",
+  "why_golfers_like_it": [
+    "Access to over 130 exclusive PGA championship courses on Full Swing simulators",
+    "Multi-sport capabilities including golf and arcade-style games for variety",
+    "Flexible private event and party rental options for up to 60 guests",
+    "Full-service food and beverage provided by Golden Boy BBQ",
+    "Weekly leagues and junior programs for competitive and developmental play"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Food is available from partner Golden Boy BBQ and Gambino’s Deli with catering options for events."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Alcoholic beverages are available via their servers; all alcohol for parties must come from Halfway House."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Full Swing",
+      "model": "unknown",
+      "notes": "Features 4 top-of-the-line Full Swing simulators with exclusive PGA license for championship courses."
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 4,
+  "booking_url": "https://clients.mindbodyonline.com/classic/ws?studioid=235195&stype=-102",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 220,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own golf clubs?",
+      "answer": "The venue provides golf clubs and equipment for use during your session."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drinks are not permitted for private events; all alcoholic beverages must be served by the venue."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes varies depending on the number of players and pace of play, but typically ranges from 1.5 to 2 hours."
+    },
+    {
+      "question": "Is Halfway House kid-friendly?",
+      "answer": "Yes, the venue offers junior leagues, summer camps, and is suitable for kids with family-friendly events and arcade-style games."
+    }
+  ],
+  "simulator_software": [
+    "Full Swing"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-10PM\"], \"Saturday\": [\"9AM-10PM\"], \"Sunday\": [\"10AM-6PM\"]}"
+}

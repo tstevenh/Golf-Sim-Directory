@@ -1,0 +1,90 @@
+{
+  "name": "Whitetail Ridge Golf Dome",
+  "address": "3360 Station Dr, Oswego, IL 60543",
+  "city": "Oswego",
+  "region": "Illinois",
+  "country": "US",
+  "latitude": 41.686158,
+  "longitude": -88.382011,
+  "phone": "+13319993545",
+  "website": "https://www.whitetailridgegolfdome.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770219088/golf_simulators/www_whitetailridgegolfdome_com_ChIJJTemiWDvDogRxJGVNse97ys.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Whitetail+Ridge+Golf+Dome/@41.6861575,-88.38201079999999,14z/data=!4m8!1m2!2m1!1sWhitetail+Ridge+Golf+Dome!3m4!1s0x880eef6089a63725:0x2befbdc7369591c4!8m2!3d41.6861575!4d-88.38201079999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJJTemiWDvDogRxJGVNse97ys",
+  "email": "alex@whitetailridgegc.com",
+  "venue_type": "sim_bar",
+  "about": "Whitetail Ridge Golf Dome is an indoor golf venue offering a combination of simulator technology and social amenities. The facility provides multiple bays for play with options for both hourly rentals and memberships. It features an on-site restaurant and bar, allowing guests to order food and drinks to enjoy while playing golf. The venue is also equipped to host various events, including corporate outings, networking events, and parties, providing a comprehensive experience for golfers and social gatherings.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|date_night|kids_friendly|leagues|club_rentals|private_rooms|party_atmosphere",
+  "vibe_tags": "family_fun_center|sports_bar|party_atmosphere|community_club",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Convenient indoor play regardless of weather",
+    "On-site dining and bar service for a complete experience",
+    "Variety of event hosting options for group outings",
+    "Membership options for unlimited practice and play"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen service available with food options that can be delivered to your bay."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Bar service available with drinks that can be delivered to your bay."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Used for booking system, likely high-end simulators"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://booking.trackmangolf.com/venues/whitetail/booking/bays",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify if clubs are provided or if you must bring your own."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, the venue has its own kitchen and bar. Food and drinks must be ordered from their restaurant and bar service, which can be delivered to your bay."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not provide an estimated time for playing a full 18 holes on the simulators."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Whitetail Ridge Golf Dome is kid-friendly and offers birthday party packages, making it suitable for families with children."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-9PM\"], \"Tuesday\": [\"9AM-9PM\"], \"Wednesday\": [\"9AM-9PM\"], \"Thursday\": [\"9AM-9PM\"], \"Friday\": [\"9AM-10PM\"], \"Saturday\": [\"9AM-10PM\"], \"Sunday\": [\"9AM-8PM\"]}"
+}

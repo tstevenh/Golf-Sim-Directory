@@ -1,0 +1,92 @@
+{
+  "name": "Golf-A-Round Lawson",
+  "address": "7785 N 69th Hwy, Lawson, MO 64062",
+  "city": "Lawson",
+  "region": "Missouri",
+  "country": "US",
+  "latitude": 39.458161,
+  "longitude": -94.239099,
+  "phone": "+18163712019",
+  "website": "https://golfaroundlawson.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770202769/golf_simulators/golfaroundlawson_com_ChIJB4eJHEWxwYcR0m8bb1BHIa8.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Golf-A-Round+Lawson/@39.458161,-94.2390994,14z/data=!4m8!1m2!2m1!1sGolf-A-Round+Lawson!3m4!1s0x87c1b1451c898707:0xaf2147506f1b6fd2!8m2!3d39.458161!4d-94.2390994",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJB4eJHEWxwYcR0m8bb1BHIa8",
+  "email": "GOLFAROUNDLAWSON@GMAIL.COM",
+  "venue_type": "multi_sport_sim",
+  "about": "Golf-A-Round Lawson is an indoor golf and sports center featuring three FullSwing Simulator Bays that provide access to over 60 iconic PGA courses. The facility offers a year-round golf experience with realistic ball tracking and topography, complemented by a variety of indoor sports games like zombie dodgeball, baseball, and basketball. Pricing is straightforward at $40 per hour on weekdays and $50 per hour on weekends, with costs applied per bay rather than per person, accommodating up to 8 golfers per bay. The venue also includes private event rentals, professional golf lessons, and membership options for frequent visitors.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|private_rooms|coaching_available|family_friendly|multi_sport",
+  "vibe_tags": "family_fun_center|tech_lab|community_club|modern",
+  "who_its_for": "beginners|families|corporate_teams|large_groups|solo_practice",
+  "why_golfers_like_it": [
+    "60+ iconic PGA courses with realistic ball tracking",
+    "Accommodates up to 8 golfers per bay, making it great for groups",
+    "Professional instruction from PGA Certified Teaching Professional Tim Underwood"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "On-site snack bar offering chicken wings, pizza, pretzels, corn dogs, candy, fries, mozzarella sticks"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol mentioned on the menu"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "FullSwing",
+      "model": "Simulator",
+      "notes": "3 FullSwing Simulator Bays with precision ball tracking technology"
+    }
+  ],
+  "simulator_so": [
+    "FullSwing"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://clients.uschedule.com/golfaround/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 40,
+  "price_range_max_local": 50,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 8,
+  "amenities_list": "kitchen_food|private_party_room|wifi|leagues|tv_sports|club_rentals",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue does not mention club rentals, so it is recommended to bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue has an on-site snack bar but does not specify if outside food and drinks are allowed."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The venue does not specify the duration for 18 holes, but it can accommodate up to 8 golfers per bay."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue offers activities like zombie dodgeball and can accommodate groups of all sizes, making it suitable for families and kids."
+    }
+  ],
+  "simulator_software": [
+    "FullSwing"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"8AM-9PM\"], \"Tuesday\": [\"8AM-9PM\"], \"Wednesday\": [\"8AM-9PM\"], \"Thursday\": [\"8AM-9PM\"], \"Friday\": [\"8AM-9PM\"], \"Saturday\": [\"8AM-10PM\"], \"Sunday\": [\"8AM-8PM\"]}"
+}

@@ -1,0 +1,91 @@
+{
+  "name": "Willowcreek Golf Academy",
+  "address": "32 Club House Dr, Atkinson, NH 03811",
+  "city": "Atkinson",
+  "region": "New Hampshire",
+  "country": "US",
+  "latitude": 42.82302,
+  "longitude": -71.184971,
+  "phone": "+16034890270",
+  "website": "https://www.atkinsonresort.com/golfacademy",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770235982/golf_simulators/www_atkinsonresort_com_ChIJpSnqDAQA44kR5c9A6jTgmZs.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Willowcreek+Golf+Academy/@42.82302,-71.18497099999999,14z/data=!4m8!1m2!2m1!1sWillowcreek+Golf+Academy!3m4!1s0x89e300040cea29a5:0x9b99e034ea40cfe5!8m2!3d42.82302!4d-71.18497099999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJpSnqDAQA44kR5c9A6jTgmZs",
+  "email": "info@atkinsoncc.com",
+  "venue_type": "training_studio",
+  "about": "The Willowcreek Golf Academy is a year-round, public facility positioned as the most technologically advanced teaching center in the Northeast. It is a 10,000-square-foot state-of-the-art training space dedicated to educating and advancing golfers of all skill levels. The academy offers custom club fitting and lessons led by award-winning PGA professionals who utilize advanced coaching tools. The venue provides a heated driving range and private coaching studios to support its educational mission, making it suitable for serious practice and improvement.",
+  "tags": "beginner_friendly|serious_practice|food_and_drinks|corporate_events|premium_tech|coaching_available|juniors_youth|club_fitting",
+  "vibe_tags": "tech_lab|community_club|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|juniors_youth|corporate_teams|coaches_instructors",
+  "why_golfers_like_it": [
+    "Access to premium technology including TrackMan launch monitors and V1 Pro Video Analysis",
+    "Adaptive club fitting services through PING, one of only ten facilities in the country to offer this",
+    "Private coaching studios for a customized learning experience away from the main range",
+    "Year-round access to a heated, state-of-the-art practice facility",
+    "Programs specifically designed for junior golfers and camps for all skill levels"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "On-site dining options available at Stagecoach Grille and Merrill's Tavern at the resort."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar and restaurant services available on-site at the resort's establishments."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "unknown",
+      "notes": "Launch monitor and ball tracking system used for coaching and fitting"
+    }
+  ],
+  "simulator_software": [
+    "V1-Pro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://atkinsonresort.totaleintegrated.com/Golf/Book-a-Tee-Time",
+  "pricing_model": "per_person_hour",
+  "price_range_min_local": 15,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 3,
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "While you can bring your own clubs, the academy provides custom club fitting services and equipment is available for lessons and practice sessions."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drinks are not permitted. The resort has on-site dining options including Stagecoach Grille and Merrill's Tavern with full kitchen and bar services."
+    },
+    {
+      "question": "How long does it take to play a full 18 holes?",
+      "answer": "This information is not available for the academy facility. The academy focuses on practice, lessons, and fitting, not on playing a full course."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, the Willowcreek Golf Academy offers specific junior golf programs, camps, and clinics designed for young players to learn and develop their skills."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"12-6PM\"], \"Tuesday\": [\"9AM-6PM\"], \"Wednesday\": [\"9AM-6PM\"], \"Thursday\": [\"9AM-6PM\"], \"Friday\": [\"9AM-6PM\"], \"Saturday\": [\"8AM-5PM\"], \"Sunday\": [\"8AM-5PM\"]}"
+}

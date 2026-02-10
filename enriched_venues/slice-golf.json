@@ -1,0 +1,83 @@
+{
+  "name": "Slice Golf",
+  "address": "1 E Main St, Evansville, WI 53536",
+  "city": "Evansville",
+  "region": "Wisconsin",
+  "country": "US",
+  "latitude": 42.780135,
+  "longitude": -89.299012,
+  "phone": "+16088821044",
+  "website": "http://www.slicegolfwi.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770224434/golf_simulators/www_slicegolfwi_com_ChIJ73hF6RQxBogRi3JBpd1Godw.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Slice+Golf/@42.7801352,-89.29901199999999,14z/data=!4m8!1m2!2m1!1sSlice+Golf!3m4!1s0x88063114e94578ef:0xdca146dda541728b!8m2!3d42.7801352!4d-89.29901199999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ73hF6RQxBogRi3JBpd1Godw",
+  "email": "slicegolfwi@outlook.com",
+  "venue_type": "sim_bar",
+  "about": "Slice Golf is an indoor golf simulator venue located in Evansville, WI. They offer simulator bays for practice and play, along with a bar atmosphere. The venue features premium GSPro simulation software with access to over 150,000 golf courses and online tournament capabilities. Hours are Monday-Friday 2pm-10pm and Saturday-Sunday 10am-10pm. They host leagues and private events, making it a social hub for golfers in the area.",
+  "tags": "food_and_drinks|leagues|corporate_events|beginner_friendly|date_night|private_rooms|club_rentals|late_night|community_club",
+  "vibe_tags": "sports_bar|community_club|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Premium GSPro simulation software with 4k graphics and realistic ball physics",
+    "Access to over 150,000 global golf courses and online tournament play",
+    "Social atmosphere with bar service and regular leagues for all skill levels"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No on-site kitchen; partnerships with local restaurants for food delivery"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service with beer specials during events and leagues"
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "http://www.slicegolfwi.com/join",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|tv_sports|private_party_room|leagues|pro_shop",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify, but it is standard practice for simulator venues to allow players to bring their own clubs."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "Outside food may be allowed, but the venue has a full bar and partners with local restaurants for food delivery options."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "A typical 18-hole round takes about an hour and a half on the simulator."
+    },
+    {
+      "question": "Is Slice Golf kid-friendly?",
+      "answer": "The venue does not specifically mention child-friendly policies, but it is open to the public and hosts events that could accommodate families."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"2-10PM\"], \"Tuesday\": [\"2-10PM\"], \"Wednesday\": [\"2-10PM\"], \"Thursday\": [\"2-10PM\"], \"Friday\": [\"2-10PM\"], \"Saturday\": [\"10AM-10PM\"], \"Sunday\": [\"10AM-10PM\"]}"
+}

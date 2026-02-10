@@ -10,7 +10,6 @@ interface VenueCardProps {
   city: string;
   state: string;
   heroImage: string | null;
-  shortDescription: string | null;
   venueType: string;
   simulatorSystems?: string[] | null;
   launchMonitorType?: string | null;
@@ -93,7 +92,6 @@ export function VenueCard({
   name,
   city,
   state,
-  shortDescription,
   venueType,
   launchMonitorType,
   priceRangeMin,
@@ -155,13 +153,6 @@ export function VenueCard({
             <MapPin className="w-4 h-4 flex-shrink-0" />
             <span className="truncate">{city}, {state}</span>
           </div>
-
-          {/* Description */}
-          {shortDescription && (
-            <p className="text-muted text-sm line-clamp-2 mb-4 flex-1">
-              {shortDescription}
-            </p>
-          )}
 
           {/* Meta row - Touch friendly (min 48px) */}
           <div className="flex items-center justify-between pt-4 border-t border-subtle min-h-[48px]">

@@ -1,0 +1,106 @@
+{
+  "name": "Ironworks Golf Lab",
+  "address": "625 3rd St, Beloit, WI 53511",
+  "city": "Beloit",
+  "region": "Wisconsin",
+  "country": "US",
+  "latitude": 42.502217,
+  "longitude": -89.036364,
+  "phone": "+16084730095",
+  "website": "https://www.ironworksgolflab.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770201286/golf_simulators/www_ironworksgolflab_com_ChIJ14o6DyKhCIgR85OFRmK8QgA.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Ironworks+Golf+Lab/@42.5022174,-89.0363642,14z/data=!4m8!1m2!2m1!1sIronworks+Golf+Lab!3m4!1s0x8808a1220f3a8ad7:0x42bc62468593f3!8m2!3d42.5022174!4d-89.0363642",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ14o6DyKhCIgR85OFRmK8QgA",
+  "email": "info@ironworksgolflab.com",
+  "venue_type": "multi_sport_sim",
+  "about": "Ironworks Golf Lab is a state-of-the-art indoor golf performance and entertainment facility located in Beloit, Wisconsin. It offers year-round access to instruction, party spaces, and advanced golf simulation technology through its affiliation with the Golf Channel Academy. The facility provides a comprehensive experience with two Visual Sports Simulators supporting golf and 14 other sports, alongside professional coaching and club fitting services. It is equipped with premium technology including Trackman 4, BodiTrak Pressure Mat, and SAM Putt Lab, making it a hub for serious player development and entertainment.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|private_rooms|coaching_available",
+  "vibe_tags": "tech_lab|family_fun_center|party_atmosphere|community_club",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "Access to premium technology like Trackman 4 and SAM Putt Lab",
+    "Year-round indoor play unaffected by weather",
+    "Variety of games beyond golf for non-golfers",
+    "Professional PGA/LPGA instruction available",
+    "Titleist Advanced Fitting Center for club optimization"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Catering options available, party packages include pizza"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Drinks included in party packages, available during events"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Visual Sports",
+      "model": "Simulator",
+      "notes": "Two multi-sport simulators supporting golf and 14 other games"
+    },
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "Premium launch monitor for ball flight tracking"
+    },
+    {
+      "brand": "BodiTrak",
+      "model": "Pressure Mat",
+      "notes": "For swing analysis and pressure mapping"
+    },
+    {
+      "brand": "SAM",
+      "model": "Putt Lab",
+      "notes": "Advanced putting analysis system"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "http://beloitclub.uschedule.com/OnlineAppointments.aspx",
+  "pricing_model": "package",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need clubs?",
+      "answer": "Yes, you will need to bring your own golf clubs to use the simulators and fitting equipment."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "Outside food and drink are not allowed, but the venue offers catering options and includes food/drinks in party packages."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes varies depending on simulator usage and group size, but typical sessions range from 1-2 hours."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Ironworks Golf Lab is kid-friendly with junior programs, family entertainment options, and party packages suitable for children."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"11AM-10PM\"], \"Tuesday\": [\"11AM-10PM\"], \"Wednesday\": [\"11AM-10PM\"], \"Thursday\": [\"11AM-10PM\"], \"Friday\": [\"11AM-10PM\"], \"Saturday\": [\"11AM-10PM\"], \"Sunday\": [\"8AM-5PM\"]}"
+}

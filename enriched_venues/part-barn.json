@@ -1,0 +1,84 @@
+{
+  "name": "ParT Barn",
+  "address": "8515 Hudson Blvd N #8702, Lake Elmo, MN 55042",
+  "city": "Lake Elmo",
+  "region": "Minnesota",
+  "country": "US",
+  "latitude": 44.951133,
+  "longitude": -92.933079,
+  "phone": "+16517357436",
+  "website": "https://thepartbarn.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770205042/golf_simulators/thepartbarn_com_ChIJr0FWyajZ94cRBVLgwO5Idns.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/ParT+Barn/@44.9511331,-92.9330786,14z/data=!4m8!1m2!2m1!1sParT+Barn!3m4!1s0x87f7d9a8c95641af:0x7b7648eec0e05205!8m2!3d44.9511331!4d-92.9330786",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJr0FWyajZ94cRBVLgwO5Idns",
+  "email": "partbarn@hoari.com",
+  "venue_type": "sim_bar",
+  "about": "ParT Barn is an indoor golf venue that combines simulated golf play with a full bar and elevated dining experience. It features private golf bays equipped with launch monitors and offers a flexible environment for various occasions. The venue caters to both casual players looking for entertainment and serious golfers seeking practice, with a focus on providing a complete experience that goes beyond just golf simulation.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|leagues|private_rooms|group_friendly|date_night",
+  "vibe_tags": "sports_bar|modern|welcoming",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|low_handicap",
+  "why_golfers_like_it": [
+    "Combines golf with a full bar and chef-crafted dining",
+    "Private booking system allows for flexible group outings",
+    "Atmosphere is described as 'a little bit country club, a whole lot more fun'",
+    "Offers both practice and social gathering in one location"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full menu designed for groups, grazers, and food-lovers, featuring crowd-pleasers and bold flavors."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar available with handcrafted drinks designed to pair with friendly competition."
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 8,
+  "booking_url": "https://thepartbarn.com/book/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues",
+  "rating_tech_quality": 4.0,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify whether club rentals are available or if you must bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, ParT Barn offers a full menu with chef-crafted dishes and a full bar available for guests to enjoy during their visit."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "The website does not provide an estimated time for playing 18 holes. Booking is available by the hour or half-hour."
+    },
+    {
+      "question": "Is ParT Barn kid-friendly?",
+      "answer": "Yes, the venue is described as a great place for 'lively group gatherings' and 'families', and mentions 'low-key nights,' making it suitable for various age groups."
+    }
+  ],
+  "rating_overall": 4.1,
+  "opening_hours": "{\"Monday\": [\"10AM-11PM\"], \"Tuesday\": [\"10AM-11PM\"], \"Wednesday\": [\"10AM-11PM\"], \"Thursday\": [\"10AM-11PM\"], \"Friday\": [\"10AM-11PM\"], \"Saturday\": [\"9AM-11PM\"], \"Sunday\": [\"9AM-11PM\"]}"
+}

@@ -1,0 +1,89 @@
+{
+  "name": "X-Golf Eldersburg",
+  "address": "1346 Liberty Rd, Eldersburg, MD 21784",
+  "city": "Eldersburg",
+  "region": "Maryland",
+  "country": "US",
+  "latitude": 39.404719,
+  "longitude": -76.946678,
+  "phone": "+12403304050",
+  "website": "https://playxgolf.com/locations/eldersburg/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770203405/golf_simulators/playxgolf_com_ChIJoc_pKwAlyIkR1FqmdR36Nyo.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/X-Golf+Eldersburg/@39.4047188,-76.9466782,14z/data=!4m8!1m2!2m1!1sX-Golf+Eldersburg!3m4!1s0x89c825002be9cfa1:0x2a37fa1d75a65ad4!8m2!3d39.4047188!4d-76.9466782",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJoc_pKwAlyIkR1FqmdR36Nyo",
+  "email": "info@XGolfEldersburg.com",
+  "venue_type": "sim_bar",
+  "about": "X-Golf Eldersburg is a venue offering state-of-the-art indoor golf simulators alongside a full bar and food service. The facility features 8 high-tech simulator bays equipped with advanced camera systems, infrared lasers, and impact sensors for an accurate and realistic golf experience. It caters to a diverse clientele, including those looking for casual play, serious practice, training with PGA professionals, or hosting events like corporate gatherings and parties. Pricing is based on hourly bay rental, with rates varying depending on the day and time, and each bay can accommodate up to six players.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|club_rentals|coaching_available",
+  "vibe_tags": "sports_bar|tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Unparalleled simulator accuracy using a combination of camera systems, infrared lasers, and impact sensors",
+    "Versatile booking model allowing groups of up to 6 players per hour, making it cost-effective for teams",
+    "Comprehensive amenities including a full bar, food service, and PGA instruction for a complete entertainment and training experience"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Offers food service with tasty bites available on-site"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Features a full bar with drink service available"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "X-Golf",
+      "model": "X-Golf Simulator",
+      "notes": "Proprietary system combining camera systems, infrared lasers, and impact sensors"
+    }
+  ],
+  "simulator_software": [
+    "V1 Pro Golf"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "mixed",
+  "lefty_friendly": true,
+  "bay_count_total": 8,
+  "booking_url": "https://playxgolf.com/locations/eldersburg/#booknow",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 70,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|wifi|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own golf clubs?",
+      "answer": "No, rental clubs are available if you do not have your own."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No, the venue has an on-site kitchen and full bar that provides food and beverages for guests."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Generally, it takes about one hour for an individual player to complete 18 holes. With more players, you may need to book additional time."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, they welcome children of all ages."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-11PM\"], \"Saturday\": [\"10AM-12AM\"], \"Sunday\": [\"10AM-10PM\"]}"
+}

@@ -1,0 +1,84 @@
+{
+  "name": "Blue Hills Golf Club",
+  "address": "2002 Blue Hills Cir NE, Roanoke, VA 24012",
+  "city": "Roanoke",
+  "region": "Virginia",
+  "country": "US",
+  "latitude": 37.31355,
+  "longitude": -79.902728,
+  "phone": "+15403447848",
+  "website": "http://www.bluehillsgc.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770256253/golf_simulators/www_bluehillsgc_com_ChIJ41FsiPsRTYgRup-NzAXTpcg.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Blue+Hills+Golf+Club/@37.3135495,-79.90272759999999,14z/data=!4m8!1m2!2m1!1sBlue+Hills+Golf+Club!3m4!1s0x884d11fb886c51e3:0xc8a5d305cc8d9fba!8m2!3d37.3135495!4d-79.90272759999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ41FsiPsRTYgRup-NzAXTpcg",
+  "email": "info@bluehillsgc.com.",
+  "venue_type": "country_club",
+  "about": "Blue Hills Golf Club is an 18-hole championship course in Roanoke, VA, offering a challenging yet enjoyable experience for golfers of all skill levels. The course plays to a par 71 with approximately 6,453 yards, featuring a 70.1 rating and 120 USGA slope from the championship tees. The facility includes a full-service restaurant and bar, a driving range with grass tees and turf mats, and an on-site golf shop. While the primary offering is traditional outdoor golf, the website references a booking system for tee times and indicates a focus on providing a comprehensive golf club experience for the local community.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|coaching_available|club_rentals|premium_tech|juniors_youth",
+  "vibe_tags": "community_club|casual|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "Challenging yet playable course suitable for all skill levels",
+    "Comprehensive facility with on-course amenities like a full-service bar and grill",
+    "Driving range available for practice with both grass and turf mat options",
+    "Professional lessons available for skill development"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Restaurant service available with a full kitchen"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Fully stocked bar on-site"
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": "unknown",
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "https://foreupsoftware.com/index.php/booking/22686#/teetimes",
+  "pricing_model": "per_person_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|leagues|pro_shop|club_fitting",
+  "rating_tech_quality": 4.0,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you will need to bring your own golf equipment to play the course."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "The venue has a full-service bar and grill available on-site."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "Standard play time for 18 holes is not specified, but plan for a typical round duration based on the course's par 71 layout."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the course is described as enjoyable for all skill levels, including beginners."
+    }
+  ],
+  "rating_overall": 4.1,
+  "opening_hours": "{\"Monday\": [\"7AM-8PM\"], \"Tuesday\": [\"7AM-8PM\"], \"Wednesday\": [\"7AM-8PM\"], \"Thursday\": [\"6AM-8PM\"], \"Friday\": [\"7AM-8PM\"], \"Saturday\": [\"7AM-8PM\"], \"Sunday\": [\"7AM-8PM\"]}"
+}

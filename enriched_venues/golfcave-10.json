@@ -1,0 +1,91 @@
+{
+  "name": "GolfCave",
+  "address": "1 Clarkton Dr, Clark, NJ 07066",
+  "city": "Clark",
+  "region": "New Jersey",
+  "country": "US",
+  "latitude": 40.627822,
+  "longitude": -74.314588,
+  "phone": "+17323822283",
+  "website": "https://www.golfcave.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770206418/golf_simulators/www_golfcave_com_ChIJuyxxd2Gxw4kRxuH1fCwB2QA.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/GolfCave/@40.6278216,-74.31458769999999,14z/data=!4m8!1m2!2m1!1sGolfCave!3m4!1s0x89c3b16177712cbb:0xd9012c7cf5e1c6!8m2!3d40.6278216!4d-74.31458769999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJuyxxd2Gxw4kRxuH1fCwB2QA",
+  "email": "clark@golfcave.com",
+  "venue_type": "sim_bar|training_studio",
+  "about": "GolfCave is a 24/7 indoor golf facility providing golfers of all skill levels with private simulator rooms equipped with TrackMan technology. The venue offers a modern, cave-like environment where players can practice or play on over 250 renowned golf courses, with features including private bays, recliner seating, and the ability to bring your own food and drinks. Pricing is based on bay time, with options for hourly play, memberships, and league events, catering to both casual players and serious golfers seeking detailed performance analytics.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|club_rentals|coaching_available|solo_practice|serious_golfers",
+  "vibe_tags": "private_luxury|tech_lab|casual|welcoming",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Private 'Cave' rooms for focused practice or play",
+    "TrackMan technology for real-time swing and shot data",
+    "BYOB policy allowing food and drinks in the simulators",
+    "24/7 access for flexible practice schedules",
+    "Over 250+ global golf courses to play virtually"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "BYOB policy allows patrons to bring their own food into the private simulator rooms"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "BYOB policy allows patrons to bring their own alcoholic beverages into the private simulator rooms"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "World's most accurate golf simulator used across all locations"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://clients.uschedule.com/golfcave/booking",
+  "pricing_model": "per_bay_hour|mixed",
+  "price_range_min_local": 45,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 12,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|club_fitting|leagues|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.5,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you'll need to bring your own golf clubs as club rentals are not mentioned as a standard service."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, GolfCave operates on a BYOB (Bring Your Own Beverage) policy, allowing patrons to bring food and alcoholic beverages into their private simulator rooms."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website doesn't specify exact timing, but with 6-7 players per bay, 18 holes typically takes 2-3 hours depending on pace of play and simulator software used."
+    },
+    {
+      "question": "Is GolfCave kid-friendly?",
+      "answer": "Yes, the venue is kid-friendly as it offers family-oriented services, private rooms suitable for all ages, and mentions golf for 'golfers of all skill levels'."
+    }
+  ],
+  "rating_overall": 4.4,
+  "opening_hours": "{\"Monday\": [\"9AM-9:15PM\"], \"Tuesday\": [\"9AM-9:15PM\"], \"Wednesday\": [\"9AM-9:15PM\"], \"Thursday\": [\"9AM-9:15PM\"], \"Friday\": [\"9AM-9:15PM\"], \"Saturday\": [\"9AM-9:15PM\"], \"Sunday\": [\"9AM-9:15PM\"]}"
+}

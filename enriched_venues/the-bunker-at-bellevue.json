@@ -1,0 +1,90 @@
+{
+  "name": "The Bunker at Bellevue",
+  "address": "1713 Country Club Rd, Atchison, KS 66002",
+  "city": "Atchison",
+  "region": "Kansas",
+  "country": "US",
+  "latitude": 39.574393,
+  "longitude": -95.147483,
+  "phone": "+19133673022",
+  "website": "http://www.thebunkeratbellevue.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770233504/golf_simulators/www_thebunkeratbellevue_com_ChIJ_5HE3uPzv4cRzZIyVkoi5f8.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Bunker+at+Bellevue/@39.5743929,-95.1474829,14z/data=!4m8!1m2!2m1!1sThe+Bunker+at+Bellevue!3m4!1s0x87bff3e3dec491ff:0xffe5224a563292cd!8m2!3d39.5743929!4d-95.1474829",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ_5HE3uPzv4cRzZIyVkoi5f8",
+  "venue_type": "sim_bar",
+  "about": "The Bunker at Bellevue is a dual-venue golf facility in Atchison, Kansas, offering both an outdoor 18-hole championship course and an indoor golf simulator center. The outdoor course is a public, Par 71 layout established in 1923, featuring mature trees, elevation changes, and three sets of tees. The indoor facility utilizes TrackMan simulator technology for year-round play, practice, and leagues. The venue emphasizes accessibility, offering memberships without requiring them, and provides a full bar and grill service for both outdoor and indoor patrons.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|leagues|premium_tech|date_night|family_friendly|coaching_available",
+  "vibe_tags": "casual|welcoming|community_club|sports_bar",
+  "who_its_for": "beginners|families|corporate_teams|serious_golfers|solo_practice",
+  "why_golfers_like_it": [
+    "Year-round play enabled by indoor TrackMan simulators",
+    "Scenic and challenging outdoor course with multiple tee boxes",
+    "Full food and drink service available for both on-course and simulator play",
+    "Active leagues and events program for all skill levels",
+    "Public course welcoming both members and non-members"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full menu available for ordering before or during play, served at the indoor simulator facility."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Bar & grill with drinks available for indoor and outdoor patrons."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Industry-leading golf simulators with precise ball and swing analysis."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://the-bunker-at-bellevue.book.teeitup.com/?course=19970",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "full_bar|kitchen_food|tv_sports|leagues|pro_shop|club_fitting",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "The venue does not explicitly state whether they provide club rentals. It is recommended to bring your own clubs or contact the venue directly for availability."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue has a full bar and grill on-site, serving food and drinks. It is not specified if outside food and drinks are allowed."
+    },
+    {
+      "question": "How long does an 18-hole simulator round take?",
+      "answer": "The website does not specify the duration for an 18-hole simulator round. Contact the venue for more details on typical play times."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the Bunker at Bellevue appears to be kid-friendly, offering a welcoming atmosphere and services suitable for families."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"8AM-10PM\"], \"Wednesday\": [\"8AM-10PM\"], \"Thursday\": [\"8AM-10PM\"], \"Friday\": [\"8AM-11PM\"], \"Saturday\": [\"8AM-11PM\"], \"Sunday\": [\"8AM-6PM\"]}"
+}

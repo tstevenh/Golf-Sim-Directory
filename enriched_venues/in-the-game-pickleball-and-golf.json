@@ -1,0 +1,93 @@
+{
+  "name": "IN THE GAME PICKLEBALL AND GOLF",
+  "address": "8500 Bunker Lake Blvd Suite 100, Ramsey, MN 55303",
+  "city": "Ramsey",
+  "region": "Minnesota",
+  "country": "US",
+  "latitude": 45.240084,
+  "longitude": -93.484151,
+  "phone": "+17632227401",
+  "website": "https://inthegamemn.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770221373/golf_simulators/inthegamemn_com_ChIJQbU-vRFBs1IRe071RHmImR4.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/IN+THE+GAME+PICKLEBALL+AND+GOLF/@45.240083999999996,-93.4841507,14z/data=!4m8!1m2!2m1!1sIN+THE+GAME+PICKLEBALL+AND+GOLF!3m4!1s0x52b34111bd3eb541:0x1e99887944f54e7b!8m2!3d45.240083999999996!4d-93.4841507",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJQbU-vRFBs1IRe071RHmImR4",
+  "venue_type": "multi_sport_sim",
+  "about": "In The Game Pickleball and Golf is a dual-sport facility featuring five indoor Sportmaster cushioned courts and three state-of-the-art Trackman indoor golf suites. The venue offers year-round, climate-controlled play for both pickleball and golf, with a focus on premium technology and player comfort. Trackman simulators provide real-time data feedback and immersive gameplay, while the cushioned courts are designed for enhanced performance and reduced joint stress. Booking is managed through an online system, and the facility operates daily with extended hours to accommodate various schedules and skill levels.",
+  "tags": "beginner_friendly|corporate_events|leagues|premium_tech|coaching_available|family_friendly|club_rentals",
+  "vibe_tags": "modern|community_club|sports_bar",
+  "who_its_for": "beginners|families|corporate_teams|serious_golfers|solo_practice",
+  "why_golfers_like_it": [
+    "State-of-the-art Trackman technology for accurate swing analysis and real-time feedback",
+    "Climate-controlled environment allowing year-round play regardless of weather conditions",
+    "Premium cushioned courts reduce fatigue and joint stress for longer, more comfortable sessions",
+    "Variety of booking options including hourly rentals, leagues, and private events"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No on-site food service mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Three indoor Trackman Golf suites with cutting-edge technology"
+    }
+  ],
+  "simulator_so": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://book.inthegamemn.com/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 35,
+  "price_range_max_local": 35,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 3,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|pro_shop|wifi|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue does not explicitly state whether club rentals are available, so it's recommended to bring your own clubs for the best experience."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No on-site food or alcohol service is mentioned, and there is no information about bringing outside food or drinks, so it's best to check with the venue directly."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "While specific timing isn't provided, golf sessions are booked by the hour, and the Trackman simulators allow for flexible gameplay depending on your pace and preferences."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the facility offers family-friendly options with pickleball events and a welcoming atmosphere suitable for players of all ages and skill levels."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"6AM-10PM\"], \"Tuesday\": [\"6AM-10PM\"], \"Wednesday\": [\"6AM-10PM\"], \"Thursday\": [\"6AM-10PM\"], \"Friday\": [\"6AM-10PM\"], \"Saturday\": [\"6AM-10PM\"], \"Sunday\": [\"6AM-10PM\"]}"
+}

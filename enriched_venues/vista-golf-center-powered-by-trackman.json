@@ -1,0 +1,91 @@
+{
+  "name": "Vista Golf Center powered by Trackman",
+  "address": "6615 Stewart Rd Suite 118, Galveston, TX 77551",
+  "city": "Galveston",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 29.272751,
+  "longitude": -94.836165,
+  "phone": "+14093097242",
+  "website": "https://www.vistagolf.golf/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770240272/golf_simulators/www_vistagolf_golf_ChIJASCdJumdP4YRM10UqWtBgQk.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Vista+Golf+Center+powered+by+Trackman/@29.272751399999997,-94.8361652,14z/data=!4m8!1m2!2m1!1sVista+Golf+Center+powered+by+Trackman!3m4!1s0x863f9de9269d2001:0x981416ba9145d33!8m2!3d29.272751399999997!4d-94.8361652",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJASCdJumdP4YRM10UqWtBgQk",
+  "email": "office@vistagolf.golf",
+  "venue_type": "training_studio",
+  "about": "Vista Golf Center is an indoor golf facility located in Galveston, TX, powered by the newest Trackman simulator technology. The venue offers a private, 100% indoor environment free from weather delays, featuring Trackman bays for playing 18 holes on world-renowned courses like St. Andrews and Pebble Beach, as well as a training bay for dedicated practice. They provide professional golf lessons with a PGA teaching pro and exclusive Titleist club fitting services. The facility is designed to be accessible on your schedule, with flexible booking options for both play and practice.",
+  "tags": "beginner_friendly|serious_golfers|corporate_events|coaching_available|premium_tech|club_fitting",
+  "vibe_tags": "private_luxury|tech_lab|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Access to 20 of Golf Digest's Top 200 ranked courses",
+    "No weather delays or waiting times",
+    "Professional PGA instruction and Titleist club fitting available",
+    "Advanced analytics and swing data through Trackman"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of food services available on-site."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol services available on-site."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Newest Trackman golf simulator technology available"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.vistagolf.golf/#requestbay",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 25,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|pro_shop|club_fitting",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own golf clubs?",
+      "answer": "The facility states you can bring your own clubs, though club rentals and fitting services are also available."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "There is no mention of food or drink services being available at the facility."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify the exact time required to complete 18 holes."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "There is no specific information indicating the venue is designed for or welcomes children."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"7AM-9PM\"], \"Tuesday\": [\"7AM-9PM\"], \"Wednesday\": [\"7AM-9PM\"], \"Thursday\": [\"7AM-9PM\"], \"Friday\": [\"7AM-9PM\"], \"Saturday\": [\"7AM-9PM\"], \"Sunday\": [\"1-9PM\"]}"
+}

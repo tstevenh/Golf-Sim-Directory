@@ -1,0 +1,90 @@
+{
+  "name": "MAC Legends Indoor Golf",
+  "address": "1982 W Grand River Ave Suite 510, Okemos, MI 48864",
+  "city": "Okemos",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 42.725143,
+  "longitude": -84.420865,
+  "phone": "+15177211402",
+  "website": "https://maclegends.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770220534/golf_simulators/maclegends_com_ChIJaz7BQcLdIogRAs7TUhl6hCE.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/MAC+Legends+Indoor+Golf/@42.725142999999996,-84.42086479999999,14z/data=!4m8!1m2!2m1!1sMAC+Legends+Indoor+Golf!3m4!1s0x8822ddc241c13e6b:0x21847a1952d3ce02!8m2!3d42.725142999999996!4d-84.42086479999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJaz7BQcLdIogRAs7TUhl6hCE",
+  "email": "events@maclegends.com",
+  "venue_type": "sim_bar",
+  "about": "MAC Legends Indoor Golf offers a premier golf experience with two locations in Okemos and East Lansing. Both locations utilize Trackman technology, the driving range with Trackman Range and the indoor facility with Trackman IO Launch Monitors. The venue is known for having the largest selection of used golf clubs in Michigan and provides services including club fittings, regrippings, and golf lessons for all skill levels. The indoor golf center in the Meridian Mall features four simulator bays, an indoor driving range, a putting green, and a bar with seating.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|coaching_available|private_rooms|club_rentals",
+  "vibe_tags": "tech_lab|sports_bar|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "Access to premium Trackman technology for swing analysis and course play",
+    "Largest selection of used golf clubs in Michigan with expert fitting services",
+    "Flexible private event space with full bar and simulator golf for up to 24 players"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Outside catering is allowed; venue provides a list of preferred partners"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar available with beer, wine, seltzer, and canned cocktails; options include cash, consumption, or open bar packages"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Four bays with Trackman IO Launch Monitors"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "mixed",
+  "lefty_friendly": true,
+  "bay_count_total": 4,
+  "booking_url": "https://yourgolfbooking.com/venues/mac-legends-golf-center/booking/bays",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 40,
+  "price_range_max_local": 50,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "4",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|tv_sports|private_party_room|wifi|pro_shop|club_fitting|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.3,
+  "rating_value_for_money": 4.1,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, you can use your own clubs or rent/borrow clubs available at the facility."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside catering is allowed for private events. You can bring food but cannot bring your own alcohol; the facility has a full bar."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Playing 18 holes typically takes about 1-2 hours depending on the number of players and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue offers golf lessons for juniors and youth, and the simulator games are suitable for families."
+    }
+  ],
+  "simulator_software": [
+    "Trackman Range software and simulator courses"
+  ],
+  "rating_overall": 4.4,
+  "opening_hours": "{\"Monday\": [\"10AM-9PM\"], \"Tuesday\": [\"10AM-9PM\"], \"Wednesday\": [\"10AM-9PM\"], \"Thursday\": [\"10AM-9PM\"], \"Friday\": [\"10AM-10PM\"], \"Saturday\": [\"10AM-10PM\"], \"Sunday\": [\"11AM-7PM\"]}"
+}

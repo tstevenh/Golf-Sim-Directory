@@ -1,0 +1,90 @@
+{
+  "name": "Atlas Valley Golf Club",
+  "address": "8313 Perry Rd, Grand Blanc, MI 48439",
+  "city": "Grand Blanc",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 42.940644,
+  "longitude": -83.542385,
+  "phone": "+18106369501",
+  "website": "http://www.atlasvalleygolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770263833/golf_simulators/www_atlasvalleygolf_com_ChIJ52dk7g-BJIgRU1py9v10BkY.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Atlas+Valley+Golf+Club/@42.9406444,-83.542385,14z/data=!4m8!1m2!2m1!1sAtlas+Valley+Golf+Club!3m4!1s0x8824810fee6467e7:0x460674fdf6725a53!8m2!3d42.9406444!4d-83.542385",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ52dk7g-BJIgRU1py9v10BkY",
+  "email": "ProShop@atlasvalleygolf.com",
+  "venue_type": "country_club",
+  "about": "Atlas Valley Golf Club is a comprehensive golf and leisure facility in Grand Blanc, MI, featuring an 18-hole golf course and advanced TrackMan golf simulators. The venue offers a full-service experience with amenities including a pro shop, lessons, a bar and grill, swimming pool, and event spaces for weddings and banquets. It operates with a dual focus on on-course play and simulator technology, catering to both traditional golfers and those seeking indoor practice or entertainment options.",
+  "tags": "food_and_drinks|corporate_events|private_rooms|club_rentals|coaching_available|premium_tech|beginner_friendly",
+  "vibe_tags": "sports_bar|family_fun_center|community_club|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Advanced TrackMan simulator technology for accurate data and game analysis",
+    "On-course and indoor options for year-round play regardless of weather",
+    "Comprehensive amenities including pro shop, lessons, and dining facilities"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full dining service available at The Bar & Grill with a dinner menu"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Bar and grill service available, no BYOB restrictions mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Premium radar-based launch monitor system"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://apimanager-cc30.clubcaddie.com/activities/view/dhfdabab",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|pro_shop|club_fitting|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue doesn't specify club rental options, so bringing your own clubs is recommended unless otherwise arranged."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No, outside food and drinks are not permitted as the venue has its own bar and grill service available."
+    },
+    {
+      "question": "How long does it take to play 18 holes on the simulator?",
+      "answer": "The website doesn't specify exact timing, but typical simulator rounds take 1.5-2 hours depending on the number of players."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The venue offers family-oriented amenities including a pool and various event spaces, making it suitable for families."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"10AM-4PM\"], \"Wednesday\": [\"10AM-4PM\"], \"Thursday\": [\"10AM-4PM\"], \"Friday\": [\"10AM-4PM\"], \"Saturday\": [\"10AM-4PM\"], \"Sunday\": [\"10AM-4PM\"]}"
+}

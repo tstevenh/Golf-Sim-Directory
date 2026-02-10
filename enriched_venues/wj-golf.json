@@ -1,0 +1,85 @@
+{
+  "name": "WJ Golf",
+  "address": "401 Half Day Rd, Buffalo Grove, IL 60089",
+  "city": "Buffalo Grove",
+  "region": "Illinois",
+  "country": "US",
+  "latitude": 42.196173,
+  "longitude": -87.967158,
+  "phone": "+12246760692",
+  "website": "https://www.wj.golf/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770204978/golf_simulators/www_wj_golf_ChIJhywEnOO_D4gRyicB62EmnPU.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/WJ+Golf/@42.1961734,-87.9671578,14z/data=!4m8!1m2!2m1!1sWJ+Golf!3m4!1s0x880fbfe39c042c87:0xf59c2661eb0127ca!8m2!3d42.1961734!4d-87.9671578",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJhywEnOO_D4gRyicB62EmnPU",
+  "email": "info@wjsports.net",
+  "venue_type": "sim_bar",
+  "about": "WJ Golf offers a premier indoor golf experience with eight world-class golf simulator bays. The venue features high-tech, hyper-realistic simulators with over 200 golf courses available. It provides a modern environment for golf gaming, leagues, lessons, and private events. The facility includes dining options with a full kitchen and bar service, making it suitable for both casual play and group gatherings. WJ Golf operates on seasonal hours, offering extended hours during the winter season to accommodate various play schedules.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|private_rooms|club_rentals|coaching_available",
+  "vibe_tags": "sports_bar|tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Access to over 200 hyper-realistic golf courses",
+    "Eight private simulator bays for exclusive play",
+    "Full dining and bar services available on-site",
+    "Professional golf lessons from top-rated instructors",
+    "Host of seasonal leagues and events"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen and restaurant service available; dining area seats up to 60 guests"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service at dining partner Vin90 with craft cocktails"
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 8,
+  "booking_url": "https://www.wj.golf/location",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 8,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can bring your own clubs, but club rentals and fittings are also available at the venue."
+    },
+    {
+      "question": "Can I bring outside food or drinks?",
+      "answer": "Outside food and drinks are not allowed, as the venue offers full kitchen and bar services on-site."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "The time to play 18 holes can vary depending on the simulator and pace of play, but it generally takes 1.5 to 2 hours."
+    },
+    {
+      "question": "Is WJ Golf kid-friendly?",
+      "answer": "Yes, WJ Golf is kid-friendly and offers a welcoming environment for families and junior golfers."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-11PM\"], \"Tuesday\": [\"9AM-11PM\"], \"Wednesday\": [\"9AM-11PM\"], \"Thursday\": [\"9AM-11PM\"], \"Friday\": [\"9AM-11PM\"], \"Saturday\": [\"9AM-11PM\"], \"Sunday\": [\"9AM-8PM\"]}"
+}

@@ -1,0 +1,94 @@
+{
+  "name": "A-Team Sports Facility",
+  "address": "4000 W 6th St #2a, Lawrence, KS 66049",
+  "city": "Lawrence",
+  "region": "Kansas",
+  "country": "US",
+  "latitude": 38.973051,
+  "longitude": -95.290871,
+  "phone": "+17854149800",
+  "website": "https://a-teamsports.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770216218/golf_simulators/a-teamsports_com_ChIJXaX6-lpvv4cR5N6BNAq-_6A.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/A-Team+Sports+Facility/@38.973051,-95.290871,14z/data=!4m8!1m2!2m1!1sA-Team+Sports+Facility!3m4!1s0x87bf6f5afafaa55d:0xa0ffbe0a3481dee4!8m2!3d38.973051!4d-95.290871",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJXaX6-lpvv4cR5N6BNAq-_6A",
+  "email": "filler@godaddy.com",
+  "venue_type": "multi_sport_sim",
+  "about": "A-Team Sports Facility is a locally owned and operated multi-sport training center that provides athletes with the tools, space, and guidance to train at their highest potential. The facility features climate-controlled training spaces, including turf rentals for baseball and softball, a weight room, and two industry-leading Full Swing golf simulators. Additionally, it offers private and group lessons in baseball, softball, golf, and athletic performance training. The venue also houses a concessions area called The Dugout, serving food and beverages to athletes and families. For entertainment, the Full Swing simulators go beyond golf, offering a variety of interactive games suitable for parties, team events, and family fun.",
+  "tags": "beginner_friendly|food_and_drinks|kids_friendly|corporate_events|leagues|premium_tech|family_fun_center|party_atmosphere|coaching_available",
+  "vibe_tags": "family_fun_center|tech_lab|community_club",
+  "who_its_for": "families|juniors_youth|corporate_teams|beginners",
+  "why_golfers_like_it": [
+    "Access to premium Full Swing simulators with world-famous course play",
+    "Diverse range of non-golf games and sports simulations for entertainment",
+    "Professional golf lessons available for all skill levels",
+    "Climate-controlled facility ideal for year-round practice",
+    "Family-friendly environment with concessions available"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Concessions available at The Dugout, offering food and beverages for athletes, families, and guests during practices, lessons, and events."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service on-site."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Full Swing",
+      "model": "Full Swing Golf Simulators",
+      "notes": "Industry-leading simulators offering both golf and a variety of interactive games."
+    }
+  ],
+  "simulator_so": [
+    "Full Swing Golf"
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 2,
+  "booking_url": "https://booking.cojilio.com/ateamsports-llc/online",
+  "pricing_model": "mixed",
+  "price_range_min_local": 85,
+  "price_range_max_local": 300,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|kitchen_food|private_party_room|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 3.5,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify if clubs are provided, so it is recommended to bring your own golf clubs for simulator use."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue has a concessions area called The Dugout that offers food and beverages. There is no mention of a BYOB policy."
+    },
+    {
+      "question": "How long does an 18-hole simulation take?",
+      "answer": "The website does not specify the duration for an 18-hole simulation."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, A-Team Sports is kid-friendly, offering golf simulators with various games suitable for children, as well as sports training for youth athletes."
+    }
+  ],
+  "simulator_software": [
+    "Full Swing"
+  ],
+  "rating_overall": 4.0,
+  "opening_hours": "{\"Monday\": [\"9AM-9PM\"], \"Tuesday\": [\"9AM-9PM\"], \"Wednesday\": [\"9AM-9PM\"], \"Thursday\": [\"9AM-9PM\"], \"Friday\": [\"9AM-9PM\"], \"Saturday\": [\"9AM-9PM\"], \"Sunday\": [\"Closed\"]}"
+}

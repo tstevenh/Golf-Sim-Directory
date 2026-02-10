@@ -1,0 +1,90 @@
+{
+  "name": "Five Iron Golf",
+  "address": "1000 W North Ave A200, Chicago, IL 60642",
+  "city": "Chicago",
+  "region": "Illinois",
+  "country": "US",
+  "latitude": 41.911071,
+  "longitude": -87.653913,
+  "phone": "+18005135153",
+  "website": "https://fiveirongolf.com/locations/chicago-lincoln-park/%3Futm_source%3Dlocal%26utm_medium%3Dorganic%26utm_campaign%3Dil%26utm_content%3Dchicago-lincoln-park",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770199477/golf_simulators/fiveirongolf_com_ChIJw_5QhkHTD4gRcXFNpWCbX5g.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Five+Iron+Golf/@41.9110711,-87.65391269999999,14z/data=!4m8!1m2!2m1!1sFive+Iron+Golf!3m4!1s0x880fd3418650fec3:0x985f9b60a54d7171!8m2!3d41.9110711!4d-87.65391269999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJw_5QhkHTD4gRcXFNpWCbX5g",
+  "email": "LINCOLNPARK@FIVEIRONGOLF.COM",
+  "venue_type": "sim_bar",
+  "about": "Five Iron Golf Lincoln Park is a modern, tech-driven indoor golf venue that combines simulator sports with a full-service bar and social atmosphere. The facility utilizes state-of-the-art Trackman technology in its simulator bays, offering access to over 200 virtual courses including PGA Tour venues like Pebble Beach. It caters to a diverse range of golfers, from beginners practicing their swing to serious golfers refining their skills, alongside providing a social space for events and casual play. With amenities like a full bar, chef-inspired menu, and table games, it redefines indoor golf as an entertainment and practice destination.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|private_rooms|club_rentals|late_night|coaching_available",
+  "vibe_tags": "sports_bar|tech_lab|community_club|modern",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|solo_practice",
+  "why_golfers_like_it": [
+    "Premium Trackman technology provides accurate, actionable data for improvement",
+    "No-dress-code atmosphere makes golf accessible and welcoming for all skill levels",
+    "Combines driving range, clubhouse, and sports bar in one social venue"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full-service bar with a chef-inspired menu including appetizers, wings, and pizzas"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full-service bar available; BYOB policy not mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Dual-radar Trackman technology with high-speed swing cameras"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://booking.fiveirongolf.com/select-experience?location=chicago-lincoln-park",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|leagues|club_fitting|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, Five Iron provides rental clubs and equipment; all you need to do is show up."
+    },
+    {
+      "question": "Can I bring my own food or drink?",
+      "answer": "No, the venue has a full-service bar and kitchen food menu; no BYOB policy is mentioned."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Time to play 18 holes varies depending on the simulator software and group size, but a typical round can take 1-2 hours."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue hosts kids' parties and welcomes families; children can enjoy the simulators and other activities."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"6AM-11PM\"], \"Tuesday\": [\"6AM-11PM\"], \"Wednesday\": [\"6AM-11PM\"], \"Thursday\": [\"6AM-11PM\"], \"Friday\": [\"6AM-1AM\"], \"Saturday\": [\"8AM-1AM\"], \"Sunday\": [\"8AM-11PM\"]}"
+}

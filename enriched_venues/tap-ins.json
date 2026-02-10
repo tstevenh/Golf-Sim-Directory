@@ -1,0 +1,93 @@
+{
+  "name": "Tap-Ins",
+  "address": "20944 Holyoke Ave, Lakeville, MN 55044",
+  "city": "Lakeville",
+  "region": "Minnesota",
+  "country": "US",
+  "latitude": 44.646326,
+  "longitude": -93.242296,
+  "phone": "+19522376730",
+  "website": "http://www.tapinsgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770203848/golf_simulators/www_tapinsgolf_com_ChIJz0YAdlFJ9ocRoJB1B6xC4n4.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Tap-Ins/@44.646325999999995,-93.2422962,14z/data=!4m8!1m2!2m1!1sTap-Ins!3m4!1s0x87f64951760046cf:0x7ee242ac077590a0!8m2!3d44.646325999999995!4d-93.2422962",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJz0YAdlFJ9ocRoJB1B6xC4n4",
+  "email": "GOLF@TAPINSGOLF.COM",
+  "venue_type": "sim_bar",
+  "about": "Tap-Ins is a casual venue featuring two HD Golf multi-sport simulators located inside Baldy's Tailgate Bar in downtown Lakeville. It offers patrons access to over 40 virtual golf courses, including famous ones like Pebble Beach and St. Andrews, alongside arcade-style sports games. The venue integrates a full-service bar and restaurant, allowing customers to enjoy food and beverages while playing. With a focus on a relaxed, social atmosphere, it caters to both golfers and those looking for alternative indoor entertainment. The facility operates on a reservation basis and provides amenities like rental clubs and TVs for sports viewing.",
+  "tags": "food_and_drinks|beginner_friendly|date_night|corporate_events|leagues|budget_friendly|family_friendly",
+  "vibe_tags": "sports_bar|casual|welcoming|modern",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|tourists_travelers",
+  "why_golfers_like_it": [
+    "Two state-of-the-art HD Golf simulators with high realism and accuracy",
+    "Full access to Baldy's Tailgate Bar's food and beverage menu during play",
+    "Variety of activities including golf, arcade games, and other sports simulations",
+    "Flexible membership offering up to 2 hours of free daily simulator time"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full menu from Baldy's Tailgate Bar available for ordering"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available; beverages only during early morning hours when the restaurant is closed"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "HD Golf",
+      "model": "Multi-Sport Simulator",
+      "notes": "11 ft tall and 17 ft wide simulators with patented image processing software"
+    }
+  ],
+  "simulator_so": [
+    "HD Golf"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://app.whoosh.io/patron/club/tap-ins/agenda/tap-ins/today",
+  "pricing_model": "mixed",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": 25,
+  "currency": "USD",
+  "walk_ins_allowed": false,
+  "coaching_available": "unknown",
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, rental clubs are available for $10 per set."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, but the entire menu from Baldy's Tailgate Bar is available for ordering during your session."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Time for 18 holes varies depending on the number of players and pace of play, but typically ranges from 2-3 hours."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue offers a casual atmosphere with arcade-style games and is suitable for families, though some activities may have age restrictions."
+    }
+  ],
+  "simulator_software": [
+    "HD Golf"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-11PM\"], \"Tuesday\": [\"9AM-11PM\"], \"Wednesday\": [\"9AM-11PM\"], \"Thursday\": [\"9AM-11PM\"], \"Friday\": [\"9AM-11PM\"], \"Saturday\": [\"7AM-11PM\"], \"Sunday\": [\"7AM-11PM\"]}"
+}

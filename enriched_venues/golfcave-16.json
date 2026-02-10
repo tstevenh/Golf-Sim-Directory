@@ -1,0 +1,91 @@
+{
+  "name": "GolfCave",
+  "address": "325 US-22, Green Brook Township, NJ 08812",
+  "city": "Green Brook Township",
+  "region": "New Jersey",
+  "country": "US",
+  "latitude": 40.587613,
+  "longitude": -74.504497,
+  "phone": "+17323822283",
+  "website": "https://www.golfcave.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770213642/golf_simulators/www_golfcave_com_ChIJ6dfIET6_w4kRly2wb6I-Ri8.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/GolfCave/@40.5876127,-74.5044968,14z/data=!4m8!1m2!2m1!1sGolfCave!3m4!1s0x89c3bf3e11c8d7e9:0x2f463ea26fb02d97!8m2!3d40.5876127!4d-74.5044968",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ6dfIET6_w4kRly2wb6I-Ri8",
+  "email": "clark@golfcave.com",
+  "venue_type": "sim_bar",
+  "about": "GolfCave is a 24/7 indoor golf facility providing golfers of all skill levels with the ability to play or practice in private simulator rooms. They use TrackMan simulators, which are known for their accuracy in providing detailed swing and ball flight data. The venue offers activities like on-course play, lessons, club fittings, and a winter league, catering to both casual players and serious golfers looking to improve their game.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|private_rooms|club_rentals|coaching_available",
+  "vibe_tags": "upscale_lounge|tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "World's most accurate TrackMan golf simulators provide real-time metrics",
+    "24/7 access to private 'Caves' for flexible practice sessions",
+    "Opportunity to play over 250 renowned golf courses from New Jersey",
+    "Personalized golf lessons and advanced club fitting services"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "BYOB allowed; food is permitted to be brought in"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "BYOB (Bring Your Own Beverages) is allowed"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "TrackMan",
+      "model": "iO",
+      "notes": "State-of-the-art radar technology for precise shot and club data"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://clients.uschedule.com/golfcave/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 45,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|club_fitting|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "It is not explicitly stated, but as a BYOB venue, it is highly recommended that you bring your own golf clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, GolfCave operates on a BYOB (Bring Your Own Beverages) policy, and you are permitted to bring in your own food."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "The website does not provide a specific time estimate for playing 18 holes."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The website does not specifically target children or mention kid-friendly amenities, so it appears geared towards adults."
+    }
+  ],
+  "simulator_software": [
+    "TrackMan"
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"9AM-9:15PM\"], \"Tuesday\": [\"9AM-9:15PM\"], \"Wednesday\": [\"9AM-9:15PM\"], \"Thursday\": [\"9AM-9:15PM\"], \"Friday\": [\"9AM-9:15PM\"], \"Saturday\": [\"9AM-9:15PM\"], \"Sunday\": [\"9AM-9:15PM\"]}"
+}

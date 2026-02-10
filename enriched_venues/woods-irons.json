@@ -1,0 +1,91 @@
+{
+  "name": "Woods & Irons",
+  "address": "515 Rear W Chocolate Ave, Hershey, PA 17033",
+  "city": "Hershey",
+  "region": "Pennsylvania",
+  "country": "US",
+  "latitude": 40.2822,
+  "longitude": -76.661481,
+  "phone": "+17172981066",
+  "website": "http://woodsandirons.golf/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770213136/golf_simulators/woodsandirons_golf_ChIJZSsAHe-7yIkRt0WkiLSMVtY.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Woods+%26+Irons/@40.2822004,-76.6614812,14z/data=!4m8!1m2!2m1!1sWoods+%26+Irons!3m4!1s0x89c8bbef1d002b65:0xd6568cb488a445b7!8m2!3d40.2822004!4d-76.6614812",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJZSsAHe-7yIkRt0WkiLSMVtY",
+  "venue_type": "multi_sport_sim",
+  "about": "Woods & Irons is a family-owned and operated premier golf simulator facility established in 2022. Located in Hershey, PA, within a custom-remodeled Hershey Chocolate Warehouse, the venue offers three private, custom-designed bays equipped with HD Golf Simulator technology, high-quality laser projectors, and Country Club Elite hitting surfaces. The facility is designed to be welcoming to all skill levels, from beginners to advanced players, and caters to various events including golf sessions, parties, and corporate gatherings. Pricing is structured per hour per bay, with rates ranging from $35 to $50, inclusive of all taxes and fees. Memberships offer discounted rates and access to special events.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|private_rooms|coaching_available|family_friendly|solo_practice",
+  "vibe_tags": "private_luxury|family_fun_center|tech_lab",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "State-of-the-art HD Golf Simulator technology for accurate and realistic play",
+    "Three private, luxury-appointed rooms with amenities like TVs, sinks, and refrigerators",
+    "Versatile facility hosting both serious practice and entertainment events like gaming parties and sports viewings"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Guests may bring their own food or have food delivered. Catering assistance is available for events."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "BYOB (Bring Your Own Beverage) facility is allowed."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "HD Golf",
+      "model": "Simulator",
+      "notes": "Finest package including optical cameras, laser projectors, and receiving screens"
+    }
+  ],
+  "simulator_so": [
+    "HD Golf"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://woodsandirons.golfbook.in/calendar.php",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 35,
+  "price_range_max_local": 50,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 3,
+  "max_group_size_per_bay": 20,
+  "amenities_list": "club_rentals|private_party_room|wifi|pro_shop|club_fitting|leagues|tv_sports|kitchen_food",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.3,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you should bring your own clubs. The facility requires clubs to be clean before arrival to protect the simulator screens. Cleaning supplies can be provided upon request."
+    },
+    {
+      "question": "Can I bring food and drinks?",
+      "answer": "Yes, Woods & Irons is a BYOB facility where you can bring your own food or have food delivered. Catering assistance is available for special events."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Based on skill level and putting settings, it takes approximately one hour for an individual to play 18 holes. For two golfers, it takes about 2 hours, and for four golfers, around 4 hours."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, Woods & Irons is kid-friendly and can host birthday parties and family gatherings. The multi-sport package in one of the bays offers games suitable for all ages."
+    }
+  ],
+  "simulator_software": [
+    "HD Golf"
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"6AM-2AM\"], \"Tuesday\": [\"6AM-2AM\"], \"Wednesday\": [\"6AM-2AM\"], \"Thursday\": [\"6AM-2AM\"], \"Friday\": [\"6AM-2AM\"], \"Saturday\": [\"6AM-2AM\"], \"Sunday\": [\"6AM-2AM\"]}"
+}

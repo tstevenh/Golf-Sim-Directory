@@ -1,0 +1,90 @@
+{
+  "name": "Optimum Golf",
+  "address": "3563 Walnut St Unit B, Denver, CO 80205",
+  "city": "Denver",
+  "region": "Colorado",
+  "country": "US",
+  "latitude": 39.768644,
+  "longitude": -104.974607,
+  "phone": "+17203988440",
+  "website": "http://theoptimumgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770215458/golf_simulators/theoptimumgolf_com_ChIJk1Rh_aB5bIcR-yG5WR7O2O8.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Optimum+Golf/@39.7686436,-104.97460729999999,14z/data=!4m8!1m2!2m1!1sOptimum+Golf!3m4!1s0x876c79a0fd615493:0xefd8ce1e59b921fb!8m2!3d39.7686436!4d-104.97460729999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJk1Rh_aB5bIcR-yG5WR7O2O8",
+  "venue_type": "training_studio",
+  "about": "Optimum Golf is a golf simulator venue that focuses on data-driven coaching and player development. It utilizes indoor golf simulators for lessons, practice, and skill assessment, featuring technology like launch monitors and motion capture. The venue offers structured programs, including student assessments, personalized improvement plans, and connected coaching options to help golfers improve their game. It is suitable for players of all levels looking for a focused training environment with professional instruction and advanced analytical tools.",
+  "tags": "serious_practice|coaching_available|premium_tech|beginner_friendly|leagues|private_rooms|club_rentals|modern|community_club",
+  "vibe_tags": "tech_lab|industrial_training|modern",
+  "who_its_for": "serious_golfers|beginners|coaches_instructors|juniors_youth|families",
+  "why_golfers_like_it": [
+    "Data-driven coaching system with personalized improvement plans",
+    "Advanced technology including Uneekor launch monitors and SportsBox 3D motion capture",
+    "Connected Coaching app for continuous feedback between sessions",
+    "Professional PGA instruction with a focus on measurable results",
+    "Indoor facilities allowing for year-round practice and play"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of on-site food service"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "Launch Monitor",
+      "notes": "Premium radar technology tracking ball flight, spin rates, launch angles and smash factor"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://clients.uschedule.com/optimumgolf/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|wifi|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The content doesn't explicitly state whether they provide club rentals, so it's recommended to contact them directly to confirm if you need to bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "There's no mention of BYOB policies or outside food/drink restrictions in the provided content."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The content doesn't specify a standard time for 18 holes as the venue focuses on coaching and practice rather than casual play."
+    },
+    {
+      "question": "Is Optimum Golf kid-friendly?",
+      "answer": "Yes, the venue appears to be kid-friendly with programs suitable for juniors and youth, and mentions that children can play with members."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"11AM-8PM\"], \"Tuesday\": [\"11AM-8PM\"], \"Wednesday\": [\"11AM-8PM\"], \"Thursday\": [\"11AM-8PM\"], \"Friday\": [\"8AM-9PM\"], \"Saturday\": [\"8AM-9PM\"], \"Sunday\": [\"9AM-5PM\"]}"
+}

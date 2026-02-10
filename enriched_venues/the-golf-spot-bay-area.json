@@ -1,0 +1,90 @@
+{
+  "name": "The Golf Spot Bay Area",
+  "address": "714 Contra Costa Blvd, Pleasant Hill, CA 94523",
+  "city": "Pleasant Hill",
+  "region": "California",
+  "country": "US",
+  "latitude": 37.971022,
+  "longitude": -122.064279,
+  "phone": "+19258265733",
+  "website": "https://www.thegolfspotba.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770204773/golf_simulators/www_thegolfspotba_com_ChIJEU2wgntnhYARDrcK3uGrywU.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Golf+Spot+Bay+Area/@37.9710221,-122.06427889999999,14z/data=!4m8!1m2!2m1!1sThe+Golf+Spot+Bay+Area!3m4!1s0x8085677b82b04d11:0x5cbabe1de0ab70e!8m2!3d37.9710221!4d-122.06427889999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJEU2wgntnhYARDrcK3uGrywU",
+  "email": "info@thegolfspotba.com",
+  "venue_type": "training_studio",
+  "about": "The Golf Spot Bay Area is a state-of-the-art indoor golf facility offering technology and coaching designed to improve your game. It provides in-person lessons, hitting sessions, club fittings, and event space. The facility caters to new and experienced golfers in the Bay Area with a focus on data-driven instruction using Trackman technology. An array of services is available, including private lessons, golf leagues, simulator access, club fitting, and private event hosting.",
+  "tags": "serious_practice|coaching_available|leagues|corporate_events|premium_tech|club_rentals|private_rooms|family_friendly",
+  "vibe_tags": "tech_lab|community_club|modern|welcoming",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Access to premium Trackman simulator technology for detailed swing analysis",
+    "State-of-the-art indoor facility allowing year-round practice and improvement",
+    "Comprehensive services including private lessons, club fittings, and leagues"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food services mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol services mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "Two Trackman virtual hitting bays"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://www.thegolfspotba.com/virtual-golf-practice",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 150,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|pro_shop|club_fitting|leagues|private_party_room",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The facility offers club fitting services and partnerships with Miura Golf, Srixon, Cleveland, and XXIO, but does not explicitly state if clubs are provided for rental or if you must bring your own."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No food or drink services are mentioned, indicating it is not an establishment that serves its own, but it does not specify a policy on outside food or beverages."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify the average time required to play a full 18-hole round on the simulators."
+    },
+    {
+      "question": "Is this place kid-friendly?",
+      "answer": "Yes, the venue is described as welcoming to all golfers, and testimonials and service descriptions suggest it is family-friendly."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"8AM-8PM\"], \"Tuesday\": [\"8AM-8PM\"], \"Wednesday\": [\"8AM-8PM\"], \"Thursday\": [\"8AM-8PM\"], \"Friday\": [\"8AM-8PM\"], \"Saturday\": [\"8AM-8PM\"], \"Sunday\": [\"8AM-8PM\"]}"
+}

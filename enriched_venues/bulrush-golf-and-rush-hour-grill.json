@@ -1,0 +1,90 @@
+{
+  "name": "Bulrush Golf and Rush Hour Grill",
+  "address": "605 Brookside Pkwy, Rush City, MN 55069",
+  "city": "Rush City",
+  "region": "Minnesota",
+  "country": "US",
+  "latitude": 45.682065,
+  "longitude": -92.993213,
+  "phone": "+13203581050",
+  "website": "https://www.bulrushgolfclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770270209/golf_simulators/www_bulrushgolfclub_com_ChIJVcqf1VVbslIRikxurlQWc6s.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Bulrush+Golf+and+Rush+Hour+Grill/@45.682065,-92.99321309999999,14z/data=!4m8!1m2!2m1!1sBulrush+Golf+and+Rush+Hour+Grill!3m4!1s0x52b25b55d59fca55:0xab731654ae6e4c8a!8m2!3d45.682065!4d-92.99321309999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJVcqf1VVbslIRikxurlQWc6s",
+  "email": "mike.olson@bulrushgc.com",
+  "venue_type": "sim_bar|country_club",
+  "about": "Bulrush Golf Club is a dual-venue facility in Rush City, Minnesota, offering both an outdoor golf course and a dedicated Simulator Golf Lounge. The venue focuses on providing an all-encompassing golf experience for players of all levels, combining traditional course play with modern indoor simulation technology. The Rush Hour Bar and Grill serves as a central hub for socializing, offering food and drinks to complement both golf and dining experiences. The Simulator Golf Lounge provides a climate-controlled environment for year-round play, particularly highlighted for its utility during winter months, featuring a booking system for tee times and opportunities for leagues and private events.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|leagues|premium_tech|date_night|club_rentals|coaching_available",
+  "vibe_tags": "casual|welcoming|sports_bar|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "Year-round golf access through climate-controlled simulators, ideal for winter play",
+    "Comprehensive venue combining on-course golf with a dedicated simulator lounge",
+    "On-site dining at Rush Hour Bar and Grill for a full social and golf experience",
+    "Availability of leagues, tournaments, and private event spaces for groups"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen available at Rush Hour Bar and Grill with hours from 11AM - 9PM daily."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Bar service available at Rush Hour Bar and Grill."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Unknown",
+      "model": "Unknown",
+      "notes": "Website mentions a 'Simulator Golf Lounge' but does not specify hardware brands or models."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": "unknown",
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://the-golf-lounge-at-bulrush-golf-club.book.teeitup.com/",
+  "pricing_model": "per_person_hour|mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|leagues|ada_accessible",
+  "rating_tech_quality": 4.0,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "While not explicitly stated, it is standard practice for simulator venues to allow players to bring their own clubs. Rental clubs are likely available but are not mentioned on the website."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No. Personal carry-on coolers are prohibited, and all refreshments must be purchased from the venue. No outside food or beverages are permitted."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes on the simulators?",
+      "answer": "The website does not specify a standard time for a full 18-hole simulator round. This information would likely be available during the booking process or by contacting the venue directly."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue appears to be family-friendly. A guest review specifically mentions the 'wonderful staff' and the availability of golf simulators, and the site promotes itself as a great place for a memorable round of golf, which can include family outings."
+    }
+  ],
+  "rating_overall": 4.1,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"9AM-10PM\"], \"Saturday\": [\"9AM-10PM\"], \"Sunday\": [\"9AM-10PM\"]}"
+}

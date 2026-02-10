@@ -1,0 +1,89 @@
+{
+  "name": "Five Iron Golf",
+  "address": "One Washington St, Boston, MA 02108",
+  "city": "Boston",
+  "region": "Massachusetts",
+  "country": "US",
+  "latitude": 42.359315,
+  "longitude": -71.058019,
+  "phone": "+18005135153",
+  "website": "https://fiveirongolf.com/locations/boston-government-center/%3Futm_source%3Dlocal%26utm_medium%3Dorganic%26utm_campaign%3Dma%26utm_content%3Dboston",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770220766/golf_simulators/fiveirongolf_com_ChIJMbX4_t5x44kRTssU4VzUHY4.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Five+Iron+Golf/@42.359314499999996,-71.0580189,14z/data=!4m8!1m2!2m1!1sFive+Iron+Golf!3m4!1s0x89e371defef8b531:0x8e1dd45ce114cb4e!8m2!3d42.359314499999996!4d-71.0580189",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJMbX4_t5x44kRTssU4VzUHY4",
+  "email": "boston@fiveirongolf.com",
+  "venue_type": "sim_bar",
+  "about": "Five Iron Golf Boston - Government Center is an indoor golf simulator venue that combines state-of-the-art technology with a social, bar atmosphere. It features multiple bays equipped with Trackman launch monitors, allowing golfers to play on virtual courses ranging from Pebble Beach to other PGA Tour venues. The venue offers a range of services including simulator rentals, golf lessons, custom club fittings, and event hosting for both small and large groups. With no dress code and a full-service bar and kitchen, it aims to make golf accessible and entertaining for players of all skill levels. Pricing operates on a per-bay-hour basis with membership options available that include free play during benefit hours and discounts on food, beverages, and other services.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|coaching_available|late_night",
+  "vibe_tags": "sports_bar|tech_lab|community_club|casual|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "Premium Trackman technology provides accurate, actionable data for serious practice and play",
+    "Convenient downtown Boston location near historic landmarks like Faneuil Hall and the Old State House",
+    "Full-service bar and chef-inspired menu offer a complete social and dining experience alongside golf"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full-service kitchen with a chef-inspired menu, including items like boneless wings (available with a rental)."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full-service bar available at the location."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "State-of-the-art launch monitors providing accurate data on ball flight, spin rate, swing speed, club path, and attack angle."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://booking.fiveirongolf.com/select-experience?location=boston-government-center",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|leagues|club_fitting",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can bring your own clubs or rent them at the venue. The club fitting service also allows for custom club purchases."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "Outside food and drink are not permitted; however, the venue has a full-service bar and kitchen with a chef-inspired menu available for all guests."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "A full 18 holes can vary in time depending on the course and number of players, but a simulator bay rental is booked by the hour, typically accommodating a round in 1-2 hours."
+    },
+    {
+      "question": "Is Five Iron Golf kid-friendly?",
+      "answer": "Yes, the venue is kid-friendly, offering kids' birthday party packages and junior clinics. It has a casual atmosphere suitable for families."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"6AM-11PM\"], \"Tuesday\": [\"6AM-11PM\"], \"Wednesday\": [\"6AM-11PM\"], \"Thursday\": [\"6AM-11PM\"], \"Friday\": [\"6AM-1AM\"], \"Saturday\": [\"8AM-1AM\"], \"Sunday\": [\"8AM-11PM\"]}"
+}

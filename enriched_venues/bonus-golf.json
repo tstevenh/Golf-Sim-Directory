@@ -1,0 +1,90 @@
+{
+  "name": "Bonus Golf",
+  "address": "6869 Hill St Suite 2, Miamitown, OH 45041",
+  "city": "Miamitown",
+  "region": "Ohio",
+  "country": "US",
+  "latitude": 39.215548,
+  "longitude": -84.70591,
+  "phone": "+15134932381",
+  "website": "http://www.playbonusgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770204142/golf_simulators/www_playbonusgolf_com_ChIJ5z090lszQIgROkadsxRS1pQ.png",
+  "google_maps_url": "https://www.google.com/maps/place/Bonus+Golf/@39.215548,-84.7059098,14z/data=!4m8!1m2!2m1!1sBonus+Golf!3m4!1s0x8840335bd23d3de7:0x94d65214b39d463a!8m2!3d39.215548!4d-84.7059098",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ5z090lszQIgROkadsxRS1pQ",
+  "email": "filler@godaddy.com",
+  "venue_type": "sim_bar",
+  "about": "Bonus Golf is an indoor golf facility featuring four simulator bays equipped with Uneekor's Eye XO launch monitor technology and GSPro software. The venue offers a casual atmosphere for playing rounds, practicing, and socializing, with seating for up to 32 guests. Pricing is structured on a per-bay, hourly basis, with rates varying by day and time, and the facility is available for group events, leagues, and individual practice sessions.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|private_rooms|coaching_available",
+  "vibe_tags": "sports_bar|community_club",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|solo_practice",
+  "why_golfers_like_it": [
+    "Premium Uneekor Eye XO launch monitor technology provides best-in-class data",
+    "GSPro software offers a vast database of over 650 golf courses",
+    "Flexible bay bookings allow for up to 6 players per hour at no extra cost",
+    "On-site bar and partnership with DipStiggy's Lounge for food and drinks"
+  ],
+  "kid_friendly": "Yes",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Outside food is allowed; partnership with DipStiggy's Lounge for food options"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Alcohol available for purchase on-site; no outside alcohol permitted"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "Eye XO",
+      "notes": "High-end photometric camera and infrared optical launch monitor"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "infrared_optical",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "auto_putt|gimme_circle",
+  "lefty_friendly": true,
+  "bay_count_total": 4,
+  "booking_url": "https://app.courtreserve.com/Online/Portal/Index/9439",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 30,
+  "price_range_max_local": 40,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 4,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Golf balls and molded tees are provided in the simulators. You can use your own clubs, but dark-colored tees are recommended for optimal performance with the Uneekor system."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food is allowed, but outside alcohol is not. Alcoholic beverages must be purchased on-site through the partnership with DipStiggy's Lounge."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "It typically takes one hour for one player to complete 18 holes. Putting settings can be adjusted to play more quickly or at a slower pace."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Bonus Golf is not specifically marketed as a kid-friendly venue. The focus is on adult-oriented activities such as leagues, parties, and practice sessions."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-10PM\"], \"Saturday\": [\"10AM-10PM\"], \"Sunday\": [\"10AM-7PM\"]}"
+}

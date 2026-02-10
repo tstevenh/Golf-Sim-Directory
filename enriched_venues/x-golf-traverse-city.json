@@ -1,0 +1,92 @@
+{
+  "name": "X-Golf Traverse City",
+  "address": "3480 W South Airport Rd # B, Traverse City, MI 49684",
+  "city": "Traverse City",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 44.723786,
+  "longitude": -85.645053,
+  "phone": "+12312522606",
+  "website": "https://playxgolf.com/locations/traverse-city/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770223592/golf_simulators/playxgolf_com_ChIJrTckLkQzHogRYlAxjjJCJG8.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/X-Golf+Traverse+City/@44.7237857,-85.6450528,14z/data=!4m8!1m2!2m1!1sX-Golf+Traverse+City!3m4!1s0x881e33442e2437ad:0x6f2442328e315062!8m2!3d44.7237857!4d-85.6450528",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJrTckLkQzHogRYlAxjjJCJG8",
+  "email": "info@xgolftraversecity.com",
+  "venue_type": "sim_bar",
+  "about": "X-Golf Traverse City is an indoor golf venue featuring six state-of-the-art simulators that offer a realistic and accurate golfing experience year-round. The facility is designed as an entertainment and sports bar, combining golf simulation with a full-service restaurant and bar, making it suitable for both serious practice and social events. It operates on a per-bay hourly pricing model and accommodates various groups, from individuals and families to corporate teams, with amenities such as club rentals, lessons, and private event hosting.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|coaching_available|private_rooms|club_rentals|date_night",
+  "vibe_tags": "sports_bar|family_fun_center|community_club",
+  "who_its_for": "beginners|families|corporate_teams|large_groups|solo_practice",
+  "why_golfers_like_it": [
+    "World's most accurate indoor golf simulator with advanced camera, laser, and impact sensor technology",
+    "On-site Callaway custom club fittings and professional golf instruction available",
+    "Full-service bar and kitchen offering local craft beers and food to enhance the experience",
+    "Flexible booking for groups up to 6 people per bay with multiple pricing tiers",
+    "Host to seasonal leagues and tournaments for competitive play"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen with tasty bites and no outside food allowed"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full liquor bar with draft and local craft beer available"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "X-Golf",
+      "model": "State Of The Art Simulator",
+      "notes": "Combination of camera systems, infrared lasers, and impact sensors"
+    }
+  ],
+  "simulator_software": [
+    "X-Golf",
+    "Golden Tee"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 6,
+  "booking_url": "https://app.acuityscheduling.com/schedule.php?owner=31905271",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 45,
+  "price_range_max_local": 65,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 0,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need clubs?",
+      "answer": "No, you can bring your own clubs or rent them for $15 per set. Specify left or right hand and men, women, or children sizes."
+    },
+    {
+      "question": "Can I bring my own food or drink?",
+      "answer": "No, outside food and drink, including coffee, are not allowed. The venue has a full bar and kitchen available."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "It takes approximately one hour per person to complete 18 holes, regardless of skill level."
+    },
+    {
+      "question": "Is it kid-friendly?",
+      "answer": "Yes, children of all ages are welcome, and club rentals are available for kids."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"9AM-11PM\"], \"Saturday\": [\"9AM-11PM\"], \"Sunday\": [\"11AM-8PM\"]}"
+}

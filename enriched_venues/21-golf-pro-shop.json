@@ -1,0 +1,93 @@
+{
+  "name": "21 Golf Pro Shop",
+  "address": "1 US-46, Palisades Park, NJ 07650",
+  "city": "Palisades Park",
+  "region": "New Jersey",
+  "country": "US",
+  "latitude": 40.845535,
+  "longitude": -74.007369,
+  "phone": "+12019416623",
+  "website": "https://www.21golfrange.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770206803/golf_simulators/www_21golfrange_com_ChIJp6-BEwX3wokR1hj1I_pT3E0.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/21+Golf+Pro+Shop/@40.8455349,-74.007369,14z/data=!4m8!1m2!2m1!1s21+Golf+Pro+Shop!3m4!1s0x89c2f7051381afa7:0x4ddc53fa23f518d6!8m2!3d40.8455349!4d-74.007369",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJp6-BEwX3wokR1hj1I_pT3E0",
+  "venue_type": "multi_sport_sim",
+  "about": "21 Golf Pro Shop is a modern, state-of-the-art golf driving range located in Palisades Park, New Jersey. The venue features 54 heated and covered bays with Toptracer technology and an automatic adjustable auto-tee system, operating year-round. In addition to the driving range, the facility offers private Golfzon simulator rooms and a cafe. It is situated in Bergen County, only 10 minutes from New York City, and provides a tech-driven golf experience for players of all skill levels.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|premium_tech|private_rooms|coaching_available|late_night",
+  "vibe_tags": "casual|welcoming|modern|family_fun_center|tech_lab",
+  "who_its_for": "beginners|families|corporate_teams|serious_golfers|solo_practice",
+  "why_golfers_like_it": [
+    "54 heated bays open all year round",
+    "Toptracer technology with automatic tees in all bays",
+    "Golfzon simulators available for private bookings",
+    "On-site cafe for food and drinks"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "On-site cafe, Cafe 21, available"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Golfzon",
+      "model": "Simulator",
+      "notes": "World's Best Golfzon simulators in 3 large rooms"
+    }
+  ],
+  "simulator_so": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 54,
+  "booking_url": "https://www.21golfrange.com/pages/golfzon-simulator-booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 3,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|kitchen_food|tv_sports|pro_shop|coaching_available|leagues|ada_accessible",
+  "rating_tech_quality": 4.7,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue does not specify whether club rentals are available. It is recommended to bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "The venue has an on-site cafe, Cafe 21, offering food and drinks. There is no mention of a BYOB policy."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time required to play 18 holes on the simulators is not specified on the website."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue promotes a family-friendly atmosphere with its heated bays and activities suitable for all ages."
+    }
+  ],
+  "simulator_software": [
+    "Golfzon"
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"10AM-8PM\"], \"Tuesday\": [\"10AM-8PM\"], \"Wednesday\": [\"10AM-8PM\"], \"Thursday\": [\"10AM-8PM\"], \"Friday\": [\"10AM-8PM\"], \"Saturday\": [\"10AM-8PM\"], \"Sunday\": [\"10AM-5PM\"]}"
+}

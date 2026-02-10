@@ -1,0 +1,88 @@
+{
+  "name": "Birds Nest Bar & Grille and Golf at the Nest",
+  "address": "415 York Rd Ste 6, New Hope, PA 18938",
+  "city": "New Hope",
+  "region": "Pennsylvania",
+  "country": "US",
+  "latitude": 40.360414,
+  "longitude": -74.970604,
+  "phone": "+12677407913",
+  "website": "https://www.birdsnestgrille.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770206241/golf_simulators/www_birdsnestgrille_com_ChIJQ5CYK8wBxIkRopCEhoq271c.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Birds+Nest+Bar+%26+Grille+and+Golf+at+the+Nest/@40.3604145,-74.9706042,14z/data=!4m8!1m2!2m1!1sBirds+Nest+Bar+%26+Grille+and+Golf+at+the+Nest!3m4!1s0x89c401cc2b989043:0x57efb68a868490a2!8m2!3d40.3604145!4d-74.9706042",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJQ5CYK8wBxIkRopCEhoq271c",
+  "venue_type": "sim_bar",
+  "about": "Birds Nest Bar & Grille and Golf at the Nest is a dual-venue establishment featuring a full-service restaurant and bar alongside a modern indoor golf simulator facility. The golf portion of the venue houses 3 state-of-the-art TrackMan simulator bays, offering a premium experience for golf enthusiasts. Guests can enjoy realistic gameplay, accurate swing analysis, and access to a variety of world-class courses, all within a lively and welcoming atmosphere that combines sports entertainment with dining options.",
+  "tags": "food_and_drinks|beginner_friendly|serious_golfers|families|corporate_events|leagues|premium_tech|date_night|late_night|club_rentals",
+  "vibe_tags": "sports_bar|community_club|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Features 3 state-of-the-art TrackMan simulator bays for a premium experience",
+    "Offers accurate swing analysis and a variety of world-class courses",
+    "Combines golf with a full-service bar and grille for a complete entertainment experience"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full-service grille with menu available for takeout"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full-service bar available on-site"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "State-of-the-art TrackMan indoor golf simulator bays"
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://booking.trackmangolf.com/venues/golf-at-the-nest/booking/bays",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|wifi|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue does not specify if club rentals are available, so it is recommended to bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "The venue has a full-service bar and grille. While bringing outside food may not be permitted, you can order from their menu."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify the duration for an 18-hole simulation, but typical simulator rounds usually take 1.5 to 2 hours."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue operates as a sports bar and grille with a family-friendly atmosphere, making it suitable for kids."
+    }
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"11AM-11PM\"], \"Tuesday\": [\"11AM-11PM\"], \"Wednesday\": [\"11AM-11PM\"], \"Thursday\": [\"11AM-11PM\"], \"Friday\": [\"11AM-11PM\"], \"Saturday\": [\"9:30AM-11PM\"], \"Sunday\": [\"10AM-11PM\"]}"
+}

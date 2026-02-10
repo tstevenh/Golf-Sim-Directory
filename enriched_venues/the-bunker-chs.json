@@ -1,0 +1,89 @@
+{
+  "name": "The Bunker CHS",
+  "address": "547 Long Point Rd #113, Mt Pleasant, SC 29464",
+  "city": "Mt Pleasant",
+  "region": "South Carolina",
+  "country": "US",
+  "latitude": 32.840233,
+  "longitude": -79.868841,
+  "phone": "+18433885216",
+  "website": "https://thebunkerchs.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770208328/golf_simulators/thebunkerchs_com_ChIJ24kGbwBx_ogRGcdPj7JDN_A.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Bunker+CHS/@32.8402335,-79.86884069999999,14z/data=!4m8!1m2!2m1!1sThe+Bunker+CHS!3m4!1s0x88fe71006f0689db:0xf03743b28f4fc719!8m2!3d32.8402335!4d-79.86884069999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ24kGbwBx_ogRGcdPj7JDN_A",
+  "venue_type": "sim_bar",
+  "about": "The Bunker CHS is an indoor golf and sports recreational facility located in Mount Pleasant, SC. The venue features top-of-the-line Golfzon simulators, interactive axe throwing lanes, and augmented reality dartboards, all complemented by a self-serve beer tap wall and various food options. It is designed to provide an engaging, multi-sport experience for both golfers and non-golfers. Public hours are Wednesday to Monday, 10:00am–10:00pm, with extended hours available for members.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|leagues|premium_tech|family_friendly|group_events|date_night",
+  "vibe_tags": "sports_bar|community_club|family_fun_center|modern",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|tourists_travelers",
+  "why_golfers_like_it": [
+    "Golfzon simulators with advanced swing analysis",
+    "Self-serve beer tap wall and food options",
+    "Variety of activities beyond golf",
+    "Member benefits and discounted rates"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Various options from local vendors and trucks, including soft pretzels, chips and queso, and chips and salsa."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Self-serve beer tap wall available for customers."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Golfzon",
+      "model": "Simulator",
+      "notes": "Top-of-the-line simulators with auto-teeing and advanced swing analysis."
+    }
+  ],
+  "simulator_software": [
+    "Golfzon"
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://anny.co/book/golf-bay",
+  "pricing_model": "per_bay_hour|membership",
+  "price_range_min_local": 75,
+  "price_range_max_local": 75,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "The venue provides all necessary equipment, but you can bring your own clubs if preferred."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drinks are not allowed, but the venue offers a self-serve beer tap wall and various food options from local vendors."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Mid to low handicappers finish 18 holes in approximately 45 minutes; a foursome can complete 9 holes in about 2 hours."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the Bunker CHS is family-friendly and welcomes children for activities like golf and axe throwing."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"Closed\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-10PM\"], \"Saturday\": [\"10AM-10PM\"], \"Sunday\": [\"10AM-10PM\"]}"
+}

@@ -1,0 +1,90 @@
+{
+  "name": "Mully's Indoor Golf Lounge",
+  "address": "44 Old Princeton Rd, 5th Massachusetts Turnpike Entrance, Fitchburg, MA 01420",
+  "city": "Fitchburg",
+  "region": "Massachusetts",
+  "country": "US",
+  "latitude": 42.553872,
+  "longitude": -71.841796,
+  "phone": "+19786963152",
+  "website": "http://www.mullysindoorgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770226225/golf_simulators/www_mullysindoorgolf_com_ChIJ8Z1uXqDl44kRQ7Gfsxk3rVk.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Mully%27s+Indoor+Golf+Lounge/@42.553871699999995,-71.8417955,14z/data=!4m8!1m2!2m1!1sMully%27s+Indoor+Golf+Lounge!3m4!1s0x89e3e5a05e6e9df1:0x59ad3719b39fb143!8m2!3d42.553871699999995!4d-71.8417955",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ8Z1uXqDl44kRQ7Gfsxk3rVk",
+  "email": "info@mullysindoorgolf.com",
+  "venue_type": "sim_bar",
+  "about": "Mully's Indoor Golf Lounge is a premier indoor golfing facility located in Fitchburg, MA. It is equipped with four simulator bays featuring Trackman 4 technology, offering over 65 golf courses worldwide from par 3s to full 18-hole layouts. The venue operates daily from 10am to 10pm and provides a full bar and lounge area with multiple HDTVs. Pricing is $50 per hour per bay on weekdays and $60 per hour per bay on weekends, with booking required for reservations.",
+  "tags": "food_and_drinks|serious_golfers|corporate_events|leagues|premium_tech|date_night|large_groups|corporate_teams|solo_practice",
+  "vibe_tags": "sports_bar|community_club|tech_lab|casual",
+  "who_its_for": "serious_golfers|families|large_groups|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Four large bays with Trackman 4 technology providing accurate ball and club tracking",
+    "Great selection of courses from around the world, including local courses like Kettlebrook and Wachusett",
+    "Full bar and lounge area available for socializing during or after play"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food allowed inside the simulators; food must be kept at provided tables."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar available with open bar packages for events; last call at 9:30pm if event ends at 10pm."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "Four bays equipped with Trackman 4 technology"
+    }
+  ],
+  "simulator_software": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 4,
+  "booking_url": "https://www.mullysindoorgolf.com/book-online",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 50,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|leagues|club_rentals|tv_sports|private_party_room",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Players are responsible for their own equipment inside the simulators; club rentals are not mentioned as an amenity."
+    },
+    {
+      "question": "Can I bring food or drinks?",
+      "answer": "No food or drinks are allowed inside the simulator bays at any time. Food and drinks must be kept at the provided tables in the lounge area."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes depends on your group's pace and simulator booking duration, which can be booked in 1-hour increments up to 4 hours."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The venue does not explicitly state policies regarding children, but the presence of a full bar and adult-focused event options suggests it is more suited for adults or older children accompanied by guardians."
+    }
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-10PM\"], \"Saturday\": [\"10AM-10PM\"], \"Sunday\": [\"10AM-10PM\"]}"
+}

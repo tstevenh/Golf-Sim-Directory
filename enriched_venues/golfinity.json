@@ -1,0 +1,96 @@
+{
+  "name": "Golfinity",
+  "address": "12332 N FM 620 building b, Austin, TX 78750",
+  "city": "Austin",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 30.464959,
+  "longitude": -97.812613,
+  "phone": "+15125510789",
+  "website": "https://www.golfinity.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770221786/golf_simulators/www_golfinity_com_ChIJm4t-DX8zW4YRpPrJwWNwg98.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Golfinity/@30.4649589,-97.812613,14z/data=!4m8!1m2!2m1!1sGolfinity!3m4!1s0x865b337f0d7e8b9b:0xdf837063c1c9faa4!8m2!3d30.4649589!4d-97.812613",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJm4t-DX8zW4YRpPrJwWNwg98",
+  "email": "info@golfinity.com",
+  "venue_type": "sim_bar",
+  "about": "Golfinity is an indoor golf performance club that combines world-class coaching with cutting-edge simulator technology to create a comprehensive golf community experience. The venue offers a range of services including bay rentals, instruction, junior development programs, leagues, tournaments, custom club fitting, and food and beverage options, catering to golfers of all ages and skill levels. Utilizing advanced TrackMan and Foresight launch monitors along with GSPro and E6 simulation software, it provides a technologically advanced environment for practice, play, and social gatherings in a setting designed for both serious training and casual enjoyment.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|coaching_available|juniors_youth|private_rooms",
+  "vibe_tags": "community_club|sports_bar|family_fun_center",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "State-of-the-art TrackMan and Foresight technology for precise swing and ball data",
+    "Comprehensive golf community with instruction, leagues, and junior programs",
+    "Full-service restaurant and bar offering dining in a fun, social setting",
+    "Host capabilities for private events and corporate functions"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full-service restaurant and bar offering a fresh take on dining with chef-inspired dishes and shareable bites"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Craft cocktails and local drafts available"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Delivers precise swing and ball data to help train smarter and improve faster"
+    },
+    {
+      "brand": "Foresight",
+      "model": "unknown",
+      "notes": "Offers highly accurate club and ball tracking, trusted by golf professionals"
+    }
+  ],
+  "simulator_software": [
+    "GSPro",
+    "E6"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://booking.golfinity.com/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "While you can bring your own clubs, custom club fitting services are available on-site, and the venue is equipped to accommodate golfers with their own equipment."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue offers a full-service restaurant and bar with chef-inspired dishes and craft cocktails, so bringing outside food and drink is not necessary."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Playing time for 18 holes depends on the simulator software and course selected, but typically ranges from 2-3 hours for a full round."
+    },
+    {
+      "question": "Is Golfinity kid-friendly?",
+      "answer": "Yes, Golfinity offers junior development programs and camps, making it a family-friendly venue for golfers of all ages."
+    }
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"9AM-9PM\"], \"Tuesday\": [\"9AM-9PM\"], \"Wednesday\": [\"9AM-9PM\"], \"Thursday\": [\"9AM-9PM\"], \"Friday\": [\"9AM-9PM\"], \"Saturday\": [\"9AM-9PM\"], \"Sunday\": [\"10AM-6PM\"]}"
+}

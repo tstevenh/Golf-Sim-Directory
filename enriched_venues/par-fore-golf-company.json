@@ -1,0 +1,89 @@
+{
+  "name": "Par Fore Golf Company",
+  "address": "27 Madison St, Newnan, GA 30263",
+  "city": "Newnan",
+  "region": "Georgia",
+  "country": "US",
+  "latitude": 33.376034,
+  "longitude": -84.798819,
+  "phone": "+14704141316",
+  "website": "https://www.parforegolfco.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770227054/golf_simulators/www_parforegolfco_com_ChIJt3BXssrJ9IgRtfz5k1EB_iM.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Par+Fore+Golf+Company/@33.3760341,-84.7988192,14z/data=!4m8!1m2!2m1!1sPar+Fore+Golf+Company!3m4!1s0x88f4c9cab25770b7:0x23fe015193f9fcb5!8m2!3d33.3760341!4d-84.7988192",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJt3BXssrJ9IgRtfz5k1EB_iM",
+  "email": "Parforegolfco@gmail.com",
+  "venue_type": "sim_bar",
+  "about": "Par Fore Golf Company is an indoor golf simulator venue located in downtown Newnan, Georgia. The facility features three state-of-the-art simulator bays equipped with Bushnell technology, offering a comfortable atmosphere for players to improve their game or socialize. They provide flexible memberships starting at $150 per month, along with hourly rates for non-members, and emphasize a relaxed, convenient environment with access to drinks and snacks.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|budget_friendly|club_rentals|community_club|leagues",
+  "vibe_tags": "casual|welcoming|modern|sports_bar",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Advanced Bushnell simulator technology with accurate ball tracking and high-definition course visuals",
+    "Flexible pricing options including monthly memberships and affordable hourly rates",
+    "Convenient downtown Newnan location with a comfortable lounge area and food and drink amenities"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Snacks available; currently allows bringing your own food until final licensing is obtained"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "Currently only soda and water are served; planning to add beer and wine with a Masters-style menu"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Bushnell",
+      "model": "unknown",
+      "notes": "Advanced ball tracking and high-definition graphics for accurate shot analysis"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 3,
+  "booking_url": "https://app.squareup.com/appointments/book/zsqa76uqk7mnik/LP76ZBTBACY3R/start",
+  "pricing_model": "mixed",
+  "price_range_min_local": 50,
+  "price_range_max_local": 350,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": 3,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|kitchen_food|tv_sports|wifi|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify if clubs are provided. It is recommended to bring your own clubs for the best experience."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Currently, you can bring your own food and drink until the venue's licensing is finalized. They currently offer soda, water, and snacks."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "The website does not provide specific timing for 18 holes. Typically, simulator play takes 2-3 hours depending on the number of players and pace."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Par Fore Golf Company is kid-friendly, making it suitable for families with children."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"4-9PM\"], \"Wednesday\": [\"4-9PM\"], \"Thursday\": [\"4-9PM\"], \"Friday\": [\"4-10PM\"], \"Saturday\": [\"12-10PM\"], \"Sunday\": [\"12-6PM\"]}"
+}

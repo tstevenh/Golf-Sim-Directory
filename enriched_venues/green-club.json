@@ -1,0 +1,90 @@
+{
+  "name": "Green Club",
+  "address": "6109 Harbourside Centre Lp, Midlothian, VA 23112",
+  "city": "Midlothian",
+  "region": "Virginia",
+  "country": "US",
+  "latitude": 37.410584,
+  "longitude": -77.649232,
+  "phone": "+18047960845",
+  "website": "https://www.greenclubrva.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770206524/golf_simulators/www_greenclubrva_com_ChIJCSM_64l1sYkRiMZ9BhAPEeE.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Green+Club/@37.4105835,-77.6492318,14z/data=!4m8!1m2!2m1!1sGreen+Club!3m4!1s0x89b17589eb3f2309:0xe1110f10067dc688!8m2!3d37.4105835!4d-77.6492318",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJCSM_64l1sYkRiMZ9BhAPEeE",
+  "venue_type": "sim_bar",
+  "about": "The Green Club is a 24/7 indoor golf simulator venue located in Midlothian, VA, offering a casual and welcoming environment for golfers of all skill levels. The facility utilizes Trackman's industry-leading technology, including the Trackman iO launch monitor, for AI-powered swing analysis, video replay, and access to over 480 virtual golf courses. Membership plans are available starting at $50 per month, while lessons and hourly bay rentals are offered to non-members. The venue is designed to be a fun and relaxed space, emphasizing accessibility and a positive atmosphere for both practice and play.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|coaching_available|social_friendly|anytime_access|family_friendly",
+  "vibe_tags": "casual|welcoming|modern|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Industry-leading Trackman technology with instant video replay and AI swing analysis",
+    "24/7 access allowing practice sessions at any time of day",
+    "Welcoming, no dress-code atmosphere with BYOB food and drink policy",
+    "Over 480 virtual golf courses to play from around the world",
+    "Flexible membership options and no-membership required lessons"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Guests are welcome to bring their own food to create their desired vibe."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Guests are welcome to bring their own alcoholic beverages. The venue also has a partnership with Annie Ruth's Wine Bar & Bistro located just steps away."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Industry-leading launch monitor providing AI swing analysis, video replay, and detailed ball and club data tracking."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://clients.uschedule.com/greenclub/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 50,
+  "price_range_max_local": 315,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own golf clubs?",
+      "answer": "Yes, you should bring your own golf clubs to use in the simulator bays."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Absolutely, you can bring your favorite food and drinks to create your perfect vibe. There is no dress code."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "You can easily play a full 18-hole round in under an hour. A 9-hole 2-man scramble match typically takes approximately 75 to 90 minutes."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, The Green Club is a family-friendly venue with a pressure-free environment, making it suitable for beginners of all ages."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

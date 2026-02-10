@@ -1,0 +1,96 @@
+{
+  "name": "Fore Factory",
+  "address": "849 E Main St, Clarion, PA 16214",
+  "city": "Clarion",
+  "region": "Pennsylvania",
+  "country": "US",
+  "latitude": 41.212307,
+  "longitude": -79.378711,
+  "phone": "+18142277177",
+  "website": "http://www.forefactorygolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770202870/golf_simulators/www_forefactorygolf_com_ChIJm7EvyUUzM4gR5XZCYfylDv8.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Fore+Factory/@41.2123069,-79.37871129999999,14z/data=!4m8!1m2!2m1!1sFore+Factory!3m4!1s0x88333345c92fb19b:0xff0ea5fc614276e5!8m2!3d41.2123069!4d-79.37871129999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJm7EvyUUzM4gR5XZCYfylDv8",
+  "email": "info@forefactorygolf.com",
+  "venue_type": "sim_bar",
+  "about": "Fore Factory Golf is an all-season golf simulator facility open 24/7, 365 days a year, with no staff on-site. The venue features three cutting-edge golf simulators: two dedicated strictly to GSPro golf simulation, and one Full Swing Multi-Sport unit available only at their Clarion location, which offers 15+ other sports experiences. The space is designed as a relaxed and comfortable environment where users can set their own vibe, making it ideal for sharpening skills, hosting parties, or socializing with friends and family. Pricing is structured by simulator type, with rates for GSPro simulators starting at $35 per hour and Full Swing Multisport at $40 per hour.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|kids_friendly|corporate_events|leagues|premium_tech|budget_friendly|private_rooms|club_rentals|late_night",
+  "vibe_tags": "casual|welcoming|modern|sports_bar|party_atmosphere",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|solo_practice",
+  "why_golfers_like_it": [
+    "24/7 access with no staff required, offering complete flexibility",
+    "Premium GSPro simulators for realistic golf simulation",
+    "Full Swing Multisport simulator offers variety beyond golf",
+    "Relaxed, customizable atmosphere for both practice and social events",
+    "All-season escape, immune to Pennsylvania weather"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No on-site kitchen or food service mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service; BYOB policy not explicitly stated"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "GSPro",
+      "model": "unknown",
+      "notes": "Two dedicated golf simulators using GSPro technology"
+    },
+    {
+      "brand": "Full Swing",
+      "model": "Multi-Sport",
+      "notes": "One simulator offering 15+ sports experiences"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://forefactory.square.site/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 35,
+  "price_range_max_local": 65,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|lockers|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need my own golf clubs?",
+      "answer": "Golf club rental is available for $100-150 per session. You can bring your own clubs if you prefer."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The facility allows you to set your own vibe as there are no staff members on-site. While no on-site kitchen or bar is mentioned, the BYOB policy isn't explicitly stated."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time required to play 18 holes isn't specified on the website, but sessions are booked by the hour."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is described as family-friendly and suitable for hanging out with friends and family of all ages."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

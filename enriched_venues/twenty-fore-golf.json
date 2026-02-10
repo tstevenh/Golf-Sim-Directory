@@ -1,0 +1,93 @@
+{
+  "name": "Twenty Fore Golf",
+  "address": "237 Davis St, Southern Pines, NC 28387",
+  "city": "Southern Pines",
+  "region": "North Carolina",
+  "country": "US",
+  "latitude": 35.162265,
+  "longitude": -79.425481,
+  "phone": "+19107254719",
+  "website": "https://twentyfore.golf/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770205499/golf_simulators/twentyfore_golf_ChIJ-1s1_ea1VIgRYqFsFtb-RKc.png",
+  "google_maps_url": "https://www.google.com/maps/place/Twenty+Fore+Golf/@35.162265,-79.42548099999999,14z/data=!4m8!1m2!2m1!1sTwenty+Fore+Golf!3m4!1s0x8854b5e6fd355bfb:0xa744fed6166ca162!8m2!3d35.162265!4d-79.42548099999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ-1s1_ea1VIgRYqFsFtb-RKc",
+  "email": "info@twentyfore.golf",
+  "venue_type": "sim_bar|training_studio",
+  "about": "Twenty Fore Golf is an indoor golf facility in Southern Pines, NC, offering a premier golfing experience with cutting-edge TrackMan technology. The venue provides a modern lounge environment with leather seating and TVs, ideal for both serious practice and casual play. Membership options start at $125/month for unlimited access, with public rates of $50/hour. It caters to golfers of all levels, from beginners looking to learn to seasoned players aiming to refine their skills, and is available for events and private parties.",
+  "tags": "beginner_friendly|corporate_events|premium_tech|coaching_available|club_rentals|private_rooms|community_club",
+  "vibe_tags": "upscale_lounge|tech_lab",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "State-of-the-art TrackMan technology for precise swing and ball tracking",
+    "Unlimited practice access with a convenient 7-day-a-week schedule",
+    "Discounted lessons with PGA Professionals using advanced motion analysis"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No on-site food service mentioned, BYOB policy likely applies"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No on-site bar mentioned, BYOB policy likely applies"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "TrackMan",
+      "model": "iO",
+      "notes": "Primary launch monitor technology providing ball flight and club swing data"
+    }
+  ],
+  "simulator_so": [
+    "TrackMan",
+    "Sportsbox AI"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://twentyforegolf.skedda.com/register?i=625578&k=Qrh2sj9JOvt_N9MohKcirij1MizxTksx",
+  "pricing_model": "mixed",
+  "price_range_min_local": 50,
+  "price_range_max_local": 200,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|private_party_room|wifi|pro_shop|club_fitting|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you should bring your own clubs as there is no mention of club rentals being included in the membership or hourly rates."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue operates on a BYOB (Bring Your Own Beverage) policy as there is no mention of an on-site kitchen or bar."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "A typical 18-hole round on the simulators takes approximately 2-3 hours depending on the number of players and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, children 9 and under can play for free in the same bay as a member, and specific memberships accommodate junior players under 18 with parental consent."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

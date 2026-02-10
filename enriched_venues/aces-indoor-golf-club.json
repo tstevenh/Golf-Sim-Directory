@@ -1,0 +1,96 @@
+{
+  "name": "Aces Indoor Golf Club",
+  "address": "4000 Haslet Roanoke Rd #30, Roanoke, TX 76262",
+  "city": "Roanoke",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 32.976404,
+  "longitude": -97.276554,
+  "phone": "+18172235700",
+  "website": "https://acesindoorgolfclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770210763/golf_simulators/acesindoorgolfclub_com_ChIJ6-PA4lXbTYYRQZJEoBsP1Qk.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Aces+Indoor+Golf+Club/@32.976403499999996,-97.27655399999999,14z/data=!4m8!1m2!2m1!1sAces+Indoor+Golf+Club!3m4!1s0x864ddb55e2c0e3eb:0x9d50f1ba0449241!8m2!3d32.976403499999996!4d-97.27655399999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ6-PA4lXbTYYRQZJEoBsP1Qk",
+  "email": "moldhampro@gmail.com",
+  "venue_type": "training_studio",
+  "about": "Aces Indoor Golf Club is a premier indoor golf facility located in Roanoke, TX, designed by golf professionals for the everyday golfer. It offers seven state-of-the-art bays equipped with advanced simulation technology, including 2 Foresight Falcon bays and 5 Uneekor Eye XO bays, complemented by a 20×30 Puttview green. The facility provides a temperature-controlled environment, allowing players to practice and play in any weather, day or night. Membership plans are flexible, auto-renewable, and designed to accommodate various skill levels, with options ranging from monthly credit packages to unlimited access plans.",
+  "tags": "beginner_friendly|serious_golfers|premium_tech|coaching_available|leagues|club_rentals|private_rooms|community_club",
+  "vibe_tags": "industrial_training|tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|juniors_youth|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Advanced simulation technology for realistic gameplay and detailed swing analysis",
+    "Flexible membership options with 30-day auto-renewable plans",
+    "Temperature-controlled environment accessible day or night regardless of weather",
+    "Professional instruction available with PGA-certified coaches",
+    "State-of-the-art putting green for dedicated practice"
+  ],
+  "kid_friendly": false,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No information provided on on-site food services"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No information provided on alcohol services or BYOB policy"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": "Falcon",
+      "notes": "Premium radar-based launch monitor"
+    },
+    {
+      "brand": "Uneekor",
+      "model": "Eye XO",
+      "notes": "Photometric camera launch monitor"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar|photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 7,
+  "booking_url": "https://acesindoorgolfclub.myesoftplanner.com/auth/login",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|club_fitting|leagues|pro_shop",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify whether club rentals are available, so it is recommended to bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "There is no information provided on food and drink policies, so it is best to check with the venue directly."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "On average, you can expect to take 45 minutes to an hour to play 18 holes on a golf simulator."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "There is no specific information regarding kid-friendly amenities or policies, though junior coaching is available."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

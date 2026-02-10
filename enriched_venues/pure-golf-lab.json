@@ -1,0 +1,93 @@
+{
+  "name": "Pure Golf Lab",
+  "address": "4918 Bellemeade Ave, Evansville, IN 47715",
+  "city": "Evansville",
+  "region": "Indiana",
+  "country": "US",
+  "latitude": 37.968247,
+  "longitude": -87.491152,
+  "phone": "+18126866849",
+  "website": "https://www.puregolflab.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770218488/golf_simulators/www_puregolflab_com_ChIJZwVRXu0rbogR4Y7EZ7AQn6k.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Pure+Golf+Lab/@37.9682472,-87.4911521,14z/data=!4m8!1m2!2m1!1sPure+Golf+Lab!3m4!1s0x886e2bed5e510567:0xa99f10b067c48ee1!8m2!3d37.9682472!4d-87.4911521",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJZwVRXu0rbogR4Y7EZ7AQn6k",
+  "venue_type": "training_studio",
+  "about": "Pure Golf Lab is an indoor golf facility offering a premium technology-focused environment for golfers of all skill levels. The venue is equipped with Foresight Falcon Launch Monitors, FSX Play Software, and Swing Catalyst cameras and balance plates for detailed swing analysis. It maintains a small, exclusive membership capped at 30 to ensure ample open time slots for members. The facility provides a simple, golf-centric atmosphere with a focus on serious practice and game improvement.",
+  "tags": "beginner_friendly|serious_golfers|coaching_available|premium_tech|private_rooms|community_club",
+  "vibe_tags": "tech_lab|private_luxury|casual|welcoming",
+  "who_its_for": "beginners|serious_golfers|solo_practice|coaches_instructors|juniors_youth",
+  "why_golfers_like_it": [
+    "High-precision Foresight launch monitor technology for accurate data",
+    "Private, time-slot booked sessions with no interruptions",
+    "Professional coaching with immediate video swing feedback",
+    "Limited membership ensures access and availability",
+    "Variety of 45 world-renowned golf courses to play"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Members can bring their own snacks; venue has a fridge for storage"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service on-site"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": "Falcon Launch Monitor",
+      "notes": "High-end radar launch monitor with FSX Play Software"
+    }
+  ],
+  "simulator_so": [
+    "FSX Play"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.puregolflab.com/appointments",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|tv_sports|wifi|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "It is not explicitly stated whether clubs are provided. Members likely use their own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "Yes, members can bring their own snacks. The facility has a fridge for storage."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The content does not specify the duration for 18 holes."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue offers one-hour lessons specifically for youth ages 12-18, with a parent or guardian's attendance required."
+    }
+  ],
+  "simulator_software": [
+    "FSX Play Software"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

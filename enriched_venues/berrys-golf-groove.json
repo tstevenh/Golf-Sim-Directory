@@ -1,0 +1,88 @@
+{
+  "name": "Berry's Golf & Groove",
+  "address": "9534 Metcalf Ave, Overland Park, KS 66212",
+  "city": "Overland Park",
+  "region": "Kansas",
+  "country": "US",
+  "latitude": 38.955381,
+  "longitude": -94.668382,
+  "phone": "+19139827441",
+  "website": "https://www.berrysgolfandgroove.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770212231/golf_simulators/www_berrysgolfandgroove_com_ChIJIT2Rla3rwIcR9ijQOWt3Pk8.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Berry%27s+Golf+%26+Groove/@38.9553807,-94.6683822,14z/data=!4m8!1m2!2m1!1sBerry%27s+Golf+%26+Groove!3m4!1s0x87c0ebad95913d21:0x4f3e776b39d028f6!8m2!3d38.9553807!4d-94.6683822",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJIT2Rla3rwIcR9ijQOWt3Pk8",
+  "venue_type": "multi_sport_sim",
+  "about": "Berry's Golf & Groove is an indoor venue combining golf simulation and dance services in Overland Park, KS. They feature four custom-built simulator bays with over 17.5 feet of width, utilizing Uneekor technology for advanced ball and club tracking. The venue offers hourly golf simulator rentals and a full dance studio with a sprung Marley floor, alongside certified instruction and special event hosting in a 4,000 sq. ft. event space. Pricing is based on peak and non-peak hours with cost-effective membership options available, and they accommodate the public with booking typically available 24 hours in advance.",
+  "tags": "beginner_friendly|corporate_events|leagues|premium_tech|budget_friendly|coaching_available|food_and_drinks|date_night|family_friendly",
+  "vibe_tags": "family_fun_center|community_club|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Four custom-built simulator bays over 17.5 feet wide for a spacious swing experience",
+    "Uneekor Eye XO system with dual photometric 3,000 fps high-speed cameras for detailed ball data",
+    "Access to over 1,400+ golf courses with GSPro software"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of on-site food service"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service; BYOB status not specified"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "Eye XO",
+      "notes": "Four simulators with dual photometric 3,000 fps high-speed cameras and infrared sensors"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 4,
+  "booking_url": "https://app.birrdi.com/u/reserve?team_booking_link_id=berrys-golf-groove",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 35,
+  "price_range_max_local": 65,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 0,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|pro_shop|leagues|special_events|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify whether club rentals are available or if you must bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food or drink?",
+      "answer": "There is no mention of food or drink policies, including whether outside items are permitted."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not provide information on the duration required to complete 18 holes on the simulators."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Berry's Golf & Groove is family-owned and described as welcoming, making it suitable for families and kids."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-12AM\"], \"Saturday\": [\"10AM-12AM\"], \"Sunday\": [\"10AM-10PM\"]}"
+}

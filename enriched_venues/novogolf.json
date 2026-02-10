@@ -1,0 +1,89 @@
+{
+  "name": "NOVOGOLF",
+  "address": "116 NY-303, Tappan, NY 10983",
+  "city": "Tappan",
+  "region": "New York",
+  "country": "US",
+  "latitude": 41.03352,
+  "longitude": -73.946046,
+  "phone": "+18456807000",
+  "website": "http://www.novogolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770257276/golf_simulators/www_novogolf_com_ChIJL0MIt67uwokRbILo5cpKIcA.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/NOVOGOLF/@41.0335204,-73.9460462,14z/data=!4m8!1m2!2m1!1sNOVOGOLF!3m4!1s0x89c2eeaeb708432f:0xc0214acae5e8826c!8m2!3d41.0335204!4d-73.9460462",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJL0MIt67uwokRbILo5cpKIcA",
+  "email": "info@novogolf.com",
+  "venue_type": "retail_fitting_center",
+  "about": "NOVOGOLF is a premium golf fitting and building facility with locations in Tappan, NY and Closter, NJ. The venue specializes in custom club fittings, club building, and technology-based golf analysis. NOVOGOLF utilizes high-end Trackman technology for swing and ball flight analysis, offering a comprehensive indoor-to-outdoor fitting experience in its Technology Center and a 300+ yard range. The facility caters to golfers of all levels, from novices to touring professionals, with highly trained fitters and club technicians who provide personalized services.",
+  "tags": "beginner_friendly|serious_golfers|club_fitting|premium_tech|coaching_available|corporate_events",
+  "vibe_tags": "tech_lab|private_luxury|modern|professional",
+  "who_its_for": "beginners|serious_golfers|coaches_instructors|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Industry-leading Trackman technology for precise swing and ball flight analysis",
+    "Outdoor fitting sessions allowing golfers to see true ball flight on a 300+ yard range",
+    "Highly trained fitters and technicians with PGA and LPGA tour experience"
+  ],
+  "kid_friendly": false,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of food services available on-site."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol services available on-site."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "Pro",
+      "notes": "Official choice of the PGA Tour and The R&A for swing and ball flight analysis, used in outdoor fittings."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "http://www.novogolf.com/contact-us",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|club_fitting|pro_shop|wifi|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.5,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, NOVOGOLF provides all necessary fitting clubs and shafts during your session. However, if you're interested in building custom clubs, your specifications can be used to create a set tailored to you."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The website does not mention specific policies regarding outside food and drinks, suggesting there may not be on-site dining options. It's best to contact NOVOGOLF directly for confirmation."
+    },
+    {
+      "question": "How long does an 18-hole simulation take?",
+      "answer": "The website does not provide specific timing for simulated 18-hole rounds. Fitting sessions are described as detailed and in-depth, with pricing separate from equipment purchase."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "NOVOGOLF does not explicitly mention kid-friendly features or services in its online content. The facility's focus on high-end fittings and technology suggests it is geared more toward serious golfers."
+    }
+  ],
+  "rating_overall": 4.4,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"Closed\"], \"Wednesday\": [\"11AM-5PM\"], \"Thursday\": [\"11AM-5PM\"], \"Friday\": [\"11AM-5PM\"], \"Saturday\": [\"11AM-5PM\"], \"Sunday\": [\"11AM-4PM\"]}"
+}

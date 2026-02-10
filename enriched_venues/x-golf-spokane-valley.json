@@ -1,0 +1,90 @@
+{
+  "name": "X-Golf Spokane Valley",
+  "address": "15110 E Indiana Ave Suite B, Spokane Valley, WA 99216",
+  "city": "Spokane Valley",
+  "region": "Washington",
+  "country": "US",
+  "latitude": 47.671012,
+  "longitude": -117.201657,
+  "phone": "+15098162216",
+  "website": "https://playxgolf.com/locations/spokane-valley/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770214710/golf_simulators/playxgolf_com_ChIJ9d1mHwDfYVMRAoEjcLFr1Oc.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/X-Golf+Spokane+Valley/@47.671011799999995,-117.2016575,14z/data=!4m8!1m2!2m1!1sX-Golf+Spokane+Valley!3m4!1s0x5361df001f66ddf5:0xe7d46bb170238102!8m2!3d47.671011799999995!4d-117.2016575",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ9d1mHwDfYVMRAoEjcLFr1Oc",
+  "email": "info@xgolfspokanevalley.com",
+  "venue_type": "sim_bar",
+  "about": "X-Golf Spokane Valley is an indoor golf facility featuring seven state-of-the-art golf simulators. The venue offers a comprehensive golf experience with play, training, and entertainment options. Pricing is per simulator, per hour, and each bay can accommodate up to six players. The facility operates with extended hours on Friday and Saturday evenings and includes amenities such as a full bar, food service, and space for events.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|kids_friendly|corporate_events|leagues|premium_tech|club_rentals|coaching_available",
+  "vibe_tags": "casual|welcoming|modern|sports_bar|family_fun_center|party_atmosphere",
+  "who_its_for": "beginners|families|corporate_teams|solo_practice|juniors_youth",
+  "why_golfers_like_it": [
+    "State-of-the-art simulators with unparalleled accuracy using camera systems, infrared lasers, and impact sensors",
+    "Flexible pricing model that accommodates both individuals and groups up to six people",
+    "Full bar and food service available, making it a complete entertainment venue",
+    "Available for corporate events, parties, and leagues with on-site PGA-certified coaching"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen with shareable bites, appetizers, snacks, and pizzas"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with beer by the glass or on tap, cocktails, and wines"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "X-Golf",
+      "model": "Simulator",
+      "notes": "Proprietary system with camera systems, infrared lasers, and impact sensors"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 7,
+  "booking_url": "https://playxgolf.com/locations/spokane-valley/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 35,
+  "price_range_max_local": 55,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 0,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need clubs?",
+      "answer": "No, rental clubs are available, but you are encouraged to bring your own."
+    },
+    {
+      "question": "Can I bring my own food or drink?",
+      "answer": "No, the venue has a full bar and kitchen that serves food and drinks."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Generally, it takes 1 hour for an individual player to complete 18 holes. Each additional player may require an additional hour."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "Yes, children of all ages are welcome."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"9AM-12AM\"], \"Saturday\": [\"9AM-12AM\"], \"Sunday\": [\"9AM-10PM\"]}"
+}

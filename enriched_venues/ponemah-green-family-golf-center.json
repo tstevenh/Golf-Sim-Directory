@@ -1,0 +1,90 @@
+{
+  "name": "Ponemah Green Family Golf Center",
+  "address": "55 Ponemah Rd, Amherst, NH 03031",
+  "city": "Amherst",
+  "region": "New Hampshire",
+  "country": "US",
+  "latitude": 42.832476,
+  "longitude": -71.613002,
+  "phone": "+16036739908",
+  "website": "http://playamherst.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770232517/golf_simulators/playamherst_com_ChIJYWp5FS7K44kRU6il7W_B88s.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Ponemah+Green+Family+Golf+Center/@42.8324764,-71.6130019,14z/data=!4m8!1m2!2m1!1sPonemah+Green+Family+Golf+Center!3m4!1s0x89e3ca2e15796a61:0xcbf3c16feda5a853!8m2!3d42.8324764!4d-71.6130019",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJYWp5FS7K44kRU6il7W_B88s",
+  "email": "jake@playamherst.com",
+  "venue_type": "multi_sport_sim",
+  "about": "Ponemah Green Family Golf Center, part of the Amherst Country Club facility in New Hampshire, combines a public 18-hole championship course with a dedicated indoor golf simulator facility called The Sims. The venue features four TrackMan simulators available for 7-day-a-week tee times and offers a space to dine and unwind. It caters to a range of golfers with various services including league play, private lessons, corporate event hosting, and golf camps for all ages. The pricing model appears to be hourly bay rental with rates varying by season.",
+  "tags": "beginner_friendly|food_and_drinks|kids_friendly|corporate_events|leagues|premium_tech|coaching_available",
+  "vibe_tags": "family_fun_center|modern|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "Premium TrackMan simulator technology for accurate data and play on world-famous virtual courses",
+    "Versatile space for both individual practice and organized league play with competitive tournaments",
+    "Full-service amenities including dining options and dedicated facilities for lessons and club fitting"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "On-site restaurant and grill services available (Tap In Grill, Grill 122)"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service on premises"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Four state-of-the-art TrackMan Golf Simulators"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 4,
+  "booking_url": "https://apimanager-cc28.clubcaddie.com/activities/view/ddfdabab",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 4,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "full_bar|kitchen_food|private_party_room|pro_shop|club_fitting|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 3.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can use your own clubs or clubs are typically available for use at the simulator facility."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drinks are not mentioned, but on-site dining options (Tap In Grill, Grill 122) are available."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Rented by the hour with up to 4 players per bay, allowing time to play a full 18 holes during your rental period."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the facility offers junior golf camps, mini-golf birthday parties, and is described as a family-friendly golf center."
+    }
+  ],
+  "simulator_software": [
+    "TrackMan Simulator"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"6AM-7PM\"], \"Tuesday\": [\"6AM-7PM\"], \"Wednesday\": [\"6AM-7PM\"], \"Thursday\": [\"6AM-7PM\"], \"Friday\": [\"6AM-7PM\"], \"Saturday\": [\"6AM-7PM\"], \"Sunday\": [\"6AM-7PM\"]}"
+}

@@ -1,0 +1,92 @@
+{
+  "name": "Divot Den Social",
+  "address": "925 N Lapeer Rd, Oxford, MI 48371",
+  "city": "Oxford",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 42.838993,
+  "longitude": -83.275102,
+  "phone": "+12488006120",
+  "website": "https://www.divotdensocial.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770203187/golf_simulators/www_divotdensocial_com_ChIJsczaw5GNJIgRjieCa_oDA04.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Divot+Den+Social/@42.838992999999995,-83.2751017,14z/data=!4m8!1m2!2m1!1sDivot+Den+Social!3m4!1s0x88248d91c3daccb1:0x4e0303fa6b82278e!8m2!3d42.838992999999995!4d-83.2751017",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJsczaw5GNJIgRjieCa_oDA04",
+  "email": "support@divotdensocial.com",
+  "venue_type": "sim_bar",
+  "about": "Divot Den Social is an indoor golf simulator facility founded by two avid golfers focused on helping others improve their game. The venue provides year-round access to golf in Michigan, utilizing Trackman technology for realistic play and detailed swing analysis. The facility features four simulator bays, one of which is private, alongside a food and beverage program, making it suitable for both practice and social play. Pricing is structured per hour, with different rates for weekdays and weekends, and an option to book the entire venue for private events.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|leagues|premium_tech|private_rooms|coaching_available",
+  "vibe_tags": "sports_bar|community_club|tech_lab|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Access to professional-grade Trackman technology for detailed swing and shot analysis",
+    "Year-round golfing in a climate-controlled environment",
+    "Private bay availability for more intimate sessions or small groups",
+    "On-site food and drink options to enhance the social experience",
+    "Flexible membership plans for frequent players"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Mouth-watering food available on-site"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Bar service available for drinks"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "4 Bays including 1 Private Bay"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 4,
+  "booking_url": "https://yourgolfbooking.com/venues/divot-den-social/booking/bays",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 40,
+  "price_range_max_local": 50,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 5,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|private_party_room|wifi|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not explicitly state whether club rentals are available, so it is recommended to call ahead or check their FAQ page for more details."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "The venue offers food and drink on-site, but it is unclear if outside food or beverages are permitted. It's best to contact them directly for clarification on their outside food and drink policy."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not provide a specific time estimate for playing 18 holes. Duration can vary depending on simulator software, player pace, and group size. It is advisable to contact the venue for an estimated time."
+    },
+    {
+      "question": "Is this kid-friendly?",
+      "answer": "The website does not explicitly mention kid-friendly features or policies. It is recommended to contact Divot Den Social directly to inquire about their suitability for children."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"11AM-10PM\"], \"Tuesday\": [\"11AM-10PM\"], \"Wednesday\": [\"11AM-10PM\"], \"Thursday\": [\"11AM-10PM\"], \"Friday\": [\"11AM-11PM\"], \"Saturday\": [\"9AM-11PM\"], \"Sunday\": [\"9AM-8PM\"]}"
+}

@@ -1,0 +1,91 @@
+{
+  "name": "The Clubhouse Cleveland",
+  "address": "23800 Commerce Park Rd Suite M, Beachwood, OH 44122",
+  "city": "Beachwood",
+  "region": "Ohio",
+  "country": "US",
+  "latitude": 41.461084,
+  "longitude": -81.507893,
+  "phone": "+12164506205",
+  "website": "https://theclubhousecle.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770215968/golf_simulators/theclubhousecle_com_ChIJFUq0adgDMYgRqmyT-dklN2M.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Clubhouse+Cleveland/@41.461084299999996,-81.5078928,14z/data=!4m8!1m2!2m1!1sThe+Clubhouse+Cleveland!3m4!1s0x883103d869b44a15:0x633725d9f9936caa!8m2!3d41.461084299999996!4d-81.5078928",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJFUq0adgDMYgRqmyT-dklN2M",
+  "email": "info@theclubhousecle.com",
+  "venue_type": "training_studio",
+  "about": "The Clubhouse Cleveland is a premier indoor golf training facility and simulator course in Beachwood, Ohio. It features a 1,000 square foot putting green and four 18'x10' TrackMan simulators for year-round play and practice. The venue provides a range of services including private instruction, club fitting, and speed training programs. Memberships offer flexible access with options for annual and seasonal plans, while non-members can book sessions and attend leagues or special events. The facility is geared toward serious golfers looking for data-driven performance improvement in a controlled, indoor environment.",
+  "tags": "serious_golfers|coaching_available|leagues|premium_tech|club_fitting|speed_training|adults_only|data_driven",
+  "vibe_tags": "industrial_training|tech_lab|modern",
+  "who_its_for": "serious_golfers|coaches_instructors|juniors_youth|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "State-of-the-art TrackMan technology for precise shot analysis",
+    "Year-round access to a climate-controlled facility with a 1,000 sq ft putting green",
+    "Data-driven coaching using TPI-certified instruction and V1 video analysis",
+    "Comprehensive speed training programs with TrackMan feedback and SpeedSticks",
+    "Flexible membership options and weekly leagues for golfers of all skill levels"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of an on-site kitchen or food service."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of a bar or alcohol service."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "Four 18'x10' TrackMan 4 simulators with advanced launch monitoring capabilities."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 4,
+  "booking_url": "https://theclubhousecleveland.schedulista.com/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 75,
+  "price_range_max_local": 85,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|club_fitting|leagues|pro_shop|wifi",
+  "rating_tech_quality": 4.9,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can bring your own clubs, but the facility also offers professional club fitting and services. The venue provides all necessary equipment for simulator sessions and lessons."
+    },
+    {
+      "question": "Can I bring my own food or drink?",
+      "answer": "No outside food or drinks are mentioned as being allowed. The venue does not appear to have an on-site kitchen or bar."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes in a simulator session can vary depending on the number of players and pace of play. Private sessions and league formats allow players to choose their time slot."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the Clubhouse Cleveland offers junior golf lessons and programs, making it suitable for younger golfers. The facility is also available for children's birthday parties and events."
+    }
+  ],
+  "rating_overall": 4.4,
+  "opening_hours": "{\"Monday\": [\"11AM-8PM\"], \"Tuesday\": [\"11AM-8PM\"], \"Wednesday\": [\"11AM-8PM\"], \"Thursday\": [\"11AM-8PM\"], \"Friday\": [\"11AM-8PM\"], \"Saturday\": [\"8AM-8PM\"], \"Sunday\": [\"9AM-6PM\"]}"
+}

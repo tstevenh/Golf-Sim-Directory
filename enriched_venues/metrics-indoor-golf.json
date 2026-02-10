@@ -1,0 +1,92 @@
+{
+  "name": "Metrics Indoor Golf",
+  "address": "9650 Leesville Rd Suite 250, Raleigh, NC 27613",
+  "city": "Raleigh",
+  "region": "North Carolina",
+  "country": "US",
+  "latitude": 35.905928,
+  "longitude": -78.727685,
+  "phone": "+19842997999",
+  "website": "https://www.metricsindoorgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770217878/golf_simulators/www_metricsindoorgolf_com_ChIJSzGolEP5rIkRP3lbNijI1_Y.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Metrics+Indoor+Golf/@35.9059282,-78.7276846,14z/data=!4m8!1m2!2m1!1sMetrics+Indoor+Golf!3m4!1s0x89acf94394a8314b:0xf6d7c828365b793f!8m2!3d35.9059282!4d-78.7276846",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJSzGolEP5rIkRP3lbNijI1_Y",
+  "email": "tom@metricsindoorgolf.com",
+  "venue_type": "sim_bar|training_studio",
+  "about": "Metrics Indoor Golf is a premier destination for indoor golfing experiences, featuring state-of-the-art technology and a full-service bar and lounge area. The facility is equipped with Trackman 4 simulator bays that provide access to over 280 courses and 50+ tour venues, along with comprehensive swing data analysis. Located in the North Raleigh area, it caters to golfers seeking practice, play, and professional instruction in a modern, accessible environment. With a focus on both casual players and serious golfers, Metrics offers memberships, lessons, club fittings, and leagues to accommodate various skill levels and needs.",
+  "tags": "beginner_friendly|food_and_drinks|serious_golfers|corporate_events|leagues|premium_tech|coaching_available|club_fittings|solo_practice|group_friendly",
+  "vibe_tags": "sports_bar|modern|community_club|tech_lab|welcoming",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Premium Trackman 4 technology with 40+ data metrics per shot",
+    "Full-service bar and lounge with sports entertainment",
+    "Professional instruction by Dan Alton with 20,000+ lessons experience",
+    "Club fittings using advanced launch monitor data",
+    "20x8ft putting green with laser training technology",
+    "Member leagues and events for all skill levels"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Beer, wine, and seltzers from local breweries and domestic labels available"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "Optically Enhanced Radar Technology (OERT) combines radar and dual camera optics"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "https://metricsindoorgolf.playbypoint.com/book/metricsindoorgolf",
+  "pricing_model": "mixed",
+  "price_range_min_local": 40,
+  "price_range_max_local": 49,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|full_bar|tv_sports|club_fitting|leagues|pro_shop",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need clubs?",
+      "answer": "Yes, you will need to bring your own golf clubs to use the simulators and practice facilities."
+    },
+    {
+      "question": "Can I bring food and drink?",
+      "answer": "The facility offers a full bar with beer, wine, and seltzers from local and domestic brands. Outside food and drink is not mentioned."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The exact time for 18 holes is not specified, but standard indoor golf sessions typically last 1-2 hours depending on group size and pace."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "No specific information about kid-friendly policies or amenities is provided."
+    }
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"11AM-7PM\"], \"Tuesday\": [\"11AM-7PM\"], \"Wednesday\": [\"11AM-7PM\"], \"Thursday\": [\"11AM-7PM\"], \"Friday\": [\"11AM-7PM\"], \"Saturday\": [\"11AM-7PM\"], \"Sunday\": [\"11AM-7PM\"]}"
+}

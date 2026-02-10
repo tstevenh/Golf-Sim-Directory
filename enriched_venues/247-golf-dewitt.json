@@ -1,0 +1,91 @@
+{
+  "name": "24/7 Golf Dewitt",
+  "address": "1161 E Clark Rd suite 136, DeWitt, MI 48820",
+  "city": "DeWitt",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 42.814533,
+  "longitude": -84.54158,
+  "phone": "+16163509482",
+  "website": "https://24-7golf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770217362/golf_simulators/24-7golf_com_ChIJm2XuCM_tIogRvBZqL_HR0y4.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/24%2F7+Golf+Dewitt/@42.8145327,-84.54157959999999,14z/data=!4m8!1m2!2m1!1s24%2F7+Golf+Dewitt!3m4!1s0x8822edcf08ee659b:0x2ed3d1f12f6a16bc!8m2!3d42.8145327!4d-84.54157959999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJm2XuCM_tIogRvBZqL_HR0y4",
+  "email": "info@24-7golf.com",
+  "venue_type": "multi_sport_sim",
+  "about": "24/7 Golf is an indoor golf and pickleball venue operating 365 days a year with extended hours. They utilize Trackman iO technology across multiple locations in Michigan, offering pay-by-the-hour access to their simulator bays and pickleball courts. The venue is designed for flexibility, allowing individuals, groups, and event hosts to book facilities online. They offer memberships, leagues, and exclusive events to enhance the customer experience.",
+  "tags": "beginner_friendly|corporate_events|leagues|premium_tech|late_night|family_friendly|budget_friendly",
+  "vibe_tags": "casual|welcoming|modern",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Open 24 hours a day, 7 days a week for maximum flexibility",
+    "Uses premium Trackman iO technology for accurate data and simulation",
+    "Offers pay-by-the-hour pricing, making it accessible for individuals and groups",
+    "Hosts leagues and events to create a community atmosphere",
+    "Multiple locations provide convenient access for residents and visitors"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No on-site food service is mentioned."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of an alcohol bar or service."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Latest technology with radar, infrared, and high-speed imaging"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://24-7golf.com/booking/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": null,
+  "price_range_max_local": null,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": false,
+  "private_rooms_count": 0,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|private_party_room|leagues|wifi",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue does not explicitly state whether they provide rental clubs. It is best to assume you should bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "No information is provided about bringing outside food or drinks. The venue's amenities list does not include a kitchen or bar."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify a standard time for completing 18 holes, as this can vary based on simulator software and player pace."
+    },
+    {
+      "question": "Is it kid-friendly?",
+      "answer": "Yes, the venue is described as family-friendly and suitable for kids, offering a welcoming environment for all ages."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

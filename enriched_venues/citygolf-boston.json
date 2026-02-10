@@ -1,0 +1,107 @@
+{
+  "name": "CityGolf Boston",
+  "address": "167 Milk St, Boston, MA 02109",
+  "city": "Boston",
+  "region": "Massachusetts",
+  "country": "US",
+  "latitude": 42.358077,
+  "longitude": -71.053351,
+  "phone": "+16173574653",
+  "website": "https://citygolfboston.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770200063/golf_simulators/citygolfboston_com_ChIJKZk-Q4Nw44kRtFyVFqA-viI.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/CityGolf+Boston/@42.3580766,-71.0533507,14z/data=!4m8!1m2!2m1!1sCityGolf+Boston!3m4!1s0x89e37083433e9929:0x22be3ea016955cb4!8m2!3d42.3580766!4d-71.0533507",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJKZk-Q4Nw44kRtFyVFqA-viI",
+  "email": "info@citygolfboston.com",
+  "venue_type": "training_studio",
+  "about": "CityGolf Boston is an indoor golf training facility and simulator center with locations in Boston and Norwell, MA. The venue provides year-round access to PGA-certified golf instruction using advanced BoGolf simulators, offering visual aids and immediate swing feedback. Membership packages include unlimited lessons and simulator use, with a claimed 30% average handicap reduction for annual members. The facility also offers a full golf shop for retail sales, junior programs, and simulator sales and installation services.",
+  "tags": "beginner_friendly|serious_practice|corporate_events|leagues|premium_tech|coaching_available|juniors_youth|club_rentals|club_fitting",
+  "vibe_tags": "industrial_training|community_club|tech_lab",
+  "who_its_for": "beginners|serious_golfers|juniors_youth|corporate_teams|coaches_instructors",
+  "why_golfers_like_it": [
+    "Unlimited PGA lessons included in memberships",
+    "Advanced BoGolf simulators with immediate feedback",
+    "Year-round access to golf training and simulator play",
+    "Junior programs available with PGA Junior League competition",
+    "Multiple tech brands including Trackman and Uneekor"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned; BYOB policy not specified"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "unknown",
+      "notes": "Premium radar technology"
+    },
+    {
+      "brand": "Uneekor",
+      "model": "unknown",
+      "notes": "Premium camera-based system"
+    },
+    {
+      "brand": "TruGolf",
+      "model": "unknown",
+      "notes": "Premium simulator brand"
+    },
+    {
+      "brand": "BoGolf",
+      "model": "unknown",
+      "notes": "Used for instruction with visual aids"
+    }
+  ],
+  "simulator_software": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "mixed",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://citygolfboston.com/golf-shop/#golflesson",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|pro_shop|club_fitting|leagues|juniors_youth",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website doesn't specify club rental options, so it's recommended to bring your own clubs for the best experience."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No food or drink service is mentioned, and there's no explicit BYOB policy stated on the website."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website doesn't specify timing for 18 holes, but typical simulator rounds take 1-2 hours depending on the number of players."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, CityGolf offers dedicated junior golf programs for children ages 7-17, including a 4-week training program and participation in the PGA Junior League."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-9PM\"], \"Tuesday\": [\"10AM-9PM\"], \"Wednesday\": [\"10AM-9PM\"], \"Thursday\": [\"10AM-9PM\"], \"Friday\": [\"10AM-9PM\"], \"Saturday\": [\"10AM-4PM\"], \"Sunday\": [\"Closed\"]}"
+}

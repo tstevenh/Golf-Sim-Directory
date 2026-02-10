@@ -1,0 +1,90 @@
+{
+  "name": "The Swing Lab",
+  "address": "10115 Bergin Rd, Howell, MI 48843",
+  "city": "Howell",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 42.61904,
+  "longitude": -83.75631,
+  "phone": "+12488723395",
+  "website": "https://www.tslmi.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770220523/golf_simulators/www_tslmi_com_ChIJPW29vtldI4gRFMwPMggfbNc.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Swing+Lab/@42.61904,-83.75631,14z/data=!4m8!1m2!2m1!1sThe+Swing+Lab!3m4!1s0x88235dd9bebd6d3d:0xd76c1f08320fcc14!8m2!3d42.61904!4d-83.75631",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJPW29vtldI4gRFMwPMggfbNc",
+  "email": "theswinglabmi@gmail.com",
+  "venue_type": "training_studio",
+  "about": "The Swing Lab is a precision golf simulator studio located in Howell, Michigan. It utilizes premier Trackman technology to provide data-driven practice for golf enthusiasts, offering real-time feedback to identify weaknesses and improve swing mechanics, ball flight, and putting strategy. The venue features 24/7 access and a private, distraction-free environment, making it suitable for individual practice and group sessions. While primarily focused on serious practice, it also offers leagues and personal coaching to help players of all skill levels improve their game during the offseason.",
+  "tags": "serious_practice|leagues|coaching_available|premium_tech|beginner_friendly|private_rooms|juniors_youth",
+  "vibe_tags": "tech_lab|industrial_training|modern|welcoming",
+  "who_its_for": "serious_golfers|beginners|juniors_youth|solo_practice|families",
+  "why_golfers_like_it": [
+    "Premium Trackman technology for detailed swing and shot analysis",
+    "24/7 access allowing for practice on a flexible schedule",
+    "Private bay experience without distractions from other players",
+    "Weekly leagues to maintain skills during the offseason"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of food services available on-site."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol services; BYOB not specified."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Premier Trackman system for course-accurate data and real-time feedback"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 1,
+  "booking_url": "https://yourgolfbooking.com/venues/swing-lab/booking/bays",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": false,
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|private_rooms|leagues|coaching_available",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring clubs?",
+      "answer": "Yes, you need to bring your own clubs as the venue does not currently have clubs available for you."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "There is no mention of food and drink services, so it's unclear if outside items are permitted."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify the time required for an 18-hole session."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, the facility offers youth golf instruction and practice sessions, making it suitable for kids and juniors."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

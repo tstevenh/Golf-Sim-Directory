@@ -1,0 +1,92 @@
+{
+  "name": "Hive Golf Bountiful",
+  "address": "85 2200 S, Bountiful, UT 84010",
+  "city": "Bountiful",
+  "region": "Utah",
+  "country": "US",
+  "latitude": 40.866507,
+  "longitude": -111.879728,
+  "phone": "+13854816527",
+  "website": "http://hivegolf.us/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770227007/golf_simulators/hivegolf_us_ChIJBwqy2ab3UocRoLiuGrjtoGk.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Hive+Golf+Bountiful/@40.866507,-111.8797283,14z/data=!4m8!1m2!2m1!1sHive+Golf+Bountiful!3m4!1s0x8752f7a6d9b20a07:0x69a0edb81aaeb8a0!8m2!3d40.866507!4d-111.8797283",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJBwqy2ab3UocRoLiuGrjtoGk",
+  "email": "hivegolf@hivegolf.us",
+  "venue_type": "sim_bar",
+  "about": "Hive Golf Bountiful is an indoor golf simulator venue featuring TrackMan 4 technology, offering a modern, year-round golf experience. The facility provides multiple simulator bays for practice, competition, private events, and coaching, all powered by advanced performance tracking data. Designed for accessibility and engagement, Hive Golf serves as both a training environment and a social hub for golfers of all skill levels.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|coaching_available|family_friendly|solo_practice",
+  "vibe_tags": "modern|community_club|tech_lab|casual|welcoming",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Advanced TrackMan 4 technology with dual radar precision",
+    "Free 30-minute introductory session for new customers",
+    "24/7 access for league members with flexible booking options",
+    "Private event spaces with BYOB policies (alcohol prohibited by Utah law)",
+    "Coaching available from professional golf instructors"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Outside food allowed, no on-site kitchen. Each booking accommodates 3 additional guests."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "Alcohol not permitted due to Utah liquor laws"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "Dual radar technology, professional-grade launch monitor"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://hivegolf.us/location-picker-booking",
+  "pricing_model": "per_person_hour",
+  "price_range_min_local": 40,
+  "price_range_max_local": 80,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|wifi|tv_sports|leagues|coaching_available",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not explicitly state whether clubs are provided. It is recommended to bring your own equipment or contact the venue for details."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, outside food is welcome. Alcoholic beverages are not permitted due to Utah liquor laws."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify the duration for 18 holes. Contact staff for more information on simulator pace."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Hive Golf welcomes golfers of all ages and skill levels, including juniors."
+    }
+  ],
+  "simulator_software": [
+    "TrackMan"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

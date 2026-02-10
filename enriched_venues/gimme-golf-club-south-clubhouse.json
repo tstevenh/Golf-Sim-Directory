@@ -1,0 +1,91 @@
+{
+  "name": "Gimme Golf Club - South Clubhouse",
+  "address": "1735 Chase Dr, Fenton, MO 63026",
+  "city": "Fenton",
+  "region": "Missouri",
+  "country": "US",
+  "latitude": 38.541008,
+  "longitude": -90.4532,
+  "phone": "+16366787025",
+  "website": "https://gimmegolfclub.com/south",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770201660/golf_simulators/gimmegolfclub_com_ChIJ53q3Zs7R2IcRY9SNlWzff-0.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Gimme+Golf+Club+-+South+Clubhouse/@38.541008,-90.4532004,14z/data=!4m8!1m2!2m1!1sGimme+Golf+Club+-+South+Clubhouse!3m4!1s0x87d8d1ce66b77ae7:0xed7fdf6c958dd463!8m2!3d38.541008!4d-90.4532004",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ53q3Zs7R2IcRY9SNlWzff-0",
+  "email": "south@gimmegolfclub.com",
+  "venue_type": "sim_bar",
+  "about": "Gimme Golf Club - South Clubhouse is a dedicated indoor golf facility offering a blend of TrackMan simulator technology and social amenities. It is part of the larger Gimme Golf Club network, providing access to both simulator bays and 16 partner courses in the Greater St. Louis area for members. The South location features a modern, welcoming atmosphere with a lounge, concessions, TVs, and an optional on-site gym for an additional fee.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|community_club|coaching_available",
+  "vibe_tags": "community_club|casual|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Access to premium TrackMan simulator technology",
+    "Membership includes play at 16 partner courses",
+    "Social and inclusive community atmosphere",
+    "On-site training and personal coaching options"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Concessions available on-site"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar available"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Multiple TrackMan simulators available; South Clubhouse has 2 with a 3rd planned"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green|real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://gimmegolfclubwebflow.memberspace.com/member/sign_in",
+  "pricing_model": "mixed",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "full_bar|kitchen_food|tv_sports|pro_shop|coaching_available|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.3,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "Yes, you will need to bring your own golf clubs to play on the simulators."
+    },
+    {
+      "question": "Can I bring my own food or drink?",
+      "answer": "Outside food and drink are not permitted, as the venue offers a full bar and concessions on-site."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes on a simulator varies, but it typically takes between 1.5 to 2.5 hours, depending on the number of players and pace of play."
+    },
+    {
+      "question": "Is it kid-friendly?",
+      "answer": "The venue does not specifically mention child-friendly policies or activities. It is recommended to contact the club directly for more information on family accommodations."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.4,
+  "opening_hours": "{\"Monday\": [\"12-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-10PM\"], \"Saturday\": [\"10AM-10PM\"], \"Sunday\": [\"11AM-6PM\"]}"
+}

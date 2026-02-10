@@ -1,0 +1,96 @@
+{
+  "name": "BreakParGolf",
+  "address": "1802 El Camino Real, Redwood City, CA 94063",
+  "city": "Redwood City",
+  "region": "California",
+  "country": "US",
+  "latitude": 37.47819,
+  "longitude": -122.224706,
+  "phone": "+16502244512",
+  "website": "https://breakpargolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770246096/golf_simulators/breakpargolf_com_ChIJGds9GGqjj4ARZUqmhP5UV7Q.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/BreakParGolf/@37.4781905,-122.22470639999999,14z/data=!4m8!1m2!2m1!1sBreakParGolf!3m4!1s0x808fa36a183ddb19:0xb45754fe84a64a65!8m2!3d37.4781905!4d-122.22470639999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJGds9GGqjj4ARZUqmhP5UV7Q",
+  "email": "hari@breakparkgolf.com",
+  "venue_type": "training_studio",
+  "about": "BreakParGolf is a professional golf coaching studio operating in Redwood City and San Carlos, offering data-driven instruction using Trackman and RangeX technology. The facility provides individual lessons, on-course playing sessions, short game clinics, and junior academy programs, with a focus on performance improvement and score reduction. Coaching is available for all skill levels, from competitive juniors to weekend warriors, with an emphasis on personalized guidance using real-time swing and ball flight analytics.",
+  "tags": "serious_practice|beginner_friendly|juniors_youth|coaching_available|premium_tech|casual|welcoming",
+  "vibe_tags": "tech_lab|professional|modern",
+  "who_its_for": "serious_golfers|beginners|juniors_youth|coaches_instructors|families",
+  "why_golfers_like_it": [
+    "Data-driven instruction using Trackman for precise swing analysis",
+    "Comprehensive post-lesson reports with swing videos and performance metrics",
+    "On-course playing lessons for real-game strategy development",
+    "Specialized short game and mental performance coaching",
+    "Junior academy focused on competitive tournament preparation"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Primary launch monitor providing precise swing and ball flight data"
+    },
+    {
+      "brand": "RangeX",
+      "model": "Unknown",
+      "notes": "Secondary technology available at MySwingStudio location"
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://calendly.com/coachhari/60-minute-lesson",
+  "pricing_model": "per_person_hour",
+  "price_range_min_local": 130,
+  "price_range_max_local": 145,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Clubs can be provided, though bringing your own is recommended for consistency."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "No food or drink service is mentioned, suggesting it may be BYOB."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Not specified as this is primarily a training studio, not a simulator facility."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "Yes, with junior golf programs and specific coaching for young players mentioned."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"11AM-9PM\"], \"Tuesday\": [\"3-9PM\"], \"Wednesday\": [\"11AM-9PM\"], \"Thursday\": [\"11AM-9PM\"], \"Friday\": [\"10AM-9PM\"], \"Saturday\": [\"10AM-9PM\"], \"Sunday\": [\"10AM-6PM\"]}"
+}

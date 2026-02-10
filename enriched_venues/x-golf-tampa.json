@@ -1,0 +1,88 @@
+{
+  "name": "X-Golf Tampa",
+  "address": "9050 Tryfon Blvd, Trinity, FL 34655",
+  "city": "Trinity",
+  "region": "Florida",
+  "country": "US",
+  "latitude": 28.178834,
+  "longitude": -82.664411,
+  "phone": "+17272038747",
+  "website": "https://playxgolf.com/locations/tampa/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770200710/golf_simulators/playxgolf_com_ChIJYbaClYyTwogR5HtWGag85MI.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/X-Golf+Tampa/@28.1788338,-82.66441069999999,14z/data=!4m8!1m2!2m1!1sX-Golf+Tampa!3m4!1s0x88c2938c9582b661:0xc2e43ca819567be4!8m2!3d28.1788338!4d-82.66441069999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJYbaClYyTwogR5HtWGag85MI",
+  "email": "adam@xgolftampa.com",
+  "venue_type": "sim_bar",
+  "about": "X-Golf Tampa is a modern indoor golf entertainment venue featuring six high-fidelity golf simulators. The facility combines a sports bar atmosphere with advanced golf technology, offering a range of services from casual play to structured leagues and professional instruction. Each simulator bay accommodates up to six people and can be booked by the hour, making it suitable for both individual practice and group events. The venue provides a climate-controlled environment for year-round play and includes full dining and bar services for a complete entertainment experience.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|leagues|premium_tech|private_rooms|club_rentals|coaching_available|family_friendly|date_night",
+  "vibe_tags": "sports_bar|modern|community_club",
+  "who_its_for": "beginners|families|corporate_teams|large_groups|solo_practice",
+  "why_golfers_like_it": [
+    "State-of-the-art simulator technology with unparalleled accuracy and realism",
+    "Flexible booking options for groups of up to six people per bay",
+    "On-site PGA-certified instruction for skill development",
+    "Full bar and food menu for a complete entertainment experience",
+    "Structured leagues and tournaments for competitive play"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full menu with apps, entrees, and desserts"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with beer, wine, and seltzers"
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "mixed",
+  "lefty_friendly": true,
+  "bay_count_total": 6,
+  "booking_url": "https://playxgolf.com/locations/tampa/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 59,
+  "price_range_max_local": 79,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|club_fitting|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Club rentals are available, but you are welcome to use your own clubs."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "Outside food and drinks are not permitted as the venue offers a full menu and bar service."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "It generally takes about one hour for an individual player to complete 18 holes. Each additional player adds approximately one hour to the total time."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, X-Golf Tampa welcomes children of all ages and offers junior leagues for ages 8-13."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"9AM-12AM\"], \"Saturday\": [\"9AM-12AM\"], \"Sunday\": [\"9AM-9PM\"]}"
+}

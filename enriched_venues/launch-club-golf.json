@@ -1,0 +1,91 @@
+{
+  "name": "Launch Club Golf",
+  "address": "9672 63rd Ave N, Maple Grove, MN 55369",
+  "city": "Maple Grove",
+  "region": "Minnesota",
+  "country": "US",
+  "latitude": 45.06977,
+  "longitude": -93.402907,
+  "phone": "+16127591610",
+  "website": "https://www.launchclubgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770204988/golf_simulators/www_launchclubgolf_com_ChIJ3dWXno03s1IR1gWRGkbTjQo.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Launch+Club+Golf/@45.0697696,-93.4029066,14z/data=!4m8!1m2!2m1!1sLaunch+Club+Golf!3m4!1s0x52b3378d9e97d5dd:0xa8dd3461a9105d6!8m2!3d45.0697696!4d-93.4029066",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ3dWXno03s1IR1gWRGkbTjQo",
+  "email": "jasongillis@launchclubgolf.com",
+  "venue_type": "training_studio",
+  "about": "Launch Club is a private indoor golf studio powered by TrackMan technology in Maple Grove, MN. The venue offers both membership and hourly booking options, providing flexible access to its private golf simulator bays. Members enjoy 24/7 access, while non-members can book sessions using an online scheduler. The facility is equipped with industry-leading technology designed for game improvement and entertainment, suitable for golfers of all skill levels from beginners to competitive players.",
+  "tags": "beginner_friendly|corporate_events|leagues|premium_tech|private_rooms|coaching_available|family_friendly|juniors_youth",
+  "vibe_tags": "private_luxury|tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "Premium TrackMan iO technology with 90+ PGA Tour professional endorsement",
+    "24/7 access for members with fully private simulator bays",
+    "Variety of event spaces and game modes for entertainment and practice",
+    "World-class golf simulator with ultra-high-definition 20x10-foot projection screens",
+    "Flexible booking options for both members and non-members"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "Outside food is not allowed; failure to comply may result in loss of membership."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service or BYOB policy."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Industry-leading technology with high-speed impact zone camera and precise shot data analysis"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://launchclubgolf.com/book-by-the-hour/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 39,
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "private_party_room|club_rentals|tv_sports|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need my own golf clubs to play?",
+      "answer": "The website does not explicitly mention whether clubs are provided, so it is recommended to bring your own or contact the venue for clarification."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food is not allowed. Failure to comply may result in loss of membership."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "The website does not provide specific timing for 18 holes, but hourly bookings are available for simulator sessions."
+    },
+    {
+      "question": "Is Launch Club kid-friendly?",
+      "answer": "Yes, the venue hosts kids' parties and events, and the TrackMan simulators are suitable for all skill levels, including beginners and juniors."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

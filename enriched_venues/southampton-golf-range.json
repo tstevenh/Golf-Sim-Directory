@@ -1,0 +1,89 @@
+{
+  "name": "Southampton Golf Range",
+  "address": "668 County Rd 39, Southampton, NY 11968",
+  "city": "Southampton",
+  "region": "New York",
+  "country": "US",
+  "latitude": 40.894568,
+  "longitude": -72.420994,
+  "phone": "+16312832158",
+  "website": "http://www.southamptongolfrange.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770245456/golf_simulators/www_southamptongolfrange_com_ChIJa5dIlaGU6IkR3d7gNft0m-g.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Southampton+Golf+Range/@40.8945675,-72.4209942,14z/data=!4m8!1m2!2m1!1sSouthampton+Golf+Range!3m4!1s0x89e894a19548976b:0xe89b74fb35e0dedd!8m2!3d40.8945675!4d-72.4209942",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJa5dIlaGU6IkR3d7gNft0m-g",
+  "email": "shgolfrange@gmail.com",
+  "venue_type": "multi_sport_sim",
+  "about": "Southampton Golf Range is a premier public golf facility featuring a driving range with 14 covered, TopTracer-equipped bays, automatic tees from Power Tee, and additional practice amenities like chipping areas and putting greens. The venue also includes an 18-hole mini golf course, batting cages, and a Local Burger Co. food establishment on-site. For golf simulation, it offers a private room with a Trugolf simulator and E6 Connect software, providing access to over 90 world-renowned courses and detailed swing analysis using a 3 high-speed camera system.",
+  "tags": "beginner_friendly|food_and_drinks|kids_friendly|corporate_events|premium_tech|private_rooms|coaching_available|family_friendly",
+  "vibe_tags": "family_fun_center|tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "Trugolf simulator with E6 Connect software for realistic play and swing analysis",
+    "Over 90 world-renowned courses available for play in a private, comfortable room",
+    "TopTracer technology on the driving range for engaging practice sessions"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Local Burger Co. available on-site"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trugolf",
+      "model": "Simulator",
+      "notes": "Private room with 3 high-speed camera system"
+    }
+  ],
+  "simulator_software": [
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 1,
+  "booking_url": "http://www.southamptongolfrange.com/golf-simulator",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 45,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|private_party_room|wifi|pro_shop",
+  "rating_tech_quality": 4.0,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify whether club rentals are available. It is recommended to call ahead to inquire about club availability."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue features a Local Burger Co. on-site, but it is unclear if outside food and drinks are permitted. It's best to check with the venue directly."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes in the simulator is not specified on the website, but it typically depends on the number of players and pace of play."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "Yes, Southampton Golf Range is kid-friendly. It offers an 18-hole mini golf course, a golf camp for juniors, and batting cages suitable for all ages."
+    }
+  ],
+  "rating_overall": 4.0,
+  "opening_hours": "{\"Monday\": [\"10AM-8PM\"], \"Tuesday\": [\"10AM-8PM\"], \"Wednesday\": [\"10AM-8PM\"], \"Thursday\": [\"10AM-8PM\"], \"Friday\": [\"10AM-10PM\"], \"Saturday\": [\"10AM-10PM\"], \"Sunday\": [\"10AM-10PM\"]}"
+}

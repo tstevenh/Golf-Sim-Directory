@@ -1,0 +1,91 @@
+{
+  "name": "Golf Lounge 18",
+  "address": "85 Mill Plain Rd Suite H, Fairfield, CT 06824",
+  "city": "Fairfield",
+  "region": "Connecticut",
+  "country": "US",
+  "latitude": 41.141783,
+  "longitude": -73.266187,
+  "phone": "+12033075354",
+  "website": "http://www.golflounge18.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770209262/golf_simulators/www_golflounge18_com_ChIJLyV-3oUR6IkRVm_s9bhgD6A.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Golf+Lounge+18/@41.1417827,-73.26618719999999,14z/data=!4m8!1m2!2m1!1sGolf+Lounge+18!3m4!1s0x89e81185de7e252f:0xa00f60b8f5ec6f56!8m2!3d41.1417827!4d-73.26618719999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJLyV-3oUR6IkRVm_s9bhgD6A",
+  "email": "info@golflounge18.com",
+  "venue_type": "sim_bar",
+  "about": "Golf Lounge 18 is an indoor golf facility utilizing Trackman 4 dual radar technology in each of its bays. The venue offers a state-of-the-art environment for golfers to play on over 450 simulated courses worldwide, receive professional coaching, and join leagues. It is described as a social and event-oriented space, equipped with a full bar and multiple HDTVs, making it suitable for casual play, group outings, and corporate events. Bay rates are hourly and can be split amongst groups, with a focus on accessibility for players of all skill levels.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|coaching_available|kids_friendly",
+  "vibe_tags": "casual|welcoming|modern|sports_bar",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "Access to premium Trackman 4 technology with over 450 courses to play on",
+    "Professional instruction available from PGA Certified Golf Instructors",
+    "Full bar and food menu available for a complete social and golfing experience",
+    "Versatile facility suitable for leagues, events, casual play, and solo practice",
+    "Multiple locations across the Northeast for convenience"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Expanded food menu available on-site, making it a place to socialize before, during, or after golf."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Equipped with a full bar for guests."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "Dual Radar Technology featured in all simulator bays."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://golflounge18.com/book/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|kitchen_food|tv_sports|private_party_room|leagues|coaching_available",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "The venue does not explicitly state if club rentals are available. It is recommended to bring your own clubs or inquire directly with the facility."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "The venue has a full bar and an expanded food menu available on-site. It does not mention a bring-your-own-policy, suggesting they provide in-house options."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "All bay rates are hourly and can be split amongst your group. The time it takes to play 18 holes will depend on your group's pace and can be booked per hour."
+    },
+    {
+      "question": "Is it kid-friendly?",
+      "answer": "Yes, the venue offers a Junior Academy for group instruction and clinics, indicating it is designed to be accessible and welcoming to youth golfers."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"8AM-11PM\"], \"Saturday\": [\"8AM-11PM\"], \"Sunday\": [\"8AM-11PM\"]}"
+}

@@ -1,0 +1,91 @@
+{
+  "name": "Swing Lounge Downtown",
+  "address": "601 W Riverside Ave, Spokane, WA 99201",
+  "city": "Spokane",
+  "region": "Washington",
+  "country": "US",
+  "latitude": 47.657514,
+  "longitude": -117.421447,
+  "phone": "+15094182974",
+  "website": "https://www.swinglounge.golf/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770237428/golf_simulators/www_swinglounge_golf_ChIJU43uEAAZnlQRvhuXoEN794U.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Swing+Lounge+Downtown/@47.657513699999996,-117.4214468,14z/data=!4m8!1m2!2m1!1sSwing+Lounge+Downtown!3m4!1s0x549e190010ee8d53:0x85f77b43a0971bbe!8m2!3d47.657513699999996!4d-117.4214468",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJU43uEAAZnlQRvhuXoEN794U",
+  "email": "rachel@swinglounge.golf",
+  "venue_type": "sim_bar",
+  "about": "Swing Lounge operates as a hybrid indoor golf simulator lounge and restaurant, featuring state-of-the-art virtual golf technology alongside a full-service bar and dining options. The venue utilizes Trackman-powered simulators to provide a realistic golf experience, allowing players to practice or play on virtual courses. With two locations in Spokane, the downtown and Spokane Valley sites offer different atmospheres, with the downtown location featuring a full chef-driven menu and the Valley location offering a more limited snack menu focused on golfers. The space is designed to accommodate both serious golf practice and casual social gatherings, emphasizing a family-friendly environment where minors are permitted in the golf area.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|leagues|premium_tech|family_friendly|date_night",
+  "vibe_tags": "sports_bar|family_fun_center|tech_lab|casual|welcoming",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|large_groups",
+  "why_golfers_like_it": [
+    "Premium Trackman technology for accurate ball and club tracking",
+    "Family-friendly environment allowing minors in the golf area",
+    "Ability to host private tournaments and events",
+    "Full-service bar and food available for a complete experience",
+    "Multiple virtual golf courses and interactive games available"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full restaurant at downtown location with chef-driven menu; Valley location offers a limited snack menu for golfers. Takeout and delivery available through DoorDash and Uber Eats."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full-service bar with curated wines, craft beers, premium spirits, and signature cocktails. Happy hour specials available daily."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Industry-leading radar-based technology providing detailed ball and club tracking"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://app.squarespacescheduling.com/schedule/95ac7382",
+  "pricing_model": "per_person_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own golf clubs?",
+      "answer": "The venue doesn't specify whether club rentals are available, so it's recommended to bring your own clubs for the best experience."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No outside food or drinks are allowed as the venue has its own full-service bar and kitchen offerings."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website doesn't specify the duration for 18 holes, but typical simulator sessions range from 1-2 hours depending on pace of play and group size."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Swing Lounge is family-friendly and allows minors in the golf area, making it suitable for families with children."
+    }
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"11AM-10PM\"], \"Tuesday\": [\"11AM-10PM\"], \"Wednesday\": [\"11AM-10PM\"], \"Thursday\": [\"11AM-10PM\"], \"Friday\": [\"11AM-11PM\"], \"Saturday\": [\"11AM-11PM\"], \"Sunday\": [\"11AM-8PM\"]}"
+}

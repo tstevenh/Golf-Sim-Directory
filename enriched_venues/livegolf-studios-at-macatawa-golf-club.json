@@ -1,0 +1,89 @@
+{
+  "name": "LiveGolf Studios at Macatawa Golf Club",
+  "address": "4600 Macatawa Legends Blvd, Holland, MI 49424",
+  "city": "Holland",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 42.852476,
+  "longitude": -86.131861,
+  "phone": "+16162122600",
+  "website": "https://www.livegolfstudios.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770207491/golf_simulators/www_livegolfstudios_com_ChIJjea_zzSNGYgRM6QO3ymGtT0.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/LiveGolf+Studios+at+Macatawa+Golf+Club/@42.8524764,-86.1318605,14z/data=!4m8!1m2!2m1!1sLiveGolf+Studios+at+Macatawa+Golf+Club!3m4!1s0x88198d34cfbfe68d:0x3db58629df0ea433!8m2!3d42.8524764!4d-86.1318605",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJjea_zzSNGYgRM6QO3ymGtT0",
+  "venue_type": "sim_bar",
+  "about": "LiveGolf Studios at Macatawa Golf Club offers a modern indoor golf experience featuring state-of-the-art TrackMan simulators. The venue provides access to over 100 golf courses, various challenge games, and practice ranges, catering to golfers of all skill levels. Located within Macatawa Golf Club, it combines golf simulation with a full-service bar and food offerings, making it suitable for casual play, date nights, and group events.",
+  "tags": "food_and_drinks|date_night|kids_friendly|corporate_events|beginner_friendly|premium_tech|family_friendly",
+  "vibe_tags": "casual|welcoming|modern|sports_bar",
+  "who_its_for": "beginners|families|corporate_teams|solo_practice|tourists_travelers",
+  "why_golfers_like_it": [
+    "TrackMan 4 technology provides industry-leading accuracy and course simulation",
+    "Year-round access to 100+ golf courses and challenge games",
+    "Family-friendly atmosphere with kid-friendly games and discounts",
+    "Convenient location within Macatawa Golf Club with food and drink options"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Food available from RedRock Grille"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service with beer, cocktails, and wine"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "Industry-leading radar and camera tracking"
+    }
+  ],
+  "simulator_software": [
+    "PGA TOUR Software"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://macatawa.livegolfstudios.com/rates",
+  "pricing_model": "mixed",
+  "price_range_min_local": 30,
+  "price_range_max_local": 90,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|pro_shop|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, players should bring their own golf clubs to use with the simulators."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, outside food and drinks are not allowed. The venue offers food and drinks from RedRock Grille."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Typically, 18 holes take approximately 2-3 hours depending on group size and pace of play."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "Yes, the venue offers kid-friendly games, mini golf challenges, and $5 discounts for children (up to 4 kids per reservation)."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"9AM-9PM\"], \"Tuesday\": [\"9AM-9PM\"], \"Wednesday\": [\"9AM-9PM\"], \"Thursday\": [\"9AM-9PM\"], \"Friday\": [\"9AM-10PM\"], \"Saturday\": [\"9AM-10PM\"], \"Sunday\": [\"9AM-8PM\"]}"
+}

@@ -1,0 +1,91 @@
+{
+  "name": "CHS Golf",
+  "address": "1919 Savannah Hwy, Charleston, SC 29407",
+  "city": "Charleston",
+  "region": "South Carolina",
+  "country": "US",
+  "latitude": 32.788629,
+  "longitude": -80.02594,
+  "phone": "+18432688922",
+  "website": "http://chs-golf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770208248/golf_simulators/chs-golf_com_ChIJgeWYD7V9_ogRtTMF2KGCXLw.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/CHS+Golf/@32.7886293,-80.02593949999999,14z/data=!4m8!1m2!2m1!1sCHS+Golf!3m4!1s0x88fe7db50f98e581:0xbc5c82a1d80533b5!8m2!3d32.7886293!4d-80.02593949999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJgeWYD7V9_ogRtTMF2KGCXLw",
+  "email": "CHSgolf.info@gmail.com",
+  "venue_type": "sim_bar",
+  "about": "CHS Golf is an indoor golf and entertainment venue located in Charleston, SC. It features bays equipped with Trackman technology for golf simulation and offers a full whiskey bar with upscale drinks. The venue is designed for both golf practice and social gatherings, with amenities like shuffleboard, foosball, pool, and darts available. They cater to individual players, groups, and private parties, with a modern, relaxed atmosphere combining sports and leisure.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|private_rooms|club_rentals|late_night",
+  "vibe_tags": "upscale_lounge|sports_bar|tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "Premium Trackman technology for accurate ball and club tracking",
+    "Full bar and food menu available on-site",
+    "Multiple game options beyond golf (shuffleboard, pool, darts)",
+    "Private party and group event capabilities",
+    "Flexible pricing for both members and non-members"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full menu available on-site, including items like wings and Italian sandwiches"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with upscale whiskeys, bourbons, and other beverages"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Professional-grade launch monitor with dual radar technology"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://bookeo.com/chsgolf",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 25,
+  "price_range_max_local": 50,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, players are expected to bring their own clubs for use in the simulator bays."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, outside food and drinks are not permitted as CHS Golf has a full kitchen and bar available on-site."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "An 18-hole round typically takes 1-2 hours depending on the number of players and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "CHS Golf is primarily an adults-focused venue with a bar atmosphere, making it more suitable for ages 21+."
+    }
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"12-9PM\"], \"Tuesday\": [\"12-9PM\"], \"Wednesday\": [\"12-9PM\"], \"Thursday\": [\"12-9PM\"], \"Friday\": [\"12-9PM\"], \"Saturday\": [\"12-9PM\"], \"Sunday\": [\"11AM-9PM\"]}"
+}

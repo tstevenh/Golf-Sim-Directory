@@ -1,0 +1,95 @@
+{
+  "name": "X-Golf Rapid City",
+  "address": "2200 N Maple Ave Unit 458, Rapid City, SD 57701",
+  "city": "Rapid City",
+  "region": "South Dakota",
+  "country": "US",
+  "latitude": 44.106423,
+  "longitude": -103.212529,
+  "phone": "+16057911047",
+  "website": "http://www.xgolfrapidcity.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770214790/golf_simulators/www_xgolfrapidcity_com_ChIJQRQZ8nNdfYcRGnaGZJDD1rY.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/X-Golf+Rapid+City/@44.1064225,-103.2125286,14z/data=!4m8!1m2!2m1!1sX-Golf+Rapid+City!3m4!1s0x877d5d73f2191441:0xb6d6c3906486761a!8m2!3d44.1064225!4d-103.2125286",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJQRQZ8nNdfYcRGnaGZJDD1rY",
+  "venue_type": "sim_bar",
+  "about": "X-Golf Rapid City is an indoor golf facility utilizing top-tier technology to provide a year-round golfing experience. The venue features 9,000 square feet of space with personalized lockers, a full food and bar menu, and golf lessons from PGA professionals. It offers a country club experience at a fraction of the price, with options for individuals and corporate memberships. The facility is equipped with state-of-the-art golf simulators that allow players to practice or play on world-class courses regardless of weather conditions.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|coaching_available|date_night",
+  "vibe_tags": "upscale_lounge|sports_bar|family_fun_center",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams",
+  "why_golfers_like_it": [
+    "Highest technology golf simulators in the world for an authentic experience",
+    "Full food and bar menu with a wide selection of self-poured beer",
+    "PGA professional instructors available for lessons",
+    "Year-round access to world's best courses",
+    "Relaxing atmosphere with luxury amenities",
+    "Competitive X-League with handicapped play and prize money up to $10,000"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full food and bar menu available."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Wide selection of self-poured beer."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "X-Golf",
+      "model": "Simulator",
+      "notes": "Custom-built simulators using laser, light, impact, and camera sensory technologies"
+    }
+  ],
+  "simulator_so": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://app.acuityscheduling.com/schedule.php?owner=32136840&location=X%20Golf&ref=embedded_csp",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|lockers|wifi|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you will need to bring your own clubs to use the simulators."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "Outside food and drink are not allowed, but the facility offers a full food and bar menu with a wide selection of self-poured beer."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes varies depending on the number of players in your group and your pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, X-Golf Rapid City is a family-friendly venue where you can enjoy watching and playing the sport you love with your family and friends."
+    }
+  ],
+  "simulator_software": [
+    "X-Golf"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-11PM\"], \"Tuesday\": [\"9AM-11PM\"], \"Wednesday\": [\"9AM-11PM\"], \"Thursday\": [\"9AM-11PM\"], \"Friday\": [\"9AM-11PM\"], \"Saturday\": [\"9AM-11PM\"], \"Sunday\": [\"9AM-9PM\"]}"
+}

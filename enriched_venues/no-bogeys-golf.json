@@ -1,0 +1,96 @@
+{
+  "name": "No Bogeys Golf",
+  "address": "27601 Forbes Rd UNIT 28, Laguna Niguel, CA 92677",
+  "city": "Laguna Niguel",
+  "region": "California",
+  "country": "US",
+  "latitude": 33.562933,
+  "longitude": -117.674942,
+  "phone": "+19495954405",
+  "website": "https://www.nobogeysgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770244139/golf_simulators/www_nobogeysgolf_com_ChIJIXkv_e7u3IARcfIdeQ6e37w.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/No+Bogeys+Golf/@33.5629333,-117.6749418,14z/data=!4m8!1m2!2m1!1sNo+Bogeys+Golf!3m4!1s0x80dceeeefd2f7921:0xbcdf9e0e791df271!8m2!3d33.5629333!4d-117.6749418",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJIXkv_e7u3IARcfIdeQ6e37w",
+  "email": "info@nobogeysgolf.com",
+  "venue_type": "training_studio",
+  "about": "No Bogeys Golf is a premier performance golf center in Orange County, California, equipped with state-of-the-art TrackMan technology for game improvement and virtual play. They offer professional instruction, custom club fitting, and a private indoor practice facility with hourly bay rentals. The facility is dedicated to helping golfers of all levels improve through data-driven coaching and personalized equipment services, with a focus on consistency and performance optimization.",
+  "tags": "beginner_friendly|serious_golfers|families|coaching_available|premium_tech|juniors_youth|club_rentals|private_rooms|club_fitting",
+  "vibe_tags": "tech_lab|community_club|family_fun_center|modern",
+  "who_its_for": "beginners|serious_golfers|families|coaches_instructors|juniors_youth",
+  "why_golfers_like_it": [
+    "Industry-leading TrackMan technology for precise swing and ball data analysis",
+    "Comprehensive club fitting and building services with over 20 years of experience",
+    "Top-50 rated club fitting by Golf Digest and Golf Magazine",
+    "Supportive, non-franchise environment with passionate, expert staff",
+    "Junior programs and family-friendly amenities for all skill levels"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of food service available on-site."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service; BYOB not indicated."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "Dual Radar Technology with TrackMan4 for launch monitor and swing analysis"
+    },
+    {
+      "brand": "SAM",
+      "model": "Putt Lab",
+      "notes": "Ultrasonic 3D measurements for putting analysis"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://clients.uschedule.com/nobogeysgolf/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 45,
+  "price_range_max_local": 150,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|club_fitting|pro_shop|coaching_available|junior_golf|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.5,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can bring your own clubs, or No Bogeys offers club rentals and a full range of custom club fitting services to provide you with properly fitted equipment."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue does not mention food or drink service, so outside food and drinks may not be permitted. It's best to contact the venue directly for clarification on their policy."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes varies depending on the simulator software and number of players, but typically ranges from 2-3 hours for a group of four players."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, No Bogeys offers junior golf programs, private lessons for ages 6-18, and family-friendly bay rentals, making it a great option for young golfers."
+    }
+  ],
+  "rating_overall": 4.4,
+  "opening_hours": "{\"Monday\": [\"9AM-6PM\"], \"Tuesday\": [\"9AM-6PM\"], \"Wednesday\": [\"9AM-6PM\"], \"Thursday\": [\"9AM-6PM\"], \"Friday\": [\"9AM-6PM\"], \"Saturday\": [\"6AM-6PM\"], \"Sunday\": [\"Closed\"]}"
+}

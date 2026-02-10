@@ -1,0 +1,91 @@
+{
+  "name": "DINX Social Club",
+  "address": "1931 Skokie Valley Rd, Highland Park, IL 60035",
+  "city": "Highland Park",
+  "region": "Illinois",
+  "country": "US",
+  "latitude": 42.187527,
+  "longitude": -87.823274,
+  "phone": "+18479267191",
+  "website": "https://www.dinxsocialclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770253277/golf_simulators/www_dinxsocialclub_com_ChIJKUg-_8_BD4gRksdskU7IV2U.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/DINX+Social+Club/@42.1875272,-87.823274,14z/data=!4m8!1m2!2m1!1sDINX+Social+Club!3m4!1s0x880fc1cfff3e4829:0x6557c84e916cc792!8m2!3d42.1875272!4d-87.823274",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJKUg-_8_BD4gRksdskU7IV2U",
+  "email": "info@dinxsocialclub.com",
+  "venue_type": "sim_bar",
+  "about": "DINX Social Club is an upscale indoor social club offering Pickleball and golf activities on Long Island. The venue features five regulation-sized Pickleball courts and a private court, alongside three Trackman iO golf simulator bays. It provides a climate-controlled environment year-round with multiple lounge areas, a private VIP lounge with karaoke, and a full-service food and drink program. DINX operates on a membership basis, offering priority booking, and caters to a wide range of activities from casual play to leagues and private events.",
+  "tags": "food_and_drinks|beginner_friendly|leagues|corporate_events|private_rooms|coaching_available|premium_tech|club_rentals|community_club|upscale_lounge",
+  "vibe_tags": "upscale_lounge|sports_bar|private_luxury|community_club|party_atmosphere",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "State-of-the-art Trackman iO simulator bays with advanced ball flight analysis",
+    "Climate-controlled environment allowing play year-round on famous championship courses",
+    "Social and competitive league play with flexible booking options for members",
+    "Combination of golf with a full bar and lounge experience"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Grab & Go menu with tasty, healthy food made fresh daily, plus curated food trucks."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Self-serve pour wall with curated wines, spirits, cocktails, mocktails, and craft beers."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Three simulator bays offering advanced ball flight analysis and precision swing metrics."
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 3,
+  "booking_url": "https://dinxsocialclub.podplay.app/book/golf-sims",
+  "pricing_model": "membership_only",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.5,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "Yes, you must bring your own golf clubs to use the simulators."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, outside food and drinks are not permitted. DINX offers its own Grab & Go menu and a self-serve pour wall."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Playing time varies depending on group size and pace, but a typical 18-hole round can take between 1.5 to 2 hours in a simulator bay."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, DINX offers youth programs and camps, making it suitable for families with children."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.4,
+  "opening_hours": "{\"Monday\": [\"8AM-10PM\"], \"Tuesday\": [\"7AM-10PM\"], \"Wednesday\": [\"8AM-10PM\"], \"Thursday\": [\"8AM-10PM\"], \"Friday\": [\"8AM-11PM\"], \"Saturday\": [\"8AM-11PM\"], \"Sunday\": [\"8AM-10PM\"]}"
+}

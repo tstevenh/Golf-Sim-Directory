@@ -1,0 +1,90 @@
+{
+  "name": "Hooks & Shanks",
+  "address": "45 E Main St, Trumansburg, NY 14886",
+  "city": "Trumansburg",
+  "region": "New York",
+  "country": "US",
+  "latitude": 42.541832,
+  "longitude": -76.66056,
+  "phone": "+16073426099",
+  "website": "https://hooksandshanks.simplybook.me/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770201019/golf_simulators/hooksandshanks_simplybook_me_ChIJBcPlPHmP0IkRQE1KY_VCTpI.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Hooks+%26+Shanks/@42.541832199999995,-76.6605604,14z/data=!4m8!1m2!2m1!1sHooks+%26+Shanks!3m4!1s0x89d08f793ce5c305:0x924e42f5634a4d40!8m2!3d42.541832199999995!4d-76.6605604",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJBcPlPHmP0IkRQE1KY_VCTpI",
+  "email": "hooksnshanks@gmail.com",
+  "venue_type": "sim_bar",
+  "about": "Hooks & Shanks is a private single bay golf simulator venue located in Trumansburg, NY. It is equipped with the Uneekor Eye XO2 launch monitor paired with GSPRO software, offering over 1,800 golf courses, skills challenges, and miniature golf. The venue features a private bar, TVs, and allows for BYO food and drink, creating a relaxed and self-contained experience for golfers. Standard rates are $40/hour on weekdays and $50/hour on weekends, with a 10% discount available for bookings of 3 hours or more.",
+  "tags": "food_and_drinks|beginner_friendly|private_rooms|solo_practice|low_handicap|coaching_available",
+  "vibe_tags": "sports_bar|private_luxury|welcoming",
+  "who_its_for": "beginners|serious_golfers|families|solo_practice|coaches_instructors",
+  "why_golfers_like_it": [
+    "High-end Uneekor Eye XO2 launch monitor with 25+ data points per shot",
+    "Complete privacy and self-contained space with a private bar",
+    "Ability to bring your own food and drinks for a personalized experience",
+    "Access to over 1,800+ golf courses through GSPRO software"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Food can be brought in. It is not allowed in the simulator area or near the computer. Please clean up and discard all items before leaving."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Drinks are allowed to be brought in. They are not permitted in the simulator area or near the simulator computer."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "Eye XO2",
+      "notes": "Features three high-speed infrared cameras capturing swing motion at 180 fps and 1440x1080 resolution. Allows training with any ball of choice."
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "infrared_optical",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 1,
+  "booking_url": "https://hooksandshanks.simplybook.me/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 40,
+  "price_range_max_local": 50,
+  "currency": "USD",
+  "walk_ins_allowed": false,
+  "coaching_available": "unknown",
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "private_bar|tv_sports|club_rentals|wifi",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you must use your own golf clubs. They must be clean before using the simulator. Golf simulator tees are provided, but you are also allowed to use your own."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, food and drinks are allowed to be brought in. However, they cannot be in the simulator area or near the computer. Please clean up and discard all food and drink before leaving."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Estimate 1 hour for each experienced golfer to play 18 holes."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "No one under the age of 21 is allowed without someone over 21 present. Children under 13 must be approved before using the simulator."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Friday\": [\"8:30AM-10PM\"]}"
+}

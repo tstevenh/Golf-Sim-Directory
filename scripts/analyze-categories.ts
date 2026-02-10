@@ -12,6 +12,7 @@ import { PrismaClient } from "@prisma/client";
 import * as fs from "fs";
 import * as path from "path";
 import { fileURLToPath } from "url";
+import { extractSoftwareSlugsFromComprehensiveData } from "../lib/software-slugs";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -122,8 +123,10 @@ async function analyzeCategories(): Promise<CategoryConfig> {
       tags: true,
       vibeTags: true,
       whoItsFor: true,
+      hardwareBrands: true,
       simulatorSystems: true,
       launchMonitorType: true,
+      softwareSlugs: true,
       comprehensiveData: true,
       hasPrivateRooms: true,
       coachingAvailable: true,
@@ -165,6 +168,14 @@ async function analyzeCategories(): Promise<CategoryConfig> {
   // Count hardware
   const hardwareCounts: Record<string, number> = {};
   for (const venue of venues) {
+    if (Array.isArray(venue.hardwareBrands) && venue.hardwareBrands.length > 0) {
+      for (const brand of venue.hardwareBrands) {
+        if (!brand) continue;
+        hardwareCounts[brand] = (hardwareCounts[brand] || 0) + 1;
+      }
+      continue;
+    }
+    // Fallback for legacy rows without hardwareBrands.
     try {
       const systems = venue.simulatorSystems as { brand?: string }[] | null;
       if (systems) {
@@ -207,19 +218,15 @@ async function analyzeCategories(): Promise<CategoryConfig> {
     }
   }
 
-  // Count software (from comprehensiveData)
+  // Count software (prefer normalized softwareSlugs, fallback to comprehensiveData)
   const softwareCounts: Record<string, number> = {};
   for (const venue of venues) {
-    try {
-      const data = venue.comprehensiveData as { software?: string[] } | null;
-      if (data?.software) {
-        for (const sw of data.software) {
-          const key = sw.toLowerCase().replace(/\s+/g, "-");
-          softwareCounts[key] = (softwareCounts[key] || 0) + 1;
-        }
-      }
-    } catch {
-      // Skip invalid data
+    const slugs =
+      Array.isArray(venue.softwareSlugs) && venue.softwareSlugs.length > 0
+        ? venue.softwareSlugs
+        : extractSoftwareSlugsFromComprehensiveData(venue.comprehensiveData);
+    for (const slug of slugs) {
+      softwareCounts[slug] = (softwareCounts[slug] || 0) + 1;
     }
   }
 

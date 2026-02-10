@@ -1,0 +1,90 @@
+{
+  "name": "Stix Golf Entertainment",
+  "address": "W164N11271 Squire Dr, Germantown, WI 53022",
+  "city": "Germantown",
+  "region": "Wisconsin",
+  "country": "US",
+  "latitude": 43.22224,
+  "longitude": -88.115028,
+  "phone": "+12624157513",
+  "website": "http://stixgolfbar.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770222370/golf_simulators/stixgolfbar_com_ChIJS6XDBMT-BIgRFurLWlctSAU.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Stix+Golf+Entertainment/@43.2222398,-88.11502829999999,14z/data=!4m8!1m2!2m1!1sStix+Golf+Entertainment!3m4!1s0x8804fec404c3a54b:0x5482d575acbea16!8m2!3d43.2222398!4d-88.11502829999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJS6XDBMT-BIgRFurLWlctSAU",
+  "email": "info@stixgolfbar.com",
+  "venue_type": "sim_bar",
+  "about": "Stix Golf Entertainment is a golf simulator venue that combines high-tech simulation with a bar and food menu. It features 8 Full Swing simulators with advanced dual tracking technology using infrared light waves and ION 3 cameras, providing accurate ball flight and club face analysis. The venue offers hourly simulator rentals with a per-bay pricing model, making it suitable for both individual practice and group events. It also hosts leagues, tournaments, and various event packages, catering to a diverse clientele ranging from casual players to serious golfers.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|private_rooms|club_rentals|community_club",
+  "vibe_tags": "sports_bar|family_fun_center|party_atmosphere|tech_lab",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "State-of-the-art Full Swing simulators with dual tracking technology for accurate ball flight and club face analysis",
+    "Flexible pricing model at $40/hour on weekdays and $45/hour on weekends, per simulator",
+    "Variety of event packages and leagues available for different group sizes and occasions",
+    "Combination of golf simulation with food and beverage options for a complete entertainment experience"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen and menu available, including items like chicken sandwiches and waffle fries"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service with beers on tap and cocktails available"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Full Swing",
+      "model": "ION 3",
+      "notes": "8 simulators total with dual tracking technology using infrared light waves and ION 3 cameras"
+    }
+  ],
+  "simulator_software": [
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "infrared_optical",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 8,
+  "booking_url": "https://stixgolfbar.com/bookonline/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 40,
+  "price_range_max_local": 45,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue provides club rentals, but you are welcome to bring your own equipment."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "Outside food and drinks are not allowed as the venue has its own kitchen and full bar service."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "For 1 person: 1 hour for 9 holes, 2 hours for 18 holes. For 2 people: 2 hours for 9 holes, 4 hours for 18 holes. For 3 people: 3 hours for 9 holes, 6 hours for 18 holes. For 4 people: 4 hours for 9 holes, 8 hours for 18 holes."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Stix Golf Entertainment is kid-friendly and offers activities suitable for families, including non-golf entertainment options."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-11PM\"], \"Tuesday\": [\"9AM-11PM\"], \"Wednesday\": [\"9AM-11PM\"], \"Thursday\": [\"9AM-11PM\"], \"Friday\": [\"9AM-11PM\"], \"Saturday\": [\"9AM-11PM\"], \"Sunday\": [\"9AM-7PM\"]}"
+}

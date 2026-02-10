@@ -1,0 +1,91 @@
+{
+  "name": "Par 4 Sports",
+  "address": "701 Allen Ave, Centralia, WA 98531",
+  "city": "Centralia",
+  "region": "Washington",
+  "country": "US",
+  "latitude": 46.724561,
+  "longitude": -122.983983,
+  "phone": "+13604290082",
+  "website": "https://par4sport.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770229299/golf_simulators/par4sport_com_ChIJVxK51kRhkVQR8UfieiKIwFI.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Par+4+Sports/@46.7245608,-122.9839835,14z/data=!4m8!1m2!2m1!1sPar+4+Sports!3m4!1s0x54916144d6b91257:0x52c088227ae247f1!8m2!3d46.7245608!4d-122.9839835",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJVxK51kRhkVQR8UfieiKIwFI",
+  "email": "Andrew@par4sport.com",
+  "venue_type": "multi_sport_sim",
+  "about": "Par 4 Sports offers a multisport simulation experience using HD Multi-sport simulators, featuring a wide variety of games including golf on over 40 championship courses like Pebble Beach and Torrey Pines, as well as soccer, baseball, and football. The venue provides food and drink service delivered directly to simulator bays, catering to individual players, groups, and events. Operating from Tuesday to Sunday with varied hours, the facility is located at the NW Sports Hub in Centralia, Washington, above Hub City Grub.",
+  "tags": "beginner_friendly|food_and_drinks|kids_friendly|corporate_events|leagues|premium_tech|private_rooms|club_rentals|community_club",
+  "vibe_tags": "family_fun_center|tech_lab|community_club",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "Access to over 40 championship golf courses from around the world",
+    "HD Multi-sport simulators with patented computer vision technology for accurate tracking",
+    "Food and drink service delivered directly to your simulator bay",
+    "Private event and birthday party packages available"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full food and drink menu available, served directly to simulator bays"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "HD Golf",
+      "model": "Multi-sport",
+      "notes": "Industry leaders with patented computer vision technology and smart-cameras for accurate tracking"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://par4sport.com/simulators/",
+  "pricing_model": "per_bay_hour|mixed",
+  "price_range_min_local": 40,
+  "price_range_max_local": 50,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue does not specify whether club rentals are available, so it's recommended to bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No outside food is allowed, with the exception of birthday cakes. The venue provides a full menu of food and drinks that can be ordered and served directly to your simulator bay."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes is not specified on the website, but sessions are booked by the hour."
+    },
+    {
+      "question": "Is Par 4 Sports kid-friendly?",
+      "answer": "Yes, Par 4 Sports is kid-friendly and offers kids' camps and birthday party packages."
+    }
+  ],
+  "simulator_software": [
+    "HD Golf/Multi-sport"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"12-9PM\"], \"Wednesday\": [\"12-9PM\"], \"Thursday\": [\"12-9PM\"], \"Friday\": [\"12-10PM\"], \"Saturday\": [\"11AM-10PM\"], \"Sunday\": [\"11AM-8PM\"]}"
+}

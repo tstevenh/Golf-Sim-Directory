@@ -1,0 +1,90 @@
+{
+  "name": "19th Hole",
+  "address": "9418 W 191st St, Mokena, IL 60448",
+  "city": "Mokena",
+  "region": "Illinois",
+  "country": "US",
+  "latitude": 41.543551,
+  "longitude": -87.846726,
+  "phone": "+17087193964",
+  "website": "http://19thholemokena.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770222200/golf_simulators/19thholemokena_com_ChIJDXgxCocVDogRC8UVmHrWQZU.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/19th+Hole/@41.5435514,-87.8467263,14z/data=!4m8!1m2!2m1!1s19th+Hole!3m4!1s0x880e15870a31780d:0x9541d67a9815c50b!8m2!3d41.5435514!4d-87.8467263",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJDXgxCocVDogRC8UVmHrWQZU",
+  "email": "Asset-1@2x.png",
+  "venue_type": "sim_bar",
+  "about": "The 19th Hole is an all-ages entertainment destination in Mokena offering indoor golf and multisport simulation. It features nine Full Swing simulator bays with infrared tracking and ION3 camera technology for real-time ball flight data, allowing play on 63 virtual courses and 13 interactive sports. The venue is designed as a year-round alternative to outdoor golf, complemented by food, beverages, and a full bar to enhance the experience.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|leagues|premium_tech|family_friendly|private_rooms",
+  "vibe_tags": "sports_bar|family_fun_center|tech_lab",
+  "who_its_for": "families|large_groups|corporate_teams|beginners|serious_golfers",
+  "why_golfers_like_it": [
+    "Premium Full Swing technology trusted by PGA professionals for realistic gameplay",
+    "Year-round access with 9 simulator bays, turning the golf season from 180 to 365 days",
+    "Multisport options for group competition beyond golf, including baseball, football, and hockey"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Wide variety of food including appetizers, sandwiches, and entrees available for play or after rounds"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Fully stocked bar with adult beverages, no BYOB mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Full Swing",
+      "model": "ION3",
+      "notes": "Premium infrared tracking technology with real-time ball flight data"
+    }
+  ],
+  "simulator_software": [
+    "Full Swing Golf",
+    "Full Swing MultiSport"
+  ],
+  "launch_monitor_type": "infrared_optical",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 9,
+  "booking_url": "https://19thholemokena.com/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 35,
+  "price_range_max_local": 70,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|private_party_room|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, players must bring their own clubs and equipment for simulator use."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, outside food and drinks are not allowed. The venue offers a full bar and food menu."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Typically, 18 holes take about 2-3 hours depending on player skill and simulator wait times."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, The 19th Hole is an all-ages entertainment destination suitable for families and kids."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"11AM-11PM\"], \"Tuesday\": [\"11AM-11PM\"], \"Wednesday\": [\"11AM-11PM\"], \"Thursday\": [\"11AM-11PM\"], \"Friday\": [\"11AM-11PM\"], \"Saturday\": [\"10AM-11PM\"], \"Sunday\": [\"10AM-8PM\"]}"
+}

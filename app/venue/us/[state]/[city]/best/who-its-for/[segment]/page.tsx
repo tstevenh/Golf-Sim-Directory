@@ -1,7 +1,6 @@
 import { Metadata } from "next";
 import { db, venueCardSelect } from "@/lib/db";
 import { BestByPageContent } from "@/components/seo/BestByPageContent";
-import { matchesWhoItsFor } from "@/lib/best-by";
 import { getStateDisplayName, getStateAbbrevFromName } from "@/lib/states";
 import { getStaticRelatedLinks } from "@/lib/category-config.generated";
 
@@ -10,7 +9,7 @@ interface CityBestWhoItsForPageProps {
   searchParams?: Promise<Record<string, string | string[] | undefined>>;
 }
 
-export const revalidate = 3600;
+export const revalidate = 86400;
 
 // Segment-specific descriptions for city pages
 const segmentDescriptions: Record<string, { tagline: string; description: string }> = {
@@ -78,40 +77,48 @@ export async function generateMetadata({ params }: CityBestWhoItsForPageProps): 
 export default async function CityBestWhoItsForPage({ params, searchParams }: CityBestWhoItsForPageProps) {
   const paramsResolved = (await searchParams) || {};
   const page = Math.max(1, Number(paramsResolved.page || 1));
+  const pageSize = 12;
   const { state, city, segment } = await params;
   const stateAbbrev = getStateAbbrevFromName(state) || state.toUpperCase();
   const stateName = getStateDisplayName(stateAbbrev);
   const cityFormatted = city.replace(/-/g, " ").replace(/\b\w/g, l => l.toUpperCase());
   const segmentLabel = segment.replace(/_/g, " ").replace(/\b\w/g, l => l.toUpperCase());
+  const segmentVariants = Array.from(new Set([segment, segment.replace(/-/g, "_"), segment.replace(/_/g, "-")]));
+  const skip = (page - 1) * pageSize;
   const segmentDesc = segmentDescriptions[segment.toLowerCase()] || {
     tagline: `Perfect for ${segmentLabel}`,
     description: `Venues ideal for ${segmentLabel.toLowerCase()} in ${cityFormatted}. These spots cater specifically to your needs and preferences.`,
   };
 
-  const venues = await db.venue.findMany({
-    where: {
-      city: { equals: cityFormatted, mode: "insensitive" },
-      state: stateAbbrev.toUpperCase(),
-      country: "US",
-      status: "active",
-    },
-    orderBy: [{ featured: "desc" }, { ratingOverall: "desc" }, { name: "asc" }],
-    select: venueCardSelect,
-  });
+  const where = {
+    city: { equals: cityFormatted, mode: "insensitive" as const },
+    state: stateAbbrev.toUpperCase(),
+    country: "US" as const,
+    status: "active" as const,
+    whoItsFor: { hasSome: segmentVariants },
+  };
 
-  const filteredVenues = venues.filter((venue) => matchesWhoItsFor(venue, segment));
-
-  const nearbyCitiesResult = await db.venue.findMany({
-    where: {
-      state: stateAbbrev.toUpperCase(),
-      country: "US",
-      status: "active",
-      NOT: { city: { equals: cityFormatted, mode: "insensitive" } },
-    },
-    select: { city: true },
-    distinct: ["city"],
-    take: 6,
-  });
+  const [totalVenues, venues, nearbyCitiesResult] = await Promise.all([
+    db.venue.count({ where }),
+    db.venue.findMany({
+      where,
+      orderBy: [{ featured: "desc" }, { ratingOverall: "desc" }, { name: "asc" }],
+      select: venueCardSelect,
+      take: pageSize,
+      skip,
+    }),
+    db.venue.findMany({
+      where: {
+        state: stateAbbrev.toUpperCase(),
+        country: "US",
+        status: "active",
+        NOT: { city: { equals: cityFormatted, mode: "insensitive" } },
+      },
+      select: { city: true },
+      distinct: ["city"],
+      take: 6,
+    }),
+  ]);
 
   const nearbyLinks = nearbyCitiesResult.map((c) => ({
     label: `For ${segmentLabel} in ${c.city}`,
@@ -133,7 +140,7 @@ export default async function CityBestWhoItsForPage({ params, searchParams }: Ci
     },
     {
       question: `How many venues are there?`,
-      answer: `We found ${filteredVenues.length} venues in ${cityFormatted} tagged for ${segmentLabel.toLowerCase()}. Browse the full city listing for more options that might also match your needs.`,
+      answer: `We found ${totalVenues} venues in ${cityFormatted} tagged for ${segmentLabel.toLowerCase()}. Browse the full city listing for more options that might also match your needs.`,
     },
     {
       question: `Can I combine this with other filters?`,
@@ -170,13 +177,15 @@ export default async function CityBestWhoItsForPage({ params, searchParams }: Ci
       ctaDescription="Claim your listing to update your audience tags and attract golfers with matching needs."
       ctaPrimary={{ label: "Claim Your Listing", href: "/claim" }}
       ctaSecondary={{ label: "Submit New Venue", href: "/submit" }}
-      venues={filteredVenues}
+      venues={venues}
+      totalVenues={totalVenues}
       categoryType="segment"
       categoryValue={segment.toLowerCase()}
       heroSubtitle={segmentDesc.tagline}
       breadcrumbItems={breadcrumbs}
       showRanking={true}
       currentPage={page}
+      pageSize={pageSize}
       baseUrl={`/venue/us/${state}/${city}/best/who-its-for/${segment}`}
     />
   );

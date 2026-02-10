@@ -1,0 +1,89 @@
+{
+  "name": "Mistwood Golf Dome",
+  "address": "730 N Bolingbrook Drive, IL-53, Bolingbrook, IL 60440",
+  "city": "Bolingbrook",
+  "region": "Illinois",
+  "country": "US",
+  "latitude": 41.721198,
+  "longitude": -88.065444,
+  "phone": "+16307397600",
+  "website": "http://www.mistwoodgolfdome.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770199565/golf_simulators/www_mistwoodgolfdome_com_ChIJ6-t520NaDogRJ7-KT2wSHwo.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Mistwood+Golf+Dome/@41.7211984,-88.0654437,14z/data=!4m8!1m2!2m1!1sMistwood+Golf+Dome!3m4!1s0x880e5a43db79ebeb:0xa1f126c4f8abf27!8m2!3d41.7211984!4d-88.0654437",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ6-t520NaDogRJ7-KT2wSHwo",
+  "email": "catering@mcwethyssportsbar.com",
+  "venue_type": "sim_bar",
+  "about": "Mistwood Golf Dome is a 60,000 sq. ft. indoor golf facility in Bolingbrook, IL, featuring 30 heated hitting bays equipped with Toptracer technology. The venue offers virtual golf on over 170,000 courses worldwide, including Mistwood Golf Club, alongside a full-service sports bar and event spaces. Three high-tech simulator suites provide a premium, private golfing experience with integrated food and beverage service, making it a year-round destination for practice and gameplay regardless of weather conditions.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|kids_friendly|premium_tech|private_rooms|late_night|coaching_available",
+  "vibe_tags": "sports_bar|family_fun_center|tech_lab|modern",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "30 heated bays with Toptracer technology for accurate shot tracking and gaming",
+    "On-site McWethy's Sports Bar with full food and beverage service delivered to bays",
+    "Simulator suites with private event space and premium course access"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen service from McWethy's Sports Bar with hand-crafted sandwiches, burgers, pizza, and award-winning wings"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full-service bar with drinks available at all bays and in simulator suites"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Toptracer",
+      "model": "Range",
+      "notes": "Computerized gaming system at all 30 bays providing accurate distance data and shot trajectory"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 30,
+  "booking_url": "https://clients.uschedule.com/mistwooddome/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 3,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.0,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can bring your own clubs, or they offer club rentals and repair services through their performance center."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drinks are not mentioned; however, full food and beverage service is available from McWethy's Sports Bar, which can be ordered directly to your bay."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes varies depending on the simulator software and pace of play, but with 30 bays and Toptracer technology, efficient rounds are supported."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Mistwood Golf Dome is family-friendly and offers junior golf programs, making it suitable for golfers of all ages and abilities."
+    }
+  ],
+  "rating_overall": 4.1,
+  "opening_hours": "{\"Monday\": [\"8AM-10PM\"], \"Tuesday\": [\"8AM-10PM\"], \"Wednesday\": [\"8AM-10PM\"], \"Thursday\": [\"8AM-10PM\"], \"Friday\": [\"8AM-10PM\"], \"Saturday\": [\"7AM-10PM\"], \"Sunday\": [\"7AM-10PM\"]}"
+}

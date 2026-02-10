@@ -1,0 +1,90 @@
+{
+  "name": "Straight Shots Golf",
+  "address": "215 N 1st Ave, Winterset, IA 50273",
+  "city": "Winterset",
+  "region": "Iowa",
+  "country": "US",
+  "latitude": 41.336065,
+  "longitude": -94.014298,
+  "phone": "+15152160178",
+  "website": "http://straightshotsgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770207675/golf_simulators/straightshotsgolf_com_ChIJ7Qn-PCMN7IcRXdsN6lfA6aA.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Straight+Shots+Golf/@41.336065,-94.0142982,14z/data=!4m8!1m2!2m1!1sStraight+Shots+Golf!3m4!1s0x87ec0d233cfe09ed:0xa0e9c057ea0ddb5d!8m2!3d41.336065!4d-94.0142982",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ7Qn-PCMN7IcRXdsN6lfA6aA",
+  "venue_type": "other",
+  "about": "Straight Shots Golf is an indoor golf simulator facility providing 24/7 access to golfers year-round. They utilize premium Trackman simulator technology for swing and ball flight analysis. The venue offers flexible membership options with rollover benefits and per-hour pricing, catering to golfers seeking consistent practice and play without long-term commitments. Members receive 10 free simulator hours each month, with additional time available at $30 per hour. The facility is designed for convenience and value, allowing for online booking and featuring a casual, modern environment focused on the golf experience.",
+  "tags": "beginner_friendly|serious_golfers|corporate_events|leagues|premium_tech|budget_friendly|coaching_available|private_rooms|club_rentals",
+  "vibe_tags": "tech_lab|modern|welcoming",
+  "who_its_for": "beginners|serious_golfers|corporate_teams|solo_practice|families",
+  "why_golfers_like_it": [
+    "24/7 access to play all year round",
+    "Premium Trackman simulator technology for precise swing and ball data",
+    "Flexible membership plans with rollover hours for maximum value",
+    "Simple, no-contract pricing model with low hourly rates",
+    "Convenient online booking system"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No on-site food service mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned; BYOB policy not specified"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Premium launch monitor system for swing and ball flight analysis"
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://app.birrdi.com/u/reserve?team_booking_link_id=straight-shots-golf",
+  "pricing_model": "mixed",
+  "price_range_min_local": 30,
+  "price_range_max_local": 80,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|wifi|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 4.3,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The context does not specify whether club rentals are available, so it is recommended to bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "There is no mention of food or drink service, and no specific BYOB policy is stated. Bringing your own items should be confirmed with the venue directly."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The context does not provide an estimated time for playing 18 holes on the simulator, as this can vary based on simulator software and player pace."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "Yes, the venue is suitable for families and kids, as indicated by the 'family_friendly' tag and absence of age restrictions."
+    }
+  ],
+  "rating_overall": 4.4,
+  "opening_hours": "{\"Monday\": [\"6AM-11PM\"], \"Tuesday\": [\"6AM-11PM\"], \"Wednesday\": [\"6AM-11PM\"], \"Thursday\": [\"6AM-11PM\"], \"Friday\": [\"6AM-11PM\"], \"Saturday\": [\"6AM-11PM\"], \"Sunday\": [\"6AM-11PM\"]}"
+}

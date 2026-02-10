@@ -1,0 +1,91 @@
+{
+  "name": "Sim City Indoor Golf Old Orchard Beach",
+  "address": "168 Saco Ave, Old Orchard Beach, ME 04064",
+  "city": "Old Orchard Beach",
+  "region": "Maine",
+  "country": "US",
+  "latitude": 43.510708,
+  "longitude": -70.399569,
+  "phone": "+12072216945",
+  "website": "https://www.simcityindoorgolf.com/old-orchard-beach",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770206101/golf_simulators/www_simcityindoorgolf_com_ChIJNW99O46lskwRYfXRIW1s6Rs.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Sim+City+Indoor+Golf+Old+Orchard+Beach/@43.510707499999995,-70.399569,14z/data=!4m8!1m2!2m1!1sSim+City+Indoor+Golf+Old+Orchard+Beach!3m4!1s0x4cb2a58e3b7d6f35:0x1be96c6d21d1f561!8m2!3d43.510707499999995!4d-70.399569",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJNW99O46lskwRYfXRIW1s6Rs",
+  "venue_type": "sim_bar",
+  "about": "Sim City Indoor Golf Old Orchard Beach is a family-owned and operated venue established in 2023. It provides an indoor golf experience with four Trackman iO simulators and has partnered with Birdies Grill & Tavern for food and beverage service. The venue offers various activities including league play, private lessons, club fitting, and event hosting. It is designed to accommodate golfers of all skill levels in a fun and welcoming atmosphere, featuring a unified leaderboard system for competitions across multiple locations.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|budget_friendly|coaching_available|private_rooms|club_rentals",
+  "vibe_tags": "casual|welcoming|modern|family_fun_center|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "State-of-the-art Trackman iO simulators provide professional-grade data and accuracy",
+    "Unified league system allows statewide competition across multiple locations",
+    "On-site food and beverage service from Birdies Grill & Tavern adds to the experience",
+    "Variety of activities including leagues, private lessons, and events for all skill levels",
+    "Family-friendly and welcoming atmosphere for golfers of all abilities"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full menu available from partner Birdies Grill & Tavern, featuring starters, salads, handhelds, and entrees"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available from partner Birdies Grill & Tavern"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Four brand-new Trackman i0 simulators, featuring industry-leading radar and optical tracking technology"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 4,
+  "booking_url": "https://alleytrak.com/app/client/4746",
+  "pricing_model": "per_person_hour",
+  "price_range_min_local": 40,
+  "price_range_max_local": 50,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 4,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "It is recommended to bring your own clubs, but rental sets are available with limited availability. Clubs should be cleaned of excessive mud and debris prior to visit to ensure accurate tracking."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "Outside food and drinks are not permitted inside the simulator bays. However, the venue is partnered with Birdies Grill & Tavern which provides a full menu and bar service for guests to enjoy while playing."
+    },
+    {
+      "question": "How much time do I need for 18 holes?",
+      "answer": "For 18 holes, you should allow 2 hours for 2 golfers or 4 hours for 4 golfers. The final 5 minutes of each reservation are reserved for clean-up and checkout."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is family-friendly and welcomes golfers of all skill levels, including juniors. The atmosphere is designed to be fun and welcoming for everyone."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"10AM-9PM\"], \"Wednesday\": [\"10AM-9PM\"], \"Thursday\": [\"10AM-9PM\"], \"Friday\": [\"10AM-9PM\"], \"Saturday\": [\"10AM-9PM\"], \"Sunday\": [\"10AM-8PM\"]}"
+}

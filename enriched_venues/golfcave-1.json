@@ -1,0 +1,91 @@
+{
+  "name": "GolfCave",
+  "address": "230 N Maple Ave, Marlton, NJ 08053",
+  "city": "Marlton",
+  "region": "New Jersey",
+  "country": "US",
+  "latitude": 39.914698,
+  "longitude": -74.927719,
+  "phone": "+18565942283",
+  "website": "http://golfcave.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770222678/golf_simulators/golfcave_com_ChIJF8mIPN81wYkR15f-zni2RxQ.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/GolfCave/@39.9146976,-74.92771859999999,14z/data=!4m8!1m2!2m1!1sGolfCave!3m4!1s0x89c135df3c88c917:0x1447b678cefe97d7!8m2!3d39.9146976!4d-74.92771859999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJF8mIPN81wYkR15f-zni2RxQ",
+  "email": "clark@golfcave.com",
+  "venue_type": "sim_bar",
+  "about": "GolfCave is a 24/7 indoor golf facility that offers private simulator bays equipped with TrackMan technology, allowing golfers to play on over 250 virtual courses or practice in a private setting. The venue provides a high-tech environment for both casual play and serious practice, with amenities including comfortable seating, BYOB policies, and options for lessons and club fittings. It is designed to be accessible for golfers of all skill levels, offering flexible booking and membership options to suit various needs and schedules.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|private_rooms|club_rentals|late_night|coaching_available",
+  "vibe_tags": "casual|welcoming|modern|tech_lab|community_club|private_luxury",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|solo_practice",
+  "why_golfers_like_it": [
+    "24/7 access for flexible practice and play at any time",
+    "Advanced TrackMan technology for precise ball and club tracking",
+    "Private, comfortable bays with BYOB policy for a relaxed social experience",
+    "Over 250 world-renowned golf courses available to play virtually",
+    "Personalized lessons and club fitting options for improvement"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "External food is allowed, as indicated by the BYOB policy"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "BYOB policy, allowing guests to bring their own alcohol"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Premium TrackMan simulator providing real-time metrics and data for practice and play"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://clients.uschedule.com/golfcave/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 45,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 12,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|lockers|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you are required to bring your own golf clubs as there are no club rentals available."
+    },
+    {
+      "question": "Can I bring food and drinks?",
+      "answer": "Yes, GolfCave operates on a BYOB (Bring Your Own Beverage) policy, and you are allowed to bring in external food."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes can vary depending on the number of players and pace, but it typically takes 1.5 to 2 hours for a standard round."
+    },
+    {
+      "question": "Is GolfCave kid-friendly?",
+      "answer": "Yes, GolfCave is kid-friendly and welcomes families, though younger children may require adult supervision during sessions."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"9AM-9:15PM\"], \"Tuesday\": [\"9AM-9:15PM\"], \"Wednesday\": [\"9AM-9:15PM\"], \"Thursday\": [\"9AM-9:15PM\"], \"Friday\": [\"9AM-9:15PM\"], \"Saturday\": [\"9AM-9:15PM\"], \"Sunday\": [\"9AM-9:15PM\"]}"
+}

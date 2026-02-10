@@ -1,0 +1,91 @@
+{
+  "name": "Drive Shack",
+  "address": "7285 Corner Dr, Orlando, FL 32827",
+  "city": "Orlando",
+  "region": "Florida",
+  "country": "US",
+  "latitude": 28.380368,
+  "longitude": -81.281222,
+  "phone": "+14075538820",
+  "website": "https://www.driveshack.com/locations/orlando",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770222766/golf_simulators/www_driveshack_com_ChIJR821SNuJ3YgRd7e58I2QYzY.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Drive+Shack/@28.380368299999997,-81.2812225,14z/data=!4m8!1m2!2m1!1sDrive+Shack!3m4!1s0x88dd89db48b5cd47:0x3663908df0b9b777!8m2!3d28.380368299999997!4d-81.2812225",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJR821SNuJ3YgRd7e58I2QYzY",
+  "email": "Rectangle-113@2x-768x966.png",
+  "venue_type": "sim_bar",
+  "about": "Drive Shack Orlando is a high-tech golf simulation venue located in Lake Nona, near Orlando International Airport and 20 minutes from downtown. It combines a golf experience with interactive games in an upscale sports bar environment, featuring a full menu of chef-inspired food and drinks. The venue offers climate-controlled hitting bays, a rooftop terrace and lounge, and flexible meeting spaces, making it suitable for both individual play and large group events. The facility is positioned as a premier destination for golf, dining, and social gatherings in the Orlando area.",
+  "tags": "food_and_drinks|corporate_events|premium_tech|upscale_lounge|party_atmosphere|beginner_friendly|families|large_groups|date_night",
+  "vibe_tags": "upscale_lounge|sports_bar|tech_lab|party_atmosphere",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "Premium TrackMan technology provides accurate ball and club data",
+    "Combines golf simulation with an interactive sports bar and games",
+    "Full-service restaurant and bar options available on-site",
+    "Upscale atmosphere with climate-controlled bays and a rooftop terrace",
+    "Suitable for both practice and social events"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full menu of chef-inspired food available, including digital access to the core menu"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with a variety of alcoholic beverages available"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "TrackMan",
+      "model": "iO",
+      "notes": "Premium launch monitor technology for accurate ball and club tracking"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://www.driveshack.com/locations/orlando",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 25,
+  "price_range_max_local": 50,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|rooftop_terrace|climate_controlled|events_space",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue does not specify whether club rentals are available. It is recommended to bring your own clubs or contact the venue directly to inquire about rental options."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, Drive Shack has a full-service kitchen and bar with chef-inspired food and drinks available for purchase."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes is not specified on the website. Duration can vary depending on the number of players and simulator software used."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Drive Shack is family-friendly and offers a casual atmosphere suitable for kids, along with food options for all ages."
+    }
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"3-11PM\"], \"Tuesday\": [\"3-11PM\"], \"Wednesday\": [\"3-11PM\"], \"Thursday\": [\"3-11PM\"], \"Friday\": [\"12-11PM\"], \"Saturday\": [\"10AM-11PM\"], \"Sunday\": [\"10AM-10PM\"]}"
+}

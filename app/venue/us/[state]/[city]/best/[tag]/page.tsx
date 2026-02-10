@@ -1,7 +1,6 @@
 import { Metadata } from "next";
 import { db, venueCardSelect } from "@/lib/db";
 import { BestByPageContent } from "@/components/seo/BestByPageContent";
-import { matchesTag } from "@/lib/best-by";
 import { getStateDisplayName, getStateAbbrevFromName } from "@/lib/states";
 import { getStaticRelatedLinks } from "@/lib/category-config.generated";
 
@@ -10,7 +9,7 @@ interface CityBestTagPageProps {
   searchParams?: Promise<Record<string, string | string[] | undefined>>;
 }
 
-export const revalidate = 3600;
+export const revalidate = 86400;
 
 // Tag-specific descriptions for city pages
 const tagDescriptions: Record<string, string> = {
@@ -49,37 +48,45 @@ export async function generateMetadata({ params }: CityBestTagPageProps): Promis
 export default async function CityBestTagPage({ params, searchParams }: CityBestTagPageProps) {
   const paramsResolved = (await searchParams) || {};
   const page = Math.max(1, Number(paramsResolved.page || 1));
+  const pageSize = 12;
   const { state, city, tag } = await params;
   const stateAbbrev = getStateAbbrevFromName(state) || state.toUpperCase();
   const stateName = getStateDisplayName(stateAbbrev);
   const cityFormatted = city.replace(/-/g, " ").replace(/\b\w/g, l => l.toUpperCase());
   const tagLabel = tag.replace(/-/g, " ").replace(/\b\w/g, l => l.toUpperCase());
   const tagDesc = tagDescriptions[tag] || `venues perfect for ${tagLabel.toLowerCase()}`;
+  const tagVariants = Array.from(new Set([tag, tag.replace(/-/g, "_"), tag.replace(/_/g, "-")]));
+  const skip = (page - 1) * pageSize;
 
-  const venues = await db.venue.findMany({
-    where: {
-      city: { equals: cityFormatted, mode: "insensitive" },
-      state: stateAbbrev.toUpperCase(),
-      country: "US",
-      status: "active",
-    },
-    orderBy: [{ featured: "desc" }, { ratingOverall: "desc" }, { name: "asc" }],
-    select: venueCardSelect,
-  });
+  const where = {
+    city: { equals: cityFormatted, mode: "insensitive" as const },
+    state: stateAbbrev.toUpperCase(),
+    country: "US" as const,
+    status: "active" as const,
+    tags: { hasSome: tagVariants },
+  };
 
-  const filteredVenues = venues.filter((venue) => matchesTag(venue, tag));
-
-  const nearbyCitiesResult = await db.venue.findMany({
-    where: {
-      state: stateAbbrev.toUpperCase(),
-      country: "US",
-      status: "active",
-      NOT: { city: { equals: cityFormatted, mode: "insensitive" } },
-    },
-    select: { city: true },
-    distinct: ["city"],
-    take: 6,
-  });
+  const [totalVenues, venues, nearbyCitiesResult] = await Promise.all([
+    db.venue.count({ where }),
+    db.venue.findMany({
+      where,
+      orderBy: [{ featured: "desc" }, { ratingOverall: "desc" }, { name: "asc" }],
+      select: venueCardSelect,
+      take: pageSize,
+      skip,
+    }),
+    db.venue.findMany({
+      where: {
+        state: stateAbbrev.toUpperCase(),
+        country: "US",
+        status: "active",
+        NOT: { city: { equals: cityFormatted, mode: "insensitive" } },
+      },
+      select: { city: true },
+      distinct: ["city"],
+      take: 6,
+    }),
+  ]);
 
   const nearbyLinks = nearbyCitiesResult.map((c) => ({
     label: `${tagLabel} in ${c.city}`,
@@ -97,7 +104,7 @@ export default async function CityBestTagPage({ params, searchParams }: CityBest
   const faqItems = [
     {
       question: `How many ${tagLabel.toLowerCase()} venues are in ${cityFormatted}?`,
-      answer: `We found ${filteredVenues.length} venues tagged for ${tagLabel.toLowerCase()} in ${cityFormatted}. Check the full city listing for more options that might match your needs.`,
+      answer: `We found ${totalVenues} venues tagged for ${tagLabel.toLowerCase()} in ${cityFormatted}. Check the full city listing for more options that might match your needs.`,
     },
     {
       question: `What makes a ${cityFormatted} venue good for ${tagLabel.toLowerCase()}?`,
@@ -123,7 +130,7 @@ export default async function CityBestTagPage({ params, searchParams }: CityBest
   return (
     <BestByPageContent
       title={`Best ${tagLabel} Golf Simulators in ${cityFormatted}`}
-      description={`Discover ${filteredVenues.length} ${tagDesc} in ${cityFormatted}, ${stateName}. Compare amenities, check prices, and book your session.`}
+      description={`Discover ${totalVenues} ${tagDesc} in ${cityFormatted}, ${stateName}. Compare amenities, check prices, and book your session.`}
       guidancePoints={[
         "Check booking links and call ahead for popular time slots.",
         "Compare amenities like food, drinks, and private rooms.",
@@ -139,13 +146,15 @@ export default async function CityBestTagPage({ params, searchParams }: CityBest
       ctaDescription={`Claim your listing to appear in ${cityFormatted}'s best-by collections and attract local golfers.`}
       ctaPrimary={{ label: "Claim Your Listing", href: "/claim" }}
       ctaSecondary={{ label: "Submit New Venue", href: "/submit" }}
-      venues={filteredVenues}
+      venues={venues}
+      totalVenues={totalVenues}
       categoryType="tag"
       categoryValue={tag}
       heroSubtitle={`${cityFormatted}, ${stateName}`}
       breadcrumbItems={breadcrumbs}
       showRanking={true}
       currentPage={page}
+      pageSize={pageSize}
       baseUrl={`/venue/us/${state}/${city}/best/${tag}`}
     />
   );

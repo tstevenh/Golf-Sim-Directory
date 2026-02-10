@@ -1,0 +1,95 @@
+{
+  "name": "Swing Fit Golf Club",
+  "address": "11125 Kenwood Rd, Blue Ash, OH 45242",
+  "city": "Blue Ash",
+  "region": "Ohio",
+  "country": "US",
+  "latitude": 39.267899,
+  "longitude": -84.374954,
+  "phone": "+15138155855",
+  "website": "https://swingfitgolfclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770211136/golf_simulators/swingfitgolfclub_com_ChIJdelnJFJTQIgRqovf3TndKYI.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Swing+Fit+Golf+Club/@39.2678985,-84.37495419999999,14z/data=!4m8!1m2!2m1!1sSwing+Fit+Golf+Club!3m4!1s0x884053522467e975:0x8229dd39dddf8baa!8m2!3d39.2678985!4d-84.37495419999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJdelnJFJTQIgRqovf3TndKYI",
+  "email": "info@swingfitgolfclub.com",
+  "venue_type": "training_studio",
+  "about": "Swing Fit Golf Club is an indoor golf training facility and academy located in Blue Ash, Ohio. It offers a comprehensive range of services including golf lessons with PGA and LPGA professionals, advanced club fitting through their '50 Yards Longer' program, and indoor simulator bays equipped with TrackMan technology. The facility caters to golfers of all skill levels, from beginners to serious players, and provides programs for juniors and adults alike. With a focus on technology-driven instruction and practice, Swing Fit combines professional coaching with high-performance equipment to deliver a premium golf development experience. The venue emphasizes custom-tailored training programs and utilizes advanced tools like TrackMan and PuttView to enhance player performance and understanding of the game.",
+  "tags": "beginner_friendly|serious_practice|junior_friendly|corporate_events|premium_tech|coaching_available|club_fitting|simulator_rentals",
+  "vibe_tags": "tech_lab|community_club|modern",
+  "who_its_for": "beginners|serious_golfers|juniors_youth|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Access to premium TrackMan technology for accurate shot analysis and simulation",
+    "Custom-tailored training programs with PGA and LPGA professional instructors",
+    "Comprehensive club fitting services with recognized expertise from '50 Yards Longer'",
+    "Junior golf programs and a dedicated academy for young players",
+    "Indoor facilities available year-round regardless of weather"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned; BYOB policy not specified"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned; BYOB policy not specified"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "TrackMan",
+      "model": "unknown",
+      "notes": "Premium radar-based launch monitor with indoor simulation capabilities"
+    }
+  ],
+  "simulator_so": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://app.acuityscheduling.com/schedule.php?owner=21052322",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|pro_shop|club_fitting|leagues|coaching_available|simulator_rentals",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you'll need to bring your own golf equipment for simulator sessions and lessons. Club rentals are not mentioned as a standard service."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The website does not specify a food and beverage policy. It's recommended to contact the venue directly for details on outside food and drink."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "While not explicitly stated on the website, typical indoor golf simulator sessions for 18 holes generally range from 1.5 to 2.5 hours depending on the number of players and pace of play."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, Swing Fit offers junior golf programs and specific lessons for young players, making it family-friendly. There's a dedicated section for junior golf on their website."
+    }
+  ],
+  "simulator_software": [
+    "TrackMan"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"8AM-9PM\"], \"Tuesday\": [\"8AM-9PM\"], \"Wednesday\": [\"8AM-9PM\"], \"Thursday\": [\"8AM-9PM\"], \"Friday\": [\"8AM-9PM\"], \"Saturday\": [\"10AM-6PM\"], \"Sunday\": [\"10AM-6PM\"]}"
+}

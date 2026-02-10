@@ -1,0 +1,92 @@
+{
+  "name": "The 19th Greene",
+  "address": "75 Visitors Center Dr, McHenry, MD 21541",
+  "city": "McHenry",
+  "region": "Maryland",
+  "country": "US",
+  "latitude": 39.560558,
+  "longitude": -79.358529,
+  "phone": "+13014091883",
+  "website": "https://19thgreene.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770203448/golf_simulators/19thgreene_com_ChIJs6E0g2GryokRrrms1kfYYuQ.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+19th+Greene/@39.560558199999996,-79.35852899999999,14z/data=!4m8!1m2!2m1!1sThe+19th+Greene!3m4!1s0x89caab618334a1b3:0xe462d847d6acb9ae!8m2!3d39.560558199999996!4d-79.35852899999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJs6E0g2GryokRrrms1kfYYuQ",
+  "email": "Info@19thgreene.com",
+  "venue_type": "sim_bar",
+  "about": "The 19th Greene is an indoor golf facility located inside The Greene Turtle restaurant in Deep Creek, Maryland. It utilizes Trackman technology to offer a golfing experience with access to over 200 iconic courses. The venue is designed to be a year-round option, particularly for those looking to play during inclement weather or the off-season. Pricing operates on a per-bay-hour basis, with memberships also available that provide access to the simulators. It is best suited for individuals and groups looking for a casual golf outing combined with dining and social atmosphere.",
+  "tags": "food_and_drinks|beginner_friendly|families|corporate_events|premium_tech|date_night|kids_friendly",
+  "vibe_tags": "sports_bar|family_fun_center|tech_lab",
+  "who_its_for": "beginners|families|large_groups|solo_practice|tourists_travelers",
+  "why_golfers_like_it": [
+    "Access to 200+ iconic courses via advanced Trackman technology",
+    "Indoor play available regardless of weather",
+    "Combined golf and dining experience in one venue"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full food and drink service available through The Greene Turtle restaurant, which is located within the facility."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available through The Greene Turtle restaurant."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Cutting-edge radar-based launch monitor providing unmatched accuracy for tracking ball and club data."
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://booking.trackmangolf.com/venues/the-19th-greene/booking/bays",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|pro_shop|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue does not mention club rentals, so it is recommended to bring your own clubs for the best experience."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, outside food and drinks are not permitted. The venue offers a full food and bar service through The Greene Turtle restaurant."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "A typical 18-hole round of golf can take approximately 1-2 hours, depending on the course and number of players."
+    },
+    {
+      "question": "Is this place kid-friendly?",
+      "answer": "Yes, The 19th Greene is kid-friendly and offers a dedicated bay where children can play Nintendo Switch video games for $35/hr."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"11AM-9PM\"], \"Tuesday\": [\"11AM-9PM\"], \"Wednesday\": [\"11AM-9PM\"], \"Thursday\": [\"11AM-9PM\"], \"Friday\": [\"11AM-10PM\"], \"Saturday\": [\"11AM-10PM\"], \"Sunday\": [\"11AM-9PM\"]}"
+}

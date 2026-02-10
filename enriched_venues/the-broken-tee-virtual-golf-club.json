@@ -1,0 +1,93 @@
+{
+  "name": "The Broken Tee Virtual Golf Club",
+  "address": "166 County St, Lakeville, MA 02347",
+  "city": "Lakeville",
+  "region": "Massachusetts",
+  "country": "US",
+  "latitude": 41.806918,
+  "longitude": -70.969695,
+  "phone": "+15089234653",
+  "website": "http://www.thebrokentee.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770200269/golf_simulators/www_thebrokentee_com_ChIJx8QJKdrt5IkROUfPtsFjsxM.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Broken+Tee+Virtual+Golf+Club/@41.8069182,-70.9696945,14z/data=!4m8!1m2!2m1!1sThe+Broken+Tee+Virtual+Golf+Club!3m4!1s0x89e4edda2909c4c7:0x13b363c1b6cf4739!8m2!3d41.8069182!4d-70.9696945",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJx8QJKdrt5IkROUfPtsFjsxM",
+  "venue_type": "sim_bar",
+  "about": "The Broken Tee Virtual Golf Club is an indoor golf simulator venue located in Lakeville, MA. It features four Full Swing simulators with access to over 50 championship golf courses. The facility offers a relaxed atmosphere with lounge seating, televisions for sports viewing, and a selection of craft beers and snacks available for purchase. Food can be ordered from a neighboring restaurant. Patrons can book simulators by the hour or half-hour for play, practice, or lessons.",
+  "tags": "food_and_drinks|beginner_friendly|leagues|coaching_available|serious_golfers|corporate_events|date_night|community_club",
+  "vibe_tags": "sports_bar|casual|welcoming|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Full Swing simulators provide a high-quality and realistic golf experience with dual tracking technology.",
+    "Extensive selection of over 50 world-class golf courses to choose from.",
+    "Relaxed social atmosphere with a full bar featuring a great selection of craft beers.",
+    "PGA professional instruction is available for private and group lessons.",
+    "No rush to finish, allowing for a leisurely and enjoyable round of golf."
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Snacks available on-site; pizzas, sandwiches, and appetizers can be ordered from Fat Cousins next door."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with a variety of craft beers, drinks, and snacks available for purchase."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Full Swing",
+      "model": "K-Series",
+      "notes": "Four simulators featuring dual tracking and real-time ball flight technology."
+    }
+  ],
+  "simulator_so": [
+    "Full Swing Golf"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 4,
+  "booking_url": "http://www.my-bookings.net/cgi-bin/scheduling/thebrokentee/schedule.cgi",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": null,
+  "price_range_max_local": null,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "tv_sports|full_bar|kitchen_food|club_rentals|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own golf clubs?",
+      "answer": "The provided content does not specify whether they provide loaner clubs, but it is standard practice for golf simulator venues to allow players to bring their own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "The venue offers a variety of drinks, beers, and snacks for purchase. You can also order pizzas, sandwiches, and appetizers from Fat Cousins next door."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "On average, it takes 1 hour per person to play 18 holes, assuming a 15 handicap or less. For example, 2 golfers will take 2 hours to play 18 holes."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "The venue does not specify policies or features aimed at children, so it is difficult to determine its suitability for families."
+    }
+  ],
+  "simulator_software": [
+    "Full Swing Golf proprietary software"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-9PM\"], \"Tuesday\": [\"10AM-9PM\"], \"Wednesday\": [\"10AM-9PM\"], \"Thursday\": [\"10AM-9PM\"], \"Friday\": [\"10AM-9PM\"], \"Saturday\": [\"10AM-9PM\"], \"Sunday\": [\"10AM-8PM\"]}"
+}

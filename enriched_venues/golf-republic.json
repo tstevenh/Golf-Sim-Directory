@@ -1,0 +1,90 @@
+{
+  "name": "Golf Republic",
+  "address": "343 NJ-34, Matawan, NJ 07747",
+  "city": "Matawan",
+  "region": "New Jersey",
+  "country": "US",
+  "latitude": 40.424773,
+  "longitude": -74.270079,
+  "phone": "+17325842090",
+  "website": "https://mygolfrepublic.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770213788/golf_simulators/mygolfrepublic_com_ChIJG9BdFwvNw4kRSqcba2_WM8k.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Golf+Republic/@40.4247729,-74.270079,14z/data=!4m8!1m2!2m1!1sGolf+Republic!3m4!1s0x89c3cd0b175dd01b:0xc933d66f6b1ba74a!8m2!3d40.4247729!4d-74.270079",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJG9BdFwvNw4kRSqcba2_WM8k",
+  "email": "info@mygolfrepublic.com",
+  "venue_type": "sim_bar",
+  "about": "Golf Republic is an indoor golf facility in the Middlesex and Monmouth Counties area, featuring seven state-of-the-art Trackman iO bays designed and installed by Trackman. The venue offers a range of services including practice facilities, golf instruction, game modes, leagues, and event hosting. It is designed to be an inviting and welcoming space for all levels of golfers, providing opportunities to learn, improve skills, or enjoy a round of golf with friends. The facility also operates on a membership model with benefits like reduced hourly rates, advanced booking, and exclusive member play days at private clubs.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|coaching_available|club_rentals|community_club",
+  "vibe_tags": "sports_bar|community_club|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "State-of-the-art Trackman iO technology for precise shot analysis",
+    "Membership benefits include reduced rates and access to exclusive private club play days",
+    "Welcoming environment suitable for all skill levels with professional coaching available"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No on-site kitchen mentioned, but holiday party packages suggest external catering may be possible."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "BYOB (Bring Your Own Beverage) policy for social areas."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "6 open bays and 1 private simulator room, designed and installed by Trackman."
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 7,
+  "booking_url": "https://clients.uschedule.com/golfrepublic/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|lockers|wifi|pro_shop|club_fitting|leagues|ada_accessible|byob_social_area",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "It is not explicitly stated whether clubs are provided, but members and guests typically bring their own equipment for practice and gameplay."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, the facility has a BYOB (Bring Your Own Beverage) policy for its social area. External food arrangements may be possible for events."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time required to play 18 holes is not specified on the website, as it can vary based on simulator usage and the number of players in a bay."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "The venue does not explicitly advertise kid-specific features or programs, making its suitability for families with children unclear."
+    }
+  ],
+  "simulator_software": [
+    "Trackman Performance Studio"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"9AM-10PM\"], \"Saturday\": [\"9AM-10PM\"], \"Sunday\": [\"9AM-10PM\"]}"
+}

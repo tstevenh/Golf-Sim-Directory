@@ -1,0 +1,91 @@
+{
+  "name": "Alling Golf Club",
+  "address": "35 Eastern St, New Haven, CT 06513",
+  "city": "New Haven",
+  "region": "Connecticut",
+  "country": "US",
+  "latitude": 41.308264,
+  "longitude": -72.873016,
+  "phone": "+12039468014",
+  "website": "http://www.allinggolfclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770227158/golf_simulators/www_allinggolfclub_com_ChIJW9hAyBHX54kRJXkG-UhbzbQ.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Alling+Golf+Club/@41.308264199999996,-72.8730164,14z/data=!4m8!1m2!2m1!1sAlling+Golf+Club!3m4!1s0x89e7d711c840d85b:0xb4cd5b48f9067925!8m2!3d41.308264199999996!4d-72.8730164",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJW9hAyBHX54kRJXkG-UhbzbQ",
+  "email": "info@allinggolfclub.com",
+  "venue_type": "sim_bar",
+  "about": "Alling Golf Club is a golf facility that operates as a country club with an attached simulator bay. The venue caters to both on-course golfers and simulator users, offering memberships and public access. It features a bar and grill for dining and social purposes. The technology offering includes a Trackman simulator bay, which provides an indoor golf experience. The club offers various rates including twilight, resident, non-resident, and season pass options, with a focus on accessibility for different player types and family units.",
+  "tags": "beginner_friendly|food_and_drinks|families|corporate_events|leagues|premium_tech|budget_friendly|community_club|juniors_youth",
+  "vibe_tags": "sports_bar|family_fun_center|community_club",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "Premium Trackman simulator technology for realistic practice and play",
+    "Dedicated booking system for convenient tee time and simulator bay reservations",
+    "Family-friendly environment with special rates for juniors and family memberships",
+    "Comprehensive golf offerings including on-course play and indoor simulation"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "On-site restaurant 'The Cove Bar & Grill' available"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Bar service available at The Cove Bar & Grill"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Primary simulator technology"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 1,
+  "booking_url": "https://booking.lightspeed.app/f5d905df-4581-45ac-8a39-cfb673be0fee",
+  "pricing_model": "mixed",
+  "price_range_min_local": 15,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "full_bar|kitchen_food|tv_sports|leagues|club_rentals",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The provided content does not specify whether clubs are provided for the simulator bay. It is recommended to bring your own clubs for the best experience."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue has an on-site bar and grill called 'The Cove Bar & Grill', but it does not specify if outside food and drinks are permitted. BYOB policy is not mentioned."
+    },
+    {
+      "question": "How long does it take to play 18 holes on the simulator?",
+      "answer": "The content does not specify the duration for playing 18 holes on the simulator bay. Typically, simulator play can vary based on the number of players and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Alling Golf Club is kid-friendly, offering free entry for juniors age 12 and under, discounted rates for ages 13-17, and a family membership option."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": null
+}

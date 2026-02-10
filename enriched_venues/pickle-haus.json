@@ -1,0 +1,90 @@
+{
+  "name": "Pickle Haus",
+  "address": "1621 Randall Rd, Algonquin, IL 60102",
+  "city": "Algonquin",
+  "region": "Illinois",
+  "country": "US",
+  "latitude": 42.150917,
+  "longitude": -88.332581,
+  "phone": "+18155759570",
+  "website": "https://www.picklehaus.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770246796/golf_simulators/www_picklehaus_com_ChIJqf-1dycTD4gR07ic3SEWuM0.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Pickle+Haus/@42.1509165,-88.33258119999999,14z/data=!4m8!1m2!2m1!1sPickle+Haus!3m4!1s0x880f132777b5ffa9:0xcdb81621dd9cb8d3!8m2!3d42.1509165!4d-88.33258119999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJqf-1dycTD4gR07ic3SEWuM0",
+  "email": "events@picklehaus.com",
+  "venue_type": "sim_bar",
+  "about": "Pickle Haüs is a multi-sport 'eatertainment' venue in Algonquin, IL, combining pickleball and indoor golf with a full-service restaurant and bar. The facility features 12 pickleball courts and two dual-bay golf simulator suites, offering a comprehensive entertainment experience. Operations are managed via a dedicated mobile app, with a focus on providing options for various skill levels, including leagues, clinics, private lessons, and memberships.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|private_rooms|coaching_available|community_club",
+  "vibe_tags": "sports_bar|family_fun_center|tech_lab|community_club",
+  "who_its_for": "beginners|families|corporate_teams|large_groups|solo_practice",
+  "why_golfers_like_it": [
+    "State-of-the-art Full Swing simulators are officially licensed by the PGA Tour",
+    "Immersive golf experience with iconic courses available to play",
+    "On-site coaching available with real-time feedback for skill improvement",
+    "Integrated 'eatertainment' allows for a full day of golf and dining"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full-service kitchen with a menu available in the restaurant, outdoor patio, and golf bays"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full-service bar with specialty cocktails and an extensive drink menu"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Full Swing",
+      "model": "TruFlight",
+      "notes": "Two dual-bay simulator suites, officially licensed by the PGA Tour and endorsed by Tiger Woods"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": "unknown",
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 2,
+  "booking_url": "https://picklehaus.podplay.app/book",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|kitchen_food|private_party_room|tv_sports|leagues|coaching_available",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own golf clubs?",
+      "answer": "Yes, you should bring your own clubs. However, the venue may offer rentals or demo equipment; it is best to check directly with them before your visit."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No, outside food and drinks are not permitted. The venue has a full-service kitchen and bar offering a variety of food and beverage options."
+    },
+    {
+      "question": "How long does an 18-hole round take?",
+      "answer": "An 18-hole golf simulation typically takes 60-90 minutes, depending on the number of players in your group and the pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Pickle Haüs is designed to be family-friendly, catering to all skill levels and featuring amenities like pickleball courts that are suitable for children."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"7AM-10PM\"], \"Tuesday\": [\"7AM-10PM\"], \"Wednesday\": [\"7AM-10PM\"], \"Thursday\": [\"7AM-10PM\"], \"Friday\": [\"7AM-10PM\"], \"Saturday\": [\"7AM-10PM\"], \"Sunday\": [\"7AM-9PM\"]}"
+}

@@ -1,0 +1,89 @@
+{
+  "name": "The Ponderosa Club",
+  "address": "109 E 3rd Ave Unit #3, Ellensburg, WA 98926",
+  "city": "Ellensburg",
+  "region": "Washington",
+  "country": "US",
+  "latitude": 46.994699,
+  "longitude": -120.546382,
+  "phone": null,
+  "website": "https://tpcellensburg.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770232221/golf_simulators/tpcellensburg_com_ChIJpwUpdYfzmVQRtS3WHJfHaWo.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Ponderosa+Club/@46.994698899999996,-120.5463819,14z/data=!4m8!1m2!2m1!1sThe+Ponderosa+Club!3m4!1s0x5499f387752905a7:0x6a69c7971cd62db5!8m2!3d46.994698899999996!4d-120.5463819",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJpwUpdYfzmVQRtS3WHJfHaWo",
+  "email": "info@tpcellensburg.com",
+  "venue_type": "sim_bar",
+  "about": "The Ponderosa Club (TPC) is an exclusive, membership-based golf simulator venue in Ellensburg, WA, offering year-round play in climate-controlled comfort. It features two simulator bays equipped with high-end technology, including Uneekor EYE X02 launch monitors and GSPRO software, providing access to over 1,500 virtual courses. The club operates on a 24/7 booking system, with capacity for four golfers per bay or up to 12 for private events. Members enjoy personalized lockers, a bespoke atmosphere with custom woodwork and local art, and the ability to bring non-member guests.",
+  "tags": "serious_golfers|food_and_drinks|private_rooms|club_rentals|coaching_available|premium_tech|corporate_events",
+  "vibe_tags": "private_luxury|community_club|upscale_lounge",
+  "who_its_for": "serious_golfers|corporate_teams|families|solo_practice",
+  "why_golfers_like_it": [
+    "State-of-the-art Uneekor EYE X02 launch monitors with 25 data points for precise tracking",
+    "24/7 access to two simulator bays with personalized 6-digit entry codes",
+    "Bespoke atmosphere with high-end furnishings, local art, and a luxury feel"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Outside food is permitted; local restaurant menus and delivery options are available"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Outside alcohol is permitted; venue will also be stocked with beer, wine, and non-alcoholic beverages for purchase via an honor system"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "EYE X02",
+      "notes": "Uses three high-speed cameras and infrared light for precision accuracy"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "infrared_optical",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://foreupsoftware.com/index.php/booking/22407#/login",
+  "pricing_model": "membership_only",
+  "price_range_min_local": 14,
+  "price_range_max_local": 15,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|lockers|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, members are expected to bring their own golf clubs and equipment, as each member receives a personalized locker for storage."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, outside food and beverages are permitted. Alcohol is also allowed to be brought in, and the venue will have snacks and drinks available for purchase via an honor-based point-of-sale system."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes will depend on your pace and the simulator software, but bookings are made in half-hour increments, so members can book multiple slots as needed."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The Ponderosa Club is an exclusive, adult-focused venue. While it may accommodate older children in a family setting, the primary atmosphere and amenities are geared toward adults and serious golfers."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": null
+}

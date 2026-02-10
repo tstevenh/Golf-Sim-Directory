@@ -1,0 +1,84 @@
+{
+  "name": "X-Golf Brighton",
+  "address": "9760 Village Pl Blvd, Brighton, MI 48116",
+  "city": "Brighton",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 42.508949,
+  "longitude": -83.755146,
+  "phone": "+18103600829",
+  "website": "https://playxgolf.com/locations/brighton/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770220570/golf_simulators/playxgolf_com_ChIJ55c8i7hRI4gRR-yS-K232Rc.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/X-Golf+Brighton/@42.5089494,-83.75514559999999,14z/data=!4m8!1m2!2m1!1sX-Golf+Brighton!3m4!1s0x882351b88b3c97e7:0x17d9b7adf892ec47!8m2!3d42.5089494!4d-83.75514559999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ55c8i7hRI4gRR-yS-K232Rc",
+  "email": "info@xgolfbrighton.com",
+  "venue_type": "sim_bar",
+  "about": "X-Golf Brighton offers a high-tech indoor golf experience using advanced camera systems, infrared lasers, and impact sensors to provide accurate and realistic simulations. The venue operates on a pay-per-bay-hour model, with each simulator accommodating up to six players. It features a full bar and restaurant, making it suitable for social events, corporate outings, and casual play. The facility is equipped with seven simulators, including a private VIP bay known as The Gilmore Bay, and offers golf lessons provided by PGA-certified instructors.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|private_rooms|club_rentals|coaching_available",
+  "vibe_tags": "sports_bar|family_fun_center|community_club|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|large_groups",
+  "why_golfers_like_it": [
+    "State-of-the-art simulator technology with unparalleled accuracy",
+    "Flexible private VIP bay for groups and special events",
+    "Full bar and food menu available on-site",
+    "PGA-certified coaching and lessons for skill improvement"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full food menu with shareable bites, appetizers, snacks, and pizzas."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with 8 beer taps, cocktails, and wines available."
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "auto_putt",
+  "lefty_friendly": true,
+  "bay_count_total": 7,
+  "booking_url": "https://clients.uschedule.com/xgolfbrighton/booking?filter=loc[11342]",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 40,
+  "price_range_max_local": 80,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|private_party_room|leagues|coaching_available",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, club rentals are available if needed."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No, outside food and drinks are not permitted. The venue has a full bar and kitchen on-site."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "It generally takes about 1 hour per individual to play 18 holes. For groups, allow 1 hour per player."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, X-Golf Brighton welcomes children of all ages."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"9AM-12AM\"], \"Saturday\": [\"9AM-12AM\"], \"Sunday\": [\"9AM-10PM\"]}"
+}

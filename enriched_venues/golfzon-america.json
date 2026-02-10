@@ -1,0 +1,98 @@
+{
+  "name": "GOLFZON America",
+  "address": "3863 Centerview Dr #300, Chantilly, VA 20151",
+  "city": "Chantilly",
+  "region": "Virginia",
+  "country": "US",
+  "latitude": 38.897774,
+  "longitude": -77.429574,
+  "phone": "+18336934653",
+  "website": "http://www.golfzongolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770237786/golf_simulators/www_golfzongolf_com_ChIJT0DIvThHtokR4i_eo16sIdQ.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/GOLFZON+America/@38.8977736,-77.42957419999999,14z/data=!4m8!1m2!2m1!1sGOLFZON+America!3m4!1s0x89b64738bdc8404f:0xd421ac5ea3de2fe2!8m2!3d38.8977736!4d-77.42957419999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJT0DIvThHtokR4i_eo16sIdQ",
+  "email": "privacy@golfzon.com",
+  "venue_type": "sim_bar",
+  "about": "GOLFZON America is a premier provider of high-tech golf simulator experiences, utilizing advanced sensor technology and Unreal Engine 5 for realistic graphics and ball dynamics. Their simulators are designed for both home and commercial use, featuring high-definition dual sensors like the TwoVision and GDR Sensor to provide accurate swing and ball flight data. The venues offer a range of simulator types for various spaces, from home and garage setups to commercial entertainment spaces with on-site bars and restaurants, catering to both casual players and serious golfers seeking a technologically advanced practice environment.",
+  "tags": "premium_tech|food_and_drinks|beginner_friendly|families|corporate_events|private_rooms|coaching_available|date_night",
+  "vibe_tags": "upscale_lounge|tech_lab|family_fun_center|sports_bar",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Advanced dual sensor technology provides precise data for realistic swing analysis",
+    "Unreal Engine 5 graphics offer an immersive experience with lifelike course environments",
+    "Variety of game modes including challenges, junior tee-box, and arcade options for different skill levels"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "On-site kitchen available at commercial venues"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar available at commercial and entertainment venues"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Golfzon",
+      "model": "TwoVision Sensor",
+      "notes": "High-speed, high-definition dual sensors for accurate data collection"
+    },
+    {
+      "brand": "Golfzon",
+      "model": "GDR Sensor",
+      "notes": "Provides accurate and diverse swing analysis data"
+    }
+  ],
+  "simulator_so": [
+    "GDR Software",
+    "myPRACTICE"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "mixed",
+  "lefty_friendly": true,
+  "bay_count_total": 10,
+  "booking_url": "https://www.global.golfzon.com/stores/stores-map",
+  "pricing_model": "mixed",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you will need to bring your own golf clubs to use with the simulator."
+    },
+    {
+      "question": "Can I bring my own food or drink?",
+      "answer": "Commercial venues have on-site kitchens and bars, but outside food and drink policies may vary."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time for 18 holes can vary based on simulator type and pace of play, but typically ranges from 2-3 hours."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Golfzon venues feature junior tee-box and arcade modes, making them suitable for family entertainment."
+    }
+  ],
+  "simulator_software": [
+    "GOLFZON Vision / GDR"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-5PM\"], \"Tuesday\": [\"9AM-5PM\"], \"Wednesday\": [\"9AM-5PM\"], \"Thursday\": [\"9AM-5PM\"], \"Friday\": [\"9AM-5PM\"], \"Saturday\": [\"Closed\"], \"Sunday\": [\"Closed\"]}"
+}

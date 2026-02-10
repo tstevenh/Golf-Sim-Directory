@@ -1,16 +1,19 @@
 import { Metadata } from "next";
+import { Prisma } from "@prisma/client";
 import { db, venueCardSelect } from "@/lib/db";
 import { BestByPageContent } from "@/components/seo/BestByPageContent";
 import { matchesHardware } from "@/lib/best-by";
 import { getStateDisplayName, getStateAbbrevFromName } from "@/lib/states";
 import { getStaticRelatedLinks } from "@/lib/category-config.generated";
+import { normalizeHardwareBrand } from "@/lib/hardware-brands";
 
 interface CityBestHardwarePageProps {
   params: Promise<{ state: string; city: string; brand: string }>;
   searchParams?: Promise<Record<string, string | string[] | undefined>>;
 }
 
-export const revalidate = 3600;
+export const revalidate = 86400;
+type VenueCardRow = Prisma.VenueGetPayload<{ select: typeof venueCardSelect }>;
 
 // Hardware-specific descriptions
 const hardwareDescriptions: Record<string, string> = {
@@ -50,25 +53,53 @@ export async function generateMetadata({ params }: CityBestHardwarePageProps): P
 export default async function CityBestHardwarePage({ params, searchParams }: CityBestHardwarePageProps) {
   const paramsResolved = (await searchParams) || {};
   const page = Math.max(1, Number(paramsResolved.page || 1));
+  const pageSize = 12;
   const { state, city, brand } = await params;
   const stateAbbrev = getStateAbbrevFromName(state) || state.toUpperCase();
   const stateName = getStateDisplayName(stateAbbrev);
   const cityFormatted = city.replace(/-/g, " ").replace(/\b\w/g, l => l.toUpperCase());
   const brandLabel = brand.replace(/-/g, " ").replace(/\b\w/g, l => l.toUpperCase());
   const brandDesc = hardwareDescriptions[brand.toLowerCase()] || "quality simulator hardware";
+  const skip = (page - 1) * pageSize;
+  const canRawQuery = typeof (db as unknown as { $queryRaw?: unknown }).$queryRaw === "function";
+  const normalizedBrand = normalizeHardwareBrand(brandLabel);
 
-  const venues = await db.venue.findMany({
-    where: {
-      city: { equals: cityFormatted, mode: "insensitive" },
+  let totalVenues = 0;
+  let venues: VenueCardRow[] = [];
+
+  if (canRawQuery && normalizedBrand) {
+    const where = {
+      city: { equals: cityFormatted, mode: "insensitive" as const },
       state: stateAbbrev.toUpperCase(),
-      country: "US",
-      status: "active",
-    },
-    orderBy: [{ featured: "desc" }, { ratingOverall: "desc" }, { name: "asc" }],
-    select: venueCardSelect,
-  });
-
-  const filteredVenues = venues.filter((venue) => matchesHardware(venue, brandLabel));
+      country: "US" as const,
+      status: "active" as const,
+      hardwareBrands: { has: normalizedBrand },
+    };
+    [totalVenues, venues] = await Promise.all([
+      db.venue.count({ where }),
+      db.venue.findMany({
+        where,
+        orderBy: [{ featured: "desc" }, { ratingOverall: "desc" }, { name: "asc" }],
+        select: venueCardSelect,
+        take: pageSize,
+        skip,
+      }),
+    ]);
+  } else {
+    const allVenues = await db.venue.findMany({
+      where: {
+        city: { equals: cityFormatted, mode: "insensitive" },
+        state: stateAbbrev.toUpperCase(),
+        country: "US",
+        status: "active",
+      },
+      orderBy: [{ featured: "desc" }, { ratingOverall: "desc" }, { name: "asc" }],
+      select: venueCardSelect,
+    });
+    const filteredVenues = allVenues.filter((venue) => matchesHardware(venue, brandLabel));
+    totalVenues = filteredVenues.length;
+    venues = filteredVenues.slice(skip, skip + pageSize);
+  }
 
   const nearbyCitiesResult = await db.venue.findMany({
     where: {
@@ -102,7 +133,7 @@ export default async function CityBestHardwarePage({ params, searchParams }: Cit
     },
     {
       question: `How many ${brandLabel} venues are in ${cityFormatted}?`,
-      answer: `We found ${filteredVenues.length} venues listing ${brandLabel} hardware in ${cityFormatted}. Hardware details may vary by bay — always confirm when booking.`,
+      answer: `We found ${totalVenues} venues listing ${brandLabel} hardware in ${cityFormatted}. Hardware details may vary by bay — always confirm when booking.`,
     },
     {
       question: "Do all bays at a venue use the same hardware?",
@@ -124,7 +155,7 @@ export default async function CityBestHardwarePage({ params, searchParams }: Cit
   return (
     <BestByPageContent
       title={`Best ${brandLabel} Golf Simulators in ${cityFormatted}`}
-      description={`Discover ${filteredVenues.length} venues in ${cityFormatted}, ${stateName} using ${brandLabel} hardware. ${brandDesc}. Compare and book your session.`}
+      description={`Discover ${totalVenues} venues in ${cityFormatted}, ${stateName} using ${brandLabel} hardware. ${brandDesc}. Compare and book your session.`}
       guidancePoints={[
         "Confirm the exact model on the venue page — brands have different tiers.",
         "Compare launch monitor type if you care about specific data points.",
@@ -140,13 +171,15 @@ export default async function CityBestHardwarePage({ params, searchParams }: Cit
       ctaDescription={`Claim your listing to confirm your ${brandLabel} setup and attract local golfers searching for this hardware.`}
       ctaPrimary={{ label: "Claim Your Listing", href: "/claim" }}
       ctaSecondary={{ label: "Submit New Venue", href: "/submit" }}
-      venues={filteredVenues}
+      venues={venues}
+      totalVenues={totalVenues}
       categoryType="hardware"
       categoryValue={brand.toLowerCase()}
       heroSubtitle={`${cityFormatted}, ${stateName}`}
       breadcrumbItems={breadcrumbs}
       showRanking={true}
       currentPage={page}
+      pageSize={pageSize}
       baseUrl={`/venue/us/${state}/${city}/best/hardware/${brand}`}
     />
   );

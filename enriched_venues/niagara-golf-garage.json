@@ -1,0 +1,90 @@
+{
+  "name": "Niagara Golf Garage",
+  "address": "1352 Payne Ave, North Tonawanda, NY 14120",
+  "city": "North Tonawanda",
+  "region": "New York",
+  "country": "US",
+  "latitude": 43.057957,
+  "longitude": -78.884488,
+  "phone": "+17168705786",
+  "website": "http://www.niagaragolfgarage.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770231773/golf_simulators/www_niagaragolfgarage_com_ChIJjWq8pVZv04kRfOFNlCv_kw0.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Niagara+Golf+Garage/@43.057956999999995,-78.8844878,14z/data=!4m8!1m2!2m1!1sNiagara+Golf+Garage!3m4!1s0x89d36f56a5bc6a8d:0xd93ff2b944de17c!8m2!3d43.057956999999995!4d-78.8844878",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJjWq8pVZv04kRfOFNlCv_kw0",
+  "venue_type": "sim_bar",
+  "about": "Niagara Golf Garage offers fully automated, 100% self-serve indoor virtual golf simulators on-demand. The venue is powered by TrackMan technology and provides access to over 200 famous golf courses. It operates on an appointment-only basis with daily hours from 6am to 10pm. The facility features two simulator bays designed for year-round golfing, practice, and community events, catering to players of all skill levels.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|budget_friendly|private_rooms|club_rentals|family_fun_center|party_atmosphere",
+  "vibe_tags": "casual|welcoming|modern|community_club|tech_lab",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Fully automated, self-serve simulator experience",
+    "Over 200 renowned golf courses available to play",
+    "Variety of game formats including stroke play and match play",
+    "Beginner-friendly with adjustable tee settings and practice ranges",
+    "Affordable hourly rates with up to 4 players per bay"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "Outside food allowed"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "Outside drinks allowed"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "TrackMan",
+      "model": "iO",
+      "notes": "Fully automated, 100% self-serve system"
+    }
+  ],
+  "simulator_software": [
+    "TrackMan"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "http://niagaragolfgarage.com/book-now/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 30,
+  "price_range_max_local": 30,
+  "currency": "USD",
+  "walk_ins_allowed": false,
+  "coaching_available": "unknown",
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|private_party_room|wifi|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, golfers need to bring their own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes. Outside food and drinks are allowed, though the venue does not serve them."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "On average, 2 players can complete 18 holes in about 2 hours. Groups of 4 typically take around 4 hours."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The venue does not specifically mention kid-friendly amenities, but beginners of all ages are welcome."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": null
+}

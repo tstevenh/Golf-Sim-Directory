@@ -1,0 +1,91 @@
+{
+  "name": "The Player's Lounge",
+  "address": "7755 North Highway 101 Attn: Golf Pro Shop, Gleneden Beach, OR 97388",
+  "city": "Gleneden Beach",
+  "region": "Oregon",
+  "country": "US",
+  "latitude": 44.887762,
+  "longitude": -124.027325,
+  "phone": "+15417649149",
+  "website": "http://www.shortgrassfoundation.org/playerslounge",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770220106/golf_simulators/www_shortgrassfoundation_org_ChIJm33vmEqJ6lQR_47a6JJxowM.png",
+  "google_maps_url": "https://www.google.com/maps/place/The+Player%27s+Lounge/@44.8877622,-124.02732519999999,14z/data=!4m8!1m2!2m1!1sThe+Player%27s+Lounge!3m4!1s0x54ea894a98ef7d9b:0x3a37192e8da8eff!8m2!3d44.8877622!4d-124.02732519999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJm33vmEqJ6lQR_47a6JJxowM",
+  "email": "Tom@shortgrassfoundation.org",
+  "venue_type": "training_studio",
+  "about": "The Player's Lounge is an indoor golf performance center located within the Salishan Golf Clubhouse on the Central Oregon Coast. It serves as a gateway to activities at the Salishan Coastal Lodge and is open to the public, resort guests, and members. The facility is equipped with a Trackman 4 launch monitor, a comprehensive selection of the latest golf equipment, and a staff of PGA Professionals for instruction. It offers services including club repair and fittings, high-end retail items for purchase, and access to over 200 virtual golf courses. Membership options provide benefits like reduced simulator rates, 24-hour access, and merchandise discounts. Daily rates are available for visiting guests, resort visitors, and local residents, allowing for indoor fun regardless of weather conditions.",
+  "tags": "serious_practice|coaching_available|club_rentals|premium_tech|beginner_friendly|juniors_youth|tourists_travelers|corporate_teams|solo_practice",
+  "vibe_tags": "tech_lab|community_club|modern|welcoming",
+  "who_its_for": "serious_golfers|beginners|families|juniors_youth|tourists_travelers",
+  "why_golfers_like_it": [
+    "Premium Trackman 4 launch monitor technology for accurate data and simulation",
+    "Access to over 200 virtual golf courses for diverse and engaging practice sessions",
+    "Comprehensive services including PGA instruction, club fitting, and repair options",
+    "Flexible booking system and membership plans for various player needs"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "The venue is part of a resort lodge, so food services are likely available nearby or through the resort, though specific food service details within The Player's Lounge are not detailed."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service or bar is provided in the website content."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "Industry leader in golf radar technology"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://theplayerslounge.golfbook.in/calendar.php",
+  "pricing_model": "mixed",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|club_fitting|pro_shop|leagues|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "While you are welcome to bring your own clubs, The Player's Lounge offers a comprehensive selection of the latest golf equipment for use. You can also get fitted for new clubs or have existing ones repaired."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The website does not explicitly state a BYOB policy. As it is part of the Salishan Coastal Lodge, food services are likely available, but specific details on external food or drink are not provided."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes depends on the simulator software and number of players. The Player's Lounge offers over 200 virtual courses, and the experience is designed to provide a realistic round of golf, which typically takes about 3-4 hours for a full 18-hole round."
+    },
+    {
+      "question": "Is The Player's Lounge kid-friendly?",
+      "answer": "Yes, The Player's Lounge is open to the public and families. It offers junior/youth programs and is designed to be a welcoming environment for golfers of all skill levels and ages."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"8AM-5PM\"], \"Tuesday\": [\"8AM-5PM\"], \"Wednesday\": [\"8AM-5PM\"], \"Thursday\": [\"8AM-5PM\"], \"Friday\": [\"8AM-5PM\"], \"Saturday\": [\"8AM-5PM\"], \"Sunday\": [\"8AM-5PM\"]}"
+}

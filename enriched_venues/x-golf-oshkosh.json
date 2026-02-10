@@ -1,0 +1,91 @@
+{
+  "name": "X-Golf Oshkosh",
+  "address": "2135 S Koeller St, Oshkosh, WI 54902",
+  "city": "Oshkosh",
+  "region": "Wisconsin",
+  "country": "US",
+  "latitude": 43.993706,
+  "longitude": -88.581429,
+  "phone": "+19203850514",
+  "website": "http://xgolfoshkosh.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770199422/golf_simulators/xgolfoshkosh_com_ChIJBfZ9axPvA4gRSXB6mbz9X0c.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/X-Golf+Oshkosh/@43.9937058,-88.5814286,14z/data=!4m8!1m2!2m1!1sX-Golf+Oshkosh!3m4!1s0x8803ef136b7df605:0x475ffdbc997a7049!8m2!3d43.9937058!4d-88.5814286",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJBfZ9axPvA4gRSXB6mbz9X0c",
+  "email": "info@xgolfoshkosh.com",
+  "venue_type": "sim_bar",
+  "about": "X-Golf Oshkosh is an indoor golf simulator venue featuring seven private bays equipped with state-of-the-art technology. The facility provides a comprehensive golfing experience, including simulator play, lessons with PGA professionals, club fittings, and a full bar with food options. It is suitable for casual play, group events, and serious training, with hourly pricing and corporate memberships available. The venue is designed to accommodate all ages and skill levels, offering both individual and team-based activities like leagues and tournaments.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|leagues|club_rentals|private_rooms|coaching_available|premium_tech",
+  "vibe_tags": "sports_bar|tech_lab|family_fun_center|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|large_groups",
+  "why_golfers_like_it": [
+    "State-of-the-art simulators with unparalleled accuracy and realism",
+    "Full-service bar and food menu for a complete experience",
+    "PGA-certified instruction and club fitting services",
+    "Private bays accommodating up to 6 people",
+    "Flexible booking options for casual play and corporate events"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full menu with tasty bites available"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with 8 rotating taps, wine and beer list"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "X-Golf",
+      "model": "unknown",
+      "notes": "State-of-the-art indoor golf simulators using camera systems, infrared lasers, and impact sensors"
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 7,
+  "booking_url": "http://xgolfoshkosh.com/#booknow",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 40,
+  "price_range_max_local": 50,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 7,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need clubs?",
+      "answer": "No, club rentals are available for $10/session, but bringing your own clubs is encouraged."
+    },
+    {
+      "question": "Can I bring food or drinks?",
+      "answer": "The venue has a full bar and kitchen with a complete menu, and outside food and drinks are not permitted."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Each individual can finish 18 holes in about one hour. For groups, plan for 1 hour per person."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, X-Golf Oshkosh welcomes children of all ages, and club fittings are available for juniors."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"9AM-12AM\"], \"Saturday\": [\"9AM-12AM\"], \"Sunday\": [\"9AM-7PM\"]}"
+}

@@ -1,0 +1,97 @@
+{
+  "name": "Precision Golf Training",
+  "address": "444 Peterson Rd, Libertyville, IL 60048",
+  "city": "Libertyville",
+  "region": "Illinois",
+  "country": "US",
+  "latitude": 42.306566,
+  "longitude": -87.970227,
+  "phone": "+12248449698",
+  "website": "http://www.precisiongolftraining.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770263522/golf_simulators/www_precisiongolftraining_com_ChIJdUOP4KiRD4gRnmaS-cHiHn8.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Precision+Golf+Training/@42.3065662,-87.97022659999999,14z/data=!4m8!1m2!2m1!1sPrecision+Golf+Training!3m4!1s0x880f91a8e08f4375:0x7f1ee2c1f992669e!8m2!3d42.3065662!4d-87.97022659999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJdUOP4KiRD4gRnmaS-cHiHn8",
+  "email": "precisiongolftraining@gmail.com",
+  "venue_type": "training_studio",
+  "about": "Precision Golf Training is an indoor golf performance studio located in Libertyville, Illinois, offering state-of-the-art training equipment and golf simulators to help golfers improve their game. The facility provides access to golf lessons, fitness programs, and on-site simulators available 24/7 for members. Utilizing a Foresight GCQuad and GC Hawk launch monitor connected to a 4k projector, the studio offers detailed swing analytics and a controlled environment for practice. Membership plans include various packages with differing weekly simulator hours, putting green access, and fitness area privileges.",
+  "tags": "beginner_friendly|serious_golfers|coaching_available|fitness|premium_tech|indoor_training|corporate_teams|solo_practice",
+  "vibe_tags": "industrial_training|community_club|modern",
+  "who_its_for": "beginners|serious_golfers|coaches_instructors|solo_practice|corporate_teams",
+  "why_golfers_like_it": [
+    "24/7 access to high-end golf simulators",
+    "State-of-the-art GCQuad and GC Hawk launch monitors with detailed analytics",
+    "Comprehensive membership plans with flexible simulator and fitness options",
+    "Indoor facility accessible year-round regardless of weather",
+    "Expert coaching and TPI fitness integration"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of food service available on-site"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service; BYOB policy not specified"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": "GCQuad",
+      "notes": "Premium photometric camera launch monitor connected to 4k projector"
+    },
+    {
+      "brand": "Foresight",
+      "model": "GC Hawk",
+      "notes": "Premium photometric camera launch monitor connected to 4k projector"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 2,
+  "booking_url": "https://www.precisiongolftraining.com/scheduling/",
+  "pricing_model": "membership_only",
+  "price_range_min_local": 110,
+  "price_range_max_local": 260,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "fitness_area|club_rentals|putting_green|golf_lessons|simulator_rental",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you'll need to bring your own golf clubs to use the simulators and practice areas."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The website doesn't specify a policy on outside food and drinks, but there's no mention of on-site food service."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Time for 18 holes isn't specified, but simulator time is offered in hourly increments ranging from 1 hour per week to 1 hour per day depending on membership level."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "There's no specific information about child-friendly features or age requirements beyond the general membership policy requiring users to be 18+ or have adult supervision."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

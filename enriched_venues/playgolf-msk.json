@@ -1,0 +1,89 @@
+{
+  "name": "PlayGolf MSK",
+  "address": "150 Woodward Rd, Manalapan Township, NJ 07726",
+  "city": "Manalapan Township",
+  "region": "New Jersey",
+  "country": "US",
+  "latitude": 40.256574,
+  "longitude": -74.36754,
+  "phone": "+17323340012",
+  "website": "https://www.playgolfmsk.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770220381/golf_simulators/www_playgolfmsk_com_ChIJBfFxXCHXw4kRELJayHoGg04.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/PlayGolf+MSK/@40.2565743,-74.36753949999999,14z/data=!4m8!1m2!2m1!1sPlayGolf+MSK!3m4!1s0x89c3d7215c71f105:0x4e83067ac85ab210!8m2!3d40.2565743!4d-74.36753949999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJBfFxXCHXw4kRELJayHoGg04",
+  "email": "hello@playgolfmsk.com",
+  "venue_type": "training_studio",
+  "about": "PlayGolf MSK is an indoor golf destination located at 150 Woodward Rd. in Manalapan, NJ, specializing in Trackman iO simulator play, golf lessons, junior golf programs, and parties. The facility offers year-round golf access through its four simulator bays, equipped with Trackman iO technology for precise shot tracking and data analysis. Available services include professional coaching sessions, junior golf programs with structured instruction and playtime, and the use of the PUTTR Putting Coach for putting improvement. The venue caters to golfers of all ages and abilities and is suitable for hosting private events such as birthday parties and team outings.",
+  "tags": "beginner_friendly|coaching_available|juniors_youth|private_rooms|club_rentals|premium_tech|family_friendly|corporate_events|leagues",
+  "vibe_tags": "community_club|tech_lab|family_fun_center",
+  "who_its_for": "beginners|families|juniors_youth|corporate_teams|serious_golfers",
+  "why_golfers_like_it": [
+    "Professional instruction with Trackman technology for data-driven feedback",
+    "Junior programs combining lessons with simulator play for developing players",
+    "Year-round indoor golf access regardless of weather conditions"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned; BYOB policies not specified"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned; BYOB policies not specified"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "High-end radar launch monitor with precise shot and club tracking"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 4,
+  "booking_url": "https://yourgolfbooking.com/venues/play-golf-1/booking/bays",
+  "pricing_model": "mixed",
+  "price_range_min_local": 50,
+  "price_range_max_local": 150,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|pro_shop|leagues|private_party_room|putting_coach",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No specific information provided, but golfers can typically use their own clubs or rental options may be available on-site."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No specific policies mentioned; BYOB status not clearly stated."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "No specific time estimates provided for simulator rounds."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "Yes, PlayGolf MSK offers dedicated junior golf programs with age-specific sessions for ages 5-17, including professional instruction and playtime."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"4-9PM\"], \"Tuesday\": [\"4-9PM\"], \"Wednesday\": [\"4-9PM\"], \"Thursday\": [\"4-9PM\"], \"Friday\": [\"4-9PM\"], \"Saturday\": [\"8AM-6PM\"], \"Sunday\": [\"8AM-6PM\"]}"
+}

@@ -1,0 +1,85 @@
+{
+  "name": "GTR",
+  "address": "3656 Centerview Dr STE 6, Chantilly, VA 20151",
+  "city": "Chantilly",
+  "region": "Virginia",
+  "country": "US",
+  "latitude": 38.90515,
+  "longitude": -77.427826,
+  "phone": "+17038172130",
+  "website": "http://www.usagtr.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770204231/golf_simulators/www_usagtr_com_ChIJyyWYaAlHtokR2O5sZZP91cI.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/GTR/@38.90515,-77.4278265,14z/data=!4m8!1m2!2m1!1sGTR!3m4!1s0x89b64709689825cb:0xc2d5fd93656ceed8!8m2!3d38.90515!4d-77.4278265",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJyyWYaAlHtokR2O5sZZP91cI",
+  "venue_type": "training_studio",
+  "about": "GTR is a premium indoor golf training facility equipped with the latest simulator technology, offering instant feedback and practice modes for golfers of all skill levels. The facility features three distinct bays—range, studio, and VIP room—allowing for practice and gameplay in all weather conditions with no commitment to complete full 18-hole rounds. Alongside simulator access, GTR provides professional instruction, custom club fitting and repair services, and a specialized putting system using augmented reality technology to enhance short game skills.",
+  "tags": "beginner_friendly|serious_golfers|coaching_available|premium_tech|club_rentals|family_friendly",
+  "vibe_tags": "industrial_training|modern|tech_lab",
+  "who_its_for": "beginners|serious_golfers|families|solo_practice|juniors_youth",
+  "why_golfers_like_it": [
+    "Latest simulator technology with instant feedback for game improvement",
+    "No commitment required to play all 18 holes, allowing flexible sessions",
+    "Professional instruction and custom club fitting services available"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "Food and drinks must be kept at provided tables; not allowed inside simulators"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol mentioned; BYOB not indicated"
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "unknown",
+  "pricing_model": "mixed",
+  "price_range_min_local": 25,
+  "price_range_max_local": 300,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|club_fitting|pro_shop",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need clubs?",
+      "answer": "Bring your own clubs or use the club rentals and fitting services available at the facility."
+    },
+    {
+      "question": "Can I bring food or drinks?",
+      "answer": "Food and drinks must be kept at provided tables; no food or drink is allowed inside the simulators at any time."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Most rounds can be completed easily in under an hour, with no commitment to play all 18 holes."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, GTR offers lessons for juniors and is suitable for families, with programs tailored for different skill levels."
+    }
+  ],
+  "simulator_software": [
+    "PuttView Indoor"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"8AM-10PM\"], \"Saturday\": [\"8AM-10PM\"], \"Sunday\": [\"8AM-10PM\"]}"
+}

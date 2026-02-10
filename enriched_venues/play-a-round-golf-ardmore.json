@@ -1,0 +1,89 @@
+{
+  "name": "Play-a-Round Golf Ardmore",
+  "address": "56 Greenfield Ave, Ardmore, PA 19003",
+  "city": "Ardmore",
+  "region": "Pennsylvania",
+  "country": "US",
+  "latitude": 40.008769,
+  "longitude": -75.297482,
+  "phone": "+16102282814",
+  "website": "https://www.playaroundgolf.net/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770215023/golf_simulators/www_playaroundgolf_net_ChIJm9RjAX3AxokRwu4W862Zq10.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Play-a-Round+Golf+Ardmore/@40.0087689,-75.2974818,14z/data=!4m8!1m2!2m1!1sPlay-a-Round+Golf+Ardmore!3m4!1s0x89c6c07d0163d49b:0x5dab99adf316eec2!8m2!3d40.0087689!4d-75.2974818",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJm9RjAX3AxokRwu4W862Zq10",
+  "email": "19355610-725-9155malvern@playaroundgolf.net",
+  "venue_type": "sim_bar|training_studio",
+  "about": "Play-a-Round Golf Ardmore is an indoor golf and entertainment facility featuring state-of-the-art golf simulators. The venue offers access to over 80 virtual golf courses, including championship-caliber courses like Whistling Straits and Pebble Beach. It provides a range of services, from casual play and leagues to professional instruction and private event hosting, catering to golfers of all skill levels in a comfortable, year-round environment.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|kids_friendly|corporate_events|leagues|premium_tech|club_rentals|coaching_available",
+  "vibe_tags": "family_fun_center|tech_lab|community_club",
+  "who_its_for": "beginners|families|corporate_teams|solo_practice|juniors_youth",
+  "why_golfers_like_it": [
+    "Access to over 80 premium virtual courses, including world-famous layouts",
+    "Realistic, high-accuracy simulation technology with detailed swing data feedback",
+    "BYOB policy with comfortable atmosphere ideal for groups and social events"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Guests may bring food or order from nearby eateries that deliver to the simulators. Snacks, sodas, and water are also available onsite."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Guests may bring their own beer and wine (BYOB) if of legal age. Liquor is not permitted."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "aboutGolf",
+      "model": "Simulator",
+      "notes": "High-speed camera-based tracking system used across all bays"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 9,
+  "booking_url": "https://clients.uschedule.com/playaroundgolf/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|leagues|pro_shop|club_fitting|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "While you are welcome to bring your own clubs, the venue provides all necessary equipment for use with their simulators."
+    },
+    {
+      "question": "Can I bring food and drink?",
+      "answer": "Yes, guests may bring their own beer and wine (BYOB) and snacks. Food can also be ordered from nearby restaurants that deliver directly to your simulator."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes can vary depending on the number of players and pace of play. An 18-hole round typically takes between 2-3 hours for a group of four."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is kid-friendly and offers activities like mini-golf and other games on the giant screens. They also host junior golf camps and parties for children."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-9PM\"], \"Tuesday\": [\"9AM-9PM\"], \"Wednesday\": [\"9AM-9PM\"], \"Thursday\": [\"9AM-9PM\"], \"Friday\": [\"9AM-10PM\"], \"Saturday\": [\"8AM-10PM\"], \"Sunday\": [\"9AM-8PM\"]}"
+}

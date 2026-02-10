@@ -1,0 +1,89 @@
+{
+  "name": "Swing Social",
+  "address": "11121 N Rodney Parham Rd Suite 1B, Little Rock, AR 72212",
+  "city": "Little Rock",
+  "region": "Arkansas",
+  "country": "US",
+  "latitude": 34.771089,
+  "longitude": -92.398515,
+  "phone": "+15014805544",
+  "website": "https://swingsocialar.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770248257/golf_simulators/swingsocialar_com_ChIJE6VVmyOh0ocRcjvEPgq67bI.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Swing+Social/@34.7710888,-92.39851469999999,14z/data=!4m8!1m2!2m1!1sSwing+Social!3m4!1s0x87d2a1239b55a513:0xb2edba0a3ec43b72!8m2!3d34.7710888!4d-92.39851469999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJE6VVmyOh0ocRcjvEPgq67bI",
+  "email": "chris@swingsocialar.com",
+  "venue_type": "sim_bar",
+  "about": "Swing Social is an indoor golf venue offering 5 Trackman simulator bays, including a private VIP party bay. It combines high-tech golf simulation with a full-service kitchen and bar, partnering with Homer's Kitchen Table for food. The venue emphasizes a social atmosphere, featuring TVs throughout for sports viewing, and welcomes both casual players and serious golfers. It offers flexible booking options, walk-ins, and memberships to cater to various frequencies of play.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|kids_friendly|corporate_events|leagues|premium_tech|private_rooms|club_rentals|community_club",
+  "vibe_tags": "sports_bar|family_fun_center|party_atmosphere|tech_lab|community_club|casual",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "Top-of-the-line Trackman technology provides accurate swing data and play on world-famous courses",
+    "Full-service food and drink options available at the bay, including comfort food from Homer's Kitchen Table",
+    "Social atmosphere with TVs showing golf, NFL, and UFC, making it ideal for groups and casual play"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full-service kitchen with comfort food from Homer's Kitchen Table, offering tacos, sliders, and Southern comfort dishes."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Craft cocktails, cold beer, and full bay-side service available."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "5 bays available, including one VIP party bay"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 5,
+  "booking_url": "https://yourgolfbooking.com/venues/swing-social/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues|ada_accessible",
+  "rating_tech_quality": 5.0,
+  "rating_facility_comfort": 4.5,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify if clubs are provided. It is recommended to bring your own clubs for the best experience."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No, outside food and drinks are not allowed. The venue offers a full kitchen and bar with food and drink options available for purchase."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not provide a specific time estimate for playing 18 holes. The duration will depend on the number of players in your bay and your pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Swing Social is friendly to juniors and is a great place for families."
+    }
+  ],
+  "rating_overall": 4.5,
+  "opening_hours": "{\"Monday\": [\"10AM-11PM\"], \"Tuesday\": [\"10AM-11PM\"], \"Wednesday\": [\"10AM-11PM\"], \"Thursday\": [\"10AM-11PM\"], \"Friday\": [\"10AM-12AM\"], \"Saturday\": [\"10AM-12AM\"], \"Sunday\": [\"11AM-6PM\"]}"
+}

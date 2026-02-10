@@ -1,0 +1,96 @@
+{
+  "name": "The Golf Place",
+  "address": "43 Summit Square Shopping Center Suite 202, Langhorne, PA 19047",
+  "city": "Langhorne",
+  "region": "Pennsylvania",
+  "country": "US",
+  "latitude": 40.217046,
+  "longitude": -74.929168,
+  "phone": "+12152399620",
+  "website": "https://www.tgp.golf/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770202880/golf_simulators/www_tgp_golf_ChIJDxhn6dVVwYkRGcJUyVr3LNc.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Golf+Place/@40.2170464,-74.9291681,14z/data=!4m8!1m2!2m1!1sThe+Golf+Place!3m4!1s0x89c155d5e967180f:0xd72cf75ac954c219!8m2!3d40.2170464!4d-74.9291681",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJDxhn6dVVwYkRGcJUyVr3LNc",
+  "venue_type": "training_studio",
+  "about": "The Golf Place is Bucks County's premier indoor golf facility located in Langhorne, PA, focused on game improvement and measurable progress. The venue features state-of-the-art technology, including TrackMan simulators and PuttView putting analysis, allowing golfers to train with the same feedback tools used by professionals. The facility is designed for serious practice and skill development, offering a clean and focused environment equipped with video capture and personalized data dashboards.\n\nBeyond individual training, The Golf Place fosters a community atmosphere through membership options and organized leagues, such as Two-Man Scramble and Best Ball formats. They have partnered with Imagen Golf to provide world-class instruction from Top 100 coach Daniel Guest. The venue emphasizes a data-driven approach to improvement, suitable for players ranging from beginners to those striving to reach scratch handicap.\n\nThe facility extends its hours until 11 PM on Fridays and Saturdays to accommodate various schedules. While the primary focus is on training, the venue offers amenities such as food delivery from the neighboring MaGerks restaurant directly to the bays. Membership tiers are available, providing benefits like early event access, GHIN numbers, and free swing evaluations.",
+  "tags": "coaching_available|serious_practice|lessons|improvement|leagues|trackman|putting_analysis|membership_club|data_analytics",
+  "vibe_tags": "industrial_training|modern|focused|community|data_driven",
+  "who_its_for": "serious_golfers|beginners|coaches_instructors|solo_practice",
+  "why_golfers_like_it": [
+    "TrackMan and PuttView technology for precise data feedback",
+    "World-class training and instruction from Imagen Golf",
+    "Variety of leagues including Two-Man Scramble and Best Ball",
+    "Late night hours on weekends (open until 11 PM)",
+    "Membership options with free evaluations and event access",
+    "Food delivery service available directly to bays"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Delivery available from MaGerks (located in the same shopping center) directly to the bay"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol served on-site; food delivery from MaGerks may include alcohol depending on local delivery laws"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "TrackMan",
+      "model": "iO",
+      "notes": "Used for swing and ball flight analysis"
+    },
+    {
+      "brand": "PuttView",
+      "model": "unknown",
+      "notes": "Used for putting analysis and training"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "TrackMan",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "true",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.tgp.golf/book",
+  "pricing_model": "Membership and hourly rates",
+  "price_range_min_local": 40,
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "trackman_simulators|puttview_putting_lab|video_capture|lessons_leagues|food_delivery|ghin_number|pro_shop|parking",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "While the text does not explicitly specify rental availability, most indoor training facilities provide club rentals. It is recommended to call ahead or bring your own set."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue has a partnership with MaGerks restaurant to deliver food and drinks directly to your bay, suggesting outside food might be restricted, but confirmation via the venue is advised."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Typically, playing 18 holes on a simulator takes about 45 to 60 minutes, depending on the player's pace and the software settings."
+    },
+    {
+      "question": "Is this kid-friendly?",
+      "answer": "Yes, The Golf Place is suitable for all skill levels, including juniors and beginners, with coaching available to help new golfers learn the game."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"9AM-11PM\"], \"Saturday\": [\"9AM-11PM\"], \"Sunday\": [\"9AM-8PM\"]}"
+}

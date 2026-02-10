@@ -1,0 +1,91 @@
+{
+  "name": "The Local Drive",
+  "address": "3503 Brighton Blvd, Denver, CO 80216",
+  "city": "Denver",
+  "region": "Colorado",
+  "country": "US",
+  "latitude": 39.770645,
+  "longitude": -104.978793,
+  "phone": "+17206722802",
+  "website": "https://thelocaldrive.com/rino-denver-co/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770215542/golf_simulators/thelocaldrive_com_ChIJW1Afsmt5bIcRx2y7QL_6ohg.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Local+Drive/@39.7706452,-104.9787929,14z/data=!4m8!1m2!2m1!1sThe+Local+Drive!3m4!1s0x876c796bb21f505b:0x18a2fabf40bb6cc7!8m2!3d39.7706452!4d-104.9787929",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJW1Afsmt5bIcRx2y7QL_6ohg",
+  "email": "meryl.rhoum@thelocaldrivedenver.com",
+  "venue_type": "sim_bar",
+  "about": "The Local Drive RiNo Denver is a premier indoor golf facility and cocktail bar offering year-round play regardless of weather. The venue features 12 bays equipped with Trackman simulators and provides a vibrant, upscale atmosphere suitable for both casual and competitive golfers. Beyond golf, it operates as a full-service bar with an emphasis on locally distilled spirits and craft cocktails, along with private event spaces for various occasions.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|private_rooms|club_rentals|coaching_available",
+  "vibe_tags": "upscale_lounge|sports_bar|tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|corporate_teams|solo_practice|tourists_travelers",
+  "why_golfers_like_it": [
+    "Access to over 400 legendary courses including PGA Tour favorites",
+    "State-of-the-art Trackman technology for accurate ball and club tracking",
+    "Professional club fittings, lessons, and consultations with an in-house PGA pro",
+    "Flexible space for both serious practice and social gatherings"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Bar games and snacks available for non-golfers"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full-service bar with local craft cocktails, spirits, beers, seltzers, ciders, and wines"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "12 cutting-edge Trackman powered golf bays"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://thelocaldriverino.golfoclock.com/reserve?date=2025-05-21&t=0",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "No, you can use provided Srixon demo clubs or bring your own gear."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No outside food or drinks are permitted, but the venue offers a full-service bar with local craft cocktails and snacks."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Time for 18 holes varies depending on pace of play and number of players in the bay."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "There is no specific mention of kid-friendly amenities or policies, but bar games may appeal to older children."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"9AM-12AM\"], \"Saturday\": [\"9AM-12AM\"], \"Sunday\": [\"9AM-6PM\"]}"
+}

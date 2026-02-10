@@ -1,0 +1,94 @@
+{
+  "name": "X-Golf Westbury",
+  "address": "1500 Old Country Rd, Westbury, NY 11590",
+  "city": "Westbury",
+  "region": "New York",
+  "country": "US",
+  "latitude": 40.745651,
+  "longitude": -73.595828,
+  "phone": "+15164905845",
+  "website": "http://playxgolf.com/westbury",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770205748/golf_simulators/playxgolf_com_ChIJvReXGtyHwokRRvMDFpHT544.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/X-Golf+Westbury/@40.7456512,-73.5958277,14z/data=!4m8!1m2!2m1!1sX-Golf+Westbury!3m4!1s0x89c287dc1a9717bd:0x8ee7d3911603f346!8m2!3d40.7456512!4d-73.5958277",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJvReXGtyHwokRRvMDFpHT544",
+  "email": "info@xgolfwestbury.com",
+  "venue_type": "sim_bar",
+  "about": "X-Golf Westbury is an indoor golf venue featuring state-of-the-art simulators with advanced camera systems, infrared lasers, and impact sensors for highly accurate gameplay. The facility offers a modern, spacious atmosphere with a full bar and food service, making it suitable for both serious practice and social events. Pricing is per simulator hour, with options for group bookings up to six people per bay, and memberships available for frequent players.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|club_rentals|coaching_available",
+  "vibe_tags": "casual|welcoming|modern|party_atmosphere",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "World's most accurate golf simulator technology",
+    "Full bar and food service for a complete experience",
+    "PGA-certified coaching available for skill improvement",
+    "Flexible booking options with walk-in and membership plans"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Shareable bites, appetizers, snacks, and pizzas available"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full liquor service with beer by the glass/on tap, cocktails, and wines"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "X-Golf",
+      "model": "State Of The Art Simulator",
+      "notes": "Combines camera systems, infrared lasers, and impact sensors"
+    }
+  ],
+  "simulator_so": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "mixed",
+  "lefty_friendly": true,
+  "bay_count_total": 8,
+  "booking_url": "https://clients.uschedule.com/xgolfwestbury/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 55,
+  "price_range_max_local": 75,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|wifi|club_fitting|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, rental clubs are available if needed. The simulators have their own tees built into the system."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, outside food and drinks are not allowed as the venue offers its own full bar and kitchen service."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Each individual can finish 18 holes in about one hour. For multiple players, add one hour per person added to play 18 holes."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, children of all ages are welcome, making it suitable for families and kids' parties."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-12AM\"], \"Friday\": [\"9AM-12AM\"], \"Saturday\": [\"8AM-12AM\"], \"Sunday\": [\"8AM-9PM\"]}"
+}

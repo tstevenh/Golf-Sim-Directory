@@ -1,0 +1,90 @@
+{
+  "name": "3BM Golf Studio",
+  "address": "237 Oxmoor Cir Suite 107, Homewood, AL 35209",
+  "city": "Homewood",
+  "region": "Alabama",
+  "country": "US",
+  "latitude": 33.454297,
+  "longitude": -86.838654,
+  "phone": "+12058739100",
+  "website": "http://www.3bmgolfstudio.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770267089/golf_simulators/www_3bmgolfstudio_com_ChIJn5wl95MfiYgRKpTcOQwBwPs.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/3BM+Golf+Studio/@33.454296899999996,-86.83865399999999,14z/data=!4m8!1m2!2m1!1s3BM+Golf+Studio!3m4!1s0x88891f93f7259c9f:0xfbc0010c39dc942a!8m2!3d33.454296899999996!4d-86.83865399999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJn5wl95MfiYgRKpTcOQwBwPs",
+  "email": "3bmgolfstudio@gmail.com",
+  "venue_type": "training_studio|retail_fitting_center",
+  "about": "3BM Golf Studio is a boutique-style golf fitting and training facility in Birmingham, Alabama, specializing in custom club building and comprehensive player development. The studio utilizes advanced technology, including Foresight GC Quad launch monitors and the Quintic Ball Roll System, to provide precise data for club fittings and swing analysis. It serves a diverse clientele, from first-time golfers to seasoned amateurs and professionals, with an emphasis on creating an inviting environment that fosters communication and collaboration.",
+  "tags": "beginner_friendly|coaching_available|premium_tech|club_rentals|private_rooms|serious_practice|budget_friendly",
+  "vibe_tags": "casual|welcoming|modern|tech_lab|private_luxury",
+  "who_its_for": "beginners|serious_golfers|families|solo_practice|coaches_instructors",
+  "why_golfers_like_it": [
+    "State-of-the-art Foresight GC Quad launch monitors provide the most accurate indoor shot representation available",
+    "Brand agnostic fitting process ensures players are fit to the best possible equipment for their swing",
+    "Comprehensive services from individual club fittings to full bag evaluations",
+    "Boutique atmosphere with personalized attention and collaborative communication"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of food services"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol services"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": "GC Quad",
+      "notes": "Primary launch monitor used for all fittings and simulator sessions"
+    }
+  ],
+  "simulator_software": [
+    "GC QUAD"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green|auto_putt",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://app.squarespacescheduling.com/schedule.php?appointmentType=29595451&owner=25033740",
+  "pricing_model": "mixed",
+  "price_range_min_local": 80,
+  "price_range_max_local": 350,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|club_fitting|pro_shop|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can bring your own clubs, but the studio provides demo equipment and offers a full complement of the finest drivers, irons, and putters for fitting sessions."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The website does not mention any food or drink services, suggesting it's a BYOB facility."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Simulator sessions are typically 1 hour for practice or recreational play. For a full 18-hole experience, the time would depend on the course and pace of play."
+    },
+    {
+      "question": "Is this place kid-friendly?",
+      "answer": "No specific mention of kid-friendly amenities or programs. The studio appears to cater to adult golfers with its technical fitting services and boutique atmosphere."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": null
+}

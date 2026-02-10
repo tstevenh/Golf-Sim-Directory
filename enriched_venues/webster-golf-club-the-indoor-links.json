@@ -1,0 +1,88 @@
+{
+  "name": "Webster Golf Club + The Indoor Links",
+  "address": "440 Salt Rd, Webster, NY 14580",
+  "city": "Webster",
+  "region": "New York",
+  "country": "US",
+  "latitude": 43.245766,
+  "longitude": -77.399816,
+  "phone": "+15852651920",
+  "website": "http://www.webstergolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770198918/golf_simulators/www_webstergolf_com_ChIJD3pUKVzF1okRZ1vPitPyi7w.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Webster+Golf+Club+%2B+The+Indoor+Links/@43.2457656,-77.39981569999999,14z/data=!4m8!1m2!2m1!1sWebster+Golf+Club+%2B+The+Indoor+Links!3m4!1s0x89d6c55c29547a0f:0xbc8bf2d38acf5b67!8m2!3d43.2457656!4d-77.39981569999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJD3pUKVzF1okRZ1vPitPyi7w",
+  "email": "dtiberio@webstergolf.com",
+  "venue_type": "country_club",
+  "about": "Webster Golf Club + The Indoor Links is a premier venue located in Webster, New York, featuring an 18-hole golf course and a dedicated indoor golf simulator center. The Indoor Links offers six Trackman simulator bays for year-round play, with access to world-class courses and advanced technology for swing analysis. The venue also hosts weddings, events, junior golf programs, and provides dining options at its Grill Room. Public rates are available for both golf and simulator usage, making it accessible for individual players and groups alike.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|coaching_available|juniors_youth|family_friendly",
+  "vibe_tags": "upscale_lounge|community_club|family_fun_center",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams|solo_practice|juniors_youth",
+  "why_golfers_like_it": [
+    "Six Trackman simulator bays for advanced swing analysis",
+    "Year-round indoor golf access regardless of weather",
+    "Adjacent Grill Room and Golf Shop for dining and equipment",
+    "Challenging 18-hole golf course with private club perks"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen available with traditional menus, wedding menus, and brunch options"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available at the Grill Room"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Six simulator bays with Trackman technology"
+    }
+  ],
+  "simulator_software": "Trackman",
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 6,
+  "booking_url": "https://clients.uschedule.com/webstergolf/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 15,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": false,
+  "coaching_available": true,
+  "private_rooms_count": 0,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|leagues|pro_shop|club_fitting|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, players are required to bring their own clubs for simulator use. Club rentals may be available upon request."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drinks are not allowed. The venue offers a full kitchen and bar service at the Grill Room."
+    },
+    {
+      "question": "How long does it take to play 18 holes on a simulator?",
+      "answer": "Playing 18 holes typically takes 1-2 hours depending on the number of players and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Webster Golf Club offers junior golf programs and family-friendly events. Kids under 16 may be eligible for special rates."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"8AM-9PM\"], \"Tuesday\": [\"8AM-9PM\"], \"Wednesday\": [\"8AM-9PM\"], \"Thursday\": [\"8AM-9PM\"], \"Friday\": [\"8AM-9PM\"], \"Saturday\": [\"8AM-9PM\"], \"Sunday\": [\"8AM-6PM\"]}"
+}

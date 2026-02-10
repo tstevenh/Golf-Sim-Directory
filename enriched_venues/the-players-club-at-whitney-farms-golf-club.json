@@ -1,0 +1,90 @@
+{
+  "name": "The Players Club at Whitney Farms Golf Club",
+  "address": "175 Shelton Rd, Monroe, CT 06468",
+  "city": "Monroe",
+  "region": "Connecticut",
+  "country": "US",
+  "latitude": 41.333204,
+  "longitude": -73.193984,
+  "phone": "+12032680707",
+  "website": "https://www.whitneyfarmsgc.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770200108/golf_simulators/www_whitneyfarmsgc_com_ChIJDb2t7lHj54kRl0o341PUdx0.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Players+Club+at+Whitney+Farms+Golf+Club/@41.3332039,-73.1939842,14z/data=!4m8!1m2!2m1!1sThe+Players+Club+at+Whitney+Farms+Golf+Club!3m4!1s0x89e7e351eeadbd0d:0x1d77d453e3374a97!8m2!3d41.3332039!4d-73.1939842",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJDb2t7lHj54kRl0o341PUdx0",
+  "email": "contact@whitneyfarmsgc.com",
+  "venue_type": "sim_bar",
+  "about": "Chris Bargas Golf Club & Event Venue at Whitney Farms is a family-owned facility featuring both an 18-hole public golf course and a dedicated indoor golf simulator lounge. The Player's Club offers year-round Trackman simulator bays with a full bar and food service. It serves as a destination for golfers of all skill levels, from casual players seeking entertainment to serious golfers looking for advanced technology and practice tools. The venue also hosts events, corporate gatherings, and provides a full-service pro shop and dining options.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|leagues|premium_tech|coaching_available|club_rentals|family_fun_center",
+  "vibe_tags": "sports_bar|community_club|welcoming",
+  "who_its_for": "beginners|serious_golfers|corporate_teams|families|solo_practice",
+  "why_golfers_like_it": [
+    "Premium Trackman simulator technology for accurate data and realistic play",
+    "Year-round access to simulators with full bar and food service",
+    "Multiple simulator bays available for individuals, groups, and leagues",
+    "On-site PGA professional available for coaching lessons"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full food service available at Sand Trap Grill & Bar and in The Player's Club"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available at Sand Trap Grill & Bar and in The Player's Club"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Year-round simulators with advanced radar technology"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://clients.uschedule.com/whitneyfarmsgc/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|kitchen_food|tv_sports|pro_shop|leagues|club_fitting",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you should bring your own golf clubs to use with the simulators."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "No, the venue has a full bar and food service available on-site."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "Playing 18 holes on a simulator typically takes 1-2 hours depending on group size and pace of play."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "Yes, the venue offers junior golf programs and is described as a family-friendly destination."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": null
+}

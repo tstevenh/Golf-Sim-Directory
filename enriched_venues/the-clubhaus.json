@@ -1,0 +1,91 @@
+{
+  "name": "The Clubhaus",
+  "address": "1213 S Central Ave, Marshfield, WI 54449",
+  "city": "Marshfield",
+  "region": "Wisconsin",
+  "country": "US",
+  "latitude": 44.655944,
+  "longitude": -90.180834,
+  "phone": "+17152070478",
+  "website": "http://www.clubhausmarshfield.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770205187/golf_simulators/www_clubhausmarshfield_com_ChIJwUwh_pLD_4cREhridA5IEaU.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Clubhaus/@44.6559445,-90.1808343,14z/data=!4m8!1m2!2m1!1sThe+Clubhaus!3m4!1s0x87ffc392fe214cc1:0xa511480e74e21a12!8m2!3d44.6559445!4d-90.1808343",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJwUwh_pLD_4cREhridA5IEaU",
+  "email": "info@clubhausmarshfield.com",
+  "venue_type": "sim_bar",
+  "about": "The Clubhaus is an indoor golf venue featuring 4 Uneekor simulators with professional-grade launch monitors. The facility offers a variety of games and programs suitable for all skill levels, from advanced golfers to beginners. Reservations are made by the hour, with rates based on group size. The venue maintains a comfortable sports bar atmosphere with full food and beverage services, making it a social space for both practice and recreation.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|budget_friendly|private_rooms|club_rentals|family_friendly|community_club",
+  "vibe_tags": "sports_bar|casual|welcoming|modern|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|large_groups",
+  "why_golfers_like_it": [
+    "Professional-grade Uneekor simulators with multiple game options",
+    "Relaxed sports bar atmosphere with full bar and food service",
+    "Variety of programs for all skill levels from mini golf to full course play",
+    "Convenient hourly booking based on group size",
+    "Availability for leagues, tournaments, and private events"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen service available with pizzas"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "QED or Eye XO",
+      "notes": "4 professional-grade simulators available"
+    }
+  ],
+  "simulator_software": [
+    "Various simulation games"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 4,
+  "booking_url": "https://apimanager-cc30.clubcaddie.com/activities/view/gffdabab",
+  "pricing_model": "per_person_hour",
+  "price_range_min_local": 15,
+  "price_range_max_local": 55,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": 4,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "full_bar|kitchen_food|tv_sports|private_party_room|leagues|club_rentals|wifi",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The Clubhaus provides all necessary equipment, including clubs, for use during your session."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drinks are not allowed, as the venue offers full kitchen and bar services."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "A single golfer can typically complete a full 18-hole course in one hour, though larger groups may need more time."
+    },
+    {
+      "question": "Is The Clubhaus kid-friendly?",
+      "answer": "Yes, The Clubhaus offers games suitable for beginners and families, including mini golf and target practice options."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-8PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-10PM\"], \"Saturday\": [\"10AM-10PM\"], \"Sunday\": [\"10AM-6PM\"]}"
+}

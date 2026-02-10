@@ -1,0 +1,91 @@
+{
+  "name": "Five Iron Golf",
+  "address": "3009 Ponce de Leon Blvd, Coral Gables, FL 33134",
+  "city": "Coral Gables",
+  "region": "Florida",
+  "country": "US",
+  "latitude": 25.74431,
+  "longitude": -80.258108,
+  "phone": "+18005135153",
+  "website": "https://www.fiveirongolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770230899/golf_simulators/www_fiveirongolf_com_ChIJLUEBTXa32YgR1rQJDDFoACs.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Five+Iron+Golf/@25.7443104,-80.2581082,14z/data=!4m8!1m2!2m1!1sFive+Iron+Golf!3m4!1s0x88d9b7764d01412d:0x2b0068310c09b4d6!8m2!3d25.7443104!4d-80.2581082",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJLUEBTXa32YgR1rQJDDFoACs",
+  "email": "leagues@fiveirongolf.com",
+  "venue_type": "sim_bar",
+  "about": "Five Iron Golf is an indoor golf venue that combines simulator play, practice, and socializing under one roof. It features state-of-the-art Trackman simulator bays, high-speed swing cameras, and access to over 200 virtual courses. The atmosphere is casual and welcoming with no dress code, making golf accessible to all skill levels. Each location includes a full-service bar and chef-inspired menu, creating a sports bar environment alongside the golf facilities. Pricing varies by day, time, and location, with hourly bay rentals and membership options available that include free play time and discounts on other services.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|coaching_available|kid_friendly",
+  "vibe_tags": "sports_bar|community_club|modern",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "Premium Trackman technology for accurate data and course simulation",
+    "Full-service bar and food menu for a complete social experience",
+    "No-dress-code atmosphere that is welcoming and accessible",
+    "Access to a wide variety of virtual golf courses including PGA Tour venues"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full-service bar with a chef-inspired menu available dine-in only."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full-service bar with drink specials, including $5 and $10 wings by the dozen and $5 shots during 5i After Dark."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Custom-built simulators powered by Trackman launch monitors"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "gimme_circle",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.fiveirongolf.com/sim-rentals",
+  "pricing_model": "mixed",
+  "price_range_min_local": 27,
+  "price_range_max_local": 50,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 8,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|leagues|club_fitting",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "Yes, players are expected to bring their own golf clubs. Club fitting services are available through an external partner."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "No, outside food and drinks are not permitted. The venue features a full-service bar and a chef-inspired menu available for dine-in."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes can vary, but simulator rentals are typically booked by the hour. A standard booking for one person would be 90 minutes per day during Member Benefit Hours, with other standard rental bookings subject to availability and location."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Five Iron Golf is kid-friendly, offering junior clinics and dedicated party packages for kids."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": null
+}

@@ -1,0 +1,91 @@
+{
+  "name": "The Swing Refinery",
+  "address": "2400 W Ryan Rd #3, Oak Creek, WI 53154",
+  "city": "Oak Creek",
+  "region": "Wisconsin",
+  "country": "US",
+  "latitude": 42.874285,
+  "longitude": -87.948878,
+  "phone": "+12623007588",
+  "website": "https://www.theswingrefinery.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770201200/golf_simulators/www_theswingrefinery_com_ChIJMT8Z9uwTBYgRcUbALx5S4Gw.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Swing+Refinery/@42.8742855,-87.9488776,14z/data=!4m8!1m2!2m1!1sThe+Swing+Refinery!3m4!1s0x880513ecf6193f31:0x6ce0521e2fc04671!8m2!3d42.8742855!4d-87.9488776",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJMT8Z9uwTBYgRcUbALx5S4Gw",
+  "email": "Swingteam@theswingrefinery.com",
+  "venue_type": "training_studio",
+  "about": "The Swing Refinery is a self-service indoor golf studio offering practice bays, leagues, and tournaments powered by premium simulators. It provides 24/7 access for members and operates on a reservation-only basis for non-members between 10am-9pm daily. The venue emphasizes technology, community, and flexible playing options with a focus on self-service and convenience.",
+  "tags": "beginner_friendly|serious_practice|leagues|tournaments|premium_tech|community_club|budget_friendly|solo_practice",
+  "vibe_tags": "tech_lab|community_club|modern|casual",
+  "who_its_for": "beginners|serious_golfers|families|solo_practice|low_handicap",
+  "why_golfers_like_it": [
+    "24/7 access for members",
+    "Premium simulators with accurate ball data",
+    "Self-service entry for maximum convenience",
+    "Leagues and tournaments for all skill levels",
+    "Flexible pricing with options for single reservations or memberships"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned, BYOB policy not specified"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned, BYOB policy not specified"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Premium simulators used for ball tracking"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "https://yourgolfbooking.com/venues/the-swing-refinery/booking/bays",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": false,
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|leagues|tournaments|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to have a membership?",
+      "answer": "No, you can make a single reservation without a membership."
+    },
+    {
+      "question": "Can I bring food or drink?",
+      "answer": "No specific policy is mentioned regarding food or drink."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "For full-round play, a good rule of thumb is to allow about one hour per player to complete an 18-hole round on a simulator."
+    },
+    {
+      "question": "Is it kid-friendly?",
+      "answer": "No specific information is provided regarding child-friendly policies or amenities."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"10AM-9PM\"], \"Tuesday\": [\"10AM-9PM\"], \"Wednesday\": [\"10AM-9PM\"], \"Thursday\": [\"10AM-9PM\"], \"Friday\": [\"10AM-9PM\"], \"Saturday\": [\"10AM-9PM\"], \"Sunday\": [\"10AM-9PM\"]}"
+}

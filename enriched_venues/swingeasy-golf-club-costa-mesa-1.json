@@ -1,0 +1,95 @@
+{
+  "name": "Swingeasy Golf Club - Costa Mesa",
+  "address": "2960 Airway Ave STE A-102, Costa Mesa, CA 92626",
+  "city": "Costa Mesa",
+  "region": "California",
+  "country": "US",
+  "latitude": 33.669315,
+  "longitude": -117.876517,
+  "phone": "+19494380575",
+  "website": "https://www.swingeasygc.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770244734/golf_simulators/www_swingeasygc_com_ChIJCxxZSmff3IARKgF7kKzdZHw.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Swingeasy+Golf+Club+-+Costa+Mesa/@33.6693147,-117.87651679999999,14z/data=!4m8!1m2!2m1!1sSwingeasy+Golf+Club+-+Costa+Mesa!3m4!1s0x80dcdf674a591c0b:0x7c64ddac907b012a!8m2!3d33.6693147!4d-117.87651679999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJCxxZSmff3IARKgF7kKzdZHw",
+  "venue_type": "sim_bar|private_rental|country_club",
+  "about": "Swingeasy Golf Club - Costa Mesa is a modern country club experience that blends virtual golf with social and competitive play. The venue features private, fully-equipped bays where guests can book sessions to play 18 holes on various courses or practice with advanced tracking technology. Operating on a mixed pricing model, it offers both hourly public rates and membership options, making it accessible for one-time players and regulars alike. The space is designed for groups, with each booking including a private suite furnished with comfortable seating, large TVs, and the ability to watch sporting events during play.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|premium_tech|private_rooms|club_rentals|family_friendly",
+  "vibe_tags": "private_luxury|tech_lab|modern|community_club",
+  "who_its_for": "beginners|families|corporate_teams|serious_golfers|tourists_travelers",
+  "why_golfers_like_it": [
+    "Every booking is in a fully private and spacious suite with closed doors for privacy",
+    "Advanced analytics and tracking software for compelling range sessions",
+    "Ability to play 18 holes at a wide range of US courses in under 2 hours",
+    "Option to watch sports on TVs in Picture in Picture mode while golfing",
+    "Flexible pricing allows for one-off sessions or monthly memberships"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Guests are welcome to bring outside food; soft drinks are available for purchase"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service on site; BYOB appears to be allowed"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": null,
+      "notes": "Advanced tracking software mentioned for range sessions"
+    },
+    {
+      "brand": "GSPro",
+      "model": null,
+      "notes": "Branded as a simulator partner for virtual golf experiences"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://www.swingeasygc.com/pages/book-now",
+  "pricing_model": "mixed",
+  "price_range_min_local": 65,
+  "price_range_max_local": 30,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|kitchen_food|tv_sports|private_party_room|pro_shop",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need my own golf clubs?",
+      "answer": "Rental clubs are available for members and guests, but bringing your own set is recommended for a better experience."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, guests are welcome to bring any outside food. Soft drinks are available for purchase, but no alcohol is mentioned as being served on site."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The recommended time is about 40 minutes per golfer to finish a full 18 holes, though this can vary based on group size and pace."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue accommodates families with its private suites that can host multiple guests, and it offers a social environment for group play."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"12-10PM\"], \"Tuesday\": [\"12-10PM\"], \"Wednesday\": [\"12-10PM\"], \"Thursday\": [\"12-10PM\"], \"Friday\": [\"10AM-10PM\"], \"Saturday\": [\"8AM-10PM\"], \"Sunday\": [\"8AM-8PM\"]}"
+}

@@ -1,0 +1,91 @@
+{
+  "name": "Urban Golf - NY",
+  "address": "245 Main St #100, White Plains, NY 10601",
+  "city": "White Plains",
+  "region": "New York",
+  "country": "US",
+  "latitude": 41.03324,
+  "longitude": -73.766188,
+  "phone": "+19175205900",
+  "website": "http://www.urbangolf.co.uk/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770215158/golf_simulators/www_urbangolf_co_uk_ChIJAz4DuDaUwokR4WYle7ngwUM.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Urban+Golf+-+NY/@41.0332399,-73.7661881,14z/data=!4m8!1m2!2m1!1sUrban+Golf+-+NY!3m4!1s0x89c29436b8033e03:0x43c1e0b97b2566e1!8m2!3d41.0332399!4d-73.7661881",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJAz4DuDaUwokR4WYle7ngwUM",
+  "email": "bookings@urbangolf.co.uk",
+  "venue_type": "sim_bar",
+  "about": "Urban Golf is London's original indoor golf destination, featuring 11 state-of-the-art simulators with custom technology that provides accurate ball tracking and realistic gameplay. The venue combines serious golf practice with a social atmosphere, offering data-driven shot analysis, over 100 virtual courses, and amenities like a full bar, food service, and sports viewing. It operates on a pay-per-hour model with special packages for groups and discounted rates for practice sessions.",
+  "tags": "food_and_drinks|serious_golfers|corporate_events|large_groups|premium_tech|coaching_available|private_rooms",
+  "vibe_tags": "sports_bar|tech_lab|upscale_lounge|community_club",
+  "who_its_for": "serious_golfers|corporate_teams|large_groups|solo_practice|tourists_travelers",
+  "why_golfers_like_it": [
+    "Custom camera-based ball tracking system providing the most accurate indoor shot data in the market",
+    "Ability to play over 100 famous courses including Cypress Point and Pine Valley on 11 simulators",
+    "Social atmosphere with bar service, food, and big screens showing live sports",
+    "Flexible pricing including practice bundles as low as £10/hour",
+    "Private VIP room 'The Bunker' with curved screen and table service"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Kitchen service available with food served to simulators or central lounge; includes pop-up from award-winning James Cochran"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service with cocktails, craft beers, and table service; food can be served while playing"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "aboutGOLF",
+      "model": "unknown",
+      "notes": "11 simulators using proprietary aboutGOLF technology with machine vision ball tracking"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 11,
+  "booking_url": "https://www.sevenrooms.com/reservations/urbangolf?duration-picker=true",
+  "pricing_model": "mixed",
+  "price_range_min_local": 40,
+  "price_range_max_local": 120,
+  "currency": "GBP",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|pro_shop|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, the venue provides Tour-level irons, woods, and wedges, along with Titleist Pro V1 golf balls."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No outside food or drinks are allowed as the venue has its own kitchen and full bar service."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "18-hole rounds typically take 2-3 hours depending on group size and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "No, Urban Golf is focused on serious golf practice and social adult activities with no specific junior programs mentioned."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"10AM-8PM\"], \"Tuesday\": [\"10AM-8PM\"], \"Wednesday\": [\"10AM-8PM\"], \"Thursday\": [\"10AM-8PM\"], \"Friday\": [\"10AM-8PM\"], \"Saturday\": [\"10AM-8PM\"], \"Sunday\": [\"10AM-8PM\"]}"
+}

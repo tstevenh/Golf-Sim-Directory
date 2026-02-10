@@ -1,0 +1,89 @@
+{
+  "name": "The Golf Cooperative",
+  "address": "345 S Lake Ave, Duluth, MN 55802",
+  "city": "Duluth",
+  "region": "Minnesota",
+  "country": "US",
+  "latitude": 46.782935,
+  "longitude": -92.095703,
+  "phone": "+12186062035",
+  "website": "https://www.thegolfcooperative.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770223870/golf_simulators/www_thegolfcooperative_com_ChIJrQ5DsudTrlIR-d9HFBDtwhg.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Golf+Cooperative/@46.7829352,-92.09570289999999,14z/data=!4m8!1m2!2m1!1sThe+Golf+Cooperative!3m4!1s0x52ae53e7b2430ead:0x18c2ed101447dff9!8m2!3d46.7829352!4d-92.09570289999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJrQ5DsudTrlIR-d9HFBDtwhg",
+  "venue_type": "sim_bar",
+  "about": "The Golf Cooperative is an indoor golf facility in Duluth, MN, featuring three Trackman simulators. It operates as a member-driven cooperative with public hours and a 24/7 key fob access option for members. The venue aims to provide an affordable, high-tech, and community-focused golf experience, positioning itself as an alternative to traditional, expensive simulator bars. Its business model emphasizes member inclusion, lower hourly rates, and a social environment over high-margin alcohol sales.",
+  "tags": "beginner_friendly|food_and_drinks|leagues|premium_tech|budget_friendly|community_club|coaching_available",
+  "vibe_tags": "community_club|modern|casual|welcoming",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "State-of-the-art Trackman technology for realistic ball and club tracking",
+    "Affordable public rate of $40/hour, significantly lower than competitors",
+    "Community-focused environment with member-driven governance and social spaces"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "No restrictions on food; members can bring their own or make food on-site."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol is available or mentioned on the premises."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Three simulators available, providing advanced radar-based tracking for a realistic on-course experience."
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://booking.trackmangolf.com/venues/the-golf-cooperative/booking/bays",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 40,
+  "price_range_max_local": 40,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|kitchen_food|wifi|leagues|ada_accessible|conference_room|lounge|coffee_bar",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify club rental availability. It is recommended to bring your own clubs, but guests should contact the venue directly for confirmation."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "Yes, there are no restrictions on food, allowing you to bring whatever you'd like. Alcohol is not available at the venue."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "The website does not provide an estimated time for playing 18 holes. Playing time can vary depending on simulator usage and course selection."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is described as inclusive and a space for all to connect, making it suitable for families. The lack of alcohol and emphasis on community also contribute to a family-friendly environment."
+    }
+  ],
+  "simulator_software": [
+    "Trackman.io"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"5-11PM\"], \"Tuesday\": [\"Closed\"], \"Wednesday\": [\"Closed\"], \"Thursday\": [\"Closed\"], \"Friday\": [\"5-11PM\"], \"Saturday\": [\"8AM-12AM\"], \"Sunday\": [\"8AM-7PM\"]}"
+}

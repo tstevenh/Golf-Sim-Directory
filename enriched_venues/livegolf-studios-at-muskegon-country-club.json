@@ -1,0 +1,90 @@
+{
+  "name": "LiveGolf Studios at Muskegon Country Club",
+  "address": "2801 Lakeshore Dr, Muskegon, MI 49441",
+  "city": "Muskegon",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 43.214045,
+  "longitude": -86.316581,
+  "phone": "+12317553737",
+  "website": "https://www.muskegon.livegolfstudios.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770237750/golf_simulators/www_muskegon_livegolfstudios_com_ChIJRXrAQWPXG4gRYG1TVEuyqlg.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/LiveGolf+Studios+at+Muskegon+Country+Club/@43.2140446,-86.316581,14z/data=!4m8!1m2!2m1!1sLiveGolf+Studios+at+Muskegon+Country+Club!3m4!1s0x881bd76341c07a45:0x58aab24b54536d60!8m2!3d43.2140446!4d-86.316581",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJRXrAQWPXG4gRYG1TVEuyqlg",
+  "venue_type": "sim_bar",
+  "about": "LiveGolf Studios at Muskegon Country Club is an indoor golf simulator venue featuring TrackMan 4 technology with access to over 200 golf courses, challenge games, and practice ranges. The facility offers five retractable simulator bays available for rent in 30-minute increments, with the option to order food and beverages from Lake Bluff Grille during play. Catering to various groups, it provides a year-round golf experience suitable for entertainment, practice, and special events. Pricing varies by day and time, with specials including weekday bundles, happy hours, family discounts, and senior days.",
+  "tags": "food_and_drinks|date_night|kids_friendly|corporate_events|premium_tech|beginner_friendly",
+  "vibe_tags": "sports_bar|family_fun_center|modern",
+  "who_its_for": "families|corporate_teams|beginners|serious_golfers|tourists_travelers",
+  "why_golfers_like_it": [
+    "Premium TrackMan 4 technology with radar and camera tracking for accurate simulation",
+    "Wide variety of courses, games, and practice modes for all skill levels",
+    "Retractable bays that can be integrated into Muskegon Country Club events",
+    "On-site food and drinks from Lake Bluff Grille for a complete experience",
+    "Flexible pricing with multiple daily specials and discounts"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full menu available from Lake Bluff Grille served directly to the simulator bay"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Bar service with draft beer, specialty cocktails, wine, and other beverages available"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "Industry-leading radar and camera tracking system with AI-powered practice features"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 5,
+  "booking_url": "https://www.muskegon.livegolfstudios.com/teetimes",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 30,
+  "price_range_max_local": 65,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|club_fitting|leagues",
+  "rating_tech_quality": 5.0,
+  "rating_facility_comfort": 4.5,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Club rentals are not mentioned, so it's recommended to bring your own clubs for the best experience."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, outside food and drinks are not allowed. The venue offers a full menu and bar service from Lake Bluff Grille."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Playing 18 holes typically takes 2-3 hours depending on the number of players and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is family-friendly with kid-friendly games, mini golf, bullseye challenges, and $5 discounts for children."
+    }
+  ],
+  "rating_overall": 4.5,
+  "opening_hours": "{\"Monday\": [\"9AM-9PM\"], \"Tuesday\": [\"9AM-9PM\"], \"Wednesday\": [\"9AM-9PM\"], \"Thursday\": [\"9AM-9PM\"], \"Friday\": [\"9AM-10PM\"], \"Saturday\": [\"9AM-10PM\"], \"Sunday\": [\"9AM-8PM\"]}"
+}

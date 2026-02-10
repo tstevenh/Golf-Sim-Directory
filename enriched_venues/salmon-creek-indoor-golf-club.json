@@ -1,0 +1,91 @@
+{
+  "name": "Salmon Creek Indoor Golf Club",
+  "address": "14109 NE 10th Ave Suite 721, Vancouver, WA 98685",
+  "city": "Vancouver",
+  "region": "Washington",
+  "country": "US",
+  "latitude": 45.723338,
+  "longitude": -122.659082,
+  "phone": "+15033954277",
+  "website": "http://www.salmoncreekgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770219949/golf_simulators/www_salmoncreekgolf_com_ChIJh5UHi8KtlVQRwJAoenvgxrQ.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Salmon+Creek+Indoor+Golf+Club/@45.7233376,-122.6590825,14z/data=!4m8!1m2!2m1!1sSalmon+Creek+Indoor+Golf+Club!3m4!1s0x5495adc28b079587:0xb4c6e07b7a2890c0!8m2!3d45.7233376!4d-122.6590825",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJh5UHi8KtlVQRwJAoenvgxrQ",
+  "email": "help@salmoncreekgolf.com.",
+  "venue_type": "multi_sport_sim",
+  "about": "Salmon Creek Indoor Golf Club is an indoor golf facility featuring two TrackMan simulators, offering a 24/7, year-round golfing experience. The club is accessible to members 24 hours a day, 7 days a week, allowing golfers to practice and play without weather or seasonal limitations. Memberships are offered on a month-to-month basis, including plans such as Silver, Gold (referred to as 'Gold' on the pricing page), Platinum, and Weekend Warrior, with options to roll over unused hours. The facility provides a technologically advanced environment with real-time data accuracy and detailed game analysis for both seasoned golfers and newcomers to the sport.",
+  "tags": "serious_golfers|beginner_friendly|corporate_events|leagues|premium_tech|coaching_available|club_rentals|juniors_youth",
+  "vibe_tags": "tech_lab|community_club|modern",
+  "who_its_for": "serious_golfers|beginners|corporate_teams|solo_practice|juniors_youth",
+  "why_golfers_like_it": [
+    "24/7 access to premium TrackMan technology",
+    "Year-round practice and play unaffected by weather",
+    "Real-time data and shot analysis for game improvement",
+    "Ability to play on world-renowned virtual courses",
+    "Multiple membership tiers to fit different usage needs"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "BYOB policy is not explicitly mentioned in the provided content."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "BYOB policy is not explicitly mentioned in the provided content."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Dual radar system with high-speed cameras for tracking club and ball trajectory."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://clients.uschedule.com/salmoncreekindoorgolf/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 40,
+  "price_range_max_local": 400,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|pro_shop|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The provided content does not specify whether club rentals are available or if members must bring their own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The provided content does not specify a policy on bringing outside food or drinks."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "A single player can typically complete 18 holes in under an hour, while a threesome can usually finish in under 2 hours."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The provided content does not explicitly state if children are welcome or if there are any kid-specific amenities or events."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

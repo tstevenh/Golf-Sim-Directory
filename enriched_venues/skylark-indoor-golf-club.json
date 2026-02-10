@@ -1,0 +1,91 @@
+{
+  "name": "Skylark Indoor Golf Club",
+  "address": "1514 E Harmony Rd Suite 4, Fort Collins, CO 80525",
+  "city": "Fort Collins",
+  "region": "Colorado",
+  "country": "US",
+  "latitude": 40.525209,
+  "longitude": -105.050947,
+  "phone": "+19703054311",
+  "website": "https://www.skylarkgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770217431/golf_simulators/www_skylarkgolf_com_ChIJ_2p_ptdNaYcRa48fhpSiB_M.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Skylark+Indoor+Golf+Club/@40.5252093,-105.0509469,14z/data=!4m8!1m2!2m1!1sSkylark+Indoor+Golf+Club!3m4!1s0x87694dd7a67f6aff:0xf307a294861f8f6b!8m2!3d40.5252093!4d-105.0509469",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ_2p_ptdNaYcRa48fhpSiB_M",
+  "email": "steven@skylarkgolf.com",
+  "venue_type": "sim_bar|training_studio",
+  "about": "Skylark Indoor Golf Club is a members-only facility in Fort Collins, offering unlimited indoor golf access on three simulator bays. The venue uses top-tier Trackman iO technology, providing data-driven feedback for game improvement. Membership is required, with options at $240 per month or $2,640 per year, and members can book tee times up to 10 days in advance. The facility is designed for golfers seeking to play more, practice better, and join a community of fellow golf enthusiasts, operating daily from 6am to 10pm.",
+  "tags": "serious_golfers|beginners_friendly|premium_tech|community_club|corporate_events|leagues|membership_only|coaching_available",
+  "vibe_tags": "tech_lab|community_club|modern",
+  "who_its_for": "serious_golfers|beginners|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Unlimited access with membership-based pricing model",
+    "Advanced Trackman iO technology for precise swing analysis",
+    "Data-driven progress tracking through the Trackman Golf app",
+    "Access to 400+ global golf courses with realistic simulations",
+    "Convenient daily reservations from 6am to 10pm"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "Members must bring their own food and drinks"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "BYOB policy - no on-site alcohol service"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Indoor Optimized radar system with OERT technology"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://yourgolfbooking.com/venues/skylark-indoor-golf-club/booking/bays",
+  "pricing_model": "membership_only",
+  "price_range_min_local": 240,
+  "price_range_max_local": 2640,
+  "currency": "USD",
+  "walk_ins_allowed": false,
+  "coaching_available": false,
+  "private_rooms_count": 3,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "wifi|club_rentals|tv_sports",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "Yes, Skylark does not offer rental clubs. Members must bring their own clubs to use in the simulator bays."
+    },
+    {
+      "question": "Can I bring food and drinks?",
+      "answer": "Members are allowed to bring their own food and drinks, with no on-site catering or bar service available."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Busy golfers can complete 18 holes in approximately one hour per session."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, members can bring up to 3 guests per reservation, making it suitable for families with children."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"6AM-10PM\"], \"Tuesday\": [\"6AM-10PM\"], \"Wednesday\": [\"6AM-10PM\"], \"Thursday\": [\"6AM-10PM\"], \"Friday\": [\"6AM-10PM\"], \"Saturday\": [\"6AM-10PM\"], \"Sunday\": [\"6AM-10PM\"]}"
+}

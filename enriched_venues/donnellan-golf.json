@@ -1,0 +1,84 @@
+{
+  "name": "Donnellan Golf",
+  "address": "585 Main St, West Yarmouth, MA 02673",
+  "city": "West Yarmouth",
+  "region": "Massachusetts",
+  "country": "US",
+  "latitude": 41.649517,
+  "longitude": -70.23088,
+  "phone": "+17609897531",
+  "website": "https://www.donnellangolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770199264/golf_simulators/www_donnellangolf_com_ChIJ48Jj6E8x-4kRyiQxmkofVhA.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Donnellan+Golf/@41.6495172,-70.2308801,14z/data=!4m8!1m2!2m1!1sDonnellan+Golf!3m4!1s0x89fb314fe863c2e3:0x10561f4a9a3124ca!8m2!3d41.6495172!4d-70.2308801",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ48Jj6E8x-4kRyiQxmkofVhA",
+  "email": "989-7531daviddonnellan@pga.com",
+  "venue_type": "sim_bar",
+  "about": "Donnellan Golf 365 offers indoor golf simulator sessions and PGA coaching. Located within Scally's Irish Ale House in West Yarmouth, Massachusetts, the facility provides access to cutting-edge HD simulators and Greenside AI+ swing analysis technology. Sessions can be booked for 1-4 hours, with pricing structured per hour, and the venue is open daily from 9am to 10pm. PGA Professional David Donnellan provides award-winning coaching for all ages and abilities, with both indoor and outdoor lesson options available at the simulator facility and Hyannis Golf Course.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|kids_friendly|corporate_events|leagues|premium_tech|coaching_available",
+  "vibe_tags": "sports_bar|community_club|casual|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|families|juniors_youth|corporate_teams",
+  "why_golfers_like_it": [
+    "State-of-the-art HD Golf Simulators with Greenside AI+ swing analysis",
+    "Located inside a restaurant with full food and beverage service",
+    "Available seven days a week with extended hours",
+    "PGA coaching available by appointment for all skill levels"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen service available at Scally's restaurant within the same location"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available at Scally's restaurant"
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": "unknown",
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.donnellangolf.com/appointments",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 240,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|wifi|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website doesn't specify whether club rentals are available. It's recommended to contact them directly to inquire about club rental options."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, external food and drinks are not permitted as Scally's Irish Ale House offers full kitchen and bar service within the same facility."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The pace of play guidelines suggest: 1 player = 1 hour, 2 players = 2 hours, 3 players = 3 hours, and 4 players = 4 hours for a full 18-hole round."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "Yes, Donnellan Golf offers junior programs, PGA Junior League, and PGA Junior Golf Camps. They also have programs for all ages and abilities."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"7AM-11:30PM\"], \"Tuesday\": [\"7AM-11:30PM\"], \"Wednesday\": [\"7AM-11:30PM\"], \"Thursday\": [\"7AM-11:30PM\"], \"Friday\": [\"7AM-11:30PM\"], \"Saturday\": [\"7AM-11:30PM\"], \"Sunday\": [\"7AM-11:30PM\"]}"
+}

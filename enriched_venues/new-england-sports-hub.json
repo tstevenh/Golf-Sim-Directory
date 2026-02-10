@@ -1,0 +1,90 @@
+{
+  "name": "New England Sports Hub",
+  "address": "6 Willand Dr, Somersworth, NH 03878",
+  "city": "Somersworth",
+  "region": "New Hampshire",
+  "country": "US",
+  "latitude": 43.238406,
+  "longitude": -70.894705,
+  "phone": "+16034050007",
+  "website": "https://newenglandsportshub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770237526/golf_simulators/newenglandsportshub_com_ChIJ_WKSRgCZ4okR5EzffEbd1Jo.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/New+England+Sports+Hub/@43.238406,-70.8947046,14z/data=!4m8!1m2!2m1!1sNew+England+Sports+Hub!3m4!1s0x89e29900469262fd:0x9ad4dd467cdf4ce4!8m2!3d43.238406!4d-70.8947046",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ_WKSRgCZ4okR5EzffEbd1Jo",
+  "email": "info@nesportshub.com",
+  "venue_type": "multi_sport_sim",
+  "about": "New England Sports Hub is a 135,000 square-foot indoor sports dome, operating as the largest facility of its kind in New England. It features a comprehensive golf offering with Trackman technology, including both a performance range and simulator bays. The venue also hosts a variety of youth and adult sports leagues, tournaments, and camps, alongside a full-service restaurant and concessions. While the website emphasizes premier technology and a family-friendly atmosphere, specific details on golf simulator capacity and pricing are not explicitly detailed.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|kids_friendly|private_rooms|coaching_available",
+  "vibe_tags": "casual|welcoming|modern|family_fun_center|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "State-of-the-art Trackman technology offering radar launch data",
+    "One of the first facilities in the U.S. with Trackman range and simulator",
+    "On-site private lessons and coaching available for improvement",
+    "Part of a larger sports complex, providing a full athletic experience"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full-service restaurant (Birdies Restaurant & Pub) and concessions area (The Short Stop) available on-site."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Alcohol is available at the on-site restaurant and pub."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Radar-based launch monitor technology integrated into the golf simulators and performance range."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://clients.uschedule.com/newenglandsportshub/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify if club rentals are available. It is recommended to bring your own clubs or call ahead to inquire about rental options."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "Outside food and drink are not permitted inside the facility. Players and referees may bring one water bottle."
+    },
+    {
+      "question": "How long does a typical 18-hole simulator session take?",
+      "answer": "The website does not provide an estimated duration for an 18-hole simulator session."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, New England Sports Hub offers a wide range of youth programs, leagues, summer camps, and clinics, making it a very kid-friendly venue."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-9PM\"], \"Tuesday\": [\"10AM-9PM\"], \"Wednesday\": [\"10AM-9PM\"], \"Thursday\": [\"10AM-9PM\"], \"Friday\": [\"10AM-10PM\"], \"Saturday\": [\"8AM-10PM\"], \"Sunday\": [\"8AM-8PM\"]}"
+}

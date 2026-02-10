@@ -1,0 +1,93 @@
+{
+  "name": "Sandbaggers Golf Spot",
+  "address": "2292 Quimby Rd, San Jose, CA 95122",
+  "city": "San Jose",
+  "region": "California",
+  "country": "US",
+  "latitude": 37.322788,
+  "longitude": -121.809673,
+  "phone": "+14086223490",
+  "website": "https://sandbaggersgolfspot.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770230489/golf_simulators/sandbaggersgolfspot_com_ChIJy8cSVtwtjoARTsPELAa1bH0.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Sandbaggers+Golf+Spot/@37.322787999999996,-121.80967299999999,14z/data=!4m8!1m2!2m1!1sSandbaggers+Golf+Spot!3m4!1s0x808e2ddc5612c7cb:0x7d6cb5062cc4c34e!8m2!3d37.322787999999996!4d-121.80967299999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJy8cSVtwtjoARTsPELAa1bH0",
+  "email": "info@sandbaggersgolfspot.com",
+  "venue_type": "sim_bar",
+  "about": "Sandbaggers Golf Spot is an indoor golf facility dedicated to making the game accessible and welcoming to all skill levels. The venue features state-of-the-art Foresight Sports simulators, a 1,000 sqft chipping and putting green, and PGA-certified coaching services. It operates on a membership model with various tiers offering flexible booking, advanced swing analytics, and community-focused events. The facility is designed to be a social hub where golfers can practice, play, and connect year-round, regardless of weather conditions. Membership benefits include priority booking, discounted rates, and access to members-only events, with a focus on fostering an inclusive community atmosphere.",
+  "tags": "beginner_friendly|leagues|coaching_available|community_club|premium_tech|solo_practice|serious_golfers|food_and_drinks",
+  "vibe_tags": "community_club|tech_lab|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|solo_practice|families|coaches_instructors",
+  "why_golfers_like_it": [
+    "Access to Foresight Sports simulators with accurate ball flight and precision analytics",
+    "A vibrant, inclusive community for networking and socializing with other golfers",
+    "Unlimited year-round practice with flexible booking and extended hours",
+    "Personalized coaching and professional club fitting services"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "On-site kitchen available for food service"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available with alcoholic beverages"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": "unknown",
+      "notes": "State-of-the-art Foresight Sports simulators"
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://clients.uschedule.com/sandbaggersgolfspot/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": false,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can bring your own clubs, or the facility may provide rental clubs if available. Contact them for specific equipment options."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue has an on-site kitchen and full bar, so outside food and drinks are likely not permitted. Alcohol is served on-premises."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Playing 18 holes typically takes 1-2 hours depending on the simulator setup and number of players in your group."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Sandbaggers Golf Spot is designed to be accessible to all skill levels, including juniors and youth golfers, making it family-friendly."
+    }
+  ],
+  "simulator_software": [
+    "Foresight Sports"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"11AM-10PM\"], \"Tuesday\": [\"11AM-10PM\"], \"Wednesday\": [\"11AM-10PM\"], \"Thursday\": [\"11AM-10PM\"], \"Friday\": [\"11AM-10PM\"], \"Saturday\": [\"9AM-7PM\"], \"Sunday\": [\"1-7PM\"]}"
+}

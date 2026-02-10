@@ -1,0 +1,91 @@
+{
+  "name": "Airport National Golf Course",
+  "address": "3001 Wright Brothers Blvd E, Cedar Rapids, IA 52404",
+  "city": "Cedar Rapids",
+  "region": "Iowa",
+  "country": "US",
+  "latitude": 41.888956,
+  "longitude": -91.624351,
+  "phone": "+13198484500",
+  "website": "http://www.airportnationalpublicgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770247206/golf_simulators/www_airportnationalpublicgolf_com_ChIJZd-N_OxY5IcR0bzxtBpD4DA.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Airport+National+Golf+Course/@41.888956199999996,-91.6243511,14z/data=!4m8!1m2!2m1!1sAirport+National+Golf+Course!3m4!1s0x87e458ecfc8ddf65:0x30e0431ab4f1bcd1!8m2!3d41.888956199999996!4d-91.6243511",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJZd-N_OxY5IcR0bzxtBpD4DA",
+  "venue_type": "sim_bar|training_studio",
+  "about": "Airport National Public Golf Complex is a multi-faceted golf facility offering both outdoor play and indoor simulator experiences. The venue is equipped with Foresight Falcon launch monitors, providing advanced technology for year-round practice and play. It operates on an hourly pricing model, accommodating up to five people per simulator bay, with a flat rate regardless of group size. The facility is best suited for casual players, groups, and those seeking a relaxed golf outing experience.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|budget_friendly|club_rentals|coaching_available|family_fun_center",
+  "vibe_tags": "casual|welcoming|modern|community_club",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Premium Foresight Falcon launch monitor technology",
+    "Flat hourly rate accommodating up to 5 people",
+    "Year-round access for practice and leagues",
+    "Convenient online booking system",
+    "Available for private events and group outings"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Ice cream available on-site"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": "Falcon",
+      "notes": "The game's most advanced launch monitor"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://reserve.airportnationalpublicgolf.com/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 25,
+  "price_range_max_local": 25,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 5,
+  "amenities_list": "club_rentals|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 4.5,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The facility does not specify whether club rentals are available, so it's recommended to bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "The venue offers ice cream on-site, but outside food and drink policies are not specified."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time for 18 holes is not specified, but simulator time is booked by the hour with recommended durations based on group size."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue features a mini-golf course and offers junior golf academy programs, making it suitable for families."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "Sat 9am-9pm | Sunday 9am-8pm | Sat 9am-9pm | Sunday 9am-8pm | Sat 9am-9pm | Sunday 9am-8pm"
+}

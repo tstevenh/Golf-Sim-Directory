@@ -1,0 +1,92 @@
+{
+  "name": "X-Golf Ashburn",
+  "address": "43150 Broadlands Center Plaza Suite 168, Broadlands, VA 20148",
+  "city": "Broadlands",
+  "region": "Virginia",
+  "country": "US",
+  "latitude": 39.026215,
+  "longitude": -77.507791,
+  "phone": "+15714432269",
+  "website": "https://playxgolf.com/locations/ashburn",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770216914/golf_simulators/playxgolf_com_ChIJlxlncK4_tokRJS5ZYgcx0-M.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/X-Golf+Ashburn/@39.0262151,-77.507791,14z/data=!4m8!1m2!2m1!1sX-Golf+Ashburn!3m4!1s0x89b63fae70671997:0xe3d3310762592e25!8m2!3d39.0262151!4d-77.507791",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJlxlncK4_tokRJS5ZYgcx0-M",
+  "email": "info@xgolfashburn.com",
+  "venue_type": "sim_bar",
+  "about": "X-Golf Ashburn is a premier indoor golf venue located in Broadlands Center Plaza. The facility features state-of-the-art golf simulators that utilize a combination of camera systems, infrared lasers, and impact sensors to provide unparalleled accuracy and realism. Beyond the technology, the venue offers a full-service bar and kitchen with seasonal specials, local craft beers, and customizable event spaces, making it a hub for both entertainment and training.",
+  "tags": "food_and_drinks|social|premium_tech|events|leagues|lessons|family_friendly",
+  "vibe_tags": "sports_bar|casual|modern|entertainment|social",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "State-of-the-art simulator technology with impact sensors and 3D swaying analysis",
+    "Full bar and restaurant with seasonal food and drink specials",
+    "Private and spacious bays accommodating up to 6 players",
+    "Professional lessons and leagues available on-site",
+    "Customizable event space for parties and corporate outings",
+    "VIP Membership options for discounted rates"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen with seasonal specials, appetizers, and main courses"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Iced cold local craft and domestic beers on tap, handcrafted cocktails, and wine"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "X-Golf",
+      "model": "X-Golf Simulator",
+      "notes": "Uses camera systems, infrared lasers, impact sensors, and advanced gaming software for 3D ball flight and club path analysis"
+    }
+  ],
+  "simulator_software": [
+    "X-Golf Software"
+  ],
+  "launch_monitor_type": "X-Golf Proprietary System",
+  "ball_tracking": "unknown",
+  "club_tracking": "true",
+  "putting_mode": "PuttView Training Technology",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 7,
+  "booking_url": "https://app.squareup.com/appointments/book/5gnfqkp0aw8viy/LCP4ZFR3J2T5S/start",
+  "pricing_model": "Per bay per hour",
+  "price_range_min_local": 60.0,
+  "price_range_max_local": 67.5,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "Full Bar|Restaurant|Events Space|PuttView Technology|Golf Pro Lessons|League Play|VIP Memberships|Private Event Bay|Restrooms",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.5,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, you do not need to bring your own clubs. While many golfers prefer their own set, the venue offers club rentals upon request."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, outside food and drinks are not permitted. The venue has a full bar and kitchen offering a wide selection of meals, appetizers, and beverages."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "It typically takes an individual about 45 to 60 minutes to complete 18 holes. If sharing a bay, it is recommended to allocate one hour per person to play a full round."
+    },
+    {
+      "question": "Is this kid-friendly?",
+      "answer": "Yes, X-Golf Ashburn is family-friendly and welcomes children of all ages. They offer 'Mens, Womens, & Kids' club rentals and the simulators are suitable for all skill levels."
+    }
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"10AM-8PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"9AM-11PM\"], \"Saturday\": [\"9AM-11PM\"], \"Sunday\": [\"8AM-7PM\"]}"
+}

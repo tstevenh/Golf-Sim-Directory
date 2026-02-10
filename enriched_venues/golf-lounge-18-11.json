@@ -1,0 +1,91 @@
+{
+  "name": "Golf Lounge 18",
+  "address": "250 Granite St, Braintree, MA 02184",
+  "city": "Braintree",
+  "region": "Massachusetts",
+  "country": "US",
+  "latitude": 42.222792,
+  "longitude": -71.024284,
+  "phone": "+17815797767",
+  "website": "https://golflounge18.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770214677/golf_simulators/golflounge18_com_ChIJDfBPj79944kRQRXJ2eRsBeg.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Golf+Lounge+18/@42.222791699999995,-71.0242845,14z/data=!4m8!1m2!2m1!1sGolf+Lounge+18!3m4!1s0x89e37dbf8f4ff00d:0xe8056ce4d9c91541!8m2!3d42.222791699999995!4d-71.0242845",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJDfBPj79944kRQRXJ2eRsBeg",
+  "email": "info@golflounge18.com",
+  "venue_type": "sim_bar",
+  "about": "Golf Lounge 18 is an indoor golf facility featuring Trackman 4 simulator technology with access to over 450 worldwide courses. The venue operates on an hourly bay reservation basis, allowing groups to split costs, and also offers memberships for advanced booking privileges. It combines golf simulation with a full bar, HDTVs for sports viewing, and food service, positioning itself as a social venue for practice, leagues, lessons, and events.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|leagues|premium_tech|family_friendly|coaching_available",
+  "vibe_tags": "sports_bar|family_fun_center|tech_lab",
+  "who_its_for": "families|corporate_teams|beginners|serious_golfers|juniors_youth",
+  "why_golfers_like_it": [
+    "Access to Trackman 4 technology with 450+ global courses",
+    "Full-service bar and food menu available on-site",
+    "Suitable for both casual play and serious practice with data analysis",
+    "Versatile space hosting leagues, lessons, and private events"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Expanded food menu available for before, during, or after golf sessions"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available on-site"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "Dual Radar Technology used in all simulator bays"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://golflounge18.com/book/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The content doesn't explicitly mention club rentals, so it's recommended to bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, external food and drinks are not allowed as the venue has its own full bar and kitchen menu available."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The content doesn't specify the duration for 18 holes, but sessions are booked by the hour and can be split among group members."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Golf Lounge 18 offers junior academy programs and clinics, indicating a family-friendly environment."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"8AM-11PM\"], \"Saturday\": [\"8AM-11PM\"], \"Sunday\": [\"8AM-10PM\"]}"
+}

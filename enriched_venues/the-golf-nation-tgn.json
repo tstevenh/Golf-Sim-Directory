@@ -1,0 +1,108 @@
+{
+  "name": "The Golf Nation (TGN)",
+  "address": "142 S Van Brunt St, Englewood, NJ 07631",
+  "city": "Englewood",
+  "region": "New Jersey",
+  "country": "US",
+  "latitude": 40.890265,
+  "longitude": -73.979723,
+  "phone": "+12018883823",
+  "website": "https://www.thegolfnation.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770213816/golf_simulators/www_thegolfnation_com_ChIJl4Sk3SnxwokRZKqMd3MRZbM.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Golf+Nation+%28TGN%29/@40.890265199999995,-73.9797234,14z/data=!4m8!1m2!2m1!1sThe+Golf+Nation+%28TGN%29!3m4!1s0x89c2f129dda48497:0xb3651173778caa64!8m2!3d40.890265199999995!4d-73.9797234",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJl4Sk3SnxwokRZKqMd3MRZbM",
+  "venue_type": "training_studio",
+  "about": "The Golf Nation is a membership-based indoor golf training facility in Englewood, NJ, focused on using advanced technology and expert coaching to help golfers of all levels improve their game. It offers year-round access to a private, state-of-the-art studio equipped with tour-level technology like GCQuad launch monitors and 3D motion capture. The facility provides a mix of individual practice, coaching, and group lessons, creating a community-oriented environment for dedicated golfers looking to enhance their skills and mental game.",
+  "tags": "serious_practice|coaching_available|premium_tech|beginner_friendly|juniors_youth|community_club|budget_friendly",
+  "vibe_tags": "industrial_training|tech_lab|community_club|modern",
+  "who_its_for": "serious_golfers|beginners|juniors_youth|solo_practice|coaches_instructors",
+  "why_golfers_like_it": [
+    "Access to professional-grade technology like GCQuad launch monitors and 3D motion capture",
+    "Data-driven, personalized instruction from PGA-certified coaches",
+    "All-weather, year-round training facility with a focus on measurable improvement"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of food service available on-site"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service available on-site"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight Sports",
+      "model": "GC3",
+      "notes": "Primarily for practice sessions"
+    },
+    {
+      "brand": "Foresight Sports",
+      "model": "GCQuad",
+      "notes": "Primary launch monitor for coaching and detailed analysis"
+    },
+    {
+      "brand": "Smart2Move",
+      "model": "Dual Force Plates",
+      "notes": "For ground force analysis and swing dynamics"
+    },
+    {
+      "brand": "Motion2Coach",
+      "model": "3D Motion Capture",
+      "notes": "Captures full-body swing mechanics"
+    },
+    {
+      "brand": "HackMotion",
+      "model": "Wrist Sensor",
+      "notes": "Analyzes wrist angles and movements"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://www.thegolfnation.com/schedule-consultation",
+  "pricing_model": "mixed",
+  "price_range_min_local": 30,
+  "price_range_max_local": 110,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "coaching_available|club_rentals|pro_shop|leagues|ada_accessible|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you should bring your own golf clubs for practice sessions."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "There is no mention of food or drink service on-site, so you may be able to bring your own."
+    },
+    {
+      "question": "How long does it take to play 18 holes on the simulator?",
+      "answer": "The website does not specify the time required to complete 18 holes."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, The Golf Nation offers programs for juniors and youth, and mentions group lessons with families."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"9AM-10PM\"], \"Saturday\": [\"9AM-10PM\"], \"Sunday\": [\"9AM-10PM\"]}"
+}

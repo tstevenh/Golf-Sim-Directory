@@ -1,0 +1,83 @@
+{
+  "name": "XP Golf",
+  "address": "6835 Lonetree Blvd #104, Rocklin, CA 95765",
+  "city": "Rocklin",
+  "region": "California",
+  "country": "US",
+  "latitude": 38.797163,
+  "longitude": -121.289489,
+  "phone": "+16504834179",
+  "website": "https://xpgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770199280/golf_simulators/xpgolf_com_ChIJL7ytEKchm4ARWN2M3bezAx0.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/XP+Golf/@38.797163399999995,-121.2894893,14z/data=!4m8!1m2!2m1!1sXP+Golf!3m4!1s0x809b21a710adbc2f:0x1d03b3b7dd8cdd58!8m2!3d38.797163399999995!4d-121.2894893",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJL7ytEKchm4ARWN2M3bezAx0",
+  "email": "reservations@xpgolf.com",
+  "venue_type": "sim_bar|training_studio|private_rental|retail_fitting_center|country_club|multi_sport_sim|hotel_resort|other",
+  "about": "XP Golf is a golf simulation venue offering 24/7 automated play regardless of weather or time. The facility features multiple bays for play and provides a convenient indoor golf experience. Pricing is structured as $45 per hour for open bays and $60 per hour for private bays, with a booking system available for reservations.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|club_rentals|late_night|coaching_available",
+  "vibe_tags": "casual|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "24/7 automated access for flexible scheduling",
+    "No weather constraints for year-round play",
+    "Variety of bay options to suit different group sizes"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No information provided on food service."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No information provided on alcohol service. BYOB policy not mentioned."
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": "unknown",
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "https://client.flexbooker.com/widget/c0bd3fea-9378-46be-a24e-6607a47ac7f3",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 45,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 5,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|lockers|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.0,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No information provided on club rentals or requirements."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No information provided on food and drink policies. BYOB is not explicitly mentioned."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "No information provided on average time to complete 18 holes."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "Yes, the venue appears to accommodate families, though specific age restrictions or policies for children are not detailed."
+    }
+  ],
+  "rating_overall": 4.0,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

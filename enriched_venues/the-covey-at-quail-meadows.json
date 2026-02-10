@@ -1,0 +1,93 @@
+{
+  "name": "The Covey at Quail Meadows",
+  "address": "2215 Centennial Dr, Washington, IL 61571",
+  "city": "Washington",
+  "region": "Illinois",
+  "country": "US",
+  "latitude": 40.705346,
+  "longitude": -89.504372,
+  "phone": "+13096943139",
+  "website": "https://www.quailmeadowsgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770266091/golf_simulators/www_quailmeadowsgolf_com_ChIJsXiaqy1XCogRdq_1naqaCNA.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Covey+at+Quail+Meadows/@40.705346,-89.5043717,14z/data=!4m8!1m2!2m1!1sThe+Covey+at+Quail+Meadows!3m4!1s0x880a572dab9a78b1:0xd0089aaa9df5af76!8m2!3d40.705346!4d-89.5043717",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJsXiaqy1XCogRdq_1naqaCNA",
+  "venue_type": "multi_sport_sim",
+  "about": "Quail Meadows is a full-year golf facility located in Washington, Illinois, featuring an 18-hole, par 72 championship golf course and an indoor golf center. The outdoor course is designed for players of all abilities, with water hazards and naturalized areas providing scenic gameplay. The indoor facility, known as The Covey, utilizes Full Swing Pro 2.0 simulators with 50 available courses and driving range capabilities. The venue is situated on Centennial Drive next to the Illinois Central College Campus and offers banquet facilities for events.",
+  "tags": "beginner_friendly|corporate_events|leagues|premium_tech|private_rooms|club_rentals|coaching_available|food_and_drinks",
+  "vibe_tags": "sports_bar|family_fun_center|community_club",
+  "who_its_for": "beginners|families|corporate_teams|solo_practice|low_handicap",
+  "why_golfers_like_it": [
+    "50+ simulated golf courses available for play",
+    "Full Swing Pro 2.0 technology for realistic simulation",
+    "Indoor golf center for year-round practice and play",
+    "Driving range capabilities on simulators",
+    "Banquet facility with panoramic views for events"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Available for events and private parties in the banquet facility"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service; BYOB likely allowed for private events"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Full Swing",
+      "model": "Pro 2.0",
+      "notes": "Premium simulator with 50 courses and driving range capabilities"
+    }
+  ],
+  "simulator_so": [
+    "Full Swing"
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://foreupsoftware.com/index.php/booking/22761#/teetimes",
+  "pricing_model": "per_person_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|private_party_room|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Players are expected to bring their own clubs for simulator sessions, as the facility does not explicitly mention club rentals."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answers": "Food and drink service is available for private events in the banquet facility. For individual simulator sessions, outside food and drinks may be allowed, but this should be confirmed directly with the venue."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Playing 18 holes on the simulators typically takes 2-3 hours, depending on the pace of play and number of players in the bay."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, Quail Meadows is family-friendly and suitable for juniors and youth, with amenities and offerings suitable for various age groups."
+    }
+  ],
+  "simulator_software": [
+    "Full Swing Pro 2.0"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"8AM-11PM\"], \"Saturday\": [\"8AM-11PM\"], \"Sunday\": [\"8AM-9PM\"]}"
+}

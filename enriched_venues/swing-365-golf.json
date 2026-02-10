@@ -1,0 +1,92 @@
+{
+  "name": "Swing 365 Golf",
+  "address": "800 Main St S suite 104, Southbury, CT 06488",
+  "city": "Southbury",
+  "region": "Connecticut",
+  "country": "US",
+  "latitude": 41.462991,
+  "longitude": -73.233205,
+  "phone": "+14752382473",
+  "website": "https://swing365golf.com/southbury/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770209222/golf_simulators/swing365golf_com_ChIJdcqrEYrl54kRDidbL3S4SSs.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Swing+365+Golf/@41.4629913,-73.2332047,14z/data=!4m8!1m2!2m1!1sSwing+365+Golf!3m4!1s0x89e7e58a11abca75:0x2b49b8742f5b270e!8m2!3d41.4629913!4d-73.2332047",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJdcqrEYrl54kRDidbL3S4SSs",
+  "email": "Brad@swing365golf.com",
+  "venue_type": "sim_bar",
+  "about": "Swing 365 Golf is a membership-based golf simulator venue offering 24/7 access to private, state-of-the-art simulators. The facility provides a warm, inviting club atmosphere with online booking for individual suites. Members enjoy unlimited simulator time with daily limits, and the venue allows members to bring their own food and beverages. The simulators offer a wide selection of courses and advanced tracking technology for a realistic golf experience.",
+  "tags": "serious_golfers|food_and_drinks|solo_practice|corporate_teams|private_rooms|premium_tech|community_club",
+  "vibe_tags": "private_luxury|community_club|modern",
+  "who_its_for": "serious_golfers|solo_practice|corporate_teams",
+  "why_golfers_like_it": [
+    "Unlimited simulator access with daily time limits for frequent play",
+    "Full Swing™ Pro Series simulator with 688 infrared sensors for precise ball tracking",
+    "Private, 24/7 accessible booking for a comfortable and exclusive experience"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Bring your own food is permitted"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Bring your own beverages is permitted"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Full Swing",
+      "model": "Pro Series",
+      "notes": "688 infrared sensors across two tracks, measures ball mid-flight"
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "infrared_optical",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://clients.uschedule.com/swing365southbury/account/login",
+  "pricing_model": "mixed",
+  "price_range_min_local": 40,
+  "price_range_max_local": 45,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|kitchen_food|private_party_room|wifi|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "Yes, golfers are expected to bring their own clubs for use in the simulators."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, members are allowed to bring their own food and beverages."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "A typical 18-hole simulation can vary in time depending on the simulator software and player speed, but usually takes around 1.5-2 hours."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Swing 365 Golf is a membership-based adult-focused venue and does not appear to be specifically marketed or designed for children."
+    }
+  ],
+  "simulator_software": [
+    "FULL SWIGHT™ widescreen simulator"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

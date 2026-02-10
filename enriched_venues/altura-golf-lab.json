@@ -1,0 +1,105 @@
+{
+  "name": "Altura Golf Lab",
+  "address": "1701 Freeman St, Fort Wayne, IN 46802",
+  "city": "Fort Wayne",
+  "region": "Indiana",
+  "country": "US",
+  "latitude": 41.068878,
+  "longitude": -85.178726,
+  "phone": "+12602095134",
+  "website": "https://alturagolflab.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770209483/golf_simulators/alturagolflab_com_ChIJffjeLQflFYgRMXY6V010vSE.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Altura+Golf+Lab/@41.0688781,-85.17872609999999,14z/data=!4m8!1m2!2m1!1sAltura+Golf+Lab!3m4!1s0x8815e5072ddef87d:0x21bd744d573a7631!8m2!3d41.0688781!4d-85.17872609999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJffjeLQflFYgRMXY6V010vSE",
+  "email": "info@alturagolflab.com",
+  "venue_type": "training_studio",
+  "about": "Altura Golf Lab is a high-tech golf training facility that uses data and advanced technology to provide tailored instruction. The facility utilizes a full suite of tools including Trackman, Robo Golf Pro, and other systems to analyze swing mechanics and improve performance. They offer a range of programs from adult and junior coaching to club fitting services, with an emphasis on a data-driven approach to golf instruction.",
+  "tags": "serious_practice|coaching_available|club_fitting|juniors_youth|corporate_events|premium_tech",
+  "vibe_tags": "tech_lab|modern|welcoming",
+  "who_its_for": "serious_golfers|juniors_youth|corporate_teams|coaches_instructors",
+  "why_golfers_like_it": [
+    "Uses industry-leading technology like Trackman and Robo Golf Pro for precise swing analysis",
+    "Offers comprehensive programs for both adults and juniors with customized coaching plans",
+    "Combines indoor training with outdoor playing lessons at local courses for on-course application",
+    "Provides holistic approach including fitness and nutrition alongside technical instruction"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "Industry-standard launch monitor providing club and ball flight physics data"
+    },
+    {
+      "brand": "Robo Golf Pro",
+      "model": "N/A",
+      "notes": "Swing training system for creating exact swing feelings"
+    },
+    {
+      "brand": "Quintic",
+      "model": "Ball Roll System",
+      "notes": "Launch monitor for putting with high-speed camera tracking"
+    },
+    {
+      "brand": "V1 Sports",
+      "model": "360° System",
+      "notes": "Video capture and swing analysis software for in-person and virtual lessons"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar|photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green|photometric_camera",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.wellnessliving.com/rs/appointment-start.html?is_microsite=0&is_widget=1&id_mode=11&is_all=1&k_business=252635",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 200,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|club_fitting|pro_shop",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you should bring your own clubs for lessons and practice sessions. Club fitting services are available to help optimize your equipment."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No outside food or drinks are mentioned as being allowed. The facility does not have an on-site kitchen or bar service."
+    },
+    {
+      "question": "How long does it take to play 18 holes on a simulator?",
+      "answer": "Time for 18 holes is not specified. However, the facility offers 9-hole playing lessons at local courses, which suggests their outdoor program focuses on shorter formats."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, Altura Golf Lab offers dedicated junior programs and has experience working with young golfers, including those aspiring to play collegiate golf."
+    }
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"10AM-5PM\"], \"Wednesday\": [\"10AM-6PM\"], \"Thursday\": [\"10AM-5PM\"], \"Friday\": [\"10AM-5PM\"], \"Saturday\": [\"Closed\"], \"Sunday\": [\"10AM-3PM\"]}"
+}

@@ -1,0 +1,85 @@
+{
+  "name": "Bobby Jones Golf Course",
+  "address": "2205 Northside Dr NW, Atlanta, GA 30305",
+  "city": "Atlanta",
+  "region": "Georgia",
+  "country": "US",
+  "latitude": 33.815216,
+  "longitude": -84.406525,
+  "phone": "+14043551009",
+  "website": "http://www.bobbyjonesgc.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770266609/golf_simulators/www_bobbyjonesgc_com_ChIJRTBjJQ0F9YgRdjFw_pPYvTQ.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Bobby+Jones+Golf+Course/@33.815216,-84.4065246,14z/data=!4m8!1m2!2m1!1sBobby+Jones+Golf+Course!3m4!1s0x88f5050d25633045:0x34bdd893fe703176!8m2!3d33.815216!4d-84.4065246",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJRTBjJQ0F9YgRdjFw_pPYvTQ",
+  "email": "info@bobbyjonesgc.com",
+  "venue_type": "other",
+  "about": "Bobby Jones Golf Course is a historic and revolutionary golf venue located in Atlanta, Georgia. The facility is built around a unique 130-acre reversible nine-hole course designed by Bob Cupp, featuring multiple tees and large double greens that offer different playing experiences. The course is home to the Grand Slam Golf Academy, Murray Golf House, Boone's restaurant, Cupp Links Par 3 course, and the Dan Yates Putting Course, making it a comprehensive golf destination. Operated by the Bobby Jones Golf Course Foundation, the venue is dedicated to growing the game of golf with a focus on juniors and adaptive golfers, and has been developed with significant community support and environmental stewardship in mind.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|coaching_available|premium_tech|juniors_youth|community_club|family_friendly|serious_golfers",
+  "vibe_tags": "community_club|family_fun_center|casual|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|families|juniors_youth|corporate_teams|coaches_instructors",
+  "why_golfers_like_it": [
+    "Revolutionary reversible nine-hole course design with multiple tee and pin combinations",
+    "Home to the Grand Slam Golf Academy for structured coaching and instruction",
+    "Comprehensive facility including putting course, Par 3 course, and on-site restaurant",
+    "Dedicated focus on growing the game with programs for juniors and adaptive golfers",
+    "Free Dan Yates Putting Course open to all ages for casual practice"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Boone's restaurant located on-site"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service or BYOB policy"
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": "unknown",
+  "club_tracking": "unknown",
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": "unknown",
+  "bay_count_total": null,
+  "booking_url": "https://bobby-jones-golf-course.book.teeitup.com/",
+  "pricing_model": "unknown",
+  "price_range_min_local": null,
+  "price_range_max_local": null,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": null,
+  "max_group_size_per_bay": null,
+  "amenities_list": "club_rentals|kitchen_food|private_party_room|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.0,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify club rental policies. It's recommended to call the golf shop at (404) 355-1009 to inquire about club availability."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Boone's restaurant is available on-site for dining options. No explicit BYOB policy is mentioned, so external food and drink policies are unclear."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The venue features a reversible nine-hole course, allowing players to play both the Azalea and Magnolia nines for a full 18-hole experience."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, Bobby Jones Golf Course is kid-friendly, offering youth programs through the Grand Slam Golf Academy and prioritizing junior play on the Cupp Links course."
+    }
+  ],
+  "rating_overall": 4.1,
+  "opening_hours": "{\"Monday\": [\"7:30AM-6PM\"], \"Tuesday\": [\"7:30AM-6PM\"], \"Wednesday\": [\"7:30AM-6PM\"], \"Thursday\": [\"7:30AM-6PM\"], \"Friday\": [\"7:30AM-6PM\"], \"Saturday\": [\"7AM-6PM\"], \"Sunday\": [\"7AM-6PM\"]}"
+}

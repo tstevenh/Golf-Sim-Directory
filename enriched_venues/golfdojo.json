@@ -1,0 +1,90 @@
+{
+  "name": "GolfDojo",
+  "address": "3930 Burke Pkwy A2, Blasdell, NY 14219",
+  "city": "Blasdell",
+  "region": "New York",
+  "country": "US",
+  "latitude": 42.776712,
+  "longitude": -78.813755,
+  "phone": "+17162492526",
+  "website": "https://www.mygolfdojo.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770213360/golf_simulators/www_mygolfdojo_com_ChIJu01_R14F04kRlIvoatryXas.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/GolfDojo/@42.7767123,-78.8137548,14z/data=!4m8!1m2!2m1!1sGolfDojo!3m4!1s0x89d3055e477f4dbb:0xab5df2da6ae88b94!8m2!3d42.7767123!4d-78.8137548",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJu01_R14F04kRlIvoatryXas",
+  "venue_type": "multi_sport_sim",
+  "about": "GolfDojo operates as a chain of indoor golf simulation venues across Western New York, featuring advanced technology for golf practice and play. The facilities utilize TrackMan dual radar technology for high-fidelity ball and club tracking, allowing players to experience a variety of virtual golf courses. With a focus on accessibility, the venues offer public bookings daily from 10am to 10pm, alongside 24/7 access for members. Pricing models include per-bay hourly rates and various membership options to suit different player needs.",
+  "tags": "beginner_friendly|serious_golfers|families|corporate_teams|coaching_available|leagues|premium_tech|juniors_youth",
+  "vibe_tags": "tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "State-of-the-art TrackMan dual radar technology for accurate ball and club data",
+    "Multiple locations across Western New York for convenient access",
+    "Variety of membership packages and flexible booking options",
+    "PGA-certified professional instruction available for all skill levels",
+    "24/7 member access for flexible practice schedules"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Food is available on-site, as evidenced by images showing tables with pizza"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No information about alcohol service is provided"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "Dual Radar",
+      "notes": "Dual radar technology for precise ball and club tracking"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 5,
+  "booking_url": "https://booking.trackmangolf.com/venues/golf-dojo-nfb/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|kitchen_food|tv_sports|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you should bring your own golf clubs to use the simulators. The facility is equipped with hitting bays and practice areas designed for personal equipment."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, external food and drinks are not permitted. The venue offers on-site food service, as evidenced by pizza being available for customers during their sessions."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes varies depending on the number of players and pace of play. Each bay can accommodate multiple players, allowing groups to complete rounds efficiently."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, GolfDojo offers junior lesson packages and programs, indicating a commitment to catering to younger golfers and families."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

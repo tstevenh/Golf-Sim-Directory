@@ -1,0 +1,93 @@
+{
+  "name": "Big Slice Golf & Games",
+  "address": "301 Park Central E, Springfield, MO 65806",
+  "city": "Springfield",
+  "region": "Missouri",
+  "country": "US",
+  "latitude": 37.209109,
+  "longitude": -93.291178,
+  "phone": "+14177715664",
+  "website": "https://www.bigslicegolfandgames.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770224485/golf_simulators/www_bigslicegolfandgames_com_ChIJc1u4UwBjz4cRBcMmPwGwdrQ.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Big+Slice+Golf+%26+Games/@37.209109,-93.291178,14z/data=!4m8!1m2!2m1!1sBig+Slice+Golf+%26+Games!3m4!1s0x87cf630053b85b73:0xb476b0013f26c305!8m2!3d37.209109!4d-93.291178",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJc1u4UwBjz4cRBcMmPwGwdrQ",
+  "venue_type": "sim_bar",
+  "about": "Big Slice Golf & Games is a multi-activity venue that combines golf simulation with arcade games, a bar, and food service. The facility features TRU GOLF® simulators with over 120 available courses, allowing play in 30-minute slots suitable for quick sessions. The venue offers a casual, sports-bar atmosphere with a full bar, a kitchen serving pizza and other food options, and a wide selection of arcade games, pinball, and pool tables for entertainment.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|budget_friendly|private_rooms|club_rentals|kids_friendly",
+  "vibe_tags": "sports_bar|family_fun_center|tech_lab|casual|welcoming|modern",
+  "who_its_for": "beginners|families|corporate_teams|solo_practice|large_groups",
+  "why_golfers_like_it": [
+    "Over 120 famous courses available including Pebble Beach and Royal Troon",
+    "Weather-independent play in climate-controlled simulator bays",
+    "Convenient 30-minute slots perfect for lunch breaks",
+    "State-of-the-art TRU GOLF® simulator technology"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen service with pizza and a variety of other food options available"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available on-site"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "TRU GOLF",
+      "model": "Simulator",
+      "notes": "State-of-the-art TRU GOLF® simulators"
+    }
+  ],
+  "simulator_so": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://bigslicegolfandgames.com/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue provides all necessary golf equipment, so you don't need to bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No outside food or drinks are allowed, as the venue has its own full kitchen and bar service."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "With 30-minute slots available, 18 holes typically take about 1-1.5 hours depending on your pace and group size."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Big Slice Golf & Games is family-friendly with arcade games, pinball, and a casual atmosphere suitable for children."
+    }
+  ],
+  "simulator_software": [
+    "TRU GOLF"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"11AM-10PM\"], \"Tuesday\": [\"11AM-10PM\"], \"Wednesday\": [\"11AM-12AM\"], \"Thursday\": [\"11AM-12AM\"], \"Friday\": [\"11AM-1:30AM\"], \"Saturday\": [\"11AM-1:30AM\"], \"Sunday\": [\"Closed\"]}"
+}

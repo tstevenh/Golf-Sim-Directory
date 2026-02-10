@@ -1,0 +1,90 @@
+{
+  "name": "24/7 Golf",
+  "address": "4255 Alpine Ave NW SUITE A, Comstock Park, MI 49321",
+  "city": "Comstock Park",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 43.041618,
+  "longitude": -85.690289,
+  "phone": "+16163509482",
+  "website": "http://24-7golf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770225627/golf_simulators/24-7golf_com_ChIJ-Qj6VGepGYgRHRaYm_eISdc.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/24%2F7+Golf/@43.041618,-85.6902891,14z/data=!4m8!1m2!2m1!1s24%2F7+Golf!3m4!1s0x8819a96754fa08f9:0xd74988f79b98161d!8m2!3d43.041618!4d-85.6902891",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ-Qj6VGepGYgRHRaYm_eISdc",
+  "email": "info@24-7golf.com",
+  "venue_type": "multi_sport_sim",
+  "about": "24/7 Golf is a chain of indoor golf and pickleball simulators located throughout Michigan. They operate 24 hours a day, 365 days a year, offering hourly bay rentals for individuals and groups. The facilities are equipped with Trackman iO technology in each of their bays, providing a premium simulation experience. With multiple locations in Grand Rapids, Dewitt, Haslett, Ludington, and Traverse City, the venue caters to both local residents and visitors looking for a convenient way to play regardless of weather or time of day.",
+  "tags": "beginner_friendly|corporate_events|leagues|premium_tech|private_rooms|club_rentals|late_night|coaching_available",
+  "vibe_tags": "sports_bar|community_club",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "Open 24/7 with flexible hourly booking",
+    "Premium Trackman iO technology for accurate ball and club tracking",
+    "Multiple locations throughout Michigan for convenient access",
+    "Available for private parties and group events"
+  ],
+  "kid_friendly": "yes",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No on-site food or kitchen mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of an on-site bar"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "State-of-the-art radar, infrared and high-speed imaging system at all locations"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "yes",
+  "bay_count_total": "22",
+  "booking_url": "https://24-7golf.com/booking/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 30,
+  "price_range_max_local": 50,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|private_party_room|wifi",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "The website does not specify if clubs are provided, so it's recommended to bring your own set."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "There is no mention of an on-site kitchen or bar, and no policy against bringing outside food or drinks is stated."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not provide a specific time estimate for playing 18 holes."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The venue does not explicitly state its policy on children, but the ability to book by the hour and host parties suggests it could accommodate families."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

@@ -1,0 +1,85 @@
+{
+  "name": "The Cut Golf & Grill",
+  "address": "2808 10th St W, Palmetto, FL 34221",
+  "city": "Palmetto",
+  "region": "Florida",
+  "country": "US",
+  "latitude": 27.521626,
+  "longitude": -82.598056,
+  "phone": "+19414172220",
+  "website": "https://thecutgolfandgrill941.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770237027/golf_simulators/thecutgolfandgrill941_com_ChIJ9X5eZGMXw4gROgWnXF5qFAo.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Cut+Golf+%26+Grill/@27.5216264,-82.59805589999999,14z/data=!4m8!1m2!2m1!1sThe+Cut+Golf+%26+Grill!3m4!1s0x88c31763645e7ef5:0xa146a5e5ca7053a!8m2!3d27.5216264!4d-82.59805589999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ9X5eZGMXw4gROgWnXF5qFAo",
+  "email": "thecut941@gmail.com",
+  "venue_type": "sim_bar",
+  "about": "The Cut Golf & Grill is a dual-purpose venue in Palmetto, Florida, offering a unique blend of dining and golf simulation experiences. It features state-of-the-art golf simulators where guests can hone their skills while enjoying fresh, locally sourced dishes. The venue combines a welcoming atmosphere with top-quality food and interactive recreation, making it suitable for both casual meals and rounds of golf with friends. Founded by two local natives with a passion for great food and golf, it serves as a community space for relaxation and connection.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|date_night|family_fun_center|leagues|premium_tech|private_rooms|club_rentals|community_club",
+  "vibe_tags": "sports_bar|family_fun_center|modern|welcoming",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|tourists_travelers",
+  "why_golfers_like_it": [
+    "State-of-the-art simulators for an immersive golf experience",
+    "Locally sourced food and a welcoming atmosphere for social play",
+    "Flexible booking system with walk-in availability",
+    "Option to bring personal clubs or rent on-site",
+    "Designated club cleaning station for convenience"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full menu with locally sourced dishes, including appetizers, salads, burgers, flatbreads, and premium sides"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Beer and wine available; no outside alcohol permitted"
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": null,
+  "booking_url": "https://reserve.spoton.com/restaurant/71172",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": null,
+  "private_rooms_count": null,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues|ada_accessible",
+  "rating_tech_quality": 4.0,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can bring your own clubs, but we also offer rentals. Clubs must be free of debris, and a cleaning station is available."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No outside food or beverages are permitted on the premises. Violators will forfeit game time and be asked to leave."
+    },
+    {
+      "question": "How much time is needed for 18 holes?",
+      "answer": "Most groups require 2-3 hours to complete a full 18-hole round. Bays are rented by the hour."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, The Cut offers a family-friendly atmosphere with a welcoming environment suitable for all ages."
+    }
+  ],
+  "rating_overall": 4.0,
+  "opening_hours": "{\"Monday\": [\"4-9PM\"], \"Tuesday\": [\"11AM-9PM\"], \"Wednesday\": [\"11AM-9PM\"], \"Thursday\": [\"11AM-9PM\"], \"Friday\": [\"11AM-11PM\"], \"Saturday\": [\"11AM-11PM\"], \"Sunday\": [\"11AM-9PM\"]}"
+}

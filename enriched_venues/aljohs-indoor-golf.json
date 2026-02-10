@@ -1,0 +1,92 @@
+{
+  "name": "Aljoh's Indoor Golf",
+  "address": "43301 Division St # 206, Lancaster, CA 93535",
+  "city": "Lancaster",
+  "region": "California",
+  "country": "US",
+  "latitude": 34.669652,
+  "longitude": -118.130546,
+  "phone": "+16614182277",
+  "website": "https://aljohs.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770219668/golf_simulators/aljohs_com_ChIJeyfuYylbwoARfdIm-wVMdpQ.png",
+  "google_maps_url": "https://www.google.com/maps/place/Aljoh%27s+Indoor+Golf/@34.6696519,-118.1305459,14z/data=!4m8!1m2!2m1!1sAljoh%27s+Indoor+Golf!3m4!1s0x80c25b2963ee277b:0x94764c05fb26d27d!8m2!3d34.6696519!4d-118.1305459",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJeyfuYylbwoARfdIm-wVMdpQ",
+  "email": "info@mysite.com",
+  "venue_type": "sim_bar|training_studio|private_rental",
+  "about": "AlJoh's Indoor Golf is an indoor golf simulator studio offering year-round play, private lessons, and a welcoming environment for golfers of all skill levels. They feature ProTee VX golf simulators in their bays, providing realistic course play without the unpredictability of outdoor conditions. The venue is designed to be a community hub, offering flexible scheduling and amenities that make it suitable for both practice and social play. Pricing is straightforward with hourly rates for individuals, groups, and private lessons, and they operate on a reservation-only basis while also accommodating walk-ins.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|private_rooms|club_rentals|coaching_available|group_friendly|community_club",
+  "vibe_tags": "casual|welcoming|modern|community_club",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "Year-round play unaffected by weather",
+    "ProTee VX simulators with real-time swing feedback",
+    "Flexible scheduling and walk-in availability",
+    "Beginner-friendly environment with lessons available",
+    "On-site amenities like darts and mini games"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Patrons can bring food; must keep food away from simulator equipment unless permitted by staff."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "BYOB policy; must keep drinks away from simulator equipment unless permitted by staff."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "ProTee",
+      "model": "VX",
+      "notes": "Bay 1 is equipped with an overhead launch monitor for right and left-handed players, with ball and club data as well as video replay. Bay 2 is equipped with a ground-based launch monitor for 1-4 right-handed players."
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "overhead_camera|floor_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://www.aljohs.com/book-online",
+  "pricing_model": "per_person_hour",
+  "price_range_min_local": 25,
+  "price_range_max_local": 45,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|lockers|wifi|pro_shop|club_fitting|leagues|ada_accessible|darts|mini_games",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "While not explicitly stated, it's standard practice at indoor golf venues to bring your own clubs. However, they may provide rentals if needed; it's best to call ahead to confirm."
+    },
+    {
+      "question": "Can I bring food and drinks?",
+      "answer": "Yes, you can bring your own food and drinks. However, you must keep them away from the simulator equipment unless permitted by staff."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Generally, it takes about 1 hour for an individual player to complete 18 holes. For groups, it's recommended to book an additional hour for each player, as pace can vary based on skill level."
+    },
+    {
+      "question": "Is AlJoh's kid-friendly?",
+      "answer": "Yes, AlJoh's is described as beginner-friendly and welcomes golfers of all skill levels, including families. They offer a relaxed atmosphere suitable for juniors and youth players."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"8AM-10PM\"], \"Tuesday\": [\"8AM-10PM\"], \"Wednesday\": [\"8AM-10PM\"], \"Thursday\": [\"8AM-10PM\"], \"Friday\": [\"8AM-12AM\"], \"Saturday\": [\"8AM-12AM\"], \"Sunday\": [\"8AM-10PM\"]}"
+}

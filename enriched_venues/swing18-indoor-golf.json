@@ -1,0 +1,92 @@
+{
+  "name": "Swing18 Indoor Golf",
+  "address": "222 W Stolley Park Rd, Grand Island, NE 68801",
+  "city": "Grand Island",
+  "region": "Nebraska",
+  "country": "US",
+  "latitude": 40.902365,
+  "longitude": -98.340438,
+  "phone": "+13086750522",
+  "website": "https://www.swing18-tab.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770216252/golf_simulators/www_swing18-tab_com_ChIJ1RcVG-WHmYcRxKmV2U-9uZI.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Swing18+Indoor+Golf/@40.9023651,-98.3404383,14z/data=!4m8!1m2!2m1!1sSwing18+Indoor+Golf!3m4!1s0x879987e51b1517d5:0x92b9bd4fd995a9c4!8m2!3d40.9023651!4d-98.3404383",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ1RcVG-WHmYcRxKmV2U-9uZI",
+  "email": "swing18.tab@gmail.com",
+  "venue_type": "sim_bar",
+  "about": "Swing18 Indoor Golf is a year-round indoor golf simulation venue located in Grand Island, NE. The facility utilizes TruGolf MAX simulators powered by the E6 Connect software, offering a realistic golf experience with 140 premiere courses available. They feature two bays with one also equipped with a new LASER SHOT Shooting Simulator for additional activities. The venue offers flexible hourly rates, special deals for seniors and weekdays, and is available for private event bookings. Their goal is to provide an easy and enjoyable golf experience, particularly for those facing cold Nebraska winters.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|budget_friendly|private_rooms|club_rentals|coaching_available|juniors_youth",
+  "vibe_tags": "family_fun_center|tech_lab|community_club",
+  "who_its_for": "families|large_groups|corporate_teams|solo_practice|juniors_youth",
+  "why_golfers_like_it": [
+    "Year-round golf despite cold weather",
+    "TruGolf E6 Connect technology for ultra-realistic simulation",
+    "Flexible hourly rates and special offers like free pizza on weekdays",
+    "Availability of 140+ premiere golf courses",
+    "Private event space for up to 25 people"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "On-site Pizza Hut delivery available with free Personal Pan Pizza on weekdays 1-5pm. No outside food or drink allowed unless pre-approved."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol mentioned as being available for purchase. Liquor license prohibits outside drinks or cups."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "TruGolf",
+      "model": "MAX",
+      "notes": "Primary golf simulator hardware. MAX Simulators are used with the E6 Connect software."
+    }
+  ],
+  "simulator_software": [
+    "E6 Connect",
+    "E6 APEX"
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://www.swing18-tab.com/book-your-tee-time-here",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 25,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": false,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|private_party_room|tv_sports|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify whether clubs are provided or required to be brought by the player."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, Swing18 has a strict 'NO OUTSIDE FOOD OR DRINKS' policy. However, they have partnered with Pizza Hut for on-site delivery and offer complimentary snacks. Liquor license prohibits outside drinks or cups."
+    },
+    {
+      "question": "How long does an 18-hole round take?",
+      "answer": "It takes approximately 2 hours to play 18 holes for 1-2 people on a simulator bay, depending on the speed of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The venue appears kid-friendly, featuring a family-run business, a special Junior discount, and rules requiring parent or coach supervision for minors, indicating they cater to families and youth groups."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"4-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-10PM\"], \"Saturday\": [\"10AM-10PM\"], \"Sunday\": [\"12-7PM\"]}"
+}

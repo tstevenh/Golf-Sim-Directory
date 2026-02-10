@@ -1,0 +1,91 @@
+{
+  "name": "X-Golf Apple Valley",
+  "address": "7541 148th St W, Apple Valley, MN 55124",
+  "city": "Apple Valley",
+  "region": "Minnesota",
+  "country": "US",
+  "latitude": 44.733824,
+  "longitude": -93.219733,
+  "phone": "+16514616030",
+  "website": "https://playxgolf.com/locations/apple-valley/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770203753/golf_simulators/playxgolf_com_ChIJ0QM6PKYx9ocR3ZkP9ZLYHhM.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/X-Golf+Apple+Valley/@44.733823699999995,-93.2197329,14z/data=!4m8!1m2!2m1!1sX-Golf+Apple+Valley!3m4!1s0x87f631a63c3a03d1:0x131ed892f50f99dd!8m2!3d44.733823699999995!4d-93.2197329",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ0QM6PKYx9ocR3ZkP9ZLYHhM",
+  "email": "info@xgolfapplevalley.com",
+  "venue_type": "sim_bar",
+  "about": "X-Golf Apple Valley is a golf simulator venue offering state-of-the-art indoor golf technology. It features 9 simulators that use a combination of camera systems, infrared lasers, and impact sensors to provide accurate and realistic gameplay. The venue is designed for both playing and training, with offerings including golf lessons, club fittings, leagues, and tournaments. Pricing is per simulator, per hour, with different rates depending on the day and time. The facility can accommodate groups up to 120 guests and includes amenities like a full bar, food service, private party rooms, and additional entertainment options such as a pool table and dart board.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|club_rentals|coaching_available|family_friendly",
+  "vibe_tags": "sports_bar|family_fun_center|community_club",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "State-of-the-art simulator technology with unparalleled accuracy",
+    "Flexible pricing model with discounts for weekdays, veterans, and seniors",
+    "Variety of amenities including a full bar, food service, and private event spaces",
+    "Opportunities for training, lessons, and club fittings",
+    "Host of leagues and tournaments for competitive play"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen service available with a menu including appetizers and pizzas"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full liquor bar, craft beer on tap, and happy hour specials Monday-Friday"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "X-Golf",
+      "model": "Simulator",
+      "notes": "Proprietary system with cameras, infrared lasers, and impact sensors"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": 9,
+  "booking_url": "https://clients.uschedule.com/xgolfapplevalley/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 40,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|private_party_room|wifi|club_fitting|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Club rentals are available, but you are welcome to bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, outside food and drinks are not permitted. The venue offers a full kitchen and bar service."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "It takes about one hour for an individual player to complete 18 holes. Each additional person may require an additional hour."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, X-Golf Apple Valley welcomes children of all ages."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-11PM\"], \"Friday\": [\"9AM-11PM\"], \"Saturday\": [\"8AM-11PM\"], \"Sunday\": [\"8AM-10PM\"]}"
+}

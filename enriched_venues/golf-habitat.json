@@ -1,0 +1,93 @@
+{
+  "name": "Golf Habitat",
+  "address": "101 Butterfield Rd Suite D, Yakima, WA 98901",
+  "city": "Yakima",
+  "region": "Washington",
+  "country": "US",
+  "latitude": 46.607965,
+  "longitude": -120.47201,
+  "phone": "+15092259860",
+  "website": "https://www.golfhabitat.org/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770208076/golf_simulators/www_golfhabitat_org_ChIJJwoGPRPXmVQRDnhkAzsx9oo.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Golf+Habitat/@46.6079645,-120.4720105,14z/data=!4m8!1m2!2m1!1sGolf+Habitat!3m4!1s0x5499d7133d060a27:0x8af6313b0364780e!8m2!3d46.6079645!4d-120.4720105",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJJwoGPRPXmVQRDnhkAzsx9oo",
+  "email": "Clubhouse@golfhabitat.org",
+  "venue_type": "sim_bar|training_studio",
+  "about": "Golf Habitat is an indoor golf simulator venue featuring GOLFZON TwoVisionNX technology. The facility offers three separate simulator bays, with each bay accommodating up to six golfers and equipped with a multi-surface hitting mat, moving swing plate, and automatic ball retrieval and tee-up system. Golfers can choose from over 280 virtual courses worldwide, including Pebble Beach and St. Andrews, or practice using the driving range, chipping course, or putting modes. The venue provides a comfortable environment with refreshments and seating, allowing for a controlled and repeatable golf experience away from the course.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|private_rooms|club_rentals|community_club",
+  "vibe_tags": "casual|welcoming|modern|family_fun_center",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Immersive GOLFZON TwoVisionNX simulator technology with swing analytics and video replay",
+    "Access to over 280 worldwide courses, including renowned locations like Pebble Beach",
+    "Controlled and repeatable golf experience without the time constraints of traditional courses",
+    "Comfortable environment with refreshments and private event options"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Outside food is allowed for private events; beverages must be purchased in-house"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "Beverages must be purchased in-house; no BYOB policy mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "GOLFZON",
+      "model": "TwoVisionNX",
+      "notes": "Advanced simulator with automatic ball retrieval, moving swing plate, and multi-surface hitting mat"
+    }
+  ],
+  "simulator_so": [
+    "GOLFZON TwoVisionNX"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "mixed",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://golfhabitat.as.me/",
+  "pricing_model": "per_person_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": 0,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue does not specify whether club rentals are available, so it is recommended to bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "Outside food is allowed for private events, but all beverages must be purchased in-house."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The venue does not specify the time required for an 18-hole round, but individual simulator bookings are available by the hour."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Golf Habitat offers junior courses for kids and allows private events, making it suitable for families."
+    }
+  ],
+  "simulator_software": [
+    "GOLFZON"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"10AM-8PM\"], \"Tuesday\": [\"10AM-8PM\"], \"Wednesday\": [\"10AM-8PM\"], \"Thursday\": [\"10AM-8PM\"], \"Friday\": [\"10AM-9PM\"], \"Saturday\": [\"8AM-9PM\"], \"Sunday\": [\"12-6PM\"]}"
+}

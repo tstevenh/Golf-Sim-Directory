@@ -1,0 +1,94 @@
+{
+  "name": "The Turn Golf Sim",
+  "address": "53 S Depot St, Owego, NY 13827",
+  "city": "Owego",
+  "region": "New York",
+  "country": "US",
+  "latitude": 42.107456,
+  "longitude": -76.265025,
+  "phone": "+16073726136",
+  "website": "https://theturngolfsim.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770201026/golf_simulators/theturngolfsim_com_ChIJ5RWtAYaX2okRUlXDIwt9v1o.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Turn+Golf+Sim/@42.1074559,-76.2650247,14z/data=!4m8!1m2!2m1!1sThe+Turn+Golf+Sim!3m4!1s0x89da978601ad15e5:0x5abf7d0b23c35552!8m2!3d42.1074559!4d-76.2650247",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ5RWtAYaX2okRUlXDIwt9v1o",
+  "venue_type": "sim_bar",
+  "about": "The Turn Golf Sim is an indoor golf simulator venue located in Owego, NY, featuring The Trackman technology for a premium golfing experience. The venue offers year-round golf access with bookings for one-hour tee times for up to four people, along with options to join skins leagues. Located at 53 South Depot Street, it operates daily from 9:00 am to 11:00 pm, providing a convenient and accessible option for golfers of all skill levels to practice and play on hundreds of virtual courses.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|budget_friendly|private_rooms|club_rentals|late_night",
+  "vibe_tags": "casual|welcoming|modern|tech_lab",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Premium Trackman technology delivers accurate and realistic ball tracking",
+    "Year-round access to hundreds of courses regardless of weather",
+    "Flexible booking options for both individual and group play",
+    "Leagues and skins tournaments offer competitive opportunities",
+    "Extended hours allow for convenient late-night sessions"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Kitchen food available for purchase during sessions"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available with accepted payment methods including Apple Pay, Visa, Mastercard, American Express, Discover, and JCB"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Premium radar-based launch monitor for accurate ball and club tracking"
+    }
+  ],
+  "simulator_so": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 1,
+  "booking_url": "https://theturngolfsim.com/",
+  "pricing_model": "per_person_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|lockers|wifi|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue doesn't specify, but it's recommended to bring your own clubs for the most authentic experience, though rentals may be available."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue has a full bar and kitchen food available for purchase, with no mention of outside food/drink policies."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The venue doesn't specify exact timing, but one-hour tee times are available for up to four people, suggesting a condensed course play format."
+    },
+    {
+      "question": "Is The Turn kid-friendly?",
+      "answer": "Yes, the venue welcomes families and allows kids, with mentions of group bookings suitable for all ages."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Friday\": [\"4PM-2AM\"]}"
+}

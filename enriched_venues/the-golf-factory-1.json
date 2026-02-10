@@ -1,0 +1,89 @@
+{
+  "name": "The Golf Factory",
+  "address": "922 Indiana Ave, Wichita Falls, TX 76301",
+  "city": "Wichita Falls",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 33.910742,
+  "longitude": -98.489792,
+  "phone": "+19402474264",
+  "website": "https://www.thegolffactorywf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770227476/golf_simulators/www_thegolffactorywf_com_ChIJC7nGyzwhU4YRf6_bOpLZ4x8.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Golf+Factory/@33.9107422,-98.48979179999999,14z/data=!4m8!1m2!2m1!1sThe+Golf+Factory!3m4!1s0x8653213ccbc6b90b:0x1fe3d9923adbaf7f!8m2!3d33.9107422!4d-98.48979179999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJC7nGyzwhU4YRf6_bOpLZ4x8",
+  "email": "info@thegolffactorywf.com",
+  "venue_type": "multi_sport_sim",
+  "about": "The Golf Factory is an indoor golf simulator facility in Wichita Falls, Texas, featuring TrackMan technology for swing analysis, practice, and virtual play on over 500 courses. It offers a welcoming, year-round environment for golfers to practice, receive instruction, and compete in leagues. The facility provides services including club fittings, regripping, reshafting, and repairs. Pricing is based on hourly bay rentals, with options for both casual play and membership packages, and it emphasizes a family-friendly atmosphere suitable for all skill levels.",
+  "tags": "beginner_friendly|kids_friendly|leagues|coaching_available|premium_tech|club_rentals|practice_focused|casual",
+  "vibe_tags": "family_fun_center|tech_lab|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|families|juniors_youth|solo_practice",
+  "why_golfers_like_it": [
+    "Access to premium TrackMan technology for detailed swing analysis and performance tracking",
+    "All-weather indoor facility offering year-round golf regardless of conditions",
+    "Family-friendly environment with a focus on junior development and a welcoming atmosphere"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No on-site kitchen or food service mentioned."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of a bar or alcohol service; BYOB status is unclear."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "TrackMan is specified as the leading technology providing real-time data on ball flight, spin rate, and launch angle."
+    }
+  ],
+  "simulator_software": [
+    "Virtual Golf 3"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://www.thegolffactorywf.com/book",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 40,
+  "price_range_max_local": 80,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|pro_shop|club_fitting|leagues|indoor_putting_green|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "While the website focuses on fitting services and equipment, it doesn't explicitly state whether clubs are provided. It is recommended to bring your own set for the best experience."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "There is no mention of food or drink services on-site. It is advisable to check with the venue directly regarding their policy outside beverages."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Typically, it takes the average golfer about 1 hour to play 18 holes on a simulator. For groups of 4 players, it is recommended to allow 3 hours to complete 18 holes comfortably."
+    },
+    {
+      "question": "Is The Golf Factory kid-friendly?",
+      "answer": "Yes, the venue is family-friendly, offering junior lessons and promoting itself as a place for fun and socializing, with content highlighting kids playing indoor golf."
+    }
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"9:30AM-8PM\"], \"Tuesday\": [\"9:30AM-8PM\"], \"Wednesday\": [\"9:30AM-8PM\"], \"Thursday\": [\"9:30AM-8PM\"], \"Friday\": [\"9:30AM-8PM\"], \"Saturday\": [\"9:30AM-8PM\"], \"Sunday\": [\"11AM-6PM\"]}"
+}

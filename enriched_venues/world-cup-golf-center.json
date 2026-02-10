@@ -1,0 +1,90 @@
+{
+  "name": "World Cup Golf Center",
+  "address": "4 Friel Golf Rd, Hudson, NH 03051",
+  "city": "Hudson",
+  "region": "New Hampshire",
+  "country": "US",
+  "latitude": 42.716911,
+  "longitude": -71.421013,
+  "phone": "+16035983838",
+  "website": "http://worldcupgolfcenter.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770232474/golf_simulators/worldcupgolfcenter_com_ChIJGWERoYK644kRE4OxyYhT5VM.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/World+Cup+Golf+Center/@42.7169113,-71.4210128,14z/data=!4m8!1m2!2m1!1sWorld+Cup+Golf+Center!3m4!1s0x89e3ba82a1116119:0x53e55388c9b18313!8m2!3d42.7169113!4d-71.4210128",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJGWERoYK644kRE4OxyYhT5VM",
+  "email": "info@kellynationalgolf.com",
+  "venue_type": "training_studio",
+  "about": "World Cup Golf Center is a premium grass tee driving range facility in Hudson, NH, open year-round with heated winterized tee boxes. It features a dedicated Trackman Range with 19 heated hitting bays equipped with state-of-the-art radar launch monitors, offering ball and club tracking for detailed practice sessions. The center also provides online lesson booking with an experienced director of instruction and a pro shop for club fittings. Food and beverage service is available at the on-site cafe during winter months.",
+  "tags": "beginner_friendly|food_and_drinks|serious_golfers|coaching_available|premium_tech|club_rentals|budget_friendly",
+  "vibe_tags": "casual|welcoming|modern|tech_lab",
+  "who_its_for": "beginners|serious_golfers|families|solo_practice|juniors_youth",
+  "why_golfers_like_it": [
+    "Premium heated grass tees open year-round",
+    "19 bays with top-tier Trackman technology for detailed ball and club data",
+    "Experienced golf instruction available with online booking"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Cafe serves burgers, hot dogs, and other food items"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Cafe serves beer"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "Radar",
+      "notes": "19 heated bays with state-of-the-art Trackman technology"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 19,
+  "booking_url": "https://yourgolfbooking.com/venues/world-cup-golf-center/booking/bays",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|kitchen_food|tv_sports|pro_shop|club_fitting|leagues",
+  "rating_tech_quality": 5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you should bring your own golf clubs to use at the facility."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, outside food and drinks are not allowed. The on-site cafe serves burgers, hot dogs, and beer."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes on a simulator is not specified, but it typically depends on the simulator software and player speed."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "Yes, World Cup Golf Center is suitable for families and youth, with a welcoming atmosphere and amenities for all ages."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.4,
+  "opening_hours": "{\"Monday\": [\"8AM-8PM\"], \"Tuesday\": [\"8AM-8PM\"], \"Wednesday\": [\"8AM-8PM\"], \"Thursday\": [\"8AM-8PM\"], \"Friday\": [\"8AM-8PM\"], \"Saturday\": [\"8AM-8PM\"], \"Sunday\": [\"8AM-8PM\"]}"
+}

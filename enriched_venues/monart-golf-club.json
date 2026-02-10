@@ -1,0 +1,90 @@
+{
+  "name": "Monart Golf Club",
+  "address": "12310 Broadway St #214, Pearland, TX 77584",
+  "city": "Pearland",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 29.554739,
+  "longitude": -95.411516,
+  "phone": "+18326460450",
+  "website": "https://monartgolfclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770217624/golf_simulators/monartgolfclub_com_ChIJ53Dw3LztQIYRsgIT5H9tLeo.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Monart+Golf+Club/@29.554739299999998,-95.4115163,14z/data=!4m8!1m2!2m1!1sMonart+Golf+Club!3m4!1s0x8640edbcdcf070e7:0xea2d6d7fe41302b2!8m2!3d29.554739299999998!4d-95.4115163",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ53Dw3LztQIYRsgIT5H9tLeo",
+  "email": "info@monartgolfclub.com",
+  "venue_type": "sim_bar",
+  "about": "Monart Golf Club is a modern indoor golf simulator venue offering premium experiences for players of all skill levels. The facility features four spacious simulator bays equipped with high-accuracy Foresight GCQ launch monitors, 4K-style projectors, and realistic high-impact hitting surfaces. It provides a comfortable, climate-controlled environment for practice, casual play, or social gatherings, with amenities like an on-site café and a dedicated putting area. Pricing is straightforward with a flat rate per bay, making it accessible for both solo players and groups seeking an authentic golf experience without weather constraints.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|club_rentals|coaching_available|family_friendly",
+  "vibe_tags": "casual|welcoming|modern|tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Premium Foresight GCQ launch monitors provide accurate ball-tracking data for serious practice",
+    "On-site café and counter-top seating offer a relaxed, social atmosphere for groups",
+    "Spacious bays with free club rentals and realistic hitting surfaces enhance the experience",
+    "24/7 access for members allows flexible play outside regular hours"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "On-site café serves drinks and snacks throughout the day"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "Not mentioned on website"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": "GCQ",
+      "notes": "High-accuracy ball tracking unit captures launch, spin, ball speed, and more"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 4,
+  "booking_url": "https://monartgolfclub.proagenda.com/agenda",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 30,
+  "price_range_max_local": 160,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 0,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|kitchen_food|tv_sports|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, each bay includes complimentary club rentals at no additional charge. You're also welcome to bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food or drink?",
+      "answer": "Outside food and drink are not mentioned, but the venue has an on-site café serving drinks and snacks. BYOB is not specified."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes varies depending on the number of players and pace, but sessions are booked by the hour at $30 per bay."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "Yes, Monart Golf Club is designed for all skill levels and ages. They offer structured classes and lessons for juniors/youth, making it suitable for families."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"10AM-11PM\"], \"Tuesday\": [\"10AM-11PM\"], \"Wednesday\": [\"10AM-11PM\"], \"Thursday\": [\"10AM-11PM\"], \"Friday\": [\"10AM-11PM\"], \"Saturday\": [\"11AM-11PM\"], \"Sunday\": [\"2-8PM\"]}"
+}

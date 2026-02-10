@@ -1,0 +1,92 @@
+{
+  "name": "X-Golf Nashville",
+  "address": "8127 Sawyer Brown Rd #301, Nashville, TN 37221",
+  "city": "Nashville",
+  "region": "Tennessee",
+  "country": "US",
+  "latitude": 36.081305,
+  "longitude": -86.94792,
+  "phone": "+16152502440",
+  "website": "https://playxgolf.com/locations/nashville/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770211926/golf_simulators/playxgolf_com_ChIJAZiWrUaJZIgR7sfMVd0i-w4.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/X-Golf+Nashville/@36.0813053,-86.9479202,14z/data=!4m8!1m2!2m1!1sX-Golf+Nashville!3m4!1s0x88648946ad969801:0xefb22dd55ccc7ee!8m2!3d36.0813053!4d-86.9479202",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJAZiWrUaJZIgR7sfMVd0i-w4",
+  "email": "jason@xgolfnashville.com",
+  "venue_type": "sim_bar",
+  "about": "X-Golf Nashville offers indoor golf simulation experiences using state-of-the-art technology. The venue provides six simulator bays for golf, training, and entertainment, with options for individual play, group events, and corporate parties. Operating hours are Monday through Thursday from 10 AM to 10 PM, Friday from 10 AM to 11 PM, Saturday from 9 AM to 11 PM, and Sunday from 12 PM to 6 PM. Pricing is charged per bay per hour, accommodating up to six people per bay, with different rates for weekdays, evenings, and weekends. The facility includes a full bar and restaurant service, making it suitable for social gatherings and dining alongside golf activities.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|private_rooms|club_rentals|coaching_available|family_friendly|date_night",
+  "vibe_tags": "sports_bar|family_fun_center|tech_lab|community_club|modern",
+  "who_its_for": "families|large_groups|corporate_teams|solo_practice|beginners",
+  "why_golfers_like_it": [
+    "World's most accurate golf simulator technology using camera systems, infrared lasers, and impact sensors",
+    "Flexible pricing per bay per hour, accommodating up to 6 people per simulator",
+    "Full bar and restaurant service available for dining and socializing",
+    "Private Green Room available for extra privacy or parties",
+    "On-site PGA professional instruction available for private lessons",
+    "Hosts weekly leagues for competitive play and social engagement"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full restaurant service with shareable bites, delicious appetizers, snacks, and pizzas available"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service with beer by the glass or on tap, cocktails, and wines"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "X-Golf",
+      "model": "Simulator",
+      "notes": "State-of-the-art indoor golf simulator with combination of camera systems, infrared lasers, impact sensors and advanced gaming software"
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 6,
+  "booking_url": "https://xgolfnashville.as.me/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 45,
+  "price_range_max_local": 130,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|kitchen_food|private_party_room|club_rentals|leagues|coaching_available",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, club rentals are available at the venue. You can use your own clubs if you prefer."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No, outside food and drinks are not permitted. The venue offers a full bar and restaurant service with food and beverages available for purchase."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Generally it takes 1 hour for an individual player to play 18 holes. If you have more than one player, you may want to book an additional hour for each player in your group, as skill level can affect pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, X-Golf welcomes children of all ages. The simulators are fun for all ages, and the venue can accommodate families and birthday parties."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-11PM\"], \"Saturday\": [\"9AM-11PM\"], \"Sunday\": [\"12-8PM\"]}"
+}

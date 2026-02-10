@@ -1,0 +1,94 @@
+{
+  "name": "Iron Eagle Golf",
+  "address": "124 E Main St, Monroe, WA 98272",
+  "city": "Monroe",
+  "region": "Washington",
+  "country": "US",
+  "latitude": 47.855938,
+  "longitude": -121.969543,
+  "phone": "+13608633456",
+  "website": "http://golfironeagle.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770231221/golf_simulators/golfironeagle_com_ChIJw3zK_XmnmlQRIsY96jsd2YE.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Iron+Eagle+Golf/@47.8559377,-121.9695426,14z/data=!4m8!1m2!2m1!1sIron+Eagle+Golf!3m4!1s0x549aa779fdca7cc3:0x81d91d3bea3dc622!8m2!3d47.8559377!4d-121.9695426",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJw3zK_XmnmlQRIsY96jsd2YE",
+  "email": "proshop@golfironeagle.com",
+  "venue_type": "sim_bar",
+  "about": "Iron Eagle Golf is an indoor golf facility featuring TrackMan simulator technology, providing year-round access to practice and play. The facility operates on a 24/7 access model under certain conditions, with hourly bay rentals and flexible membership options available. Designed for golfers to hone their skills in a climate-controlled environment, it emphasizes data-driven practice using advanced launch monitoring equipment. Pricing is structured with hourly rates, multi-hour passes, and monthly memberships that include additional benefits like lessons discounts and merchandise perks.",
+  "tags": "beginner_friendly|corporate_events|leagues|premium_tech|private_rooms|club_rentals|coaching_available|food_and_drinks",
+  "vibe_tags": "tech_lab|community_club|modern|welcoming",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "24/7 access to bays for flexible scheduling",
+    "Professional-grade TrackMan technology for precise swing and shot analysis",
+    "Competitive leagues and tournaments with prize incentives",
+    "Membership benefits including lessons discounts and merchandise perks",
+    "Kid-friendly policy with free access for children under 16"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No on-site food service mentioned, BYOB likely allowed"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned, BYOB likely allowed"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "unknown",
+      "notes": "Radar-based launch monitor with real-time data tracking"
+    }
+  ],
+  "simulator_so": [
+    "unknown"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://booking.registrygolf.com/?organizationId=8882ac24-48f1-4063-ae2d-dbf5a03dd69e",
+  "pricing_model": "mixed",
+  "price_range_min_local": 50,
+  "price_range_max_local": 299,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|pro_shop|leagues|coaching_available|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 4.2,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Players must bring their own clubs as the facility does not provide club rentals."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drinks are permitted, with no on-site catering or bar service mentioned."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The duration depends on simulator software and player pace, but typically ranges 1.5-2 hours per 18 holes."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, children under 16 play free when accompanied by a paying adult, making it family-friendly."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"8AM-10PM\"], \"Tuesday\": [\"8AM-10PM\"], \"Wednesday\": [\"8AM-10PM\"], \"Thursday\": [\"8AM-10PM\"], \"Friday\": [\"8AM-10PM\"], \"Saturday\": [\"8AM-10PM\"], \"Sunday\": [\"8AM-10PM\"]}"
+}

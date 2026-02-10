@@ -1,0 +1,91 @@
+{
+  "name": "MAC Legends Golf Center",
+  "address": "1410 W Grand River Ave, Okemos, MI 48864",
+  "city": "Okemos",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 42.716128,
+  "longitude": -84.399319,
+  "phone": "+15175756187",
+  "website": "http://www.maclegends.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770228731/golf_simulators/www_maclegends_com_ChIJGWo_c3fdIogROHutGFUtCRo.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/MAC+Legends+Golf+Center/@42.7161283,-84.3993189,14z/data=!4m8!1m2!2m1!1sMAC+Legends+Golf+Center!3m4!1s0x8822dd77733f6a19:0x1a092d5518ad7b38!8m2!3d42.7161283!4d-84.3993189",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJGWo_c3fdIogROHutGFUtCRo",
+  "email": "events@maclegends.com",
+  "venue_type": "sim_bar",
+  "about": "MAC Legends offers a premier golf experience with two locations in Okemos & East Lansing: a driving range and an indoor golf center. Both locations feature industry-leading Trackman technology for advanced game analysis and simulation. The facility also boasts the largest selection of used golf clubs in Michigan, along with club fittings, regrippings, and golf lessons for all ages and skill levels. The indoor location features four Trackman IO simulators within a 5000-square-foot space that can host up to 60 guests, making it suitable for various events and group outings.",
+  "tags": "serious_golfers|beginner_friendly|corporate_events|leagues|premium_tech|food_and_drinks|coaching_available|club_rentals|family_friendly",
+  "vibe_tags": "tech_lab|sports_bar|family_fun_center|modern",
+  "who_its_for": "serious_golfers|beginners|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Access to professional-grade Trackman technology for swing analysis and simulation",
+    "Largest selection of used clubs in Michigan with new Mizuno options and fittings",
+    "Versatile facility suitable for practice, leagues, corporate events, and private parties",
+    "Multiple bay configurations accommodating both individual and large group needs",
+    "On-site bar serving beer, wine, and cocktails enhancing the social golf experience"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "Outside catering is allowed; venue is not responsible for setup/teardown"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar serving beer, wine, seltzer, and canned cocktails available as cash bar, consumption bar, or open bar ($20/hour/guest)"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Four bays at indoor location, each accommodating up to six players"
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "mixed",
+  "lefty_friendly": true,
+  "bay_count_total": 14,
+  "booking_url": "https://yourgolfbooking.com/venues/mac-legends-golf-center/booking/bays",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 40,
+  "price_range_max_local": 50,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|club_rentals|pro_shop|club_fitting|private_party_room|tv_sports|kitchen_food|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.3,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can bring your own clubs, but MAC Legends also offers club rentals and the largest selection of used clubs in Michigan, plus new Mizuno clubs. Shaft fittings are available for general guidance."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside catering is allowed, though the venue is not responsible for setup or teardown. The MAC Bar is available serving beer, wine, and canned cocktails."
+    },
+    {
+      "question": "How long does an 18-hole simulation take?",
+      "answer": "Time varies based on group size and pace, but with six players per bay and simulator course options, a full 18-hole round typically takes 1.5-2 hours."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, MAC Legends offers golf lessons for all ages and skill levels. The indoor space can accommodate families and various group sizes, though simulator use may have age restrictions."
+    }
+  ],
+  "rating_overall": 4.4,
+  "opening_hours": "{\"Monday\": [\"10AM-6PM\"], \"Tuesday\": [\"10AM-6PM\"], \"Wednesday\": [\"10AM-6PM\"], \"Thursday\": [\"10AM-6PM\"], \"Friday\": [\"10AM-6PM\"], \"Saturday\": [\"10AM-6PM\"], \"Sunday\": [\"10AM-6PM\"]}"
+}

@@ -1,0 +1,89 @@
+{
+  "name": "Oasis Golf Center",
+  "address": "39500 Five Mile Rd, Plymouth, MI 48170",
+  "city": "Plymouth",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 42.396638,
+  "longitude": -83.434262,
+  "phone": "+17344204653",
+  "website": "http://oasisgolfcenter.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770203154/golf_simulators/oasisgolfcenter_com_ChIJjT6xynCtJIgRdpTN-AjcsP4.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Oasis+Golf+Center/@42.3966384,-83.4342619,14z/data=!4m8!1m2!2m1!1sOasis+Golf+Center!3m4!1s0x8824ad70cab13e8d:0xfeb0dc08f8cd9476!8m2!3d42.3966384!4d-83.4342619",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJjT6xynCtJIgRdpTN-AjcsP4",
+  "venue_type": "training_studio",
+  "about": "Oasis Golf Center is a premier, year-round practice facility in Plymouth, Michigan. It features an indoor golf dome with 50 bays equipped with Toptracer range technology and a separate outdoor range, both of which offer year-round practice capabilities. The facility also houses a golf academy for personalized instruction and a family-friendly 18-hole miniature golf course. While the outdoor range and miniature golf are seasonally closed, the golf dome remains open as a key amenity, operating with extended hours on weekends and accommodating walk-ins without reservations.",
+  "tags": "beginner_friendly|family_friendly|coaching_available|premium_tech|budget_friendly|serious_practice|casual_atmosphere|solo_practice",
+  "vibe_tags": "family_fun_center|modern|welcoming|casual",
+  "who_its_for": "beginners|serious_golfers|families|solo_practice|juniors_youth",
+  "why_golfers_like_it": [
+    "Toptracer technology provides detailed shot data for accurate practice",
+    "50-bay indoor dome allows year-round play regardless of weather",
+    "No reservations required for flexible, walk-in access",
+    "Ability to play virtual rounds on world-famous courses"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No on-site food service mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No on-site alcohol service mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Toptracer",
+      "model": "Range",
+      "notes": "Integrated into all 50 bays for shot tracking and virtual course play"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 50,
+  "booking_url": "unknown",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 0,
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you must bring your own clubs to use at the facility. The outdoor range currently has a court order restricting use to irons only."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The website does not mention any policy regarding outside food or drinks, so it is advisable to call ahead to confirm."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "As the facility uses Toptracer range technology, the time to play a virtual 18 holes will vary depending on the number of players and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Oasis Golf Center features a family-friendly 18-hole miniature golf course and offers instruction for juniors and youth golfers."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"9AM-11PM\"], \"Saturday\": [\"8AM-11PM\"], \"Sunday\": [\"8AM-10PM\"]}"
+}

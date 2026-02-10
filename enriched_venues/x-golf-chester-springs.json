@@ -1,0 +1,89 @@
+{
+  "name": "X-Golf Chester Springs",
+  "address": "12 Pottstown Pike, Chester Springs, PA 19425",
+  "city": "Chester Springs",
+  "region": "Pennsylvania",
+  "country": "US",
+  "latitude": 40.071997,
+  "longitude": -75.680536,
+  "phone": "+14846173344",
+  "website": "http://xgolfchestersprings.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770201784/golf_simulators/xgolfchestersprings_com_ChIJYZt6QtuLxokRR9jaPPcFvaM.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/X-Golf+Chester+Springs/@40.0719966,-75.6805357,14z/data=!4m8!1m2!2m1!1sX-Golf+Chester+Springs!3m4!1s0x89c68bdb427a9b61:0xa3bd05f73cdad847!8m2!3d40.0719966!4d-75.6805357",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJYZt6QtuLxokRR9jaPPcFvaM",
+  "email": "info@xgolfchestersprings.com",
+  "venue_type": "sim_bar",
+  "about": "X-Golf Chester Springs is an indoor golf simulation venue featuring six state-of-the-art simulators, providing a blend of golf play, training, and social entertainment. The facility emphasizes technology and realism through its camera systems, infrared lasers, and impact sensors, alongside a full bar and food service. It is suitable for both casual players and serious golfers, with amenities for parties, leagues, and professional instruction, though detailed pricing information requires direct contact.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|kids_friendly|corporate_events|leagues|premium_tech|coaching_available|private_rooms|late_night",
+  "vibe_tags": "sports_bar|tech_lab|family_fun_center|party_atmosphere|community_club",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "Cutting-edge simulator technology with high accuracy and realism",
+    "Comprehensive amenities including a full bar, food, and event hosting",
+    "PGA-certified instruction and league opportunities for skill development"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen with shareable bites, appetizers, snacks, and pizzas"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full liquor bar with beer by the glass or on tap, cocktails, and wines"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "X-Golf",
+      "model": "Simulator",
+      "notes": "State-of-the-art simulator with camera systems, infrared lasers, and impact sensors"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "infrared_optical",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "auto_putt",
+  "lefty_friendly": true,
+  "bay_count_total": 6,
+  "booking_url": "http://xgolfchestersprings.com/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 0,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Club rentals are available, though bringing your own clubs is also permitted."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, outside food and drinks are not allowed, but the venue offers a full kitchen and bar with a variety of options."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Generally, it takes about one hour for an individual player to complete 18 holes. For groups, booking an additional hour per player is recommended."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, X-Golf Chester Springs welcomes children of all ages and is suitable for family outings and birthday parties."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"11AM-11PM\"], \"Tuesday\": [\"11AM-11PM\"], \"Wednesday\": [\"11AM-11PM\"], \"Thursday\": [\"9AM-11PM\"], \"Friday\": [\"9AM-12AM\"], \"Saturday\": [\"9AM-12AM\"], \"Sunday\": [\"9AM-9PM\"]}"
+}

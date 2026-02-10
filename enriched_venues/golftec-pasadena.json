@@ -1,0 +1,93 @@
+{
+  "name": "GOLFTEC Pasadena",
+  "address": "709 E Walnut St #101, Pasadena, CA 91101",
+  "city": "Pasadena",
+  "region": "California",
+  "country": "US",
+  "latitude": 34.149734,
+  "longitude": -118.136535,
+  "phone": "+16263560215",
+  "website": "https://www.golftec.com/golf-lessons/pasadena%3Futm_source%3Dgmb%26utm_medium%3Dorganic%26utm_campaign%3Dpasadena",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770203694/golf_simulators/www_golftec_com_ChIJWYamq6ncwoARdF3PPka0WJo.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/GOLFTEC+Pasadena/@34.1497342,-118.13653509999999,14z/data=!4m8!1m2!2m1!1sGOLFTEC+Pasadena!3m4!1s0x80c2dca9aba68659:0x9a58b4463ecf5d74!8m2!3d34.1497342!4d-118.13653509999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJWYamq6ncwoARdF3PPka0WJo",
+  "venue_type": "training_studio",
+  "about": "GOLFTEC Pasadena is a high-tech golf instruction and practice facility that uses data-driven methods to improve player performance. The venue features advanced technology like OPTIMOTION motion capture, high-speed video analysis, and launch monitors to provide precise feedback on swings. Lessons are personalized, with coaches creating custom game plans based on initial Swing Evaluations. Club fitting services are also available, using launch monitors and shaft optimization to match players with equipment that can add up to 21 more yards off the tee on average. The facility is geared towards golfers of all levels looking for structured improvement in an indoor environment.",
+  "tags": "beginner_friendly|serious_golfers|coaching_available|premium_tech|club_rentals|pro_shop|club_fitting|juniors_youth|private_rooms",
+  "vibe_tags": "industrial_training|tech_lab|modern|welcoming",
+  "who_its_for": "beginners|serious_golfers|juniors_youth|solo_practice",
+  "why_golfers_like_it": [
+    "Data-driven instruction using advanced motion tracking technology",
+    "Personalized improvement plans based on Swing Evaluations",
+    "Expert PGA coaching in an indoor, controlled environment",
+    "On-site club fitting with launch monitor technology",
+    "Practice memberships available for frequent use"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No on-site food service mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No on-site alcohol service mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "SkyTrak",
+      "model": "unknown",
+      "notes": "Launch monitors are used for lessons and fitting"
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.golftec.com/book-a-service?url_service=swingevaluation",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|pro_shop|club_fitting|private_rooms|wifi|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can bring your own clubs, or GOLFTEC provides clubs for use during lessons and practice sessions."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No outside food or drinks are permitted at GOLFTEC locations."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Since this is an indoor facility focused on lessons and practice, 18-hole simulator play is not the primary service. Practice sessions and lessons are typically booked by the hour."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, GOLFTEC welcomes juniors and youth golfers with specialized coaching programs and family-friendly instruction methods."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"8AM-8PM\"], \"Tuesday\": [\"8AM-8PM\"], \"Wednesday\": [\"8AM-8PM\"], \"Thursday\": [\"8AM-8PM\"], \"Friday\": [\"8AM-6PM\"], \"Saturday\": [\"8AM-5PM\"], \"Sunday\": [\"8AM-5PM\"]}"
+}

@@ -1,0 +1,95 @@
+{
+  "name": "Golf WRLD",
+  "address": "2596 Enterprise Ave, Billings, MT 59102",
+  "city": "Billings",
+  "region": "Montana",
+  "country": "US",
+  "latitude": 45.750509,
+  "longitude": -108.58198,
+  "phone": "+14068612113",
+  "website": "https://golfworldbillings.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770236489/golf_simulators/golfworldbillings_com_ChIJ3xLMSD0JnSoRgh1JkDGA_jA.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Golf+WRLD/@45.7505089,-108.5819798,14z/data=!4m8!1m2!2m1!1sGolf+WRLD!3m4!1s0x2a9d093d48cc12df:0x30fe803190491d82!8m2!3d45.7505089!4d-108.5819798",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ3xLMSD0JnSoRgh1JkDGA_jA",
+  "venue_type": "sim_bar",
+  "about": "Golf WRLD is an indoor golf simulator facility in Billings, MT, featuring state-of-the-art TrackMan technology and a premium, climate-controlled environment. The venue offers realistic virtual course play, advanced swing analysis, and dedicated short game areas for year-round training and entertainment. It caters to golfers of all skill levels, from beginners to seasoned players, and also provides business amenities like a private conference room and event spaces for corporate gatherings. Pricing operates on a mixed model with hourly rates for non-members and various membership tiers that offer benefits like priority booking and guest passes.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|private_rooms|coaching_available",
+  "vibe_tags": "upscale_lounge|modern|tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|large_groups",
+  "why_golfers_like_it": [
+    "Access to top-tier TrackMan technology for precise ball and club tracking",
+    "Dedicated indoor chipping and putting areas with realistic green conditions",
+    "Premium, modern facility with a comfortable and sophisticated atmosphere",
+    "Year-round access to realistic virtual courses, unaffected by weather"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Catering available for events and corporate gatherings"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Bar access available, especially for events and with business memberships"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Top-of-the-line simulators used throughout the facility"
+    }
+  ],
+  "simulator_so": [
+    "GSPro",
+    "E6 Connect",
+    "Virtual Golf 3",
+    "PuttView"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://golfworldbillings.com/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 30,
+  "price_range_max_local": 50,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "private_party_room|full_bar|kitchen_food|tv_sports|lockers|pro_shop|leagues|coaching_available",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you should bring your own golf clubs to use with the simulators."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "External food and drinks are not mentioned as permitted. The venue offers catering and bar options for events."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "While not explicitly stated, playing 18 holes on a simulator typically takes 1.5 to 2 hours, depending on the number of players and pace."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, the facility is welcoming to all skill levels and is described as inclusive for families, making it kid-friendly."
+    }
+  ],
+  "simulator_software": [
+    "Virtual Golf 3"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"10AM-9PM\"], \"Tuesday\": [\"10AM-9PM\"], \"Wednesday\": [\"10AM-9PM\"], \"Thursday\": [\"10AM-9PM\"], \"Friday\": [\"10AM-9PM\"], \"Saturday\": [\"10AM-9PM\"], \"Sunday\": [\"12-9PM\"]}"
+}

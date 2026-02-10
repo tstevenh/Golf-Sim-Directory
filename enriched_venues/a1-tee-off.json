@@ -1,0 +1,94 @@
+{
+  "name": "A1 Tee Off",
+  "address": "2284 Rawlings Blvd, Pueblo, CO 81001",
+  "city": "Pueblo",
+  "region": "Colorado",
+  "country": "US",
+  "latitude": 38.307906,
+  "longitude": -104.570736,
+  "phone": "+17192252790",
+  "website": "https://a1teeoff.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770228519/golf_simulators/a1teeoff_com_ChIJZR56FgOjE4cR0hm8Lr3ThwI.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/A1+Tee+Off/@38.3079064,-104.5707357,14z/data=!4m8!1m2!2m1!1sA1+Tee+Off!3m4!1s0x8713a303167a1e65:0x287d3bd2ebc19d2!8m2!3d38.3079064!4d-104.5707357",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJZR56FgOjE4cR0hm8Lr3ThwI",
+  "email": "A1sportspueblo@gmail.com",
+  "venue_type": "sim_bar",
+  "about": "A1 Tee Off is an indoor golf simulator and lounge in Pueblo, CO, featuring three state-of-the-art simulators accessible for all skill levels. The venue offers bay rentals priced per hour, not per person, with time slots bookable in 30-minute increments. On average, one person can complete 18 holes within an hour. Rental clubs are available for men, women, and children. The facility also hosts corporate events, private parties, birthday celebrations, and golf leagues, and includes food and drink options from local partners like Thunder Zone and El Super Taco.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|kids_friendly|private_rooms|coaching_available|club_rentals|date_night",
+  "vibe_tags": "casual|welcoming|modern|family_fun_center|party_atmosphere",
+  "who_its_for": "beginners|families|corporate_teams|juniors_youth|large_groups",
+  "why_golfers_like_it": [
+    "3 simulators for groups or solo play",
+    "Per-hour pricing allows flexible 18-hole sessions",
+    "Rental clubs available for all ages and genders",
+    "Advanced swing analysis with detailed performance metrics",
+    "Variety of non-golf games for events like cornhole and darts"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Food available from local partners including Thunder Zone and El Super Taco serving authentic Mexican recipes and other dishes."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Signature cocktails and draft beer available on-site."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "aboutGOLF",
+      "model": "commercial_simulator",
+      "notes": "State-of-the-art simulators with high-speed cameras and advanced swing analysis."
+    }
+  ],
+  "simulator_so": [
+    "aboutGOLF"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://passfactory.com/ftbb/7X81Sw/?o=r&bn=A1TeeOff",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 395,
+  "price_range_max_local": 120,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 3,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|private_party_room|leagues|ada_accessible",
+  "rating_tech_quality": 4.0,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need clubs?",
+      "answer": "No, rental clubs are available for men, women, and children. Specify your preferences when making a reservation."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, food and drinks are provided by local partners like Thunder Zone and El Super Taco, available on-site."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "On average, one person can complete 18 holes within an hour. Time slots can be booked in 30-minute increments."
+    },
+    {
+      "question": "Is it kid-friendly?",
+      "answer": "Yes, the venue is open to all ages and skill levels, with rental clubs available for younger children, and it hosts birthday parties and other family-friendly events."
+    }
+  ],
+  "simulator_software": [
+    "aboutGOLF"
+  ],
+  "rating_overall": 4.1,
+  "opening_hours": "{\"Monday\": [\"11AM-10PM\"], \"Tuesday\": [\"11AM-10PM\"], \"Wednesday\": [\"11AM-10PM\"], \"Thursday\": [\"11AM-10PM\"], \"Friday\": [\"11AM-10PM\"], \"Saturday\": [\"11AM-10PM\"], \"Sunday\": [\"11AM-7PM\"]}"
+}

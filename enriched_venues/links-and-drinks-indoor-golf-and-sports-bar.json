@@ -1,0 +1,90 @@
+{
+  "name": "Links and Drinks Indoor Golf and Sports Bar",
+  "address": "1087 Summit Ave, Oconomowoc, WI 53066",
+  "city": "Oconomowoc",
+  "region": "Wisconsin",
+  "country": "US",
+  "latitude": 43.094108,
+  "longitude": -88.480379,
+  "phone": "+12626497485",
+  "website": "https://www.linksanddrinksgolfbar.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770228618/golf_simulators/www_linksanddrinksgolfbar_com_ChIJHV6GD4bLBYgRaD-agmOqNlk.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Links+and+Drinks+Indoor+Golf+and+Sports+Bar/@43.0941085,-88.48037889999999,14z/data=!4m8!1m2!2m1!1sLinks+and+Drinks+Indoor+Golf+and+Sports+Bar!3m4!1s0x8805cb860f865e1d:0x5936aa63829a3f68!8m2!3d43.0941085!4d-88.48037889999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJHV6GD4bLBYgRaD-agmOqNlk",
+  "email": "info@linksanddrinksgolfbar.com",
+  "venue_type": "sim_bar",
+  "about": "Links and Drinks Indoor Golf and Sports Bar is an indoor golf venue that combines Full Swing Pro Series simulators with a full-service sports bar and restaurant. The facility uses advanced overhead ION3 cameras and high-speed infrared tracking to deliver a realistic golf experience. Guests can book a bay for simulator play while enjoying signature cocktails and food from the on-site kitchen. The venue offers leagues, events, and private party bookings, making it a versatile spot for both golf and social gatherings.",
+  "tags": "food_and_drinks|beginner_friendly|date_night|corporate_events|leagues|premium_tech|private_rooms|late_night",
+  "vibe_tags": "sports_bar|family_fun_center|community_club|modern",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Full Swing Pro Series simulator with realistic ball flight technology",
+    "Overhead ION3 cameras and high-speed infrared tracking for accurate shot capture",
+    "Full-service bar and restaurant for a complete golf and social experience",
+    "Leagues and events for regular play and community engagement"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen serving appetizers, pizzas, and other casual dining options like loaded tots and pizza"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with signature cocktails and a selection of beers"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Full Swing",
+      "model": "Pro Series",
+      "notes": "Uses overhead ION3 cameras and high-speed infrared tracking"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "overhead_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.linksanddrinksgolfbar.com/tee-times",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own golf clubs?",
+      "answer": "The website doesn't specify, so it's recommended to bring your own clubs for the best experience."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "No, the venue has a full-service bar and kitchen, so outside food and drink are not allowed."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website doesn't specify, but simulator play typically takes 2-3 hours for 18 holes depending on the group size and pace."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue has a casual sports bar atmosphere and offers family-friendly menu options, making it suitable for kids."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-11PM\"], \"Saturday\": [\"8AM-11PM\"], \"Sunday\": [\"8AM-6PM\"]}"
+}

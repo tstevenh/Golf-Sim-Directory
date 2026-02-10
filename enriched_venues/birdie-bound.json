@@ -1,0 +1,91 @@
+{
+  "name": "Birdie Bound",
+  "address": "11 Viewpoint Dr, Alexandria, KY 41001",
+  "city": "Alexandria",
+  "region": "Kentucky",
+  "country": "US",
+  "latitude": 38.984543,
+  "longitude": -84.403946,
+  "phone": "+18594122232",
+  "website": "https://birdieboundnky.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770211739/golf_simulators/birdieboundnky_com_ChIJD4ohXAClQYgRJ6WXWTqzqJ0.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Birdie+Bound/@38.984542499999996,-84.4039458,14z/data=!4m8!1m2!2m1!1sBirdie+Bound!3m4!1s0x8841a5005c218a0f:0x9da8b33a5997a527!8m2!3d38.984542499999996!4d-84.4039458",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJD4ohXAClQYgRJ6WXWTqzqJ0",
+  "email": "birdieboundnky@gmail.com",
+  "venue_type": "sim_bar",
+  "about": "Birdie Bound is a golf simulator venue in Alexandria, Kentucky, focused on providing an authentic and accessible golfing experience. It features four bays equipped with Trackman IO technology and EZ Tee Hybrid mats for a realistic feel on the course. The facility offers a range of membership options, flexible league play, and private lessons for golfers of all levels to practice, compete, or take their game to the next level.",
+  "tags": "beginner_friendly|leagues|premium_tech|budget_friendly|coaching_available|family_friendly",
+  "vibe_tags": "casual|welcoming|community_club|modern",
+  "who_its_for": "beginners|serious_golfers|families|solo_practice|juniors_youth",
+  "why_golfers_like_it": [
+    "Premium 4K Trackman IO simulator experience for accurate data tracking",
+    "Flexible 9-hole Flex League that allows players to compete on their own schedule",
+    "30-minute and 1-hour session options for convenient short or long play",
+    "On-site PGA-level coaching from Bruce Oldendick for structured lessons"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No information on food service provided."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No information on alcohol service provided."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "4 bays equipped with Trackman IO and EZ Tee Hybrid premier hitting mats"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "auto_putt",
+  "lefty_friendly": true,
+  "bay_count_total": 4,
+  "booking_url": "https://yourgolfbooking.com/venues/birdie-bound/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 10,
+  "price_range_max_local": 1200,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 4,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_fitting|leagues|coaching_available",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "It is not explicitly stated on the website, but it is implied as guests are booking time in the simulator bays and bringing your own clubs is standard practice for simulator venues. Club fitting services are available to demo new equipment."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "There is no information provided regarding outside food or drinks on the website. It is recommended to contact the venue directly for their policy on BYOB."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "A single golfer can complete an 18-hole round in approximately 1 hour. Two golfers will need about 2 hours, and up to 4 golfers can play together with the total time scaling accordingly."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Birdie Bound is kid-friendly. They offer a discounted youth rate of $30 per hour and youth under 14 are allowed to play with an adult. The website mentions interactive golf games suitable for families."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"2-8PM\"], \"Tuesday\": [\"2-8PM\"], \"Wednesday\": [\"2-8PM\"], \"Thursday\": [\"2-8PM\"], \"Friday\": [\"11AM-10PM\"], \"Saturday\": [\"11AM-10PM\"], \"Sunday\": [\"11AM-6PM\"]}"
+}

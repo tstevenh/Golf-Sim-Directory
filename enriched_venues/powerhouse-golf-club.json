@@ -1,0 +1,91 @@
+{
+  "name": "Powerhouse Golf Club",
+  "address": "161 2nd St, Jersey City, NJ 07302",
+  "city": "Jersey City",
+  "region": "New Jersey",
+  "country": "US",
+  "latitude": 40.722004,
+  "longitude": -74.039441,
+  "phone": "+11000703056",
+  "website": "https://powerhousegolfclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770199251/golf_simulators/powerhousegolfclub_com_ChIJTd_ZkU5RwokRGkdM2UA-s-E.png",
+  "google_maps_url": "https://www.google.com/maps/place/Powerhouse+Golf+Club/@40.722004399999996,-74.03944059999999,14z/data=!4m8!1m2!2m1!1sPowerhouse+Golf+Club!3m4!1s0x89c2514e91d9df4d:0xe1b33e40d94c471a!8m2!3d40.722004399999996!4d-74.03944059999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJTd_ZkU5RwokRGkdM2UA-s-E",
+  "email": "info@powerhousegolfclub.com",
+  "venue_type": "sim_bar",
+  "about": "Powerhouse Golf Club is a private, 24/7 indoor golf facility located in Jersey City, NJ. It operates on a members-only basis and features two fully automated Trackman bays equipped with Virtual Golf 3 software, which provides high-fidelity course simulations of famous venues like Bethpage Black. The club offers a range of services including lessons, club fittings, and organized leagues, all designed for a community-focused golf experience. Membership is required for access, and the venue emphasizes technology and convenience for players looking to improve their game or enjoy virtual rounds on iconic courses.",
+  "tags": "serious_golfers|leagues|premium_tech|coaching_available|private_rooms|club_rentals|community_club",
+  "vibe_tags": "tech_lab|private_luxury|community_club",
+  "who_its_for": "serious_golfers|families|corporate_teams|solo_practice|coaches_instructors",
+  "why_golfers_like_it": [
+    "24/7 access to premium Trackman technology",
+    "Membership-only community for exclusive and focused play",
+    "High-quality Virtual Golf 3 simulator software with realistic course simulations",
+    "Professional lessons and Mizuno club fittings available",
+    "Organized leagues and events for competitive play"
+  ],
+  "kid_friendly": false,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of on-site food service"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service; BYOB not specified"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "unknown",
+      "notes": "Two Trackman bays with 24/7 access"
+    }
+  ],
+  "simulator_software": [
+    "Virtual Golf 3"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://clients.uschedule.com/powerhousegolfclub/account/login",
+  "pricing_model": "membership_only",
+  "price_range_min_local": 250,
+  "price_range_max_local": 650,
+  "currency": "USD",
+  "walk_ins_allowed": false,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|club_fitting|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need clubs?",
+      "answer": "Members should bring their own clubs. The facility does not specify club rentals."
+    },
+    {
+      "question": "Can I bring food or drink?",
+      "answer": "No information is provided about bringing outside food or drink; BYOB is not mentioned."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "No specific time is mentioned, but the venue recommends booking a 2-hour tee time for league play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "No information is provided about children or kid-friendly policies."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

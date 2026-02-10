@@ -1,0 +1,91 @@
+{
+  "name": "Stick & Feather",
+  "address": "3851 Steele St Unit 1378, Denver, CO 80205",
+  "city": "Denver",
+  "region": "Colorado",
+  "country": "US",
+  "latitude": 39.76995,
+  "longitude": -104.957066,
+  "phone": "+17209002292",
+  "website": "http://www.stickandfeather.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770215498/golf_simulators/www_stickandfeather_com_ChIJW4sjJ2Z5bIcR61zWoG6se2Q.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Stick+%26+Feather/@39.76995,-104.9570663,14z/data=!4m8!1m2!2m1!1sStick+%26+Feather!3m4!1s0x876c796627238b5b:0x647bac6ea0d65ceb!8m2!3d39.76995!4d-104.9570663",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJW4sjJ2Z5bIcR61zWoG6se2Q",
+  "email": "support@stickandfeather.com",
+  "venue_type": "sim_bar",
+  "about": "Stick & Feather is Denver's premier golf lounge and bar, offering an indoor golf experience that combines premium technology with a social atmosphere. The venue features 5 extra-wide golf bays equipped with Uneekor Eye XO launch monitors, which provide detailed ball data and slow-motion video analysis of club impact. All bays run on GSPro software, allowing players to access some of the world's most renowned golf courses. The space is designed to be a relaxed and enjoyable environment where patrons can practice their swing, enjoy drinks, and socialize with friends and family. While specific pricing per bay is not listed on the main page, the business model operates on an hourly rental basis with options for memberships and packages, catering to both casual players and serious golfers looking to practice in a unique setting.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|private_rooms|club_rentals|coaching_available",
+  "vibe_tags": "upscale_lounge|sports_bar|community_club",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "Tour-grade Uneekor Eye XO launch monitors for accurate data and slow-motion video analysis",
+    "Access to GSPro simulator software, featuring world-famous courses like Augusta",
+    "Spacious 17-foot wide bays providing a fully immersive and free-swinging experience",
+    "On-site bar and restaurant serving cocktails, beer, and food for a complete social experience",
+    "Realistic hitting mats that mimic real fairways while minimizing wrist strain"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Snacks are available, as evidenced by their 'NA and Snacks' menu."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service including craft beer, cocktails (e.g., Peppercorn Paloma), wine, and spirits."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "Eye XO",
+      "notes": "5 premium bays with high-speed cameras for slow-mo impact footage and accurate golf ball data."
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 5,
+  "booking_url": "http://www.stickandfeather.com/book-now",
+  "pricing_model": "mixed",
+  "price_range_min_local": 80,
+  "price_range_max_local": 110,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "full_bar|kitchen_food|private_party_room|leagues|coaching_available",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify whether club rentals are available, so it is recommended to bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "The venue has a full bar and kitchen serving food and drinks, but the policy on outside food and beverages is not specified."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not provide an estimated time for completing 18 holes on the simulator."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "There is no explicit information indicating that the venue is specifically designed for or accommodating to children."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"3-9PM\"], \"Tuesday\": [\"12-9PM\"], \"Wednesday\": [\"12-9PM\"], \"Thursday\": [\"12-9PM\"], \"Friday\": [\"12-9PM\"], \"Saturday\": [\"10AM-9PM\"], \"Sunday\": [\"10AM-6PM\"]}"
+}

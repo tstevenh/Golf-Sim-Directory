@@ -1,0 +1,90 @@
+{
+  "name": "SandTrap",
+  "address": "2532 Regency Rd Ste 101, Lexington, KY 40503",
+  "city": "Lexington",
+  "region": "Kentucky",
+  "country": "US",
+  "latitude": 38.002172,
+  "longitude": -84.523934,
+  "phone": "+18598007401",
+  "website": "https://www.sandtraplex.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770228315/golf_simulators/www_sandtraplex_com_ChIJ18uQoIhdQogRcNlhrO9jKHA.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/SandTrap/@38.002172099999996,-84.52393359999999,14z/data=!4m8!1m2!2m1!1sSandTrap!3m4!1s0x88425d88a090cbd7:0x702863efac61d970!8m2!3d38.002172099999996!4d-84.52393359999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ18uQoIhdQogRcNlhrO9jKHA",
+  "venue_type": "sim_bar",
+  "about": "Sand Trap is an indoor golf venue that utilizes advanced Trackman simulator technology to provide an enhanced golfing experience. The facility offers both public play hours and exclusive member-only access, available year-round for players of all ages and skill levels. Pricing is based on hourly bay rates, with options for membership and event hosting, making it suitable for casual play, practice, and group gatherings.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|leagues|coaching_available|late_night|premium_tech",
+  "vibe_tags": "casual|welcoming|sports_bar|tech_lab",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "Advanced Trackman technology provides precise swing data for improvement",
+    "Access to hundreds of real-world golf courses with high-fidelity simulation",
+    "Flexible membership options with exclusive play hours and discounts",
+    "Ability to host events and leagues with competitive pricing",
+    "Full bar and social atmosphere for an all-around golfing experience"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "BYOB not mentioned, facility does not appear to have an on-site kitchen"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar available during regular hours, closed on Mondays"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "unknown",
+      "notes": "Advanced simulator system with drone-scanned course technology"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "auto_putt",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://yourgolfbooking.com/venues/sand-trap-1/booking/bays",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 40,
+  "price_range_max_local": 50,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "full_bar|leagues|private_party_room|club_fitting|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "Players are required to bring their own clubs as they are not provided by the facility."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The facility has a full bar available for purchase. BYOB policies are not mentioned, so bringing outside food or drinks is likely not permitted."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The typical time to play 18 holes is not specified, but hourly bay rentals are available starting at $40-50 per hour."
+    },
+    {
+      "question": "Is Sand Trap kid-friendly?",
+      "answer": "Yes, the venue is described as suitable for players of all ages and skill levels, including families and juniors."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"4-10PM\"], \"Tuesday\": [\"4-10PM\"], \"Wednesday\": [\"4-10PM\"], \"Thursday\": [\"4-10PM\"], \"Friday\": [\"4-10PM\"], \"Saturday\": [\"11AM-11PM\"], \"Sunday\": [\"11AM-11PM\"]}"
+}

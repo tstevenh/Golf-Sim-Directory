@@ -1,0 +1,89 @@
+{
+  "name": "Winners Golf",
+  "address": "746 W Algonquin Rd, Arlington Heights, IL 60005",
+  "city": "Arlington Heights",
+  "region": "Illinois",
+  "country": "US",
+  "latitude": 42.050057,
+  "longitude": -87.989901,
+  "phone": "+18472583382",
+  "website": "http://www.winnersgolf.net/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770204952/golf_simulators/www_winnersgolf_net_ChIJQ4aAEW2wD4gRuAYYXohZeLY.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Winners+Golf/@42.0500574,-87.98990049999999,14z/data=!4m8!1m2!2m1!1sWinners+Golf!3m4!1s0x880fb06d11808643:0xb67859885e1806b8!8m2!3d42.0500574!4d-87.98990049999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJQ4aAEW2wD4gRuAYYXohZeLY",
+  "email": "winnnersgolf18@gmail.com",
+  "venue_type": "training_studio",
+  "about": "Winners Golf is an indoor golf simulator venue offering a premium practice and playing experience. The facility is equipped with multiple simulator bays featuring Uneekor QED launch monitors, providing detailed ball and club data analysis for serious golfers. Pricing is structured on an hourly bay rental basis with seasonal rates, and the venue caters to both individual practice sessions and group events.",
+  "tags": "serious_practice|beginner_friendly|corporate_events|coaching_available|leagues|premium_tech|group_friendly",
+  "vibe_tags": "tech_lab|private_luxury|community_club",
+  "who_its_for": "serious_golfers|beginners|families|corporate_teams|coaches_instructors",
+  "why_golfers_like_it": [
+    "Premium Uneekor QED launch monitors provide accurate and comprehensive data for serious practice",
+    "Ability to host private events, corporate meetings, and parties, including simulator rentals",
+    "Availability of coaching with launch monitor technology for skill improvement"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No information on food service available"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No information on alcohol service available"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "QED",
+      "notes": "The ultimate launch monitor & simulation experience"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://winnersgolf.net/reservation/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 30,
+  "price_range_max_local": 45,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|coaching_available|leagues|private_party_room",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 4.2,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify whether clubs are provided or if you need to bring your own."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No information is available regarding outside food and drink policies."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "It roughly takes 1 hour for the average golfer to play 18 holes. The venue cannot guarantee you will complete all 18 holes during your reservation due to varying player paces."
+    },
+    {
+      "question": "Is Winners Golf kid-friendly?",
+      "answer": "There is no specific information indicating that the venue is designed for or caters to children."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-11PM\"], \"Tuesday\": [\"10AM-11PM\"], \"Wednesday\": [\"10AM-11PM\"], \"Thursday\": [\"10AM-12AM\"], \"Friday\": [\"10AM-12AM\"], \"Saturday\": [\"9AM-12AM\"], \"Sunday\": [\"9AM-10PM\"]}"
+}

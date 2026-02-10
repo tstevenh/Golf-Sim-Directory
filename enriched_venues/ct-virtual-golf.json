@@ -1,0 +1,90 @@
+{
+  "name": "CT Virtual Golf",
+  "address": "108 Captain Neville Dr, Waterbury, CT 06705",
+  "city": "Waterbury",
+  "region": "Connecticut",
+  "country": "US",
+  "latitude": 41.541523,
+  "longitude": -72.979369,
+  "phone": "+12038057070",
+  "website": "http://www.ctvirtualgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770200197/golf_simulators/www_ctvirtualgolf_com_ChIJfwGAQ9rG54kR0WncSxzxUVs.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/CT+Virtual+Golf/@41.5415229,-72.9793692,14z/data=!4m8!1m2!2m1!1sCT+Virtual+Golf!3m4!1s0x89e7c6da4380017f:0x5b51f11c4bdc69d1!8m2!3d41.5415229!4d-72.9793692",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJfwGAQ9rG54kR0WncSxzxUVs",
+  "email": "contact@ctvirtualgolf.com",
+  "venue_type": "sim_bar|training_studio|private_rental",
+  "about": "CT Virtual Golf is an indoor golf simulation and virtual reality gaming facility in Waterbury, Connecticut. The venue features private bays equipped with 2024 TruGolf Apogee Simulators, offering laser accuracy and real-feel hitting surfaces. Rates are positioned well below industry standard, and the facility is conveniently located right off I-84, Exit 25A. It operates on an appointment-only basis during the summer and offers various booking packages, including hourly rates and multi-hour packages. The venue also provides a dedicated virtual reality arcade and opportunities for league play and private lessons.",
+  "tags": "serious_golfers|leagues|coaching_available|private_rooms|budget_friendly|beginner_friendly|corporate_events|juniors_youth",
+  "vibe_tags": "modern|private_luxury|sports_bar|community_club",
+  "who_its_for": "serious_golfers|families|corporate_teams|solo_practice|juniors_youth",
+  "why_golfers_like_it": [
+    "New 2024 TruGolf Apogee Simulators with laser accuracy and real-feel surfaces",
+    "Rates well below industry standard with flexible booking packages",
+    "Large private bays equipped with HDTVs and Bluetooth for a premium experience",
+    "Convenient location directly off I-84, Exit 25A in Waterbury, CT"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of on-site food service."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of a bar or alcohol service."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "TruGolf",
+      "model": "Apogee",
+      "notes": "2024 model with laser accuracy and real-feel hitting surfaces"
+    }
+  ],
+  "simulator_software": [
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://ctvirtualgolf.com/booknow/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 75,
+  "price_range_max_local": 489,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 12,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|private_rooms|tv_sports|pro_shop|leagues|coaching_available",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.3,
+  "rating_value_for_money": 4.5,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "The website does not explicitly state if clubs are provided. It's recommended to bring your own clubs for the best experience."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "There is no mention of food or drink service at the facility. As it is a BYOB establishment, you are welcome to bring your own refreshments."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes depends on the number of golfers in your bay. For example, with 2 golfers, you should allocate 2 hours for 18 holes, while 4 golfers would need 4 hours."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the facility appears to be kid-friendly, offering junior programs, lessons, and a welcoming environment for families. The virtual reality arcade also provides an attraction for younger guests."
+    }
+  ],
+  "rating_overall": 4.5,
+  "opening_hours": "{\"Monday\": [\"10AM-9PM\"], \"Tuesday\": [\"10AM-9PM\"], \"Wednesday\": [\"10AM-9PM\"], \"Thursday\": [\"10AM-9PM\"], \"Friday\": [\"9AM-10PM\"], \"Saturday\": [\"8AM-10PM\"], \"Sunday\": [\"8AM-10PM\"]}"
+}

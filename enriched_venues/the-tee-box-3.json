@@ -1,0 +1,91 @@
+{
+  "name": "The Tee Box",
+  "address": "630 Beaver Ave Rear, Ellwood City, PA 16117",
+  "city": "Ellwood City",
+  "region": "Pennsylvania",
+  "country": "US",
+  "latitude": 40.859214,
+  "longitude": -80.290361,
+  "phone": "+17242010707",
+  "website": "http://www.theteebox.golf/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770206983/golf_simulators/www_theteebox_golf_ChIJGVPhWWZ3NIgRYLd7sd1p7GE.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Tee+Box/@40.8592139,-80.2903611,14z/data=!4m8!1m2!2m1!1sThe+Tee+Box!3m4!1s0x8834776659e15319:0x61ec69ddb17bb760!8m2!3d40.8592139!4d-80.2903611",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJGVPhWWZ3NIgRYLd7sd1p7GE",
+  "venue_type": "sim_bar",
+  "about": "The Tee Box is an indoor sports lounge located in Ellwood City, PA, featuring two Full Swing golf simulators and a variety of virtual sports experiences. The facility offers a casual atmosphere for playing over 100 virtual golf courses, along with other virtual sports like football, baseball, soccer, and Zombie Dodgeball. Pricing for the simulators starts at $30 per hour during off-peak times and $40 per hour during peak hours. The venue caters to individuals, groups, and hosts various events, including birthday parties, corporate outings, and league play. With a full bar and kitchen available, The Tee Box provides a complete entertainment experience for golfers and sports enthusiasts alike.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|leagues|family_friendly|solo_practice|low_handicap|juniors_youth|bachelor_parties",
+  "vibe_tags": "family_fun_center|sports_bar|community_club|welcoming",
+  "who_its_for": "families|large_groups|corporate_teams|solo_practice|juniors_youth",
+  "why_golfers_like_it": [
+    "Over 100 virtual golf courses available for play",
+    "Variety of virtual sports beyond golf for group entertainment",
+    "State-of-the-art Full Swing simulators for a premium experience",
+    "50% discount on simulator rates for members bringing friends",
+    "Full bar and kitchen available to enhance the experience"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Offers a fantastic food menu with catering options available for events"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with a variety of alcoholic and non-alcoholic beverages"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Full Swing",
+      "model": "Full Swing Simulator",
+      "notes": "Two Full Swing simulators available for booking"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "unknown",
+  "ball_tracking": "unknown",
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "http://www.theteebox.golf/book-a-tee-time",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 30,
+  "price_range_max_local": 40,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues|ada_accessible",
+  "rating_tech_quality": 4.0,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 3.5,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can practice with your own equipment or use the equipment provided by The Tee Box."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The Tee Box offers a fantastic food menu and a full bar with alcoholic and non-alcoholic beverages for guests."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The duration to play 18 holes on a simulator varies depending on the number of players and pace of play, but tee times are booked in hourly blocks starting at $30 per hour."
+    },
+    {
+      "question": "Is The Tee Box kid-friendly?",
+      "answer": "Yes, The Tee Box is perfect for all ages and offers birthday party reservations that include food, drinks, and golfing fun for all ages."
+    }
+  ],
+  "simulator_software": [
+    "Full Swing"
+  ],
+  "rating_overall": 3.8,
+  "opening_hours": "{\"Monday\": [\"10AM-12AM\"], \"Tuesday\": [\"10AM-12AM\"], \"Wednesday\": [\"10AM-12AM\"], \"Thursday\": [\"10AM-12AM\"], \"Friday\": [\"10AM-2AM\"], \"Saturday\": [\"10AM-2AM\"], \"Sunday\": [\"10AM-12AM\"]}"
+}

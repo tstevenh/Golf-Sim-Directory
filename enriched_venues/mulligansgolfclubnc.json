@@ -1,0 +1,93 @@
+{
+  "name": "MulligansGolfClubNC",
+  "address": "12 Barbrick Ave SW, Concord, NC 28025",
+  "city": "Concord",
+  "region": "North Carolina",
+  "country": "US",
+  "latitude": 35.409089,
+  "longitude": -80.58027,
+  "phone": "+17047860020",
+  "website": "https://mulligansgolfclubnc.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770201060/golf_simulators/mulligansgolfclubnc_com_ChIJp4RzJgAPVIgRdBG26daYjgE.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/MulligansGolfClubNC/@35.4090889,-80.5802702,14z/data=!4m8!1m2!2m1!1sMulligansGolfClubNC!3m4!1s0x88540f00267384a7:0x18e98d6e9b61174!8m2!3d35.4090889!4d-80.5802702",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJp4RzJgAPVIgRdBG26daYjgE",
+  "venue_type": "sim_bar",
+  "about": "Mulligan's Golf Club is a golf simulator venue located in downtown Concord, North Carolina, just north of Charlotte. The facility features 4 private simulator bays equipped with Foresight Falcon technology, overhead launch monitors, and 2-hour rental sessions. It caters to golfers of all skill levels, offering the ability to play on hundreds of virtual courses, use a virtual driving range, or participate in scramble formats with friends. The club operates with a pay-per-bay model and also offers a monthly membership option.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|private_rooms|coaching_available|club_rentals|tech_lab|community_club",
+  "vibe_tags": "sports_bar|tech_lab|community_club|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Premium Foresight Falcon overhead launch monitor technology",
+    "2-hour bay rentals instead of the standard 1-hour",
+    "Downtown location near Charlotte with a welcoming atmosphere",
+    "On-site bar with TVs for watching sports",
+    "Option to work remotely while practicing"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Light snacks available"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with beer, wine, and spirits"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": "Falcon",
+      "notes": "Overhead launch monitor"
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "overhead_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 4,
+  "booking_url": "https://clients.uschedule.com/mulligansgolfclub/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 49,
+  "price_range_max_local": 59,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 4,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "full_bar|kitchen_food|tv_sports|private_rooms|club_rentals|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you should bring your own golf clubs to use in the simulator bays."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue has an on-site bar with beer, wine, and spirits, as well as light snacks available for purchase. Bringing outside food and drink is not mentioned."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "With 2-hour bay rentals, you can typically play 9-18 holes depending on pace, as each hole usually takes about 10-15 minutes to complete."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is described as welcoming golfers of all skill levels, and its family-friendly amenities like TVs and food options make it suitable for kids."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Friday\": [\"1-8:45PM\"]}"
+}

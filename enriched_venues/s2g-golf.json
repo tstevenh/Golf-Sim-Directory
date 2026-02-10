@@ -1,0 +1,88 @@
+{
+  "name": "S2G Golf",
+  "address": "933 Airline Rd Suite A, Corpus Christi, TX 78412",
+  "city": "Corpus Christi",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 27.714793,
+  "longitude": -97.362725,
+  "phone": "+13612995010",
+  "website": "https://www.s2ggolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770233456/golf_simulators/www_s2ggolf_com_ChIJOf4FR5X1aIYRruvu2fE7KNw.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/S2G+Golf/@27.714792799999998,-97.3627252,14z/data=!4m8!1m2!2m1!1sS2G+Golf!3m4!1s0x8668f5954705fe39:0xdc283bf1d9eeebae!8m2!3d27.714792799999998!4d-97.3627252",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJOf4FR5X1aIYRruvu2fE7KNw",
+  "venue_type": "sim_bar",
+  "about": "S2G Golf is an indoor golf facility located in Corpus Christi, Texas, that blends tour-grade simulator technology with a relaxed, social environment. The venue offers private golf simulator bays available for hourly rental, where players can practice their swings, play full rounds on iconic virtual courses, or socialize with friends. Operating with a 'Screen to Green' philosophy, S2G Golf is designed to be accessible and enjoyable for all skill levels, from first-timers to experienced players.\n\nThe experience extends beyond golf simulation, with a focus on creating a social atmosphere. Private bays are equipped with comfortable, modern settings, and the facility offers a curated selection of beer, wine, and light bites. The venue describes itself as 'untraditional,' with no dress code or pressure, aiming to be a go-to social spot in Corpus Christi. Memberships are available for those seeking unlimited access, and the facility hosts leagues and tournaments for competitive play in a low-pressure environment.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|private_rooms|coaching_available|social_atmosphere",
+  "vibe_tags": "casual|welcoming|modern|sports_bar|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Tour-grade simulator technology providing real-time shot data and analysis",
+    "Relaxed, no-pressure environment welcoming all skill levels",
+    "Social atmosphere with full bar and light bites for a complete outing experience"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Light bites and snacks available on-site"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Curated selection of beer and wine available"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Unknown",
+      "model": "Unknown",
+      "notes": "State-of-the-art simulators that track ball speed, launch angle, and spin rate"
+    }
+  ],
+  "simulator_software": [
+    "Unknown"
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://clients.uschedule.com/s2ggolf/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|kitchen_food|club_rentals|private_party_room|leagues|wifi",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to be good at golf to play here?",
+      "answer": "Not at all. We welcome all skill levels—from first-timers to scratch players. Our simulators are intuitive and fun for everyone, whether you're playing seriously or casually."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "Outside food and drinks aren't allowed, but we serve a great selection of beer, wine, and snacks on-site to keep you fueled."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes can vary depending on the pace of play and simulator software used. Pricing is hourly per bay, so you can book accordingly for your desired session length."
+    },
+    {
+      "question": "Is S2G Golf kid-friendly?",
+      "answer": "Yes, S2G Golf is designed to be inclusive for all ages and skill levels, making it a welcoming environment for juniors and families."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-12AM\"], \"Saturday\": [\"10AM-12AM\"], \"Sunday\": [\"12-10PM\"]}"
+}

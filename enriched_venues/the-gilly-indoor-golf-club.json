@@ -1,0 +1,90 @@
+{
+  "name": "The Gilly Indoor Golf Club",
+  "address": "5761 E Brown Rd #13, Mesa, AZ 85205",
+  "city": "Mesa",
+  "region": "Arizona",
+  "country": "US",
+  "latitude": 33.436671,
+  "longitude": -111.705981,
+  "phone": "+14803649742",
+  "website": "https://www.thegillygolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770224139/golf_simulators/www_thegillygolf_com_ChIJ6bkO_m6lK4cRqNRWOssD87Q.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Gilly+Indoor+Golf+Club/@33.436671,-111.7059812,14z/data=!4m8!1m2!2m1!1sThe+Gilly+Indoor+Golf+Club!3m4!1s0x872ba56efe0eb9e9:0xb4f303cb3a56d4a8!8m2!3d33.436671!4d-111.7059812",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ6bkO_m6lK4cRqNRWOssD87Q",
+  "email": "Rob@thegillygolf.com",
+  "venue_type": "training_studio",
+  "about": "The Gilly Indoor Golf Club is a premium indoor golf facility in Mesa, Arizona. It features a 1,000+ square foot putting green designed by PGA Tour player Daniel Summerhays, along with three TrackMan simulator bays for both long and short game practice. The club offers a comprehensive golfing environment designed to help players of all skill levels improve their game year-round through advanced swing analysis, virtual course play, and dedicated short game training. It positions itself as more than just a simulator facility, emphasizing community and the social aspects of golf while providing access to industry-leading technology for competitive golfers looking to elevate their performance.",
+  "tags": "serious_practice|premium_tech|coaching_available|leagues|beginner_friendly|community_club",
+  "vibe_tags": "tech_lab|community_club|welcoming|modern",
+  "who_its_for": "serious_golfers|beginners|families|coaches_instructors|solo_practice",
+  "why_golfers_like_it": [
+    "Industry-leading TrackMan technology for precise swing analysis and performance data",
+    "Dedicated 1,000+ sq ft putting green designed by a PGA Tour player for focused short game improvement",
+    "Combination of advanced simulators and a real putting surface for comprehensive game development",
+    "Community-focused environment that values both competition and social aspects of golf"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food or drink service is mentioned; BYOB policy not specified."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service is mentioned; BYOB policy not specified."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Three TrackMan simulator bays for long and short game practice"
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 3,
+  "booking_url": "https://yourgolfbooking.com/venues/the-gilly-indoor-golf-club/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": null,
+  "price_range_max_local": null,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 3,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|pro_shop|leagues|coaching_available|dedicated_green",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify, but as a premium golf facility, it is highly recommended that you bring your own clubs for the best experience. Equipment rentals may be available but are not mentioned."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The website does not specify a food and drink policy. It does not mention an on-site kitchen or bar, so it is unclear if outside food or drinks are permitted."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "While not explicitly stated, a typical 18-hole round on a simulator generally takes between 2-3 hours. This can vary based on simulator software and player pace."
+    },
+    {
+      "question": "Is The Gilly kid-friendly?",
+      "answer": "The website does not explicitly mention child-specific programs or facilities, but its welcoming atmosphere and programs for all skill levels suggest it could be suitable for families. However, the lack of specific information makes it unclear if it is designed with children in mind."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

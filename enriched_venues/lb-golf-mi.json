@@ -1,0 +1,91 @@
+{
+  "name": "LB Golf MI",
+  "address": "4386 14 Mile Rd NE, Rockford, MI 49341",
+  "city": "Rockford",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 43.175576,
+  "longitude": -85.562127,
+  "phone": "+16163261585",
+  "website": "https://www.lbgolfmi.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770225640/golf_simulators/www_lbgolfmi_com_ChIJO85yhHf9GIgRBIQn5rS6bHA.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/LB+Golf+MI/@43.1755765,-85.5621269,14z/data=!4m8!1m2!2m1!1sLB+Golf+MI!3m4!1s0x8818fd778472ce3b:0x706cbab4e6278404!8m2!3d43.1755765!4d-85.5621269",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJO85yhHf9GIgRBIQn5rS6bHA",
+  "email": "info@lbgolfmi.com.",
+  "venue_type": "sim_bar|training_studio|private_rental|retail_fitting_center|country_club|multi_sport_sim|hotel_resort|other",
+  "about": "LB Golf MI is a golf simulator venue in Rockford offering year-round access to indoor play. The facility utilizes AboutGolf technology with three simulators and provides a range of options from casual open play to organized leagues and private events. Pricing is structured by hour with specific winter rates and membership options available for frequent players. The venue emphasizes community and convenience, designed for golfers seeking an immersive experience regardless of weather.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|budget_friendly|private_rooms|club_rentals|late_night|community_club",
+  "vibe_tags": "casual|welcoming|modern|community_club",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Offers over 85 golf courses including Pebble Beach and St. Andrews",
+    "Allows up to four players per simulator",
+    "Provides flexible booking through CourtReserve",
+    "Features gimme range and 'No Putt' options for customization",
+    "Welcomes BYOB food and drinks for a relaxed experience"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Guests can bring their own food; no food is provided by the venue. Guests are expected to clean up after themselves."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Guests can bring their own drinks; no alcohol is provided by the venue."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "AboutGolf",
+      "model": "unknown",
+      "notes": "Venue uses AboutGolf technology for its simulators. Special golf balls are provided in each bay."
+    }
+  ],
+  "simulator_software": [
+    "AboutGolf"
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "gimme_circle",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://app.courtreserve.com/Online/Reservations/Index/15729",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 25,
+  "price_range_max_local": 50,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|private_party_room|lockers|wifi|pro_shop|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own golf clubs?",
+      "answer": "Yes. Clubs are not provided with a reservation. Each player is responsible for bringing their own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes! Guests are welcome to bring their own food and drinks. It is requested that you be respectful of others by throwing away your trash and leaving the simulator as you found it."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The venue does not specify an exact time for a full 18-hole round, as it depends on the simulator software and player choice. However, a standard booking is by the hour."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, children are welcome. However, you are responsible for their safety and must supervise them at all times. Anyone under 18 must be accompanied by a guardian."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

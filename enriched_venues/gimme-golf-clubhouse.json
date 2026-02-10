@@ -1,0 +1,92 @@
+{
+  "name": "Gimme Golf Clubhouse",
+  "address": "425 Clark St, St Charles, MO 63301",
+  "city": "St Charles",
+  "region": "Missouri",
+  "country": "US",
+  "latitude": 38.786077,
+  "longitude": -90.484192,
+  "phone": "+13147845828",
+  "website": "http://www.gimmegolfclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770205325/golf_simulators/www_gimmegolfclub_com_ChIJcea2k3Mv34cRUlWW3RkUsao.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Gimme+Golf+Clubhouse/@38.7860769,-90.48419229999999,14z/data=!4m8!1m2!2m1!1sGimme+Golf+Clubhouse!3m4!1s0x87df2f7393b6e671:0xaab11419dd965552!8m2!3d38.7860769!4d-90.48419229999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJcea2k3Mv34cRUlWW3RkUsao",
+  "email": "info@gimmegolfclub.com",
+  "venue_type": "sim_bar",
+  "about": "The Gimme Golf Club is a community-focused golf simulator venue with two clubhouses in the St. Louis area. The facilities feature 6 Trackman simulators, 250 sqft of putting green space, a pub, a lounge, a barbershop, and a gym. Memberships provide access to 16 partner courses in the Greater St. Louis Region for free or a small fee, along with a full suite of indoor and outdoor golf activities. The venue operates with a 'club for everyone' philosophy, aiming to be an inclusive hub for golfers of all skill levels to practice, compete, and connect.",
+  "tags": "food_and_drinks|leagues|community_club|beginner_friendly|corporate_events|serious_golfers|coaching_available|club_rentals|tv_sports|private_rooms",
+  "vibe_tags": "community_club|sports_bar|modern|welcoming",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Access to a network of 16 local golf courses with free or low-fee play for members",
+    "A full clubhouse experience including Trackman simulators, putting green, bar, and social lounge",
+    "A strong community focus with leagues, tournaments, and events for golfers of all skill levels"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Pub and kitchen available in the clubhouse."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar available in the clubhouse."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Premium radar launch monitor technology with both ball and club tracking."
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": 6,
+  "booking_url": "http://www.gimmegolfclub.com/",
+  "pricing_model": "membership_only",
+  "price_range_min_local": 0,
+  "price_range_max_local": 40,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|kitchen_food|tv_sports|private_party_room|club_rentals|leagues|pro_shop|gym|barbershop",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you will need to bring your own clubs to play both on the simulators and at the partner golf courses."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "The clubhouse has a full bar and kitchen available for food and drink service. The venue does not mention a BYOB policy."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Playing 18 holes on the simulator typically takes around 1-2 hours, depending on the pace of play and your group size."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the Gimme Golf Club is inclusive and welcomes families with children, making it a kid-friendly environment for learning and playing golf."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": null
+}

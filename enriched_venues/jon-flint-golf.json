@@ -1,0 +1,95 @@
+{
+  "name": "Jon Flint Golf",
+  "address": "250 Babylon Rd, Horsham, PA 19044",
+  "city": "Horsham",
+  "region": "Pennsylvania",
+  "country": "US",
+  "latitude": 40.206279,
+  "longitude": -75.162532,
+  "phone": "+12673178864",
+  "website": "https://jonflintgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770225183/golf_simulators/jonflintgolf_com_ChIJV3byuIalxokRule9YDSsNvg.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Jon+Flint+Golf/@40.2062792,-75.1625316,14z/data=!4m8!1m2!2m1!1sJon+Flint+Golf!3m4!1s0x89c6a586b8f27657:0xf836ac3460bd57ba!8m2!3d40.2062792!4d-75.1625316",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJV3byuIalxokRule9YDSsNvg",
+  "email": "jflintgolf@gmail.com",
+  "venue_type": "training_studio",
+  "about": "Jon Flint Golf offers elite golf instruction and coaching in Montgomery County, PA. As the Director of Instruction at Commonwealth National Golf Club, Jon Flint combines advanced technology, biomechanics, and personalized coaching to help players of all ages and skill levels unlock their potential. The facility utilizes a comprehensive approach blending technical instruction with mental strategies, focusing on impactful changes to drive real improvement on the course. Lessons are conducted using cutting-edge technology including TrackMan 4 launch monitors, Swing Catalyst force plates, and Jacobs 3D biomechanics analysis to deliver data-driven coaching that gets results.",
+  "tags": "beginner_friendly|serious_practice|coaching_available|premium_tech|juniors_youth|private_rooms",
+  "vibe_tags": "tech_lab|community_club|modern",
+  "who_its_for": "beginners|serious_golfers|juniors_youth|solo_practice",
+  "why_golfers_like_it": [
+    "Personalized coaching based on individual biomechanics and goals",
+    "Advanced technology including TrackMan 4 and Swing Catalyst force plates",
+    "Comprehensive video analysis with digital recaps for at-home reference",
+    "On-course instruction available to enhance strategic understanding",
+    "Holistic development approach combining swing mechanics with mental strategies"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No on-site food service mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "Professional launch monitor used for swing analysis and ball tracking"
+    },
+    {
+      "brand": "Swing Catalyst",
+      "notes": "Force plate technology for measuring weight distribution and pressure shifts during swing"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://jflintgolflessons.as.me/",
+  "pricing_model": "per_person_hour",
+  "price_range_min_local": 125,
+  "price_range_max_local": 150,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|tv_sports|pro_shop|club_fitting",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need clubs?",
+      "answer": "Yes, you should bring your own golf clubs for lessons. The facility uses TrackMan and other technology to analyze your swing with your own equipment."
+    },
+    {
+      "question": "Can I bring food or drink?",
+      "answer": "No outside food or drink is mentioned as being allowed. The facility appears to focus on instruction without on-site dining options."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The facility does not offer traditional 18-hole simulator play. Lessons and practice sessions are typically 1-2 hours depending on the package selected."
+    },
+    {
+      "question": "Is it kid-friendly?",
+      "answer": "Yes, Jon Flint Golf offers specialized Elite Junior Coaching programs for youth golfers, making it suitable for junior players of all skill levels."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"12-7PM\"], \"Wednesday\": [\"10AM-7PM\"], \"Thursday\": [\"10AM-7PM\"], \"Friday\": [\"9AM-4PM\"], \"Saturday\": [\"Closed\"], \"Sunday\": [\"9AM-3PM\"]}"
+}

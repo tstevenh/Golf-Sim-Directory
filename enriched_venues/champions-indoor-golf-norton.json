@@ -1,0 +1,90 @@
+{
+  "name": "Champions Indoor Golf - Norton",
+  "address": "253 Mansfield Ave Unit 1, Norton, MA 02766",
+  "city": "Norton",
+  "region": "Massachusetts",
+  "country": "US",
+  "latitude": 41.991718,
+  "longitude": -71.209523,
+  "phone": "+15086221013",
+  "website": "https://championsindoor.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770199894/golf_simulators/championsindoor_com_ChIJiQYaQCFh5IkRE6j7jW3KsCM.png",
+  "google_maps_url": "https://www.google.com/maps/place/Champions+Indoor+Golf+-+Norton/@41.9917175,-71.2095226,14z/data=!4m8!1m2!2m1!1sChampions+Indoor+Golf+-+Norton!3m4!1s0x89e46121401a0689:0x23b0ca6d8dfba813!8m2!3d41.9917175!4d-71.2095226",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJiQYaQCFh5IkRE6j7jW3KsCM",
+  "email": "contact@championsindoor.com",
+  "venue_type": "multi_sport_sim",
+  "about": "Champions Indoor Golf operates a network of simulator venues across Massachusetts, offering golfers the opportunity to play on world's top courses in a climate-controlled environment. The facilities feature immersive simulator bays equipped with launch monitor technology, allowing for year-round practice, play, and competition. Venues offer a range of services including hourly bay rentals, private lessons, club fittings, and participation in organized leagues and tournaments.",
+  "tags": "beginner_friendly|corporate_events|leagues|premium_tech|coaching_available|club_rentals",
+  "vibe_tags": "community_club|tech_lab|modern",
+  "who_its_for": "beginners|serious_golfers|corporate_teams|families|solo_practice",
+  "why_golfers_like_it": [
+    "Access to a wide variety of world-class golf courses via simulation technology",
+    "Ability to practice and play golf year-round regardless of weather conditions",
+    "Opportunities to join competitive leagues like the Champions Cup"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned on website"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned on website"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "unknown",
+      "notes": "Premium launch monitor technology used for accurate ball and club tracking"
+    }
+  ],
+  "simulator_software": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.championsindoor.com/norton-booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|leagues|club_fitting|coaching_available",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you will need to bring your own golf clubs to use the simulators."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No outside food or drinks are permitted at Champions Indoor Golf locations."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "18 holes on a simulator typically takes approximately 2-3 hours, depending on pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is kid-friendly and offers a welcoming environment for families and junior golfers."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-10PM\"], \"Saturday\": [\"10AM-10PM\"], \"Sunday\": [\"10AM-9PM\"]}"
+}

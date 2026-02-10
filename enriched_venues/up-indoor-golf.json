@@ -1,0 +1,92 @@
+{
+  "name": "UP Indoor Golf",
+  "address": "1665 Commerce Dr, Marquette, MI 49855",
+  "city": "Marquette",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 46.557729,
+  "longitude": -87.456879,
+  "phone": "+19063612261",
+  "website": "https://www.up-indoorgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770213534/golf_simulators/www_up-indoorgolf_com_ChIJLazTWrTfUU0Rq45nlE2w8gM.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/UP+Indoor+Golf/@46.5577289,-87.45687939999999,14z/data=!4m8!1m2!2m1!1sUP+Indoor+Golf!3m4!1s0x4d51dfb45ad3ac2d:0x3f2b04d94678eab!8m2!3d46.5577289!4d-87.45687939999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJLazTWrTfUU0Rq45nlE2w8gM",
+  "email": "info@up-indoorgolf.com",
+  "venue_type": "multi_sport_sim",
+  "about": "U.P. Indoor Golf provides year-round access to golf simulation technology in Marquette, MI, using two state-of-the-art simulators to overcome the region's challenging weather. The venue caters to all skill levels, offering opportunities for practice, entertainment, and private events, with additional multisport packages including activities like hockey, soccer, and zombie dodgeball. Membership programs provide discounts on simulator rentals, apparel, and non-alcoholic snacks and drinks, with options to deposit funds into a personal house account for future use.",
+  "tags": "beginner_friendly|food_and_drinks|family_friendly|corporate_events|private_rooms|kids_friendly|premium_tech|budget_friendly",
+  "vibe_tags": "family_fun_center|tech_lab|community_club",
+  "who_its_for": "beginners|families|corporate_teams|solo_practice|juniors_youth",
+  "why_golfers_like_it": [
+    "Advanced Foresight GC Hawk technology for accurate shot tracking",
+    "Year-round access to golf regardless of weather conditions",
+    "Lefty-friendly simulators requiring no equipment adjustments",
+    "Private event space available outside normal business hours",
+    "Multisport options for entertainment beyond golf"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Snacks and non-alcoholic drinks available for purchase"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": "GC Hawk",
+      "notes": "Ceiling-mounted solution with high-speed cameras and infrared sensor array"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "infrared_optical",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://apimanager-cc29.clubcaddie.com/activities/view/fgfdabab",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|private_party_room|food_and_drinks",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, you can rent clubs from U.P. Indoor Golf or bring your own set."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drinks are not mentioned as an option. Snacks and non-alcoholic beverages are available for purchase at the venue."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "The website does not specify the time required to play 18 holes. It's recommended to call or book online to determine appropriate tee times for your group."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, U.P. Indoor Golf welcomes kids, with mentions of 'don't forget the kids' and multisport options suitable for younger players."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"9AM-8PM\"], \"Tuesday\": [\"9AM-8PM\"], \"Wednesday\": [\"9AM-8PM\"], \"Thursday\": [\"9AM-8PM\"], \"Friday\": [\"9AM-10PM\"], \"Saturday\": [\"10AM-10PM\"], \"Sunday\": [\"10AM-8PM\"]}"
+}

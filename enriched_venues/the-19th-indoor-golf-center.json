@@ -1,0 +1,91 @@
+{
+  "name": "The 19th Indoor Golf Center",
+  "address": "27741 Crown Valley Pkwy #305, Mission Viejo, CA 92691",
+  "city": "Mission Viejo",
+  "region": "California",
+  "country": "US",
+  "latitude": 33.560976,
+  "longitude": -117.671428,
+  "phone": "+17142486392",
+  "website": "https://www.19th.online/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770244127/golf_simulators/www_19th_online_ChIJP1DF1BTv3IARH1fxhuQ5g18.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+19th+Indoor+Golf+Center/@33.5609757,-117.6714281,14z/data=!4m8!1m2!2m1!1sThe+19th+Indoor+Golf+Center!3m4!1s0x80dcef14d4c5503f:0x5f8339e486f1571f!8m2!3d33.5609757!4d-117.6714281",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJP1DF1BTv3IARH1fxhuQ5g18",
+  "email": "info@whackitgolf.com",
+  "venue_type": "sim_bar|training_studio|private_rental|retail_fitting_center|country_club|multi_sport_sim|hotel_resort|other",
+  "about": "The 19th Indoor Golf Center is a golf simulator venue in Mission Viejo, CA, offering 24/7 access to two simulator bays. The facility provides a private, climate-controlled environment for playing world-class golf courses, with a focus on technology and analytics. Membership is the primary access model, with options for individuals, families, and corporate groups, providing unlimited play and practice without hourly fees. The venue is designed to be a premium golfing escape with comfortable lounge seating and a welcoming atmosphere for golfers of all skill levels.",
+  "tags": "beginner_friendly|corporate_events|leagues|premium_tech|budget_friendly|private_rooms|club_rentals|coaching_available|serious_golfers|solo_practice",
+  "vibe_tags": "private_luxury|tech_lab|community_club|casual|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "24/7 unlimited access to premium simulator technology",
+    "Advanced swing data and analytics to track progress like a pro",
+    "Private, climate-controlled environment for year-round comfort",
+    "Variety of membership options tailored to different needs",
+    "Opportunity to participate in leagues, tournaments, and events"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of food service on site."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service on site; BYOB policy not specified."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "GSPro",
+      "model": "unknown",
+      "notes": "Bay technology described as 'industry-leading technology for precise ball tracking and realistic course play with GSPro'."
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://book.squareup.com/appointments/5d4fvm9fvolm66/location/LJDB686ZRF0DE/services",
+  "pricing_model": "membership_only",
+  "price_range_min_local": 100,
+  "price_range_max_local": 799,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|private_party_room|leagues|coaching_available|wifi|lounge_seating",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify club rental options. It is recommended that members bring their own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "The website does not specify a policy regarding outside food and drink. Contact the venue directly for details."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "On average, you can expect to take 45 minutes to an hour to play 18 holes on a golf simulator."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue offers junior discounts on lessons and family-friendly events, making it suitable for families with children."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"10AM-6PM\"], \"Wednesday\": [\"10AM-6PM\"], \"Thursday\": [\"10AM-6PM\"], \"Friday\": [\"10AM-8PM\"], \"Saturday\": [\"12-8PM\"], \"Sunday\": [\"9AM-3PM\"]}"
+}

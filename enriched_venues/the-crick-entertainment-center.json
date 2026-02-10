@@ -1,0 +1,82 @@
+{
+  "name": "The Crick Entertainment Center",
+  "address": "211 Carpenter Rd, Defiance, OH 43512",
+  "city": "Defiance",
+  "region": "Ohio",
+  "country": "US",
+  "latitude": 41.29281,
+  "longitude": -84.339573,
+  "phone": "+14195765822",
+  "website": "https://www.thecompounddefiance.com/score/the-crick",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770233009/golf_simulators/www_thecompounddefiance_com_ChIJef8XQcTTPYgRvDhdmVTBQMI.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Crick+Entertainment+Center/@41.2928104,-84.33957339999999,14z/data=!4m8!1m2!2m1!1sThe+Crick+Entertainment+Center!3m4!1s0x883dd3c44117ff79:0xc240c154995d38bc!8m2!3d41.2928104!4d-84.33957339999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJef8XQcTTPYgRvDhdmVTBQMI",
+  "venue_type": "sim_bar",
+  "about": "The Crick Entertainment Center is a multifaceted entertainment venue featuring a golf simulator alongside other activities like arcade games and duckpin bowling. It offers a casual and modern environment for golfers to practice, play, and socialize. Guests can perfect their swing and enjoy friendly competition in a realistic virtual golfing adventure, rain or shine, while also accessing a full-service bar and other entertainment options.",
+  "tags": "food_and_drinks|beginner_friendly|date_night|family_fun_center|corporate_events|kids_friendly|private_rooms|party_atmosphere|community_club|retro_gaming",
+  "vibe_tags": "sports_bar|family_fun_center|party_atmosphere|tech_lab|community_club|modern",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Realistic virtual golfing experience available rain or shine",
+    "Combination of high-quality tech with a lively social atmosphere",
+    "Convenient location within a larger entertainment complex"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen available, including items like pizzas, burgers, and a kids sundae bar. Kids Eat Free programs are offered."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full-service bar offering handcrafted cocktails, craft beers, and wine."
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": "unknown",
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "https://booking.trackmangolf.com/venues/crick-entertainment-center/booking/bays",
+  "pricing_model": "per_bay_hour|per_person_hour|package",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "full_bar|kitchen_food|tv_sports|private_party_room|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The provided information does not specify whether clubs are provided. It is recommended to contact The Crick directly to confirm club availability."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue has a full-service bar and kitchen, so outside food and drink policies are not specified. It's best to check with them directly."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not provide a specific time estimate for an 18-hole round. Duration will depend on the software used and the pace of play."
+    },
+    {
+      "question": "Is it kid-friendly?",
+      "answer": "Yes, The Crick is explicitly described as kid-friendly and offers activities like an arcade, a kids sundae bar, and a kids eat free program, making it suitable for family outings."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"Closed\"], \"Wednesday\": [\"3-10PM\"], \"Thursday\": [\"3-10PM\"], \"Friday\": [\"2PM-12AM\"], \"Saturday\": [\"11AM-12AM\"], \"Sunday\": [\"11AM-9PM\"]}"
+}

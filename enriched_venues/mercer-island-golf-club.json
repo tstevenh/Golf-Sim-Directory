@@ -1,0 +1,96 @@
+{
+  "name": "Mercer Island Golf Club",
+  "address": "2448 76th Ave SE #100, Mercer Island, WA 98040",
+  "city": "Mercer Island",
+  "region": "Washington",
+  "country": "US",
+  "latitude": 47.587784,
+  "longitude": -122.237515,
+  "phone": "+11591975915",
+  "website": "http://www.mercerislandgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770230204/golf_simulators/www_mercerislandgolf_com_ChIJF8p-mrNrkFQR-IMDZ8Dv6TU.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Mercer+Island+Golf+Club/@47.5877839,-122.23751539999999,14z/data=!4m8!1m2!2m1!1sMercer+Island+Golf+Club!3m4!1s0x54906bb39a7eca17:0x35e9efc0670383f8!8m2!3d47.5877839!4d-122.23751539999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJF8p-mrNrkFQR-IMDZ8Dv6TU",
+  "email": "info@mercerislandgolf.com",
+  "venue_type": "private_rental",
+  "about": "The Mercer Island Golf Club is a private indoor golf center located in downtown Mercer Island. It operates on a membership-only basis, allowing members to reserve up to 2 hours per day, 365 days per year. The facility is designed to provide an uncrowded golfing experience with limited membership ensuring availability and privacy. Members can enjoy access to advanced golf simulator technology in a dedicated, private setting.",
+  "tags": "serious_practice|private_rooms|coaching_available|beginner_friendly|juniors_youth|corporate_events",
+  "vibe_tags": "private_luxury|community_club|modern",
+  "who_its_for": "serious_golfers|families|corporate_teams|solo_practice|coaches_instructors",
+  "why_golfers_like_it": [
+    "Premium Trackman and Foresight GC Hawk simulator technology",
+    "Guaranteed 2-hour daily reservations, 365 days a year",
+    "Limited membership ensures no overcrowding and privacy",
+    "Convenient downtown Mercer Island location with free parking"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of on-site food service"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "Indoor Golf Simulator",
+      "notes": "Premium radar-based launch monitor for accurate ball tracking"
+    },
+    {
+      "brand": "Foresight",
+      "model": "GC Hawk Simulator",
+      "notes": "High-quality photometric camera-based simulator"
+    }
+  ],
+  "simulator_software": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://www.mercerislandgolf.com/schedule-your-tour",
+  "pricing_model": "membership_only",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": false,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|kitchen_food|pro_shop|club_fitting|leagues|ada_accessible|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "While not explicitly stated, members are typically expected to provide their own clubs for use with the simulators."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The website does not mention policies on outside food and drinks, so it's recommended to contact the venue directly for clarification."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The standard 2-hour reservation time suggests that 18 holes can typically be completed within this timeframe, though actual time may vary depending on simulator software and player pace."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue offers golf lessons and appears to accommodate juniors and youth, making it kid-friendly."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"4AM-12AM\"], \"Tuesday\": [\"4AM-12AM\"], \"Wednesday\": [\"4AM-12AM\"], \"Thursday\": [\"4AM-12AM\"], \"Friday\": [\"4AM-12AM\"], \"Saturday\": [\"4AM-12AM\"], \"Sunday\": [\"4AM-12AM\"]}"
+}

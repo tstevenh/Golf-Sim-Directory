@@ -1,0 +1,91 @@
+{
+  "name": "Trackman at Beacon Hill",
+  "address": "6011 Majestic Oaks Dr, Commerce Township, MI 48382",
+  "city": "Commerce Township",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 42.60838,
+  "longitude": -83.532566,
+  "phone": "+12486842200",
+  "website": "https://www.beaconhillgolf.com/indoor-golf/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770203091/golf_simulators/www_beaconhillgolf_com_ChIJrbN3LSChJIgRHv19G3v5RYo.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Trackman+at+Beacon+Hill/@42.6083804,-83.5325656,14z/data=!4m8!1m2!2m1!1sTrackman+at+Beacon+Hill!3m4!1s0x8824a1202d77b3ad:0x8a45f97b1b7dfd1e!8m2!3d42.6083804!4d-83.5325656",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJrbN3LSChJIgRHv19G3v5RYo",
+  "email": "Beaconhillgolf@gmail.com",
+  "venue_type": "sim_bar",
+  "about": "Trackman at Beacon Hill is an indoor golf simulator facility located in Commerce Township, MI. It features 4 bays equipped with TrackMan iO technology, providing an immersive and accurate simulation of real golfing conditions. The venue offers hourly simulator rentals, allowing guests to practice, compete, and play world-renowned courses. A full-service bar and grill are available on-site, serving tap and bottled beer, cocktails, and light snacks daily, with a kitchen open Monday-Thursday. The facility also hosts fall/winter golf simulator leagues and is available for private parties and group events.",
+  "tags": "food_and_drinks|leagues|corporate_events|private_rooms|club_rentals|beginner_friendly|date_night|family_friendly|premium_tech",
+  "vibe_tags": "casual|welcoming|modern|sports_bar|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "High-end TrackMan iO technology for accurate ball and club tracking",
+    "Flexible booking options with reservation and walk-in availability",
+    "Variety of on-site food and beverage options for a complete experience",
+    "Ability to play world-renowned golf courses from a comfortable indoor setting"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Light snacks available all day, kitchen open Monday-Thursday 4pm-9pm, additional food options for groups of 16 or more"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full-service bar with tap and bottled beer plus cocktails available all day, every day"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "4 bays equipped with TrackMan iO technology"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 4,
+  "booking_url": "https://yourgolfbooking.com/venues/beacon-hill-golf-club/booking/bays",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 35,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|kitchen_food|tv_sports|private_party_room|wifi|pro_shop|leagues|club_rentals",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify, but it is standard practice at simulator venues that guests bring their own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, the venue offers a full-service bar and grill with tap and bottled beer, cocktails, and light snacks available all day."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "The website does not specify, but typical simulator play allows for faster rounds than on-course golf, often taking 1.5-2 hours depending on pace."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "Yes, the facility allows up to 6 guests per simulator and mentions accommodating families, with food options available for various group sizes."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"9AM-10PM\"], \"Saturday\": [\"9AM-10PM\"], \"Sunday\": [\"9AM-6PM\"]}"
+}

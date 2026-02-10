@@ -1,0 +1,91 @@
+{
+  "name": "Smooth Swings",
+  "address": "110 Gage Blvd #203, Richland, WA 99352",
+  "city": "Richland",
+  "region": "Washington",
+  "country": "US",
+  "latitude": 46.227678,
+  "longitude": -119.249661,
+  "phone": "+15095722044",
+  "website": "https://www.smoothswings.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770232289/golf_simulators/www_smoothswings_com_ChIJNZbdmK57mFQRvmTcYd9Uhgo.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Smooth+Swings/@46.2276783,-119.2496613,14z/data=!4m8!1m2!2m1!1sSmooth+Swings!3m4!1s0x54987bae98dd9635:0xa8654df61dc64be!8m2!3d46.2276783!4d-119.2496613",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJNZbdmK57mFQRvmTcYd9Uhgo",
+  "email": "kyle@smoothswings.com",
+  "venue_type": "sim_bar",
+  "about": "Smooth Swings is an indoor golf simulator venue in Richland, WA, offering a realistic and immersive golfing experience year-round. They feature 4 premium TrackMan simulators that provide highly accurate data on every aspect of a swing and ball flight. The venue offers a range of services including food and drink options, golf lessons, club repair and fittings, and event hosting for parties, corporate gatherings, and leagues. Bay rentals can accommodate up to 6 players, with hourly rates and package deals available, making it suitable for both casual play and serious practice sessions.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|family_friendly|coaching_available|club_rentals|private_rooms|date_night",
+  "vibe_tags": "casual|welcoming|modern|sports_bar|family_fun_center|tech_lab",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams|solo_practice|juniors_youth",
+  "why_golfers_like_it": [
+    "Premium TrackMan technology provides unparalleled accuracy and detailed swing analytics",
+    "No weather disruptions, allowing for a realistic golfing experience year-round",
+    "Vast selection of over 300+ world-renowned golf courses to play on",
+    "Comprehensive amenities including food, drink, and personalized coaching options",
+    "Flexible booking system available online and by phone, with up to 7-day advance booking"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Pizza with fresh house-made dough, and a selection of food available"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "A selection of beer and wine available"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "4 Premium TrackMan Simulators using advanced radar and camera technology"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 4,
+  "booking_url": "https://yourgolfbooking.com/venues/smooth-swings/booking/bays",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 55,
+  "price_range_max_local": 55,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|leagues|pro_shop|club_fitting",
+  "rating_tech_quality": 4.7,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, rental clubs are available for $20."
+    },
+    {
+      "question": "Can I bring my own food or drink?",
+      "answer": "No, the venue offers its own food and drink options including pizza, beer, and wine made in-house."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time required to play 18 holes is not specified on the website."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Smooth Swings offers golf lessons for all ages and levels, making it suitable for juniors and youth."
+    }
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-10PM\"], \"Saturday\": [\"10AM-10PM\"], \"Sunday\": [\"10AM-10PM\"]}"
+}

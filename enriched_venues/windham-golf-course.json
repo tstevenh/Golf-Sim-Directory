@@ -1,0 +1,90 @@
+{
+  "name": "Windham Golf Course",
+  "address": "184 Club Rd, North Windham, CT 06256",
+  "city": "North Windham",
+  "region": "Connecticut",
+  "country": "US",
+  "latitude": 41.726081,
+  "longitude": -72.186525,
+  "phone": "+18604561971",
+  "website": "https://www.windhamgc.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770209316/golf_simulators/www_windhamgc_com_ChIJ560vsQdj5okRM_q3hp8crQA.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Windham+Golf+Course/@41.7260809,-72.18652469999999,14z/data=!4m8!1m2!2m1!1sWindham+Golf+Course!3m4!1s0x89e66307b12fade7:0xad1c9f86b7fa33!8m2!3d41.7260809!4d-72.18652469999999",
+  "google_rating": 4.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ560vsQdj5okRM_q3hp8crQA",
+  "email": "inquiries@windhamgc.com",
+  "venue_type": "sim_bar",
+  "about": "Windham Golf Course offers both traditional golf and high-tech simulation experiences. The facility features an 18-hole golf course with a vintage 1922 design and Trackman indoor golf simulators that use dual-radar technology for accurate ball tracking and swing data. The venue includes dining options at Fairways Bar & Grill and hosts events such as weddings, banquets, and tournaments. The simulators are available year-round, allowing play regardless of weather conditions.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|family_friendly|coaching_available|date_night|outings_tournaments",
+  "vibe_tags": "casual|welcoming|modern|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Year-round simulator access with Trackman's dual-radar technology",
+    "On-site dining with outdoor deck views",
+    "Variety of events including leagues and tournaments"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen service at Fairways Bar & Grill with creative pub fare"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service available"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Dual-radar technology for ultra-accurate ball and club tracking"
+    }
+  ],
+  "simulator_software": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.windhamgc.com/trackman-simulators/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|lockers|wifi|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.2,
+  "rating_facility_comfort": 4.1,
+  "rating_value_for_money": 4.1,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "The website doesn't specify whether clubs are provided, so it's recommended to bring your own set for the best experience."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue offers food service at Fairways Bar & Grill but doesn't mention a policy on outside food or drinks."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website doesn't provide specific timing information for simulator rounds."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Windham Golf Course appears to be family-friendly with mentions of family events and a welcoming atmosphere."
+    }
+  ],
+  "rating_overall": 4.1,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"10AM-8PM\"], \"Wednesday\": [\"10AM-8PM\"], \"Thursday\": [\"10AM-8PM\"], \"Friday\": [\"10AM-8PM\"], \"Saturday\": [\"9AM-8PM\"], \"Sunday\": [\"9AM-6PM\"]}"
+}

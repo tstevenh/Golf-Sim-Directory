@@ -1,0 +1,82 @@
+{
+  "name": "The Player's Club",
+  "address": "1626 Main St STE 300, Columbia, SC 29201",
+  "city": "Columbia",
+  "region": "South Carolina",
+  "country": "US",
+  "latitude": 34.00747,
+  "longitude": -81.035862,
+  "phone": "+18036087692",
+  "website": "https://playersclubsc.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770229987/golf_simulators/playersclubsc_com_ChIJD2HUS2Gl-IgROEAqD3IiN60.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Player%27s+Club/@34.0074699,-81.03586229999999,14z/data=!4m8!1m2!2m1!1sThe+Player%27s+Club!3m4!1s0x88f8a5614bd4610f:0xad3722720f2a4038!8m2!3d34.0074699!4d-81.03586229999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJD2HUS2Gl-IgROEAqD3IiN60",
+  "venue_type": "sim_bar",
+  "about": "The Player's Club is an exclusive indoor golf venue offering a premier golf experience in a comfortable, private setting. The facility provides amenities for members of all skill levels to grow their game, with a focus on exceptional play and exclusive networking opportunities. The venue operates with a full bar and lounge, and hosts private events to foster connections and social engagement among its members. They accept non-member play on an hourly basis at their 4th-floor academy space, making it available for large parties and small group outings by inquiry.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|private_rooms|coaching_available|premium_tech|club_rentals",
+  "vibe_tags": "private_luxury|upscale_lounge|sports_bar|community_club",
+  "who_its_for": "beginners|serious_golfers|corporate_teams|large_groups",
+  "why_golfers_like_it": [
+    "Luxurious, private setting for skill development and networking",
+    "Full bar and lounge on both floors with happy hour specials",
+    "Availability for corporate events and private parties"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "Not explicitly mentioned, but private events may be accommodated."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar and lounge available, with happy hour specials."
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": "unknown",
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "https://playersclubsc.com/contact-us",
+  "pricing_model": "mixed",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "full_bar|private_party_room|club_rentals|coaching_available",
+  "rating_tech_quality": 4.0,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 3.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "It is not explicitly stated on the website, but it is recommended to bring your own clubs for the best simulation experience."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "The venue offers a full bar and lounge, suggesting external food and drink may not be permitted. Guests should inquire directly for their specific policy."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify the time required to play 18 holes. The duration will depend on simulator speed and group size."
+    },
+    {
+      "question": "Is it kid-friendly?",
+      "answer": "No, the venue's description focuses on an exclusive, adult-oriented atmosphere with a bar and networking events, indicating it is not particularly suited for children."
+    }
+  ],
+  "rating_overall": 4.0,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-10PM\"], \"Saturday\": [\"10AM-10PM\"], \"Sunday\": [\"10AM-10PM\"]}"
+}

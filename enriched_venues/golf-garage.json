@@ -1,0 +1,90 @@
+{
+  "name": "Golf Garage",
+  "address": "3336 Grove Rd Suite A, Phoenix, OR 97535",
+  "city": "Phoenix",
+  "region": "Oregon",
+  "country": "US",
+  "latitude": 42.284574,
+  "longitude": -122.816151,
+  "phone": "+15418979982",
+  "website": "https://www.golfgarageoregon.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770219904/golf_simulators/www_golfgarageoregon_com_ChIJsYmMVgBxz1QRWjaJbHZrM-4.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Golf+Garage/@42.284574,-122.81615099999999,14z/data=!4m8!1m2!2m1!1sGolf+Garage!3m4!1s0x54cf7100568c89b1:0xee336b766c89365a!8m2!3d42.284574!4d-122.81615099999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJsYmMVgBxz1QRWjaJbHZrM-4",
+  "email": "contact@golfgarageoregon.com",
+  "venue_type": "sim_bar|training_studio",
+  "about": "Golf Garage is an indoor golf facility in Oregon featuring Foresight Falcon simulators, PGA coaching, and memberships for all skill levels. The facility offers a community-focused environment with tech-equipped bays, a putting simulator, a fitness center, and on-site dining. It is open to the public and provides services including lessons, club fitting, and event hosting.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|coaching_available|kids_friendly|club_rentals",
+  "vibe_tags": "community_club|tech_lab|casual|welcoming",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "Advanced Foresight Falcon simulators with access to 40+ global courses",
+    "Tour-level club fitting services using swing and ball flight data analysis",
+    "Comprehensive amenities including fitness center, kids lounge, and on-site pub"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "On-site food and beverages available at Birdie's Pub"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "On-site food and beverages available at Birdie's Pub"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": "Falcon",
+      "notes": "10 bays available; delivers ball and club performance data"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 10,
+  "booking_url": "https://clients.uschedule.com/westcoastga/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|kitchen_food|tv_sports|private_party_room|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.5,
+  "rating_value_for_money": 4.2,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, club rentals are available, though you are welcome to bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, outside food and drinks are not allowed. The venue offers on-site food and beverages at Birdie's Pub."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "18 holes typically take about 2-3 hours depending on simulator availability and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue features a Kids Lounge with games and activities and offers family memberships."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.5,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

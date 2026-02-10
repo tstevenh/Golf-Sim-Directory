@@ -1,0 +1,89 @@
+{
+  "name": "Five Iron Golf",
+  "address": "27 E Allen St, Philadelphia, PA 19123",
+  "city": "Philadelphia",
+  "region": "Pennsylvania",
+  "country": "US",
+  "latitude": 39.965762,
+  "longitude": -75.135332,
+  "phone": "+18005135153",
+  "website": "https://fiveirongolf.com/locations/philadelphia-fishtown/%3Futm_source%3Dlocal%26utm_medium%3Dorganic%26utm_campaign%3Dpa%26utm_content%3Dphiladelphia-fishtown",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770201486/golf_simulators/fiveirongolf_com_ChIJ76ir7OXJxokRpYEKIfX5gdI.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Five+Iron+Golf/@39.965762399999996,-75.13533149999999,14z/data=!4m8!1m2!2m1!1sFive+Iron+Golf!3m4!1s0x89c6c9e5ecaba8ef:0xd281f9f5210a81a5!8m2!3d39.965762399999996!4d-75.13533149999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ76ir7OXJxokRpYEKIfX5gdI",
+  "email": "fishtown@fiveirongolf.com",
+  "venue_type": "sim_bar",
+  "about": "Five Iron Golf Philadelphia in Fishtown is an all-in-one golf simulator and sports bar experience. The venue combines high-tech indoor golf with a full-service bar and dining, offering a no-dress-code environment accessible to players of all skill levels. Outfitted with state-of-the-art Trackman technology and access to over 200 virtual courses, including PGA Tour venues like Pebble Beach, it provides options ranging from serious practice sessions to casual gameplay and social events. Membership is available for frequent players, offering free daily access and discounts on services and food.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|leagues|premium_tech|coaching_available|date_night|late_night",
+  "vibe_tags": "casual|welcoming|modern|sports_bar",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|large_groups",
+  "why_golfers_like_it": [
+    "Industry-leading Trackman technology provides accurate, actionable swing data",
+    "Access to over 200 world-class virtual courses, including famous PGA Tour venues",
+    "All-in-one venue combining golf practice with a full-service bar and chef-inspired dining menu"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Chef-inspired menu with daily-made food; boneless/bone-in wings, pizzas, appetizers, and breakfast items"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full-service bar with drink packages, happy hour specials, and featured cocktails"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Tour-level technology with high-speed swing cameras; premium accuracy and data analysis"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "gimme_circle",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://booking.fiveirongolf.com/select-experience?location=philadelphia-fishtown",
+  "pricing_model": "mixed",
+  "price_range_min_local": 29,
+  "price_range_max_local": 289,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|kitchen_food|tv_sports|club_fitting|leagues|private_party_room",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, you do not need to bring your own clubs; Five Iron Golf provides all necessary equipment for simulator use."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No, outside food and drinks are not permitted, as the venue offers a full-service bar and kitchen with chef-inspired menu options."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes varies based on the course and simulator setup, but it typically ranges from 1.5 to 3 hours per group."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is kid-friendly, offering family-friendly events, parties, and activities suitable for all ages."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"6AM-11PM\"], \"Tuesday\": [\"6AM-11PM\"], \"Wednesday\": [\"6AM-11PM\"], \"Thursday\": [\"6AM-11PM\"], \"Friday\": [\"6AM-1AM\"], \"Saturday\": [\"8AM-1AM\"], \"Sunday\": [\"8AM-11PM\"]}"
+}

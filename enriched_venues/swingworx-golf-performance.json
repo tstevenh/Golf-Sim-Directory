@@ -1,0 +1,92 @@
+{
+  "name": "Swingworx Golf Performance",
+  "address": "6351 Corte Del Abeto Suite 103, Carlsbad, CA 92011",
+  "city": "Carlsbad",
+  "region": "California",
+  "country": "US",
+  "latitude": 33.118803,
+  "longitude": -117.277621,
+  "phone": "+17608462807",
+  "website": "http://www.swingworxgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770238896/golf_simulators/www_swingworxgolf_com_ChIJFSKKD31z3IAR7sCgpTL0EaI.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Swingworx+Golf+Performance/@33.1188034,-117.2776208,14z/data=!4m8!1m2!2m1!1sSwingworx+Golf+Performance!3m4!1s0x80dc737d0f8a2215:0xa211f432a5a0c0ee!8m2!3d33.1188034!4d-117.2776208",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJFSKKD31z3IAR7sCgpTL0EaI",
+  "email": "max@swingworxgolf.com",
+  "venue_type": "training_studio",
+  "about": "Swingworx Golf Performance is an indoor golf facility focused on biomechanics-based coaching and technology. Located in Carlsbad, California, the facility uses advanced TrackMan launch monitors to provide detailed feedback on swing mechanics. The venue offers structured coaching programs for all skill levels, emphasizing a formal education approach to golf skills including swing, mindset, and strategy. Booking is appointment-only, with a primary focus on private coaching sessions rather than open simulator play for the general public.",
+  "tags": "serious_practice|coaching_available|beginner_friendly|premium_tech|private_rooms|club_fitting",
+  "vibe_tags": "tech_lab|industrial_training|professional",
+  "who_its_for": "serious_golfers|beginners|low_handicap|solo_practice|coaches_instructors",
+  "why_golfers_like_it": [
+    "Biomechanics-based coaching approach",
+    "Detailed TrackMan shot analysis with 50 metrics",
+    "Automated booking and access system",
+    "Comprehensive program structure",
+    "Emphasis on long-term skill development"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food allowed inside the simulator at any time"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol mentioned, and facility appears focused on coaching"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Dual Doppler Radars and High-end Optics in dual hitting bays"
+    }
+  ],
+  "simulator_software": [
+    "TM4 Performance Software",
+    "Swing Catalyst Software"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://www.swingworxgolf.com/sign-up",
+  "pricing_model": "package",
+  "price_range_min_local": 150,
+  "price_range_max_local": 450,
+  "currency": "USD",
+  "walk_ins_allowed": "no",
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 1,
+  "amenities_list": "club_rentals|club_fitting|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "Yes, you should bring your own golf clubs for lessons and practice sessions. The facility specializes in club fitting through their collaboration with Golf Shafts America if you need equipment."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "No, food and drink are not permitted inside the simulator area at any time. Proper disposal is required in the restroom trash bin."
+    },
+    {
+      "question": "How long is an 18-hole simulator session?",
+      "answer": "The website does not specify a standard time for 18-hole simulator sessions. The focus appears to be on structured coaching sessions and practice time rather than casual play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "No, the facility is focused on serious golf instruction and appears to cater to adult golfers. There is no mention of junior programs or youth-friendly amenities."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"7AM-7PM\"], \"Tuesday\": [\"7AM-7PM\"], \"Wednesday\": [\"7AM-7PM\"], \"Thursday\": [\"Closed\"], \"Friday\": [\"7AM-7PM\"], \"Saturday\": [\"7AM-3PM\"], \"Sunday\": [\"Closed\"]}"
+}

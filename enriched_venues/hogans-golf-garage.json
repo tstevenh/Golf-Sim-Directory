@@ -1,0 +1,89 @@
+{
+  "name": "Hogan's Golf Garage",
+  "address": "2171 S Trenton Way, Denver, CO 80231",
+  "city": "Denver",
+  "region": "Colorado",
+  "country": "US",
+  "latitude": 39.677767,
+  "longitude": -104.896831,
+  "phone": "+13038340693",
+  "website": "http://www.hogansgolfgarage.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770222499/golf_simulators/www_hogansgolfgarage_com_ChIJRzMPLmB9bIcR2hnqK1wZb7M.png",
+  "google_maps_url": "https://www.google.com/maps/place/Hogan%27s+Golf+Garage/@39.6777672,-104.89683079999999,14z/data=!4m8!1m2!2m1!1sHogan%27s+Golf+Garage!3m4!1s0x876c7d602e0f3347:0xb36f195c2bea19da!8m2!3d39.6777672!4d-104.89683079999999",
+  "google_rating": 1.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJRzMPLmB9bIcR2hnqK1wZb7M",
+  "email": "80231reservations@hogansgolfgarage.com",
+  "venue_type": "training_studio",
+  "about": "Hogan's Golf Garage is a premium indoor golf training facility located in Denver, Colorado, featuring advanced TrackMan 4 technology for year-round play and practice. The venue is centered around high-performance golf simulation with access to a library of famous courses and detailed shot data analysis. Pricing is currently membership-only, with no walk-ins or tee time bookings available for non-members. The facility is designed for serious golfers looking to improve their game with professional-grade technology and tools.",
+  "tags": "serious_practice|premium_tech|coaching_available|private_rooms|club_rentals|byob|members_only|modern",
+  "vibe_tags": "tech_lab|private_luxury|modern",
+  "who_its_for": "serious_golfers|coaches_instructors|solo_practice|low_handicap|juniors_youth",
+  "why_golfers_like_it": [
+    "Professional-grade TrackMan 4 dual radar technology providing 26 shot parameters in real-time",
+    "Access to world-famous courses including St. Andrews Links and Royal Portrush",
+    "Detailed club and ball tracking for precise swing analysis and improvement"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned, appears to be BYO-friendly"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned, appears to be BYO-friendly"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "Dual radar technology with professional-grade accuracy"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "http://www.hogansgolfgarage.com/schedule",
+  "pricing_model": "membership_only",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|pro_shop|private_party_room|ada_accessible",
+  "rating_tech_quality": 3.7,
+  "rating_facility_comfort": 3.7,
+  "rating_value_for_money": 3.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you need to bring your own golf clubs to use the simulators."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "Yes, BYOB (Bring Your Own Beverage) is allowed, and food can likely be brought as well."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Playing 18 holes can be done in a 3-hour window as part of membership time allocation."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "No, the facility appears to be focused on serious golf practice and training, not family or kid-friendly activities."
+    }
+  ],
+  "rating_overall": 3.7,
+  "opening_hours": "{\"Monday\": [\"8AM-10PM\"], \"Tuesday\": [\"8AM-10PM\"], \"Wednesday\": [\"8AM-10PM\"], \"Thursday\": [\"8AM-10PM\"], \"Friday\": [\"8AM-10PM\"], \"Saturday\": [\"Closed\"], \"Sunday\": [\"Closed\"]}"
+}

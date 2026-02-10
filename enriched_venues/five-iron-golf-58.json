@@ -1,0 +1,92 @@
+{
+  "name": "Five Iron Golf",
+  "address": "179 N Main St, Port Chester, NY 10573",
+  "city": "Port Chester",
+  "region": "New York",
+  "country": "US",
+  "latitude": 41.004202,
+  "longitude": -73.660027,
+  "phone": "+18005135153",
+  "website": "https://fiveirongolf.com/locations/port-chester-main-street/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770201774/golf_simulators/fiveirongolf_com_ChIJ3aLhqY-XwokRrcUGBTcSI_M.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Five+Iron+Golf/@41.004202299999996,-73.66002689999999,14z/data=!4m8!1m2!2m1!1sFive+Iron+Golf!3m4!1s0x89c2978fa9e1a2dd:0xf32312370506c5ad!8m2!3d41.004202299999996!4d-73.66002689999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ3aLhqY-XwokRrcUGBTcSI_M",
+  "email": "portchester@fiveirongolf.com",
+  "venue_type": "sim_bar",
+  "about": "Five Iron Golf Port Chester is an indoor golf simulator venue that combines high-tech practice and play with a full-service bar and restaurant atmosphere. It features state-of-the-art Trackman technology and 200+ virtual golf courses, including PGA Tour venues like Pebble Beach, providing a realistic and engaging golf experience. The venue is designed for both practice and social events, offering a casual, no-dress-code environment suitable for various skill levels and group sizes. Pricing is flexible, with options for hourly simulator rentals, monthly memberships starting at $219, and discounts for services like lessons and food.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|club_rentals|coaching_available|large_groups",
+  "vibe_tags": "casual|welcoming|modern|sports_bar|party_atmosphere",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Premium Trackman technology for accurate swing data and course simulation",
+    "Flexible pricing model with membership discounts and walk-in availability",
+    "Full-service bar and restaurant for a complete social experience",
+    "Variety of virtual courses, including iconic PGA Tour venues",
+    "On-site coaching and club fitting services for game improvement",
+    "Ideal for both serious practice and casual outings with friends"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full chef-inspired menu with items like boneless or bone-in wings available"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full-service bar with drink packages available"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Dual-radar Trackman technology with high-speed swing cameras"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://booking.fiveirongolf.com/select-experience?location=port-chester-main-street",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "The venue provides club rentals, but you are welcome to bring your own clubs for use in the simulators."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No, outside food and drinks are not permitted. The venue offers a full-service bar and restaurant menu with a variety of food and beverage options."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time required to play 18 virtual holes varies depending on the number of players and pace, but typically ranges from 2 to 3 hours for a standard round."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "Yes, the venue is kid-friendly and offers packages for kids' parties. It provides a welcoming atmosphere for families with various age groups."
+    }
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"6AM-11PM\"], \"Tuesday\": [\"6AM-11PM\"], \"Wednesday\": [\"6AM-11PM\"], \"Thursday\": [\"6AM-11PM\"], \"Friday\": [\"6AM-12AM\"], \"Saturday\": [\"8AM-12AM\"], \"Sunday\": [\"8AM-10PM\"]}"
+}

@@ -1,0 +1,93 @@
+{
+  "name": "LiveGolf Studios at Thornapple Pointe Golf Club",
+  "address": "7211 48th St SE, Grand Rapids, MI 49512",
+  "city": "Grand Rapids",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 42.877973,
+  "longitude": -85.487847,
+  "phone": "+16168031200",
+  "website": "https://www.livegolfstudios.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770229352/golf_simulators/www_livegolfstudios_com_ChIJDasE6OVOGIgRlNxbXaIPjks.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/LiveGolf+Studios+at+Thornapple+Pointe+Golf+Club/@42.8779727,-85.48784649999999,14z/data=!4m8!1m2!2m1!1sLiveGolf+Studios+at+Thornapple+Pointe+Golf+Club!3m4!1s0x88184ee5e804ab0d:0x4b8e0fa25d5bdc94!8m2!3d42.8779727!4d-85.48784649999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJDasE6OVOGIgRlNxbXaIPjks",
+  "venue_type": "sim_bar",
+  "about": "LiveGolf Studios is an indoor golf simulator venue located at Thornapple Pointe Golf Club. The facility features state-of-the-art simulators powered by TrackMan technology, offering players access to over 100 golf courses, various challenge games, and practice ranges. The venue operates with a social atmosphere, combining golf with food and beverage service, making it suitable for casual play, group outings, and family entertainment. Pricing is structured around hourly bay rentals, with various specials, bundles, and discounts available throughout the week, including offers for families, seniors, and happy hour promotions.",
+  "tags": "food_and_drinks|beginner_friendly|date_night|kids_friendly|corporate_events|premium_tech|budget_friendly|family_fun_center",
+  "vibe_tags": "sports_bar|family_fun_center|tech_lab|community_club",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "State-of-the-art TrackMan 4 simulators with radar and camera tracking for highly accurate performance data",
+    "Access to over 100 virtual golf courses and multiple challenge games for variety",
+    "Year-round indoor play with comfortable climate control, unaffected by weather",
+    "Social environment with full bar and food service to enjoy while playing",
+    "Flexible pricing model with multiple daily specials, bundles, and discounts"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen service available with a menu of appetizers and meals"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service with beer, wine, cocktails, and pitchers included in some packages"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "Industry-leading radar and camera tracking technology"
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://www.livegolfstudios.com/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 30,
+  "price_range_max_local": 90,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": false,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|pro_shop|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.5,
+  "rating_value_for_money": 4.2,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You are welcome to bring your own clubs, but the venue also provides rentals if needed."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, outside food and drinks are not permitted, but the venue offers a full bar and kitchen service."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "A full 18-hole round typically takes about 2-3 hours depending on the number of players and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is family-friendly and offers kid-friendly games with a $5 discount per child, per hour."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.5,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"9AM-11PM\"], \"Saturday\": [\"9AM-11PM\"], \"Sunday\": [\"9AM-9PM\"]}"
+}

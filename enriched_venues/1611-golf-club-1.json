@@ -1,0 +1,91 @@
+{
+  "name": "1611 Golf Club",
+  "address": "224 E Renfro St, Burleson, TX 76028",
+  "city": "Burleson",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 32.543008,
+  "longitude": -97.316808,
+  "phone": "+16822242939",
+  "website": "http://1611golf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770210778/golf_simulators/1611golf_com_ChIJvzcS815pToYREDYcXT3yZq4.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/1611+Golf+Club/@32.5430085,-97.31680779999999,14z/data=!4m8!1m2!2m1!1s1611+Golf+Club!3m4!1s0x864e695ef31237bf:0xae66f23d5d1c3610!8m2!3d32.5430085!4d-97.31680779999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJvzcS815pToYREDYcXT3yZq4",
+  "email": "info@1611golf.com",
+  "venue_type": "sim_bar",
+  "about": "1611 Golf Club is an indoor golf venue combining country club ambiance with a sports bar social atmosphere. It offers Trackman technology, a full bar, and a craft kitchen. The venue is designed for both golf practice and social events, featuring wall-to-wall TVs and an environment for connection. Memberships provide access to simulators, with various plans available for different schedules and budgets. Bays accommodate groups with a recommended limit of four players per bay.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|leagues|premium_tech|private_rooms|coaching_available",
+  "vibe_tags": "sports_bar|social_club|modern",
+  "who_its_for": "beginners|serious_golfers|corporate_teams|families|solo_practice",
+  "why_golfers_like_it": [
+    "Access to cutting-edge Trackman technology for real-time ball and club data",
+    "A lively social atmosphere with a full bar and craft kitchen",
+    "Flexible booking options with per bay hourly rates and 2-hour minimums",
+    "Opportunity to play on nearly 300 virtual golf courses worldwide"
+  ],
+  "kid_friendly": false,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Craft kitchen available with food service for events and general dining"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full-service bar available on-site"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "State-of-the-art Trackman simulators at all locations"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.1611golf.com/bayrentals",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "The provided information does not specify whether club rentals are available."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue has a full bar and craft kitchen, but BYOB policies are not mentioned."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The provided information does not specify the time required for an 18-hole round."
+    },
+    {
+      "question": "Is 1611 kid-friendly?",
+      "answer": "The provided information does not explicitly state whether the venue is kid-friendly."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-11PM\"], \"Saturday\": [\"10AM-11PM\"], \"Sunday\": [\"10AM-9PM\"]}"
+}

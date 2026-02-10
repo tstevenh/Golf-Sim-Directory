@@ -1,0 +1,95 @@
+{
+  "name": "____(Fitec Golf Inc)",
+  "address": "8225 Commonwealth Ave, Buena Park, CA 90621",
+  "city": "Buena Park",
+  "region": "California",
+  "country": "US",
+  "latitude": 33.870148,
+  "longitude": -117.989828,
+  "phone": "+17148593397",
+  "website": "http://fitecgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770230855/golf_simulators/fitecgolf_com_ChIJw_k1ArHHwoAR55hQJWp8kAI.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/%ED%9C%98%ED%85%8D%EA%B3%A8%ED%94%84%28Fitec+Golf+Inc%29/@33.8701475,-117.9898276,14z/data=!4m8!1m2!2m1!1s%ED%9C%98%ED%85%8D%EA%B3%A8%ED%94%84%28Fitec+Golf+Inc%29!3m4!1s0x80c2c7b10235f9c3:0x2907c6a255098e7!8m2!3d33.8701475!4d-117.9898276",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJw_k1ArHHwoAR55hQJWp8kAI",
+  "email": "fitecgolf.inc@gmail.com",
+  "venue_type": "training_studio",
+  "about": "Fitec Golf Inc. is a golf training studio located in Buena Park, California. The facility specializes in providing expert golf lessons and custom club fittings tailored to golfers of all ages and skill levels. Utilizing advanced technology including launch monitors like the Voice Caddie VSE and FlightScope Mevo+, Fitec Golf offers detailed swing analysis and performance tracking. The studio also emphasizes personalized coaching programs, with a focus on areas like driver distance, short game improvement, and swing correction, all designed to help golfers achieve their specific goals.",
+  "tags": "coaching_available|juniors_youth|serious_practice|premium_tech|private_rooms|club_fitting|beginner_friendly",
+  "vibe_tags": "industrial_training|modern|tech_lab",
+  "who_its_for": "beginners|serious_golfers|juniors_youth|coaches_instructors",
+  "why_golfers_like_it": [
+    "Custom club fittings using advanced launch monitor technology",
+    "Personalized lessons for juniors and adults with expert coaching",
+    "Comprehensive analysis of swing mechanics with high-speed cameras and data tracking"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of on-site food service"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Voice Caddie",
+      "model": "VSE",
+      "notes": "Indoor launch monitor with 32-inch HD touchscreen and dual high-speed camera (Mach 401 Sensor) for precise ball tracking"
+    },
+    {
+      "brand": "FlightScope",
+      "model": "Mevo+",
+      "notes": "Hybrid radar and high-speed camera launch monitor for indoor/outdoor use with FlightScope Fusion Tracking"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "http://fitecgolf.com/contact",
+  "pricing_model": "per_person_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|pro_shop|club_fitting",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own golf clubs?",
+      "answer": "You can bring your own clubs, but Fitec Golf also provides club rentals and specializes in custom club fittings to ensure the best equipment for your game."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The website does not mention any restrictions on bringing outside food or drinks, suggesting it may be allowed, but it's best to confirm with the venue directly."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "The website does not specify the time required to play 18 holes, as the focus is on lessons, fittings, and practice using simulators, rather than full rounds."
+    },
+    {
+      "question": "Is Fitec Golf kid-friendly?",
+      "answer": "Yes, Fitec Golf offers specific junior lesson programs and is very welcoming to young golfers, with testimonials from parents of junior students."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"10AM-8PM\"], \"Wednesday\": [\"10AM-8PM\"], \"Thursday\": [\"10AM-8PM\"], \"Friday\": [\"10AM-8PM\"], \"Saturday\": [\"10AM-7PM\"], \"Sunday\": [\"Closed\"]}"
+}

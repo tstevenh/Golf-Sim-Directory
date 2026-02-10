@@ -1,0 +1,91 @@
+{
+  "name": "Sim Suite",
+  "address": "5562 Hedge Ln Terrace, Shawnee, KS 66226",
+  "city": "Shawnee",
+  "region": "Kansas",
+  "country": "US",
+  "latitude": 39.027433,
+  "longitude": -94.855,
+  "phone": "+16156657731",
+  "website": "http://www.simsuitegolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770212217/golf_simulators/www_simsuitegolf_com_ChIJk7Jvq4iRwIcRDFQLExRLHww.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Sim+Suite/@39.0274327,-94.8549998,14z/data=!4m8!1m2!2m1!1sSim+Suite!3m4!1s0x87c09188ab6fb293:0xc1f4b14130b540c!8m2!3d39.0274327!4d-94.8549998",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJk7Jvq4iRwIcRDFQLExRLHww",
+  "venue_type": "private_rental",
+  "about": "Sim Suite is a private, 24/7 golf simulator lounge in Kansas City designed to provide an accessible and social golf experience year-round. The facility utilizes top-tier Foresight Falcon Launch Monitor technology to offer realistic gameplay and detailed performance analytics. Memberships are required, with a variety of tiered plans available to accommodate different schedules and needs, and limited membership numbers ensure availability of the three simulator bays.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|private_rooms|club_rentals|late_night|coaching_available|community_club",
+  "vibe_tags": "casual|welcoming|modern|social_lounge",
+  "who_its_for": "serious_golfers|corporate_teams|solo_practice|large_groups|coaches_instructors",
+  "why_golfers_like_it": [
+    "24/7 access to simulator bays through a mobile app",
+    "Unlimited food and drink allowed to be brought in",
+    "Private, comfortable lounge area with a big screen TV for sports",
+    "Partnership with Kinetic Club for free swing analysis and lessons",
+    "Limited member count ensures readily available time slots"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Members are welcome to bring their own food; no on-site kitchen or food sales mentioned."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Members are welcome to bring their own drinks; no on-site bar or alcohol sales mentioned."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": "Falcon Launch Monitor",
+      "notes": "State-of-the-art launch monitors with less than 1% accuracy."
+    }
+  ],
+  "simulator_software": [
+    "GSPro",
+    "Foresight Sports"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://booking.registrygolf.com/?organizationId=bbd06d8a-a422-4416-bb61-14fcec951d69",
+  "pricing_model": "membership_only",
+  "price_range_min_local": 99,
+  "price_range_max_local": 1500,
+  "currency": "USD",
+  "walk_ins_allowed": false,
+  "coaching_available": true,
+  "private_rooms_count": 3,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|kitchen_food|tv_sports|wifi|club_fitting|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to be a member to play?",
+      "answer": "Yes, membership is required to book and access the simulator facilities. Guest passes are available for non-members but they must be accompanied by a current member."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, as this is a private lounge, you are welcome to bring your own food and drinks."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "It typically takes between 45 minutes to an hour to complete 18 holes on a golf simulator."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Members must be at least 18 years old. High schoolers can be added to adult memberships, and children under 18 can attend but must be accompanied by an adult member at all times."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

@@ -1,0 +1,96 @@
+{
+  "name": "Aloha Golf and Coffee Lounge",
+  "address": "21 E Gentile St, Layton, UT 84041",
+  "city": "Layton",
+  "region": "Utah",
+  "country": "US",
+  "latitude": 41.060353,
+  "longitude": -111.965433,
+  "phone": "+18013962411",
+  "website": "https://www.alohagolfandcoffeelounge.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770227028/golf_simulators/www_alohagolfandcoffeelounge_com_ChIJ1XSq8zsDU4cRPG906sHg_tM.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Aloha+Golf+and+Coffee+Lounge/@41.0603529,-111.96543279999999,14z/data=!4m8!1m2!2m1!1sAloha+Golf+and+Coffee+Lounge!3m4!1s0x8753033bf3aa74d5:0xd3fee0c1ea746f3c!8m2!3d41.0603529!4d-111.96543279999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ1XSq8zsDU4cRPG906sHg_tM",
+  "email": "alohagolfandcoffeelounge@gmail.com",
+  "venue_type": "sim_bar",
+  "about": "Aloha Golf and Coffee Lounge is a golf simulator and full-service coffee shop located in Layton, Utah. Owned by Tongan-American family Kama and Amy Muti, the venue combines an elevated golf simulation experience with a unique Polynesian-themed menu featuring Kona espresso and specialty drinks like the Golden Island Latte and Mango Smoothie. The facility utilizes the latest Trackman IO technology simulators and features a 22-foot putting green to provide a comprehensive golf experience alongside their coffee offerings. The atmosphere is designed to be warm and inclusive, welcoming guests as part of their ohana (family), with a mission centered on compassion, kindness, and aloha spirit.",
+  "tags": "food_and_drinks|beginner_friendly|date_night|leagues|premium_tech|coaching_available|family_friendly|corporate_events",
+  "vibe_tags": "casual|welcoming|modern|sports_bar|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Latest Trackman IO technology for accurate simulation",
+    "22-foot dedicated putting green for realistic practice",
+    "On-site coaching and swing analysis available",
+    "Supportive family-owned atmosphere with Polynesian charm",
+    "Option for both hourly play and monthly memberships",
+    "Leagues and tournament play opportunities"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full menu available including handcrafted tropical sodas, smoothies, chai, and lemonade"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service on website"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Latest Trackman IO technology simulators"
+    }
+  ],
+  "simulator_so": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://clients.uschedule.com/alohagolfandcoffeelounge/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 45,
+  "price_range_max_local": 225,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|kitchen_food|tv_sports|leagues|pro_shop|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website doesn't specify whether club rentals are available, so it's recommended to bring your own clubs or contact the venue directly."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "The venue offers a full menu of handcrafted tropical sodas, smoothies, chai, lemonade, and other food items, so there's no need to bring your own."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website doesn't specify the time for 18 holes, but hourly rentals are available starting at $45 per hour."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Aloha Golf and Coffee Lounge appears to be kid-friendly as it's described as family-owned and offers a welcoming atmosphere with a variety of beverages and treats suitable for children."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"7AM-5PM\"], \"Tuesday\": [\"7AM-5PM\"], \"Wednesday\": [\"7AM-5PM\"], \"Thursday\": [\"7AM-5PM\"], \"Friday\": [\"8AM-7PM\"], \"Saturday\": [\"8AM-7PM\"], \"Sunday\": [\"8AM-2PM\"]}"
+}

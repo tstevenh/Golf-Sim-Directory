@@ -1,0 +1,91 @@
+{
+  "name": "Headquarters Bar & Restaurant",
+  "address": "101 Concord Dr, Oregon, WI 53575",
+  "city": "Oregon",
+  "region": "Wisconsin",
+  "country": "US",
+  "latitude": 42.916613,
+  "longitude": -89.373307,
+  "phone": "+16082910750",
+  "website": "http://oregonhq.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770248095/golf_simulators/oregonhq_com_ChIJ23lIyRNLBogRo96oI56dabA.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Headquarters+Bar+%26+Restaurant/@42.916613,-89.373307,14z/data=!4m8!1m2!2m1!1sHeadquarters+Bar+%26+Restaurant!3m4!1s0x88064b13c94879db:0xb0699d9e23a8dea3!8m2!3d42.916613!4d-89.373307",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ23lIyRNLBogRo96oI56dabA",
+  "email": "oregonHQevents@gmail.com",
+  "venue_type": "sim_bar",
+  "about": "Headquarters Bar & Restaurant is a family-friendly sports-themed venue in Oregon, WI, featuring two indoor golf simulators alongside its full bar and restaurant operations. The facility offers 32 beers on tap, a classic American menu, and a large outdoor patio, making it a multi-purpose destination for dining and recreation. The Garage @HQ, an adult lounge connected to the main venue, houses two Golfzon simulators alongside other entertainment options like pinball and foosball. Reservations for the golf garage include a private bar, staff, and simulator access with some clubs provided.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|private_rooms|club_rentals|family_friendly|sports_bar|budget_friendly",
+  "vibe_tags": "sports_bar|family_fun_center|tech_lab|casual|welcoming|modern",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Convenient all-in-one venue with golf, food, and drinks",
+    "Two Golfzon simulators in a dedicated adult lounge space",
+    "Option for private reservations with dedicated bar and staff",
+    "Club rentals available on-site",
+    "Part of a larger sports-themed entertainment complex"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Classic American bar fare including burgers, wings, mac bowls"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "32 beers on tap, premium cocktails in the adult lounge"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Golfzon",
+      "model": "unknown",
+      "notes": "Two simulators located in The Garage @HQ adult lounge"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": "unknown",
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 2,
+  "booking_url": "https://alleytrak.com/app/client/4379",
+  "pricing_model": "package",
+  "price_range_min_local": 250,
+  "price_range_max_local": 550,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|private_party_room|tv_sports|wifi",
+  "rating_tech_quality": 4.0,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, some clubs are provided with your reservation. However, you are welcome to bring your own equipment."
+    },
+    {
+      "question": "Can I bring in my own food or drinks?",
+      "answer": "No outside food or drinks are allowed as the venue offers its own full bar and restaurant menu."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "Reservations are typically booked in 3-hour blocks, which should provide ample time to play a full round or multiple rounds."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "Yes, Headquarters Bar & Restaurant is described as a family-friendly venue, though The Garage @HOQ adult lounge is restricted to ages 21+."
+    }
+  ],
+  "rating_overall": 4.1,
+  "opening_hours": "{\"Monday\": [\"11AM-2AM\"], \"Tuesday\": [\"11AM-2AM\"], \"Wednesday\": [\"11AM-2AM\"], \"Thursday\": [\"11AM-2AM\"], \"Friday\": [\"11AM-2:30AM\"], \"Saturday\": [\"10AM-2:30AM\"], \"Sunday\": [\"10AM-2AM\"]}"
+}

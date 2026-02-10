@@ -1,0 +1,93 @@
+{
+  "name": "Limitless Golf Club",
+  "address": "616 Progress Ave, Munster, IN 46321",
+  "city": "Munster",
+  "region": "Indiana",
+  "country": "US",
+  "latitude": 41.534045,
+  "longitude": -87.512916,
+  "phone": "+18158067611",
+  "website": "https://www.limitlessgolfclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770203983/golf_simulators/www_limitlessgolfclub_com_ChIJObKymwrhEYgRFGOjzEqMYU8.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Limitless+Golf+Club/@41.534045299999995,-87.5129156,14z/data=!4m8!1m2!2m1!1sLimitless+Golf+Club!3m4!1s0x8811e10a9bb2b239:0x4f618c4acca36314!8m2!3d41.534045299999995!4d-87.5129156",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJObKymwrhEYgRFGOjzEqMYU8",
+  "email": "limitlessgolfclub@gmail.com_",
+  "venue_type": "training_studio",
+  "about": "Limitless Golf Club is a membership-based indoor golf training facility focused on year-round practice and player development. The venue features seven simulator bays and a 7,000 square foot training area with state-of-the-art short game practice zones, including a chipping range with bunker and turf variations, and a putting green with multiple hole locations. All use of the facility requires a membership, and the club's philosophy emphasizes serious training for golfers of all ages and skill levels, offering professional instruction and club fitting services to support members' goals.",
+  "tags": "serious_practice|juniors_youth|coaching_available|premium_tech|club_rentals|private_rooms|family_friendly",
+  "vibe_tags": "industrial_training|community_club|modern",
+  "who_its_for": "serious_golfers|juniors_youth|coaches_instructors|families|solo_practice",
+  "why_golfers_like_it": [
+    "Immediate feedback from professional-grade Foresight launch monitors",
+    "Access to 40+ golf courses and practice simulations for year-round training",
+    "Realistic short game areas designed to replicate on-course conditions",
+    "Membership model provides unlimited access to practice facilities"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food or beverage service available. The club is a training facility similar to a local gym."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol served. The club is a training facility similar to a local gym."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": "unknown",
+      "notes": "7 expansive simulator bays with technology utilized by most golf professionals"
+    }
+  ],
+  "simulator_so": [
+    "Foresight Sports"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 7,
+  "booking_url": "https://www.limitlessgolfclub.com/#page",
+  "pricing_model": "membership_only",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": "false",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 2,
+  "amenities_list": "club_rentals|club_fitting|leagues|coaching_available",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, members are expected to bring their own golf equipment to use the facility."
+    },
+    {
+      "question": "Can I bring my own food or drink?",
+      "answer": "No, Limitless Golf Club is a training facility and does not allow outside food or drink on premises."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "A simulator hour is a 60-minute session, in which members can choose to play 18 holes on any golf course on the LGC network, practice on the range, or work on specific skillsets."
+    },
+    {
+      "question": "Is this facility kid-friendly?",
+      "answer": "Yes, Limitless Golf Club offers specific academy and team memberships for middle and high school golfers, indicating a commitment to junior development."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"11AM-9PM\"], \"Wednesday\": [\"11AM-9PM\"], \"Thursday\": [\"11AM-9PM\"], \"Friday\": [\"8AM-6PM\"], \"Saturday\": [\"8AM-6PM\"], \"Sunday\": [\"8AM-6PM\"]}"
+}

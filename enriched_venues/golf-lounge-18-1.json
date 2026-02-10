@@ -1,0 +1,91 @@
+{
+  "name": "Golf Lounge 18",
+  "address": "765 Providence Hwy Store #2, Dedham, MA 02026",
+  "city": "Dedham",
+  "region": "Massachusetts",
+  "country": "US",
+  "latitude": 42.239575,
+  "longitude": -71.179511,
+  "phone": "+17818011819",
+  "website": "http://www.golflounge18.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770220706/golf_simulators/www_golflounge18_com_ChIJG-kmYI9_44kRBEnojYdIegI.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Golf+Lounge+18/@42.239574499999996,-71.1795114,14z/data=!4m8!1m2!2m1!1sGolf+Lounge+18!3m4!1s0x89e37f8f6026e91b:0x27a48878de84904!8m2!3d42.239574499999996!4d-71.1795114",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJG-kmYI9_44kRBEnojYdIegI",
+  "email": "info@golflounge18.com",
+  "venue_type": "sim_bar",
+  "about": "Golf Lounge 18 is an indoor golf simulator facility featuring Trackman 4 technology with access to over 450 courses worldwide. The venue operates with hourly bay rates that can be split among groups, allowing for flexible play. It is designed for both casual and serious golfers, offering a full bar and multiple HDTVs for socializing and watching sports. The facility caters to various needs including drop-in play, lessons, leagues, and private events with catering options available.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|leagues|premium_tech|coaching_available|family_friendly",
+  "vibe_tags": "sports_bar|family_fun_center|community_club",
+  "who_its_for": "beginners|families|serious_golfers|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "State-of-the-art Trackman 4 technology providing precise data and analytics",
+    "Access to over 450 famous golf courses worldwide for variety in play",
+    "Flexible hourly bay rates that can be shared among groups for cost-effectiveness",
+    "Full bar and food menu available on-site for a complete social experience",
+    "PGA professional instruction available for game improvement"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen and expanded food menu available for socializing before, during, or after golf sessions."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar available on-site with multiple TVs for watching the big game."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "Dual Radar Technology trusted by professionals, installed in all bays."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://golflounge18.com/book/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|leagues|coaching_available",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Bringing your own clubs is recommended, but club rentals may be available. The website does not explicitly state rental policies."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No outside food or drinks are allowed, as the venue offers a full bar and an expanded in-house food menu for customers."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time for 18 holes varies based on simulator usage and group size, but sessions are booked by the hour with rates split among group members."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Golf Lounge 18 is kid-friendly with junior clinics, a junior academy, and family-friendly atmosphere."
+    }
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"8AM-11PM\"], \"Saturday\": [\"8AM-11PM\"], \"Sunday\": [\"8AM-10PM\"]}"
+}

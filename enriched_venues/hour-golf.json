@@ -1,0 +1,90 @@
+{
+  "name": "Hour Golf",
+  "address": "2526 NE 15th Ave, Portland, OR 97212",
+  "city": "Portland",
+  "region": "Oregon",
+  "country": "US",
+  "latitude": 45.540939,
+  "longitude": -122.650221,
+  "phone": null,
+  "website": "https://hour.golf/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770256823/golf_simulators/hour_golf_ChIJQY9MG0OnlVQR2r4526oJono.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Hour+Golf/@45.5409392,-122.65022139999999,14z/data=!4m8!1m2!2m1!1sHour+Golf!3m4!1s0x5495a7431b4c8f41:0x7aa209aadb39beda!8m2!3d45.5409392!4d-122.65022139999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJQY9MG0OnlVQR2r4526oJono",
+  "email": "Starter@hour.golf",
+  "venue_type": "other",
+  "about": "Hour Golf is a self-serve, 24/7 access golf simulator facility in Portland, Oregon. It features two simulator bays equipped with Uneekor launch monitors and Swing Optix cameras for detailed swing analysis without requiring club stickers or special golf balls. The venue is designed for golf enthusiasts to practice and play on their own schedule, with keypad access for members. Non-members can access the studio during open hours. Membership offers perks like included monthly hours, discounts on extra time, and access to leagues and pro shop discounts.",
+  "tags": "serious_golfers|solo_practice|coaching_available|leagues|private_rooms|budget_friendly|tech_lab|community_club",
+  "vibe_tags": "tech_lab|community_club|casual|welcoming",
+  "who_its_for": "serious_golfers|solo_practice|families|coaches_instructors|juniors_youth",
+  "why_golfers_like_it": [
+    "24/7 self-serve access with keypad entry for ultimate flexibility",
+    "State-of-the-art Uneekor technology provides detailed swing analysis without special equipment",
+    "Membership model includes included hours and discounts, making practice sessions affordable",
+    "Community-focused environment with leagues, tournaments, and club events"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Snacks and beverages available from self-service vending machine; outside food is not permitted"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "Alcohol is prohibited unless consumed during a club-sanctioned and permitted event"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "Launch Monitor",
+      "notes": "State of the art launch monitors with Swing Optix cameras"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://hourgolf.skedda.com/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 40,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|pro_shop|leagues|private_party_room|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The description does not specify whether clubs are provided, so it is recommended to bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "Outside food and beverages are not permitted for safety and licensing reasons. Please enjoy snacks and beverages from the self-service vending machine."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not provide specific information about the duration of an 18-hole simulation."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, guests under 18 must be accompanied by an adult, indicating that the venue is suitable for families with children."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "Sunday 09:00-17:00 | Sunday 09:00-17:00 | Sunday 09:00-17:00 | Sunday 09:00-17:00 | Sunday 09:00-17:00 | Sunday 09:00-17:00 | Sunday 09:00-17:00"
+}

@@ -1,0 +1,83 @@
+{
+  "name": "GolfPark",
+  "address": "7630 Little River Turnpike STE 150, Annandale, VA 22003",
+  "city": "Annandale",
+  "region": "Virginia",
+  "country": "US",
+  "latitude": 38.833982,
+  "longitude": -77.208723,
+  "phone": "+17037127618",
+  "website": "https://www.golfparkva.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770204257/golf_simulators/www_golfparkva_com_ChIJ_aEmAQBNtokR7zvU1Y4zJKc.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/GolfPark/@38.833982299999995,-77.2087231,14z/data=!4m8!1m2!2m1!1sGolfPark!3m4!1s0x89b64d000126a1fd:0xa724338ed5d43bef!8m2!3d38.833982299999995!4d-77.2087231",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ_aEmAQBNtokR7zvU1Y4zJKc",
+  "email": "golfparkva@gmail.com",
+  "venue_type": "sim_bar",
+  "about": "GolfPark is an indoor golf simulator venue that combines high-tech simulation with a social atmosphere. The facility features spacious practice bays equipped with advanced simulator technology designed for precision. They offer a range of services including lessons with PGA instructors, club fitting, and private simulator rooms for groups or events. Pricing operates on a pay-per-use model with optional membership plans, and the venue is known for its extended hours and weekend availability.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|private_rooms|club_rentals|late_night|coaching_available",
+  "vibe_tags": "casual|welcoming|modern|sports_bar",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Advanced simulator technology with four high-speed camera sensors for precise shot tracking",
+    "Flexible booking system allowing sessions to be reserved well in advance",
+    "Social atmosphere with extended hours and late-night deals for food and drinks"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Appetizers and full menu available, with 50% off during weekday happy hours"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Draft beers available with half-price specials during weekday happy hours"
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": "Four high-speed camera sensors",
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 9,
+  "booking_url": "https://www.golfparkva.com/our-classes",
+  "pricing_model": "mixed",
+  "price_range_min_local": null,
+  "price_range_max_local": null,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|club_fitting|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can bring your own clubs, but the venue also provides demo clubs for club fitting sessions."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drink are not mentioned as allowed, but the venue has a full bar and kitchen with food and drink options available for purchase."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time for 18 holes varies depending on group size and simulator usage, but it typically takes around 2-3 hours."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is family-friendly and offers a welcoming atmosphere for golfers of all ages and skill levels."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-12AM\"], \"Saturday\": [\"10AM-12AM\"], \"Sunday\": [\"10AM-8PM\"]}"
+}

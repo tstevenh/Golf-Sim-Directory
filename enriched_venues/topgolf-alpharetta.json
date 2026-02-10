@@ -1,0 +1,92 @@
+{
+  "name": "Topgolf Alpharetta",
+  "address": "10900 Westside Pkwy, Alpharetta, GA 30009",
+  "city": "Alpharetta",
+  "region": "Georgia",
+  "country": "US",
+  "latitude": 34.044827,
+  "longitude": -84.308505,
+  "phone": "+17702170513",
+  "website": "https://topgolf.com/us/alpharetta/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770261394/golf_simulators/topgolf_com_ChIJPxmYNx919YgRi9Oq0u19Q08.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Topgolf+Alpharetta/@34.0448269,-84.3085054,14z/data=!4m8!1m2!2m1!1sTopgolf+Alpharetta!3m4!1s0x88f5751f3798193f:0x4f437dedd2aad38b!8m2!3d34.0448269!4d-84.3085054",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJPxmYNx919YgRi9Oq0u19Q08",
+  "email": "memberships@topgolf.com.",
+  "venue_type": "sim_bar",
+  "about": "Topgolf Alpharetta is a premier entertainment destination featuring over 100 all-weather hitting bays equipped with HDTVs and climate control. The venue offers a technologically advanced golf experience with high-tech balls that automatically score, along with complimentary club rentals. With a sports bar, restaurant, and various event spaces, it functions as a hybrid entertainment and practice facility. Pricing operates on a per-bay-hour basis with standard rates, complemented by several promotions like half-off golf on weekdays and special event nights.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|kids_friendly|corporate_events|leagues|premium_tech|budget_friendly|private_rooms|late_night",
+  "vibe_tags": "casual|welcoming|modern|sports_bar|family_fun_center|party_atmosphere",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "Over 100 all-weather bays with climate control for year-round play",
+    "High-tech automatic scoring system with complimentary club rentals",
+    "Rooftop terrace with fire pits and over 200 HDTVs throughout the venue"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full bar and restaurant with a diverse menu including vegetarian and gluten-free options. Outside food is not permitted, with the exception of store-bought cakes for celebrations."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar available on-site. The venue does not allow guests to bring their own beverages."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Toptracer",
+      "model": "unknown",
+      "notes": "Venue features Toptracer technology for its games and scoring system"
+    }
+  ],
+  "simulator_so": [
+    "Toptracer Range"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 100,
+  "booking_url": "https://topgolf.com/us/alpharetta/plan-a-visit/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|golf_lessons|ada_accessible|ev_charging_stations",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "No, complimentary clubs are provided for use at Topgolf Alpharetta."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "No, outside food and beverages are not permitted due to health and safety practices, with the exception of store-bought cakes for birthdays or other celebrations."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Play times vary based on the game and number of players, but a standard round can typically last 1-2 hours per bay."
+    },
+    {
+      "question": "Is Topgolf kid-friendly?",
+      "answer": "Yes, Topgolf Alpharetta is kid-friendly. Guests under 16 must be supervised by a guest 21+ at all times, and anyone under 18 must be supervised after 9 PM."
+    }
+  ],
+  "simulator_software": [
+    "Toptracer"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-11PM\"], \"Tuesday\": [\"10AM-11PM\"], \"Wednesday\": [\"10AM-11PM\"], \"Thursday\": [\"10AM-11PM\"], \"Friday\": [\"9AM-1AM\"], \"Saturday\": [\"9AM-1AM\"], \"Sunday\": [\"9AM-12AM\"]}"
+}

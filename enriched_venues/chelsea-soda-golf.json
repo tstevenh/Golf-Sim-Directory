@@ -1,0 +1,89 @@
+{
+  "name": "Chelsea Soda Golf",
+  "address": "3150 Echo Valley Dr, Norwalk, IA 50211",
+  "city": "Norwalk",
+  "region": "Iowa",
+  "country": "US",
+  "latitude": 41.508698,
+  "longitude": -93.661244,
+  "phone": "+13095310886",
+  "website": "https://www.chelseasodagolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770241923/golf_simulators/www_chelseasodagolf_com_ChIJRVrpa4Gj7ocRz12BRB_Hwig.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Chelsea+Soda+Golf/@41.508697999999995,-93.661244,14z/data=!4m8!1m2!2m1!1sChelsea+Soda+Golf!3m4!1s0x87eea3816be95a45:0x28c2c71f44815dcf!8m2!3d41.508697999999995!4d-93.661244",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJRVrpa4Gj7ocRz12BRB_Hwig",
+  "email": "sodachelsea@gmail.com",
+  "venue_type": "training_studio",
+  "about": "Chelsea Soda Golf is a golf instruction and training facility located in Des Moines, Iowa, directed by professional golf instructor Chelsea Soda. The studio offers a range of golf training technologies including Uneekor Simulators, Launch monitors, SportsboxAI, Blast Motion, and BodiTrak. It provides private lessons, group classes, and custom programs for golfers of all ages and skill levels. The facility focuses on creating an enjoyable, effective, and educational experience with a mix of practice range, short game, and on-course sessions to build confidence and performance on the golf course.",
+  "tags": "beginner_friendly|juniors_youth|serious_practice|coaching_available|private_rooms|club_rentals|group_classes|training_studio",
+  "vibe_tags": "industrial_training|community_club",
+  "who_its_for": "beginners|serious_golfers|juniors_youth|families|coaches_instructors",
+  "why_golfers_like_it": [
+    "Access to advanced tracking technology including Uneekor Simulators and Launch monitors",
+    "Comprehensive coaching program led by a former LPGA competitor with extensive teaching experience",
+    "Mix of on-course and simulator training for real-world skills development"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food services mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol services mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "Simulators",
+      "notes": "High-end golf simulation system with tracking capabilities"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "overhead_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://ChelseaSodaGolf.as.me/",
+  "pricing_model": "per_person_hour",
+  "price_range_min_local": 110,
+  "price_range_max_local": 140,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|training_studio|group_classes|private_rooms",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not explicitly state whether clubs are provided. It is recommended to bring your own clubs for lessons and practice sessions."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "There is no mention of food or drink services, so it is unclear if outside food and drinks are permitted."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify the time required to complete 18 holes in the simulator."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, Chelsea Soda Golf offers junior lessons and programs, making it suitable for young golfers."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"7AM-9PM\"], \"Tuesday\": [\"7AM-9PM\"], \"Wednesday\": [\"7AM-9PM\"], \"Thursday\": [\"7AM-9PM\"], \"Friday\": [\"7AM-9PM\"], \"Saturday\": [\"7AM-9PM\"], \"Sunday\": [\"7AM-9PM\"]}"
+}

@@ -1,0 +1,84 @@
+{
+  "name": "Urban Golf",
+  "address": "1510 Fairfield Ave suite 201, Fort Wayne, IN 46802",
+  "city": "Fort Wayne",
+  "region": "Indiana",
+  "country": "US",
+  "latitude": 41.071823,
+  "longitude": -85.14587,
+  "phone": "+12602032316",
+  "website": "https://www.urbangolf-fw.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770204622/golf_simulators/www_urbangolf-fw_com_ChIJL_3A09HlFYgRuU8FWS07NTg.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Urban+Golf/@41.0718233,-85.1458703,14z/data=!4m8!1m2!2m1!1sUrban+Golf!3m4!1s0x8815e5d1d3c0fd2f:0x38353b2d59054fb9!8m2!3d41.0718233!4d-85.1458703",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJL_3A09HlFYgRuU8FWS07NTg",
+  "venue_type": "sim_bar",
+  "about": "Urban Golf is a part of The Fairfield, a multi-level entertainment and dining destination located in downtown Fort Wayne, Indiana. The golf facility is situated on the second floor and features 8 simulator bays, one of which is a private lesson bay, alongside a Pro Merch store, full bar, and dining area. The venue is part of a larger complex that includes duckpin bowling, karaoke, games, and event spaces, positioning it as a hub for food, fun, and social gatherings. It offers both individual play and memberships, with professional instruction available, making it accessible for both casual visitors and dedicated golfers.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|private_rooms|coaching_available|family_friendly",
+  "vibe_tags": "sports_bar|party_atmosphere|tech_lab|community_club",
+  "who_its_for": "families|large_groups|corporate_teams|beginners|serious_golfers",
+  "why_golfers_like_it": [
+    "8 simulator bays with a private lesson bay for professional instruction",
+    "Full bar and dining area on-site for convenience",
+    "Membership options available for regular players",
+    "Part of a larger entertainment complex with multiple activities",
+    "Private lesson bay with professional coaching"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Chef-driven cuisine available on every floor with diverse dining options, including quick bites and coursed dinners."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full-service bars with craft cocktails available throughout the building."
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": "unknown",
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 8,
+  "booking_url": "https://www.thefairfieldfw.com/book-a-bay",
+  "pricing_model": "per_bay_hour|mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue does not specify whether clubs are provided. It is recommended to bring your own or inquire about rental options."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue offers chef-driven cuisine and craft cocktails on-site. BYOB policies are not mentioned, so it is likely not permitted."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "The website does not provide specific timing for 18 holes. It is advisable to contact the venue directly for estimated play duration."
+    },
+    {
+      "question": "Is Urban Golf kid-friendly?",
+      "answer": "Yes, The Fairfield welcomes all ages and types of fun, including kids' parties and family-friendly events."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"8AM-10PM\"], \"Tuesday\": [\"8AM-10PM\"], \"Wednesday\": [\"8AM-10PM\"], \"Thursday\": [\"8AM-10PM\"], \"Friday\": [\"8AM-12AM\"], \"Saturday\": [\"10AM-12AM\"], \"Sunday\": [\"12-8PM\"]}"
+}

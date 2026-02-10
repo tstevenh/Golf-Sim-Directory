@@ -1,0 +1,92 @@
+{
+  "name": "DJ's Clubhouse & Lounge",
+  "address": "N81W15180 Appleton Ave, Menomonee Falls, WI 53051",
+  "city": "Menomonee Falls",
+  "region": "Wisconsin",
+  "country": "US",
+  "latitude": 43.166511,
+  "longitude": -88.097593,
+  "phone": "+12624155043",
+  "website": "https://djs-clubhouse.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770234697/golf_simulators/djs-clubhouse_com_ChIJBQS2rcz_BIgRGkN4KEwmaL4.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/DJ%27s+Clubhouse+%26+Lounge/@43.1665109,-88.0975931,14z/data=!4m8!1m2!2m1!1sDJ%27s+Clubhouse+%26+Lounge!3m4!1s0x8804ffccadb60405:0xbe68264c2878431a!8m2!3d43.1665109!4d-88.0975931",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJBQS2rcz_BIgRGkN4KEwmaL4",
+  "email": "golf@djs-clubhouse.com",
+  "venue_type": "sim_bar",
+  "about": "DJ's Clubhouse & Lounge is a premium indoor golf and social lounge featuring four state-of-the-art Trackman IO simulator bays. It combines elite golf technology with a full bar and food service, creating a space for practice, competition, or casual enjoyment. The venue is open to players of all ages and skill levels, offering amenities like a comfortable lounge area and rental club sets. Operating hours are Tuesday-Thursday and Friday from 1pm-10pm, with extended weekend hours on Saturday and Sunday.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|kids_friendly|club_rentals|coaching_available",
+  "vibe_tags": "upscale_lounge|sports_bar|tech_lab|community_club",
+  "who_its_for": "beginners|families|corporate_teams|solo_practice|juniors_youth",
+  "why_golfers_like_it": [
+    "State-of-the-art Trackman IO technology for accurate shot tracking",
+    "Full bar and food service from DJ's Goalpost",
+    "Handicap calculation and data tracking after one round",
+    "Comfortable lounge atmosphere for socializing",
+    "Rental clubs available for all ages"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full menu available from DJ's Goalpost, viewed here"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "IO",
+      "notes": "Four state-of-the-art simulator bays"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "Yes, righty sets available; lefty sets not currently available",
+  "bay_count_total": 4,
+  "booking_url": "https://booking.trackmangolf.com/venues/d-js-clubhouse/booking/bays",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 30,
+  "price_range_max_local": 45,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 4,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need clubs?",
+      "answer": "No, rental sets are available at no charge for right-handed players in various sizes (Tots, Junior, Men's/Women's). Left-handed rental sets are still being developed."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "No, outside food and drink are not allowed as the venue offers a full bar and food service from DJ's Goalpost."
+    },
+    {
+      "question": "How long does an 18-hole round take?",
+      "answer": "While not explicitly stated, most simulator rounds take approximately 2-3 hours depending on group size and pace."
+    },
+    {
+      "question": "Is this kid-friendly?",
+      "answer": "Yes, players of all ages are welcome. Junior and tot-sized rental clubs are available, and the venue welcomes families."
+    }
+  ],
+  "simulator_software": [
+    "TrackMan"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"1-10PM\"], \"Wednesday\": [\"1-10PM\"], \"Thursday\": [\"1-10PM\"], \"Friday\": [\"1-10PM\"], \"Saturday\": [\"10AM-10PM\"], \"Sunday\": [\"10AM-7PM\"]}"
+}

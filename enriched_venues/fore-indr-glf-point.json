@@ -1,0 +1,92 @@
+{
+  "name": "Fore INDR GLF - Point",
+  "address": "3296 Church St Suite D, Stevens Point, WI 54481",
+  "city": "Stevens Point",
+  "region": "Wisconsin",
+  "country": "US",
+  "latitude": 44.501601,
+  "longitude": -89.565459,
+  "phone": "+17155406558",
+  "website": "http://www.foreindrglf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770205176/golf_simulators/www_foreindrglf_com_ChIJnQEl0mRbAIgRn2V_XtifJik.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Fore+INDR+GLF+-+Point/@44.5016013,-89.56545919999999,14z/data=!4m8!1m2!2m1!1sFore+INDR+GLF+-+Point!3m4!1s0x88005b64d225019d:0x29269fd85e7f659f!8m2!3d44.5016013!4d-89.56545919999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJnQEl0mRbAIgRn2V_XtifJik",
+  "email": "Manager@foreindrglf.com",
+  "venue_type": "sim_bar",
+  "about": "Fore INDR GLF is an indoor golf facility with two locations in Central Wisconsin, Stevens Point and Wisconsin Rapids. The venue features four world-class golf simulators powered by TrackMan technology, allowing players to play on top-ranked courses worldwide or practice on a virtual driving range. It operates as a year-round golf destination that combines golf with a bar atmosphere, offering league play with two-player teams and online bay reservations for up to six people per hour. The facility emphasizes a balance of golf, beverages, and camaraderie, making it suitable for both casual players and those looking to practice seriously.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|private_rooms|club_rentals|coaching_available",
+  "vibe_tags": "sports_bar|community_club|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Four TrackMan-powered simulators for realistic play and practice",
+    "15-foot wide hitting bays for a free swinging feeling",
+    "Online reservation system for convenient booking",
+    "Year-round access with two locations in Central Wisconsin",
+    "Golf leagues and social atmosphere for a fun experience"
+  ],
+  "kid_friendly": false,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen available with food service"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service with cold beverages"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Four world-class simulators with radar technology"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 4,
+  "booking_url": "https://player.eagleclubsystems.online#/tee-slot?dbname=foreindr20221101",
+  "pricing_model": "per_bay_hour|membership",
+  "price_range_min_local": null,
+  "price_range_max_local": null,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": null,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|leagues|pro_shop",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.3,
+  "rating_value_for_money": 4.1,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, players are expected to bring their own clubs to use in the simulators."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drinks are not mentioned, but the venue offers a full bar and kitchen service."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time for 18 holes varies depending on the number of players and pace of play, but it typically takes 1-2 hours for a standard round."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The venue does not specifically mention kid-friendly amenities or activities, so it is more geared toward adults and serious golfers."
+    }
+  ],
+  "simulator_software": [
+    "TrackMan"
+  ],
+  "rating_overall": 4.4,
+  "opening_hours": "{\"Monday\": [\"11AM-9PM\"], \"Tuesday\": [\"11AM-9PM\"], \"Wednesday\": [\"11AM-9PM\"], \"Thursday\": [\"11AM-9PM\"], \"Friday\": [\"11AM-9PM\"], \"Saturday\": [\"9AM-10PM\"], \"Sunday\": [\"9AM-6PM\"]}"
+}

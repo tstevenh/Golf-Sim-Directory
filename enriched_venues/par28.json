@@ -1,0 +1,91 @@
+{
+  "name": "Par28",
+  "address": "23 S Broadway Unit 10, Salem, NH 03079",
+  "city": "Salem",
+  "region": "New Hampshire",
+  "country": "US",
+  "latitude": 42.77931,
+  "longitude": -71.227295,
+  "phone": "+16034587078",
+  "website": "https://par28.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770206431/golf_simulators/par28_com_ChIJNXkfvYir44kREr4yrxVvgoo.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Par28/@42.7793103,-71.2272955,14z/data=!4m8!1m2!2m1!1sPar28!3m4!1s0x89e3ab88bd1f7935:0x8a826f15af32be12!8m2!3d42.7793103!4d-71.2272955",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJNXkfvYir44kREr4yrxVvgoo",
+  "email": "info@par28.com",
+  "venue_type": "sim_bar",
+  "about": "Par28 is a multi-activity venue featuring indoor golf simulators and axe throwing, complemented by a full-service restaurant and bar. The facility utilizes TrackMan technology across seven bays, providing a premium golf simulation experience with over 200 courses to choose from. Pricing is structured by bay hour, with varying rates for early bird, off-peak, and peak times, and includes an option for club rentals. The venue is designed to accommodate a wide range of activities, from individual practice and leagues to corporate events and casual outings.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|leagues|premium_tech|date_night|family_friendly|late_night",
+  "vibe_tags": "sports_bar|family_fun_center|tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Premium TrackMan technology for realistic ball and club tracking",
+    "Extensive library of over 200 world-famous golf courses",
+    "Flexible hourly bay rental system with various pricing tiers",
+    "On-site restaurant and bar for post-game food and drinks",
+    "Coaching and leagues available for skill improvement and competition"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full-service restaurant with coal-fired pizza menu available for dine-in or online ordering"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available at the 34-seated bar area"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "TrackMan",
+      "model": "iO",
+      "notes": "High-end radar-based launch monitor with drone-mapped course rendering"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 7,
+  "booking_url": "http://Par28.reservewithrex.com",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 35,
+  "price_range_max_local": 70,
+  "currency": "USD",
+  "walk_ins_allowed": false,
+  "coaching_available": true,
+  "private_rooms_count": 0,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|leagues|coaching_available",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, club rentals are available for $10 per session, but you are welcome to bring your own."
+    },
+    {
+      "question": "Can I bring outside food or drinks?",
+      "answer": "No outside food or drink is allowed, as the venue offers its own full-service restaurant and bar."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Time varies by group size and pace, but typically 18 holes can be completed in 2-3 hours depending on simulator availability and group size."
+    },
+    {
+      "question": "Is Par28 kid-friendly?",
+      "answer": "Yes, the venue is family-friendly and welcomes children, with activities suitable for various age groups including golf, axe throwing, and dining."
+    }
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-11PM\"], \"Friday\": [\"9AM-12AM\"], \"Saturday\": [\"9AM-12AM\"], \"Sunday\": [\"9AM-8PM\"]}"
+}

@@ -1,0 +1,81 @@
+{
+  "name": "X-Golf Kalamazoo",
+  "address": "4600 W Main St, Kalamazoo, MI 49006",
+  "city": "Kalamazoo",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 42.297015,
+  "longitude": -85.645799,
+  "phone": "+12692163658",
+  "website": "https://playxgolf.com/locations/kalamazoo/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770199003/golf_simulators/playxgolf_com_ChIJJbqqzZJ3F4gRPyNGXYHdSaE.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/X-Golf+Kalamazoo/@42.297014999999995,-85.6457994,14z/data=!4m8!1m2!2m1!1sX-Golf+Kalamazoo!3m4!1s0x88177792cdaaba25:0xa149dd815d46233f!8m2!3d42.297014999999995!4d-85.6457994",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJJbqqzZJ3F4gRPyNGXYHdSaE",
+  "email": "info@xgolfkalamazoo.com",
+  "venue_type": "sim_bar",
+  "about": "X-Golf Kalamazoo is a modern indoor golf simulator venue that provides a technologically advanced and social experience for golfers. The facility features six state-of-the-art simulators equipped with camera systems, infrared lasers, impact sensors, and advanced gaming software, offering high accuracy and a wide selection of virtual courses. Pricing is structured per bay per hour, with rates varying by day and time, and the venue is designed to accommodate both casual play and serious training, making it suitable for individuals, groups, and corporate events.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|club_rentals|coaching_available",
+  "vibe_tags": "upscale_lounge|sports_bar|tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams|solo_practice|juniors_youth",
+  "why_golfers_like_it": [
+    "Highly accurate simulator technology with real-time ball and club tracking",
+    "Flexible pricing model accommodating both casual and frequent players",
+    "Full-service lounge and bar with food options for a complete social experience"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Appetizers, snacks, pizzas, and shareable bites available; menu includes craft beer and full liquor options."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service with beer by the glass or on tap, cocktails, and wines."
+    }
+  ],
+  "simulator_hardware": "X-Golf (camera systems, infrared lasers, impact sensors)",
+  "simulator_software": "X-Golf proprietary software",
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "auto_putt",
+  "lefty_friendly": true,
+  "bay_count_total": 6,
+  "booking_url": "https://xgolfkalamazoo.as.me/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 40,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|club_fitting|leagues|wifi",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need clubs?",
+      "answer": "Club rentals are available, and you can use your own clubs. The simulator provides tees automatically."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "Outside food and drinks are not mentioned; the venue offers a full bar and food menu."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "It takes about 1 hour for an individual to play 18 holes; additional players may require extra time depending on skill level."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue welcomes children of all ages and offers junior lessons and development packages."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"8:30AM-11PM\"], \"Tuesday\": [\"8:30AM-11PM\"], \"Wednesday\": [\"8:30AM-11PM\"], \"Thursday\": [\"8:30AM-11PM\"], \"Friday\": [\"8:30AM-12AM\"], \"Saturday\": [\"8AM-12AM\"], \"Sunday\": [\"8AM-11PM\"]}"
+}

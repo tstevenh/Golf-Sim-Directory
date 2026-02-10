@@ -1,0 +1,91 @@
+{
+  "name": "Fore One Nine",
+  "address": "2300 Bright Rd, Findlay, OH 45840",
+  "city": "Findlay",
+  "region": "Ohio",
+  "country": "US",
+  "latitude": 41.0669,
+  "longitude": -83.617674,
+  "phone": "+11779073137",
+  "website": "https://foreonenine.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770211003/golf_simulators/foreonenine_com_ChIJg-TetBGrPogReksWY3BTKc4.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Fore+One+Nine/@41.0668996,-83.6176739,14z/data=!4m8!1m2!2m1!1sFore+One+Nine!3m4!1s0x883eab11b4dee483:0xce29537063164b7a!8m2!3d41.0668996!4d-83.6176739",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJg-TetBGrPogReksWY3BTKc4",
+  "email": "staff@foreonenine.com",
+  "venue_type": "sim_bar",
+  "about": "Fore One Nine is a state-of-the-art indoor golf facility located in Findlay, OH, offering a 24/7 golf experience. The venue utilizes advanced GSPro software and Foresight technology to provide true-to-life accuracy and access to over 1,500 meticulously designed courses from around the globe. Guests can enjoy a casual and welcoming atmosphere with the ability to bring their own food and drinks, making it suitable for various occasions.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|kids_friendly|corporate_events|leagues|premium_tech|late_night|coaching_available|family_friendly",
+  "vibe_tags": "casual|welcoming|modern|family_fun_center|tech_lab",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "24/7 access allows for golfing at any hour",
+    "Over 1,500 courses available including famous PGA stops",
+    "GSPro and Foresight technology provide realistic simulation",
+    "BYOB policy for a relaxed and personalized experience",
+    "Family-friendly with Owlbert's Skill Zone for kids"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Guests can bring their own favorite food to the facility"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Every bay is BYOB-friendly; guests can bring their own drinks"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": "unknown",
+      "notes": "Utilizes Foresight technology for accurate simulation"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 12,
+  "booking_url": "https://foreonenine.golfbooking.us/calendar.php",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|kitchen_food|tv_sports|wifi|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need clubs?",
+      "answer": "Yes, you will need to bring your own golf clubs to play at Fore One Nine."
+    },
+    {
+      "question": "Can I bring food and drinks?",
+      "answer": "Yes, every bay at Fore One Nine is BYOB-friendly, and guests can bring their own food and drinks."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes varies depending on the simulator software and course, but it typically ranges from 2-3 hours."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, Fore One Nine offers Owlbert's Skill Zone, an interactive space designed for kids and families to learn and play together."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

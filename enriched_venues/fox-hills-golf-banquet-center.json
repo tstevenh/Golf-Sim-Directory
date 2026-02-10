@@ -1,0 +1,90 @@
+{
+  "name": "Fox Hills Golf & Banquet Center",
+  "address": "8768 N Territorial Rd, Plymouth, MI 48170",
+  "city": "Plymouth",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 42.362859,
+  "longitude": -83.593107,
+  "phone": "+17344537272",
+  "website": "https://www.foxhills.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770258132/golf_simulators/www_foxhills_com_ChIJjWOjHaaqPIgR12NC271dU8E.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Fox+Hills+Golf+%26+Banquet+Center/@42.3628588,-83.5931071,14z/data=!4m8!1m2!2m1!1sFox+Hills+Golf+%26+Banquet+Center!3m4!1s0x883caaa61da3638d:0xc1535dbddb4263d7!8m2!3d42.3628588!4d-83.5931071",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJjWOjHaaqPIgR12NC271dU8E",
+  "email": "chatfield@heritagegolfgroup.com",
+  "venue_type": "sim_bar|training_studio|country_club",
+  "about": "Fox Hills Golf & Banquet Center is an upscale golf and event destination in Plymouth, Michigan, featuring 500 acres of scenic countryside with 63 holes of golf across three courses and three banquet venues. It offers a comprehensive golf experience including a championship-level Golden Fox course, a beginner-friendly Strategic Fox par-3 course, and the Fox Classic. The venue also houses a Golf Performance Center equipped with eight Trackman simulators for year-round play and detailed swing analysis. The center provides professional instruction, leagues, and programs for all skill levels, alongside event hosting capabilities for weddings, corporate functions, and social events of various sizes.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|leagues|coaching_available|premium_tech|families|large_groups",
+  "vibe_tags": "upscale_lounge|sports_bar|family_fun_center|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "State-of-the-art Trackman simulators with detailed swing analysis",
+    "Diverse golf courses catering to all skill levels from championship to par-3",
+    "Year-round indoor play unaffected by weather conditions"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Casual clubhouse fare and catering menus for events, emphasizing seasonal ingredients"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full-service bar with craft beers, fine wines, signature cocktails, and non-alcoholic options"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Eight cutting-edge simulators featuring advanced radar and camera tracking"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 8,
+  "booking_url": "https://yourgolfbooking.com/venues/fox-hills-golf/booking/bays",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 45,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 5.0,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue recommends bringing your own clubs for the best experience, though rentals may be available."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drink are not allowed, but the venue offers a full-service bar and dining options with seasonal cuisine."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "18-hole simulator sessions typically take about 2-3 hours depending on group size and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue offers junior programs and camps for children as young as four, with a par-3 course suitable for families and beginners."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.4,
+  "opening_hours": "{\"Monday\": [\"7AM-9PM\"], \"Tuesday\": [\"7AM-9PM\"], \"Wednesday\": [\"7AM-9PM\"], \"Thursday\": [\"7AM-9PM\"], \"Friday\": [\"7AM-9PM\"], \"Saturday\": [\"7AM-9PM\"], \"Sunday\": [\"7AM-9PM\"]}"
+}

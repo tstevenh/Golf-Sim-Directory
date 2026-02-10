@@ -1,0 +1,92 @@
+{
+  "name": "Star City Golf Club",
+  "address": "1330 Courtland Rd NE, Roanoke, VA 24012",
+  "city": "Roanoke",
+  "region": "Virginia",
+  "country": "US",
+  "latitude": 37.284162,
+  "longitude": -79.934743,
+  "phone": "+15405124542",
+  "website": "https://starcitygolfclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770219265/golf_simulators/starcitygolfclub_com_ChIJQw9x6SENTYgRdeACVzlPaNg.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Star+City+Golf+Club/@37.2841618,-79.9347432,14z/data=!4m8!1m2!2m1!1sStar+City+Golf+Club!3m4!1s0x884d0d21e9710f43:0xd8684f395702e075!8m2!3d37.2841618!4d-79.9347432",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJQw9x6SENTYgRdeACVzlPaNg",
+  "email": "info@starcitygolfclub.com",
+  "venue_type": "sim_bar",
+  "about": "Star City Golf Club offers a premier indoor golf experience in Roanoke, Virginia, featuring 6 premium, extra-wide bays equipped with Uneekor Eye XR launch monitors that capture 19 data points. The venue provides year-round play for golfers of all skill levels, with state-of-the-art technology offering detailed insights into ball speed, spin rate, distance, club path, and face angle. Golfers can enjoy casual fun or serious practice while pairing their round with food and drinks from the in-house bar, making it suitable for both individual sessions and social outings. The atmosphere is designed to accommodate players at their own pace, eliminating common frustrations associated with traditional golf courses, and the facility is open daily from 10am to 10pm for flexible scheduling.",
+  "tags": "food_and_drinks|premium_tech|serious_golfers|beginner_friendly|corporate_events|leagues|club_rentals|coaching_available|late_night",
+  "vibe_tags": "sports_bar|tech_lab|casual|welcoming|modern",
+  "who_its_for": "serious_golfers|beginners|corporate_teams|families|solo_practice",
+  "why_golfers_like_it": [
+    "Premium Uneekor Eye XR technology with 19 data points for precise feedback",
+    "Play at your own pace without being rushed or held up by other groups",
+    "Indoor facility allows for year-round play regardless of weather conditions",
+    "Full bar and food service available to enhance the golfing experience",
+    "No lost balls, making practice and play more convenient and cost-effective"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Bar bites available while playing a round"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Cold beer and cocktails available at the bar"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "Eye XR",
+      "notes": "Premium launch monitor capturing 19 data points including ball speed, spin rate, distance, club path and face angle"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "overhead_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 6,
+  "booking_url": "https://app.whoosh.io/patron/club/star-city-golf-club",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": null,
+  "price_range_max_local": null,
+  "currency": "USD",
+  "walk_ins_allowed": null,
+  "coaching_available": true,
+  "private_rooms_count": null,
+  "max_group_size_per_bay": null,
+  "amenities_list": "full_bar|kitchen_food|tv_sports|leagues|coaching_available|food_and_drinks|premium_tech|late_night",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own golf clubs?",
+      "answer": "The venue doesn't specify, but it's standard for golfers to bring their own clubs when using simulator bays."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue offers a full bar and food service, but it doesn't specify if outside food or drinks are allowed."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The venue mentions players can 'play at your pace' but doesn't specify exact timing for 18 holes."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "While not explicitly stated, the casual atmosphere and ability to play at your own pace suggest it could be suitable for families with older children."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-10PM\"], \"Saturday\": [\"10AM-10PM\"], \"Sunday\": [\"10AM-10PM\"]}"
+}

@@ -1,0 +1,96 @@
+{
+  "name": "The Country Club at Woodloch Springs",
+  "address": "2 Woodloch Springs, Hawley, PA 18428",
+  "city": "Hawley",
+  "region": "Pennsylvania",
+  "country": "US",
+  "latitude": 41.495604,
+  "longitude": -75.10509,
+  "phone": "+15706858102",
+  "website": "https://www.woodloch.com/golf-spa/golf/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770206346/golf_simulators/www_woodloch_com_ChIJEU9k94CuxIkRWSsxdV-dWhg.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Country+Club+at+Woodloch+Springs/@41.495604,-75.10508949999999,14z/data=!4m8!1m2!2m1!1sThe+Country+Club+at+Woodloch+Springs!3m4!1s0x89c4ae80f7644f11:0x185a9d5f75312b59!8m2!3d41.495604!4d-75.10508949999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJEU9k94CuxIkRWSsxdV-dWhg",
+  "email": "golf@woodloch.com",
+  "venue_type": "hotel_resort",
+  "about": "The Country Club at Woodloch Springs is an 18-hole, par-72 championship golf course located within a full-service resort in the Pocono Mountains. It features a renowned 16-acre practice facility and a state-of-the-art indoor performance studio equipped with GCQuad and FullSwing launch monitors for lessons and club fittings. The venue operates as a semi-private, resort-based golf experience that emphasizes hospitality and service, complemented by a 4.5-star Golf Digest rating. While the outdoor course is seasonal, the indoor simulator provides year-round access for practice and play.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|coaching_available|premium_tech|leagues|juniors_youth|tourists_travelers|private_rooms",
+  "vibe_tags": "private_luxury|community_club|family_fun_center",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|tourists_travelers",
+  "why_golfers_like_it": [
+    "Premium GCQuad and FullSwing launch monitors for detailed swing and ball data",
+    "16-acre practice facility with a championship course for comprehensive skill development",
+    "Resort setting with full hospitality services, including a golf grille and social events",
+    "Signature 14th hole offers a dramatic 220-yard carry over Hells Gate Gorge"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full-service food & beverage available at the golf grille and resort restaurants"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Cocktails and drinks available at the golf grille and resort bars"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "GCQuad",
+      "model": null,
+      "notes": "Latest addition for swing and ball tracking, providing accurate data for lessons and fittings"
+    },
+    {
+      "brand": "FullSwing",
+      "model": null,
+      "notes": "Radar-based launch monitor for club distance comparison and driver analysis"
+    }
+  ],
+  "simulator_software": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "mixed",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://golf.woodloch.com/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.7,
+  "rating_facility_comfort": 4.3,
+  "rating_value_for_money": 4.1,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can bring your own clubs, but club rentals and certified club fittings are available on-site using advanced launch monitor technology."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drinks are not mentioned, but the venue offers a full-service golf grille and resort dining options."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The 18-hole championship course plays 6,579 yards with varying challenges; typical round time depends on pace of play and tee time availability."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, as a family resort, the venue offers junior golf programs and family-friendly amenities and events."
+    }
+  ],
+  "rating_overall": 4.4,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"9AM-5PM\"], \"Wednesday\": [\"9AM-5PM\"], \"Thursday\": [\"9AM-5PM\"], \"Friday\": [\"9AM-5PM\"], \"Saturday\": [\"9AM-5PM\"], \"Sunday\": [\"9AM-5PM\"]}"
+}

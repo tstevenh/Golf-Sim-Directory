@@ -1,0 +1,94 @@
+{
+  "name": "X-Golf Schaumburg",
+  "address": "1100 American Ln, Schaumburg, IL 60173",
+  "city": "Schaumburg",
+  "region": "Illinois",
+  "country": "US",
+  "latitude": 42.047967,
+  "longitude": -88.050941,
+  "phone": "+18473801848",
+  "website": "https://www.xgolf-schaumburg.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770215234/golf_simulators/www_xgolf-schaumburg_com_ChIJ4StV9N2vD4gRV4i7QXcP6yU.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/X-Golf+Schaumburg/@42.0479669,-88.05094079999999,14z/data=!4m8!1m2!2m1!1sX-Golf+Schaumburg!3m4!1s0x880fafddf4552be1:0x25eb0f7741bb8857!8m2!3d42.0479669!4d-88.05094079999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ4StV9N2vD4gRV4i7QXcP6yU",
+  "email": "info@xgolf-schaumburg.com",
+  "venue_type": "sim_bar",
+  "about": "X-Golf Schaumburg is a golf simulator venue focused on providing accessible indoor golf experiences with a full-service bar and restaurant. The facility uses high-end simulator technology, including automatic ball collection and teeing systems, to offer realistic play without needing physical tees. Pricing is structured on a per-bay-hour basis, with weekday and weekend rates available, alongside various membership options for regular players. The venue hosts leagues, private events, and welcomes both beginners and experienced golfers, making it suitable for a wide range of golfing needs.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|club_rentals|coaching_available",
+  "vibe_tags": "casual|welcoming|modern",
+  "who_its_for": "beginners|families|corporate_teams|solo_practice|juniors_youth",
+  "why_golfers_like_it": [
+    "Automatic ball collection and teeing system eliminates manual setup",
+    "Hosts competitive leagues with handicaps for all skill levels",
+    "Offers PGA coaching services for beginners",
+    "Full-service bar and restaurant on-site",
+    "Flexible membership options for regular play"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "On-site kitchen with a full food menu available"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service with beer, wine, and cocktails"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "X-Golf",
+      "model": "Simulator System",
+      "notes": "High-accuracy simulator with automatic ball collection and teeing"
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "auto_putt",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://clients.uschedule.com/xgolfschaumburg/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 45,
+  "price_range_max_local": 65,
+  "currency": "USD",
+  "walk_ins_allowed": "yes",
+  "coaching_available": true,
+  "private_rooms_count": 0,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "No, rental clubs are available, but bringing your own clubs is encouraged."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No outside food or drinks are allowed, as the venue has an on-site kitchen and bar."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Generally, it takes 1 hour for an individual player to play 18 holes. Additional players add 1 hour per person."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, children of all ages are welcome at X-Golf Schaumburg."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"8AM-12AM\"], \"Saturday\": [\"8AM-12AM\"], \"Sunday\": [\"8AM-9PM\"]}"
+}

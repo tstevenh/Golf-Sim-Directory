@@ -1,0 +1,89 @@
+{
+  "name": "X-Golf Champlin",
+  "address": "11351 Aquila Dr N # 101, Champlin, MN 55316",
+  "city": "Champlin",
+  "region": "Minnesota",
+  "country": "US",
+  "latitude": 45.15875,
+  "longitude": -93.38968,
+  "phone": "+17639994615",
+  "website": "http://xgolfchamplin.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770221360/golf_simulators/xgolfchamplin_com_ChIJi7lEUik5s1IRABFn0KkVkNA.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/X-Golf+Champlin/@45.1587503,-93.3896803,14z/data=!4m8!1m2!2m1!1sX-Golf+Champlin!3m4!1s0x52b339295244b98b:0xd09015a9d0671100!8m2!3d45.1587503!4d-93.3896803",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJi7lEUik5s1IRABFn0KkVkNA",
+  "email": "info@xgolfchamplin.com",
+  "venue_type": "sim_bar",
+  "about": "X-Golf Champlin is a modern indoor golf facility featuring 6 state-of-the-art simulators, offering a technologically advanced golf experience in a social setting. The venue combines premium golf simulation with full bar and food service, making it suitable for both serious practice and casual entertainment. Pricing is based on bay rental, with rates varying by time of day and available through various membership options or pay-per-play bookings.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|club_rentals|coaching_available|sports_bar",
+  "vibe_tags": "sports_bar|tech_lab|community_club|casual",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Premium simulator technology combining camera systems, infrared lasers, and impact sensors for highly accurate ball tracking",
+    "Flexible pricing options including hourly rates, memberships, and seasonal promotions",
+    "Social atmosphere with full bar, food service, and event space suitable for groups of up to 60 guests"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen with food menu available"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full liquor bar and craft beer selection"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "X-Golf",
+      "model": "Simulator",
+      "notes": "State-of-the-art indoor golf simulator system"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 6,
+  "booking_url": "https://clients.uschedule.com/xgolfchamplin/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 40,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|leagues|wifi|club_fitting|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, club rentals are available on-site if needed."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, outside food and drinks are not allowed. The venue has a full kitchen and bar available."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Each individual can finish 18 holes in about one hour. For multiple players, allow 1 hour per person added to play 18 holes."
+    },
+    {
+      "question": "Is this kid-friendly?",
+      "answer": "Yes, children of all ages are welcome."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-11PM\"], \"Friday\": [\"9AM-11PM\"], \"Saturday\": [\"8AM-11PM\"], \"Sunday\": [\"8AM-10PM\"]}"
+}

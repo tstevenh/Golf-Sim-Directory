@@ -1,0 +1,91 @@
+{
+  "name": "UGolf",
+  "address": "2022 S Johns Ave # B, Emmett, ID 83617",
+  "city": "Emmett",
+  "region": "Idaho",
+  "country": "US",
+  "latitude": 43.86076,
+  "longitude": -116.490767,
+  "phone": "+12084061453",
+  "website": "http://ugolfidaho.net/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770225211/golf_simulators/ugolfidaho_net_ChIJj8fSP8IJr1QRg8K_pNV7o9A.png",
+  "google_maps_url": "https://www.google.com/maps/place/UGolf/@43.86076,-116.4907673,14z/data=!4m8!1m2!2m1!1sUGolf!3m4!1s0x54af09c23fd2c78f:0xd0a37bd5a4bfc283!8m2!3d43.86076!4d-116.4907673",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJj8fSP8IJr1QRg8K_pNV7o9A",
+  "email": "joe@ugolfidaho.net",
+  "venue_type": "multi_sport_sim",
+  "about": "UGolf is Emmett's premier indoor golf simulator facility offering state-of-the-art technology and a climate-controlled environment for golfers of all skill levels. The facility operates on 24/7 access with online booking requirements, providing flexible options for both casual practice and serious play. UGolf features TruGolf Apogee launch monitors with advanced infrared sensors and high-speed cameras, delivering precise measurements of clubhead speed, face angle, ball speed, spin rates, and launch angles. Pricing includes hourly rates, monthly passes, and group memberships, with options for individuals to practice on world-renowned courses or enjoy fun mini-games. The venue is ideal for golfers seeking a convenient, year-round practice space with professional-grade technology and the ability to participate in tournaments or receive instruction.",
+  "tags": "beginner_friendly|corporate_events|premium_tech|coaching_available|24_7_access|climate_controlled|famous_courses|mini_games|online_booking|private_luxury",
+  "vibe_tags": "tech_lab|community_club|modern|welcoming",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Premium TruGolf Apogee technology with 0.3-second response time for instant feedback",
+    "24/7 access allows for flexible practice and play schedules",
+    "Access to world-renowned golf courses and mini-games in a climate-controlled environment",
+    "Professional coaching and club fittings available through PXG Teaching Pro",
+    "Online booking system and mobile app for easy session management"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "BYOB (Bring Your Own Food) - No on-site food service mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "BYOB (Bring Your Own Beverage) - No on-site bar service mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "TruGolf",
+      "model": "Apogee",
+      "notes": "Premium launch monitor with advanced infrared sensors and high-speed cameras, ceiling-mounted design requiring no reflective markers"
+    }
+  ],
+  "simulator_software": [
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "infrared_optical",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "gimme_circle|mixed",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "http://ugolfidaho.net/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 200,
+  "currency": "USD",
+  "walk_ins_allowed": false,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|club_fitting|leagues|climate_controlled|24_7_access|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can use your own clubs and balls - no reflective markers or specialized equipment required."
+    },
+    {
+      "question": "Can I bring food and drinks?",
+      "answer": "The venue operates on a BYOB (Bring Your Own Beverage) policy. No on-site food or alcohol service is mentioned."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Time for 18 holes varies by player and group size. The venue offers hourly bookings and mini-games, suggesting typical sessions are flexible to accommodate various formats."
+    },
+    {
+      "question": "Is this kid-friendly?",
+      "answer": "Yes, the venue is kid-friendly with mentions of mini-games for children and family atmosphere, making it suitable for golfers of all skill levels including juniors."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

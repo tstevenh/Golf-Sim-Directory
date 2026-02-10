@@ -1,0 +1,92 @@
+{
+  "name": "Golf Haus",
+  "address": "8223 S Quebec St Ste L, Centennial, CO 80112",
+  "city": "Centennial",
+  "region": "Colorado",
+  "country": "US",
+  "latitude": 39.56687,
+  "longitude": -104.907416,
+  "phone": "+17207495189",
+  "website": "https://golfhaus.co/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770215671/golf_simulators/golfhaus_co_ChIJrd0s9F-FbIcRqQ0Uwa_Mo94.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Golf+Haus/@39.5668702,-104.9074163,14z/data=!4m8!1m2!2m1!1sGolf+Haus!3m4!1s0x876c855ff42cddad:0xdea3ccafc1140da9!8m2!3d39.5668702!4d-104.9074163",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJrd0s9F-FbIcRqQ0Uwa_Mo94",
+  "email": "info@golfhaus.co",
+  "venue_type": "sim_bar",
+  "about": "Golf Haus is an indoor golf lounge that blends high-end GOLFZON simulator technology with a casual, welcoming atmosphere. The venue offers premium golf experiences without stuffy country club rules, featuring climate-controlled bays, a full bar, and an environment suitable for all skill levels. Pricing is based on hourly bay rentals, with options for solo play, group sessions, and memberships. It is designed for those seeking a social golf experience combined with good drinks and a relaxed vibe.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|kids_friendly|corporate_events|leagues|premium_tech|private_rooms|coaching_available|family_friendly",
+  "vibe_tags": "casual|welcoming|modern|sports_bar|community_club",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Premium GOLFZON simulators with instant feedback and realistic ball tracking",
+    "Full bar and food options available in a relaxed, non-intimidating environment",
+    "Family-friendly and welcoming atmosphere for all skill levels",
+    "Flexible booking with walk-ins allowed and no strict dress code",
+    "Advanced tech features like moving swing plates and adjustable lies"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen and food service available, suitable for groups and events"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with craft beers, cocktails, and daily happy hour specials"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "GOLFZON",
+      "model": "Premium Simulator",
+      "notes": "High-end simulators with moving swing plates, adjustable lies, and auto-tee technology"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": 5,
+  "booking_url": "https://playgolfhaus.as.me/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 75,
+  "price_range_max_local": 120,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|leagues|private_party_room|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.5,
+  "rating_value_for_money": 4.2,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, house club sets are available for use, but you can bring your own if preferred. Left-handed clubs are also provided."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No outside food or drinks are allowed. The venue offers a full bar and kitchen with food options available for purchase."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "18 holes typically take 1-2 hours depending on group size and pace of play. The simulators allow for efficient gameplay with auto-tee technology."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Golf Haus is family-friendly and welcomes juniors. They offer junior pricing and have hosted events like Ladies' night and youth golf programs."
+    }
+  ],
+  "simulator_software": [
+    "GOLFZON"
+  ],
+  "rating_overall": 4.5,
+  "opening_hours": "{\"Monday\": [\"9AM-11PM\"], \"Tuesday\": [\"9AM-11PM\"], \"Wednesday\": [\"9AM-11PM\"], \"Thursday\": [\"9AM-11PM\"], \"Friday\": [\"9AM-11PM\"], \"Saturday\": [\"9AM-11PM\"], \"Sunday\": [\"9AM-11PM\"]}"
+}

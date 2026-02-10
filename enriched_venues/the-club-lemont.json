@@ -1,0 +1,84 @@
+{
+  "name": "The Club Lemont",
+  "address": "46 Ed Bossert St, Lemont, IL 60439",
+  "city": "Lemont",
+  "region": "Illinois",
+  "country": "US",
+  "latitude": 41.675017,
+  "longitude": -88.003244,
+  "phone": "+16302779006",
+  "website": "https://www.theclublemont.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770235427/golf_simulators/www_theclublemont_com_ChIJ9zKubfFFDogRcMymMml4Ils.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Club+Lemont/@41.6750167,-88.0032444,14z/data=!4m8!1m2!2m1!1sThe+Club+Lemont!3m4!1s0x880e45f16dae32f7:0x5b22786932a6cc70!8m2!3d41.6750167!4d-88.0032444",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ9zKubfFFDogRcMymMml4Ils",
+  "email": "leagues@theclublemont.com",
+  "venue_type": "sim_bar",
+  "about": "The Club Lemont is an indoor golf simulator venue and cocktail bar. It offers a social environment for golf practice, dining, and league play. The venue features simulator bays available for hourly rental and various membership tiers. Food and beverages are served in-house with a focus on local craft beers and cocktails. It is designed for both casual golfers and those looking to join structured leagues.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|club_rentals|community_club|speakeasy|tech_lab",
+  "vibe_tags": "sports_bar|casual|welcoming|modern|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Combines golf simulation with a full-service cocktail bar for a complete entertainment experience",
+    "Offers structured leagues with handicapped scoring and cash prizes for competitive play",
+    "Multiple membership options available for regulars, including off-peak peak hours and unlimited access",
+    "Allows walk-ins and online booking for flexible scheduling"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen available with a full menu"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "12 local craft beer selections on draft and a full cocktail program"
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://theclublemont.golfoclock.com/reserve",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": false,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|kitchen_food|tv_sports|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you are expected to bring your own golf clubs to use in the simulators."
+    },
+    {
+      "question": "Can I bring my own food or drink?",
+      "answer": "No, outside food and drink are not allowed as The Club Lemont has a full kitchen and bar."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes depends on the simulator software and your pace of play, but it typically takes between 1.5 to 2 hours."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "The venue is primarily an adult-focused sports bar and cocktail establishment, making it not ideal for children."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"11AM-10PM\"], \"Wednesday\": [\"11AM-10PM\"], \"Thursday\": [\"11AM-10PM\"], \"Friday\": [\"11AM-11PM\"], \"Saturday\": [\"9:30AM-11PM\"], \"Sunday\": [\"9:30AM-9PM\"]}"
+}

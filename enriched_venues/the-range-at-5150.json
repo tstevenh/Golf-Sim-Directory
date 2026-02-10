@@ -1,0 +1,92 @@
+{
+  "name": "The Range at 5150",
+  "address": "455 Thelma Dr, Casper, WY 82609",
+  "city": "Casper",
+  "region": "Wyoming",
+  "country": "US",
+  "latitude": 42.847189,
+  "longitude": -106.273729,
+  "phone": "+13079005150",
+  "website": "https://therangeat5150.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770236909/golf_simulators/therangeat5150_com_ChIJzbpEja67YIcR6D5xch9nTYA.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Range+at+5150/@42.8471895,-106.2737286,14z/data=!4m8!1m2!2m1!1sThe+Range+at+5150!3m4!1s0x8760bbae8d44bacd:0x804d671f72713ee8!8m2!3d42.8471895!4d-106.2737286",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJzbpEja67YIcR6D5xch9nTYA",
+  "venue_type": "sim_bar",
+  "about": "The Range at 5150 is a family-friendly sports bar and grill that combines indoor golf with a full-service dining experience. The venue is equipped with 4 HD Golf Simulators, 9 TVs, a full kitchen, and a full bar, providing a space to eat, golf, drink, and watch games. It also features a package liquor store. The space is available for private parties, company gatherings, and special occasions, designed with a blend of sports and entertainment in mind.",
+  "tags": "food_and_drinks|family_friendly|corporate_events|leagues|premium_tech|kid_friendly|sports_bar|group_friendly",
+  "vibe_tags": "sports_bar|family_fun_center|casual|welcoming|modern",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "State-of-the-art HD Golf Simulators for realistic play on renowned courses",
+    "Combines golf with food, drinks, and game-watching for a complete entertainment experience",
+    "Multi-sport options are available in the simulators"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Scratch-made food from Gringo, including items like smash burgers and brisket tacos. Kitchen hours may vary."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar available on-site, plus an adjacent package liquor store with beer, wine, spirits, and local favorites."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "HD Golf",
+      "model": "Simulator",
+      "notes": "4 simulators available with state-of-the-art technology"
+    }
+  ],
+  "simulator_so": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 4,
+  "booking_url": "https://therangeat5150.as.me/schedule.php",
+  "pricing_model": "per_person_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|kitchen_food|tv_sports|club_rentals|leagues|private_party_room|wifi",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "While it's not explicitly stated, it is standard practice for golf simulator venues that players bring their own clubs. You may be able to rent clubs, but this should be confirmed directly with The Range."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, outside food and drinks are not permitted as The Range has its own full kitchen and bar. However, you can purchase food and beverages on-site."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes can vary, but it typically takes 1.5 to 2 hours per person on a simulator. This duration depends on the pace of play and the number of people in your bay."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "Yes, The Range is explicitly described as a 'family friendly Sports Bar & Grill w/ Indoor Golf,' making it a suitable environment for children."
+    }
+  ],
+  "simulator_software": [
+    "HD Golf"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"3-10PM\"], \"Tuesday\": [\"3-10PM\"], \"Wednesday\": [\"11AM-10PM\"], \"Thursday\": [\"11AM-10PM\"], \"Friday\": [\"11AM-11PM\"], \"Saturday\": [\"11AM-11PM\"], \"Sunday\": [\"11AM-9PM\"]}"
+}

@@ -1,0 +1,90 @@
+{
+  "name": "Hawk's View Golf Club",
+  "address": "7377 Krueger Rd, Lake Geneva, WI 53147",
+  "city": "Lake Geneva",
+  "region": "Wisconsin",
+  "country": "US",
+  "latitude": 42.620958,
+  "longitude": -88.426261,
+  "phone": "+12623489900",
+  "website": "https://www.hawksviewgolfclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770264174/golf_simulators/www_hawksviewgolfclub_com_ChIJoZAMqnWMBYgRqoSujal9_DY.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Hawk%27s+View+Golf+Club/@42.6209578,-88.426261,14z/data=!4m8!1m2!2m1!1sHawk%27s+View+Golf+Club!3m4!1s0x88058c75aa0c90a1:0x36fc7da98dae84aa!8m2!3d42.6209578!4d-88.426261",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJoZAMqnWMBYgRqoSujal9_DY",
+  "venue_type": "country_club",
+  "about": "Hawk's View Golf Club is a premier golf destination in Lake Geneva, Wisconsin, featuring both outdoor courses and an indoor golf simulator facility. The venue offers a championship 18-hole course at Como Crossings, a family-friendly Par 3 course at Barn Hollow, and a state-of-the-art indoor simulator for year-round play. Their indoor golf simulator uses ProTee VX Launch Monitor technology with GSPro software, allowing players to access over 150 championship courses. The club also provides Callaway club fittings, banquet and event spaces, and is known for its Friday Fish Fry at the Tail Feathers Bar & Grill.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|premium_tech|private_rooms|club_rentals|coaching_available|family_friendly|large_groups",
+  "vibe_tags": "community_club|upscale_lounge|family_fun_center",
+  "who_its_for": "beginners|families|corporate_teams|serious_golfers|tourists_travelers",
+  "why_golfers_like_it": [
+    "Year-round golf access with state-of-the-art ProTee VX simulator technology",
+    "150+ championship courses available through GSPro software",
+    "On-site Callaway club fitting services by certified professionals",
+    "Family-friendly atmosphere with multiple course options",
+    "Comprehensive banquet and event facilities"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen service available; famous Friday Fish Fry served weekly"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Bar & grill service available at Tail Feathers"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "ProTee",
+      "model": "VX",
+      "notes": "State-of-the-art launch monitor with ball and club tracking"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.hawksviewgolfclub.com/golf/simulator",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 39,
+  "price_range_max_local": 49,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|kitchen_food|pro_shop|club_fitting|private_party_room|ada_accessible|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can use your own clubs or the venue has club fitting services available. Callaway club fittings can be booked through their website."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue has a full kitchen and bar (Tail Feathers Bar & Grill) available for food and beverage service. BYOB policies are not specified."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "A typical 18-hole round for a foursome takes about 2.5 to 3 hours on Barn Hollow Par 3 course. For the simulator, 18 holes typically takes 1 hour per player."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Hawk's View Golf Club offers junior golf programs and has the Barn Hollow Par 3 course which is described as family-friendly."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-5PM\"], \"Tuesday\": [\"9AM-7PM\"], \"Wednesday\": [\"9AM-7PM\"], \"Thursday\": [\"9AM-7PM\"], \"Friday\": [\"9AM-8PM\"], \"Saturday\": [\"8AM-5PM\"], \"Sunday\": [\"8AM-3PM\"]}"
+}

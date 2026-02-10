@@ -1,0 +1,91 @@
+{
+  "name": "Whole Golf",
+  "address": "799 Denison Ct Suite 100, Bloomfield Hills, MI 48302",
+  "city": "Bloomfield Hills",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 42.607003,
+  "longitude": -83.289571,
+  "phone": "+12482974457",
+  "website": "https://wholegolfmi.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770200562/golf_simulators/wholegolfmi_com_ChIJrx1pPJ-_JIgRlJk-cN-7Gd8.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Whole+Golf/@42.6070029,-83.2895712,14z/data=!4m8!1m2!2m1!1sWhole+Golf!3m4!1s0x8824bf9f3c691daf:0xdf19bbdf703e9994!8m2!3d42.6070029!4d-83.2895712",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJrx1pPJ-_JIgRlJk-cN-7Gd8",
+  "email": "wholegolfmi@gmail.com",
+  "venue_type": "training_studio",
+  "about": "Whole Golf Michigan is an indoor golf training facility that combines PGA instruction with advanced simulator technology to offer a comprehensive golf improvement experience. The facility uses Foresight Falcon overhead launch monitors with Quadrascopic Technology, providing precise data on ball and club metrics to help golfers analyze and improve their performance. They operate on a membership model with options including family plans for up to four members, youth/college memberships, and a monthly Snowbird Swing Pass, which provides access to simulator bays, discounts on programs, and group practice opportunities. Located inside Bloomfield Tennis & Fitness in Bloomfield Hills, the venue offers a focused training environment with amenities like complimentary coffee, water, and snacks.",
+  "tags": "beginner_friendly|coaching_available|premium_tech|family_friendly|juniors_youth|serious_practice|food_and_drinks|membership_club",
+  "vibe_tags": "industrial_training|community_club|modern|welcoming",
+  "who_its_for": "beginners|serious_golfers|families|juniors_youth|solo_practice",
+  "why_golfers_like_it": [
+    "State-of-the-art Foresight Falcon launch monitors with Quadrascopic Technology for highly accurate ball and club tracking",
+    "Comprehensive membership model includes complimentary simulator time, lessons, and discounts on programs",
+    "Holistic approach combining technical training, fitness, and mental strategy development with PGA instruction"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Complimentary coffee, water, and snacks included with membership"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol mentioned on website"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": "Falcon",
+      "notes": "Overhead launch monitor with Quadrascopic Technology"
+    }
+  ],
+  "simulator_software": [
+    "FSX Play",
+    "FSX 2020",
+    "Fairgrounds"
+  ],
+  "launch_monitor_type": "overhead_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://clients.mindbodyonline.com/classic/mainclass",
+  "pricing_model": "membership_only",
+  "price_range_min_local": 195,
+  "price_range_max_local": 195,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|kitchen_food|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "The website does not specify whether clubs are provided, so it's recommended to bring your own equipment."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "Complimentary coffee, water, and snacks are included with membership. Outside food and drink policies are not specified."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not provide specific timing for completing 18 holes on the simulator."
+    },
+    {
+      "question": "Is this kid-friendly?",
+      "answer": "Yes, Whole Golf offers youth/college memberships for ages 23 and under and participates in PGA Jr. League, making it a kid-friendly facility."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"9AM-4PM\"], \"Wednesday\": [\"9AM-4PM\"], \"Thursday\": [\"9AM-4PM\"], \"Friday\": [\"9AM-4PM\"], \"Saturday\": [\"9AM-2PM\"], \"Sunday\": [\"Closed\"]}"
+}

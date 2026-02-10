@@ -1,0 +1,89 @@
+{
+  "name": "Arizona Golf Exchange & Indoor Golf",
+  "address": "4815 E Speedway Blvd, Tucson, AZ 85712",
+  "city": "Tucson",
+  "region": "Arizona",
+  "country": "US",
+  "latitude": 32.236638,
+  "longitude": -110.889833,
+  "phone": "+15203258526",
+  "website": "http://www.arizonagolfexchange.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770217829/golf_simulators/www_arizonagolfexchange_com_ChIJCw8yO81v1oYRKRtljiH-Uvg.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Arizona+Golf+Exchange+%26+Indoor+Golf/@32.236637699999996,-110.889833,14z/data=!4m8!1m2!2m1!1sArizona+Golf+Exchange+%26+Indoor+Golf!3m4!1s0x86d66fcd3b320f0b:0xf852fe218e651b29!8m2!3d32.236637699999996!4d-110.889833",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJCw8yO81v1oYRKRtljiH-Uvg",
+  "email": "info@arizonagolfexchange.com",
+  "venue_type": "retail_fitting_center",
+  "about": "Arizona Golf Exchange & Indoor Golf is a multi-faceted venue in Tucson offering indoor golf simulation, a pro shop, club repair, and professional club fitting services. The facility features Trackman 4 launch monitors, providing highly accurate data for both practice and play on over 100 virtual courses, including famous locations like St. Andrews and Royal Melbourne. Custom fitting services are a core part of their business, utilizing Trackman technology to help players optimize their equipment for over 20 years. The venue is open Tuesday through Saturday and can be booked online or directly via phone or email.",
+  "tags": "serious_golfers|beginner_friendly|coaching_available|premium_tech|club_rentals|food_and_drinks",
+  "vibe_tags": "tech_lab|retail_environment|welcoming",
+  "who_its_for": "serious_golfers|beginners|coaches_instructors",
+  "why_golfers_like_it": [
+    "State-of-the-art Trackman 4 technology provides accurate ball and club tracking data",
+    "Access to a massive library of virtual golf courses for immersive play",
+    "Professional club fitting services using data-driven technology to optimize equipment"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Non-alcoholic beverages, seltzer waters, and a variety of KIND bars are available for purchase."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "The venue does not sell alcohol."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "State-of-the-art launch monitors used for fittings, practice, and simulation."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://booking.setmore.com/scheduleappointment/18667585-d90d-4c71-b000-add9c90eba20/services",
+  "pricing_model": "mixed",
+  "price_range_min_local": 75,
+  "price_range_max_local": 200,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|pro_shop|club_fitting|wifi",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 4.2,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "It is recommended to bring your own clubs for the best fitting and simulation experience. Club rentals may be available, but this is not explicitly stated."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue sells non-alcoholic beverages and KIND bars. The BYOB policy is not mentioned, so it is safest to assume outside food and drinks are not permitted."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time required to play 18 holes is not specified on the website. It will depend on the simulator's capabilities and the number of players in the bay."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The website does not provide specific information about youth programs, junior clubs, or policies for children, so it is not possible to determine if the venue is kid-friendly."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"9AM-6PM\"], \"Wednesday\": [\"9AM-6PM\"], \"Thursday\": [\"9AM-6PM\"], \"Friday\": [\"9AM-6PM\"], \"Saturday\": [\"9AM-6PM\"], \"Sunday\": [\"Closed\"]}"
+}

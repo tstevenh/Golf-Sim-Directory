@@ -1,0 +1,93 @@
+{
+  "name": "Tap In",
+  "address": "255 Clanton Rd, Charlotte, NC 28217",
+  "city": "Charlotte",
+  "region": "North Carolina",
+  "country": "US",
+  "latitude": 35.194569,
+  "longitude": -80.87518,
+  "phone": "+19802562024",
+  "website": "https://playtapin.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770231072/golf_simulators/playtapin_com_ChIJG6m28nifVogRTIIfoMVBXQ4.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Tap+In/@35.1945687,-80.8751805,14z/data=!4m8!1m2!2m1!1sTap+In!3m4!1s0x88569f78f2b6a91b:0xe5d41c5a01f824c!8m2!3d35.1945687!4d-80.8751805",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJG6m28nifVogRTIIfoMVBXQ4",
+  "venue_type": "sim_bar",
+  "about": "Tap In is Charlotte's premier indoor golf venue located in the Lower South End area, featuring eight tour-level simulators. The venue offers a mix of golf technology, food, and drinks in a sports bar atmosphere suitable for various occasions. It provides standard and premium bays, leagues, lessons, and interactive games. Simulators feature Uneekor Eye XO technology with real-time AI coaching and access to thousands of courses worldwide. The facility can accommodate groups up to 200 guests and also offers mobile simulator rentals for off-site events.",
+  "tags": "food_and_drinks|leagues|corporate_events|date_night|coaching_available|premium_tech|serious_golfers|group_friendly|beginner_friendly|bachelor_parties",
+  "vibe_tags": "sports_bar|modern|community_club|casual",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|large_groups",
+  "why_golfers_like_it": [
+    "Tour-level Uneekor Eye XO precision with real-time AI feedback",
+    "Spacious premium bays with 4K resolution and complimentary clubs",
+    "Convenient location in Charlotte with year-round indoor play",
+    "Food and drinks menu available to complement the golf experience",
+    "Mobile simulator rentals available for off-site events"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen with crowd-pleasing favorites including shareable apps, flatbreads, burgers, salads, and late-night bites"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar available with drinks menu to pair with golf experience"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "Eye XO",
+      "notes": "Tour-level photometric camera system in all bays with real-time swing analysis"
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": 8,
+  "booking_url": "https://passfactory.com/ftbb/28Je3w/?o=m&bn=TapIn",
+  "pricing_model": "per_bay_hour|membership",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, complimentary clubs are provided in all premium bays. Standard bays may require you to bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No outside food or drinks are allowed. The venue has a full kitchen and bar serving food and drinks."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Typical 18-hole rounds take approximately 1-2 hours depending on group size and course selection."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Tap In is kid-friendly and welcomes families. The venue can accommodate children and offers birthday party packages."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"7AM-10PM\"], \"Tuesday\": [\"7AM-10PM\"], \"Wednesday\": [\"7AM-10PM\"], \"Thursday\": [\"7AM-11PM\"], \"Friday\": [\"7AM-11PM\"], \"Saturday\": [\"10AM-11PM\"], \"Sunday\": [\"10AM-9PM\"]}"
+}

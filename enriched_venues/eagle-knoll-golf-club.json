@@ -1,0 +1,93 @@
+{
+  "name": "Eagle Knoll Golf Club",
+  "address": "5757 E Eagle Knoll Dr, Hartsburg, MO 65039",
+  "city": "Hartsburg",
+  "region": "Missouri",
+  "country": "US",
+  "latitude": 38.694829,
+  "longitude": -92.259173,
+  "phone": "+15737614653",
+  "website": "http://www.eagleknoll.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770266381/golf_simulators/www_eagleknoll_com_ChIJL-TDJWCm3IcR_MdOwOirIu0.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Eagle+Knoll+Golf+Club/@38.694828699999995,-92.2591727,14z/data=!4m8!1m2!2m1!1sEagle+Knoll+Golf+Club!3m4!1s0x87dca66025c3e42f:0xed22abe8c04ec7fc!8m2!3d38.694828699999995!4d-92.2591727",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJL-TDJWCm3IcR_MdOwOirIu0",
+  "venue_type": "country_club",
+  "about": "Eagle Knoll Golf Club is a par 72, 18-hole semi-private course situated on 180 acres of Ozark terrain. Designed by Gary Kern, it features rolling zoysia fairways, sloping bent grass greens, and significant elevation changes, offering a strategic and aesthetic challenge. The club is also home to a SkyTrak golf simulator in its clubhouse, providing an indoor option for practice and play. Memberships are available with reciprocal access to other Maxim Golf properties, and the venue hosts events, tournaments, and leagues open to both members and the public.",
+  "tags": "serious_golfers|families|corporate_events|leagues|premium_tech|food_and_drinks|club_rentals|coaching_available",
+  "vibe_tags": "upscale_lounge|sports_bar|private_luxury|community_club",
+  "who_its_for": "serious_golfers|families|corporate_teams|solo_practice|coaches_instructors",
+  "why_golfers_like_it": [
+    "Premium SkyTrak simulator for indoor practice and play",
+    "Access to 5 area courses and 15+ Maxim Golf network properties with membership",
+    "Variety of tee boxes to challenge all skill levels",
+    "Full-service event hosting capabilities",
+    "On-site pro shop and bar & grill amenities"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "On-site bar and grill serving food before, during, and after rounds."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available at the clubhouse."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "SkyTrak",
+      "model": "SkyTrak",
+      "notes": "State-of-the-art indoor hitting bay located in the clubhouse."
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "gimme_circle",
+  "lefty_friendly": true,
+  "bay_count_total": 1,
+  "booking_url": "https://foreupsoftware.com/index.php/booking/20468/12005#/teetimes",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 30,
+  "price_range_max_local": 50,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.0,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you should bring your own golf clubs for use on the simulator."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No, the venue has an on-site bar and grill that serves food and drinks."
+    },
+    {
+      "question": "How long does it take to play 18 holes on the simulator?",
+      "answer": "Standard 18-hole simulation times typically range from 1 to 2 hours depending on the number of players."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, Eagle Knoll offers family-friendly memberships and events, making it suitable for kids."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.1,
+  "opening_hours": "{\"Monday\": [\"8AM-6PM\"], \"Tuesday\": [\"8AM-6PM\"], \"Wednesday\": [\"8AM-6PM\"], \"Thursday\": [\"8AM-6PM\"], \"Friday\": [\"8AM-6PM\"], \"Saturday\": [\"8AM-6PM\"], \"Sunday\": [\"8AM-6PM\"]}"
+}

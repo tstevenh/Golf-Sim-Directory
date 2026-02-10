@@ -1,0 +1,93 @@
+{
+  "name": "4Ever Golf",
+  "address": "184 W Main St, Dudley, MA 01571",
+  "city": "Dudley",
+  "region": "Massachusetts",
+  "country": "US",
+  "latitude": 42.040644,
+  "longitude": -71.912106,
+  "phone": "+17745516731",
+  "website": "http://www.my4evergolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770200374/golf_simulators/www_my4evergolf_com_ChIJucVCY-cf5IkRWzuMSyH4opA.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/4Ever+Golf/@42.0406445,-71.9121061,14z/data=!4m8!1m2!2m1!1s4Ever+Golf!3m4!1s0x89e41fe76342c5b9:0x90a2f8214b8c3b5b!8m2!3d42.0406445!4d-71.9121061",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJucVCY-cf5IkRWzuMSyH4opA",
+  "venue_type": "multi_sport_sim",
+  "about": "4Ever Golf is an indoor golf simulator venue operating year-round with 24/7 access, providing a flexible experience for players. Powered by TrackMan 4 simulators, it offers a high-tech, accurate indoor golf environment with new world-class courses added monthly. The venue features two locations in Massachusetts (Dudley and Holden) and focuses on a space built for improvement, catering to those looking to train, compete, or socialize. Pricing and booking are handled through external platforms like TrackMan Golf and YourGolfBooking, with memberships available for each specific location.",
+  "tags": "beginner_friendly|leagues|premium_tech|coaching_available|parties_and_events",
+  "vibe_tags": "industrial_training|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "24/7 access and open year-round for maximum convenience",
+    "Powered by premium TrackMan 4 technology for accurate data and simulation",
+    "Regularly updated with new world-class golf courses",
+    "Dedicated space focused on improvement and practice",
+    "Flexible scheduling and online booking system"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No information on food service available."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service or BYOB policy found."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "Premium radar-based simulator technology."
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://booking.trackmangolf.com/venues/4-ever-golf-holden/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|leagues|private_party_room|lessons",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The provided content does not specify whether clubs are available for rental or if you must bring your own."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "There is no information in the provided content regarding outside food and drink policies."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "The provided content does not specify the average duration for an 18-hole round."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue offers parties and events, which suggests it is equipped and welcoming for families and children."
+    }
+  ],
+  "simulator_software": [
+    "TrackMan 4 software"
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

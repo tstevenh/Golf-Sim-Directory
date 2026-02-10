@@ -1,0 +1,91 @@
+{
+  "name": "Pine Meadow Golf Course",
+  "address": "4324 Fairfax Park Dr, Eau Claire, WI 54701",
+  "city": "Eau Claire",
+  "region": "Wisconsin",
+  "country": "US",
+  "latitude": 44.772164,
+  "longitude": -91.47344,
+  "phone": "+17158326011",
+  "website": "http://www.pinemeadowgolfclubinc.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770237272/golf_simulators/www_pinemeadowgolfclubinc_com_ChIJKyK_cCW8-IcRHuB2dFr9Mg0.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Pine+Meadow+Golf+Course/@44.7721637,-91.47344,14z/data=!4m8!1m2!2m1!1sPine+Meadow+Golf+Course!3m4!1s0x87f8bc2570bf222b:0xd32fd5a7476e01e!8m2!3d44.7721637!4d-91.47344",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJKyK_cCW8-IcRHuB2dFr9Mg0",
+  "email": "pinemeadow1@outlook.com",
+  "venue_type": "sim_bar",
+  "about": "Pine Meadow Golf Club is a public facility featuring a Par-3, 9-hole golf course and indoor HD Golf simulators. The venue offers year-round golfing opportunities, allowing play in any weather with its two indoor simulator bays equipped with top PGA courses. Players can enjoy a quick pace of play on the course in under two hours on foot or rent a golf cart for a more leisurely round. The club provides club rentals for both left and right-handed players and features a full-service restaurant with catering options for groups.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|budget_friendly|club_rentals|late_night|family_friendly",
+  "vibe_tags": "casual|welcoming|family_fun_center|party_atmosphere",
+  "who_its_for": "beginners|families|corporate_teams|solo_practice|large_groups",
+  "why_golfers_like_it": [
+    "Year-round golf with HD Golf simulators",
+    "Quick play on the 9-hole Par-3 course",
+    "Club rentals available for all skill levels",
+    "Pizza included with simulator bookings",
+    "Food and drinks available on-site"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full restaurant menu available, featuring a fish fry and pizzas. Catering for groups up to 75 people."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol mentioned on-site."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "HD Golf",
+      "model": "Unknown",
+      "notes": "Two HD Golf simulator bays available."
+    }
+  ],
+  "simulator_software": [
+    "PGA Courses"
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://foreupsoftware.com/index.php/booking/22363/10511#teetimes",
+  "pricing_model": "per_person_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|kitchen_food|tv_sports|private_party_room|leagues|ada_accessible",
+  "rating_tech_quality": 4.0,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, club rentals are available for all sizes and both left and right-handed players."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, the venue has its own kitchen and food menu available on-site."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "On the 9-hole Par-3 course, you can enjoy a quick pace of play in under 2 hours on foot."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the course and facilities are perfect for golfers of all ages and skill levels, making it a family-friendly destination."
+    }
+  ],
+  "rating_overall": 4.1,
+  "opening_hours": "{\"Monday\": [\"10:30AM-10PM\"], \"Tuesday\": [\"10:30AM-10PM\"], \"Wednesday\": [\"10:30AM-10PM\"], \"Thursday\": [\"10:30AM-10PM\"], \"Friday\": [\"10:30AM-11PM\"], \"Saturday\": [\"10:30AM-11PM\"], \"Sunday\": [\"10:30AM-11PM\"]}"
+}

@@ -2,6 +2,8 @@ import { NextResponse } from "next/server";
 import { db } from "@/lib/db";
 import { auth } from "@/lib/auth";
 import type { VenueType, LaunchMonitorType, PricingModel, ParkingType } from "@prisma/client";
+import { extractHardwareBrandsFromSimulatorSystems } from "@/lib/hardware-brands";
+import { extractSoftwareSlugsFromSubmissionData } from "@/lib/software-slugs";
 
 // Helper to create URL-friendly slug
 function slugify(text: string): string {
@@ -47,6 +49,9 @@ export async function POST(request: Request) {
 
     // Parse submission data
     const data = submission.data as Record<string, unknown>;
+    const simulatorSystems = (data.simulatorSystems as object) || null;
+    const hardwareBrands = extractHardwareBrandsFromSimulatorSystems(simulatorSystems);
+    const softwareSlugs = extractSoftwareSlugsFromSubmissionData(data);
 
     // Generate slug from name
     const name = (data.name as string) || "Untitled Venue";
@@ -80,7 +85,9 @@ export async function POST(request: Request) {
         bookingUrl: (data.bookingUrl as string) || null,
         about: (data.about as string) || null,
         venueType: (data.venueType as VenueType) || "other",
-        simulatorSystems: data.simulatorSystems as object || null,
+        simulatorSystems,
+        hardwareBrands,
+        softwareSlugs,
         launchMonitorType: (data.launchMonitorType as LaunchMonitorType) || "unknown",
         ballTracking: (data.ballTracking as boolean) || false,
         clubTracking: (data.clubTracking as boolean) || false,

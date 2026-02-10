@@ -1,0 +1,90 @@
+{
+  "name": "Ace Golf Club",
+  "address": "219 N Justine St, Chicago, IL 60607",
+  "city": "Chicago",
+  "region": "Illinois",
+  "country": "US",
+  "latitude": 41.885972,
+  "longitude": -87.665145,
+  "phone": "+13129257335",
+  "website": "https://agolfclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770199505/golf_simulators/agolfclub_com_ChIJEUSa3LotDogRTnKeJymxMdY.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Ace+Golf+Club/@41.8859722,-87.6651448,14z/data=!4m8!1m2!2m1!1sAce+Golf+Club!3m4!1s0x880e2dbadc9a4411:0xd631b129279e724e!8m2!3d41.8859722!4d-87.6651448",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJEUSa3LotDogRTnKeJymxMdY",
+  "email": "INFO@AGOLFCLUB.COM",
+  "venue_type": "country_club",
+  "about": "Ace Golf Club is a premium private indoor golf simulator and social club located in Chicago's West Loop and Fulton Market District. It features 12 state-of-the-art AI simulators with high-speed cameras, pressure hitting mats, and an AI Trainer to provide detailed swing analysis. The facility offers a sophisticated, country club-like environment focused on exclusivity and community, with capped memberships to ensure privacy and avoid overcrowding. Members have year-round access to practice, play full rounds on virtual courses, and utilize a 40-foot putting green to improve their game in a premium setting.",
+  "tags": "serious_golfers|premium_tech|private_rooms|club_rentals|coaching_available|leagues|upscale_lounge|community_club",
+  "vibe_tags": "private_luxury|tech_lab|community_club",
+  "who_its_for": "serious_golfers|corporate_teams|solo_practice|coaches_instructors|low_handicap",
+  "why_golfers_like_it": [
+    "Advanced AI technology with high-speed cameras and pressure plates for detailed swing analysis",
+    "Exclusivity with capped memberships ensuring privacy and no overcrowding",
+    "40-foot putting green for dedicated short game practice not found elsewhere",
+    "Country club environment with a tight-knit community and social events"
+  ],
+  "kid_friendly": false,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of food service; likely BYOB allowed"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of bar or alcohol service; likely BYOB allowed"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "Unknown",
+      "notes": "High-speed cameras and pressure hitting mats mentioned, consistent with Uneekor technology"
+    }
+  ],
+  "simulator_software": [
+    "Unknown"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://agolfclub.com/application",
+  "pricing_model": "membership_only",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": false,
+  "coaching_available": true,
+  "private_rooms_count": 12,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|wifi|private_party_room|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify, but members typically use their own clubs at indoor facilities like this."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No specific information is provided, but given it's a private club, outside food and drink policies would likely apply."
+    },
+    {
+      "question": "How long does an 18-hole round typically take?",
+      "answer": "A typical round of 18 holes takes between 3-4 hours depending on the number of people."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "No, the venue is an exclusive private golf club for adults, focused on serious practice and social events."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"5AM-11PM\"], \"Tuesday\": [\"5AM-11PM\"], \"Wednesday\": [\"5AM-11PM\"], \"Thursday\": [\"5AM-11PM\"], \"Friday\": [\"5AM-12AM\"], \"Saturday\": [\"5AM-12AM\"], \"Sunday\": [\"5AM-11PM\"]}"
+}

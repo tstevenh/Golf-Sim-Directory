@@ -1,0 +1,91 @@
+{
+  "name": "The Fairway Columbus",
+  "address": "1965 W Henderson Rd, Columbus, OH 43220",
+  "city": "Columbus",
+  "region": "Ohio",
+  "country": "US",
+  "latitude": 40.054181,
+  "longitude": -83.073136,
+  "phone": "+16145020729",
+  "website": "https://www.thefairwaycolumbus.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770211073/golf_simulators/www_thefairwaycolumbus_com_ChIJdcfbAAGNOIgR_1BG2zX_Plc.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Fairway+Columbus/@40.054180699999996,-83.0731363,14z/data=!4m8!1m2!2m1!1sThe+Fairway+Columbus!3m4!1s0x88388d0100dbc775:0x573eff35db4650ff!8m2!3d40.054180699999996!4d-83.0731363",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJdcfbAAGNOIgR_1BG2zX_Plc",
+  "email": "TheFairwayColumbus@Gmail.com",
+  "venue_type": "sim_bar",
+  "about": "The Fairway Columbus is an indoor golf simulator venue offering a premier experience to the Upper Arlington and surrounding Columbus communities. The facility features seven TrackMan 4 simulators, providing advanced ball and club tracking for a realistic golf experience. Patrons can play 18 holes, analyze their swing, or simply enjoy a social outing. The venue offers a full bar and food service through its partnership with Tenacious Spaces, creating an elevated indoor golf environment suitable for both serious practice and casual play. Booking is done by the hour, and the facility also hosts leagues and corporate events.",
+  "tags": "food_and_drinks|corporate_events|leagues|premium_tech|date_night|private_rooms",
+  "vibe_tags": "upscale_lounge|sports_bar|community_club",
+  "who_its_for": "serious_golfers|corporate_teams|families|large_groups|solo_practice",
+  "why_golfers_like_it": [
+    "State-of-the-art TrackMan 4 technology for accurate ball and club data",
+    "Flexible 'Team Up' league format allowing play on any schedule",
+    "Full-service bar and kitchen providing a complete social golf experience",
+    "Private event rooms available for groups up to 8 people"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Curated menu available in partnership with Tenacious Spaces"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with craft cocktails available on-site"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "Seven retrofitted TrackMan 4 simulators for high-fidelity golf simulation"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 7,
+  "booking_url": "https://booking.trackmangolf.com/venues/fairway/booking/bays",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|kitchen_food|private_party_room|leagues|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own golf clubs?",
+      "answer": "Yes, you must bring your own golf clubs to play at The Fairway Columbus."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "No, outside food and drink are not permitted. The venue offers a full bar and kitchen menu through its partnership with Tenacious Spaces."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "It takes roughly one hour for one person to play 18 holes. A full foursome would likely take up to 4 hours."
+    },
+    {
+      "question": "Is The Fairway Columbus kid-friendly?",
+      "answer": "Yes, The Fairway Columbus is kid-friendly and is available for birthday parties and events for older children and adults."
+    }
+  ],
+  "simulator_software": [
+    "Trackman Virtual Golf"
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"9AM-10:30PM\"], \"Tuesday\": [\"9AM-10:30PM\"], \"Wednesday\": [\"9AM-10:30PM\"], \"Thursday\": [\"9AM-10:30PM\"], \"Friday\": [\"9AM-12AM\"], \"Saturday\": [\"9AM-12AM\"], \"Sunday\": [\"9AM-10:30PM\"]}"
+}

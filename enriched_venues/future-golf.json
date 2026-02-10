@@ -1,0 +1,94 @@
+{
+  "name": "Future Golf",
+  "address": "790 FM3009 Ste E, Schertz, TX 78154",
+  "city": "Schertz",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 29.565279,
+  "longitude": -98.256527,
+  "phone": "+12108760440",
+  "website": "http://www.futuregolfoftexas.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770224266/golf_simulators/www_futuregolfoftexas_com_ChIJ5yyAGRuTXIYR_fq1JOBambs.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Future+Golf/@29.565279,-98.2565266,14z/data=!4m8!1m2!2m1!1sFuture+Golf!3m4!1s0x865c931b19802ce7:0xbb995ae024b5fafd!8m2!3d29.565279!4d-98.2565266",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ5yyAGRuTXIYR_fq1JOBambs",
+  "email": "futuregolftexas@gmail.com.",
+  "venue_type": "training_studio",
+  "about": "Future Golf is an indoor golf range and learning facility offering championship golf course simulation and professional coaching services. The venue utilizes Flightscope X3 and Apogee launch monitors to provide precise ball and club data for game improvement, and features E6 Software access to over 100 virtual courses. Available amenities include club fitting and repair services, with a focus on skill development and practice for golfers of all levels. Operating hours are Monday through Friday from 10am to 9pm and Saturday from 10am to 7pm, with Sundays closed.",
+  "tags": "beginner_friendly|serious_golfers|families|coaching_available|premium_tech|club_fitting|budget_friendly|solo_practice",
+  "vibe_tags": "industrial_training|community_club|modern|welcoming",
+  "who_its_for": "beginners|serious_golfers|families|solo_practice|coaches_instructors",
+  "why_golfers_like_it": [
+    "Access to over 100 championship golf courses for virtual play",
+    "Professional instruction available for all skill levels and ages",
+    "High-end Flightscope X3 and Apogee launch monitors provide precise shot data"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of food service available on-site"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service available on-site"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Flightscope",
+      "model": "X3",
+      "notes": "Premium launch monitor providing accurate ball and club data"
+    },
+    {
+      "brand": "Apogee",
+      "model": "TrueGolf",
+      "notes": "Launch monitor integrated with the simulator system"
+    }
+  ],
+  "simulator_software": [
+    "E6 Software"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 1,
+  "booking_url": "https://app.squareup.com/appointments/book/991cd925-c58b-4193-90fb-87edae41f9b1/3EE86M69NYJ20/start",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 15,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|club_fitting|pro_shop|wifi",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "Yes, you will need to bring your own golf clubs to use the simulators."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "There is no mention of food or drink service available on-site, but policies regarding outside food and drinks are not specified."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify the time required to play 18 holes, as pricing is based on simulator rental time by the half hour or hour."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "Yes, the website states that golf lessons are available for all skill levels and ages, indicating a kid-friendly environment."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-9PM\"], \"Tuesday\": [\"10AM-9PM\"], \"Wednesday\": [\"10AM-9PM\"], \"Thursday\": [\"10AM-9PM\"], \"Friday\": [\"10AM-9PM\"], \"Saturday\": [\"10AM-7PM\"], \"Sunday\": [\"Closed\"]}"
+}

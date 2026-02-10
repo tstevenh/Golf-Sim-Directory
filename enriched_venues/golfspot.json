@@ -1,0 +1,92 @@
+{
+  "name": "GolfSpot",
+  "address": "6895 SW 81st St, Miami, FL 33143",
+  "city": "Miami",
+  "region": "Florida",
+  "country": "US",
+  "latitude": 25.69552,
+  "longitude": -80.304909,
+  "phone": "+17868605426",
+  "website": "https://golfspot.miami/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770227433/golf_simulators/golfspot_miami_ChIJe038aT_H2YgR9V803nP_09E.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/GolfSpot/@25.6955197,-80.30490859999999,14z/data=!4m8!1m2!2m1!1sGolfSpot!3m4!1s0x88d9c73f69fc4d7b:0xd1d3ff73de345ff5!8m2!3d25.6955197!4d-80.30490859999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJe038aT_H2YgR9V803nP_09E",
+  "email": "jb@golfspot.miami",
+  "venue_type": "sim_bar",
+  "about": "GolfSpot Miami is a community-centered venue that offers state-of-the-art golf simulator experiences for enthusiasts of all skill levels. The facility is equipped with TrackMan IO technology, providing data-driven insights and accurate feedback for practice and play. Open daily from 7am to 10pm, it offers various options including hourly rentals, packages, and a family membership plan designed for value and convenience. The space focuses on creating a welcoming environment for learning, practicing, and connecting with other golfers.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|kids_friendly|corporate_events|leagues|premium_tech|budget_friendly|coaching_available|community_club",
+  "vibe_tags": "casual|welcoming|modern|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "Access to premium TrackMan IO technology for accurate swing analysis",
+    "Flexible pricing options including packages and discounted membership rates",
+    "Community-focused environment with member-exclusive events and tournaments",
+    "Professional coaching available using the same advanced simulator technology",
+    "Convenient location with extended operating hours (7am-10pm)"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No on-site food service mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned; BYOB policy not specified"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "State-of-the-art golf simulator system with radar technology"
+    }
+  ],
+  "simulator_software": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://clients.uschedule.com/golfspotmiami/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 39,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website doesn't explicitly state whether clubs are provided. It's recommended to bring your own clubs for the best experience, though rental options may be available."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answers": "The website doesn't mention a policy on outside food or drinks. No on-site food or beverage service is mentioned."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website doesn't specify the time required for an 18-hole simulation. With TrackMan IO technology and the ability to accommodate up to 4 people per bay, typical simulation times would likely align with traditional golf play times."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, GolfSpot Miami welcomes junior golfers with lessons specifically crafted to nurture young talent and a family membership option that allows sharing benefits with immediate family members."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"7AM-10PM\"], \"Tuesday\": [\"7AM-10PM\"], \"Wednesday\": [\"7AM-10PM\"], \"Thursday\": [\"7AM-10PM\"], \"Friday\": [\"7AM-10PM\"], \"Saturday\": [\"7AM-10PM\"], \"Sunday\": [\"9AM-9PM\"]}"
+}

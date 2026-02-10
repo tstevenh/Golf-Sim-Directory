@@ -1,0 +1,94 @@
+{
+  "name": "Lochmoor Club",
+  "address": "1018 Sunningdale Dr, Grosse Pointe Woods, MI 48236",
+  "city": "Grosse Pointe Woods",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 42.436413,
+  "longitude": -82.894256,
+  "phone": "+13138861010",
+  "website": "http://www.lochmoorclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770238709/golf_simulators/www_lochmoorclub_com_ChIJXalA9sQpJYgRyhDhhfY3CrA.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Lochmoor+Club/@42.4364128,-82.8942565,14z/data=!4m8!1m2!2m1!1sLochmoor+Club!3m4!1s0x882529c4f640a95d:0xb00a37f685e110ca!8m2!3d42.4364128!4d-82.8942565",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJXalA9sQpJYgRyhDhhfY3CrA",
+  "email": "ereiter@lochmoorclub.com",
+  "venue_type": "country_club",
+  "about": "Lochmoor Club is a century-old, family-oriented country club located in Grosse Pointe Woods. The venue features a meticulously maintained 18-hole championship golf course and provides a variety of amenities including tennis, pickleball, swimming, fitness facilities, and dining options. It offers a traditional country club experience with a focus on family activities, social events, and a welcoming atmosphere for members and their guests. The club also boasts a four-season retreat with indoor facilities including TrackMan simulators for year-round practice and play.",
+  "tags": "serious_golfers|families|coaching_available|leagues|corporate_events|food_and_drinks|juniors_youth|premium_tech|club_rentals|community_club",
+  "vibe_tags": "private_luxury|family_fun_center|community_club|welcoming|traditional",
+  "who_its_for": "serious_golfers|families|corporate_teams|juniors_youth|coaches_instructors",
+  "why_golfers_like_it": [
+    "Year-round access to TrackMan simulators in the Indoor Golf Center",
+    "Meticulously maintained 18-hole championship course with rich history",
+    "Comprehensive golf program including lessons, leagues, and caddie services",
+    "Family-friendly environment with numerous amenities beyond golf"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full dining service available in the clubhouse, including casual lunches at the Halfway House"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available including the Patio Bar"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Located in the Lochmoor Athletic Center (LAC) for year-round practice"
+    }
+  ],
+  "simulator_so": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "auto_putt",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "unknown",
+  "pricing_model": "membership_only",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|lockers|wifi|pro_shop|club_fitting|leagues|ada_accessible|swim|fitness_center|tennis_and_pickleball",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, golfers are expected to bring their own clubs for play on the course and in simulators. The club's pro shop is stocked with high-end equipment, apparel, and accessories for purchase."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drink are not permitted. The club offers full dining and bar service, including the Halfway House for casual lunches and the Patio Bar for beverages."
+    },
+    {
+      "question": "How long does an 18-hole round take?",
+      "answer": "The club maintains a standard pace of play of 4 hours for 18 holes. Players are expected to keep pace with the group ahead and ensure guests maintain appropriate speed."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Lochmoor Club is very family-friendly with numerous amenities for children including junior golf programs, a championship swim team, tennis/pickleball courts, and a welcoming social atmosphere."
+    }
+  ],
+  "simulator_software": [
+    "TrackMan"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Saturday\": [\"9AM-9PM\"]}"
+}

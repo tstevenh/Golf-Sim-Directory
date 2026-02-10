@@ -1,0 +1,91 @@
+{
+  "name": "Always Golf Club",
+  "address": "25027 Center Ridge Rd, Westlake, OH 44145",
+  "city": "Westlake",
+  "region": "Ohio",
+  "country": "US",
+  "latitude": 41.455944,
+  "longitude": -81.897933,
+  "phone": "+15703875251",
+  "website": "http://alwaysgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770211252/golf_simulators/alwaysgolf_com_ChIJS2gZA5GTMIgRimAnXXokBz8.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Always+Golf+Club/@41.4559444,-81.8979335,14z/data=!4m8!1m2!2m1!1sAlways+Golf+Club!3m4!1s0x883093910319684b:0x3f07247a5d27608a!8m2!3d41.4559444!4d-81.8979335",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJS2gZA5GTMIgRimAnXXokBz8",
+  "email": "support@alwaysgolf.com",
+  "venue_type": "sim_bar",
+  "about": "Always Golf Club is an indoor golf simulator training and entertainment facility with a full-service bar in Westlake, Ohio. Launched in January 2025, the venue is open to the public and provides a comprehensive experience for golfers of all skill levels. The facility features 10 simulator bays equipped with Uneekor EYEXO2 overhead launch monitors and GSPro software, offering a superior gameplay and training experience. Pricing is based on hourly bay rental, with rates typically ranging from $30 to $60 depending on the time of day, day of the week, and season, accommodating both individual players and groups of up to six people per bay. The venue caters to a diverse clientele, from beginners looking to practice to experienced golfers seeking entertainment and competitive play, with additional offerings including lessons, leagues, events, and club fittings.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|leagues|premium_tech|coaching_available|club_fitting|solo_practice|families|large_groups",
+  "vibe_tags": "modern|sports_bar|community_club|family_fun_center",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "Premium Uneekor EYEXO2 launch monitors with GSPro software provide a superior data-driven training experience",
+    "Flexible hourly rental model allows for cost-effective play, with the ability to split costs among groups",
+    "Full-service bar and food options available for a complete entertainment experience",
+    "Private lessons with detailed video analysis from a PGA-certified instructor for skill improvement",
+    "Variety of events and leagues cater to both competitive and social play"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Pizza dinner provided for group events, kitchen available for general dining"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full-service bar with various alcoholic beverages available"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "EYEXO2",
+      "notes": "Overhead launch monitor with advanced tracking capabilities"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "overhead_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "auto_putt",
+  "lefty_friendly": true,
+  "bay_count_total": 10,
+  "booking_url": "https://app.birrdi.com/u/reserve?team_booking_link_id=always-golf-club&date=2025-08-31",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 30,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|kitchen_food|club_rentals|tv_sports|private_party_room|club_fitting|leagues|pro_shop",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can bring your own clubs or rent them at the facility. They also offer full-bag club fitting services with Cleveland-Srixon golf clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The facility has a full-service bar and kitchen food options available. External food and drink policies are not explicitly stated, but the venue provides its own dining options."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "It typically takes one player 45-60 minutes to finish 18 holes, so a group of 4 golfers should book 3-4 hours total if they all want to play 18 holes together."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Always Golf Club is family-friendly and offers junior golf lessons. They host events that can accommodate families and have a welcoming atmosphere for all ages."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"7AM-10PM\"], \"Tuesday\": [\"7AM-10PM\"], \"Wednesday\": [\"7AM-10PM\"], \"Thursday\": [\"7AM-12AM\"], \"Friday\": [\"7AM-12AM\"], \"Saturday\": [\"7AM-12AM\"], \"Sunday\": [\"7AM-10PM\"]}"
+}

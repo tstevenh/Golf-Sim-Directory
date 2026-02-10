@@ -1,0 +1,89 @@
+{
+  "name": "Tempo Golf Club",
+  "address": "4705 Indian Trail Fairview Rd, Indian Trail, NC 28079",
+  "city": "Indian Trail",
+  "region": "North Carolina",
+  "country": "US",
+  "latitude": 35.091909,
+  "longitude": -80.652236,
+  "phone": "+17046720660",
+  "website": "https://www.tempogolfclub.com/Locations/Indian-Trail",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770201126/golf_simulators/www_tempogolfclub_com_ChIJQZ7PmislVIgRvcvPDHoJlH8.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Tempo+Golf+Club/@35.0919088,-80.65223569999999,14z/data=!4m8!1m2!2m1!1sTempo+Golf+Club!3m4!1s0x8854252b9acf9e41:0x7f94097a0ccfcbbd!8m2!3d35.0919088!4d-80.65223569999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJQZ7PmislVIgRvcvPDHoJlH8",
+  "email": "tempogolfclub@gmail.com",
+  "venue_type": "sim_bar",
+  "about": "Tempo Golf Club is an indoor golf simulator venue with locations in Huntersville and Indian Trail, NC. The Indian Trail location is situated on the second floor of the Extreme Ice Center and features three bays equipped with Uneekor launch monitors and GSPro software, providing a realistic golf experience. The facility offers virtual play on over 1,000 courses, with services including leagues, lessons, events, and memberships. Open daily from 9 a.m. to 10 p.m., it caters to golfers of all skill levels.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|private_rooms|coaching_available|family_friendly",
+  "vibe_tags": "sports_bar|family_fun_center|community_club|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Latest Uneekor launch monitors and GSPro software for accurate simulation",
+    "View of ice rink adds an energizing, unique atmosphere",
+    "1,000+ virtual courses available for variety and challenge"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full menu available from connected Center Ice Tavern and Rockhounds Coffee during operating hours"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol available on-site; food and drinks are provided by separate businesses"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "Eye XO",
+      "notes": "Latest launch monitors providing accurate ball and club data"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "auto_putt",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://clients.uschedule.com/tempogolfclub/booking?filter=loc[12673]",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|pro_shop|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, players are expected to bring their own golf clubs to use the simulators."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No outside food or drinks are allowed, but food and beverages can be purchased from the connected Center Ice Tavern and Rockhounds Coffee during their operating hours."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "18 holes typically take about 1-2 hours depending on group size and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Tempo Golf Club is kid-friendly and offers a great space for birthday parties and family events, with PuttPong and a Barnyard Practice Range for entertainment."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Friday\": [\"9AM-10PM\"]}"
+}

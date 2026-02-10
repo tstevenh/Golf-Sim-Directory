@@ -1,0 +1,90 @@
+{
+  "name": "Divots Indoor Golf",
+  "address": "17290 FM306, Canyon Lake, TX 78133",
+  "city": "Canyon Lake",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 29.90577,
+  "longitude": -98.2049,
+  "phone": "+18306604377",
+  "website": "https://texasdivots.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770228906/golf_simulators/texasdivots_com_ChIJcdFcYPFhW4YRN0L-4CqGAxc.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Divots+Indoor+Golf/@29.9057696,-98.2048999,14z/data=!4m8!1m2!2m1!1sDivots+Indoor+Golf!3m4!1s0x865b61f1605cd171:0x1703862ae0fe4237!8m2!3d29.9057696!4d-98.2048999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJcdFcYPFhW4YRN0L-4CqGAxc",
+  "email": "texasdivots@gmail.com",
+  "venue_type": "multi_sport_sim",
+  "about": "Divots Indoor Golf is an indoor golf facility featuring advanced Trackman simulators for players of all skill levels. The venue offers an extensive library of over 360 meticulously detailed courses, including world-renowned locations like St Andrews and Pebble Beach. Open Tuesday through Sunday from 7am to 10pm, with 24-hour access memberships available, the facility provides a climate-controlled environment for playing, practicing, and improving one's game. Simulators can accommodate up to four players per bay, with private lessons and group workshops also offered for personalized instruction.",
+  "tags": "beginner_friendly|corporate_events|premium_tech|coaching_available|club_rentals|family_friendly",
+  "vibe_tags": "tech_lab|community_club|casual|welcoming",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "State-of-the-art Trackman technology for accurate swing analysis",
+    "Over 360 world-class courses available for play",
+    "Semi-private bays provide a relaxed and focused environment",
+    "Staffless model allows for total freedom and flexibility"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "You are welcome to bring your own food. The venue also offers a selection of snacks and beverages on-site."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "State-of-the-art Trackman simulators are the core hardware."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://yourgolfbooking.com/venues/divots/booking/bays",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own golf clubs?",
+      "answer": "You are welcome to bring your own clubs, but we also have Men's, Women's, and Kids loaner clubs available. All clubs, balls, and shoes must be clean prior to play."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Absolutely! You are welcome to bring your own food and drinks. We also offer a selection of snacks and beverages on-site."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Most players should book 1 hour per player for 18 holes. Advanced golfers can finish faster depending on round settings. You are booking time, not guaranteed holes."
+    },
+    {
+      "question": "Is Divots kid-friendly?",
+      "answer": "Yes, we are kid-friendly. We offer Kids loaner clubs and provide a fun and exciting experience for guests of all ages and skill levels."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"7AM-10PM\"], \"Tuesday\": [\"7AM-10PM\"], \"Wednesday\": [\"7AM-10PM\"], \"Thursday\": [\"7AM-10PM\"], \"Friday\": [\"7AM-10PM\"], \"Saturday\": [\"7AM-10PM\"], \"Sunday\": [\"7AM-10PM\"]}"
+}

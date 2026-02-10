@@ -1,0 +1,93 @@
+{
+  "name": "McDivot's Indoor Sports Pub",
+  "address": "3390 SE Crossroads Dr Suite 100, Grimes, IA 50111",
+  "city": "Grimes",
+  "region": "Iowa",
+  "country": "US",
+  "latitude": 41.660215,
+  "longitude": -93.773899,
+  "phone": "+15158951317",
+  "website": "http://www.mcdivotspub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770207687/golf_simulators/www_mcdivotspub_com_ChIJrVDKUxon7IcRfTF-JG9kl4Q.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/McDivot%27s+Indoor+Sports+Pub/@41.6602154,-93.7738985,14z/data=!4m8!1m2!2m1!1sMcDivot%27s+Indoor+Sports+Pub!3m4!1s0x87ec271a53ca50ad:0x8497646f247e317d!8m2!3d41.6602154!4d-93.7738985",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJrVDKUxon7IcRfTF-JG9kl4Q",
+  "email": "kyle@mcdivotspub.com",
+  "venue_type": "sim_bar",
+  "about": "McDivot's Indoor Sports Pub is an indoor sports facility in Grimes, Iowa, featuring four high-tech HD Golf simulators. Two of these simulators offer multi-sport capabilities for over 30 activities beyond golf, including football, soccer, baseball, hockey, and various shooting games. The venue provides a climate-controlled environment, a full-service bar with an Irish flair, a pizza kitchen, and a patio, operating as a sports and social hub rather than a traditional golf center.",
+  "tags": "food_and_drinks|leagues|corporate_events|multi_sport_sim|budget_friendly|beginner_friendly|family_friendly|date_night|party_atmosphere",
+  "vibe_tags": "sports_bar|family_fun_center|party_atmosphere|community_club",
+  "who_its_for": "beginners|families|corporate_teams|bachelor_parties|large_groups",
+  "why_golfers_like_it": [
+    "Multi-sport capability allows for diverse activities beyond golf",
+    "Affordable off-peak weekday rates starting at $5/hr",
+    "Full-service bar and food service on-site for a complete experience",
+    "No weather-related interruptions in a climate-controlled facility"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full-service kitchen with handmade pizzas and appetizers; full menu available for dine-in and takeout"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full-service bar with Irish flair; 8 draft beers, domestic and craft beers, wine, spirits, and specialty cocktails"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "HD Golf",
+      "model": "Simulator",
+      "notes": "Four total units; two are multi-sport capable"
+    }
+  ],
+  "simulator_so": [
+    "HD Golf"
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 4,
+  "booking_url": "https://mcdivotspub.setmore.com/bookappointment",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 5,
+  "price_range_max_local": 50,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues",
+  "rating_tech_quality": 4.0,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.5,
+  "faq": [
+    {
+      "question": "Do I need my own golf clubs?",
+      "answer": "You must provide your own clubs. Regular golf shoes are not permitted; spikeless shoes are required and must be clean."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drinks are not allowed. The venue offers a full-service bar and kitchen with pizza, appetizers, and other menu items available."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "It takes roughly 1 hour per person to complete 18 holes."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "Yes, McDivot's is family-friendly and accommodates children, as indicated by their hosting of family events and birthday parties."
+    }
+  ],
+  "simulator_software": [
+    "HD Golf"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-11PM\"], \"Friday\": [\"10AM-11:30PM\"], \"Saturday\": [\"10AM-11:30PM\"], \"Sunday\": [\"10AM-8PM\"]}"
+}

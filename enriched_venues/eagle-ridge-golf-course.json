@@ -1,0 +1,89 @@
+{
+  "name": "Eagle Ridge Golf Course",
+  "address": "3501 S State Rd, Glennie, MI 48737",
+  "city": "Glennie",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 44.553305,
+  "longitude": -83.72124,
+  "phone": "+19897353500",
+  "website": "https://www.golfglennie.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770258974/golf_simulators/www_golfglennie_com_ChIJWT4afrO3IIgRBfhAgdplXyo.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Eagle+Ridge+Golf+Course/@44.5533046,-83.7212401,14z/data=!4m8!1m2!2m1!1sEagle+Ridge+Golf+Course!3m4!1s0x8820b7b37e1a3e59:0x2a5f65da8140f805!8m2!3d44.5533046!4d-83.7212401",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJWT4afrO3IIgRBfhAgdplXyo",
+  "venue_type": "country_club",
+  "about": "Eagle Ridge Golf Club is a year-round golf destination featuring an 18-hole championship course and indoor Trackman simulators. Located in Northern Michigan's Huron National Forest, the club offers a complete experience with a pro shop, restaurant, and event spaces. Simulators allow for play regardless of weather, providing a way for golfers to maintain their skills during winter months.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|club_rentals|community_club",
+  "vibe_tags": "sports_bar|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|tourists_travelers",
+  "why_golfers_like_it": [
+    "State-of-the-art Trackman simulators for professional-level analysis and practice",
+    "Open year-round operation for consistent play in any weather",
+    "Comprehensive amenities including a full-service restaurant and pro shop"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full-service Bar & Grill with a dedicated kid's menu and regular menu offerings."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with a dedicated beer and wine menu."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "State-of-the-art Trackman indoor golf simulators trusted by the pros."
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://golfglennie.com/book-a-simulator/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The provided context does not specify if club rentals are available, so it's recommended to bring your own clubs when visiting the simulators."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "The venue operates a full-service Bar & Grill, suggesting outside food and drink may not be permitted. The club offers a wide menu of food and beverages."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes on the simulator?",
+      "answer": "The context does not provide a specific time estimate for playing 18 holes on the simulator."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is kid-friendly, as evidenced by the dedicated 'Kid's Menu' section under the Bar & Grill amenities."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"Closed\"], \"Wednesday\": [\"10AM-9PM\"], \"Thursday\": [\"10AM-9PM\"], \"Friday\": [\"10AM-10PM\"], \"Saturday\": [\"8AM-10PM\"], \"Sunday\": [\"8AM-8PM\"]}"
+}

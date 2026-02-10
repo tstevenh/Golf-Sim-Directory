@@ -1,0 +1,93 @@
+{
+  "name": "Powdertown Golf",
+  "address": "3695 Argyle Rd, Keokuk, IA 52632",
+  "city": "Keokuk",
+  "region": "Iowa",
+  "country": "US",
+  "latitude": 40.44353,
+  "longitude": -91.438611,
+  "phone": "+13195267433",
+  "website": "http://www.powdertowngolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770241377/golf_simulators/www_powdertowngolf_com_ChIJE9qfNl4754cRZczWZlzMvGY.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Powdertown+Golf/@40.4435296,-91.43861079999999,14z/data=!4m8!1m2!2m1!1sPowdertown+Golf!3m4!1s0x87e73b5e369fda13:0x66bccc5c66d6cc65!8m2!3d40.4435296!4d-91.43861079999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJE9qfNl4754cRZczWZlzMvGY",
+  "email": "sales@powdertowngolf.com",
+  "venue_type": "retail_fitting_center",
+  "about": "Powdertown Golf is a multi-service golf facility offering custom club fittings, repair services, and a simulator bay. Founded in 2006 by Dan Ludwig and now owned by Nate Ludwig, the business began as a Yamaha golf cart sales and service center before expanding into golf fittings and simulators. In 2013, they added Full Swing Golf simulators, enabling year-round play on state-of-the-art technology. The primary focus is on providing comprehensive golf services, including cart and club repairs, custom fittings using launch monitor data, and a full-service pro shop. The venue combines retail operations with a technology-driven practice space for golfers seeking to improve their game.",
+  "tags": "beginner_friendly|serious_golfers|club_fitting|coaching_available|premium_tech|corporate_events|retail_fitting_center",
+  "vibe_tags": "tech_lab|community_club|modern|welcoming",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Professional custom club fitting with 60-90 minute sessions using launch monitor data",
+    "State-of-the-art Full Swing Golf simulator technology for year-round play",
+    "Factory authorized Yamaha Golf Car sales and service center with expert staff",
+    "Comprehensive club repair services from certified technicians"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No on-site food or kitchen service mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Full Swing",
+      "model": "Golf Simulator",
+      "notes": "State-of-the-art technology installed in 2013 for year-round play"
+    }
+  ],
+  "simulator_so": [
+    "Full Swing"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 1,
+  "booking_url": "unknown",
+  "pricing_model": "per_person_hour|package",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|pro_shop|club_fitting|launch_monitor|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 3.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you should bring your own clubs for the simulator sessions. For custom fitting appointments, they provide various club combinations to test."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No outside food or drink is mentioned as being allowed. The venue does not have an on-site kitchen or bar."
+    },
+    {
+      "question": "How long does it take to play 18 holes on the simulator?",
+      "answer": "The website doesn't specify the duration for 18 holes, but fitting sessions are 60-90 minutes."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, the facility is family-oriented and offers services suitable for juniors and youth golfers."
+    }
+  ],
+  "simulator_software": [
+    "Full Swing Golf"
+  ],
+  "rating_overall": 4.1,
+  "opening_hours": "{\"Monday\": [\"9AM-2PM\"], \"Tuesday\": [\"9AM-5PM\"], \"Wednesday\": [\"9AM-5PM\"], \"Thursday\": [\"9AM-5PM\"], \"Friday\": [\"9AM-5PM\"], \"Saturday\": [\"9AM-2PM\"], \"Sunday\": [\"Closed\"]}"
+}

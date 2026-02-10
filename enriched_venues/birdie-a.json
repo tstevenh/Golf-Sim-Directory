@@ -1,0 +1,89 @@
+{
+  "name": "Birdie A",
+  "address": "1245 Old Jolly Bay Rd Unit A102, Freeport, FL 32439",
+  "city": "Freeport",
+  "region": "Florida",
+  "country": "US",
+  "latitude": 30.468771,
+  "longitude": -86.125827,
+  "phone": "+18508802255",
+  "website": "https://www.birdieagolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770243005/golf_simulators/www_birdieagolf_com_ChIJ1Q4gPivnk4gRJU7zi1PPpw4.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Birdie+A/@30.468771399999998,-86.12582719999999,14z/data=!4m8!1m2!2m1!1sBirdie+A!3m4!1s0x8893e72b3e200ed5:0xea7cf538bf34e25!8m2!3d30.468771399999998!4d-86.12582719999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ1Q4gPivnk4gRJU7zi1PPpw4",
+  "email": "support@birdieagolf.com",
+  "venue_type": "sim_bar",
+  "about": "Birdie A is an indoor golf simulator venue that combines golf entertainment with a sports bar atmosphere. The facility is equipped with five TruGolf simulators and offers additional amenities such as shuffleboard, a family-friendly lounge area with games for children, and a sports bar. It is designed to cater to various occasions, from casual outings and family gatherings to private and corporate events, providing a space for entertainment and golf practice regardless of weather conditions.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|kids_friendly|corporate_events|family_fun_center|party_atmosphere|solo_practice",
+  "vibe_tags": "sports_bar|family_fun_center|party_atmosphere|welcoming|casual",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Access to five TruGolf simulators providing detailed game insights",
+    "Versatile venue that can host both serious practice and casual events",
+    "Family-friendly atmosphere with additional entertainment options like shuffleboard"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "The venue does not serve food."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full-service bar serving beer, wine, and seltzers."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "TruGolf",
+      "model": "Premier Simulator",
+      "notes": "Five premier golf simulators providing comprehensive insights into every aspect of your golf game."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 5,
+  "booking_url": "https://www.birdieagolf.com/book-a-simluator",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|tv_sports|private_party_room|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify whether club rentals are available. It is recommended to contact them directly for details."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue does not serve food but offers a full-service bar with beer, wine, seltzers, and non-alcoholic beverages."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not provide an estimated time for playing 18 holes. This information would need to be obtained by contacting the venue directly."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Birdie A has a family-friendly lounge area with games for the kids and is suitable for family outings."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"10AM-9PM\"], \"Tuesday\": [\"10AM-9PM\"], \"Wednesday\": [\"10AM-9PM\"], \"Thursday\": [\"10AM-9PM\"], \"Friday\": [\"10AM-11PM\"], \"Saturday\": [\"10AM-11PM\"], \"Sunday\": [\"12-9PM\"]}"
+}

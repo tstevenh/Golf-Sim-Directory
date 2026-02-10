@@ -1,0 +1,94 @@
+{
+  "name": "Skokie Sports Park",
+  "address": "3459 Oakton St, Skokie, IL 60076",
+  "city": "Skokie",
+  "region": "Illinois",
+  "country": "US",
+  "latitude": 42.025935,
+  "longitude": -87.715484,
+  "phone": "+18476741500",
+  "website": "https://www.skokieparks.org/skokie-sports-park",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770225090/golf_simulators/www_skokieparks_org_ChIJZ2c2LcbPD4gRodMTWSEtxqQ.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Skokie+Sports+Park/@42.0259354,-87.7154837,14z/data=!4m8!1m2!2m1!1sSkokie+Sports+Park!3m4!1s0x880fcfc62d366767:0xa4c62d215913d3a1!8m2!3d42.0259354!4d-87.7154837",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJZ2c2LcbPD4gRodMTWSEtxqQ",
+  "email": "dtulchinsky@skokieparks.org",
+  "venue_type": "multi_sport_sim",
+  "about": "Skokie Sports Park is a premier practice facility and one of the top 50 golf ranges in America. It offers a year-round, two-tier driving range with 40 hitting stations and an automatic tee-up system, enhanced by TrackMan technology for real-time shot tracking and performance data analysis. The venue also features an indoor golf simulator, 'The Bunker,' 27 holes of adventure mini-golf, and batting cages. It caters to various needs, including solo practice, lessons, corporate events, and customizable parties, with options for data-driven improvement and casual play.",
+  "tags": "beginner_friendly|corporate_events|coaching_available|premium_tech|family_fun_center|leagues|juniors_youth",
+  "vibe_tags": "family_fun_center|tech_lab|community_club",
+  "who_its_for": "beginners|families|large_groups|solo_practice|corporate_teams",
+  "why_golfers_like_it": [
+    "State-of-the-art TrackMan technology for precise swing and shot analysis",
+    "Two-tier driving range with both open-air and natural grass tees",
+    "Indoor golf simulator for all-weather play and virtual course experiences",
+    "Variety of ball game options to add fun and variety to practice sessions"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "BYOB policy is not explicitly mentioned, but the venue hosts parties and events, suggesting external food may be permitted."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of an on-site bar or alcohol service."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Used in the driving range and indoor simulator for real-time shot tracking and performance data."
+    }
+  ],
+  "simulator_so": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://clients.uschedule.com/skokieparksrange/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 50,
+  "price_range_max_local": 120,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "pro_shop|private_party_room|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you should bring your own clubs. The facility has a pro shop for rentals or purchases, but it is recommended to use your own personal equipment for consistency."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue does not mention an on-site kitchen or bar, but given its party and event hosting capabilities, it is likely that you can bring your own food and non-alcoholic drinks. Alcohol policies are not specified."
+    },
+    {
+      "question": "How long does it take to play 18 holes on the simulator?",
+      "answer": "The time to complete 18 holes on the simulator is not specified on the website. Typically, simulator play can vary based on the number of players and pace, but it generally takes 1 to 2 hours for a full 18-hole round."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Skokie Sports Park is kid-friendly. It offers a Tot Learning Center, hosts birthday parties, and has a variety of amenities like mini-golf and batting cages that are suitable for children."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"8AM-10PM\"], \"Tuesday\": [\"8AM-10PM\"], \"Wednesday\": [\"8AM-10PM\"], \"Thursday\": [\"8AM-10PM\"], \"Friday\": [\"8AM-10PM\"], \"Saturday\": [\"8AM-10PM\"], \"Sunday\": [\"8AM-10PM\"]}"
+}

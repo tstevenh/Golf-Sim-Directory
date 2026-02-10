@@ -1,0 +1,96 @@
+{
+  "name": "Golfology",
+  "address": "2400 5th Ave S Unit A, St. Petersburg, FL 33712",
+  "city": "St. Petersburg",
+  "region": "Florida",
+  "country": "US",
+  "latitude": 27.766321,
+  "longitude": -82.665917,
+  "phone": "+17276133838",
+  "website": "https://www.playgolfology.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770200810/golf_simulators/www_playgolfology_com_ChIJO-baVZrjwogRyrhet7TZPms.png",
+  "google_maps_url": "https://www.google.com/maps/place/Golfology/@27.766321299999998,-82.66591729999999,14z/data=!4m8!1m2!2m1!1sGolfology!3m4!1s0x88c2e39a55dae63b:0x6b3ed9b4b75eb8ca!8m2!3d27.766321299999998!4d-82.66591729999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJO-baVZrjwogRyrhet7TZPms",
+  "email": "hello@playgolfology.com",
+  "venue_type": "sim_bar",
+  "about": "Golfology is an indoor golf simulator facility located in the Arts/warehouse district of St. Petersburg, FL. It features 6 Trackman simulator bays, a 1,000 sqft chipping and putting green area, and a TV-filled lounge. The venue is designed for all ages and skill levels, from beginners to seasoned professionals, offering a full bar and food delivery from Bayboro Brewing next door. Pricing is based on bay rentals at $59 per hour, with optional monthly memberships available that include 6 hours of play per month.",
+  "tags": "beginner_friendly|food_and_drinks|family_friendly|corporate_events|budget_friendly|private_rooms|coaching_available|late_night",
+  "vibe_tags": "sports_bar|family_fun_center|tech_lab|community_club",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Premium Trackman simulators with 400+ courses",
+    "Full bar and food delivery available",
+    "No peak pricing on hourly rentals",
+    "No contract required for memberships",
+    "Allows up to 6 players per bay",
+    "Complimentary club rentals including lefty sets"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "QR code ordering from Bayboro Brewing's smoked BBQ menu, delivered directly to your bay"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Domestic staples, local craft beers, and ready-to-drink cocktails available"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "6 bays with premium Trackman technology"
+    }
+  ],
+  "simulator_so": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": 6,
+  "booking_url": "https://clients.uschedule.com/golfologyfl/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 59,
+  "price_range_max_local": 180,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "No, complimentary rental clubs are available including women's, lefty's, and youth sets if you need them."
+    },
+    {
+      "question": "Can I bring food and drinks?",
+      "answer": "Food and drinks are available for purchase. You can order food from Bayboro Brewing next door via QR code, and they offer a full bar with domestic and local craft beers."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes varies depending on the course and simulator setup, but typically ranges from 2-3 hours per bay."
+    },
+    {
+      "question": "Is this kid-friendly?",
+      "answer": "Yes, kids are encouraged to play, though they must stay with their guardians during their visit."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-10PM\"], \"Saturday\": [\"10AM-10PM\"], \"Sunday\": [\"10AM-10PM\"]}"
+}

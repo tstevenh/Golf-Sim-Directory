@@ -1,0 +1,91 @@
+{
+  "name": "Evolution Sportsplex",
+  "address": "141 S Opdyke Rd, Auburn Hills, MI 48326",
+  "city": "Auburn Hills",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 42.632812,
+  "longitude": -83.248299,
+  "phone": "+12484999991",
+  "website": "http://www.evolutionsportsplex.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770203160/golf_simulators/www_evolutionsportsplex_com_ChIJqydWEHnAJIgRePRrVOXW0uY.png",
+  "google_maps_url": "https://www.google.com/maps/place/Evolution+Sportsplex/@42.6328125,-83.2482986,14z/data=!4m8!1m2!2m1!1sEvolution+Sportsplex!3m4!1s0x8824c079105627ab:0xe6d2d6e5546bf478!8m2!3d42.6328125!4d-83.2482986",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJqydWEHnAJIgRePRrVOXW0uY",
+  "email": "info@evolutionsportsplex.com",
+  "venue_type": "multi_sport_sim",
+  "about": "Evolution Sportsplex is a multi-purpose indoor sports facility in Auburn Hills, MI, offering year-round training and play on its 92,500 sq. ft. multi-purpose dome with artificial turf. The venue provides a range of services including an indoor golf driving range, multiple batting cages, and event space for parties, seminars, and business operations. While primarily focused on team sports, it also offers golf services, with a dedicated focus on simulator bays, lessons from PGA professionals, and a driving range for casual play. The facility is designed to be comfortable and accessible, featuring a family-friendly atmosphere with a full concession stand, high-definition TVs, and free Wi-Fi. The golf amenities include lessons from PGA Teaching Professional Bob Menzies, who utilizes advanced technology like the Foresight Sports GCQuad launch monitor for instruction. Additionally, golf lessons are available with Rick Coatta, who offers group and individual sessions. The golf simulators and driving range are key components of the sports offerings, designed for both practice and casual play.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|coaching_available|family_friendly|juniors_youth|group_practice|multi_sport",
+  "vibe_tags": "family_fun_center|community_club|casual|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "Advanced launch monitor technology for lessons",
+    "Indoor driving range for year-round practice",
+    "PGA-certified instruction with video swing analysis",
+    "Family-friendly and multi-sport environment",
+    "Comfortable facility with amenities like Wi-Fi and HD TVs"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full concession stand available for food and drinks."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service; BYOB is not specified."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": "GCQuad",
+      "notes": "Used by PGA Teaching Professional Bob Menzies for lessons."
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "https://yourgolfbooking.com/venues/evolution-sportsplex/booking/bays",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|leagues|wifi|pro_shop|club_fitting|multi_sport|ada_accessible",
+  "rating_tech_quality": 4.7,
+  "rating_facility_comfort": 4.5,
+  "rating_value_for_money": 4.2,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "It is recommended to bring your own clubs; however, the facility does not explicitly state if rentals are available."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "The facility offers a full concession stand with food and drinks, but there is no mention of outside food or drink policies."
+    },
+    {
+      "question": "How long does it take to play 18 holes on the simulator?",
+      "answer": "The website does not specify the time required to play 18 holes, but it does offer a booking link for reservations."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Evolution Sportsplex is described as a fun, friendly, and family-friendly atmosphere with amenities suitable for various ages."
+    }
+  ],
+  "rating_overall": 4.5,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

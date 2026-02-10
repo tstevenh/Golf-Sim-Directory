@@ -1,0 +1,88 @@
+{
+  "name": "The Country Club of Indianapolis",
+  "address": "2801 Country Club Rd, Indianapolis, IN 46234",
+  "city": "Indianapolis",
+  "region": "Indiana",
+  "country": "US",
+  "latitude": 39.807622,
+  "longitude": -86.307816,
+  "phone": "+13172919770",
+  "website": "http://www.ccindianapolis.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770269443/golf_simulators/www_ccindianapolis_com_ChIJxxkH8gOpbIgRFtwtHgzzW9M.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Country+Club+of+Indianapolis/@39.8076218,-86.307816,14z/data=!4m8!1m2!2m1!1sThe+Country+Club+of+Indianapolis!3m4!1s0x886ca903f20719c7:0xd35bf30c1e2ddc16!8m2!3d39.8076218!4d-86.307816",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJxxkH8gOpbIgRFtwtHgzzW9M",
+  "venue_type": "country_club",
+  "about": "The Country Club of Indianapolis is a private, member-focused club offering a championship 18-hole golf course alongside a range of athletic and social amenities. The venue provides extensive facilities including Full Swing simulators for indoor golf practice, swimming, pickleball, and space for both casual and formal events. Membership is the primary access model, with different levels available to suit various lifestyles. The club emphasizes a luxurious yet welcoming environment, combining premier golfing opportunities with comprehensive social and event spaces for members and their guests.",
+  "tags": "serious_golfers|food_and_drinks|corporate_events|families|large_groups|club_rentals|premium_tech|coaching_available|private_rooms|community_club",
+  "vibe_tags": "private_luxury|sports_bar|community_club|family_fun_center|upscale_lounge",
+  "who_its_for": "serious_golfers|families|corporate_teams|large_groups|juniors_youth",
+  "why_golfers_like_it": [
+    "Access to premium Full Swing simulators for year-round practice and play",
+    "Championship 18-hole golf course designed for competitive play and casual enjoyment",
+    "Comprehensive athletic and social amenities in a private, luxury setting"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full-service dining and catering available for events and members"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Bar services available for members and event guests"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Full Swing",
+      "model": "Simulator",
+      "notes": "Multiple Full Swing simulator units available for member and event use"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": "unknown",
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "https://ccindianapolis.com/amenities/full-swing-simulators/",
+  "pricing_model": "membership_only",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|pool|pro_shop|leagues|ada_accessible|pickleball",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The club provides rental clubs for use in the simulators, though members are encouraged to bring their own equipment."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drink is not permitted, as the club offers full-service dining and bar options for members and guests."
+    },
+    {
+      "question": "How long does an 18-hole simulator round take?",
+      "answer": "A standard 18-hole round typically takes 1-2 hours depending on the number of players and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the club has a family-friendly atmosphere and offers activities and amenities suitable for children, including pickleball and family events."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"9AM-7PM\"], \"Wednesday\": [\"9AM-7PM\"], \"Thursday\": [\"9AM-7PM\"], \"Friday\": [\"9AM-7PM\"], \"Saturday\": [\"9AM-7PM\"], \"Sunday\": [\"9AM-7PM\"]}"
+}

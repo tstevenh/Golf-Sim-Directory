@@ -1,0 +1,90 @@
+{
+  "name": "Elevated Tee Box",
+  "address": "Second Level, 140 W 15th St, Edmond, OK 73013",
+  "city": "Edmond",
+  "region": "Oklahoma",
+  "country": "US",
+  "latitude": 35.636553,
+  "longitude": -97.486575,
+  "phone": "+14052520703",
+  "website": "http://www.elevatedteebox.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770209412/golf_simulators/www_elevatedteebox_com_ChIJCTSRTAYfsocRi1Sr3nXnt5s.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Elevated+Tee+Box/@35.6365528,-97.4865746,14z/data=!4m8!1m2!2m1!1sElevated+Tee+Box!3m4!1s0x87b21f064c913409:0x9bb7e775deab548b!8m2!3d35.6365528!4d-97.4865746",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJCTSRTAYfsocRi1Sr3nXnt5s",
+  "email": "info@elevatedteebox.com",
+  "venue_type": "training_studio",
+  "about": "Elevated Tee Box is an indoor golf simulator studio located on the second floor of the Solid Rock facility in Edmond, Oklahoma. The venue specializes in providing a year-round golf experience through its two bays equipped with TrackMan technology. It offers memberships starting at $35 per month and also provides hourly rentals for those looking to play or practice. The facility aims to help golfers of all skill levels improve their game using advanced data analytics in a comfortable, professional setting. Their target audience includes both individual players and groups seeking to practice, play virtual golf courses, or use the technology for club fitting and swing analysis.",
+  "tags": "beginner_friendly|serious_golfers|families|low_handicap|coaching_available|leagues|budget_friendly",
+  "vibe_tags": "modern|tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|families|coaches_instructors",
+  "why_golfers_like_it": [
+    "Professional-grade TrackMan technology used by 90% of the world's top 100 players",
+    "Affordable monthly memberships starting at $35, making premium tech accessible",
+    "Private, spacious bays designed for focused practice and analysis",
+    "Convenient indoor location accessible regardless of weather conditions"
+  ],
+  "kid_friendly": "yes",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "The venue has purchasable snacks available for guests"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service; appears to be BYOB"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "TrackMan",
+      "model": "unknown",
+      "notes": "Professional-grade radar launch monitor used in their two simulator bays"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://www.elevatedteebox.com/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 35,
+  "price_range_max_local": null,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": null,
+  "amenities_list": "tv_sports|wifi|club_fitting",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "Yes, you must bring your own full bag or select clubs to use the simulator. The venue does not currently have on-site clubs available for rental."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue offers purchasable snacks and beverages for guests, but you are not explicitly restricted from bringing your own food and drinks."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify an estimated time for playing 18 holes. Bays are rented by the hour, not by the person, so timing can vary based on group size and pace."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The venue does not specifically market itself as kid-friendly and does not mention family-oriented features or junior programs in its content."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"12-7PM\"], \"Tuesday\": [\"12-7PM\"], \"Wednesday\": [\"12-7PM\"], \"Thursday\": [\"12-7PM\"], \"Friday\": [\"12-7PM\"], \"Saturday\": [\"10AM-6PM\"], \"Sunday\": [\"1-5PM\"]}"
+}

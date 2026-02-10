@@ -1,0 +1,84 @@
+{
+  "name": "Golf On Tap",
+  "address": "3739 S Bond Ave, Portland, OR 97239",
+  "city": "Portland",
+  "region": "Oregon",
+  "country": "US",
+  "latitude": 45.495986,
+  "longitude": -122.670992,
+  "phone": "+15034777760",
+  "website": "http://golfontappdx.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770220932/golf_simulators/golfontappdx_com_ChIJQww_mY8LlVQRgrkKNYGFTG0.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Golf+On+Tap/@45.495985499999996,-122.6709916,14z/data=!4m8!1m2!2m1!1sGolf+On+Tap!3m4!1s0x54950b8f993f0c43:0x6d4c8581350ab982!8m2!3d45.495985499999996!4d-122.6709916",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJQww_mY8LlVQRgrkKNYGFTG0",
+  "email": "admin@golfontappdx.com",
+  "venue_type": "sim_bar",
+  "about": "Golf On Tap is an indoor golf simulator venue located within The Growler Guys in Portland, Oregon. It offers a unique experience combining golf simulation with access to craft beer, cider, wine, kombucha, and soda. The venue features over 100 golf courses, driving ranges, and games available for play. Players rent simulators by the hour and can sign a liability waiver before their session. The venue emphasizes a fun, community-focused atmosphere where golfers can enjoy their favorite beverages while playing.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|budget_friendly|private_rooms|club_rentals|community_club",
+  "vibe_tags": "sports_bar|community_club|casual|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Wide selection of over 100 golf courses and games",
+    "Unique combination of golf simulation with craft beverage options",
+    "Convenient hourly rental model for flexible play",
+    "Located inside a popular growler station for added appeal"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food available in the simulator area."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Craft beer, cider, wine, kombucha, and soda available from The Growler Guys."
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": "unknown",
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 1,
+  "booking_url": "https://www.golfontappdx.com/book-your-tee-time",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": 0,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|kitchen_food|tv_sports|private_party_room|wifi|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The provided content does not specify whether clubs are provided or if players must bring their own."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, food and drink are not allowed in the simulator area. Beverages must be purchased from The Growler Guys."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The provided content does not specify the average time to complete 18 holes."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The venue is not specifically marketed as kid-friendly, and the presence of alcohol suggests it is primarily oriented toward adults."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"11AM-10PM\"], \"Tuesday\": [\"11AM-10PM\"], \"Wednesday\": [\"11AM-10PM\"], \"Thursday\": [\"11AM-10PM\"], \"Friday\": [\"11AM-10PM\"], \"Saturday\": [\"11AM-10PM\"], \"Sunday\": [\"11AM-9PM\"]}"
+}

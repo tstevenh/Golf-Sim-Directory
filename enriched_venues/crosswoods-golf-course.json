@@ -1,0 +1,92 @@
+{
+  "name": "Crosswoods Golf Course",
+  "address": "35878 Co Rd 3, Crosslake, MN 56442",
+  "city": "Crosslake",
+  "region": "Minnesota",
+  "country": "US",
+  "latitude": 46.672334,
+  "longitude": -94.097636,
+  "phone": "+12186924653",
+  "website": "http://www.crosslakegolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770225600/golf_simulators/www_crosslakegolf_com_ChIJuXSjXC3RtlIRBEWPhN-fb9c.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Crosswoods+Golf+Course/@46.6723339,-94.0976359,14z/data=!4m8!1m2!2m1!1sCrosswoods+Golf+Course!3m4!1s0x52b6d12d5ca374b9:0xd76f9fdf848f4504!8m2!3d46.6723339!4d-94.0976359",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJuXSjXC3RtlIRBEWPhN-fb9c",
+  "email": "ssmith13@pga.com",
+  "venue_type": "country_club|multi_sport_sim",
+  "about": "Crosswoods Golf Course is a 27-hole golf facility located in Crosslake, MN, offering both outdoor play and indoor golf simulator experiences. The course features three different 18-hole layouts carved through native woods with GPS-equipped electric carts and top-notch playing conditions. The venue also houses an indoor golf simulator and games facility, providing year-round golf opportunities. Crosswoods is known for its friendly atmosphere, 10-minute tee time spacing to avoid crowding, and affordable rates ranging from $49-$79 for 18 holes with a cart. The facility includes a clubhouse with dining options, a pro shop, and practice facilities including a driving range and putting green.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|coaching_available|juniors_youth|family_friendly|budget_friendly|premium_tech|group_friendly",
+  "vibe_tags": "family_fun_center|community_club|welcoming|casual",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "Premium FlightScope launch monitor technology for accurate tracking and club fitting",
+    "10-minute tee time spacing providing a relaxed, uncrowded experience",
+    "Variety of 27 scenic holes with multiple layout options",
+    "Affordable rates compared to other area courses",
+    "Friendly staff with genuine hospitality",
+    "Indoor simulator available for year-round play"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "On-site dining available at Crosswoods Grill with indoor and outdoor seating options overlooking the golf course and waterfall garden"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No specific mention of alcohol service on-site"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "FlightScope",
+      "model": "unknown",
+      "notes": "New FlightScope Launch Monitor available for use with lessons and club fitting, providing pin point accuracy"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://foreupsoftware.com/index.php/booking/18814/445#teetimes",
+  "pricing_model": "per_person_hour|mixed",
+  "price_range_min_local": 49,
+  "price_range_max_local": 79,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "pro_shop|club_fitting|leagues|practice_facilities|dining|full_bar|kitchen_food|tv_sports|private_party_room|wifi|ada_accessible",
+  "rating_tech_quality": 4.0,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 4.5,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "No, the facility offers a large inventory of clubs available for use, though you're welcome to bring your own equipment."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "On-site dining is available at Crosswoods Grill, but no specific BYOB policy is mentioned for the simulator area."
+    },
+    {
+      "question": "How long does it take to play 18 holes on the simulator?",
+      "answer": "While not explicitly stated, typical simulator sessions for 18 holes generally range from 1-2 hours depending on group size and pace."
+    },
+    {
+      "question": "Is the simulator kid-friendly?",
+      "answer": "Yes, the facility offers junior golf programs and clinics for ages 6-12, indicating they accommodate younger golfers in their simulator space."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"7AM-8PM\"], \"Tuesday\": [\"7AM-8PM\"], \"Wednesday\": [\"7AM-8PM\"], \"Thursday\": [\"7AM-8PM\"], \"Friday\": [\"7AM-8PM\"], \"Saturday\": [\"7AM-8PM\"], \"Sunday\": [\"7AM-8PM\"]}"
+}

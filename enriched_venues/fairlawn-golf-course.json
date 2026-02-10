@@ -1,0 +1,91 @@
+{
+  "name": "Fairlawn Golf Course",
+  "address": "388 Empire Rd, Poland, ME 04274",
+  "city": "Poland",
+  "region": "Maine",
+  "country": "US",
+  "latitude": 44.049388,
+  "longitude": -70.329779,
+  "phone": "+12079984277",
+  "website": "https://fairlawngolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770251675/golf_simulators/fairlawngolf_com_ChIJuU4k8YZCskwRVoovZloqI7s.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Fairlawn+Golf+Course/@44.0493884,-70.3297793,14z/data=!4m8!1m2!2m1!1sFairlawn+Golf+Course!3m4!1s0x4cb24286f1244eb9:0xbb232a5a662f8a56!8m2!3d44.0493884!4d-70.3297793",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJuU4k8YZCskwRVoovZloqI7s",
+  "email": "Fairlawn-Golf-Country-Club_Tournaments-Events_Tournaments-Events-Calendar-Background-Image@2x-1000x1300.jpg",
+  "venue_type": "sim_bar",
+  "about": "Fairlawn Golf Course is an 18-hole public golf facility located in Poland, Maine. It features both a traditional outdoor course and an indoor simulator space equipped with three state-of-the-art Trackman bays. The venue maintains a peaceful, wooded atmosphere and is known for being family-friendly, with food and beverage service available at its pub. It operates as a multi-purpose facility catering to both traditional golfers and those seeking indoor simulator experiences.",
+  "tags": "beginner_friendly|food_and_drinks|family_friendly|corporate_events|leagues|premium_tech|budget_friendly|club_rentals|community_club",
+  "vibe_tags": "casual|welcoming|modern|family_fun_center|community_club",
+  "who_its_for": "families|corporate_teams|beginners|serious_golfers|tourists_travelers",
+  "why_golfers_like_it": [
+    "Premium Trackman simulator technology available for public use",
+    "Combines traditional golf with modern indoor simulation options",
+    "On-site food and beverage service creates a complete golf experience",
+    "Family-friendly atmosphere suitable for all skill levels",
+    "Peaceful wooded setting provides a relaxing golf environment"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Food available at the on-site pub"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with various local and national beers on tap"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "unknown",
+      "notes": "Three state-of-the-art Trackman bays available for public use"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://fairlawnsimroom.golf918.net/embed/lp3q5nwoox3y8kf176zmh",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 0,
+  "price_range_max_local": 0,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": false,
+  "private_rooms_count": 0,
+  "max_group_size_per_bay": 0,
+  "amenities_list": "full_bar|kitchen_food|club_rentals|pro_shop|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "Players must bring their own clubs for simulator play, as there is no mention of club rentals."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside alcoholic beverages are prohibited on the property per Maine State Law, though food from the on-site pub is available."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "No specific time estimate is provided for 18 holes on the simulator in the content."
+    },
+    {
+      "question": "Is it kid-friendly?",
+      "answer": "Yes, the venue is family-friendly with mentions of family amenities and a welcoming atmosphere for all skill levels."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-10PM\"], \"Saturday\": [\"10AM-10PM\"], \"Sunday\": [\"10AM-10PM\"]}"
+}

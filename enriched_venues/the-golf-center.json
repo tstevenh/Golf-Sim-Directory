@@ -1,0 +1,79 @@
+{
+  "name": "The Golf Center",
+  "address": "130 Dolson Ave, Middletown, NY 10940",
+  "city": "Middletown",
+  "region": "New York",
+  "country": "US",
+  "latitude": 41.431029,
+  "longitude": -74.427059,
+  "phone": "+18453445505",
+  "website": "http://thegolfcenterny.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770200393/golf_simulators/thegolfcenterny_com_ChIJsWZGZWoyw4kR-RKR52GxTrs.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Golf+Center/@41.4310293,-74.427059,14z/data=!4m8!1m2!2m1!1sThe+Golf+Center!3m4!1s0x89c3326a654666b1:0xbb4eb161e79112f9!8m2!3d41.4310293!4d-74.427059",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJsWZGZWoyw4kR-RKR52GxTrs",
+  "venue_type": "training_studio",
+  "about": "The Golf Center is an indoor golf facility designed for off-season practice and play, featuring Full Swing Simulators with ION2 high-speed cameras. The venue offers a professional environment for golfers to play top courses from around the world and utilize advanced technology like TruGolf E6 v1.6 software, BodiTrak Analysis, and V1 Video Analysis. It is open seasonally from mid-November to mid-April, with flexible booking options and league programs for all skill levels. Pricing is structured per hour with VIP rates available, and the facility provides a range of services from simulator time to professional coaching with swing analysis tools.",
+  "tags": "serious_golfers|coaching_available|leagues|premium_tech|beginner_friendly|budget_friendly|juniors_youth",
+  "vibe_tags": "industrial_training|tech_lab|welcoming",
+  "who_its_for": "serious_golfers|families|juniors_youth|coaches_instructors|solo_practice",
+  "why_golfers_like_it": [
+    "State-of-the-art Full Swing Simulators with ION2 cameras for realistic gameplay",
+    "Advanced swing analysis tools including BodiTrak and V1 Video Analysis",
+    "Access to 60+ prestigious golf courses including Pebble Beach and Pinehurst",
+    "Professional coaching and instruction available on-site",
+    "Flexible pricing options with VIP membership benefits"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": null,
+  "simulator_hardware": [
+    {
+      "brand": "Full Swing",
+      "model": null,
+      "notes": "ION2 High Speed Cameras, True Dual Tracking of Ball & Club"
+    }
+  ],
+  "simulator_software": [
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "http://thegolfcentny.com/#contact",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 30,
+  "price_range_max_local": 110,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "leagues|club_fitting|coaching_available",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you will need to bring your own golf clubs to use the simulators and launch monitors."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "The venue does not mention any food or drink services, so it is unclear if outside food and beverages are permitted."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The exact time for 18 holes is not specified, but pricing is available for both 9-hole ($25-$50) and 18-hole ($50-$50) league play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, The Golf Center offers youth leagues and accommodates golfers of all skill levels, making it suitable for juniors and families."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-8PM\"], \"Tuesday\": [\"9AM-8PM\"], \"Wednesday\": [\"9AM-8PM\"], \"Thursday\": [\"9AM-8PM\"], \"Friday\": [\"9AM-8PM\"], \"Saturday\": [\"9AM-8PM\"], \"Sunday\": [\"9AM-5PM\"]}"
+}

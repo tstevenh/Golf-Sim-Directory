@@ -1,0 +1,90 @@
+{
+  "name": "Tee Box",
+  "address": "3202 Marina Bay Dr # F, Kemah, TX 77565",
+  "city": "Kemah",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 29.542986,
+  "longitude": -95.056045,
+  "phone": "+12813397041",
+  "website": "http://www.teeboxtexas.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770223407/golf_simulators/www_teeboxtexas_com_ChIJu3GPJiFjP4YReuCR4AZ5UuM.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Tee+Box/@29.542985899999998,-95.0560455,14z/data=!4m8!1m2!2m1!1sTee+Box!3m4!1s0x863f6321268f71bb:0xe3527906e091e07a!8m2!3d29.542985899999998!4d-95.0560455",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJu3GPJiFjP4YReuCR4AZ5UuM",
+  "email": "Golfy@gmail.com",
+  "venue_type": "sim_bar",
+  "about": "Tee Box is an indoor golf simulation venue featuring 8 TruGolf simulators with over 100 courses available. The facility has recently upgraded to the new Apogee system for enhanced swing accuracy and instant feedback. Beyond golf, it offers a range of family-friendly games including dodgeball, bowling, disc golf, baseball, and soccer. The venue operates with a full-service bar, making it suitable for both casual play and social gatherings. It caters to a diverse clientele, including avid golfers, families, non-golfers, and those seeking entertainment.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|kids_friendly|corporate_events|leagues|premium_tech|budget_friendly|private_rooms|club_rentals|late_night|coaching_available",
+  "vibe_tags": "sports_bar|family_fun_center|party_atmosphere|community_club",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|solo_practice|tourists_travelers|bachelor_parties",
+  "why_golfers_like_it": [
+    "New Apogee system provides incredible accuracy and instant swing feedback",
+    "8 TruGolf simulators offer a premium indoor golfing experience",
+    "Access to over 100 of the best golf courses from around the world",
+    "Family-friendly environment with additional entertainment options beyond golf"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "BYOFood (Bring Your Own Food) is permitted for events"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full-service bar available on-site"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "TruGolf",
+      "model": "E6 Connect",
+      "notes": "8 simulators equipped with Apogee system technology"
+    }
+  ],
+  "simulator_software": [
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 8,
+  "booking_url": "https://foreupsoftware.com/index.php/booking/21381/7528#/teetimes",
+  "pricing_model": "mixed",
+  "price_range_min_local": 10,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": 8,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue doesn't specify whether clubs are provided, so it's recommended to bring your own equipment."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, BYOFood (Bring Your Own Food) is permitted for events. The venue also has a full-service bar available."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The venue doesn't specify exact timing, but typical indoor golf sessions for 18 holes range from 1.5 to 2.5 hours depending on simulator speed and group size."
+    },
+    {
+      "question": "Is Tee Box kid-friendly?",
+      "answer": "Yes, Tee Box is kid-friendly, with children 10 and under included with membership and various family-oriented games and activities available."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-8PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-10PM\"], \"Saturday\": [\"10AM-10PM\"], \"Sunday\": [\"10AM-8PM\"]}"
+}

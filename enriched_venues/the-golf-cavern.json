@@ -1,0 +1,90 @@
+{
+  "name": "The Golf Cavern",
+  "address": "1104 Park Ave S Suite 4, Park Rapids, MN 56470",
+  "city": "Park Rapids",
+  "region": "Minnesota",
+  "country": "US",
+  "latitude": 46.911144,
+  "longitude": -95.057122,
+  "phone": "+12182555308",
+  "website": "http://www.thegolfcavern.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770221099/golf_simulators/www_thegolfcavern_com_ChIJ4YwLzO65t1IRUIM75GM7Hjg.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Golf+Cavern/@46.911143599999996,-95.05712229999999,14z/data=!4m8!1m2!2m1!1sThe+Golf+Cavern!3m4!1s0x52b7b9eecc0b8ce1:0x381e3b63e43b8350!8m2!3d46.911143599999996!4d-95.05712229999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ4YwLzO65t1IRUIM75GM7Hjg",
+  "email": "team@thegolfcavern.com",
+  "venue_type": "other",
+  "about": "The Golf Cavern is an unstaffed indoor golf simulator venue in Park Rapids, MN. It features two bays equipped with top-of-the-line GC Hawk launch monitors from Foresight Sports, running both FSX Play and GSPro software. The facility offers 24/7 access, allowing golfers to practice or play at any time. Pricing is based on an hourly rate, with monthly and annual membership plans available for those who play more frequently.",
+  "tags": "beginner_friendly|late_night|private_rooms|premium_tech|budget_friendly",
+  "vibe_tags": "tech_lab|industrial_training",
+  "who_its_for": "beginners|serious_golfers|solo_practice|low_handicap",
+  "why_golfers_like_it": [
+    "24/7 access for flexible practice schedules",
+    "Unstaffed environment for private sessions",
+    "Premium GC Hawk launch monitor technology"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food is available on-site; guests are advised to use nearby facilities."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol is sold on-site; the venue does not appear to allow BYOB."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight Sports",
+      "model": "GC Hawk",
+      "notes": "Top-of-the-line launch monitor, 2 units installed"
+    }
+  ],
+  "simulator_software": [
+    "FSX Play",
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 2,
+  "booking_url": "https://www.thegolfcavern.com/book-online",
+  "pricing_model": "mixed",
+  "price_range_min_local": 45,
+  "price_range_max_local": 45,
+  "currency": "USD",
+  "walk_ins_allowed": false,
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 5,
+  "amenities_list": "wifi|club_rentals|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you are expected to bring your own golf clubs to use at The Golf Cavern."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "There is no food or drink available for purchase on-site. The facility does not mention a policy on bringing outside food or drink."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The venue suggests booking 1 hour per person to get through 18 holes."
+    },
+    {
+      "question": "Is The Golf Cavern kid-friendly?",
+      "answer": "The website does not explicitly state that the venue is kid-friendly, nor does it mention any age restrictions or junior programs."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

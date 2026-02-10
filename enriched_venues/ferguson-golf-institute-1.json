@@ -1,0 +1,90 @@
+{
+  "name": "Ferguson Golf Institute",
+  "address": "3036 Churchville Rd, Churchville, MD 21028",
+  "city": "Churchville",
+  "region": "Maryland",
+  "country": "US",
+  "latitude": 39.557136,
+  "longitude": -76.240005,
+  "phone": "+14108795497",
+  "website": "http://www.fgigolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770228121/golf_simulators/www_fgigolf_com_ChIJ-4J2KG_Dx4kRvm-tfs5Mc7Y.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Ferguson+Golf+Institute/@39.5571365,-76.2400054,14z/data=!4m8!1m2!2m1!1sFerguson+Golf+Institute!3m4!1s0x89c7c36f287682fb:0xb6734cce7ead6fbe!8m2!3d39.5571365!4d-76.2400054",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ-4J2KG_Dx4kRvm-tfs5Mc7Y",
+  "email": "fergogolf@gmail.com",
+  "venue_type": "training_studio",
+  "about": "Ferguson Golf Institute is a comprehensive golf training and simulation facility operating at two locations in Maryland: Forest Hill and Churchville. The venue offers a full suite of services including indoor golf simulator sessions, professional golf lessons, club fitting services, and golf club repair. The facility is equipped with high-quality Uneekor simulators and utilizes launch monitor technology and high-speed video analysis for coaching. They cater to a wide range of golfers, from beginners to serious players, and offer various programs including junior golf leagues and corporate outings. The atmosphere is welcoming and supportive, with BYOB policies at both locations.",
+  "tags": "beginner_friendly|food_and_drinks|kids_friendly|corporate_events|leagues|coaching_available|club_fitting|training_studio",
+  "vibe_tags": "casual|welcoming|modern|family_fun_center",
+  "who_its_for": "beginners|serious_golfers|families|juniors_youth|corporate_teams",
+  "why_golfers_like_it": [
+    "Professional instruction with launch monitor technology",
+    "Two convenient Maryland locations (Forest Hill & Churchville)",
+    "BYOB policy with food allowed for a relaxed experience",
+    "Comprehensive services from lessons to club fitting and repair"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Food is welcome at both Forest Hill and Churchville locations."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "BYOB (Bring Your Own Beverage) policy is in effect at both locations."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "unknown",
+      "notes": "Uneekor bays available at both locations for rental and lessons."
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://www.fgigolf.com/make-a-booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 30,
+  "price_range_max_local": 330,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|kitchen_food|club_fitting|leagues|pro_shop",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you should bring your own golf clubs. The facility is designed for golfers to use their own equipment."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, both Forest Hill and Churchville locations are BYOB (Bring Your Own Beverage) and food is welcome."
+    },
+    {
+      "question": "How long does an 18-hole round on the simulator take?",
+      "answer": "The time for an 18-hole round is not specified, but they offer 1, 2, 3, and 4-hour practice or play sessions."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Ferguson Golf Institute offers a variety of junior programs including junior winter and fall leagues, summer camps, and the PGA Jr. Tour, making it very kid-friendly."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-2PM\"], \"Tuesday\": [\"9AM-8PM\"], \"Wednesday\": [\"9AM-8PM\"], \"Thursday\": [\"9AM-2PM\", \"4-8PM\"], \"Friday\": [\"9AM-2PM\", \"4-8PM\"], \"Saturday\": [\"9AM-6PM\"], \"Sunday\": [\"9AM-6PM\"]}"
+}

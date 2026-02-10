@@ -1,0 +1,89 @@
+{
+  "name": "Beyond Golf - Bar + Kitchen",
+  "address": "12040 McDermott Plz #330, La Vista, NE 68128",
+  "city": "La Vista",
+  "region": "Nebraska",
+  "country": "US",
+  "latitude": 41.179963,
+  "longitude": -96.101598,
+  "phone": "+14029164727",
+  "website": "http://www.beyondgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770216554/golf_simulators/www_beyondgolf_com_ChIJSwJi0vL0k4cRqTUUOR96Av0.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Beyond+Golf+-+Bar+%2B+Kitchen/@41.179963099999995,-96.101598,14z/data=!4m8!1m2!2m1!1sBeyond+Golf+-+Bar+%2B+Kitchen!3m4!1s0x8793f4f2d262024b:0xfd027a1f391435a9!8m2!3d41.179963099999995!4d-96.101598",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJSwJi0vL0k4cRqTUUOR96Av0",
+  "email": "patty@beyondgolf.com",
+  "venue_type": "sim_bar",
+  "about": "Beyond Golf - Bar + Kitchen is an indoor golf venue that uses GOLFZON simulators to provide year-round play on famous golf courses in a realistic environment. The establishment combines this golf technology with a full-service bar offering craft beer and cocktails, along with a gourmet food menu, creating a multi-purpose recreational space. With locations in Omaha, Nebraska and Eagle, Colorado, the venue aims to bridge off-seasons and provide a place for golfers to play, relax, and connect in a casual atmosphere featuring big screen TVs and a spacious patio.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|leagues|premium_tech|date_night",
+  "vibe_tags": "casual|welcoming|modern|sports_bar",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Access to GOLFZON simulators for playing world-famous golf courses in extreme realism",
+    "Year-round golf in a climate-controlled environment, perfect for keeping swing sharp during winter",
+    "Casual atmosphere with a full bar and gourmet food menu, allowing for a complete dining and golf experience"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full gourmet food menu with fresh and innovated items prepared from scratch daily, including house-smoked meats, hand-sliced cheeses, and creative spins on bar fare."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service with a vast selection of regional and local craft beers on a 12-tap system, house-made infused liquors, and hand-crafted cocktails."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "GOLFZON",
+      "model": "simulator",
+      "notes": "The venue features GOLFZON simulators; Eagle location has 2 (soon to be 4), and other locations feature 5 simulators."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 4,
+  "booking_url": "http://www.beyondgolf.com/eagle/book-tee-time-eagle",
+  "pricing_model": "per_person_hour",
+  "price_range_min_local": 25,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|kitchen_food|tv_sports|private_party_room|leagues|wifi",
+  "rating_tech_quality": 4.0,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not explicitly state if club rentals are available, so it is recommended to contact the venue directly for this information."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, Beyond Golf has a full bar and gourmet kitchen on-site. They offer craft beer, cocktails, and a full food menu that you can order from."
+    },
+    {
+      "question": "How long does an 18-hole round take?",
+      "answer": "While not explicitly stated, the 'Blue Tee Package' is offered as 5 hours of golf, which can be used for an extended round or multiple sessions."
+    },
+    {
+      "question": "Is Beyond Golf kid-friendly?",
+      "answer": "The venue features a full bar with alcohol and has a casual sports bar atmosphere, making it more suitable for adults rather than children."
+    }
+  ],
+  "rating_overall": 4.0,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-11PM\"], \"Saturday\": [\"10AM-11PM\"], \"Sunday\": [\"10AM-10PM\"]}"
+}

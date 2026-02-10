@@ -1,5 +1,6 @@
 import { Metadata } from "next";
-import { db } from "@/lib/db";
+import { Prisma } from "@prisma/client";
+import { db, venueCardSelect } from "@/lib/db";
 import { BestByPageContent } from "@/components/seo/BestByPageContent";
 import { matchesAmenity } from "@/lib/best-by";
 import { getStateDisplayName, getStateAbbrevFromName } from "@/lib/states";
@@ -7,9 +8,11 @@ import { getStaticRelatedLinks } from "@/lib/category-config.generated";
 
 interface CityBestAmenityPageProps {
   params: Promise<{ state: string; city: string; amenity: string }>;
+  searchParams?: Promise<Record<string, string | string[] | undefined>>;
 }
 
-export const revalidate = 60;
+export const revalidate = 86400;
+type VenueCardRow = Prisma.VenueGetPayload<{ select: typeof venueCardSelect }>;
 
 // Amenity-specific content with unique copy
 const amenityContent: Record<string, { tagline: string; shortDesc: string; longDesc: string }> = {
@@ -77,13 +80,19 @@ export async function generateMetadata({ params }: CityBestAmenityPageProps): Pr
   };
 }
 
-export default async function CityBestAmenityPage({ params }: CityBestAmenityPageProps) {
+export default async function CityBestAmenityPage({ params, searchParams }: CityBestAmenityPageProps) {
+  const paramsResolved = (await searchParams) || {};
+  const page = Math.max(1, Number(paramsResolved.page || 1));
+  const pageSize = 12;
   const { state, city, amenity } = await params;
   const stateAbbrev = getStateAbbrevFromName(state) || state.toUpperCase();
   const stateName = getStateDisplayName(stateAbbrev);
   const cityFormatted = city.replace(/-/g, " ").replace(/\b\w/g, l => l.toUpperCase());
   const amenityLabel = amenity.replace(/_/g, " ").replace(/-/g, " ").replace(/\b\w/g, l => l.toUpperCase());
   const amenityKey = amenity.toLowerCase();
+  const normalizedAmenity = amenityKey.replace(/-/g, "_");
+  const skip = (page - 1) * pageSize;
+  const canRawQuery = typeof (db as unknown as { $queryRaw?: unknown }).$queryRaw === "function";
 
   const content = amenityContent[amenityKey] || {
     tagline: `${amenityLabel} Available`,
@@ -91,17 +100,93 @@ export default async function CityBestAmenityPage({ params }: CityBestAmenityPag
     longDesc: `Browse venues that offer ${amenityLabel.toLowerCase()}. Use these listings to compare amenities, hardware, and booking options.`,
   };
 
-  const venues = await db.venue.findMany({
-    where: {
-      city: { equals: cityFormatted, mode: "insensitive" },
-      state: stateAbbrev.toUpperCase(),
-      country: "US",
-      status: "active",
-    },
-    orderBy: [{ featured: "desc" }, { ratingOverall: "desc" }, { name: "asc" }],
-  });
+  const amenityWhereMap: Record<string, Record<string, unknown>> = {
+    private_rooms: { hasPrivateRooms: true },
+    coaching_available: { coachingAvailable: true },
+    wifi: { wifi: true },
+    free_parking: { parking: "free_lot" },
+    valet_parking: { parking: "valet" },
+    lessons: { coachingAvailable: true },
+  };
 
-  const filteredVenues = venues.filter((venue) => matchesAmenity(venue, amenity));
+  let totalVenues = 0;
+  let venues: VenueCardRow[] = [];
+
+  if (amenityWhereMap[normalizedAmenity]) {
+    const where = {
+      city: { equals: cityFormatted, mode: "insensitive" as const },
+      state: stateAbbrev.toUpperCase(),
+      country: "US" as const,
+      status: "active" as const,
+      ...amenityWhereMap[normalizedAmenity],
+    };
+    [totalVenues, venues] = await Promise.all([
+      db.venue.count({ where }),
+      db.venue.findMany({
+        where,
+        orderBy: [{ featured: "desc" }, { ratingOverall: "desc" }, { name: "asc" }],
+        select: venueCardSelect,
+        take: pageSize,
+        skip,
+      }),
+    ]);
+  } else if (canRawQuery && (normalizedAmenity === "full_bar" || normalizedAmenity === "kitchen_food")) {
+    const rows =
+      normalizedAmenity === "full_bar"
+        ? await db.$queryRaw<{ id: string }[]>`
+            SELECT v.id
+            FROM "venues" v
+            WHERE v."status" = 'active'
+              AND (
+                lower(COALESCE(v."foodAndDrink"->>'alcohol', 'false')) = 'true'
+                OR lower(COALESCE(v."foodAndDrink"->>'hasBar', 'false')) = 'true'
+              )
+          `
+        : await db.$queryRaw<{ id: string }[]>`
+            SELECT v.id
+            FROM "venues" v
+            WHERE v."status" = 'active'
+              AND (
+                lower(COALESCE(v."foodAndDrink"->>'food', 'false')) = 'true'
+                OR lower(COALESCE(v."foodAndDrink"->>'hasFood', 'false')) = 'true'
+              )
+          `;
+    const ids = rows.map((row) => row.id);
+
+    if (ids.length > 0) {
+      const where = {
+        city: { equals: cityFormatted, mode: "insensitive" as const },
+        state: stateAbbrev.toUpperCase(),
+        country: "US" as const,
+        status: "active" as const,
+        id: { in: ids },
+      };
+      [totalVenues, venues] = await Promise.all([
+        db.venue.count({ where }),
+        db.venue.findMany({
+          where,
+          orderBy: [{ featured: "desc" }, { ratingOverall: "desc" }, { name: "asc" }],
+          select: venueCardSelect,
+          take: pageSize,
+          skip,
+        }),
+      ]);
+    }
+  } else {
+    const allVenues = await db.venue.findMany({
+      where: {
+        city: { equals: cityFormatted, mode: "insensitive" },
+        state: stateAbbrev.toUpperCase(),
+        country: "US",
+        status: "active",
+      },
+      orderBy: [{ featured: "desc" }, { ratingOverall: "desc" }, { name: "asc" }],
+      select: venueCardSelect,
+    });
+    const filteredVenues = allVenues.filter((venue) => matchesAmenity(venue, amenity));
+    totalVenues = filteredVenues.length;
+    venues = filteredVenues.slice(skip, skip + pageSize);
+  }
 
   // Get nearby cities with this amenity
   const nearbyCitiesResult = await db.venue.findMany({
@@ -132,7 +217,7 @@ export default async function CityBestAmenityPage({ params }: CityBestAmenityPag
   const faqItems = [
     {
       question: `How many venues with ${amenityLabel.toLowerCase()} are in ${cityFormatted}?`,
-      answer: `We found ${filteredVenues.length} venues offering ${content.shortDesc} in ${cityFormatted}, ${stateName}. Availability may vary—always confirm when booking.`,
+      answer: `We found ${totalVenues} venues offering ${content.shortDesc} in ${cityFormatted}, ${stateName}. Availability may vary—always confirm when booking.`,
     },
     {
       question: `What does "${amenityLabel}" include at these venues?`,
@@ -158,7 +243,7 @@ export default async function CityBestAmenityPage({ params }: CityBestAmenityPag
   return (
     <BestByPageContent
       title={`Golf Simulators with ${amenityLabel} in ${cityFormatted}`}
-      description={`${content.longDesc}\n\nDiscover ${filteredVenues.length} venues in ${cityFormatted}, ${stateName} offering ${content.shortDesc}.`}
+      description={`${content.longDesc}\n\nDiscover ${totalVenues} venues in ${cityFormatted}, ${stateName} offering ${content.shortDesc}.`}
       guidancePoints={[
         "Confirm amenity availability when booking—some vary by day or require advance notice.",
         "Check if the amenity is included in bay pricing or charged separately.",
@@ -174,12 +259,16 @@ export default async function CityBestAmenityPage({ params }: CityBestAmenityPag
       ctaDescription={`Claim your listing to verify amenities and reach golfers searching for ${content.shortDesc}.`}
       ctaPrimary={{ label: "Claim Your Listing", href: "/claim" }}
       ctaSecondary={{ label: "Submit New Venue", href: "/submit" }}
-      venues={filteredVenues}
+      venues={venues}
+      totalVenues={totalVenues}
       categoryType="amenity"
       categoryValue={amenityKey}
       heroSubtitle={`${cityFormatted}, ${stateName}`}
       breadcrumbItems={breadcrumbs}
       showRanking={true}
+      currentPage={page}
+      pageSize={pageSize}
+      baseUrl={`/venue/us/${state}/${city}/best/amenities/${amenity}`}
     />
   );
 }

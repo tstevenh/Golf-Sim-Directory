@@ -1,0 +1,91 @@
+{
+  "name": "Zstrict At Chelsea Piers",
+  "address": "1 Blachley Rd Suite #102, Stamford, CT 06902",
+  "city": "Stamford",
+  "region": "Connecticut",
+  "country": "US",
+  "latitude": 41.050948,
+  "longitude": -73.516752,
+  "phone": "+12037174050",
+  "website": "https://www.zstrict.com/%3Futm_source%3Dextnet%26utm_medium%3Dyext",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770220715/golf_simulators/www_zstrict_com_ChIJJdCZRyqhwokRMbtqZB-duKs.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Zstrict+At+Chelsea+Piers/@41.050948399999996,-73.5167523,14z/data=!4m8!1m2!2m1!1sZstrict+At+Chelsea+Piers!3m4!1s0x89c2a12a4799d025:0xabb89d1f646abb31!8m2!3d41.050948399999996!4d-73.5167523",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJJdCZRyqhwokRMbtqZB-duKs",
+  "email": "info@zstrict.com.",
+  "venue_type": "sim_bar",
+  "about": "ZSTRICT is a golf simulator venue located at Chelsea Piers in Stamford, CT, powered by GOLFZON technology. It offers 10 golf simulator bays with over 200 virtual courses, including Pebble Beach and St. Andrews, and features a full bar and a kitchenette for food and drink. The venue is open to the public and does not require a membership, making it accessible for casual play and social gatherings. Bay reservations are timed, and the facility offers rental clubs, a VIP lounge for private events, and a strict 24-hour cancellation policy for bookings.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|private_rooms|club_rentals|family_friendly",
+  "vibe_tags": "casual|welcoming|modern|sports_bar|party_atmosphere",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Premium GOLFZON simulator technology with realistic swing plate and patented sensors",
+    "Convenient food and bar service available on-site for a complete experience",
+    "Flexible private event space with an upstairs loft for hosting parties",
+    "Option to rent clubs, catering to both new and experienced players",
+    "Multiple virtual courses, including world-famous layouts like Pebble Beach"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Kitchenette available for hosting needs; well-stocked bar with many options"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar located in the middle of the facility with separate payment system"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "GOLFZON",
+      "model": "T1 Sensors",
+      "notes": "Ceiling-mounted T1 sensors capture every shot seamlessly without manual reset"
+    }
+  ],
+  "simulator_software": [
+    "GOLFZON Global App"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": 10,
+  "booking_url": "https://www.zstrict.com/book-a-bay/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 45,
+  "price_range_max_local": 84,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need clubs?",
+      "answer": "No, rental clubs are available. Standard Strata set costs $15, and an upgraded Callaway XR set costs $25."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "The venue has a well-stocked bar and kitchenette, but food and drink are paid separately through a different point-of-sale system."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Reservations are based on time slots, not the number of holes. When your booking time ends, play stops to accommodate the next reservation."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is open to the public and can accommodate families, with no age restrictions mentioned for play."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-11PM\"], \"Tuesday\": [\"9AM-11PM\"], \"Wednesday\": [\"9AM-11PM\"], \"Thursday\": [\"9AM-11PM\"], \"Friday\": [\"9AM-11PM\"], \"Saturday\": [\"9AM-11PM\"], \"Sunday\": [\"9AM-10:30PM\"]}"
+}

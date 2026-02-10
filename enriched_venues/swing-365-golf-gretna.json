@@ -1,0 +1,91 @@
+{
+  "name": "Swing 365 Golf - Gretna",
+  "address": "11314 Wickersham Blvd Suite 600, Gretna, NE 68028",
+  "city": "Gretna",
+  "region": "Nebraska",
+  "country": "US",
+  "latitude": 41.144025,
+  "longitude": -96.163601,
+  "phone": "+14026572130",
+  "website": "https://www.swing365golf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770216545/golf_simulators/www_swing365golf_com_ChIJM8QZNqT3k4cR8r-b4bobxLI.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Swing+365+Golf+-+Gretna/@41.1440252,-96.1636008,14z/data=!4m8!1m2!2m1!1sSwing+365+Golf+-+Gretna!3m4!1s0x8793f7a43619c433:0xb2c41bbae19bbff2!8m2!3d41.1440252!4d-96.1636008",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJM8QZNqT3k4cR8r-b4bobxLI",
+  "email": "Brad@swing365golf.com",
+  "venue_type": "sim_bar",
+  "about": "Swing 365 Golf - Gretna is a state-of-the-art golf simulator venue that offers a membership-based community experience with a warm and private club atmosphere. The facility provides 365/24/7 access to individual simulator suites, which can be conveniently booked online. Members can enjoy a round of golf, practice for an upcoming tournament, or socialize with friends in a premium setting. The venue is designed for golfers who want to play on their own schedule and access detailed performance data to improve their game.",
+  "tags": "serious_golfers|food_and_drinks|corporate_events|leagues|premium_tech|private_rooms|club_rentals|community_club|solo_practice",
+  "vibe_tags": "private_luxury|community_club|modern|upscale_lounge",
+  "who_its_for": "serious_golfers|corporate_teams|solo_practice|families|large_groups",
+  "why_golfers_like_it": [
+    "Premium Full Swing™ Pro Series simulator with 688 infrared sensors for ultra-precise ball tracking",
+    "95+ world-class virtual courses, including Pebble Beach, accessible 24/7",
+    "Membership model provides unlimited or flexible simulator time for dedicated practice",
+    "Ability to bring your own food and beverages for a personalized experience",
+    "Detailed performance data helps translate simulator practice to on-course improvement"
+  ],
+  "kid_friendly": false,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Patrons can bring their own food"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Patrons can bring their own beverages (BYOB)"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Full Swing",
+      "model": "Pro Series",
+      "notes": "Widescreen simulator with 688 infrared sensors across two tracks"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "infrared_optical",
+  "ball_tracking": true,
+  "club_tracking": "infrared",
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://clients.uschedule.com/swing365gretna/account/login",
+  "pricing_model": "membership_only",
+  "price_range_min_local": 45,
+  "price_range_max_local": 90,
+  "currency": "USD",
+  "walk_ins_allowed": false,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|private_party_room|wifi|tv_sports",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "While not explicitly stated, it is standard practice for golf simulator venues to allow players to use their own clubs for the most authentic experience."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, Swing 365 Gretna allows members to bring their own food and beverages (BYOB) to enjoy during their simulator session."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "A typical 18-hole round on a simulator can take approximately 2-3 hours, depending on the pace of play and simulator session length."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The venue does not specifically market itself as kid-friendly and operates as a membership-based private club, which suggests it is primarily focused on adult golfers."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

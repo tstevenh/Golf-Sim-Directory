@@ -1,0 +1,89 @@
+{
+  "name": "Golf Instruction @ The Fremont Clubhouse",
+  "address": "4020 Technology Pl, Fremont, CA 94538",
+  "city": "Fremont",
+  "region": "California",
+  "country": "US",
+  "latitude": 37.510594,
+  "longitude": -121.950955,
+  "phone": "+15106512500",
+  "website": "http://www.fremontclubhouse.com/golf",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770240866/golf_simulators/www_fremontclubhouse_com_ChIJG-AtqJjHj4ARU1kLPYSNiOw.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Golf+Instruction+%40+The+Fremont+Clubhouse/@37.510594,-121.950955,14z/data=!4m8!1m2!2m1!1sGolf+Instruction+%40+The+Fremont+Clubhouse!3m4!1s0x808fc798a82de01b:0xec888d843d0b5953!8m2!3d37.510594!4d-121.950955",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJG-AtqJjHj4ARU1kLPYSNiOw",
+  "email": "eddie@fremontclubhouse.com",
+  "venue_type": "sim_bar|multi_sport_sim",
+  "about": "The Clubhouse of Fremont is a multi-sport facility offering golf simulators, club fitting, instruction, and a sports bar. It features PGA-certified golf instruction with Eddie Scott and hosts leagues, corporate events, and social gatherings. The venue uses technology like Swing Catalyst software, Flightscope radar, and SAM Putt Lab for lessons. Memberships provide benefits including discounts on food and beverages and access to the Northern California Golf Association. It is located at the Mission Peak Sportsplex.",
+  "tags": "food_and_drinks|corporate_events|leagues|premium_tech|beginner_friendly|coaching_available|private_rooms",
+  "vibe_tags": "sports_bar|community_club|retro_gaming",
+  "who_its_for": "families|large_groups|corporate_teams|beginners|solo_practice",
+  "why_golfers_like_it": [
+    "State-of-the-art launch monitor technology including Flightscope radar",
+    "Full-service on-site club fitting with professional staff and demo days",
+    "Dedicated private teaching bay with advanced swing analysis tools"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen available; menu includes appetizers and customized creations by Chef Susanna for events."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with draft beer available; 20% discount on food and beverages for members."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Full Swing",
+      "model": "unknown",
+      "notes": "Features two Full Swing Golf Simulators for unlimited play."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "http://bit.ly/4mike5B",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 120,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|kitchen_food|tv_sports|club_fitting|leagues|private_party_room",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "Yes, for optimal use of the golf simulators and for golf lessons, it is recommended to bring your own clubs. The facility also offers club fitting services and has demo clubs available during special events."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue has a full kitchen and bar where food and drinks can be purchased. There is no mention of allowing outside food or drinks, but events may have specific catering options."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes on a simulator is not specified but is generally estimated to take around 1-2 hours depending on the number of players and the pace of play."
+    },
+    {
+      "question": "Is The Clubhouse kid-friendly?",
+      "answer": "Yes, the Clubhouse offers activities like rock climbing and volleyball, making it suitable for families. They also host kids' parties and provide a safe environment for high school graduates during Grad Nights."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-5PM\"], \"Tuesday\": [\"10AM-5PM\"], \"Wednesday\": [\"10AM-5PM\"], \"Thursday\": [\"10AM-5PM\"], \"Friday\": [\"10AM-5PM\"], \"Saturday\": [\"Closed\"], \"Sunday\": [\"Closed\"]}"
+}

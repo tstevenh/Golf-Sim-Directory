@@ -1,0 +1,90 @@
+{
+  "name": "Tee Times Bloomfield",
+  "address": "6565 Telegraph Rd, Bloomfield Township, MI 48301",
+  "city": "Bloomfield Township",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 42.543782,
+  "longitude": -83.28413,
+  "phone": "+12483821211",
+  "website": "https://playteetimes.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770203310/golf_simulators/playteetimes_com_ChIJUd1ynji5JIgRvDmqO9FHMFc.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Tee+Times+Bloomfield/@42.543782,-83.2841304,14z/data=!4m8!1m2!2m1!1sTee+Times+Bloomfield!3m4!1s0x8824b9389e72dd51:0x573047d13baa39bc!8m2!3d42.543782!4d-83.2841304",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJUd1ynji5JIgRvDmqO9FHMFc",
+  "email": "info@playteetimes.com",
+  "venue_type": "sim_bar",
+  "about": "Tee Times is an indoor golf simulator venue with locations in Rochester Hills and Bloomfield Township, Michigan. The facility utilizes 12 Golfzon TwoVision Plus simulators, offering a realistic playing experience with access to over 200 courses. Tee Times provides a full-service bar and kitchen, making it suitable for both individual practice sessions and group events. Pricing is based on hourly bay rental and varies depending on the day and time.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|coaching_available|date_night|large_groups",
+  "vibe_tags": "casual|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "Cutting-edge Golfzon TwoVision Plus simulator technology for accurate and immersive play",
+    "Multiple hitting surfaces (fairway, rough, bunker) to replicate on-course conditions",
+    "Full-service bar and kitchen available for food and drinks during play",
+    "Ability to play over 200 championship courses from around the world"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full-service kitchen available"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full-service bar available"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Golfzon",
+      "model": "TwoVision Plus",
+      "notes": "Dual high-speed cameras, 24-position swing plate, multi-surface mats"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "overhead_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://www.golfoclock.com/landing-pages/tee-times",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|leagues|pro_shop",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you should bring your own golf clubs to use with the simulators."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "No, outside food and drink are not permitted as Tee Times has its own full-service kitchen and bar."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "Playing 18 holes can vary, but a typical round takes approximately 1.5 to 2 hours, depending on the number of players in your group."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "Yes, Tee Times is suitable for families and offers a versatile environment that can accommodate children, including hosting family gatherings and birthday parties."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"9AM-11PM\"], \"Tuesday\": [\"9AM-11PM\"], \"Wednesday\": [\"9AM-11PM\"], \"Thursday\": [\"9AM-11PM\"], \"Friday\": [\"9AM-12AM\"], \"Saturday\": [\"9AM-12AM\"], \"Sunday\": [\"9AM-11PM\"]}"
+}

@@ -1,0 +1,96 @@
+{
+  "name": "Proof Golf",
+  "address": "4601 N Dixie Hwy #123, Elizabethtown, KY 42701",
+  "city": "Elizabethtown",
+  "region": "Kentucky",
+  "country": "US",
+  "latitude": 37.752525,
+  "longitude": -85.897493,
+  "phone": "+12706810810",
+  "website": "https://proofgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770208121/golf_simulators/proofgolf_com_ChIJtW7z-4HpaIgR8rF393aeCss.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Proof+Golf/@37.7525246,-85.89749259999999,14z/data=!4m8!1m2!2m1!1sProof+Golf!3m4!1s0x8868e981fbf36eb5:0xcb0a9e76f777b1f2!8m2!3d37.7525246!4d-85.89749259999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJtW7z-4HpaIgR8rF393aeCss",
+  "venue_type": "training_studio",
+  "about": "Proof Golf is a fully self-service, 24/7 indoor golf facility equipped with cutting-edge hardware and a golf-specific gym. The venue focuses on providing a technologically advanced environment for golfers to train and play, with a strong emphasis on data-driven improvement through partnerships with brands like Garmin R50 and TruGolf Apogee. It caters to individuals looking for flexible gameplay and structured training, offering options for one-time sessions or various membership plans to suit different budgets and training needs.",
+  "tags": "beginner_friendly|serious_golfers|budget_friendly|premium_tech|coaching_available|leagues|corporate_events|solo_practice",
+  "vibe_tags": "tech_lab|casual|welcoming|modern",
+  "who_its_for": "serious_golfers|beginners|solo_practice|corporate_teams|coaches_instructors",
+  "why_golfers_like_it": [
+    "Fully self-service, 24/7 access provides maximum flexibility for any schedule",
+    "Partnerships with premium brands like Garmin and TruGolf offer accurate, reliable data for game improvement",
+    "On-site golf-specific gym allows players to train like a pro and complement their practice sessions"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "BYOB allowed"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "BYOB allowed"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Garmin",
+      "model": "R50",
+      "notes": "Premium launch monitor featuring high accuracy"
+    },
+    {
+      "brand": "TruGolf",
+      "model": "Apogee",
+      "notes": "Precision ball and club tracking system"
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "auto_putt",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://proofgolf.com/book/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|pro_shop|club_fitting|leagues|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you are expected to bring your own clubs to use at the facility."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, the facility is BYOB (Bring Your Own Beverage), and you are welcome to bring your own food. Complimentary coffee is also available on-site."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes can vary based on the number of players and pace, but it is typically completed within 1.5 to 2 hours."
+    },
+    {
+      "question": "Is Proof Golf kid-friendly?",
+      "answer": "Yes, the facility is suitable for juniors and youth golfers, offering a family-friendly environment for learning and practice."
+    }
+  ],
+  "simulator_software": [
+    "TruGolf"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

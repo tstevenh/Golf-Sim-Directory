@@ -1,0 +1,90 @@
+{
+  "name": "U Golf",
+  "address": "1082 Cedar Cross Rd suite 1, Dubuque, IA 52003",
+  "city": "Dubuque",
+  "region": "Iowa",
+  "country": "US",
+  "latitude": 42.477798,
+  "longitude": -90.706859,
+  "phone": "+15635801790",
+  "website": "https://ugolfdbq.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770207960/golf_simulators/ugolfdbq_com_ChIJOySabyot44cRoNj_JwlbKlg.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/U+Golf/@42.477797599999995,-90.7068589,14z/data=!4m8!1m2!2m1!1sU+Golf!3m4!1s0x87e32d2a6f9a243b:0x582a5b0927ffd8a0!8m2!3d42.477797599999995!4d-90.7068589",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJOySabyot44cRoNj_JwlbKlg",
+  "venue_type": "training_studio|retail_fitting_center",
+  "about": "UGolf Dubuque is a premier indoor golf experience and retail fitting center featuring three identical golf simulator bays equipped with TrackMan 4e technology. The venue combines high-performance golf simulation with professional club fitting and repair services, offering a comprehensive environment for both serious golfers and casual players. UGolf provides a realistic indoor golf experience, combining over 26 separate metrics to create the best overall profile of your swing, supported by expertise as a Golf Magazine Top 50 Club Fitter. The facility offers flexible booking options and distinct seasonal hours, catering to a range of golfing needs from simulation play to equipment customization.",
+  "tags": "serious_practice|premium_tech|club_fitting|coaching_available|beginner_friendly|corporate_events|private_rooms|pro_shop",
+  "vibe_tags": "tech_lab|professional|welcoming|modern",
+  "who_its_for": "serious_golfers|beginners|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Access to three bays with the most accurate TrackMan 4e simulators on the market",
+    "Expert club fitting services using Trackman data analysis with over 600 shaft options",
+    "Comprehensive in-house club repair and customization services",
+    "A wide selection of top golf brands and professional-grade equipment",
+    "Flexible rental options and clear seasonal pricing structure"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service is mentioned. BYOB policy is not specified."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service is mentioned. BYOB policy is not specified."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4e",
+      "notes": "Three identical bays featuring TrackMan 4e technology, the most accurate, realistic and enjoyable simulated golf system available."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://ugolfdbq.com/products/rental",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "pro_shop|club_fitting|club_rentals|leagues",
+  "rating_tech_quality": 4.7,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, the facility policy requires you to bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answers": "The facility does not mention food or drink service, and a BYOB policy is not specified."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes is not specified on the website."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The venue is not advertised as kid-friendly, with a maximum party size of 4 people per bay and no specific mention of children's activities."
+    }
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"9:30AM-5:30PM\"], \"Tuesday\": [\"9:30AM-5:30PM\"], \"Wednesday\": [\"9:30AM-5:30PM\"], \"Thursday\": [\"9:30AM-5:30PM\"], \"Friday\": [\"9:30AM-5:30PM\"], \"Saturday\": [\"Closed\"], \"Sunday\": [\"Closed\"]}"
+}

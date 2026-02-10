@@ -1,0 +1,91 @@
+{
+  "name": "South Broadway Country Club",
+  "address": "4200 Tennyson St, Denver, CO 80212",
+  "city": "Denver",
+  "region": "Colorado",
+  "country": "US",
+  "latitude": 39.774134,
+  "longitude": -105.043839,
+  "phone": "+17203989799",
+  "website": "http://www.southbroadwaycc.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770215626/golf_simulators/www_southbroadwaycc_com_ChIJ272aKSWHa4cRGY0BW-IrIZY.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/South+Broadway+Country+Club/@39.774134,-105.04383849999999,14z/data=!4m8!1m2!2m1!1sSouth+Broadway+Country+Club!3m4!1s0x876b8725299abddb:0x96212be25b018d19!8m2!3d39.774134!4d-105.04383849999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ272aKSWHa4cRGY0BW-IrIZY",
+  "email": "info@southbroadwaycc.com",
+  "venue_type": "sim_bar",
+  "about": "South Broadway Country Club is a chain of indoor golf simulator facilities in Colorado, with locations in Denver and Fort Collins. Established in 2017, the venues feature TrackMan technology and offer full-service cocktail bars, creating a hybrid environment for golfing and socializing. The company provides a premium indoor golf experience through advanced simulator technology and professional golf instruction.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|coaching_available|club_rentals|private_rooms",
+  "vibe_tags": "sports_bar|upscale_lounge|tech_lab",
+  "who_its_for": "beginners|serious_golfers|corporate_teams|solo_practice|families",
+  "why_golfers_like_it": [
+    "Premium TrackMan simulator technology for accurate data and course rendering",
+    "Full-service cocktail bars creating a social golf environment",
+    "Professional golf instruction available for all skill levels",
+    "Multiple locations with unique atmospheres like The Crow's Nest"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Kitchen available for food service"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full-service cocktail bars at all locations, including curated craft beverages at The Crow's Nest"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "Premium radar technology with Optically Enhanced Radar Tracking (OERT)"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "http://www.southbroadwaycc.com/southbroadway#bookbroadway",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "full_bar|kitchen_food|tv_sports|private_party_room|pro_shop|leagues|club_rentals",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "The venue doesn't specify whether they provide club rentals, so it's recommended to bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food or drink?",
+      "answer": "No, outside food and drink are not permitted as the venues offer full-service kitchen and cocktail bars."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website doesn't specify the exact time for 18 holes, but typical simulator rounds take 2-3 hours depending on group size and pace."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The website doesn't explicitly mention child-friendly policies, so it's best to contact them directly for information on bringing children."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"12-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-10PM\"], \"Saturday\": [\"10AM-10PM\"], \"Sunday\": [\"10AM-10PM\"]}"
+}

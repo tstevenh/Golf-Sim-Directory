@@ -1,0 +1,91 @@
+{
+  "name": "Virtual Greens Golf Club",
+  "address": "6069 River Rd Building D, Suite 2, St. George, UT 84790",
+  "city": "St. George",
+  "region": "Utah",
+  "country": "US",
+  "latitude": 37.004543,
+  "longitude": -113.558361,
+  "phone": "+14352724561",
+  "website": "https://www.virtualgreensgolfclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770233398/golf_simulators/www_virtualgreensgolfclub_com_ChIJZbsd50BRyoARfCMZyQhUi6A.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Virtual+Greens+Golf+Club/@37.004543,-113.5583611,14z/data=!4m8!1m2!2m1!1sVirtual+Greens+Golf+Club!3m4!1s0x80ca5140e71dbb65:0xa08b5408c919237c!8m2!3d37.004543!4d-113.5583611",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJZbsd50BRyoARfCMZyQhUi6A",
+  "email": "contact@virtualgreensgolfclub.com",
+  "venue_type": "multi_sport_sim",
+  "about": "Virtual Greens Golf Club is an indoor golf facility powered by TrackMan technology in St. George, Utah. The venue offers climate-controlled bays for year-round play, featuring real-course golf with shot-by-shot analytics. Members and drop-ins can book time online to play, practice, or take lessons. The facility is equipped with TrackMan technology for accurate data tracking and includes amenities like free beverages and 24/7 access for members. Pricing options include both hourly drop-in rates and membership plans with varying levels of access and benefits.",
+  "tags": "beginner_friendly|food_and_drinks|kids_friendly|corporate_events|premium_tech|coaching_available|private_rooms|club_rentals|late_night",
+  "vibe_tags": "tech_lab|family_fun_center|community_club",
+  "who_its_for": "beginners|serious_golfers|families|solo_practice|coaches_instructors|juniors_youth",
+  "why_golfers_like_it": [
+    "TrackMan technology provides accurate shot data for game improvement",
+    "24/7 member access and flexible booking options",
+    "Climate-controlled bays for year-round play regardless of weather",
+    "Partnership with Southern Utah Golf Academy for expert coaching",
+    "Complimentary beverages and a clean, family-friendly environment"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "Not explicitly mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "Not explicitly mentioned; BYOB status unclear"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Premium simulator bays with radar-based tracking"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.virtualgreensgolfclub.com/book-a-tee-time",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|lockers|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "The website does not explicitly state whether you need to bring your own clubs. It is recommended to contact the venue directly for specific equipment requirements."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue mentions complimentary drinks but does not specify a policy on outside food and drink. It is best to inquire directly with the venue for their policy on bringing your own items."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Plan on about one hour per golfer for a full 18. Solo rounds usually take 60–75 minutes. Time can vary based on putting settings, mulligans, and pace. Sessions book in 1–2 hour blocks."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is described as fun for the whole family and kid-friendly, with complimentary drinks being a big hit for children."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

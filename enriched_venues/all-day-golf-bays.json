@@ -1,0 +1,89 @@
+{
+  "name": "All Day Golf Bays",
+  "address": "1425 Division St, Waite Park, MN 56387",
+  "city": "Waite Park",
+  "region": "Minnesota",
+  "country": "US",
+  "latitude": 45.554003,
+  "longitude": -94.235202,
+  "phone": "+13206401781",
+  "website": "https://alldaygolfbays.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770215779/golf_simulators/alldaygolfbays_com_ChIJObPKPIJftFIRDS7rvqG9dSo.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/All+Day+Golf+Bays/@45.5540028,-94.23520169999999,14z/data=!4m8!1m2!2m1!1sAll+Day+Golf+Bays!3m4!1s0x52b45f823ccab339:0x2a75bda1beeb2e0d!8m2!3d45.5540028!4d-94.23520169999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJObPKPIJftFIRDS7rvqG9dSo",
+  "email": "adam@alldaygolfbays.com",
+  "venue_type": "sim_bar|training_studio",
+  "about": "All Day Golf Bays offers 24/7 access to golf simulator bays in Waite Park, MN. The facility features two distinct simulator bays, each equipped with TrackMan TM4 launch monitors, providing a comprehensive suite of data tracking. Bay options include 'The Big Green,' a standard bay, and 'The Swing Suite,' a fully enclosed private room, accommodating up to 6 players. Pricing is structured per bay hour with a starting rate of $50 for the standard bay and $60 for the private suite. It is best suited for individuals, groups, and those seeking flexible, on-demand practice and play.",
+  "tags": "serious_practice|private_rooms|late_night|coaching_available|corporate_events|group_events|beginner_friendly",
+  "vibe_tags": "tech_lab|modern|private_luxury",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "24/7 access with unique codes for ultimate flexibility",
+    "Premium TrackMan TM4 technology provides detailed ball and club data",
+    "Two distinct bay options for private or standard group experiences"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "BYOB (Bring Your Own Beverages) is allowed."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "BYOB (Bring Your Own Beverages) is allowed."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "TM4",
+      "notes": "Reliable and accurate launch monitor used in both bays"
+    }
+  ],
+  "simulator_software": [
+    "TrackMan Performance Studio"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://www.yourgolfbooking.com/venues/all-day-golf-bays/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 50,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|private_party_room|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you are expected to bring your own golf clubs to use in the simulator bays."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, the facility is BYOB, allowing you to bring your own beverages and food to enjoy during your session."
+    },
+    {
+      "question": "How much time is needed to play 18 holes?",
+      "answer": "For a group of 2, 2 hours are recommended for 18 holes. For 4 people, 4 hours are recommended. For 6 people, 5-6 hours are recommended."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, the facility welcomes families. The simulator bays can accommodate up to 6 players, and the website features images of children playing."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

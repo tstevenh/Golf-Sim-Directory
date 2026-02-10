@@ -1,0 +1,91 @@
+{
+  "name": "Fairways of Woodside Golf Course",
+  "address": "Clubhouse Cir, Sussex, WI 53089",
+  "city": "Sussex",
+  "region": "Wisconsin",
+  "country": "US",
+  "latitude": 43.171915,
+  "longitude": -88.2139,
+  "phone": "+12622467042",
+  "website": "https://www.fairwaysofwoodside.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770268248/golf_simulators/www_fairwaysofwoodside_com_ChIJvwnG-NpUBIgRTG3B28CMeV8.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Fairways+of+Woodside+Golf+Course/@43.171915,-88.2139,14z/data=!4m8!1m2!2m1!1sFairways+of+Woodside+Golf+Course!3m4!1s0x880454daf8c609bf:0x5f798cc0dbc16d4c!8m2!3d43.171915!4d-88.2139",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJvwnG-NpUBIgRTG3B28CMeV8",
+  "email": "info@fairwaysofwoodside.com",
+  "venue_type": "sim_bar",
+  "about": "Fairways of Woodside Golf Course is an 18-hole championship course located in Sussex, Wisconsin. The facility features outdoor golf as well as indoor Trackman4 golf simulators, allowing for year-round play. The venue offers various membership options and is equipped with a remodeled Event Center and a Bar & Grill, making it suitable for both individual practice and group events. It is a player-focused environment with no initiation fees or monthly minimums.",
+  "tags": "food_and_drinks|corporate_events|leagues|premium_tech|budget_friendly|private_rooms|club_rentals|coaching_available|juniors_youth|family_friendly",
+  "vibe_tags": "casual|welcoming|sports_bar|community_club",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "Utilizes Trackman4 launch monitors, known for being the most accurate in the market",
+    "Offers a full indoor simulator experience with over 100 world-class golf courses available",
+    "Provides a year-round golf environment with comfortable and easy-to-reserve simulator bays",
+    "Features a remodeled Event Center suitable for tournaments and gatherings",
+    "Includes a full-service Bar & Grill with food and drinks available on-site"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen available with food options served at the Bar & Grill."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full-service bar available on-site, with cold drinks and drink specials."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "Four Trackman4 simulators are available for use, described as the most accurate launch monitors on the market."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 4,
+  "booking_url": "https://booking.lightspeed.app/7c7787a3-87fb-46bf-8c6b-d6480c939514",
+  "pricing_model": "mixed",
+  "price_range_min_local": 30,
+  "price_range_max_local": 2200,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.7,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you should bring your own golf clubs to use on the simulators."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No, the venue has a full-service Bar & Grill with food and drinks available on-site."
+    },
+    {
+      "question": "How long does it take to play 18 holes on a simulator?",
+      "answer": "The time to play 18 holes is not specified, but simulators can be booked by the hour."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue offers a Junior Golf Membership for ages 18 and under."
+    }
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"8AM-9PM\"], \"Tuesday\": [\"8AM-9PM\"], \"Wednesday\": [\"8AM-9PM\"], \"Thursday\": [\"8AM-9PM\"], \"Friday\": [\"6AM-9PM\"], \"Saturday\": [\"6AM-9PM\"], \"Sunday\": [\"6AM-9PM\"]}"
+}

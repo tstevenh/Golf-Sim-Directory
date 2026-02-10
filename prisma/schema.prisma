@@ -5,6 +5,7 @@ generator client {
 datasource db {
   provider = "postgresql"
   url      = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
 }
 
 // Enums
@@ -116,6 +117,8 @@ model Venue {
   
   // Tech Info
   simulatorSystems  Json?    // [{"brand":"Trackman","model":"iO"}]
+  hardwareBrands    String[] @default([])
+  softwareSlugs     String[] @default([])
   launchMonitorType LaunchMonitorType @default(unknown)
   ballTracking      Boolean? @default(false)
   clubTracking      Boolean? @default(false)
@@ -196,6 +199,17 @@ model Venue {
   @@index([latitude, longitude])
   @@index([status, featured, ratingOverall])
   @@index([status, city, state])
+  @@index([status, country, state], map: "idx_venues_status_country_state")
+  @@index([status, country, state, city], map: "idx_venues_status_country_state_city")
+  @@index([status, launchMonitorType], map: "idx_venues_status_launch_monitor")
+  @@index([tags], type: Gin, map: "idx_venues_tags_gin")
+  @@index([vibeTags], type: Gin, map: "idx_venues_vibe_tags_gin")
+  @@index([whoItsFor], type: Gin, map: "idx_venues_who_its_for_gin")
+  @@index([hardwareBrands], type: Gin, map: "idx_venues_hardware_brands_gin")
+  @@index([softwareSlugs], type: Gin, map: "idx_venues_software_slugs_gin")
+  @@index([simulatorSystems], type: Gin, map: "idx_venues_simulator_systems_gin")
+  @@index([foodAndDrink], type: Gin, map: "idx_venues_food_and_drink_gin")
+  @@index([comprehensiveData], type: Gin, map: "idx_venues_comprehensive_data_gin")
   @@map("venues")
 }
 

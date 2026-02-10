@@ -1,0 +1,90 @@
+{
+  "name": "Vaca Valley Country Club",
+  "address": "51 Commerce Pl, Vacaville, CA 95687",
+  "city": "Vacaville",
+  "region": "California",
+  "country": "US",
+  "latitude": 38.353482,
+  "longitude": -121.937401,
+  "phone": "+11643061525",
+  "website": "https://www.vacavalleycc.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770236931/golf_simulators/www_vacavalleycc_com_ChIJeS7p3A49hYARXwzizg72xzg.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Vaca+Valley+Country+Club/@38.353482299999996,-121.93740059999999,14z/data=!4m8!1m2!2m1!1sVaca+Valley+Country+Club!3m4!1s0x80853d0edce92e79:0x38c7f60ecee20c5f!8m2!3d38.353482299999996!4d-121.93740059999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJeS7p3A49hYARXwzizg72xzg",
+  "email": "clubhouse@vacavalleycc.com",
+  "venue_type": "country_club",
+  "about": "Vaca Valley Country Club is a premium private club that merges the timeless tradition of golf with state-of-art innovation. The venue offers a luxurious social environment and exclusive access to cutting-edge Trackman simulator technology, providing a private community for golfers to practice, compete, and connect year-round. Designed to meet the needs of the modern golfer, the facility features a collection of historic memorabilia and photographs, creating an atmosphere rich with story and elegance while being a tribute to the game.",
+  "tags": "serious_golfers|food_and_drinks|corporate_events|premium_tech|private_rooms|club_rentals|coaching_available|community_club|upscale_lounge",
+  "vibe_tags": "private_luxury|community_club|modern|upscale_lounge",
+  "who_its_for": "serious_golfers|corporate_teams|families|large_groups|solo_practice",
+  "why_golfers_like_it": [
+    "Access to four premium Trackman simulators for unparalleled accuracy and data insights",
+    "A private, members-only social club environment for networking and connection",
+    "Flexible membership options (individual, corporate, family) to suit various needs",
+    "Advanced coaching and personalized simulator sessions to enhance gameplay"
+  ],
+  "kid_friendly": false,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Partners with local companies to provide premium food options"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service with premium beverage options"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Four Trackman simulators with dual-radar technology for accurate trajectory and spin tracking"
+    }
+  ],
+  "simulator_software": [
+    "Virtual Golf 3"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 4,
+  "booking_url": "https://www.vacavalleycc.com/blank-4",
+  "pricing_model": "membership_only",
+  "price_range_min_local": null,
+  "price_range_max_local": null,
+  "currency": "USD",
+  "walk_ins_allowed": false,
+  "coaching_available": true,
+  "private_rooms_count": 4,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|lockers|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 5.0,
+  "rating_facility_comfort": 4.5,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "Yes, you are highly encouraged to bring your own clubs for the most accurate and consistent data from the Trackman simulators. Premium rental sets are available if needed."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "The venue partners with local companies to provide premium food and beverage options. Outside food and drink policies are not explicitly mentioned."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The exact time for 18 holes is not specified, but the simulators offer both serious practice and realistic course play experiences."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The venue is a private, members-only social club focused on golf and professional networking. It does not promote itself as kid-friendly."
+    }
+  ],
+  "rating_overall": 4.5,
+  "opening_hours": null
+}

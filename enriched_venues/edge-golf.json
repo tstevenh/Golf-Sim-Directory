@@ -1,0 +1,91 @@
+{
+  "name": "Edge Golf",
+  "address": "US, 18 Edgewater Town Center, Edgewater, NJ 07020",
+  "city": "Edgewater",
+  "region": "New Jersey",
+  "country": "US",
+  "latitude": 40.825446,
+  "longitude": -73.973989,
+  "phone": "+12014991660",
+  "website": "http://www.edgegolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770198941/golf_simulators/www_edgegolf_com_ChIJpfdKY1_3wokRtrVvI9Gp_E4.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Edge+Golf/@40.8254458,-73.9739886,14z/data=!4m8!1m2!2m1!1sEdge+Golf!3m4!1s0x89c2f75f634af7a5:0x4efca9d1236fb5b6!8m2!3d40.8254458!4d-73.9739886",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJpfdKY1_3wokRtrVvI9Gp_E4",
+  "email": "INFO@EDGEGOLF.COM",
+  "venue_type": "multi_sport_sim",
+  "about": "Edge Golf is an indoor golf simulator venue located in Edgewater, NJ, offering a realistic golf experience with advanced Golfzon simulators and lie-adjusting mats that mirror real course conditions. The facility provides a premium environment featuring both open bays and private rooms, suitable for practice, play, and lessons. It is designed for golfers of all levels, from beginners to experienced players, with a focus on community and improvement. Membership options are available, offering access to exclusive pricing on bay usage, pro shop discounts, and special events. The venue also features a pro shop and regularly hosts clinics, tournaments, and social gatherings, making it a comprehensive destination for indoor golf.",
+  "tags": "beginner_friendly|serious_golfers|families|juniors_youth|coaching_available|club_fitting|leagues|private_rooms|community_club|upscale_lounge",
+  "vibe_tags": "upscale_lounge|community_club|tech_lab|family_fun_center",
+  "who_its_for": "beginners|serious_golfers|families|juniors_youth|coaches_instructors|solo_practice|corporate_teams|large_groups",
+  "why_golfers_like_it": [
+    "Realistic Golfzon simulators with advanced shot analytics",
+    "Lie-adjusting mats that recreate fairway, rough, and bunker conditions",
+    "World-class virtual courses from Pebble Beach to St. Andrews",
+    "PGA-certified coaching and personalized training plans",
+    "Complimentary beverages for members during designated hours"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No on-site food service mentioned, but may allow outside food."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Complimentary beverages available for members during designated Member Hours. BYOB policy not explicitly stated."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Golfzon",
+      "model": "Advanced Simulator",
+      "notes": "Primary simulator brand with advanced shot analytics and lie-adjusting mats."
+    }
+  ],
+  "simulator_software": [
+    "Golfzon Courses"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface|dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://book.squareup.com/appointments/189870s0cgm7an/location/LT6AT7HVCH2JA/services",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|pro_shop|club_fitting|leagues|ada_accessible|wifi|private_party_room",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you are expected to bring your own clubs. However, club fitting services are available to help you optimize your equipment."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "Outside food and drink policies are not explicitly stated. Members may receive complimentary beverages during designated hours, but BYOB for non-members is unclear."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes depends on the number of players and pace of play. Typically, a round can take 1-2 hours, but this may vary based on group size and simulator availability."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Edge Golf offers junior memberships, clinics, and programs specifically designed for young golfers, making it a family-friendly environment."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"8AM-10PM\"], \"Tuesday\": [\"8AM-10PM\"], \"Wednesday\": [\"8AM-10PM\"], \"Thursday\": [\"8AM-10PM\"], \"Friday\": [\"8AM-11PM\"], \"Saturday\": [\"8AM-11PM\"], \"Sunday\": [\"8AM-10PM\"]}"
+}

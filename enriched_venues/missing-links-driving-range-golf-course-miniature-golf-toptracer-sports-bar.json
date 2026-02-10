@@ -1,0 +1,94 @@
+{
+  "name": "Missing Links Driving Range, Golf Course, Miniature Golf, Toptracer, Sports Bar",
+  "address": "12950 N Port Washington Rd, Mequon, WI 53097",
+  "city": "Mequon",
+  "region": "Wisconsin",
+  "country": "US",
+  "latitude": 43.25386,
+  "longitude": -87.923035,
+  "phone": "+12622435711",
+  "website": "http://www.missinglinksmequon.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770224382/golf_simulators/www_missinglinksmequon_com_ChIJzZ863ZfmBIgRIystwO0nHI4.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Missing+Links+Driving+Range%2C+Golf+Course%2C+Miniature+Golf%2C+Toptracer%2C+Sports+Bar/@43.2538604,-87.9230346,14z/data=!4m8!1m2!2m1!1sMissing+Links+Driving+Range%2C+Golf+Course%2C+Miniature+Golf%2C+Toptracer%2C+Sports+Bar!3m4!1s0x8804e697dd3a9fcd:0x8e1c27edc02d2b23!8m2!3d43.2538604!4d-87.9230346",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJzZ863ZfmBIgRIystwO0nHI4",
+  "email": "missinglinksmequon@gmail.com",
+  "venue_type": "sim_bar|training_studio|multi_sport_sim",
+  "about": "Missing Links is a comprehensive golf entertainment venue featuring a driving range, a 9-hole Jack Nicklaus Par 3 course, an 18-hole miniature golf course, and a full-service sports bar with ice cream and coffee cafe. The facility is equipped with Trackman indoor simulators and outdoor Toptracer bays, offering year-round practice and play options. It operates as a family-friendly destination with leagues, lessons, and event hosting capabilities, all with amenities like heated stalls and stadium lighting.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|kids_friendly|coaching_available|club_rentals|community_club",
+  "vibe_tags": "sports_bar|family_fun_center|community_club|casual",
+  "who_its_for": "families|beginners|corporate_teams|juniors_youth|serious_golfers",
+  "why_golfers_like_it": [
+    "Year-round heated facilities with both indoor Trackman and outdoor Toptracer technology",
+    "Combination of traditional golf course, driving range, and family fun mini-golf",
+    "Full-service clubhouse with sports bar and food options for a complete experience"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen and ice cream/coffee cafe available in the clubhouse"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available in the clubhouse sports bar"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Indoor simulators available for booking"
+    },
+    {
+      "brand": "Toptracer",
+      "model": "Range",
+      "notes": "7 outdoor heated Toptracer bays available"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 9,
+  "booking_url": "https://yourgolfbooking.com/venues/missing-links-golf/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 15,
+  "price_range_max_local": 36,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Bringing your own clubs is recommended, though rental clubs may be available. Contact the venue directly for details on club rentals."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drinks are not permitted. The venue offers a full kitchen, ice cream/coffee cafe, and a sports bar with food and beverage options available for purchase."
+    },
+    {
+      "question": "How long does an 18-hole round of simulator golf take?",
+      "answer": "An 18-hole round of virtual golf typically takes 1-2 hours, depending on group size and pace of play. The last round of mini-golf is sold 1 hour before closing time."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Missing Links is highly kid-friendly, featuring an 18-hole miniature golf course, a Par 3 course, simulator games like Angry Birds and Go Fish, and family-friendly leagues."
+    }
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-11PM\"], \"Wednesday\": [\"9AM-11PM\"], \"Thursday\": [\"9AM-11PM\"], \"Friday\": [\"9AM-10:30PM\"], \"Saturday\": [\"8AM-10:30PM\"], \"Sunday\": [\"8AM-9PM\"]}"
+}

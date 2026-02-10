@@ -1,0 +1,89 @@
+{
+  "name": "Lakeville Links Indoor Golf",
+  "address": "17630 Juniper Path Suite H, Lakeville, MN 55044",
+  "city": "Lakeville",
+  "region": "Minnesota",
+  "country": "US",
+  "latitude": 44.692902,
+  "longitude": -93.286508,
+  "phone": "+16126990526",
+  "website": "http://www.thelinks.golf/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770199098/golf_simulators/www_thelinks_golf_ChIJqyjIRUs59ocRe5GoZXwP8Y0.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Lakeville+Links+Indoor+Golf/@44.6929024,-93.2865083,14z/data=!4m8!1m2!2m1!1sLakeville+Links+Indoor+Golf!3m4!1s0x87f6394b45c828ab:0x8df10f7c65a8917b!8m2!3d44.6929024!4d-93.2865083",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJqyjIRUs59ocRe5GoZXwP8Y0",
+  "email": "hr@lakevillelinks.com",
+  "venue_type": "sim_bar",
+  "about": "Lakeville Links Premier Indoor Golf operates two locations in Minnesota, featuring Golfzon NX simulators. The Lakeville venue has 6 simulators with a full bar and menu, while the Stillwater location has 4 sims with food and drink service provided by Stillwater Bowl. The venues offer flexible memberships, leagues, contests, and group event hosting. The Golfzon NX system utilizes high-speed camera sensors, a moving swing plate, and an auto-tee retrieval system.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|coaching_available|group_events",
+  "vibe_tags": "upscale_lounge|sports_bar|family_fun_center|tech_lab",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams|solo_practice|coaches_instructors|juniors_youth",
+  "why_golfers_like_it": [
+    "Golfzon NX simulators with advanced technology",
+    "Flexible membership hours that never expire",
+    "Full bar and food options available",
+    "Multiple simulator locations in the Twin Cities area",
+    "Host for leagues and contests"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full menu available at Lakeville location; food provided by Stillwater Bowl at the Stillwater location"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar available with ice cold draft beer, selzters, and Bloody Marys"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Golfzon",
+      "model": "NX",
+      "notes": "6 units at Lakeville location, 4 units at Stillwater location"
+    }
+  ],
+  "simulator_software": "Golfzon NX",
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": 10,
+  "booking_url": "http://www.thelinks.golf/bookinglanding",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|leagues|private_party_room|wifi|pro_shop",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, players are expected to bring their own golf clubs to use with the simulators."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, outside food and drinks are not allowed as both locations offer full bars and menus."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Use one hour per person for 18 holes as a guide. Each simulator can accommodate up to 6 players, but 4 players per simulator is recommended for the best pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is family-friendly and suitable for junior golfers and youth programs."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"8AM-10PM\"], \"Tuesday\": [\"8AM-10PM\"], \"Wednesday\": [\"8AM-10PM\"], \"Thursday\": [\"8AM-10PM\"], \"Friday\": [\"8AM-10PM\"], \"Saturday\": [\"8AM-10PM\"], \"Sunday\": [\"8AM-10PM\"]}"
+}

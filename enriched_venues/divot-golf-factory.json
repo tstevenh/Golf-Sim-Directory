@@ -1,0 +1,89 @@
+{
+  "name": "Divot Golf Factory",
+  "address": "60 E Northfield Dr, Brownsburg, IN 46112",
+  "city": "Brownsburg",
+  "region": "Indiana",
+  "country": "US",
+  "latitude": 39.857921,
+  "longitude": -86.391079,
+  "phone": "+13178939934",
+  "website": "https://www.divotgolffactory.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770212724/golf_simulators/www_divotgolffactory_com_ChIJdxKfksGtbIgRJIH_WTC7IW8.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Divot+Golf+Factory/@39.8579213,-86.3910789,14z/data=!4m8!1m2!2m1!1sDivot+Golf+Factory!3m4!1s0x886cadc1929f1277:0x6f21bb3059ff8124!8m2!3d39.8579213!4d-86.3910789",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJdxKfksGtbIgRJIH_WTC7IW8",
+  "email": "info@divotgolffactory.com",
+  "venue_type": "sim_bar",
+  "about": "Divot Golf Factory is an upscale indoor golf simulator venue based in Brownsburg, Indiana. It offers a best-in-class golf simulation experience using cutting-edge technology designed for practice, play, and competition. The venue features advanced hardware, including high-speed cameras and automated tee systems, providing immediate and accurate feedback on ball flight and club data. Alongside the golf simulation, it provides a full-service bar and kitchen, making it suitable for both focused practice and social outings. Patrons can enjoy craft beers, specialty hotdogs, and watch sporting events on multiple large screens while playing. The facility offers online booking for bay rentals by the hour and has exclusive membership options that provide discounts on rounds, leagues, and merchandise.",
+  "tags": "food_and_drinks|premium_tech|date_night|corporate_events|leagues|beginner_friendly|coaching_available",
+  "vibe_tags": "upscale_lounge|sports_bar|modern",
+  "who_its_for": "serious_golfers|families|corporate_teams|solo_practice|juniors_youth",
+  "why_golfers_like_it": [
+    "Immediate and accurate shot feedback from high-speed camera sensors",
+    "Auto-tee and ball retrieval system increases pace of play and reduces strain",
+    "Touchscreen kiosks with virtual caddie and detailed shot data"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Craft hotdogs, soft pretzels, dips, and other shareable golf course themed dishes available."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full-flavored draft lagers, IPAs, seltzers, soda, and bottled water are available."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Golfzon",
+      "model": "T4",
+      "notes": "State-of-the-art touchscreen kiosks with built-in T4 sensor for shot and club data."
+    }
+  ],
+  "simulator_software": [
+    "Golfzon Global"
+  ],
+  "launch_monitor_type": "overhead_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://divotgolffactory.com/book-now/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not explicitly state whether you can bring your own clubs or if rentals are available. It is recommended to contact the venue directly to confirm."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, the venue offers its own full-service bar and kitchen with craft beers, hotdogs, pretzels, and other snacks available for purchase."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "A bay rental is billed by the hour, and it is possible for a single person to play a full round of 18 holes in one hour depending on their pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue appears to be kid-friendly. They offer golf lessons for youth and do not have an age restriction, though after 8pm, anyone under 21 must be accompanied by an adult."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-11PM\"], \"Saturday\": [\"10AM-11PM\"], \"Sunday\": [\"12-8PM\"]}"
+}

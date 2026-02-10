@@ -1,0 +1,91 @@
+{
+  "name": "X-Golf West Des Moines",
+  "address": "165 S Jordan Creek Pkwy Suite 135, West Des Moines, IA 50266",
+  "city": "West Des Moines",
+  "region": "Iowa",
+  "country": "US",
+  "latitude": 41.566989,
+  "longitude": -93.810601,
+  "phone": "+15152187729",
+  "website": "http://www.xgolfwestdesmoines.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770207652/golf_simulators/www_xgolfwestdesmoines_com_ChIJJfEPTVgh7IcRIX-jjbddlwE.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/X-Golf+West+Des+Moines/@41.5669889,-93.81060049999999,14z/data=!4m8!1m2!2m1!1sX-Golf+West+Des+Moines!3m4!1s0x87ec21584d0ff125:0x1975db78da37f21!8m2!3d41.5669889!4d-93.81060049999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJJfEPTVgh7IcRIX-jjbddlwE",
+  "email": "info@xgolfwestdesmoines.com",
+  "venue_type": "sim_bar",
+  "about": "X-Golf West Des Moines is a golf simulator venue featuring state-of-the-art indoor technology. The facility offers 7 golf simulators equipped with camera systems, infrared lasers, and impact sensors for accurate play. It operates with a pay-per-bay-hour model and accommodates up to 6 people per bay, making it suitable for both individual players and groups. The venue combines golf simulation with a full bar, restaurant, and event space, creating a multifunctional environment for recreation, dining, and social gatherings.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|coaching_available|private_rooms",
+  "vibe_tags": "sports_bar|tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Unparalleled accuracy and realism from advanced simulator technology",
+    "Flexible booking system with capacity for up to 6 people per bay",
+    "Full bar and restaurant options for dining and socializing",
+    "League and event opportunities for competitive and social play",
+    "Professional golf instruction available with Eric Peyton"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full restaurant menu with shareable bites, appetizers, snacks, and pizzas available"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with beer by the glass or on tap, cocktails, and wines"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "X-Golf",
+      "model": "proprietary system",
+      "notes": "Custom simulator system with camera systems, infrared lasers, and impact sensors"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "mixed",
+  "lefty_friendly": true,
+  "bay_count_total": 7,
+  "booking_url": "https://clients.uschedule.com/xgolfwestdesmoines/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 45,
+  "price_range_max_local": 65,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "Club rentals are available, but you can use your own clubs if preferred."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drinks are not permitted as the venue has a full bar and restaurant on-site."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "It takes approximately 1 hour for an individual to play 18 holes, or 2 hours for two people to play 18 holes each."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, X-Golf welcomes children of all ages, making it suitable for families."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-12AM\"], \"Saturday\": [\"10AM-12AM\"], \"Sunday\": [\"10AM-8PM\"]}"
+}

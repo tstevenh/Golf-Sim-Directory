@@ -1,0 +1,92 @@
+{
+  "name": "Impact Golf Center",
+  "address": "12101 Factory Outlet Dr #105, Draper, UT 84020",
+  "city": "Draper",
+  "region": "Utah",
+  "country": "US",
+  "latitude": 40.531353,
+  "longitude": -111.88755,
+  "phone": "+18019878934",
+  "website": "http://www.impactgolfcenter.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770206043/golf_simulators/www_impactgolfcenter_com_ChIJndLaoA-HUocR045SuT9EmTk.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Impact+Golf+Center/@40.5313529,-111.8875503,14z/data=!4m8!1m2!2m1!1sImpact+Golf+Center!3m4!1s0x8752870fa0dad29d:0x3999443fb9528ed3!8m2!3d40.5313529!4d-111.8875503",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJndLaoA-HUocR045SuT9EmTk",
+  "email": "info@impactgolfcenter.com",
+  "venue_type": "training_studio",
+  "about": "Impact Golf Center is an indoor golf facility located in Utah, featuring six simulators for both individual and league play. The venue offers video golf instruction, custom club fitting services, and access to over 200 PGA signature courses. Their teaching process focuses on the impact position of the golf swing, aiming to simplify the learning experience. While primarily a training facility, membership options are available for regular access to the bays and equipment. The facility emphasizes a professional, technology-driven approach to golf improvement and club fitting, supported by certified PGA professionals and advanced fitting technology.",
+  "tags": "serious_golfers|coaching_available|club_fitting|premium_tech|juniors_youth|beginner_friendly|leagues|private_rooms|club_rentals|community_club",
+  "vibe_tags": "industrial_training|tech_lab|welcoming|modern",
+  "who_its_for": "serious_golfers|beginners|juniors_youth|corporate_teams|coaches_instructors",
+  "why_golfers_like_it": [
+    "Access to over 200 PGA courses and state-of-the-art Trackman simulators for realistic play",
+    "Professional video swing analysis and custom club fitting with SST PURE technology",
+    "PGA-certified instruction focused on simplified, effective teaching methods"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned, BYOB policy not specified"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "unknown",
+      "notes": "Six indoor simulators with Trackman technology mentioned for fittings and play"
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 6,
+  "booking_url": "https://www.impactgolfcenter.com/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 100,
+  "price_range_max_local": 300,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 6,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|club_fitting|leagues|pro_shop|wifi",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can bring your own clubs or rent equipment. The facility has club rentals available for use during your session."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No food or drink service is mentioned, and BYOB policy is not specified."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Standard 18-hole play typically takes about 2-3 hours depending on simulator availability and pace of play."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, the facility offers junior golf instruction and fitting services, with junior pricing available for lessons and memberships."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-8PM\"], \"Tuesday\": [\"10AM-8PM\"], \"Wednesday\": [\"10AM-8PM\"], \"Thursday\": [\"10AM-8PM\"], \"Friday\": [\"10AM-8PM\"], \"Saturday\": [\"10AM-6PM\"], \"Sunday\": [\"Closed\"]}"
+}

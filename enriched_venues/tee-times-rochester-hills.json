@@ -1,0 +1,90 @@
+{
+  "name": "Tee Times Rochester Hills",
+  "address": "2612 S Rochester Rd, Rochester Hills, MI 48307",
+  "city": "Rochester Hills",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 42.641994,
+  "longitude": -83.133247,
+  "phone": "+12484684994",
+  "website": "https://www.playteetimes.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770203339/golf_simulators/www_playteetimes_com_ChIJ56CkCuXDJIgRq8kxzWICldM.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Tee+Times+Rochester+Hills/@42.6419944,-83.1332473,14z/data=!4m8!1m2!2m1!1sTee+Times+Rochester+Hills!3m4!1s0x8824c3e50aa4a0e7:0xd3950262cd31c9ab!8m2!3d42.6419944!4d-83.1332473",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ56CkCuXDJIgRq8kxzWICldM",
+  "email": "info@playteetimes.com",
+  "venue_type": "sim_bar",
+  "about": "Tee Times Rochester Hills is an indoor golf simulator venue featuring 12 bays equipped with Golfzon TwoVision Plus technology. The facility offers a comprehensive golf experience with a full-service bar and kitchen, leagues, tournaments, event hosting, and PGA instruction. Patrons can play on over 200 courses worldwide and utilize advanced training features like a 24-position swing plate and multi-surface hitting mats. Pricing is based on hourly bay rentals and varies by day and time.",
+  "tags": "food_and_drinks|leagues|corporate_events|premium_tech|beginner_friendly|coaching_available|parties|group_friendly",
+  "vibe_tags": "casual|welcoming|modern|sports_bar",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "State-of-the-art Golfzon TwoVision Plus simulators with high-accuracy data tracking",
+    "Multi-surface hitting mats including fairway, rough, and bunker for realistic practice",
+    "Full-service bar and kitchen available on-site for food and drinks",
+    "24-position swing plate recreates true course contours and lie angles"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full-service kitchen available on-site"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full-service bar with drinks available"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Golfzon",
+      "model": "TwoVision Plus",
+      "notes": "12 bays equipped with 24-position swing plate, multi-surface mats, and auto tee retrieval"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "overhead_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://www.golfoclock.com/landing-pages/tee-times",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|private_party_room|leagues|coaching_available",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue provides top-of-the-line golf equipment, but you are welcome to bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, outside food and drinks are not permitted. Tee Times has a full-service bar and kitchen available."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time required for an 18-hole round depends on the course and pace of play, but typically ranges from 2 to 3 hours."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "Yes, the facility is family-friendly and can accommodate children. It is suitable for various types of gatherings including family events."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-11PM\"], \"Tuesday\": [\"9AM-11PM\"], \"Wednesday\": [\"9AM-11PM\"], \"Thursday\": [\"9AM-11PM\"], \"Friday\": [\"9AM-12AM\"], \"Saturday\": [\"9AM-12AM\"], \"Sunday\": [\"9AM-11PM\"]}"
+}

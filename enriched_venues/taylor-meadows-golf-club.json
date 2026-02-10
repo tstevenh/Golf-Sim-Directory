@@ -1,0 +1,92 @@
+{
+  "name": "Taylor Meadows Golf Club",
+  "address": "25360 Ecorse Rd, Taylor, MI 48180",
+  "city": "Taylor",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 42.256617,
+  "longitude": -83.283656,
+  "phone": "+17342872100",
+  "website": "http://www.taylormeadowsgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770216373/golf_simulators/www_taylormeadowsgolf_com_ChIJp05P1ZlJO4gRkzjEe54N-UY.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Taylor+Meadows+Golf+Club/@42.2566169,-83.2836564,14z/data=!4m8!1m2!2m1!1sTaylor+Meadows+Golf+Club!3m4!1s0x883b4999d54f4ea7:0x46f90d9e7bc43893!8m2!3d42.2566169!4d-83.2836564",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJp05P1ZlJO4gRkzjEe54N-UY",
+  "venue_type": "country_club",
+  "about": "Taylor Meadows Golf Club is a premier golf destination in Metro Detroit, offering both traditional outdoor golf experiences and a state-of-the-art indoor simulator program. The facility features a full 18-hole course designed by renowned architect Arthur Hills, alongside the 'iGolf Taylor' simulator program powered by top-of-the-line TrackMan technology. The venue caters to a wide range of golfers, from beginners learning the basics to seasoned players looking to improve their game, with options for on-course play, simulator sessions, golf lessons, and various events.",
+  "tags": "serious_golfers|beginners_friendly|leagues|coaching_available|food_and_drinks|corporate_events|family_friendly|premium_tech",
+  "vibe_tags": "upscale_lounge|sports_bar|community_club|family_fun_center",
+  "who_its_for": "serious_golfers|families|beginners|corporate_teams|coaches_instructors",
+  "why_golfers_like_it": [
+    "Premium TrackMan simulator technology for realistic indoor play",
+    "Designed by Arthur Hills, offering a challenging and well-regarded course",
+    "Comprehensive options including leagues, lessons, and events for all skill levels",
+    "Greenside Grill provides a full dining experience on-site"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full dining service available at Greenside Grill"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available at Greenside Grill"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "TrackMan",
+      "model": "iO",
+      "notes": "Top-of-the-line TrackMan Golf Simulators, widely considered the best indoor golf experience available"
+    }
+  ],
+  "simulator_so": [
+    "iGolf Taylor"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://taylorgolf.com/courses/taylor-meadows-golf-club/golf-simulators/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|leagues|pro_shop|club_fitting",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "You can use your own clubs or the facility may provide rental equipment."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drinks are not permitted, but the Greenside Grill offers a full dining and bar menu."
+    },
+    {
+      "question": "How long does it take to play 18 holes on the simulator?",
+      "answer": "Simulator sessions are typically booked by the hour, allowing players to determine how many holes they complete within their time slot."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Taylor Meadows Golf Club is family-friendly and offers programs suitable for junior golfers."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"6:30AM-8PM\"], \"Tuesday\": [\"6:30AM-8PM\"], \"Wednesday\": [\"6:30AM-8PM\"], \"Thursday\": [\"6:30AM-8PM\"], \"Friday\": [\"6:30AM-8PM\"], \"Saturday\": [\"6AM-8PM\"], \"Sunday\": [\"6AM-8PM\"]}"
+}

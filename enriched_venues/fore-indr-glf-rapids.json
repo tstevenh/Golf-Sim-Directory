@@ -1,0 +1,92 @@
+{
+  "name": "Fore INDR GLF - Rapids",
+  "address": "2660 8th St S, Wisconsin Rapids, WI 54494",
+  "city": "Wisconsin Rapids",
+  "region": "Wisconsin",
+  "country": "US",
+  "latitude": 44.370511,
+  "longitude": -89.817679,
+  "phone": "+17159912245",
+  "website": "https://www.foreindrglf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770205191/golf_simulators/www_foreindrglf_com_ChIJ5xLEDnGJAIgRGMORpo7NEho.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Fore+INDR+GLF+-+Rapids/@44.3705114,-89.8176792,14z/data=!4m8!1m2!2m1!1sFore+INDR+GLF+-+Rapids!3m4!1s0x880089710ec412e7:0x1a12cd8ea691c318!8m2!3d44.3705114!4d-89.8176792",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ5xLEDnGJAIgRGMORpo7NEho",
+  "email": "Manager@foreindrglf.com",
+  "venue_type": "sim_bar",
+  "about": "Fore INDR GLF is an indoor golf facility with two locations in Stevens Point and Wisconsin Rapids, featuring four world-class TrackMan simulators. The venue operates year-round and provides a full-service experience with a bar, accommodating groups of up to 6 people per bay. Pricing is structured on an hourly basis, with options for league play, private lessons, and open play sessions. The facility balances golf, beverages, and social interaction through regular leagues and a welcoming atmosphere for both casual and serious golfers.",
+  "tags": "food_and_drinks|leagues|coaching_available|beginner_friendly|corporate_events|private_rooms|community_club",
+  "vibe_tags": "sports_bar|casual|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Year-round access to world-class TrackMan simulators",
+    "Two convenient locations in Central Wisconsin",
+    "Social leagues with two-player teams and games of the day",
+    "Flexible hourly bookings for groups up to 6 people",
+    "On-site bar and comfortable atmosphere for post-golf socializing"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen service available for food and beverages"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "On-site bar with cold beverages"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Four world-class simulators with 15-foot wide hitting bays"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 4,
+  "booking_url": "https://player.eagleclubsystems.online#/tee-slot?dbname=foreindr20221101",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, players are expected to bring their own clubs for use in the simulators."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No, the facility has an on-site bar and kitchen that provides food and beverages."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "18-hole rounds typically take 1.5 to 2 hours depending on group size and course selection."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the facility welcomes families and offers a casual atmosphere suitable for golfers of all ages."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"11AM-9PM\"], \"Tuesday\": [\"11AM-9PM\"], \"Wednesday\": [\"11AM-9PM\"], \"Thursday\": [\"11AM-9PM\"], \"Friday\": [\"11AM-10PM\"], \"Saturday\": [\"9AM-10PM\"], \"Sunday\": [\"9AM-6PM\"]}"
+}

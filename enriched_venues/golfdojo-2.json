@@ -1,0 +1,89 @@
+{
+  "name": "GolfDojo",
+  "address": "7350 Transit Rd Rear Suite, Buffalo, NY 14221",
+  "city": "Buffalo",
+  "region": "New York",
+  "country": "US",
+  "latitude": 42.967748,
+  "longitude": -78.697749,
+  "phone": "+17162492526",
+  "website": "http://www.mygolfdojo.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770213382/golf_simulators/www_mygolfdojo_com_ChIJyVh0W2R104kRbosmsmMko0M.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/GolfDojo/@42.9677478,-78.6977491,14z/data=!4m8!1m2!2m1!1sGolfDojo!3m4!1s0x89d375645b7458c9:0x43a32463b2268b6e!8m2!3d42.9677478!4d-78.6977491",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJyVh0W2R104kRbosmsmMko0M",
+  "venue_type": "multi_sport_sim",
+  "about": "GolfDojo operates multiple indoor golf simulation centers in Western New York, featuring a high-tech environment for golf practice and play. Their facilities use TrackMan dual radar technology, providing accurate ball and club tracking data for a realistic on-course experience. The venues offer public bookings from 10am to 10pm daily, with members receiving 24/7 access to the facilities. In addition to simulator bays, GolfDojo provides professional coaching through its academy and hosts leagues and events for various skill levels.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|budget_friendly|private_rooms|club_rentals|coaching_available|juniors_youth",
+  "vibe_tags": "casual|welcoming|modern|tech_lab",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "Premium TrackMan dual radar technology for accurate shot data and simulation",
+    "Flexible booking with both public hours and 24/7 member access",
+    "Professional coaching available from PGA professionals",
+    "Multiple locations throughout Western New York for convenience"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Food service appears to be available based on imagery showing tables with pizza"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "BYOB not mentioned, with the one 1812 Tavern location being a separate establishment"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "dual radar",
+      "notes": "Used across all locations for high-fidelity ball and club tracking"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 16,
+  "booking_url": "https://yourgolfbooking.com/venues/golf-dojo-nfb/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|kitchen_food|tv_sports|leagues|coaching_available|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own golf clubs?",
+      "answer": "The website doesn't explicitly state whether clubs are provided. It is recommended to bring your own equipment for the most accurate fitting and practice experience."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Food service appears to be available at the venues based on imagery. The GolfDojo @ 1812 Tavern location is part of a restaurant, while other locations may have food options. BYOB policy is not clearly stated."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify the time required to complete 18 holes. Typical indoor golf simulator rounds can take 1-2 hours depending on the number of players and pace of play."
+    },
+    {
+      "question": "Is GolfDojo kid-friendly?",
+      "answer": "Yes, GolfDojo offers junior lesson packages and hosts high school golf clinics, indicating they cater to younger golfers and families."
+    }
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

@@ -1,0 +1,95 @@
+{
+  "name": "Golf VX Corp",
+  "address": "1945 Techny Rd Ste 8, Northbrook, IL 60062",
+  "city": "Northbrook",
+  "region": "Illinois",
+  "country": "US",
+  "latitude": 42.115906,
+  "longitude": -87.826603,
+  "phone": "+18884653891",
+  "website": "http://www.golfvx.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770253217/golf_simulators/www_golfvx_com_ChIJr-tgsnrHD4gR21p6m4cHwLM.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Golf+VX+Corp/@42.1159057,-87.82660299999999,14z/data=!4m8!1m2!2m1!1sGolf+VX+Corp!3m4!1s0x880fc77ab260ebaf:0xb3c007879b7a5adb!8m2!3d42.1159057!4d-87.82660299999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJr-tgsnrHD4gR21p6m4cHwLM",
+  "venue_type": "sim_bar",
+  "about": "Golf VX Corp specializes in advanced indoor golf simulators for both home and commercial use. Their systems combine cutting-edge technology, including zero-lag performance, moving swing plates, and high-speed sensors, to deliver a realistic golfing experience. The company offers two primary simulator models: the T2 for immersive home or business use and the FA, a compact unit designed for training and space-constrained environments. Additionally, they provide franchise opportunities for entrepreneurs looking to launch commercial golf venues with integrated food, beverage, and event capabilities. Pricing for home systems ranges from $50,000 to $70,000, fully installed, with packages including a gaming PC, multi-surface mats, and access to over 380 virtual courses in 4K.",
+  "tags": "serious_golfers|food_and_drinks|corporate_events|leagues|premium_tech|coaching_available|date_night|group_events",
+  "vibe_tags": "upscale_lounge|sports_bar|modern|community_club",
+  "who_its_for": "serious_golfers|corporate_teams|families|coaches_instructors|solo_practice",
+  "why_golfers_like_it": [
+    "Industry-leading camera sensors provide precise ball and club tracking",
+    "Dynamic swing plate and multiple lie mats replicate real-course conditions",
+    "Auto-tee and touch controls enable fast-paced, seamless gameplay",
+    "Access to over 380 4K virtual golf courses worldwide",
+    "Turnkey solutions with professional installation and support"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "On-site micro-market for food and beverage options"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Offered at full-service Lounge and Lab franchise locations"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Golf VX",
+      "model": "T2 Simulator",
+      "notes": "High-end system with industry-leading camera sensors, dynamic swing plate, and multi-surface hitting mats"
+    },
+    {
+      "brand": "Golf VX",
+      "model": "FA Simulator",
+      "notes": "Compact training simulator with stats and video tracking capabilities"
+    }
+  ],
+  "simulator_software": [
+    "Golf VX proprietary software"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://golfvx.com/contact/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|leagues|wifi",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The simulator packages include multi-surface hitting mats that replicate fairway, rough, and bunker conditions, allowing you to use your own clubs. The systems are designed to work with standard golf clubs."
+    },
+    {
+      "question": "Can I bring outside food or drinks?",
+      "answer": "Lounges and Lab franchise locations feature a micro-market for food and beverage options. For commercial facilities, outside food and drinks may not be permitted, but you can purchase items on-site."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Play time varies depending on the number of players and pace of play. With auto-tee systems and touch controls, gameplay is fast-paced, allowing golfers to complete 18 holes efficiently."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, Golf VX venues are designed to accommodate golfers of all skill levels and ages. The facilities can be operated with minimal staff and offer a welcoming environment for families and juniors."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-6PM\"], \"Tuesday\": [\"9AM-6PM\"], \"Wednesday\": [\"9AM-6PM\"], \"Thursday\": [\"9AM-6PM\"], \"Friday\": [\"9AM-6PM\"], \"Saturday\": [\"Closed\"], \"Sunday\": [\"Closed\"]}"
+}

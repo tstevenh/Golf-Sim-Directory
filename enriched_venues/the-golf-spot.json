@@ -1,0 +1,96 @@
+{
+  "name": "The Golf Spot",
+  "address": "39325 Plymouth Rd # 101, Livonia, MI 48150",
+  "city": "Livonia",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 42.370574,
+  "longitude": -83.430476,
+  "phone": "+17347079900",
+  "website": "http://www.golfspotmi.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770216351/golf_simulators/www_golfspotmi_com_ChIJT_Oh4W2tJIgRkli5dIOKQCs.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Golf+Spot/@42.3705737,-83.4304765,14z/data=!4m8!1m2!2m1!1sThe+Golf+Spot!3m4!1s0x8824ad6de1a1f34f:0x2b408a8374b95892!8m2!3d42.3705737!4d-83.4304765",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJT_Oh4W2tJIgRkli5dIOKQCs",
+  "email": "golfspotmi@gmail.com",
+  "venue_type": "private_rental",
+  "about": "The Golf Spot is a private, members-only indoor golf facility located in Livonia, Michigan. It operates exclusively on a membership basis, offering unlimited access to its state-of-the-art simulators without public play or walk-ins. The venue is equipped with Foresight GCHawk and GC2 launch monitors, providing elite-level technology for both serious practice and entertainment. Membership is limited, designed to create an exclusive, private country club atmosphere with 24/7 access for members.",
+  "tags": "serious_golfers|corporate_events|private_luxury|premium_tech|members_only|unlimited_access|founding_members|no_public_play",
+  "vibe_tags": "private_luxury|upscale_lounge|tech_lab|community_club",
+  "who_its_for": "serious_golfers|corporate_teams|founding_members|solo_practice|large_groups",
+  "why_golfers_like_it": [
+    "24/7 unlimited access to premium simulators with no booking restrictions",
+    "Exclusive, private country club atmosphere with no overcrowding",
+    "Professional-grade Foresight technology for accurate data and practice",
+    "Founding membership offers a one-time special rate with price increase after first 30 members",
+    "Full self-serve access and private event options"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Members can bring or order their own food and drinks"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "Alcohol inquiries require discussion about VIP memberships"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": "GCHawk",
+      "notes": "Ceiling-mounted launch monitor, highly accurate"
+    },
+    {
+      "brand": "Foresight",
+      "model": "GC2",
+      "notes": "Highly accurate launch monitor"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 3,
+  "booking_url": "https://www.golfspotmi.com/schedule",
+  "pricing_model": "membership_only",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": false,
+  "coaching_available": false,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|private_party_room|wifi|pro_shop",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.5,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The content doesn't explicitly state if clubs are provided, so it is recommended to bring your own equipment."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, you are welcome to bring or order your own food and drinks while playing. Water and Gatorade are available for purchase at the facility."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "2 hours of play are allotted for 2-man bays and 3 hours for 4-man bays."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "No, The Golf Spot is a members-only facility focused on serious golf and private events, with no specific mention of kid-friendly features or activities."
+    }
+  ],
+  "rating_overall": 4.4,
+  "opening_hours": "{\"Monday\": [\"10AM-11PM\"], \"Tuesday\": [\"10AM-11PM\"], \"Wednesday\": [\"10AM-11PM\"], \"Thursday\": [\"10AM-11PM\"], \"Friday\": [\"10AM-11PM\"], \"Saturday\": [\"8AM-12AM\"], \"Sunday\": [\"9AM-8PM\"]}"
+}

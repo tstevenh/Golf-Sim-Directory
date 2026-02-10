@@ -1,0 +1,91 @@
+{
+  "name": "Golf 365",
+  "address": "2729 Indiana Ave, Sheboygan, WI 53081",
+  "city": "Sheboygan",
+  "region": "Wisconsin",
+  "country": "US",
+  "latitude": 43.740097,
+  "longitude": -87.742307,
+  "phone": "+19205471655",
+  "website": "https://golf365wi.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770234676/golf_simulators/golf365wi_com_ChIJY0Z-Cp6nBIgR5xCtL8CXHUM.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Golf+365/@43.7400972,-87.7423073,14z/data=!4m8!1m2!2m1!1sGolf+365!3m4!1s0x8804a79e0a7e4663:0x431d97c02fad10e7!8m2!3d43.7400972!4d-87.7423073",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJY0Z-Cp6nBIgR5xCtL8CXHUM",
+  "email": "golf365wi@gmail.com920.547.1655",
+  "venue_type": "sim_bar",
+  "about": "Golf 365 operates a two-location golf simulation facility in Sheboygan County, designed to offer golf experiences year-round, especially during Wisconsin's harsh winters. They feature Uneekor Eye XO launch monitors and GSPro software across multiple bays. The venues combine golf technology with a full-service bar and food menu, alongside amenities like dart boards and a large projection screen, positioning themselves as a social and practical golf destination. Pricing is structured on an hourly basis per bay, with rates varying by day and time of day.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|leagues|premium_tech|private_rooms|club_rentals|late_night|coaching_available|sports_bar",
+  "vibe_tags": "sports_bar|community_club|family_fun_center",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|large_groups",
+  "why_golfers_like_it": [
+    "State-of-the-art Uneekor Eye XO launch monitors for accurate shot tracking",
+    "Option to play over 2,000 virtual golf courses from around the world",
+    "Full-service bar and food menu available at both locations for a complete experience",
+    "Seasonal leagues and tournaments for golfers of all skill levels",
+    "One bay doubles as a private studio for lessons and club fitting"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen and food menu; featuring brisket smashburgers at Northtown and Deo's pizzas at Indiana Avenue. Also offers fresh pizza from local restaurants."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full service bar available. No mention of BYOB policy, implies on-site alcohol is the primary offering."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "Eye XO",
+      "notes": "Premium launch monitor used in all standard bays. One extra bay also uses this model for fitting and lessons."
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://918booking.com/emb-bookings?course=51",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 30,
+  "price_range_max_local": 50,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, club rentals are available at both locations. They also offer services like regripping, club fitting, and club sales."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue has a full kitchen and bar, serving food and drinks. There is no mention of a BYOB policy, so bringing outside food or drinks is not recommended."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "A full round of 18 holes typically takes one hour in a simulator bay."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, the facility is considered kid-friendly, offering entertainment like dart boards, cornhole boards, and virtual mini-golf games in addition to the main golf simulators."
+    }
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"9AM-11PM\"], \"Tuesday\": [\"9AM-11PM\"], \"Wednesday\": [\"9AM-11PM\"], \"Thursday\": [\"9AM-11PM\"], \"Friday\": [\"9AM-11PM\"], \"Saturday\": [\"9AM-11PM\"], \"Sunday\": [\"9AM-10PM\"]}"
+}

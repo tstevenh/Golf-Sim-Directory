@@ -1,0 +1,90 @@
+{
+  "name": "Good Ball NWI",
+  "address": "235 Matteson St, Dyer, IN 46311",
+  "city": "Dyer",
+  "region": "Indiana",
+  "country": "US",
+  "latitude": 41.498674,
+  "longitude": -87.519488,
+  "phone": "+12196991703",
+  "website": "http://goodballnwi.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770203990/golf_simulators/goodballnwi_com_ChIJp9HAwoThEYgRybUq2vt3aNA.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Good+Ball+NWI/@41.498674099999995,-87.51948829999999,14z/data=!4m8!1m2!2m1!1sGood+Ball+NWI!3m4!1s0x8811e184c2c0d1a7:0xd06877fbda2ab5c9!8m2!3d41.498674099999995!4d-87.51948829999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJp9HAwoThEYgRybUq2vt3aNA",
+  "email": "jeff@goodballnwi.com",
+  "venue_type": "private_rental",
+  "about": "Good Ball NWI is an indoor golf simulator venue offering 24/7 remote access in Northwest Indiana. The facility utilizes cutting-edge technology, including the FlightScope Mevo+ launch monitor and GS Pro software, to provide a realistic virtual golf experience across more than 100 courses. Pricing is structured as a $30 flat rate for groups of six or less, with a $250 monthly membership option for 10 hours of play. It is designed for both solo practice and group play, emphasizing self-service operation with instructions provided after booking.",
+  "tags": "beginner_friendly|serious_practice|solo_practice|budget_friendly|tech_lab|coaching_available",
+  "vibe_tags": "industrial_training|tech_lab|casual",
+  "who_its_for": "serious_golfers|solo_practice|families|coaches_instructors|tourists_travelers",
+  "why_golfers_like_it": [
+    "24/7 remote access for flexible booking",
+    "Premium FlightScope Mevo+ technology for detailed shot analysis",
+    "GS Pro software with over 100 world-class courses",
+    "Self-service model for private and uninterrupted sessions"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "Patrons are responsible for bringing their own food."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "Patrons are responsible for bringing their own beverages."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "FlightScope",
+      "model": "Mevo+",
+      "notes": "Cutting-edge launch monitor providing real-time data on ball speed, spin, distance, and launch angle."
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 1,
+  "booking_url": "https://goodballnwi.com/member-nonmemeber",
+  "pricing_model": "mixed",
+  "price_range_min_local": 30,
+  "price_range_max_local": 250,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|wifi|private_party_room",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not explicitly state whether clubs are provided or available for rent. It is recommended to bring your own equipment."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, you are responsible for bringing your own food and beverages as they are not provided."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify the time required to play 18 holes. Duration may vary depending on the course and simulator software."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the facility is suitable for all skill levels, including juniors and youth, making it a family-friendly environment."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

@@ -1,0 +1,89 @@
+{
+  "name": "Back 9 Lounge",
+  "address": "1411 Chy Way Suite A, Billings, MT 59106",
+  "city": "Billings",
+  "region": "Montana",
+  "country": "US",
+  "latitude": 45.784797,
+  "longitude": -108.654793,
+  "phone": "+14065344972",
+  "website": "http://www.back9lounge.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770217246/golf_simulators/www_back9lounge_com_ChIJawP40FF9SFMRXtAdeSmp5Us.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Back+9+Lounge/@45.784796799999995,-108.6547935,14z/data=!4m8!1m2!2m1!1sBack+9+Lounge!3m4!1s0x53487d51d0f8036b:0x4be5a929791dd05e!8m2!3d45.784796799999995!4d-108.6547935",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJawP40FF9SFMRXtAdeSmp5Us",
+  "venue_type": "sim_bar",
+  "about": "Back 9 Lounge is an indoor golf and multi-sport venue in Billings, MT, featuring 5 private suites and one VIP room with various simulator setups. The facility offers a full bar and a full kitchen menu provided by The Den, alongside a casual and social atmosphere. Pricing is based on reservation time rather than the number of people, with a general guideline of one hour per person for 18 holes of golf. It is a suitable destination for both individual practice and group events.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|private_rooms|club_rentals|family_friendly",
+  "vibe_tags": "sports_bar|casual|welcoming|modern|family_fun_center",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|large_groups",
+  "why_golfers_like_it": [
+    "Offers over 90 golf courses with new courses added monthly",
+    "Features premium TruGolf simulators for a realistic golf experience",
+    "Provides a full bar and kitchen menu for a complete social experience",
+    "Includes 5 private suites and a VIP room for groups"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen menu with items like bratwurst, burgers, and pizzas. All food provided by The Den."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar available on-site."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "TruGolf",
+      "model": "E6 Connect / Rally Baseball / Slap Shot Hockey / Foot Golf / Breakaway Soccer",
+      "notes": "Features TruGolf simulators and additional multi-sport simulators in the VIP room including Rally Baseball, Slap Shot Hockey, Foot Golf, and Breakaway Soccer."
+    }
+  ],
+  "simulator_software": [
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 5,
+  "booking_url": "https://www.back9lounge.com/tee-time/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 6,
+  "price_range_max_local": 24,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": 6,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|private_party_room|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 3.5,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue does not specify whether they provide club rentals. It is recommended to bring your own clubs for the best experience."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No, all food and alcohol must be purchased on-site. The Back 9 Lounge offers a full bar and kitchen menu provided by The Den."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "As a general rule, it takes one hour per person to play 18 holes."
+    },
+    {
+      "question": "Is Back 9 Lounge kid-friendly?",
+      "answer": "Yes, the venue is kid-friendly and offers activities like mini-golf games and Foot Golf."
+    }
+  ],
+  "rating_overall": 4.0,
+  "opening_hours": "{\"Monday\": [\"7AM-10PM\"], \"Tuesday\": [\"7AM-10PM\"], \"Wednesday\": [\"7AM-10PM\"], \"Thursday\": [\"7AM-10PM\"], \"Friday\": [\"7AM-10PM\"], \"Saturday\": [\"7AM-10PM\"], \"Sunday\": [\"7AM-10PM\"]}"
+}

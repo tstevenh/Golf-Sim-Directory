@@ -1,0 +1,85 @@
+{
+  "name": "4oreplay Golf",
+  "address": "Western Mall, 2101 W 41st St, Sioux Falls, SD 57105",
+  "city": "Sioux Falls",
+  "region": "South Dakota",
+  "country": "US",
+  "latitude": 43.513179,
+  "longitude": -96.754083,
+  "phone": "+16057771779",
+  "website": "https://www.4oreplaygolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770202022/golf_simulators/www_4oreplaygolf_com_ChIJQcIR4VfJjocR4r7_AqD_2ps.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/4oreplay+Golf/@43.5131787,-96.7540831,14z/data=!4m8!1m2!2m1!1s4oreplay+Golf!3m4!1s0x878ec957e111c241:0x9bdaffa002ffbee2!8m2!3d43.5131787!4d-96.7540831",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJQcIR4VfJjocR4r7_AqD_2ps",
+  "venue_type": "sim_bar",
+  "about": "4oreplay Golf is an indoor golf and entertainment venue located in Sioux Falls, featuring high-definition simulators designed for year-round play. The facility focuses on creating a relaxed, pressure-free environment that welcomes everyone from seasoned golfers tracking data to beginners swinging for fun. With no membership fees and no dress code, the venue prioritizes accessibility and casual enjoyment over strict tradition.\n\nThe business model operates on hourly bay rentals rather than per-person fees, encouraging groups to book bays for practice, league play, or social outings. In addition to simulator bays, the venue features an indoor putting green and spaces designated for corporate events, date nights, and parties. While specific technology brands are not listed, the simulators are described as state-of-the-art with precision shot tracking.",
+  "tags": "beginner_friendly|corporate_events|leagues|club_rentals|date_night|simulator_bays|group_outings|winter_golf|no_membership",
+  "vibe_tags": "casual|welcoming|modern|fun|family_fun_center|party_atmosphere",
+  "who_its_for": "beginners|large_groups|corporate_teams|solo_practice|bachelor_parties",
+  "why_golfers_like_it": [
+    "No membership fees or annual commitments required",
+    "High-definition simulators with precision shot tracking data",
+    "Hourly bay pricing allows groups to split costs efficiently",
+    "Indoor putting green available for short game practice",
+    "Casual atmosphere with no dress code or pressure",
+    "Easy online booking system for tee times and events"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Event booking form asks if food will be catered, suggesting external catering is permitted or arranged"
+    },
+    {
+      "type": "alcohol",
+      "available": null,
+      "notes": "Not explicitly mentioned in the provided text content"
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": null,
+  "booking_url": "https://www.4oreplaygolf.com/bookyourbay",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": null,
+  "price_range_max_local": null,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": false,
+  "private_rooms_count": null,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|indoor_putting_green|event_space|leagues|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can bring your clubs if you have them, but the venue provides equipment if you don't. Just wear comfortable shoes; golf shoes are optional."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The event planning process accommodates catered food, but the general policy on outside food and drink for standard bay rentals is not specified."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "On average, one player can finish 18 holes in about 2 hours. A group of 4 playing 18 holes should plan for roughly three to four hours of simulator time."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "Yes, the venue is designed for all skill levels and emphasizes a fun, no-pressure atmosphere suitable for families and beginners."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"9AM-9PM\"], \"Tuesday\": [\"9AM-9PM\"], \"Wednesday\": [\"9AM-9PM\"], \"Thursday\": [\"9AM-9PM\"], \"Friday\": [\"9AM-10PM\"], \"Saturday\": [\"9AM-10PM\"], \"Sunday\": [\"9AM-9PM\"]}"
+}

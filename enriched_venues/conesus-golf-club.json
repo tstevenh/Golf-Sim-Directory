@@ -1,0 +1,84 @@
+{
+  "name": "Conesus Golf Club",
+  "address": "1 Pine Alley, Conesus, NY 14435",
+  "city": "Conesus",
+  "region": "New York",
+  "country": "US",
+  "latitude": 42.721966,
+  "longitude": -77.681879,
+  "phone": "+15853462100",
+  "website": "https://conesusgolfclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770250620/golf_simulators/conesusgolfclub_com_ChIJw0YC_MFu0YkROF9iTM1Gk50.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Conesus+Golf+Club/@42.721965999999995,-77.681879,14z/data=!4m8!1m2!2m1!1sConesus+Golf+Club!3m4!1s0x89d16ec1fc0246c3:0x9d9346cd4c625f38!8m2!3d42.721965999999995!4d-77.681879",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJw0YC_MFu0YkROF9iTM1Gk50",
+  "email": "Erica@conesusgolfclub.com",
+  "venue_type": "country_club",
+  "about": "Conesus Golf Club is a 35-year-old full-service golf and banquet facility situated in the rolling hills of Conesus, NY. It features an 18-hole, par 71 golf course, a recently remodeled banquet facility, a full bar, and an all-grass driving range. The venue also houses an indoor golf simulator for year-round play and offers extensive amenities for dining, private events, and golf leagues, positioning itself as a comprehensive community and tourist destination.",
+  "tags": "food_and_drinks|corporate_events|leagues|club_rentals|private_rooms|family_friendly|juniors_youth|date_night|beginner_friendly",
+  "vibe_tags": "community_club|casual|welcoming|modern|family_fun_center",
+  "who_its_for": "families|corporate_teams|serious_golfers|tourists_travelers|juniors_youth",
+  "why_golfers_like_it": [
+    "On-site restaurant and bar with full kitchen service",
+    "Private room available for simulator sessions with group packages",
+    "Hosts leagues and events with prize money and end-of-season parties",
+    "Combines traditional outdoor golf with an indoor simulator option for year-round access"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full-service restaurant, Turtle Stone Bar & Grill, with a complete menu available to the public year-round. Kitchen hours are 4:00 pm – 8:00 pm."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available on-site at the Turtle Stone Bar & Grill."
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": "unknown",
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 1,
+  "booking_url": "https://conesusgolfclub.com/indoor-golf-simulator",
+  "pricing_model": "mixed",
+  "price_range_min_local": 25,
+  "price_range_max_local": 120,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|private_party_room|leagues|pro_shop",
+  "rating_tech_quality": 3.5,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 3.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "While the website does not explicitly state whether clubs are provided, it is standard practice for golf simulator venues to offer club rentals. It is recommended to call the venue to confirm availability."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue operates a full-service restaurant, Turtle Stone Bar & Grill, which is open to the public. While BYOB policies are not mentioned, it is likely that guests can purchase food and drinks on-site. Bringing outside food and drinks may not be permitted."
+    },
+    {
+      "question": "How long does it take to play 18 holes on the simulator?",
+      "answer": "Website content does not specify the time required to play 18 holes. Simulator sessions are typically booked by the hour, with package options like 1-hour or 8-hour sessions available."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Conesus Golf Club appears to be kid-friendly. It operates a public restaurant, offers family-oriented event services, and includes junior/youth tags in its offerings, suggesting it welcomes families with children."
+    }
+  ],
+  "rating_overall": 3.8,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"11AM-8PM\"], \"Wednesday\": [\"11AM-9PM\"], \"Thursday\": [\"11AM-9PM\"], \"Friday\": [\"11AM-9PM\"], \"Saturday\": [\"8AM-8PM\"], \"Sunday\": [\"8AM-2PM\"]}"
+}

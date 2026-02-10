@@ -1,0 +1,91 @@
+{
+  "name": "Willow Springs Golf Course",
+  "address": "12980 Livestock Rd, West Friendship, MD 21784",
+  "city": "West Friendship",
+  "region": "Maryland",
+  "country": "US",
+  "latitude": 39.314234,
+  "longitude": -76.963331,
+  "phone": "+14104427700",
+  "website": "http://www.willowspringsgolfcourse.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770233092/golf_simulators/www_willowspringsgolfcourse_com_ChIJ2dx7I4omyIkR3gAAh6biofE.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Willow+Springs+Golf+Course/@39.3142338,-76.963331,14z/data=!4m8!1m2!2m1!1sWillow+Springs+Golf+Course!3m4!1s0x89c8268a237bdcd9:0xf1a1e2a6870000de!8m2!3d39.3142338!4d-76.963331",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ2dx7I4omyIkR3gAAh6biofE",
+  "venue_type": "sim_bar|training_studio|multi_sport_sim",
+  "about": "Willow Springs Golf Course is an 18-hole, par-62 links-style course in West Friendship, MD, designed by architect Al Janis to offer a challenging yet visually appealing experience for all skill levels. The facility features a 4,500 square foot clubhouse built in 2016, styled as a modern barn, which serves as a central hub for guests and can be reconfigured for various events. On-site amenities include a pro shop, snack bar, indoor golf simulator, and seasonal indoor hitting bays, complemented by a driving range and multiple league programs. The venue offers a comprehensive golf experience combining traditional play with modern indoor technology and a range of instructional programs.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|coaching_available|family_friendly|club_rentals",
+  "vibe_tags": "community_club|family_fun_center|casual|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "Comprehensive indoor simulator facility with league opportunities",
+    "Scottish-links style course offering a unique and challenging layout",
+    "Full range of amenities including pro shop, snack bar, and event space",
+    "Flexible clubhouse capable of accommodating outings, events, and weddings",
+    "Multiple instructional programs and private lessons available"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "On-site snack bar (Dexter's Caddyshack) available"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No specific mention of alcohol service, BYOB not indicated"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Unknown",
+      "model": "Unknown",
+      "notes": "Simulator details not specified on website"
+    }
+  ],
+  "simulator_software": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://willow-springs-golf-course-md.book.teeitup.golf/?course=11336",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|pro_shop|kitchen_food|tv_sports|leagues|ada_accessible|wifi",
+  "rating_tech_quality": 4.0,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website doesn't explicitly state whether clubs are provided, but it's standard practice to bring your own equipment for the best experience."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue has an on-site snack bar (Dexter's Caddyshack), but doesn't mention a policy on outside food or drinks."
+    },
+    {
+      "question": "How long does it take to play 18 holes on the simulator?",
+      "answer": "Standard simulator play typically takes 2-3 hours for 18 holes, but actual time may vary based on pace of play and number of players."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Willow Springs offers junior golf programs, TGA camps, and family leagues, making it suitable for younger golfers."
+    }
+  ],
+  "rating_overall": 4.1,
+  "opening_hours": "{\"Monday\": [\"8AM-8PM\"], \"Tuesday\": [\"8AM-8PM\"], \"Wednesday\": [\"8AM-8PM\"], \"Thursday\": [\"8AM-8PM\"], \"Friday\": [\"8AM-8PM\"], \"Saturday\": [\"8AM-8PM\"], \"Sunday\": [\"8AM-8PM\"]}"
+}

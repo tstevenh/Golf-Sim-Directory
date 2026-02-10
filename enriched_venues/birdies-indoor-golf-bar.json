@@ -1,0 +1,91 @@
+{
+  "name": "Birdies Indoor Golf & Bar",
+  "address": "980 N Lapeer Rd, Oxford, MI 48371",
+  "city": "Oxford",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 42.841339,
+  "longitude": -83.27243,
+  "phone": "+12488004023",
+  "website": "http://www.birdiesindoorgolfandbar.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770200574/golf_simulators/www_birdiesindoorgolfandbar_com_ChIJS2u_T1SNJIgRjAyFeBYyR5Y.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Birdies+Indoor+Golf+%26+Bar/@42.8413391,-83.27243039999999,14z/data=!4m8!1m2!2m1!1sBirdies+Indoor+Golf+%26+Bar!3m4!1s0x88248d544fbf6b4b:0x9647321678850c8c!8m2!3d42.8413391!4d-83.27243039999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJS2u_T1SNJIgRjAyFeBYyR5Y",
+  "email": "info@birdiesindoorgolfandbar.com",
+  "venue_type": "sim_bar",
+  "about": "Birdies Indoor Golf & Bar is a family-owned and operated indoor golf simulator business that provides a friendly 'clubhouse' atmosphere with six state-of-the-art simulators. The venue offers year-round golf experiences and a full bar, catering to a mix of casual players, families, and groups. Customers can rent simulators by the hour, play on over 70 courses, or participate in leagues and events, with the facility emphasizing a welcoming environment for all skill levels.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|kids_friendly|corporate_events|leagues|premium_tech|private_rooms|club_rentals|community_club",
+  "vibe_tags": "sports_bar|family_fun_center|community_club|modern",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Six state-of-the-art simulators with realistic ball-tracking technology",
+    "Over 70 world-renowned courses available to play",
+    "Friendly clubhouse atmosphere suitable for all skill levels",
+    "Multi-sport simulators for variety beyond golf",
+    "Flexible booking options and league opportunities"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen available with food menu accessible via PDF"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available on-site"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Full Swing",
+      "model": "Dual Tracking",
+      "notes": "Six state-of-the-art simulators with Dual Tracking technology"
+    }
+  ],
+  "simulator_software": [
+    "Full Swing"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 6,
+  "booking_url": "http://www.birdiesindoorgolfandbar.com/index.php/services/book-a-simulator",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": 6,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|leagues|wifi",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify whether club rentals are available, so it's recommended to bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, outside food and drinks are not allowed as the venue has a full kitchen and bar on-site."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "An 18-hole game takes approximately one hour per player, with a minimum of 4 hours recommended for a foursome."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Birdies Indoor Golf & Bar welcomes all ages and families, making it suitable for children."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"11AM-10PM\"], \"Tuesday\": [\"11AM-10PM\"], \"Wednesday\": [\"11AM-10PM\"], \"Thursday\": [\"11AM-10PM\"], \"Friday\": [\"11AM-11PM\"], \"Saturday\": [\"9AM-11PM\"], \"Sunday\": [\"9AM-4PM\"]}"
+}

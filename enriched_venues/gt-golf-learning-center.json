@@ -1,0 +1,90 @@
+{
+  "name": "GT Golf Learning Center",
+  "address": "19110 S Ridgeland Ave, Tinley Park, IL 60477",
+  "city": "Tinley Park",
+  "region": "Illinois",
+  "country": "US",
+  "latitude": 41.540704,
+  "longitude": -87.777794,
+  "phone": "+17089219557",
+  "website": "https://gtgolflearningcenter.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770218297/golf_simulators/gtgolflearningcenter_com_ChIJq-sMCOMVDogR_Q9IYQfHW6w.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/GT+Golf+Learning+Center/@41.5407042,-87.77779369999999,14z/data=!4m8!1m2!2m1!1sGT+Golf+Learning+Center!3m4!1s0x880e15e3080cebab:0xac5bc70761480ffd!8m2!3d41.5407042!4d-87.77779369999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJq-sMCOMVDogR_Q9IYQfHW6w",
+  "email": "gtgolflc@gmail.com",
+  "venue_type": "training_studio",
+  "about": "GT Golf Learning Center is a year-round golf instruction facility located at Odyssey Golf Foundation Driving Range in Tinley Park, IL. The center is led by PGA Professional Gregg Tengerstrom, who offers private and semi-private lessons utilizing advanced technology such as the FlightScope X3 Launch Monitor and OnForm Video Swing Analysis. Lessons are available for both beginners and experienced golfers, with a 24-station range featuring natural grass tees and heated hitting bays for winter play. The facility also provides custom Callaway club fittings.",
+  "tags": "beginner_friendly|coaching_available|premium_tech|club_fitting|budget_friendly|serious_practice|juniors_youth",
+  "vibe_tags": "industrial_training|community_club",
+  "who_its_for": "beginners|serious_golfers|families|juniors_youth|solo_practice",
+  "why_golfers_like_it": [
+    "Uses premium FlightScope X3 Launch Monitor for detailed swing data",
+    "Offers year-round instruction with heated bays and video analysis",
+    "Provides custom club fitting with Callaway equipment",
+    "Flexible lesson options with group and private packages"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "FlightScope",
+      "model": "X3",
+      "notes": "Doppler radar launch monitor with club and ball tracking"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://gtgolflearningcenter.com/shop",
+  "pricing_model": "per_person_hour",
+  "price_range_min_local": 50,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|pro_shop|club_fitting|heated_bays|range|video_analysis",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, students are expected to bring their own clubs for lessons, though club rentals and custom fittings are available."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No food or drink service is mentioned, but there are no restrictions noted on bringing personal items."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Not applicable as this is an instruction and practice facility, not a full course simulator."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, the facility offers group lessons and semi-private options that are suitable for families and juniors."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"8AM-8PM\"], \"Wednesday\": [\"8AM-8PM\"], \"Thursday\": [\"8AM-8PM\"], \"Friday\": [\"8AM-8PM\"], \"Saturday\": [\"8AM-5PM\"], \"Sunday\": [\"8AM-4PM\"]}"
+}

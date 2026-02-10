@@ -1,0 +1,93 @@
+{
+  "name": "X Golf Hanover",
+  "address": "1207 Washington St Suite 3, Hanover, MA 02339",
+  "city": "Hanover",
+  "region": "Massachusetts",
+  "country": "US",
+  "latitude": 42.138249,
+  "longitude": -70.841075,
+  "phone": "+15084691008",
+  "website": "http://www.xgolfhanover.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770200307/golf_simulators/www_xgolfhanover_com_ChIJ5aClt1yf5IkRQjqSsW4LKTM.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/X+Golf+Hanover/@42.1382492,-70.8410747,14z/data=!4m8!1m2!2m1!1sX+Golf+Hanover!3m4!1s0x89e49f5cb7a5a0e5:0x33290b6eb1923a42!8m2!3d42.1382492!4d-70.8410747",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ5aClt1yf5IkRQjqSsW4LKTM",
+  "email": "info@xgolfhanover.com",
+  "venue_type": "sim_bar",
+  "about": "X-Golf Hanover is a golf simulator venue that offers state-of-the-art indoor golf experiences using advanced simulator technology. The facility provides a range of amenities including a full bar, food service, and event hosting capabilities. It caters to various skill levels and offers multiple booking options, including hourly simulator time, memberships, and leagues. The venue is designed for both casual play and serious practice, supported by PGA-certified instruction and technology-focused training tools.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|date_night|kids_friendly|coaching_available",
+  "vibe_tags": "sports_bar|tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Unparalleled simulator accuracy with camera, laser, and sensor technology",
+    "Flexible pricing with options for casual play and long-term memberships",
+    "PGA-certified instruction available for skill development",
+    "Full bar and food service available for social and group experiences"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Shareable bites, appetizers, snacks, and pizzas available"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with beer, cocktails, and wine by the glass or on tap"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "X-Golf",
+      "model": "Simulator",
+      "notes": "State-of-the-art system with camera systems, infrared lasers, and impact sensors"
+    }
+  ],
+  "simulator_so": [
+    "V1 Pro Golf"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://clients.uschedule.com/xgolfhanover/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 55,
+  "price_range_max_local": 70,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|leagues|private_party_room|wifi|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, club rental is available at the venue. You can also bring your own clubs if preferred."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "The venue offers a full bar and food menu on-site. Outside food and drink policies are not explicitly mentioned, but BYOB is not indicated."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Generally takes 1 hour for an individual player to play 18 holes. For multiple players, an additional hour may be needed per player depending on skill level."
+    },
+    {
+      "question": "Is X-Golf kid-friendly?",
+      "answer": "Yes, the venue welcomes children of all ages and offers programs suitable for junior golfers."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"9AM-11PM\"], \"Saturday\": [\"9AM-11PM\"], \"Sunday\": [\"9AM-10PM\"]}"
+}

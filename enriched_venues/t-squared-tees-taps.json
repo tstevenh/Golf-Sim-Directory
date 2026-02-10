@@ -1,0 +1,94 @@
+{
+  "name": "T Squared Tees & Taps",
+  "address": "10 Centre Dr Suite A, Orchard Park, NY 14127",
+  "city": "Orchard Park",
+  "region": "New York",
+  "country": "US",
+  "latitude": 42.768099,
+  "longitude": -78.767903,
+  "phone": "+17166679215",
+  "website": "http://teesandtaps.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770220651/golf_simulators/teesandtaps_com_ChIJM5FdjPIF04kR50LY0-BKNiQ.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/T+Squared+Tees+%26+Taps/@42.768099,-78.76790299999999,14z/data=!4m8!1m2!2m1!1sT+Squared+Tees+%26+Taps!3m4!1s0x89d305f28c5d9133:0x24364ae0d3d842e7!8m2!3d42.768099!4d-78.76790299999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJM5FdjPIF04kR50LY0-BKNiQ",
+  "email": "info@TsquaredPutters.com",
+  "venue_type": "sim_bar",
+  "about": "T Squared Tees & Taps is an indoor and outdoor golf lounge and simulator venue located in Buffalo, New York. The establishment features top-of-the-line Foresight golf simulators with large 16ft screens and over 75 virtual courses available for play. It offers a dual-purpose experience, combining golf simulation with a full-service bar and restaurant that serves a seasonal menu of fresh seafood, appetizers, salads, and specialty dishes. The venue is designed for both individual practice and group events, with heated outdoor patio space and private party options available.",
+  "tags": "food_and_drinks|beginner_friendly|date_night|corporate_events|leagues|premium_tech|private_rooms|club_rentals|club_fitting",
+  "vibe_tags": "casual|welcoming|modern|sports_bar",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "Premium Foresight golf simulator technology with massive 16ft screens",
+    "Extensive selection of over 75 virtual golf courses",
+    "Ability to enjoy food and drinks directly at the simulator stations",
+    "Heated outdoor patio for a mix of simulated and outdoor socializing",
+    "Private party and event hosting capabilities with dedicated spaces"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full-service kitchen with a seasonal menu featuring fresh seafood, appetizers, salads, and filet specialties"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service with rotating draft offerings"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": "unknown",
+      "notes": "Top-of-the-line simulators with 16ft screens"
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.tsquaredteesandtaps.com/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|club_fitting|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "While you can bring your own clubs, the venue provides club rentals and putter fitting services, so you can play without equipment."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "Outside food and drinks are not permitted, as the venue has its own full-service kitchen and bar for your convenience."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Time slots are available in 1, 2, or 3-hour blocks. A standard 18-hole simulation can be completed in 1 to 3 hours depending on your booking."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, T Squared Tees & Taps is family-friendly and can accommodate children, making it suitable for family events and gatherings."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"12-9PM\"], \"Tuesday\": [\"12-9PM\"], \"Wednesday\": [\"12-9PM\"], \"Thursday\": [\"12-9PM\"], \"Friday\": [\"12-10PM\"], \"Saturday\": [\"12-10PM\"], \"Sunday\": [\"Closed\"]}"
+}

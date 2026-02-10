@@ -1,0 +1,83 @@
+{
+  "name": "Whitetail Golf Course",
+  "address": "4295 Wild Fowl Ln, Stevensville, MT 59870",
+  "city": "Stevensville",
+  "region": "Montana",
+  "country": "US",
+  "latitude": 46.551342,
+  "longitude": -114.094643,
+  "phone": "+14067773636",
+  "website": "http://www.whitetailgolfmt.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770268756/golf_simulators/www_whitetailgolfmt_com_ChIJX44Xm0ucXlMRYx1G0s3iCPI.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Whitetail+Golf+Course/@46.551342,-114.0946426,14z/data=!4m8!1m2!2m1!1sWhitetail+Golf+Course!3m4!1s0x535e9c4b9b178e5f:0xf208e2cdd2461d63!8m2!3d46.551342!4d-114.0946426",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJX44Xm0ucXlMRYx1G0s3iCPI",
+  "email": "whitetailgolfmt@gmail.com",
+  "venue_type": "multi_sport_sim",
+  "about": "Whitetail Golf Course is a 9-hole public golf course located in Stevensville, Montana, set within the Lee Metcalf Wildlife Refuge. The venue offers both outdoor golfing on its scenic course and a state-of-the-art indoor golf simulator for year-round play. The facility provides a range of amenities including lessons, tournaments, leagues, and simulator rentals, creating a community hub for golfers of all skill levels. The indoor simulator allows for practice sessions and play on world-class courses regardless of weather conditions, complementing the traditional outdoor golf experience.",
+  "tags": "beginner_friendly|kids_friendly|leagues|coaching_available|premium_tech|budget_friendly|club_rentals|community_club",
+  "vibe_tags": "family_fun_center|community_club|casual|welcoming",
+  "who_its_for": "beginners|families|juniors_youth|solo_practice|serious_golfers",
+  "why_golfers_like_it": [
+    "Year-round access to golf with an indoor simulator, unaffected by weather",
+    "Scenic natural setting with abundant wildlife for a unique outdoor golf experience",
+    "Affordable pricing and flexible group options for both on-course and simulator play"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned on website"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No bar or alcohol service mentioned"
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": "unknown",
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "https://chronogolf.com/club/19678",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 45,
+  "price_range_max_local": 45,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "lessons|leagues|club_rentals|pro_shop",
+  "rating_tech_quality": 4.0,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "The website does not specify whether clubs are provided, so it is recommended to bring your own equipment for use with the simulator."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No food or beverage service is mentioned, but no restrictions on outside items are noted. BYOB may be permitted."
+    },
+    {
+      "question": "How long does it take to play 18 holes on the simulator?",
+      "answer": "While the exact time for 18 holes isn't specified, the simulator is rented by the hour at a rate of $45 for up to 4 players."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Whitetail Golf Course offers junior pricing, family season passes, and mentions a welcoming atmosphere for golfers of every skill level, including children."
+    }
+  ],
+  "rating_overall": 4.0,
+  "opening_hours": "{\"Monday\": [\"7:30AM-8PM\"], \"Tuesday\": [\"7:30AM-8PM\"], \"Wednesday\": [\"7:30AM-8PM\"], \"Thursday\": [\"7:30AM-8PM\"], \"Friday\": [\"7:30AM-8PM\"], \"Saturday\": [\"7:30AM-8PM\"], \"Sunday\": [\"11AM-8PM\"]}"
+}

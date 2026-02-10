@@ -1,0 +1,89 @@
+{
+  "name": "Swing Lab Golf Club",
+  "address": "90 Adelphia Rd Unit 5, Farmingdale, NJ 07727",
+  "city": "Farmingdale",
+  "region": "New Jersey",
+  "country": "US",
+  "latitude": 40.200565,
+  "longitude": -74.184483,
+  "phone": "+19085453181",
+  "website": "https://www.swinglabgc.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770211651/golf_simulators/www_swinglabgc_com_ChIJixXKdVUrwokR4KbPhLSkPF8.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Swing+Lab+Golf+Club/@40.200565399999995,-74.1844826,14z/data=!4m8!1m2!2m1!1sSwing+Lab+Golf+Club!3m4!1s0x89c22b5575ca158b:0x5f3ca4b484cfa6e0!8m2!3d40.200565399999995!4d-74.1844826",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJixXKdVUrwokR4KbPhLSkPF8",
+  "email": "info@swinglabgc.com",
+  "venue_type": "sim_bar",
+  "about": "Swing Lab Golf Club is an indoor golf venue that utilizes advanced TrackMan iO technology to provide a realistic and immersive golfing experience. The facility features 6 state-of-the-art simulator bays where players can play on world-class courses, practice their swing, or participate in leagues and events. Swing Lab offers a relaxed and friendly atmosphere, making it suitable for golfers of all skill levels, from beginners looking to learn the fundamentals to advanced players refining their techniques. The venue also provides services such as personalized coaching, club fittings, and event hosting, with food and drinks available on-site to enhance the overall experience.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|coaching_available|private_rooms|club_rentals|family_fun_center",
+  "vibe_tags": "tech_lab|welcoming|modern|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Advanced TrackMan iO technology with OERT for precise shot data and analysis",
+    "Indoor climate-controlled environment allowing for year-round play regardless of weather",
+    "Variety of offerings including leagues, lessons, events, and social play with food and drinks"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Delicious food available on-site"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Refreshing drinks available on-site"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Premium launch monitor with dual radar system providing over 40 data points per shot"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "auto_putt",
+  "lefty_friendly": true,
+  "bay_count_total": 6,
+  "booking_url": "https://clients.uschedule.com/swinglabgc/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 45,
+  "price_range_max_local": 75,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 6,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you should bring your own golf clubs to use at Swing Lab. The facility is designed for players to use their own equipment on the simulator bays."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, outside food and drinks are not permitted. Swing Lab offers a menu with delicious food and refreshing drinks available for purchase on-site."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "Playing 18 holes at Swing Lab typically takes around 2-3 hours, depending on the size of your group and pace of play."
+    },
+    {
+      "question": "Is Swing Lab kid-friendly?",
+      "answer": "Yes, Swing Lab is kid-friendly and offers an enjoyable indoor golf experience that can be fun for families and children of all ages."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"9AM-10PM\"], \"Saturday\": [\"9AM-10PM\"], \"Sunday\": [\"9AM-10PM\"]}"
+}

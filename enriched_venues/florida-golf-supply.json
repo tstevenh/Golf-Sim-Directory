@@ -1,0 +1,89 @@
+{
+  "name": "Florida Golf Supply",
+  "address": "335 Pineda Ct #105, Melbourne, FL 32940",
+  "city": "Melbourne",
+  "region": "Florida",
+  "country": "US",
+  "latitude": 28.227398,
+  "longitude": -80.675897,
+  "phone": "+13216224233",
+  "website": "https://www.flipwedgeprosim.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770220799/golf_simulators/www_flipwedgeprosim_com_ChIJw7ObUIQF3ogRNEcw9Xd1gKw.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Florida+Golf+Supply/@28.2273981,-80.6758973,14z/data=!4m8!1m2!2m1!1sFlorida+Golf+Supply!3m4!1s0x88de0584509bb3c3:0xac807577f5304734!8m2!3d28.2273981!4d-80.6758973",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJw7ObUIQF3ogRNEcw9Xd1gKw",
+  "venue_type": "sim_bar|training_studio|retail_fitting_center",
+  "about": "Flipwedge ProSim is an indoor golf simulator facility located in Melbourne, FL, offering access to Foresight Falcon simulators with over 1,000 world-class courses and advanced data tracking. The venue provides a mix of casual play, structured lessons with certified coaches, and a pro shop for club fitting and trade-ins. Pricing is flexible with half-hour bay rentals starting at $20, alongside membership options for unlimited access and discounted lessons, making it suitable for both casual golfers and serious players looking to improve their game.",
+  "tags": "beginner_friendly|serious_practice|coaching_available|club_rentals|club_fitting|premium_tech|corporate_events|budget_friendly|family_friendly",
+  "vibe_tags": "modern|community_club|tech_lab",
+  "who_its_for": "beginners|serious_golfers|families|solo_practice|corporate_teams",
+  "why_golfers_like_it": [
+    "Instant feedback on ball speed, launch angle, spin rate, and club path",
+    "Access to legendary courses like Pebble Beach in a hyper-realistic environment",
+    "Flexible booking options and personalized coaching from certified instructors"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of food service available on-site"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service available on-site"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": "Falcon Simulator",
+      "notes": "High-end simulator with advanced ball tracking and data analysis"
+    }
+  ],
+  "simulator_software": [
+    "GSPro",
+    "FSX Play"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://booking.foxfoxgolf.com/prosim/prosim/simulator-time",
+  "pricing_model": "mixed",
+  "price_range_min_local": 20,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|club_fitting|wifi|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, the venue provides quality equipment to borrow or try, including custom fitting options if you're ready for an upgrade."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "There is no mention of food or drink service being available on-site, and no explicit mention of BYOB policy."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "While the exact time for 18 holes isn't specified, sessions are booked by the half-hour, with 4-person groups sharing a bay."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the facility is suitable for families, with flexible group bookings and a welcoming atmosphere for all skill levels."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"10AM-7PM\"], \"Tuesday\": [\"10AM-7PM\"], \"Wednesday\": [\"10AM-7PM\"], \"Thursday\": [\"10AM-7PM\"], \"Friday\": [\"10AM-7PM\"], \"Saturday\": [\"10AM-7PM\"], \"Sunday\": [\"Closed\"]}"
+}

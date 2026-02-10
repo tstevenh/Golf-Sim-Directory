@@ -1,0 +1,93 @@
+{
+  "name": "Local Fairway",
+  "address": "139 N Main St Suite #1C, Simpsonville, SC 29681",
+  "city": "Simpsonville",
+  "region": "South Carolina",
+  "country": "US",
+  "latitude": 34.738304,
+  "longitude": -82.256874,
+  "phone": "+18642144392",
+  "website": "https://localfairway.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770201090/golf_simulators/localfairway_com_ChIJEVhPwygnWIgR4ZHryeuLB_g.png",
+  "google_maps_url": "https://www.google.com/maps/place/Local+Fairway/@34.7383041,-82.2568745,14z/data=!4m8!1m2!2m1!1sLocal+Fairway!3m4!1s0x88582728c34f5811:0xf8078bebc9eb91e1!8m2!3d34.7383041!4d-82.2568745",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJEVhPwygnWIgR4ZHryeuLB_g",
+  "email": "customerservice@localfairway.com",
+  "venue_type": "sim_bar",
+  "about": "Local Fairway is a golf simulator venue located in Simpsonville, SC, offering a relaxed, hometown atmosphere for year-round play. The facility features state-of-the-art TrackMan iO simulators and access to over 400 legendary global courses, providing a convenient alternative to traditional golf. Flexible booking options include month-to-month memberships and non-member hourly bay rentals, with sessions reserved in advance online. The venue is designed for community, family life, and accessible golf without weather concerns or long-term commitments.",
+  "tags": "beginner_friendly|food_and_drinks|family_friendly|corporate_events|budget_friendly|community_club|late_night",
+  "vibe_tags": "casual|welcoming|modern|family_fun_center",
+  "who_its_for": "beginners|families|solo_practice|corporate_teams|low_handicap",
+  "why_golfers_like_it": [
+    "State-of-the-art TrackMan iO simulators with precise shot data",
+    "24/7 availability for flexible play anytime, rain or shine",
+    "Hometown pricing with no long-term commitments required"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "BYOB food is allowed"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "BYOB alcohol is allowed"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "State-of-the-art dual radar technology for precise shot tracking"
+    }
+  ],
+  "simulator_so": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://localfairway.com/membershipsbays",
+  "pricing_model": "mixed",
+  "price_range_min_local": 50,
+  "price_range_max_local": 220,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|tv_sports|wifi|pro_shop",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 4.2,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify whether club rentals are available, so it is recommended to bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, you are allowed to bring your own food and drinks (BYOB) to enjoy during your session."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify the time required for an 18-hole round, but sessions can be booked in 2-hour or 3-hour blocks depending on the membership type."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Local Fairway welcomes families and offers a relaxed atmosphere suitable for all ages, with options to bring guests."
+    }
+  ],
+  "simulator_software": [
+    "TrackMan"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": null
+}

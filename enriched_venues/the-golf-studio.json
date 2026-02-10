@@ -1,0 +1,89 @@
+{
+  "name": "The Golf Studio",
+  "address": "1404 N 203rd St #106, Elkhorn, NE 68022",
+  "city": "Elkhorn",
+  "region": "Nebraska",
+  "country": "US",
+  "latitude": 41.271413,
+  "longitude": -96.233997,
+  "phone": "+15317104700",
+  "website": "https://tgsomaha.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770213248/golf_simulators/tgsomaha_com_ChIJO0Lx5lrxk4cRtiPDp9PB4Bw.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Golf+Studio/@41.2714131,-96.2339969,14z/data=!4m8!1m2!2m1!1sThe+Golf+Studio!3m4!1s0x8793f15ae6f1423b:0x1ce0c1d3a7c323b6!8m2!3d41.2714131!4d-96.2339969",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJO0Lx5lrxk4cRtiPDp9PB4Bw",
+  "email": "info@tgsomaha.com.",
+  "venue_type": "training_studio",
+  "about": "The Golf Studio is a private, member-only golf simulator facility located in Elkhorn, Nebraska, offering year-round access for Omaha golfers. The venue features two Full Swing Pro 2.0 simulator bays equipped with infrared technology and high-speed blue light LED cameras to provide realistic shot tracking and instant swing feedback. Members enjoy unlimited use and can book sessions through a mobile portal, with access to a variety of prestigious golf courses and interactive practice ranges for game improvement. With limited memberships issued on an individual basis to ensure availability, the studio combines a modern clubhouse environment with advanced technology to create an accessible training space for golfers of all skill levels.",
+  "tags": "serious_practice|beginner_friendly|premium_tech|private_rooms|corporate_events|membership_only|solo_practice",
+  "vibe_tags": "industrial_training|private_luxury|modern|welcoming",
+  "who_its_for": "serious_golfers|solo_practice|beginners|coaches_instructors|corporate_teams",
+  "why_golfers_like_it": [
+    "24/7 access to state-of-the-art Full Swing Pro 2.0 simulators",
+    "Unlimited simulator use with instant swing feedback and data analytics",
+    "Private member-only facility ensuring availability and a focused environment"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned; BYOB likely but not confirmed"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned; BYOB likely but not confirmed"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Full Swing",
+      "model": "Pro 2.0",
+      "notes": "Uses infrared technology, high-speed blue light LED cameras, and ION3 Overhead Camera for clubface impact recording"
+    }
+  ],
+  "simulator_software": [
+    "Full Swing Software"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://tgsomaha.com/book/",
+  "pricing_model": "membership_only",
+  "price_range_min_local": 300,
+  "price_range_max_local": 2240,
+  "currency": "USD",
+  "walk_ins_allowed": false,
+  "coaching_available": "unknown",
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|wifi|mobile_bookings|no_guest_fees",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, members are expected to bring their own clubs to use with the simulators."
+    },
+    {
+      "question": "Can I bring food or drinks?",
+      "answer": "The website does not mention food or drink service; BYOB policy is not explicitly stated."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes is not specified, but simulators allow for full rounds on various courses."
+    },
+    {
+      "question": "Is The Golf Studio kid-friendly?",
+      "answer": "No, The Golf Studio is a private, member-only facility with no specific offerings for children."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": null
+}

@@ -1,0 +1,91 @@
+{
+  "name": "The Hangar",
+  "address": "501 Madison Ave #106, Indianapolis, IN 46225",
+  "city": "Indianapolis",
+  "region": "Indiana",
+  "country": "US",
+  "latitude": 39.760019,
+  "longitude": -86.15741,
+  "phone": "+13176201448",
+  "website": "https://hangarindy.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770221963/golf_simulators/hangarindy_com_ChIJSchjr5tQa4gRr5-0KRqjZq0.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Hangar/@39.760019,-86.1574102,14z/data=!4m8!1m2!2m1!1sThe+Hangar!3m4!1s0x886b509baf63c849:0xad66a31a29b49faf!8m2!3d39.760019!4d-86.1574102",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJSchjr5tQa4gRr5-0KRqjZq0",
+  "email": "career_3@2x.png",
+  "venue_type": "sim_bar",
+  "about": "The Hangar is a multifaceted entertainment venue in downtown Indianapolis, offering indoor golf simulators alongside pedal bar tours, crafting workshops, and a full-service bar and restaurant. It features TrackMan technology in a 3,000 sq ft indoor golf simulator bar, providing access to 240+ virtual golf courses with best-in-class accuracy. The space is designed to accommodate various activities, allowing non-golfers to enjoy other amenities while golfers play. It is positioned as a central hub for unique experiences in Indianapolis, suitable for casual play, corporate outings, and group events.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|date_night|large_groups|premium_tech|private_rooms|club_rentals|community_club",
+  "vibe_tags": "sports_bar|family_fun_center|tech_lab|community_club",
+  "who_its_for": "beginners|families|corporate_teams|large_groups|tourists_travelers",
+  "why_golfers_like_it": [
+    "Access to 240+ virtual golf courses with best-in-class accuracy",
+    "3,000 sq ft indoor golf simulator bar with a comfortable, weather-independent environment",
+    "Private bays available for tournaments and casual play",
+    "Integration with other activities like crafting and pedal tours for group entertainment",
+    "Located in a central downtown Indianapolis location near major stadiums"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full restaurant menu with brick oven pizza, served at the venue"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar available on-site"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Multiple TrackMan simulators offering best-in-class accuracy and shot analysis"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://handlebarindy1.rezdy.com/612062/1-5-hr-indoor-golf-experience",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own golf clubs?",
+      "answer": "The venue does not specify whether they provide club rentals, so it's advisable to bring your own clubs or contact them directly for equipment availability."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue has its own full bar and kitchen, offering brick oven pizza and drinks. Outside food and drink policies are not explicitly mentioned."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The content does not specify the exact time required to play 18 holes, but sessions are typically booked in 1.5-hour increments for the indoor golf experience."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, The Hangar is family-friendly, offering activities like crafting workshops and pedal bar tours suitable for various age groups alongside its golf simulators."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"Closed\"], \"Wednesday\": [\"Closed\"], \"Thursday\": [\"Closed\"], \"Friday\": [\"4-11PM\"], \"Saturday\": [\"11AM-11PM\"], \"Sunday\": [\"12-6PM\"]}"
+}

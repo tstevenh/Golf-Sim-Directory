@@ -1,0 +1,90 @@
+{
+  "name": "Golf Zone",
+  "address": "4901 Tanner Dr, Gillette, WY 82718",
+  "city": "Gillette",
+  "region": "Wyoming",
+  "country": "US",
+  "latitude": 44.24913,
+  "longitude": -105.498553,
+  "phone": "+13072416978",
+  "website": "https://www.golfzonewy.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770214675/golf_simulators/www_golfzonewy_com_ChIJSxzEbxyVNFMRIMtGeCFalJc.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Golf+Zone/@44.249129599999996,-105.4985526,14z/data=!4m8!1m2!2m1!1sGolf+Zone!3m4!1s0x5334951c6fc41c4b:0x97945a217846cb20!8m2!3d44.249129599999996!4d-105.4985526",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJSxzEbxyVNFMRIMtGeCFalJc",
+  "email": "felicia@golfzonewy.com",
+  "venue_type": "sim_bar",
+  "about": "Golf Zone is a bar and grill equipped with six state-of-the-art golf simulators in Gillette. The venue features four open bays and two private bays, each accommodating up to six participants. It offers over 200 mapped golf courses and serves food and drinks, though no outside food or drink is permitted. Located in the same building as Flight Zone, a trampoline park, it provides an option for families to have activities for both adults and children.",
+  "tags": "food_and_drinks|kids_friendly|beginner_friendly|date_night|corporate_events|private_rooms",
+  "vibe_tags": "sports_bar|family_fun_center|casual|welcoming",
+  "who_its_for": "families|large_groups|beginners|solo_practice|corporate_teams",
+  "why_golfers_like_it": [
+    "Access to 200+ fully mapped golf courses from around the world",
+    "Variety of simulator options with both open and private bays",
+    "Ability to relax and have food/drinks while playing",
+    "Convenient location for families with nearby kids' activities"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Large menu of delicious food available, including buffalo wings"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar available on-site"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "unknown",
+      "model": "unknown",
+      "notes": "The specific hardware brand is not mentioned on the website, though it is described as 'state-of-the-art' with '400 FPS high-speed cameras'."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 6,
+  "booking_url": "https://clients.uschedule.com/flightzone/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 50,
+  "price_range_max_local": 70,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|kitchen_food|tv_sports|private_party_room|leagues",
+  "rating_tech_quality": 4.0,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify whether clubs are provided or if you need to bring your own."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No outside food or drink is permitted at Golf Zone."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "The website does not specify the time required to play 18 holes."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, it is highly kid-friendly as it is located in the same building as Flight Zone, a trampoline and Ninja Warrior park."
+    }
+  ],
+  "rating_overall": 4.1,
+  "opening_hours": "{\"Saturday\": [\"10AM-12AM\"]}"
+}

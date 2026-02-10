@@ -1,0 +1,90 @@
+{
+  "name": "The Shack Indoor Golf Club",
+  "address": "1717 Chestnut Ave, Glenview, IL 60025",
+  "city": "Glenview",
+  "region": "Illinois",
+  "country": "US",
+  "latitude": 42.087026,
+  "longitude": -87.799645,
+  "phone": "+18479042905",
+  "website": "https://www.theshackgolfclub.com/%3Fy_source%3D1_MjAzNzc1NjE5OC03MTUtbG9jYXRpb24ud2Vic2l0ZQ%253D%253D",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770222219/golf_simulators/www_theshackgolfclub_com_ChIJnTtArgHHD4gRAe_H5e98Cq0.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Shack+Indoor+Golf+Club/@42.0870258,-87.79964489999999,14z/data=!4m8!1m2!2m1!1sThe+Shack+Indoor+Golf+Club!3m4!1s0x880fc701ae403b9d:0xad0a7cefe5c7ef01!8m2!3d42.0870258!4d-87.79964489999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJnTtArgHHD4gRAe_H5e98Cq0",
+  "email": "nick@theshackgolfclub.com",
+  "venue_type": "sim_bar",
+  "about": "The Shack Indoor Golf Club is an interactive golf venue designed for year-round, all-weather, day-or-night golf play. Located on Chicago's North Shore, the experience is centered around Trackman golf simulators featuring over 100 championship courses, providing precision play for golfers of all experience levels. The venue operates as a sports bar, offering domestic and imported beers, premium spirits, craft cocktails, and an elevated bar food menu in a casual, welcoming atmosphere. It offers hourly simulator rentals, monthly memberships, private instruction, and event hosting capabilities.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|leagues|premium_tech|coaching_available|date_night|juniors_youth",
+  "vibe_tags": "sports_bar|casual|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "Professional-grade Trackman technology providing accurate and realistic ball flight tracking",
+    "Year-round, all-weather play in a comfortable indoor environment with a full bar and food menu",
+    "Flexible booking options for individuals, groups, leagues, and private events"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Elevated bar food menu available on-site"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full-service bar with craft cocktails, domestic and imported beers, fine wines, and a premium selection of bourbon, scotch, and tequila"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Radar-based launch monitors, the industry standard for accuracy"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://booking.trackmangolf.com/venues/the-shack-indoor-club/booking/bays",
+  "pricing_model": "per_bay_hour|mixed",
+  "price_range_min_local": 45,
+  "price_range_max_local": 55,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, players are expected to bring their own clubs. The facility is designed for golfers to use their own equipment."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No, outside food and drinks are not permitted. The venue has a full-service bar and kitchen serving craft cocktails, beer, wine, and an elevated bar food menu."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "It takes about 1 hour for 1 player, 1.5 to 2 hours for 2 players, and 3 to 3.5 hours for 4 players to complete 18 holes."
+    },
+    {
+      "question": "Is this place kid-friendly?",
+      "answer": "Yes, The Shack welcomes golfers of all ages and offers a Junior Bombers program. They are committed to growing the game of golf and have a junior development program."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-10PM\"], \"Saturday\": [\"11AM-10PM\"], \"Sunday\": [\"11AM-8PM\"]}"
+}

@@ -1,0 +1,92 @@
+{
+  "name": "24/7 Golf - Ludington",
+  "address": "5756 US-10, Ludington, MI 49431",
+  "city": "Ludington",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 43.957327,
+  "longitude": -86.423253,
+  "phone": "+16163509482",
+  "website": "https://24-7golf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770236609/golf_simulators/24-7golf_com_ChIJ6Wm_J1oRHIgRGa5HyEVqipo.png",
+  "google_maps_url": "https://www.google.com/maps/place/24%2F7+Golf+-+Ludington/@43.9573274,-86.42325269999999,14z/data=!4m8!1m2!2m1!1s24%2F7+Golf+-+Ludington!3m4!1s0x881c115a27bf69e9:0x9a8a6a45c847ae19!8m2!3d43.9573274!4d-86.42325269999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ6Wm_J1oRHIgRGa5HyEVqipo",
+  "email": "info@24-7golf.com",
+  "venue_type": "multi_sport_sim",
+  "about": "24/7 Golf is an indoor golf and pickleball simulator venue operating 24 hours a day, 365 days a year. It utilizes Trackman iO technology across multiple locations in Michigan, offering a space for casual play and serious practice. Patrons can book simulator bays by the hour for individuals or groups, with the option to join leagues or purchase memberships for extended access. The facilities are designed to accommodate various group sizes and events, from solo practice to large parties and corporate outings.",
+  "tags": "beginner_friendly|corporate_events|leagues|premium_tech|late_night|private_rooms|club_rentals|budget_friendly|coaching_available",
+  "vibe_tags": "sports_bar|community_club|tech_lab|casual|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "24/7 access allows for play at any time of day or night",
+    "Premium Trackman iO technology provides accurate ball and club data",
+    "Hourly pricing model is flexible and accommodates any group size",
+    "Locations are in prime areas for both residents and visitors",
+    "Facility rentals available for events and parties"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "BYOB (Bring Your Own Food) is permitted"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "BYOB (Bring Your Own Beverage) is permitted"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Latest technology combining radar, infrared and high-speed imaging for real-time data"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://24-7golf.com/booking/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|tv_sports|private_party_room|wifi|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own golf clubs?",
+      "answer": "Yes, you are required to bring your own golf clubs to use the simulators."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, the venue allows you to bring your own food and beverages (BYOB)."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "A typical round of 18 holes takes approximately 1 to 1.5 hours per simulator bay."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is family-friendly and can accommodate children for play and events."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

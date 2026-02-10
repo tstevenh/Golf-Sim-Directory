@@ -1,0 +1,89 @@
+{
+  "name": "Tee Time Anytime",
+  "address": "380 S Main St, Akron, OH 44311",
+  "city": "Akron",
+  "region": "Ohio",
+  "country": "US",
+  "latitude": 41.075729,
+  "longitude": -81.522992,
+  "phone": "+13303052655",
+  "website": "https://www.teetimeanytime247.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770225376/golf_simulators/www_teetimeanytime247_com_ChIJT-c2R0DXMIgRPIqxotXEzdM.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Tee+Time+Anytime/@41.0757288,-81.5229923,14z/data=!4m8!1m2!2m1!1sTee+Time+Anytime!3m4!1s0x8830d7404736e74f:0xd3cdc4d5a2b18a3c!8m2!3d41.0757288!4d-81.5229923",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJT-c2R0DXMIgRPIqxotXEzdM",
+  "email": "teetimeanytime247@gmail.com",
+  "venue_type": "other",
+  "about": "Tee Time Anytime is an indoor golf venue in Downtown Akron, Ohio, open 24/7. It features TrackMan iO technology for a premium, simulated golfing experience. The facility is located on the corner of Main and Cedar streets, next to Diamond Deli, and caters to both recreational and competitive players. The venue operates on an hourly rate model and offers monthly memberships for frequent players, providing access to a clean and controlled environment for golf practice and play at any hour.",
+  "tags": "beginner_friendly|serious_golfers|families|corporate_teams|solo_practice|low_handicap|premium_tech|late_night",
+  "vibe_tags": "tech_lab|community_club|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Tour-level accuracy with dual-radar and high-speed camera technology for precise shot data",
+    "24/7 access to a pristine indoor golf environment, perfect for any schedule",
+    "Access to over 300 world-famous courses with ultra-realistic graphics"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "The website does not mention on-site food services."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No information is provided about on-site alcohol sales or a bar."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "State-of-the-art dual-radar and high-speed camera system providing tour-level accuracy"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://yourgolfbooking.com/venues/tee-time-anytime/booking/bays",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "wifi|tv_sports|club_rentals|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not explicitly state whether club rentals are available, but it does mention 'club_rentals' as an amenity. It is recommended to bring your own clubs for the best experience."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "There is no mention of an on-site kitchen or bar. The website does not specify policies on outside food or beverages, so it is recommended to inquire directly with the venue."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify an estimated time for playing a full 18-hole round. The time will depend on the simulator software and the pace of play of the golfers in the bay."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The venue has a maximum group size of 6 and caters to families, suggesting it can accommodate children. However, there is a mandatory waiver acknowledging the risk of injury from high-speed golf balls and clubs, so parental supervision for children is essential."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": null
+}

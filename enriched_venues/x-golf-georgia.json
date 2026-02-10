@@ -1,0 +1,82 @@
+{
+  "name": "X-Golf Georgia",
+  "address": "6600 Town Square STE 1530, Alpharetta, GA 30005",
+  "city": "Alpharetta",
+  "region": "Georgia",
+  "country": "US",
+  "latitude": 34.111548,
+  "longitude": -84.224028,
+  "phone": "+17706964458",
+  "website": "https://playxgolf.com/locations/alpharetta/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770198880/golf_simulators/playxgolf_com_ChIJ70mIIlWd9YgR8pjEzrsrIG4.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/X-Golf+Georgia/@34.1115478,-84.2240284,14z/data=!4m8!1m2!2m1!1sX-Golf+Georgia!3m4!1s0x88f59d55228849ef:0x6e202bbbcec498f2!8m2!3d34.1115478!4d-84.2240284",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ70mIIlWd9YgR8pjEzrsrIG4",
+  "email": "info@xgolfalpharetta.com",
+  "venue_type": "sim_bar",
+  "about": "X-Golf Alpharetta is an indoor golf simulator venue offering state-of-the-art technology for play, training, and entertainment. It features 7 simulators equipped with camera systems, infrared lasers, and impact sensors for accurate ball and club tracking. The venue operates as a hybrid sports bar and golf facility, with a fully stocked bar, food menu, and 13 flat-screen TVs, making it suitable for both serious practice and social gatherings. Pricing is per bay, per hour, accommodating up to 6 people per simulator, with rates varying by day and time.",
+  "tags": "food_and_drinks|corporate_events|leagues|coaching_available|club_rentals|beginner_friendly|premium_tech|family_friendly",
+  "vibe_tags": "sports_bar|family_fun_center|tech_lab",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|juniors_youth|solo_practice",
+  "why_golfers_like_it": [
+    "Unparalleled accuracy and realism from advanced camera and laser tracking systems",
+    "Flexible pricing model allowing groups of up to 6 per bay",
+    "Full bar and food options available for a complete entertainment experience",
+    "PGA-certified professional instruction for skill development"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Food menu available with tasty bites, though BYOB is not permitted as venue has its own kitchen"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Fully stocked bar with 12 beer taps available"
+    }
+  ],
+  "simulator_hardware": "X-Golf simulators (camera systems, infrared lasers, impact sensors)",
+  "simulator_software": "Advanced gaming software, V1 Pro Golf",
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 7,
+  "booking_url": "https://app.acuityscheduling.com/schedule.php?owner=35489230",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 38.5,
+  "price_range_max_local": 58.5,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 0,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|leagues|coaching_available|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 3.8,
+  "faq": [
+    {
+      "question": "Do I need clubs?",
+      "answer": "No, the venue has right/left/teens/kids clubs available for rental."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No, BYOB is not permitted as the venue has a fully stocked bar and kitchen with food available."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Generally 1 hour per player for 18 holes. Groups may need additional time depending on size and skill level."
+    },
+    {
+      "question": "Is it kid-friendly?",
+      "answer": "Yes, the venue welcomes children of all ages and offers junior lessons."
+    }
+  ],
+  "rating_overall": 4.1,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-10PM\"], \"Saturday\": [\"10AM-10PM\"], \"Sunday\": [\"10AM-6PM\"]}"
+}

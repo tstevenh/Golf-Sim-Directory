@@ -1,0 +1,90 @@
+{
+  "name": "The Golf Room",
+  "address": "6615 Dublin Center Dr, Dublin, OH 43017",
+  "city": "Dublin",
+  "region": "Ohio",
+  "country": "US",
+  "latitude": 40.103258,
+  "longitude": -83.095512,
+  "phone": "+16147475006",
+  "website": "https://www.thegolfroom.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770211094/golf_simulators/www_thegolfroom_com_ChIJcS_sY6WSOIgRKvMD50i9rs8.png",
+  "google_maps_url": "https://www.google.com/maps/place/The+Golf+Room/@40.1032582,-83.0955122,14z/data=!4m8!1m2!2m1!1sThe+Golf+Room!3m4!1s0x883892a563ec2f71:0xcfaebd48e703f32a!8m2!3d40.1032582!4d-83.0955122",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJcS_sY6WSOIgRKvMD50i9rs8",
+  "email": "747-5006info@thegolfroom.com6615",
+  "venue_type": "training_studio",
+  "about": "The Golf Room is a dedicated golf training studio focused on comprehensive skill development using advanced technology. The facility emphasizes improvement across all aspects of the game, including swing skill, mental performance, course management, and custom club fitting, with a primary tool being the TrackMan launch monitor for data-driven practice and instruction. It offers a range of services from new player assessments and private lessons to supervised practice sessions and memberships, catering to golfers looking for a structured and technologically-enhanced practice environment.",
+  "tags": "serious_practice|coaching_available|juniors_youth|premium_tech|club_fitting|beginner_friendly",
+  "vibe_tags": "tech_lab|community_club|modern",
+  "who_its_for": "serious_golfers|beginners|juniors_youth|coaches_instructors",
+  "why_golfers_like_it": [
+    "Access to tour-level TrackMan data for detailed swing analysis",
+    "Supervised practice pods for structured and purposeful training sessions",
+    "Comprehensive improvement plans covering skill, body, and mind",
+    "Custom club fitting services for personalized equipment"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Primary launch monitor and simulator hardware"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://www.thegolfroomlive.com/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|club_fitting|wifi|pro_shop|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "Yes, you are expected to bring your own clubs for practice and lessons. The facility also offers club fitting services to help you get properly fitted equipment."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "The website does not mention any food or drink service, so it is assumed you can bring your own. However, please check with the venue directly for their specific policies on outside food and beverages."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not provide specific timing for 18-hole simulations. However, with 12 bays available and a focus on data practice, it's likely that 18-hole play times vary depending on the group size and session type."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "Yes, The Golf Room offers junior academy programs, junior camps, and services specifically aimed at young golfers, indicating a kid-friendly environment."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"7AM-9PM\"], \"Tuesday\": [\"7AM-9PM\"], \"Wednesday\": [\"7AM-9PM\"], \"Thursday\": [\"7AM-9PM\"], \"Friday\": [\"7AM-9PM\"], \"Saturday\": [\"9AM-5PM\"], \"Sunday\": [\"9AM-5PM\"]}"
+}

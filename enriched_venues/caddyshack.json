@@ -1,0 +1,89 @@
+{
+  "name": "CADDYSHACK",
+  "address": "301 S 3rd St C, Smithville, TN 37166",
+  "city": "Smithville",
+  "region": "Tennessee",
+  "country": "US",
+  "latitude": 35.959383,
+  "longitude": -85.813682,
+  "phone": "+16152150335",
+  "website": "https://thecaddyshack.golf/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770224999/golf_simulators/thecaddyshack_golf_ChIJSQTQz4fPZogRXPq0CB30uVQ.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/CADDYSHACK/@35.959382999999995,-85.813682,14z/data=!4m8!1m2!2m1!1sCADDYSHACK!3m4!1s0x8866cf87cfd00449:0x54b9f41d08b4fa5c!8m2!3d35.959382999999995!4d-85.813682",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJSQTQz4fPZogRXPq0CB30uVQ",
+  "email": "caddyshacksmithville@gmail.com",
+  "venue_type": "sim_bar",
+  "about": "Caddyshack is an indoor golf simulator venue that combines golf simulation with a sports bar atmosphere. The facility features three 15x15 simulator bays equipped with FlightScope Mevo+ launch monitors and GSPro software, providing an immersive golfing experience on world-renowned courses. It caters to both casual players seeking entertainment and serious golfers looking to practice, with amenities including a full bar, food options, and additional recreational activities like pool, darts, and arcade games.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|family_friendly|party_atmosphere|premium_tech",
+  "vibe_tags": "sports_bar|family_fun_center|party_atmosphere|retro_gaming",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Access to Mevo+ with GSPro technology for highly accurate shot tracking and realistic course play",
+    "Tour-level simulator bays with premium strike mats and putting turf for authentic practice",
+    "Diverse game options including world-famous courses, Golden Tee arcade, and user-created creative courses"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Available on-site"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar available"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "FlightScope",
+      "model": "Mevo+",
+      "notes": "High-tech launch monitor"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 3,
+  "booking_url": "https://www.thecaddyshack.golf/book/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": 3,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|kitchen_food|tv_sports|private_party_room",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue provides premium strike mats and putting turf, but you can bring your own clubs if preferred."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Food and drinks are available on-site, but outside food and beverages may be restricted."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Generally it takes 1 hour for an individual player to play 18 holes. Additional time should be booked for more players."
+    },
+    {
+      "question": "Is Caddyshack kid-friendly?",
+      "answer": "Yes, Caddyshack is family-friendly and welcomes all ages with a fun-packed atmosphere."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"4-10PM\"], \"Tuesday\": [\"4-10PM\"], \"Wednesday\": [\"4-10PM\"], \"Thursday\": [\"4-10PM\"], \"Friday\": [\"4-10PM\"], \"Saturday\": [\"10AM-10PM\"], \"Sunday\": [\"10AM-7PM\"]}"
+}

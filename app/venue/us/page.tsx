@@ -7,7 +7,7 @@ import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
 import { SeoIndexSections } from "@/components/seo/SeoIndexSections";
 import { getStateDisplayName } from "@/lib/states";
 
-export const revalidate = 60;
+export const revalidate = 86400;
 
 export const metadata: Metadata = {
   title: "Golf Simulators in Every US State — Browse by City",

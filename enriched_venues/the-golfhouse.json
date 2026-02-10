@@ -1,0 +1,89 @@
+{
+  "name": "The GOLFHOUSE",
+  "address": "359 Treeland Dr # C, Ladson, SC 29456",
+  "city": "Ladson",
+  "region": "South Carolina",
+  "country": "US",
+  "latitude": 33.012383,
+  "longitude": -80.111954,
+  "phone": "+18433645024",
+  "website": "http://www.golfhousesc.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770248013/golf_simulators/www_golfhousesc_com_ChIJF08GFgeL_ogRsxSpHYgvqx0.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+GOLFHOUSE/@33.0123825,-80.1119537,14z/data=!4m8!1m2!2m1!1sThe+GOLFHOUSE!3m4!1s0x88fe8b0716064f17:0x1dab2f881da914b3!8m2!3d33.0123825!4d-80.1119537",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJF08GFgeL_ogRsxSpHYgvqx0",
+  "venue_type": "sim_bar|training_studio|private_rental",
+  "about": "The Golf House is a private indoor golf club and golf instruction studio located in Summerville, offering five bays of Trackman simulator technology. The facility is open 24/7 and provides an environment for both serious golf practice and special event rentals. Guests can book lessons, apply for memberships, or rent the space for corporate meetings, birthday parties, and other gatherings, with amenities including TVs, refrigerators, and a gaming nook available for events.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|premium_tech|private_rooms|coaching_available|late_night|club_rentals",
+  "vibe_tags": "casual|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "24/7 access to premium Trackman simulator technology",
+    "Versatile space suitable for both practice and events",
+    "On-site golf instruction and coaching available",
+    "Convenient amenities like TVs and refrigerators for events"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Guests can bring their own food for events"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Guests can bring their own drinks for events"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "5 bays available, open 24/7"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 5,
+  "booking_url": "http://www.golfhousesc.com/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|tv_sports|private_party_room|wifi|pro_shop|coaching_available",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The information does not specify whether clubs are provided or if guests need to bring their own."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, guests can bring their own food and drinks for events and parties."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The information does not specify the time required to play 18 holes."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The venue hosts birthday parties and other events, indicating it is suitable for families and kids."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": null
+}

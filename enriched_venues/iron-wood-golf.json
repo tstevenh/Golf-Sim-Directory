@@ -1,0 +1,90 @@
+{
+  "name": "Iron & Wood Golf",
+  "address": "120 Country Club Dr Unit 15, Incline Village, NV 89451",
+  "city": "Incline Village",
+  "region": "Nevada",
+  "country": "US",
+  "latitude": 39.240072,
+  "longitude": -119.940543,
+  "phone": "+17752982232",
+  "website": "https://www.ironandwoodgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770216696/golf_simulators/www_ironandwoodgolf_com_ChIJoSRNVydxmYARTBjg8r3OJ6Q.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Iron+%26+Wood+Golf/@39.240072,-119.94054299999999,14z/data=!4m8!1m2!2m1!1sIron+%26+Wood+Golf!3m4!1s0x80997127574d24a1:0xa427cebdf2e0184c!8m2!3d39.240072!4d-119.94054299999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJoSRNVydxmYARTBjg8r3OJ6Q",
+  "email": "play@ironandwoodgolf.com",
+  "venue_type": "sim_bar|training_studio",
+  "about": "Iron & Wood Golf is an indoor golf facility located in Incline Village, offering year-round golf using state-of-the-art Trackman iO simulators. The venue features a newly remodeled space where players can enjoy friendly competition and skill improvement on the same technology used by the PGA Tour. Reservations are booked per hour and priced based on the number of players, with an average foursome taking about 4 hours to complete 18 holes. The facility provides a supportive environment for all skill levels, with professional coaching available from PGA Instructor Ashley Wolford.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|premium_tech|coaching_available|juniors_youth|tourists_travelers|solo_practice|serious_golfers",
+  "vibe_tags": "casual|welcoming|modern|tech_lab",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "Access to the same Trackman iO technology used by the PGA Tour for precise swing analysis",
+    "Ability to play over 300 world-class golf courses regardless of weather or daylight",
+    "Professional coaching from PGA Instructor Ashley Wolford available at both indoor and outdoor locations",
+    "Option to rent premium PXG golf clubs for a complete playing experience"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of food service available for purchase"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Beverages available for purchase"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "State-of-the-art indoor golf simulator used by PGA Tour professionals"
+    }
+  ],
+  "simulator_software": [
+    "Trackman App"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://clients.uschedule.com/ironandwood/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 75,
+  "price_range_max_local": 150,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 8,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|pro_shop|club_fitting|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need golf clubs?",
+      "answer": "Golf clubs are not provided but are available to rent for $25/bag. Rental options include Men's and Women's PXG Black Ops irons and regular Taylormade RBZ's."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Beverages are available for purchase at the venue. There is no mention of allowing outside food or drink."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "An average foursome will take about 4 hours to play 18 holes. Additional time can be added if space is available."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Iron & Wood is kid-friendly with special pricing for junior lessons ($125/hour) and welcomes all skill levels."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"Closed\"], \"Wednesday\": [\"10AM-5PM\"], \"Thursday\": [\"10AM-9PM\"], \"Friday\": [\"10AM-9PM\"], \"Saturday\": [\"10AM-9PM\"], \"Sunday\": [\"10AM-5PM\"]}"
+}

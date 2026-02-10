@@ -1,0 +1,92 @@
+{
+  "name": "GolfCave",
+  "address": "Back of building, 18-01 Pollitt Dr, Fair Lawn, NJ 07410",
+  "city": "Fair Lawn",
+  "region": "New Jersey",
+  "country": "US",
+  "latitude": 40.944927,
+  "longitude": -74.126685,
+  "phone": "+12015152283",
+  "website": "https://www.golfcave.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770205788/golf_simulators/www_golfcave_com_ChIJccfyDDf9wokRITVc997yybo.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/GolfCave/@40.944926699999996,-74.1266855,14z/data=!4m8!1m2!2m1!1sGolfCave!3m4!1s0x89c2fd370cf2c771:0xbac9f2def75c3521!8m2!3d40.944926699999996!4d-74.1266855",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJccfyDDf9wokRITVc997yybo",
+  "email": "clark@golfcave.com",
+  "venue_type": "sim_bar",
+  "about": "GolfCave is a 24/7 indoor golf facility providing golfers of all skill levels with the ability to play or practice in the privacy of their own 'Cave' while golfing on the world's most accurate golf simulator, Trackman. The venue features private bays equipped with Trackman technology for real-time analysis and a BYOB policy, allowing players to enjoy food and drinks during their session. It is designed for both casual play and serious practice, offering access to over 250 golf courses, personalized lessons, and club fittings through a partnership with Club Champion.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|private_rooms|club_rentals|coaching_available|community_club",
+  "vibe_tags": "tech_lab|private_luxury|casual|welcoming",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Private, enclosed bays for uninterrupted play and practice",
+    "Premium Trackman simulator technology for accurate data and course simulation",
+    "BYOB policy for a relaxed and customizable experience",
+    "Access to over 250 world-renowned golf courses",
+    "24/7 availability for flexible scheduling",
+    "Professional coaching and club fitting services available"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Outside food is allowed, with BYOB policy for bringing your own food and drinks."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Outside alcohol is allowed with the BYOB policy."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Trackman is the world's most accurate golf simulator, providing real-time ball and club tracking data."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://clients.uschedule.com/golfcave/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 45,
+  "price_range_max_local": 45,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 12,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|club_fitting|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify, but it's recommended to bring your own clubs for a personalized experience."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, GolfCave operates on a BYOB (Bring Your Own Beverages) policy, allowing you to bring your own food and drinks."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify a time for 18 holes, but sessions are typically booked by the hour."
+    },
+    {
+      "question": "Is GolfCave kid-friendly?",
+      "answer": "Yes, GolfCave is suitable for beginners and families, making it a kid-friendly environment for learning and playing."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Friday\": [\"9AM-9:15PM\"]}"
+}

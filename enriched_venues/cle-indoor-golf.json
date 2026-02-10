@@ -1,0 +1,85 @@
+{
+  "name": "Cle Indoor Golf",
+  "address": "2111 Center St, Cleveland, OH 44113",
+  "city": "Cleveland",
+  "region": "Ohio",
+  "country": "US",
+  "latitude": 41.494623,
+  "longitude": -81.705569,
+  "phone": "+12169065119",
+  "website": "http://westbankgolfclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770216059/golf_simulators/westbankgolfclub_com_ChIJ608JFqDxMIgR6ul6p3jzigo.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Cle+Indoor+Golf/@41.494622899999996,-81.7055688,14z/data=!4m8!1m2!2m1!1sCle+Indoor+Golf!3m4!1s0x8830f1a016094feb:0xa8af378a77ae9ea!8m2!3d41.494622899999996!4d-81.7055688",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ608JFqDxMIgR6ul6p3jzigo",
+  "email": "cleindoorgolf@gmail.com",
+  "venue_type": "sim_bar",
+  "about": "West Bank Golf Club is an indoor golf simulator venue and sports bar located in Downtown Cleveland. Founded in 2022, it combines a realistic golf experience with a relaxing entertainment environment. The facility features golf bays equipped with advanced simulators for year-round play and is open for both hourly rentals and private events. West Bank also offers membership packages for dedicated golfers and operates as a full-service sports lounge with an extensive drink menu, making it a unique destination for combining golf with social activities.",
+  "tags": "food_and_drinks|beginner_friendly|date_night|corporate_events|leagues|coaching_available|premium_tech|club_rentals|tv_sports",
+  "vibe_tags": "sports_bar|casual|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|corporate_teams|solo_practice|families",
+  "why_golfers_like_it": [
+    "Advanced simulator technology provides instant feedback on club face and ball strike",
+    "Combines realistic golf simulation with a relaxed sports bar atmosphere",
+    "Convenient downtown Cleveland location in the Flats district",
+    "Offers flexible hourly rentals and membership options",
+    "Available for private events and corporate bookings"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned; may allow outside food or have limited options not specified"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with extensive drink selection"
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.westbankgolfclub.com/book-tee-times/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 45,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|tv_sports|leagues|coaching_available",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website doesn't specify club rental options, so it's recommended to bring your own clubs."
+    },
+    {
+      "question": "Can I bring outside food or drinks?",
+      "answer": "No food service is mentioned, so outside food may be allowed, but alcohol appears to be provided by their full bar."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "The website doesn't specify exact timeframes for 18 holes, but standard simulator golf typically takes 1.5-2 hours."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "No specific information about kid-friendliness is mentioned, though some reviews mention it as good for date nights and groups."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"8AM-10PM\"], \"Tuesday\": [\"8AM-10PM\"], \"Wednesday\": [\"8AM-10PM\"], \"Thursday\": [\"8AM-10PM\"], \"Friday\": [\"8AM-12AM\"], \"Saturday\": [\"8AM-12AM\"], \"Sunday\": [\"8AM-10PM\"]}"
+}

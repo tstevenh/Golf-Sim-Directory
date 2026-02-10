@@ -1,0 +1,101 @@
+{
+  "name": "Swing Evolutions",
+  "address": "4280 Perkiomen Ave, Reading, PA 19606",
+  "city": "Reading",
+  "region": "Pennsylvania",
+  "country": "US",
+  "latitude": 40.309762,
+  "longitude": -75.867963,
+  "phone": "+16104010204",
+  "website": "http://www.swingevolutions.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770213730/golf_simulators/www_swingevolutions_com_ChIJj_qZSe97xokRJLEjN4g6r6g.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Swing+Evolutions/@40.3097625,-75.8679628,14z/data=!4m8!1m2!2m1!1sSwing+Evolutions!3m4!1s0x89c67bef4999fa8f:0xa8af3a883723b124!8m2!3d40.3097625!4d-75.8679628",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJj_qZSe97xokRJLEjN4g6r6g",
+  "email": "mattreedgolf@gmail.com",
+  "venue_type": "sim_bar|training_studio",
+  "about": "Swing Evolutions is a year-round indoor golf training and entertainment center in Reading, PA, featuring a variety of simulator bays with advanced launch monitor technology. The facility offers 7 regular bays powered by Foresight GC2 launch monitors, 2 advanced bays with Uneekor Eye Minis, and 2 premium bays equipped with Uneekor EYEXO2 technology. It provides a casual, relaxed atmosphere for golfers to improve their game or enjoy simulated play on thousands of virtual courses. Pricing is structured on a per-bay-hour basis with options for regular, advanced, and premium bays, catering to both individual players and groups.",
+  "tags": "beginner_friendly|serious_practice|leagues|coaching_available|premium_tech|club_rentals|group_friendly",
+  "vibe_tags": "casual|welcoming|modern|family_fun_center",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|solo_practice",
+  "why_golfers_like_it": [
+    "Industry-leading launch monitor technology for accurate shot analytics",
+    "Variety of bay options to fit different skill levels and budgets",
+    "Friendly atmosphere with a focus on both improvement and entertainment",
+    "Option to play as a group with support for up to 8 golfers per bay",
+    "Comprehensive instruction services available from certified professionals"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of on-site food service available."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service; BYOB policy not specified."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": "GC2",
+      "notes": "7 regular bays equipped with this photometric camera launch monitor"
+    },
+    {
+      "brand": "Uneekor",
+      "model": "Eye Mini",
+      "notes": "2 advanced bays featuring this technology"
+    },
+    {
+      "brand": "Uneekor",
+      "model": "EYEXO2",
+      "notes": "2 premium bays with this advanced launch monitor featuring Club Optix"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 11,
+  "booking_url": "http://www.swingevolutions.com/reservations",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 30,
+  "price_range_max_local": 45,
+  "currency": "USD",
+  "walk_ins_allowed": false,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 8,
+  "amenities_list": "club_rentals|leagues|coaching_available|club_fitting",
+  "rating_tech_quality": 4.7,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, the simulators involve swinging real golf clubs with real golf balls."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The website does not specify policies regarding outside food or drinks."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify the time required to complete 18 holes."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "The venue does not specifically mention child-friendly features, but it does offer instruction for 'golfers of all ages' and does not list any age restrictions, making it likely suitable for juniors."
+    }
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"9AM-9PM\"], \"Tuesday\": [\"9AM-9PM\"], \"Wednesday\": [\"9AM-9PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-10PM\"], \"Saturday\": [\"8AM-10PM\"], \"Sunday\": [\"8AM-7PM\"]}"
+}

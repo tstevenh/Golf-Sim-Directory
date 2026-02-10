@@ -1,0 +1,92 @@
+{
+  "name": "Lakeview Golf Club",
+  "address": "4101 Shen Lake Dr, Harrisonburg, VA 22801",
+  "city": "Harrisonburg",
+  "region": "Virginia",
+  "country": "US",
+  "latitude": 38.387603,
+  "longitude": -78.831659,
+  "phone": "+15404348937",
+  "website": "http://lakeviewgolf.net/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770223160/golf_simulators/lakeviewgolf_net_ChIJnc3pxoyNtIkRcoLFGEZcdPQ.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Lakeview+Golf+Club/@38.387603299999995,-78.83165919999999,14z/data=!4m8!1m2!2m1!1sLakeview+Golf+Club!3m4!1s0x89b48d8cc6e9cd9d:0xf4745c4618c58272!8m2!3d38.387603299999995!4d-78.83165919999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJnc3pxoyNtIkRcoLFGEZcdPQ",
+  "email": "proshop@lakeviewgolf.net",
+  "venue_type": "country_club",
+  "about": "Lakeview Golf Club is an outstanding 27-hole golf facility just east of Harrisonburg, VA. Each of its 9-hole courses—Lake, Peak, and Mountain—offers varied characteristics that create a fun, fair, playable, and challenging experience for all skill levels. The venue features a service-friendly atmosphere and professional staff, along with an outstanding practice complex designed for long game, short game, and putting practice. For simulator play, Lakeview offers HD Golf technology, providing a comprehensive golf experience with both on-course and indoor options. The club is located conveniently just a few miles off I-81 at exits 245 & 247.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|coaching_available|juniors_youth|family_friendly|club_rentals|pro_shop",
+  "vibe_tags": "community_club|family_fun_center|upscale_lounge|casual|welcoming",
+  "who_its_for": "families|beginners|serious_golfers|juniors_youth|corporate_teams",
+  "why_golfers_like_it": [
+    "Premium HD Golf simulator technology for indoor play",
+    "Professional instruction available with multiple PGA-certified coaches",
+    "27-hole championship course with varied course layouts for all skill levels",
+    "Full-service Legends Bar and Grill offering food and drinks",
+    "Dedicated junior programs and camps for youth golfers",
+    "Convenient location near I-81 with easy access"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full-service restaurant available at Legends Bar and Grill"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Bar service available at Legends Bar and Grill"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "HD Golf",
+      "model": "HD Golf Simulator",
+      "notes": "Premium multi-camera golf simulator system"
+    }
+  ],
+  "simulator_software": [
+    "HD Golf"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface|dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.lakeviewgolf.net/tee-times/",
+  "pricing_model": "mixed",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "full_bar|kitchen_food|tv_sports|leagues|pro_shop|club_rentals|junior_programs|practice_range|food_and_drinks|events_hosting",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Club rentals are available through the pro shop, though bringing your own clubs is recommended for the best fitting experience."
+    },
+    {
+      "question": "Can I bring outside food or drinks?",
+      "answer": "Outside food and drinks are not permitted. The Legends Bar and Grill offers a full menu and bar service for patrons."
+    },
+    {
+      "question": "How long does it take to play 18 holes on the simulator?",
+      "answer": "Typically, 18 holes on the simulator takes approximately 1-2 hours depending on group size and pace of play."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, Lakeview offers extensive junior golf programs, camps, and youth events, making it very family-friendly."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"6AM-7PM\"], \"Tuesday\": [\"6AM-7PM\"], \"Wednesday\": [\"6AM-7PM\"], \"Thursday\": [\"6AM-7PM\"], \"Friday\": [\"6AM-7PM\"], \"Saturday\": [\"6AM-7PM\"], \"Sunday\": [\"6AM-7PM\"]}"
+}

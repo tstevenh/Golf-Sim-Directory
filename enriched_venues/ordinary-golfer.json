@@ -1,0 +1,89 @@
+{
+  "name": "Ordinary Golfer",
+  "address": "425 Lincoln Hwy, Rochelle, IL 61068",
+  "city": "Rochelle",
+  "region": "Illinois",
+  "country": "US",
+  "latitude": 41.923505,
+  "longitude": -89.065844,
+  "phone": "+18155616255",
+  "website": "https://oggolfrochelle.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770207937/golf_simulators/oggolfrochelle_com_ChIJ700MyMvfCIgRCO-1v8_6c44.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Ordinary+Golfer/@41.923505399999996,-89.0658442,14z/data=!4m8!1m2!2m1!1sOrdinary+Golfer!3m4!1s0x8808dfcbc80c4def:0x8e73facfbfb5ef08!8m2!3d41.923505399999996!4d-89.0658442",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ700MyMvfCIgRCO-1v8_6c44",
+  "email": "ORDINARYGOLFERINFO@GMAIL.COM",
+  "venue_type": "sim_bar",
+  "about": "Ordinary Golfer is Rochelle's only indoor golf facility, offering a casual and welcoming environment for both serious practice and social play. The venue is equipped with two bays powered by Uneekor QED launch monitors and Game Day software, providing real ball data, high-speed camera analysis, and slow-motion breakdowns. It caters to a range of golfers with affordable pricing, a no-pressure atmosphere, and the option to bring beverages, making it suitable for everything from dialing in your game to socializing with friends.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|budget_friendly|private_rooms|club_rentals|coaching_available",
+  "vibe_tags": "casual|welcoming|sports_bar|tech_lab",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Professional-grade Uneekor QED technology for accurate data and swing analysis",
+    "Affordable pricing with a relaxed, social atmosphere that welcomes all skill levels",
+    "Option to bring your own drinks and enjoy a round with friends in a casual setting"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "Food and drinks are not permitted on the turf; must be kept at tables."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Patrons can bring their own alcohol; cold drinks are available in the fridge."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "QED",
+      "notes": "High-speed cameras providing detailed ball and club tracking with slow-motion analysis."
+    }
+  ],
+  "simulator_software": [
+    "Game Day"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://oggolfrochelle.com/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 30,
+  "price_range_max_local": 40,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": false,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|full_bar|tv_sports|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, club rentals are available for $10."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "You can bring your own drinks, but food and drinks must be kept at the tables and not on the turf."
+    },
+    {
+      "question": "How long does an 18-hole round typically take?",
+      "answer": "The time for an 18-hole round is not specified on the website."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "The website does not specifically mention kid-friendly features or policies."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"4-10PM\"], \"Wednesday\": [\"4-10PM\"], \"Thursday\": [\"4-10PM\"], \"Friday\": [\"4-10PM\"], \"Saturday\": [\"12-10PM\"], \"Sunday\": [\"12-10PM\"]}"
+}

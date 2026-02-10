@@ -1,0 +1,91 @@
+{
+  "name": "Birdie and Brews",
+  "address": "2223 S Bellview Rd Suite 101, Rogers, AR 72758",
+  "city": "Rogers",
+  "region": "Arkansas",
+  "country": "US",
+  "latitude": 36.306515,
+  "longitude": -94.172354,
+  "phone": "+14794390848",
+  "website": "https://birdieandbrews.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770231184/golf_simulators/birdieandbrews_com_ChIJY9aNP7cRyYcReJFNBhw592w.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Birdie+and+Brews/@36.306515,-94.172354,14z/data=!4m8!1m2!2m1!1sBirdie+and+Brews!3m4!1s0x87c911b73f8dd663:0x6cf7391c064d9178!8m2!3d36.306515!4d-94.172354",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJY9aNP7cRyYcReJFNBhw592w",
+  "email": "admin@birdieandbrews.com",
+  "venue_type": "sim_bar",
+  "about": "Birdie and Brews is an interactive sports lounge in Northwest Arkansas that combines golf simulation with a taproom atmosphere. The venue features Full Swing simulators, the official licensed simulator company of the PGA TOUR, offering a realistic golf experience on iconic courses worldwide. Patrons can enjoy hourly bay rentals alongside a self-serve tap wall with locally sourced beers, seltzers, and wines. The space is designed for year-round play, supporting individual practice, group outings, corporate events, and leagues in a vibrant community setting. Beyond golf, the facility provides over 30 dynamic sports and family-fun games, including baseball, soccer, and zombie dodgeball, enhanced by a 20-foot interactive Virtual Green putting green.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|leagues|premium_tech|family_friendly|coaching_available",
+  "vibe_tags": "community_club|sports_bar|tech_lab|family_fun_center",
+  "who_its_for": "beginners|families|corporate_teams|large_groups|solo_practice",
+  "why_golfers_like_it": [
+    "Full Swing PGA TOUR simulators with tri-tracking technology for unmatched realism",
+    "Self-serve tap wall with 30+ local beer and wine options",
+    "20-foot interactive Virtual Green putting green for skill development",
+    "Over 30 dynamic sports and family-fun games beyond golf",
+    "Local community-focused atmosphere with handcrafted decor and artwork"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Food ordering available (specific options not detailed)"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Self-serve tap wall with 30+ beers, seltzers, and wines; locally sourced"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Full Swing",
+      "model": "PGA TOUR Simulator",
+      "notes": "Official licensed PGA TOUR simulator; patented tri-tracking technology"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://www.birdieandbrews.com/comeplay",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 30,
+  "price_range_max_local": 50,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 0,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues|ada_accessible|virtual_green",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.5,
+  "rating_value_for_money": 4.2,
+  "faq": [
+    {
+      "question": "Do I need to bring my own golf clubs?",
+      "answer": "The venue does not specify if club rentals are available, so it is recommended to bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, outside food and drinks are not permitted as the venue offers its own kitchen and a self-serve tap wall with beer, seltzer, and wine options."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes is not explicitly stated, but typical simulator sessions are booked by the hour, so allow at least 2-3 hours for a full round depending on group size."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Birdie and Brews is kid-friendly, offering over 30 family-fun games and a 20-foot interactive Virtual Green putting green suitable for all ages."
+    }
+  ],
+  "rating_overall": 4.5,
+  "opening_hours": "{\"Monday\": [\"11AM-9PM\"], \"Tuesday\": [\"11AM-9PM\"], \"Wednesday\": [\"11AM-9PM\"], \"Thursday\": [\"11AM-9PM\"], \"Friday\": [\"10AM-10PM\"], \"Saturday\": [\"10AM-10PM\"], \"Sunday\": [\"12-8PM\"]}"
+}

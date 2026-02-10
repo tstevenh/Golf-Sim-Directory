@@ -1,0 +1,90 @@
+{
+  "name": "Caddy's Golf Lounge & Craft Eatery",
+  "address": "4692 OH-66, New Bremen, OH 45869",
+  "city": "New Bremen",
+  "region": "Ohio",
+  "country": "US",
+  "latitude": 40.416636,
+  "longitude": -84.37667,
+  "phone": "+14195013673",
+  "website": "https://caddysgolflounge.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770240631/golf_simulators/caddysgolflounge_com_ChIJb-cVsTGvP4gRnMmPmTY0upE.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Caddy%27s+Golf+Lounge+%26+Craft+Eatery/@40.4166362,-84.37667019999999,14z/data=!4m8!1m2!2m1!1sCaddy%27s+Golf+Lounge+%26+Craft+Eatery!3m4!1s0x883faf31b115e76f:0x91ba3436998fc99c!8m2!3d40.4166362!4d-84.37667019999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJb-cVsTGvP4gRnMmPmTY0upE",
+  "email": "caddysllc@gmail.com",
+  "venue_type": "sim_bar",
+  "about": "Caddy's Golf Lounge & Craft Eatery is a facility combining golf simulation with a full-service restaurant and bar. It features Trackman technology for golf simulation, a dedicated event space called the Caddy's Suite, and a menu featuring appetizers, tacos, flatbreads, and other food items. The venue offers online booking for bays and leagues, and provides a casual environment for both golf practice and social gatherings.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|leagues|private_rooms|club_rentals|upscale_lounge",
+  "vibe_tags": "sports_bar|private_luxury|casual|welcoming|modern",
+  "who_its_for": "families|corporate_teams|solo_practice|large_groups|tourists_travelers",
+  "why_golfers_like_it": [
+    "Premium Trackman technology for realistic simulation and data tracking",
+    "Dedicated private event space, the Caddy's Suite, with a 75-inch smart TV and mini bar",
+    "Full-service restaurant and bar with a diverse menu available online and in-house",
+    "Convenient online booking system for bays and leagues"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full menu available with appetizers, tacos, flatbreads, and other items. Online ordering and in-house dining offered."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Primary simulator technology used for bay reservations."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://yourgolfbooking.com/venues/caddys-bistro/booking/bays",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue provides Trackman simulator technology; however, it is not explicitly stated if clubs are provided for rental or if you must bring your own."
+    },
+    {
+      "question": "Can I bring my own food or drink?",
+      "answer": "The venue has a full-service kitchen and bar with a wide variety of food and drink options available. It also offers online ordering. While BYOB policies are not explicitly mentioned for the general area, the private Caddy's Suite includes a personal mini bar with pop and packaged snacks."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes is not specified on the website."
+    },
+    {
+      "question": "Is Caddy's kid-friendly?",
+      "answer": "Yes, Caddy's appears to be kid-friendly, offering a casual sports bar and lounge atmosphere with a diverse menu that would appeal to various age groups, and it's not presented as an adults-only establishment."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"4-10:30PM\"], \"Wednesday\": [\"4-10:30PM\"], \"Thursday\": [\"4-10:30PM\"], \"Friday\": [\"11AM-11:30PM\"], \"Saturday\": [\"11AM-11:30PM\"], \"Sunday\": [\"10AM-9PM\"]}"
+}

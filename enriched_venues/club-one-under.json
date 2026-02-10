@@ -1,0 +1,92 @@
+{
+  "name": "Club One Under",
+  "address": "Lower Level of the Fitgers Building, 600 E Superior St, Duluth, MN 55802",
+  "city": "Duluth",
+  "region": "Minnesota",
+  "country": "US",
+  "latitude": 46.791731,
+  "longitude": -92.090869,
+  "phone": "+12183039505",
+  "website": "https://www.cluboneunder.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770215874/golf_simulators/www_cluboneunder_com_ChIJJULALaFTrlIRJX5ALwCtP0I.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Club+One+Under/@46.791731399999996,-92.0908688,14z/data=!4m8!1m2!2m1!1sClub+One+Under!3m4!1s0x52ae53a12dc04225:0x423fad002f407e25!8m2!3d46.791731399999996!4d-92.0908688",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJJULALaFTrlIRJX5ALwCtP0I",
+  "venue_type": "sim_bar",
+  "about": "Club One Under offers a unique blend of a neighborhood sports bar and an indoor golf simulator experience, allowing play year-round regardless of weather. The venue is equipped with five state-of-the-art Full Swing simulators and two F1 racing simulators, complemented by a vibrant social atmosphere featuring food, drinks, and events. It is designed to be accessible for all skill levels, from first-timers to seasoned players, with no dress code required.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|kids_friendly|corporate_events|leagues|premium_tech|budget_friendly|community_club|party_atmosphere",
+  "vibe_tags": "sports_bar|community_club|family_fun_center|tech_lab|party_atmosphere|welcoming",
+  "who_its_for": "beginners|families|corporate_teams|juniors_youth|large_groups",
+  "why_golfers_like_it": [
+    "5 Full Swing simulators for realistic and immersive play",
+    "No dress code, allowing for a casual and relaxed experience",
+    "Vibrant social scene with food and drinks, ideal for groups",
+    "Year-round indoor play, unaffected by weather"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Great food available on-site"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with drinks available"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Full Swing",
+      "model": "unknown",
+      "notes": "State-of-the-art Full Swing simulators"
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 5,
+  "booking_url": "https://apimanager-cc28.clubcaddie.com/activities/view/hjfdabab",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 5,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, you can bring your own clubs or rent from their premium selection."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue offers great food and drinks on-site; no information on outside food/drink policy."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "No specific time mentioned, but it's designed for a fun, accessible experience."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Club One Under is kid-friendly, welcoming first-timers to seasoned players and hosting kids' parties."
+    }
+  ],
+  "simulator_software": [
+    "Full Swing"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Saturday\": [\"10AM-1AM\"]}"
+}

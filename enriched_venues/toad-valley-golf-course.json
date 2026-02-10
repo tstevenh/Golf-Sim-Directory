@@ -1,0 +1,95 @@
+{
+  "name": "Toad Valley Golf Course",
+  "address": "237 NE 80th St, Pleasant Hill, IA 50327",
+  "city": "Pleasant Hill",
+  "region": "Iowa",
+  "country": "US",
+  "latitude": 41.590278,
+  "longitude": -93.441389,
+  "phone": "+15159679575",
+  "website": "http://toadvalley.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770247218/golf_simulators/toadvalley_com_ChIJ0W81Qt-U7ocResYev0BwneM.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Toad+Valley+Golf+Course/@41.590277799999996,-93.44138889999999,14z/data=!4m8!1m2!2m1!1sToad+Valley+Golf+Course!3m4!1s0x87ee94df42356fd1:0xe39d7040bf1ec67a!8m2!3d41.590277799999996!4d-93.44138889999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ0W81Qt-U7ocResYev0BwneM",
+  "venue_type": "multi_sport_sim",
+  "about": "Toad Valley Golf Course is a comprehensive golf complex offering both an 18-hole outdoor course and advanced indoor simulation facilities. The venue features Golfzon simulators with moving swing plates and Toptracer technology across its driving range and simulator bays, providing a modern golf experience. It caters to a diverse clientele, from casual players and families to those seeking serious practice or event hosting, with a focus on accessibility and fun regardless of skill level.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|kids_friendly|corporate_events|leagues|premium_tech|family_fun_center|coaching_available",
+  "vibe_tags": "family_fun_center|tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "Advanced Golfzon simulators with moving swing plates and realistic environmental feedback",
+    "Toptracer technology across the driving range and simulator bays for data and game modes",
+    "Over 200 virtual courses available for play",
+    "Food and beverage service delivered directly to the course or simulator bay",
+    "Welcoming environment for all skill levels with a focus on fun and community"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Gourmet meals can be ordered and delivered to the fairway or simulator bay"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Available on-site, with no mention of BYOB restrictions"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Golfzon",
+      "model": "Simulator",
+      "notes": "State-of-the-art simulators with moving swing plates to mimic ball lies and penalties for tall grass or sand"
+    }
+  ],
+  "simulator_so": [
+    "Toptracer",
+    "Golfzon"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "https://toadvalleygolfcourse.com/sims/sim-reservations/",
+  "pricing_model": "mixed",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "food_and_drinks|gourmet_meals|tv_sports|leagues|event_space|pro_shop",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The text does not specify, but it is standard practice to bring your own clubs for outdoor play and simulator sessions. Club rentals may be available at the pro shop."
+    },
+    {
+      "question": "Can I bring my own food or drink?",
+      "answer": "The venue offers its own food and beverage service that can be ordered and delivered, but it does not explicitly prohibit bringing outside food or drinks."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The text does not provide a specific time for completing 18 holes on the outdoor course."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Toad Valley is described as kid-friendly, with a mini-golf course, activities for families, and an atmosphere suitable for children."
+    }
+  ],
+  "simulator_software": [
+    "Golfzon",
+    "Toptracer"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"8AM-10PM\"], \"Tuesday\": [\"8AM-10PM\"], \"Wednesday\": [\"8AM-10PM\"], \"Thursday\": [\"8AM-10PM\"], \"Friday\": [\"8AM-10PM\"], \"Saturday\": [\"7AM-10PM\"], \"Sunday\": [\"7AM-8PM\"]}"
+}

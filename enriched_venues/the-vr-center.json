@@ -1,0 +1,89 @@
+{
+  "name": "The VR Center",
+  "address": "2012 Apperson Dr, Salem, VA 24153",
+  "city": "Salem",
+  "region": "Virginia",
+  "country": "US",
+  "latitude": 37.265968,
+  "longitude": -80.025681,
+  "phone": "+15408191811",
+  "website": "http://www.thevrcenter.net/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770221408/golf_simulators/www_thevrcenter_net_ChIJ7xDzYYcOTYgR5jP9jdYxFmI.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+VR+Center/@37.265968199999996,-80.02568049999999,14z/data=!4m8!1m2!2m1!1sThe+VR+Center!3m4!1s0x884d0e8761f310ef:0x621631d68dfd33e6!8m2!3d37.265968199999996!4d-80.02568049999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ7xDzYYcOTYgR5jP9jdYxFmI",
+  "venue_type": "multi_sport_sim",
+  "about": "The VR Center, founded in 2016, is a multi-sport simulation venue featuring Foresight golf simulators alongside a wide array of virtual reality experiences. They provide access to top-notch virtual courses and gaming experiences for golfers, while also offering activities like racing, flying, shooting, and running. The venue operates on a per-bay-hour pricing model and is suitable for individual practice, groups, and corporate events. Their offerings extend beyond golf to include STEM programs, esports facilities, and party packages, making it a versatile entertainment and training space.",
+  "tags": "serious_golfers|beginner_friendly|corporate_events|families|kids_friendly|food_and_drinks|leagues|premium_tech|club_rentals|community_club",
+  "vibe_tags": "family_fun_center|tech_lab|modern|welcoming",
+  "who_its_for": "serious_golfers|families|corporate_teams|beginners|kids",
+  "why_golfers_like_it": [
+    "Premium Foresight golf simulator technology for realistic course play",
+    "Option to purchase memberships for discounted weekly playtime",
+    "Multi-bay availability suitable for solo practice or groups",
+    "Venue hosts tournaments and events for competitive play"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "On-site food menu available; pizzas included in party packages; no outside food or drink allowed"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service available on premises"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": "unknown",
+      "notes": "Triple-screen golf bays with launch monitor"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://app.squareup.com/appointments/book/1911b5f7-0cef-4c18-a80e-adc94381dd98/DNBXDC0NXS216/start",
+  "pricing_model": "mixed",
+  "price_range_min_local": 30,
+  "price_range_max_local": 155,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": false,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|kitchen_food|tv_sports|private_party_room|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue does not mention club rentals, so it is recommended to bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No outside food or drink is allowed on the premises."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify the duration for playing 18 holes."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, kids can play in the golf bays with adult supervision, and the venue offers birthday party packages suitable for children."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"Closed\"], \"Wednesday\": [\"1-9PM\"], \"Thursday\": [\"1-9PM\"], \"Friday\": [\"1-9PM\"], \"Saturday\": [\"10AM-9PM\"], \"Sunday\": [\"1-9PM\"]}"
+}

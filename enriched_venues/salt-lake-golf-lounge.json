@@ -1,0 +1,91 @@
+{
+  "name": "Salt Lake Golf Lounge",
+  "address": "1956 E 2700 S, Salt Lake City, UT 84106",
+  "city": "Salt Lake City",
+  "region": "Utah",
+  "country": "US",
+  "latitude": 40.712456,
+  "longitude": -111.834856,
+  "phone": "+13859101627",
+  "website": "http://slgolflounge.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770212682/golf_simulators/slgolflounge_com_ChIJg8Mpp2phUocRJ7KUanPBjfg.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Salt+Lake+Golf+Lounge/@40.712455999999996,-111.834856,14z/data=!4m8!1m2!2m1!1sSalt+Lake+Golf+Lounge!3m4!1s0x8752616aa729c383:0xf88dc1736a94b227!8m2!3d40.712455999999996!4d-111.834856",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJg8Mpp2phUocRJ7KUanPBjfg",
+  "email": "saltlakegolflounge@gmail.com.",
+  "venue_type": "sim_bar",
+  "about": "Salt Lake Golf Lounge is a premier indoor golf simulator venue that blends elite-level simulation technology with a refined, social atmosphere. Established in 2019, the facility features TrackMan simulators in spacious bays, offering year-round access regardless of weather. The venue is designed for golfers seeking to practice, compete, or socialize, with options ranging from public bookings to exclusive memberships that provide 24/7 access. Pricing is based on hourly bay rentals, with sessions available from 1 to 4 hours. The lounge caters to a diverse clientele, from serious golfers optimizing their performance to individuals looking for a casual golf experience.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|kids_friendly|corporate_events|leagues|premium_tech|private_rooms|community_club|coaching_available",
+  "vibe_tags": "upscale_lounge|sports_bar|community_club|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "Industry-leading TrackMan simulators with dual-radar technology used by 90% of PGA Tour pros",
+    "24/7 member access with keyless entry and early reservation privileges",
+    "Solo League format allows flexible scheduling without team coordination",
+    "Junior Golf Academy provides structured learning for young players",
+    "Partnership with local courses like Soldier Hollow for on-course play"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "On-site deli (Feldman's Deli) with 15% member discount, plus pro shop offerings"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service on-site"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Dual-radar technology capturing over 40 data points"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://app.acuityscheduling.com/schedule/8ff723aa/category/Book%2520A%2520Tee%2520Time/appointment/38301277/calendar/any?ref=embedded_csp&service=3+Hours",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 55,
+  "price_range_max_local": 220,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|kitchen_food|tv_sports|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue does not explicitly state whether club rentals are available, but it is standard practice for golf simulators to provide clubs if needed. It's recommended to bring your own for the best familiarity."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue has an on-site deli (Feldman's Deli) where food can be purchased with a member discount. No information about outside food or drinks is provided."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "While not explicitly stated, typical simulator sessions range from 1-3 hours. For a full 18-hole experience, a 2-3 hour session would be recommended depending on pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Salt Lake Golf Lounge offers a Junior Golf Academy for ages 5-18, indicating they cater to younger players and families."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

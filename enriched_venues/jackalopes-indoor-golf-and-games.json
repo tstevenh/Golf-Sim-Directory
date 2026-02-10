@@ -1,0 +1,90 @@
+{
+  "name": "Jackalopes Indoor Golf and Games",
+  "address": "111 E College Ave, Coleman, TX 76834",
+  "city": "Coleman",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 31.829283,
+  "longitude": -99.422207,
+  "phone": "+13252144148",
+  "website": "https://jackalopesgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770239185/golf_simulators/jackalopesgolf_com_ChIJiSGkyJ8lV4YRP5OXuGpYot8.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Jackalopes+Indoor+Golf+and+Games/@31.8292827,-99.4222073,14z/data=!4m8!1m2!2m1!1sJackalopes+Indoor+Golf+and+Games!3m4!1s0x8657259fc8a42189:0xdfa2586ab897933f!8m2!3d31.8292827!4d-99.4222073",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJiSGkyJ8lV4YRP5OXuGpYot8",
+  "email": "jack@jackalopesgolf.com",
+  "venue_type": "multi_sport_sim",
+  "about": "Jackalopes Indoor Golf and Games is an indoor entertainment venue featuring a 19-hole blacklight mini-golf course and multiple simulator bays. The facility offers professional golf courses from around the world, an analytical driving range, and a variety of other sports simulations including baseball, soccer, bowling, and zombie dodgeball. Pricing is based on bay rentals by the hour, with options for individual use, parties, and private event rentals. The venue is designed for groups and families seeking a fun, all-weather entertainment experience with both golf and multisport activities available.",
+  "tags": "beginner_friendly|kids_friendly|corporate_events|premium_tech|budget_friendly|private_rooms|party_atmosphere",
+  "vibe_tags": "family_fun_center|tech_lab|casual|welcoming",
+  "who_its_for": "families|large_groups|corporate_teams|tourists_travelers|beginners",
+  "why_golfers_like_it": [
+    "Wide variety of professional golf courses available",
+    "Indoor climate-controlled environment",
+    "Analytical driving range with Uneekor sensor technology",
+    "Multi-sport simulator options for diverse entertainment"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Available with party packages"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "Not mentioned on website"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "unknown",
+      "notes": "Analytical driving range with Uneekor sensor"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "infrared_optical",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://jackalopesgolf.com/contact",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 8,
+  "amenities_list": "private_party_room|tv_sports|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Not specified, but likely available for rental or use with own equipment"
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Not explicitly mentioned, but BYOB policies are not referenced"
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Time not specified, but simulator sessions are booked by the hour"
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, features include a 19-hole blacklight mini-golf course and multisport games suitable for families"
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"Closed\"], \"Wednesday\": [\"Closed\"], \"Thursday\": [\"Closed\"], \"Friday\": [\"3-9PM\"], \"Saturday\": [\"3-9PM\"], \"Sunday\": [\"1-5PM\"]}"
+}

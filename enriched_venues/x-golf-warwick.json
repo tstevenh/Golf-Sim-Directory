@@ -1,0 +1,90 @@
+{
+  "name": "X-Golf Warwick",
+  "address": "Warwick Center Plaza, 1350 Bald Hill Rd, Warwick, RI 02886",
+  "city": "Warwick",
+  "region": "Rhode Island",
+  "country": "US",
+  "latitude": 41.701319,
+  "longitude": -71.491705,
+  "phone": "+14013794653",
+  "website": "https://playxgolf.com/locations/warwick/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770209285/golf_simulators/playxgolf_com_ChIJveGpOW9L5IkRzOylchAXG9U.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/X-Golf+Warwick/@41.7013187,-71.4917048,14z/data=!4m8!1m2!2m1!1sX-Golf+Warwick!3m4!1s0x89e44b6f39a9e1bd:0xd51b171072a5eccc!8m2!3d41.7013187!4d-71.4917048",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJveGpOW9L5IkRzOylchAXG9U",
+  "email": "info@xgolfwarwick.com",
+  "venue_type": "sim_bar",
+  "about": "X-Golf Warwick offers an indoor golf simulation experience with 10 simulators equipped with state-of-the-art camera systems, infrared lasers, and impact sensors for accuracy. The venue provides a full bar and food menu, making it suitable for both golf practice and social events. Pricing is based on hourly bay rates, with memberships available from May to September for frequent players. The facility caters to various skill levels and is a popular spot for leagues, tournaments, and private parties.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|club_rentals|coaching_available",
+  "vibe_tags": "casual|welcoming|modern|sports_bar|family_fun_center",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "State-of-the-art simulator technology with high accuracy and realism",
+    "Flexible pricing options with hourly rates and seasonal memberships",
+    "Full-service amenities including food, drinks, and event space",
+    "Support for both individual practice and group social events"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full food menu available with tasty bites and snacks"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available on-site"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "X-Golf",
+      "model": "Simulator",
+      "notes": "Indoor golf simulator with camera systems, infrared lasers, and impact sensors"
+    }
+  ],
+  "simulator_software": [
+    "X-Golf"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "auto_putt",
+  "lefty_friendly": true,
+  "bay_count_total": 10,
+  "booking_url": "https://clients.uschedule.com/xgolfwarwick/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 45,
+  "price_range_max_local": 69,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|leagues|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need clubs?",
+      "answer": "No, you don't need to bring your own clubs as rentals are available for $15, though bringing your own is recommended if possible."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "No outside food or drinks are allowed as the venue has its own full bar and food menu available for purchase."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Generally it takes about 1 hour for an individual player to complete 18 holes, with additional time needed for each additional player in the group."
+    },
+    {
+      "question": "Is it kid-friendly?",
+      "answer": "Yes, children of all ages are welcome at X-Golf Warwick, making it suitable for families with junior golfers."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"9AM-10PM\"], \"Saturday\": [\"9AM-10PM\"], \"Sunday\": [\"9AM-8PM\"]}"
+}

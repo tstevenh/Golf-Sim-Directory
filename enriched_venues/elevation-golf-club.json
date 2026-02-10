@@ -1,0 +1,91 @@
+{
+  "name": "Elevation Golf Club",
+  "address": "4137 121st St, Urbandale, IA 50323",
+  "city": "Urbandale",
+  "region": "Iowa",
+  "country": "US",
+  "latitude": 41.637223,
+  "longitude": -93.780165,
+  "phone": "+15153060501",
+  "website": "http://www.elevation-golf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770207604/golf_simulators/www_elevation-golf_com_ChIJEwvTU68n7IcRST3wZVW3aEs.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Elevation+Golf+Club/@41.637222799999996,-93.7801655,14z/data=!4m8!1m2!2m1!1sElevation+Golf+Club!3m4!1s0x87ec27af53d30b13:0x4b68b75565f03d49!8m2!3d41.637222799999996!4d-93.7801655",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJEwvTU68n7IcRST3wZVW3aEs",
+  "email": "elevationgolfclub@gmail.com",
+  "venue_type": "sim_bar|training_studio",
+  "about": "Elevation Golf Club is an indoor golf facility featuring 8 high-end Trackman simulators and a 6,000 sq. ft. short-game area with real turf and sand bunker, providing year-round practice and play in a climate-controlled environment. The venue offers memberships, day passes, golf lessons, and event hosting capabilities with amenities including a fitness center, lounge area, conference room, and concessions. With technology from Trackman, the club provides precise ball flight and swing data analysis, making it suitable for serious practice, casual play, and events.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|kids_friendly|corporate_events|leagues|premium_tech|private_rooms|club_rentals|coaching_available",
+  "vibe_tags": "casual|welcoming|modern|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "High-end Trackman simulators with precise ball flight and swing data analysis",
+    "6,000 sq. ft. short-game area with real turf and sand bunker for year-round practice",
+    "Flexible pricing with memberships, day passes, and additional hour options",
+    "Professional coaching and structured programs for all skill levels",
+    "Host of events, leagues, and tournaments for a vibrant golf community"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Concessions with snacks available"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "8 high-end Trackman simulators in every bay"
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 8,
+  "booking_url": "https://yourgolfbooking.com/venues/elevation-golf-club-urbandale/booking/bays",
+  "pricing_model": "mixed",
+  "price_range_min_local": 30,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, players are expected to bring their own golf clubs for use in the simulators and short game area."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "Outside food and drink policies are not explicitly mentioned, but the venue offers concessions with snacks available on-site."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Standard simulator play is charged per hour, with day passes including 1 hour of simulator time. Additional hours can be purchased as needed."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "Yes, the venue offers youth golf clinics, junior programs, and family-friendly events, making it suitable for kids aged 7-14."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"9AM-9PM\"], \"Tuesday\": [\"9AM-9PM\"], \"Wednesday\": [\"9AM-9PM\"], \"Thursday\": [\"9AM-9PM\"], \"Friday\": [\"9AM-9PM\"], \"Saturday\": [\"9AM-9PM\"], \"Sunday\": [\"9AM-9PM\"]}"
+}

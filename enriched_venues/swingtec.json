@@ -1,0 +1,95 @@
+{
+  "name": "SwingTec",
+  "address": "600 Eagle Rock Ave, Roseland, NJ 07068",
+  "city": "Roseland",
+  "region": "New Jersey",
+  "country": "US",
+  "latitude": 40.82678,
+  "longitude": -74.328863,
+  "phone": "+18554653674",
+  "website": "https://swingtec.golf/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770220458/golf_simulators/swingtec_golf_ChIJAQAQ-MLxwokRcz5TyxGm8f4.png",
+  "google_maps_url": "https://www.google.com/maps/place/SwingTec/@40.8267804,-74.3288633,14z/data=!4m8!1m2!2m1!1sSwingTec!3m4!1s0x89c2f1c2f8100001:0xfef1a611cb533e73!8m2!3d40.8267804!4d-74.3288633",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJAQAQ-MLxwokRcz5TyxGm8f4",
+  "email": "jpierce@swingtec.golf",
+  "venue_type": "training_studio",
+  "about": "SwingTec Golf is a high-tech training facility specializing in data-driven golf instruction in the northeastern United States. The venue utilizes advanced motion capture technology, including the GEARS system and aboutGolf simulators, to provide detailed analysis of body movement, club dynamics, and ball flight. They offer a range of lesson options, from high-tech 3D swing analysis to traditional coaching, complemented by TPI fitness evaluations and club fitting services. With a focus on PGA Professional instruction, the studio caters to golfers of all levels aiming to improve their swing mechanics, physical capabilities, and overall game strategy through a combination of cutting-edge technology and expert guidance.",
+  "tags": "beginner_friendly|serious_golfers|coaching_available|juniors_youth|premium_tech|club_fitting|private_rooms|corporate_teams|solo_practice|leagues",
+  "vibe_tags": "tech_lab|industrial_training|private_luxury|casual",
+  "who_its_for": "serious_golfers|beginner_friendly|juniors_youth|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Comprehensive 3D swing analysis with GEARS motion capture technology for unparalleled accuracy",
+    "Integration of body, club, and ball data provides the most informative golf lesson in the industry",
+    "Expert PGA Professional coaching combined with data-driven feedback for measurable improvement",
+    "Personalized fitness evaluations and club fitting tailored to individual physical capabilities"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of food service"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "aboutGolf",
+      "model": "Simulator",
+      "notes": "Advanced golf simulator with launch monitor technology"
+    },
+    {
+      "brand": "GEARS",
+      "model": "Motion Capture System",
+      "notes": "3D motion capture golf swing analysis system with 40+ motion points"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://swingtec.golf/swingtec_schedule/",
+  "pricing_model": "per_person_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 325,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|club_fitting|private_rooms|pro_shop|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you are expected to bring your own golf clubs for lessons and practice sessions."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "There is no mention of BYOB policy, so it's best to contact the venue directly for clarification."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "18-hole time is not specified on the website, as it focuses on lessons and training rather than full gameplay."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, SwingTec offers junior lessons and clinics, making it suitable for young golfers."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"9AM-6PM\"], \"Tuesday\": [\"9AM-6PM\"], \"Wednesday\": [\"9AM-6PM\"], \"Thursday\": [\"9AM-6PM\"], \"Friday\": [\"9AM-6PM\"], \"Saturday\": [\"Closed\"], \"Sunday\": [\"Closed\"]}"
+}

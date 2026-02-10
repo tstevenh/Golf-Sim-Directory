@@ -1,0 +1,90 @@
+{
+  "name": "X-Golf Middleton",
+  "address": "1620 Deming Way STE 102, Middleton, WI 53562",
+  "city": "Middleton",
+  "region": "Wisconsin",
+  "country": "US",
+  "latitude": 43.091214,
+  "longitude": -89.527532,
+  "phone": "+16088240306",
+  "website": "https://playxgolf.com/locations/middleton/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770201212/golf_simulators/playxgolf_com_ChIJ3bz9LjmvB4gRyLbys2yivF4.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/X-Golf+Middleton/@43.0912145,-89.5275322,14z/data=!4m8!1m2!2m1!1sX-Golf+Middleton!3m4!1s0x8807af392efdbcdd:0x5ebca26cb3f2b6c8!8m2!3d43.0912145!4d-89.5275322",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ3bz9LjmvB4gRyLbys2yivF4",
+  "email": "info@xgolfmiddleton.com",
+  "venue_type": "sim_bar",
+  "about": "X-Golf Middleton is a state-of-the-art indoor golf simulator venue offering access to seven high-tech simulators for play, practice, and training. It operates as a sports bar and entertainment center, providing a full bar and food menu alongside its golf facilities. The venue is designed for individuals, groups, and events, catering to various skill levels with a focus on convenience and accessibility. Pricing is based on simulator rental by the hour, making it a flexible option for both casual play and serious practice sessions.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|kids_friendly|corporate_events|leagues|premium_tech|club_rentals|coaching_available|private_rooms",
+  "vibe_tags": "casual|welcoming|modern|sports_bar|party_atmosphere|community_club",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "Unparalleled accuracy and realism from advanced camera systems, infrared lasers, and impact sensors",
+    "Convenient all-weather golf playing and training accessible year-round",
+    "Vibrant social atmosphere with a full bar and food menu, ideal for groups and events"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full food menu including shareable bites, appetizers, snacks, and pizzas"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with beer by the glass or on tap, cocktails, and wines"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "X-Golf",
+      "model": "Proprietary Simulator",
+      "notes": "State-of-the-art simulator system with built-in automatic tees and ball collection"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 7,
+  "booking_url": "https://clients.uschedule.com/xgolfmiddleton/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 40,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|leagues|club_fitting|wifi|pro_shop|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need clubs?",
+      "answer": "Club rentals are available, so you can play without your own equipment."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No, outside food and drinks are not permitted as X-Golf Middleton has its own full bar and kitchen menu available for purchase."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Generally, it takes about one hour for an individual player to complete 18 holes. For multiple players, it is recommended to book an additional hour for each person added to the group."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "Yes, X-Golf Middleton welcomes children of all ages and is suitable for families."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"8AM-12AM\"], \"Saturday\": [\"8AM-12AM\"], \"Sunday\": [\"8AM-10PM\"]}"
+}

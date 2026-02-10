@@ -1,0 +1,89 @@
+{
+  "name": "X-Golf Parkville",
+  "address": "15325 Old Town Dr Suite 113, Parkville, MO 64152",
+  "city": "Parkville",
+  "region": "Missouri",
+  "country": "US",
+  "latitude": 39.220976,
+  "longitude": -94.758187,
+  "phone": "+18165055986",
+  "website": "https://playxgolf.com/locations/parkville/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770202820/golf_simulators/playxgolf_com_ChIJewO1uC2LwIcRXtM4v3USemU.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/X-Golf+Parkville/@39.2209759,-94.7581871,14z/data=!4m8!1m2!2m1!1sX-Golf+Parkville!3m4!1s0x87c08b2db8b5037b:0x657a1275bf38d35e!8m2!3d39.2209759!4d-94.7581871",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJewO1uC2LwIcRXtM4v3USemU",
+  "email": "ben@xgolfparkville.com",
+  "venue_type": "sim_bar",
+  "about": "X-Golf Parkville offers indoor golf simulation with a full bar and food service. The venue utilizes state-of-the-art simulators for play, training, and league competitions. Pricing is per simulator, per hour, and accommodates up to six people, making it suitable for groups and individuals alike. It hosts corporate events, private parties, and offers golf lessons with PGA-certified professionals.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|private_rooms|club_rentals|coaching_available|family_friendly|date_night",
+  "vibe_tags": "sports_bar|community_club|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|bachelor_parties",
+  "why_golfers_like_it": [
+    "Unparalleled accuracy and realism with advanced camera and sensor technology",
+    "Ability to play on famous golf courses from around the world",
+    "On-site bar and restaurant for a complete entertainment experience",
+    "PGA-certified professional lessons available to improve your game",
+    "Hosts various leagues and tournaments for competitive play"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen service with appetizers, snacks, and pizzas available."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service with beer on tap and by the glass, cocktails, and wines."
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_so": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://clients.uschedule.com/xgolfparkville/booking?filter=loc[12140]",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 39,
+  "price_range_max_local": 59,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|private_party_room|wifi|leagues|coaching_available",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, club rentals are available. You are also welcome to use your own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No outside food or drink is allowed, as X-Golf Parkville offers a full bar and kitchen food service."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Generally, it takes about one hour for one person to play 18 holes. For each additional player, plan on adding roughly one hour to your booking."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, X-Golf welcomes children of all ages and is a great environment for families."
+    }
+  ],
+  "simulator_software": [
+    "Advanced gaming software, V1 Pro Golf"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"9AM-11PM\"], \"Saturday\": [\"9AM-11PM\"], \"Sunday\": [\"9AM-6PM\"]}"
+}

@@ -1,0 +1,91 @@
+{
+  "name": "Golf Lounge 18",
+  "address": "355 Atlantic St, Stamford, CT 06901",
+  "city": "Stamford",
+  "region": "Connecticut",
+  "country": "US",
+  "latitude": 41.050278,
+  "longitude": -73.540019,
+  "phone": "+12035643222",
+  "website": "https://golflounge18.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770229271/golf_simulators/golflounge18_com_ChIJa_1fvgqhwokRS5w6leD7vlk.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Golf+Lounge+18/@41.050278399999996,-73.5400192,14z/data=!4m8!1m2!2m1!1sGolf+Lounge+18!3m4!1s0x89c2a10abe5ffd6b:0x59befbe0953a9c4b!8m2!3d41.050278399999996!4d-73.5400192",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJa_1fvgqhwokRS5w6leD7vlk",
+  "email": "info@golflounge18.com",
+  "venue_type": "sim_bar",
+  "about": "Golf Lounge 18 is an indoor golf simulator facility offering a state-of-the-art venue with Trackman 4 technology for playing on over 450 courses worldwide. The facility features hourly bay rentals, a full bar, and multiple HDTVs for watching sports, making it suitable for social events, leagues, and practice. Reservations can be made up to 21 days in advance for members and 7 days for non-members, with walk-ins also welcome. The venue caters to various skill levels, offering lessons from PGA professionals and hosting both personal and corporate events.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|coaching_available|kids_friendly|date_night|family_friendly",
+  "vibe_tags": "sports_bar|family_fun_center|community_club|modern|casual",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "Access to Trackman 4 technology for precise swing analysis and course simulation",
+    "Extensive library of over 450 world-famous golf courses to play",
+    "Full bar and sports viewing environment for a complete social experience",
+    "Flexible hourly bay rates that can be split among groups",
+    "PGA Professional instruction available for skill improvement"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen and food menu available on-site"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar available on-site"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "Dual radar technology trusted by hundreds of professionals"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://golflounge18.com/book",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|leagues|coaching_available|wifi",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify, but it's typical for such venues to offer club rentals if you don't have your own."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, the venue has its own full bar and kitchen food menu available on-site."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not provide specific timing, but typical simulator rounds last 1-2 hours depending on the group size and pace."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, they offer a Junior Academy program, indicating a kid-friendly environment for young golfers."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": null
+}

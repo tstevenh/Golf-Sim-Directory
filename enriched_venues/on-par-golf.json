@@ -1,0 +1,91 @@
+{
+  "name": "On Par Golf",
+  "address": "1250 Mission Grande, San Antonio, TX 78221",
+  "city": "San Antonio",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 29.293901,
+  "longitude": -98.477672,
+  "phone": "+12108278494",
+  "website": "http://onpargolf.net/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770239536/golf_simulators/onpargolf_net_ChIJn9paTwD5XIYRUw7w3tQw-iQ.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/On+Par+Golf/@29.2939007,-98.4776725,14z/data=!4m8!1m2!2m1!1sOn+Par+Golf!3m4!1s0x865cf9004f5ada9f:0x24fa30d4def00e53!8m2!3d29.2939007!4d-98.4776725",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJn9paTwD5XIYRUw7w3tQw-iQ",
+  "email": "info@onpargolf.net",
+  "venue_type": "training_studio",
+  "about": "On Par Golf Academy is a premier golf instruction and training facility located in San Antonio, TX. They offer affordable golf lessons and services powered by TrackMan technology, catering to all skill levels from novice to professional. The academy operates across three locations at Mission Del Lago, Cedar Creek, and Northern Hills golf courses, providing both indoor and outdoor training environments. Their customized instruction focuses on individual needs, utilizing advanced technology to create tailored improvement plans.",
+  "tags": "beginner_friendly|kids_friendly|corporate_events|premium_tech|coaching_available|juniors_youth|serious_practice|budget_friendly|private_rooms",
+  "vibe_tags": "industrial_training|community_club|modern",
+  "who_its_for": "beginners|serious_golfers|juniors_youth|families|corporate_teams",
+  "why_golfers_like_it": [
+    "Utilizes premium TrackMan technology for data-driven swing analysis",
+    "Offers customized instruction plans tailored to individual skill levels",
+    "Provides both indoor simulator bays and outdoor course access",
+    "Experienced instructors with proven success on various tours",
+    "Hosts specialized events and junior programs for all ages"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Rockin' G' Grill available at Mission Del Lago location"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "Indoor simulator bay at Mission Del Lago location with virtual golf capabilities"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://onpargolf.net/booking/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": false,
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, players should bring their own golf equipment for lessons and simulator sessions. The facility may have limited club rentals available."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "Outside food and drink policies aren't explicitly stated. The Mission Del Lago location has Rockin' G' Grill available for food service."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "With TrackMan technology, simulator rounds can be completed faster than traditional golf. Times may vary based on the simulation software and player pace."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, On Par Golf offers junior programs, clinics, camps, and the OPG Junior Tour for young golfers. They also have the Flamingo Club nonprofit supporting youth golf."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": null
+}

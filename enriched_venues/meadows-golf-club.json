@@ -1,0 +1,92 @@
+{
+  "name": "Meadows Golf Club",
+  "address": "7007 Meadows Golf Club Dr, Littleton, CO 80127",
+  "city": "Littleton",
+  "region": "Colorado",
+  "country": "US",
+  "latitude": 39.591206,
+  "longitude": -105.130816,
+  "phone": "+13034092250",
+  "website": "http://www.foothillsgolf.org/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770249638/golf_simulators/www_foothillsgolf_org_ChIJYVlWQix5a4cRO75306sTKdI.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Meadows+Golf+Club/@39.591206,-105.130816,14z/data=!4m8!1m2!2m1!1sMeadows+Golf+Club!3m4!1s0x876b792c42565961:0xd22913abd377be3b!8m2!3d39.591206!4d-105.130816",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJYVlWQix5a4cRO75306sTKdI",
+  "email": "noreply@membersports.com.",
+  "venue_type": "sim_bar|training_studio|private_rental|retail_fitting_center|country_club|multi_sport_sim|hotel_resort|other",
+  "about": "Meadows Golf Club, operated by the Foothills Park & Recreation District, is a public golf facility featuring a championship 18-hole course. It also offers a golf simulator experience at its sister location, Foothills Golf Course. The simulator, a Golfzon system, provides an indoor option for practice, play, and training, available for booking by the hour with dynamic pricing. The facility includes amenities like a pro shop, rental clubs, and restaurant access, catering to golfers of all skill levels seeking a convenient and weather-independent golfing experience.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|club_rentals|coaching_available|family_friendly|juniors_youth",
+  "vibe_tags": "casual|welcoming|modern|community_club|family_fun_center",
+  "who_its_for": "families|corporate_teams|solo_practice|beginners|juniors_youth",
+  "why_golfers_like_it": [
+    "All-weather play, unaffected by rain, snow, or extreme heat",
+    "Efficient use of time, allowing for a full round in a fraction of the time on a traditional course",
+    "Convenient food and drink delivery directly to the simulator bay",
+    "Beginner-friendly environment to learn the game without pressure",
+    "Availability of rental clubs for those who do not have their own"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Restaurant available; food can be delivered to the simulator bay"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Restaurant available; drinks can be delivered to the simulator bay"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Golfzon",
+      "model": "Unknown",
+      "notes": "A cutting-edge indoor system offering an ultra-realistic golfing experience"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.foothillsgolf.org/teetimes/",
+  "pricing_model": "per_person_hour",
+  "price_range_min_local": 40,
+  "price_range_max_local": 70,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|full_bar|kitchen_food|pro_shop|ada_accessible",
+  "rating_tech_quality": 4.0,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, you can bring your own clubs, but they must have clean clubfaces to avoid damaging the impact screen. Rental clubs, including left-handed, right-handed, men's, and women's options, are available from the pro shop if you do not have your own."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, outside food and drinks are not permitted. However, food and beverages can be ordered from the Foothills Restaurant and delivered directly to your simulator bay."
+    },
+    {
+      "question": "How long does it take to play 18 holes on the simulator?",
+      "answer": "A full round on the simulator can be completed in a fraction of the time it takes on a traditional green grass course, making it ideal for busy schedules."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, the simulator is described as a space that is fun for all ages, including kids learning the basics, and provides a stress-free environment for families to play together."
+    }
+  ],
+  "simulator_software": [
+    "Golfzon"
+  ],
+  "rating_overall": 4.1,
+  "opening_hours": "{\"Monday\": [\"6AM-8PM\"], \"Tuesday\": [\"6AM-8PM\"], \"Wednesday\": [\"6AM-8PM\"], \"Thursday\": [\"6AM-8PM\"], \"Friday\": [\"6AM-8PM\"], \"Saturday\": [\"6AM-8PM\"], \"Sunday\": [\"6AM-8PM\"]}"
+}

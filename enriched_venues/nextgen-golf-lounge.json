@@ -1,0 +1,92 @@
+{
+  "name": "NextGen Golf Lounge",
+  "address": "5060 Dorchester Rd Suite 240, North Charleston, SC 29418",
+  "city": "North Charleston",
+  "region": "South Carolina",
+  "country": "US",
+  "latitude": 32.857835,
+  "longitude": -80.034664,
+  "phone": "+18438308644",
+  "website": "https://www.nextgengolflounge.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770208257/golf_simulators/www_nextgengolflounge_com_ChIJ98TGJz59_ogRivAuXkdOGqQ.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/NextGen+Golf+Lounge/@32.8578354,-80.0346644,14z/data=!4m8!1m2!2m1!1sNextGen+Golf+Lounge!3m4!1s0x88fe7d3e27c6c4f7:0xa41a4e475e2ef08a!8m2!3d32.8578354!4d-80.0346644",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ98TGJz59_ogRivAuXkdOGqQ",
+  "email": "jtmurphy@nextgengolflounge.com",
+  "venue_type": "sim_bar",
+  "about": "NextGen Golf Lounge is an indoor golf facility located in North Charleston, SC, utilizing ProTee VX overhead launch monitors paired with GSPro and ProTee Labs software. The venue offers three membership tiers (Club Member, Club Pro, and Club Legend) with varying bay time allowances, priority booking, and guest privileges. They feature climate-controlled bays with loaner clubs available, including left-handed options, and are suitable for solo practice, group hangouts, date nights, and corporate events.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|premium_tech|club_rentals|coaching_available|community_club|private_rooms",
+  "vibe_tags": "casual|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Professional-grade ProTee VX launch monitors provide highly accurate ball and club data",
+    "Access to over 1,000 virtual courses with hyper-realistic GSPro graphics",
+    "Climate-controlled bays and comfortable lounge area available year-round",
+    "No marked balls or stickers needed; just grab a club and swing naturally",
+    "Loaner clubs available, including left-handed options"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned, BYOB likely"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No bar mentioned, BYOB likely"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "ProTee",
+      "model": "VX",
+      "notes": "Overhead launch monitors"
+    }
+  ],
+  "simulator_software": [
+    "GSPro",
+    "ProTee Labs"
+  ],
+  "launch_monitor_type": "overhead_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://app.squareup.com/appointments/book/risvdn8u4sh3by/LP9H3WW28YQ0E/start",
+  "pricing_model": "mixed",
+  "price_range_min_local": 125,
+  "price_range_max_local": 250,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|climate_control|loung_area|wifi|tv_sports|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, NextGen stocks a full selection of loaner clubs, including left-handed options, so you can show up empty-handed."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "The venue does not mention an in-house kitchen or bar, suggesting a BYOB (Bring Your Own Beverage) policy is likely."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "The website does not specify an exact time for playing 18 holes, as it depends on the number of players and pace of play."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, NextGen states that golf should be for everyone and their climate-controlled bays are suitable for group hangouts, making it a kid-friendly environment."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-10PM\"], \"Saturday\": [\"10AM-10PM\"], \"Sunday\": [\"10AM-10PM\"]}"
+}

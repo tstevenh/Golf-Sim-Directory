@@ -1,0 +1,91 @@
+{
+  "name": "Pine Lakes Golf Club",
+  "address": "25130 Schuck Rd, Washington, IL 61571",
+  "city": "Washington",
+  "region": "Illinois",
+  "country": "US",
+  "latitude": 40.668362,
+  "longitude": -89.464355,
+  "phone": "+13097459344",
+  "website": "http://www.golfpinelakesgc.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770227923/golf_simulators/www_golfpinelakesgc_com_ChIJh2bP_s1VCogRt9YXHgBcn14.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Pine+Lakes+Golf+Club/@40.6683616,-89.4643554,14z/data=!4m8!1m2!2m1!1sPine+Lakes+Golf+Club!3m4!1s0x880a55cdfecf6687:0x5e9f5c001e17d6b7!8m2!3d40.6683616!4d-89.4643554",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJh2bP_s1VCogRt9YXHgBcn14",
+  "email": "pinelakesgc@gmail.com",
+  "venue_type": "sim_bar",
+  "about": "Pine Lakes Golf Club is an 18-hole public golf course located ten minutes from downtown Peoria, offering three sets of tees to accommodate all skill levels. The facility features a full bar and a dedicated golf simulator bay available for reservations. The course is described as having generous tree-lined fairways with well-placed bunkers and water hazards, including the challenging 10th hole, considered one of the most difficult par 4s in central Illinois. For those looking to practice or play in inclement weather, a golf simulator can be booked by appointment. The venue also hosts events, outings, and membership programs for regular players.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|private_rooms|club_rentals|coaching_available|solo_practice",
+  "vibe_tags": "casual|welcoming|sports_bar",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Convenient golf simulator access for weather play",
+    "Public course with varied tee boxes for all skill levels",
+    "On-site bar with a deck view overlooking the 18th hole",
+    "Hosts corporate outings and events for groups",
+    "Professional shop for equipment and fitting needs"
+  ],
+  "kid_friendly": 4.0,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No information on food service beyond a bar."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar available with a deck overlooking the 18th hole."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "unknown",
+      "model": "unknown",
+      "notes": "No specific simulator hardware details were provided."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": "unknown",
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 1,
+  "booking_url": "https://pinelakesgc.snapreservations.com",
+  "pricing_model": "per_person_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": 4.0,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.0,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "It is recommended to bring your own clubs, but club rentals may be available through the pro shop."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue has a full bar available, but there is no information on outside food or drink policies."
+    },
+    {
+      "question": "How long does an 18-hole simulator session take?",
+      "answer": "A typical 18-hole simulator session can take 1.5 to 2 hours, depending on the number of players and pace of play."
+    },
+    {
+      "question": "Is this facility kid-friendly?",
+      "answer": "The golf course is a public facility welcoming to families, but there is no specific information on child-oriented simulator activities or amenities."
+    }
+  ],
+  "rating_overall": 4.1,
+  "opening_hours": "{\"Monday\": [\"7AM-7PM\"], \"Tuesday\": [\"7AM-7PM\"], \"Wednesday\": [\"7AM-7PM\"], \"Thursday\": [\"7AM-7PM\"], \"Friday\": [\"7AM-7PM\"], \"Saturday\": [\"7AM-7PM\"], \"Sunday\": [\"7AM-7PM\"]}"
+}

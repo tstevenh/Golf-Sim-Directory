@@ -1,0 +1,90 @@
+{
+  "name": "Mikes Golf Center",
+  "address": "731 N 17th St #5, St. Charles, IL 60174",
+  "city": "St. Charles",
+  "region": "Illinois",
+  "country": "US",
+  "latitude": 41.918746,
+  "longitude": -88.335276,
+  "phone": "+16307975058",
+  "website": "http://mikesgolfcenter.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770205306/golf_simulators/mikesgolfcenter_com_ChIJPXn4cfAdD4gRh-7ocXvRYaE.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Mikes+Golf+Center/@41.918746,-88.335276,14z/data=!4m8!1m2!2m1!1sMikes+Golf+Center!3m4!1s0x880f1df071f8793d:0xa161d17b71e8ee87!8m2!3d41.918746!4d-88.335276",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJPXn4cfAdD4gRh-7ocXvRYaE",
+  "email": "Support@mikesgolfcenter.com",
+  "venue_type": "training_studio",
+  "about": "Mike's Golf Center is a year-round, 24/7 indoor golf instruction facility located in St. Charles, Illinois, serving the Chicago Suburbs. The facility spans 10,000 square feet and is equipped with 14 high-end golf simulators featuring precise club and ball data, along with access to over 50,000 golf courses, two chipping/putting greens, and a lounge area. They offer a variety of programs for all ages and skill levels, including junior development for ages 5-18 and private instruction packages for adults. The venue allows for both practice on a simulator driving range and playing on real-world courses such as Augusta National and TPC Sawgrass. Scheduling is managed through an online booking system, and the facility is open 24 hours a day, 7 days a week for members.",
+  "tags": "beginner_friendly|kids_friendly|coaching_available|premium_tech|serious_practice|family_friendly|juniors_youth|leagues",
+  "vibe_tags": "industrial_training|community_club|casual|welcoming",
+  "who_its_for": "beginners|serious_golfers|families|juniors_youth|solo_practice",
+  "why_golfers_like_it": [
+    "24/7 access for members practicing on high-end simulators",
+    "Access to over 50,000 world-renowned golf courses, including Augusta National",
+    "Comprehensive programs for all ages, especially junior development",
+    "PGA-led instruction with a focus on improvement and confidence"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No information on food service provided."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No information on alcohol service provided."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "unknown",
+      "model": "unknown",
+      "notes": "Content describes 'high-end golf simulators with precise club/ball data' but does not specify a brand."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 14,
+  "booking_url": "https://clients.uschedule.com/mikesgolfcenter/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 35,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 14,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "It is recommended to bring your own clubs for an optimal experience. The facility also offers club rentals for those who need them."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "There is no specific policy mentioned on bringing outside food or drinks. The facility appears to focus on instruction and practice rather than a full-service bar or restaurant."
+    },
+    {
+      "question": "How long does it take to play 18 holes on a simulator?",
+      "answer": "The typical time to play 18 holes on a simulator can vary depending on the course and number of players in the bay, but it generally ranges from 2 to 3 hours."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Mike's Golf Center offers junior golf development programs specifically designed for children, with a junior program called Little Linksters for ages 5-12, and a Varsity Program for ages 11-18. They maintain a 5 to 1 student-to-coach ratio for these programs."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"10AM-7PM\"], \"Tuesday\": [\"10AM-7PM\"], \"Wednesday\": [\"10AM-7PM\"], \"Thursday\": [\"10AM-7PM\"], \"Friday\": [\"10AM-7PM\"], \"Saturday\": [\"10AM-3PM\"], \"Sunday\": [\"10AM-3PM\"]}"
+}

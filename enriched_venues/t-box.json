@@ -1,0 +1,88 @@
+{
+  "name": "T Box",
+  "address": "8922 High Pointe Dr, Newburgh, IN 47630",
+  "city": "Newburgh",
+  "region": "Indiana",
+  "country": "US",
+  "latitude": 37.978364,
+  "longitude": -87.41251,
+  "phone": "+18124019000",
+  "website": "http://www.tboxin.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770218446/golf_simulators/www_tboxin_com_ChIJs7uyzfctbogRRD9sDYWqHB4.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/T+Box/@37.978364,-87.41251,14z/data=!4m8!1m2!2m1!1sT+Box!3m4!1s0x886e2df7cdb2bbb3:0x1e1caa850d6c3f44!8m2!3d37.978364!4d-87.41251",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJs7uyzfctbogRRD9sDYWqHB4",
+  "venue_type": "sim_bar",
+  "about": "T Box is an indoor golf simulator venue that utilizes Trackman technology to provide a virtual golfing experience. The facility offers a range of features including various golf course simulations, an image library for promotional use, and booking services. The venue appears to have a modern, tech-focused atmosphere with an emphasis on providing materials for both digital and physical marketing. While specific details about the facility's size or full amenities are limited, the website heavily promotes its Trackman technology and the availability of downloadable content for golf simulations.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|premium_tech|tech_lab|modern",
+  "vibe_tags": "tech_lab|modern|casual|welcoming",
+  "who_its_for": "beginners|serious_golfers|corporate_teams|solo_practice|tourists_travelers",
+  "why_golfers_like_it": [
+    "Access to premium Trackman technology for detailed shot analysis",
+    "Wide variety of world-class golf courses available for simulation",
+    "Availability of a comprehensive image library for promotional materials"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Partnered with online menu services, suggesting third-party food ordering is available."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No information on alcohol service is provided on the website."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Trackman technology is prominently featured, with promotional materials specifically highlighting its use."
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://yourgolfbooking.com/venues/t-box/booking/bays",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|tv_sports|wifi|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not explicitly state whether club rentals are available or if you must bring your own."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "While the website shows links to food ordering services, it does not explicitly state if outside food and drinks are permitted."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "The website does not provide an estimated time for playing 18 holes of virtual golf."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "There is no specific information on the website about whether the venue accommodates children or has child-friendly features."
+    }
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"10AM-9:30PM\"], \"Tuesday\": [\"10AM-9:30PM\"], \"Wednesday\": [\"10AM-9:30PM\"], \"Thursday\": [\"10AM-9:30PM\"], \"Friday\": [\"10AM-9:30PM\"], \"Saturday\": [\"10AM-9:30PM\"], \"Sunday\": [\"10AM-9:30PM\"]}"
+}

@@ -1,0 +1,96 @@
+{
+  "name": "The City Golf - Sherman Oaks",
+  "address": "15250 Ventura Blvd #130, Sherman Oaks, CA 91403",
+  "city": "Sherman Oaks",
+  "region": "California",
+  "country": "US",
+  "latitude": 34.153271,
+  "longitude": -118.465152,
+  "phone": "+18182967088",
+  "website": "http://www.thecitygolf.com/",
+  "hero_image": "",
+  "google_maps_url": "https://www.google.com/maps/place/The+City+Golf+-+Sherman+Oaks/@34.1532711,-118.4651523,14z/data=!4m8!1m2!2m1!1sThe+City+Golf+-+Sherman+Oaks!3m4!1s0x80c29762e9c381a3:0xfd31995b0ea3092c!8m2!3d34.1532711!4d-118.4651523",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJo4HD6WKXwoARLAmjDluZMf0",
+  "email": "info@thecitygolf.com",
+  "venue_type": "training_studio",
+  "about": "The City Golf operates a premium indoor golf facility with locations in Los Angeles, Sherman Oaks, and West LA. The venue utilizes Foresight's GCQuad and Falcon launch monitors to provide precise ball-flight and club-head data analysis. It features fully equipped bays and a Performance Center offering club fitting and instruction. Customers must bring their own clubs as no rentals are available. The facility is designed for refining one's game with professional-grade feedback regardless of weather conditions.",
+  "tags": "serious_golfers|premium_tech|coaching_available|club_fitting|private_rooms|beginner_friendly",
+  "vibe_tags": "tech_lab|modern|welcoming",
+  "who_its_for": "serious_golfers|beginners|families|solo_practice",
+  "why_golfers_like_it": [
+    "Advanced GCQuad and Falcon launch monitor technology for precise data tracking",
+    "Professional-grade feedback and analysis for game improvement",
+    "Fully equipped bays available day or night, unaffected by weather",
+    "On-site Performance Center with PGA/LPGA tour fitting expertise",
+    "TourPutt state-of-the-art putting system"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No information provided on food service"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No information provided on alcohol service"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": "GCQuad",
+      "notes": "Advanced launch monitor using infrared object tracking and high-speed camera technology"
+    },
+    {
+      "brand": "Foresight",
+      "model": "Falcon",
+      "notes": "Quadrascopic high-speed camera system for precise measurements"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 20,
+  "booking_url": "https://www.thecitygolf.com/reservation/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_fitting|private_rooms|wifi|pro_shop",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.5,
+  "rating_value_for_money": 4.2,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you must bring your own clubs as The City Golf does not provide any rental clubs."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "No information is provided about bringing outside food or drinks."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "No specific information about 18-hole play time is available."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "No specific information about kid-friendly amenities or policies is provided."
+    }
+  ],
+  "rating_overall": 4.5,
+  "opening_hours": "{\"Monday\": [\"8AM-10PM\"], \"Tuesday\": [\"8AM-10PM\"], \"Wednesday\": [\"8AM-10PM\"], \"Thursday\": [\"8AM-10PM\"], \"Friday\": [\"8AM-10PM\"], \"Saturday\": [\"9AM-8PM\"], \"Sunday\": [\"9AM-8PM\"]}"
+}

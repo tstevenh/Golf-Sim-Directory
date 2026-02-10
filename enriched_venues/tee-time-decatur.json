@@ -1,0 +1,90 @@
+{
+  "name": "Tee Time Decatur",
+  "address": "163 Country Club Rd, Decatur, TX 76234",
+  "city": "Decatur",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 33.265704,
+  "longitude": -97.5842,
+  "phone": "+19402103831",
+  "website": "https://www.teetimedecatur.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770242394/golf_simulators/www_teetimedecatur_com_ChIJ39GYUPCTTYYRzCcInGCWjsU.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Tee+Time+Decatur/@33.2657042,-97.58420009999999,14z/data=!4m8!1m2!2m1!1sTee+Time+Decatur!3m4!1s0x864d93f05098d1df:0xc58e96609c0827cc!8m2!3d33.2657042!4d-97.58420009999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ39GYUPCTTYYRzCcInGCWjsU",
+  "venue_type": "other",
+  "about": "Tee Time Decatur is a driving range facility featuring 24/7 access with TrackMan technology for an all-weather golf experience. The venue offers covered bays, real grass teeboxes, and a dedicated practice environment, alongside plans for future virtual driving bays, indoor simulators, food and beverage services. It is designed to accommodate golfers of all skill levels in a casual, low-pressure setting located near the Decatur Golf Club.",
+  "tags": "beginner_friendly|coaching_available|late_night|budget_friendly|community_club|serious_practice",
+  "vibe_tags": "casual|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|families|solo_practice|juniors_youth",
+  "why_golfers_like_it": [
+    "24-hour access with lighting for late-night practice",
+    "TrackMan technology for advanced shot tracking and data analysis",
+    "Flexible pricing with walk-in options and memberships",
+    "Casual environment suitable for all skill levels"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "Full bar and food service is listed as 'in the works' with no current availability."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "Full bar service is listed as 'in the works' with no current availability."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "TrackMan",
+      "model": "iO",
+      "notes": "Primary launch monitor for ball tracking; system runs updates 2-6 AM daily."
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.teetimedecatur.com/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 125,
+  "price_range_max_local": 250,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "The website does not explicitly state whether club rentals are available. It is recommended to bring your own clubs or contact the venue directly for more information."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "notes": "The venue does not mention a policy on outside food or drinks. No information on BYOB is provided."
+    },
+    {
+      "question": "How long does an 18-hole simulation take?",
+      "answer": "The website does not provide specific timing for a full 18-hole simulation. This information is likely available during the booking process or by contacting the venue."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, Tee Time Decatur describes itself as a casual environment for golf lovers of all skill levels, and mentions 'families' as part of its target audience, indicating it is kid-friendly."
+    }
+  ],
+  "simulator_software": [
+    "Trackman Range"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"11:30AM-11:30PM\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

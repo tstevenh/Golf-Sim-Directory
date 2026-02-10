@@ -1,0 +1,92 @@
+{
+  "name": "Lakeland Golf Course",
+  "address": "1772 Kiser Lake Rd, St Paris, OH 43072",
+  "city": "St Paris",
+  "region": "Ohio",
+  "country": "US",
+  "latitude": 40.150444,
+  "longitude": -83.958458,
+  "phone": "+19376634707",
+  "website": "http://www.lakelandgolfclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770234054/golf_simulators/www_lakelandgolfclub_com_ChIJ98eUactqP4gRojg-oWGfaDs.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Lakeland+Golf+Course/@40.150444,-83.9584579,14z/data=!4m8!1m2!2m1!1sLakeland+Golf+Course!3m4!1s0x883f6acb6994c7f7:0x3b689f61a13e38a2!8m2!3d40.150444!4d-83.9584579",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ98eUactqP4gRojg-oWGfaDs",
+  "email": "jacob@sjomanart.com",
+  "venue_type": "country_club",
+  "about": "Lakeland Golf Club is an 18-hole championship course established in 1964 and expanded in 2002 by current owners Ron and Ana Burns under the design expertise of Barry Serafin. The course features five sets of tees, generous fairways, strategic bunkers, and natural water hazards, catering to all skill levels. The venue also offers Trackman simulators and a full-service clubhouse with a pub and grill, making it suitable for both on-course play and off-course practice and events.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|club_rentals|coaching_available|family_friendly",
+  "vibe_tags": "community_club|welcoming|casual",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Features premium Trackman simulators with dual radar technology for detailed shot analysis",
+    "Welcomes golfers of all skill levels with five sets of tees and a challenging yet playable course design",
+    "Offers a variety of amenities including a pub and grill, golf lessons, and a pro shop"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full-service clubhouse with a pub and grill offering snacks, meals, and beverages"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Available at the pub and grill"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Dual radar technology"
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://lakeland-golf-club.book.teeitup.com/",
+  "pricing_model": "per_person_hour",
+  "price_range_min_local": 30,
+  "price_range_max_local": 50,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|kitchen_food|tv_sports|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "Yes, you should bring your own clubs for the best experience on both the course and in the simulators."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "Outside food and drink are not mentioned; however, the venue offers a full-service pub and grill."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Standard 18-hole play time is not specified, but it is a championship course designed for a full round."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Lakeland Golf Club welcomes families and is suitable for juniors and youth golfers."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"8AM-8PM\"], \"Tuesday\": [\"8AM-8PM\"], \"Wednesday\": [\"8AM-8PM\"], \"Thursday\": [\"8AM-8PM\"], \"Friday\": [\"8AM-8PM\"], \"Saturday\": [\"8AM-8PM\"], \"Sunday\": [\"8AM-8PM\"]}"
+}

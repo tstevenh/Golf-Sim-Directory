@@ -1,0 +1,92 @@
+{
+  "name": "Atlanta Golf & Social | West End",
+  "address": "1020 White St SW, Atlanta, GA 30310",
+  "city": "Atlanta",
+  "region": "Georgia",
+  "country": "US",
+  "latitude": 33.731285,
+  "longitude": -84.420681,
+  "phone": "+14045497461",
+  "website": "https://atlantagolfandsocial.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770202086/golf_simulators/atlantagolfandsocial_com_ChIJjTKg_JYD9YgRhPIhClnJ1dg.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Atlanta+Golf+%26+Social+%7C+West+End/@33.7312845,-84.4206813,14z/data=!4m8!1m2!2m1!1sAtlanta+Golf+%26+Social+%7C+West+End!3m4!1s0x88f50396fca0328d:0xd8d5c9590a21f284!8m2!3d33.7312845!4d-84.4206813",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJjTKg_JYD9YgRhPIhClnJ1dg",
+  "email": "Hello@atlantagolfandsocial.com",
+  "venue_type": "sim_bar",
+  "about": "Atlanta Golf & Social is a public indoor golf club that combines Trackman simulator technology with a laid-back, casual bar vibe. It is Atlanta's first and only locally-owned indoor golf club with multiple neighborhood locations. The venue offers a modern interpretation of a country club, featuring state-of-the-art Trackman simulators and a full bar and food menu, making it much more than a neighborhood escape for the avid golfer. Access to unlimited golf is available at a variety of price points, with membership packages designed for frequent players to enjoy expanded access, exclusive perks, and incredible value.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|coaching_available|community_club|date_night",
+  "vibe_tags": "sports_bar|community_club|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "State-of-the-art Trackman simulator technology for precise data-driven swing analysis",
+    "Laid-back, casual bar atmosphere combining golf with a social experience",
+    "Multiple membership tiers catering to different playing frequencies and budgets",
+    "PGA-certified instructors offering personalized, data-driven lessons",
+    "Flexible booking options for both members and non-members"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full food menu available on-site"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar available on-site"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "State-of-the-art Trackman simulators available in multiple bays"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 5,
+  "booking_url": "https://atlantagolfandsocial.com/book",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, free club rentals are available for members."
+    },
+    {
+      "question": "Can I bring my own food or drink?",
+      "answer": "No, the venue offers a full bar and food menu available on-site."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "A standard 18-hole round typically takes about 1-2 hours depending on the group size and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Atlanta Golf & Social is a family-friendly venue where all skill levels are welcome."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"Closed\"], \"Wednesday\": [\"Closed\"], \"Thursday\": [\"12-10PM\"], \"Friday\": [\"8AM-12AM\"], \"Saturday\": [\"8AM-12AM\"], \"Sunday\": [\"10AM-8PM\"]}"
+}

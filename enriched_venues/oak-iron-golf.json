@@ -1,0 +1,91 @@
+{
+  "name": "Oak & Iron Golf",
+  "address": "2010 MN-210, Fergus Falls, MN 56537",
+  "city": "Fergus Falls",
+  "region": "Minnesota",
+  "country": "US",
+  "latitude": 46.272228,
+  "longitude": -96.041191,
+  "phone": "+12187369422",
+  "website": "http://www.oigolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770235328/golf_simulators/www_oigolf_com_ChIJl8eCl5R3yVIRCPsZTgevXk0.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Oak+%26+Iron+Golf/@46.272227699999995,-96.0411915,14z/data=!4m8!1m2!2m1!1sOak+%26+Iron+Golf!3m4!1s0x52c977949782c797:0x4d5eaf074e19fb08!8m2!3d46.272227699999995!4d-96.0411915",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJl8eCl5R3yVIRCPsZTgevXk0",
+  "email": "nick@oigolf.com",
+  "venue_type": "sim_bar",
+  "about": "Oak & Iron Golf is an indoor golf and entertainment venue offering high-end simulator bays alongside escape rooms and a full-service food and drink menu. The facility features private golf rooms equipped with GCHawk overhead launch monitors and GSPro software, providing a realistic golfing experience with hundreds of available courses. Aimed at both casual players and serious golfers, the venue also hosts corporate events, parties, and leagues, making it a versatile location for group outings and individual practice sessions.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|private_rooms|club_rentals|family_fun_center|party_atmosphere",
+  "vibe_tags": "casual|welcoming|modern|family_fun_center|party_atmosphere|tech_lab",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "High-end GCHawk launch monitors for precise shot tracking",
+    "Private rooms with comfortable seating, TVs, and fireplaces",
+    "GSPro software offering 4K graphics and hundreds of global courses",
+    "Flexible pricing model with hourly bay rentals",
+    "Food and drinks available while playing"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full menu available with a variety of options to satisfy any craving."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Alcoholic beverages are available for purchase."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "GCHawk",
+      "model": "Launch Monitor",
+      "notes": "Overhead-mounted launch monitors with high-speed cameras and infrared sensors."
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "overhead_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "http://www.oigolf.com/appointments1",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 25,
+  "price_range_max_local": 50,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue does not specify whether clubs are provided or if you must bring your own."
+    },
+    {
+      "question": "Can I bring my own food or drink?",
+      "answer": "External food and drink are not mentioned, but the venue offers a full food and drink menu for on-site consumption."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "It takes approximately 1 hour per person to complete 18 holes once familiar with the system, but playing ability and first-time use may affect duration."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, children 5 and under are free, and the venue offers a carnival game setting with golf clubs, making it suitable for families."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"8AM-9PM\"], \"Tuesday\": [\"8AM-9PM\"], \"Wednesday\": [\"8AM-9PM\"], \"Thursday\": [\"8AM-9PM\"], \"Friday\": [\"8AM-9PM\"], \"Saturday\": [\"8AM-9PM\"], \"Sunday\": [\"12-6PM\"]}"
+}

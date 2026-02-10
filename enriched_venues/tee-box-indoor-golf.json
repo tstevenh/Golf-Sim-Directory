@@ -1,0 +1,92 @@
+{
+  "name": "Tee Box Indoor Golf",
+  "address": "3535 W Houghton Lake Dr, Houghton Lake, MI 48629",
+  "city": "Houghton Lake",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 44.297648,
+  "longitude": -84.709795,
+  "phone": "+19892022894",
+  "website": "http://www.teebox-indoorgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770204366/golf_simulators/www_teebox-indoorgolf_com_ChIJExpSBkgzIIgRTG-bNtXSKDE.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Tee+Box+Indoor+Golf/@44.297647999999995,-84.70979489999999,14z/data=!4m8!1m2!2m1!1sTee+Box+Indoor+Golf!3m4!1s0x8820334806521a13:0x3128d2d5369b6f4c!8m2!3d44.297647999999995!4d-84.70979489999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJExpSBkgzIIgRTG-bNtXSKDE",
+  "email": "contact@teebox-indoorgolf.com",
+  "venue_type": "multi_sport_sim",
+  "about": "Tee Box Indoor Golf is an indoor golf simulator facility powered by TrackMan technology, located in Houghton Lake, Michigan. The venue features 4 bays equipped with TrackMan 4 technology, offering year-round access to golf on world-renowned courses, sophisticated shot analysis, tournament play, and a variety of simulator games. Pricing is structured on a per-bay, hourly basis, with individual rates at $20/hr and group options available for up to 4 players. The facility is geared towards golfers seeking to improve their game through data-driven practice, compete in tournaments, or simply enjoy the sport regardless of weather conditions.",
+  "tags": "beginner_friendly|serious_golfers|families|corporate_events|leagues|premium_tech|budget_friendly|club_rentals|coaching_available",
+  "vibe_tags": "tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Access to industry-leading TrackMan 4 launch monitor technology for precise shot tracking and data analysis",
+    "Ability to compete in global tournaments directly from the local facility",
+    "Option to refine game skills using sophisticated shot analysis and video feedback",
+    "Convenient year-round golfing regardless of weather",
+    "Variety of world-renowned digital courses available for play"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food or drinks allowed inside the simulator or near the computer; must be kept at provided tables."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol or drugs permitted on the premises."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "Features dual radar and camera system for tracking full shot trajectory, launch data, and ball flight with superior accuracy."
+    }
+  ],
+  "simulator_software": [
+    "Trackman Tournament System",
+    "Trackman Golf App"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 4,
+  "booking_url": "https://www.teebox-indoorgolf.com/contact-us/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 20,
+  "price_range_max_local": 20,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|wifi|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 4.2,
+  "faq": [
+    {
+      "question": "Do I need my own golf clubs?",
+      "answer": "No, adult right-handed and left-handed clubs, as well as children's clubs, are available for rent."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, outside food and drinks are not permitted inside the simulator or near the computer. They must be kept at the provided tables. No alcohol or drugs are allowed on the premises."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes is not explicitly stated, but the facility transitions simulators promptly at the end of the booked time if another group is scheduled afterward."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is kid-friendly, but children under the age of 10 must be supervised by a non-golfing adult."
+    }
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"12-10PM\"], \"Tuesday\": [\"12-10PM\"], \"Wednesday\": [\"12-10PM\"], \"Thursday\": [\"12-10PM\"], \"Friday\": [\"12-10PM\"], \"Saturday\": [\"10AM-10PM\"], \"Sunday\": [\"10AM-8PM\"]}"
+}

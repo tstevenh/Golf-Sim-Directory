@@ -1,0 +1,95 @@
+{
+  "name": "SwingCity Golf",
+  "address": "866 Broadway Ave #200, Bowling Green, KY 42101",
+  "city": "Bowling Green",
+  "region": "Kentucky",
+  "country": "US",
+  "latitude": 36.984832,
+  "longitude": -86.440321,
+  "phone": "+12707151177",
+  "website": "https://www.swingcitygolfbg.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770203717/golf_simulators/www_swingcitygolfbg_com_ChIJvwx_NrfpZYgR2O6ZP_HFRoo.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/SwingCity+Golf/@36.9848323,-86.4403207,14z/data=!4m8!1m2!2m1!1sSwingCity+Golf!3m4!1s0x8865e9b7367f0cbf:0x8a46c5f13f99eed8!8m2!3d36.9848323!4d-86.4403207",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJvwx_NrfpZYgR2O6ZP_HFRoo",
+  "email": "golf@swingcitygolfbg.com",
+  "venue_type": "sim_bar",
+  "about": "SwingCity Golf is an indoor golf and social lounge in Bowling Green, KY. The facility utilizes state-of-the-art Trackman simulators to provide a year-round golf experience for players of all skill levels. Patrons can enjoy world-class golf courses, a relaxing lounge area, and a full food and drink menu. The venue is designed for both casual play and competitive events, offering various membership options and private event hosting.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|private_rooms|club_rentals|late_night|coaching_available",
+  "vibe_tags": "sports_bar|casual|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "Trackman simulators provide industry-leading accuracy and realistic graphics",
+    "Relaxed lounge atmosphere perfect for unwinding after a game",
+    "Year-round access to golf regardless of weather conditions"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Kitchen available with delicious eats crafted to satisfy all tastes"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar available with refreshing drinks"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Indoor-optimized launch monitor"
+    },
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "Tour-trusted launch monitor"
+    }
+  ],
+  "simulator_so": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": null,
+  "booking_url": "https://www.yourgolfbooking.com/venues/swing-city-golf/booking/bays",
+  "pricing_model": "mixed",
+  "price_range_min_local": null,
+  "price_range_max_local": null,
+  "currency": "USD",
+  "walk_ins_allowed": null,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "The text does not specify whether they provide club rentals, so it's recommended to bring your own clubs or contact the venue directly."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No, the venue has its own kitchen and bar, offering a variety of food and drinks for purchase. Outside food and drink are not mentioned as being permitted."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The text does not specify the duration for a full 18 holes, as it depends on the simulator software and the players' pace."
+    },
+    {
+      "question": "Is SwingCity Golf kid-friendly?",
+      "answer": "Yes, the venue is described as perfect for guests of all ages and is available for birthday parties, indicating a welcoming environment for children."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"11AM-9PM\"], \"Tuesday\": [\"11AM-9PM\"], \"Wednesday\": [\"11AM-9PM\"], \"Thursday\": [\"11AM-9PM\"], \"Friday\": [\"11AM-11PM\"], \"Saturday\": [\"10AM-11PM\"], \"Sunday\": [\"11AM-7PM\"]}"
+}

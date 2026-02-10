@@ -1,0 +1,90 @@
+{
+  "name": "East Bay Golf Lab",
+  "address": "1353 Pine St Suite A, Walnut Creek, CA 94596",
+  "city": "Walnut Creek",
+  "region": "California",
+  "country": "US",
+  "latitude": 37.910065,
+  "longitude": -122.063037,
+  "phone": "+18085619825",
+  "website": "http://eastbaygolflab.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770234249/golf_simulators/eastbaygolflab_com_ChIJJa85URZhhYARKLsKmzP_bhE.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/East+Bay+Golf+Lab/@37.9100651,-122.06303729999999,14z/data=!4m8!1m2!2m1!1sEast+Bay+Golf+Lab!3m4!1s0x808561165139af25:0x116eff339b0abb28!8m2!3d37.9100651!4d-122.06303729999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJJa85URZhhYARKLsKmzP_bhE",
+  "email": "eastbaygolflab@gmail.com",
+  "venue_type": "training_studio",
+  "about": "East Bay Golf Lab is an indoor golf training facility that combines advanced technology with personalized expertise. The venue is centered around the GC QUAD launch monitor simulator from Foresight Sports, which provides precise tracking of shot data including club head speed and ball spin. This technology supports virtual play on renowned courses, practice sessions, and skill development. The facility also offers professional club fitting services and instruction to customize equipment and improve gameplay based on individual styles and preferences.",
+  "tags": "beginner_friendly|serious_practice|coaching_available|premium_tech|club_rentals|community_club|corporate_events|solo_practice|juniors_youth",
+  "vibe_tags": "tech_lab|community_club|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|coaches_instructors|juniors_youth|solo_practice",
+  "why_golfers_like_it": [
+    "GC QUAD launch monitor provides highly accurate shot tracking",
+    "Professional club fitting services tailored to individual playing styles",
+    "Access to virtual play on world-renowned golf courses",
+    "Community-focused environment with events and tournaments"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned; BYOB policy not specified"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight Sports",
+      "model": "GC QUAD",
+      "notes": "World's most advanced launch monitor for virtual golf experience"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.eastbaygolflab.com/contact",
+  "pricing_model": "unknown",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|club_fitting|leagues|events",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can bring your own clubs, or the facility offers club rentals and professional club fitting services to help you find the perfect equipment."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No food or beverage service is mentioned, and BYOB policies are not specified."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time required for 18 holes is not specified on the website."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, East Bay Golf Lab welcomes juniors and youth, making it suitable for families and beginner golfers of all ages."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"9AM-5PM\"], \"Tuesday\": [\"9AM-5PM\"], \"Wednesday\": [\"9AM-5PM\"], \"Thursday\": [\"9AM-5PM\"], \"Friday\": [\"9AM-5PM\"], \"Saturday\": [\"Closed\"], \"Sunday\": [\"Closed\"]}"
+}

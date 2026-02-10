@@ -1,0 +1,90 @@
+{
+  "name": "Inside Swing",
+  "address": "685 W Bridge St Suite 5, Owatonna, MN 55060",
+  "city": "Owatonna",
+  "region": "Minnesota",
+  "country": "US",
+  "latitude": 44.08321,
+  "longitude": -93.241637,
+  "phone": "+15072002003",
+  "website": "https://insideswinggolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770199093/golf_simulators/insideswinggolf_com_ChIJ0UR5Osvn9ocREYUzHVC4ZlQ.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Inside+Swing/@44.0832105,-93.24163689999999,14z/data=!4m8!1m2!2m1!1sInside+Swing!3m4!1s0x87f6e7cb3a7944d1:0x5466b8501d338511!8m2!3d44.0832105!4d-93.24163689999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ0UR5Osvn9ocREYUzHVC4ZlQ",
+  "email": "info@insideswinggolf.com",
+  "venue_type": "sim_bar",
+  "about": "Inside Swing Indoor Golf is a premier virtual clubhouse located in Owatonna, MN, featuring 4 swing bays equipped with high-end Uneekor EyeXO launch monitors and GSPro simulator software. The venue offers a full-service dining experience with a menu including pizza, Italian dishes, and sandwiches, alongside a fully stocked bar serving beer, wine, and craft cocktails. It is designed for both casual play and serious practice, with over 1,500 virtual courses available and flexible hourly rental options, making it suitable for individuals, groups, and corporate events.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|private_rooms|club_rentals|coaching_available",
+  "vibe_tags": "upscale_lounge|sports_bar|private_luxury|community_club",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams|solo_practice|low_handicap|coaches_instructors|juniors_youth|tourists_travelers",
+  "why_golfers_like_it": [
+    "Premium Uneekor EyeXO launch monitors with high-speed cameras for accurate shot tracking",
+    "GSPro software offering 1,500+ virtual courses with realistic physics",
+    "Full-service dining and bar, ideal for extended sessions or events",
+    "Private Swing Suite accommodating up to 15 guests with TruGolf MultiSport Arcade"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full restaurant with pizza, Italian, and sandwiches"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Fully stocked bar with beer, wine, and craft cocktails"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "EyeXO",
+      "notes": "Uses 2 high-speed cameras for instant shot feedback and high accuracy"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 4,
+  "booking_url": "https://clients.uschedule.com/insideswinggolf/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 45,
+  "price_range_max_local": 55,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need clubs?",
+      "answer": "Golf Club rentals are available for $15 per booking. Guests may also bring their own clubs, which should be cleaned prior to arrival."
+    },
+    {
+      "question": "Can I bring my own food or drink?",
+      "answer": "Outside food and drink are not permitted, as the venue offers a full-service restaurant and bar with pizza, Italian dishes, sandwiches, beer, wine, and craft cocktails."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes depends on group size and simulator usage, but typical sessions range from 1-6 hours based on the number of bays rented and activities chosen."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The venue does not explicitly state kid-friendly policies, but it offers family-friendly amenities like a full menu and multi-sport arcade games in the private suite, making it suitable for certain age groups."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-11PM\"], \"Saturday\": [\"10AM-11PM\"], \"Sunday\": [\"10AM-10PM\"]}"
+}

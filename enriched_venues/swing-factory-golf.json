@@ -1,0 +1,90 @@
+{
+  "name": "Swing Factory Golf",
+  "address": "742 S Hill St Suite 500, Los Angeles, CA 90014",
+  "city": "Los Angeles",
+  "region": "California",
+  "country": "US",
+  "latitude": 34.044829,
+  "longitude": -118.255273,
+  "phone": "+13232194582",
+  "website": "https://swingfactorygolf.com/",
+  "hero_image": "",
+  "google_maps_url": "https://www.google.com/maps/place/Swing+Factory+Golf/@34.0448295,-118.2552731,14z/data=!4m8!1m2!2m1!1sSwing+Factory+Golf!3m4!1s0x80c2c7eafbaa46f1:0xa7a4d4ba4523d62d!8m2!3d34.0448295!4d-118.2552731",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ8Uaq--rHwoARLdYjRbrUpKc",
+  "email": "swingfactorygolfla@gmail.com",
+  "venue_type": "multi_sport_sim",
+  "about": "Swing Factory Golf is an indoor golf studio located in Downtown Los Angeles, featuring state-of-the-art golf simulators. The venue offers a 3,500+ square foot facility with three simulator bays, allowing players to enjoy golf regardless of weather. It operates on a reservation-only basis but also accommodates walk-ins. The space is equipped with high-end technology, including Uneekor XO Eye 2 launch monitors and is suitable for both casual play and serious practice sessions, with pricing starting at $60 per hour.",
+  "tags": "beginner_friendly|serious_golfers|corporate_events|premium_tech|private_rooms|coaching_available|budget_friendly|family_friendly",
+  "vibe_tags": "tech_lab|modern|welcoming",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "State-of-the-art Uneekor Eye XO2 simulator technology for accurate tracking",
+    "24/7 access available with a membership for ultimate flexibility",
+    "Ability to play 18 holes in just one hour, perfect for busy schedules"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No on-site food service mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No on-site alcohol service mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "XO Eye 2",
+      "notes": "Photometric camera system with 3 cameras for seamless lefty or righty play"
+    }
+  ],
+  "simulator_software": [
+    "GSPro",
+    "Refine+"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://clients.uschedule.com/swingfactoryla/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 400,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 3,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "wifi|club_rentals|pro_shop|club_fitting|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can bring your own clubs or use the high-quality equipment provided at the venue."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No information is provided about bringing outside food or drinks, so it's best to contact the venue directly for clarification."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "You can play 18 holes in one hour on the simulators, though a 20 handicap player typically takes about an hour for a full round."
+    },
+    {
+      "question": "Is Swing Factory Golf kid-friendly?",
+      "answer": "Yes, the venue is family-friendly and welcomes golfers of all skill levels, including children."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"Closed\"], \"Wednesday\": [\"3-7PM\"], \"Thursday\": [\"Closed\"], \"Friday\": [\"2-8PM\"], \"Saturday\": [\"8AM-8PM\"], \"Sunday\": [\"8AM-8PM\"]}"
+}

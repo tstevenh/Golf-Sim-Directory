@@ -1,0 +1,97 @@
+{
+  "name": "The Green Room",
+  "address": "426 W Norfolk Ave, Norfolk, NE 68701",
+  "city": "Norfolk",
+  "region": "Nebraska",
+  "country": "US",
+  "latitude": 42.033082,
+  "longitude": -97.413031,
+  "phone": "+14024024035",
+  "website": "http://www.thegreenroomne.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770201955/golf_simulators/www_thegreenroomne_com_ChIJE6LoKXw_kIcRkHUMDEgIXcw.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Green+Room/@42.0330819,-97.4130314,14z/data=!4m8!1m2!2m1!1sThe+Green+Room!3m4!1s0x87903f7c29e8a213:0xcc5d08480c0c7590!8m2!3d42.0330819!4d-97.4130314",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJE6LoKXw_kIcRkHUMDEgIXcw",
+  "email": "jkuhn@thegreenroomne.com.",
+  "venue_type": "sim_bar",
+  "about": "The Green Room is an indoor golf simulator venue located in downtown Norfolk. It features FullSwing Golf Simulators and FullSwing Gaming experiences, including soccer, baseball, and football. The facility is climate-controlled and offers 24/7 access, allowing golfers to practice or play year-round. Pricing options include memberships, punch passes, and pay-per-bay sessions. The venue is known for its BYOB policy and is suitable for both casual play and events.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|coaching_available|private_rooms",
+  "vibe_tags": "sports_bar|tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "FullSwing simulators for realistic gameplay",
+    "24/7 access for flexible practice schedules",
+    "BYOB policy allows for a social experience",
+    "Multiple game options including sports simulators",
+    "Private events and leagues for groups"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "BYOB/Food policy allows outside food and beverages"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "BYOB policy allows outside alcohol"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "FullSwing",
+      "model": "Golf Simulator",
+      "notes": "FullSwing Golf Simulators and FullSwing Gaming experiences"
+    },
+    {
+      "brand": "FullSwing",
+      "model": "Gaming",
+      "notes": "Includes soccer, baseball, football, and other sports simulations"
+    }
+  ],
+  "simulator_software": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://app.birrdi.com/u/reserve?team_booking_link_id=the-green-room-ne",
+  "pricing_model": "mixed",
+  "price_range_min_local": 40,
+  "price_range_max_local": 6500,
+  "currency": "USD",
+  "walk_ins_allowed": false,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 5,
+  "amenities_list": "club_rentals|kitchen_food|tv_sports|private_party_room|wifi|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you must bring your own clubs as rental clubs are not available. The venue encourages bringing your own clubs to 'practice as you play'."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, the venue has a BYOB/Food policy, allowing you to bring your own beverages and food."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time varies by group size: 1 person - 1 hour, 2 people - 1:45 hours, 3 people - 2:30 hours, 4+ people - 3:30 hours."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is kid-friendly and can host birthday parties and other family events."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

@@ -1,0 +1,91 @@
+{
+  "name": "Golf Guru",
+  "address": "1614 N Higley Rd, Gilbert, AZ 85234",
+  "city": "Gilbert",
+  "region": "Arizona",
+  "country": "US",
+  "latitude": 33.37962,
+  "longitude": -111.724063,
+  "phone": "+14805682383",
+  "website": "https://golfguru360.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770251430/golf_simulators/golfguru360_com_ChIJPaNVwusHK4cR8aRYlUqaZSo.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Golf+Guru/@33.3796201,-111.7240633,14z/data=!4m8!1m2!2m1!1sGolf+Guru!3m4!1s0x872b07ebc255a33d:0x2a659a4a9558a4f1!8m2!3d33.3796201!4d-111.7240633",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJPaNVwusHK4cR8aRYlUqaZSo",
+  "email": "optimizemyswing@golfguru360.com",
+  "venue_type": "training_studio",
+  "about": "Golf Guru is a golf training studio focused on improving player performance through technology and expert coaching. The venue utilizes TrackMan simulators and video analysis to provide data-driven feedback, with a strong emphasis on customized coaching and club fitting. It operates on a membership basis for simulator access, offering 24/7 availability for practice and play. Lessons are scheduled by appointment and are conducted by PGA and TPI certified coaches who focus on simplifying the golf swing and making improvements based on individual physical capabilities and data analysis. The facility aims to help players of all levels lower their scores with consistent and accurate feedback.",
+  "tags": "serious_practice|coaching_available|club_rentals|leagues|premium_tech|beginner_friendly|juniors_youth|corporate_teams",
+  "vibe_tags": "tech_lab|industrial_training|community_club",
+  "who_its_for": "beginners|serious_golfers|families|solo_practice|low_handicap",
+  "why_golfers_like_it": [
+    "24/7 unlimited access to TrackMan simulators for practice and play",
+    "Data-driven, personalized coaching from PGA/TPI certified professionals",
+    "Custom club fitting based on launch monitor data, not guesswork",
+    "Quick measurable improvements in swing speed, distance, and accuracy"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of on-site food service."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service. BYOB policy not indicated."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "State-of-the-art TrackMan simulators with 24/7 access."
+    }
+  ],
+  "simulator_software": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://www.golfguru360.com/your-swing-optimization-plan-booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 40,
+  "price_range_max_local": 200,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|club_fitting|wifi|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.3,
+  "rating_value_for_money": 4.1,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "While you can use your own clubs, club rentals and fittings are available. Custom-fit clubs can be ordered based on launch monitor data."
+    },
+    {
+      "question": "Can I bring my own food or drink?",
+      "answer": "There is no mention of on-site food or beverage services. Bringing outside food or drink is not specifically addressed."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "With a TrackMan simulator, you can play 18 holes in as little as 40-60 minutes, offering a time-efficient golfing experience."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The studio is suitable for juniors and youth through its coaching programs. There are no specific amenities like a kids' play area mentioned, but lessons are available for new golfers of all ages."
+    }
+  ],
+  "rating_overall": 4.4,
+  "opening_hours": null
+}

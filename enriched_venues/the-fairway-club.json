@@ -1,0 +1,90 @@
+{
+  "name": "The Fairway Club",
+  "address": "908 NE Chipman Rd, Lee's Summit, MO 64086",
+  "city": "Lee's Summit",
+  "region": "Missouri",
+  "country": "US",
+  "latitude": 38.924768,
+  "longitude": -94.358967,
+  "phone": "+18168534717",
+  "website": "https://fairwayclubkc.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770202793/golf_simulators/fairwayclubkc_com_ChIJx071N18fwYcR2trACioz6NE.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Fairway+Club/@38.9247678,-94.3589667,14z/data=!4m8!1m2!2m1!1sThe+Fairway+Club!3m4!1s0x87c11f5f37f54ec7:0xd1e8332a0ac0dada!8m2!3d38.9247678!4d-94.3589667",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJx071N18fwYcR2trACioz6NE",
+  "email": "64086logan.dahmer@fairwayclubkc.com",
+  "venue_type": "training_studio",
+  "about": "The Fairway Club is an indoor golf training facility and entertainment center located in Lee's Summit, Missouri, equipped with Foresight Falcon launch monitors and GS Pro simulator software. It offers a comprehensive range of services including data-driven golf lessons, simulator rentals for individual or group play, and organized leagues. The venue provides a weatherproof environment for practice and play, featuring advanced technology for instant swing analysis and course simulation. Pricing for simulator rentals varies by package, typically ranging from $75 to $100 per hour for up to four to five people per bay.",
+  "tags": "beginner_friendly|coaching_available|leagues|premium_tech|club_rentals|serious_practice",
+  "vibe_tags": "industrial_training|community_club|modern",
+  "who_its_for": "beginners|serious_golfers|families|solo_practice|corporate_teams",
+  "why_golfers_like_it": [
+    "Tour-level Foresight Falcon technology provides instant, data-driven feedback on every swing",
+    "Simulator practice is weatherproof and more efficient than traditional methods",
+    "Variety of services from lessons and leagues to casual play with friends",
+    "Access to over 1,500 golf courses worldwide through GS Pro software"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "Not explicitly mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "Not explicitly mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": "Falcon",
+      "notes": "Advanced overhead launch monitor with high-speed precision optics"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "overhead_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://clients.uschedule.com/fairwayclubkc/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 75,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 5,
+  "amenities_list": "club_rentals|wifi|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The content does not specify whether clubs are provided, so it's recommended to bring your own equipment."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The content does not mention a policy on outside food and drinks, so this information is not available."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Skill level may vary, but typically one person can play 18 holes in one hour, and four people would take four hours."
+    },
+    {
+      "question": "Is The Fairway Club kid-friendly?",
+      "answer": "Yes, the venue welcomes families and mentions helping introduce beginners to the game, indicating it is suitable for juniors and youth."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"9AM-9PM\"], \"Saturday\": [\"9AM-9PM\"], \"Sunday\": [\"12-4PM\"]}"
+}

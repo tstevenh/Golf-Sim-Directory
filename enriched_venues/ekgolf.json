@@ -1,0 +1,96 @@
+{
+  "name": "EKGolf",
+  "address": "10890 Douglas Ave, Urbandale, IA 50322",
+  "city": "Urbandale",
+  "region": "Iowa",
+  "country": "US",
+  "latitude": 41.628235,
+  "longitude": -93.766893,
+  "phone": "+15158686091",
+  "website": "http://ekgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770207622/golf_simulators/ekgolf_com_ChIJ__8_VDac7ocRpIX3_k9jRNM.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/EKGolf/@41.6282352,-93.76689259999999,14z/data=!4m8!1m2!2m1!1sEKGolf!3m4!1s0x87ee9c36543fffff:0xd344634ffef785a4!8m2!3d41.6282352!4d-93.76689259999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ__8_VDac7ocRpIX3_k9jRNM",
+  "email": "ekgdsm@gmail.com",
+  "venue_type": "sim_bar|training_studio|retail_fitting_center",
+  "about": "EKGolf is an indoor golf facility featuring state-of-the-art simulators and a pro shop, designed for year-round play regardless of weather. The venue offers a dedicated golf-focused environment without a bar or restaurant, prioritizing practice, play, and skill improvement. Services include professional golf lessons, PXG club fitting, strength training, and corporate event packages, alongside a retail shop for golf technology and equipment.",
+  "tags": "serious_practice|corporate_events|coaching_available|beginner_friendly|premium_tech|club_fitting|juniors_youth|solo_practice|club_rentals|budget_friendly",
+  "vibe_tags": "industrial_training|tech_lab|community_club|casual|welcoming",
+  "who_its_for": "serious_golfers|beginners|juniors_youth|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Highly accurate simulator feedback that translates to real-world performance",
+    "Focus on golf without the distractions of a restaurant or bar",
+    "Year-round access to practice and play in a controlled environment",
+    "Professional-grade launch monitors and club fitting technology",
+    "Comprehensive services including lessons, fitness, and simulator installation"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No on-site food service available"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "BYOB policy allowed, with mini-fridges provided at each bay"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "SkyTrak",
+      "model": "unknown",
+      "notes": "Advanced ball tracking technology mentioned across the site"
+    },
+    {
+      "brand": "PXG",
+      "model": "unknown",
+      "notes": "Premium club fitting technology and equipment used"
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 8,
+  "booking_url": "https://clients.uschedule.com/ekgolf/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|pro_shop|club_fitting|coaching_available|leagues|ada_accessible|wifi",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can bring your own clubs or rent equipment. The facility is designed to accommodate both personal and rental clubs for use in the simulators."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, EKGolf operates on a BYOB policy. Mini-fridges and comfortable seating are available at each simulator bay for your refreshments."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "18-hole rounds typically take 1.5-2 hours depending on group size and simulator availability. Booking ahead is recommended during peak times."
+    },
+    {
+      "question": "Is EKGolf kid-friendly?",
+      "answer": "Yes, the venue offers free Sunday night golf for high school students and provides a welcoming environment for juniors and youth golfers looking to improve their game."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-9PM\"], \"Tuesday\": [\"9AM-9PM\"], \"Wednesday\": [\"9AM-9PM\"], \"Thursday\": [\"9AM-9PM\"], \"Friday\": [\"9AM-9PM\"], \"Saturday\": [\"9AM-9PM\"], \"Sunday\": [\"10AM-5PM\"]}"
+}

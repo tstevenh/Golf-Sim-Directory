@@ -1,0 +1,92 @@
+{
+  "name": "The Acres - Restaurant + Bar + Driving Range + Mini Golf",
+  "address": "9941 Reading Rd, Cincinnati, OH 45241",
+  "city": "Cincinnati",
+  "region": "Ohio",
+  "country": "US",
+  "latitude": 39.243303,
+  "longitude": -84.429719,
+  "phone": "+15137331100",
+  "website": "http://acrescincinnati.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770211732/golf_simulators/acrescincinnati_com_ChIJzxOrtHFSQIgRUniEmBkhQkw.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Acres+-+Restaurant+%2B+Bar+%2B+Driving+Range+%2B+Mini+Golf/@39.2433027,-84.42971899999999,14z/data=!4m8!1m2!2m1!1sThe+Acres+-+Restaurant+%2B+Bar+%2B+Driving+Range+%2B+Mini+Golf!3m4!1s0x88405271b4ab13cf:0x4c42211998847852!8m2!3d39.2433027!4d-84.42971899999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJzxOrtHFSQIgRUniEmBkhQkw",
+  "email": "todd@acrescincinnati.com",
+  "venue_type": "sim_bar",
+  "about": "The Acres is a 70-year-old iconic facility in the Village of Evendale, operating as a multi-venue complex that combines a golf simulator experience with a full-service restaurant, bar, and outdoor activities. The golf offerings include a 40-bay driving range, two 18-hole mini-golf courses, and a private Trackman simulation room. The establishment is designed for year-round entertainment, featuring a four-season patio with amenities like fire pits and cornhole. It serves American cuisine and a curated drink list, positioning itself as a comprehensive destination for dining, socializing, and golf.",
+  "tags": "food_and_drinks|family_friendly|kids_friendly|corporate_events|leagues|premium_tech|private_rooms|club_rentals|coaching_available|date_night",
+  "vibe_tags": "family_fun_center|sports_bar|tech_lab|community_club|welcoming|modern",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Offers a premium Trackman simulator for precise shot analysis and simulation golf",
+    "Features 40 driving range bays, with 18 being covered and heated for all-weather use",
+    "Provides a private Trackman room with an 80-inch screen for up to 8 people",
+    "Combines golf practice with dining and a relaxed social atmosphere",
+    "Accessible year-round with a covered driving range and patio space"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Chef-driven menu offering classic American food"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Curated drink list including domestic and craft beers, assorted wines, and a cocktail menu"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Private simulation room with an 80-inch screen, full driving range access, and heaters for year-round use"
+    }
+  ],
+  "simulator_software": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 40,
+  "booking_url": "https://fareharbor.com/embeds/book/acrescincinnati/?full-items=yes",
+  "pricing_model": "mixed",
+  "price_range_min_local": 50,
+  "price_range_max_local": 75,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 8,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The facility provides club rentals, but you are welcome to bring your own clubs for use on the driving range, in the Trackman simulator, or on the mini-golf courses."
+    },
+    {
+      "question": "Can I bring outside food and drinks?",
+      "answer": "Outside food and drinks are not permitted. The Acres offers a full-service restaurant and bar with a curated menu of American food, domestic and craft beers, wine, and cocktails."
+    },
+    {
+      "question": "How long does it take to play 18 holes on the simulator?",
+      "answer": "The time to complete 18 holes of simulation golf depends on group size and pace, but typically ranges from 60 to 90 minutes for a standard round."
+    },
+    {
+      "question": "Is The Acres kid-friendly?",
+      "answer": "Yes, The Acres is very family-friendly. It features two 18-hole mini-golf courses, a patio with cornhole and fire pits, and a casual atmosphere suitable for all ages."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"7AM-10PM\"], \"Tuesday\": [\"7AM-10PM\"], \"Wednesday\": [\"7AM-10PM\"], \"Thursday\": [\"7AM-10PM\"], \"Friday\": [\"7AM-10PM\"], \"Saturday\": [\"7AM-10PM\"], \"Sunday\": [\"7AM-10PM\"]}"
+}

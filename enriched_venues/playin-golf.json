@@ -1,0 +1,94 @@
+{
+  "name": "playIN Golf",
+  "address": "200 Wild Dunes Way, Old Orchard Beach, ME 04064",
+  "city": "Old Orchard Beach",
+  "region": "Maine",
+  "country": "US",
+  "latitude": 43.525327,
+  "longitude": -70.394115,
+  "phone": "+12076297070",
+  "website": "http://www.playingolfme.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770206117/golf_simulators/www_playingolfme_com_ChIJ____b-6jskwR6vUi4W8VCKU.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/playIN+Golf/@43.5253267,-70.39411539999999,14z/data=!4m8!1m2!2m1!1splayIN+Golf!3m4!1s0x4cb2a3ee6fffffff:0xa508156fe122f5ea!8m2!3d43.5253267!4d-70.39411539999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ____b-6jskwR6vUi4W8VCKU",
+  "email": "629-7070playINGOLFME@gmail.com",
+  "venue_type": "sim_bar",
+  "about": "playIN Golf is a full-service indoor golf venue located at Dunegrass Golf Club in Old Orchard Beach, with an additional location at Cowbell Restaurant in Scarborough. The facility utilizes state-of-the-art simulators to provide a lifelike golf experience, making it ideal for both avid golfers looking to maintain their skills during winter months and novices seeking to learn without the intimidation of an actual course. PlayIN Golf caters to various needs, from individual practice and league play to group events and social outings, offering a convenient and accessible golfing alternative in Maine.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|family_friendly|coaching_available",
+  "vibe_tags": "casual|welcoming|modern|sports_bar|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Industry-best ball tracking technology using regular, non-marked golf balls",
+    "Ability to play world-class courses that have hosted PGA events",
+    "Two convenient locations (Dunegrass and Cowbell Restaurant) for flexible play",
+    "Advanced swing analytics for game improvement",
+    "Variety of simulator modes including driving range and arcade-style competitions"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Available at Cowbell Restaurant location"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Available at Cowbell Restaurant location"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Full Swing",
+      "model": "FSG",
+      "notes": "The FSG sim is noted as 'the closest thing to being out on the course' by Jordan Spieth"
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://booknow.appointment-plus.com/y76j647s/",
+  "pricing_model": "per_person_hour",
+  "price_range_min_local": 40,
+  "price_range_max_local": 45,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you need to bring your own clubs. The simulators use regular, non-marked golf balls."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "Food and drinks are available for purchase at the Cowbell Restaurant location. Policies may vary at the Dunegrass location."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "18 holes requires roughly one hour of simulator time, per person."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is kid-friendly and caters to families, offering a welcoming environment for golfers of all ages and skill levels."
+    }
+  ],
+  "simulator_software": [
+    "Full Swing Golf"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"9AM-10PM\"], \"Saturday\": [\"9AM-10PM\"], \"Sunday\": [\"10AM-6PM\"]}"
+}

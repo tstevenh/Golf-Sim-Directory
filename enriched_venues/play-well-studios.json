@@ -1,0 +1,100 @@
+{
+  "name": "Play Well Studios",
+  "address": "685 E Lovell Dr, Troy, MI 48085",
+  "city": "Troy",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 42.618135,
+  "longitude": -83.136473,
+  "phone": "+12489970087",
+  "website": "https://www.playwellstudios.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770216502/golf_simulators/www_playwellstudios_com_ChIJMXoRfxzDJIgR9VmChiNY6ps.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Play+Well+Studios/@42.6181354,-83.136473,14z/data=!4m8!1m2!2m1!1sPlay+Well+Studios!3m4!1s0x8824c31c7f117a31:0x9bea5823868259f5!8m2!3d42.6181354!4d-83.136473",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJMXoRfxzDJIgR9VmChiNY6ps",
+  "email": "gw@playwellstudios.com",
+  "venue_type": "training_studio",
+  "about": "Play Well Studios is a state-of-the-art indoor golf and fitness facility located in Troy, Michigan, offering year-round instruction and practice opportunities. The facility provides an immersive experience using high-end technology, including TrackMan and GC Quad launch monitors, combined with TPI-certified golf fitness training. The studio focuses on a holistic approach to improvement, integrating biomechanical analysis with physical conditioning and strategic coaching. It is designed for golfers of all levels looking to enhance their technical skills and physical capabilities in a professional setting.",
+  "tags": "beginner_friendly|serious_golfers|coaching_available|premium_tech|golf_fitness|juniors_youth|private_rooms|corporate_teams",
+  "vibe_tags": "industrial_training|tech_lab|modern",
+  "who_its_for": "beginners|serious_golfers|families|solo_practice|juniors_youth",
+  "why_golfers_like_it": [
+    "Access to premium TrackMan and GC Quad launch monitors for precise swing analysis",
+    "TPI-certified instruction integrating biomechanical screening with fitness training",
+    "Indoor year-round practice and lesson availability in Metro Detroit",
+    "State-of-the-art performance center with advanced video analysis via Swing Catalyst"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No on-site food service is mentioned."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No on-site alcohol service is mentioned; BYOB policy is not specified."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "unknown",
+      "notes": "Dual radar system for measuring ball speed, launch angle, spin rate, and trajectory."
+    },
+    {
+      "brand": "GCQuad",
+      "model": "unknown",
+      "notes": "Quadroscopic imaging system for measuring clubhead speed, ball speed, launch angle, spin rate, and clubface angle."
+    },
+    {
+      "brand": "SwingCatalyst",
+      "model": "unknown",
+      "notes": "Pressure plate and high-speed camera system for analyzing ground reaction forces and balance."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://my.pga.com/coach/GregWhite/schedule?_ga=2.194138157.1411898407.1709407913-1503630797.1703515900",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|golf_fitness|private_rooms|pro_shop|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "The website does not specify, but it is standard practice for indoor golf facilities to allow the use of personal clubs."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "No information is provided regarding outside food and drink policies."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify a time frame, but typical simulator play for 18 holes ranges from 2-3 hours depending on the number of players."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the facility offers junior golf programs and is suitable for families seeking to improve their golf skills together."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"8AM-8PM\"], \"Tuesday\": [\"8AM-8PM\"], \"Wednesday\": [\"8AM-8PM\"], \"Thursday\": [\"8AM-8PM\"], \"Friday\": [\"8AM-5PM\"], \"Saturday\": [\"8AM-8PM\"], \"Sunday\": [\"8AM-2PM\"]}"
+}

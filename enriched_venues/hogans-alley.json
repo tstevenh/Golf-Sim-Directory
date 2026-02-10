@@ -1,0 +1,81 @@
+{
+  "name": "Hogan's Alley",
+  "address": "328 Cedar Heights Rd, Rhinebeck, NY 12572",
+  "city": "Rhinebeck",
+  "region": "New York",
+  "country": "US",
+  "latitude": 41.949154,
+  "longitude": -73.855781,
+  "phone": "+18452062533",
+  "website": "https://www.golfhogansalley.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770232804/golf_simulators/www_golfhogansalley_com_ChIJe0YtLdoL3YkRaBiDim6M3yg.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Hogan%27s+Alley/@41.9491538,-73.8557812,14z/data=!4m8!1m2!2m1!1sHogan%27s+Alley!3m4!1s0x89dd0bda2d2d467b:0x28df8c6e8a831868!8m2!3d41.9491538!4d-73.8557812",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJe0YtLdoL3YkRaBiDim6M3yg",
+  "email": "Landon@golfhogansalley.com",
+  "venue_type": "training_studio",
+  "about": "Hogan's Alley is a premium indoor golf training facility led by Landon Decker, a PGA Professional and Director of Instruction with over two decades of experience. The studio is equipped with Trackman radar technology, video analysis tools, and top-tier training aids designed to help golfers improve their swing mechanics and overall performance. It serves as a high-tech environment for serious skill development while offering a welcoming atmosphere for players of all levels.\n\nIn addition to individual coaching and studio rentals, Hogan's Alley offers comprehensive club fitting and repair services. As a TaylorMade staff professional and a Master Club Repair Technician, Landon provides custom fittings and precision equipment tweaks to optimize a player's bag. The facility features a comfortable setting where golfers can practice on virtual courses from around the world or receive personalized instruction tailored to their specific needs.",
+  "tags": "serious_practice|coaching_available|instruction|lessons|improvement|trackman|club_fitting|private_events|custom_club_repair",
+  "vibe_tags": "private_luxury|industrial_training|welcoming|professional|modern|dog_friendly",
+  "who_its_for": "serious_golfers|beginners|coaches_instructors|juniors_youth|solo_practice",
+  "why_golfers_like_it": [
+    "Trackman radar technology for precise data analysis",
+    "Professional instruction from a PGA-certified coach with 20+ years experience",
+    "Custom club fitting by a TaylorMade staff professional",
+    "Studio rental availability for independent practice or entertainment",
+    "Full-service club repair and customization shop on-site",
+    "Welcoming atmosphere featuring facility dogs Hogan and Annie"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": null,
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "unknown",
+      "notes": "Radar-based launch monitor technology"
+    }
+  ],
+  "simulator_software": [
+    "Virtual Courses (Global)"
+  ],
+  "launch_monitor_type": "Trackman Radar",
+  "ball_tracking": "Radar",
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.golfhogansalley.com/booking-calendar/individual-private-lesson",
+  "pricing_model": "Per Lesson / Per Session",
+  "price_range_min_local": 135,
+  "price_range_max_local": 200,
+  "currency": "USD",
+  "walk_ins_allowed": false,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "Trackman Launch Monitor|Video Analysis|Club Repair|Custom Club Fitting|Golf Shop|Restrooms",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "While bringing your own clubs is recommended for fitting purposes, the venue likely has rental options available if needed. It is best to contact them in advance to confirm availability."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The facility is a training studio. While specific policies aren't listed, most training-focused studios allow non-alcoholic beverages, but it is recommended to check with the staff regarding food."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "On a simulator, 18 holes typically takes about 45 to 60 minutes, depending on the pace of play and the software settings used."
+    },
+    {
+      "question": "Is this kid-friendly?",
+      "answer": "Yes, Hogan's Alley is family-friendly. They feature a welcoming environment and a coach who works with students to improve their skills and have fun."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"8AM-6PM\"], \"Tuesday\": [\"8AM-6PM\"], \"Wednesday\": [\"8AM-6PM\"], \"Thursday\": [\"8AM-6PM\"], \"Friday\": [\"8AM-6PM\"], \"Saturday\": [\"8AM-6PM\"], \"Sunday\": [\"8AM-6PM\"]}"
+}

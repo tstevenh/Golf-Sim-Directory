@@ -1,0 +1,90 @@
+{
+  "name": "Quail Run Leisure Center - Pool & Golf Sim",
+  "address": "1283 Timberhawk Trail, Dayton, OH 45458",
+  "city": "Dayton",
+  "region": "Ohio",
+  "country": "US",
+  "latitude": 39.605724,
+  "longitude": -84.14238,
+  "phone": "+19373719944",
+  "website": "https://qrlc.org/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770198690/golf_simulators/qrlc_org_ChIJEWO-Nz2PQIgRyyHnQO2pJzE.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Quail+Run+Leisure+Center+-+Pool+%26+Golf+Sim/@39.6057242,-84.14238,14z/data=!4m8!1m2!2m1!1sQuail+Run+Leisure+Center+-+Pool+%26+Golf+Sim!3m4!1s0x88408f3d37be6311:0x3127a9ed40e721cb!8m2!3d39.6057242!4d-84.14238",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJEWO-Nz2PQIgRyyHnQO2pJzE",
+  "email": "qrlc.pool@gmail.com",
+  "venue_type": "multi_sport_sim",
+  "about": "Quail Run Leisure Center offers a state-of-the-art golf simulator experience alongside other amenities like a swimming pool and event spaces. The venue provides a contactless rental system where users can book tee times online and receive a digital key to access the facility. It is designed to be a family-friendly environment accessible to both members and non-members, featuring a simulator that allows for various play modes including local, online, and tournament formats. Pricing is structured on an hourly basis with a notable discount for members, making it a flexible option for individuals and groups looking to enjoy virtual golf in a community setting.",
+  "tags": "beginner_friendly|food_and_drinks|families|corporate_events|leagues|premium_tech|budget_friendly|private_rooms|club_rentals|community_club",
+  "vibe_tags": "family_fun_center|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice|low_handicap|juniors_youth|tourists_travelers",
+  "why_golfers_like_it": [
+    "ProTee VX overhead launch monitor provides accurate data for both right and left-handed players",
+    "GSPro software offers access to a wide variety of golf courses worldwide",
+    "Contactless rental process allows for convenient and private sessions",
+    "No need for special balls or tracking stickers on clubs"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Outside food is allowed"
+    },
+    {
+      "type": "alcohol",
+      "available": null,
+      "notes": "No information provided"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "ProTee",
+      "model": "VX",
+      "notes": "Overhead launch monitor"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "overhead_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 1,
+  "booking_url": "https://clients.uschedule.com/qrlc/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 20,
+  "price_range_max_local": 30,
+  "currency": "USD",
+  "walk_ins_allowed": false,
+  "coaching_available": "unknown",
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|kitchen_food|tv_sports|private_party_room|wifi|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you are required to bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, outside food is allowed."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes is not specified."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is family-friendly and suitable for children."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"8AM-11PM\"], \"Tuesday\": [\"8AM-11PM\"], \"Wednesday\": [\"8AM-11PM\"], \"Thursday\": [\"8AM-11PM\"], \"Friday\": [\"8AM-11PM\"], \"Saturday\": [\"8AM-11PM\"], \"Sunday\": [\"8AM-11PM\"]}"
+}

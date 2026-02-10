@@ -1,0 +1,91 @@
+{
+  "name": "Olde Mill Golf Club",
+  "address": "6101 W X Y Ave, Schoolcraft, MI 49087",
+  "city": "Schoolcraft",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 42.089119,
+  "longitude": -85.667068,
+  "phone": "+12696795625",
+  "website": "https://www.oldemillgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770268098/golf_simulators/www_oldemillgolf_com_ChIJLwPUtekLF4gRkIRKty8h-gs.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Olde+Mill+Golf+Club/@42.089118899999995,-85.66706839999999,14z/data=!4m8!1m2!2m1!1sOlde+Mill+Golf+Club!3m4!1s0x88170be9b5d4032f:0xbfa212fb74a8490!8m2!3d42.089118899999995!4d-85.66706839999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJLwPUtekLF4gRkIRKty8h-gs",
+  "email": "oldemillgolfclub@gmail.com",
+  "venue_type": "country_club",
+  "about": "Olde Mill Golf Club is a traditional 18-hole golf facility in Schoolcraft, Michigan, founded in 1958 and expanded to its current design by Reggie Sauger. The course features a classic Midwestern layout spanning 6,195 yards from the longest tees with a par of 72, course rating of 69.2, and slope rating of 117. Known for its challenging terrain, the course winds along Flowerfield Creek with eight water holes, dense woodlands framing the front nine, and numerous sand traps, creating a demanding yet picturesque playing experience. Beyond golf, the venue offers indoor golf simulators with Foresight technology, a driving range, practice green, and full amenities including The Grill restaurant, event spaces for tournaments and weddings, and an online pro shop for equipment and memberships.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|private_rooms|club_rentals|coaching_available",
+  "vibe_tags": "family_fun_center|community_club|casual|welcoming",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Premium Foresight simulators for year-round play",
+    "Challenging yet scenic traditional course design",
+    "Full-service facilities including dining and event hosting",
+    "Flexible membership options for various skill levels",
+    "Convenient online booking for tee times and simulator reservations"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full-service dining available at The Grill restaurant"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Beverage service available during operating hours, bar services Monday-Saturday 10am-8pm, Sunday 11am-6pm"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": null,
+      "notes": "Three new simulators installed for weather-independent play"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": "unknown",
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://www.oldemillgolf.com/simulators/",
+  "pricing_model": "mixed",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 3,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|kitchen_food|private_party_room|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "Players are welcome to bring their own clubs or rentals may be available through the pro shop."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Food and drinks are available for purchase on-site at The Grill and bar services. No external food or drink policies are specified."
+    },
+    {
+      "question": "How long does it take to play 18 holes on the simulator?",
+      "answer": "The time required to complete a full 18 holes on the simulator is not specified, but typical simulator sessions range 1-2 hours depending on group size and pace."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, Olde Mill Golf Club welcomes families and offers a family-friendly atmosphere with multiple amenities suitable for juniors including practice facilities and simulator access."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-9PM\"], \"Tuesday\": [\"9AM-9PM\"], \"Wednesday\": [\"9AM-9PM\"], \"Thursday\": [\"9AM-9PM\"], \"Friday\": [\"9AM-9PM\"], \"Saturday\": [\"9AM-9PM\"], \"Sunday\": [\"9AM-9PM\"]}"
+}

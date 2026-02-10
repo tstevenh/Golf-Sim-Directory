@@ -1,0 +1,88 @@
+{
+  "name": "COMO Golf Club",
+  "address": "801 N College Ave Building A, Columbia, MO 65201",
+  "city": "Columbia",
+  "region": "Missouri",
+  "country": "US",
+  "latitude": 38.959473,
+  "longitude": -92.321956,
+  "phone": "+16157850654",
+  "website": "https://www.comogolfclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770202667/golf_simulators/www_comogolfclub_com_ChIJ3_l1Zkq33IcRrPBJdxlsN2s.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/COMO+Golf+Club/@38.9594727,-92.32195639999999,14z/data=!4m8!1m2!2m1!1sCOMO+Golf+Club!3m4!1s0x87dcb74a6675f9df:0x6b376c197749f0ac!8m2!3d38.9594727!4d-92.32195639999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ3_l1Zkq33IcRrPBJdxlsN2s",
+  "venue_type": "sim_bar",
+  "about": "COMO Golf Club is an indoor golf and multisport simulator lounge in Columbia, Missouri. It utilizes tour-level technology in a comfortable, climate-controlled space with a relaxed, social atmosphere. The venue features golf and multisport experiences with beverage service and a selection of shareable food options. Booking is strongly recommended, especially for evenings and weekends.",
+  "tags": "food_and_drinks|beginner_friendly|leagues|premium_tech|multi_sport_sim|corporate_events|families|solo_practice|date_night",
+  "vibe_tags": "casual|welcoming|modern|sports_bar|community_club",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "Tour-level Uneekor Eye XO2 launch monitors for accurate ball and club tracking",
+    "Climate-controlled, indoor space with a relaxed social vibe and beverage service",
+    "Multisport capabilities beyond golf, offering varied activities and games"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Selection of simple shareable food options available for purchase."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Beer, wine, and other beverages available for purchase. Outside alcohol is not permitted."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "Eye XO2",
+      "notes": "Ceiling-mounted sports camera with auto-calibration for instant action tracking."
+    }
+  ],
+  "simulator_software": [
+    "Uneekor GameDay"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 4,
+  "booking_url": "https://www.vteegolf.com/comogolfclub",
+  "pricing_model": "mixed",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": false,
+  "private_rooms_count": 0,
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|leagues|wifi|pro_shop",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own golf clubs?",
+      "answer": "Yes, you must bring your own golf clubs to use the simulators."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No, outside food and drinks (including alcohol) are not allowed in the facility, with the exception of prior arrangements for private events."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Most groups book 1-2 hours. Larger groups or full 18-hole rounds may require more time."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is kid-friendly. They can accommodate kids' parties and have a young boy using a soccer ball in their multisport simulator in promotional imagery."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"11AM-10PM\"], \"Tuesday\": [\"11AM-10PM\"], \"Wednesday\": [\"11AM-10PM\"], \"Thursday\": [\"11AM-10PM\"], \"Friday\": [\"11AM-10PM\"], \"Saturday\": [\"11AM-10PM\"], \"Sunday\": [\"11AM-10PM\"]}"
+}

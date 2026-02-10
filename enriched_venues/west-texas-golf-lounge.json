@@ -1,0 +1,90 @@
+{
+  "name": "West Texas Golf Lounge",
+  "address": "9201 Town Square Blvd Suite 1240, Amarillo, TX 79119",
+  "city": "Amarillo",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 35.149206,
+  "longitude": -101.945054,
+  "phone": "+18068031783",
+  "website": "https://www.westtexasgolflounge.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770214753/golf_simulators/www_westtexasgolflounge_com_ChIJ0dJytqtRAYcR49R_4seTka8.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/West+Texas+Golf+Lounge/@35.149206299999996,-101.9450542,14z/data=!4m8!1m2!2m1!1sWest+Texas+Golf+Lounge!3m4!1s0x870151abb672d2d1:0xaf9193c7e27fd4e3!8m2!3d35.149206299999996!4d-101.9450542",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ0dJytqtRAYcR49R_4seTka8",
+  "email": "cody@westtexasgolflounge.com",
+  "venue_type": "sim_bar",
+  "about": "West Texas Golf Lounge is an indoor golf facility equipped with TrackMan simulators, providing a realistic golfing experience in Amarillo. It combines state-of-the-art technology with a full-service bar, making it suitable for both golfers and social gatherings. The venue offers hourly simulator rentals, memberships, and hosts leagues and private events. It is an owner-operated establishment focused on creating a welcoming environment for both casual players and serious golfers.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|private_rooms|club_rentals|late_night|coaching_available",
+  "vibe_tags": "upscale_lounge|sports_bar|party_atmosphere|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Professional-grade TrackMan simulators with 300+ courses",
+    "Full-service bar for socializing and enjoying drinks during gameplay",
+    "Accurate swing analysis and customizable simulator settings",
+    "Owner-operated for a personalized and attentive experience"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food services mentioned on the website"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full-service bar with craft beers, fine wines, cocktails, and signature drinks"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "TrackMan",
+      "model": "iO",
+      "notes": "State-of-the-art TrackMan simulators used by professionals"
+    }
+  ],
+  "simulator_software": [
+    "TrackMan Virtual Golf"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "gimme_circle|real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://westtexasgolflounge.as.me/schedule.php",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|tv_sports|private_party_room|club_fitting|leagues|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Club rentals are available, featuring the latest equipment for demoing and practice."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No outside food or drinks are allowed, but the venue offers a full-service bar with beverages."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "An 18-hole round typically takes 45-60 minutes per player."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue welcomes families and is suitable for beginners and juniors."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"9AM-12AM\"], \"Saturday\": [\"9AM-12AM\"], \"Sunday\": [\"12-10PM\"]}"
+}

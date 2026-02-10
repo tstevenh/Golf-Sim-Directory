@@ -1,0 +1,88 @@
+{
+  "name": "Divot Golf Club",
+  "address": "9304 S 700 E, Sandy, UT 84070",
+  "city": "Sandy",
+  "region": "Utah",
+  "country": "US",
+  "latitude": 40.582412,
+  "longitude": -111.873575,
+  "phone": "+18012596581",
+  "website": "http://divotgc.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770205878/golf_simulators/divotgc_com_ChIJwa6JN1uJUocRLph1Ig_IzQI.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Divot+Golf+Club/@40.5824119,-111.8735746,14z/data=!4m8!1m2!2m1!1sDivot+Golf+Club!3m4!1s0x8752895b3789aec1:0x2cdc80f2275982e!8m2!3d40.5824119!4d-111.8735746",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJwa6JN1uJUocRLph1Ig_IzQI",
+  "venue_type": "training_studio",
+  "about": "Divot Golf Club is a member-only golf simulator lounge located in Sandy, Utah. The facility provides 24/7 access to its private simulator bays, focusing on utilizing Trackman technology for advanced swing and ball data analysis to help golfers improve their game. With a limited membership capped at 35 individuals, the venue offers a premium, focused environment for practice and play. The primary model is based on membership tiers, allowing unlimited access to the simulator for up to 3 hours per booking, complemented by access to over 270 virtual golf courses and extensive practice data.",
+  "tags": "serious_practice|premium_tech|coaching_available|private_rooms|corporate_events|beginner_friendly|solo_practice|low_handicap",
+  "vibe_tags": "tech_lab|private_luxury|community_club",
+  "who_its_for": "serious_golfers|beginners|coaches_instructors|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Access to professional-grade Trackman 4 technology with 26 data points for precise swing and ball analysis",
+    "24/7 availability and year-round play, unaffected by weather or holidays",
+    "Access to over 270 world-renowned golf courses and continuous software updates"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "BYOB policy is not explicitly mentioned, but no on-site kitchen or food service is described."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No on-site bar or alcohol service is mentioned in the provided content."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "Ground-based launch monitor using two radars and one camera with Optically Enhanced Radar Tracking (OERT). Positioned 8 feet behind the golfer."
+    }
+  ],
+  "simulator_software": [
+    "Trackman Performance Studio"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 1,
+  "booking_url": "https://clients.uschedule.com/divotgolfclub/booking",
+  "pricing_model": "membership_only",
+  "price_range_min_local": null,
+  "price_range_max_local": null,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|tv_sports|wifi|leagues|private_party_room",
+  "rating_tech_quality": 5.0,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The provided content does not specify whether rental clubs are available. It is recommended to bring your own clubs for the best experience with the Trackman technology."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The website does not have a clear policy on outside food and drink. While not explicitly forbidden, the focus is on golf practice and simulation, not food service."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "An 18-hole round can be played on the simulator, but a specific time frame is not provided. The duration will depend on the course selected and the pace of play."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Divot Golf Club is a member-only lounge focused on adult golf practice. While the technology could be used by juniors, the described environment and 21+ age-restricted events indicate it is not marketed as a family-friendly venue."
+    }
+  ],
+  "rating_overall": 4.4,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

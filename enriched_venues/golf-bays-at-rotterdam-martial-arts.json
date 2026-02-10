@@ -1,0 +1,88 @@
+{
+  "name": "Golf Bays at Rotterdam Martial Arts",
+  "address": "2696 Hamburg St, Schenectady, NY 12303",
+  "city": "Schenectady",
+  "region": "New York",
+  "country": "US",
+  "latitude": 42.775476,
+  "longitude": -73.935431,
+  "phone": "+15189302074",
+  "website": "https://golfbaysatrotterdam.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770249453/golf_simulators/golfbaysatrotterdam_com_ChIJlWngFZpz3okRVm3Lt9LuL64.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Golf+Bays+at+Rotterdam+Martial+Arts/@42.7754761,-73.935431,14z/data=!4m8!1m2!2m1!1sGolf+Bays+at+Rotterdam+Martial+Arts!3m4!1s0x89de739a15e06995:0xae2feed2b7cb6d56!8m2!3d42.7754761!4d-73.935431",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJlWngFZpz3okRVm3Lt9LuL64",
+  "venue_type": "multi_sport_sim",
+  "about": "Golf Bays at Rotterdam Martial Arts is an indoor golf simulation venue featuring SkyTrak Plus simulators, allowing year-round practice regardless of weather conditions. The facility offers a comfortable 70-degree environment with instant feedback on swing mechanics, shot length, ball carry, club path, and face angle. Patrons can practice on driving ranges or play full rounds on over 30 renowned courses, including Pebble Beach and Doral, with 18 holes typically taking about one hour per person. The venue is co-located within a martial arts school, providing a unique multi-sport setting with bays limited to two people per session.",
+  "tags": "beginner_friendly|kids_friendly|leagues|premium_tech|private_rooms|coaching_available|budget_friendly|solo_practice",
+  "vibe_tags": "family_fun_center|tech_lab|community_club",
+  "who_its_for": "beginners|families|solo_practice|juniors_youth|corporate_teams",
+  "why_golfers_like_it": [
+    "Year-round indoor practice at a comfortable 70 degrees regardless of weather",
+    "SkyTrak Plus simulator provides instant feedback on all swing mechanics for precise improvement",
+    "Access to over 30 world-class courses including Pebble Beach and Doral"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of food service on premises"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "Alcoholic beverages not permitted due to martial arts school setting with children"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "SkyTrak",
+      "model": "Plus",
+      "notes": "Primary simulator with swing analysis and instant feedback systems"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "overhead_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://app.acuityscheduling.com/schedule.php?owner=37459437&appointmentType=85601380",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 30,
+  "price_range_max_local": 35,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 2,
+  "amenities_list": "club_rentals|leagues|wifi|pro_shop|coaching_available",
+  "rating_tech_quality": 3.8,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 4.2,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "The website doesn't explicitly state whether club rentals are available, though it mentions 'club rentals' as an amenity. It's recommended to call ahead if you need equipment."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drinks are not mentioned as permitted. Alcoholic beverages are explicitly not allowed due to the martial arts school setting with children."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Golfers typically take about 1 hour per person to complete 18 holes on the simulated courses."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "Yes, the venue is kid-friendly as it's co-located with a martial arts school that has children. The simulators are semi-private with no more than 4 participants at one time, making it suitable for families."
+    }
+  ],
+  "rating_overall": 4.0,
+  "opening_hours": "{\"Monday\": [\"4:30-8PM\"], \"Tuesday\": [\"4:30-8PM\"], \"Wednesday\": [\"4:30-8PM\"], \"Thursday\": [\"4:30-8PM\"], \"Friday\": [\"4:30-7PM\"], \"Saturday\": [\"Closed\"], \"Sunday\": [\"Closed\"]}"
+}

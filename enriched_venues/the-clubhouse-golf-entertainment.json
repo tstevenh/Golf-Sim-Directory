@@ -1,0 +1,89 @@
+{
+  "name": "The Clubhouse Golf & Entertainment",
+  "address": "220 S Main St #3302, Middleton, MA 01949",
+  "city": "Middleton",
+  "region": "Massachusetts",
+  "country": "US",
+  "latitude": 42.579549,
+  "longitude": -70.999897,
+  "phone": "+19785398725",
+  "website": "https://www.theclubhousege.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770199826/golf_simulators/www_theclubhousege_com_ChIJv4O6Lf0R44kRB5LmbtKc4rw.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Clubhouse+Golf+%26+Entertainment/@42.5795495,-70.9998973,14z/data=!4m8!1m2!2m1!1sThe+Clubhouse+Golf+%26+Entertainment!3m4!1s0x89e311fd2dba83bf:0xbce29cd26ee69207!8m2!3d42.5795495!4d-70.9998973",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJv4O6Lf0R44kRB5LmbtKc4rw",
+  "venue_type": "sim_bar",
+  "about": "The Clubhouse Golf & Entertainment is a 12,000-square-foot indoor golf and entertainment venue located in Middleton, MA. It features official PGA Tour aboutGolf® simulators and offers a range of activities including golf, a game room with billiards, table tennis, darts, cornhole, and shuffleboard. The venue is designed for both individual play and group events, catering to various needs from casual golf sessions to corporate gatherings. It provides a climate-controlled environment for year-round golfing practice and play, with professional instruction available for those looking to improve their game.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|family_friendly|coaching_available",
+  "vibe_tags": "casual|welcoming|modern|sports_bar",
+  "who_its_for": "beginners|families|corporate_teams|solo_practice|large_groups",
+  "why_golfers_like_it": [
+    "State-of-the-art PGA Tour aboutGolf® simulators with comprehensive shot data analysis",
+    "Year-round, climate-controlled environment for golf practice and play",
+    "Variety of on-site amenities including a full game room for post-golf entertainment",
+    "Flexible booking options for individuals and groups up to 4 players per simulator"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Food service available for events and in-game dining"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available for in-house events and dining"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "aboutGolf",
+      "model": "PGA Tour Simulator",
+      "notes": "Official PGA Tour simulator with advanced tracking technology"
+    }
+  ],
+  "simulator_software": [
+    "PGA Tour aboutGolf"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://clients.uschedule.com/theclubhousege/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 25,
+  "price_range_max_local": 35,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "The venue provides all necessary golf equipment, including clubs, balls, and tees. Guests can also use the facility's on-site pro shop for club rentals and purchases from brands like TaylorMade, Adidas, Ashworth, and Adams."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue has a full kitchen and bar service available for in-house events and dining. Outside food and drink policies may vary for private events and should be confirmed when booking."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "18-hole simulation times vary depending on the course and number of players, but typically range from 2-4 hours per simulator bay. The venue offers packages allowing for extended playtime and flexible booking options."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, The Clubhouse is kid-friendly and welcomes families. It offers various game room activities suitable for children including billiards, table tennis, darts, cornhole, and shuffleboard. The venue can also host birthday parties and other family events."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"11AM-10PM\"], \"Tuesday\": [\"11AM-10PM\"], \"Wednesday\": [\"11AM-10PM\"], \"Thursday\": [\"11AM-10PM\"], \"Friday\": [\"11AM-11:30PM\"], \"Saturday\": [\"11AM-11:30PM\"], \"Sunday\": [\"11AM-6PM\"]}"
+}

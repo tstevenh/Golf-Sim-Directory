@@ -1,0 +1,91 @@
+{
+  "name": "Birdie Bros Bar & Restaurant",
+  "address": "300 Indian Lake Blvd suite e160, Hendersonville, TN 37075",
+  "city": "Hendersonville",
+  "region": "Tennessee",
+  "country": "US",
+  "latitude": 36.329268,
+  "longitude": -86.591718,
+  "phone": "+16157284653",
+  "website": "http://www.birdiebros.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770233996/golf_simulators/www_birdiebros_com_ChIJW4wrS0RHZIgRSECN6MBeMOY.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Birdie+Bros+Bar+%26+Restaurant/@36.329267699999996,-86.5917175,14z/data=!4m8!1m2!2m1!1sBirdie+Bros+Bar+%26+Restaurant!3m4!1s0x886447444b2b8c5b:0xe6305ec0e88d4048!8m2!3d36.329267699999996!4d-86.5917175",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJW4wrS0RHZIgRSECN6MBeMOY",
+  "email": "info@birdiebros.com",
+  "venue_type": "sim_bar",
+  "about": "Birdie Bros is a 10,000+ square-foot indoor golf venue and sports bar that combines high-tech golf simulators with a full-service restaurant and bar. The facility features 7 high-tech simulators, 17 large TV screens, and a dedicated food and beverage menu. It offers a range of experiences from individual golf sessions to large group events and leagues. Pricing starts at $48 per hour for bay rentals, with membership options available.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|leagues|premium_tech|private_rooms|club_rentals|late_night|coaching_available",
+  "vibe_tags": "sports_bar|tech_lab|party_atmosphere|community_club",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "State-of-the-art Trackman iO simulators with advanced ball and club tracking technology",
+    "Premium VIP room with private bar and dedicated bartender for exclusive group experiences",
+    "Large venue with multiple simulator options accommodating groups up to 20 people",
+    "Immersive 180-degree curved screens for a realistic golf experience",
+    "Extensive food and drink menu available alongside golf sessions"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Robust culinary menu with elevated handhelds and entrees described as 'country club on steroids'"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with over 100 wine brands, 20+ beer brands, and extensive cocktail menu"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "5 standard Trackman simulators with radar technology and 1 ultra-wide 180-degree Trackman iO simulator with 23-foot curved screen"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 7,
+  "booking_url": "https://birdiebros.com/reservations/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 48,
+  "price_range_max_local": 48.0,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 20,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The content doesn't specify, but typically golf simulator venues provide rental clubs."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No, BYOB is not mentioned. The venue has its own full-service kitchen and bar."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Typically 1-2 hours depending on simulator software and pace of play."
+    },
+    {
+      "question": "Is Birdie Bros kid-friendly?",
+      "answer": "Yes, the venue offers party games like 'Party Putt' mini-golf and accommodates large groups, making it suitable for families."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"11AM-9PM\"], \"Tuesday\": [\"11AM-9PM\"], \"Wednesday\": [\"11AM-9PM\"], \"Thursday\": [\"11AM-9PM\"], \"Friday\": [\"11AM-10PM\"], \"Saturday\": [\"10AM-10PM\"], \"Sunday\": [\"10AM-9PM\"]}"
+}

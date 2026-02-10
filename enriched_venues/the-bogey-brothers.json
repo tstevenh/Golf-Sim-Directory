@@ -1,0 +1,89 @@
+{
+  "name": "The Bogey Brothers",
+  "address": "2646 NC-87, Cameron, NC 28326",
+  "city": "Cameron",
+  "region": "North Carolina",
+  "country": "US",
+  "latitude": 35.245776,
+  "longitude": -79.025702,
+  "phone": "+19193431507",
+  "website": "https://thebogeybrothers.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770222936/golf_simulators/thebogeybrothers_com_ChIJp9FUK-tdq4kRMb_oZNJgn4k.png",
+  "google_maps_url": "https://www.google.com/maps/place/The+Bogey+Brothers/@35.2457761,-79.0257022,14z/data=!4m8!1m2!2m1!1sThe+Bogey+Brothers!3m4!1s0x89ab5deb2b54d1a7:0x899f60d264e8bf31!8m2!3d35.2457761!4d-79.0257022",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJp9FUK-tdq4kRMb_oZNJgn4k",
+  "venue_type": "sim_bar",
+  "about": "The Bogey Brothers is a golf simulator venue that utilizes Full Swing technology to provide an indoor golfing experience year-round. The facility features multi-sport simulators suitable for all skill levels, offering golf alongside other sports like baseball, basketball, and zombie dodgeball. The venue includes a full bar with a variety of beers and wines, operates on a pricing model that likely includes hourly bay rentals and memberships, and caters to both serious golfers and casual visitors seeking entertainment.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|family_friendly|private_rooms|club_rentals",
+  "vibe_tags": "sports_bar|family_fun_center|community_club",
+  "who_its_for": "beginners|families|corporate_teams|solo_practice|juniors_youth",
+  "why_golfers_like_it": [
+    "State-of-the-art Full Swing dual-tracking technology for accurate ball flight",
+    "Access to over 45+ iconic PGA TOUR courses in high detail",
+    "Ability to play golf year-round regardless of weather",
+    "Multi-sport capability offering variety beyond just golf"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Food is available, with 10% off for members."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar available with a variety of draft beer, bottled beer, and red/white wine."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Full Swing",
+      "model": "KIT",
+      "notes": "Launch monitor providing 16 points of club and ball data with high-resolution video."
+    }
+  ],
+  "simulator_software": [
+    "Full Swing Golf"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://thebogeybrothers.com/book-a-bay/",
+  "pricing_model": "mixed",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, but bringing your own clubs is highly encouraged. All clubs and balls must be cleaned before play to avoid damage to the screens and turf."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue offers a full bar with beer and wine, and food is available with a 10% discount for members."
+    },
+    {
+      "question": "How long will it take to play 18 holes?",
+      "answer": "On average, it takes each golfer 1 hour to play 18 holes. For a group, allow 1 hour per person (e.g., a 4-some takes at least 4 hours). Beginner groups should allow an extra hour."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is suitable for golfers of all ages and skill levels, including juniors."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"12-9PM\"], \"Tuesday\": [\"12-9PM\"], \"Wednesday\": [\"12-9PM\"], \"Thursday\": [\"12-9PM\"], \"Friday\": [\"10AM-10PM\"], \"Saturday\": [\"10AM-10PM\"], \"Sunday\": [\"12-6PM\"]}"
+}

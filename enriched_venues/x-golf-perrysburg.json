@@ -1,0 +1,89 @@
+{
+  "name": "X-Golf Perrysburg",
+  "address": "26567 N Dixie Hwy, Perrysburg, OH 43551",
+  "city": "Perrysburg",
+  "region": "Ohio",
+  "country": "US",
+  "latitude": 41.537638,
+  "longitude": -83.637528,
+  "phone": "+14194410055",
+  "website": "https://playxgolf.com/locations/perrysburg",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770211776/golf_simulators/playxgolf_com_ChIJJ_qE4Pt3PIgRkhONJQurjuU.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/X-Golf+Perrysburg/@41.5376384,-83.6375283,14z/data=!4m8!1m2!2m1!1sX-Golf+Perrysburg!3m4!1s0x883c77fbe084fa27:0xe58eab0b258d1392!8m2!3d41.5376384!4d-83.6375283",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJJ_qE4Pt3PIgRkhONJQurjuU",
+  "email": "info@xgolfperrysburg.com",
+  "venue_type": "sim_bar",
+  "about": "X-Golf Perrysburg is an indoor golf simulator venue that offers players the opportunity to play on virtual golf courses using advanced technology. The facility features multiple simulator bays equipped with world-class indoor golf simulators, each capable of accommodating up to six people. Pricing is based on hourly bay rental, with rates varying by day of the week. The venue is designed for both casual play and serious practice, offering amenities like a full sports bar, private party spaces, and various membership tiers for frequent visitors. In addition to standard simulator use, the facility hosts leagues, tournaments, and provides golf lessons from PGA-certified instructors.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|private_rooms|coaching_available|late_night|family_friendly",
+  "vibe_tags": "sports_bar|modern|tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Unparalleled accuracy and realism through advanced camera systems, infrared lasers, and impact sensors",
+    "Variety of membership plans offering free monthly hours and discounts on food, leagues, and merchandise",
+    "Host of leagues and tournaments for competitive play and community engagement"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full in-house and catering menu available. Members receive discounts on food purchases."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with a top-quality liquor selection available."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "X-Golf",
+      "model": "proprietary simulator",
+      "notes": "State-of-the-art system combining camera systems, infrared lasers, impact sensors, and automated ball teeing."
+    }
+  ],
+  "simulator_software": [
+    "proprietary"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://clients.uschedule.com/xgolfperrysburg/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 45,
+  "price_range_max_local": 55,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 0,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Club rentals are available for members and lessons. The venue welcomes golfers of all skill levels."
+    },
+    {
+      "question": "Can I bring my own food or drink?",
+      "answer": "The venue has a full sports bar and kitchen with in-house and catering menus available for purchase."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Each individual can finish 18 holes in about one hour. For multiple players, you may need to book an additional hour per person."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, all ages and levels are welcome, and children of all ages can enjoy the facility and lessons."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-11PM\"], \"Tuesday\": [\"9AM-11PM\"], \"Wednesday\": [\"9AM-11PM\"], \"Thursday\": [\"9AM-11PM\"], \"Friday\": [\"9AM-12AM\"], \"Saturday\": [\"9AM-12AM\"], \"Sunday\": [\"9AM-11PM\"]}"
+}

@@ -1,0 +1,90 @@
+{
+  "name": "The Learning Center Golf",
+  "address": "1201 12 Stones Crossing, Goodlettsville, TN 37072",
+  "city": "Goodlettsville",
+  "region": "Tennessee",
+  "country": "US",
+  "latitude": 36.32407,
+  "longitude": -86.674581,
+  "phone": "+16154823329",
+  "website": "http://www.thelearningcentergolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770259640/golf_simulators/www_thelearningcentergolf_com_ChIJBemRU4RFZIgRtKH2kymrxvU.png",
+  "google_maps_url": "https://www.google.com/maps/place/The+Learning+Center+Golf/@36.324069699999995,-86.6745808,14z/data=!4m8!1m2!2m1!1sThe+Learning+Center+Golf!3m4!1s0x886445845391e905:0xf5c6ab2993f6a1b4!8m2!3d36.324069699999995!4d-86.6745808",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJBemRU4RFZIgRtKH2kymrxvU",
+  "venue_type": "training_studio",
+  "about": "The Learning Center Golf is a professional golf instruction facility based at Twelve Stones Golf Club in Goodlettsville, Tennessee. The venue specializes in providing lessons to golfers of all ages and skill levels, from introductory junior golf to competitive strategy and course management for experienced players. Instructors Jacob Nolen and Chris Wantz teach by reinforcing a golfer's natural swing and setup, making it an ideal environment for those seeking focused, personalized coaching without drastic swing overhauls. The facility utilizes advanced technology for detailed analysis, offering a supportive environment where students can systematically improve their skills.",
+  "tags": "beginner_friendly|coaching_available|juniors_youth|serious_practice|private_rooms|club_rentals|premium_tech",
+  "vibe_tags": "industrial_training|community_club|welcoming",
+  "who_its_for": "beginners|serious_golfers|juniors_youth|solo_practice|families",
+  "why_golfers_like_it": [
+    "Coaches tailor instruction to a player's existing swing, not a rigid model",
+    "Utilizes Trackman data for detailed, technology-driven swing analysis",
+    "Offers flexible booking and lesson packages for all skill levels",
+    "Provides a comfortable private training studio for focused practice",
+    "Features instructors with competitive and collegiate golf backgrounds"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No on-site food service mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned, BYOB status unclear"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Used for swing data analysis and ball tracking"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.thelearningcentergolf.com/booking-calendar",
+  "pricing_model": "package",
+  "price_range_min_local": 75,
+  "price_range_max_local": 275,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|private_rooms|pro_shop|club_fitting",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The Learning Center Golf does not specify club rental services, so it's recommended that students bring their own clubs for lessons."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No on-site food or drink service is mentioned. BYOB policy is not specified."
+    },
+    {
+      "question": "How long does it take to play 18 holes on the simulator?",
+      "answer": "The facility does not mention simulator golf play, only lessons and data analysis."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, The Learning Center Golf offers junior lessons, summer camps for ages 5-15, and has testimonials from young golfers."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"8AM-6PM\"], \"Tuesday\": [\"8AM-6PM\"], \"Wednesday\": [\"8AM-6PM\"], \"Thursday\": [\"10AM-6PM\"], \"Friday\": [\"8AM-6PM\"], \"Saturday\": [\"8AM-6PM\"], \"Sunday\": [\"Closed\"]}"
+}

@@ -1,0 +1,90 @@
+{
+  "name": "The Golf Box",
+  "address": "1113 W Orangethorpe Ave, Fullerton, CA 92833",
+  "city": "Fullerton",
+  "region": "California",
+  "country": "US",
+  "latitude": 33.85965,
+  "longitude": -117.944093,
+  "phone": "+17148535646",
+  "website": "https://www.thegolfboxllc.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770221432/golf_simulators/www_thegolfboxllc_com_ChIJj7dRmRcr3YARk1HHTQvS5XE.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Golf+Box/@33.8596497,-117.9440932,14z/data=!4m8!1m2!2m1!1sThe+Golf+Box!3m4!1s0x80dd2b179951b78f:0x71e5d20b4dc75193!8m2!3d33.8596497!4d-117.9440932",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJj7dRmRcr3YARk1HHTQvS5XE",
+  "venue_type": "training_studio",
+  "about": "The Golf Box is a premium indoor golf training studio in Fullerton, California, focused on data-driven practice improvement. It features 16-foot-wide, centered hitting bays with 4K visuals and advanced launch monitor technology, designed for both right-handed and left-handed golfers. The facility emphasizes a distraction-free environment, offering unmanned access for members from 6 AM to midnight. Memberships start at $99 per month, providing access to real-time swing data, impact camera feedback, and a community of dedicated golfers aiming to improve their game.",
+  "tags": "serious_practice|premium_tech|leagues|coaching_available|solo_practice|beginner_friendly|lefty_friendly",
+  "vibe_tags": "tech_lab|community_club|modern|casual|welcoming",
+  "who_its_for": "serious_golfers|beginners|low_handicap|solo_practice|coaches_instructors",
+  "why_golfers_like_it": [
+    "Massive 16-foot-wide bays with centered hitting setup for lefties and righties",
+    "Real-time launch monitor data and impact camera feedback for measurable improvement",
+    "Distraction-free environment with no crowds or party atmosphere",
+    "Unmanned member access from 6 AM to midnight for flexible practice on your own schedule",
+    "Fairway-style mats that reward proper compression and punish mishits like a real course"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food or kitchen services mentioned on-site"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No bar or alcohol services mentioned; described as a practice facility, not a sim bar"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "EyeXO",
+      "notes": "High-end photometric camera launch monitors paired with GSPro software"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://clients.uschedule.com/thegolfbox/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "yes",
+  "coaching_available": "unknown",
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|leagues|wifi|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you must bring your own clubs. All clubs must be washed and cleaned prior to using the simulators. Cleaning supplies are available on-site if needed."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No external food or drinks are permitted. The facility is focused on practice and does not offer food or alcohol services."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Specific time for 18 holes is not mentioned. Reservations are required, and with only two simulators, sessions are designed to avoid crowding, suggesting shorter, focused practice sessions."
+    },
+    {
+      "question": "Is it kid-friendly?",
+      "answer": "Not explicitly mentioned. The facility is described as a serious training environment for self-motivated golfers, focused on improvement without distractions."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"6AM-12AM\"], \"Tuesday\": [\"6AM-12AM\"], \"Wednesday\": [\"6AM-12AM\"], \"Thursday\": [\"6AM-12AM\"], \"Friday\": [\"6AM-12AM\"], \"Saturday\": [\"6AM-12AM\"], \"Sunday\": [\"6AM-12AM\"]}"
+}

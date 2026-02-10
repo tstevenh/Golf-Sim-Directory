@@ -1,0 +1,91 @@
+{
+  "name": "X-Golf Springfield",
+  "address": "225 E Primrose St, Springfield, MO 65807",
+  "city": "Springfield",
+  "region": "Missouri",
+  "country": "US",
+  "latitude": 37.145793,
+  "longitude": -93.292931,
+  "phone": "+14172022400",
+  "website": "http://www.xgolfspringfield.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770212020/golf_simulators/www_xgolfspringfield_com_ChIJNQHcSHBlz4cRwRN-4yKQsQA.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/X-Golf+Springfield/@37.1457933,-93.29293059999999,14z/data=!4m8!1m2!2m1!1sX-Golf+Springfield!3m4!1s0x87cf657048dc0135:0xb19022e37e13c1!8m2!3d37.1457933!4d-93.29293059999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJNQHcSHBlz4cRwRN-4yKQsQA",
+  "email": "james@xgolfspringfield.com",
+  "venue_type": "sim_bar",
+  "about": "X-Golf Springfield is an indoor golf facility featuring state-of-the-art simulators that use a combination of camera systems, infrared lasers, and impact sensors for accuracy. It offers a full bar and food menu, making it suitable for both golf practice and social events. The venue provides hourly simulator pricing that accommodates up to six people per bay, along with lessons, leagues, and tournament options, appealing to a range of players from beginners to serious golfers.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|club_rentals|coaching_available",
+  "vibe_tags": "casual|welcoming|modern|sports_bar",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "State-of-the-art simulator technology for accurate and realistic gameplay",
+    "Full bar and food menu available for a complete social experience",
+    "Option to play with up to 6 people per bay, making it great for groups",
+    "Professional coaching available using advanced tools like Sportsbox AI and PuttView",
+    "Leagues and tournaments for competitive players"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full menu with shareable bites, appetizers, and snacks"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with beer by the glass or on tap, cocktails, and wines"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "X-Golf",
+      "model": "Simulator",
+      "notes": "Combination of camera systems, infrared lasers, and impact sensors"
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "auto_putt",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://clients.uschedule.com/xgolfspringfield/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 40,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|leagues|wifi",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "No, club rental is available at the venue."
+    },
+    {
+      "question": "Can I bring my own food or drink?",
+      "answer": "No, the venue has a full bar and food menu available on-site."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Generally, one person can play 18 holes in about one hour. For multiple players, it may take longer depending on group size and skill level."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, children of all ages are welcome."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-11PM\"], \"Tuesday\": [\"9AM-11PM\"], \"Wednesday\": [\"9AM-11PM\"], \"Thursday\": [\"9AM-11PM\"], \"Friday\": [\"9AM-12AM\"], \"Saturday\": [\"9AM-12AM\"], \"Sunday\": [\"10AM-8PM\"]}"
+}

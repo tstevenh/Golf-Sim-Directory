@@ -1,0 +1,90 @@
+{
+  "name": "X-Golf Richmond",
+  "address": "15800 WC Main St, Midlothian, VA 23113",
+  "city": "Midlothian",
+  "region": "Virginia",
+  "country": "US",
+  "latitude": 37.515868,
+  "longitude": -77.692101,
+  "phone": "+18044641574",
+  "website": "https://www.xgolfrichmond.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770206631/golf_simulators/www_xgolfrichmond_com_ChIJ-0u1a65vsYkR1P029Go1-6k.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/X-Golf+Richmond/@37.515868,-77.6921009,14z/data=!4m8!1m2!2m1!1sX-Golf+Richmond!3m4!1s0x89b16fae6bb54bfb:0xa9fb356af436fdd4!8m2!3d37.515868!4d-77.6921009",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ-0u1a65vsYkR1P029Go1-6k",
+  "venue_type": "sim_bar",
+  "about": "X-Golf Richmond is an indoor golf and entertainment venue featuring six state-of-the-art golf simulators. The facility offers a combination of advanced technology, including camera systems, infrared lasers, and impact sensors, for a realistic and accurate golfing experience. It provides a welcoming atmosphere suitable for players of all skill levels and offers various services such as leagues, lessons, corporate events, and food and beverage options.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|coaching_available|date_night|party_atmosphere|large_groups|bachelor_parties",
+  "vibe_tags": "tech_lab|casual|welcoming|modern|family_fun_center",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "Advanced simulator technology for highly accurate shot tracking and analysis",
+    "Versatile space suitable for both practice and social events",
+    "Relaxed and welcoming atmosphere for all ages and skill levels",
+    "Dedicated kiosks with an ultimate entertainment experience",
+    "X-League offers competitive team play in a handicapped match play format"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Food and beverage packages available for events and parties"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Beer and wine options are available for events and parties"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "X-Golf",
+      "model": "Simulator",
+      "notes": "Six state-of-the-art simulators developed by X-Golf"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 6,
+  "booking_url": "https://xgolfrichmond.app.passfactory.com/gtbb/I7w2j2?o=m&bn=XGolfRichmond",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 0,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|kitchen_food|private_party_room|wifi|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need clubs?",
+      "answer": "Yes, you will need to bring your own golf clubs to play at X-Golf Richmond."
+    },
+    {
+      "question": "Can I bring my own food or drink?",
+      "answer": "While outside food and drink are not mentioned as permitted, X-Golf Richmond offers food and beverage packages for events and parties."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "A recommended simulator time of 3 hours is suggested for tournaments, though for casual play, the time may vary."
+    },
+    {
+      "question": "Is it kid-friendly?",
+      "answer": "Yes, X-Golf Richmond has a relaxed and welcoming atmosphere that makes it perfect for players of all ages, including children."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-11PM\"], \"Saturday\": [\"10AM-11PM\"], \"Sunday\": [\"10AM-10PM\"]}"
+}

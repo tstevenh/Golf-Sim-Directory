@@ -1,0 +1,89 @@
+{
+  "name": "Back 9 Social",
+  "address": "805 N Colony Rd, Wallingford, CT 06492",
+  "city": "Wallingford",
+  "region": "Connecticut",
+  "country": "US",
+  "latitude": 41.477628,
+  "longitude": -72.813431,
+  "phone": "+12032987100",
+  "website": "https://back9social.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770200099/golf_simulators/back9social_com_ChIJAcJtR7bP54kRaA7drl9TY1g.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Back+9+Social/@41.477627999999996,-72.8134307,14z/data=!4m8!1m2!2m1!1sBack+9+Social!3m4!1s0x89e7cfb6476dc201:0x5863535faedd0e68!8m2!3d41.477627999999996!4d-72.8134307",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJAcJtR7bP54kRaA7drl9TY1g",
+  "email": "06492caddy@back9social.com",
+  "venue_type": "sim_bar",
+  "about": "Back 9 Social is a golf simulator venue combining premium technology with a gastropub and bar atmosphere. They utilize 10 TrackMan 4 launch monitors with Virtual Golf 3 simulation software, offering access to over 120 world-class courses and a variety of practice tools and games. Pricing is on a per-bay, hourly basis, accommodating groups of up to 8 players, with advance reservations recommended. The venue is designed to appeal to both serious golfers and social groups, providing an environment for practice, play, and events with a focus on hospitality.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|late_night|party_atmosphere|club_rentals",
+  "vibe_tags": "sports_bar|tech_lab|community_club|casual|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "Premium TrackMan 4 launch monitors provide highly accurate data for all shot types",
+    "Variety of games and global tournament options add competitive and social elements",
+    "Combines top-tier golf simulation with high-quality food and craft cocktails"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Gastropub eats available for order in-bay or from the kitchen, featuring items like Beef Barbacoa and Philly Cheese Steak."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Craft cocktails available, including the Barrel Aged Manhattan."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "10 simulators equipped with TrackMan 4 launch monitors, featuring Optically Enhanced Radar Tracking (OERT) technology."
+    }
+  ],
+  "simulator_software": [
+    "Virtual Golf 3"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 10,
+  "booking_url": "https://yourgolfbooking.com/venues/back-9-social/booking/bays",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": 10,
+  "max_group_size_per_bay": 8,
+  "amenities_list": "full_bar|kitchen_food|tv_sports|private_party_room|leagues|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.3,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "The FAQ does not explicitly state whether they provide club rentals, but it is standard for such facilities. It is best to contact them directly for confirmation."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "No, bringing outside food and drink is not permitted. The venue has a full kitchen and bar with a gastropub menu and craft cocktails available for order."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "It typically takes about one hour per person to play a round of 18 holes. For a group of four, plan for approximately four hours to complete a round."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The website does not specifically mention kid-friendly features or policies. It is recommended to contact them directly to inquire about suitability for children."
+    }
+  ],
+  "rating_overall": 4.4,
+  "opening_hours": "{\"Monday\": [\"4-10PM\"], \"Tuesday\": [\"4-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-12AM\"], \"Saturday\": [\"9AM-12AM\"], \"Sunday\": [\"9AM-8PM\"]}"
+}

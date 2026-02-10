@@ -1,0 +1,93 @@
+{
+  "name": "Even House",
+  "address": "15771 Red Hill Ave Suite 500, Tustin, CA 92780",
+  "city": "Tustin",
+  "region": "California",
+  "country": "US",
+  "latitude": 33.713682,
+  "longitude": -117.836586,
+  "phone": "+19495455855",
+  "website": "https://evenhouse.club/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770244772/golf_simulators/evenhouse_club_ChIJG92Z1pDf3IARZ_LPxsWFIxs.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Even+House/@33.7136819,-117.8365863,14z/data=!4m8!1m2!2m1!1sEven+House!3m4!1s0x80dcdf90d699dd1b:0x1b2385c5c6cff267!8m2!3d33.7136819!4d-117.8365863",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJG92Z1pDf3IARZ_LPxsWFIxs",
+  "email": "info@evenhouse.club",
+  "venue_type": "sim_bar",
+  "about": "Even House is a premium members club that combines indoor golf technology with a community-oriented social space. It features state-of-the-art Trackman simulators and a nine-hole putting course for golf practice and play. The venue offers a full-service café with in-house dining, curated snacks, and a bar environment designed for both work and leisure. Membership is required for most activities, with various tiers offering different levels of access to golf amenities, workspaces, and social events.",
+  "tags": "food_and_drinks|serious_golfers|corporate_events|coaching_available|upscale_lounge|community_club|premium_tech",
+  "vibe_tags": "upscale_lounge|community_club|tech_lab",
+  "who_its_for": "serious_golfers|corporate_teams|solo_practice|low_handicap|coaches_instructors",
+  "why_golfers_like_it": [
+    "Tour-level Trackman simulators provide accurate data and realistic course play",
+    "Exclusive putting course and chipping area for comprehensive short game practice",
+    "Private and group lessons available for skill development and coaching",
+    "Luxurious, professionally designed indoor environment for a premium golf experience"
+  ],
+  "kid_friendly": false,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full café menu with in-house made dishes, curated snacks, and fresh pastries delivered daily"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available at the venue"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Professional-grade radar launch monitors providing tour-level data"
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://clients.mindbodyonline.com/classic/ws?studioid=5739674&stype=-98",
+  "pricing_model": "membership_only",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|pro_shop|club_fitting|leagues",
+  "rating_tech_quality": 5.0,
+  "rating_facility_comfort": 4.5,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need clubs?",
+      "answer": "Golf balls are included with your simulator booking. Clubs can be rented for an additional fee if needed."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "Outside food and drinks are not permitted. The venue offers a full café and bar service with curated menu items."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Simulator time allocation varies by membership tier, with Core members getting 60-90 minutes daily and Premium members getting 90 minutes daily. Additional time can be purchased when available."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The venue does not specifically mention kid-friendly features or policies. It appears to be geared toward adults and professionals."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.5,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"8:30AM-8PM\"], \"Wednesday\": [\"8:30AM-8PM\"], \"Thursday\": [\"8:30AM-8PM\"], \"Friday\": [\"8:30AM-10PM\"], \"Saturday\": [\"8:30AM-10PM\"], \"Sunday\": [\"8:30AM-6PM\"]}"
+}

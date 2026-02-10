@@ -1,0 +1,91 @@
+{
+  "name": "Shanks Clubhouse",
+  "address": "5700 Post Rd, East Greenwich, RI 02818",
+  "city": "East Greenwich",
+  "region": "Rhode Island",
+  "country": "US",
+  "latitude": 41.640651,
+  "longitude": -71.46809,
+  "phone": "+14012434241",
+  "website": "https://www.shanksclubhouse.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770209273/golf_simulators/www_shanksclubhouse_com_ChIJD7cf1A2z5YkRwcFm-CWc_A0.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Shanks+Clubhouse/@41.640650699999995,-71.4680898,14z/data=!4m8!1m2!2m1!1sShanks+Clubhouse!3m4!1s0x89e5b30dd41fb70f:0xdfc9c25f866c1c1!8m2!3d41.640650699999995!4d-71.4680898",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJD7cf1A2z5YkRwcFm-CWc_A0",
+  "email": "info@shanksclubhouse.com",
+  "venue_type": "sim_bar",
+  "about": "Shanks Clubhouse is an indoor golf simulator facility located in East Greenwich, RI. The venue operates on a reservation-only basis and is open daily from 9am to 11pm (12am on Thursdays-Saturdays). It features Uneekor camera-based simulators and offers a variety of software options, including TGC 2019 for full golf rounds and creative 3D arcade games. Pricing is set at $50 per hour per bay, with a group rate of $200 per hour. The facility is well-suited for individual practice, group play, and private events.",
+  "tags": "food_and_drinks|corporate_events|leagues|premium_tech|private_rooms|date_night|late_night",
+  "vibe_tags": "sports_bar|private_luxury|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|bachelor_parties",
+  "why_golfers_like_it": [
+    "State-of-the-art Uneekor camera-based simulators provide superior tracking for both drives and short game shots",
+    "The technology suite includes TGC 2019 for realistic rounds and arcade-style games for variety and entertainment",
+    "Convenient partnerships with The Waysider restaurant for direct food delivery to the bays"
+  ],
+  "kid_friendly": "yes",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Food is delivered directly to your bay from The Waysider restaurant next door via a QR code on your table."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol being served on-site."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "unknown",
+      "notes": "State of the art Uneekor camera based simulators."
+    }
+  ],
+  "simulator_software": [
+    "TGC 2019",
+    "Uneekor",
+    "Creative 3D"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://app.squarespacescheduling.com/schedule.php?owner=23930211",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 50,
+  "price_range_max_local": 200,
+  "currency": "USD",
+  "walk_ins_allowed": "no",
+  "coaching_available": "unknown",
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|tv_sports|private_party_room|wifi|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify whether they provide club rentals, so it is recommended to bring your own."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "Outside food and drink policies are not specified, but food can be ordered directly from The Waysider restaurant next door and delivered to your bay."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not provide a specific time estimate for playing 18 holes."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The venue is not specifically marketed as kid-friendly and appears to cater more to adults, especially for events like corporate parties and bachelor/bachelorette parties."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"9AM-11PM\"], \"Tuesday\": [\"9AM-11PM\"], \"Wednesday\": [\"9AM-11PM\"], \"Thursday\": [\"9AM-12AM\"], \"Friday\": [\"9AM-12AM\"], \"Saturday\": [\"9AM-12AM\"], \"Sunday\": [\"9AM-11PM\"]}"
+}

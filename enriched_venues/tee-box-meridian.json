@@ -1,0 +1,93 @@
+{
+  "name": "Tee Box Meridian",
+  "address": "535 N Locust Grove Rd #110, Meridian, ID 83642",
+  "city": "Meridian",
+  "region": "Idaho",
+  "country": "US",
+  "latitude": 43.60932,
+  "longitude": -116.37508,
+  "phone": "+16630387855",
+  "website": "https://tbx.golf/meridian",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770218102/golf_simulators/tbx_golf_ChIJuVvKFc5TrlQREn02j362FO4.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Tee+Box+Meridian/@43.6093197,-116.3750805,14z/data=!4m8!1m2!2m1!1sTee+Box+Meridian!3m4!1s0x54ae53ce15ca5bb9:0xee14b67e8f367d12!8m2!3d43.6093197!4d-116.3750805",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJuVvKFc5TrlQREn02j362FO4",
+  "email": "boxpro.meridian@tbx.golf",
+  "venue_type": "training_studio",
+  "about": "Tee Box Meridian is an indoor golf simulator and training facility that combines professional-grade technology with a focus on coaching and community. The venue utilizes Trackman SIM technology, providing data-driven swing analysis and on-demand coaching services designed to help golfers of all skill levels improve their game. Memberships are available with flexible hours to accommodate training schedules, and the facility includes amenities such as a gym and club fitting services. The space is designed to be a comprehensive training environment, offering everything from individual practice to group leagues and special events.",
+  "tags": "beginner_friendly|serious_golfers|coaching_available|corporate_events|leagues|premium_tech|club_rentals|community_club|juniors_youth",
+  "vibe_tags": "tech_lab|community_club|modern|welcoming",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "Professional-grade Trackman technology provides precise swing data and instant feedback",
+    "Comprehensive coaching programs include physical assessments and personalized fitness plans",
+    "Flexible membership options with access to gym facilities and on-demand training",
+    "Community-focused environment with leagues and events for all skill levels"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "SIM",
+      "notes": "Dual radar and camera system for precise swing and ball tracking"
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://tbx.golf/meridian/pricing",
+  "pricing_model": "membership_only",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|gym|pro_shop|club_fitting|leagues|private_party_room|wifi",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The facility provides club rentals, and custom club fittings are available to help you find the perfect gear for your game."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No outside food or drinks are permitted, as the venue does not have food service or alcohol options."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Playing 18 holes typically takes 1.5 to 2 hours, depending on the simulator software and group size."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Tee Box Meridian offers programs for juniors and youth, with a welcoming environment for young golfers to learn and improve."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

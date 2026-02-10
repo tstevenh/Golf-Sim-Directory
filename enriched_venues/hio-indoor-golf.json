@@ -1,0 +1,93 @@
+{
+  "name": "HIO Indoor Golf",
+  "address": "2625 Old Denton Rd #404C, Carrollton, TX 75007",
+  "city": "Carrollton",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 32.987142,
+  "longitude": -96.911708,
+  "phone": "+19728809426",
+  "website": "https://hioindoorgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770200603/golf_simulators/hioindoorgolf_com_ChIJs2zE1SMlTIYRsVa3NC8WhtQ.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/HIO+Indoor+Golf/@32.987142,-96.9117084,14z/data=!4m8!1m2!2m1!1sHIO+Indoor+Golf!3m4!1s0x864c2523d5c46cb3:0xd486162f34b756b1!8m2!3d32.987142!4d-96.9117084",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJs2zE1SMlTIYRsVa3NC8WhtQ",
+  "email": "hiogolfdallas@gmail.com",
+  "venue_type": "multi_sport_sim",
+  "about": "HIO Indoor Golf features advanced SG GOLF simulators from South Korea, allowing players to experience a wide variety of international courses without travel. The venue operates on a reservation basis with a focus on privacy, offering multiple private rooms and practice bays for individual or group play. Pricing is structured by room type and hour, with options ranging from standard bays at $25 per hour to VIP rooms at $55 per hour, catering to both beginners and experienced golfers with different membership tiers available.",
+  "tags": "beginner_friendly|food_and_drinks|family_friendly|corporate_events|private_rooms|premium_tech|club_rentals|coaching_available|low_handicap",
+  "vibe_tags": "private_luxury|family_fun_center|tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|solo_practice",
+  "why_golfers_like_it": [
+    "SG GOLF simulators from South Korea offer a premium and realistic playing experience",
+    "VIP rooms feature advanced Swing Plates for creating varied terrain like downhill and uphill lies",
+    "On-site practice bays with sophisticated swing analysis provide instant feedback for improvement"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Small bites and non-alcoholic beverages are available for consumption during play"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "Outside alcohol is not permitted on the premises"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "SG GOLF",
+      "model": null,
+      "notes": "South Korean-based simulator technology with Swing Plate technology"
+    }
+  ],
+  "simulator_so": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "mixed",
+  "lefty_friendly": true,
+  "bay_count_total": 8,
+  "booking_url": "unknown",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 25,
+  "price_range_max_local": 55,
+  "currency": "USD",
+  "walk_ins_allowed": "true",
+  "coaching_available": true,
+  "private_rooms_count": 5,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|kitchen_food|tv_sports|private_party_room|wifi|pro_shop|club_fitting|leagues",
+  "rating_tech_quality": 4.7,
+  "rating_facility_comfort": 4.3,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Loaner clubs are available, but you can bring your own if preferred. The venue is not responsible for damages to personal clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and beverages are not allowed in the rooms, but can be consumed in the lobby area. Outside alcohol is strictly prohibited on the premises."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "On average, it takes about one hour for an individual to play 18 holes."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, HIO Indoor Golf is family-friendly for all ages. Kids under 16 must be accompanied by an adult at all times and should have a basic understanding of how to swing a golf club."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"10AM-11PM\"], \"Tuesday\": [\"10AM-11PM\"], \"Wednesday\": [\"10AM-11PM\"], \"Thursday\": [\"10AM-11PM\"], \"Friday\": [\"10AM-12AM\"], \"Saturday\": [\"10AM-12AM\"], \"Sunday\": [\"10AM-11PM\"]}"
+}

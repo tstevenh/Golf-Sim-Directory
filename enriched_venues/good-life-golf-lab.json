@@ -1,0 +1,93 @@
+{
+  "name": "GooD LiFe Golf Lab",
+  "address": "3801 N Ridge Rd #300, Wichita, KS 67205",
+  "city": "Wichita",
+  "region": "Kansas",
+  "country": "US",
+  "latitude": 37.752558,
+  "longitude": -97.427278,
+  "phone": "+13167780808",
+  "website": "https://www.goodlifegolflab.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770204358/golf_simulators/www_goodlifegolflab_com_ChIJkZQ79_gfu4cRlHImGl_WygM.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/GooD+LiFe+Golf+Lab/@37.7525575,-97.42727839999999,14z/data=!4m8!1m2!2m1!1sGooD+LiFe+Golf+Lab!3m4!1s0x87bb1ff8f73b9491:0x3cad65f1a267294!8m2!3d37.7525575!4d-97.42727839999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJkZQ79_gfu4cRlHImGl_WygM",
+  "venue_type": "other",
+  "about": "GooD LiFe Golf Lab is a 5-star indoor golf facility that provides a premium golf experience year-round. It features state-of-the-art technology, personalized coaching, and a private setting tailored to players of all skill levels looking to improve, compete, or enjoy the game. The venue offers Trackman technology for detailed swing analysis and access to virtual golf courses from around the globe. It caters to a diverse range of enthusiasts, from social players and dedicated golfers to corporate teams, with a focus on a luxurious and comfortable environment. A membership model is available, offering 24/7 access and reduced hourly rates, though it is not required for booking simulator rooms.",
+  "tags": "premium_tech|private_rooms|coaching_available|corporate_events|leagues|food_and_drinks|family_friendly|serious_golfers|solo_practice|juniors_youth",
+  "vibe_tags": "private_luxury|tech_lab|community_club|modern",
+  "who_its_for": "serious_golfers|families|corporate_teams|solo_practice|juniors_youth",
+  "why_golfers_like_it": [
+    "Advanced Trackman technology provides tour-caliber data and instant feedback for swing analysis and improvement",
+    "Luxurious and private setting offers a comfortable, pressure-free environment away from the elements",
+    "24/7 access and flexible scheduling for convenient play and practice times",
+    "Virtual golf bays allow for playing top global courses without leaving Wichita"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Guests can bring their own food and drinks, including outside favorites; complimentary coffee and filtered water are also available"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Guests are welcome to bring their own beverages, as the venue is BYOB"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "High-speed camera system with automatic swing replay for detailed shot analysis"
+    }
+  ],
+  "simulator_so": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://goodlifegolflab.golfoclock.com",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 5,
+  "amenities_list": "club_rentals|pro_shop|leagues|food_and_drinks|private_rooms",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "The website does not specify, but it's best to bring your own clubs. However, club rentals may be available; please contact the venue directly for confirmation."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "Yes, outside food and drinks are always welcome. The venue also provides complimentary coffee and filtered water, with a Grab-n-Go station for snacks and cold beverages available for purchase."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not provide a specific time for 18 holes. However, it mentions scheduling an hour for weekly competitions, suggesting a typical round or practice session can be booked within that timeframe."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue appears kid-friendly, promoting its 'Daddy Caddie' persona for bonding with children over golf and stating that families can enjoy time together and create memories."
+    }
+  ],
+  "simulator_software": [
+    "Trackman Virtual Golf"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-8PM\"], \"Tuesday\": [\"9AM-8PM\"], \"Wednesday\": [\"9AM-8PM\"], \"Thursday\": [\"9AM-8PM\"], \"Friday\": [\"9AM-8PM\"], \"Saturday\": [\"9AM-8PM\"], \"Sunday\": [\"9AM-8PM\"]}"
+}

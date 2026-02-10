@@ -1,0 +1,93 @@
+{
+  "name": "18Lab Golf",
+  "address": "31000 Viking Pkwy, Westlake, OH 44145",
+  "city": "Westlake",
+  "region": "Ohio",
+  "country": "US",
+  "latitude": 41.474736,
+  "longitude": -81.962909,
+  "phone": "+14406141038",
+  "website": "https://18labgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770230312/golf_simulators/18labgolf_com_ChIJ1WtV7b2RMIgRUASuIZrhKzk.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/18Lab+Golf/@41.4747355,-81.96290909999999,14z/data=!4m8!1m2!2m1!1s18Lab+Golf!3m4!1s0x883091bded556bd5:0x392be19a21ae0450!8m2!3d41.4747355!4d-81.96290909999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ1WtV7b2RMIgRUASuIZrhKzk",
+  "venue_type": "training_studio",
+  "about": "18Lab Golf is a high-tech golf performance center in Westlake, OH, that combines advanced technology with PGA-level instruction for year-round game improvement. The facility features multiple simulator bays equipped with Trackman radar, augmented reality putting with PuttView, and AI-powered 3D swing analysis through Sportsbox AI. Membership options are available with various tiers offering different booking privileges and usage hours, while also providing access to lessons, club fitting, leagues, and events.",
+  "tags": "beginner_friendly|corporate_events|leagues|premium_tech|coaching_available|club_rentals",
+  "vibe_tags": "tech_lab|community_club",
+  "who_its_for": "serious_golfers|families|corporate_teams|solo_practice|coaches_instructors",
+  "why_golfers_like_it": [
+    "Tour-grade Trackman radar for precise swing and ball flight data",
+    "AI-powered 3D swing analysis with Sportsbox for unparalleled insights",
+    "Augmented reality putting area with PuttView technology",
+    "Year-round climate-controlled facility with multiple simulator bays",
+    "Comprehensive membership options with priority booking"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No information about on-site food services"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol services"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Tour-grade radar technology for swing and ball flight analysis"
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://18labgolf.golfbooking.us/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 59,
+  "price_range_max_local": 3150,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|tv_sports|leagues|club_fitting",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "While you can bring your own clubs, the facility also offers club rentals and professional club fitting services."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "There is no specific information about bringing outside food and drink, though the venue has a comfortable lounge area."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to complete 18 holes can vary depending on the number of players and simulator bay availability, but typical sessions last between 2-3 hours."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "No specific information is provided about child-friendly features or junior programs."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"9AM-8PM\"], \"Tuesday\": [\"9AM-8PM\"], \"Wednesday\": [\"9AM-8PM\"], \"Thursday\": [\"9AM-8PM\"], \"Friday\": [\"9AM-8PM\"], \"Saturday\": [\"9AM-8PM\"], \"Sunday\": [\"9AM-6PM\"]}"
+}

@@ -1,0 +1,90 @@
+{
+  "name": "Hudson Valley Indoor Golf",
+  "address": "3143 US-9 Suite 6A, Valatie, NY 12184",
+  "city": "Valatie",
+  "region": "New York",
+  "country": "US",
+  "latitude": 42.440182,
+  "longitude": -73.688386,
+  "phone": "+15186108240",
+  "website": "http://hvigolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770199835/golf_simulators/hvigolf_com_ChIJB7m78eTv3YkR-XrozLeCLaw.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Hudson+Valley+Indoor+Golf/@42.4401817,-73.6883861,14z/data=!4m8!1m2!2m1!1sHudson+Valley+Indoor+Golf!3m4!1s0x89ddefe4f1bbb907:0xac2d82b7cce87af9!8m2!3d42.4401817!4d-73.6883861",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJB7m78eTv3YkR-XrozLeCLaw",
+  "email": "connect@hvigolf.com",
+  "venue_type": "sim_bar",
+  "about": "Hudson Valley Indoor Golf is an indoor golf facility located in Valatie, NY, featuring five oversized, custom bays with technology for playing over 150,000 golf courses. The venue offers comprehensive golf training programs, personalized one-on-one coaching, and advanced club fitting services utilizing swing analysis metrics. A full-service sports bar provides beverages and food options for patrons. The facility is designed for both casual players and serious golfers looking to improve their game through detailed data analysis and expert instruction.",
+  "tags": "beginner_friendly|food_and_drinks|serious_practice|leagues|premium_tech|coaching_available|private_rooms|club_rentals",
+  "vibe_tags": "sports_bar|tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|families|juniors_youth|coaches_instructors",
+  "why_golfers_like_it": [
+    "Access to over 150,000 virtual golf courses",
+    "Advanced swing analysis with metrics like launch angle and club path",
+    "Professional coaching and customized club fitting services",
+    "Full-service sports bar for socializing during play"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Snacks and small bites available"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Domestic and imported beers, craft beers, IPAs, seltzers, sodas"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Advanced swing tracking technology for detailed analysis"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 5,
+  "booking_url": "https://player.eagleclubsystems.online/#/tee-slot?dbname=hudsonvalley20250601",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 0,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|kitchen_food|tv_sports|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you can bring your own clubs. Club rentals and a pro shop are also available on-site."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue has a full-service sports bar offering snacks, small bites, and a variety of beverages. Outside food and drink policies are not specified."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Time to play 18 holes varies depending on simulator usage and booking, but typical sessions range from 1-2 hours."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, Hudson Valley Indoor Golf offers women's and junior clinics, making it suitable for young golfers."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"9AM-9PM\"], \"Tuesday\": [\"9AM-9PM\"], \"Wednesday\": [\"9AM-9PM\"], \"Thursday\": [\"9AM-9PM\"], \"Friday\": [\"9AM-9PM\"], \"Saturday\": [\"9AM-9PM\"], \"Sunday\": [\"9AM-9PM\"]}"
+}

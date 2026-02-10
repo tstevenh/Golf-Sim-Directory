@@ -1,0 +1,94 @@
+{
+  "name": "Revs Golf Lounge",
+  "address": "2250 FM 407 suite 140, Highland Village, TX 75077",
+  "city": "Highland Village",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 33.073167,
+  "longitude": -97.057542,
+  "phone": "+12144443577",
+  "website": "http://revsgl.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770200686/golf_simulators/revsgl_com_ChIJwYafTDkzTIYR8-UOZBkY1oE.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Rev%E2%80%99s+Golf+Lounge/@33.0731667,-97.05754189999999,14z/data=!4m8!1m2!2m1!1sRev%E2%80%99s+Golf+Lounge!3m4!1s0x864c33394c9f86c1:0x81d61819640ee5f3!8m2!3d33.0731667!4d-97.05754189999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJwYafTDkzTIYR8-UOZBkY1oE",
+  "venue_type": "sim_bar",
+  "about": "Revs Golf Lounge is an indoor golf lounge in Highland Village, TX, featuring Fullswing Simulators for year-round play. The venue offers 3 customizable ranges, the ability to play real golf courses, and facilities for business meetings and events. A typical 18-hole round takes about an hour, and rates start at $50 per hour. Membership options begin at $179 per month and include 24/7 access, daily simulator time, and complimentary guest visits. The lounge is designed to accommodate both avid golfers and those looking for a quicker, more convenient golf experience.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|premium_tech|coaching_available|date_night|late_night|upscale_lounge|family_friendly|private_rooms",
+  "vibe_tags": "upscale_lounge|sports_bar|family_fun_center|tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams|solo_practice|coaches_instructors",
+  "why_golfers_like_it": [
+    "High-tech Fullswing Simulators",
+    "Convenient 1-hour 18-hole rounds",
+    "BYOB policy for a relaxed experience",
+    "24/7 access for members",
+    "Complimentary guest policy",
+    "3 customizable ranges for practice"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Patrons are welcome to bring in their own food."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "BYOB (Bring Your Own Beverages) policy is in place."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Fullswing",
+      "model": "Simulator",
+      "notes": "Some of the best simulators in the world, mentioned as Fullswing Simulators."
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://app.acuityscheduling.com/schedule.php?owner=30236390",
+  "pricing_model": "mixed",
+  "price_range_min_local": 50,
+  "price_range_max_local": 179,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.5,
+  "rating_value_for_money": 4.2,
+  "faq": [
+    {
+      "question": "Do I need to bring my own golf clubs?",
+      "answer": "You are welcome to bring your own golf clubs, though the venue may provide rentals if needed."
+    },
+    {
+      "question": "Can I bring food and drinks?",
+      "answer": "Yes, Revs is a BYOB (Bring Your Own Beverages) lounge where you can bring in your own food and beverages."
+    },
+    {
+      "question": "How long does an 18-hole round take?",
+      "answer": "A typical full round of 18 holes takes about an hour indoors, but you can stay as long as you'd like."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is welcoming to families, with a family-friendly atmosphere and coaching available for all ages."
+    }
+  ],
+  "simulator_software": [
+    "Fullswing"
+  ],
+  "rating_overall": 4.5,
+  "opening_hours": "{\"Monday\": [\"9AM-9PM\"], \"Tuesday\": [\"9AM-9PM\"], \"Wednesday\": [\"9AM-9PM\"], \"Thursday\": [\"9AM-9PM\"], \"Friday\": [\"9AM-10PM\"], \"Saturday\": [\"9AM-10PM\"], \"Sunday\": [\"2-8PM\"]}"
+}

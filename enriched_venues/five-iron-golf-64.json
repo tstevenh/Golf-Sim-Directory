@@ -1,0 +1,92 @@
+{
+  "name": "Five Iron Golf",
+  "address": "575 7th St NW, Washington, DC 20004",
+  "city": "Washington",
+  "region": "District Of Columbia",
+  "country": "US",
+  "latitude": 38.896675,
+  "longitude": -77.02169,
+  "phone": "+18005135153",
+  "website": "https://fiveirongolf.com/locations/dc-penn-quarter/%3Futm_source%3Dlocal%26utm_medium%3Dorganic%26utm_campaign%3Ddc%26utm_content%3Dpenn-quarter",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770204174/golf_simulators/fiveirongolf_com_ChIJlalkBlq3t4kRmQ_vh5p3zxo.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Five+Iron+Golf/@38.8966746,-77.0216903,14z/data=!4m8!1m2!2m1!1sFive+Iron+Golf!3m4!1s0x89b7b75a0664a995:0x1acf779a87ef0f99!8m2!3d38.8966746!4d-77.0216903",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJlalkBlq3t4kRmQ_vh5p3zxo",
+  "email": "dc@fiveirongolf.com",
+  "venue_type": "sim_bar",
+  "about": "Five Iron Golf DC Penn Quarter is a high-tech indoor golf simulator venue located in the heart of Washington, D.C. It features state-of-the-art Trackman technology in its simulator bays, providing accurate ball flight and club data analysis. The venue offers a unique blend of golf simulation, a full-service bar with a chef-inspired menu, and a lively social atmosphere. It is designed for golfers of all skill levels, offering options for practice, play, lessons, league participation, and event hosting in a casual, no-dress-code environment.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|private_rooms|coaching_available|juniors_youth",
+  "vibe_tags": "sports_bar|tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Tour-level Trackman technology for precise shot data and course simulation",
+    "Vibrant social atmosphere with a full-service bar and chef-inspired food menu",
+    "Flexible booking options, including walk-in play and discounted member rates"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full-service kitchen with a chef-inspired menu, including items like sliders and boneless wings."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full-service bar available."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Dual-radar Trackman technology with high-speed swing cameras."
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "gimme_circle",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://booking.fiveirongolf.com/select-experience?location=dc-penn-quarter",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can bring your own clubs, but they also offer club rentals and a Callaway Tour Fitting service."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "The venue has a full-service bar and kitchen, but no information on outside food or drink policies is available."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes depends on your pace, but simulator rentals are available in standard slots, allowing you to play at your own speed."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue offers kids' parties and other junior programs, making it suitable for family events."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"6AM-11PM\"], \"Tuesday\": [\"6AM-11PM\"], \"Wednesday\": [\"6AM-11PM\"], \"Thursday\": [\"6AM-11PM\"], \"Friday\": [\"6AM-12:30AM\"], \"Saturday\": [\"8AM-12:30AM\"], \"Sunday\": [\"8AM-11PM\"]}"
+}

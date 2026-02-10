@@ -1,0 +1,100 @@
+{
+  "name": "Peak Golf Institute",
+  "address": "14803 Southlawn Ln F, Rockville, MD 20850",
+  "city": "Rockville",
+  "region": "Maryland",
+  "country": "US",
+  "latitude": 39.097767,
+  "longitude": -77.134767,
+  "phone": "+18889737325",
+  "website": "https://peakgolfinstitute.com/rockville-md/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770204272/golf_simulators/peakgolfinstitute_com_ChIJw9DexIjNt4kRrpoZf2jMNkk.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Peak+Golf+Institute/@39.0977672,-77.13476709999999,14z/data=!4m8!1m2!2m1!1sPeak+Golf+Institute!3m4!1s0x89b7cd88c4ded0c3:0x4936cc687f199aae!8m2!3d39.0977672!4d-77.13476709999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJw9DexIjNt4kRrpoZf2jMNkk",
+  "venue_type": "training_studio",
+  "about": "Peak Golf Institute in Rockville, MD is a golf performance facility that combines advanced technology with expert coaching to enhance every aspect of a player's game. The venue offers a data-driven approach using launch monitors, 3D motion analysis, and physical assessments to create customized training programs. Services include private lessons, simulator rentals, performance evaluations, and physical therapy, suitable for golfers of all skill levels from beginners to serious players. The facility features climate-controlled bays and provides both member and non-member access options.",
+  "tags": "serious_practice|beginner_friendly|coaching_available|premium_tech|juniors_youth|private_rooms|club_rentals",
+  "vibe_tags": "tech_lab|industrial_training|modern|welcoming",
+  "who_its_for": "serious_golfers|beginners|juniors_youth|coaches_instructors|solo_practice",
+  "why_golfers_like_it": [
+    "Tour-grade launch monitors (GC Hawk, TrackMan, Uneekor) provide precise shot data and instant feedback",
+    "Collaborative team of TPI-certified trainers and PGA professionals offer customized coaching plans",
+    "24/7 access for members with private, climate-controlled simulator bays",
+    "Integrated performance programs combining technical swing analysis with physical fitness training"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No on-site food service mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "GC Hawk",
+      "model": "",
+      "notes": "Tour-grade launch monitors with ball and club tracking"
+    },
+    {
+      "brand": "TrackMan",
+      "model": "",
+      "notes": "Radar-based tracking with tour-level accuracy for swing and ball flight"
+    },
+    {
+      "brand": "Uneekor",
+      "model": "Eye-XO",
+      "notes": "Ball and club tracking for real-world course simulation"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 7,
+  "booking_url": "https://peakgolfinstitute.com/book-an-evaluation/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 40,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|club_fitting|leagues|pro_shop|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue doesn't explicitly state if they provide club rentals, but they do offer club fitting services, suggesting you can bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "There is no mention of food or drink services, so bringing your own may be allowed, though this isn't explicitly confirmed."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time isn't specified, but typical simulator rounds take 1-2 hours depending on the number of players and pace of play."
+    },
+    {
+      "question": "Is this facility kid-friendly?",
+      "answer": "Yes, Peak Golf Institute offers junior programs and is designed for golfers of all ages and skill levels, including youth development programs."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"7AM-9PM\"], \"Tuesday\": [\"7AM-9PM\"], \"Wednesday\": [\"7AM-9PM\"], \"Thursday\": [\"7AM-9PM\"], \"Friday\": [\"7AM-5PM\"], \"Saturday\": [\"7AM-2PM\"], \"Sunday\": [\"Closed\"]}"
+}

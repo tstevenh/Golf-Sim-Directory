@@ -1,0 +1,93 @@
+{
+  "name": "PrairieView Golf Club",
+  "address": "6734 N German Church Rd, Byron, IL 61010",
+  "city": "Byron",
+  "region": "Illinois",
+  "country": "US",
+  "latitude": 42.11116,
+  "longitude": -89.258382,
+  "phone": "+18152344653",
+  "website": "https://prairieviewgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770246737/golf_simulators/prairieviewgolf_com_ChIJX8gCCjPwCIgRNPucujk_e4I.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/PrairieView+Golf+Club/@42.11116,-89.258382,14z/data=!4m8!1m2!2m1!1sPrairieView+Golf+Club!3m4!1s0x8808f0330a02c85f:0x827b3f39ba9cfb34!8m2!3d42.11116!4d-89.258382",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJX8gCCjPwCIgRNPucujk_e4I",
+  "email": "scott@prairieviewgolf.com",
+  "venue_type": "country_club",
+  "about": "PrairieView Golf Club is a championship golf facility located in Byron, Illinois, featuring an 18-hole course and an advanced Toptracer-equipped range, PrairieFire Golf + Grill. The course, maintained by the Byron Forest Preserve District, is noted for its generous fairways, large bent grass greens, and minimal environmental disruption. It hosts various local tournaments and offers a full-service practice center and professional instruction. PrairieFire provides year-round golf with its eight-bay indoor-outdoor temperature-controlled facility using Toptracer technology, complemented by on-site dining options including PrairieGrass Pub and a pro shop.",
+  "tags": "food_and_drinks|corporate_events|coaching_available|club_fitting|beginner_friendly|juniors_youth|premium_tech|family_friendly",
+  "vibe_tags": "community_club|welcoming|modern|casual",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "Advanced Toptracer technology for realistic practice and game simulation",
+    "Full-service facility with on-course dining and professional instruction",
+    "Year-round access to a temperature-controlled, high-tech driving range",
+    "Championship-quality course that's both challenging and accessible"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full-service kitchen at PrairieGrass Pub with a sports-themed atmosphere and wrap-around deck"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Bar service available at PrairieGrass Pub"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Toptracer",
+      "model": "Range",
+      "notes": "8-bay indoor-outdoor temperature-controlled range facility"
+    }
+  ],
+  "simulator_so": [
+    "Toptracer Range"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 8,
+  "booking_url": "https://prairiefiregolf.com",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 8,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|pro_shop|club_fitting|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can bring your own clubs, but PrairieView also offers club rentals and a professional fitting center with Titleist and Mizuno equipment."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, all food and beverages must be purchased from PrairieView, including at PrairieGrass Pub and PrairieFire Golf + Grill."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "The time to play 18 holes varies, but the course is designed to accommodate both quick rounds and competitive play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, PrairieView offers junior developmental lessons for ages 5-17 and has a family-friendly atmosphere with various amenities."
+    }
+  ],
+  "simulator_software": [
+    "Toptracer"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"6:30AM-7PM\"], \"Tuesday\": [\"6:30AM-7PM\"], \"Wednesday\": [\"6:30AM-7PM\"], \"Thursday\": [\"6:30AM-7PM\"], \"Friday\": [\"6:30AM-7PM\"], \"Saturday\": [\"6:30AM-7PM\"], \"Sunday\": [\"6:30AM-7PM\"]}"
+}

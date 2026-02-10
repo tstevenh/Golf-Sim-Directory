@@ -1,0 +1,93 @@
+{
+  "name": "Rounds Golf & Lounge",
+  "address": "6801 Parker Farm Dr, Wilmington, NC 28403",
+  "city": "Wilmington",
+  "region": "North Carolina",
+  "country": "US",
+  "latitude": 34.235527,
+  "longitude": -77.83152,
+  "phone": "+19108393006",
+  "website": "http://www.roundsgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770222946/golf_simulators/www_roundsgolf_com_ChIJIZjYxyrzqYkRY8Uzt-35wt4.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Rounds+Golf+%26+Lounge/@34.2355271,-77.8315204,14z/data=!4m8!1m2!2m1!1sRounds+Golf+%26+Lounge!3m4!1s0x89a9f32ac7d89821:0xdec2f9edb733c563!8m2!3d34.2355271!4d-77.8315204",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJIZjYxyrzqYkRY8Uzt-35wt4",
+  "venue_type": "sim_bar",
+  "about": "Rounds Golf & Lounge is an indoor golf and games venue in Wilmington, NC, featuring PGA-level Full Swing simulators and a full-service bar and kitchen. The venue offers a multi-bay experience with food, drinks, and a premium simulator setup. Located in the Mayfaire Town Center, it is designed for both casual play and private events, with a focus on technology and social atmosphere. Pricing is structured on a per-bay, per-hour basis, catering to groups of various sizes for golf, games, and dining.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|budget_friendly|private_rooms|late_night|kids_friendly",
+  "vibe_tags": "upscale_lounge|sports_bar|family_fun_center|tech_lab",
+  "who_its_for": "beginners|families|corporate_teams|large_groups|tourists_travelers",
+  "why_golfers_like_it": [
+    "PGA-level Full Swing simulator technology with real ball flight tracking",
+    "80+ championship courses and arcade-style games for varied gameplay",
+    "Upscale lounge atmosphere with craft cocktails and local beer on tap",
+    "Private bay rentals accommodating groups up to 12 people"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen with Ledo Pizza menu, pub-style food, and daily specials"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Craft cocktails, local beer on tap, wines by the bottle, and dedicated wine wall"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Full Swing",
+      "model": "Pro-Series",
+      "notes": "Infrared lightwave technology with high-speed cameras for real ball flight"
+    }
+  ],
+  "simulator_so": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "infrared_optical",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 4,
+  "booking_url": "https://roundsgolf.golfoclock.com/reserve",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": 3,
+  "max_group_size_per_bay": 12,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue provides golf equipment, but you are welcome to bring your own clubs if preferred."
+    },
+    {
+      "question": "Can I bring outside food or drinks?",
+      "answer": "Outside food and drinks are not permitted, as the venue offers a full kitchen and bar with craft cocktails, local beer, and Ledo Pizza."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Playing 18 holes typically takes 1-2 hours depending on group size and simulator availability."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Rounds Golf & Lounge is kid-friendly, with accommodations for families and events like birthday parties."
+    }
+  ],
+  "simulator_software": [
+    "Full Swing (includes Ion3 technology)"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"11AM-10PM\"], \"Tuesday\": [\"11AM-10PM\"], \"Wednesday\": [\"11AM-10PM\"], \"Thursday\": [\"11AM-10PM\"], \"Friday\": [\"11AM-11PM\"], \"Saturday\": [\"11AM-11PM\"], \"Sunday\": [\"11AM-10PM\"]}"
+}

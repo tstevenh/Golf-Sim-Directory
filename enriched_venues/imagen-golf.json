@@ -1,0 +1,91 @@
+{
+  "name": "Imagen Golf",
+  "address": "800 N Easton Rd, Doylestown, PA 18902",
+  "city": "Doylestown",
+  "region": "Pennsylvania",
+  "country": "US",
+  "latitude": 40.332085,
+  "longitude": -75.130549,
+  "phone": "+12155956299",
+  "website": "https://imagengolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770206277/golf_simulators/imagengolf_com_ChIJTSI6zCoDxIkRV8CZbXzPhOw.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Imagen+Golf/@40.3320849,-75.1305488,14z/data=!4m8!1m2!2m1!1sImagen+Golf!3m4!1s0x89c4032acc3a224d:0xec84cf7c6d99c057!8m2!3d40.3320849!4d-75.1305488",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJTSI6zCoDxIkRV8CZbXzPhOw",
+  "email": "Daniel@ImagenGolf.com",
+  "venue_type": "training_studio",
+  "about": "Imagen Golf is a premier golf instruction and training studio located in Doylestown, PA. The facility offers a comprehensive range of lesson types including private, virtual, group, and on-course instruction, all focused on personalized improvement. The environment is designed for serious practice and development, featuring advanced technology like Trackman iO launch monitors for precision lessons. Coaching is provided by top-tier professionals, including Daniel Guest, a Top 100 Golf Instructor and PXG Staff Pro, with a philosophy centered on simple, repeatable drills and a satisfaction guarantee. The venue caters to golfers of all levels, from beginners to competitive juniors, with specialized programs and clinics available.",
+  "tags": "beginner_friendly|serious_practice|coaching_available|juniors_youth|group_lessons|virtual_lessons|premium_tech|guaranteed_results",
+  "vibe_tags": "industrial_training|modern|welcoming|professional",
+  "who_its_for": "beginners|serious_golfers|families|juniors_youth|solo_practice",
+  "why_golfers_like_it": [
+    "Personalized instruction from Top 100 Coach Daniel Guest and PGA professionals",
+    "Access to advanced Trackman iO technology for precision swing analysis",
+    "Golf Better Guarantee ensuring improvement or lessons are free",
+    "Flexible lesson options including virtual, group, and on-course formats",
+    "Junior programs and competitive tours like the IMAGEN Junior Winter Tour"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No bar service mentioned, though 'Sip and Swing' events suggest BYOB may be allowed"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Premium launch monitor for precision lessons with 24/7 coaching support"
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://imagengolf.com/book-a-lesson",
+  "pricing_model": "per_person_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 8,
+  "amenities_list": "club_rentals|pro_shop|leagues|kids_friendly",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you will need to bring your own golf equipment for lessons and practice sessions."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The website mentions 'Sip and Swing' events but doesn't specify a general food and drink policy. It's recommended to check with them directly."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Not specified on the website, as the focus is on lessons and practice rather than full rounds. Simulator play time would depend on the number of players and pace."
+    },
+    {
+      "question": "Is this facility kid-friendly?",
+      "answer": "Yes, Imagen Golf offers dedicated junior lessons, youth programs, and hosts the IMAGEN Junior Winter Tour for ages 12-18, making it very kid-friendly."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

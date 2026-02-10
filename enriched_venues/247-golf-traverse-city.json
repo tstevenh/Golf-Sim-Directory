@@ -1,0 +1,89 @@
+{
+  "name": "24/7 Golf Traverse City",
+  "address": "6463 US-31, Williamsburg, MI 49690",
+  "city": "Williamsburg",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 44.779644,
+  "longitude": -85.496783,
+  "phone": "+16163509482",
+  "website": "https://www.24-7golf.com/",
+  "hero_image": "",
+  "google_maps_url": "https://www.google.com/maps/place/24%2F7+Golf+Traverse+City/@44.779643899999996,-85.4967826,14z/data=!4m8!1m2!2m1!1s24%2F7+Golf+Traverse+City!3m4!1s0x881fd1002f10618b:0x146632c6b6289eb3!8m2!3d44.779643899999996!4d-85.4967826",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJi2EQLwDRH4gRs54otsYyZhQ",
+  "email": "info@24-7golf.com",
+  "venue_type": "multi_sport_sim",
+  "about": "24/7 Golf is a chain of indoor golf and pickleball facilities across Michigan. The venues feature multiple simulator bays equipped with Trackman iO technology, available for hourly rental. The Traverse City location is one of several sites offering a 24/7 access model. Customers can book online and pay by the hour, regardless of group size, and the facilities are described as suitable for individuals, small groups, and large parties, including corporate events. The primary draw is the combination of state-of-the-art simulator technology and flexible booking options.",
+  "tags": "beginner_friendly|corporate_events|leagues|premium_tech|private_rooms|club_rentals|late_night|coaching_available|food_and_drinks",
+  "vibe_tags": "sports_bar|family_fun_center|community_club",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "24/7 access to golf simulator bays, available any day or time",
+    "Utilization of high-end Trackman iO technology for realistic data and simulation",
+    "Flexible hourly pricing model for groups of any size"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "BYOB not explicitly mentioned, but BYOB is common for this type of venue. No on-site kitchen or food service mentioned in provided content."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "BYOB not explicitly mentioned, but BYOB is common for this type of venue. No on-site bar mentioned in provided content."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Latest Trackman iO technology is used at all locations. Combines radar, infrared, and high-speed imaging to deliver real-time ball and club data."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://www.24-7golf.com/booking/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|lockers|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own golf clubs?",
+      "answer": "The provided content does not specify if rental clubs are available. It is recommended to contact the venue directly or check their booking page for details on club rentals."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The provided content does not mention food or drink policies. It is common for BYOB (Bring Your Own Beverage) to be allowed at these types of venues, but this is not confirmed."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "The provided content does not specify the average time for a full 18-hole round. The time will depend on the number of players in your group and the pace of play."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "The venue hosts events for work parties and other groups, and the general vibe is welcoming to families. While not explicitly marketed as a kids' center, it appears suitable for families and can host group events."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

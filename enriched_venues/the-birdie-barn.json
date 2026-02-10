@@ -1,0 +1,89 @@
+{
+  "name": "The Birdie Barn",
+  "address": "15 N Main St, Bellingham, MA 02019",
+  "city": "Bellingham",
+  "region": "Massachusetts",
+  "country": "US",
+  "latitude": 42.089839,
+  "longitude": -71.474774,
+  "phone": "+15089662187",
+  "website": "https://thebirdiebarnma.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770200334/golf_simulators/thebirdiebarnma_com_ChIJw_OPnndu5IkRUwW6hQyBCfw.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Birdie+Barn/@42.0898389,-71.47477409999999,14z/data=!4m8!1m2!2m1!1sThe+Birdie+Barn!3m4!1s0x89e46e779e8ff3c3:0xfc09810c85ba0553!8m2!3d42.0898389!4d-71.47477409999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJw_OPnndu5IkRUwW6hQyBCfw",
+  "email": "BirdieBarnMA@gmail.com",
+  "venue_type": "sim_bar|training_studio|private_rental",
+  "about": "The Birdie Barn is an indoor golf simulator venue located in Bellingham, MA, offering a climate-controlled space for golf practice and play year-round. The facility features five simulator bays equipped with aboutGOLF technology to monitor swing speed, distance, and provide detailed player analytics. Membership options include one hour of daily simulator time per month, with the ability to book up to 30 days in advance. Guests can also book time at an hourly rate of $50 per bay, with flexible options for groups and corporate events.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|budget_friendly|coaching_available|club_rentals",
+  "vibe_tags": "community_club|modern|welcoming",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "State-of-the-art aboutGOLF simulators with accurate swing data tracking",
+    "Convenient indoor practice accessible year-round, regardless of weather",
+    "Flexible membership plan offering daily access for consistent practice"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No information provided on food service"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No information provided on alcohol service"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "aboutGOLF",
+      "model": null,
+      "notes": "State-of-the-art simulators for accurate swing tracking and video analysis"
+    }
+  ],
+  "simulator_software": [
+    "aboutGOLF"
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 5,
+  "booking_url": "https://thebirdiebarnma.com/book-online/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 50,
+  "price_range_max_local": 50,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 5,
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|leagues|coaching_available",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can bring your own clubs, though the venue likely provides rental options."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "No information provided on outside food or drink policy."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Play time varies depending on the course and simulator software used."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "No specific information about kid-friendly features or policies is provided."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"5AM-11PM\"], \"Tuesday\": [\"5AM-11PM\"], \"Wednesday\": [\"5AM-11PM\"], \"Thursday\": [\"5AM-11PM\"], \"Friday\": [\"5AM-11PM\"], \"Saturday\": [\"5AM-11PM\"], \"Sunday\": [\"5AM-11PM\"]}"
+}

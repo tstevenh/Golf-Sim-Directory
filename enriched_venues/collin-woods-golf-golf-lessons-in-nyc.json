@@ -1,0 +1,104 @@
+{
+  "name": "Collin Woods Golf - Golf Lessons in NYC",
+  "address": "100 Church St Basement, New York, NY 10007",
+  "city": "New York",
+  "region": "New York",
+  "country": "US",
+  "latitude": 40.713317,
+  "longitude": -74.010111,
+  "phone": "+19293887030",
+  "website": "https://www.collinwoodsgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770211348/golf_simulators/www_collinwoodsgolf_com_ChIJ_9VNSt9ZwokRz7ZV0gQ8GVo.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Collin+Woods+Golf+-+Golf+Lessons+in+NYC/@40.7133174,-74.0101115,14z/data=!4m8!1m2!2m1!1sCollin+Woods+Golf+-+Golf+Lessons+in+NYC!3m4!1s0x89c259df4a4dd5ff:0x5a193c04d255b6cf!8m2!3d40.7133174!4d-74.0101115",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ_9VNSt9ZwokRz7ZV0gQ8GVo",
+  "email": "info@collinwoodsgolf.com212-597-2857",
+  "venue_type": "training_studio",
+  "about": "Collin Woods Golf is a premier golf instruction studio located in New York City. The facility specializes in personalized coaching services, utilizing advanced technology such as TrackMan, Swing Catalyst, and K-Vest for swing analysis. Collin Woods, the head instructor, offers a holistic approach to golf instruction that includes biomechanics, technology, injury prevention, and mental performance coaching. The venue caters to golfers of all skill levels, from beginners to competitive players, with a focus on individualized lesson programs tailored to each client's specific goals and physical capabilities.",
+  "tags": "serious_practice|coaching_available|premium_tech|corporate_events|private_rooms|club_rentals|juniors_youth",
+  "vibe_tags": "private_luxury|tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|corporate_teams|coaches_instructors|juniors_youth",
+  "why_golfers_like_it": [
+    "Access to premium technology including TrackMan and Swing Catalyst for detailed swing analysis",
+    "Individualized coaching programs tailored to each golfer's unique swing and goals",
+    "Holistic approach combining technical swing instruction with injury prevention and mental performance strategies"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No on-site food service mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "unknown",
+      "notes": "Primary launch monitor with radar technology"
+    },
+    {
+      "brand": "Swing Catalyst",
+      "model": "unknown",
+      "notes": "Ground reaction force analysis system"
+    },
+    {
+      "brand": "K-Vest",
+      "model": "unknown",
+      "notes": "3D motion capture for swing analysis"
+    },
+    {
+      "brand": "Hack Motion",
+      "model": "unknown",
+      "notes": "Wrist motion tracking technology"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://collinwoodsgolf.as.me/",
+  "pricing_model": "per_person_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|pro_shop|coaching_available",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "While not explicitly mentioned, golfers typically bring their own clubs for lessons. The facility may have rental options available."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No information about outside food or drink policies is provided. BYOB status is unclear."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Since this is an instructional facility focused on lessons rather than full simulation play, 18 hole time would depend on lesson duration and goals."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, the venue welcomes junior golfers and offers coaching programs for youth and beginners of all ages."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"4-8PM\"], \"Tuesday\": [\"3-8PM\"], \"Wednesday\": [\"3-8PM\"], \"Thursday\": [\"3-8PM\"], \"Friday\": [\"7AM-12PM\"], \"Saturday\": [\"11AM-3PM\"], \"Sunday\": [\"11AM-3PM\"]}"
+}

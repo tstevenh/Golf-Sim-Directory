@@ -1,0 +1,93 @@
+{
+  "name": "ONE Degree - Indoor Golf Center",
+  "address": "12629 S Hwy 27, Clermont, FL 34711",
+  "city": "Clermont",
+  "region": "Florida",
+  "country": "US",
+  "latitude": 28.530696,
+  "longitude": -81.734922,
+  "phone": "+14072822346",
+  "website": "https://onedegree.golf/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770204701/golf_simulators/onedegree_golf_ChIJ5z3b2zWP54gROyzmqPdIHt4.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/ONE+Degree+-+Indoor+Golf+Center/@28.530695899999998,-81.73492159999999,14z/data=!4m8!1m2!2m1!1sONE+Degree+-+Indoor+Golf+Center!3m4!1s0x88e78f35dbdb3de7:0xde1e48f7a8e62c3b!8m2!3d28.530695899999998!4d-81.73492159999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ5z3b2zWP54gROyzmqPdIHt4",
+  "email": "info@onedegree.com",
+  "venue_type": "multi_sport_sim",
+  "about": "ONE Degree - Indoor Golf Center is a multi-sport simulation facility featuring Trackman technology for golf and entertainment. The venue provides bays for golf simulation with options for both member and non-member bookings. While primarily focused on golf, it also hosts sports viewing events on a large screen, indicating a versatile use of space. The facility operates on a mixed pricing model, offering both hourly bay rentals and membership options with weekly rental credits.",
+  "tags": "premium_tech|food_and_drinks|corporate_events|leagues|private_rooms|club_rentals|community_club",
+  "vibe_tags": "tech_lab|casual|welcoming|modern",
+  "who_its_for": "serious_golfers|corporate_teams|families|solo_practice|tourists_travelers",
+  "why_golfers_like_it": [
+    "Access to premium Trackman launch monitor technology for accurate data and simulation",
+    "Large screen viewing area for sports events, enhancing the social and entertainment experience",
+    "Flexible booking options with membership benefits and priority access for members",
+    "Private bay rentals suitable for both individual practice and group events"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Available for purchase at the venue"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Available for purchase at the venue"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Premium launch monitor technology with radar-based tracking"
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 12,
+  "booking_url": "https://onedegree.golf/venues/one-degree-indoor-golf-center/booking/bays",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|kitchen_food|tv_sports|private_party_room|wifi|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "You will need to bring your own golf clubs for use in the simulation bays."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "The venue offers food and beverages for purchase on-site, but outside food and drink may not be permitted."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes varies depending on simulator usage, but typically ranges from 1-2 hours."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "While not specifically mentioned, the venue offers private party rooms and family-friendly events, making it suitable for kids during certain activities."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"10AM-9PM\"], \"Tuesday\": [\"10AM-9PM\"], \"Wednesday\": [\"10AM-9PM\"], \"Thursday\": [\"10AM-9PM\"], \"Friday\": [\"10AM-9PM\"], \"Saturday\": [\"9AM-9PM\"], \"Sunday\": [\"Closed\"]}"
+}

@@ -1,0 +1,90 @@
+{
+  "name": "9 Iron",
+  "address": "996 Belvidere Rd, Belvidere, IL 61008",
+  "city": "Belvidere",
+  "region": "Illinois",
+  "country": "US",
+  "latitude": 42.250011,
+  "longitude": -88.821538,
+  "phone": "+17799700884",
+  "website": "http://www.nineiron.net/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770201262/golf_simulators/www_nineiron_net_ChIJD1OKb8i1CIgReqh1Aqou_EA.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/9+Iron/@42.2500107,-88.8215383,14z/data=!4m8!1m2!2m1!1s9+Iron!3m4!1s0x8808b5c86f8a530f:0x40fc2eaa0275a87a!8m2!3d42.2500107!4d-88.8215383",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJD1OKb8i1CIgReqh1Aqou_EA",
+  "venue_type": "sim_bar",
+  "about": "Nine Iron offers virtual golf experiences using advanced Golfzon Technology in a warm, welcoming environment. The facility provides three bays for virtual golfing, suitable for events, small gatherings, date nights, or solo practice sessions. Players can access world-renowned golf courses with immersive technology that tracks ball movement and provides statistical feedback to help improve their game. Virtual golf offers year-round play regardless of weather, with affordable pricing and convenience compared to traditional golf courses.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|private_rooms|club_rentals|community_club",
+  "vibe_tags": "casual|welcoming|modern|family_fun_center",
+  "who_its_for": "beginners|families|corporate_teams|solo_practice|low_handicap",
+  "why_golfers_like_it": [
+    "Advanced Golfzon Technology creates an immersive experience with world-renowned courses",
+    "Year-round access regardless of weather conditions",
+    "Statistical tracking helps golfers improve their skills over time",
+    "Convenient and affordable alternative to traditional golf courses",
+    "Flexible booking options for various group sizes and occasions"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Kitchen available for food service"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service on-site"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Golfzon",
+      "model": "Unknown",
+      "notes": "State-of-the-art Golfzon Technology used for virtual golf experience"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://squareup.com/appointments/book/krhy11v7bzd86l/LS27CWPVTNBVT/services",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|kitchen_food|tv_sports|private_party_room|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website doesn't specify whether clubs are provided, so it's recommended to bring your own clubs for the best experience."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue has kitchen facilities available for food service, but no mention is made of outside food or drink policies."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website doesn't specify average time for 18 holes, but booking is done by the hour for bay rental."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is described as having something for everyone and mentions events, suggesting it welcomes families."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"4-8PM\"], \"Tuesday\": [\"4-10PM\"], \"Wednesday\": [\"4-10PM\"], \"Thursday\": [\"4-10PM\"], \"Friday\": [\"4-10PM\"], \"Saturday\": [\"9AM-10PM\"], \"Sunday\": [\"9AM-5PM\"]}"
+}

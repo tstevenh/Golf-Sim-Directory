@@ -1,0 +1,90 @@
+{
+  "name": "Birdies Social Club",
+  "address": "805 Riverfront St Suite 100, West Sacramento, CA 95691",
+  "city": "West Sacramento",
+  "region": "California",
+  "country": "US",
+  "latitude": 38.579144,
+  "longitude": -121.511634,
+  "phone": "+12793338008",
+  "website": "https://birdieswestsac.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770218226/golf_simulators/birdieswestsac_com_ChIJ6QmMXoPRmoARu_bbG5prOO0.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Birdies+Social+Club/@38.5791444,-121.5116338,14z/data=!4m8!1m2!2m1!1sBirdies+Social+Club!3m4!1s0x809ad1835e8c09e9:0xed386b9a1bdbf6bb!8m2!3d38.5791444!4d-121.5116338",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ6QmMXoPRmoARu_bbG5prOO0",
+  "email": "events@birdieswestsac.com",
+  "venue_type": "sim_bar",
+  "about": "Birdies Social Club is an indoor golf and social venue combining simulator play with a full-service restaurant and bar. The facility features five private TrackMan bays equipped with PGA-level technology for serious golf practice and gameplay, alongside a buzzing indoor-outdoor space designed for dining, drinking, and events. Available for hourly booking by the bay, the venue offers no dress code and provides flexible options for play during lunch, after work, or while enjoying cocktails. Birdies is positioned as a neighborhood social hub for both golf enthusiasts and casual groups seeking a comprehensive experience of sport, food, and entertainment.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|private_rooms|club_rentals|community_club|sports_bar",
+  "vibe_tags": "sports_bar|party_atmosphere|community_club|modern|casual|welcoming",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "Powered by TrackMan technology, the same system used by PGA professionals for accurate swing and ball data",
+    "Flexible hourly booking with no dress code allows for convenient play at any time of day",
+    "Private bays can be booked for both individual practice and group events or parties"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "California comfort food including tacos, burgers, bowls, brunch, and bold bites like pulled pork nachos and blueberry lemon pancakes"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with handcrafted cocktails and an extensive drink menu"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "5 private bays equipped with TrackMan technology for professional-grade simulation"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 5,
+  "booking_url": "https://yourgolfbooking.com/venues/birdies-social-club/booking/bays",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": 5,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|kitchen_food|tv_sports|private_party_room|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue does not specify whether clubs are provided or if you must bring your own."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "The venue operates a full-service kitchen and bar, so outside food and drinks are likely not permitted."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not provide a specific time estimate for playing 18 holes."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Birdies Social Club is kid-friendly and hosts events like brunch parties, making it suitable for families."
+    }
+  ],
+  "simulator_software": [
+    "TrackMan"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"4-9PM\"], \"Wednesday\": [\"4-9PM\"], \"Thursday\": [\"4-9PM\"], \"Friday\": [\"3-11PM\"], \"Saturday\": [\"10AM-11PM\"], \"Sunday\": [\"10AM-9PM\"]}"
+}

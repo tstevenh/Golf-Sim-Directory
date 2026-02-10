@@ -1,0 +1,94 @@
+{
+  "name": "GolfCube Social",
+  "address": "275 US-22, Springfield, NJ 07081",
+  "city": "Springfield",
+  "region": "New Jersey",
+  "country": "US",
+  "latitude": 40.684774,
+  "longitude": -74.324491,
+  "phone": "+19732186040",
+  "website": "https://golfcubesocial.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770211519/golf_simulators/golfcubesocial_com_ChIJ8SEWugKvw4kR6Sh8BStju3I.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/GolfCube+Social/@40.684774399999995,-74.3244909,14z/data=!4m8!1m2!2m1!1sGolfCube+Social!3m4!1s0x89c3af02ba1621f1:0x72bb632b057c28e9!8m2!3d40.684774399999995!4d-74.3244909",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ8SEWugKvw4kR6Sh8BStju3I",
+  "email": "info@golfcubesocial.com",
+  "venue_type": "sim_bar",
+  "about": "GolfCube Social is an indoor golf venue that combines world-class golf simulators with social entertainment. The facility features state-of-the-art Golfzon sim equipped with moving swing mats, auto-tee systems, and high-speed camera sensors for realistic gameplay. It offers a casual environment where golfers can play, practice, improve their game, and enjoy arcade-style golf, all under one roof. The venue is designed for both serious golf practice and social events, with amenities including a fully stocked pro shop and the flexibility to bring your own food and beverages.",
+  "tags": "beginner_friendly|food_and_drinks|kids_friendly|corporate_events|premium_tech|private_rooms|coaching_available",
+  "vibe_tags": "family_fun_center|party_atmosphere|tech_lab|community_club",
+  "who_its_for": "beginners|families|corporate_teams|solo_practice|juniors_youth",
+  "why_golfers_like_it": [
+    "Tour-level Golfzon simulators with moving swing mats and auto-tee systems",
+    "High-speed camera sensors provide precise swing feedback for real-time improvement",
+    "Family-friendly environment with kids' arcade golf options",
+    "Flexible BYO food and beverage policy for a relaxed social experience",
+    "Pro shop with premium equipment and accessories available for purchase"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "BYO Food & Beverages allowed"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "BYO Food & Beverages allowed"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Golfzon",
+      "model": "State-of-the-art",
+      "notes": "Moving swing mats, auto-tee system, high-speed camera sensors"
+    }
+  ],
+  "simulator_so": [
+    "Golfzon"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "mixed",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://clients.uschedule.com/golfcubesocial/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "pro_shop|private_party_room|wifi|club_rentals|food_and_drinks|kitchen_food",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "GolfCube Social provides all necessary equipment, but you are welcome to bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, the venue operates on a BYOB (Bring Your Own Beverages) policy, allowing you to bring your own food and drinks."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "18 holes typically take 1.5 to 2 hours to play, depending on group size and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, GolfCube Social offers kid-friendly golf arcade games and is suitable for family events and birthday parties."
+    }
+  ],
+  "simulator_software": [
+    "Golfzon"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"9AM-10PM\"], \"Saturday\": [\"8AM-10PM\"], \"Sunday\": [\"8AM-10PM\"]}"
+}

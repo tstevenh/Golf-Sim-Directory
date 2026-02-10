@@ -1,0 +1,91 @@
+{
+  "name": "Byron Hills Golf Course",
+  "address": "23316 94th Ave N, Port Byron, IL 61275",
+  "city": "Port Byron",
+  "region": "Illinois",
+  "country": "US",
+  "latitude": 41.612694,
+  "longitude": -90.298317,
+  "phone": "+13095232664",
+  "website": "https://byronhills.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770247044/golf_simulators/byronhills_com_ChIJsRfy7gJA4ocRgNodLb8BUS8.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Byron+Hills+Golf+Course/@41.6126937,-90.29831689999999,14z/data=!4m8!1m2!2m1!1sByron+Hills+Golf+Course!3m4!1s0x87e24002eef217b1:0x2f5101bf2d1dda80!8m2!3d41.6126937!4d-90.29831689999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJsRfy7gJA4ocRgNodLb8BUS8",
+  "venue_type": "sim_bar|country_club",
+  "about": "Byron Hills Golf Course features an 18-hole championship course suitable for all skill levels, with spacious fairways, smooth greens, and modern amenities. The venue includes a fully stocked pro shop, an expansive practice facility, and a clubhouse with dining options. An indoor golf simulator area provides climate-controlled play with 3Trak launch monitors and a fully stocked bar, making it suitable for individual practice, group outings, and special events regardless of weather conditions. Season passes are available for unlimited play throughout the season.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|club_rentals|coaching_available|family_friendly",
+  "vibe_tags": "casual|welcoming|modern|family_fun_center",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "State-of-the-art indoor golf simulator with 3Trak launch monitors",
+    "Fully stocked bar available during simulator sessions",
+    "Beginner-friendly 18-hole championship course",
+    "Climate-controlled simulator space for year-round play",
+    "Flexible season pass options for unlimited play"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Clubhouse with dining options and snack bar available"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Fully stocked bar in the simulator area"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "3Trak",
+      "model": "Launch Monitor",
+      "notes": "State-of-the-art launch monitors for swing analysis"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 1,
+  "booking_url": "https://foreupsoftware.com/index.php/booking/23057#/teetimes",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 0,
+  "max_group_size_per_bay": 0,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue doesn't specify if club rentals are available, so it's recommended to bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drinks policies aren't specified, but the venue offers a fully stocked bar and dining options."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time required to play 18 holes isn't specified on the website."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Byron Hills is suitable for families and mentions being beginner-friendly, making it appropriate for junior golfers."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"8AM-8PM\"], \"Tuesday\": [\"8AM-8PM\"], \"Wednesday\": [\"8AM-8PM\"], \"Thursday\": [\"8AM-8PM\"], \"Friday\": [\"8AM-8PM\"], \"Saturday\": [\"8AM-8PM\"], \"Sunday\": [\"8AM-8PM\"]}"
+}

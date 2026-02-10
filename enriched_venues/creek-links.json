@@ -1,0 +1,91 @@
+{
+  "name": "Creek Links",
+  "address": "4571 New Linden Hill Rd, Wilmington, DE 19808",
+  "city": "Wilmington",
+  "region": "Delaware",
+  "country": "US",
+  "latitude": 39.73473,
+  "longitude": -75.690971,
+  "phone": "+13024374073",
+  "website": "https://creeklinks.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770214984/golf_simulators/creeklinks_com_ChIJR1k4jaYBx4kRlNbAgn-kEgg.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Creek+Links/@39.7347305,-75.6909713,14z/data=!4m8!1m2!2m1!1sCreek+Links!3m4!1s0x89c701a68d385947:0x812a47f82c0d694!8m2!3d39.7347305!4d-75.6909713",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJR1k4jaYBx4kRlNbAgn-kEgg",
+  "email": "jy@creeklinks.com",
+  "venue_type": "multi_sport_sim",
+  "about": "Creek Links is a state-of-the-art indoor golf facility located in Pike Creek, Delaware. The venue is equipped with two Tour TrackMan4 simulators, the same technology used by 90 of the top 100 PGA Tour players, providing detailed ball flight, launch angle, club speed, and spin rate data. The facility operates 24 hours a day, 7 days a week, offering flexible access for members to practice or play regardless of weather conditions. Memberships are available on a monthly, 6-month, or annual basis, and the facility also supports private events with full rentals.",
+  "tags": "premium_tech|serious_golfers|private_rooms|club_rentals|late_night|coaching_available",
+  "vibe_tags": "modern|tech_lab|private_luxury|community_club",
+  "who_its_for": "serious_golfers|corporate_teams|solo_practice|coaches_instructors",
+  "why_golfers_like_it": [
+    "Tour-level TrackMan4 technology for precise data tracking",
+    "24/7 member access for flexible practice schedules",
+    "Private climate-controlled bays for focused training",
+    "Competitive pricing with no forced random pairings"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned; BYOB not specified"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned; BYOB not specified"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "Tour-grade simulator used by 90 of top 100 PGA players"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 2,
+  "booking_url": "https://yourgolfbooking.com/venues/creek-links/booking/bays",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|private_party_room|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify, but it's standard to bring your own clubs for simulator sessions."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No food or drink service is mentioned; BYOB policy is not specified."
+    },
+    {
+      "question": "How long does an 18-hole round typically take?",
+      "answer": "The website does not specify the duration, but simulator rounds generally take 1-2 hours depending on pace."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "No specific information about youth programs or family amenities is provided."
+    }
+  ],
+  "simulator_software": [
+    "TrackMan"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"9AM-9PM\"], \"Tuesday\": [\"9AM-9PM\"], \"Wednesday\": [\"9AM-9PM\"], \"Thursday\": [\"9AM-9PM\"], \"Friday\": [\"9AM-11PM\"], \"Saturday\": [\"7AM-11PM\"], \"Sunday\": [\"7AM-10PM\"]}"
+}

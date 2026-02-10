@@ -1,0 +1,89 @@
+{
+  "name": "Back 9 Golf",
+  "address": "2 Orchard St Suite A, Dover, NH 03820",
+  "city": "Dover",
+  "region": "New Hampshire",
+  "country": "US",
+  "latitude": 43.195734,
+  "longitude": -70.874867,
+  "phone": "+16037493838",
+  "website": "http://back9nh.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770237351/golf_simulators/back9nh_com_ChIJ0fZP94yX4okRxm-3nUC1pp8.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Back+9+Golf/@43.1957337,-70.87486679999999,14z/data=!4m8!1m2!2m1!1sBack+9+Golf!3m4!1s0x89e2978cf74ff6d1:0x9fa6b5409db76fc6!8m2!3d43.1957337!4d-70.87486679999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ0fZP94yX4okRxm-3nUC1pp8",
+  "email": "admin@back9nh.com",
+  "venue_type": "sim_bar",
+  "about": "Back 9 Golf is an indoor golf simulator venue located upstairs at The Brick. It utilizes high-end technology powered by AG Golf Links and GSPro to provide a realistic golfing experience. The facility offers private event bookings for groups up to 35 people and operates with dedicated winter hours. It appears to be a social, upscale environment focused on both recreational play and private gatherings, featuring a partnership with a local bar.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|private_rooms|club_rentals|community_club",
+  "vibe_tags": "upscale_lounge|sports_bar|private_luxury|tech_lab",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|large_groups",
+  "why_golfers_like_it": [
+    "Premium simulator technology with AG Golf Links and GSPro for realistic play",
+    "Private event space available for up to 35 people, ideal for corporate and group outings",
+    "Convenient location integrated with a local establishment, The Brick, suggesting a full social experience"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen and food service available through the partnership with The Brick"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available through the partnership with The Brick"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "AG Golf Links",
+      "model": "",
+      "notes": "Primary hardware system powering the simulators"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://back9golf.as.me",
+  "pricing_model": "per_person_hour|mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.5,
+  "rating_value_for_money": 4.2,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "Players can use their own clubs or rent them on-site. The venue is equipped for all types of golfers."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "No, the venue has a full kitchen and bar partnership with The Brick, providing food and drink service on-site."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Typically, a full 18-hole round on a simulator takes about 1-2 hours, depending on the number of players and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Back 9 Golf welcomes families and is suitable for juniors and youth looking to play golf in a fun, indoor environment."
+    }
+  ],
+  "rating_overall": 4.5,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"2-9PM\"], \"Wednesday\": [\"2-9PM\"], \"Thursday\": [\"2-10PM\"], \"Friday\": [\"11AM-11PM\"], \"Saturday\": [\"11AM-11PM\"], \"Sunday\": [\"10AM-9PM\"]}"
+}

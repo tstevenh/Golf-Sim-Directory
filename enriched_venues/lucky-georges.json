@@ -1,0 +1,94 @@
+{
+  "name": "Lucky George's",
+  "address": "2810 Broadway St, Quincy, IL 62301",
+  "city": "Quincy",
+  "region": "Illinois",
+  "country": "US",
+  "latitude": 39.934841,
+  "longitude": -91.370364,
+  "phone": "+12176410409",
+  "website": "http://www.luckygeorges.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770205355/golf_simulators/www_luckygeorges_com_ChIJGWdJd4H33YcRr3A1WSWmWVQ.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Lucky+George%27s/@39.9348412,-91.37036359999999,14z/data=!4m8!1m2!2m1!1sLucky+George%27s!3m4!1s0x87ddf78177496719:0x5459a625593570af!8m2!3d39.9348412!4d-91.37036359999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJGWdJd4H33YcRr3A1WSWmWVQ",
+  "email": "george@luckygeorges.com",
+  "venue_type": "sim_bar",
+  "about": "Lucky George's is a premier gaming parlor in Quincy, IL, featuring a private Full Swing Golf Simulator alongside five state-of-the-art gaming machines. The venue offers a relaxed atmosphere where patrons can play video poker and slot games while enjoying cold beverages, or practice their golf on professional-grade courses. Open daily with extended hours, it serves as a casual spot for both gaming and golf entertainment. The golf simulator requires advance booking via phone, and the venue emphasizes a friendly, welcoming environment for casual play and socializing.",
+  "tags": "food_and_drinks|beginner_friendly|date_night|budget_friendly|late_night|private_rooms|club_rentals",
+  "vibe_tags": "sports_bar|casual|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|solo_practice|corporate_teams|tourists_travelers",
+  "why_golfers_like_it": [
+    "Professional Full Swing Golf Simulator access",
+    "Relaxed bar atmosphere for social golf sessions",
+    "Affordable golf and gaming combined experience",
+    "No membership required for casual play",
+    "Private golf simulator bay for focused practice"
+  ],
+  "kid_friendly": false,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen available with various food options"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service with $1 domestic beer specials daily"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Full Swing",
+      "model": "Golf Simulator",
+      "notes": "Private simulator bay with professional course access"
+    }
+  ],
+  "simulator_so": [
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": 1,
+  "booking_url": "tel:217-641-0409",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 40,
+  "price_range_max_local": 80,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, golfers should bring their own clubs to use the Full Swing Golf Simulator."
+    },
+    {
+      "question": "Can I bring food and drinks from outside?",
+      "answer": "No, outside food and drinks are not permitted as the venue offers a full bar and kitchen service."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "18-hole rounds typically take 60-90 minutes depending on group size and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "No, Lucky George's is an adults-only venue, requiring all patrons to be 21 years or older."
+    }
+  ],
+  "simulator_software": [
+    "Full Swing Golf"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-1AM\"], \"Tuesday\": [\"9AM-1AM\"], \"Wednesday\": [\"9AM-1AM\"], \"Thursday\": [\"9AM-1AM\"], \"Friday\": [\"9AM-1AM\"], \"Saturday\": [\"9AM-1AM\"], \"Sunday\": [\"10AM-1AM\"]}"
+}

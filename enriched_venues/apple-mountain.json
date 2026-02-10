@@ -1,0 +1,92 @@
+{
+  "name": "Apple Mountain",
+  "address": "4519 N River Rd, Freeland, MI 48623",
+  "city": "Freeland",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 43.471009,
+  "longitude": -84.106169,
+  "phone": "+19897816789",
+  "website": "http://applemountain.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770248980/golf_simulators/applemountain_com_ChIJ2YCO0_fPI4gRDqCa131My18.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Apple+Mountain/@43.4710093,-84.1061692,14z/data=!4m8!1m2!2m1!1sApple+Mountain!3m4!1s0x8823cff7d38e80d9:0x5fcb4c7dd79aa00e!8m2!3d43.4710093!4d-84.1061692",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ2YCO0_fPI4gRDqCa131My18",
+  "email": "info@applemountain.com",
+  "venue_type": "country_club",
+  "about": "Apple Mountain is a multi-venue destination in Freeland, Michigan, featuring a championship golf course, full-service dining, and extensive event facilities. The property includes a Trackman simulator bay for year-round golf practice and play, along with restaurants and conference centers designed for both casual and formal gatherings. The venue operates with dynamic pricing for golf services and offers season passes for regular players. It provides a comprehensive experience combining on-course golf with indoor technology, dining, and event hosting capabilities.",
+  "tags": "food_and_drinks|corporate_events|beginner_friendly|coaching_available|premium_tech|club_rentals|family_friendly",
+  "vibe_tags": "upscale_lounge|community_club|casual|welcoming",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|large_groups",
+  "why_golfers_like_it": [
+    "Premium Trackman technology for accurate simulation",
+    "Dynamic pricing ensures best available rates at booking",
+    "Championship golf course with scenic views",
+    "Season pass options for frequent players",
+    "Full dining and event amenities on-site"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full-service restaurants including Mountain View Restaurant and Putters Pointe Café with casual dining options"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Alcohol service available at restaurant facilities"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Professional-grade radar launch monitor with comprehensive ball and club tracking"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "http://applemountain.com/book-now",
+  "pricing_model": "per_person_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "true",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|pro_shop|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.3,
+  "rating_value_for_money": 4.1,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The Trackman simulator can be used with your own clubs or rental clubs may be available upon inquiry."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drinks are not permitted, but the on-site restaurants and bars offer full dining and beverage services."
+    },
+    {
+      "question": "How long does it take to play 18 holes on the simulator?",
+      "answer": "A full 18-hole simulator session typically takes 1-2 hours depending on group size and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Apple Mountain welcomes families and hosts various events that would be suitable for different age groups."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.4,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

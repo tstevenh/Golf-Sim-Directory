@@ -1,0 +1,100 @@
+{
+  "name": "50YardsLonger",
+  "address": "11125 Kenwood Rd, Blue Ash, OH 45242",
+  "city": "Blue Ash",
+  "region": "Ohio",
+  "country": "US",
+  "latitude": 39.267872,
+  "longitude": -84.374511,
+  "phone": "+15133448980",
+  "website": "http://www.50yardslonger.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770211709/golf_simulators/www_50yardslonger_com_ChIJ0WLfnnNTQIgRCRWlpzX2Xns.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/50YardsLonger/@39.2678718,-84.3745108,14z/data=!4m8!1m2!2m1!1s50YardsLonger!3m4!1s0x884053739edf62d1:0x7b5ef635a7a51509!8m2!3d39.2678718!4d-84.3745108",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ0WLfnnNTQIgRCRWlpzX2Xns",
+  "email": "50yardslonger@gmail.com",
+  "venue_type": "retail_fitting_center",
+  "about": "50 Yards Longer is a professional golf club fitting company operating primarily at the SwingFitGolfClub facility in the Mid-West. They are a brand agnostic fitting service, stocking high-performing equipment from all major manufacturers and utilizing a team of Master Club Fitters and Builders. Their services range from one-hour sessions for driver or iron fittings to comprehensive 2-3 hour full bag fittings. The company emphasizes a data-driven approach using advanced launch monitor technology to ensure clubs are precisely tailored to a golfer's swing DNA for optimal performance on the course.",
+  "tags": "beginner_friendly|serious_golfers|coaching_available|premium_tech|club_fitting|corporate_events|budget_friendly",
+  "vibe_tags": "tech_lab|upscale_lounge|private_luxury",
+  "who_its_for": "serious_golfers|beginners|coaches_instructors",
+  "why_golfers_like_it": [
+    "Utilizes premium, tour-level launch monitor technology like TrackMan, FlightScope, and SkyTrak for precise data analysis",
+    "Offers a unique mobile 'Ultimate Custom Fit Golf Lab' service, bringing professional fitting to your home or club",
+    "Brand agnostic approach ensures customers are fit with the best performing equipment, not limited to specific brands",
+    "Professional Master Club Builders hand-craft clubs to exact specifications and ship them directly to the customer"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "No on-site kitchen is mentioned, but BYOB (Bring Your Own Beverage) is not explicitly prohibited, suggesting outside food and drink may be permitted."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "No on-site bar is mentioned, but BYOB (Bring Your Own Beverage) is not explicitly prohibited, suggesting outside alcohol may be permitted."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "TrackMan",
+      "model": "unknown",
+      "notes": "TrackMan is used for ball flight data and swing analysis."
+    },
+    {
+      "brand": "FlightScope",
+      "model": "unknown",
+      "notes": "FlightScope Doppler radar technology is used for launch monitoring and club fitting."
+    },
+    {
+      "brand": "SkyTrak",
+      "model": "unknown",
+      "notes": "SkyTrak is used as an ultimate indoor and outdoor launch monitor, with demo days available for customers."
+    }
+  ],
+  "simulator_software": [
+    "The Golf Club Game"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://swingfitgolfclub.com/services/club-fitting/",
+  "pricing_model": "per_person_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 3,
+  "amenities_list": "club_rentals|club_fitting|coaching_available",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, 50 Yards Longer provides a selection of demo clubs for fitting. You do not need to bring your own equipment to the session."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The website does not mention an on-site kitchen or bar. It does not explicitly prohibit outside food and drink, so it may be permissible."
+    },
+    {
+      "question": "How long does a full 18-hole simulation take?",
+      "answer": "The website does not specify the time for a full 18-hole simulation. Fitting sessions for clubs can range from 1 hour for a single club type to 2-3 hours for a full bag fitting."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "Yes, 50 Yards Longer is kid-friendly. They mention having demo clubs for 'all ages and sizes' and offer services for 'the beginning golfer,' making it suitable for juniors and youth."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"8AM-8PM\"], \"Tuesday\": [\"8AM-8PM\"], \"Wednesday\": [\"8AM-8PM\"], \"Thursday\": [\"8AM-8PM\"], \"Friday\": [\"8AM-8PM\"], \"Saturday\": [\"8AM-8PM\"], \"Sunday\": [\"8AM-8PM\"]}"
+}

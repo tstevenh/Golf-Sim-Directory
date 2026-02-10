@@ -1,0 +1,91 @@
+{
+  "name": "River Marsh Golf Club",
+  "address": "100 Heron Blvd, Cambridge, MD 21613",
+  "city": "Cambridge",
+  "region": "Maryland",
+  "country": "US",
+  "latitude": 38.56028,
+  "longitude": -76.047859,
+  "phone": "+14109016396",
+  "website": "http://www.rivermarshgolfclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770202521/golf_simulators/www_rivermarshgolfclub_com_ChIJ69SE-ChKuIkR53IaKKcob64.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/River+Marsh+Golf+Club/@38.560279799999996,-76.0478591,14z/data=!4m8!1m2!2m1!1sRiver+Marsh+Golf+Club!3m4!1s0x89b84a28f884d4eb:0xae6f28a7281a72e7!8m2!3d38.560279799999996!4d-76.0478591",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ69SE-ChKuIkR53IaKKcob64",
+  "email": "abby.messick@hyatt.com",
+  "venue_type": "hotel_resort",
+  "about": "River Marsh Golf Club is a premier golf destination located on the Eastern Shore of Maryland, offering both an 18-hole championship course and an indoor golf simulator facility known as 'The Cove.' The club utilizes TruGolf technology to provide a year-round golfing experience, featuring simulated play on renowned courses like Bandon Dunes, Kapalua, and Pinehurst No. 2. It is situated within the Hyatt Regency Chesapeake Bay Golf Resort & Spa, offering a full resort experience with dining, accommodations, and other amenities. The facility employs dynamic pricing for its golf course and offers various packages and rental options to accommodate different group sizes and preferences.",
+  "tags": "food_and_drinks|corporate_events|family_friendly|beginner_friendly|premium_tech|solo_practice|date_night",
+  "vibe_tags": "upscale_lounge|family_fun_center|community_club|welcoming",
+  "who_its_for": "families|corporate_teams|tourists_travelers|beginners|serious_golfers",
+  "why_golfers_like_it": [
+    "Convenient year-round golf access via TruGolf simulator",
+    "Wide variety of premium virtual courses available for play",
+    "Integrated dining options from Eagles Nest Grille",
+    "Located within a full-service resort with spa accommodations",
+    "Flexible booking options for individuals and groups"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "On-site restaurant called Eagles Nest Grille by the greens"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Craft beer available at Eagles Nest Grille"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "TruGolf",
+      "model": null,
+      "notes": "Primary simulator brand used for 'The Cove' facility"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 1,
+  "booking_url": "https://river-marsh-simulator.book.teeitup.com/?course=946&date=2023-11-07",
+  "pricing_model": "mixed",
+  "price_range_min_local": 155,
+  "price_range_max_local": 275,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "full_bar|kitchen_food|tv_sports|pro_shop|club_fitting|ada_accessible",
+  "rating_tech_quality": 3.5,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 3.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Rental equipment from Callaway Golf is available for $70 per 18-hole round or $35 for 9 holes."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Food and drinks can be purchased at the on-site Eagles Nest Grille, which is located near The Cove simulator."
+    },
+    {
+      "question": "How long does it take to play 18 holes on the simulator?",
+      "answer": "1-hour sessions are available for individual and corporate bookings, with 2-hour sessions for group bookings."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, the venue offers family golf options and is part of a family-oriented resort, making it suitable for children."
+    }
+  ],
+  "rating_overall": 3.8,
+  "opening_hours": "{\"Monday\": [\"8AM-5PM\"], \"Tuesday\": [\"8AM-5PM\"], \"Wednesday\": [\"8AM-5PM\"], \"Thursday\": [\"8AM-5PM\"], \"Friday\": [\"8AM-5PM\"], \"Saturday\": [\"8AM-5PM\"], \"Sunday\": [\"8AM-5PM\"]}"
+}

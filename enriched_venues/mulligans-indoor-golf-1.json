@@ -1,0 +1,91 @@
+{
+  "name": "Mulligans Indoor Golf",
+  "address": "4450 TX-29, Bertram, TX 78605",
+  "city": "Bertram",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 30.714553,
+  "longitude": -98.006765,
+  "phone": "+15123558170",
+  "website": "https://www.mulligansig.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770219169/golf_simulators/www_mulligansig_com_ChIJcW8-nwXZWoYRfXWH6S0gomg.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Mulligans+Indoor+Golf/@30.7145531,-98.0067653,14z/data=!4m8!1m2!2m1!1sMulligans+Indoor+Golf!3m4!1s0x865ad9059f3e6f71:0x68a2202de987757d!8m2!3d30.7145531!4d-98.0067653",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJcW8-nwXZWoYRfXWH6S0gomg",
+  "email": "Support@MulligansIG.com",
+  "venue_type": "sim_bar",
+  "about": "Mulligans Indoor Golf is a Texas-based facility designed for year-round golf entertainment, offering a state-of-the-art environment to play, practice, and socialize regardless of weather conditions. The venue features tour-grade Uneekor QED simulator bays equipped with cutting-edge technology for high accuracy and instant shot display. It caters to a broad audience, from serious golfers looking to improve their game to newbies seeking to learn, while also providing a social atmosphere with dining options and events.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|private_rooms|coaching_available|family_friendly",
+  "vibe_tags": "sports_bar|family_fun_center|community_club|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Premium Uneekor QED simulator technology for high accuracy",
+    "Social atmosphere with food and drink options",
+    "Facility available year-round, independent of weather",
+    "Golf instruction available with professional coaching"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen available with items like Grilled Chicken Sandwich Basket, Cheeseburger Basket, Double Cheeseburger Basket, Candy Bars, and Party Sampler. Private party food options are also available."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service found."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "QED",
+      "notes": "Cutting edge simulator bays providing superb accuracy and instant shot display."
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 12,
+  "booking_url": "https://www.mulligansig.com/book-online",
+  "pricing_model": "mixed",
+  "price_range_min_local": 40,
+  "price_range_max_local": 850,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|kitchen_food|tv_sports|private_party_room|wifi|leagues|coaching_available",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue provides tour-grade equipment suitable for all skill levels, making it unnecessary for customers to bring their own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drink policies are not specified. The venue offers an extensive food and non-alcoholic drink menu for purchase."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify the duration for an 18-hole round."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Mulligans Indoor Golf welcomes families and offers coaching for juniors and youth, making it suitable for all ages."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"3-9PM\"], \"Tuesday\": [\"3-9PM\"], \"Wednesday\": [\"3-9PM\"], \"Thursday\": [\"3-9PM\"], \"Friday\": [\"11AM-10PM\"], \"Saturday\": [\"11AM-10PM\"], \"Sunday\": [\"11AM-8PM\"]}"
+}

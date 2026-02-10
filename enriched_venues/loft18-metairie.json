@@ -1,0 +1,91 @@
+{
+  "name": "Loft18 Metairie",
+  "address": "3128 Metairie Rd, Metairie, LA 70001",
+  "city": "Metairie",
+  "region": "Louisiana",
+  "country": "US",
+  "latitude": 29.97674,
+  "longitude": -90.155698,
+  "phone": "+15048271059",
+  "website": "https://www.loft18.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770229713/golf_simulators/www_loft18_com_ChIJXStX4AawIIYRYxPvrK_ArCs.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Loft18+Metairie/@29.9767396,-90.15569789999999,14z/data=!4m8!1m2!2m1!1sLoft18+Metairie!3m4!1s0x8620b006e0572b5d:0x2bacc0afacef1363!8m2!3d29.9767396!4d-90.15569789999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJXStX4AawIIYRYxPvrK_ArCs",
+  "email": "info@loft18.com",
+  "venue_type": "sim_bar",
+  "about": "Loft18 is an interactive sports bar and grill venue featuring indoor, year-round golf and multi-sport simulator experiences. The venue offers custom-built Full Swing Simulation BAYS with championship courses and games designed for golfers of all skill levels. Beyond golf, the establishment functions as a full-service restaurant and bar, providing a casual environment for socializing and networking with gastro-pub fare, craft beer, and cocktails. The atmosphere is designed for both serious play and relaxed, happy-hour style gatherings.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|leagues|premium_tech|private_rooms|club_rentals|date_night|upscale_lounge",
+  "vibe_tags": "sports_bar|casual|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|corporate_teams|families|solo_practice",
+  "why_golfers_like_it": [
+    "Premium Full Swing simulator technology for precise and realistic play",
+    "Full-service restaurant and bar allowing for a complete entertainment and dining experience",
+    "Multi-sport capabilities beyond golf, offering a variety of indoor activities",
+    "Casual, social atmosphere suitable for both practice and relaxed play",
+    "Happy hour environment that blends golf with social networking"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full-service gastro-pub kitchen with a changing menu focused on local ingredients and crafted dishes."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service offering craft beer, cocktails, and a variety of beverages."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Full Swing",
+      "model": "Simulation BAYS",
+      "notes": "Custom-built bays featuring Full Swing technology for golf and multi-sport simulation."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://loft18.reservewithrex.com/package?venue=Metairie",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": false,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue provides equipment, but players are welcome to bring their own clubs if they prefer."
+    },
+    {
+      "question": "Can I bring outside food or drinks?",
+      "answer": "Outside food and drinks are not permitted, as Loft18 operates as a full-service restaurant and bar."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Typically, a full 18-hole round of golf takes about 2-3 hours in a simulator bay, depending on the number of players."
+    },
+    {
+      "question": "Is Loft18 kid-friendly?",
+      "answer": "Yes, Loft18 is designed to be a welcoming environment for families and offers food and activities suitable for various age groups."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"3-10PM\"], \"Tuesday\": [\"3-10PM\"], \"Wednesday\": [\"11AM-10PM\"], \"Thursday\": [\"11AM-10PM\"], \"Friday\": [\"11AM-12AM\"], \"Saturday\": [\"11AM-12AM\"], \"Sunday\": [\"11AM-9PM\"]}"
+}

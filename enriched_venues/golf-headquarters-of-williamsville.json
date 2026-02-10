@@ -1,0 +1,90 @@
+{
+  "name": "Golf Headquarters of Williamsville",
+  "address": "8230 Wehrle Dr, Williamsville, NY 14221",
+  "city": "Williamsville",
+  "region": "New York",
+  "country": "US",
+  "latitude": 42.956913,
+  "longitude": -78.688673,
+  "phone": "+17166332626",
+  "website": "http://www.thedomewny.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770212829/golf_simulators/www_thedomewny_com_ChIJuSpFKg9104kRqBtiQV7huNM.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Golf+Headquarters+of+Williamsville/@42.9569131,-78.68867259999999,14z/data=!4m8!1m2!2m1!1sGolf+Headquarters+of+Williamsville!3m4!1s0x89d3750f2a452ab9:0xd3b8e15e41621ba8!8m2!3d42.9569131!4d-78.68867259999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJuSpFKg9104kRqBtiQV7huNM",
+  "email": "thewehrlegolfdome@gmail.com",
+  "venue_type": "sim_bar",
+  "about": "The Dome is an indoor golf and entertainment venue located in Williamsville, NY, featuring Toptracer technology for year-round practice and play. It offers a comprehensive experience including 50 practice stalls on two levels, club fitting services with TrackMan and SAM PuttLab, and a full kitchen and bar. The facility is designed for golfers of all skill levels, with amenities ranging from individual practice to large group events and corporate outings.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|private_rooms|club_rentals|coaching_available",
+  "vibe_tags": "family_fun_center|sports_bar|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "State-of-the-art Toptracer technology for advanced game analysis",
+    "Year-round indoor practice facility with heated 68,000 sq. ft. dome",
+    "Comprehensive amenities including dining, pro shop, and event spaces"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Two Nines Kitchen Bar offers full food service with varying hours by season"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available at Two Nines Kitchen Bar"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Toptracer",
+      "model": "Range",
+      "notes": "33 hitting bays with Toptracer technology for games and stat tracking"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 33,
+  "booking_url": "https://thedomewny.com/virtual-golf-reservations/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 25,
+  "price_range_max_local": 55,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|pro_shop|club_fitting|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can bring your own clubs, but rentals may be available. Contact The Dome directly for equipment rental options."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "Outside food and drinks are not permitted. The venue offers a full kitchen and bar service through Two Nines Kitchen Bar."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "18 holes typically take 1-2 hours depending on group size and simulator usage. The Toptracer system allows for efficient play."
+    },
+    {
+      "question": "Is The Dome kid-friendly?",
+      "answer": "Yes, The Dome is family-friendly with activities suitable for all ages, including junior golf programs and family entertainment options."
+    }
+  ],
+  "simulator_software": [
+    "Toptracer"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-8PM\"], \"Tuesday\": [\"10AM-8PM\"], \"Wednesday\": [\"10AM-8PM\"], \"Thursday\": [\"10AM-8PM\"], \"Friday\": [\"10AM-8:30PM\"], \"Saturday\": [\"10AM-4PM\"], \"Sunday\": [\"10AM-4PM\"]}"
+}

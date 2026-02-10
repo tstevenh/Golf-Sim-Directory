@@ -1,0 +1,90 @@
+{
+  "name": "X-Golf Holland",
+  "address": "12331 James St STE 100, Holland, MI 49424",
+  "city": "Holland",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 42.815721,
+  "longitude": -86.087691,
+  "phone": "+16163777230",
+  "website": "http://xgolfholland.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770207409/golf_simulators/xgolfholland_com_ChIJoZo4fWmTGYgRGzIBe-8j3E0.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/X-Golf+Holland/@42.8157207,-86.0876914,14z/data=!4m8!1m2!2m1!1sX-Golf+Holland!3m4!1s0x881993697d389aa1:0x4ddc23ef7b01321b!8m2!3d42.8157207!4d-86.0876914",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJoZo4fWmTGYgRGzIBe-8j3E0",
+  "email": "Info@xgolfholland.com",
+  "venue_type": "sim_bar",
+  "about": "X-Golf Holland MI is a golf simulator venue offering 6 state-of-the-art simulators for play, training, and events. The facility provides a range of services including PGA instruction, leagues, corporate event hosting, and a full-service restaurant and bar. Pricing is per bay, per hour, with rates of $50-$60 depending on the day and discounts available for seniors, military, and first responders. Each simulator bay can accommodate up to 6 players per hour.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|coaching_available|date_night|family_friendly",
+  "vibe_tags": "upscale_lounge|sports_bar|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Advanced technology combining camera systems, infrared lasers, and impact sensors for accurate simulation",
+    "Comprehensive food and beverage options with a full bar and restaurant",
+    "Available PGA professional instruction and personalized coaching programs",
+    "Flexible booking system and accommodating group sizes"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "On-site kitchen with a food and drink menu including shareable bites, appetizers, snacks, and pizzas"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service including beer by the glass, craft beer on tap, and cocktails"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "X-Golf",
+      "model": "State Of The Art Simulator",
+      "notes": "Combination of camera systems, infrared lasers, impact sensors and advanced gaming software"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 6,
+  "booking_url": "https://clients.uschedule.com/xgolfholland/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 40,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|private_party_room|wifi|leagues|pro_shop",
+  "rating_tech_quality": 4.2,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 3.8,
+  "faq": [
+    {
+      "question": "Do I need clubs?",
+      "answer": "You can bring your own clubs, though rental clubs are available if needed."
+    },
+    {
+      "question": "Can I bring my own food or drink?",
+      "answer": "The venue has a full kitchen and bar, but BYOB policies are not mentioned."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Generally, it takes 1 hour for an individual player to play 18 holes. With more players, an additional hour per person may be needed depending on skill level."
+    },
+    {
+      "question": "Is it kid-friendly?",
+      "answer": "Yes, the venue welcomes children of all ages and accommodates all skill levels."
+    }
+  ],
+  "rating_overall": 4.0,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"9AM-12AM\"], \"Saturday\": [\"7AM-12AM\"], \"Sunday\": [\"9AM-9PM\"]}"
+}

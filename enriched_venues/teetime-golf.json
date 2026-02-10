@@ -1,0 +1,93 @@
+{
+  "name": "TeeTime Golf",
+  "address": "8373 S Memorial Dr, Tulsa, OK 74133",
+  "city": "Tulsa",
+  "region": "Oklahoma",
+  "country": "US",
+  "latitude": 36.043167,
+  "longitude": -95.885561,
+  "phone": "+19188805321",
+  "website": "https://www.teetimegolftulsa.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770202939/golf_simulators/www_teetimegolftulsa_com_ChIJyxdANo2RtocRV8JVa7TFb28.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/TeeTime+Golf/@36.0431672,-95.885561,14z/data=!4m8!1m2!2m1!1sTeeTime+Golf!3m4!1s0x87b6918d364017cb:0x6f6fc5b46b55c257!8m2!3d36.0431672!4d-95.885561",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJyxdANo2RtocRV8JVa7TFb28",
+  "email": "derik.keim@teetimegolftulsa.com",
+  "venue_type": "training_studio",
+  "about": "TeeTime Golf is a members-only indoor golf training facility in Tulsa, Oklahoma, featuring Trackman technology for self-service practice and professional coaching. The venue offers a dedicated private golf studio and gym, alongside mobile simulator rentals for events. It is operated by owner Derik Keim, a Titleist Performance Institute (TPI) certified coach and Trackman Certified professional, focusing on data-driven swing analysis and junior golf programs. Membership is required for access to the indoor studio, while mobile simulator services are available for rental for private and corporate events.",
+  "tags": "serious_practice|coaching_available|juniors_youth|corporate_events|premium_tech|private_rooms|club_rentals|beginner_friendly|budget_friendly",
+  "vibe_tags": "industrial_training|tech_lab|community_club",
+  "who_its_for": "serious_golfers|juniors_youth|corporate_teams|coaches_instructors|beginners",
+  "why_golfers_like_it": [
+    "Access to premium Trackman launch monitor technology for detailed shot analysis",
+    "Titleist Performance Institute certified coaching for game improvement",
+    "Flexible membership options and mobile simulator availability for events",
+    "Specialized junior golf programs to develop young athletes"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "BYOB is not explicitly mentioned; contact venue for specific policies."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "BYOB is not explicitly mentioned; contact venue for specific policies."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Primary launch monitor for the indoor studio and mobile experience"
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://booking.trackmangolf.com/venues/tee-time-golf-1/booking/bays",
+  "pricing_model": "mixed",
+  "price_range_min_local": 15,
+  "price_range_max_local": 30,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|gym|pro_shop|wifi|leagues|juniors_program",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you are required to bring your own clubs to use the Trackman simulators and for coaching sessions."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The BYOB policy is not explicitly stated. It is recommended to contact TeeTime Golf directly for clarification on outside food and drink."
+    },
+    {
+      "question": "How long does an 18-hole simulation take?",
+      "answer": "An 18-hole simulation typically takes about 2-3 hours, depending on the number of players and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, TeeTime Golf specializes in junior golf programs and offers services for young athletes, making it a kid-friendly environment for learning the game."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"5AM-11PM\"], \"Tuesday\": [\"5AM-11PM\"], \"Wednesday\": [\"5AM-11PM\"], \"Thursday\": [\"5AM-11PM\"], \"Friday\": [\"5AM-11PM\"], \"Saturday\": [\"5AM-11PM\"], \"Sunday\": [\"5AM-11PM\"]}"
+}

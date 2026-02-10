@@ -1,0 +1,89 @@
+{
+  "name": "Growth Golf",
+  "address": "11550 W Meadows Dr Unit A-1, Littleton, CO 80127",
+  "city": "Littleton",
+  "region": "Colorado",
+  "country": "US",
+  "latitude": 39.582196,
+  "longitude": -105.127051,
+  "phone": "+13204916494",
+  "website": "https://www.growthgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770249633/golf_simulators/www_growthgolf_com_ChIJ95LhXcV5a4cRiX-QWEGAY9U.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Growth+Golf/@39.5821963,-105.1270509,14z/data=!4m8!1m2!2m1!1sGrowth+Golf!3m4!1s0x876b79c55de192f7:0xd563804158907f89!8m2!3d39.5821963!4d-105.1270509",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ95LhXcV5a4cRiX-QWEGAY9U",
+  "email": "chris@growthgolf.com",
+  "venue_type": "training_studio",
+  "about": "Growth Golf operates Colorado's premiere indoor golf studios with locations in Broomfield and Littleton. The facility utilizes industry-leading TrackMan technology in climate-controlled bays, offering players the ability to practice, play, and receive coaching year-round. With PGA-trusted TrackMan launch monitors and Virtual Golf 3 simulator software, players can access detailed swing analytics and play on over 400 world-famous courses. The venue provides a mix of public bay rentals by the hour and membership options that include unlimited access, discounts on lessons, and priority booking for events and leagues.",
+  "tags": "serious_practice|coaching_available|premium_tech|juniors_youth|leagues|club_fitting|beginner_friendly|corporate_events",
+  "vibe_tags": "tech_lab|community_club|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|families|juniors_youth|corporate_teams",
+  "why_golfers_like_it": [
+    "Access to cutting-edge TrackMan technology with detailed swing analytics",
+    "Ability to play on 400+ world-famous courses in a climate-controlled environment",
+    "Professional coaching with instructors having 10+ years of experience"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of on-site food service"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service; BYOB not indicated"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Industry-leading PGA-trusted launch monitor used in all bays"
+    }
+  ],
+  "simulator_software": [
+    "Virtual Golf 3"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.growthgolf.com/rental",
+  "pricing_model": "mixed",
+  "price_range_min_local": 100,
+  "price_range_max_local": 300,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|club_fitting|leagues|pro_shop|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify whether club rentals are available. It is recommended to bring your own clubs when visiting Growth Golf."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "There is no mention of food or drink service at Growth Golf, and no specific policy regarding outside food or drinks is stated on the website."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not provide specific timing information for playing 18 holes on the simulator."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Growth Golf offers lesson packs for all ages and junior golf programs, making it a kid-friendly facility."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

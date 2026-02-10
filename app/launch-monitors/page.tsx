@@ -3,6 +3,20 @@ import Link from "next/link";
 import { Target, Cpu, Camera, Radar } from "lucide-react";
 import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
 
+type LaunchMonitorCard = {
+  slug: string;
+  name: string;
+  manufacturer: string;
+  technology: string;
+  price: string;
+  metrics?: string | number;
+  accuracy?: string;
+  highlight?: string;
+  bestFor?: string[];
+  icon: React.ComponentType<{ className?: string }>;
+  description: string;
+};
+
 export const metadata: Metadata = {
   title: "Golf Launch Monitor Guide — TrackMan vs Foresight vs Uneekor",
   description: "Compare top golf launch monitors side by side: TrackMan 4, Foresight GCQuad, Uneekor EYE XO. Official specs and pricing.",
@@ -17,7 +31,7 @@ export const metadata: Metadata = {
   },
 };
 
-const launchMonitors = [
+const launchMonitors: LaunchMonitorCard[] = [
   {
     slug: "trackman-4",
     name: "TrackMan 4",
@@ -183,12 +197,12 @@ export default function LaunchMonitorsIndexPage() {
 
                   {monitor.bestFor?.length ? (
                     <div className="flex flex-wrap gap-1.5">
-                      {monitor.bestFor.slice(0, 2).map((use) => (
+                      {monitor.bestFor.slice(0, 2).map((useCase) => (
                         <span
-                          key={use}
+                          key={useCase}
                           className="px-2 py-1 bg-slate text-cream-subtle text-xs rounded"
                         >
-                          {use}
+                          {useCase}
                         </span>
                       ))}
                     </div>

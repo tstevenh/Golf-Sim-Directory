@@ -1,0 +1,92 @@
+{
+  "name": "Goff Academy",
+  "address": "6500 Magazine St, New Orleans, LA 70118",
+  "city": "New Orleans",
+  "region": "Louisiana",
+  "country": "US",
+  "latitude": 29.928336,
+  "longitude": -90.128094,
+  "phone": "+15042127801",
+  "website": "http://goffacademy.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770255105/golf_simulators/goffacademy_com_ChIJc6MlnMelIIYRbgVT6PeC2tA.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Goff+Academy/@29.928335599999997,-90.12809349999999,14z/data=!4m8!1m2!2m1!1sGoff+Academy!3m4!1s0x8620a5c79c25a373:0xd0da82f7e853056e!8m2!3d29.928335599999997!4d-90.12809349999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJc6MlnMelIIYRbgVT6PeC2tA",
+  "email": "dgoff@auduboninstitute.org",
+  "venue_type": "training_studio",
+  "about": "Goff Academy is a premier golf instruction and club fitting facility led by PGA Professional Drew Goff, located within Audubon Park Golf Course in New Orleans. The academy utilizes advanced technology, specifically Foresight's GC Quad Launch Monitor, to provide expert swing analysis and indoor simulator training. The facility focuses on improving skills for players of all levels through private lessons, group packages, and on-course instruction.\n\nThe venue is designed for serious game improvement, offering a fully equipped indoor swing room for video analysis and data tracking, as well as access to the adjoining Audubon Park course for real-world scenario training. Goff Academy emphasizes a comprehensive approach to the game, covering full swing, short game, and putting mechanics. Whether looking for private lessons or custom club fittings, the academy provides a professional environment focused on player development and technical mastery.",
+  "tags": "instruction|coaching|club_fitting|foresight_sports|private_lessons|indoor_golf|on_course_training|golf_academy|practice_facility|data_analysis",
+  "vibe_tags": "professional|focused|technical|instructional|modern|quiet",
+  "who_its_for": "serious_golfers|beginners|juniors_youth|solo_practice|coaches_instructors",
+  "why_golfers_like_it": [
+    "High-end Foresight GC Quad launch monitor technology",
+    "PGA Professional instruction with extensive playing and coaching credentials",
+    "Custom club fitting services",
+    "Indoor swing room for all-weather training",
+    "On-course instruction available at Audubon Park",
+    "Tailored lessons for juniors and adults"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "Not available on-site; located within a public golf course which may have separate amenities."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "Not available on-site."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight Sports",
+      "model": "GC Quad",
+      "notes": "Used for launch monitor simulator analysis and instruction."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "Foresight Sports GC Quad",
+  "ball_tracking": "unknown",
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.goffacademy.com",
+  "pricing_model": "Flat rate per lesson",
+  "price_range_min_local": 50,
+  "price_range_max_local": 150,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "private_lessons|club_fitting|video_analysis|on_course_instruction|restrooms|parking",
+  "rating_tech_quality": 5.0,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "While bringing your own clubs is recommended for fittings and lessons, you should contact the academy directly regarding availability of rental equipment for lessons."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The facility is focused on professional instruction; food and drink policies are not explicitly stated but typically outside food is not permitted in indoor training areas."
+    },
+    {
+      "question": "How long does a typical lesson last?",
+      "answer": "Lessons are available in 30-minute and 1-hour durations."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "Yes, Goff Academy offers specific junior lessons and group packages tailored for youth players."
+    }
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"8AM-4PM\"], \"Wednesday\": [\"8AM-4PM\"], \"Thursday\": [\"8AM-4PM\"], \"Friday\": [\"8AM-4PM\"], \"Saturday\": [\"8AM-12PM\"], \"Sunday\": [\"Closed\"]}"
+}

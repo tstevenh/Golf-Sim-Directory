@@ -1,0 +1,91 @@
+{
+  "name": "Dr. Green's Golf & Entertainment",
+  "address": "83 Union St, Ashland, MA 01721",
+  "city": "Ashland",
+  "region": "Massachusetts",
+  "country": "US",
+  "latitude": 42.259395,
+  "longitude": -71.455919,
+  "phone": "+15082029298",
+  "website": "https://www.drgreensgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770200041/golf_simulators/www_drgreensgolf_com_ChIJYXB6Ohh25IkRR0Hw_NNTfis.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Dr.+Green%27s+Golf+%26+Entertainment/@42.2593951,-71.4559194,14z/data=!4m8!1m2!2m1!1sDr.+Green%27s+Golf+%26+Entertainment!3m4!1s0x89e476183a7a7061:0x2b7e53d3fcf04147!8m2!3d42.2593951!4d-71.4559194",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJYXB6Ohh25IkRR0Hw_NNTfis",
+  "email": "donna.lavallee@drgreensgolf.comm",
+  "venue_type": "sim_bar",
+  "about": "Dr. Green's Golf & Entertainment is a top-tier virtual golf center with locations in Ashland and Westborough, MA. The venue features state-of-the-art golf simulators and a full-service bar, along with entertainment options like pool, shuffleboard, and darts. With nearly 100 unique courses available, including iconic tracks like Pebble Beach, Dr. Greens offers an unbeatable atmosphere for golfers seeking a premium experience. Pricing is tiered with weekday, weekend/holiday, and offseason rates to accommodate different schedules and budgets.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|leagues|premium_tech|date_night|large_groups",
+  "vibe_tags": "sports_bar|casual|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|large_groups",
+  "why_golfers_like_it": [
+    "Highly accurate aboutGolf 3Trak™ launch monitors trusted by the PGA",
+    "Access to over 95 world-class courses with hyper-realistic HD visuals",
+    "Full-service bar with local beer, wine, and mixed drinks",
+    "Dedicated bartenders ensuring minimal wait times for refills",
+    "Entertainment amenities beyond golf, including pool and shuffleboard"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Each location serves food with a unique twist, maintaining a consistent high standard of quality across both venues."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full-service bars with dedicated bartenders, offering a rotating local selection of beers, wines, and mixed drinks."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "aboutGolf",
+      "model": "3Trak",
+      "notes": "Machine vision launch monitor trusted by the PGA, Titleist, and top instructors"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://clients.uschedule.com/drgreens/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 45,
+  "price_range_max_local": 65,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|kitchen_food|tv_sports|private_party_room|leagues|club_rentals",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website doesn't specify, but it's common practice at golf simulators to provide clubs. It's recommended to bring your own for the best experience, but rentals may be available upon inquiry."
+    },
+    {
+      "question": "Can I bring my own food or drink?",
+      "answer": "No, Dr. Greens operates with a full-service bar and kitchen, providing food and drink on-site. They have dedicated bartenders and a rotating local selection of beers, wines, and mixed drinks."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Typically, 18 holes on a simulator take between 2-3 hours depending on the number of players and pace of play, with the option to book by the hour."
+    },
+    {
+      "question": "Is Dr. Greens kid-friendly?",
+      "answer": "Yes, the venue welcomes families and offers entertainment options like pool and shuffleboard, making it suitable for kids alongside the golf experience."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-11PM\"], \"Saturday\": [\"8AM-11PM\"], \"Sunday\": [\"8AM-9PM\"]}"
+}

@@ -1,0 +1,95 @@
+{
+  "name": "1868 Golf Club",
+  "address": "80 Largo Dr, Stamford, CT 06907",
+  "city": "Stamford",
+  "region": "Connecticut",
+  "country": "US",
+  "latitude": 41.091205,
+  "longitude": -73.515062,
+  "phone": null,
+  "website": "https://www.1868golfclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770209231/golf_simulators/www_1868golfclub_com_ChIJqzq1vfChwokRG64bDodMtQU.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/1868+Golf+Club/@41.0912054,-73.5150623,14z/data=!4m8!1m2!2m1!1s1868+Golf+Club!3m4!1s0x89c2a1f0bdb53aab:0x5b54c870e1bae1b!8m2!3d41.0912054!4d-73.5150623",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJqzq1vfChwokRG64bDodMtQU",
+  "venue_type": "training_studio|sim_bar",
+  "about": "1868 Golf Club is a membership-based indoor golf club and performance academy located in the Springdale neighborhood of Stamford, CT. The venue is designed for golf enthusiasts of all ages and skill levels, featuring seven industry-leading Trackman launch monitors in private simulator bays and a 4,000 SF short-game practice area with a 600 SF putting green and sand trap. The club offers a 24-foot bar, outdoor patio, members' lounge with mezzanine seating, and over 20 high-definition televisions. Access to the facility is 24/7, and members receive a first-class experience focused on technology and amenities in a fun, relaxed environment.",
+  "tags": "serious_practice|food_and_drinks|corporate_events|coaching_available|premium_tech|private_rooms|club_rentals",
+  "vibe_tags": "private_luxury|tech_lab|community_club|modern",
+  "who_its_for": "serious_golfers|families|corporate_teams|coaches_instructors|juniors_youth",
+  "why_golfers_like_it": [
+    "Equipped with both Trackman 4 and Trackman iO for industry-leading precision and data",
+    "Private simulator bays provide an exclusive and focused practice environment",
+    "24/7 access allows for flexible practice and play sessions",
+    "Full-service bar and outdoor patio for socializing and relaxation"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full-service bar available; details on food service not specified"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "20-foot fully-equipped bar with outdoor patio area"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "Industry-leading launch monitor providing ultra-realistic data"
+    },
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Advanced launch monitor with industry-leading technology"
+    }
+  ],
+  "simulator_software": [
+    "Virtual Golf 3",
+    "Trackman Performance Studio (TPS)"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": 7,
+  "booking_url": "https://clients.uschedule.com/1868golfclub/account/login",
+  "pricing_model": "membership_only",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 7,
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|full_bar|tv_sports|private_party_room|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.5,
+  "rating_value_for_money": 4.2,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue does not specify whether club rentals are available, but members are encouraged to bring their own clubs for use in the simulators and practice areas."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The club has a fully-equipped bar and outdoor patio, but it does not specify if outside food and drinks are allowed."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not provide an estimated time for playing 18 holes, but the simulators are available 24/7 for flexible sessions."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the club is open to golf enthusiasts irrespective of age, making it suitable for juniors and families."
+    }
+  ],
+  "rating_overall": 4.5,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

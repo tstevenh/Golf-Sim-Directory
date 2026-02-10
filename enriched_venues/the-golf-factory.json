@@ -1,0 +1,91 @@
+{
+  "name": "The Golf Factory",
+  "address": "63 Randhurst Village Dr, Mt Prospect, IL 60056",
+  "city": "Mt Prospect",
+  "region": "Illinois",
+  "country": "US",
+  "latitude": 42.084157,
+  "longitude": -87.933094,
+  "phone": "+12242488163",
+  "website": "http://golffactory.golf/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770215247/golf_simulators/golffactory_golf_ChIJe7kEn1q5D4gReMGSuU5y3Po.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Golf+Factory/@42.0841573,-87.93309359999999,14z/data=!4m8!1m2!2m1!1sThe+Golf+Factory!3m4!1s0x880fb95a9f04b97b:0xfadc724eb992c178!8m2!3d42.0841573!4d-87.93309359999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJe7kEn1q5D4gReMGSuU5y3Po",
+  "email": "beardeddadgolf.lessons@gmail.com.",
+  "venue_type": "sim_bar",
+  "about": "The Golf Factory is an indoor golf simulator venue that provides a space for golfers to compete, practice, and socialize. The facility is equipped with Trackman simulators, which are recognized as the industry leader in accuracy and simulation. It caters to a wide range of customers, including families, solo players, and groups looking for a relaxed, welcoming environment without strict dress codes or slow play. Pricing is flexible with hourly rates for solo practice and various booking options, alongside memberships for frequent players.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|kids_friendly|corporate_events|leagues|premium_tech|private_rooms|late_night|coaching_available",
+  "vibe_tags": "casual|welcoming|modern|sports_bar",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|solo_practice",
+  "why_golfers_like_it": [
+    "Premium Trackman technology provides highly accurate ball and club tracking with 35+ data points",
+    "Family-friendly atmosphere with 10 bays available and kid-friendly golf games",
+    "Relaxed social environment with food, drinks, and no strict dress codes",
+    "Flexible pricing options including hourly rates, early bird, and night owl specials",
+    "Extensive course selection with over 500 photorealistic golf courses available"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "On-site kitchen serving food, including menu items like empanadas"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available, with cold beer and other beverages"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Industry-leading radar-based launch monitor with AI video swing analysis and multiple screens per bay"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 10,
+  "booking_url": "https://yourgolfbooking.com/venues/golf-factory/booking/golf-factory",
+  "pricing_model": "mixed",
+  "price_range_min_local": 30,
+  "price_range_max_local": 40,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|leagues|wifi|pro_shop",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "You can bring your own clubs, but The Golf Factory does not explicitly mention club rentals on-site."
+    },
+    {
+      "question": "Can I bring my own food or drink?",
+      "answer": "The venue has a full kitchen and bar, so outside food and drink may not be permitted, but guests are encouraged to enjoy the on-site offerings."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Playing 18 holes typically takes around 2-3 hours depending on the number of players and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, The Golf Factory is family-friendly with kid-friendly golf games and activities available."
+    }
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"10AM-12AM\"], \"Tuesday\": [\"10AM-12AM\"], \"Wednesday\": [\"10AM-12AM\"], \"Thursday\": [\"10AM-12AM\"], \"Friday\": [\"10AM-12AM\"], \"Saturday\": [\"8AM-12AM\"], \"Sunday\": [\"8AM-7PM\"]}"
+}

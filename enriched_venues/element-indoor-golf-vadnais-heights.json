@@ -1,0 +1,90 @@
+{
+  "name": "Element Indoor Golf - Vadnais Heights",
+  "address": "4255 White Bear Pkwy Suite 2100, Vadnais Heights, MN 55110",
+  "city": "Vadnais Heights",
+  "region": "Minnesota",
+  "country": "US",
+  "latitude": 45.069729,
+  "longitude": -93.053032,
+  "phone": "+16513301699",
+  "website": "http://www.elementindoorgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770204997/golf_simulators/www_elementindoorgolf_com_ChIJUXB1_nfXslIRnIIONQZPUwk.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Element+Indoor+Golf+-+Vadnais+Heights/@45.0697288,-93.0530319,14z/data=!4m8!1m2!2m1!1sElement+Indoor+Golf+-+Vadnais+Heights!3m4!1s0x52b2d777fe757051:0x9534f06350e829c!8m2!3d45.0697288!4d-93.0530319",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJUXB1_nfXslIRnIIONQZPUwk",
+  "venue_type": "sim_bar",
+  "about": "Element Indoor Golf offers a premier indoor golf experience with high-end simulator technology, dining, and event hosting capabilities. The venue features Golfzon simulators, recognized as the best on the market, and provides a casual environment where golfers can play, eat, and drink. Reservations are booked by the hour per bay, and pricing varies based on peak and off-peak times, with discounts available for seniors, veterans, and league players. The facility hosts leagues, corporate events, and private parties, making it suitable for both serious golfers and casual groups.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|private_rooms|club_rentals|coaching_available",
+  "vibe_tags": "sports_bar|community_club|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Premium Golfzon simulator technology recognized by Golf Digest",
+    "Comprehensive food and beverage options including full bar and appetizers",
+    "Flexible booking options with hourly and membership plans",
+    "Active leagues and events for competitive and social play",
+    "Spacious VIP suites for group outings"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen with appetizers and food options available"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with domestic bottles, taps, and wine options; BOGO deals available"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Golfzon",
+      "model": "Global",
+      "notes": "Top-rated simulator technology used at the facility"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "http://www.elementindoorgolf.com/book",
+  "pricing_model": "mixed",
+  "price_range_min_local": 50,
+  "price_range_max_local": 80,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you should bring your own clubs to use the simulators. The venue does not mention club rentals."
+    },
+    {
+      "question": "Can I bring outside food or drink?",
+      "answer": "The venue has a full kitchen and bar, so outside food and drink policies are not specified. It is recommended to enjoy their in-house options."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Typically, 1 person takes 1 hour to finish 18 holes, while 4 people average 4 hours to complete 18 holes."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue welcomes families and offers youth golf programs, making it suitable for kids."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-9PM\"], \"Tuesday\": [\"9AM-11PM\"], \"Wednesday\": [\"9AM-11PM\"], \"Thursday\": [\"9AM-11PM\"], \"Friday\": [\"9AM-11PM\"], \"Saturday\": [\"9AM-11PM\"], \"Sunday\": [\"9AM-9PM\"]}"
+}

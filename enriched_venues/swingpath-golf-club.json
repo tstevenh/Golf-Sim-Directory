@@ -1,0 +1,91 @@
+{
+  "name": "SwingPath GOLF CLUB",
+  "address": "417 Santa Barbara St b1, Santa Barbara, CA 93101",
+  "city": "Santa Barbara",
+  "region": "California",
+  "country": "US",
+  "latitude": 34.418335,
+  "longitude": -119.692584,
+  "phone": "+18054505647",
+  "website": "https://www.swingpathgolfclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770240083/golf_simulators/www_swingpathgolfclub_com_ChIJabBw5a4T6YAR2DsNrnN3aWI.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/SwingPath+GOLF+CLUB/@34.4183348,-119.692584,14z/data=!4m8!1m2!2m1!1sSwingPath+GOLF+CLUB!3m4!1s0x80e913aee570b069:0x62697773ae0d3bd8!8m2!3d34.4183348!4d-119.692584",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJabBw5a4T6YAR2DsNrnN3aWI",
+  "email": "info@swingpathgolfclub.com",
+  "venue_type": "sim_bar|training_studio|private_rental|retail_fitting_center|country_club|multi_sport_sim|hotel_resort|other",
+  "about": "SwingPath Golf Club is a premier indoor golf venue located in Santa Barbara, CA, featuring two TrackMan iO simulators. The club offers a flexible, self-service model with 24/7 access for members, allowing them to practice or play on hundreds of iconic courses worldwide. Memberships range from pay-as-you-play plans to unlimited monthly options, with no contracts or initiation fees. Non-members can book the facility for group events of up to 16 people, with access to darts and shuffleboard. The venue provides a semi-private experience with dedicated bays equipped with comfortable seating, a 70\" TV, refrigerator, and Bluetooth speaker, allowing guests to bring their own food and drinks for a personalized experience.",
+  "tags": "beginner_friendly|corporate_events|premium_tech|budget_friendly|club_rentals|coaching_available",
+  "vibe_tags": "tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|coaches_instructors",
+  "why_golfers_like_it": [
+    "24/7 access to premium TrackMan iO simulators with no blackout dates",
+    "Flexible membership options with no contracts or cancellation fees",
+    "Semi-private bays with premium amenities for personalized gameplay and practice",
+    "Ability to invite up to 3 guests for free with each booking",
+    "Host of local youth golf teams and organized tournaments for community engagement"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Bring your own food or order delivery"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Bring your own drinks"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Installed in large flex cage enclosures to prevent balls from traveling"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 2,
+  "booking_url": "https://booking.registrygolf.com/?organizationId=8e254119-83fd-4f58-bfb8-60ea4676e9dd",
+  "pricing_model": "mixed",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": "no",
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|kitchen_food|tv_sports|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need golf clubs?",
+      "answer": "Members and their guests are expected to bring their own clubs to the facility. However, men's and women's golf clubs are available for hosted group events and non-member bookings."
+    },
+    {
+      "question": "Can I bring food and drinks?",
+      "answer": "Yes, you are welcome to bring your own food and drinks or order delivery during your reservation. The club does not sell food or drinks."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "There is no specific information about the time required to play 18 holes. The simulators offer the flexibility to play at your own pace, with up to 4 hours of play per day depending on your membership tier."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The venue does not explicitly mention being kid-friendly, but it does state that they share their club facilities with local youth golf teams, indicating a level of engagement with the junior golf community."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

@@ -1,0 +1,101 @@
+{
+  "name": "Pro Swing",
+  "address": "105 Snapdragon Ct Suite C, Chapin, SC 29036",
+  "city": "Chapin",
+  "region": "South Carolina",
+  "country": "US",
+  "latitude": 34.15273,
+  "longitude": -81.335019,
+  "phone": "+18035923916",
+  "website": "http://proswingcolumbia.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770201052/golf_simulators/proswingcolumbia_com_ChIJw-EMJc2d-IgRbpcUX9SAsQk.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Pro+Swing/@34.1527301,-81.335019,14z/data=!4m8!1m2!2m1!1sPro+Swing!3m4!1s0x88f89dcd250ce1c3:0x9b180d45f14976e!8m2!3d34.1527301!4d-81.335019",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJw-EMJc2d-IgRbpcUX9SAsQk",
+  "venue_type": "multi_sport_sim",
+  "about": "Pro Swing operates indoor golf facilities in Chapin and Forest Acres, South Carolina, featuring GolfZon's award-winning simulator technology. The venues offer climate-controlled environments with TwoVision and TwoVision NX systems for playing on prestigious golf courses. They provide booking for individual play, lessons with PGA-certified instructors, and opportunities for leagues, events, and corporate tournaments. Pricing is structured per bay, accommodating up to six players per hour, with dedicated facilities available for private events and parties.",
+  "tags": "beginner_friendly|corporate_events|leagues|premium_tech|private_rooms|club_rentals|coaching_available",
+  "vibe_tags": "family_fun_center|community_club|tech_lab|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Industry-leading GolfZon TwoVision and TwoVision NX simulator technology with realism and precision",
+    "Ability to play on world's most prestigious golf courses in a climate-controlled environment",
+    "Flexible booking for individuals and groups up to 6 players per bay",
+    "PGA and Leadbetter Academy certified instructors available for lessons",
+    "Facility can be rented for private events and corporate tournaments"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Available for events and private parties; not specified for general play"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "Not mentioned on website; BYOB policy not specified"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "GolfZon",
+      "model": "TwoVision",
+      "notes": "Award-winning system recognized globally for realism and precision"
+    },
+    {
+      "brand": "GolfZon",
+      "model": "TwoVision NX",
+      "notes": "Part of the innovative TwoVision lineup named Golf Inc. Magazine's Most Exciting New Tech"
+    },
+    {
+      "brand": "GolfZon",
+      "model": "Vision Premium",
+      "notes": "Received 2024 Golf Digest Editor's Choice Award for 'Best Simulator - Premium'"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://app.whoosh.io/patron/club/pro-swing/agenda/chapin/today",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 55,
+  "price_range_max_local": 65,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|private_party_room|leagues|pro_shop|club_fitting",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "You can bring your own clubs or use the clubs provided at the facility."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Food and drink policies are not explicitly mentioned, but the venue can host private events with catering options."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "18 holes take approximately 2 hours for 1-2 players and 2-3 hours for 3-4 players."
+    },
+    {
+      "question": "Is Pro Swing kid-friendly?",
+      "answer": "Yes, Pro Swing welcomes families and offers a fun environment for junior golfers with lessons available for all skill levels."
+    }
+  ],
+  "simulator_software": [
+    "GolfZon Vision Premium"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Friday\": [\"9AM-9PM\"]}"
+}

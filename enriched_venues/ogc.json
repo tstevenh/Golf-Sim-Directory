@@ -1,0 +1,89 @@
+{
+  "name": "OGC",
+  "address": "2101 Country Club Ln, Ontario, NY 14519",
+  "city": "Ontario",
+  "region": "New York",
+  "country": "US",
+  "latitude": 43.214869,
+  "longitude": -77.279575,
+  "phone": "+15854954653",
+  "website": "http://www.ontariogolfclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770212814/golf_simulators/www_ontariogolfclub_com_ChIJJ7fo3EnX1okR4BuAwbzJCgg.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/OGC/@43.2148694,-77.2795752,14z/data=!4m8!1m2!2m1!1sOGC!3m4!1s0x89d6d749dce8b727:0x80ac9bcc1801be0!8m2!3d43.2148694!4d-77.2795752",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJJ7fo3EnX1okR4BuAwbzJCgg",
+  "venue_type": "country_club",
+  "about": "The Ontario Golf Club offers a full-service country club experience, combining a traditional golf course with modern amenities like Trackman simulators. The venue provides both outdoor play and indoor technology for practice and play, appealing to golfers looking for a comprehensive club environment. It features a pub restaurant, event spaces, and instruction services, making it a destination for both serious golfers and social gatherings.",
+  "tags": "food_and_drinks|serious_practice|corporate_events|leagues|coaching_available|premium_tech|family_friendly",
+  "vibe_tags": "community_club|upscale_lounge|welcoming",
+  "who_its_for": "serious_golfers|families|corporate_teams|solo_practice|coaches_instructors",
+  "why_golfers_like_it": [
+    "Premium Trackman technology for accurate shot analysis",
+    "Full-service restaurant and pub dining on-site",
+    "Combination of outdoor course and indoor simulator options"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full restaurant service available with varied dining options"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Pub restaurant serves alcoholic beverages"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Premium launch monitor technology for accurate ball and club tracking"
+    }
+  ],
+  "simulator_software": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://foreupsoftware.com/index.php/booking/22348/10455#teetimes",
+  "pricing_model": "per_person_hour|mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "kitchen_food|full_bar|pro_shop|leagues|private_party_room|club_rentals|wifi|coaching_available",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "While you can bring your own clubs, the venue likely provides rental options for simulator use."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "Outside food and drinks are not permitted as the venue has an on-site restaurant and full bar service."
+    },
+    {
+      "question": "How long does an 18-hole simulator session take?",
+      "answer": "An 18-hole simulator session typically takes 1-2 hours depending on group size and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the Ontario Golf Club welcomes families and has amenities suitable for children, though adult supervision is recommended for simulator areas."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"6:30AM-9PM\"], \"Tuesday\": [\"6:30AM-9PM\"], \"Wednesday\": [\"6:30AM-9PM\"], \"Thursday\": [\"6:30AM-9PM\"], \"Friday\": [\"6:30AM-10PM\"], \"Saturday\": [\"6:30AM-10PM\"], \"Sunday\": [\"6:30AM-9PM\"]}"
+}

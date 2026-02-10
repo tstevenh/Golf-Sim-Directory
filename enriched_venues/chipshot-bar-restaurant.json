@@ -1,0 +1,90 @@
+{
+  "name": "Chipshot Bar & Restaurant",
+  "address": "13164 Atlantic Blvd, Jacksonville, FL 32225",
+  "city": "Jacksonville",
+  "region": "Florida",
+  "country": "US",
+  "latitude": 30.318577,
+  "longitude": -81.463543,
+  "phone": "+19045587772",
+  "website": "http://playchipshot.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770243996/golf_simulators/playchipshot_com_ChIJ4w7J6e5L5IgRR5SToGA4Mi4.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Chipshot+Bar+%26+Restaurant/@30.3185769,-81.4635433,14z/data=!4m8!1m2!2m1!1sChipshot+Bar+%26+Restaurant!3m4!1s0x88e44beee9c90ee3:0x2e323860a0939447!8m2!3d30.3185769!4d-81.4635433",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ4w7J6e5L5IgRR5SToGA4Mi4",
+  "email": "info@playchipshot.com",
+  "venue_type": "sim_bar",
+  "about": "Chipshot is an indoor sports venue featuring 8 climate-controlled pickleball courts and 4 high-tech golf simulator bays. The facility integrates gameplay with a full-service sports bar and kitchen, offering a comprehensive recreational experience. Targeting both casual players and serious enthusiasts, the venue provides a space for practice, competition, and social gatherings. Memberships are available with benefits including priority booking, discounted food and drinks, and access to special events.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|families|leagues|premium_tech|club_rentals|private_rooms",
+  "vibe_tags": "sports_bar|community_club|modern|welcoming",
+  "who_its_for": "beginners|families|corporate_teams|large_groups|serious_golfers",
+  "why_golfers_like_it": [
+    "State-of-the-art Trackman simulators provide realistic and immersive gameplay",
+    "Access to the facility year-round, unaffected by weather conditions",
+    "Convenient booking system and early simulator booking privileges for members",
+    "On-site sports bar with a full kitchen and self-pour beer wall for post-game relaxation"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen service with a menu including burgers, wings, shareable platters, and other items designed to fuel players and fans."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Taproom features 16 taps, including 12 craft beers with a focus on local String's Beer, as well as a selection of wines and cocktails. BYOB is not mentioned."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "High-tech Trackman golf simulators providing a realistic and immersive experience."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 4,
+  "booking_url": "https://app.getopencourt.com/club/chipshot/schedule",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|lockers|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "While not explicitly stated, it is standard practice to bring your own clubs for the golf simulators. The venue may offer club rentals but this information is not provided."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "The venue has a full kitchen and taproom, so bringing outside food and drink is likely not permitted. On-site food and drinks are available for purchase."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "An exact time for 18 holes is not specified, but typical simulator rounds for 18 holes generally take between 60-90 minutes depending on the pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Chipshot is kid-friendly. They offer family memberships and describe the facility as an 'adult playground' and a 'fun, social environment' that can be enjoyed by all ages and skill levels."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"7AM-10PM\"], \"Tuesday\": [\"7AM-10PM\"], \"Wednesday\": [\"7AM-10PM\"], \"Thursday\": [\"7AM-10PM\"], \"Friday\": [\"7AM-11PM\"], \"Saturday\": [\"7AM-11PM\"], \"Sunday\": [\"7AM-10PM\"]}"
+}

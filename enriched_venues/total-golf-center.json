@@ -1,0 +1,90 @@
+{
+  "name": "Total Golf Center",
+  "address": "404 Grant Ave, East Butler, PA 16029",
+  "city": "East Butler",
+  "region": "Pennsylvania",
+  "country": "US",
+  "latitude": 40.874627,
+  "longitude": -79.839605,
+  "phone": "+17242569966",
+  "website": "http://www.totalgolfcenter.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770198805/golf_simulators/www_totalgolfcenter_com_ChIJrTS6riNjM4gRu5VOKIOdb14.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Total+Golf+Center/@40.8746266,-79.8396049,14z/data=!4m8!1m2!2m1!1sTotal+Golf+Center!3m4!1s0x88336323aeba34ad:0x5e6f9d83284e95bb!8m2!3d40.8746266!4d-79.8396049",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJrTS6riNjM4gRu5VOKIOdb14",
+  "email": "info@totalgolfcenter.com",
+  "venue_type": "sim_bar",
+  "about": "Total Golf Center is an indoor golf facility featuring TrackMan simulators with access to over 100 virtual courses. The venue is equipped with driving range functionality and emphasizes technology for game improvement and entertainment. Pricing is based on hourly bay rental for playing or practice, with membership options available for 24/7 access. It is suitable for individual practice, group events, and casual play with food and beverage options.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|private_rooms|premium_tech",
+  "vibe_tags": "tech_lab|family_fun_center",
+  "who_its_for": "beginners|families|large_groups|solo_practice|corporate_teams",
+  "why_golfers_like_it": [
+    "Access to over 100 virtual golf courses",
+    "State-of-the-art TrackMan technology for accurate data tracking",
+    "24/365 access available with a membership",
+    "Option to book the entire facility for private events"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Customers can bring their own food or have it delivered."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "BYOB (Bring Your Own Beverage) is permitted."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Provides instant feedback on club delivery, launch, ball flight, and landing."
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "auto_putt",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://clients.uschedule.com/totalgolfcenter/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": false,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|private_party_room|kitchen_food|pro_shop",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own golf clubs?",
+      "answer": "Yes, you should bring your own golf clubs and balls. Complimentary golf balls are provided in each simulator bay."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, you can bring your own food and drinks. BYOB is permitted as well."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "It takes about 1 hour per player to finish a round of golf. It is recommended to book an hour per person with additional time for beginners."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The venue is suitable for families and events, making it kid-friendly."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"12-8PM\"], \"Wednesday\": [\"12-8PM\"], \"Thursday\": [\"12-8PM\"], \"Friday\": [\"12-8PM\"], \"Saturday\": [\"10AM-8PM\"], \"Sunday\": [\"10AM-3PM\"]}"
+}

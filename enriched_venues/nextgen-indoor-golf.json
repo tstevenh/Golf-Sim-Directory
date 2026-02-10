@@ -1,0 +1,92 @@
+{
+  "name": "NextGen Indoor Golf",
+  "address": "1671 Hoffman Rd Ste 70, Green Bay, WI 54311",
+  "city": "Green Bay",
+  "region": "Wisconsin",
+  "country": "US",
+  "latitude": 44.45422,
+  "longitude": -87.99884,
+  "phone": "+19204254038",
+  "website": "http://nextgengolfgb.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770223195/golf_simulators/nextgengolfgb_com_ChIJpXpSIVD8AogRXDJlJNWk9xA.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/NextGen+Indoor+Golf/@44.4542198,-87.9988403,14z/data=!4m8!1m2!2m1!1sNextGen+Indoor+Golf!3m4!1s0x8802fc5021527aa5:0x10f7a4d52465325c!8m2!3d44.4542198!4d-87.9988403",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJpXpSIVD8AogRXDJlJNWk9xA",
+  "email": "cs@nextgengolfgb.com",
+  "venue_type": "sim_bar",
+  "about": "NextGen Indoor Golf is a state-of-the-art golf facility offering an indoor golf experience using TrackMan 4 technology. The venue is designed for golfers of all levels to improve their game with professional lessons, club fittings, and simulator play. It features a full bar and kitchen, making it suitable for casual play, practice sessions, and social events.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|leagues|premium_tech|coaching_available|club_rentals|private_rooms",
+  "vibe_tags": "sports_bar|tech_lab|community_club|party_atmosphere|modern",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "State-of-the-art TrackMan 4 technology for precise shot tracking",
+    "Professional coaching and custom club fitting services",
+    "Full bar and kitchen amenities for a complete experience",
+    "4 simulators available for play and events",
+    "Immersive virtual course library with realistic rendering"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen with party platters and catering options"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "4 state-of-the-art TrackMan simulators"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 4,
+  "booking_url": "https://www.nextgengolfgb.com/book-your-tee-time",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 15,
+  "price_range_max_local": 15,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 4,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|club_fitting|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 3.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you are expected to bring your own golf clubs for the simulator experience."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, the venue has a full bar and kitchen on-site, and outside food and drinks are not permitted."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes can vary depending on your pace and the number of players in your group, but it typically takes 2-3 hours."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is kid-friendly and suitable for families, with a welcoming atmosphere and amenities for all ages."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.1,
+  "opening_hours": "{\"Monday\": [\"9AM-9PM\"], \"Tuesday\": [\"9AM-9PM\"], \"Wednesday\": [\"9AM-9PM\"], \"Thursday\": [\"9AM-9PM\"], \"Friday\": [\"9AM-9PM\"], \"Saturday\": [\"9AM-9PM\"], \"Sunday\": [\"9AM-4PM\"]}"
+}

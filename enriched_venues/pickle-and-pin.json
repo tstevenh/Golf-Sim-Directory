@@ -1,0 +1,90 @@
+{
+  "name": "Pickle and Pin",
+  "address": "662 Leonard St NW, Grand Rapids, MI 49504",
+  "city": "Grand Rapids",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 42.984882,
+  "longitude": -85.685006,
+  "phone": "+16166060099",
+  "website": "https://pickleandpin.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770235255/golf_simulators/pickleandpin_com_ChIJKSweF5uvGYgRZx2pUbQ2Zh8.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Pickle+and+Pin/@42.9848821,-85.685006,14z/data=!4m8!1m2!2m1!1sPickle+and+Pin!3m4!1s0x8819af9b171e2c29:0x1f6636b451a91d67!8m2!3d42.9848821!4d-85.685006",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJKSweF5uvGYgRZx2pUbQ2Zh8",
+  "email": "connect@pickleandpin.com",
+  "venue_type": "sim_bar",
+  "about": "Pickle and Pin is an indoor multi-sport venue located in Grand Rapids, MI, offering 3 pickleball courts and 3 golf simulator bays. The facility provides a social atmosphere with a full bar, food options, and a focus on recreation and league play. Golfers can access advanced technology in the simulator bays, while members and drop-ins can book courts for play, lessons, or events. The venue caters to both casual players and those looking for organized competition through its leagues and training programs.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|late_night|coaching_available|community_club",
+  "vibe_tags": "sports_bar|party_atmosphere|community_club|modern",
+  "who_its_for": "beginners|families|corporate_teams|solo_practice|coaches_instructors",
+  "why_golfers_like_it": [
+    "Advanced golf simulators with integrated technology and personal A/V controls",
+    "PGA professional on-site for expert training and lessons",
+    "Social atmosphere with a full bar for post-game relaxation",
+    "Availability of leagues for competitive play and community engagement"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Locally sourced food options and pre-packaged food available."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar on-site."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "GolfVX",
+      "model": "Unknown",
+      "notes": "Integrated technology, personal A/V control, auto tee, tilting swing plate"
+    }
+  ],
+  "simulator_software": [
+    "GolfVX"
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://pickleandpin.com/book-your-session/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|leagues|coaching_available",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "It is not explicitly stated on the website whether club rentals are available. Players should contact the venue directly to inquire about club rental options."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "notes": "The venue offers a full bar and locally sourced food options, so bringing outside food or drinks is likely not permitted."
+    },
+    {
+      "question": "How long does it take to play 18 holes on a simulator?",
+      "answer": "The website does not specify the average time for playing a full 18-hole simulation. It is recommended to contact the venue for this information."
+    },
+    {
+      "question": "Is Pickle and Pin kid-friendly?",
+      "answer": "Yes, the venue is described as a 'family fun center' and offers programs and events suitable for children, such as birthday parties and junior instruction."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-11PM\"], \"Saturday\": [\"9AM-11PM\"], \"Sunday\": [\"10AM-6PM\"]}"
+}

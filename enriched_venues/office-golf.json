@@ -1,0 +1,88 @@
+{
+  "name": "Office Golf",
+  "address": "7807 Creekridge Cir, Bloomington, MN 55439",
+  "city": "Bloomington",
+  "region": "Minnesota",
+  "country": "US",
+  "latitude": 44.861146,
+  "longitude": -93.372826,
+  "phone": "+19523245236",
+  "website": "https://www.officegolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770203879/golf_simulators/www_officegolf_com_ChIJxeqFhB4j9ocRha7HF4AwKzU.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Office+Golf/@44.8611461,-93.37282569999999,14z/data=!4m8!1m2!2m1!1sOffice+Golf!3m4!1s0x87f6231e8485eac5:0x352b308017c7ae85!8m2!3d44.8611461!4d-93.37282569999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJxeqFhB4j9ocRha7HF4AwKzU",
+  "venue_type": "sim_bar",
+  "about": "Office Golf is a 30,000 square foot venue featuring 18 TrackMan iO simulators across a two-floor facility. It combines indoor golf with a full-service restaurant and event spaces. The venue offers a dynamic setting that blends work and play, featuring three distinct bars and a fine-dining restaurant called The Boardroom, which provides an approachable dining experience with a menu tailored to complement golfing activities. Office Golf is open to both members and the public and serves as a versatile location for various gatherings, including corporate meetings, team-building events, and leisure activities.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|premium_tech|private_rooms|club_rentals|coaching_available|speakeasy|community_club|late_night",
+  "vibe_tags": "casual|welcoming|modern|sports_bar|speakeasy|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|large_groups",
+  "why_golfers_like_it": [
+    "State-of-the-art 18 TrackMan iO simulators for the ultimate indoor golf experience",
+    "Convenient location with modern facilities and a laid-back vibe, ideal for both practice and social events",
+    "Full-service dining and bar options available on-site, enhancing the overall experience"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "The Boardroom offers an American dining experience with a full menu, including lunch and bites options. Featured items include tator tots with truffle oil, black pepper, and freshly grated parmesan."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Three distinct bars across the facility serving ice-cold beverages, including a speakeasy bar."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Ceiling mounted for seamless calibration, providing a 5-star indoor golf experience."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 18,
+  "booking_url": "https://www.sevenrooms.com/reservations/officegolf?duration_picker=true",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.5,
+  "rating_value_for_money": 4.2,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not explicitly state whether club rentals are available, but it mentions 'club fitting' as an amenity, suggesting they may offer clubs for use or fitting services."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, the venue has an on-site restaurant and bar called The Boardroom, which provides food and drinks. There is no mention of allowing outside food or beverages."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify the time required for 18 holes, but it offers simulator reservations that can be booked for specific durations, suggesting flexibility based on the time booked."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue appears to be kid-friendly, with mentions of a 'family fun center' vibe and no restrictions on children in the general descriptions of the facility."
+    }
+  ],
+  "rating_overall": 4.5,
+  "opening_hours": "{\"Monday\": [\"10AM-9PM\"], \"Tuesday\": [\"10AM-9PM\"], \"Wednesday\": [\"10AM-9PM\"], \"Thursday\": [\"10AM-11PM\"], \"Friday\": [\"10AM-11PM\"], \"Saturday\": [\"10AM-11PM\"], \"Sunday\": [\"10AM-6PM\"]}"
+}

@@ -1,0 +1,95 @@
+{
+  "name": "The Clubhouse Lounge",
+  "address": "1105 US-2, Kalispell, MT 59901",
+  "city": "Kalispell",
+  "region": "Montana",
+  "country": "US",
+  "latitude": 48.200958,
+  "longitude": -114.332767,
+  "phone": "+14063144160",
+  "website": "https://www.the-clubhouse-lounge.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770225355/golf_simulators/www_the-clubhouse-lounge_com_ChIJHeCuydFRZlMR2CgtOPb46WM.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Clubhouse+Lounge/@48.2009585,-114.3327673,14z/data=!4m8!1m2!2m1!1sThe+Clubhouse+Lounge!3m4!1s0x536651d1c9aee01d:0x63e9f8f6382d28d8!8m2!3d48.2009585!4d-114.3327673",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJHeCuydFRZlMR2CgtOPb46WM",
+  "email": "clubhouse.lounge@outlook.com",
+  "venue_type": "sim_bar",
+  "about": "The Clubhouse Lounge is an indoor golf and sports bar located at 1105 Hwy 2 W in Kalispell, MT. It features four top-of-the-line Trackman golf simulators and multiple large-screen TVs, providing a complete indoor golf experience. The venue serves beer, wine, and a full kitchen with Montana-raised beef from Lower Valley Meats in its burgers, alongside craft beer and American wines. Open 7 days a week, it operates Monday-Thursday from 11am to 10pm and Friday-Sunday from 10am to 11pm, making it a flexible destination for both golf and social events.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|leagues|premium_tech|private_rooms|club_rentals|late_night|family_friendly|party_atmosphere",
+  "vibe_tags": "sports_bar|family_fun_center|party_atmosphere|community_club",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "4 top-of-the-line Trackman simulators for accurate and immersive gameplay",
+    "Full kitchen and bar service available while playing golf",
+    "Multiple big-screen TVs for watching sports events or socializing",
+    "Hosts leagues and events, creating a community atmosphere",
+    "Flexible hours allow for both daytime and evening play"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen with Montana-raised beef burgers, craft beer, American wines, and various non-alcoholic options"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Craft beer, American wines, and full bar service"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Top-of-the-line Trackman simulators with full metrics capture"
+    }
+  ],
+  "simulator_so": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 4,
+  "booking_url": "https://theclubhouselounge.as.me/schedule.php",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "Yes",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "The venue does not explicitly mention club rentals, so it is recommended to bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food or drink?",
+      "answer": "The venue has a full kitchen and bar service, but BYOB (bring your own alcohol) is not mentioned."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The venue does not specify the duration for 18 holes, but typical simulator rounds take 1-2 hours depending on the number of players."
+    },
+    {
+      "question": "Is this place kid-friendly?",
+      "answer": "Yes, the venue is kid-friendly, offering family-friendly games and events, and welcomes children during operating hours."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"11AM-10PM\"], \"Tuesday\": [\"11AM-10PM\"], \"Wednesday\": [\"11AM-10PM\"], \"Thursday\": [\"11AM-10PM\"], \"Friday\": [\"10AM-11PM\"], \"Saturday\": [\"10AM-11PM\"], \"Sunday\": [\"10AM-10PM\"]}"
+}

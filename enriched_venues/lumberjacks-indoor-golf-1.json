@@ -1,0 +1,94 @@
+{
+  "name": "Lumberjacks Indoor Golf",
+  "address": "4920 Rural Ave, Ferndale, WA 98248",
+  "city": "Ferndale",
+  "region": "Washington",
+  "country": "US",
+  "latitude": 48.821577,
+  "longitude": -122.553851,
+  "phone": "+13608152442",
+  "website": "https://www.lumberjackindoorgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770229016/golf_simulators/www_lumberjackindoorgolf_com_ChIJs4xVJZG9hVQR8Mj91bkvAO8.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Lumberjacks+Indoor+Golf/@48.8215773,-122.55385079999999,14z/data=!4m8!1m2!2m1!1sLumberjacks+Indoor+Golf!3m4!1s0x5485bd9125558cb3:0xef002fb9d5fdc8f0!8m2!3d48.8215773!4d-122.55385079999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJs4xVJZG9hVQR8Mj91bkvAO8",
+  "email": "Info@lumberjacksindoorgolf.com.",
+  "venue_type": "sim_bar",
+  "about": "Lumberjacks Indoor Golf operates two locations in Whatcom County, Washington, featuring private golf simulator bays. The Ferndale location is appointment-only with two private bays, while the Bellingham location allows for walk-ins and offers three bays, with plans for a future practice area. Simulators are timer-based, and first-time users receive a short orientation. The venue caters to various occasions, from individual practice to group events, and supports both left-handed and right-handed players. An 18-hole round typically takes 1.5 to 2.5 hours per person, depending on group size and pace of play.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|kids_friendly|coaching_available",
+  "vibe_tags": "casual|welcoming|modern|family_fun_center",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Premium simulator technology with Foresight Sports and Uneekor hardware for realistic shot tracking",
+    "Convenient two-location setup in the Pacific Northwest with easy online booking",
+    "Welcoming atmosphere that accommodates various skill levels and age groups"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Snacks available at on-site snack bar; food delivery allowed at Ferndale location"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol served onsite"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight Sports",
+      "model": "Unknown",
+      "notes": "Installed at Bellingham location for high-fidelity simulation"
+    },
+    {
+      "brand": "Uneekor",
+      "model": "Unknown",
+      "notes": "Installed at Bellingham location for precise shot tracking"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 5,
+  "booking_url": "https://app.birrdi.com/u/reserve?team_booking_link_id=lumberjacks-ferndale",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "wifi|pro_shop|club_rentals|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own golf clubs?",
+      "answer": "Yes, you may bring your own golf gloves and other personal golf essentials. However, outside golf balls and tees are not permitted as they may damage the turf."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Snacks and beverages are available at the on-site snack bar. You may order food and have it delivered to the Ferndale location. No outside alcohol is allowed."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Playing 18 holes on one of our simulators typically takes 1.5 to 2.5 hours per person, depending on skill level, group size, pace of play, and the use of additional features like shot analysis."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, children ages 10 and up may use the golf simulators. However, they must be accompanied by an adult at all times inside the simulator bay, and a non-golfer is required to watch them."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": null
+}

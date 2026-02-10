@@ -1,0 +1,94 @@
+{
+  "name": "Eagles Nest Golf",
+  "address": "29 E Powell Blvd, Gresham, OR 97030",
+  "city": "Gresham",
+  "region": "Oregon",
+  "country": "US",
+  "latitude": 45.498197,
+  "longitude": -122.430275,
+  "phone": "+15034050028",
+  "website": "https://eaglesnest.golf/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770219929/golf_simulators/eaglesnest_golf_ChIJUZyUsKWZlVQRF-2ZQ3f1Mi0.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Eagles+Nest+Golf/@45.498196799999995,-122.4302747,14z/data=!4m8!1m2!2m1!1sEagles+Nest+Golf!3m4!1s0x549599a5b0949c51:0x2d32f5774399ed17!8m2!3d45.498196799999995!4d-122.4302747",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJUZyUsKWZlVQRF-2ZQ3f1Mi0",
+  "email": "EaglesNestGolfLLC@gmail.com",
+  "venue_type": "multi_sport_sim",
+  "about": "Eagle's Nest Golf is an indoor golf simulator venue located in Gresham, OR. It offers flexible hourly bookings and monthly memberships, making it suitable for both practice and play, regardless of weather conditions. The facility uses high-speed cameras to capture precise ball and club metrics, providing detailed feedback for players looking to improve their game. It caters to individuals, groups, and members with options for tee times, lessons, and tournaments.",
+  "tags": "beginner_friendly|corporate_events|leagues|coaching_available|budget_friendly|private_rooms|club_rentals|wifi",
+  "vibe_tags": "casual|welcoming|modern|community_club",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|solo_practice",
+  "why_golfers_like_it": [
+    "Access to over 43,000 real-world golf courses",
+    "Precise tracking of 15+ ball and club metrics via high-speed cameras",
+    "High-speed impact videos for immediate visual feedback on swing technique",
+    "Year-round play available, unaffected by weather",
+    "Flexible booking options for both individuals and groups"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Catering is available"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service or bar"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "unknown",
+      "model": "unknown",
+      "notes": "Uses a high-speed camera-based system with multiple cameras for tracking"
+    }
+  ],
+  "simulator_so": [
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://eaglesnest.golf/book-tee-time/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 30,
+  "price_range_max_local": 50,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|wifi|tv_sports|private_party_room|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify whether clubs are provided. It is recommended to bring your own equipment for the best experience."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "The venue does not explicitly mention outside food or drink policies. However, they state that catering is available and have a gift certificate option, suggesting they offer concessions."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not provide an estimated time for completing 18 holes."
+    },
+    {
+      "question": "Is it kid-friendly?",
+      "answer": "Yes, the venue is noted as a family-friendly environment where kids can practice and play in a controlled setting."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": null
+}

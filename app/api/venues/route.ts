@@ -47,7 +47,6 @@ export async function GET(request: Request) {
         city: true,
         state: true,
         heroImage: true,
-        shortDescription: true,
         priceRangeMin: true,
         priceRangeMax: true,
         simulatorSystems: true,

@@ -1,0 +1,90 @@
+{
+  "name": "Texas Wedge",
+  "address": "5217 82nd St # 205, Lubbock, TX 79424",
+  "city": "Lubbock",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 33.518921,
+  "longitude": -101.92306,
+  "phone": "+18065165699",
+  "website": "http://www.texaswedge.golf/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770222855/golf_simulators/www_texaswedge_golf_ChIJrxoZWVRz_oYRzjYuzEbj1Qs.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Texas+Wedge/@33.5189211,-101.9230601,14z/data=!4m8!1m2!2m1!1sTexas+Wedge!3m4!1s0x86fe735459191aaf:0xbd5e346cc2e36ce!8m2!3d33.5189211!4d-101.9230601",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJrxoZWVRz_oYRzjYuzEbj1Qs",
+  "venue_type": "sim_bar",
+  "about": "Texas Wedge is Lubbock's Indoor Golf Lounge, offering a premium indoor golf experience with private bays, a full-service bar, and TrackMan simulators. The venue is designed for golfers, groups, and events, providing a modern environment to play famous courses, practice with tour-level technology, and enjoy drinks served directly to your bay. Pricing is based on a per-bay hourly rate, and no membership is required, making it accessible for casual play, serious practice, and group events of all sizes.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|premium_tech|leagues|private_rooms|coaching_available",
+  "vibe_tags": "upscale_lounge|sports_bar|private_luxury|tech_lab",
+  "who_its_for": "beginners|serious_golfers|large_groups|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Premium TrackMan technology provides tour-level accuracy and trusted by 1,000 PGA Tour players",
+    "Full-service bar with craft cocktails and drafts served directly to your bay",
+    "Over 450+ famous golf courses available to play, regardless of weather",
+    "Private bays offer a no-pressure environment for play and practice",
+    "On-site coaching available for personalized game improvement"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "You are allowed to bring in your own food"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full-service bar serving craft cocktails, drafts, and specialty flights"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Premium radar launch monitors trusted by professionals"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 7,
+  "booking_url": "https://texaswedge.golfoclock.com/reserve",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 80,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 8,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The FAQ does not specify whether club rentals are available. It is recommended to contact the venue directly for equipment details."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "Yes, you are allowed to bring in your own food. The venue also has a full-service bar serving craft cocktails, drafts, and specialty flights."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not provide a specific time for playing 18 holes. The booking system is based on hourly bay rentals, and time can be extended on the spot if available."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The website does not explicitly state if children are welcome or if there are kid-specific activities. It is best to contact the venue directly for family-related inquiries."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"9AM-12AM\"], \"Saturday\": [\"9AM-12AM\"], \"Sunday\": [\"11AM-10PM\"]}"
+}

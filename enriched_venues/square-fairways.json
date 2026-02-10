@@ -1,0 +1,89 @@
+{
+  "name": "Square Fairways",
+  "address": "109 E Tyler St, Athens, TX 75751",
+  "city": "Athens",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 32.20554,
+  "longitude": -95.854549,
+  "phone": "+19036006737",
+  "website": "https://www.squarefairways.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770224331/golf_simulators/www_squarefairways_com_ChIJj8BRtez9SIYReaadmx9kX6o.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Square+Fairways/@32.2055404,-95.8545487,14z/data=!4m8!1m2!2m1!1sSquare+Fairways!3m4!1s0x8648fdecb551c08f:0xaa5f641f9b9da679!8m2!3d32.2055404!4d-95.8545487",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJj8BRtez9SIYReaadmx9kX6o",
+  "email": "info@squarefairways.com",
+  "venue_type": "sim_bar|training_studio|private_rental|retail_fitting_center|country_club|multi_sport_sim|hotel_resort|other",
+  "about": "Square Fairways is an indoor golf and entertainment venue located in the heart of Athens, Texas. The facility offers a realistic and immersive golf experience through world-class simulators, allowing players to access over 400 courses from around the world, including local Texas courses like Athens Country Club and Pinnacle Golf Club. The venue is designed to provide a flexible environment for both practice and play, catering to individuals, friends, and groups with options for day or night sessions, rain or shine. Membership options are available for extended access, while the facility is open to the public on Saturdays for tee time reservations. The space is equipped with high-tech simulators featuring 3 high-speed cameras for precise ball and club tracking, and amenities include free water, coffee, a snack station, and WiFi for members. The facility also supports a variety of activities, including private lessons, tournaments, leagues, and special event hosting.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|budget_friendly|coaching_available|private_rooms|club_rentals",
+  "vibe_tags": "casual|welcoming|modern|community_club",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|solo_practice",
+  "why_golfers_like_it": [
+    "World-class simulators with realistic visuals and precision tracking",
+    "Flexible access for members and public play, including day and night availability",
+    "Variety of on-site amenities and nearby dining options for a complete experience"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Snack station available for members; food trucks on-site for certain events; external delivery from nearby restaurants like Athens Brewery and Freelancers Cafe/Shenanigans."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No on-site bar, but members can order to-go from nearby Athens Brewery; external delivery available."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "unknown",
+      "model": "unknown",
+      "notes": "3 high-speed cameras focused on ball and club impact area; precise ball and club tracking technology."
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "gimme_circle|real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://clients.uschedule.com/squarefairways/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 30,
+  "price_range_max_local": 50,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|lockers|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, if you bring your own clubs, they must be cleaned in the provided club washer before use to avoid transferring dirt to the simulator screens."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Members enjoy free water, coffee, and access to a snack station. For non-members, external food and drink orders are allowed from nearby restaurants, but there is no on-site bar or alcohol service."
+    },
+    {
+      "question": "How long does it take to play 18 holes on a simulator?",
+      "answer": "An 18-hole round on a simulator typically takes about 1 hour per person, significantly faster than a traditional round of golf."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Square Fairways is kid-friendly, offering a welcoming environment for families and juniors. PGA-certified lessons are available for youth development."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "Fri 8am-10pm | Sat 8am-2pm | Sat 2pm-10pm | Fri 8am-10pm | Sat 8am-2pm | Sat 2pm-10pm"
+}

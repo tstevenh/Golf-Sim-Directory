@@ -1,0 +1,89 @@
+{
+  "name": "X-Golf Chesapeake",
+  "address": "1525 Summit Pointe Dr, Chesapeake, VA 23320",
+  "city": "Chesapeake",
+  "region": "Virginia",
+  "country": "US",
+  "latitude": 36.769077,
+  "longitude": -76.239683,
+  "phone": "+17574107764",
+  "website": "http://www.xgolfchesapeake.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770206566/golf_simulators/www_xgolfchesapeake_com_ChIJ-xARyOu9uokRiSdYxdKWgDQ.png",
+  "google_maps_url": "https://www.google.com/maps/place/X-Golf+Chesapeake/@36.7690771,-76.23968289999999,14z/data=!4m8!1m2!2m1!1sX-Golf+Chesapeake!3m4!1s0x89babdebc81110fb:0x348096d2c5582789!8m2!3d36.7690771!4d-76.23968289999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ-xARyOu9uokRiSdYxdKWgDQ",
+  "venue_type": "sim_bar|training_studio",
+  "about": "X-Golf Chesapeake is an indoor golf simulator facility that offers a modern, comfortable environment for practice, play, and events year-round. The venue features state-of-the-art simulators equipped with proprietary technology that uses laser, light, impact, and camera sensory systems to collect raw golf data at the impact zone. It provides a range of services including golf lessons, professional club fittings, corporate memberships, leagues, and food and drink options, catering to golfers of all skill levels.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|coaching_available|club_fitting|private_rooms",
+  "vibe_tags": "modern|community_club|tech_lab|upscale_lounge",
+  "who_its_for": "beginners|serious_golfers|corporate_teams|families|solo_practice",
+  "why_golfers_like_it": [
+    "Proprietary simulator technology provides comprehensive and accurate ball and club tracking data",
+    "Membership options offer predictable costs and discounted rates for frequent players",
+    "Full-service bar and grill with premium food and cocktails available on-site",
+    "Weekly leagues with leaderboards and prizes for competitive play"
+  ],
+  "kid_friendly": "yes",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Premium bar and grill experience with delicious shareable bites and full-service menu"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Handcrafted cocktails available"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "X-Golf",
+      "model": "Proprietary",
+      "notes": "Proprietary technology combining laser, light, impact and camera sensory systems"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "yes",
+  "bay_count_total": "unknown",
+  "booking_url": "https://app.birrdi.com/u/reserve?team_booking_link_id=x-golf-chesapeake",
+  "pricing_model": "mixed",
+  "price_range_min_local": 20,
+  "price_range_max_local": 50,
+  "currency": "USD",
+  "walk_ins_allowed": "yes",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|club_fitting|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, you can bring your own clubs or rent clubs if needed. The facility is equipped to accommodate golfers with their own equipment."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue offers a premium bar and grill experience with a full-service menu, but outside food and drink policies are not specified."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "The time to play 18 holes is not specified on the website, as it can vary based on simulator usage and booking."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "The website does not specifically mention kid-friendly policies or amenities, though it does host events and families may be accommodated."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-12AM\"], \"Saturday\": [\"10AM-12AM\"], \"Sunday\": [\"10AM-10PM\"]}"
+}

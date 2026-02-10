@@ -1,0 +1,90 @@
+{
+  "name": "Tee It Up Golf",
+  "address": "201 Blankenbaker Pkwy, Douglass Hills, KY 40243",
+  "city": "Douglass Hills",
+  "region": "Kentucky",
+  "country": "US",
+  "latitude": 38.243039,
+  "longitude": -85.54446,
+  "phone": "+15023840966",
+  "website": "http://teeitupgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770205869/golf_simulators/teeitupgolf_com_ChIJkX70paOfaYgRIa4ehBVCLak.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Tee+It+Up+Golf/@38.2430386,-85.54445989999999,14z/data=!4m8!1m2!2m1!1sTee+It+Up+Golf!3m4!1s0x88699fa3a5f47e91:0xa92d4215841eae21!8m2!3d38.2430386!4d-85.54445989999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJkX70paOfaYgRIa4ehBVCLak",
+  "email": "Support@TeeItUpGolf.com",
+  "venue_type": "sim_bar",
+  "about": "Tee It Up Golf is a local, family-owned indoor golf facility in Douglass Hills, KY, equipped with 10 Golfzon simulators offering over 300 virtual courses. The venue caters to both individual golfers looking to improve their game and groups seeking entertainment, featuring a full bar and select food items. The facility provides a realistic golf experience with movable hitting mats, automatic tees, and various playing surfaces, including sand and rough, making it suitable for players of all skill levels.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|leagues|premium_tech|coaching_available",
+  "vibe_tags": "sports_bar|family_fun_center|tech_lab",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "10 Golfzon simulators with over 300 virtual courses including Pebble Beach and St. Andrews",
+    "Movable hitting mats and 5 playing surfaces (sand, rough) for realistic practice",
+    "Full bar and food options available for a complete experience",
+    "Advanced analytics and replay options for improvement"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Select food items made fresh when ordered"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar available"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Golfzon",
+      "model": "Unknown",
+      "notes": "The most advanced golf simulators in the world with 10 units available"
+    }
+  ],
+  "simulator_software": [
+    "Golfzon"
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": 10,
+  "booking_url": "https://apimanager-cc30.clubcaddie.com/activities/view/dggdabab",
+  "pricing_model": "per_bay_hour|mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 0,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|leagues|golf_arcade_games",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "Yes, you will need to bring your own clubs to use the simulators."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "Outside food and drinks are not allowed, as the venue offers a full bar and select food items made fresh when ordered."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes varies depending on the simulator and pace of play, but typically it takes 1-2 hours per round."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is kid-friendly and offers golf arcade games for non-golfers in the group, making it suitable for families and birthday parties."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"9AM-11PM\"], \"Saturday\": [\"9AM-11PM\"], \"Sunday\": [\"9AM-9PM\"]}"
+}

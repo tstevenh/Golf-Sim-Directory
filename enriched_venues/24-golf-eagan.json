@@ -1,0 +1,96 @@
+{
+  "name": "24 Golf Eagan",
+  "address": "1565 Cliff Rd #2, Eagan, MN 55122",
+  "city": "Eagan",
+  "region": "Minnesota",
+  "country": "US",
+  "latitude": 44.791244,
+  "longitude": -93.179644,
+  "phone": "+16513716189",
+  "website": "https://the24golf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770203841/golf_simulators/the24golf_com_ChIJkS3QqOQx9ocRYtDdh3ve3Xc.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/24+Golf+Eagan/@44.7912436,-93.17964359999999,14z/data=!4m8!1m2!2m1!1s24+Golf+Eagan!3m4!1s0x87f631e4a8d02d91:0x77ddde7b87ddd062!8m2!3d44.7912436!4d-93.17964359999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJkS3QqOQx9ocRYtDdh3ve3Xc",
+  "email": "contact@the24golf.com",
+  "venue_type": "training_studio",
+  "about": "24 Golf Eagan is an indoor golf facility focused on providing serious golfers with access to technology used by the top 1% of players. The venue offers 24/7 access to its simulators and practice areas, designed to help members lower their scores through data-driven practice. With a no-frills approach centered entirely on golf improvement, the facility uses premium launch monitors and high-end simulator software to provide instant feedback on both ball and club performance, translating practice results to the course.",
+  "tags": "serious_practice|beginner_friendly|coaching_available|budget_friendly|community_club|late_night|kids_friendly|juniors_youth",
+  "vibe_tags": "industrial_training|community_club|tech_lab|casual|welcoming|modern",
+  "who_its_for": "serious_golfers|solo_practice|families|low_handicap|coaches_instructors",
+  "why_golfers_like_it": [
+    "24/7 self-service access to high-end golf simulators and practice areas",
+    "Premium technology including GC Quad and GC Hawk launch monitors for precise feedback",
+    "Comprehensive practice options including a dedicated putting green with PuttView and chipping area",
+    "A supportive community focused on skill improvement with events and coaching opportunities"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Food available through nearby Mason Jar Kitchen and Bar, with delivery service to the facility"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No bar on-site; BYOB policy with liquor store available in same strip mall"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": "GC Quad",
+      "notes": "Five units, world's most precise launch monitor with Quadrascopic imaging"
+    },
+    {
+      "brand": "Foresight",
+      "model": "GC Hawk",
+      "notes": "One unit, overhead-mounted launch monitor with object recognition technology"
+    }
+  ],
+  "simulator_software": [
+    "GSPro",
+    "FSX Play"
+  ],
+  "launch_monitor_type": "overhead_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://clients.uschedule.com/24-golf/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 0,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|kitchen_food|tv_sports|leagues|club_fitting|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you'll need to bring your own clubs to use the simulators and practice facilities."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Food is available from nearby Mason Jar Kitchen and Bar with delivery service, but no alcohol is served on-site. BYOB is allowed, though you cannot take drinks back to the simulators."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "With 24 Golf's technology, you can play a full 18-hole round in about one hour."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, children under 12 can practice and play for free, and the facility offers a family-friendly atmosphere with programming suitable for juniors."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"11AM-5PM\"], \"Tuesday\": [\"11AM-9PM\"], \"Wednesday\": [\"11AM-9PM\"], \"Thursday\": [\"11AM-9PM\"], \"Friday\": [\"11AM-9PM\"], \"Saturday\": [\"11AM-9PM\"], \"Sunday\": [\"10AM-7PM\"]}"
+}

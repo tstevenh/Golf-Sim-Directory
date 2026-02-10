@@ -1,0 +1,90 @@
+{
+  "name": "Maximum Results Fitness at New York Golf and Fitness",
+  "address": "17 Grand St Suite 7, Kingston, NY 12401",
+  "city": "Kingston",
+  "region": "New York",
+  "country": "US",
+  "latitude": 41.928694,
+  "longitude": -73.999643,
+  "phone": "+11000065066",
+  "website": "https://www.newyorkgolfandfitness.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770263585/golf_simulators/www_newyorkgolfandfitness_com_ChIJbx8QVXrC54kRewJZSbhHTSY.png",
+  "google_maps_url": "https://www.google.com/maps/place/Maximum+Results+Fitness+at+New+York+Golf+and+Fitness/@41.9286943,-73.9996429,14z/data=!4m8!1m2!2m1!1sMaximum+Results+Fitness+at+New+York+Golf+and+Fitness!3m4!1s0x89e7c27a55101f6f:0x264d47b84959027b!8m2!3d41.9286943!4d-73.9996429",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJbx8QVXrC54kRewJZSbhHTSY",
+  "venue_type": "multi_sport_sim",
+  "about": "New York Golf & Fitness is a combined golf and fitness facility located in Kingston, NY, featuring four golf bays powered by Uneekor's high-speed camera technology and GSPro software. The venue offers a members-only environment with access to 1,000+ lidar-based courses, personalized coaching, and a fully equipped training facility. Non-members can experience the technology through private lessons, coaching sessions, or a paid simulator trial. Membership is required for guaranteed simulator access, with several tiered plans available that include fitness and training options.",
+  "tags": "serious_golfers|coaching_available|premium_tech|fitness_facility|membership_only|beginner_friendly|corporate_events|leagues|private_rooms|club_rentals",
+  "vibe_tags": "tech_lab|private_luxury|community_club|modern|welcoming",
+  "who_its_for": "serious_golfers|beginners|corporate_teams|families|solo_practice",
+  "why_golfers_like_it": [
+    "Uneekor high-speed camera technology for accurate performance feedback",
+    "Access to 1,000+ stunning, lidar-based GSPro courses",
+    "Personalized coaching with video feedback and progress tracking",
+    "Integrated fitness facility for golf-specific performance programs",
+    "Priority booking system for members with guaranteed bay access"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of food services available."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol services or BYOB policy."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "High-speed camera technology",
+      "notes": "Four bays equipped with Uneekor's high-speed camera technology"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 4,
+  "booking_url": "https://www.newyorkgolfandfitness.com/sim-consult",
+  "pricing_model": "membership_only",
+  "price_range_min_local": 59,
+  "price_range_max_local": 399,
+  "currency": "USD",
+  "walk_ins_allowed": false,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_fitting|pro_shop|fitness_facility|coaching|leagues|events",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "You can use your own clubs or clubs are available for purchase. Professional club fitting and re-gripping services are also offered."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "No mention of food or drink services is provided on the website. The venue appears to focus on golf and fitness activities."
+    },
+    {
+      "question": "How long does an 18-hole round take?",
+      "answer": "The website does not specify the duration of an 18-hole round. Booking times would depend on the membership level or session type booked."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "The website mentions the facility is for 'all ages and abilities,' but doesn't specifically mention programs or amenities for children. It's best to contact the venue directly for details on junior programs."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"5AM-8PM\"], \"Tuesday\": [\"5AM-8PM\"], \"Wednesday\": [\"5AM-8PM\"], \"Thursday\": [\"5AM-8PM\"], \"Friday\": [\"5AM-8PM\"], \"Saturday\": [\"5AM-8PM\"], \"Sunday\": [\"5AM-8PM\"]}"
+}

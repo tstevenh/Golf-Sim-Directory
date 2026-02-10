@@ -1,0 +1,91 @@
+{
+  "name": "The Bunker Saratoga Springs",
+  "address": "307 Broadway, Saratoga Springs, NY 12866",
+  "city": "Saratoga Springs",
+  "region": "New York",
+  "country": "US",
+  "latitude": 43.078932,
+  "longitude": -73.786353,
+  "phone": "+15182456480",
+  "website": "https://getinthebunker.golf/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770200174/golf_simulators/getinthebunker_golf_ChIJT-CeQXE53okRRND7MSR84O0.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Bunker+Saratoga+Springs/@43.078931999999995,-73.7863534,14z/data=!4m8!1m2!2m1!1sThe+Bunker+Saratoga+Springs!3m4!1s0x89de3971419ee04f:0xede07c2431fbd044!8m2!3d43.078931999999995!4d-73.7863534",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJT-CeQXE53okRRND7MSR84O0",
+  "email": "sean@getinthebunker.golf",
+  "venue_type": "sim_bar",
+  "about": "The Bunker Saratoga Springs is an indoor golf and social lounge featuring luxury sports bar amenities and immersive golf simulator technology. The facility utilizes TrackMan technology, the same system employed by PGA professionals, to provide an authentic golfing experience with detailed swing data. Each location features multiple simulator bays, handcrafted food menus, and a full bar, creating an environment designed for both serious practice and social events. The venue caters to individuals and groups offering flexible booking options, professional coaching, and customized event packages for corporate outings and celebrations.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|leagues|premium_tech|coaching_available",
+  "vibe_tags": "upscale_lounge|sports_bar|tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|corporate_teams|large_groups|solo_practice",
+  "why_golfers_like_it": [
+    "Access to professional-grade TrackMan simulator technology used by PGA professionals",
+    "Realistic game experience with detailed swing data and shot analytics",
+    "Flexible bay pricing allowing groups to split costs and socialize while playing",
+    "Professional coaching staff with experience and PGA membership pursuit",
+    "Ability to play globally renowned courses in a climate-controlled indoor environment"
+  ],
+  "kid_friendly": false,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full food menu at some locations, light food menu at others; also offers catering services"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available; offers happy hour specials"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "unknown",
+      "notes": "World's foremost golf simulator technology used by virtually all PGA professionals"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://getinthebunker.golf/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 65,
+  "price_range_max_local": 125,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 0,
+  "max_group_size_per_bay": 8,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|leagues|pro_shop|club_fitting",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "The venue provides all necessary equipment including clubs and golf balls, though golfers are welcome to bring their own clubs if preferred."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drinks are not permitted as the venue offers a full food menu and bar service in-house."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The venue recommends 30 minutes per person for 9 holes and one hour per person for 18 holes. A foursome could play 9 holes in approximately two hours."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The Bunker is designed for adults and focuses on golf, dining, and social experiences, making it more suitable for adults and older teens rather than young children."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-11PM\"], \"Tuesday\": [\"9AM-11PM\"], \"Wednesday\": [\"9AM-11PM\"], \"Thursday\": [\"9AM-11PM\"], \"Friday\": [\"9AM-12AM\"], \"Saturday\": [\"9AM-12AM\"], \"Sunday\": [\"9AM-9PM\"]}"
+}

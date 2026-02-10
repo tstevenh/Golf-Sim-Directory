@@ -1,0 +1,90 @@
+{
+  "name": "Chip Shots",
+  "address": "3708 N Broadway Ave Suite 140, Rochester, MN 55906",
+  "city": "Rochester",
+  "region": "Minnesota",
+  "country": "US",
+  "latitude": 44.059705,
+  "longitude": -92.451478,
+  "phone": "+15073610401",
+  "website": "http://www.chipshotsmn.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770203802/golf_simulators/www_chipshotsmn_com_ChIJV3oKXvjh-YcR_diuramakNY.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Chip+Shots/@44.059704599999996,-92.4514777,14z/data=!4m8!1m2!2m1!1sChip+Shots!3m4!1s0x87f9e1f85e0a7a57:0xd6909aa9adaed8fd!8m2!3d44.059704599999996!4d-92.4514777",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJV3oKXvjh-YcR_diuramakNY",
+  "venue_type": "sim_bar",
+  "about": "Chip Shots is an indoor golf and multi-sport venue in Rochester, Minnesota, featuring 6 golf simulators, 3 indoor pickleball courts, and other recreational activities like cornhole and ping pong. The venue integrates a full-service bar and kitchen, creating a social environment for year-round play. It is designed for both casual entertainment and competitive leagues, with technology from Full Swing simulators. Pricing is handled through a bay-based booking system with options for individuals and groups.",
+  "tags": "food_and_drinks|date_night|corporate_events|leagues|premium_tech|private_rooms|club_rentals|coaching_available",
+  "vibe_tags": "sports_bar|community_club|family_fun_center",
+  "who_its_for": "beginners|families|corporate_teams|solo_practice|large_groups",
+  "why_golfers_like_it": [
+    "World-class Full Swing simulator technology used by PGA professionals",
+    "Year-round, climate-controlled play regardless of weather",
+    "On-site full-service bar and kitchen for food and drinks",
+    "Social leagues with cash prizes and a competitive atmosphere",
+    "Variety of booking options for individuals and groups"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen service with a menu available online, featuring items like nachos, burgers, and wings."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full-service bar with beer, cocktails, and other beverages available."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Full Swing",
+      "model": "Pro Series",
+      "notes": "4 Full Swing simulators praised for precision, endorsed by PGA pros like Tiger Woods, with 100+ elite courses available."
+    }
+  ],
+  "simulator_software": [
+    "FS Compete"
+  ],
+  "launch_monitor_type": "infrared_optical",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 6,
+  "booking_url": "https://chipshots.reservewithrex.com/package?venue=Chip%20Shots",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|leagues|private_party_room|pro_shop",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.5,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify, but it is standard practice at simulator venues to provide clubs for use if you don't have your own."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, the venue has a full-service bar and kitchen on-site, and it's not specified that outside food or drinks are permitted."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "The website mentions a 9-hole round takes about 2 hours, suggesting 18 holes would take approximately 4 hours."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Chip Shots offers kids' pickleball camps and mentions hosting small kids' birthday parties, indicating a family-friendly environment."
+    }
+  ],
+  "rating_overall": 4.4,
+  "opening_hours": "{\"Monday\": [\"8AM-10PM\"], \"Tuesday\": [\"8AM-10PM\"], \"Wednesday\": [\"8AM-10PM\"], \"Thursday\": [\"8AM-10PM\"], \"Friday\": [\"8AM-10PM\"], \"Saturday\": [\"8AM-10PM\"], \"Sunday\": [\"10AM-9PM\"]}"
+}

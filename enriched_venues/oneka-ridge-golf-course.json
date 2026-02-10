@@ -1,0 +1,90 @@
+{
+  "name": "Oneka Ridge Golf Course",
+  "address": "5610 120th St N, White Bear Township, MN 55110",
+  "city": "White Bear Township",
+  "region": "Minnesota",
+  "country": "US",
+  "latitude": 45.12794,
+  "longitude": -92.99116,
+  "phone": "+16514292390",
+  "website": "http://www.onekaridgegc.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770215824/golf_simulators/www_onekaridgegc_com_ChIJzYuFj4zaslIR8oWYBPzrp00.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Oneka+Ridge+Golf+Course/@45.127939999999995,-92.9911604,14z/data=!4m8!1m2!2m1!1sOneka+Ridge+Golf+Course!3m4!1s0x52b2da8c8f858bcd:0x4da7ebfc049885f2!8m2!3d45.127939999999995!4d-92.9911604",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJzYuFj4zaslIR8oWYBPzrp00",
+  "email": "Jonhatcher@onekaridgegc.com",
+  "venue_type": "sim_bar",
+  "about": "Oneka Ridge Golf Course features an indoor golf studio equipped with three Full Swing HD golf simulators. The facility offers a variety of experiences including world course play, range sessions, and video lessons with PGA professionals. It accommodates golfers of all skill levels and is a popular destination for leagues, tournaments, and group events, especially during the winter season when the outdoor course is closed. The clubhouse dining area serves carry-out food, and there is a full service bar available.",
+  "tags": "food_and_drinks|leagues|corporate_events|beginner_friendly|kids_friendly|premium_tech",
+  "vibe_tags": "sports_bar|community_club",
+  "who_its_for": "families|corporate_teams|solo_practice|juniors_youth|beginners",
+  "why_golfers_like_it": [
+    "State-of-the-art Full Swing HD simulators for a realistic golf experience",
+    "PGA professional instruction available for personalized lessons",
+    "Full bar and gourmet pizza service for a complete social experience",
+    "Multiple league options including winter and junior leagues"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Gourmet pizzas available for purchase; carry-out food served from clubhouse dining area."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full service bar available."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Full Swing",
+      "model": "HD",
+      "notes": "3 brand new state of the art simulators"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": "unknown",
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 3,
+  "booking_url": "https://app.acuityscheduling.com/schedule.php?owner=24676633",
+  "pricing_model": "per_person_hour",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 0,
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|full_bar|kitchen_food|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The context does not specify, but it is standard practice to bring your own clubs for simulator sessions."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "The venue offers a full bar and gourmet pizzas for purchase. Outside food and drink policies are not mentioned."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Playing 18 holes on the simulator is not explicitly timed, but the outdoor course is rated to play in 4 hours and 8 minutes."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, the venue offers junior golf lessons, a PGA Junior League, and other programs, making it a kid-friendly environment."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"8AM-10PM\"], \"Tuesday\": [\"8AM-10PM\"], \"Wednesday\": [\"8AM-10PM\"], \"Thursday\": [\"8AM-10PM\"], \"Friday\": [\"8AM-10PM\"], \"Saturday\": [\"8AM-11PM\"], \"Sunday\": [\"8AM-8PM\"]}"
+}

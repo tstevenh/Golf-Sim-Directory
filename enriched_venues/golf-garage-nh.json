@@ -1,0 +1,91 @@
+{
+  "name": "Golf Garage NH",
+  "address": "85 Mechanic St h1 1, Lebanon, NH 03766",
+  "city": "Lebanon",
+  "region": "New Hampshire",
+  "country": "US",
+  "latitude": 43.638693,
+  "longitude": -72.256865,
+  "phone": "+16036965551",
+  "website": "https://golfgaragevt.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770224869/golf_simulators/golfgaragevt_com_ChIJr1e9enK1tEwRStLF-GQbZos.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Golf+Garage+NH/@43.6386933,-72.2568652,14z/data=!4m8!1m2!2m1!1sGolf+Garage+NH!3m4!1s0x4cb4b5727abd57af:0x8b661b64f8c5d24a!8m2!3d43.6386933!4d-72.2568652",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJr1e9enK1tEwRStLF-GQbZos",
+  "email": "info@golfgaragevt.com.",
+  "venue_type": "training_studio",
+  "about": "The Golf Garage is an indoor golf training facility with locations in Burlington, Vermont, and Lebanon, New Hampshire. It provides a space for year-round practice and improvement through virtual golf simulators, a 250-square-foot putting green, and professional coaching. The facility uses high-end technology like TrackMan simulators to offer detailed swing analysis, making it suitable for golfers looking to improve their game regardless of weather. Memberships provide extended access to simulators, and non-members can book by the hour for practice, lessons, or club fittings.",
+  "tags": "beginner_friendly|serious_practice|coaching_available|juniors_youth|leagues|premium_tech|club_rentals|group_events",
+  "vibe_tags": "tech_lab|community_club|modern|welcoming",
+  "who_its_for": "beginners|serious_golfers|juniors_youth|families|solo_practice",
+  "why_golfers_like_it": [
+    "State-of-the-art TrackMan technology provides precise ball flight and swing data",
+    "Year-round indoor practice unaffected by weather conditions",
+    "Professional coaching with experienced instructors for all skill levels",
+    "Access to a realistic 250 sq ft putting and chipping green"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of food service."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol or BYOB policy."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Multiple units at each location; precise Doppler radar technology for detailed swing and ball analysis"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green|mixed",
+  "lefty_friendly": true,
+  "bay_count_total": 5,
+  "booking_url": "https://clients.uschedule.com/golfgarage/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The facility provides TrackMan and V1 Video analysis for swing feedback. While the website doesn't explicitly state club availability, it's common for golf simulator centers to offer rentals, especially for fittings or lessons."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "There is no mention of food or drink service on-site. It is recommended to contact the facility directly regarding their policy on outside food and beverages."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "While the exact time is not specified, a standard round of 18 holes on a golf simulator typically takes 2-2.5 hours, depending on the number of players and any specific games or formats being played."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, The Golf Garage actively promotes junior golf development programs, youth coaching, and camps, making it a suitable environment for children learning and playing golf."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"9AM-4PM\"], \"Tuesday\": [\"9AM-4PM\"], \"Wednesday\": [\"9AM-4PM\"], \"Thursday\": [\"9AM-4PM\"], \"Friday\": [\"9AM-4PM\"], \"Saturday\": [\"9AM-3PM\"], \"Sunday\": [\"9AM-3PM\"]}"
+}

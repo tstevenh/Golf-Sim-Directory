@@ -1,0 +1,91 @@
+{
+  "name": "City Golf Club",
+  "address": "8333 Douglas Ave, Dallas, TX 75225",
+  "city": "Dallas",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 32.864125,
+  "longitude": -96.809471,
+  "phone": "+14696772244",
+  "website": "https://citygolfclub.co/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770200623/golf_simulators/citygolfclub_co_ChIJjfVG5pifToYRkjLcH1Inan4.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/City+Golf+Club/@32.8641246,-96.8094709,14z/data=!4m8!1m2!2m1!1sCity+Golf+Club!3m4!1s0x864e9f98e646f58d:0x7e6a27521fdc3292!8m2!3d32.8641246!4d-96.8094709",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJjfVG5pifToYRkjLcH1Inan4",
+  "email": "contact@citygolfclub.co",
+  "venue_type": "sim_bar|training_studio",
+  "about": "City Golf Club offers convenient golf practice and expert instruction within urban office settings across Dallas-Fort Worth. The venue provides high-tech golf simulators and dedicated practice areas in a luxurious lounge environment, accessible 24/7 for members. Pricing varies by membership tier, with options for both serious practice and casual play, making it ideal for professionals and golfers seeking urban convenience.",
+  "tags": "beginner_friendly|corporate_events|premium_tech|private_rooms|coaching_available|club_rentals|budget_friendly|community_club|serious_practice",
+  "vibe_tags": "upscale_lounge|tech_lab|modern|welcoming",
+  "who_its_for": "serious_golfers|corporate_teams|solo_practice|beginners",
+  "why_golfers_like_it": [
+    "Premium Trackman technology with video swing analysis",
+    "24/7 access at multiple urban locations",
+    "Expert instruction from PGA-certified professionals",
+    "Convenient downtown locations near office buildings"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "BYO food allowed for private events"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "BYO drinks allowed for private events"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Multiple bays with video and swing analysis"
+    }
+  ],
+  "simulator_software": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 9,
+  "booking_url": "https://clients.citygolfclub.co/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 75,
+  "price_range_max_local": 450,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 9,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|club_fitting|pro_shop|wifi|tv_sports|private_party_room|kitchen_food|full_bar",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, golfers must bring their own clubs for use at the facility."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, BYO food and drinks are allowed for private events and some locations."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "18 holes typically take 1.5-2 hours depending on simulator usage and group size."
+    },
+    {
+      "question": "Is City Golf Club kid-friendly?",
+      "answer": "No specific information is provided regarding youth or junior programs, so it's unclear if it's kid-friendly."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"8AM-8PM\"], \"Tuesday\": [\"8AM-8PM\"], \"Wednesday\": [\"8AM-8PM\"], \"Thursday\": [\"8AM-8PM\"], \"Friday\": [\"8AM-8PM\"], \"Saturday\": [\"8AM-8PM\"], \"Sunday\": [\"8AM-8PM\"]}"
+}

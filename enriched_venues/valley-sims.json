@@ -1,0 +1,90 @@
+{
+  "name": "Valley Sims",
+  "address": "3666 W 11th Ave B, Eugene, OR 97402",
+  "city": "Eugene",
+  "region": "Oregon",
+  "country": "US",
+  "latitude": 44.04764,
+  "longitude": -123.147459,
+  "phone": "+15412217791",
+  "website": "https://valleysims.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770220053/golf_simulators/valleysims_com_ChIJfTuPpWAfwVQRMuX-uIgxsOY.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Valley+Sims/@44.047639499999995,-123.1474595,14z/data=!4m8!1m2!2m1!1sValley+Sims!3m4!1s0x54c11f60a58f3b7d:0xe6b03188b8fee532!8m2!3d44.047639499999995!4d-123.1474595",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJfTuPpWAfwVQRMuX-uIgxsOY",
+  "email": "valleysimseugene@gmail.com",
+  "venue_type": "multi_sport_sim",
+  "about": "Valley Sims is a 3,500-square-foot indoor golf facility in Eugene, Oregon, featuring six premium golf simulator bays. The venue utilizes Foresight technology, the official launch monitor of the PGA, to provide realistic course simulations and accurate performance feedback. It caters to a diverse range of patrons, from seasoned golfers and beginners to families and corporate groups, offering a welcoming atmosphere for both practice and casual play. Membership options are available for frequent players, providing benefits like discounted lessons, while non-members can book by the hour.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|coaching_available|juniors_youth",
+  "vibe_tags": "welcoming|modern|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "Foresight technology provides PGA-level accuracy and performance data",
+    "Offers flexible booking for both individual and large group sessions up to 75",
+    "Features a welcoming, comfortable atmosphere with beverage options",
+    "Provides a year-round escape regardless of weather conditions"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Details not specified, but bar/venue suggests availability"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Discounts on drinks available with membership"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": "unknown",
+      "notes": "Official launch monitor technology of the PGA"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 6,
+  "booking_url": "https://clients.uschedule.com/valleysims/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 50,
+  "price_range_max_local": 250,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 6,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|leagues|coaching_available|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The content does not specify, but it is standard practice for simulator venues to allow customers to bring their own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue offers a bar and drink options, with discounts for members. BYOB policies are not explicitly mentioned."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Playing time for 18 holes depends on the simulator software and number of players, but sessions are typically booked by the hour."
+    },
+    {
+      "question": "Is Valley Sims kid-friendly?",
+      "answer": "Yes, Valley Sims is family-friendly and offers a 'Par-Tee' membership specifically described as 'great for your JR golfer,' along with junior leagues and instruction."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"11AM-9PM\"], \"Wednesday\": [\"11AM-9PM\"], \"Thursday\": [\"11AM-9PM\"], \"Friday\": [\"11AM-11PM\"], \"Saturday\": [\"11AM-11PM\"], \"Sunday\": [\"11AM-9PM\"]}"
+}

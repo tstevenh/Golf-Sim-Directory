@@ -1,0 +1,83 @@
+{
+  "name": "X-Golf Avon",
+  "address": "35948 Detroit Rd, Avon, OH 44011",
+  "city": "Avon",
+  "region": "Ohio",
+  "country": "US",
+  "latitude": 41.460791,
+  "longitude": -82.017766,
+  "phone": "+14409378026",
+  "website": "http://playxgolf.com/locations/avon",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770208753/golf_simulators/playxgolf_com_ChIJbXW1JAyRMIgR_lBwaPMmAww.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/X-Golf+Avon/@41.460791,-82.01776579999999,14z/data=!4m8!1m2!2m1!1sX-Golf+Avon!3m4!1s0x8830910c24b5756d:0xc0326f3687050fe!8m2!3d41.460791!4d-82.01776579999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJbXW1JAyRMIgR_lBwaPMmAww",
+  "email": "info@xgolfavon.com",
+  "venue_type": "sim_bar",
+  "about": "X-Golf Avon operates as an indoor golf simulator venue and bar, featuring 9 state-of-the-art simulators that accommodate up to 6 players per bay. The facility offers a full service bar, food options, and event space for corporate gatherings and parties. Pricing is based on simulator rental per hour, with rates varying by day of the week, and is designed for groups of all skill levels from beginners to serious golfers looking to practice or play.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|club_rentals|coaching_available",
+  "vibe_tags": "sports_bar|community_club|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|large_groups",
+  "why_golfers_like_it": [
+    "Highly accurate simulators using a combination of camera systems, infrared lasers, and impact sensors",
+    "Flexible pricing allows up to 6 golfers per simulator for a flat hourly rate",
+    "Full bar and food menu available to enhance the social experience"
+  ],
+  "kid_friendly": "true",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Shareable bites, appetizers, snacks, and pizzas available; menu details require contacting the venue"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full service bar with local craft beer, cocktails, and wine by the glass or on tap"
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 9,
+  "booking_url": "https://clients.uschedule.com/xgolfavon/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 40,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 0,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, club rental is available, but you are also welcome to use your own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, outside food and drinks are not allowed as X-Golf Avon has its own full service bar and kitchen."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "As a rule of thumb, a single golfer can play 18 holes in about one hour. For multiple players, it takes approximately one hour per person to complete 18 holes."
+    },
+    {
+      "question": "Is it kid-friendly?",
+      "answer": "Yes, the venue welcomes children of all ages."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-12AM\"], \"Saturday\": [\"9AM-12AM\"], \"Sunday\": [\"9AM-7PM\"]}"
+}

@@ -8,8 +8,9 @@ import { Pagination } from "@/components/ui/Pagination";
 import { CityCategoryLinks } from "@/components/seo/CityCategoryLinks";
 import { SeoIndexSections } from "@/components/seo/SeoIndexSections";
 import { getStateDisplayName, getStateAbbrevFromName } from "@/lib/states";
-import { getStaticRelatedLinks, AVAILABLE_VIBES, AVAILABLE_SEGMENTS, AVAILABLE_HARDWARE } from "@/lib/category-config.generated";
+import { getStaticRelatedLinks } from "@/lib/category-config.generated";
 import { getCityVibeIndexUrl, getCityWhoItsForIndexUrl, getCityHardwareIndexUrl } from "@/lib/best-by-config";
+import { getCityCategoryBrowseLinksWithCounts } from "@/lib/best-by-data";
 import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
 
 interface CityPageProps {
@@ -20,7 +21,7 @@ interface CityPageProps {
   searchParams?: Promise<{ page?: string }>;
 }
 
-export const revalidate = 60;
+export const revalidate = 86400;
 
 export async function generateMetadata({ params }: CityPageProps): Promise<Metadata> {
   try {
@@ -31,24 +32,15 @@ export async function generateMetadata({ params }: CityPageProps): Promise<Metad
       .replace(/-/g, " ")
       .replace(/\b\w/g, (l) => l.toUpperCase());
 
-    const venueCount = await db.venue.count({
-      where: {
-        city: { equals: cityFormatted, mode: "insensitive" },
-        state: stateAbbrev.toUpperCase(),
-        country: "US",
-        status: "active",
-      },
-    });
-
     return {
-      title: `${venueCount} Best Golf Simulators in ${cityFormatted}, ${stateName}`,
-      description: `Compare ${venueCount} indoor golf simulator venues in ${cityFormatted}, ${stateName}. See launch monitors, pricing, hours, reviews, and book your session online.`,
+      title: `Best Golf Simulators in ${cityFormatted}, ${stateName}`,
+      description: `Compare indoor golf simulator venues in ${cityFormatted}, ${stateName}. See launch monitors, pricing, hours, reviews, and book your session online.`,
       alternates: {
         canonical: `https://golfsimmap.com/venue/us/${state}/${city}`,
       },
       openGraph: {
-        title: `${venueCount} Best Golf Simulators in ${cityFormatted}, ${stateName}`,
-        description: `Compare ${venueCount} indoor golf simulator venues in ${cityFormatted}. See pricing, reviews, and book online.`,
+        title: `Best Golf Simulators in ${cityFormatted}, ${stateName}`,
+        description: `Compare indoor golf simulator venues in ${cityFormatted}. See pricing, reviews, and book online.`,
         type: "website",
         url: `https://golfsimmap.com/venue/us/${state}/${city}`,
       },
@@ -86,7 +78,7 @@ export default async function CityPage({ params, searchParams }: CityPageProps) 
     const pageSize = 12;
     const skip = (page - 1) * pageSize;
 
-    const [venues, totalVenues, nearbyCitiesResult] = await Promise.all([
+    const [venueRows, nearbyCitiesResult, cityCategoryLinks] = await Promise.all([
       db.venue.findMany({
         where: {
           city: { equals: cityFormatted, mode: "insensitive" },
@@ -96,16 +88,8 @@ export default async function CityPage({ params, searchParams }: CityPageProps) 
         },
         orderBy: [{ featured: "desc" }, { ratingOverall: "desc" }, { name: "asc" }],
         select: venueCardSelect,
-        take: pageSize,
+        take: pageSize + 1,
         skip,
-      }),
-      db.venue.count({
-        where: {
-          city: { equals: cityFormatted, mode: "insensitive" },
-          state: stateAbbrev.toUpperCase(),
-          country: "US",
-          status: "active",
-        },
       }),
       db.venue.findMany({
         where: {
@@ -118,9 +102,14 @@ export default async function CityPage({ params, searchParams }: CityPageProps) 
         distinct: ["city"],
         take: 6,
       }),
+      getCityCategoryBrowseLinksWithCounts(state, cityFormatted, 4, stateAbbrev.toUpperCase()),
     ]);
 
-    if (totalVenues === 0) {
+    const hasNextPage = venueRows.length > pageSize;
+    const venues = venueRows.slice(0, pageSize);
+    const knownVenueCount = page === 1 && !hasNextPage ? venues.length : undefined;
+
+    if (page === 1 && venues.length === 0) {
       return (
         <div className="min-h-screen bg-deep-black py-12">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -135,8 +124,6 @@ export default async function CityPage({ params, searchParams }: CityPageProps) 
         </div>
       );
     }
-
-    const totalPages = Math.ceil(totalVenues / pageSize);
     const nearbyCities = nearbyCitiesResult.map((c) => c.city);
 
     // Related links - static, no extra DB query
@@ -159,7 +146,7 @@ export default async function CityPage({ params, searchParams }: CityPageProps) 
         <div className="absolute inset-0 scorecard-grid opacity-20" />
         
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <CitySchema city={cityFormatted} state={stateName} stateSlug={state} venueCount={totalVenues} />
+          <CitySchema city={cityFormatted} state={stateName} stateSlug={state} venueCount={knownVenueCount} />
 
           {/* Header */}
           <div className="mb-12">
@@ -177,7 +164,7 @@ export default async function CityPage({ params, searchParams }: CityPageProps) 
             <div className="flex items-center gap-3 mb-4">
               <div className="w-8 h-px bg-masters-green" />
               <span className="text-masters-green text-xs font-mono uppercase tracking-widest">
-                {totalVenues} Venues
+                {typeof knownVenueCount === "number" ? `${knownVenueCount} Venues` : "City Venues"}
               </span>
             </div>
 
@@ -190,7 +177,7 @@ export default async function CityPage({ params, searchParams }: CityPageProps) 
                   </h1>
                 </div>
                 <p className="text-muted max-w-xl">
-                  Discover {totalVenues} indoor golf venues in {cityFormatted}. 
+                  Discover indoor golf venues in {cityFormatted}.
                   Compare launch monitors, amenities, and pricing.
                 </p>
               </div>
@@ -209,7 +196,6 @@ export default async function CityPage({ params, searchParams }: CityPageProps) 
                   city={venue.city}
                   state={venue.state}
                   heroImage={venue.heroImage}
-                  shortDescription={venue.shortDescription}
                   venueType={venue.venueType}
                   simulatorSystems={venue.simulatorSystems as string[] | null}
                   launchMonitorType={venue.launchMonitorType}
@@ -223,35 +209,27 @@ export default async function CityPage({ params, searchParams }: CityPageProps) 
               ))}
             </VenueGrid>
 
-            {totalPages > 1 && (
+            {(page > 1 || hasNextPage) && (
               <Pagination
                 currentPage={page}
-                totalPages={totalPages}
+                hasNextPage={hasNextPage}
                 baseUrl={`/venue/us/${state}/${city}`}
               />
             )}
           </section>
 
-          {/* Browse by Category - using static config */}
+          {/* Browse by Category - city-specific counts */}
           <div className="mt-12">
             <CityCategoryLinks
               state={state}
               city={cityFormatted}
-              vibes={AVAILABLE_VIBES.filter(v => v.count > 0).slice(0, 4).map(v => ({
-                href: `/venue/us/${state}/${city}/best/vibe/${v.slug}`,
-                label: v.label,
-                count: v.count,
-              }))}
-              segments={AVAILABLE_SEGMENTS.filter(s => s.count > 0).slice(0, 4).map(s => ({
-                href: `/venue/us/${state}/${city}/best/who-its-for/${s.slug}`,
-                label: s.label,
-                count: s.count,
-              }))}
-              hardware={AVAILABLE_HARDWARE.filter(h => h.count > 0).slice(0, 4).map(h => ({
-                href: `/venue/us/${state}/${city}/best/hardware/${h.slug}`,
-                label: h.label,
-                count: h.count,
-              }))}
+              vibes={cityCategoryLinks.vibes}
+              segments={cityCategoryLinks.segments}
+              hardware={cityCategoryLinks.hardware}
+              launchMonitors={cityCategoryLinks.launchMonitors}
+              amenities={cityCategoryLinks.amenities}
+              software={cityCategoryLinks.software}
+              tags={cityCategoryLinks.tags}
             />
           </div>
 
@@ -259,7 +237,7 @@ export default async function CityPage({ params, searchParams }: CityPageProps) 
           <div className="mt-12">
             <SeoIndexSections
               introTitle={`What to Expect from Golf Simulators in ${cityFormatted}`}
-              introDescription={`${cityFormatted} offers ${totalVenues} indoor golf simulator venues for golfers looking to practice, play, or entertain. These venues range from high-end training facilities with professional-grade launch monitors to casual entertainment spots perfect for groups and parties. Most simulator venues feature advanced technology like TrackMan, Foresight, or SkyTrak, providing accurate ball flight data and realistic course simulations. Whether you're a serious golfer looking to work on your game during the off-season, or a beginner wanting to learn in a relaxed environment, ${cityFormatted}'s golf simulator venues have something for everyone.`}
+              introDescription={`${cityFormatted} offers indoor golf simulator venues for golfers looking to practice, play, or entertain. These venues range from high-end training facilities with professional-grade launch monitors to casual entertainment spots perfect for groups and parties. Most simulator venues feature advanced technology like TrackMan, Foresight, or SkyTrak, providing accurate ball flight data and realistic course simulations. Whether you're a serious golfer looking to work on your game during the off-season, or a beginner wanting to learn in a relaxed environment, ${cityFormatted}'s golf simulator venues have something for everyone.`}
               guidanceTitle="What to Look for in a Simulator Venue"
               guidancePoints={[
                 "Launch monitor quality - Look for TrackMan, Foresight, or other professional-grade systems for accurate data",
@@ -297,7 +275,7 @@ export default async function CityPage({ params, searchParams }: CityPageProps) 
               ctaDescription="Get your venue listed on GolfSimMap and reach more golfers searching for simulator experiences in your area."
               ctaPrimary={{ label: "List Your Venue", href: "/list-venue" }}
               ctaSecondary={{ label: "Learn More", href: "/about" }}
-              venueCount={totalVenues}
+              venueCount={knownVenueCount}
               showStats={true}
             >
               {/* Empty children - venue grid is already shown above */}

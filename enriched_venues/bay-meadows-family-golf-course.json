@@ -1,0 +1,92 @@
+{
+  "name": "Bay Meadows Family Golf Course",
+  "address": "5550 Bay Meadows Dr, Traverse City, MI 49684",
+  "city": "Traverse City",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 44.768399,
+  "longitude": -85.679388,
+  "phone": "+12319467927",
+  "website": "https://baymeadowsfgc.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770243284/golf_simulators/baymeadowsfgc_com_ChIJqb1RiP8tHogReFLE4MUrHOc.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Bay+Meadows+Family+Golf+Course/@44.7683989,-85.679388,14z/data=!4m8!1m2!2m1!1sBay+Meadows+Family+Golf+Course!3m4!1s0x881e2dff8851bda9:0xe71c2bc5e0c45278!8m2!3d44.7683989!4d-85.679388",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJqb1RiP8tHogReFLE4MUrHOc",
+  "email": "proshop@baymeadowsfgc.com",
+  "venue_type": "training_studio",
+  "about": "Bay Meadows Family Golf Course is a family-owned and operated facility in Traverse City, established in 1995. It offers a rolling 9-hole par 34 course and a challenging 9-hole par 3 course, complemented by extensive practice amenities including a driving range with 12 mat stations and endless turf tees. The venue is home to a premier indoor-outdoor Learning Center equipped with Trackman 4 launch monitors, K-Motion body sensors, and state-of-the-art video analysis, providing year-round instruction for all skill levels. The facility prides itself on being a welcoming environment where beginners learn and experts practice, supported by PGA instructors and a focus on family-friendly service and conditions.",
+  "tags": "beginner_friendly|families|juniors_youth|coaching_available|premium_tech|budget_friendly|community_club",
+  "vibe_tags": "family_fun_center|tech_lab|welcoming|modern",
+  "who_its_for": "beginners|families|juniors_youth|serious_golfers|solo_practice",
+  "why_golfers_like_it": [
+    "State-of-the-art Trackman 4 and K-Motion technology for precise swing and ball analysis",
+    "Comprehensive indoor-outdoor learning center with PGA instructors for year-round training",
+    "Family-friendly environment with dedicated junior programs and practice facilities"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned; external shop available (Par Above)"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "Trackman 4 launch monitor with K-Motion body sensors"
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://clients.uschedule.com/baymeadowsfgc/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, players should bring their own clubs, though custom club fitting services are available on-site."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No external food or drink is mentioned, but there is an external pro shop (Par Above) available."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The venue offers a 9-hole regulation course and a 9-hole par 3 course; full 18-hole times would depend on play pace."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "Yes, Bay Meadows offers extensive junior golf programs, including winter, spring, summer, and fall clinics, making it very kid-friendly."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9:30AM-5PM\"], \"Tuesday\": [\"9:30AM-5PM\"], \"Wednesday\": [\"9:30AM-5PM\"], \"Thursday\": [\"9:30AM-5PM\"], \"Friday\": [\"9:30AM-5PM\"], \"Saturday\": [\"9:30AM-5PM\"], \"Sunday\": [\"9:30AM-5PM\"]}"
+}

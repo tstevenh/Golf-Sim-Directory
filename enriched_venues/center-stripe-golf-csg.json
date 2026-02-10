@@ -1,0 +1,93 @@
+{
+  "name": "Center Stripe Golf (CSG)",
+  "address": "1250B Auburn Rd Suite 203, Dacula, GA 30019",
+  "city": "Dacula",
+  "region": "Georgia",
+  "country": "US",
+  "latitude": 34.035501,
+  "longitude": -83.909448,
+  "phone": "+14707607863",
+  "website": "http://www.centerstripegolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770232631/golf_simulators/www_centerstripegolf_com_ChIJ2zgrlQbr9YgRcqw-Ucd5a84.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Center+Stripe+Golf+%28CSG%29/@34.035501,-83.9094484,14z/data=!4m8!1m2!2m1!1sCenter+Stripe+Golf+%28CSG%29!3m4!1s0x88f5eb06952b38db:0xce6b79c7513eac72!8m2!3d34.035501!4d-83.9094484",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ2zgrlQbr9YgRcqw-Ucd5a84",
+  "venue_type": "training_studio",
+  "about": "Center Stripe Golf (CSG) is a golf training studio specializing in personalized coaching and technology-driven swing analysis. Located in Dacula, GA, the facility offers a comprehensive approach to improvement, beginning with mobility assessments and tailored swing plans for golfers of all levels. Utilizing advanced technology including Trackman and TPI-certified coaching, CSG provides a focused environment for serious golfers looking to refine their technique. The studio's philosophy emphasizes personalized, non-generic instruction to help players achieve their specific golfing goals in a professional setting.",
+  "tags": "serious_practice|coaching_available|beginner_friendly|juniors_youth|tech_lab",
+  "vibe_tags": "industrial_training|community_club|casual|welcoming",
+  "who_its_for": "serious_golfers|beginners|juniors_youth|solo_practice",
+  "why_golfers_like_it": [
+    "Personalized coaching based on TPI-certified assessments",
+    "Technology-driven swing analysis with Trackman and launch data",
+    "Holistic approach starting with mobility and physical capabilities",
+    "Non-generic instruction tailored to individual swing mechanics",
+    "Structured learning plan broken into three improvement phases"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food services mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol services mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Professional-grade launch monitor with ball and club tracking"
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://www.centerstripegolf.com/golf-assessment-booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_fitting|coaching_available|pro_shop",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "Yes, you should bring your own golf clubs for lessons and practice sessions. Club fitting services are available if needed."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No outside food or drinks are mentioned as being permitted at the facility."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time for 18 holes isn't specified, but the focus is on quality swing practice and coaching rather than full rounds."
+    },
+    {
+      "question": "Is this kid-friendly?",
+      "answer": "Yes, the facility offers junior-specific TPI certifications and youth coaching programs, making it suitable for young golfers."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"10AM-9PM\"], \"Tuesday\": [\"10AM-9PM\"], \"Wednesday\": [\"10AM-9PM\"], \"Thursday\": [\"10AM-9PM\"], \"Friday\": [\"10AM-9PM\"], \"Saturday\": [\"10AM-9PM\"], \"Sunday\": [\"10AM-9PM\"]}"
+}

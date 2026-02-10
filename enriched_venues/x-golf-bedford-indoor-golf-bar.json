@@ -1,0 +1,88 @@
+{
+  "name": "X-Golf Bedford Indoor Golf & Bar",
+  "address": "5 Colby Ct Unit 110, Bedford, NH 03110",
+  "city": "Bedford",
+  "region": "New Hampshire",
+  "country": "US",
+  "latitude": 42.964723,
+  "longitude": -71.482817,
+  "phone": "+16037827878",
+  "website": "https://playxgolf.com/locations/bedford/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770199122/golf_simulators/playxgolf_com_ChIJU3THarRJ4okRyAsqjFQH7ys.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/X-Golf+Bedford+Indoor+Golf+%26+Bar/@42.964723299999996,-71.4828168,14z/data=!4m8!1m2!2m1!1sX-Golf+Bedford+Indoor+Golf+%26+Bar!3m4!1s0x89e249b46ac77453:0x2bef07548c2a0bc8!8m2!3d42.964723299999996!4d-71.4828168",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJU3THarRJ4okRyAsqjFQH7ys",
+  "email": "events@xgolfbedford.com",
+  "venue_type": "sim_bar",
+  "about": "X-Golf Bedford is an indoor golf simulator venue that combines high-fidelity golf simulation with a full-service bar and restaurant. It utilizes advanced camera systems, infrared lasers, and impact sensors to provide players with accurate and realistic golf experiences. The venue is priced per bay, per hour, with rates varying by day and time to accommodate different budgets and scheduling needs. It is ideal for both casual social gatherings and serious golf practice, offering a versatile environment for all skill levels.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|kids_friendly|corporate_events|leagues|premium_tech|club_rentals|coaching_available|party_atmosphere",
+  "vibe_tags": "sports_bar|family_fun_center|tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams|solo_practice|juniors_youth|tourists_travelers|bachelor_parties",
+  "why_golfers_like_it": [
+    "State-of-the-art simulator technology for unparalleled accuracy",
+    "On-site bar and restaurant offering a complete social experience",
+    "Flexible pricing and group-friendly bay setup",
+    "PGA professional instruction available for skill development"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen offering shareable bites, appetizers, snacks, and pizzas."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with beer on tap, cocktails, and wines by the glass."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "X-Golf",
+      "model": "Proprietary Simulator",
+      "notes": "Combination of camera systems, infrared lasers, and impact sensors."
+    }
+  ],
+  "simulator_software": "X-Golf Proprietary Software",
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://clients.uschedule.com/xgolfbedford/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 40,
+  "price_range_max_local": 80,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": false,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|leagues|coaching_available|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, club rentals are available. The venue offers Stix rental clubs in good shape."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No, outside food and drinks are not permitted. The venue has a full bar and restaurant on-site."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Generally, it takes about one hour for an individual to play 18 holes. For each additional person, plan on an extra hour."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, X-Golf Bedford welcomes children of all ages and is suitable for families."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"9AM-12AM\"], \"Saturday\": [\"8AM-12AM\"], \"Sunday\": [\"8AM-10PM\"]}"
+}

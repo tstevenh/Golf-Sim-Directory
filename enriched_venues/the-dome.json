@@ -1,0 +1,101 @@
+{
+  "name": "The Dome",
+  "address": "8230 Wehrle Dr, Williamsville, NY 14221",
+  "city": "Williamsville",
+  "region": "New York",
+  "country": "US",
+  "latitude": 42.95697,
+  "longitude": -78.688735,
+  "phone": "+17166313663",
+  "website": "https://thedomewny.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770212802/golf_simulators/thedomewny_com_ChIJb2gCoIt104kRP4fDcA9X61E.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Dome/@42.9569699,-78.68873529999999,14z/data=!4m8!1m2!2m1!1sThe+Dome!3m4!1s0x89d3758ba002686f:0x51eb570f70c3873f!8m2!3d42.9569699!4d-78.68873529999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJb2gCoIt104kRP4fDcA9X61E",
+  "email": "thewehrlegolfdome@gmail.com",
+  "venue_type": "sim_bar",
+  "about": "The Dome is an indoor golf and entertainment venue located in Williamsville, NY, near Buffalo. It features a large facility with 50 practice stalls on two levels, over 3,500 square feet of fresh turf, and updated amenities. The venue offers a Toptracer virtual golf system and TrackMan launch monitor for club fittings, allowing golfers to play on virtual courses and track performance metrics. It also includes a kitchen bar, pro shop, and event spaces, making it a comprehensive destination for both serious practice and casual entertainment. The Dome operates year-round with extended winter hours and shortened summer hours, catering to golfers who want to practice regardless of weather conditions.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|coaching_available|club_rentals|family_friendly",
+  "vibe_tags": "sports_bar|family_fun_center|tech_lab",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Year-round indoor golf practice regardless of weather",
+    "Premium Toptracer technology for virtual course play and performance tracking",
+    "Club fitting services with TrackMan and SAM PuttLab technology",
+    "50 practice stalls on two levels with over 3,500 square feet of turf",
+    "Senior specials and rewards program for frequent players"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Two Nines Kitchen Bar serves food with full kitchen service"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available at Two Nines Kitchen Bar"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "unknown",
+      "notes": "Used for club fittings and launch monitoring"
+    },
+    {
+      "brand": "Toptracer",
+      "model": "unknown",
+      "notes": "Virtual golf simulator system for virtual course play and games"
+    },
+    {
+      "brand": "SAM PuttLab",
+      "model": "unknown",
+      "notes": "Used for putting analysis and club fittings"
+    }
+  ],
+  "simulator_software": [
+    "Toptracer"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green|real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://thedomewny.com/virtual-golf-reservations/",
+  "pricing_model": "per_bay_hour|mixed",
+  "price_range_min_local": 25,
+  "price_range_max_local": 55,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 0,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|pro_shop|club_fitting|leagues|private_party_room|wifi",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you are expected to bring your own clubs to use at The Dome. The facility has 50 practice stalls and hitting bays equipped with synthetic turf."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, outside food and drinks are not allowed. The Dome has Two Nines Kitchen Bar on-site that serves food and beverages."
+    },
+    {
+      "question": "How long does it take to play 18 holes on the simulator?",
+      "answer": "The time to play 18 holes can vary, but with Toptracer technology and up to 4 players per bay, a full round typically takes 1-2 hours depending on pace of play."
+    },
+    {
+      "question": "Is The Dome kid-friendly?",
+      "answer": "Yes, The Dome is kid-friendly. It offers a family-friendly atmosphere with various entertainment options and is suitable for all ages and skill levels."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-9PM\"], \"Tuesday\": [\"9AM-9PM\"], \"Wednesday\": [\"9AM-9PM\"], \"Thursday\": [\"9AM-9PM\"], \"Friday\": [\"9AM-9PM\"], \"Saturday\": [\"9AM-9PM\"], \"Sunday\": [\"9AM-5PM\"]}"
+}

@@ -1,0 +1,91 @@
+{
+  "name": "Range Restaurant + Cocktail Bar",
+  "address": "11865 Hickman Rd, Urbandale, IA 50323",
+  "city": "Urbandale",
+  "region": "Iowa",
+  "country": "US",
+  "latitude": 41.615734,
+  "longitude": -93.779968,
+  "phone": "+15152527500",
+  "website": "http://rangedesmoines.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770243519/golf_simulators/rangedesmoines_com_ChIJO2iGbtQg7IcRHvAcGLXJBLs.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Range+Restaurant+%2B+Cocktail+Bar/@41.6157341,-93.7799682,14z/data=!4m8!1m2!2m1!1sRange+Restaurant+%2B+Cocktail+Bar!3m4!1s0x87ec20d46e86683b:0xbb04c9b5181cf01e!8m2!3d41.6157341!4d-93.7799682",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJO2iGbtQg7IcRHvAcGLXJBLs",
+  "email": "info@rangedesmoines.com",
+  "venue_type": "sim_bar",
+  "about": "Range Restaurant + Cocktail Bar is a multi-concept venue combining indoor golf simulators with full-service dining and bar operations. The facility features six PGA-endorsed aboutGolf simulators, installed in 2017 and upgraded in December 2022, offering both wide-screen and curved-screen options. Reservations are made by the hour with time slots, not exact durations, and the venue provides food and cocktail service directly to the simulator bays. Pricing is based on the simulator type and time reserved, with advance bookings required and a strict 24-hour cancellation policy.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|premium_tech|club_rentals|private_rooms|leagues",
+  "vibe_tags": "upscale_lounge|sports_bar",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "PGA-endorsed aboutGolf simulators offer high accuracy and realistic ball flight",
+    "Full food and cocktail menu available directly in the simulator bays",
+    "Order kiosks and full-service staff provide convenience during play",
+    "Variety of simulator options from wide-screen to curved-screen for different preferences"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full restaurant service with prime steaks and locally sourced ingredients available in simulators"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full-service cocktail bar with menu available in simulator bays"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "aboutGolf",
+      "model": "PGA-endorsed",
+      "notes": "6 simulators total, with both wide-screen and curved-screen options"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 6,
+  "booking_url": "https://clients.uschedule.com/rangedesmoines/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 15,
+  "price_range_max_local": 40,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": false,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|private_party_room|lockers|wifi|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "While you can bring your own clubs for the most accurate experience, rentals are available for $15 for the first set and $10 for each additional set. Range offers male and female clubs, left-handed options, and kids clubs."
+    },
+    {
+      "question": "Can I bring food or drinks from outside?",
+      "answer": "No outside food or drinks are allowed, as the venue offers full food and cocktail service directly to the simulator bays through their menu and order kiosks."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Average times vary by group size: 2 golfers can play 18 holes in 2 hours, while 4 golfers need 4 hours for 18 holes. All tee times are shortened by 5 minutes for cleanup between sessions."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Range is kid-friendly with kids clubs available for rental and a welcoming atmosphere that accommodates families with various entertainment options."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"11AM-10PM\"], \"Tuesday\": [\"11AM-10PM\"], \"Wednesday\": [\"11AM-10PM\"], \"Thursday\": [\"11AM-10PM\"], \"Friday\": [\"11AM-10PM\"], \"Saturday\": [\"10AM-10PM\"], \"Sunday\": [\"10AM-8PM\"]}"
+}

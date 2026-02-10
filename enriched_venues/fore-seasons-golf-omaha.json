@@ -1,0 +1,90 @@
+{
+  "name": "Fore Seasons Golf Omaha",
+  "address": "19150 Pacific St, Elkhorn, NE 68022",
+  "city": "Elkhorn",
+  "region": "Nebraska",
+  "country": "US",
+  "latitude": 41.248813,
+  "longitude": -96.21458,
+  "phone": "+15312835525",
+  "website": "https://foreseasonsomaha.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770213167/golf_simulators/foreseasonsomaha_com_ChIJ0eJVHADxk4cRbwUhsCShoVE.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Fore+Seasons+Golf+Omaha/@41.2488131,-96.2145798,14z/data=!4m8!1m2!2m1!1sFore+Seasons+Golf+Omaha!3m4!1s0x8793f1001c55e2d1:0x51a1a124b021056f!8m2!3d41.2488131!4d-96.2145798",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ0eJVHADxk4cRbwUhsCShoVE",
+  "email": "Golf@ForeSeasonsOmaha.com",
+  "venue_type": "sim_bar",
+  "about": "Fore Seasons Golf Omaha is a premier golf simulator and sports lounge featuring six bays equipped with Trackman iO technology, the most advanced simulator system in the world. The venue offers players access to over 300+ iconic PGA courses designed with drone flyover lidar mapping, providing a realistic golfing experience. With its dual role as a sports bar, it features 18 TVs for viewing sporting events and one of West Omaha's largest outdoor bar patios. The facility is open to golfers of all skill levels and emphasizes flexibility with leagues and tournaments running throughout the year, including a winter league with a $2000 prize pool and various event circuits.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|private_rooms|club_rentals|late_night",
+  "vibe_tags": "sports_bar|casual|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "Access to the world's most advanced Trackman iO simulator with 20+ precise shot readings",
+    "Over 300+ PGA courses available with realistic drone flyover lidar mapping technology",
+    "Dual-purpose sports bar and golf simulator with flexible booking and year-round tournaments",
+    "Full food menu and bar service available for a complete experience"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full food menu available"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service with outdoor patio"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Combines radar, infrared, and high-speed imaging to deliver real-time 3D spin and spin axis data"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 6,
+  "booking_url": "https://clients.uschedule.com/foreseasonsomaha/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 6,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues|ada_accessible",
+  "rating_tech_quality": 5.0,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue doesn't explicitly mention club rentals, so it's recommended to bring your own clubs for the best experience."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No, Fore Seasons provides a full food menu and bar service. BYOB is not mentioned as an option."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Generally, it takes an hour for an individual player to play 18 holes. Additional time should be added for each player in the group, depending on skill level."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The venue does not explicitly mention kid-friendly policies, but it welcomes golfers of all ages and skill levels, making it potentially suitable for families."
+    }
+  ],
+  "rating_overall": 4.4,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"9AM-12AM\"], \"Saturday\": [\"8AM-12AM\"], \"Sunday\": [\"8AM-10PM\"]}"
+}

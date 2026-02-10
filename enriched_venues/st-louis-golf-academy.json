@@ -1,0 +1,95 @@
+{
+  "name": "St. Louis Golf Academy",
+  "address": "1 Crystal Springs Quarry Dr, Maryland Heights, MO 63043",
+  "city": "Maryland Heights",
+  "region": "Missouri",
+  "country": "US",
+  "latitude": 38.72438,
+  "longitude": -90.479861,
+  "phone": "+13147402998",
+  "website": "http://stlgolfacademy.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770263060/golf_simulators/stlgolfacademy_com_ChIJ9a-Awc8t34cR8RW3Jb9QHrY.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/St.+Louis+Golf+Academy/@38.7243803,-90.479861,14z/data=!4m8!1m2!2m1!1sSt.+Louis+Golf+Academy!3m4!1s0x87df2dcfc180aff5:0xb61e50bf25b715f1!8m2!3d38.7243803!4d-90.479861",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ9a-Awc8t34cR8RW3Jb9QHrY",
+  "email": "helenkurtingolf@gmail.com",
+  "venue_type": "training_studio",
+  "about": "St. Louis Golf Academy, established in 2015, is a premier golf training facility specializing in expert instruction coupled with golf fitness and the physical, mental, and emotional development of golfers. The academy, formerly known as Golf Body Performance Center, emphasizes a goal-oriented approach designed to achieve guaranteed results through a combination of on-course assessments, player improvement plans, and advanced technology. The facility offers a variety of programs ranging from group coaching for breaking 100 or 90 to specialized short-game clinics, all supported by cutting-edge launch monitor technology to ensure precise swing evaluation.",
+  "tags": "beginner_friendly|serious_practice|coaching_available|premium_tech|juniors_youth|corporate_teams",
+  "vibe_tags": "industrial_training|tech_lab",
+  "who_its_for": "beginners|serious_golfers|juniors_youth|corporate_teams",
+  "why_golfers_like_it": [
+    "Advanced GCQuad launch monitor technology for precise swing analysis",
+    "Guaranteed results-focused coaching programs with measurable improvement goals",
+    "Experienced PGA and LPGA-certified instruction with multiple teaching awards",
+    "Comprehensive lesson packages available both in-person and online",
+    "7,000+ lessons taught demonstrating proven track record"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No on-site food service mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No on-site alcohol service mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "GCQuad",
+      "model": "GCQuad",
+      "notes": "Advanced launch monitor technology described as the most advanced available"
+    }
+  ],
+  "simulator_so": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 1,
+  "booking_url": "https://app.coachnow.io/public/availability?coach=4290e45fd24c09c445e2f3470f",
+  "pricing_model": "per_person_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|pro_shop|coaching_available",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you would need to bring your own golf clubs for lessons and practice sessions. The academy doesn't mention club rentals as a standard service."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "No outside food or drink appears to be permitted as there is no mention of BYOB policy or food service at the facility."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website doesn't specify 18-hole simulation times as this appears to be primarily a training studio rather than a traditional golf simulation venue."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, the academy offers programs suitable for juniors and youth golfers, making it kid-friendly for those interested in learning golf."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-7PM\"], \"Tuesday\": [\"1-7PM\"], \"Wednesday\": [\"9AM-7PM\"], \"Thursday\": [\"9AM-7PM\"], \"Friday\": [\"Closed\"], \"Saturday\": [\"9AM-5AM\"], \"Sunday\": [\"11AM-3PM\"]}"
+}

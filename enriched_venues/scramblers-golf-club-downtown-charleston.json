@@ -1,0 +1,91 @@
+{
+  "name": "Scramblers Golf Club - Downtown Charleston",
+  "address": "997 Morrison Dr Suite 104, Charleston, SC 29403",
+  "city": "Charleston",
+  "region": "South Carolina",
+  "country": "US",
+  "latitude": 32.807738,
+  "longitude": -79.943702,
+  "phone": "+18439204477",
+  "website": "https://scramblersgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770208278/golf_simulators/scramblersgolf_com_ChIJXzTMKYR7_ogRNe9pdOYa1xQ.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Scramblers+Golf+Club+-+Downtown+Charleston/@32.8077378,-79.9437019,14z/data=!4m8!1m2!2m1!1sScramblers+Golf+Club+-+Downtown+Charleston!3m4!1s0x88fe7b8429cc345f:0x14d71ae67469ef35!8m2!3d32.8077378!4d-79.9437019",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJXzTMKYR7_ogRNe9pdOYa1xQ",
+  "email": "info@scramblersgolf.com",
+  "venue_type": "sim_bar",
+  "about": "Scramblers Golf is a private member-only golf simulation club focused on game improvement, 24/7 access, and community. The venue offers simulator bays with live swing data, access to over 100+ golf courses, 13 mini-games, peer-to-peer play, and special events and tournaments. Operating on a membership-based model, the facility provides 24/7 access to tee times, allowing members to practice with technology or play rounds. Scramblers has five locations in the Charleston, SC area and one in Florida, with plans for future expansion.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|budget_friendly|coaching_available|community_club|solo_practice",
+  "vibe_tags": "community_club|modern|tech_lab|welcoming",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "24/7 access to simulator bays with no time restrictions",
+    "Premium Uneekor launch monitors with industry-leading camera IR-based technology",
+    "Access to over 100+ golf courses and 13 mini-games",
+    "Community-focused environment with leagues and tournaments",
+    "AI trainers and swing cameras for detailed game improvement"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Members are allowed to bring their own food into the private club."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Members are allowed to bring their own drinks into the private club."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "Pressure Plate",
+      "notes": "Camera IR-based technology with patented ball and Refine technology"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "infrared_optical",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://scramblersgolf.com/membership/",
+  "pricing_model": "membership_only",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": false,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "pro_shop|leagues|club_rentals|coaching_available|wifi|food_and_drinks",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "The website does not specify whether clubs are provided or if members must bring their own. It's recommended to contact the venue directly for this information."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, as a private club, members are allowed to bring in their own food and drinks. Members are asked to be respectful of others and clean up after themselves."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify the average time to complete 18 holes. It is recommended to book your 'Tee Time' ahead of time, as booking is highly recommended."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is family-friendly and welcomes juniors, as indicated by its community focus and events."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

@@ -1,0 +1,92 @@
+{
+  "name": "Hickory House",
+  "address": "145 Elm St, Manchester, VT 05255",
+  "city": "Manchester",
+  "region": "Vermont",
+  "country": "US",
+  "latitude": 43.173924,
+  "longitude": -73.046823,
+  "phone": "+18023177870",
+  "website": "https://hickoryhousevt.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770217793/golf_simulators/hickoryhousevt_com_ChIJ4djEEVJf4IkR2MDxeQzq24Q.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Hickory+House/@43.173923599999995,-73.0468229,14z/data=!4m8!1m2!2m1!1sHickory+House!3m4!1s0x89e05f5211c4d8e1:0x84dbea0c79f1c0d8!8m2!3d43.173923599999995!4d-73.0468229",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ4djEEVJf4IkR2MDxeQzq24Q",
+  "email": "contact@hickoryhousevt.com",
+  "venue_type": "sim_bar",
+  "about": "Hickory House is a golf simulator lounge located in Manchester Center, Vermont. It blends golf, hospitality, and lounge culture into a single experience, featuring two simulator bays in a warm, heritage-inspired space. The venue is powered by Foresight & Puttview technology and high-speed swing analysis, allowing guests to play top-tier courses, sharpen their game, or compete with friends. It operates with modern convenience, offering a weather-proof environment for golf year-round, combining sport, style, and comfort under one roof. Designed to feel like a private club with contemporary amenities, it serves as a comfortable setting for serious practice, casual rounds, or social gatherings.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|leagues|premium_tech|coaching_available|date_night|solo_practice|club_rentals",
+  "vibe_tags": "casual|welcoming|modern|lounge_atmosphere",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Powered by Foresight & Puttview technology for accurate ball and swing tracking",
+    "High-speed camera system provides detailed video playback for improvement",
+    "Relaxed, heritage-inspired atmosphere combines golf with social elements",
+    "Weather-proof environment allows for year-round practice and play",
+    "Two spacious simulator bays offer a comfortable, private setting"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Food and drink menu available, with food and drink specials featured during events like Ladies Night"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with beer and wine offerings, including specials during events"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": "unknown",
+      "notes": "Primary simulator technology with high-speed swing analysis and full-angle video playback"
+    }
+  ],
+  "simulator_software": [
+    "Foresight",
+    "Puttview"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://app.whoosh.io/app/golf/facility/hickory-house-vt",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 0,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues|coaching_available",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue does not specify whether clubs are provided, so it's recommended to bring your own for the best experience."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No, the venue has its own food and drink menu available, with no mention of BYOB policies."
+    },
+    {
+      "question": "How long does an 18-hole round typically take?",
+      "answer": "A 60-minute session is mentioned for lessons, but typical 18-hole round time is not explicitly stated."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "There is no specific information about kid-friendly amenities or policies, so it's unclear."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"11AM-9PM\"], \"Tuesday\": [\"11AM-9PM\"], \"Wednesday\": [\"11AM-9PM\"], \"Thursday\": [\"11AM-9PM\"], \"Friday\": [\"11AM-10PM\"], \"Saturday\": [\"11AM-10PM\"], \"Sunday\": [\"9AM-8PM\"]}"
+}

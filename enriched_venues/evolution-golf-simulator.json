@@ -1,0 +1,93 @@
+{
+  "name": "Evolution Golf Simulator",
+  "address": "141 S Opdyke Rd, Auburn Hills, MI 48326",
+  "city": "Auburn Hills",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 42.632542,
+  "longitude": -83.247595,
+  "phone": "+12484999991",
+  "website": "https://www.evolutionsportsplex.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770200544/golf_simulators/www_evolutionsportsplex_com_ChIJFZWUP6_BJIgRNgf6ANrDqd0.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Evolution+Golf+Simulator/@42.6325417,-83.24759449999999,14z/data=!4m8!1m2!2m1!1sEvolution+Golf+Simulator!3m4!1s0x8824c1af3f949515:0xdda9c3da00fa0736!8m2!3d42.6325417!4d-83.24759449999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJFZWUP6_BJIgRNgf6ANrDqd0",
+  "email": "info@evolutionsportsplex.com",
+  "venue_type": "multi_sport_sim",
+  "about": "Evolution Sportsplex is a comprehensive indoor sports facility located in Auburn Hills, MI, featuring a 92,500 sq. ft. multi-purpose dome with artificial turf, allowing for year-round training and play. The venue specializes in golf with an indoor driving range, multiple golf simulators, and professional instruction, while also accommodating a variety of other sports like soccer, baseball, softball, football, and lacrosse. With 3 batting cages, a 6,000 sq. ft. event rental building, and a full concession stand, it offers a versatile space for both individual practice and group events.",
+  "tags": "beginner_friendly|corporate_events|leagues|coaching_available|food_and_drinks|family_friendly|multi_sport|indoor_facility|events_rentals|group_friendly",
+  "vibe_tags": "family_fun_center|community_club|casual|welcoming",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Indoor driving range and simulators available year-round regardless of weather",
+    "Professional golf lessons with advanced launch monitor technology (Foresight GCQuad)",
+    "Comprehensive facility with multiple amenities including batting cages and event spaces",
+    "Flexible booking options for both practice and competitive play"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full concession stand available on-site"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service on-site"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": "GCQuad",
+      "notes": "Advanced launch monitor used for lessons and possibly simulators"
+    }
+  ],
+  "simulator_so": [
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://yourgolfbooking.com/venues/evolution-sportsplex/booking/bays",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|kitchen_food|tv_sports|leagues|wifi|pro_shop|multi_sport|batting_cages|event_rental|concession_stand",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can bring your own clubs, but the venue likely has club rentals available. Contact them directly for specifics."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drink policies are not explicitly stated, but the venue has a full concession stand available on-site."
+    },
+    {
+      "question": "How long does it take to play 18 holes on the simulator?",
+      "answer": "Simulator time varies, but typically 18 holes takes about 2-3 hours depending on group size and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Evolution Sportsplex is family-friendly with activities for various sports and a welcoming atmosphere for all ages."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"10AM-11PM\"], \"Tuesday\": [\"10AM-11PM\"], \"Wednesday\": [\"10AM-11PM\"], \"Thursday\": [\"10AM-11PM\"], \"Friday\": [\"10AM-11PM\"], \"Saturday\": [\"10AM-8PM\"], \"Sunday\": [\"10AM-8PM\"]}"
+}

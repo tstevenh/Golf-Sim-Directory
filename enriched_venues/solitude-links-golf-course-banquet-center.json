@@ -1,0 +1,90 @@
+{
+  "name": "Solitude Links Golf Course & Banquet Center",
+  "address": "5810 Flinchbaugh Rd, Kimball, MI 48074",
+  "city": "Kimball",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 42.978865,
+  "longitude": -82.559055,
+  "phone": "+18109823673",
+  "website": "https://www.solitudelinksgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770226283/golf_simulators/www_solitudelinksgolf_com_ChIJGXg-MH2fJYgRbtF4SOKAIr0.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Solitude+Links+Golf+Course+%26+Banquet+Center/@42.9788655,-82.559055,14z/data=!4m8!1m2!2m1!1sSolitude+Links+Golf+Course+%26+Banquet+Center!3m4!1s0x88259f7d303e7819:0xbd2280e24878d16e!8m2!3d42.9788655!4d-82.559055",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJGXg-MH2fJYgRbtF4SOKAIr0",
+  "venue_type": "sim_bar",
+  "about": "Solitude Links is a premier 18-hole public golf course and full-service banquet venue located in Kimball Township, St. Clair County, Michigan. The facility features a state-of-the-art indoor golf simulator equipped with Uneekor QED Launch Monitor technology and GSPro simulation software, offering an authentic and realistic golf experience. The venue serves the Blue Water Area and is known for hosting golf outings, corporate events, weddings, and providing a loyalty point program for members.",
+  "tags": "food_and_drinks|corporate_events|leagues|premium_tech|beginner_friendly|solo_practice|families|large_groups|coaching_available",
+  "vibe_tags": "casual|welcoming|modern|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Uneekor QED Launch Monitor and GSPro software provide the most accurate ball data and realistic simulation physics",
+    "16' wide by 10' high impact screen enclosure with HD 1080p resolution",
+    "Quattro golf mats offer a realistic feel and reduce injury risk from club bounce",
+    "Convenient location for year-round play in St. Clair County",
+    "Available for leagues, special events, and private rentals"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full bar available with chef for limited food items"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar available"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "QED",
+      "notes": "16' wide by 10' high impact screen enclosure, camera-based technology for accurate ball spin and flight characteristics"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": 1,
+  "booking_url": "https://foreupsoftware.com/index.php/booking/18955/3085#/teetimes",
+  "pricing_model": "per_person_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|kitchen_food|private_party_room|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.5,
+  "rating_value_for_money": 4.2,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue does not specify whether club rentals are available, but golfers are expected to use their own clubs for a realistic experience."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "The venue has a full bar and food service available. It does not mention if outside food or drink is allowed."
+    },
+    {
+      "question": "How long does it take to play 18 holes on the simulator?",
+      "answer": "The venue does not specify the time required to play 18 holes, but recommends booking additional tee times for sessions longer than one hour."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Solitude Links hosts events like family-friendly celebrations and offers activities suitable for various skill levels, making it accessible for kids and families."
+    }
+  ],
+  "rating_overall": 4.5,
+  "opening_hours": "{\"Monday\": [\"8AM-8PM\"], \"Tuesday\": [\"8AM-8PM\"], \"Wednesday\": [\"8AM-8PM\"], \"Thursday\": [\"8AM-8PM\"], \"Friday\": [\"8AM-6PM\"], \"Saturday\": [\"8AM-6PM\"], \"Sunday\": [\"8AM-6PM\"]}"
+}

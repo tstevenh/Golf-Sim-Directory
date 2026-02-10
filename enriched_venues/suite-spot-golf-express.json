@@ -1,0 +1,91 @@
+{
+  "name": "Suite Spot Golf Express",
+  "address": "10202 Coldwater Rd Suite E, Fort Wayne, IN 46825",
+  "city": "Fort Wayne",
+  "region": "Indiana",
+  "country": "US",
+  "latitude": 41.176363,
+  "longitude": -85.129555,
+  "phone": "+12607970444",
+  "website": "https://suitespotgolf.com/express",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770209449/golf_simulators/suitespotgolf_com_ChIJD5A-yonjFYgR_ocEwQRAq78.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Suite+Spot+Golf+Express/@41.176363099999996,-85.129555,14z/data=!4m8!1m2!2m1!1sSuite+Spot+Golf+Express!3m4!1s0x8815e389ca3e900f:0xbfab4004c10487fe!8m2!3d41.176363099999996!4d-85.129555",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJD5A-yonjFYgR_ocEwQRAq78",
+  "email": "Ryan@suitespotgolf.com",
+  "venue_type": "sim_bar",
+  "about": "Suite Spot Express PV is an unmanned, 24/7 golf simulator facility designed for a quieter, more relaxed environment. It features four private suites equipped with top-of-the-line TrackMan IO launch monitors, each offering comfortable couches and high-quality laser projection. The venue provides flexible access for players to practice or enjoy a round at any time without the crowds of the main location.",
+  "tags": "serious_golfers|food_and_drinks|corporate_events|leagues|premium_tech|private_rooms|late_night",
+  "vibe_tags": "private_luxury|tech_lab|casual|welcoming",
+  "who_its_for": "serious_golfers|families|solo_practice|corporate_teams|tourists_travelers",
+  "why_golfers_like_it": [
+    "24/7 unmanned access for ultimate flexibility",
+    "Luxury private suites with top-tier TrackMan technology",
+    "Quiet, relaxed environment without crowds",
+    "Accurate and immersive golf simulation experience"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "Outside non-alcoholic food is allowed; venue has no on-site kitchen."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "Alcohol with visible labels is not permitted; outside alcohol is not allowed."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Top-of-the-line launch monitor in each of the four private suites"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 4,
+  "booking_url": "https://booking.trackmangolf.com/venues/suite-spot-golf-express/booking/bays",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": 4,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "private_rooms|tv_sports|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, players must bring their own clean equipment. Clubs or balls with dirt, marker, or ink are not permitted as they can damage the simulator screens."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside non-alcoholic beverages are allowed, but alcohol with visible labels is not permitted. All trash must be properly disposed of before leaving."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes depends on the simulator software and player pace, but typical rounds range from 1.5 to 2.5 hours."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The venue does not specifically mention kid-friendly policies or amenities. It is designed for a quieter, more relaxed experience, which may not be ideal for young children."
+    }
+  ],
+  "simulator_software": [
+    "TrackMan"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

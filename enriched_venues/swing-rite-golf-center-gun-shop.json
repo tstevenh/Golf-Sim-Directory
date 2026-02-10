@@ -1,0 +1,92 @@
+{
+  "name": "Swing Rite Golf Center & Gun Shop",
+  "address": "525 N Stevick Rd, Lima, OH 45807",
+  "city": "Lima",
+  "region": "Ohio",
+  "country": "US",
+  "latitude": 40.744157,
+  "longitude": -84.179853,
+  "phone": "+14193317483",
+  "website": "http://www.swingritegolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770217981/golf_simulators/www_swingritegolf_com_ChIJ3Q4KLPHzPogR9hGdXS-_oEg.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Swing+Rite+Golf+Center+%26+Gun+Shop/@40.744157,-84.1798532,14z/data=!4m8!1m2!2m1!1sSwing+Rite+Golf+Center+%26+Gun+Shop!3m4!1s0x883ef3f12c0a0edd:0x48a0bf2f5d9d11f6!8m2!3d40.744157!4d-84.1798532",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ3Q4KLPHzPogR9hGdXS-_oEg",
+  "email": "swingritegolf@gmail.com",
+  "venue_type": "sim_bar",
+  "about": "Swing Rite Golf Center & Gun Shop is a multi-faceted venue combining a full-service golf experience with indoor simulation and a pro shop, alongside a gun retail section. The facility features 3 Trackman-powered simulator bays with over 300 courses available, alongside an outdoor driving range, club fitting services, and a stocked pro shop. It is a hub for golfers to practice, play, and shop year-round, offering a casual environment for both solo practice and group events.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|club_rentals|coaching_available",
+  "vibe_tags": "sports_bar|community_club|casual|welcoming",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Premium Trackman 4 technology for precise shot data and fittings",
+    "Wide variety of major golf brands available in pro shop",
+    "Option to bring alcohol for a relaxed social experience",
+    "Club fitting and repair services available on-site",
+    "Outdoor driving range for year-round practice"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No hot food prepared on-site, but delivery is available from nearby restaurants"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Cold beer and various soft drinks available for purchase"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "3 simulator bays equipped with Trackman 4 launch monitors"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://yourgolfbooking.com/venues/swing-rite/booking/bays",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 32,
+  "price_range_max_local": 35,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 3,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|tv_sports|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 5,
+  "rating_facility_comfort": 4,
+  "rating_value_for_money": 4,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can bring your own clubs or use the demo clubs and equipment available on-site for fittings or practice."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "Outside alcohol is not mentioned, but they sell beer and soft drinks. No hot food is served, but you can have food delivered from nearby restaurants."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Generally one hour per person is enough to play 18 holes."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Swing Rite serves as the headquarters for the Lima Junior Golf Association and offers a welcoming environment for families."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"10AM-8PM\"], \"Tuesday\": [\"10AM-8PM\"], \"Wednesday\": [\"10AM-8PM\"], \"Thursday\": [\"10AM-8PM\"], \"Friday\": [\"10AM-8PM\"], \"Saturday\": [\"10AM-8PM\"], \"Sunday\": [\"10AM-8PM\"]}"
+}

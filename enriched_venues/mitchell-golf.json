@@ -1,0 +1,92 @@
+{
+  "name": "Mitchell Golf",
+  "address": "3007 Montana Ave, Billings, MT 59101",
+  "city": "Billings",
+  "region": "Montana",
+  "country": "US",
+  "latitude": 45.780068,
+  "longitude": -108.508026,
+  "phone": "+14062458691",
+  "website": "http://www.mitchellgolfmt.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770236512/golf_simulators/www_mitchellgolfmt_com_ChIJE71hzTZ7SFMRCWW0D2D1e4g.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Mitchell+Golf/@45.780068199999995,-108.50802639999999,14z/data=!4m8!1m2!2m1!1sMitchell+Golf!3m4!1s0x53487b36cd61bd13:0x887bf5600fb46509!8m2!3d45.780068199999995!4d-108.50802639999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJE71hzTZ7SFMRCWW0D2D1e4g",
+  "email": "mitchellgolf@mitchellgolfmt.com",
+  "venue_type": "retail_fitting_center",
+  "about": "Mitchell Golf is a premier golf retail store and indoor simulation center located in Billings, Montana. They offer a wide range of services including custom club fitting, golf lessons, equipment sales, and repairs. The facility is equipped with Full Swing Golf simulators, providing year-round access to practice, play on over 30 courses, and professional fittings. Known for its knowledgeable staff and guaranteed best pricing, Mitchell Golf caters to golfers of all skill levels, offering a climate-controlled environment for consistent play regardless of weather conditions.",
+  "tags": "beginner_friendly|corporate_events|leagues|premium_tech|budget_friendly|club_rentals|coaching_available",
+  "vibe_tags": "family_fun_center|community_club|tech_lab",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Full Swing simulators provide precise ball flight data comparable to outdoor play",
+    "Climate-controlled environment guarantees 75 degrees, sunny, and no wind",
+    "Variety of services including club repair, custom fitting, and professional lessons",
+    "Indoor leagues offer structured competition and social play opportunities",
+    "Flexible pricing with special rates for off-peak hours and 10-hour packages"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Full Swing",
+      "model": "ION Performance Camera",
+      "notes": "Infrared tracking system with high-speed camera for ball spin and club head data"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "infrared_optical",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 4,
+  "booking_url": "unknown",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 24,
+  "price_range_max_local": 35,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you should bring your own clubs. However, they offer demo clubs that can be tried for 30 minutes at no charge if space is available."
+    },
+    {
+      "question": "Can I bring my own food or drink?",
+      "answer": "No outside food or drink is mentioned as being permitted."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "A 9-hole league typically plays in 2 hours. Full 18-hole simulation time would depend on the format and number of players."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, they offer junior leagues and welcome beginner golfers of all ages, including those new to the sport."
+    }
+  ],
+  "simulator_software": [
+    "Full Swing Golf"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-6:30PM\"], \"Tuesday\": [\"9AM-6:30PM\"], \"Wednesday\": [\"9AM-6:30PM\"], \"Thursday\": [\"9AM-6:30PM\"], \"Friday\": [\"9AM-6:30PM\"], \"Saturday\": [\"9AM-6:30PM\"], \"Sunday\": [\"9AM-5PM\"]}"
+}

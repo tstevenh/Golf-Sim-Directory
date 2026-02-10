@@ -1,0 +1,89 @@
+{
+  "name": "Divots Golf Lounge",
+  "address": "928 Chancery Ln, Jonesboro, AR 72401",
+  "city": "Jonesboro",
+  "region": "Arkansas",
+  "country": "US",
+  "latitude": 35.857604,
+  "longitude": -90.659767,
+  "phone": "+18703364679",
+  "website": "https://www.divotsgolflounge.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770212316/golf_simulators/www_divotsgolflounge_com_ChIJqRNK1Mor1IcRE8yg0vufYGk.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Divots+Golf+Lounge/@35.8576038,-90.6597668,14z/data=!4m8!1m2!2m1!1sDivots+Golf+Lounge!3m4!1s0x87d42bcad44a13a9:0x69609ffbd2a0cc13!8m2!3d35.8576038!4d-90.6597668",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJqRNK1Mor1IcRE8yg0vufYGk",
+  "email": "info@divotsgolflounge.com",
+  "venue_type": "multi_sport_sim",
+  "about": "Divots Golf Lounge is an 8,000 sqft climate-controlled indoor golf and sports entertainment facility in Jonesboro, AR. It features six simulator bays powered by TruGolf Apogee technology with E6 Connect software, a tour-quality ProPutt Systems putting surface, and chipping mats for short game practice. Three bays offer multisport capabilities for basketball, football, baseball, soccer, and more. The venue operates on a bay rental basis, offering hourly rates for open play and private event packages. It is designed for both serious golf practice and casual group entertainment.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|private_rooms|club_rentals|coaching_available",
+  "vibe_tags": "family_fun_center|tech_lab|modern",
+  "who_its_for": "families|large_groups|corporate_teams|solo_practice|beginners",
+  "why_golfers_like_it": [
+    "TruGolf Apogee technology provides slow-motion replay and detailed ball/club data for rapid improvement",
+    "Multisport options allow for diverse entertainment beyond traditional golf",
+    "Tour-quality putting green and chipping mats offer comprehensive short game practice"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service; catering must be arranged separately. Dippin Dots available for purchase."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "TruGolf",
+      "model": "Apogee",
+      "notes": "Camera-based launch monitor with slow-motion replay and detailed shot data"
+    }
+  ],
+  "simulator_software": [
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 6,
+  "booking_url": "https://clients.uschedule.com/divotsgolflounge/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 40,
+  "price_range_max_local": 50,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 6,
+  "max_group_size_per_bay": 5,
+  "amenities_list": "club_rentals|private_party_room|wifi|pro_shop|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "Rental clubs are available at no additional cost for private events and regular play."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No food or alcohol service is available. Catering must be arranged separately. Dippin Dots are available for purchase."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Time for 18 holes varies depending on the simulator software and number of players, but typical rounds take 1.5-2 hours."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Divots is suitable for children with multisport activities and birthday party packages available. Members under 18 require a signed waiver."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"11AM-10PM\"], \"Tuesday\": [\"11AM-10PM\"], \"Wednesday\": [\"11AM-10PM\"], \"Thursday\": [\"11AM-10PM\"], \"Friday\": [\"11AM-11PM\"], \"Saturday\": [\"11AM-11PM\"], \"Sunday\": [\"12-8PM\"]}"
+}

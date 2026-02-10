@@ -1,0 +1,90 @@
+{
+  "name": "The Golf Lounge",
+  "address": "136B Park Ave, Amherst, OH 44001",
+  "city": "Amherst",
+  "region": "Ohio",
+  "country": "US",
+  "latitude": 41.398055,
+  "longitude": -82.226058,
+  "phone": "+14409350180",
+  "website": "http://www.thegolflounge.org/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770214564/golf_simulators/www_thegolflounge_org_ChIJCcfkrJJ1OogRY7Q8w0iXHE8.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Golf+Lounge/@41.398054599999995,-82.2260579,14z/data=!4m8!1m2!2m1!1sThe+Golf+Lounge!3m4!1s0x883a7592ace4c709:0x4f1c9748c33cb463!8m2!3d41.398054599999995!4d-82.2260579",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJCcfkrJJ1OogRY7Q8w0iXHE8",
+  "email": "filler@godaddy.com",
+  "venue_type": "sim_bar",
+  "about": "The Golf Lounge is an indoor golf simulator venue and bar located in Amherst, Ohio. It offers two simulator bays equipped with GC Hawk technology, providing a challenging and enjoyable experience for golfers of all skill levels. The facility includes a bar and seating area, making it unique as the only indoor golf simulator and bar in the area. Pricing is $30 per hour on weekdays and $40 per hour on weekends, with rates charged per bay rather than per person.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|leagues|date_night|party_atmosphere",
+  "vibe_tags": "casual|welcoming|sports_bar|community_club",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "GC Hawk technology provides a realistic and challenging golfing experience",
+    "Convenient two-bay setup with flexible booking options",
+    "Unique combination of golf simulators and a full-service bar",
+    "Affordable pricing structure per bay rather than per person"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Kitchen food available, though specific menu details are not provided"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar available on-site"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "GC Hawk",
+      "model": null,
+      "notes": "Primary simulator technology mentioned"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": "unknown",
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 2,
+  "booking_url": "https://app.acuityscheduling.com/schedule.php?owner=33467422",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 30,
+  "price_range_max_local": 40,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": false,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "full_bar|kitchen_food|tv_sports|leagues|private_party_room",
+  "rating_tech_quality": 4.0,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, golf clubs are not provided by The Golf Lounge. Players must bring their own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "The venue has a full bar and kitchen, so outside food and drink policies are not specified. It's recommended to enjoy their on-site offerings."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "One hour for one person to play 18 holes, and approximately four hours for four people to play 18 holes."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The venue doesn't specifically mention kid-friendliness, but it does offer youth scramble leagues (9 holes), indicating they cater to junior golfers."
+    }
+  ],
+  "rating_overall": 4.0,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"9AM-10PM\"], \"Saturday\": [\"9AM-10PM\"], \"Sunday\": [\"9AM-9PM\"]}"
+}

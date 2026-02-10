@@ -1,0 +1,89 @@
+{
+  "name": "Bird Doggs Golf Shop",
+  "address": "109 5th Ave S, Greenwood, MO 64034",
+  "city": "Greenwood",
+  "region": "Missouri",
+  "country": "US",
+  "latitude": 38.850685,
+  "longitude": -94.340165,
+  "phone": "+18163660400",
+  "website": "https://birddoggsgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770212249/golf_simulators/birddoggsgolf_com_ChIJk56WGDkhwYcRzWPrAhogAEo.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Bird+Doggs+Golf+Shop/@38.8506855,-94.3401655,14z/data=!4m8!1m2!2m1!1sBird+Doggs+Golf+Shop!3m4!1s0x87c1213918969e93:0x4a00201a02eb63cd!8m2!3d38.8506855!4d-94.3401655",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJk56WGDkhwYcRzWPrAhogAEo",
+  "email": "lessons@birddoggsgolf.com",
+  "venue_type": "training_studio",
+  "about": "Bird Doggs Golf Shop is an indoor golf facility located in Greenwood, MO. It features two large hitting bays equipped with TrackMan 4 technology, offering lessons, custom fittings with Titleist and Mizuno clubs, and club repair services. The venue operates with varying hours and offers tiered pricing for bay time, along with leagues, memberships, and individual booking options for golfers looking to practice or play.",
+  "tags": "serious_practice|beginner_friendly|coaching_available|leagues|club_rentals|club_fitting|premium_tech",
+  "vibe_tags": "tech_lab|community_club|casual|welcoming",
+  "who_its_for": "beginners|serious_golfers|families|solo_practice|coaches_instructors",
+  "why_golfers_like_it": [
+    "Professional-grade TrackMan 4 simulator technology for accurate data and analytics",
+    "Custom club fitting services with major brands like Titleist and Mizuno",
+    "Flexible membership options for dedicated practice and priority booking"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of food service; BYOB policy not specified"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service or BYOB policy"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "Two large bays equipped with TrackMan 4 technology"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://birddoggsgolf.com/tee-times",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 40,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|club_fitting|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you should bring your own golf clubs. The facility also offers club fitting services with Titleist and Mizuno clubs."
+    },
+    {
+      "question": "Can I bring food or drinks?",
+      "answer": "There is no mention of food or drink service on-site. BYOB policy is not specified."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "It takes an average of 45-60 minutes for a single golfer to complete 18 holes."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "There is no specific information regarding child-friendly amenities or services."
+    }
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-12AM\"], \"Saturday\": [\"10AM-12AM\"], \"Sunday\": [\"10AM-8PM\"]}"
+}

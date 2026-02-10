@@ -1,0 +1,90 @@
+{
+  "name": "N-Sports Rec Center",
+  "address": "3101 Recreation Dr, Washington, MO 63090",
+  "city": "Washington",
+  "region": "Missouri",
+  "country": "US",
+  "latitude": 38.531982,
+  "longitude": -90.963584,
+  "phone": "+16362100707",
+  "website": "http://nsportsrec.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770246386/golf_simulators/nsportsrec_com_ChIJP4SoixhJ2YcRs_ndjbGG4Qs.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/N-Sports+Rec+Center/@38.5319818,-90.96358359999999,14z/data=!4m8!1m2!2m1!1sN-Sports+Rec+Center!3m4!1s0x87d949188ba8843f:0xbe186b18dddf9b3!8m2!3d38.5319818!4d-90.96358359999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJP4SoixhJ2YcRs_ndjbGG4Qs",
+  "email": "support@nsportsrec.com",
+  "venue_type": "multi_sport_sim",
+  "about": "N-Sports Rec Center is a multi-sport facility located in Washington, Missouri. It features indoor golf simulator technology alongside soccer fields and party spaces. The venue provides a flexible environment for various activities, including golf simulation, sports leagues, and events. A dedicated golf area is equipped with Trackman technology, allowing for a range of practice and play options. The center is designed to accommodate both casual players and organized groups, with a clear focus on offering accessible indoor sporting experiences. Pricing is structured on an hourly basis for bay rentals, making it suitable for individual sessions and group outings.",
+  "tags": "beginner_friendly|family_friendly|corporate_events|leagues|budget_friendly|kids_friendly",
+  "vibe_tags": "family_fun_center|community_club",
+  "who_its_for": "families|beginners|corporate_teams|large_groups|solo_practice",
+  "why_golfers_like_it": [
+    "Advanced Trackman technology for precise shot data",
+    "Affordable hourly rental rates for accessible practice",
+    "Flexible environment suitable for both casual play and focused training"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Catering services and food are available upon request for parties and events."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "Not mentioned as being available on-site."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Primary simulator hardware used for play and practice sessions."
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 2,
+  "booking_url": "http://nsportsrec.com/book-a-space",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 40,
+  "price_range_max_local": 40,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "private_party_room|wifi",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The provided content does not specify, but it is standard practice for golf simulators that players use their own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Food and catering services can be arranged by working with a party planner. BYOB is not explicitly mentioned."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "It takes approximately 1 hour per person to play 18 holes."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is kid-friendly, offering bounce houses and obstacle courses as part of its party packages and youth camps."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"8AM-10PM\"], \"Tuesday\": [\"8AM-10PM\"], \"Wednesday\": [\"8AM-10PM\"], \"Thursday\": [\"8AM-10PM\"], \"Friday\": [\"8AM-10PM\"], \"Saturday\": [\"8AM-10PM\"], \"Sunday\": [\"8AM-10PM\"]}"
+}

@@ -1,0 +1,91 @@
+{
+  "name": "Carolina Indoor Golf",
+  "address": "1168 N Pleasantburg Dr, Greenville, SC 29607",
+  "city": "Greenville",
+  "region": "South Carolina",
+  "country": "US",
+  "latitude": 34.872242,
+  "longitude": -82.358483,
+  "phone": "+18642032605",
+  "website": "http://www.carolinaindoorgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770201034/golf_simulators/www_carolinaindoorgolf_com_ChIJ_6Uj424uWIgRfEpx5hRlymY.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Carolina+Indoor+Golf/@34.872241599999995,-82.3584831,14z/data=!4m8!1m2!2m1!1sCarolina+Indoor+Golf!3m4!1s0x88582e6ee323a5ff:0x66ca6514e6714a7c!8m2!3d34.872241599999995!4d-82.3584831",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ_6Uj424uWIgRfEpx5hRlymY",
+  "email": "ciggreenville@gmail.com",
+  "venue_type": "sim_bar|training_studio|retail_fitting_center",
+  "about": "Carolina Indoor Golf is a premier indoor golf facility and full-service hub in Greenville, SC, offering state-of-the-art simulator experiences, professional golf instruction, club fitting, and equipment retail. The facility features 4 hitting bays powered by Uneekor Eye XO2 technology and GSPro software, providing actionable data and access to iconic golf courses. Catering to all skill levels from beginners to competitive players, it operates in a weather-proof environment with a focus on data-driven improvement and equipment optimization.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|premium_tech|private_rooms|coaching_available|club_rentals",
+  "vibe_tags": "casual|welcoming|modern|tech_lab",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Industry-leading Uneekor Eye XO2 technology with GSPro software for accurate data tracking",
+    "Full-service offerings including professional fitting, repair, and equipment retail",
+    "Welcoming, family-owned atmosphere with attentive customer service",
+    "Weather-proof environment for year-round play and practice",
+    "Data-driven coaching for measurable improvement"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Outside food and water permitted; no outside beverages allowed"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol available or permitted on premises"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "Eye XO2",
+      "notes": "Industry-leading photometric camera system integrated with GSPro"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 4,
+  "booking_url": "https://carolina-indoor-golf-simulator-reservations.book.teeitup.com/?course=19703&date=2025-08-27&max=999999",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 4,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|pro_shop|club_fitting|wifi",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You are welcome to bring your own clubs. Rental clubs are available in limited quantities upon request."
+    },
+    {
+      "question": "Can I bring food and drinks?",
+      "answer": "Outside food and water are permitted, but beverages purchased outside of the facility are not allowed."
+    },
+    {
+      "question": "How long does an 18-hole round take?",
+      "answer": "A full 18-hole round typically takes about one hour per person. Playing time may vary based on group size and pace."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Carolina Indoor Golf caters to all skill levels and welcomes families, with appropriate equipment and instruction available."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Friday\": [\"12-8PM\"]}"
+}

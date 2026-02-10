@@ -1,0 +1,90 @@
+{
+  "name": "Holland Country Club Simulator Golf",
+  "address": "238 S River Ave, Holland, MI 49423",
+  "city": "Holland",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 42.788734,
+  "longitude": -86.109319,
+  "phone": "+16162124275",
+  "website": "http://hollandcountryclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770245880/golf_simulators/hollandcountryclub_com_ChIJayTXRrTzGYgRbipEOSOxoiw.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Holland+Country+Club+Simulator+Golf/@42.788734399999996,-86.10931939999999,14z/data=!4m8!1m2!2m1!1sHolland+Country+Club+Simulator+Golf!3m4!1s0x8819f3b446d7246b:0x2ca2b12339442a6e!8m2!3d42.788734399999996!4d-86.10931939999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJayTXRrTzGYgRbipEOSOxoiw",
+  "email": "hollandcountryclub@gmail.com",
+  "venue_type": "sim_bar",
+  "about": "Holland Country Club Simulator Golf offers a unique downtown experience with three state-of-the-art simulator bays and a full-service bar. The venue is reborn from the original Holland Country Club, blending nostalgia with modern technology. It provides a serene escape for golfers to unwind, recharge, and play thousands of virtual courses.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|premium_tech|date_night|club_rentals",
+  "vibe_tags": "upscale_lounge|community_club|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Premium Foresight Falcon technology with GSPro software",
+    "Convenient downtown location near River Avenue",
+    "Serene atmosphere designed for relaxation",
+    "Full-service bar available for guests"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full-service bar available"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full-service bar available"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": "Falcon",
+      "notes": "Premium launch monitor used by tour professionals"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "unknown",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": 3,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|club_rentals|private_party_room",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website doesn't specify, but simulator venues typically provide clubs or encourage players to bring their own."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue offers a full-service bar, but outside food/drink policies are not mentioned."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "Simulator time varies, but 18 holes usually takes 1-2 hours depending on group size and pace."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The website doesn't specifically mention child-friendly features or policies."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"10AM-9PM\"], \"Wednesday\": [\"10AM-9PM\"], \"Thursday\": [\"10AM-9PM\"], \"Friday\": [\"10AM-9PM\"], \"Saturday\": [\"10AM-9PM\"], \"Sunday\": [\"10AM-9PM\"]}"
+}

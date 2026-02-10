@@ -1,0 +1,90 @@
+{
+  "name": "Swish Indoor Golf",
+  "address": "10 Water St Suite 109, Waterville, ME 04901",
+  "city": "Waterville",
+  "region": "Maine",
+  "country": "US",
+  "latitude": 44.546193,
+  "longitude": -69.629502,
+  "phone": "+12076163737",
+  "website": "https://www.swishindoorgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770207693/golf_simulators/www_swishindoorgolf_com_ChIJ73KflrfjsUwRWssXA9MTSH8.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Swish+Indoor+Golf/@44.5461926,-69.6295021,14z/data=!4m8!1m2!2m1!1sSwish+Indoor+Golf!3m4!1s0x4cb1e3b7969f72ef:0x7f4813d30317cb5a!8m2!3d44.5461926!4d-69.6295021",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ73KflrfjsUwRWssXA9MTSH8",
+  "email": "nick@swishindoorgolf.com",
+  "venue_type": "sim_bar",
+  "about": "Swish Indoor Golf provides a premier indoor golfing experience in Waterville, Maine. The venue features two custom indoor golf simulators designed to offer an exceptional and innovative golfing experience year-round. Custom simulator units are utilized to avoid the software and component constraints found in other turnkey solutions. With a focus on flexibility, the facility operates on varied schedules to accommodate different needs. The venue offers a full-service bar and curated food and beverage options to enhance the golfing experience, making it suitable for both casual play and more serious practice sessions.",
+  "tags": "food_and_drinks|date_night|beginner_friendly|serious_practice|corporate_events",
+  "vibe_tags": "casual|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Custom-built simulator hardware not limited by common turnkey constraints",
+    "Flexible operating hours to fit any schedule",
+    "Full-service bar and curated food offerings available on-site",
+    "Innovative technology providing a premium indoor golf experience"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Curated food offerings available to fuel your game"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full-service bar with drinks available between rounds"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Custom",
+      "model": "Custom Unit",
+      "notes": "Custom-built simulators not constrained by typical turnkey software and component limitations"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": "unknown",
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 2,
+  "booking_url": "https://apimanager-cc20.clubcaddie.com/activities/view/affdabab",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 45,
+  "price_range_max_local": 45,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|pro_shop",
+  "rating_tech_quality": 4.0,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify whether club rentals are available. It is recommended to call them directly at 207-616-3737 to inquire about club availability and rentals."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Swish Indoor Golf offers a full-service bar and curated food and beverage options on-site. The website does not mention a policy on outside food or drink, so it's best to confirm with the venue directly."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify the time required to play a full 18 holes. Contact Swish Indoor Golf at 207-616-3737 for more details on playing times."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The website does not explicitly state if the venue is kid-friendly or offers specific amenities for children. It is advisable to contact the venue directly for information regarding family and junior policies."
+    }
+  ],
+  "rating_overall": 4.0,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"10AM-8PM\"], \"Wednesday\": [\"10AM-8PM\"], \"Thursday\": [\"10AM-8PM\"], \"Friday\": [\"10AM-8PM\"], \"Saturday\": [\"8AM-8PM\"], \"Sunday\": [\"8AM-8PM\"]}"
+}

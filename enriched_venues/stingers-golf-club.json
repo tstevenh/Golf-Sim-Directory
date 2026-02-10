@@ -1,0 +1,91 @@
+{
+  "name": "Stingers Golf Club",
+  "address": "900 E Pecos Rd Ste 1, Chandler, AZ 85225",
+  "city": "Chandler",
+  "region": "Arizona",
+  "country": "US",
+  "latitude": 33.292239,
+  "longitude": -111.827099,
+  "phone": "+14809731451",
+  "website": "https://stingersgolfclub.replit.app/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770224180/golf_simulators/stingersgolfclub_replit_app_ChIJPYoC80arK4cR10nrKzzgKRw.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Stingers+Golf+Club/@33.2922394,-111.8270993,14z/data=!4m8!1m2!2m1!1sStingers+Golf+Club!3m4!1s0x872bab46f3028a3d:0x1c29e03c2beb49d7!8m2!3d33.2922394!4d-111.8270993",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJPYoC80arK4cR10nrKzzgKRw",
+  "email": "info@stingers.golf",
+  "venue_type": "sim_bar",
+  "about": "Stingers Golf Club is a premium indoor golf venue located in Chandler, Arizona. The facility offers a modern climate-controlled environment with advanced golf simulators, providing a year-round golfing experience. It is designed for both casual golfers looking to socialize and serious golfers seeking a realistic practice environment. The venue features multiple revenue streams, including simulator time, food and beverage service, corporate events, leagues, and memberships, making it a comprehensive entertainment destination.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|private_rooms|club_rentals|coaching_available",
+  "vibe_tags": "upscale_lounge|sports_bar|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "State-of-the-art simulators with realistic ground movement and world-class course play",
+    "Premium indoor experience perfect for beating the Arizona heat",
+    "Unbelievable swing feedback and high-quality booth technology",
+    "Multiple revenue streams ensure a full-featured entertainment experience"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full food and beverage service available with a kitchen and food ordering options."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service with cocktails, wine, and beer available."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "State-of-the-art simulators with realistic ground movement"
+    }
+  ],
+  "simulator_software": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://www.sevenrooms.com/explore/stingersgolfclub/reservations/create/search",
+  "pricing_model": "per_bay_hour|membership_only|mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|lockers|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you should bring your own golf clubs to use with the simulators."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, outside food and drinks are not allowed. The venue offers a full food and beverage menu for in-house service."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "The time to play 18 holes can vary, but with state-of-the-art simulators, it generally takes around 2-3 hours depending on your group size."
+    },
+    {
+      "question": "Is Stingers Golf Club kid-friendly?",
+      "answer": "Yes, the venue welcomes families and is a kid-friendly environment for both golfing and dining experiences."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-11PM\"], \"Saturday\": [\"7AM-11PM\"], \"Sunday\": [\"7AM-10PM\"]}"
+}

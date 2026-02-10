@@ -1,0 +1,91 @@
+{
+  "name": "X-Golf Burlington",
+  "address": "10 Wall St C, Burlington, MA 01803",
+  "city": "Burlington",
+  "region": "Massachusetts",
+  "country": "US",
+  "latitude": 42.485146,
+  "longitude": -71.188194,
+  "phone": "+17813650579",
+  "website": "http://www.xgolfburlington.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770199957/golf_simulators/www_xgolfburlington_com_ChIJeeVQIIN144kR56gGFgxQhfU.png",
+  "google_maps_url": "https://www.google.com/maps/place/X-Golf+Burlington/@42.4851455,-71.1881942,14z/data=!4m8!1m2!2m1!1sX-Golf+Burlington!3m4!1s0x89e375832050e579:0xf585500c1606a8e7!8m2!3d42.4851455!4d-71.1881942",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJeeVQIIN144kR56gGFgxQhfU",
+  "email": "info@xgolfburlington.com",
+  "venue_type": "sim_bar",
+  "about": "X-Golf Burlington is a state-of-the-art indoor golf simulator venue featuring seven advanced simulators for year-round play and training. The facility offers a unique combination of high-tech golf simulation, a full bar, and a restaurant, making it suitable for both serious practice and social entertainment. Pricing is structured per simulator hour, accommodating up to six people per bay, and the venue features PGA-certified coaching for players looking to improve their skills in a modern environment.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|club_rentals|coaching_available|family_friendly",
+  "vibe_tags": "sports_bar|tech_lab|family_fun_center|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Unparalleled accuracy and realism through advanced camera systems, infrared lasers, and impact sensors",
+    "On-site full bar and restaurant with a diverse menu for post-game dining and socializing",
+    "Flexible pricing model that accommodates both individual players and large groups",
+    "PGA-certified coaching and V1 Pro Golf training technology for skill improvement",
+    "Private simulator availability for VIPs and special events"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen offering shareable bites, appetizers, snacks, pizzas, and more. Menu available online."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with beer by the glass or on tap, cocktails, and wines."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "X-Golf",
+      "model": "State of the Art Simulator",
+      "notes": "Proprietary system combining camera systems, infrared lasers, and impact sensors"
+    }
+  ],
+  "simulator_software": [
+    "X-Golf Software"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "mixed",
+  "lefty_friendly": true,
+  "bay_count_total": 7,
+  "booking_url": "https://clients.uschedule.com/xgolfburlington/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 55,
+  "price_range_max_local": 75,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|wifi|leagues|private_rooms|corporate_events",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need golf clubs?",
+      "answer": "No, rental clubs are available, but players are encouraged to bring their own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, X-Golf Burlington has an on-site full bar and kitchen with food available for purchase."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Generally it takes 1 hour for an individual player to play 18 holes. With more players, add 1 hour per person."
+    },
+    {
+      "question": "Is X-Golf kid-friendly?",
+      "answer": "Yes, children of all ages are welcome, though children 16 and younger must be accompanied by an adult."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"9AM-10PM\"], \"Saturday\": [\"9AM-10PM\"], \"Sunday\": [\"9AM-10PM\"]}"
+}

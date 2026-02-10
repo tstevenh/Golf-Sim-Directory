@@ -1,0 +1,89 @@
+{
+  "name": "Five Iron Golf",
+  "address": "883 6th Ave 3rd floor, New York, NY 10001",
+  "city": "New York",
+  "region": "New York",
+  "country": "US",
+  "latitude": 40.748402,
+  "longitude": -73.9893,
+  "phone": "+18005135153",
+  "website": "https://fiveirongolf.com/locations/nyc-herald-square/%3Futm_source%3Dlocal%26utm_medium%3Dorganic%26utm_campaign%3Dny%26utm_content%3Dnyc-herald-square",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770202362/golf_simulators/fiveirongolf_com_ChIJ242eBYVZwokRcFKdGk_pA9U.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Five+Iron+Golf/@40.748401799999996,-73.9892996,14z/data=!4m8!1m2!2m1!1sFive+Iron+Golf!3m4!1s0x89c25985059e8ddb:0xd503e94f1a9d5270!8m2!3d40.748401799999996!4d-73.9892996",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ242eBYVZwokRcFKdGk_pA9U",
+  "email": "heraldsquare@fiveirongolf.com",
+  "venue_type": "sim_bar",
+  "about": "Five Iron Golf is a modern indoor golf and sports bar located in midtown Manhattan. The facility utilizes state-of-the-art Trackman technology in custom-built simulator bays to provide an authentic golfing experience, including access to over 200 world-class virtual courses. The venue is designed with a no-dress-code atmosphere, making golf accessible for players of all skill levels, and features a full-service bar with a chef-inspired menu. Alongside golf, it offers other games such as pool and shuffleboard, positioning itself as a social hub that combines practice, play, and entertainment.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|private_rooms|club_rentals|coaching_available",
+  "vibe_tags": "sports_bar|casual|welcoming|modern|party_atmosphere",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Access to industry-leading Trackman technology for accurate data and virtual play at premier PGA Tour venues like Pebble Beach",
+    "Flexible and social atmosphere with a full-service bar and chef-inspired menu for post-golf dining and socializing",
+    "Comprehensive amenities including golf lessons, club fitting, and event hosting options for both individuals and large groups"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full-service bar with a chef-inspired menu available for guests, including items like Mac & Cheese bites."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full-service bar with drink packages available for events and regular guests."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Tour-level dual-radar technology providing accurate data on ball flight, spin rate, swing speed, club path, and attack angle."
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "auto_putt",
+  "lefty_friendly": true,
+  "bay_count_total": 14,
+  "booking_url": "https://booking.fiveirongolf.com/select-experience?location=nyc-herald-square",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|leagues|club_fitting",
+  "rating_tech_quality": 4.7,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The facility provides club rentals, and they also offer custom club fitting services through Callaway Tour Fitting by Five Iron Golf NYC."
+    },
+    {
+      "question": "Can I bring my own food or drink?",
+      "answer": "Outside food and drink are not mentioned as permitted. The venue has a full-service bar with a chef-inspired menu available on-site."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "A full 18-hole round typically takes approximately 60-90 minutes, depending on the course and simulator pace."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Five Iron Golf offers kids' parties and junior clinics, making it suitable for families and younger golfers."
+    }
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"6AM-11PM\"], \"Tuesday\": [\"6AM-11PM\"], \"Wednesday\": [\"6AM-11PM\"], \"Thursday\": [\"6AM-11PM\"], \"Friday\": [\"6AM-1AM\"], \"Saturday\": [\"8AM-1AM\"], \"Sunday\": [\"8AM-11PM\"]}"
+}

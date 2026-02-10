@@ -1,0 +1,91 @@
+{
+  "name": "The Tee Box",
+  "address": "4722 W Grand River Ave, Lansing, MI 48906",
+  "city": "Lansing",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 42.775262,
+  "longitude": -84.615829,
+  "phone": "+15173213071",
+  "website": "https://royalscot.net/indoor-golf/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770223005/golf_simulators/royalscot_net_ChIJI2wvpeOVIogRUj1skoeOpq4.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Tee+Box/@42.7752616,-84.61582899999999,14z/data=!4m8!1m2!2m1!1sThe+Tee+Box!3m4!1s0x882295e3a52f6c23:0xaea68e87926c3d52!8m2!3d42.7752616!4d-84.61582899999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJI2wvpeOVIogRUj1skoeOpq4",
+  "email": "info@royalscot.net",
+  "venue_type": "sim_bar",
+  "about": "Royal Scot Golf & Bowl, operating as The Tee Box, is an indoor golf venue featuring four state-of-the-art Trackman simulators. The facility allows golfers to play world-class courses, practice skills, and participate in leagues regardless of weather conditions. It caters to various groups, from casual players to serious golfers, and offers spaces for small parties and large corporate events. The venue includes a bar and grill, a pro shop, and hosts leagues with specific formats and rules.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|private_rooms|club_rentals|coaching_available",
+  "vibe_tags": "sports_bar|family_fun_center|party_atmosphere|tech_lab",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "Access to four high-end Trackman simulators for world-class course play",
+    "Supports serious practice with advanced ball and club tracking technology",
+    "Hosts competitive leagues with structured formats and prize funds",
+    "Offers flexible party and event space for groups of various sizes",
+    "Provides on-site coaching and professional club fitting services"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Customizable food packages available for parties, including pizza and nachos"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available, with craft cocktails and beverage options"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Four state-of-the-art Trackman simulators for golf simulation"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "auto_putt",
+  "lefty_friendly": true,
+  "bay_count_total": 4,
+  "booking_url": "https://yourgolfbooking.com/venues/the-tee-box-1/booking/bays",
+  "pricing_model": "mixed",
+  "price_range_min_local": 20,
+  "price_range_max_local": 37,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Bringing your own clubs is recommended, but rental clubs are likely available. Contact the venue directly to confirm club rental options."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drinks are not permitted. The venue offers a customizable food menu and full bar service, including craft cocktails and beverages."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes varies by simulator settings and player skill. League play follows specific formats, but for casual rounds, expect 1-2 hours per player depending on group size and pace."
+    },
+    {
+      "question": "Is The Tee Box kid-friendly?",
+      "answer": "Yes, the venue is kid-friendly and offers customizable food packages and party add-ons for kids' parties, along with a welcoming atmosphere for families."
+    }
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"9AM-11PM\"], \"Saturday\": [\"9AM-11PM\"], \"Sunday\": [\"9AM-10PM\"]}"
+}

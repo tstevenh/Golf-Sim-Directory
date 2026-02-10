@@ -1,0 +1,94 @@
+{
+  "name": "19th Hole Golf",
+  "address": "100 Elizabeth St Suite 423, Boaz, AL 35957",
+  "city": "Boaz",
+  "region": "Alabama",
+  "country": "US",
+  "latitude": 34.197946,
+  "longitude": -86.15882,
+  "phone": "+12569079091",
+  "website": "https://www.19thgolf.com/",
+  "hero_image": "https://lh3.googleusercontent.com/gps-proxy/ALd4DhFc7K9liP0Zs7_CoVJOMFv2GfgAJRudTOi7Tf9ANiROJJCCgtfaSDlmDlQ1Zd4g2CA2aXuDl5pbEHZW5fyiE8JWbro4JdS0Pp_SUwYQ2ZxILv4yf0YMsT_VVhUnhlp2TCcc5STiu3qdl3Iv2HsZvRgJfXuUq-0X9eJ6mVhB-MphEyJzvs8VqEyR=w800-h500-k-no",
+  "google_maps_url": "https://www.google.com/maps/place/19th+Hole+Golf/@34.1979462,-86.1588199,14z/data=!4m8!1m2!2m1!1s19th+Hole+Golf!3m4!1s0x888a1bd50c556abd:0x187a2b9abd03b3d6!8m2!3d34.1979462!4d-86.1588199",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJvWpVDNUbiogR1rMDvZorehg",
+  "email": "19thgolfboaz@gmail.com",
+  "venue_type": "sim_bar",
+  "about": "19th Hole Golf is an indoor golf simulator venue located in Boaz, Alabama. The facility features four bays equipped with Golfzon simulators, which were recognized as Golf Digest 'Editors Choice' Best Simulator from 2017-2021. Golfers can play on over 200 virtual courses worldwide, including prestigious locations like Pebble Beach and St. Andrews. The venue is designed to accommodate both casual socializing and serious practice, offering a range of services from hourly bay rentals to membership options and private event hosting. Each simulator bay can accommodate up to six players and includes realistic surfaces to mimic various course conditions, from fairways to bunkers.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|private_rooms|club_rentals|community_club",
+  "vibe_tags": "sports_bar|community_club|modern",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "Access to 200+ world-renowned golf courses including Pebble Beach and St. Andrews",
+    "Realistic Golfzon simulators with automatic angle plates and diverse course surfaces",
+    "Detailed swing analytics and multi-angle video playback for game improvement",
+    "Spacious facility with a bar, lounge area, and putting green for a complete experience",
+    "Flexible pricing with memberships offering significant savings for frequent players"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full service kitchen available on-site"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Bar and lounge area with full service"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Golfzon",
+      "model": "Simulator System",
+      "notes": "Four bays equipped with Golfzon simulators featuring automatic angle plates and various surface types"
+    }
+  ],
+  "simulator_so": [
+    "Golfzon"
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface|dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 4,
+  "booking_url": "https://apimanager-cc28.clubcaddie.com/activities/view/hhfdabab",
+  "pricing_model": "mixed",
+  "price_range_min_local": 20,
+  "price_range_max_local": 25,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Playing with your own clubs is ideal for improving your game, but clubs are available to rent if you do not have your own."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue has a full service kitchen and bar, but does not specify if outside food and drinks are allowed."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "We suggest a minimum of two hours to play 18 holes, with an hour per player recommended."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is described as a place fun for all ages and skill levels, with amenities suitable for families including a putting green and bar/lounge area."
+    }
+  ],
+  "simulator_software": [
+    "GolfZon"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-8PM\"], \"Tuesday\": [\"10AM-8PM\"], \"Wednesday\": [\"Closed\"], \"Thursday\": [\"10AM-8PM\"], \"Friday\": [\"10AM-10PM\"], \"Saturday\": [\"10AM-10PM\"], \"Sunday\": [\"Closed\"]}"
+}

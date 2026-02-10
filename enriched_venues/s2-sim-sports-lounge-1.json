@@ -1,0 +1,91 @@
+{
+  "name": "S2 Sim & Sports Lounge",
+  "address": "56 High Bluff Rd, Hilton Head Island, SC 29926",
+  "city": "Hilton Head Island",
+  "region": "South Carolina",
+  "country": "US",
+  "latitude": 32.256827,
+  "longitude": -80.71648,
+  "phone": null,
+  "website": "https://s2golfsimulator.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770229530/golf_simulators/s2golfsimulator_com_ChIJr4egvJpx_IgRYs8tkVuFkd4.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/S2+Sim+%26+Sports+Lounge/@32.2568273,-80.71648019999999,14z/data=!4m8!1m2!2m1!1sS2+Sim+%26+Sports+Lounge!3m4!1s0x88fc719abca087af:0xde91855b912dcf62!8m2!3d32.2568273!4d-80.71648019999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJr4egvJpx_IgRYs8tkVuFkd4",
+  "venue_type": "sim_bar",
+  "about": "S2 Sim & Sports Lounge is a golf simulator venue combining advanced technology with a sports bar atmosphere. The facility utilizes high-end simulator hardware for realistic golfing experiences, complemented by a lounge setting suitable for casual play and social gatherings. It caters to golfers seeking both practice and entertainment options in a modern, relaxed environment. The venue's layout is designed for groups and individuals looking to enjoy golf in a social setting with food and beverage offerings.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|private_rooms|club_rentals",
+  "vibe_tags": "sports_bar|tech_lab|casual|welcoming|modern",
+  "who_its_for": "beginners|families|corporate_teams|large_groups|solo_practice",
+  "why_golfers_like_it": [
+    "Premium simulator technology for accurate shot analysis",
+    "Combines golf simulation with a relaxed sports bar atmosphere",
+    "Suitable for both serious practice and casual social play",
+    "Multiple bays available for groups and individual sessions",
+    "Food and beverage options available on-site"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Kitchen and food service available"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with cocktails and beverages"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Premium radar-based launch monitor for accurate ball and club tracking"
+    }
+  ],
+  "simulator_software": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://s2golfsimulator.com/",
+  "pricing_model": "per_bay_hour|mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own golf clubs?",
+      "answer": "Club rentals are available on-site, but you are welcome to bring your own equipment."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No outside food or drinks are allowed as the venue has its own kitchen and full bar."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "A full 18-hole round typically takes 1-2 hours depending on simulator usage and group size."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The venue is suitable for families and golfers of all skill levels, though specific children's amenities are not mentioned."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": null
+}

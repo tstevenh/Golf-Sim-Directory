@@ -1,0 +1,89 @@
+{
+  "name": "Dunes Golf and Bar",
+  "address": "7561 Cottonwood Dr, Jenison, MI 49428",
+  "city": "Jenison",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 42.906183,
+  "longitude": -85.793331,
+  "phone": "+16166084004",
+  "website": "https://www.dunesgolfbar.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770229329/golf_simulators/www_dunesgolfbar_com_ChIJz_SXsPa7GYgRCZHxdYQBLc4.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Dunes+Golf+and+Bar/@42.906183299999995,-85.7933312,14z/data=!4m8!1m2!2m1!1sDunes+Golf+and+Bar!3m4!1s0x8819bbf6b097f4cf:0xce2d018475f19109!8m2!3d42.906183299999995!4d-85.7933312",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJz_SXsPa7GYgRCZHxdYQBLc4",
+  "email": "admin@dunesgolfbar.com",
+  "venue_type": "sim_bar",
+  "about": "Dunes Golf & Bar is an indoor golf venue offering cutting-edge golf simulators and a bar. The facility provides a sophisticated and relaxed atmosphere for both enthusiasts and beginners. Located in Georgetown Township, it combines state-of-the-art technology with a social gathering space. The venue allows players to perfect their game, enjoy it with friends, family, and co-workers, and is positioned as a community hub with a well-curated selection of drinks.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|private_rooms|community_club|coaching_available|solo_practice",
+  "vibe_tags": "casual|welcoming|modern|sports_bar|community_club",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "State-of-the-art all-weather golf simulators available year-round",
+    "Social atmosphere ideal for gatherings, networking, and unwinding",
+    "Analytics and technology to improve skills and see real progress"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Well-curated selection of food available"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with a well-curated selection of drinks"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Golfzon",
+      "model": "TwoVision",
+      "notes": "Golfzon simulators are used for indoor golf simulation"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://clients.uschedule.com/dunesgolfandbar/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": false,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|leagues|wifi|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "It is not specified whether club rentals are available; guests are encouraged to bring their own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue offers a well-curated selection of food and drinks on-site. BYOB policies are not mentioned."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "The time to play 18 holes is not specified on the website."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is family-friendly and offers a welcoming atmosphere for golfers of all ages."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-10PM\"], \"Saturday\": [\"9AM-11PM\"], \"Sunday\": [\"9AM-11PM\"]}"
+}

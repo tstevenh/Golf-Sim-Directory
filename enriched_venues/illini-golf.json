@@ -1,0 +1,91 @@
+{
+  "name": "Illini Golf",
+  "address": "4700 N University St ste 70, Peoria, IL 61614",
+  "city": "Peoria",
+  "region": "Illinois",
+  "country": "US",
+  "latitude": 40.746254,
+  "longitude": -89.608733,
+  "phone": "+13096854653",
+  "website": "https://illinigolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770243412/golf_simulators/illinigolf_com_ChIJRVlTUQxcCogRs-VsNHQrLdI.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Illini+Golf/@40.7462538,-89.608733,14z/data=!4m8!1m2!2m1!1sIllini+Golf!3m4!1s0x880a5c0c51535945:0xd22d2b74346ce5b3!8m2!3d40.7462538!4d-89.608733",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJRVlTUQxcCogRs-VsNHQrLdI",
+  "email": "info@illinigolf.com",
+  "venue_type": "retail_fitting_center",
+  "about": "Illini Golf is a premier indoor golf and fitting center in Peoria, Illinois, offering year-round access to golf through its advanced simulator technology and club fitting services. The facility houses five Foresight Falcon simulator bays for full-swing analysis and practice, alongside the only publicly accessible PuttView green in Illinois for AR-powered putting practice. A fully stocked pro shop offers a curated selection of equipment from major brands like Titleist, Callaway, and TaylorMade, complemented by in-house club repair and custom fitting services.",
+  "tags": "beginner_friendly|corporate_events|premium_tech|coaching_available|pro_shop|club_fitting|leagues|private_rooms|family_fun_center|budget_friendly",
+  "vibe_tags": "tech_lab|community_club|modern|welcoming",
+  "who_its_for": "serious_golfers|families|corporate_teams|solo_practice|juniors_youth",
+  "why_golfers_like_it": [
+    "Tour-level Foresight Falcon simulator and launch monitor data for accurate practice and fitting",
+    "The only publicly accessible PuttView green in Illinois for advanced putting practice",
+    "Comprehensive club fitting services using data to optimize distance and dispersion",
+    "Year-round indoor golf, allowing practice regardless of weather",
+    "Expert coaching with data-driven feedback for accelerated improvement"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of food service on-site"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol or bar service"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": "Falcon",
+      "notes": "Professional-grade launch monitor for full-swing data analysis used in lessons and fittings"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 5,
+  "booking_url": "https://illinigolf.com/indoor-golf/golf-simulator-rental/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 80,
+  "price_range_max_local": 80,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "pro_shop|club_fitting|club_rentals|coaching_available|leagues|private_party_room",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You are encouraged to bring your own clubs, but they must be clean and in good condition to protect the screens. You can also use your own clean golf balls."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "There is no mention of a kitchen or bar on-site, so bringing outside food and drinks is likely not permitted."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time required depends on the number of people and skill level. A good rule of thumb is one hour per person (e.g., 1 person = 1 hour, 4 people = 4 hours)."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the facility is kid-friendly. They offer dedicated putting sessions, and the environment is suitable for golfers of all skill levels, including beginners and juniors."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-6PM\"], \"Tuesday\": [\"9AM-6PM\"], \"Wednesday\": [\"9AM-6PM\"], \"Thursday\": [\"9AM-6PM\"], \"Friday\": [\"9AM-6PM\"], \"Saturday\": [\"9AM-5PM\"], \"Sunday\": [\"10AM-4PM\"]}"
+}

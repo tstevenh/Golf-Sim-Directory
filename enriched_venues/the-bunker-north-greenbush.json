@@ -1,0 +1,92 @@
+{
+  "name": "The Bunker North Greenbush",
+  "address": "490 N Greenbush Rd, Rensselaer, NY 12144",
+  "city": "Rensselaer",
+  "region": "New York",
+  "country": "US",
+  "latitude": 42.658119,
+  "longitude": -73.693458,
+  "phone": "+15188744018",
+  "website": "https://getinthebunker.golf/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770200251/golf_simulators/getinthebunker_golf_ChIJeWh4c7IJ3okRlpWzu783fVU.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Bunker+North+Greenbush/@42.6581189,-73.6934579,14z/data=!4m8!1m2!2m1!1sThe+Bunker+North+Greenbush!3m4!1s0x89de09b273786879:0x557d37bfbbb39596!8m2!3d42.6581189!4d-73.6934579",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJeWh4c7IJ3okRlpWzu783fVU",
+  "email": "sean@getinthebunker.golf",
+  "venue_type": "sim_bar",
+  "about": "The Bunker North Greenbush is an indoor golf lounge and sports bar that combines golf simulation with a full-service bar and restaurant. The venue features multiple TrackMan bays for high-tech golf simulation, providing players with realistic data and course experiences. It caters to both golfers and non-golfers, offering a social atmosphere with food, drinks, and events. The facility operates on a per-bay hourly rate and provides coaching services for players looking to improve their game. Each location is designed as a multi-functional space where patrons can practice, compete, or socialize.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|coaching_available",
+  "vibe_tags": "upscale_lounge|sports_bar",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Uses premium TrackMan technology for accurate data and realistic simulation",
+    "Offers a full-service bar and restaurant for a complete social experience",
+    "Provides professional coaching from PGA-certified instructors",
+    "Can accommodate large groups with multiple bays available",
+    "Supports casual play and competitive leagues"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full food menu available at most locations, with scratch-made options and light food menus at some venues"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available with indoor/outdoor seating options"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Premium radar-based launch monitor used by PGA professionals"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": null,
+  "booking_url": "https://getinthebunker.golf/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 15,
+  "price_range_max_local": 125,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 8,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 3.5,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can bring your own clubs or use provided equipment. The venue offers club rentals and fittings."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drinks are not permitted as the venue has a full kitchen and bar service available."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "They recommend 30 minutes per person for 9 holes and one hour per person for 18 holes."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The Bunker is primarily an adult-oriented venue with a sports bar atmosphere, making it more suitable for adults than children."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.0,
+  "opening_hours": "{\"Monday\": [\"9AM-11PM\"], \"Tuesday\": [\"9AM-11PM\"], \"Wednesday\": [\"9AM-11PM\"], \"Thursday\": [\"9AM-11PM\"], \"Friday\": [\"9AM-11PM\"], \"Saturday\": [\"9AM-11PM\"], \"Sunday\": [\"9AM-8PM\"]}"
+}

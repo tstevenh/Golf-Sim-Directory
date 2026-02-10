@@ -1,0 +1,84 @@
+{
+  "name": "Jersey Meadow Golf Club",
+  "address": "8502 Rio Grande St, Jersey Village, TX 77040",
+  "city": "Jersey Village",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 29.89501,
+  "longitude": -95.57607,
+  "phone": "+17138960900",
+  "website": "http://jerseymeadow.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770239750/golf_simulators/jerseymeadow_com_ChIJ7YCKRTfQQIYR7ekZMEn1VaY.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Jersey+Meadow+Golf+Club/@29.8950098,-95.5760698,14z/data=!4m8!1m2!2m1!1sJersey+Meadow+Golf+Club!3m4!1s0x8640d037458a80ed:0xa655f5493019e9ed!8m2!3d29.8950098!4d-95.5760698",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ7YCKRTfQQIYR7ekZMEn1VaY",
+  "email": "jerseymeadowgolf@jerseyvillagetx.com",
+  "venue_type": "sim_bar|country_club",
+  "about": "Jersey Meadow Golf Club is an 18-hole golf facility located in Jersey Village, Texas. The venue offers a traditional on-course experience alongside modern amenities including two simulator bays, a virtual putting green, and a driving range. With a pro shop and an on-site restaurant and bar, Jersey Meadow provides a comprehensive golf environment suitable for players of all skill levels. The club emphasizes a community-focused atmosphere, offering various membership options, leagues, and instructional programs for both adults and juniors.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|coaching_available|juniors_youth|club_rentals|private_rooms",
+  "vibe_tags": "community_club|welcoming|modern|family_fun_center",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "Combines traditional on-course play with advanced simulator technology",
+    "Offers a full-service experience with dining, pro shop, and practice facilities",
+    "Provides a welcoming atmosphere for golfers of all skill levels and ages",
+    "Features dedicated simulator bays for off-course practice and play"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full restaurant service with dedicated menu, including brunch and snack bar options."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Bar service available with cocktails and other beverages."
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": "unknown",
+  "club_tracking": "unknown",
+  "putting_mode": "dedicated_green|virtual_putting_green",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://www.jerseymeadow.com/book-simulator-tee-times/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you are expected to bring your own clubs for simulator play."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No, the venue has an on-site restaurant and bar called Little Meadow, which serves food and beverages."
+    },
+    {
+      "question": "How long does an 18-hole simulator round take?",
+      "answer": "The time for an 18-hole simulator round is not explicitly stated, but it typically depends on the simulator software and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Jersey Meadow offers junior membership programs, a Jr. Golf School, and family-friendly amenities, making it suitable for kids."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-8PM\"], \"Tuesday\": [\"Closed\"], \"Wednesday\": [\"6AM-10PM\"], \"Thursday\": [\"6AM-10PM\"], \"Friday\": [\"6AM-10PM\"], \"Saturday\": [\"6AM-10PM\"], \"Sunday\": [\"Closed\"]}"
+}

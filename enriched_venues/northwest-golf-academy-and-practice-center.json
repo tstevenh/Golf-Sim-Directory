@@ -1,0 +1,96 @@
+{
+  "name": "Northwest Golf Academy and Practice Center",
+  "address": "756 W Northwest Hwy Ste A, Barrington, IL 60010",
+  "city": "Barrington",
+  "region": "Illinois",
+  "country": "US",
+  "latitude": 42.167932,
+  "longitude": -88.157095,
+  "phone": "+18472759290",
+  "website": "https://www.nwgolfacademy.golf/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770242046/golf_simulators/www_nwgolfacademy_golf_ChIJJyP5nUihD4gRGUPA8Y3N-hU.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Northwest+Golf+Academy+and+Practice+Center/@42.1679323,-88.1570948,14z/data=!4m8!1m2!2m1!1sNorthwest+Golf+Academy+and+Practice+Center!3m4!1s0x880fa1489df92327:0x15facd8df1c04319!8m2!3d42.1679323!4d-88.1570948",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJJyP5nUihD4gRGUPA8Y3N-hU",
+  "email": "fitting.NWGA@gmail.com",
+  "venue_type": "training_studio",
+  "about": "Northwest Golf Academy and Practice Center is a 6,000-square-foot indoor training facility in Barrington, Illinois, offering a premium golf practice and learning experience. The facility is equipped with Trackman technology, high-speed camera video analysis, and a Callaway club fitting studio, designed for serious skill development. It features contoured greens, speed training tools, and provides memberships, individual and group lessons for adults and juniors, and custom club fittings to golfers of all levels.",
+  "tags": "serious_practice|beginner_friendly|coaching_available|junior_friendly|club_fitting|premium_tech|practice_memberships|group_lessons|adult_friendly|family_friendly",
+  "vibe_tags": "industrial_training|tech_lab|welcoming|professional",
+  "who_its_for": "serious_golfers|beginners|families|juniors_youth|solo_practice",
+  "why_golfers_like_it": [
+    "Premium Trackman-equipped practice bays for data-driven training",
+    "High-speed camera video analysis for detailed swing feedback",
+    "Professional club fitting studio with Foresight GC Quad technology",
+    "Convenient 5am-9pm daily access for flexible practice schedules",
+    "Comprehensive junior programs and camps for young golfers"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of food service"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service or BYOB policy"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Individual trackman-equipped practice bays"
+    },
+    {
+      "brand": "Foresight",
+      "model": "GC Quad",
+      "notes": "Used for club fitting"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://clients.uschedule.com/northwestgolfacademy/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 125,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|pro_shop|club_fitting|lockers|wifi|practice_memberships|group_lessons|private_rooms|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can use your own clubs or clubs provided at the facility. The club fitting studio also has a variety of clubs and shaft set-ups for testing during fittings."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The website does not mention any food or drink service, so it's best to assume outside food and drink are not permitted unless otherwise stated."
+    },
+    {
+      "question": "How long does it take to play 18 holes on a simulator?",
+      "answer": "The website does not specify the time required to play 18 holes on a simulator."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "Yes, the venue is kid-friendly and offers junior memberships, clinics, camps, and private lessons for juniors."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"6AM-8PM\"], \"Tuesday\": [\"6AM-8PM\"], \"Wednesday\": [\"6AM-8PM\"], \"Thursday\": [\"6AM-5PM\"], \"Friday\": [\"9AM-8PM\"], \"Saturday\": [\"6AM-8PM\"], \"Sunday\": [\"6AM-8PM\"]}"
+}

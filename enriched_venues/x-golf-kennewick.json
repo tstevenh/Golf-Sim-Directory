@@ -1,0 +1,90 @@
+{
+  "name": "X-Golf Kennewick",
+  "address": "2905 W Kennewick Ave, Kennewick, WA 99336",
+  "city": "Kennewick",
+  "region": "Washington",
+  "country": "US",
+  "latitude": 46.208187,
+  "longitude": -119.160727,
+  "phone": "+15092211433",
+  "website": "https://playxgolf.com/locations/kennewick/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770232241/golf_simulators/playxgolf_com_ChIJzTQWPwN5mFQR1TAXMT3nLPU.png",
+  "google_maps_url": "https://www.google.com/maps/place/X-Golf+Kennewick/@46.2081867,-119.16072709999999,14z/data=!4m8!1m2!2m1!1sX-Golf+Kennewick!3m4!1s0x549879033f1634cd:0xf52ce73d311730d5!8m2!3d46.2081867!4d-119.16072709999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJzTQWPwN5mFQR1TAXMT3nLPU",
+  "email": "info@xgolfkennewick.com",
+  "venue_type": "sim_bar",
+  "about": "X-Golf Kennewick is an indoor golf simulator venue that combines state-of-the-art technology with a full-service sports bar and entertainment complex. The facility features seven high-fidelity golf simulators designed for realistic play and training, accommodating up to six people per bay. It operates as a multifunctional space for golfing, socializing, hosting events, and dining. Pricing is based on an hourly rate per simulator, with variations depending on the day of week and time of day. The venue caters to a broad audience, from beginners to serious golfers, with leagues, lessons, and corporate event offerings available.",
+  "tags": "beginner_friendly|food_and_drinks|leagues|corporate_events|coaching_available|private_rooms|club_rentals|late_night",
+  "vibe_tags": "sports_bar|community_club|modern|party_atmosphere",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "Most accurate and realistic indoor golf simulation technology available",
+    "Comprehensive training tools with PGA-certified coaching and V1 Pro Golf software",
+    "Versatile facility for both casual play and serious skill development",
+    "Social atmosphere with a full bar, food, and TVs for a complete entertainment experience"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen serving shareable bites, appetizers, snacks, pizzas, and other dishes"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with beer by the glass or on tap, cocktails, and wines"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "X-Golf Simulator",
+      "model": "State-of-the-Art",
+      "notes": "Proprietary system using camera systems, infrared lasers, impact sensors, and a ball return system"
+    }
+  ],
+  "simulator_software": [
+    "Proprietary X-Golf Software"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 7,
+  "booking_url": "https://playxgolf.com/locations/kennewick/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 35,
+  "price_range_max_local": 55,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 0,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|leagues|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, club rental is available at the venue. However, players are welcome to use their own equipment if they prefer."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, X-Golf Kennewick has an in-house restaurant and full bar. Food and drink must be purchased from the venue."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "It generally takes about one hour for an individual player to complete 18 holes. With more players, allow an additional hour per person to maintain pace."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, X-Golf Kennewick welcomes children of all ages and is a suitable venue for families."
+    }
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-12AM\"], \"Saturday\": [\"10AM-12AM\"], \"Sunday\": [\"10AM-10PM\"]}"
+}

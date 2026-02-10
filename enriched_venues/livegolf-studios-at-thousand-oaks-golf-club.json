@@ -1,0 +1,89 @@
+{
+  "name": "LiveGolf Studios at Thousand Oaks Golf Club",
+  "address": "4100 Thousand Oaks Dr NE, Grand Rapids, MI 49525",
+  "city": "Grand Rapids",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 43.038148,
+  "longitude": -85.567723,
+  "phone": "+16164477750",
+  "website": "https://www.thousandoaks.livegolfstudios.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770225668/golf_simulators/www_thousandoaks_livegolfstudios_com_ChIJNeHHmZ9VGIgRq2zPXLL0IT0.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/LiveGolf+Studios+at+Thousand+Oaks+Golf+Club/@43.038148299999996,-85.5677228,14z/data=!4m8!1m2!2m1!1sLiveGolf+Studios+at+Thousand+Oaks+Golf+Club!3m4!1s0x8818559f99c7e135:0x3d21f4b25ccf6cab!8m2!3d43.038148299999996!4d-85.5677228",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJNeHHmZ9VGIgRq2zPXLL0IT0",
+  "venue_type": "sim_bar",
+  "about": "LiveGolf Studios at Thousand Oaks Golf Club offers an indoor golf simulation experience with a full bar and food service from the adjacent Reds restaurant. The facility features four TrackMan 4 simulators located in the Academy building, providing access to over 100 virtual golf courses and various practice modes. Pricing varies by day and time, with weekday afternoon rates starting at $45 per hour, peak times at $65 per hour, and several bundled packages and discounts available for families, seniors, and various time slots. The venue is suitable for casual play, group outings, and corporate events.",
+  "tags": "food_and_drinks|beginner_friendly|kids_friendly|corporate_events|date_night|premium_tech|budget_friendly",
+  "vibe_tags": "sports_bar|family_fun_center|tech_lab",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Access to premium TrackMan 4 technology with radar and camera tracking for accurate data",
+    "Year-round golf in a climate-controlled environment regardless of weather conditions",
+    "Comprehensive food and drink service from Reds restaurant with full menu available",
+    "Variety of game options including virtual courses, challenges, and kid-friendly activities"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full menu available from Reds restaurant, including appetizers and meals"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available, including beer, cocktails, wine, and spirits"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "Four TrackMan 4 simulators with radar and camera tracking"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 4,
+  "booking_url": "https://www.thousandoaks.livegolfstudios.com/teetimes",
+  "pricing_model": "mixed",
+  "price_range_min_local": 35,
+  "price_range_max_local": 65,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|pro_shop|club_fitting|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, players should bring their own clubs to use on the simulators."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, outside food and drinks are not permitted. The venue offers a full menu from Reds restaurant with food and beverages available for purchase."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes depends on simulator availability and pace of play, but typical sessions run from 1-2 hours depending on the number of players and course selection."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is kid-friendly with $5 off per child per hour, kid-friendly games including mini golf and bullseye challenges, and family-friendly atmosphere."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"9AM-11PM\"], \"Saturday\": [\"9AM-11PM\"], \"Sunday\": [\"9AM-9PM\"]}"
+}

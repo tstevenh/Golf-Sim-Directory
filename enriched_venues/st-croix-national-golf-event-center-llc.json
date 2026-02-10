@@ -1,0 +1,91 @@
+{
+  "name": "St. Croix National Golf & Event Center LLC",
+  "address": "1603 32nd St, Somerset, WI 54025",
+  "city": "Somerset",
+  "region": "Wisconsin",
+  "country": "US",
+  "latitude": 45.093246,
+  "longitude": -92.734856,
+  "phone": "+17152474200",
+  "website": "https://www.scngolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770236820/golf_simulators/www_scngolf_com_ChIJrYG8XhG3slIROCQH4oub7PM.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/St.+Croix+National+Golf+%26+Event+Center+LLC/@45.0932464,-92.73485559999999,14z/data=!4m8!1m2!2m1!1sSt.+Croix+National+Golf+%26+Event+Center+LLC!3m4!1s0x52b2b7115ebc81ad:0xf3ec9b8be2072438!8m2!3d45.0932464!4d-92.73485559999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJrYG8XhG3slIROCQH4oub7PM",
+  "email": "info@scngolf.com",
+  "venue_type": "country_club",
+  "about": "St. Croix National Golf & Event Center is a premier golf destination offering both an 18-hole course and indoor facilities. The venue features four HD Golf simulators for year-round play, complemented by a Pelz-designed 18-hole putting course for short game practice. On-site amenities include The Grounds restaurant, a pro shop, and a fitness center with bioDensity and Power Plate equipment. The facility hosts tournaments, leagues, and private events, catering to golfers of all skill levels.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|coaching_available|club_rentals|private_rooms|community_club",
+  "vibe_tags": "family_fun_center|community_club|casual|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Four indoor HD Golf simulators ensure playable conditions regardless of weather",
+    "Pelz-designed putting course with synthetic greens for dedicated short game practice",
+    "Full-service clubhouse with restaurant, pro shop, and fitness facilities",
+    "Hosts leagues and tournaments, creating a competitive and social environment"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "The Grounds restaurant is available for dining"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Food and drinks can be brought directly to simulator bays"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "HD Golf",
+      "model": "Simulator",
+      "notes": "Four indoor HD Golf simulators mentioned"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "unknown",
+  "ball_tracking": "unknown",
+  "club_tracking": "unknown",
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 4,
+  "booking_url": "https://scn.hdgolf.com/index.php",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|private_party_room|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "The website doesn't explicitly state if clubs are provided, so it's recommended to bring your own equipment."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, food and drinks can be brought straight to your simulator bay."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "We recommend reserving 1 hour per golfer to play 18 holes."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue was voted 'Second Best for Family Activities' in the valley."
+    }
+  ],
+  "simulator_software": [
+    "HD Golf"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"11AM-8PM\"], \"Tuesday\": [\"11AM-8PM\"], \"Wednesday\": [\"11AM-8PM\"], \"Thursday\": [\"11AM-8PM\"], \"Friday\": [\"10AM-9PM\"], \"Saturday\": [\"10AM-9PM\"], \"Sunday\": [\"10AM-7PM\"]}"
+}

@@ -1,0 +1,90 @@
+{
+  "name": "GolfCode360 Studios",
+  "address": "615 N Berry St # E, Brea, CA 92821",
+  "city": "Brea",
+  "region": "California",
+  "country": "US",
+  "latitude": 33.928497,
+  "longitude": -117.907088,
+  "phone": "+17142255805",
+  "website": "http://golfcode360studio.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770210061/golf_simulators/golfcode360studio_com_ChIJ8acYfUHV3IARlp0CdzeBvZE.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/GolfCode360+Studios/@33.9284967,-117.907088,14z/data=!4m8!1m2!2m1!1sGolfCode360+Studios!3m4!1s0x80dcd5417d18a7f1:0x91bd813777029d96!8m2!3d33.9284967!4d-117.907088",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ8acYfUHV3IARlp0CdzeBvZE",
+  "email": "marketing@GolfCode360Studio.com",
+  "venue_type": "training_studio",
+  "about": "GolfCode360 Studios is an indoor golf training facility in Orange County, California, with locations in Brea and Irvine. The studio specializes in biomechanics and physics-based instruction, utilizing advanced technology such as launch monitors, 3D motion capture, and high-speed cameras to provide a formal education on repeatable golf swings. The facility is designed for golfers of all skill levels, offering a comprehensive approach to swing analysis and improvement.",
+  "tags": "beginner_friendly|coaching_available|premium_tech|serious_practice|juniors_youth|corporate_teams",
+  "vibe_tags": "industrial_training|tech_lab|modern",
+  "who_its_for": "beginners|serious_golfers|juniors_youth|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Revolutionary biomechanics and physics-based swing analysis",
+    "Access to premium technology including GC2 launch monitors and Foresight 2020 software",
+    "Personalized instruction from experienced coaches for rapid improvement"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No on-site food service mentioned."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No on-site alcohol service mentioned."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "GC2",
+      "model": "Launch Monitor",
+      "notes": "GC2 launch monitors are used for ball flight tracking."
+    }
+  ],
+  "simulator_software": [
+    "Foresight 2020",
+    "JC Video Digital Mirror"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "http://golfcode360studio.com/schedule",
+  "pricing_model": "per_person_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": false,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|pro_shop|wifi",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you should bring your own clubs for lessons and practice sessions."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No outside food or drinks are allowed, but BYOB may be permitted based on the studio's policy."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time for 18 holes varies depending on the simulator software and group size, typically ranging from 1-2 hours."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "The facility is not specifically marketed as kid-friendly, but juniors and youth can take lessons."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"8AM-9PM\"], \"Tuesday\": [\"8AM-9PM\"], \"Wednesday\": [\"8AM-9PM\"], \"Thursday\": [\"8AM-9PM\"], \"Friday\": [\"8AM-9PM\"], \"Saturday\": [\"8AM-9PM\"], \"Sunday\": [\"8AM-9PM\"]}"
+}

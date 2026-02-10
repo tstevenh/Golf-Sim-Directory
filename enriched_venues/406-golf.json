@@ -1,0 +1,91 @@
+{
+  "name": "406 Golf",
+  "address": "25 W Main St, Belgrade, MT 59714",
+  "city": "Belgrade",
+  "region": "Montana",
+  "country": "US",
+  "latitude": 45.776727,
+  "longitude": -111.177673,
+  "phone": "+14065800770",
+  "website": "http://406sims.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770250572/golf_simulators/406sims_com_ChIJrRq_szc5RVMRO_s2zlcRvIk.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/406+Golf/@45.776726599999996,-111.17767289999999,14z/data=!4m8!1m2!2m1!1s406+Golf!3m4!1s0x53453937b3bf1aad:0x89bc1157ce36fb3b!8m2!3d45.776726599999996!4d-111.17767289999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJrRq_szc5RVMRO_s2zlcRvIk",
+  "email": "Camcharger07@yahoo.com",
+  "venue_type": "sim_bar",
+  "about": "406 Golf is a golf simulator venue in Belgrade, MT, featuring state-of-the-art Trackman simulators with access to over 200 golf courses. The venue operates Thursday through Sunday, offering hourly bay rentals and annual memberships for both individuals and couples. Guests can enjoy food and beverage options through a partnership with Cosmic Pizza. The facility is designed for various occasions, including casual rounds, leagues, parties, and corporate events.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|club_rentals|private_rooms|community_club",
+  "vibe_tags": "sports_bar|tech_lab|community_club|casual|welcoming",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Premium Trackman technology for accurate swing and ball flight analysis",
+    "On-site food and beverage partnership with Cosmic Pizza",
+    "Over 200 virtual golf courses available to play",
+    "Flexible booking options for both casual play and long-term memberships",
+    "Climate-controlled comfort with TVs for sports viewing"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "On-site pizza available through partnership with Cosmic Pizza. Outside food not permitted in simulator bays."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Cold beverages, beer, and wine available for purchase. No BYOB policy."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Premier radar-based launch monitor with unparalleled accuracy and detailed swing analysis"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://yourgolfbooking.com/venues/golf-406/booking/bays",
+  "pricing_model": "mixed",
+  "price_range_min_local": 50,
+  "price_range_max_local": 800,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": false,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 3,
+  "amenities_list": "club_rentals|kitchen_food|tv_sports|private_rooms|leagues|climate_control",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you need to bring your own golf clubs to play at 406 Golf."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and beverages are not allowed in the simulator bays. Refreshments can be purchased from the designated areas."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Play time varies by group size and pace. With a maximum of 3 golfers per simulator, 18 holes typically takes 2-3 hours."
+    },
+    {
+      "question": "Is 406 Golf kid-friendly?",
+      "answer": "The venue welcomes various events including birthday parties and is designed for all ages, though specific youth programs or age restrictions are not mentioned."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"Closed\"], \"Wednesday\": [\"Closed\"], \"Thursday\": [\"12-9PM\"], \"Friday\": [\"12-9PM\"], \"Saturday\": [\"12-9PM\"], \"Sunday\": [\"12-9PM\"]}"
+}

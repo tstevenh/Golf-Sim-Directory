@@ -1,0 +1,94 @@
+{
+  "name": "Moose Landing Country Club",
+  "address": "17374 OH-694, Ottawa, OH 45875",
+  "city": "Ottawa",
+  "region": "Ohio",
+  "country": "US",
+  "latitude": 41.029605,
+  "longitude": -84.195115,
+  "phone": "+14195323434",
+  "website": "https://mooselandingcc.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770211907/golf_simulators/mooselandingcc_com_ChIJjf93gmqHPogRExr7eGhbP2M.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Moose+Landing+Country+Club/@41.029604899999995,-84.1951149,14z/data=!4m8!1m2!2m1!1sMoose+Landing+Country+Club!3m4!1s0x883e876a8277ff8d:0x633f5b6878fb1a13!8m2!3d41.029604899999995!4d-84.1951149",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJjf93gmqHPogRExr7eGhbP2M",
+  "email": "mooselandinggolfclub@gmail.com",
+  "venue_type": "sim_bar|country_club",
+  "about": "Moose Landing Country Club is a public golf venue offering both an 18-hole, par-72 course designed by Bob Simmons and indoor augmented-reality golf simulators powered by TruGolf. The venue features an on-site tavern, Fore 1 Tavern, providing a full bar and kitchen food options for guests. It caters to various golfers, from those looking for practice time on simulators to players enjoying a round on the course, with premium membership plans available for discounts and reciprocal rates at other area courses.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|budget_friendly|club_rentals|family_friendly",
+  "vibe_tags": "casual|welcoming|community_club",
+  "who_its_for": "families|corporate_teams|beginners|serious_golfers|solo_practice",
+  "why_golfers_like_it": [
+    "Augmented-reality simulators allow golfing anytime, rain or shine",
+    "On-site Fore 1 Tavern provides a full bar and food options under the same roof as the simulators",
+    "The venue offers a mix of real-world golf and high-tech simulator play",
+    "Public access with optional membership plans for discounts and benefits",
+    "Friendly environment for both casual play and serious practice sessions"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen food service available at Fore 1 Tavern"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available at Fore 1 Tavern"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "TruGolf",
+      "model": null,
+      "notes": "State-of-the-art indoor golf simulators"
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://mooselandingcc.com/book-a-tee-time",
+  "pricing_model": "mixed",
+  "price_range_min_local": 25,
+  "price_range_max_local": 30,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": false,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "full_bar|kitchen_food|pro_shop|club_rentals|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs to use the simulators?",
+      "answer": "No, the venue provides a full set of left and right-handed golf clubs for use in the simulators, including for casual players who never golf."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No, the venue has an on-site tavern, Fore 1 Tavern, that provides a full bar and kitchen food options. You can order food and drinks directly from the tavern while playing."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes on the simulator?",
+      "answer": "The content does not specify a typical duration for 18 holes on the simulator."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is kid-friendly. The Fore 1 Tavern offers a family-friendly environment to share meals, and the simulators are accessible for people of all skill levels."
+    }
+  ],
+  "simulator_software": [
+    "TruGolf"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"Closed\"], \"Wednesday\": [\"9AM-8PM\"], \"Thursday\": [\"9AM-8PM\"], \"Friday\": [\"9AM-11PM\"], \"Saturday\": [\"9AM-11PM\"], \"Sunday\": [\"9AM-7PM\"]}"
+}

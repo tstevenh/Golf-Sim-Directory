@@ -1,0 +1,91 @@
+{
+  "name": "SuperFly Golf Lounge - Littleton",
+  "address": "2100 W Littleton Blvd suite c, Littleton, CO 80120",
+  "city": "Littleton",
+  "region": "Colorado",
+  "country": "US",
+  "latitude": 39.613096,
+  "longitude": -105.01316,
+  "phone": "+13033864146",
+  "website": "https://superflygolflounge.com/littleton/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770215619/golf_simulators/superflygolflounge_com_ChIJs6aXT_6BbIcRTvYcewrOJ9I.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/SuperFly+Golf+Lounge+-+Littleton/@39.6130961,-105.01316039999999,14z/data=!4m8!1m2!2m1!1sSuperFly+Golf+Lounge+-+Littleton!3m4!1s0x876c81fe4f97a6b3:0xd227ce0a7b1cf64e!8m2!3d39.6130961!4d-105.01316039999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJs6aXT_6BbIcRTvYcewrOJ9I",
+  "email": "littleton@superflygolflounge.com",
+  "venue_type": "sim_bar",
+  "about": "SuperFly Golf Lounge - Littleton is a modern indoor golf venue that blends cutting-edge TrackMan 4 simulator technology with a lounge atmosphere. The facility offers year-round golfing access, allowing players to practice and play on over 250 world-class courses regardless of weather conditions. Memberships provide exclusive access to the simulators, premium amenities, and a curated drink menu, while non-members can book bays by the hour. The venue is designed for golf enthusiasts seeking a social yet technologically advanced experience, featuring data-driven swing analysis and a tight-knit community environment.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|premium_tech|coaching_available|community_club|upscale_lounge",
+  "vibe_tags": "upscale_lounge|community_club|tech_lab",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Access to TrackMan 4 technology with 250+ digital courses and swing analysis",
+    "Year-round indoor golfing with no weather restrictions",
+    "Lounge atmosphere with premium amenities and curated drinks",
+    "Community environment for golf enthusiasts of all skill levels"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "Food availability not specified"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Curated cocktails and drink menu available with membership discounts"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "Pinnacle golfing technology with radar tracking"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://superflygolfloungetrackman.as.me/schedule.php?notembedded=1",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|tv_sports|wifi|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Players must bring their own clubs as the venue does not specify club rentals."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue offers a curated drink menu, but outside food and drink policies are not specified."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "A round typically lasts between 45 minutes to 1 hour per person when using auto putt settings."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, SuperFly welcomes golfers of all skill levels, including beginners and families."
+    }
+  ],
+  "simulator_software": [
+    "TrackMan"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"10AM-9PM\"], \"Tuesday\": [\"10AM-9PM\"], \"Wednesday\": [\"10AM-9PM\"], \"Thursday\": [\"10AM-9PM\"], \"Friday\": [\"10AM-10PM\"], \"Saturday\": [\"10AM-10PM\"], \"Sunday\": [\"10AM-7PM\"]}"
+}

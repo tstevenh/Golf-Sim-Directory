@@ -1,0 +1,90 @@
+{
+  "name": "The Bunker Clifton Park",
+  "address": "19 Clifton Country Rd Suite 1, Clifton Park, NY 12065",
+  "city": "Clifton Park",
+  "region": "New York",
+  "country": "US",
+  "latitude": 42.859933,
+  "longitude": -73.783224,
+  "phone": "+15182806347",
+  "website": "https://getinthebunker.golf/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770217781/golf_simulators/getinthebunker_golf_ChIJvwVyphUT3okRgUpqpc0hIr0.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Bunker+Clifton+Park/@42.8599331,-73.78322349999999,14z/data=!4m8!1m2!2m1!1sThe+Bunker+Clifton+Park!3m4!1s0x89de1315a67205bf:0xbd2221cda56a4a81!8m2!3d42.8599331!4d-73.78322349999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJvwVyphUT3okRgUpqpc0hIr0",
+  "email": "careers@getinthebunker.golf",
+  "venue_type": "sim_bar",
+  "about": "The Bunker is an indoor golf and social lounge venue that features TrackMan simulators as its core offering. It combines golf simulation with a full-service bar and food menu, creating an environment that appeals to both serious golfers and social groups. The facility provides a realistic golf experience using technology used by PGA professionals, along with amenities like leagues, private events, and professional coaching services to cater to a wide range of customers.",
+  "tags": "food_and_drinks|serious_golfers|corporate_events|leagues|premium_tech|coaching_available|date_night|large_groups",
+  "vibe_tags": "sports_bar|casual|welcoming|modern",
+  "who_its_for": "serious_golfers|corporate_teams|large_groups|beginners|families",
+  "why_golfers_like_it": [
+    "Access to world-class TrackMan technology providing data-driven insights and realistic gameplay",
+    "Flexible bay capacity allowing up to 8 people to play together and split the cost",
+    "Professional coaching available with PGA-certified instructors and custom lesson packages",
+    "All-in-one venue combining high-tech golf simulation with a full bar and food menu for a complete experience"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full food menu available at Clifton Park location; light food menu at Guilderland location. Menus available online."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available at all locations with indoor/outdoor seating options."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Multiple bays equipped with TrackMan technology, the industry standard used by PGA professionals."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://getinthebunker.golf/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 65,
+  "price_range_max_local": 125,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 8,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|leagues|coaching_available|events",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue doesn't explicitly state if clubs are provided, so it's recommended to bring your own equipment for the best experience."
+    },
+    {
+      "question": "Can I bring outside food or drink?",
+      "answer": "The venue offers a full bar and food menu, suggesting outside food and drink may not be permitted. BYOB is not mentioned."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The venue recommends one hour per person for 18 holes, or two hours for a foursome to complete 18 holes."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, The Bunker appears to be kid-friendly as it mentions catering to families and has a casual sports bar atmosphere."
+    }
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"9AM-11PM\"], \"Tuesday\": [\"9AM-11PM\"], \"Wednesday\": [\"9AM-11PM\"], \"Thursday\": [\"9AM-11PM\"], \"Friday\": [\"9AM-11PM\"], \"Saturday\": [\"9AM-11PM\"], \"Sunday\": [\"9AM-9PM\"]}"
+}

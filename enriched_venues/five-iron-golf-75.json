@@ -1,0 +1,94 @@
+{
+  "name": "Five Iron Golf",
+  "address": "20040 Van Aken Blvd, Shaker Heights, OH 44122",
+  "city": "Shaker Heights",
+  "region": "Ohio",
+  "country": "US",
+  "latitude": 41.465722,
+  "longitude": -81.539062,
+  "phone": "+18005135153",
+  "website": "https://fiveirongolf.com/locations/cleveland-shaker-heights/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770216040/golf_simulators/fiveirongolf_com_ChIJL-miQuH9MIgRRggFmtNvW1U.png",
+  "google_maps_url": "https://www.google.com/maps/place/Five+Iron+Golf/@41.465721699999996,-81.5390619,14z/data=!4m8!1m2!2m1!1sFive+Iron+Golf!3m4!1s0x8830fde142a2e92f:0x555b6fd39a050846!8m2!3d41.465721699999996!4d-81.5390619",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJL-miQuH9MIgRRggFmtNvW1U",
+  "email": "leagues@fiveirongolf.com",
+  "venue_type": "sim_bar",
+  "about": "Five Iron Golf Shaker Heights is an indoor golf venue in the Van Aken District, combining high-tech golf simulation with a full-service bar and event space. The facility features 9 Trackman golf simulator bays, allowing players to practice or play on virtual courses like Pebble Beach, as well as access to coaching, club fitting, and event hosting. The atmosphere is welcoming and casual, with no dress code, making golf accessible to all levels. Complementing the golf experience is Strike Club duckpin bowling and a chef-inspired food and drink menu, creating a multi-sport entertainment hub.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|kids_friendly|corporate_events|leagues|premium_tech|private_rooms|club_rentals|coaching_available",
+  "vibe_tags": "casual|welcoming|modern|sports_bar|family_fun_center|party_atmosphere",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "State-of-the-art Trackman technology provides accurate swing data",
+    "Access to over 200 world-class virtual golf courses",
+    "Full-service bar and kitchen for a complete entertainment experience",
+    "Welcoming environment with no dress code, accessible to all skill levels",
+    "Availability of professional coaching and custom club fitting"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full-service kitchen with a chef-inspired menu available"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full-service bar with drink packages and specials available"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Dual-radar Trackman technology with high-speed cameras for swing analysis"
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 9,
+  "booking_url": "https://booking.fiveirongolf.com/select-experience?location=cleveland-shaker-heights",
+  "pricing_model": "mixed",
+  "price_range_min_local": 29,
+  "price_range_max_local": 345,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 0,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|club_fitting|leagues",
+  "rating_tech_quality": 4.7,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, club rentals are available. You are also welcome to bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food or drink?",
+      "answer": "No, outside food and drink are not permitted. The venue has a full-service kitchen and bar with a chef-inspired menu and drink packages."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "18 holes on a simulator typically takes about 2 to 3 hours, depending on the number of players and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Five Iron Golf offers junior clinics and kids' party packages. The venue is also home to Strike Club duckpin bowling, making it a family-friendly entertainment hub."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"6AM-11PM\"], \"Tuesday\": [\"6AM-11PM\"], \"Wednesday\": [\"6AM-11PM\"], \"Thursday\": [\"6AM-11PM\"], \"Friday\": [\"6AM-12AM\"], \"Saturday\": [\"8AM-12AM\"], \"Sunday\": [\"8AM-10PM\"]}"
+}

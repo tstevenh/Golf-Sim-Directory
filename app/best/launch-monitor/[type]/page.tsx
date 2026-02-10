@@ -9,7 +9,7 @@ interface BestLaunchMonitorPageProps {
   searchParams?: Promise<Record<string, string | string[] | undefined>>;
 }
 
-export const revalidate = 3600;
+export const revalidate = 86400;
 
 // Pre-render all launch monitor pages at build time
 export async function generateStaticParams() {
@@ -75,15 +75,31 @@ export async function generateMetadata({ params }: BestLaunchMonitorPageProps): 
 export default async function BestLaunchMonitorPage({ params, searchParams }: BestLaunchMonitorPageProps) {
   const paramsResolved = (await searchParams) || {};
   const page = Math.max(1, Number(paramsResolved.page || 1));
+  const pageSize = 12;
   const { type } = await params;
   const label = type.replace(/_/g, " ").replace(/\b\w/g, l => l.toUpperCase());
   const typeKey = type.toLowerCase();
+  const skip = (page - 1) * pageSize;
+  const validTypes = new Set<LaunchMonitorType>(["radar", "photometric_camera", "hybrid", "unknown"]);
+  const isValidType = validTypes.has(type as LaunchMonitorType);
 
-  const venues = await db.venue.findMany({
-    where: { status: "active", launchMonitorType: type as unknown as LaunchMonitorType },
-    orderBy: [{ featured: "desc" }, { ratingOverall: "desc" }, { name: "asc" }],
-    select: venueCardSelect,
-  });
+  const where = {
+    status: "active" as const,
+    launchMonitorType: type as LaunchMonitorType,
+  };
+
+  const [totalVenues, venues] = isValidType
+    ? await Promise.all([
+        db.venue.count({ where }),
+        db.venue.findMany({
+          where,
+          orderBy: [{ featured: "desc" }, { ratingOverall: "desc" }, { name: "asc" }],
+          select: venueCardSelect,
+          take: pageSize,
+          skip,
+        }),
+      ])
+    : [0, []];
 
   const content = launchMonitorContent[typeKey] || {
     tagline: `${label} Technology`,
@@ -140,12 +156,14 @@ export default async function BestLaunchMonitorPage({ params, searchParams }: Be
       ctaPrimary={{ label: "Claim Your Listing", href: "/claim" }}
       ctaSecondary={{ label: "Submit New Venue", href: "/submit" }}
       venues={venues}
+      totalVenues={totalVenues}
       categoryType="launch-monitor"
       categoryValue={typeKey}
       heroSubtitle={content.tagline}
       breadcrumbItems={breadcrumbs}
       showRanking={true}
       currentPage={page}
+      pageSize={pageSize}
       baseUrl={`/best/launch-monitor/${type}`}
     />
   );

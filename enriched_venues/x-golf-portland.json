@@ -1,0 +1,92 @@
+{
+  "name": "X-Golf Portland",
+  "address": "101 York St, Portland, ME 04101",
+  "city": "Portland",
+  "region": "Maine",
+  "country": "US",
+  "latitude": 43.65199,
+  "longitude": -70.258025,
+  "phone": "+12075361257",
+  "website": "http://xgolfportland.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770206156/golf_simulators/xgolfportland_com_ChIJo_9iEdydskwRFpeDIRZjXYk.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/X-Golf+Portland/@43.65199,-70.258025,14z/data=!4m8!1m2!2m1!1sX-Golf+Portland!3m4!1s0x4cb29ddc1162ffa3:0x895d631621839716!8m2!3d43.65199!4d-70.258025",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJo_9iEdydskwRFpeDIRZjXYk",
+  "email": "info@xgolfportland.com",
+  "venue_type": "sim_bar",
+  "about": "X-Golf Portland is an indoor golf entertainment facility featuring state-of-the-art golf simulators, a sports bar, and event space. Located in downtown Portland near Old Port, the venue enables year-round golfing with a focus on play, training, and social entertainment. The facility operates on a per-bay-hour pricing model, requiring advance tee times for guaranteed simulator access. Golfers can choose from 50 world-renowned courses, including those on the PGA Tour, and can utilize the virtual driving range and on-staff PGA Professional for training purposes.",
+  "tags": "food_and_drinks|date_night|corporate_events|leagues|premium_tech|private_rooms|club_rentals|coaching_available|beginner_friendly",
+  "vibe_tags": "sports_bar|family_fun_center|community_club|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|tourists_travelers",
+  "why_golfers_like_it": [
+    "98% accurate shot tracking and flight simulation",
+    "50 world-renowned courses available, including PGA Tour venues",
+    "On-site PGA Professional for lessons and training",
+    "Flexible pricing charged by the hour, not per person",
+    "Full bar and food service available for a complete entertainment experience"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Kitchen and food service available. Guests can enjoy food and beverages without needing to golf."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available. Happy Monday-Thursday 3pm-6pm with $1 off all drinks."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "X-Golf",
+      "model": "unknown",
+      "notes": "State-of-the-art simulators with 98% accuracy in shot tracking and flight"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 6,
+  "booking_url": "https://clients.uschedule.com/xgolfportland/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 55,
+  "price_range_max_local": 70,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 6,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify whether clubs are provided or if you must bring your own."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answers": "The venue has a full kitchen and bar, so bringing outside food and drinks is likely not permitted."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answers": "The website does not provide a specific time estimate for playing 18 holes."
+    },
+    {
+      "question": "Is X-Golf Portland kid-friendly?",
+      "answers": "Yes, the venue welcomes families and does not require patrons to be golfing to enjoy the food, beverage, and atmosphere."
+    }
+  ],
+  "simulator_software": [
+    "X-Golf"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-11:30PM\"], \"Saturday\": [\"9AM-11:30PM\"], \"Sunday\": [\"9AM-8PM\"]}"
+}

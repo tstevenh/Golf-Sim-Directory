@@ -1,0 +1,90 @@
+{
+  "name": "Eagle's Nest Golf Lounge",
+  "address": "1170 Ridge Rd, Webster, NY 14580",
+  "city": "Webster",
+  "region": "New York",
+  "country": "US",
+  "latitude": 43.211193,
+  "longitude": -77.442301,
+  "phone": "+15854817741",
+  "website": "https://www.eaglesnestgolflounge.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770198911/golf_simulators/www_eaglesnestgolflounge_com_ChIJEVRUJADP1okR7SK-UPGvbN4.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Eagle%27s+Nest+Golf+Lounge/@43.2111929,-77.44230089999999,14z/data=!4m8!1m2!2m1!1sEagle%27s+Nest+Golf+Lounge!3m4!1s0x89d6cf0024545411:0xde6caff150be22ed!8m2!3d43.2111929!4d-77.44230089999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJEVRUJADP1okR7SK-UPGvbN4",
+  "email": "info@eaglesnestgolflounge.com",
+  "venue_type": "sim_bar",
+  "about": "Eagle's Nest Golf Lounge provides immersive, state-of-the-art sports and gaming simulators for enthusiasts, families, and corporate clients. Located in Webster, NY, the venue aims to make the indoor golf experience seamless through automated booking and self-service entry. The facility features two completely sectioned-off bays, offering a personalized experience for individuals or groups to play, practice, or learn with professional instructors without distractions. With a focus on quality, customer service, and community engagement, Eagle's Nest is positioned as a premier destination for indoor sports simulations, suitable for casual players and serious golfers alike.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|kids_friendly|premium_tech|private_rooms|coaching_available",
+  "vibe_tags": "upscale_lounge|family_fun_center|tech_lab",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams|solo_practice|juniors_youth",
+  "why_golfers_like_it": [
+    "State-of-the-art simulators with immersive sports technology",
+    "Automated booking and self-service entry for convenience",
+    "Sectioned-off bays for privacy and tailored experiences",
+    "Professional instruction available for personalized coaching"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Carry-in policy allows guests to bring their own food to enjoy during their visit."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Carry-in policy allows guests to bring their own beverages to enjoy during their visit."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "unknown",
+      "notes": "Trackman golf performance software is referenced, indicating premium radar-based technology."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://booking.trackmangolf.com/venues/eagle-s-nest-golf-lounge/booking/bays",
+  "pricing_model": "per_bay_hour|mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": false,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|private_party_room|wifi|coaching_available|food_and_drinks",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need clubs?",
+      "answer": "Yes, appropriate golf shoes and attire are recommended for simulator use. Club rentals may be available but are not explicitly mentioned."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, there is a carry-in policy that allows guests to bring their own food and beverages to enjoy during their visit."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time required to play 18 holes is not explicitly specified on the website."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Eagle's Nest Golf Lounge is kid-friendly, with sectioned-off bays suitable for families and young players, as indicated by the presence of young players in promotional images and a welcoming atmosphere."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"5AM-12AM\"], \"Tuesday\": [\"5AM-12AM\"], \"Wednesday\": [\"5AM-12AM\"], \"Thursday\": [\"5AM-12AM\"], \"Friday\": [\"5AM-12AM\"], \"Saturday\": [\"5AM-12AM\"], \"Sunday\": [\"5AM-12AM\"]}"
+}

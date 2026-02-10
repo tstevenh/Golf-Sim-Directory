@@ -1,0 +1,95 @@
+{
+  "name": "Southern Swing Golf Club",
+  "address": "720 Hall of Fame Dr, Knoxville, TN 37921",
+  "city": "Knoxville",
+  "region": "Tennessee",
+  "country": "US",
+  "latitude": 35.977483,
+  "longitude": -83.916267,
+  "phone": "+18652042900",
+  "website": "https://southernswingtn.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770235672/golf_simulators/southernswingtn_com_ChIJsVphiTMXXIgRIXjf8CtZElk.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Southern+Swing+Golf+Club/@35.9774829,-83.91626649999999,14z/data=!4m8!1m2!2m1!1sSouthern+Swing+Golf+Club!3m4!1s0x885c173389615ab1:0x5912592bf0df7821!8m2!3d35.9774829!4d-83.91626649999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJsVphiTMXXIgRIXjf8CtZElk",
+  "email": "info@southernswingtn.com",
+  "venue_type": "country_club",
+  "about": "Southern Swing Golf Club is a private indoor golf venue located in Knoxville, Tennessee. The facility offers an immersive golf experience using technology from Foresight and PuttView, providing members with precision practice, short-game mastery, and social play opportunities. As a membership-based club, it operates with keyless entry and an app-based booking system for reserving simulator bays and lessons. The club is designed to provide a country club atmosphere with amenities including a lounge and market, and it hosts leagues, tournaments, and private events. It is positioned as a premium indoor golf experience suitable for both serious practice and social rounds.",
+  "tags": "serious_golfers|corporate_events|leagues|coaching_available|premium_tech|food_and_drinks|club_rentals",
+  "vibe_tags": "private_luxury|casual|welcoming|modern",
+  "who_its_for": "serious_golfers|corporate_teams|families|solo_practice|coaches_instructors",
+  "why_golfers_like_it": [
+    "Elite Foresight and PuttView technology for precise tracking and simulation",
+    "Unlimited simulator access for members with 2-week advance booking",
+    "Professional coaching from a former collegiate and PGA-level golfer",
+    "BYOB policy and a full-service lounge market for socializing"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "On-site market and lounge available to members and guests"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "BYOB friendly policy, no alcohol served on-site"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": "unknown",
+      "notes": "Primary launch monitor technology powering the simulators"
+    },
+    {
+      "brand": "PuttView",
+      "model": "unknown",
+      "notes": "Putting technology integrated for short game practice"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://apps.apple.com/us/app/southern-swing/id6755700196",
+  "pricing_model": "membership_only",
+  "price_range_min_local": 299,
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not explicitly state if rental clubs are provided, but it is assumed members and guests must bring their own clubs for use in the simulators."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, the club has a BYOB policy, allowing members and guests to bring their own alcohol. An on-site market and lounge are also available for food."
+    },
+    {
+      "question": "How long does an 18-hole round typically take?",
+      "answer": "The website does not specify an exact duration for an 18-hole simulator round, but it mentions 'on your schedule' booking, implying flexibility."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "There is no specific information on whether children are allowed or if there are kid-specific amenities. Contact the venue for details on family policies."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

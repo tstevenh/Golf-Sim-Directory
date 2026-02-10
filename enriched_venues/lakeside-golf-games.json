@@ -1,0 +1,89 @@
+{
+  "name": "Lakeside Golf & Games",
+  "address": "19 N Main St, Cicero, IN 46034",
+  "city": "Cicero",
+  "region": "Indiana",
+  "country": "US",
+  "latitude": 40.132449,
+  "longitude": -86.0189,
+  "phone": "+13176399427",
+  "website": "https://www.lakesidegolfandgames.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770204491/golf_simulators/www_lakesidegolfandgames_com_ChIJD1rRXO-7FIgRAfQcHZ93X6s.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Lakeside+Golf+%26+Games/@40.132449,-86.0189001,14z/data=!4m8!1m2!2m1!1sLakeside+Golf+%26+Games!3m4!1s0x8814bbef5cd15a0f:0xab5f779f1d1cf401!8m2!3d40.132449!4d-86.0189001",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJD1rRXO-7FIgRAfQcHZ93X6s",
+  "venue_type": "sim_bar",
+  "about": "Lakeside Golf & Games offers a golf and entertainment venue featuring TruGolf simulators and arcade-style games. The facility is located north of Pizza House at 19 N. Main Street, Cicero, providing access to national and local courses year-round. Visitors can book hourly sessions for up to 4 golfers or 8 players for arcade games, with options for memberships including an Eagle Member plan and a Junior Golf Package. The venue also hosts events like birthday parties, team building activities, and corporate gatherings, operating 24/7 through online booking. With a focus on both serious practice and family fun, the venue provides immediate swing feedback and shot metrics to help improve golf skills.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|family_friendly|budget_friendly|private_rooms|late_night|kids_friendly",
+  "vibe_tags": "family_fun_center|party_atmosphere|tech_lab|community_club|casual|welcoming",
+  "who_its_for": "beginners|families|serious_golfers|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "TruGolf simulator with Apogee launcher provides immediate and meaningful feedback",
+    "Real-time camera replay of swings for detailed analysis",
+    "Bag mapping feature helps identify distance gaps and track shot consistency",
+    "Shot metrics like ball speed, spin rate, and mash rate for performance review"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Pizza can be ordered from Pizza House via provided link"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service on-site"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "TruGolf",
+      "model": "Apogee launcher",
+      "notes": "Premium simulator system with Apogee launcher for detailed swing feedback"
+    }
+  ],
+  "simulator_software": [
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://lgg.golf918.net/embed/g9ieskk64ijfjmk75hze4",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 175,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": false,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 8,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify whether clubs are provided, so it's recommended to bring your own for the best experience."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "Food can be ordered from Pizza House via the provided link. There's no mention of alcohol service, so outside drinks may not be permitted."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "The website doesn't specify the time for 18 holes, but hourly bookings are available for up to 4 golfers or 8 players for arcade games."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is kid-friendly, offering a Junior Golf Package and arcade games, plus it hosts birthday parties and other family events."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": null
+}

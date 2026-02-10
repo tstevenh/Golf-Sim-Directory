@@ -1,0 +1,90 @@
+{
+  "name": "D'Lance Golf",
+  "address": "14 Inverness Dr E A120 Suite A120, Englewood, CO 80112",
+  "city": "Englewood",
+  "region": "Colorado",
+  "country": "US",
+  "latitude": 39.569693,
+  "longitude": -104.861242,
+  "phone": "+17205731593",
+  "website": "https://www.dlancegolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770232039/golf_simulators/www_dlancegolf_com_ChIJcyNAdJOFbIcR-uGRBUOEsCY.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/D%27Lance+Golf/@39.5696934,-104.86124149999999,14z/data=!4m8!1m2!2m1!1sD%27Lance+Golf!3m4!1s0x876c859374402373:0x26b084430591e1fa!8m2!3d39.5696934!4d-104.86124149999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJcyNAdJOFbIcR-uGRBUOEsCY",
+  "email": "TFC-Logo-insta@4x-100-125x125.jpg",
+  "venue_type": "retail_fitting_center",
+  "about": "D'Lance Golf is a specialized facility focused on custom club fitting, indoor golf practice, and instruction. They utilize advanced technology, including TrackMan launch monitors and video analysis, to fit and build clubs to individual specifications. The venue offers 24-hour indoor practice access and provides services aimed at helping golfers improve their game quickly, with a stated focus on custom club fitting to shave 2 to 20 strokes off scores.",
+  "tags": "beginner_friendly|coaching_available|premium_tech|club_rentals|serious_practice|leagues",
+  "vibe_tags": "tech_lab|casual|welcoming|modern",
+  "who_its_for": "serious_golfers|beginners|juniors_youth|families|solo_practice",
+  "why_golfers_like_it": [
+    "Custom club fitting technology using TrackMan launch monitors for precise club building",
+    "24-hour indoor golf practice facility for flexible training access",
+    "Mobile fitting trailer for on-course, tour-quality fitting sessions",
+    "Focus on data-driven improvement with detailed ball flight analysis"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No on-site food service mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "TrackMan 4 simulator system used for ball flight tracking and fitting analysis"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "https://dlanceschedule.acuityscheduling.com/schedule.php",
+  "pricing_model": "mixed",
+  "price_range_min_local": 50,
+  "price_range_max_local": 450,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|pro_shop|club_fitting|leagues|wifi",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can bring your own clubs for fitting, or use the clubs and equipment provided at the facility during your session."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The website does not mention any food or drink service, suggesting it may be a BYOB facility, but this is not explicitly confirmed."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify a time for completing 18 holes in the simulator, as the primary focus is on fitting and practice rather than simulation."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "Yes, D'Lance Golf explicitly states they specialize in fitting juniors and youth golfers to help them learn faster."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-5PM\"], \"Tuesday\": [\"9AM-5PM\"], \"Wednesday\": [\"9AM-5PM\"], \"Thursday\": [\"9AM-5PM\"], \"Friday\": [\"9AM-5PM\"], \"Saturday\": [\"9AM-5PM\"], \"Sunday\": [\"Closed\"]}"
+}

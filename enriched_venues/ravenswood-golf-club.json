@@ -1,0 +1,91 @@
+{
+  "name": "Ravenswood Golf Club",
+  "address": "4711 N Ravenswood Ave Second Floor, Chicago, IL 60640",
+  "city": "Chicago",
+  "region": "Illinois",
+  "country": "US",
+  "latitude": 41.967604,
+  "longitude": -87.67369,
+  "phone": "+17735624164",
+  "website": "https://ravenswoodgc.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770199659/golf_simulators/ravenswoodgc_com_ChIJKfc45e7TD4gRGaJgPDzznnA.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Ravenswood+Golf+Club/@41.9676043,-87.67368979999999,14z/data=!4m8!1m2!2m1!1sRavenswood+Golf+Club!3m4!1s0x880fd3eee538f729:0x709ef33c3c60a219!8m2!3d41.9676043!4d-87.67368979999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJKfc45e7TD4gRGaJgPDzznnA",
+  "email": "filler@godaddy.com",
+  "venue_type": "sim_bar",
+  "about": "Ravenswood Golf Club is an indoor urban golf oasis in Chicago featuring eight Trackman simulators and a 1000 sq. ft. chipping and putting area. The club offers a year-round golf experience with two lounges equipped with 10' video walls, making it suitable for both practice and social events. It provides PGA-certified instruction and hosts leagues, parties, and tournaments, catering to golfers of all skill levels.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|coaching_available|date_night",
+  "vibe_tags": "sports_bar|tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|corporate_teams|families|solo_practice",
+  "why_golfers_like_it": [
+    "Premium Trackman technology for accurate ball and club tracking",
+    "Dedicated chipping and putting area for short game practice",
+    "Spacious lounges with large TVs for watching sports",
+    "Year-round leagues and social events for community engagement",
+    "PGA-certified instruction available for all skill levels"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of on-site food service"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service; BYOB not specified"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Eight Trackman simulators, all-digital Trackman facility"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 8,
+  "booking_url": "https://docs.google.com/forms/d/e/1FAIpQLSfZ7-UXW6DJwCH6wLKWznqE4aChSjQBvd1csFhvRH53GlvF-A/viewform?usp=sf_link",
+  "pricing_model": "unknown",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|tv_sports|private_party_room|leagues|pro_shop|club_fitting",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need clubs?",
+      "answer": "The website does not specify whether clubs are provided or required, so it's recommended to bring your own or inquire directly."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No information is provided about bringing outside food or drinks, so it's best to check with the club directly."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify the duration for 18 holes, as it depends on simulator availability and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "There is no specific mention of kid-friendly amenities or policies, so it's unclear whether children are accommodated."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": null
+}

@@ -1,0 +1,92 @@
+{
+  "name": "West End Golf Club",
+  "address": "118 Jackson Ave, Rutherford, NJ 07070",
+  "city": "Rutherford",
+  "region": "New Jersey",
+  "country": "US",
+  "latitude": 40.837649,
+  "longitude": -74.117025,
+  "phone": "+12014991600",
+  "website": "http://westendgolfclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770203737/golf_simulators/westendgolfclub_com_ChIJw-kwWuf5wokRjyjNfXrwp54.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/West+End+Golf+Club/@40.8376491,-74.1170252,14z/data=!4m8!1m2!2m1!1sWest+End+Golf+Club!3m4!1s0x89c2f9e75a30e9c3:0x9ea7f07a7dcd288f!8m2!3d40.8376491!4d-74.1170252",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJw-kwWuf5wokRjyjNfXrwp54",
+  "email": "info@westendgolfclub.com",
+  "venue_type": "sim_bar",
+  "about": "West End Golf Club is a premier indoor golf simulator facility located in New Jersey. The venue is designed to create a safe, non-intimidating space to grow the local golf community. With state-of-the-art technology and stunning graphics, it offers a true-to-life golfing experience for all skill levels, from seasoned pros to beginners. The club provides flexible booking options, hourly rentals, and membership plans, making it accessible for casual visits or dedicated practice sessions.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|coaching_available|club_rentals|community_club",
+  "vibe_tags": "community_club|casual|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "State-of-the-art simulators with advanced technology and stunning graphics",
+    "Non-intimidating environment welcoming to all skill levels",
+    "Flexible booking options with both hourly and membership plans",
+    "Dedicated coaching from PGA-approved professionals",
+    "Availability for leagues, events, and corporate gatherings"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of food service on premises"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service; BYOB policy not specified"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Unknown",
+      "model": "Unknown",
+      "notes": "Simulator hardware not explicitly specified on website"
+    }
+  ],
+  "simulator_software": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "http://westendgolfclub.com/appointments-1",
+  "pricing_model": "mixed",
+  "price_range_min_local": 40,
+  "price_range_max_local": 50,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|leagues|coaching_available",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you'll need to bring your own clubs to use the simulators."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The website does not specify a policy on bringing outside food and drinks."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify the time required to complete 18 holes."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The website does not explicitly mention kid-friendly amenities or policies."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"6AM-10PM\"], \"Tuesday\": [\"6AM-10PM\"], \"Wednesday\": [\"6AM-10PM\"], \"Thursday\": [\"6AM-10PM\"], \"Friday\": [\"6AM-11PM\"], \"Saturday\": [\"6AM-11PM\"], \"Sunday\": [\"6AM-8PM\"]}"
+}

@@ -1,0 +1,89 @@
+{
+  "name": "PARennial Golf - West Loop",
+  "address": "1335 W Lake St Ste 103, Chicago, IL 60607",
+  "city": "Chicago",
+  "region": "Illinois",
+  "country": "US",
+  "latitude": 41.88533,
+  "longitude": -87.660445,
+  "phone": "+13123136218",
+  "website": "https://parennialgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770199634/golf_simulators/parennialgolf_com_ChIJSSCy2JEtDogR_yD0OYhV3RA.png",
+  "google_maps_url": "https://www.google.com/maps/place/PARennial+Golf+-+West+Loop/@41.8853304,-87.6604454,14z/data=!4m8!1m2!2m1!1sPARennial+Golf+-+West+Loop!3m4!1s0x880e2d91d8b22049:0x10dd558839f420ff!8m2!3d41.8853304!4d-87.6604454",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJSSCy2JEtDogR_yD0OYhV3RA",
+  "venue_type": "multi_sport_sim",
+  "about": "PARennial Golf offers a premium indoor golf experience in Chicago with state-of-the-art Trackman technology. The facilities provide an environment designed for serious practice and play, featuring high-fidelity course recreations and professional-grade simulators. With locations in Lincoln Park, West Loop, and Wicker Park, the venue caters to golfers of all levels, offering flexible booking options, 24/7 access for members, and PGA professional instruction to enhance gameplay and skill development.",
+  "tags": "serious_golfers|beginner_friendly|coaching_available|premium_tech|corporate_events|leagues|club_rentals|private_rooms|juniors_youth|solo_practice",
+  "vibe_tags": "private_luxury|tech_lab|community_club|modern",
+  "who_its_for": "serious_golfers|beginners|corporate_teams|solo_practice|juniors_youth",
+  "why_golfers_like_it": [
+    "Real-time simulator bay availability and walk-in play options",
+    "24/7 unlimited access for members with no booking requirements",
+    "PGA professional instruction tailored to all skill levels",
+    "High-fidelity Trackman technology with accurate shot data"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned, BYOB likely allowed"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No bar service mentioned, BYOB likely allowed"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Premium radar-based launch monitor technology with accurate ball and club tracking"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://parennialgolf.com/bookings",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, players are expected to bring their own golf clubs to use with the simulators."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "BYOB (Bring Your Own Beverage) is likely allowed as no bar service is mentioned, though food service isn't specified."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "18 holes typically take about 2-3 hours depending on group size and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, PARennial Golf welcomes junior golfers and offers instruction programs for youth."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

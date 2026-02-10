@@ -1,0 +1,98 @@
+{
+  "name": "Evergreen Golf Club",
+  "address": "14603 NE 87th St, Redmond, WA 98052",
+  "city": "Redmond",
+  "region": "Washington",
+  "country": "US",
+  "latitude": 47.680173,
+  "longitude": -122.144947,
+  "phone": "+14254489259",
+  "website": "https://evergreengolfclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770200453/golf_simulators/evergreengolfclub_com_ChIJm525TWANkFQRMWhGVyspDY8.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Evergreen+Golf+Club/@47.6801731,-122.14494699999999,14z/data=!4m8!1m2!2m1!1sEvergreen+Golf+Club!3m4!1s0x54900d604db99d9b:0x8f0d292b57466831!8m2!3d47.6801731!4d-122.14494699999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJm525TWANkFQRMWhGVyspDY8",
+  "email": "tacoma@evergreengolfclub.com",
+  "venue_type": "multi_sport_sim",
+  "about": "Evergreen Golf Club is an indoor golf facility dedicated to year-round training and play. The club provides access to state-of-the-art technology, including advanced simulator bays, a comprehensive short game complex with a chipping green and bunker, and a PuttView green for putting practice. Members can refine their skills with expert instruction in group or one-on-one settings within a high-performance, welcoming environment. The facility operates with a membership model, offering several tiers with varying access to simulators and amenities, designed to cater to different golfer needs from casual practice to dedicated skill development.",
+  "tags": "serious_golfers|juniors_youth|corporate_events|premium_tech|coaching_available|club_rentals|private_rooms|leagues|community_club",
+  "vibe_tags": "industrial_training|tech_lab|community_club|modern",
+  "who_its_for": "serious_golfers|families|corporate_teams|juniors_youth|solo_practice",
+  "why_golfers_like_it": [
+    "Access to Trackman and About Golf simulators for accurate, immersive indoor play",
+    "Comprehensive short game complex with a chipping green, bunker, and PuttView green technology",
+    "A variety of membership options tailored to different usage needs, from limited to unlimited simulator hours"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "Not mentioned as available on-site"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "Not mentioned as available on-site"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "unknown",
+      "notes": "Uses Doppler radar and camera data technology"
+    },
+    {
+      "brand": "About Golf",
+      "model": "unknown",
+      "notes": "Uses Doppler radar and camera technology"
+    }
+  ],
+  "simulator_so": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green|moving_floor_green",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://clients.uschedule.com/evergreengolfclub/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|private_party_room|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not explicitly state whether you need to bring your own clubs, but it mentions having equipment for use, including a chipping green and bunker for short game practice."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The website does not mention a policy on outside food or drinks, suggesting it may be a BYOB facility, but this is not explicitly confirmed."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "The website does not specify a typical duration for playing 18 holes in a simulator."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Evergreen Golf Club offers junior golf programs, including Evergreen Elite and PGA Junior League, indicating a kid-friendly environment."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-10PM\"], \"Saturday\": [\"10AM-10PM\"], \"Sunday\": [\"10AM-7PM\"]}"
+}

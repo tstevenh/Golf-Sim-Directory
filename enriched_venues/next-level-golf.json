@@ -1,0 +1,100 @@
+{
+  "name": "Next Level Golf",
+  "address": "140 Long Rd Ste 110, Chesterfield, MO 63005",
+  "city": "Chesterfield",
+  "region": "Missouri",
+  "country": "US",
+  "latitude": 38.666356,
+  "longitude": -90.616863,
+  "phone": "+16365779124",
+  "website": "http://golfacademyplus.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770201669/golf_simulators/golfacademyplus_com_ChIJaU3gC3TV3ocRZL74Fp1PpcE.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Next+Level+Golf/@38.6663557,-90.616863,14z/data=!4m8!1m2!2m1!1sNext+Level+Golf!3m4!1s0x87ded5740be04d69:0xc1a54f9d16f8be64!8m2!3d38.6663557!4d-90.616863",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJaU3gC3TV3ocRZL74Fp1PpcE",
+  "email": "nextlevelgolfstlouis@gmail.com",
+  "venue_type": "sim_bar|training_studio",
+  "about": "Next Level Golf is an indoor golf facility located in Chesterfield, MO, offering a comprehensive range of services. The venue features state-of-the-art golf simulators, driving range, putting and chipping greens, and expert club fitting and repair services. It also operates as a sports bar and event space, catering to golfers of all skill levels with personalized lessons and junior programs. The facility combines a training environment with a social atmosphere, providing both practice opportunities and a place for relaxation and gatherings.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|coaching_available|kids_friendly|club_rentals|private_rooms",
+  "vibe_tags": "sports_bar|community_club|casual|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "Multiple premium simulator brands including Trackman and Uneekor for advanced ball tracking",
+    "On-site bar and grill offering a full menu of food and drinks for a complete experience",
+    "Comprehensive services including custom club fitting, repair, and instruction all in one location"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full-service kitchen with a variety of menu options available at the on-site sports bar"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar available with a selection of drinks and beverages in the sports bar atmosphere"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Premium radar-based launch monitor for precise ball and club tracking"
+    },
+    {
+      "brand": "Full Swing Simulator",
+      "model": "unknown",
+      "notes": "Simulator system for virtual golf play"
+    },
+    {
+      "brand": "Uneekor",
+      "model": "unknown",
+      "notes": "Photometric camera-based simulator system"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://widgets.courtreserve.com/Online/Public/EmbedCode/8927/24193",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 140,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|lockers|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You are welcome to bring your own clubs, and you can also use your own launch tracker devices. The facility also provides club rentals and fittings for those who need them."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The facility has a full bar and kitchen on-site, offering a variety of food and drinks for purchase. External food and drink policies are not specified."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes on a simulator?",
+      "answer": "The time for 18 holes can vary, but most simulator sessions allow for a complete round to be played. Specific timing information is not provided."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Next Level Golf offers junior golf programs and lessons specifically designed for young golfers, making it a family-friendly environment."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-8PM\"], \"Tuesday\": [\"9AM-8PM\"], \"Wednesday\": [\"9AM-8PM\"], \"Thursday\": [\"9AM-8PM\"], \"Friday\": [\"9AM-8PM\"], \"Saturday\": [\"9AM-8PM\"], \"Sunday\": [\"9AM-8PM\"]}"
+}

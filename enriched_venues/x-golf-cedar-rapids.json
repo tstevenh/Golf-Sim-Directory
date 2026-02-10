@@ -1,0 +1,90 @@
+{
+  "name": "X-Golf Cedar Rapids",
+  "address": "5235 Buffalo Rdg Dr Suite 100, Cedar Rapids, IA 52411",
+  "city": "Cedar Rapids",
+  "region": "Iowa",
+  "country": "US",
+  "latitude": 42.031603,
+  "longitude": -91.703675,
+  "phone": "+13192005588",
+  "website": "http://www.xgolfcr.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770207882/golf_simulators/www_xgolfcr_com_ChIJL8zu5uL75IcRvseSaSr39AI.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/X-Golf+Cedar+Rapids/@42.0316034,-91.7036751,14z/data=!4m8!1m2!2m1!1sX-Golf+Cedar+Rapids!3m4!1s0x87e4fbe2e6eecc2f:0x2f4f72a6992c7be!8m2!3d42.0316034!4d-91.7036751",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJL8zu5uL75IcRvseSaSr39AI",
+  "email": "events@xgolfcr.com",
+  "venue_type": "sim_bar",
+  "about": "X-Golf Cedar Rapids offers an indoor golf simulation experience utilizing advanced technology to provide accurate ball tracking and realistic gameplay. The venue features a full bar and food menu, making it suitable for social gatherings, casual play, and serious practice alike. It accommodates various activities including leagues, tournaments, private lessons, and events for groups up to 125 guests.",
+  "tags": "food_and_drinks|leagues|corporate_events|beginner_friendly|premium_tech|club_rentals|coaching_available",
+  "vibe_tags": "sports_bar|community_club|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|large_groups",
+  "why_golfers_like_it": [
+    "State-of-the-art simulator technology for realistic ball flight and gameplay",
+    "Full-service bar and food menu available on-site",
+    "Access to professional coaching and game analysis",
+    "Multiple league options for competitive and social play"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full food menu available; details require direct contact"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar available; details require direct contact"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "X-Golf",
+      "model": "Simulator System",
+      "notes": "State-of-the-art system combining camera systems, infrared lasers, and impact sensors"
+    }
+  ],
+  "simulator_software": [
+    "X-Golf Software"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green|mixed",
+  "lefty_friendly": true,
+  "bay_count_total": 8,
+  "booking_url": "http://www.xgolfcr.com/",
+  "pricing_model": "per_bay_hour|membership_only|mixed",
+  "price_range_min_local": 15,
+  "price_range_max_local": 50,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 8,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "Club rental is available, and players can use their own clubs if they prefer."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, outside food and drinks are not permitted. The venue offers a full bar and food menu."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Generally, it takes about one hour for an individual player to complete 18 holes. Additional players may require extra time depending on skill level."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, X-Golf Cedar Rapids welcomes children of all ages and offers junior leagues."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"8AM-11PM\"], \"Tuesday\": [\"9AM-11PM\"], \"Wednesday\": [\"9AM-11PM\"], \"Thursday\": [\"9AM-11PM\"], \"Friday\": [\"8AM-12AM\"], \"Saturday\": [\"8AM-12AM\"], \"Sunday\": [\"9AM-10PM\"]}"
+}

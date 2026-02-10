@@ -1,0 +1,93 @@
+{
+  "name": "Trempealeau Mountain Golf Club",
+  "address": "W24411 Fairway Ln, Trempealeau, WI 54661",
+  "city": "Trempealeau",
+  "region": "Wisconsin",
+  "country": "US",
+  "latitude": 44.037155,
+  "longitude": -91.438568,
+  "phone": "+16085347417",
+  "website": "http://www.golfthemountain.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770240110/golf_simulators/www_golfthemountain_com_ChIJt41kn0xB-YcRDH8MXWydx1Y.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Trempealeau+Mountain+Golf+Club/@44.0371551,-91.4385681,14z/data=!4m8!1m2!2m1!1sTrempealeau+Mountain+Golf+Club!3m4!1s0x87f9414c9f648db7:0x56c79d6c5d0c7f0c!8m2!3d44.0371551!4d-91.4385681",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJt41kn0xB-YcRDH8MXWydx1Y",
+  "venue_type": "sim_bar|country_club",
+  "about": "Trempealeau Mountain Golf Club is a scenic and welcoming destination for golfers of all skill levels. Nestled near the majestic Mississippi river of western Wisconsin, the course features an 18-hole championship layout with beautifully maintained greens that offer both playability and challenge. The property includes a large, well-kept driving range and a clubhouse where players can unwind. The venue operates a golf simulator facility open Thursday through Sunday, offering a complement to its outdoor course, which is closed for the season.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|coaching_available|juniors_youth|family_friendly",
+  "vibe_tags": "casual|welcoming|community_club",
+  "who_its_for": "beginners|families|corporate_teams|solo_practice|juniors_youth",
+  "why_golfers_like_it": [
+    "High-quality golf simulator technology for year-round play",
+    "Beautiful and scenic course setting with Mississippi River views",
+    "Comprehensive amenities including clubhouse with bar and driving range",
+    "Hosts leagues, events, and brand-specific club fitting sessions",
+    "Variety of membership options available for individuals and families"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Clubhouse offers food service"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Clubhouse has a full bar with cold drinks"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "unknown",
+      "notes": "Premium technology based on fitting events"
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://foreupsoftware.com/index.php/booking/23035/12621#teetimes",
+  "pricing_model": "per_person_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "It is recommended to bring your own clubs, but the facility likely has rentals available for those without."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue has a full bar and kitchen, so outside food and drinks may not be permitted."
+    },
+    {
+      "question": "How long does it take to play 18 holes on the simulator?",
+      "answer": "18 holes on the simulator typically takes between 2-3 hours depending on group size and pace."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, Trempealeau Mountain Golf Club offers junior memberships and programs, making it suitable for families."
+    }
+  ],
+  "simulator_software": [
+    "ForeUP"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"Closed\"], \"Wednesday\": [\"Closed\"], \"Thursday\": [\"11AM-8PM\"], \"Friday\": [\"11AM-8PM\"], \"Saturday\": [\"10AM-6PM\"], \"Sunday\": [\"10AM-6PM\"]}"
+}

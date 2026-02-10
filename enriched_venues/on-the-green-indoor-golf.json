@@ -1,0 +1,83 @@
+{
+  "name": "On the Green Indoor Golf",
+  "address": "233 Main St, Wayne, ME 04284",
+  "city": "Wayne",
+  "region": "Maine",
+  "country": "US",
+  "latitude": 44.347676,
+  "longitude": -70.041983,
+  "phone": "+12076850074",
+  "website": "http://otgindoorgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770206139/golf_simulators/otgindoorgolf_com_ChIJmaB4YycZskwR9BkK6Z-kWiI.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/On+the+Green+Indoor+Golf/@44.3476761,-70.0419828,14z/data=!4m8!1m2!2m1!1sOn+the+Green+Indoor+Golf!3m4!1s0x4cb219276378a099:0x225aa49fe90a19f4!8m2!3d44.3476761!4d-70.0419828",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJmaB4YycZskwR9BkK6Z-kWiI",
+  "email": "otgindoorgolf@gmail.com",
+  "venue_type": "sim_bar",
+  "about": "On the Green Indoor Golf offers year-round golf simulation on Route 133 in Wayne, featuring bays equipped with launch monitors, swing analyzers, and a wide selection of courses. The facility hosts individual practice sessions, group play, leagues, and special events like corporate or bachelor parties. Pricing is based on hourly bay rental, with packages available for frequent players, and gift certificates offered as well.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|budget_friendly|private_rooms|club_rentals|community_club",
+  "vibe_tags": "sports_bar|community_club|family_fun_center",
+  "who_its_for": "beginners|families|corporate_teams|solo_practice|low_handicap",
+  "why_golfers_like_it": [
+    "18-hole simulation for up to 8 golfers per bay",
+    "Comprehensive swing analysis data for training",
+    "Over 1800 world-famous courses available to play"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "On-site pub with a full menu available."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "On-site bar serving drinks and cocktails."
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": null,
+  "booking_url": "https://www.otgindoorgolf.com/contact-us",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 30,
+  "price_range_max_local": 40,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": null,
+  "max_group_size_per_bay": 8,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, players are expected to bring their own clubs to use in the simulators."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, outside food and drink are not permitted. The venue has an on-site pub and bar available for all guests."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "One person can play a full 18 holes in about an hour. Two people can play 9 holes in an hour."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "Yes, the facility is suitable for families and can host birthday parties, making it a kid-friendly environment."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"9AM-9PM\"], \"Wednesday\": [\"9AM-9PM\"], \"Thursday\": [\"9AM-9PM\"], \"Friday\": [\"9AM-9PM\"], \"Saturday\": [\"9AM-9PM\"], \"Sunday\": [\"10AM-6PM\"]}"
+}

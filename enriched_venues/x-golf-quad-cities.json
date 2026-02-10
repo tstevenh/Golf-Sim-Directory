@@ -1,0 +1,90 @@
+{
+  "name": "X-Golf Quad Cities",
+  "address": "2574 Middle Rd, Bettendorf, IA 52722",
+  "city": "Bettendorf",
+  "region": "Iowa",
+  "country": "US",
+  "latitude": 41.548107,
+  "longitude": -90.496669,
+  "phone": "+15639008144",
+  "website": "https://playxgolf.com/locations/quad-cities/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770207869/golf_simulators/playxgolf_com_ChIJpxvvThw34ocRytXhpDxQ-ps.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/X-Golf+Quad+Cities/@41.548107099999996,-90.4966687,14z/data=!4m8!1m2!2m1!1sX-Golf+Quad+Cities!3m4!1s0x87e2371c4eef1ba7:0x9bfa503ca4e1d5ca!8m2!3d41.548107099999996!4d-90.4966687",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJpxvvThw34ocRytXhpDxQ-ps",
+  "email": "chet@xgolfqc.com",
+  "venue_type": "sim_bar",
+  "about": "X-Golf Quad Cities is an indoor golf facility featuring eight state-of-the-art golf simulators. The venue offers a premium experience combining advanced technology with amenities like a full bar and food menu, catering to both casual golfers and serious players. It is best known for its realistic simulation technology, which provides an accurate golfing experience for all skill levels, and its availability for private events, leagues, and individual play. The facility includes one fully private VIP simulator and is designed for training, entertainment, and social gatherings, making it a versatile destination for various golf-related activities.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|private_rooms|club_rentals|coaching_available",
+  "vibe_tags": "sports_bar|private_luxury|community_club",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "State-of-the-art golf simulators with unparalleled accuracy and realism",
+    "Fully private VIP simulator option for a premium experience",
+    "Comprehensive amenities including a full bar, food menu, and event hosting capabilities",
+    "PGA professional coaching available for skill improvement"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen and food menu available, with online menu accessible via the website."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar available on-site."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "X-Golf",
+      "model": "Simulator System",
+      "notes": "X-Golf's proprietary system using camera systems, infrared lasers, and impact sensors."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": 8,
+  "booking_url": "https://playxgolf.com/locations/quad-cities/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 39,
+  "price_range_max_local": 59,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|private_party_room|wifi|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "No, rental clubs are available, and the simulator has its own automatic teeing system."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, outside food and drinks are not permitted. The venue offers a full kitchen and bar menu."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "It takes about 1 hour for one player to complete 18 holes. For multiple players, an additional hour per person is recommended."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, children of all ages are welcome, and the venue accommodates families and junior golfers."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"9AM-11PM\"], \"Tuesday\": [\"9AM-11PM\"], \"Wednesday\": [\"9AM-11PM\"], \"Thursday\": [\"9AM-11PM\"], \"Friday\": [\"8AM-12AM\"], \"Saturday\": [\"8AM-12AM\"], \"Sunday\": [\"8AM-10PM\"]}"
+}

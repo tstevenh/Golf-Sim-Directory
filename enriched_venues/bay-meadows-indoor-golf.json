@@ -1,0 +1,91 @@
+{
+  "name": "Bay Meadows Indoor Golf",
+  "address": "31 Cronin Rd, Queensbury, NY 12804",
+  "city": "Queensbury",
+  "region": "New York",
+  "country": "US",
+  "latitude": 43.33732,
+  "longitude": -73.65036,
+  "phone": "+15187921650",
+  "website": "https://baymeadows.golf/pga-golf-simulators/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770217706/golf_simulators/baymeadows_golf_ChIJ91uSbQDR34kRnyMXNdzte88.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Bay+Meadows+Indoor+Golf/@43.337320399999996,-73.6503604,14z/data=!4m8!1m2!2m1!1sBay+Meadows+Indoor+Golf!3m4!1s0x89dfd1006d925bf7:0xcf7beddc3517239f!8m2!3d43.337320399999996!4d-73.6503604",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ91uSbQDR34kRnyMXNdzte88",
+  "email": "baymeadowsgolf@gmail.com",
+  "venue_type": "sim_bar",
+  "about": "Bay Meadows Indoor Golf is a premier golf simulator center offering year-round access to virtual play on over 40 of the world's finest courses. Located in Queensbury, NY, the venue features five state-of-the-art PGA Tour Simulators equipped with advanced 3Trak and Immersive Play Technology for pinpoint accuracy and a realistic golf experience. The facility also includes an on-site golf course, a practice green, a driving range, and an attached pub and grill, making it a comprehensive destination for both on-course and simulated golf.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|coaching_available|family_friendly",
+  "vibe_tags": "sports_bar|family_fun_center|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Premium 3Trak launch monitor provides laboratory-level accuracy for ball and club tracking",
+    "Access to over 40 challenging virtual courses for practice and play in any weather",
+    "Attached Bogey's Pub & Grill offers fine dining at casual prices for a complete experience",
+    "Winter golf leagues provide structured play and social opportunities with special rates",
+    "Professional instruction is available from a knowledgeable golf course pro"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen service with famous crab cakes, burgers, wraps, and pizzas. Fine dining at casual prices."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Large assortment of local, domestic, and imported beers, along with fine wines from around the world. Take-out available."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "PGA Tour Simulators",
+      "model": "3Trak System",
+      "notes": "Reference-quality laboratory level launch tracking system, the first of its kind commercially available. Provides unyielding dynamic performance and pinpoint accuracy."
+    }
+  ],
+  "simulator_software": [
+    "Immersive Play Technology"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 5,
+  "booking_url": "https://baymeadows.golf/contact/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue provides clubs for use, but golfers are welcome to bring their own equipment to play on the simulators."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "Outside food and drinks are not mentioned. The venue has an on-site restaurant and bar, Bogey's Pub & Grill, which offers food and drinks for purchase."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The league specifics mention a 2 hours and 15 minutes limit for 9 holes per foursome, suggesting 18 holes would take approximately 4.5 hours."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "Yes, the venue is family-friendly and offers junior golf leagues, making it suitable for players of all ages and skill levels."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"Closed\"], \"Wednesday\": [\"Closed\"], \"Thursday\": [\"Closed\"], \"Friday\": [\"Closed\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

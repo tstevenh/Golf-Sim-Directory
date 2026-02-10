@@ -1,0 +1,92 @@
+{
+  "name": "Fore Seasons Golf",
+  "address": "524 Wards Corner Rd, Loveland, OH 45140",
+  "city": "Loveland",
+  "region": "Ohio",
+  "country": "US",
+  "latitude": 39.228044,
+  "longitude": -84.277961,
+  "phone": "+15138374653",
+  "website": "https://www.foreseasonsgolfloveland.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770211082/golf_simulators/www_foreseasonsgolfloveland_com_ChIJqSAw7xxVQIgRCq1N7BgRMys.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Fore+Seasons+Golf/@39.228043899999996,-84.2779608,14z/data=!4m8!1m2!2m1!1sFore+Seasons+Golf!3m4!1s0x8840551cef3020a9:0x2b331118ec4dad0a!8m2!3d39.228043899999996!4d-84.2779608",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJqSAw7xxVQIgRCq1N7BgRMys",
+  "email": "foreseasonsgolfloveland@gmail.com",
+  "venue_type": "sim_bar",
+  "about": "Fore Seasons Golf is a self-service indoor golf facility providing year-round access to technology-driven golf simulation. The venue features oversized bays equipped with Trackman's state-of-the-art iO simulators, allowing golfers of all skill levels to play on over 250 iconic courses or practice with precision data. With a focus on convenience and technology, the facility operates on a 24/7 basis, offering a climate-controlled environment for both casual rounds and serious practice sessions. Pricing is structured as transparent bay rentals, with options to book online, and the venue is designed to accommodate groups, individuals, and private coaching sessions.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|club_rentals|private_rooms|coaching_available|date_night",
+  "vibe_tags": "casual|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Industry-leading Trackman iO simulators with over 90% accuracy on key metrics",
+    "24/7 access and self-service operation for maximum flexibility",
+    "Ability to play on 250+ iconic and fictional courses worldwide",
+    "Option to bring food, drinks, and order delivery for a comfortable experience",
+    "Support for private lessons with external instructors",
+    "Accurate ball and club tracking for realistic practice and play"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Allowed to bring own refreshments and order in delivered food to the facility"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "Not mentioned, but BYOB is permitted for beverages"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "State-of-the-art Indoor Optimized Simulator, the world's most advanced simulator"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "auto_putt|gimme_circle|real_putting_surface|dedicated_green|moving_floor_green|mixed",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.yourgolfbooking.com/venues/golf-fore-seasons/booking/bays",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|kitchen_food|tv_sports|wifi|pro_shop|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify club rentals, so it is recommended that players bring their own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, you can bring your own refreshments and even order in delivered food to the facility. Refrigerators are available in each bay to keep beverages cold."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Using default auto-putt settings, an 18-hole course typically takes one player one hour. For four players, expect 3-4 hours. High handicap players or those using manual putting may take longer."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, the facility is family-friendly, with courses like London Gardens designed for players of all ages and skill levels."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"6AM-12AM\"], \"Tuesday\": [\"6AM-12AM\"], \"Wednesday\": [\"6AM-12AM\"], \"Thursday\": [\"6AM-12AM\"], \"Friday\": [\"6AM-12AM\"], \"Saturday\": [\"6AM-12AM\"], \"Sunday\": [\"6AM-12AM\"]}"
+}

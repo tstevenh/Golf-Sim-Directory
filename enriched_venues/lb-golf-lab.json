@@ -1,0 +1,95 @@
+{
+  "name": "L&B Golf Lab",
+  "address": "401 Outlet Center Dr, Georgetown, KY 40324",
+  "city": "Georgetown",
+  "region": "Kentucky",
+  "country": "US",
+  "latitude": 38.218057,
+  "longitude": -84.53729,
+  "phone": "+15026428044",
+  "website": "https://yourgolfbooking.com/venues/leaf-and-barrel/booking/bays",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770264203/golf_simulators/yourgolfbooking_com_ChIJLVR4T7I_QogRxSBi5pkYqxI.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/L%26B+Golf+Lab/@38.2180568,-84.5372903,14z/data=!4m8!1m2!2m1!1sL%26B+Golf+Lab!3m4!1s0x88423fb24f78542d:0x12ab1899e66220c5!8m2!3d38.2180568!4d-84.5372903",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJLVR4T7I_QogRxSBi5pkYqxI",
+  "email": "hello@yourgolfbooking.com",
+  "venue_type": "sim_bar",
+  "about": "Leaf & Barrel Golf Lab is an indoor golf facility offering a variety of booking options for both public and private use. The venue features a dedicated simulator system for booking bays and lessons, along with the ability to offer memberships, loyalty cards, and other services. It is designed to be a modern entertainment space that combines golf with a lounge-like atmosphere, providing a direct booking experience for customers through the YGB platform.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|coaching_available",
+  "vibe_tags": "tech_lab|casual|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Direct booking system with your branding",
+    "Membership and loyalty card offerings",
+    "Integrated point of sale system",
+    "Dedicated simulator booking system",
+    "Designed for golf operators by golf operators"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen available"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar available"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Premium radar-based launch monitor"
+    }
+  ],
+  "simulator_so": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://yourgolfbooking.com/venues/leaf-and-barrel/booking/bays",
+  "pricing_model": "mixed",
+  "price_range_min_local": 17.5,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|lockers|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Club rentals are available at the venue."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "The venue has a full kitchen and bar, and you can also bring your own food and drink."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "It typically takes about 1 hour to play 18 holes."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is kid-friendly and welcomes families."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"2-9PM\"], \"Tuesday\": [\"2-9PM\"], \"Wednesday\": [\"2-9PM\"], \"Thursday\": [\"2-9PM\"], \"Friday\": [\"2-11PM\"], \"Saturday\": [\"12-11PM\"], \"Sunday\": [\"1-6PM\"]}"
+}

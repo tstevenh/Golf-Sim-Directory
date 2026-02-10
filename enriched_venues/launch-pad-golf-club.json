@@ -1,0 +1,89 @@
+{
+  "name": "Launch Pad Golf Club",
+  "address": "3650 Murrell Rd Suite 116, Rockledge, FL 32955",
+  "city": "Rockledge",
+  "region": "Florida",
+  "country": "US",
+  "latitude": 28.297655,
+  "longitude": -80.722545,
+  "phone": "+13214231783",
+  "website": "http://www.lpgcbrevard.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770220789/golf_simulators/www_lpgcbrevard_com_ChIJ3XXvKQAB3ogRppcJqQdGOa8.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Launch+Pad+Golf+Club/@28.2976554,-80.7225454,14z/data=!4m8!1m2!2m1!1sLaunch+Pad+Golf+Club!3m4!1s0x88de010029ef75dd:0xaf394607a90997a6!8m2!3d28.2976554!4d-80.7225454",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ3XXvKQAB3ogRppcJqQdGOa8",
+  "venue_type": "sim_bar|training_studio",
+  "about": "Launch Pad Golf Club is a golf simulator and training facility that operates on a 24/7 schedule, offering all-weather play and practice in an air-conditioned environment. The venue is powered by TrackMan 4 technology, providing a private, scheduled space for solo sessions, group play, and family activities. It features a dedicated putting green and a 'heckle bar' for social observation, alongside a membership model designed for flexible, on-demand access.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|coaching_available|family_friendly|late_night",
+  "vibe_tags": "sports_bar|family_fun_center|community_club|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "24/7 access for flexible scheduling",
+    "PGA-level TrackMan technology for accurate shot analysis",
+    "Private, climate-controlled environment for focused practice",
+    "Social features like the 'heckle bar' and group play options"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "BYOB facility; several food and beverage options available nearby, including delivery"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "BYOB facility; members can bring their own alcohol"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "Uses Optically Enhanced Radar Tracking (OERT) for club and ball-flight measurement"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://www.lpgcbrevard.com/Our-Golf-Club/Online-Play",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|tv_sports|leagues|pro_shop|coaching_available",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you need to bring your own clubs for play and practice sessions."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, Launch Pad is a BYOB facility, allowing members to bring their own food and beverages. There are also nearby restaurants and delivery options available."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes can vary depending on the simulator software and group size, but it typically takes 2-3 hours for a full round."
+    },
+    {
+      "question": "Is Launch Pad Golf Club kid-friendly?",
+      "answer": "Yes, the venue is family-friendly and offers activities suitable for children, including family-fun games and a dedicated putting green."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"12AM-12PM\"], \"Tuesday\": [\"12AM-12PM\"], \"Wednesday\": [\"12AM-12PM\"], \"Thursday\": [\"12AM-12PM\"], \"Friday\": [\"12AM-12PM\"], \"Saturday\": [\"12AM-12PM\"], \"Sunday\": [\"12AM-12PM\"]}"
+}

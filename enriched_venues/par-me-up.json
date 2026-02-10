@@ -1,0 +1,95 @@
+{
+  "name": "Par Me Up",
+  "address": "23285 Hall Rd, Macomb, MI 48042",
+  "city": "Macomb",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 42.630682,
+  "longitude": -82.872185,
+  "phone": "+15862310123",
+  "website": "http://parmeup.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770203061/golf_simulators/parmeup_com_ChIJt5h5g3ohJYgRo0qQki_XpH8.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Par+Me+Up/@42.6306817,-82.87218539999999,14z/data=!4m8!1m2!2m1!1sPar+Me+Up!3m4!1s0x8825217a837998b7:0x7fa4d72f92904aa3!8m2!3d42.6306817!4d-82.87218539999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJt5h5g3ohJYgRo0qQki_XpH8",
+  "email": "golf@parmeup.com",
+  "venue_type": "sim_bar",
+  "about": "Par Me Up is a premium indoor golf simulator and practice facility located in Macomb, Michigan. It features 9 bays equipped with Trackman 4 technology, providing a sophisticated environment for practicing and playing on over 300 virtual courses. The venue offers an early bird special from 8am-12pm, Monday through Friday, and is open seven days a week with extended hours. The facility is family-friendly and provides a welcoming atmosphere for golfers of all skill levels to elevate their game. With a focus on technology and user experience, Par Me Up utilizes the TrackMan app to track sessions and provide data-driven feedback for improvement.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|kids_friendly|corporate_events|leagues|premium_tech|budget_friendly|private_rooms|club_rentals",
+  "vibe_tags": "tech_lab|family_fun_center|community_club|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Advanced Trackman 4 technology for precise shot data and course simulation",
+    "Family-friendly environment with a welcoming atmosphere for all skill levels",
+    "Convenient early bird specials and flexible booking options",
+    "Ability to play and practice on over 300 virtual courses",
+    "Integration with TrackMan app for session data tracking and improvement analysis"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Website mentions availability, but no specific details on food service"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service; BYOB not indicated"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "9 bays equipped with Trackman 4 technology"
+    }
+  ],
+  "simulator_so": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 9,
+  "booking_url": "http://parmeup.com/schedule-an-appointment",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": 9,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|lockers|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website mentions 'club_rentals' and 'club_fitting' in its amenities, indicating that clubs are available for use at the facility. You can likely rent clubs or use your own."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue mentions food availability in its amenities but provides no specific details on a BYOB policy. It's best to contact them directly for clarification on external food and drink."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify the time required to play 18 holes. Session times are typically 50 minutes, but the duration for a full 18-hole simulation may vary depending on the number of players and pace of play."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "Yes, the facility explicitly describes itself as 'family-friendly' and includes 'kids_friendly' in its tags, making it suitable for golfers of all ages, including children."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"8AM-10PM\"], \"Tuesday\": [\"8AM-10PM\"], \"Wednesday\": [\"8AM-10PM\"], \"Thursday\": [\"8AM-10PM\"], \"Friday\": [\"8AM-10PM\"], \"Saturday\": [\"8AM-10PM\"], \"Sunday\": [\"8AM-8PM\"]}"
+}

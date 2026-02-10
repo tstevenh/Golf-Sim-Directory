@@ -1,0 +1,89 @@
+{
+  "name": "The Golf Room",
+  "address": "1520 3rd St NW, Great Falls, MT 59404",
+  "city": "Great Falls",
+  "region": "Montana",
+  "country": "US",
+  "latitude": 47.520946,
+  "longitude": -111.309332,
+  "phone": "+14068681072",
+  "website": "http://www.thegolfroom.net/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770234294/golf_simulators/www_thegolfroom_net_ChIJuyjKii85QlMRb6-95PCkTJA.png",
+  "google_maps_url": "https://www.google.com/maps/place/The+Golf+Room/@47.5209456,-111.309332,14z/data=!4m8!1m2!2m1!1sThe+Golf+Room!3m4!1s0x5342392f8aca28bb:0x904ca4f0e4bdaf6f!8m2!3d47.5209456!4d-111.309332",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJuyjKii85QlMRb6-95PCkTJA",
+  "email": "info@thegolfroom.net",
+  "venue_type": "multi_sport_sim",
+  "about": "The Golf Room is an indoor golf simulator venue located in Great Falls, Montana, offering 24/7 access to golfing on over 90 PGA-certified courses. The facility uses high-end aG indoor golf simulators, which are praised for their precision in replicating outdoor courses. The venue operates on a mixed pricing model, offering hourly pay-by-the-minute public play rates and an annual family membership option. It's designed for golfers seeking a convenient, climate-controlled environment to play, practice, or participate in leagues and contests.",
+  "tags": "beginner_friendly|family_friendly|leagues|coaching_available|budget_friendly|private_rooms|club_rentals|corporate_events",
+  "vibe_tags": "community_club|family_fun_center",
+  "who_its_for": "families|beginners|serious_golfers|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "PGA-certified simulators with high precision and over 90 course options",
+    "24/7 indoor access, allowing play regardless of weather conditions",
+    "Family-friendly pricing with a $50 annual membership and guest privileges"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food allowed in the carpeted simulator area or by computer and monitor."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No beverages allowed in the carpeted simulator area or by computer and monitor."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "aG",
+      "model": "aG indoor golf simulator",
+      "notes": "Used by PGA Tour Superstores, endorsed by the PGA, and built in the USA."
+    }
+  ],
+  "simulator_software": [
+    "aboutGolf"
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "http://www.thegolfroom.net/reservearoom/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 42,
+  "price_range_max_local": 42.0,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|leagues|coaching_available",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can use your own golf balls, but the venue provides necessary equipment for play."
+    },
+    {
+      "question": "Can I bring food and drinks?",
+      "answer": "No, beverages or food are not allowed in the carpeted simulator area or by the computer and monitor."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time for 18 holes depends on the simulator and course chosen, but it generally takes less time than outdoor golf due to no weather delays."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue offers family memberships and encourages junior golfers, making it suitable for families."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

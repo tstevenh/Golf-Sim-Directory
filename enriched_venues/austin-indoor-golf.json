@@ -1,0 +1,93 @@
+{
+  "name": "Austin Indoor Golf",
+  "address": "Inside Pickleball Kingdom, 1900 E Howard Ln I, Pflugerville, TX 78660",
+  "city": "Pflugerville",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 30.402024,
+  "longitude": -97.632675,
+  "phone": "+17374000929",
+  "website": "https://www.austinindoorgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770212898/golf_simulators/www_austinindoorgolf_com_ChIJ92wzb-rPRIYRbYUvJM8jXwk.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Austin+Indoor+Golf/@30.4020238,-97.6326753,14z/data=!4m8!1m2!2m1!1sAustin+Indoor+Golf!3m4!1s0x8644cfea6f336cf7:0x95f23cf242f856d!8m2!3d30.4020238!4d-97.6326753",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ92wzb-rPRIYRbYUvJM8jXwk",
+  "email": "austinindoorgolf@gmail.com",
+  "venue_type": "multi_sport_sim",
+  "about": "Austin Indoor Golf offers a climate-controlled facility featuring Full Swing simulators for year-round golf play. The venue provides over 500 world-class courses and supports both hourly rentals and membership options. Members benefit from discounted rates, priority booking, and access to exclusive events. The facility is located inside Pickleball Kingdom, combining golf with other sports activities. The venue hosts private lessons, beginner clinics, and multi-sport games for a diverse range of skill levels and interests.",
+  "tags": "beginner_friendly|corporate_events|leagues|premium_tech|family_friendly|kids_friendly|coaching_available|date_night",
+  "vibe_tags": "family_fun_center|tech_lab|community_club|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "World-class Full Swing simulator technology trusted by PGA Tour professionals",
+    "Access to over 500 iconic golf courses worldwide including Pebble Beach and TPC Sawgrass",
+    "Climate-controlled facility open 7 days a week with flexible booking options",
+    "Multi-sport capabilities with 30+ interactive games beyond golf",
+    "Membership perks including discounted rates and priority booking"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No on-site food service mentioned, but local catering partners available for events"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned on-site"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Full Swing",
+      "model": "Pro 2.0",
+      "notes": "Trusted by PGA Tour professionals like Tiger Woods and Jordan Spieth, featuring 4 HyperClear cameras and ION3 overhead camera"
+    }
+  ],
+  "simulator_software": [
+    "Full Swing Golf",
+    "Full Swing Games",
+    "Multisport"
+  ],
+  "launch_monitor_type": "infrared_optical",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "auto_putt",
+  "lefty_friendly": true,
+  "bay_count_total": null,
+  "booking_url": "https://clients.uschedule.com/austinindoorgolf/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 18,
+  "price_range_max_local": 30,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|kitchen_food|tv_sports|private_party_room|wifi|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can bring your own clubs or borrow house clubs at no charge. Clean, non-marking shoes are required (athletic or golf shoes are acceptable)."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No on-site food or drink service is mentioned, but local catering partners are available for events. BYOB policies not specified."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "You can play 18 holes in about an hour as a single or under two hours with 2-3 players."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Austin Indoor Golf welcomes all skill levels including beginners and kids. Family-friendly activities and events are available."
+    }
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"7AM-11PM\"], \"Tuesday\": [\"7AM-11PM\"], \"Wednesday\": [\"7AM-11PM\"], \"Thursday\": [\"7AM-11PM\"], \"Friday\": [\"7AM-11PM\"], \"Saturday\": [\"8AM-11PM\"], \"Sunday\": [\"8AM-10PM\"]}"
+}

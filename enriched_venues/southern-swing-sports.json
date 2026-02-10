@@ -1,0 +1,90 @@
+{
+  "name": "Southern Swing Sports",
+  "address": "1909 E Pass Rd Suite D, Gulfport, MS 39507",
+  "city": "Gulfport",
+  "region": "Mississippi",
+  "country": "US",
+  "latitude": 30.399593,
+  "longitude": -89.015508,
+  "phone": "+12287077529",
+  "website": "https://www.southernswingsports.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770257375/golf_simulators/www_southernswingsports_com_ChIJnVoqtLoRnIgRwJ5MV2EgvMw.png",
+  "google_maps_url": "https://www.google.com/maps/place/Southern+Swing+Sports/@30.3995926,-89.01550759999999,14z/data=!4m8!1m2!2m1!1sSouthern+Swing+Sports!3m4!1s0x889c11bab42a5a9d:0xccbc2061574c9ec0!8m2!3d30.3995926!4d-89.01550759999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJnVoqtLoRnIgRwJ5MV2EgvMw",
+  "email": "swing@southernswingsports.com",
+  "venue_type": "multi_sport_sim",
+  "about": "Southern Swing Sports is a premier multi-sport training facility in Gulfport, Mississippi. The venue features a fully equipped golf simulator suite, luxury indoor pickleball court, and premium baseball/softball batting lanes with HitTrax technology. It offers year-round play and performance tracking for athletes of all skill levels, with no membership requirement for basic access. The facility specializes in training, private lessons, and events, using cutting-edge technology to deliver real-time feedback.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|coaching_available|premium_tech|family_friendly|party_atmosphere|community_club",
+  "vibe_tags": "industrial_training|tech_lab|community_club|family_fun_center",
+  "who_its_for": "beginners|families|serious_golfers|solo_practice|corporate_teams",
+  "why_golfers_like_it": [
+    "State-of-the-art Uneekor Eye X02 swing analysis system with precise data tracking",
+    "Ultra HD 4K visuals with GSPRO simulation on world-renowned courses",
+    "Premium EZ Tee Hybrid Hitting Mat designed for tour-grade performance",
+    "Flexible booking with BYOB and outside food policy"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Outside food policy allows bringing your own food"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "BYOB (Bring Your Own Beverage) policy is permitted"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "Eye X02",
+      "notes": "Advanced swing analysis system with Swing Optix Cameras and AI Trainer"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://book.runswiftapp.com/facilities/sss",
+  "pricing_model": "mixed",
+  "price_range_min_local": 25,
+  "price_range_max_local": 80,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "tv_sports|private_party_room|wifi|club_rentals",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you are expected to bring your own golf clubs to use with the simulator."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, the venue has a BYOB policy and allows outside food to be brought in."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The content does not specify a typical time for playing 18 holes, as it depends on simulator usage and booking."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Southern Swing Sports is family-friendly and welcomes all ages and skill levels, making it suitable for children."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"2-8PM\"], \"Tuesday\": [\"2-8PM\"], \"Wednesday\": [\"12-8PM\"], \"Thursday\": [\"12-8PM\"], \"Friday\": [\"12-5PM\"], \"Saturday\": [\"10AM-5PM\"], \"Sunday\": [\"12-4PM\"]}"
+}

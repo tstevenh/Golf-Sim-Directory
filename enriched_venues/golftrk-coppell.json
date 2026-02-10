@@ -1,0 +1,92 @@
+{
+  "name": "GolfTRK Coppell",
+  "address": "1199 S Belt Line Rd #160, Coppell, TX 75019",
+  "city": "Coppell",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 32.941606,
+  "longitude": -96.995135,
+  "phone": "+19727257300",
+  "website": "https://www.golftrk.com/coppell-tx",
+  "hero_image": "https://lh3.googleusercontent.com/p/AF1QipMl5m_DQPRo68LUliPrqFtrwGD0NqqMlXfTJlRg=w800-h500-k-no",
+  "google_maps_url": "https://www.google.com/maps/place/GolfTRK+Coppell/@32.941606,-96.99513449999999,14z/data=!4m8!1m2!2m1!1sGolfTRK+Coppell!3m4!1s0x864c290945be0243:0x146550692919e0f8!8m2!3d32.941606!4d-96.99513449999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJQwK-RQkpTIYR-OAZKWlQZRQ",
+  "email": "kirsten.pike@golftrk.com",
+  "venue_type": "training_studio",
+  "about": "GolfTRK Coppell is an indoor golf performance facility featuring advanced TrackMan technology for practice, simulation, and club fitting. The venue is managed by PGA Professional Kirsten Pike and focuses on providing a comprehensive golf experience with both launch monitor and putting analysis tools. Members have access to bay reservations, while non-members can book lessons and fittings. The facility operates on a membership-only model for independent practice and play, with amenities that cater to serious golfers and players looking to improve their game.",
+  "tags": "serious_practice|coaching_available|corporate_events|premium_tech|beginner_friendly|families|low_handicap",
+  "vibe_tags": "tech_lab|modern|community_club",
+  "who_its_for": "serious_golfers|beginners|families|corporate_teams",
+  "why_golfers_like_it": [
+    "Professional instruction from a PGA award-winning coach",
+    "World-class TrackMan technology for precise data analysis",
+    "Proprietary onboarding program with Noonan Digital Caddie integration"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "Members can bring their own food; no on-site food service provided."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "Members can bring their own drinks; no on-site alcohol service provided."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "TrackMan",
+      "model": "iO",
+      "notes": "World-leading ball flight and club data tracking"
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://app.gymflow.io/golfTRK/golftrk/coppell/site/appointments/495",
+  "pricing_model": "membership_only",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_fitting|leagues|ada_accessible|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you will need to bring your own clubs for practice, simulation, and lessons."
+    },
+    {
+      "question": "Can I bring food and drinks?",
+      "answer": "Members can bring their own food and drinks; no on-site food or beverage service is provided."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes depends on the number of players and bay availability; booking through the app is recommended for scheduling."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "The facility is welcoming to families, and junior golf instruction is available; however, specific kid-friendly amenities are not detailed."
+    }
+  ],
+  "simulator_software": [
+    "TrackMan"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": null
+}

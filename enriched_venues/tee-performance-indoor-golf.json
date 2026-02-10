@@ -1,0 +1,93 @@
+{
+  "name": "Tee Performance Indoor Golf",
+  "address": "183 Rt 206 South, Branchville, NJ 07826",
+  "city": "Branchville",
+  "region": "New Jersey",
+  "country": "US",
+  "latitude": 41.225478,
+  "longitude": -74.803898,
+  "phone": "+19732500087",
+  "website": "http://www.teeperformance.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770205786/golf_simulators/www_teeperformance_com_ChIJm5cgdXRdw4kRBlmqwXAF4B8.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Tee+Performance+Indoor+Golf/@41.2254776,-74.8038976,14z/data=!4m8!1m2!2m1!1sTee+Performance+Indoor+Golf!3m4!1s0x89c35d747520979b:0x1fe00570c1aa5906!8m2!3d41.2254776!4d-74.8038976",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJm5cgdXRdw4kRBlmqwXAF4B8",
+  "email": "golfinfo@teeperformance.com",
+  "venue_type": "multi_sport_sim",
+  "about": "Tee Performance Indoor Golf is a premier indoor golf facility in Sussex County, New Jersey, featuring state-of-the-art aboutGOLF simulators. The venue offers access to over 90 virtual golf courses, including Pebble Beach and St. Andrews, alongside multiple driving ranges and short game practice areas. Pricing is based on hourly rates per simulator, not per person, with accommodations for up to four players per bay. The facility is designed for year-round golf practice and events, with a 7,200-square-foot open floor plan suitable for private parties, corporate events, and leagues.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|kids_friendly|coaching_available|group_friendly",
+  "vibe_tags": "family_fun_center|community_club|modern|welcoming",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Official PGA Tour aboutGOLF simulators with 18-foot wide screens for realistic play",
+    "Over 90 virtual golf courses including Pebble Beach, TPC Sawgrass, and St. Andrews",
+    "Year-round practice with customizable weather and daytime settings",
+    "Flexible event hosting for groups of 10-100 people with customizable packages"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food allowed in the simulator bays"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol mentioned in the provided content"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "AboutGolf",
+      "model": "Simulator",
+      "notes": "18-foot wide screens, official PGA Tour simulators"
+    }
+  ],
+  "simulator_so": [
+    "aboutGOLF"
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 7,
+  "booking_url": "https://clients.uschedule.com/teeperformance/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 30,
+  "price_range_max_local": 55,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|wifi|leagues|private_party_room|tv_sports",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, adjustable tees are provided. Custom printed Callaway and Titleist Pro VI golf balls are available for use."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No food is allowed in the simulator bays, though mini refrigerators are available for beverages. The facility offers full event catering for parties."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "It takes approximately 1 hour per person for 18 holes. A foursome should book 4 hours of playing time."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "Yes, Tee Performance is ideal for children learning golf, with miniature golf options and a private, pressure-free environment."
+    }
+  ],
+  "simulator_software": [
+    "aboutGOLF"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"4-9PM\"], \"Tuesday\": [\"4-9PM\"], \"Wednesday\": [\"4-9PM\"], \"Thursday\": [\"10AM-9PM\"], \"Friday\": [\"4-9PM\"], \"Saturday\": [\"9AM-9PM\"], \"Sunday\": [\"9AM-7PM\"]}"
+}

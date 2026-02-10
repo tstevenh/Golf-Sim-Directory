@@ -1,0 +1,90 @@
+{
+  "name": "Golfers Getaway",
+  "address": "224 1st Ave E, Kalispell, MT 59901",
+  "city": "Kalispell",
+  "region": "Montana",
+  "country": "US",
+  "latitude": 48.19642,
+  "longitude": -114.311616,
+  "phone": "+14062019411",
+  "website": "http://golfersgetaway.golf/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770225337/golf_simulators/golfersgetaway_golf_ChIJ_zFVNxpRZlMRoU-u_7hGHtI.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Golfers+Getaway/@48.196419999999996,-114.31161549999999,14z/data=!4m8!1m2!2m1!1sGolfers+Getaway!3m4!1s0x5366511a375531ff:0xd21e46b8ffae4fa1!8m2!3d48.196419999999996!4d-114.31161549999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ_zFVNxpRZlMRoU-u_7hGHtI",
+  "email": "support@golfersgetaway.golf.",
+  "venue_type": "other",
+  "about": "Golfers Getaway is an indoor golf simulator facility located in Kalispell, Montana. The venue operates 24 hours a day, 365 days a year, offering weather-independent golfing experiences using advanced technology. It provides two main pricing options: an hourly plan with the first hour free and a premium monthly membership that includes 25 hours per month with discounted rates thereafter. The facility uses the Uneekor EYE XO2 launch monitor, known for its high accuracy in tracking ball and club data through a combination of radar, infrared, and slow-motion cameras. Golfers can book bays online or via a mobile app, with premium members able to make up to 10 concurrent reservations.",
+  "tags": "beginner_friendly|corporate_events|premium_tech|budget_friendly|private_rooms|late_night|coaching_available",
+  "vibe_tags": "tech_lab|community_club|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "24/7 accessibility allows golfing at any time",
+    "Uneekor EYE XO2 launch monitor provides precise ball and club tracking",
+    "First hour is free with pay-per-hour membership",
+    "Mobile app booking and facility access for convenience"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of food service available on-site"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service available on-site"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "EYE XO2",
+      "notes": "Uses radar cameras, IR cameras, and slow-motion cameras for tracking"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "http://golfersgetaway.golf/subscriptions",
+  "pricing_model": "mixed",
+  "price_range_min_local": 20,
+  "price_range_max_local": 35,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|wifi|mobile_app|pro_shop",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website doesn't specify, but it's typical for simulator venues that golfers bring their own clubs or rentals are available."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No information is provided about outside food or drink policies."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website doesn't specify playing times, but simulator golf typically takes 2-3 hours for 18 holes depending on simulator efficiency and player pace."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "No specific information is provided about child-friendly features or policies."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

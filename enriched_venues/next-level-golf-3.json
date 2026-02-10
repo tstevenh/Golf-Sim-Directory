@@ -1,0 +1,94 @@
+{
+  "name": "Next Level Golf",
+  "address": "7910 S 3500 E A-150, Cottonwood Heights, UT 84121",
+  "city": "Cottonwood Heights",
+  "region": "Utah",
+  "country": "US",
+  "latitude": 40.607473,
+  "longitude": -111.796579,
+  "phone": "+18018931688",
+  "website": "http://www.nextlevelgolf.club/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770205921/golf_simulators/www_nextlevelgolf_club_ChIJqxytQGhjUocRq5d8qVWylXs.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Next+Level+Golf/@40.6074729,-111.79657879999999,14z/data=!4m8!1m2!2m1!1sNext+Level+Golf!3m4!1s0x8752636840ad1cab:0x7b95b255a97c97ab!8m2!3d40.6074729!4d-111.79657879999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJqxytQGhjUocRq5d8qVWylXs",
+  "email": "mike@nextlevelgolfut.com",
+  "venue_type": "sim_bar",
+  "about": "Next Level Golf is an indoor golf simulator venue located in Cottonwood Heights, UT, offering a luxury country club environment with state-of-the-art technology. The venue features Golfzon Two Vision simulators equipped with high-speed camera sensors, providing a realistic golfing experience on world-renowned courses. Membership is the primary access model, with tiered options including month-to-month, 6-month, and annual passes that offer varying levels of benefits such as 24-hour access, unlimited tee times, and guest privileges.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|premium_tech|coaching_available|private_rooms|club_rentals|late_night|upscale_lounge",
+  "vibe_tags": "upscale_lounge|private_luxury|tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|corporate_teams|families|solo_practice",
+  "why_golfers_like_it": [
+    "AI swing analysis app for instant performance feedback",
+    "Luxury country club atmosphere with elegant finishes and private bays",
+    "Golfzon Two Vision simulators with 200fps camera accuracy",
+    "24-hour access for flexible practice sessions",
+    "Full-service bar and lounge areas for socializing"
+  ],
+  "kid_friendly": false,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Kitchen available for food service; no food allowed inside simulators"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full-service bar available for members and guests"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Golfzon",
+      "model": "TwoVision Simulator",
+      "notes": "Four high-speed camera sensors, 200fps capture, touchscreen kiosk"
+    }
+  ],
+  "simulator_so": [
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://online.wellyx.com/nextlevelgolf/utahusa/membership?membershipID=7507",
+  "pricing_model": "membership_only",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 3,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|kitchen_food|tv_sports|private_party_room|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Members and guests must bring their own clubs; club rentals are not mentioned as available."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "Outside food and drinks are not allowed inside the simulators, but a full-service bar and kitchen are available on-site."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Exact time for 18 holes is not specified, but the venue offers unlimited tee times with membership access."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Next Level Golf has a minimum age requirement of 18 for membership, making it unsuitable for children."
+    }
+  ],
+  "simulator_software": [
+    "Golfzon TwoVision"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

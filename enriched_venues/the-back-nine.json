@@ -1,0 +1,90 @@
+{
+  "name": "The Back Nine",
+  "address": "119 E Traer St, Greene, IA 50636",
+  "city": "Greene",
+  "region": "Iowa",
+  "country": "US",
+  "latitude": 42.896235,
+  "longitude": -92.801676,
+  "phone": "+16415121878",
+  "website": "https://www.thebacknineiowa.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770208616/golf_simulators/www_thebacknineiowa_com_ChIJTypE3TZB8IcRDXkLKGwR-gI.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Back+Nine/@42.8962346,-92.8016758,14z/data=!4m8!1m2!2m1!1sThe+Back+Nine!3m4!1s0x87f04136dd442a4f:0x2fa116c280b790d!8m2!3d42.8962346!4d-92.8016758",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJTypE3TZB8IcRDXkLKGwR-gI",
+  "email": "thebacknineiowa@gmail.com",
+  "venue_type": "sim_bar",
+  "about": "The Back Nine is a golf simulator venue located in Greene, Iowa, offering a self-serve experience with TruGolf MAX simulators and APOGEE launch monitors. The facility features a casual and welcoming atmosphere where guests can book online and receive a personalized keycard for seamless entry. It is equipped with multisport add-ons, allowing users to engage in various activities beyond golf, and operates on a first-come, first-served basis for groups of up to six people. The venue encourages bringing in food and drinks, provided they are kept off the simulator floor, and offers party hosting services for special occasions.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|budget_friendly|private_rooms|coaching_available|family_fun_center",
+  "vibe_tags": "casual|welcoming|modern|tech_lab",
+  "who_its_for": "beginners|families|corporate_teams|large_groups|solo_practice",
+  "why_golfers_like_it": [
+    "Multisport add-ons offer a variety of activities beyond traditional golf",
+    "Personalized keycard system ensures seamless entry and repeat visits",
+    "Self-serve model allows flexibility and control over the experience",
+    "TruGolf MAX technology provides high-quality simulation"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Patrons are allowed to bring their own food; must stay off simulator floor and be cleaned up afterward"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Patrons are allowed to bring their own drinks; must stay off simulator floor and be cleaned up afterward"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "TruGolf",
+      "model": "MAX",
+      "notes": "Equipped with APOGEE launch monitor"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.thebacknineiowa.com/book-online",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|kitchen_food|tv_sports|private_party_room|wifi|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need my own golf clubs?",
+      "answer": "The venue does not explicitly state whether club rentals are available. It is recommended to bring your own clubs or contact them directly for clarification."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, as a self-serve business, you are allowed to bring your own drinks and food into the facility. However, they must stay off the simulator floor, and you are expected to clean up after yourselves when you leave."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "On average, it takes 1 hour for 2 people to play a round. The venue does not set a time limit but asks guests to be respectful of other groups."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue appears to be kid-friendly, offering multisport add-ons and hosting birthday parties. The casual atmosphere and variety of activities make it suitable for families."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"6AM-9PM\"], \"Tuesday\": [\"6AM-9PM\"], \"Wednesday\": [\"6AM-9PM\"], \"Thursday\": [\"6AM-9PM\"], \"Friday\": [\"6AM-10PM\"], \"Saturday\": [\"9AM-10PM\"], \"Sunday\": [\"6AM-9PM\"]}"
+}

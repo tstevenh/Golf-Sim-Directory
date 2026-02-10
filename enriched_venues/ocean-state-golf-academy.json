@@ -1,0 +1,92 @@
+{
+  "name": "Ocean State Golf Academy",
+  "address": "860 Waterman Ave Unit 4, East Providence, RI 02914",
+  "city": "East Providence",
+  "region": "Rhode Island",
+  "country": "US",
+  "latitude": 41.812507,
+  "longitude": -71.349349,
+  "phone": "+14807575575",
+  "website": "https://oceanstategolfacademy.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770242497/golf_simulators/oceanstategolfacademy_com_ChIJx0991bFP5IkR6vouS05l88o.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Ocean+State+Golf+Academy/@41.8125071,-71.3493491,14z/data=!4m8!1m2!2m1!1sOcean+State+Golf+Academy!3m4!1s0x89e44fb1d57d4fc7:0xcaf3654e4b2efaea!8m2!3d41.8125071!4d-71.3493491",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJx0991bFP5IkR6vouS05l88o",
+  "email": "filler@godaddy.com",
+  "venue_type": "training_studio",
+  "about": "Ocean State Golf Academy is a golf training facility in East Providence, RI, offering instruction for golfers of all skill levels. The academy provides a technology-driven environment with multiple indoor training stations equipped with advanced tools for skill development. They offer private coaching, group lessons, and utilize modern technology including TrackMan, RoboGolfPro, and Smart 2 Move pressure plates to provide instant feedback and faster improvement.",
+  "tags": "beginner_friendly|serious_practice|juniors_youth|coaching_available|premium_tech|family_friendly",
+  "vibe_tags": "industrial_training|community_club|modern",
+  "who_its_for": "beginners|serious_golfers|juniors_youth|families|solo_practice",
+  "why_golfers_like_it": [
+    "Technology-driven instruction using TrackMan, RoboGolfPro, and Smart 2 Move for instant feedback",
+    "Expert coaches who tailor programs to individual skill levels and goals",
+    "Welcoming and supportive environment that keeps learning enjoyable",
+    "Comprehensive facilities including driving range, putting green, and indoor practice area",
+    "Programs available for every skill level, from juniors to advanced players"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food or beverage service mentioned. Likely BYOB."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "TrackMan",
+      "model": "unknown",
+      "notes": "Primary launch and ball tracking technology"
+    }
+  ],
+  "simulator_software": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 8,
+  "booking_url": "https://oceanstategolfacademy.com/book-lessons",
+  "pricing_model": "per_person_hour|package",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|pro_shop|club_fitting|leagues|coaching_available",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, it is recommended to bring your own clubs for lessons and practice sessions. They also offer Callaway custom club fitting services."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "The website does not mention any food or beverage service, suggesting it is likely a bring-your-own facility."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "This information is not specified on their website. As a training facility focused on instruction, their primary service is coaching, not 18-hole simulator rounds."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, Ocean State Golf Academy is kid-friendly, offering specific junior programs and featuring a junior golfer using M.E.G.S.A. technology in their promotional materials."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"11AM-7PM\"], \"Tuesday\": [\"11AM-7PM\"], \"Wednesday\": [\"11AM-7PM\"], \"Thursday\": [\"11AM-7PM\"], \"Friday\": [\"11AM-7PM\"], \"Saturday\": [\"11AM-7PM\"], \"Sunday\": [\"11AM-7PM\"]}"
+}

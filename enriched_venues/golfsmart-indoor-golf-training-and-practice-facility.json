@@ -1,0 +1,96 @@
+{
+  "name": "GolfSmart - Indoor Golf Training and Practice Facility",
+  "address": "Calliope Shopping Center, 14520 Memorial Dr Suite 95, Houston, TX 77079",
+  "city": "Houston",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 29.771466,
+  "longitude": -95.603213,
+  "phone": "+18322431403",
+  "website": "http://golfsmartinc.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770223270/golf_simulators/golfsmartinc_com_ChIJ71A-eOXbQIYRZvu8Y-ZY5Pc.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/GolfSmart+-+Indoor+Golf+Training+and+Practice+Facility/@29.771465499999998,-95.6032129,14z/data=!4m8!1m2!2m1!1sGolfSmart+-+Indoor+Golf+Training+and+Practice+Facility!3m4!1s0x8640dbe5783e50ef:0xf7e458e663bcfb66!8m2!3d29.771465499999998!4d-95.6032129",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ71A-eOXbQIYRZvu8Y-ZY5Pc",
+  "email": "RicTeran@GolfSmartInc.com",
+  "venue_type": "training_studio",
+  "about": "GolfSmart is an indoor golf training facility established in 2000, specializing in personalized coaching using advanced technology. The facility features 7,000 square feet of space with 12 hitting bays, equipped with Trackman and Flightscope launch monitors, V1 slow-motion video software, and a 1,000 sq. ft. putting and chipping green. Instruction focuses on individual swing analysis and development, with lessons tailored to each golfer's specific strengths and limitations. The venue offers various programs including group lessons, junior camps, and special packages like the Executive Lunch Special.",
+  "tags": "beginner_friendly|coaching_available|kids_friendly|premium_tech|club_rentals|community_club|budget_friendly",
+  "vibe_tags": "industrial_training|tech_lab|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|juniors_youth|families|solo_practice",
+  "why_golfers_like_it": [
+    "Advanced swing analysis with Trackman and V1 slow-motion video",
+    "Personalized coaching tailored to individual swing mechanics",
+    "Climate-controlled facility with 1,000 sq. ft. putting and chipping green",
+    "Group lessons offer one-on-one time in intimate class sizes",
+    "Video summaries of lessons sent for reinforcement and 24/7 online access"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Box lunches included with Executive Lunch Special; available for purchase otherwise"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol mentioned on website"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "unknown",
+      "notes": "Professional-grade launch monitor used for swing analysis"
+    },
+    {
+      "brand": "Flightscope",
+      "model": "unknown",
+      "notes": "Doppler radar launch monitor for ball flight analysis"
+    }
+  ],
+  "simulator_software": [
+    "V1"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "http://golfsmartinc.com/contacts",
+  "pricing_model": "mixed",
+  "price_range_min_local": 65,
+  "price_range_max_local": 65,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 0,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|kitchen_food|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "No, GolfSmart provides complimentary club and ball rentals if needed."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "Food is available for purchase with the Executive Lunch Special; no alcohol is mentioned as being available."
+    },
+    {
+      "question": "How long does an 18-hole simulator session take?",
+      "answer": "The website does not specify a time frame for 18-hole sessions; pricing is typically per hour."
+    },
+    {
+      "question": "Is GolfSmart kid-friendly?",
+      "answer": "Yes, GolfSmart offers junior golf lessons, summer camps, and programs tailored for young golfers."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"9AM-7PM\"], \"Tuesday\": [\"9AM-7PM\"], \"Wednesday\": [\"9AM-7PM\"], \"Thursday\": [\"9AM-7PM\"], \"Friday\": [\"9AM-4PM\"], \"Saturday\": [\"9AM-4PM\"], \"Sunday\": [\"1-4PM\"]}"
+}

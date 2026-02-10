@@ -1,0 +1,90 @@
+{
+  "name": "Colonie Golf & Country Club",
+  "address": "13 Country Club Ln, Voorheesville, NY 12186",
+  "city": "Voorheesville",
+  "region": "New York",
+  "country": "US",
+  "latitude": 42.641933,
+  "longitude": -73.914696,
+  "phone": "+15187654100",
+  "website": "http://coloniegcc.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770228399/golf_simulators/coloniegcc_com_ChIJcd3DUmbf3YkRpCocFZkEre0.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Colonie+Golf+%26+Country+Club/@42.6419334,-73.9146957,14z/data=!4m8!1m2!2m1!1sColonie+Golf+%26+Country+Club!3m4!1s0x89dddf6652c3dd71:0xedad0499151c2aa4!8m2!3d42.6419334!4d-73.9146957",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJcd3DUmbf3YkRpCocFZkEre0",
+  "email": "kevinc@coloniegcc.com",
+  "venue_type": "country_club",
+  "about": "Colonie Golf & Country Club is a private golf and country club located in Voorheesville, NY, offering a range of amenities including an 18-hole championship course designed by Geoffrey Cornish, five Har-Tru tennis courts, two pools, and an indoor golf facility with simulators. The club features a dining establishment, the 19th Hole Bar & Grill, which provides a casual atmosphere and is welcoming to golfers, families, and couples. Membership is required for full access to all facilities and events.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|kids_friendly|club_rentals|coaching_available|community_club",
+  "vibe_tags": "casual|welcoming|modern|community_club",
+  "who_its_for": "families|corporate_teams|beginners|serious_golfers|juniors_youth",
+  "why_golfers_like_it": [
+    "State-of-the-art indoor golf facility with two Uneekor Golf Simulators",
+    "Year-round access to over 120 iconic golf courses around the world",
+    "Opportunities for professional lessons and league play",
+    "Kid-friendly environment with specialized programs like Camp Colonie and Birdie Bandits Jr. PGA League"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "The 19th Hole Bar & Grill offers creative handheld sandwiches, gourmet burgers, steaks, salads, and select chef specialties."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Outdoor patio with a firepit available for socializing and relaxation."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "Golf Simulator",
+      "notes": "Two simulators available for tee times 7 days a week"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "http://coloniegcc.com/Membership",
+  "pricing_model": "membership_only",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 30,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|leagues|ada_accessible|pro_shop|club_fitting",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need clubs to use the golf simulators?",
+      "answer": "Yes, clubs are required to use the golf simulators. The facility encourages players to bring their own equipment for the best experience."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The 19th Hole Bar & Grill offers food and drinks on-site. Outside food and drinks may not be permitted; it's best to check with the club for their specific policy."
+    },
+    {
+      "question": "How long does it take to play 18 holes on the simulator?",
+      "answer": "The time to play 18 holes on the simulator can vary, but typically it takes about 2-3 hours depending on the number of players and pace of play."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, Colonie Golf & Country Club is kid-friendly and offers programs like Camp Colonie, Flying Fish Swim Team, Birdie Bandits Jr. PGA League, and Kid's Night Out."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"8AM-12AM\"], \"Tuesday\": [\"12-7AM\", \"8AM-6PM\"], \"Wednesday\": [\"8AM-6PM\"], \"Thursday\": [\"8AM-6PM\"], \"Friday\": [\"8AM-6PM\"], \"Saturday\": [\"8AM-6PM\"], \"Sunday\": [\"8AM-5PM\"]}"
+}

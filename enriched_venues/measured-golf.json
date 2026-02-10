@@ -1,0 +1,102 @@
+{
+  "name": "Measured Golf",
+  "address": "2019 W Stadium Blvd, Ann Arbor, MI 48103",
+  "city": "Ann Arbor",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 42.269712,
+  "longitude": -83.773777,
+  "phone": "+17347938008",
+  "website": "http://measuredgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770241155/golf_simulators/measuredgolf_com_ChIJRdKmz--xPIgRmgVIpDDOhuA.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Measured+Golf/@42.269712399999996,-83.77377659999999,14z/data=!4m8!1m2!2m1!1sMeasured+Golf!3m4!1s0x883cb1efcfa6d245:0xe086ce30a448059a!8m2!3d42.269712399999996!4d-83.77377659999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJRdKmz--xPIgRmgVIpDDOhuA",
+  "email": "aram@smashfactorperformance.com",
+  "venue_type": "training_studio",
+  "about": "Measured Golf is a golf training and performance facility offering expert instruction through science and technology. The venue provides golfers of all levels with access to advanced tools like Trackman 4 launch monitors, Foresight Sports Quad Max, 3-angle HD video analysis, and Swing Catalyst dual motion plates for comprehensive swing and game improvement. Coaching sessions are available in various durations, from 50-minute lessons to full-day programs, and can be conducted in-person or online. The facility is designed for serious practice, featuring a 3,000 sq. ft. short game area with a sod wall bunker and a biomechanics lab, all within a climate-controlled environment. With a focus on data-driven coaching, Measured Golf caters to players looking to make measurable improvements to their game.",
+  "tags": "serious_practice|coaching_available|premium_tech|beginners|low_handicap|corporate_teams|juniors_youth|solo_practice",
+  "vibe_tags": "tech_lab|industrial_training|modern",
+  "who_its_for": "serious_golfers|beginners|low_handicap|coaches_instructors|juniors_youth",
+  "why_golfers_like_it": [
+    "Access to premium, multi-faceted technology including Trackman, Foresight Sports, and Swing Catalyst for detailed swing analysis",
+    "Comprehensive coaching options tailored to individual goals, from 50-minute sessions to full-day programs and online coaching",
+    "Specialized biomechanics lab for advanced ground reaction force analysis, making it ideal for performance-focused players"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "Premium launch monitor with 3 hitting bays"
+    },
+    {
+      "brand": "Foresight",
+      "model": "Quad Max",
+      "notes": "High-speed photometric camera launch monitor"
+    },
+    {
+      "brand": "Swing Catalyst",
+      "notes": "Dual motion plates for ground reaction force analysis"
+    }
+  ],
+  "simulator_so": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green|real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://square.site/book/7QQR9MA0FVNTX/measured-golf-ann-arbor-mi",
+  "pricing_model": "mixed",
+  "price_range_min_local": 50,
+  "price_range_max_local": 1750,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|pro_shop|club_fitting|wifi|leagues|ada_accessible|biomechanics_lab|short_game_area",
+  "rating_tech_quality": 4.9,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you are expected to bring your own golf clubs to use during your session at the facility."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "The venue does not mention food or drink services, so bringing your own may be allowed but is not specified."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The facility is focused on training and practice rather than simulating full rounds of golf, so 18-hole times are not applicable."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Measured Golf offers coaching programs for juniors and youth, making it a suitable environment for young golfers to learn and improve their skills."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.4,
+  "opening_hours": "{\"Monday\": [\"11AM-8PM\"], \"Tuesday\": [\"11AM-8PM\"], \"Wednesday\": [\"11AM-8PM\"], \"Thursday\": [\"11AM-8PM\"], \"Friday\": [\"Closed\"], \"Saturday\": [\"9AM-5PM\"], \"Sunday\": [\"9AM-5PM\"]}"
+}

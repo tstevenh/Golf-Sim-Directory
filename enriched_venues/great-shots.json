@@ -1,0 +1,90 @@
+{
+  "name": "Great Shots",
+  "address": "2505 W Benson Rd, Sioux Falls, SD 57107",
+  "city": "Sioux Falls",
+  "region": "South Dakota",
+  "country": "US",
+  "latitude": 43.586297,
+  "longitude": -96.759969,
+  "phone": "+16053127950",
+  "website": "https://www.greatshots.golf/%3Fy_source%3D1_MTA1Mjg4ODc3Ny03MTUtbG9jYXRpb24ud2Vic2l0ZQ%253D%253D",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770227325/golf_simulators/www_greatshots_golf_ChIJRaH8PcXLjocRcMsWGKJ3YRY.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Great+Shots/@43.5862974,-96.7599686,14z/data=!4m8!1m2!2m1!1sGreat+Shots!3m4!1s0x878ecbc53dfca145:0x166177a21816cb70!8m2!3d43.5862974!4d-96.7599686",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJRaH8PcXLjocRcMsWGKJ3YRY",
+  "email": "greatshotsdonations@greatshots.golf",
+  "venue_type": "sim_bar",
+  "about": "Great Shots is a golf entertainment venue in Sioux Falls, SD, featuring a 250-yard driving range with state-of-the-art Trackman ball tracking technology and private bays for gameplay. The facility offers a full-service restaurant and sports bar, allowing guests to eat, drink, and play simultaneously. The venue provides a mix of recreational golf games and serious practice opportunities, with options for hourly bay rentals, memberships, and private events. Pricing is structured on a per-bay, per-hour basis with non-peak and peak rate periods, and various discounts are available for specific groups.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|leagues|premium_tech|private_rooms|club_rentals|coaching_available|family_friendly",
+  "vibe_tags": "sports_bar|family_fun_center|tech_lab|community_club",
+  "who_its_for": "beginners|families|corporate_teams|solo_practice|juniors_youth",
+  "why_golfers_like_it": [
+    "State-of-the-art Trackman technology providing detailed ball flight data and feedback",
+    "250-yard private bays with automated ball dispensers for seamless gameplay",
+    "Full-service restaurant and sports bar on-site for a complete entertainment experience",
+    "Availability of both recreational games and serious practice capabilities"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full-service restaurant available on-site"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full-service sports bar with Happy Hour specials"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "Range",
+      "notes": "Ball tracking technology for the driving range and simulator rooms"
+    }
+  ],
+  "simulator_software": [
+    "Trackman Range"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.sevenrooms.com/explore/greatshots/subscription",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 35,
+  "price_range_max_local": 35,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own golf clubs?",
+      "answer": "No, golf clubs are included in all rates. You are welcome to bring your own clubs if you prefer."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, outside food and drinks are not allowed as Great Shots features a full-service restaurant and sports bar on-site."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to complete 18 holes is not specified, but pricing is based on hourly bay rentals rather than per-hole."
+    },
+    {
+      "question": "Is Great Shots kid-friendly?",
+      "answer": "Yes, the venue offers kids' birthday parties and is designed to be welcoming for families."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"11AM-10PM\"], \"Tuesday\": [\"11AM-10PM\"], \"Wednesday\": [\"11AM-10PM\"], \"Thursday\": [\"11AM-11PM\"], \"Friday\": [\"11AM-12AM\"], \"Saturday\": [\"9AM-12AM\"], \"Sunday\": [\"9AM-10PM\"]}"
+}

@@ -1,0 +1,96 @@
+{
+  "name": "Pacific Pines Golf & Social Club",
+  "address": "3300 SW Hocken Ave #108, Beaverton, OR 97005",
+  "city": "Beaverton",
+  "region": "Oregon",
+  "country": "US",
+  "latitude": 45.497034,
+  "longitude": -122.811928,
+  "phone": "+15035363343",
+  "website": "https://www.pacificpinesgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770219915/golf_simulators/www_pacificpinesgolf_com_ChIJAZYdECYPlVQRTBhNZGe-dB4.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Pacific+Pines+Golf+%26+Social+Club/@45.4970338,-122.8119285,14z/data=!4m8!1m2!2m1!1sPacific+Pines+Golf+%26+Social+Club!3m4!1s0x54950f26101d9601:0x1e74be67644d184c!8m2!3d45.4970338!4d-122.8119285",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJAZYdECYPlVQRTBhNZGe-dB4",
+  "email": "info@pacificpinesgolf.com",
+  "venue_type": "multi_sport_sim",
+  "about": "Pacific Pines Golf & Social Club is an indoor golf facility offering 24/7 access to high-fidelity simulators for members and guests. The club features advanced GOLFZON TwoVision simulators with moving swing plates that replicate over 6,800 possible lies, providing a realistic golf experience regardless of weather conditions. Membership is required for access, with options including a Birdie Membership at $225/month and an Eagle Membership at $295/month, each offering different levels of access to tee times, club events, and guest passes. The club also provides a PuttView system and hosts members-only leagues, tournaments, and events.",
+  "tags": "serious_golfers|leagues|coaching_available|corporate_events|premium_tech|members_only|family_friendly|club_rentals",
+  "vibe_tags": "private_luxury|community_club|tech_lab|modern",
+  "who_its_for": "serious_golfers|families|corporate_teams|solo_practice|coaches_instructors",
+  "why_golfers_like_it": [
+    "24/7 access to state-of-the-art simulators",
+    "Realistic moving swing plate technology with 6,800 possible lies",
+    "Access to over 290+ world-class golf courses including legendary venues like St Andrews",
+    "Exclusive member-only leagues, tournaments, and events",
+    "Dual membership option with Claremont Golf Club for both indoor and outdoor play"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "Outside food and drinks are not allowed, except for water."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "Outside alcohol is not permitted."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "GOLFZON",
+      "model": "TwoVision",
+      "notes": "Advanced moving swing plate with 24 distinct positions and multi-surface hitting mat"
+    },
+    {
+      "brand": "PuttView",
+      "model": "PuttView",
+      "notes": "Dedicated putting simulator system"
+    }
+  ],
+  "simulator_software": [
+    "GOLFZON Software"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.pacificpinesgolf.com/demo",
+  "pricing_model": "membership_only",
+  "price_range_min_local": 225,
+  "price_range_max_local": 295,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|leagues|pro_shop|club_fitting|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own golf clubs?",
+      "answer": "Yes, you need to bring your own golf clubs. The club provides balls, tees, and access to the latest golf technology."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drinks are not allowed, except for water."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Eagle Members get 4 hours of booking time, which is enough time to complete 18 holes as a foursome."
+    },
+    {
+      "question": "Is the club kid-friendly?",
+      "answer": "Yes, the club is family-friendly with membership options that include family access."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

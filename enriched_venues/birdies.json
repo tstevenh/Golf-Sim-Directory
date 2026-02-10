@@ -1,0 +1,94 @@
+{
+  "name": "Birdies",
+  "address": "120 NW Martin Luther King Jr Blvd, Evansville, IN 47708",
+  "city": "Evansville",
+  "region": "Indiana",
+  "country": "US",
+  "latitude": 37.974501,
+  "longitude": -87.56954,
+  "phone": "+18125501225",
+  "website": "https://www.birdiesdowntownevv.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770224086/golf_simulators/www_birdiesdowntownevv_com_ChIJMdCXVT3VcYgRujRpfcV01Ss.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Birdies/@37.9745007,-87.5695404,14z/data=!4m8!1m2!2m1!1sBirdies!3m4!1s0x8871d53d5597d031:0x2bd574c57d6934ba!8m2!3d37.9745007!4d-87.5695404",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJMdCXVT3VcYgRujRpfcV01Ss",
+  "email": "birdies47630@gmail.com",
+  "venue_type": "sim_bar|multi_sport_sim",
+  "about": "Birdies on Vine is an indoor venue in Downtown Evansville that combines golf and sports simulators with food and drinks. It features four top-of-the-line Full Swing™ simulators for sports like golf, zombie dodgeball, football, and basketball, alongside two axe throwing lanes. The venue provides a professional atmosphere for adults looking for a unique indoor experience, offering hourly rentals for both simulators and axe throwing. Food and beverages are available from The Rooftop, making it suitable for casual gatherings and corporate events. The venue can accommodate groups of various sizes, with options to rent multiple bays for exclusive use during tournaments or parties.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|kids_friendly|corporate_events|multi_sport_sim|private_rooms",
+  "vibe_tags": "sports_bar|family_fun_center|party_atmosphere",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|tourists_travelers",
+  "why_golfers_like_it": [
+    "Full Swing™ simulators provide a professional and immersive golf experience",
+    "Combines golf with other sports and activities for versatile entertainment",
+    "Food and drink options available on-site for a complete outing",
+    "Family-friendly environment allows for social and recreational golf"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full food menu from The Rooftop, including appetizers and pizza"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar available with refreshing beverages"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Full Swing",
+      "model": "Top-of-the-line simulator",
+      "notes": "Four high-end simulators available for golf and multi-sport games"
+    }
+  ],
+  "simulator_so": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 4,
+  "booking_url": "https://www.birdiesdowntownevv.com/book-online",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": 0,
+  "max_group_size_per_bay": 10,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own golf clubs?",
+      "answer": "The FAQ does not specify, but typically venues provide rental clubs if needed."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, outside food and drinks are not allowed. The venue offers a full food menu and bar from The Rooftop."
+    },
+    {
+      "question": "How long does an 18-hole golf session take?",
+      "answer": "The venue offers 1, 2, or 3-hour sessions, but the time for 18 holes is not specified."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Birdies is family-friendly and allows kids to participate in activities."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"11AM-10PM\"], \"Tuesday\": [\"11AM-10PM\"], \"Wednesday\": [\"11AM-10PM\"], \"Thursday\": [\"11AM-10PM\"], \"Friday\": [\"11AM-11PM\"], \"Saturday\": [\"11AM-11PM\"], \"Sunday\": [\"11AM-3PM\"]}"
+}

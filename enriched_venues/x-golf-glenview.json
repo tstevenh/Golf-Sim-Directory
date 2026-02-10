@@ -1,0 +1,85 @@
+{
+  "name": "X-Golf Glenview",
+  "address": "2847 Pfingsten Rd, Glenview, IL 60026",
+  "city": "Glenview",
+  "region": "Illinois",
+  "country": "US",
+  "latitude": 42.10714,
+  "longitude": -87.847443,
+  "phone": "+12244320022",
+  "website": "http://www.xgolfglenview.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770204871/golf_simulators/www_xgolfglenview_com_ChIJQzhGbv7HD4gRPJUGHDCQtxk.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/X-Golf+Glenview/@42.1071398,-87.8474434,14z/data=!4m8!1m2!2m1!1sX-Golf+Glenview!3m4!1s0x880fc7fe6e463843:0x19b790301c06953c!8m2!3d42.1071398!4d-87.8474434",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJQzhGbv7HD4gRPJUGHDCQtxk",
+  "email": "info@xgolfglenview.com",
+  "venue_type": "sim_bar",
+  "about": "X-Golf Glenview is a high-tech golf simulation facility offering a modern and social experience for players of all skill levels. The venue is equipped with 8 state-of-the-art golf simulators that utilize a combination of camera systems, infrared lasers, and impact sensors to deliver accurate and realistic gameplay. With its full bar, restaurant, and event spaces, it combines on-course practice with social and dining elements, making it suitable for casual outings, training, and group gatherings.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|date_night|family_friendly|club_rentals|coaching_available|private_rooms",
+  "vibe_tags": "sports_bar|community_club|modern|family_fun_center",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "State-of-the-art simulator technology for accurate gameplay",
+    "Full bar and restaurant for a complete golf and social experience",
+    "Flexible booking options for individuals and groups",
+    "Professional coaching and lessons available",
+    "Event space for corporate and private parties"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full restaurant menu with shareable bites, appetizers, snacks, and pizzas available on-site"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with beer by the glass or on tap, cocktails, and wines"
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "auto_putt",
+  "lefty_friendly": true,
+  "bay_count_total": 8,
+  "booking_url": "https://clients.uschedule.com/xgolfglenview/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 45,
+  "price_range_max_local": 65,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|pro_shop|club_fitting|leagues|ada_accessible|wifi|on_site_parking|private_party_room",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, club rentals are available on-site, but you are also welcome to use your own clubs."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No outside food or drinks are allowed, as the venue offers a full restaurant and bar on-site."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "It generally takes 1 hour for an individual player to complete 18 holes. For multiple players, it’s recommended to book an additional hour for each additional player to allow sufficient time."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, X-Golf welcomes children of all ages and is suitable for family outings."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-12AM\"], \"Tuesday\": [\"9AM-12AM\"], \"Wednesday\": [\"9AM-12AM\"], \"Thursday\": [\"9AM-12AM\"], \"Friday\": [\"9AM-12AM\"], \"Saturday\": [\"8AM-12AM\"], \"Sunday\": [\"8AM-8PM\"]}"
+}

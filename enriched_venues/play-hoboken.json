@@ -1,0 +1,83 @@
+{
+  "name": "Play! Hoboken",
+  "address": "1012 Grand Street FL3 FL2, 1012 Grand St, Hoboken, NJ 07030",
+  "city": "Hoboken",
+  "region": "New Jersey",
+  "country": "US",
+  "latitude": 40.750259,
+  "longitude": -74.033106,
+  "phone": "+12018769666",
+  "website": "http://www.playhoboken.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770202271/golf_simulators/www_playhoboken_com_ChIJYxokIFxXwokRDLgxasXQ7U0.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Play%21+Hoboken/@40.750259299999996,-74.0331064,14z/data=!4m8!1m2!2m1!1sPlay%21+Hoboken!3m4!1s0x89c2575c20241a63:0x4dedd0c56a31b80c!8m2!3d40.750259299999996!4d-74.0331064",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJYxokIFxXwokRDLgxasXQ7U0",
+  "email": "ask@playhoboken.com",
+  "venue_type": "multi_sport_sim",
+  "about": "Play! Hoboken is an entertainment venue offering a variety of indoor sports and activities, with a focus on simulation golf. The facility features golf simulators that can be booked for individual or group sessions. Golf is priced separately from other attractions, with machines rented by the hour for up to five people. The venue operates on a mixed pricing model, offering all-day wristbands for access to most attractions, excluding golf and bowling, which require separate reservations. The space is designed to be versatile, catering to casual players, families, and groups for both recreation and special events.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|kids_friendly|corporate_events|budget_friendly|private_rooms|club_rentals|coaching_available",
+  "vibe_tags": "family_fun_center|community_club|retro_gaming",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "Convenient indoor location for year-round play",
+    "Ability to book private simulator sessions for focused practice",
+    "Variety of other activities available for non-golfers in the group"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Snacks available for purchase"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "BYOB allowed (Bring Your Own Beverages)"
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": "unknown",
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": null,
+  "booking_url": "https://playhoboken.com/booking/golf/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 25,
+  "price_range_max_local": null,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 5,
+  "amenities_list": "club_rentals|kitchen_food|tv_sports|private_party_room|wifi|leagues|ada_accessible",
+  "rating_tech_quality": 3.5,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue does not specify whether clubs are provided. It is recommended to bring your own set for the best experience."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, the venue operates on a BYOB (Bring Your Own Beverages) policy. Light snacks are also available for purchase."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "While the exact time for 18 holes is not specified, golf simulators can be reserved for 1 to 5 hours, which would be ample time for a full round."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Play! Hoboken is kid-friendly, offering children's golf classes, birthday parties, and a family-oriented atmosphere with various activities for young guests."
+    }
+  ],
+  "rating_overall": 3.8,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-12AM\"], \"Thursday\": [\"9AM-12AM\"], \"Friday\": [\"9AM-12AM\"], \"Saturday\": [\"8AM-12AM\"], \"Sunday\": [\"8AM-10PM\"]}"
+}

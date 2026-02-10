@@ -1,0 +1,92 @@
+{
+  "name": "Fairway Custom Golf of Terre Haute",
+  "address": "1641 S 25th St, Terre Haute, IN 47803",
+  "city": "Terre Haute",
+  "region": "Indiana",
+  "country": "US",
+  "latitude": 39.448751,
+  "longitude": -87.379017,
+  "phone": "+18124783333",
+  "website": "http://fairwaygolfterrehaute.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770247630/golf_simulators/fairwaygolfterrehaute_com_ChIJp-EXqgdwbYgRMQWyS4agS6s.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Fairway+Custom+Golf+of+Terre+Haute/@39.448750499999996,-87.3790173,14z/data=!4m8!1m2!2m1!1sFairway+Custom+Golf+of+Terre+Haute!3m4!1s0x886d7007aa17e1a7:0xab4ba0864bb20531!8m2!3d39.448750499999996!4d-87.3790173",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJp-EXqgdwbYgRMQWyS4agS6s",
+  "venue_type": "retail_fitting_center",
+  "about": "Fairway Custom Golf of Terre Haute is a premier golf shop and fitting center with 22+ years of experience serving the Wabash Valley. The facility offers a comprehensive golf experience with club sales, repairs, and on-site SkyTrak Launch Monitors for testing new equipment. Customers can try clubs before purchasing and access a simulator with play options. The shop carries major brands like Callaway, TaylorMade, Mizuno, and Cobra, with a focus on personalized fitting services and expert advice from co-owners Dick Hatcher and Brad Langdon. The venue combines retail elements with simulation technology for a hands-on golf shopping and practice experience.",
+  "tags": "beginner_friendly|serious_golfers|club_rentals|coaching_available|pro_shop|budget_friendly|family_friendly",
+  "vibe_tags": "community_club|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|families|solo_practice|coaches_instructors",
+  "why_golfers_like_it": [
+    "Try-before-you-buy club testing on SkyTrak Launch Monitors",
+    "Expert club fitting and repair services on-site",
+    "Access to golf simulator with course play options",
+    "Wide selection of new and used major brand equipment"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "SkyTrak",
+      "model": "Launch Monitor",
+      "notes": "Used for club testing and simulator play"
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "unknown",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 25,
+  "price_range_max_local": 25,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|club_fitting|pro_shop|simulator|golf_courses",
+  "rating_tech_quality": 3.5,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, you can try any of their clubs on the SkyTrak Launch Monitor before purchasing."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue does not mention food or drink service, so BYOB may be allowed but isn't specified."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website doesn't specify exact timing for 18 holes, but simulator time is available for $25/hour."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "Yes, the venue appears family-friendly with accessible equipment and practice options for golfers of all skill levels."
+    }
+  ],
+  "simulator_software": [
+    "SkyTrak"
+  ],
+  "rating_overall": 3.8,
+  "opening_hours": "{\"Monday\": [\"10AM-5PM\"], \"Tuesday\": [\"10AM-5PM\"], \"Wednesday\": [\"10AM-5PM\"], \"Thursday\": [\"10AM-5PM\"], \"Friday\": [\"10AM-5PM\"], \"Saturday\": [\"10AM-3PM\"], \"Sunday\": [\"Closed\"]}"
+}

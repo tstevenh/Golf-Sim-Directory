@@ -1,0 +1,91 @@
+{
+  "name": "Launch Labs Golf",
+  "address": "775 Cochrane Rd Ste 160, Morgan Hill, CA 95037",
+  "city": "Morgan Hill",
+  "region": "California",
+  "country": "US",
+  "latitude": 37.151132,
+  "longitude": -121.656123,
+  "phone": null,
+  "website": "https://www.launchlabsgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770225714/golf_simulators/www_launchlabsgolf_com_ChIJR_k7Al8hjoARVGFWoRRczxY.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Launch+Labs+Golf/@37.151132,-121.656123,14z/data=!4m8!1m2!2m1!1sLaunch+Labs+Golf!3m4!1s0x808e215f023bf947:0x16cf5c14a1566154!8m2!3d37.151132!4d-121.656123",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJR_k7Al8hjoARVGFWoRRczxY",
+  "venue_type": "private_rental",
+  "about": "Launch Labs Golf is a members-only indoor golf facility in Morgan Hill, featuring three Trackman iO simulator bays. The facility provides 24/7 access for members to practice, play world-renowned courses like Pebble Beach and St. Andrews, or compete. All bookings are made online through a smart booking system, and the venue operates without on-site staff to ensure a distraction-free environment, with orientation and support available as needed.",
+  "tags": "beginner_friendly|corporate_events|leagues|premium_tech|private_rooms|club_rentals|late_night|coaching_available|food_and_drinks|membership_benefits",
+  "vibe_tags": "tech_lab|private_luxury|community_club|modern|industrial_training",
+  "who_its_for": "serious_golfers|corporate_teams|solo_practice|families|coaches_instructors",
+  "why_golfers_like_it": [
+    "24/7 access to premium Trackman iO technology with real-time swing data",
+    "Exclusive access to world-class golf courses like Pebble Beach and St. Andrews",
+    "Large, immersive hitting bays with premium amenities including complimentary espresso and snacks",
+    "Smart online booking system for hassle-free bay reservations",
+    "Private, distraction-free environment with no on-site staff during play"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Members and guests can bring their own food encouraged from neighboring Madrone Village restaurants; complimentary snacks available for members"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "BYOB allowed; members encouraged to purchase from neighboring Madrone Village establishments"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Three bays with industry-leading technology using radar, infrared, and high-speed imaging for real-time swing data"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://www.launchlabsgolf.com/",
+  "pricing_model": "membership_only",
+  "price_range_min_local": 75,
+  "price_range_max_local": 300,
+  "currency": "USD",
+  "walk_ins_allowed": false,
+  "coaching_available": true,
+  "private_rooms_count": 3,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|wifi|pro_shop|leagues|private_party_room|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.5,
+  "rating_value_for_money": 4.2,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Launch Labs Golf highly recommends bringing your own set of golf clubs. Rental clubs are available for an additional cost, subject to availability."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "Yes! The facility is located within Madrone Village, and members are encouraged to bring food and drink from neighboring establishments. Complimentary espresso, snacks, and bottled water are also available for members."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Website content does not specify the time required to complete 18 holes."
+    },
+    {
+      "question": "Is Launch Labs Golf kid-friendly?",
+      "answer": "Yes, the facility can accommodate kids. Each bay fits up to 4 people, and the venue is suitable for families and various experience levels including beginners."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.5,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

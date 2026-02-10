@@ -1,0 +1,91 @@
+{
+  "name": "Littleton Indoor Golf",
+  "address": "24 Beacon St, Littleton, NH 03561",
+  "city": "Littleton",
+  "region": "New Hampshire",
+  "country": "US",
+  "latitude": 44.307088,
+  "longitude": -71.762621,
+  "phone": "+16034044804",
+  "website": "https://www.littletonindoorgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770199104/golf_simulators/www_littletonindoorgolf_com_ChIJw2eO67JvtEwRhvsQ9rgJMQA.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Littleton+Indoor+Golf/@44.3070885,-71.7626208,14z/data=!4m8!1m2!2m1!1sLittleton+Indoor+Golf!3m4!1s0x4cb46fb2eb8e67c3:0x3109b8f610fb86!8m2!3d44.3070885!4d-71.7626208",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJw2eO67JvtEwRhvsQ9rgJMQA",
+  "email": "whitemtindoorgolf@gmail.com",
+  "venue_type": "training_studio",
+  "about": "Littleton Indoor Golf is a state-of-the-art indoor golf facility located in Littleton, NH, offering simulation of the top 85 courses worldwide. The venue provides off-season golf access, private event bookings, practice sessions, and weekly leagues for competitive play. Operated by teaching pro Jack Wyman, the facility focuses on community engagement and skill development with its AboutGolf technology and 3Trac tracking system. Pricing is structured per hour with weekday rates of $40 and league member rates of $40 daily, making it accessible for casual play, competitive leagues, and instruction.",
+  "tags": "beginner_friendly|corporate_events|leagues|premium_tech|coaching_available",
+  "vibe_tags": "industrial_training|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice|coaches_instructors",
+  "why_golfers_like_it": [
+    "Access to 85 top global golf courses",
+    "State-of-the-art AboutGolf simulation technology",
+    "3Trac system tracks ball and club data",
+    "Weekly leagues with cash prizes",
+    "Lessons from teaching pro Jack Wyman"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No on-site food service mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned; BYOB policy unclear"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "AboutGolf",
+      "model": "unknown",
+      "notes": "Primary simulator provider"
+    }
+  ],
+  "simulator_software": [
+    "AboutGolf"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 5,
+  "booking_url": "https://littletonindoorgolf.as.me/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 40,
+  "price_range_max_local": 40,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 0,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|leagues|lockers",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "No, the facility provides club rentals or allows you to bring your own clubs."
+    },
+    {
+      "question": "Can I bring food and drinks?",
+      "answer": "No on-site food or alcohol service is mentioned; BYOB policy not specified."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Approximately 1.5 hours for 9 holes if unfamiliar with simulators; 1 hour if experienced."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "No specific information about kid-friendly amenities or policies is provided."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"10AM-8PM\"], \"Tuesday\": [\"10AM-8PM\"], \"Wednesday\": [\"10AM-8PM\"], \"Thursday\": [\"10AM-8PM\"], \"Friday\": [\"10AM-8PM\"], \"Saturday\": [\"10AM-8PM\"], \"Sunday\": [\"10AM-8PM\"]}"
+}

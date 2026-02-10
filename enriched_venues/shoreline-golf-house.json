@@ -1,0 +1,91 @@
+{
+  "name": "Shoreline Golf House",
+  "address": "170 Fort Path Rd, Madison, CT 06443",
+  "city": "Madison",
+  "region": "Connecticut",
+  "country": "US",
+  "latitude": 41.283461,
+  "longitude": -72.620222,
+  "phone": "+12032089626",
+  "website": "https://shorelinegolfhouse.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770209101/golf_simulators/shorelinegolfhouse_com_ChIJ2SWULMor5okRQxhUXvcBmaQ.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Shoreline+Golf+House/@41.2834609,-72.62022189999999,14z/data=!4m8!1m2!2m1!1sShoreline+Golf+House!3m4!1s0x89e62bca2c9425d9:0xa49901f75e541843!8m2!3d41.2834609!4d-72.62022189999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ2SWULMor5okRQxhUXvcBmaQ",
+  "email": "info@shorelinegolfhouse.com",
+  "venue_type": "sim_bar|training_studio",
+  "about": "Shoreline Golf House is a members-only indoor golf and leisure club featuring state-of-the-art TrackMan technology. It offers 24/7 private access to three TrackMan iO simulators, providing an immersive and accurate golf experience for both serious golfers and social players. The club emphasizes community with seasonal events, leagues, and tournaments, alongside a relaxed atmosphere for practice, play, and socializing.",
+  "tags": "serious_golfers|food_and_drinks|leagues|premium_tech|coaching_available|community_club|welcoming",
+  "vibe_tags": "upscale_lounge|community_club|modern",
+  "who_its_for": "serious_golfers|solo_practice|corporate_teams|families|coaches_instructors",
+  "why_golfers_like_it": [
+    "24/7 access to premium TrackMan iO simulators for flexible practice",
+    "Exclusive community environment with leagues and seasonal tournaments",
+    "Bring-your-own food policy with complimentary snacks and coffee",
+    "Opportunities to bring guests and network with fellow golfers"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Bring your own food (no alcohol) with complimentary kitchen snacks and coffee available."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "Alcohol is not permitted."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Three state-of-the-art TrackMan iO simulators with tour-level data and analysis."
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://clients.uschedule.com/shorelinegolfhouse/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 1,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 3,
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "tv_sports|leagues|club_fitting|wifi|kitchen_food",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.5,
+  "rating_value_for_money": 4.2,
+  "faq": [
+    {
+      "question": "Do I need clubs?",
+      "answer": "Yes, you will need to bring your own golf clubs to use the simulators."
+    },
+    {
+      "question": "Can I bring food and drinks?",
+      "answer": "Yes, the venue has a bring-your-own-food-and-drink policy (no alcohol), and provides complimentary kitchen snacks and coffee."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes varies, but booking sessions allow up to 4 hours per booking for Eagle members."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The venue does not explicitly mention kid-friendly features or policies, so it is unclear if it is suitable for children."
+    }
+  ],
+  "simulator_software": [
+    "TrackMan iO"
+  ],
+  "rating_overall": 4.5,
+  "opening_hours": "{\"Monday\": [\"9AM-5PM\"], \"Tuesday\": [\"9AM-7PM\"], \"Wednesday\": [\"9AM-7PM\"], \"Thursday\": [\"9AM-7PM\"], \"Friday\": [\"9AM-9PM\"], \"Saturday\": [\"9AM-9PM\"], \"Sunday\": [\"9AM-5PM\"]}"
+}

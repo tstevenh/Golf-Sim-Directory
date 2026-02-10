@@ -1,0 +1,83 @@
+{
+  "name": "The Meadows Golf Club",
+  "address": "495 Huntington Hill Rd, Litchfield, ME 04350",
+  "city": "Litchfield",
+  "region": "Maine",
+  "country": "US",
+  "latitude": 44.156072,
+  "longitude": -69.973308,
+  "phone": "+12072683000",
+  "website": "http://www.themeadowsgolfclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770221885/golf_simulators/www_themeadowsgolfclub_com_ChIJU9-OmQANskwRNuQFJAy-NnA.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Meadows+Golf+Club/@44.1560718,-69.9733079,14z/data=!4m8!1m2!2m1!1sThe+Meadows+Golf+Club!3m4!1s0x4cb20d00998edf53:0x7036be0c2405e436!8m2!3d44.1560718!4d-69.9733079",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJU9-OmQANskwRNuQFJAy-NnA",
+  "venue_type": "sim_bar",
+  "about": "The Meadows Golf Club is a comprehensive golf and social venue featuring an 18-hole, par 69 course designed by Bradley Booth. The facility includes a dedicated golf simulator area and Doolin's Pub, a full-service bar and grill. It is designed to be a fair challenge for all skill levels, offering a peaceful and enjoyable game. The venue supports leagues, event hosting, and operates a pro shop, catering to both serious golfers and social players.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|leagues|coaching_available|club_rentals|premium_tech",
+  "vibe_tags": "casual|welcoming|sports_bar|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Combining on-course play with advanced simulator technology",
+    "A welcoming atmosphere for both practice and social events",
+    "On-site dining and pub for post-game relaxation",
+    "Supportive environment for leagues and group events"
+  ],
+  "kid_friendly": false,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full bar and grill with classic pub fare and unique twists. Food truck 'Tail-Waggin' Tasty' is also available."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available at Doolin's Pub."
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": false,
+  "bay_count_total": null,
+  "booking_url": "https://apimanager-cc37.clubcaddie.com/webapi/view/iffdabab",
+  "pricing_model": "per_person_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": false,
+  "coaching_available": true,
+  "private_rooms_count": null,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You should bring your own clubs, but rentals may be available. It's best to contact the venue directly to confirm."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drinks are not allowed, as the venue features its own full bar and grill on-site."
+    },
+    {
+      "question": "How long does it take to play 18 holes on a simulator?",
+      "answer": "Typically, 18 holes on a simulator take between 1.5 to 2 hours, depending on the pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The venue does not have specific information regarding kid-friendly amenities or policies."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"7AM-6PM\"], \"Tuesday\": [\"7AM-6PM\"], \"Wednesday\": [\"7AM-6PM\"], \"Thursday\": [\"7AM-6PM\"], \"Friday\": [\"7AM-6PM\"], \"Saturday\": [\"7AM-6PM\"], \"Sunday\": [\"7AM-6PM\"]}"
+}

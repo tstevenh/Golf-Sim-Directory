@@ -1,0 +1,86 @@
+{
+  "name": "Topgolf Greensboro",
+  "address": "609 Guilford College Rd, Greensboro, NC 27409",
+  "city": "Greensboro",
+  "region": "North Carolina",
+  "country": "US",
+  "latitude": 36.064178,
+  "longitude": -79.904918,
+  "phone": "+17432493625",
+  "website": "https://topgolf.com/us/greensboro/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770268526/golf_simulators/topgolf_com_ChIJEbzg7LMbU4gRWpSJE6GeyXI.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Topgolf+Greensboro/@36.064178,-79.904918,14z/data=!4m8!1m2!2m1!1sTopgolf+Greensboro!3m4!1s0x88531bb3ece0bc11:0x72c99ea11389945a!8m2!3d36.064178!4d-79.904918",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJEbzg7LMbU4gRWpSJE6GeyXI",
+  "venue_type": "sim_bar",
+  "about": "Topgolf Greensboro is a premier entertainment destination offering year-round comfort with air-conditioned bays in the summer and heated bays in the winter. Each bay features HDTVs and utilizes high-tech balls that automatically score. The venue provides a social golf experience with a focus on technology, hospitality, and a relaxed atmosphere suitable for both casual players and serious golfers. Pricing is structured per hour, per bay, with various promotions available throughout the week.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|budget_friendly|family_friendly|kids_friendly|late_night|private_rooms|club_rentals|coaching_available",
+  "vibe_tags": "family_fun_center|sports_bar|party_atmosphere|casual|welcoming|modern",
+  "who_its_for": "families|large_groups|corporate_teams|beginners|tourists_travelers",
+  "why_golfers_like_it": [
+    "All-weather bays with climate control for comfortable play year-round",
+    "High-tech automatic ball tracking and scoring system",
+    "Variety of games including Toptracer for entertainment and skill improvement",
+    "Flexible pricing with promotions like Beat the Peak and Sunday Funday"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full bar and restaurant available with a menu featuring classics, unique treats, vegetarian, and gluten-free options. Kitchen is on-site."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with specialty drinks available."
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_so": [
+    "Toptracer"
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 70,
+  "booking_url": "https://topgolf.com/us/greensboro/plan-a-visit/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 15,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|golf_lessons|ada_accessible",
+  "rating_tech_quality": 3.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, Topgolf Greensboro provides complimentary clubs for guests to use. Players are also welcome to bring their own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, outside food and drinks are not permitted. The venue has a full bar and restaurant with a wide variety of food and drink options available for purchase."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "The time to play 18 holes varies depending on the number of players and your skill level, but generally, a game of 18 holes can last anywhere from 45 minutes to over an hour."
+    },
+    {
+      "question": "Is Topgolf Greensboro kid-friendly?",
+      "answer": "Yes. The venue is family-friendly with an age policy that allows children under 16 to play if supervised by a guest 21 or older. It offers a fun atmosphere suitable for all ages."
+    }
+  ],
+  "simulator_software": [
+    "Toptracer"
+  ],
+  "rating_overall": 4.0,
+  "opening_hours": "{\"Monday\": [\"9AM-12AM\"], \"Tuesday\": [\"9AM-12AM\"], \"Wednesday\": [\"9AM-12AM\"], \"Thursday\": [\"9AM-12AM\"], \"Friday\": [\"9AM-1AM\"], \"Saturday\": [\"9AM-1AM\"], \"Sunday\": [\"9AM-12AM\"]}"
+}

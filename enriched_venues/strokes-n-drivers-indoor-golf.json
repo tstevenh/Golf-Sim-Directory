@@ -1,0 +1,88 @@
+{
+  "name": "Strokes N Drivers Indoor Golf",
+  "address": "The Marketplace, 115 NW 6th St, Fort Lauderdale, FL 33311",
+  "city": "Fort Lauderdale",
+  "region": "Florida",
+  "country": "US",
+  "latitude": 26.130028,
+  "longitude": -80.145302,
+  "phone": "+15162291932",
+  "website": "http://www.strokesndrivers.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770218058/golf_simulators/www_strokesndrivers_com_ChIJFZTvr7gB2YgRbtNwmMWILYM.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Strokes+N+Drivers+Indoor+Golf/@26.130027899999998,-80.14530189999999,14z/data=!4m8!1m2!2m1!1sStrokes+N+Drivers+Indoor+Golf!3m4!1s0x88d901b8afef9415:0x832d88c59870d36e!8m2!3d26.130027899999998!4d-80.14530189999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJFZTvr7gB2YgRbtNwmMWILYM",
+  "venue_type": "sim_bar",
+  "about": "Strokes N Drivers Indoor Golf is a facility in Fort Lauderdale offering indoor golf simulator experiences. The venue uses ProTee VX launch monitor technology with GSPro software to provide data-driven practice and play on over 500 virtual courses. It caters to golfers seeking a laid-back, professional atmosphere for practice, lessons, and social events, with a focus on accessibility and value. Membership options are available, starting at $20 per month, which includes benefits like discounted simulator hours and a free lesson.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|kids_friendly|corporate_events|leagues|premium_tech|budget_friendly|private_rooms|club_rentals|coaching_available",
+  "vibe_tags": "casual|welcoming|modern|sports_bar|community_club",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "Tour-level ProTee VX launch monitor provides detailed ball and club data for improvement",
+    "Laid-back, professional atmosphere suitable for both practice and social play",
+    "Affordable $20/month membership with exclusive benefits like free lessons and priority booking"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Premium food and drink options available, including a craft cocktail bar and dedicated bourbon lounge"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with craft cocktails and bourbon lounge; beverages provided by Center Bar"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "ProTee",
+      "model": "VX",
+      "notes": "Launch monitor system with AI-powered club data tracking"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://app.birrdi.com/u/reserve?team_booking_link_id=strokes-n-drivers&date=2025-08-22&fbp=fb.1.1770447291872.67684761514194980",
+  "pricing_model": "mixed",
+  "price_range_min_local": 20,
+  "price_range_max_local": 35,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 0,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|club_fitting|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue does not specify a club rental policy, so it is recommended to bring your own clubs for the best experience."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drinks are not mentioned. The venue has its own full bar and kitchen serving premium food and craft cocktails."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify the time required for an 18-hole round, as it depends on the number of players and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Strokes N Drivers offers after-school youth golf clinics with Coach Jon for $25 per child, making it a kid-friendly environment."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"11AM-7PM\"], \"Tuesday\": [\"11AM-7PM\"], \"Wednesday\": [\"11AM-10PM\"], \"Thursday\": [\"11AM-10PM\"], \"Friday\": [\"11AM-12AM\"], \"Saturday\": [\"11AM-12AM\"], \"Sunday\": [\"11AM-8PM\"]}"
+}

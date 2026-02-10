@@ -1,0 +1,92 @@
+{
+  "name": "Tee'd Up Tavern",
+  "address": "407 Main St, Malvern, IA 51551",
+  "city": "Malvern",
+  "region": "Iowa",
+  "country": "US",
+  "latitude": 41.002671,
+  "longitude": -95.585551,
+  "phone": "+17123994653",
+  "website": "http://www.teeduptavern.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770241465/golf_simulators/www_teeduptavern_com_ChIJwcjUfwCFlIcRvVqUIzPzGWk.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Tee%27d+Up+Tavern/@41.0026705,-95.58555109999999,14z/data=!4m8!1m2!2m1!1sTee%27d+Up+Tavern!3m4!1s0x879485007fd4c8c1:0x6919f33323945abd!8m2!3d41.0026705!4d-95.58555109999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJwcjUfwCFlIcRvVqUIzPzGWk",
+  "email": "TeedUpTavern@gmail.com",
+  "venue_type": "sim_bar",
+  "about": "Tee'd Up Tavern is a multi-venue entertainment destination located in two renovated buildings on Malvern, Iowa's historic Main Street. It features two state-of-the-art indoor golf simulators, allowing golfers to play on over 240 famous courses from around the world year-round. The facility offers a unique combination of golf, drinks, and games, making it suitable for both dedicated golf practice and social gatherings. Patrons have the option to bring their own clubs or rent a set, and they can book up to four hours at a time per simulator.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|kids_friendly|corporate_events|premium_tech|club_rentals|family_fun_center",
+  "vibe_tags": "sports_bar|family_fun_center|tech_lab",
+  "who_its_for": "beginners|families|corporate_teams|solo_practice|tourists_travelers",
+  "why_golfers_like_it": [
+    "Access to 240+ famous golf courses from around the world",
+    "State-of-the-art Golfzon TwoVision simulators with high-quality tech",
+    "Ability to play year-round regardless of weather conditions",
+    "Option to bring your own clubs or rent on-site",
+    "Multiple booking options including reserving both simulators simultaneously"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Limited menu of chips and frozen pizzas available. Guests are permitted to bring in food from neighboring restaurants: Classic Cafe, The Salty Heifer, or Casey's Pizza."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "A full bar is available on-site."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Golfzon",
+      "model": "TwoVision",
+      "notes": "Two state-of-the-art simulators providing a realistic golf experience"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://clients.uschedule.com/teeduptavern/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, you can bring your own clubs or rent an adult left or right hand set from Tee'd Up Tavern."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "You can bring food from neighboring restaurants like Classic Cafe, The Salty Heifer, or Casey's Pizza. A full bar with drinks is available on-site."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify the exact time required to play 18 holes."
+    },
+    {
+      "question": "Is Tee'd Up Tavern kid-friendly?",
+      "answer": "Yes, children are allowed when accompanied by an adult until 10:00 PM."
+    }
+  ],
+  "simulator_software": [
+    "Golfzon TwoVision"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"3-10PM\"], \"Tuesday\": [\"3-10PM\"], \"Wednesday\": [\"3-10PM\"], \"Thursday\": [\"3PM-12AM\"], \"Friday\": [\"3PM-2AM\"], \"Saturday\": [\"12PM-2AM\"], \"Sunday\": [\"12-6PM\"]}"
+}

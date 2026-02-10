@@ -1,0 +1,91 @@
+{
+  "name": "Genesee Park Golf Club",
+  "address": "25948 Genesee Trail Rd Unit L, Golden, CO 80401",
+  "city": "Golden",
+  "region": "Colorado",
+  "country": "US",
+  "latitude": 39.707569,
+  "longitude": -105.294597,
+  "phone": "+17206344903",
+  "website": "http://www.golfgenesee.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770215575/golf_simulators/www_golfgenesee_com_ChIJidqr-daba4cREaKUQ3y429E.png",
+  "google_maps_url": "https://www.google.com/maps/place/Genesee+Park+Golf+Club/@39.7075691,-105.2945972,14z/data=!4m8!1m2!2m1!1sGenesee+Park+Golf+Club!3m4!1s0x876b9bd6f9abda89:0xd1dbb87c4394a211!8m2!3d39.7075691!4d-105.2945972",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJidqr-daba4cREaKUQ3y429E",
+  "email": "gpgc@golfgenesee.com",
+  "venue_type": "sim_bar",
+  "about": "Genesee Park Golf Club is an indoor golf simulator venue that offers a premium golfing experience. They feature Golfzon technology, which utilizes high-definition 3D graphics and a moving swing plate to simulate play on over 190 world-famous golf courses. The facility provides a comfortable indoor environment for golfers to practice and play, with options for both hourly bookings and membership plans. The venue also offers food from the on-site Genesee Pub & BBQ, creating a social and complete experience beyond just golf.",
+  "tags": "food_and_drinks|beginner_friendly|serious_golfers|families|corporate_events|premium_tech|leagues|coaching_available|club_rentals",
+  "vibe_tags": "sports_bar|community_club|modern|welcoming",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Access to over 190 world-famous golf courses via Golfzon technology",
+    "High-accuracy moving swing plate with variable ground settings",
+    "On-site food and craft beer from Genesee Pub & BBQ",
+    "Multiple simulator bay options for 1-4 players",
+    "Flexible booking and membership plans"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Food available from Genesee Pub & BBQ"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Craft beer available"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Golfzon",
+      "model": "Premium Simulator",
+      "notes": "Moving swing plate with variable ground settings"
+    }
+  ],
+  "simulator_software": [
+    "Golfzon Vision"
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.golfgenesee.com/book-online",
+  "pricing_model": "mixed",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Players are expected to bring their own golf clubs to use with the simulators."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, the venue offers food and craft beer from the on-site Genesee Pub & BBQ."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time for 18 holes can vary depending on the pace of play and the simulator software, but typically it takes around 2-3 hours for a full round."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is considered kid-friendly, with a casual atmosphere and food options available."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-9PM\"], \"Tuesday\": [\"9AM-9PM\"], \"Wednesday\": [\"9AM-9PM\"], \"Thursday\": [\"9AM-9PM\"], \"Friday\": [\"9AM-9PM\"], \"Saturday\": [\"9AM-9PM\"], \"Sunday\": [\"9AM-9PM\"]}"
+}

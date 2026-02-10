@@ -1,0 +1,89 @@
+{
+  "name": "Ace And Eagle",
+  "address": "284 Lyman St, Asheville, NC 28801",
+  "city": "Asheville",
+  "region": "North Carolina",
+  "country": "US",
+  "latitude": 35.582795,
+  "longitude": -82.566708,
+  "phone": "+18284125588",
+  "website": "https://www.aceandeagleavl.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770218182/golf_simulators/www_aceandeagleavl_com_ChIJcx4shVSNWYgRH2czjE6deNQ.png",
+  "google_maps_url": "https://www.google.com/maps/place/Ace+And+Eagle/@35.582794899999996,-82.56670749999999,14z/data=!4m8!1m2!2m1!1sAce+And+Eagle!3m4!1s0x88598d54852c1e73:0xd4789d4e8c33671f!8m2!3d35.582794899999996!4d-82.56670749999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJcx4shVSNWYgRH2czjE6deNQ",
+  "venue_type": "sim_bar",
+  "about": "Ace & Eagle is an urban sports club in Asheville offering indoor golf simulators, outdoor pickleball courts, and billiards tables. The venue features state-of-the-art technology for golf practice and play, alongside a full bar with Hi-Wire craft beer and drinks. Pricing is based on hourly bay rentals or memberships, which provide benefits like advance booking access and weekly brewery credits. The facility is designed for both casual players and serious golfers looking for a modern social experience.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|premium_tech|budget_friendly|private_rooms|club_rentals|late_night|coaching_available",
+  "vibe_tags": "sports_bar|community_club|modern|welcoming",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "State-of-the-art simulators with access to global courses",
+    "Premium booking system with 14-day advance access for members",
+    "Weekly brewery credits included with memberships",
+    "Flexible pricing options for both casual and regular players"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned, BYOB likely allowed"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with Hi-Wire craft beer and drinks"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "State-of-the-art premium radar technology"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://aceandeagle.playbypoint.com/book/AceandEagle",
+  "pricing_model": "per_bay_hour|membership_only",
+  "price_range_min_local": 45,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|tv_sports|private_party_room|wifi|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue does not explicitly state whether clubs are provided, so it's recommended to bring your own."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue offers a full bar with Hi-Wire craft beer and drinks, but food service is not mentioned, suggesting BYOB may be allowed."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time for 18 holes is not specified, but sessions are typically 1 hour for practice rounds."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The website does not explicitly mention kid-friendly policies or activities."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"12-9PM\"], \"Tuesday\": [\"12-9PM\"], \"Wednesday\": [\"12-9PM\"], \"Thursday\": [\"12-9PM\"], \"Friday\": [\"12-10PM\"], \"Saturday\": [\"12-10PM\"], \"Sunday\": [\"12-9PM\"]}"
+}

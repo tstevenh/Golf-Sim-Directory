@@ -1,0 +1,85 @@
+{
+  "name": "X-Golf Wrigleyville",
+  "address": "3549 N Sheffield Ave #51, Chicago, IL 60657",
+  "city": "Chicago",
+  "region": "Illinois",
+  "country": "US",
+  "latitude": 41.946942,
+  "longitude": -87.654031,
+  "phone": "+18728293325",
+  "website": "https://www.xgolfwrigleyville.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770199486/golf_simulators/www_xgolfwrigleyville_com_ChIJKzwx4s7TD4gRFcAIlQMUoGI.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/X-Golf+Wrigleyville/@41.9469419,-87.6540309,14z/data=!4m8!1m2!2m1!1sX-Golf+Wrigleyville!3m4!1s0x880fd3cee2313c2b:0x62a014039508c015!8m2!3d41.9469419!4d-87.6540309",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJKzwx4s7TD4gRFcAIlQMUoGI",
+  "email": "info@xgolfwrigleyville.com872-829-3325",
+  "venue_type": "sim_bar",
+  "about": "X-Golf Wrigleyville is an indoor golf bar and simulation venue featuring 8 state-of-the-art golf simulators. The facility is designed for golfers of all skill levels, offering a combination of high-tech golf play, food, and drinks in a sports-bar atmosphere. Located directly across from Wrigley Field, it serves as a social hub for both practice and events, with packages available for corporate gatherings, birthdays, and other parties. The venue emphasizes its advanced simulation technology, which provides detailed shot data and realistic course experiences.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|private_rooms|club_rentals|coaching_available",
+  "vibe_tags": "sports_bar|family_fun_center|party_atmosphere|tech_lab",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "98% accuracy in ball tracking with detailed data points",
+    "Automatic ball-teeing system for convenience and faster play",
+    "Ability to play famous golf courses from around the world",
+    "Signature cocktails and comfort food available on-site",
+    "Private event spaces with views of Wrigleyville"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Comfort food, pizza, and snacks available"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Signature cocktails and draft beer served on-site"
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": 8,
+  "booking_url": "https://www.xgolfwrigleyville.com/teetime",
+  "pricing_model": "per_bay_hour|package|membership_only",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "While you can bring your own clubs, the venue provides rentals if needed."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "Outside food and drinks are not allowed, as the venue offers its own menu of signature cocktails, draft beer, and comfort food."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time varies depending on group size and simulator usage, but typically it takes 1-2 hours for a full round."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, X-Golf Wrigleyville is family-friendly and welcomes all ages, including children."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-12AM\"], \"Friday\": [\"10AM-12AM\"], \"Saturday\": [\"10AM-12AM\"], \"Sunday\": [\"10AM-8PM\"]}"
+}

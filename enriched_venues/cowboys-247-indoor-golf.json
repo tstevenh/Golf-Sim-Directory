@@ -1,0 +1,91 @@
+{
+  "name": "Cowboy's 24/7 Indoor Golf",
+  "address": "1502 9th St E, Menomonie, WI 54751",
+  "city": "Menomonie",
+  "region": "Wisconsin",
+  "country": "US",
+  "latitude": 44.868956,
+  "longitude": -91.918857,
+  "phone": "+17155751443",
+  "website": "https://www.cowboy-golf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770214173/golf_simulators/www_cowboy-golf_com_ChIJv5pesLt7-IcRvpx1K95ZVwQ.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Cowboy%27s+24%2F7+Indoor+Golf/@44.868956,-91.91885719999999,14z/data=!4m8!1m2!2m1!1sCowboy%27s+24%2F7+Indoor+Golf!3m4!1s0x87f87bbbb05e9abf:0x45759de2b759cbe!8m2!3d44.868956!4d-91.91885719999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJv5pesLt7-IcRvpx1K95ZVwQ",
+  "email": "admin@cowboy-golf.com",
+  "venue_type": "multi_sport_sim",
+  "about": "Cowboy's 24/7 Indoor Golf is an all-weather golf simulator facility in Menomonie, Wisconsin, operating 24 hours a day, 365 days a week. The venue utilizes a premium Uneekor EYE XO2 launch monitor with a 15.5-foot wide 4K projection screen and dual monitors for comprehensive data tracking. Pricing is based on time slots, with day, weekend, and night rates available, along with monthly membership options. The facility is designed for individuals and groups looking to practice or play golf in a controlled environment.",
+  "tags": "beginner_friendly|serious_golfers|families|solo_practice|late_night|premium_tech|coaching_available|budget_friendly",
+  "vibe_tags": "casual|welcoming|modern|tech_lab",
+  "who_its_for": "beginners|serious_golfers|families|solo_practice|corporate_teams",
+  "why_golfers_like_it": [
+    "Premium Uneekor EYE XO2 launch monitor with 24 data points",
+    "24/7 availability allowing for flexible practice schedules",
+    "Technology like Club Optix and Dimple Optix for detailed performance insights",
+    "Spacious hitting area accommodating both left and right-handed golfers",
+    "Flat rate pricing per session, not per person, up to 4 golfers"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food or drinks are allowed inside the simulator bay or near the computer. A cleaning station is available."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol is mentioned as being available for onsite purchase or consumption."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "EYE XO2",
+      "notes": "Premium launch monitor with 24 data points, includes Club Optix and Dimple Optix technologies."
+    }
+  ],
+  "simulator_software": [
+    "Uneekor View"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 1,
+  "booking_url": "https://clients.uschedule.com/cowboysindoorgolf/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 30,
+  "price_range_max_local": 50,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|wifi|pro_shop|club_fitting|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need clubs?",
+      "answer": "You must bring your own clubs. The venue does not currently offer club rentals, but clubs may be available depending on your needs and the time of year. It is best to contact them beforehand."
+    },
+    {
+      "question": "Can I bring food or drink?",
+      "answer": "No, food and drinks are not allowed inside the simulator bay. There are provided tables for food and drinks. A cleaning station is available to ensure all equipment is clean."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "18 holes take about 1 hour for a single player. Each additional player adds about 45 minutes to complete 18 holes."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is suitable for families and kids, as it accommodates groups and has a welcoming, casual atmosphere."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

@@ -1,0 +1,95 @@
+{
+  "name": "Konnectgolf",
+  "address": "590 5th Ave Floor 2, New York, NY 10036",
+  "city": "New York",
+  "region": "New York",
+  "country": "US",
+  "latitude": 40.757164,
+  "longitude": -73.978664,
+  "phone": "+16463701452",
+  "website": "https://konnectgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770201442/golf_simulators/konnectgolf_com_ChIJ___D9P5YwokRdFcMfJlYhig.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Konnectgolf/@40.7571637,-73.9786641,14z/data=!4m8!1m2!2m1!1sKonnectgolf!3m4!1s0x89c258fef4c3ffff:0x288658997c0c5774!8m2!3d40.7571637!4d-73.9786641",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ___D9P5YwokRdFcMfJlYhig",
+  "email": "membership@konnectgolf.com",
+  "venue_type": "sim_bar",
+  "about": "Konnectgolf is an inclusive indoor golf club and simulator venue located in Midtown NYC. The facility features 8 studios equipped with Trackman launch monitors and advanced golf simulation technology, catering to both members and non-members. Konnectgolf offers a comprehensive golf experience that includes play, practice, professional coaching, tournament competition, and corporate events. Membership options are available with different tiers including junior, general, and corporate packages, while non-members can access services through corporate clinics, lessons, and event hosting.",
+  "tags": "food_and_drinks|corporate_events|coaching_available|premium_tech|beginner_friendly|leagues|club_rentals|juniors_youth",
+  "vibe_tags": "upscale_lounge|tech_lab|community_club|modern",
+  "who_its_for": "serious_golfers|families|corporate_teams|juniors_youth|solo_practice",
+  "why_golfers_like_it": [
+    "State-of-the-art Trackman 4 launch monitor technology with putting software",
+    "8 dedicated studios for private, semi-private, and group lessons",
+    "Weekly tournament competitions and challenges for prizes and improvement",
+    "Spacious bar and lounge area perfect for socializing and networking",
+    "Convenient location in Midtown NYC with no need for travel to real courses"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Food and beverage selections available in the lounge area"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar available in the lounge area"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "8 studios equipped with Trackman 4 launch monitors and PuttView putting software"
+    }
+  ],
+  "simulator_so": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": 8,
+  "booking_url": "https://clients.uschedule.com/konnectgolf/account/login",
+  "pricing_model": "mixed",
+  "price_range_min_local": 425,
+  "price_range_max_local": 575,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 8,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can use your own clubs or rentals may be available at the facility. The venue is equipped with Trackman technology that works with any golf clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue offers food and beverage selections in their lounge area. External food and drink policies are not specified, so it's recommended to check with the venue directly."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "With 8 simulation studios and advanced technology, playing 18 holes typically takes approximately 1-2 hours depending on the number of players and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Konnectgolf offers junior membership options starting at $425 annually and provides specialized coaching programs for young golfers."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"8AM-8PM\"], \"Tuesday\": [\"8AM-8PM\"], \"Wednesday\": [\"8AM-8PM\"], \"Thursday\": [\"8AM-8PM\"], \"Friday\": [\"8AM-8PM\"], \"Saturday\": [\"10AM-5PM\"], \"Sunday\": [\"10AM-5PM\"]}"
+}

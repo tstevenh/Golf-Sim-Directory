@@ -1,0 +1,89 @@
+{
+  "name": "Wohali Sports",
+  "address": "9620 US-43, Killen, AL 35645",
+  "city": "Killen",
+  "region": "Alabama",
+  "country": "US",
+  "latitude": 34.98127,
+  "longitude": -87.515991,
+  "phone": "+12566928253",
+  "website": "https://wohalisports.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770232863/golf_simulators/wohalisports_com_ChIJFR4eR8rNYogRfYvJRBaxsPY.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Wohali+Sports/@34.9812698,-87.5159912,14z/data=!4m8!1m2!2m1!1sWohali+Sports!3m4!1s0x8862cdca471e1e15:0xf6b0b11644c98b7d!8m2!3d34.9812698!4d-87.5159912",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJFR4eR8rNYogRfYvJRBaxsPY",
+  "venue_type": "multi_sport_sim",
+  "about": "Wohali Sports is a 16-acre golf entertainment facility in Killen, AL, featuring a TrackMan-equipped driving range with covered, heated bays and premium mats. The venue combines golf technology with alternative activities, offering virtual golf, practice modes, and dedicated axe throwing lanes. Aimed at all skill levels, it provides a blend of serious practice, family entertainment, and corporate event options, equipped with TrackMan technology for data-driven swing analysis and a full-service pro shop.",
+  "tags": "beginner_friendly|kids_friendly|corporate_events|premium_tech|family_fun_center|coaching_available|club_fitting",
+  "vibe_tags": "family_fun_center|tech_lab|modern|welcoming",
+  "who_its_for": "beginners|families|corporate_teams|juniors_youth|serious_golfers",
+  "why_golfers_like_it": [
+    "Premium TrackMan technology for detailed swing analysis",
+    "Covered, heated bays with comfortable seating",
+    "Dedicated short game area for comprehensive practice",
+    "Full-service pro shop and club fitting services"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Snacks and beverages available for purchase"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "Range",
+      "notes": "TrackMan driving range technology with ball data tracking"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://apimanager-cc18.clubcaddie.com/activities/view/fjfdabab",
+  "pricing_model": "mixed",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 0,
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|pro_shop|club_fitting|heated_bays|lights|short_game_area|sofas_and_tables",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you will need to bring your own golf clubs to use the driving range and TrackMan bays."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "Outside food and drinks are not mentioned, but the facility offers snacks and beverages for purchase on-site."
+    },
+    {
+      "question": "How long does it take to play 18 holes of virtual golf?",
+      "answer": "The time required to play 18 holes of virtual golf is not specified on the website."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, Wohali Sports is kid-friendly, offering junior golf camps and a family-oriented atmosphere with axe throwing and other activities."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"1-9PM\"], \"Tuesday\": [\"1-9PM\"], \"Wednesday\": [\"1-9PM\"], \"Thursday\": [\"1-9PM\"], \"Friday\": [\"10AM-10PM\"], \"Saturday\": [\"10AM-10PM\"], \"Sunday\": [\"1-9PM\"]}"
+}

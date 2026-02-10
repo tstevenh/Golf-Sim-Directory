@@ -1,0 +1,91 @@
+{
+  "name": "The Links Club",
+  "address": "1325 S 500 E STE 304, American Fork, UT 84003",
+  "city": "American Fork",
+  "region": "Utah",
+  "country": "US",
+  "latitude": 40.351128,
+  "longitude": -111.784182,
+  "phone": "+13854984373",
+  "website": "http://utahindoorgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770223882/golf_simulators/utahindoorgolf_com_ChIJD2efBXWDTYcRXFNp8U5Ctwc.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Links+Club/@40.351127999999996,-111.7841816,14z/data=!4m8!1m2!2m1!1sThe+Links+Club!3m4!1s0x874d8375059f670f:0x7b7424ef169535c!8m2!3d40.351127999999996!4d-111.7841816",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJD2efBXWDTYcRXFNp8U5Ctwc",
+  "email": "operations@utahindoorgolf.com",
+  "venue_type": "training_studio",
+  "about": "The Links Club is an indoor golf facility featuring Foresight Sports GCQuad launch monitors. It operates on an appointment-only basis and provides 24/7 access to members. The club is designed for efficient practice, allowing golfers to play 18 holes in one hour. Memberships are available in various formats, including hourly and session-based plans, with corporate options also offered. The facility focuses on providing accurate, data-driven practice using high-end technology to help golfers improve their game.",
+  "tags": "serious_practice|premium_tech|beginner_friendly|corporate_events|leagues|private_rooms|club_rentals|late_night|community_club",
+  "vibe_tags": "tech_lab|community_club|modern|welcoming",
+  "who_its_for": "serious_golfers|beginners|corporate_teams|solo_practice|coaches_instructors",
+  "why_golfers_like_it": [
+    "Access to 24/7 practice times to fit any schedule",
+    "Use of Pro V1 balls for realistic ball flight and feel",
+    "Foresight GCQuad technology provides unparalleled accuracy in ball and club data",
+    "Ability to play 18 holes in just one hour"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of food service available on-site."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service available on-site."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": "GCQuad",
+      "notes": "High-end photometric camera launch monitor providing accurate ball and club data."
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://clients.uschedule.com/utahindoorgolf/booking",
+  "pricing_model": "membership_only",
+  "price_range_min_local": 4.33,
+  "price_range_max_local": 16.5,
+  "currency": "USD",
+  "walk_ins_allowed": false,
+  "coaching_available": false,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|lockers|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 4.2,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website features a 'What Clubs Do I Buy?' page, suggesting members may need their own clubs. Details on rental clubs are not specified."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "There is no mention of a BYOB policy or on-site food and drink service. The website focuses on golf technology and practice."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The facility is designed for efficient play, allowing you to complete 18 holes in one session."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "The website does not explicitly mention kid-friendly features or junior programs. The testimonials mention 'all age ranges' but not specific children's activities."
+    }
+  ],
+  "simulator_software": [
+    "FSX 2020"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

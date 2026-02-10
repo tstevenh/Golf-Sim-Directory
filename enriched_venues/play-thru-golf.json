@@ -1,0 +1,91 @@
+{
+  "name": "Play Thru Golf",
+  "address": "831 Atlantic Ave, Brooklyn, NY 11238",
+  "city": "Brooklyn",
+  "region": "New York",
+  "country": "US",
+  "latitude": 40.681663,
+  "longitude": -73.966127,
+  "phone": "+13472015072",
+  "website": "https://www.playthrugolfbk.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770202335/golf_simulators/www_playthrugolfbk_com_ChIJpWOp_I9bwokR6tj-7KCOAbs.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Play+Thru+Golf/@40.681662599999996,-73.9661271,14z/data=!4m8!1m2!2m1!1sPlay+Thru+Golf!3m4!1s0x89c25b8ffca963a5:0xbb018ea0ecfed8ea!8m2!3d40.681662599999996!4d-73.9661271",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJpWOp_I9bwokR6tj-7KCOAbs",
+  "email": "info@playthrugolfbk.comP",
+  "venue_type": "sim_bar|training_studio|private_rental|retail_fitting_center|country_club|multi_sport_sim|hotel_resort|other",
+  "about": "Play Thru Golf is a 24/7 autonomous golf simulator venue located in Brooklyn, NY, offering public access without requiring a membership. The facility features private simulator bays and is designed for flexible booking, allowing players to reserve sessions and access the space 15 minutes before their booked time. It accommodates up to four players per bay at one price, with included golf clubs and equipment for both left-handed and right-handed players. The venue is positioned for convenience, situated at 831 Atlantic Avenue near the Barclays Center, and is available for various events such as corporate outings, birthday parties, and social gatherings.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|private_rooms|late_night|coaching_available|party_atmosphere|community_club",
+  "vibe_tags": "casual|welcoming|modern|tech_lab|sports_bar|community_club",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "24/7 access for flexible play anytime day or night",
+    "No membership required, just book online and show up",
+    "Clubs and equipment included, so no need to bring your own",
+    "Up to four players per bay at one flat price",
+    "Located near major Brooklyn landmarks for easy access"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "Not explicitly mentioned, but food & drink coordination is offered for events"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "Not mentioned as available for general play, but may be provided for events"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Unknown",
+      "model": "Unknown",
+      "notes": "Website does not specify simulator hardware brands or models"
+    }
+  ],
+  "simulator_software": [
+    "Unknown"
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://playthrugolf.podplay.app/book/brooklyn/",
+  "pricing_model": "per_bay_hour|mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|lockers|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, clubs and equipment are included on site for both lefty and righty players, as well as golf balls and tees."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Not explicitly mentioned for general play, but food & drink coordination is available for events."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Website does not specify, but sessions are booked by the hour with access starting 15 minutes before the booked time."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is open for birthday parties and family-friendly events, though specific age restrictions are not mentioned."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

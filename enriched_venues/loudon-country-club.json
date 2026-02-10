@@ -1,0 +1,83 @@
+{
+  "name": "Loudon Country Club",
+  "address": "653 NH-106, Loudon, NH 03307",
+  "city": "Loudon",
+  "region": "New Hampshire",
+  "country": "US",
+  "latitude": 43.332706,
+  "longitude": -71.475532,
+  "phone": "+16037833372",
+  "website": "https://www.loudoncc.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770250512/golf_simulators/www_loudoncc_com_ChIJc_XXO_Jx4okRadqmvZhFEn4.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Loudon+Country+Club/@43.3327063,-71.4755318,14z/data=!4m8!1m2!2m1!1sLoudon+Country+Club!3m4!1s0x89e271f23bd7f573:0x7e124598bda6da69!8m2!3d43.3327063!4d-71.4755318",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJc_XXO_Jx4okRadqmvZhFEn4",
+  "email": "info@loudoncc.com",
+  "venue_type": "country_club",
+  "about": "Loudon Country Club is a full-service golf and entertainment venue in Loudon, New Hampshire, offering both on-course play and a golf simulator experience. The facility provides a classic country club atmosphere with a sports pub and restaurant, The Out of Bounds Pub, and hosts various leagues, tournaments, and events. While the website does not specify simulator technology details, it emphasizes the simulator for winter leagues and year-round play. The venue offers competitive membership rates and is conveniently located near the New Hampshire Motor Speedway, making it accessible for a wide range of golfers and event planners seeking a multi-purpose recreational destination.",
+  "tags": "food_and_drinks|leagues|corporate_events|coaching_available|beginner_friendly|family_friendly|private_rooms|club_rentals|community_club",
+  "vibe_tags": "community_club|sports_bar|casual|welcoming|modern",
+  "who_its_for": "families|corporate_teams|beginners|serious_golfers|tourists_travelers",
+  "why_golfers_like_it": [
+    "Versatile venue offering both traditional course play and simulator access for all-weather golf",
+    "Comprehensive league programs for various skill levels and seasons, including a dedicated winter simulator league",
+    "Full-service amenities including a sports pub, event hosting capabilities, and on-site dining"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "On-site restaurant 'The Out of Bounds Sports Pub and Restaurant' available with a full menu"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Sports pub serves alcohol; venue does not mention BYOB policy"
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": "unknown",
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.loudoncc.com/rates/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "true",
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 3.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify equipment policies, but as a full golf facility, it's recommended to bring your own clubs unless rental options are available at the pro shop."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue has an on-site restaurant 'The Out of Bounds Sports Pub and Restaurant', so outside food and drink policies are not specified, but bringing outside alcohol is likely not permitted."
+    },
+    {
+      "question": "How long does it take to play 18 holes on the simulator?",
+      "answer": "The website does not provide specific timing information for simulator rounds, but typical simulator play ranges from 1-2 hours for 18 holes depending on the software and group size."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Loudon Country Club appears to be family-friendly with its sports pub, event hosting capabilities, and leagues suggesting it accommodates various age groups and family events."
+    }
+  ],
+  "rating_overall": 3.9,
+  "opening_hours": "{\"Monday\": [\"7AM-9PM\"], \"Tuesday\": [\"7AM-9PM\"], \"Wednesday\": [\"7AM-9PM\"], \"Thursday\": [\"7AM-9PM\"], \"Friday\": [\"7AM-9PM\"], \"Saturday\": [\"7AM-9PM\"], \"Sunday\": [\"7AM-9PM\"]}"
+}

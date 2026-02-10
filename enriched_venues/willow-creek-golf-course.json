@@ -1,0 +1,90 @@
+{
+  "name": "Willow Creek Golf Course",
+  "address": "140 SE Willow Creek Dr, West Des Moines, IA 50265",
+  "city": "West Des Moines",
+  "region": "Iowa",
+  "country": "US",
+  "latitude": 41.526149,
+  "longitude": -93.703576,
+  "phone": "+15152854558",
+  "website": "http://willowgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770268435/golf_simulators/willowgolf_com_ChIJmffXy7Oh7ocRcvW6tyGzxRU.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Willow+Creek+Golf+Course/@41.5261491,-93.70357609999999,14z/data=!4m8!1m2!2m1!1sWillow+Creek+Golf+Course!3m4!1s0x87eea1b3cbd7f799:0x15c5b321b7baf572!8m2!3d41.5261491!4d-93.70357609999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJmffXy7Oh7ocRcvW6tyGzxRU",
+  "email": "willowcreek@mchsi.com",
+  "venue_type": "sim_bar|training_studio|private_rental|retail_fitting_center|country_club|multi_sport_sim|hotel_resort|other",
+  "about": "Willow Creek Golf Course offers a comprehensive golf experience with a 27-hole course designed for all skill levels. The facility includes a driving range for practice, a pro shop with equipment and fitting services, and on-site dining options. They also feature two TrackMan golf simulators available for use, particularly during the off-season, providing an alternative golfing experience. The venue offers various membership packages, lessons, and event hosting capabilities for tournaments and weddings.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|club_rentals|coaching_available",
+  "vibe_tags": "community_club|family_fun_center",
+  "who_its_for": "beginners|families|corporate_teams|solo_practice|juniors_youth",
+  "why_golfers_like_it": [
+    "Premium TrackMan technology for accurate simulation and practice",
+    "Comprehensive pro shop with certified club-fitting experts",
+    "Full-service bar and food options available on-site",
+    "27-hole scenic course designed to improve the game"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Clubhouse features a full-service bar with deli sandwiches, hot dogs, and snacks"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full-service bar available, open daily based on golf course hours"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Two bays available; one for left- and right-handed golfers, one right-handed only"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://book.cgsteetimes.com/asp/default.asp?wcg",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 40,
+  "price_range_max_local": 40,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 0,
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|full_bar|kitchen_food|pro_shop|club_fitting|leagues",
+  "rating_tech_quality": 5.0,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can bring your own clubs or rent them from the pro shop, which offers a selection of clubs for purchase or rental. Certified club-fitting experts are available to help match the right equipment to your swing."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The clubhouse features a full-service bar with deli sandwiches, hot dogs, and snacks available for purchase. Outside food and drink policies are not specified."
+    },
+    {
+      "question": "How long does an 18-hole simulator session take?",
+      "answer": "The cost is $40 per hour for the TrackMan simulators, with two bays available. Session duration would depend on how many holes you play within your booked time."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Willow Creek offers quality instructional programs for youth and families, with a variety of amenities suitable for different age groups."
+    }
+  ],
+  "rating_overall": 4.4,
+  "opening_hours": "{\"Monday\": [\"8AM-8PM\"], \"Tuesday\": [\"8AM-8PM\"], \"Wednesday\": [\"8AM-8PM\"], \"Thursday\": [\"8AM-8PM\"], \"Friday\": [\"8AM-8PM\"], \"Saturday\": [\"8AM-8PM\"], \"Sunday\": [\"8AM-8PM\"]}"
+}

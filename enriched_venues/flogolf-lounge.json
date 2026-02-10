@@ -1,0 +1,90 @@
+{
+  "name": "Flogolf Lounge",
+  "address": "880 Broadway, Saugus, MA 01906",
+  "city": "Saugus",
+  "region": "Massachusetts",
+  "country": "US",
+  "latitude": 42.46989,
+  "longitude": -71.024598,
+  "phone": "+13392317042",
+  "website": "https://www.flogolflounge.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770213652/golf_simulators/www_flogolflounge_com_ChIJQcLOydZz44kRahLuYEc-K2M.png",
+  "google_maps_url": "https://www.google.com/maps/place/Flogolf+Lounge/@42.46989,-71.024598,14z/data=!4m8!1m2!2m1!1sFlogolf+Lounge!3m4!1s0x89e373d6c9cec241:0x632b3e4760ee126a!8m2!3d42.46989!4d-71.024598",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJQcLOydZz44kRahLuYEc-K2M",
+  "email": "Support@flogolflounge.com",
+  "venue_type": "sim_bar",
+  "about": "Flogolf Lounge is an indoor golf venue offering simulator play, lessons, and a full bar and food menu. The facility utilizes Golfzon simulators to provide realistic golfing experiences on various courses. Memberships provide access to bays during specified hours, and guests can book sessions for solo practice, group play, or private events. The venue combines technology with a social lounge atmosphere, featuring a full bar and a kitchen serving crafted plates and cocktails.",
+  "tags": "food_and_drinks|leagues|coaching_available|premium_tech|date_night|corporate_events",
+  "vibe_tags": "upscale_lounge|modern|welcoming",
+  "who_its_for": "serious_golfers|solo_practice|corporate_teams|families|large_groups",
+  "why_golfers_like_it": [
+    "State-of-the-art Golfzon simulators for a lifelike golfing experience",
+    "Certified PGA instructors offering tailored lessons and feedback",
+    "Full-service bar and kitchen with crafted plates and cocktails",
+    "Active indoor golf leagues and tournaments for competitive play"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Crafted plates available for every round, full kitchen service"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Crafted cocktails and full bar service available"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Golfzon",
+      "model": "unknown",
+      "notes": "Golfzon simulators replicate the feel, challenges, and excitement of renowned golf courses"
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 12,
+  "booking_url": "https://www.flogolflounge.com/book",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Club rentals are available and are complimentary with a membership."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, Flogolf Lounge has a full kitchen and bar with crafted plates and cocktails available for purchase."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "18-hole simulation time varies by the number of players, but typical sessions last 2-3 hours."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The venue does not specifically advertise as kid-friendly. It offers a modern lounge atmosphere with a bar, making it more suitable for adults."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"8AM-10PM\"], \"Tuesday\": [\"8AM-10PM\"], \"Wednesday\": [\"8AM-10PM\"], \"Thursday\": [\"8AM-12AM\"], \"Friday\": [\"8AM-12AM\"], \"Saturday\": [\"7AM-12AM\"], \"Sunday\": [\"7AM-10PM\"]}"
+}

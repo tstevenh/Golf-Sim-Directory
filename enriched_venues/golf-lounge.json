@@ -1,0 +1,89 @@
+{
+  "name": "Golf Lounge",
+  "address": "16313 Morse St, Lowell, IN 46356",
+  "city": "Lowell",
+  "region": "Indiana",
+  "country": "US",
+  "latitude": 41.319984,
+  "longitude": -87.420229,
+  "phone": "+12196179299",
+  "website": "https://thegolfloungelowell.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770204032/golf_simulators/thegolfloungelowell_com_ChIJq_0b-t75EYgR0NlHBXCttSs.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Golf+Lounge/@41.3199842,-87.4202289,14z/data=!4m8!1m2!2m1!1sGolf+Lounge!3m4!1s0x8811f9defa1bfdab:0x2bb5ad700547d9d0!8m2!3d41.3199842!4d-87.4202289",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJq_0b-t75EYgR0NlHBXCttSs",
+  "venue_type": "sim_bar|training_studio",
+  "about": "The Golf Lounge in Lowell, Indiana, provides a realistic and private golf simulator experience. The facility is equipped with a simulator powered by Flightscope and E6 Software, offering a professional environment for both recreation and practice. Customers can access Titleist Performance Institute Medical Provider Swing Analysis services to improve their game in a relaxed atmosphere. The venue operates with secure online booking and emphasizes personalized attention from Level 3 certified professionals.",
+  "tags": "serious_practice|food_and_drinks|private_rooms|club_rentals|premium_tech|coaching_available|family_friendly|beginner_friendly|corporate_events|budget_friendly",
+  "vibe_tags": "sports_bar|private_luxury|modern|welcoming",
+  "who_its_for": "serious_golfers|families|solo_practice|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "Realistic simulator powered by Flightscope and E6 Software",
+    "Professional swing analysis from a Level 3 Titleist Performance Institute Medical Provider",
+    "Private and secure booking platform for personalized sessions",
+    "Relaxed atmosphere focused on improvement and enjoyment"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Available on-site with kitchen facilities"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service; BYOB may be allowed"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Flightscope",
+      "model": "unknown",
+      "notes": "Primary simulator hardware provider"
+    }
+  ],
+  "simulator_software": [
+    "E6 Software"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://thegolfloungelowell.com/",
+  "pricing_model": "per_person_hour",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "While not explicitly stated, it is recommended to bring your own clubs for the best personalized swing analysis experience."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, food is available on-site with kitchen facilities. Alcohol is not mentioned as a service, so BYOB may be allowed."
+    },
+    {
+      "question": "How long does an 18-hole session take?",
+      "answer": "The duration for an 18-hole session is not specified, but sessions can be booked online for flexible time slots."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, The Golf Lounge is family-friendly and suitable for juniors and youth golfers with its welcoming atmosphere and professional coaching."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-9PM\"], \"Tuesday\": [\"9AM-9PM\"], \"Wednesday\": [\"9AM-9PM\"], \"Thursday\": [\"9AM-9PM\"], \"Friday\": [\"9AM-9PM\"], \"Saturday\": [\"9AM-9PM\"], \"Sunday\": [\"9AM-9PM\"]}"
+}

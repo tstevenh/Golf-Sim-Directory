@@ -1,0 +1,92 @@
+{
+  "name": "The Sims at Prairie Falls",
+  "address": "3200 N Spokane St, Post Falls, ID 83854",
+  "city": "Post Falls",
+  "region": "Idaho",
+  "country": "US",
+  "latitude": 47.737973,
+  "longitude": -116.947273,
+  "phone": "+12086184727",
+  "website": "https://www.prairiefallsgolfclub.com/simulators",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770225930/golf_simulators/www_prairiefallsgolfclub_com_ChIJF9mWokfDYVMRDhQCuFL6MCM.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Sims+at+Prairie+Falls/@47.7379727,-116.9472734,14z/data=!4m8!1m2!2m1!1sThe+Sims+at+Prairie+Falls!3m4!1s0x5361c347a296d917:0x2330fa52b802140e!8m2!3d47.7379727!4d-116.9472734",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJF9mWokfDYVMRDhQCuFL6MCM",
+  "email": "hotel@prairiefallsgolfclub.com",
+  "venue_type": "hotel_resort",
+  "about": "Prairie Falls Golf Club is a mini resort destination in Post Falls, Idaho, featuring 6 virtual golf simulator bays. The venue offers a unique combination of year-round golf and on-site hotel suites, providing a Stay & Play experience. Simulators are available for hourly rates and accommodate up to 6 people per bay. The facility includes amenities like a full restaurant and bar menu, couch and high-top seating within the bays, and club rentals. The venue also hosts private events, leagues, tournaments, and watch parties, positioning itself as a multifunctional sports and event center.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|club_rentals|coaching_available|family_friendly",
+  "vibe_tags": "casual|welcoming|modern|community_club",
+  "who_its_for": "families|corporate_teams|large_groups|serious_golfers|tourists_travelers",
+  "why_golfers_like_it": [
+    "Only destination in the area with both year-round golf and hotel rooms",
+    "95+ virtual golf courses from around the world",
+    "Full restaurant and bar menu available within the facility",
+    "Simulator bays can accommodate up to 6 people, ideal for groups",
+    "Streaming capabilities for watch parties and events"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full restaurant & bar menu available"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Restaurant & bar serves alcohol, including draft beer and specialty cocktails"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "AboutGolf",
+      "model": "unknown",
+      "notes": "Mentioned as the simulator provider on the website"
+    }
+  ],
+  "simulator_software": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 6,
+  "booking_url": "https://apimanager-cc24.clubcaddie.com/activities/view/bjfdabab",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 40,
+  "price_range_max_local": 80,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 0,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Club rentals are available at the venue. You can use your own clubs or rent them on-site."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "A full restaurant & bar menu is available within the facility, so you can purchase food and drinks there."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "This information is not explicitly provided on the website."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue accommodates groups of up to 6 people per bay and offers a family-friendly environment with food and drink options."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"8AM-9PM\"], \"Tuesday\": [\"8AM-9PM\"], \"Wednesday\": [\"8AM-9PM\"], \"Thursday\": [\"8AM-9PM\"], \"Friday\": [\"8AM-9PM\"], \"Saturday\": [\"8AM-9PM\"], \"Sunday\": [\"8AM-9PM\"]}"
+}

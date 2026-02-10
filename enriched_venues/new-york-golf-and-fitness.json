@@ -1,0 +1,79 @@
+{
+  "name": "New York Golf and Fitness",
+  "address": "17 Grand St Suite 7, Kingston, NY 12401",
+  "city": "Kingston",
+  "region": "New York",
+  "country": "US",
+  "latitude": 41.928694,
+  "longitude": -73.999643,
+  "phone": "+18458020448",
+  "website": "https://www.newyorkgolfandfitness.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770263560/golf_simulators/www_newyorkgolfandfitness_com_ChIJW9vXv9IP3YkR-Ds8guSv7CI.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/New+York+Golf+and+Fitness/@41.9286943,-73.9996429,14z/data=!4m8!1m2!2m1!1sNew+York+Golf+and+Fitness!3m4!1s0x89dd0fd2bfd7db5b:0x22ecafe4823c3bf8!8m2!3d41.9286943!4d-73.9996429",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJW9vXv9IP3YkR-Ds8guSv7CI",
+  "venue_type": "multi_sport_sim",
+  "about": "New York Golf & Fitness is a members-only facility blending golf simulation with fitness training in Kingston, NY. It features four bays equipped with Uneekor high-speed camera technology and GSPro software for access to 1,000+ lidar-based courses. The venue offers structured coaching programs, personalized video feedback, and full golf equipment services including club fitting. While primarily a member-focused space, non-members can access the technology through private lessons, coaching sessions, or by booking a simulator consultation or trial session.",
+  "tags": "beginner_friendly|coaching_available|premium_tech|private_rooms|club_rentals|community_club|budget_friendly",
+  "vibe_tags": "casual|welcoming|modern|tech_lab",
+  "who_its_for": "beginners|serious_golfers|families|solo_practice|coaches_instructors",
+  "why_golfers_like_it": [
+    "Premium Uneekor camera technology provides accurate performance feedback",
+    "Access to 1,000+ lidar-based GSPro courses for realistic play",
+    "Integrated fitness facility for holistic performance training",
+    "Personalized video coaching with progress tracking",
+    "Multiple membership tiers to suit different usage needs"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": null,
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "High-Speed Camera System",
+      "notes": "Powering all four bays for performance feedback"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 4,
+  "booking_url": "https://www.newyorkgolfandfitness.com/sim-consult",
+  "pricing_model": "membership_only",
+  "price_range_min_local": 59,
+  "price_range_max_local": 399,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|pro_shop|club_fitting|leagues|fitness_facility|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "While you can bring your own clubs, the facility offers a variety of clubs available for purchase and professional club fitting services."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The website does not mention any food or drink services, so it appears outside food and beverages are not permitted."
+    },
+    {
+      "question": "How long does an 18-hole simulation take?",
+      "answer": "The website does not specify a time frame for an 18-hole simulation, but sessions can be booked through their booking system."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The facility is described as welcoming for all ages and abilities, but specific kid-friendly amenities or programs are not mentioned."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"6AM-8PM\"], \"Tuesday\": [\"5AM-9PM\"], \"Wednesday\": [\"5AM-9PM\"], \"Thursday\": [\"5AM-9PM\"], \"Friday\": [\"5AM-9PM\"], \"Saturday\": [\"6AM-9PM\"], \"Sunday\": [\"7AM-8PM\"]}"
+}

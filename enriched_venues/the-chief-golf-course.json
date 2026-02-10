@@ -1,0 +1,91 @@
+{
+  "name": "The Chief Golf Course",
+  "address": "5085 Shanty Creek Rd, Bellaire, MI 49615",
+  "city": "Bellaire",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 44.958664,
+  "longitude": -85.188927,
+  "phone": "+12315339000",
+  "website": "http://www.golfthechief.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770250287/golf_simulators/www_golfthechief_com_ChIJD9-RlA20Sk0R46z6rx_EYCk.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Chief+Golf+Course/@44.9586639,-85.1889267,14z/data=!4m8!1m2!2m1!1sThe+Chief+Golf+Course!3m4!1s0x4d4ab40d9491df0f:0x2960c41faffaace3!8m2!3d44.9586639!4d-85.1889267",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJD9-RlA20Sk0R46z6rx_EYCk",
+  "venue_type": "sim_bar",
+  "about": "The Chief Golf Course, known as 'The Spirit of the North,' is a premier golf destination in Northern Michigan that combines traditional play with modern simulation technology. The venue offers a full 18-hole golf course alongside simulator facilities, providing options for on-course play and all-weather practice. It caters to both traditional golfers and those seeking a high-tech indoor experience, supported by a pro shop and event hosting capabilities. The facility is designed to create a complete golf day experience, with dedicated simulator bays, food and beverage options, and opportunities for both individual play and group events.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|premium_tech|family_fun_center",
+  "vibe_tags": "casual|welcoming|modern",
+  "who_its_for": "beginners|families|corporate_teams|tourists_travelers|large_groups",
+  "why_golfers_like_it": [
+    "Premium Trackman technology for accurate simulation",
+    "Comprehensive amenities including bar and grill for full experience",
+    "Versatile space suitable for both practice and social events"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "On-site bar and grill with restaurant options"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available at the Pelican's Nest restaurant"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Premium radar-based simulator system for accurate ball and club tracking"
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://www.golfthechief.com/teetimes/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|kitchen_food|pro_shop|private_party_room|leagues|club_rentals",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, players are expected to bring their own golf clubs for simulator sessions."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drinks may not be permitted as the venue has an on-site bar and grill."
+    },
+    {
+      "question": "How long does it take to play 18 holes on a simulator?",
+      "answer": "Playing 18 holes typically takes approximately 2-3 hours depending on group size and pace."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the Chief Golf Course is family-friendly and welcomes junior golfers."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": null
+}

@@ -1,0 +1,94 @@
+{
+  "name": "All Seasons Golf & Social Club",
+  "address": "235 Ridgedale Ave #2, Cedar Knolls, NJ 07927",
+  "city": "Cedar Knolls",
+  "region": "New Jersey",
+  "country": "US",
+  "latitude": 40.808396,
+  "longitude": -74.458411,
+  "phone": "+19736067429",
+  "website": "https://golfallseasons.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770208066/golf_simulators/golfallseasons_com_ChIJ8yuBtO-nw4kRnuOL3vCJ0iE.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/All+Seasons+Golf+%26+Social+Club/@40.808395999999995,-74.4584113,14z/data=!4m8!1m2!2m1!1sAll+Seasons+Golf+%26+Social+Club!3m4!1s0x89c3a7efb4812bf3:0x21d289f0de8be39e!8m2!3d40.808395999999995!4d-74.4584113",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ8yuBtO-nw4kRnuOL3vCJ0iE",
+  "email": "Info@golfallseasons.com",
+  "venue_type": "sim_bar",
+  "about": "All Seasons Golf & Social Club is an indoor golf facility equipped with state-of-the-art simulator technology, designed for year-round play. It combines golf simulation with a full-service bar, offering a social atmosphere for players of all skill levels. The facility is open to the public and does not require membership, providing an accessible venue for casual play, dining, and special events. Pricing is structured per bay per hour, accommodating groups up to 6 people, with off-peak and peak rate tiers. All Seasons aims to deliver a premium experience for both serious practice and social gatherings.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|private_rooms|coaching_available",
+  "vibe_tags": "sports_bar|community_club",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "Advanced Golfzon TwoVision simulators with ultra-realistic graphics",
+    "No membership required, open to the public",
+    "Full bar and 14 TVs for a complete social experience",
+    "Per bay pricing allows groups to play together",
+    "Versatile for both practice and entertainment"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Delicious bites available; kitchen food service"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with craft cocktails and drinks"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Golfzon",
+      "model": "TwoVision",
+      "notes": "Advanced golf simulator with practice, play, and tournament modes"
+    }
+  ],
+  "simulator_so": [
+    "Golfzon TwoVision"
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 6,
+  "booking_url": "https://clients.uschedule.com/golfallseasons/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 59,
+  "price_range_max_local": 79,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, while you are encouraged to bring your own clubs, rental sets are available for $25 each."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, the venue has a full bar and kitchen food service available on-site."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Time for 18 holes depends on group size and simulator usage, but pricing is per hour per bay."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, kids are welcome, and kids' clubs are available. Children under 13 must be accompanied by an adult."
+    }
+  ],
+  "simulator_software": [
+    "Golfzon TwoVision"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"11AM-10PM\"], \"Tuesday\": [\"11AM-10PM\"], \"Wednesday\": [\"11AM-10PM\"], \"Thursday\": [\"11AM-10PM\"], \"Friday\": [\"11AM-11PM\"], \"Saturday\": [\"11AM-11PM\"], \"Sunday\": [\"11AM-8PM\"]}"
+}

@@ -1,0 +1,90 @@
+{
+  "name": "The Clubhouse Westport",
+  "address": "1620 Post Rd E, Westport, CT 06880",
+  "city": "Westport",
+  "region": "Connecticut",
+  "country": "US",
+  "latitude": 41.138141,
+  "longitude": -73.307897,
+  "phone": "+12032923169",
+  "website": "https://theclubhousewestport.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770238644/golf_simulators/theclubhousewestport_com_ChIJdUIyfa0b6IkRKdcItPLj2-M.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Clubhouse+Westport/@41.1381406,-73.3078974,14z/data=!4m8!1m2!2m1!1sThe+Clubhouse+Westport!3m4!1s0x89e81bad7d324275:0xe3dbe3f2b408d729!8m2!3d41.1381406!4d-73.3078974",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJdUIyfa0b6IkRKdcItPLj2-M",
+  "email": "292-3169connect@theclubhousewestport.com",
+  "venue_type": "sim_bar",
+  "about": "The Clubhouse Westport is a multi-sport and entertainment venue featuring Full Swing golf simulators, karaoke rooms, and dart bays. It combines golf with a bar and dining experience, offering craft cocktails and chef-inspired dishes. The venue is designed for both casual play and serious practice, with amenities like premium game day viewing and social events. It accommodates various activities, from solo golf sessions to group events, with a 1-hour minimum booking requirement. Pricing varies by activity and time of day, with peak and off-peak rates for golf, darts, and karaoke.",
+  "tags": "food_and_drinks|beginner_friendly|large_groups|corporate_events|date_night|premium_tech|private_rooms|club_rentals|late_night",
+  "vibe_tags": "sports_bar|upscale_lounge|party_atmosphere|tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Full Swing simulator technology for realistic golf simulation",
+    "Combines golf practice with dining and entertainment options",
+    "1-6 guests per bay allows for both solo and group play",
+    "Premium game day viewing capabilities in a social setting"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Chef-inspired dishes available, with full menu service to simulator or karaoke rooms"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Craft cocktails available; bar area is 21+ starting at 8pm on Fridays and Saturdays"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Full Swing",
+      "model": "unknown",
+      "notes": "Full Swing simulator bays mentioned on website"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "https://theclubhousewestport.golfbooking.us/calendar.php",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 20,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify whether clubs are provided, so it's recommended to bring your own or inquire directly."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "Outside food and drinks are not mentioned; the venue offers its own menu with craft cocktails and chef-inspired dishes."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify the time required for 18 holes, as it depends on simulator availability and player pace."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The website does not explicitly mention kid-friendliness, though it offers activities like darts and multisport gaming that may appeal to families."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"12-9PM\"], \"Tuesday\": [\"Closed\"], \"Wednesday\": [\"12-11PM\"], \"Thursday\": [\"12-11PM\"], \"Friday\": [\"12-11PM\"], \"Saturday\": [\"12-11PM\"], \"Sunday\": [\"12-9PM\"]}"
+}

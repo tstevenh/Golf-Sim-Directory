@@ -1,0 +1,98 @@
+{
+  "name": "Miles of Golf",
+  "address": "6400 Dixie Hwy, Fairfield, OH 45014",
+  "city": "Fairfield",
+  "region": "Ohio",
+  "country": "US",
+  "latitude": 39.324489,
+  "longitude": -84.503021,
+  "phone": "+15138709057",
+  "website": "http://milesofgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770252652/golf_simulators/milesofgolf_com_ChIJ6Uux8CJPQIgRX-zEwWj0elk.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Miles+of+Golf/@39.3244895,-84.50302119999999,14z/data=!4m8!1m2!2m1!1sMiles+of+Golf!3m4!1s0x88404f22f0b14be9:0x597af468c1c4ec5f!8m2!3d39.3244895!4d-84.50302119999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ6Uux8CJPQIgRX-zEwWj0elk",
+  "venue_type": "retail_fitting_center",
+  "about": "Miles of Golf is a premier club fitting and practice facility with locations in Ann Arbor and Cincinnati. The venue offers comprehensive services including personalized club fitting, lessons, and a top 100-rated driving range, operating year-round. Their practice facilities feature advanced amenities like heated bays, grass tees, and sheltered hitting areas to ensure comfort and quality regardless of the season.",
+  "tags": "serious_practice|club_rentals|coaching_available|premium_tech|families|corporate_events",
+  "vibe_tags": "tech_lab|private_luxury|community_club",
+  "who_its_for": "serious_golfers|families|corporate_teams|juniors_youth|coaches_instructors",
+  "why_golfers_like_it": [
+    "Top 100 club fitters in the USA with extensive experience in custom club fitting",
+    "State-of-the-art technology including TrackMan, SAM, Quintic, and GC Quad launch monitors",
+    "Premier Masters Suites with private bays, food & beverage, and Toptracer technology for events"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Available at Masters Suites for events and gatherings"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Available at Masters Suites for events and gatherings"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "TrackMan",
+      "model": "unknown",
+      "notes": "Primary launch monitor used for fitting and instruction"
+    },
+    {
+      "brand": "Foresight",
+      "model": "GC Quad",
+      "notes": "Used for BASIXX fittings with precise ball flight tracking"
+    },
+    {
+      "brand": "SAM",
+      "model": "unknown",
+      "notes": "Swing analysis technology used in fitting process"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar|photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.milesofgolf.com/club-fitting",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.5,
+  "rating_value_for_money": 4.2,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "Club rentals are not mentioned, but club fitting services are available to help you find the perfect clubs for your game."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Food and beverages are available at the Masters Suites, but outside food/drink policies for general practice areas are not specified."
+    },
+    {
+      "question": "How long does an 18-hole simulator session take?",
+      "answer": "Simulator play time is not specified, but club fitting sessions typically run 1-1.5 hours with 75-100 swings."
+    },
+    {
+      "question": "Is this place kid-friendly?",
+      "answer": "Yes, Miles of Golf offers lessons for juniors/youth and is welcoming for families seeking to improve their golf game together."
+    }
+  ],
+  "rating_overall": 4.5,
+  "opening_hours": "{\"Monday\": [\"9AM-7PM\"], \"Tuesday\": [\"9AM-7PM\"], \"Wednesday\": [\"9AM-7PM\"], \"Thursday\": [\"9AM-7PM\"], \"Friday\": [\"9AM-7PM\"], \"Saturday\": [\"9AM-6PM\"], \"Sunday\": [\"10AM-6PM\"]}"
+}

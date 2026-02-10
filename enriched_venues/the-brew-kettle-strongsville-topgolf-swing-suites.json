@@ -1,0 +1,88 @@
+{
+  "name": "The Brew Kettle Strongsville & Topgolf Swing Suites",
+  "address": "8377 Pearl Rd, Strongsville, OH 44136",
+  "city": "Strongsville",
+  "region": "Ohio",
+  "country": "US",
+  "latitude": 41.347098,
+  "longitude": -81.822354,
+  "phone": "+14402398788",
+  "website": "https://www.thebrewkettle.com/strongsville",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770267424/golf_simulators/www_thebrewkettle_com_ChIJAQAAAOTBMIgRyy8UM0KnB5Q.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Brew+Kettle+Strongsville+%26+Topgolf+Swing+Suites/@41.3470983,-81.8223539,14z/data=!4m8!1m2!2m1!1sThe+Brew+Kettle+Strongsville+%26+Topgolf+Swing+Suites!3m4!1s0x8830c1e400000001:0x9407a74233142fcb!8m2!3d41.3470983!4d-81.8223539",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJAQAAAOTBMIgRyy8UM0KnB5Q",
+  "venue_type": "sim_bar",
+  "about": "The Brew Kettle Strongsville & Topgolf Swing Suites is a hybrid venue combining a craft brewery and taproom with a full-service Topgolf Swing Suites facility. It provides a social atmosphere where guests can enjoy craft beers and food while accessing golf simulation technology. The space is suitable for casual rounds, group events, and private parties, with a focus on entertainment and social interaction rather than serious practice.",
+  "tags": "food_and_drinks|date_night|corporate_events|beginner_friendly|private_rooms|club_rentals",
+  "vibe_tags": "sports_bar|casual|welcoming|modern",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Combining golf with a craft beer taproom for a unique social experience",
+    "Topgolf technology provides a fun, accessible format for players of all skill levels",
+    "Suitable for both casual play and organized group events or parties"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen available with menu options and chef's specials"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service offering The Brew Kettle's craft beers and other beverages"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Topgolf",
+      "model": "Swing Suite",
+      "notes": "Topgolf Swing Suites with targets and point-scoring system"
+    }
+  ],
+  "simulator_software": [
+    "Topgolf Games"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "mixed",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://www.sevenrooms.com/reservations/brewkettletopgolfswingsuitesstrongsville?duration_picker=true",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 25,
+  "price_range_max_local": 50,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi",
+  "rating_tech_quality": 4.0,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, clubs are provided with each bay reservation. The facility offers standard rental clubs for all players."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No outside food or beverages are allowed. The venue has a full kitchen and bar serving The Brew Kettle's craft beers and food options."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "An 18-hole simulation game typically takes 45-60 minutes depending on the number of players in your bay and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is family-friendly and welcomes children. It's a popular spot for birthday parties and family gatherings."
+    }
+  ],
+  "rating_overall": 4.1,
+  "opening_hours": "{\"Monday\": [\"11AM-10PM\"], \"Tuesday\": [\"11AM-10PM\"], \"Wednesday\": [\"11AM-10PM\"], \"Thursday\": [\"11AM-10PM\"], \"Friday\": [\"11AM-11PM\"], \"Saturday\": [\"11AM-11PM\"], \"Sunday\": [\"11AM-10PM\"]}"
+}

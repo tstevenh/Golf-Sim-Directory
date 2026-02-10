@@ -108,7 +108,6 @@ export function SeoIndexSections({
   ctaSecondary,
   children,
   venueCount,
-  categoryIcon,
   showStats = false,
 }: SeoIndexSectionsProps) {
   return (

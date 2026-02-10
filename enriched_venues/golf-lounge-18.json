@@ -1,0 +1,92 @@
+{
+  "name": "Golf Lounge 18",
+  "address": "110 Albany Turnpike Suite# 909, Canton, CT 06019",
+  "city": "Canton",
+  "region": "Connecticut",
+  "country": "US",
+  "latitude": 41.822208,
+  "longitude": -72.880889,
+  "phone": "+18604214075",
+  "website": "http://golflounge18.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770200144/golf_simulators/golflounge18_com_ChIJEXVyI6Gp54kRZNS_EFZsLr8.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Golf+Lounge+18/@41.8222081,-72.88088909999999,14z/data=!4m8!1m2!2m1!1sGolf+Lounge+18!3m4!1s0x89e7a9a123727511:0xbf2e6c5610bfd464!8m2!3d41.8222081!4d-72.88088909999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJEXVyI6Gp54kRZNS_EFZsLr8",
+  "email": "info@golflounge18.com",
+  "venue_type": "sim_bar",
+  "about": "Golf Lounge 18 is an indoor golf facility equipped with Trackman 4 Dual Radar Technology, offering access to over 450 virtual golf courses worldwide. The venue provides a state-of-the-art environment for golfers to play, practice, and socialize, featuring hourly bay rentals that can be split among groups. The facility includes a full bar, multiple HDTVs for sports viewing, and is designed for various activities including leagues, lessons, corporate events, and casual play. Golf Lounge 18 operates multiple locations in the Northeast, including Dedham, MA; Stamford, CT; Lake Grove, NY; and several other Connecticut and Massachusetts locations, with some offering virtual tours.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|kids_friendly|corporate_events|leagues|premium_tech|private_rooms|club_rentals|community_club",
+  "vibe_tags": "casual|welcoming|modern|sports_bar|family_fun_center",
+  "who_its_for": "beginners|families|corporate_teams|solo_practice|juniors_youth",
+  "why_golfers_like_it": [
+    "Premium Trackman 4 technology for accurate data and ball tracking",
+    "Access to over 450 world-famous golf courses",
+    "Full bar and sports viewing amenities for a social atmosphere",
+    "Flexible hourly bay rentals suitable for individuals and groups",
+    "PGA-certified instruction available for all skill levels",
+    "Multiple convenient locations in the Northeast"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen service available with an expanded food menu for before, during, or after play"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available on-site"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "Dual Radar Technology used in all bays"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://golflounge18.com/book/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Club rentals are available, but you are welcome to bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No outside food or drinks are permitted as the venue offers its own full kitchen and bar services."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Rounds typically take 1-2 hours depending on group size and pace of play."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, Golf Lounge 18 is family-friendly with junior clinics, youth programs, and special events available."
+    }
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"8AM-11PM\"], \"Saturday\": [\"8AM-11PM\"], \"Sunday\": [\"8AM-10PM\"]}"
+}

@@ -1,0 +1,89 @@
+{
+  "name": "Bear Wallow Golf",
+  "address": "37 Maxwell Dr Ste 3, Hendersonville, NC 28791",
+  "city": "Hendersonville",
+  "region": "North Carolina",
+  "country": "US",
+  "latitude": 35.40283,
+  "longitude": -82.507506,
+  "phone": "+18282762633",
+  "website": "http://www.bearwallowgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770218192/golf_simulators/www_bearwallowgolf_com_ChIJf5JdBP7rWYgRezjSrntduaQ.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Bear+Wallow+Golf/@35.4028304,-82.5075056,14z/data=!4m8!1m2!2m1!1sBear+Wallow+Golf!3m4!1s0x8859ebfe045d927f:0xa4b95d7baed2387b!8m2!3d35.4028304!4d-82.5075056",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJf5JdBP7rWYgRezjSrntduaQ",
+  "email": "info@bearwallowgolf.com.",
+  "venue_type": "sim_bar|training_studio|retail_fitting_center",
+  "about": "Bear Wallow Golf is an indoor golf facility located in Hendersonville, NC, providing golfers of all skill levels with access to advanced golf simulators for practice and play. The venue utilizes state-of-the-art TrackMan 4 launch monitor technology, offering a realistic experience with precise data analytics and a catalog of over 200 iconic golf courses. Pricing is structured on an hourly basis, with rates varying by time of day, and the facility accommodates both individual players and groups for various activities including leagues, lessons, and events.",
+  "tags": "beginner_friendly|food_and_drinks|serious_golfers|leagues|premium_tech|club_fitting|coaching_available",
+  "vibe_tags": "casual|welcoming|modern",
+  "who_its_for": "serious_golfers|beginners|families|coaches_instructors",
+  "why_golfers_like_it": [
+    "Access to over 200+ of the world's most iconic golf courses",
+    "State-of-the-art TrackMan 4 launch monitor technology for precise swing and ball tracking",
+    "PXG club fitting services with expert guidance and extensive club selection"
+  ],
+  "kid_friendly": false,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Snacks available for purchase"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Beer and wine available for purchase"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "Dual radar technology for club and ball tracking, measuring shots from 6ft pitches to 400 yard drives with pinpoint accuracy"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": null,
+  "booking_url": "https://clients.uschedule.com/bearwallowgolf/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 40,
+  "price_range_max_local": 55,
+  "currency": "USD",
+  "walk_ins_allowed": null,
+  "coaching_available": true,
+  "private_rooms_count": null,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|full_bar|tv_sports|pro_shop|club_fitting|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can bring your own clubs, but the facility also has rentals available for those who need them."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "No, outside food and drink are not allowed. The venue has a bar with snacks, beer, and wine available for purchase."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Playing 18 holes on the simulator typically takes around 2-3 hours depending on the course and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The venue does not specifically market itself as kid-friendly, but families are welcome to visit and play."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"9AM-8PM\"], \"Tuesday\": [\"9AM-8PM\"], \"Wednesday\": [\"9AM-8PM\"], \"Thursday\": [\"9AM-8PM\"], \"Friday\": [\"9AM-9PM\"], \"Saturday\": [\"9AM-9PM\"], \"Sunday\": [\"10AM-7PM\"]}"
+}

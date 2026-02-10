@@ -1,0 +1,92 @@
+{
+  "name": "Elevation Golf Club",
+  "address": "3194 Industrial Way Suite G, Castle Rock, CO 80109",
+  "city": "Castle Rock",
+  "region": "Colorado",
+  "country": "US",
+  "latitude": 39.408467,
+  "longitude": -104.871695,
+  "phone": "+17205360555",
+  "website": "https://elevationgolfclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770217593/golf_simulators/elevationgolfclub_com_ChIJUx9D0AuZbIcRkueySikp_u8.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Elevation+Golf+Club/@39.4084673,-104.8716954,14z/data=!4m8!1m2!2m1!1sElevation+Golf+Club!3m4!1s0x876c990bd0431f53:0xeffe29294ab2e792!8m2!3d39.4084673!4d-104.8716954",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJUx9D0AuZbIcRkueySikp_u8",
+  "email": "info@elevationgolfclub.com",
+  "venue_type": "multi_sport_sim",
+  "about": "Elevation Golf Club is an indoor golf simulator facility located in Castle Rock, Colorado, featuring state-of-the-art Trackman IO technology for year-round play. The venue offers three premium simulator bays with a climate-controlled environment, making it an ideal destination for golf enthusiasts regardless of weather conditions. The facility provides both public access to a single bay and a membership option that includes extended hours and access to all three bays. It is conveniently located near The Meadows community, with easy access from major highways and serving the South Denver metro area. Membership starts at $125 per month, with limited availability to ensure bay scheduling and optimal customer experience.",
+  "tags": "beginner_friendly|corporate_events|leagues|premium_tech|food_and_drinks|coaching_available|private_rooms|club_rentals|community_club",
+  "vibe_tags": "tech_lab|modern|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|large_groups",
+  "why_golfers_like_it": [
+    "Premium Trackman IO technology for accurate shot tracking",
+    "Year-round play in a climate-controlled environment",
+    "Convenient location near major highways and The Meadows community",
+    "Flexible access options with both public and membership tiers",
+    "Professional golf lessons and instruction available",
+    "Practice facilities for all skill levels"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Food is not sold on-site, but customers can bring their own or have food delivered"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol is available for sale or consumption on-site"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Three Trackman IO simulator bays available"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://yourgolfbooking.com/venues/elevation-golf-club/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 3,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|kitchen_food|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own golf clubs?",
+      "answer": "Yes, you should bring your own golf clubs to get the most accurate shot tracking. You can add your golf clubs to your Trackman profile in advance for optimal performance during your session."
+    },
+    {
+      "question": "Can I bring food and drinks to the facility?",
+      "answer": "Food is not sold on-site, but you are welcome to bring your own food or have it delivered. There is a small refrigerator with complimentary drinks and a snack rack available for customers to help themselves."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "The time to play 18 holes can vary depending on the number of players and your pace. It's best to book your time in advance through the Trackman app, and you can check with staff for specific recommendations based on your group size."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, Elevation Golf Club is kid-friendly with practice facilities suitable for all skill levels. Families can enjoy the climate-controlled environment and year-round golf experience, and the venue offers space for group outings."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"6AM-10PM\"], \"Tuesday\": [\"6AM-10PM\"], \"Wednesday\": [\"6AM-10PM\"], \"Thursday\": [\"6AM-10PM\"], \"Friday\": [\"6AM-10PM\"], \"Saturday\": [\"6AM-10PM\"], \"Sunday\": [\"6AM-10PM\"]}"
+}

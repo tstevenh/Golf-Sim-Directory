@@ -1,0 +1,90 @@
+{
+  "name": "South Broadway Country Club",
+  "address": "2265 S Broadway, Denver, CO 80210",
+  "city": "Denver",
+  "region": "Colorado",
+  "country": "US",
+  "latitude": 39.675402,
+  "longitude": -104.987878,
+  "phone": "+17203897811",
+  "website": "http://southbroadwaycc.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770215708/golf_simulators/southbroadwaycc_com_ChIJjzVc-8p_bIcRZLNIhmTFblM.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/South+Broadway+Country+Club/@39.6754022,-104.9878784,14z/data=!4m8!1m2!2m1!1sSouth+Broadway+Country+Club!3m4!1s0x876c7fcafb5c358f:0x536ec5648648b364!8m2!3d39.6754022!4d-104.9878784",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJjzVc-8p_bIcRZLNIhmTFblM",
+  "email": "info@southbroadwaycc.com",
+  "venue_type": "sim_bar",
+  "about": "South Broadway Country Club operates multiple indoor golf facilities across Denver and Fort Collins, utilizing TrackMan golf simulator technology. They offer golf simulator rentals, professional coaching services, and a full-service cocktail bar at their locations. The venues cater to golfers seeking an all-weather experience, with simulators available for practice, league play, and events.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|coaching_available|private_rooms|club_rentals",
+  "vibe_tags": "upscale_lounge|tech_lab",
+  "who_its_for": "beginners|serious_golfers|corporate_teams|solo_practice|juniors_youth",
+  "why_golfers_like_it": [
+    "Premium TrackMan simulator technology for accurate data and realistic course play",
+    "Full-service cocktail bar available at all locations",
+    "Professional golf coaching offered by certified instructors",
+    "Multiple locations across Denver and Fort Collins for convenience"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full-service kitchen available"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full-service cocktail bar with curated craft beverages"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Premium simulator technology used at all locations"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "http://southbroadwaycc.com/southbroadway#bookbroadway",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need clubs?",
+      "answer": "Yes, you need to bring your own golf clubs to use the simulators. The venue does not provide club rentals."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "Outside food and drinks are not allowed, as the venue offers its own full-service kitchen and cocktail bar."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes varies based on simulator availability and pace of play, but typically ranges from 2-3 hours."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The venue does not specifically advertise kid-friendly amenities or have information on policies regarding children."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"12-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-10PM\"], \"Saturday\": [\"10AM-10PM\"], \"Sunday\": [\"10AM-10PM\"]}"
+}

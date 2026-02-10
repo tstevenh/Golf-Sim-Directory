@@ -1,0 +1,94 @@
+{
+  "name": "Essex Indoor Golf Center",
+  "address": "23 Saybrook Rd, Essex, CT 06426",
+  "city": "Essex",
+  "region": "Connecticut",
+  "country": "US",
+  "latitude": 41.351231,
+  "longitude": -72.399742,
+  "phone": "+19592658979",
+  "website": "http://www.essexindoorgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770209060/golf_simulators/www_essexindoorgolf_com_ChIJde6DkzI95okRJqZ_Y7r3Mxg.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Essex+Indoor+Golf+Center/@41.3512306,-72.3997421,14z/data=!4m8!1m2!2m1!1sEssex+Indoor+Golf+Center!3m4!1s0x89e63d329383ee75:0x1833f7ba637fa626!8m2!3d41.3512306!4d-72.3997421",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJde6DkzI95okRJqZ_Y7r3Mxg",
+  "email": "06426info@essexindoorgolf.com",
+  "venue_type": "sim_bar",
+  "about": "Essex Indoor Golf Center is a premier golf simulation venue offering a spacious and clean environment for golfers and non-golfers alike. The facility utilizes aboutGolf® simulators, which are PGA Tour-approved and showcase over 70 elite courses worldwide, including fantasy options. Bay rentals are charged by the hour, with rates of $50 per hour Monday-Thursday and $55 per hour Friday-Sunday, for up to four players per bay. The venue also features a full-service restaurant, The Grumpy Caddy Grille, and hosts leagues, events, and trivia nights.",
+  "tags": "food_and_drinks|leagues|premium_tech|corporate_events|date_night|beginner_friendly|group_friendly",
+  "vibe_tags": "casual|welcoming|modern|sports_bar",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "PGA Tour-approved aboutGolf® simulators with highly accurate tracking",
+    "Access to over 70 elite and fantasy golf courses from around the world",
+    "On-site full-service restaurant and bar (The Grumpy Caddy Grille)",
+    "Six private simulator bays available for booking",
+    "Family-friendly and welcoming atmosphere for all skill levels"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "The Grumpy Caddy Grille serves made-to-order burgers, crispy fries, tots, and an ever-expanding menu. Outside food and beverages are not permitted except for water."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "A 35-foot custom bar serves local microbrews, global favorites, canned cocktails, and wine. League players receive a 10% discount on all food and beverages."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "aboutGolf",
+      "model": "unknown",
+      "notes": "Used by the Golf Channel and PGA Tour-approved for accuracy."
+    }
+  ],
+  "simulator_so": [
+    "aboutGolf"
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 6,
+  "booking_url": "https://essexindoorgolf.com/tee-times/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 50,
+  "price_range_max_local": 55,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": 6,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|leagues|private_party_room|pro_shop",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can use your own clubs or borrow loaner clubs provided by the venue."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "Outside food and beverages are not permitted, with the exception of water. The venue has a full-service restaurant and bar, The Grumpy Caddy Grille."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Playing time depends on skill level. An experienced golfer can complete 18 holes in about 1 hour. For 2 golfers, plan for approximately 2 hours."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Essex Indoor Golf Center has a clean, family-friendly atmosphere and hosts trivia nights, making it suitable for families and children."
+    }
+  ],
+  "simulator_software": [
+    "aboutGolf"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"9AM-12AM\"], \"Tuesday\": [\"9AM-12AM\"], \"Wednesday\": [\"9AM-12AM\"], \"Thursday\": [\"9AM-12AM\"], \"Friday\": [\"9AM-12AM\"], \"Saturday\": [\"7AM-12AM\"], \"Sunday\": [\"7AM-10PM\"]}"
+}

@@ -1,0 +1,90 @@
+{
+  "name": "Divots Golf Walla Walla",
+  "address": "519 W Main St, Walla Walla, WA 99362",
+  "city": "Walla Walla",
+  "region": "Washington",
+  "country": "US",
+  "latitude": 46.063611,
+  "longitude": -118.346618,
+  "phone": "+15096760808",
+  "website": "https://divotsindoorgolf.com/walla-walla/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770235538/golf_simulators/divotsindoorgolf_com_ChIJmXpoTdtrolQRzb0a6ZXpiiw.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Divots+Golf+Walla+Walla/@46.063611099999996,-118.34661759999999,14z/data=!4m8!1m2!2m1!1sDivots+Golf+Walla+Walla!3m4!1s0x54a26bdb4d687a99:0x2c8ae995e91abdcd!8m2!3d46.063611099999996!4d-118.34661759999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJmXpoTdtrolQRzb0a6ZXpiiw",
+  "email": "EVENTS@DIVOTSINDOORGOLF.COM",
+  "venue_type": "sim_bar",
+  "about": "Divots Golf Walla Walla is an indoor golf venue offering a high-tech simulation experience. The facility utilizes cutting-edge TruGolf Apogee simulator technology paired with E6 CONNECT software to provide an immersive indoor golf experience, featuring over 100 worldwide courses. Players can book simulator bays by the hour for up to six people, with a welcoming atmosphere that includes a selection of beverages and snack-cart fare. The venue is available for leagues, private events, corporate gatherings, and is also home to the Divots Junior Golf Academy for youth training.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|juniors_youth|date_night",
+  "vibe_tags": "casual|welcoming|modern|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "Premium TruGolf Apogee technology with detailed swing analysis",
+    "Over 100 global courses available for play year-round",
+    "Accommodates groups up to 6 people per bay for social play",
+    "Junior Golf Academy for youth training and development"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Snack-cart fare available for purchase."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Beverage selection available for purchase; no outside drinks allowed per state requirements."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "TruGolf",
+      "model": "Apogee",
+      "notes": "Cutting-edge simulator technology that captures swing direction and speed."
+    }
+  ],
+  "simulator_software": [
+    "E6 CONNECT"
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://apimanager-cc14.clubcaddie.com/activities/view/ijedabab",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 45,
+  "price_range_max_local": 45,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "kitchen_food|tv_sports|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "No, you can bring your own clubs or rent a set for $10."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, outside drinks are not permitted per state requirements. Food and beverages are available for purchase on-site."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes depends on your pace and tee time length. Book in half-hour or hourly increments based on your group's needs."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, all ages are welcome, but those 13 and younger must be accompanied by an adult and must be actively participating in the round."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"Closed\"], \"Wednesday\": [\"11:30AM-9PM\"], \"Thursday\": [\"11:30AM-9PM\"], \"Friday\": [\"11:30AM-9PM\"], \"Saturday\": [\"11:30AM-9PM\"], \"Sunday\": [\"11:30AM-9PM\"]}"
+}

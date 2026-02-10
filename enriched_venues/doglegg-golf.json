@@ -1,0 +1,91 @@
+{
+  "name": "Doglegg Golf",
+  "address": "2551 Texas Ave S Ste E1, College Station, TX 77840",
+  "city": "College Station",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 30.605984,
+  "longitude": -96.306498,
+  "phone": "+19793174100",
+  "website": "https://www.doglegg-golf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770212938/golf_simulators/www_doglegg-golf_com_ChIJ6cfXglKFRoYRGi8w8_bx9ow.png",
+  "google_maps_url": "https://www.google.com/maps/place/Doglegg+Golf/@30.6059837,-96.3064983,14z/data=!4m8!1m2!2m1!1sDoglegg+Golf!3m4!1s0x8646855282d7c7e9:0x8cf6f1f6f3302f1a!8m2!3d30.6059837!4d-96.3064983",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ6cfXglKFRoYRGi8w8_bx9ow",
+  "email": "golf@doglegg-golf.com",
+  "venue_type": "sim_bar",
+  "about": "Doglegg Golf is an indoor golf simulator venue offering a climate-controlled environment for year-round play. The facility features large, comfortable bays equipped with state-of-the-art technology to provide a realistic and immersive golfing experience. It aims to create a community-focused space for golfers to develop their skills and socialize, providing convenient tee times day or night and accommodating players of all skill levels from beginner to scratch golfer.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|late_night|community_club|private_rooms|club_rentals",
+  "vibe_tags": "community_club|tech_lab|casual|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "State-of-the-art Uneekor Eye XO2 launch monitors with 'Club Optix' technology for precise swing analysis",
+    "GSPro simulator software with over 1,800 courses and realistic ball physics",
+    "Climate-controlled environment allowing for play year-round in perfect conditions",
+    "Flexible booking system powered by Alba Play for day and night tee times",
+    "No-annual-contract monthly memberships for regular players"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Pre-packaged snacks available for purchase; guests can bring their own food."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No bar service; guests can bring their own refreshments."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "Eye XO2",
+      "notes": "Uses three cameras to capture ball and club data, equipped with 'Club Optix' showing slow-motion video of club-to-ball impact."
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://albaplay.com/en/venue/doglegg-golf",
+  "pricing_model": "mixed",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|wifi|leagues|private_party_room|ada_accessible",
+  "rating_tech_quality": 4.7,
+  "rating_facility_comfort": 4.5,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need clubs?",
+      "answer": "Yes, you will need to bring your own golf clubs to use the simulators. Club stickers are not required."
+    },
+    {
+      "question": "Can I bring my own food and/or refreshments?",
+      "answer": "Yes, guests are welcome to bring their own food and refreshments. The venue also offers bottled water, canned drinks, and some pre-packaged snacks for purchase."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Playing time can vary, but the indoor simulator setup allows for faster rounds compared to traditional golf, typically taking around 2-3 hours depending on the group size and pace."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, Doglegg Golf is suitable for all skill levels, including beginners and juniors, and can accommodate families."
+    }
+  ],
+  "rating_overall": 4.4,
+  "opening_hours": "{\"Monday\": [\"5AM-12AM\"], \"Tuesday\": [\"5AM-12AM\"], \"Wednesday\": [\"5AM-12AM\"], \"Thursday\": [\"5AM-12AM\"], \"Friday\": [\"5AM-12AM\"], \"Saturday\": [\"5AM-12AM\"], \"Sunday\": [\"5AM-12AM\"]}"
+}

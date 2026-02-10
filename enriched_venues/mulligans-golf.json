@@ -1,0 +1,93 @@
+{
+  "name": "Mulligan's Golf",
+  "address": "4710 US-40, Plainfield, IN 46168",
+  "city": "Plainfield",
+  "region": "Indiana",
+  "country": "US",
+  "latitude": 39.689912,
+  "longitude": -86.444063,
+  "phone": "+13177519039",
+  "website": "https://mulligansgolf.net/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770204021/golf_simulators/mulligansgolf_net_ChIJZ1IEhMa7bIgRpDIeSEcCqK4.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Mulligan%27s+Golf/@39.6899124,-86.44406269999999,14z/data=!4m8!1m2!2m1!1sMulligan%27s+Golf!3m4!1s0x886cbbc684045267:0xaea80247481e32a4!8m2!3d39.6899124!4d-86.44406269999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJZ1IEhMa7bIgRpDIeSEcCqK4",
+  "venue_type": "sim_bar|training_studio|retail_fitting_center",
+  "about": "Mulligan's Golf is an indoor golf facility offering simulator access, lessons, and club fitting services. The venue utilizes GS Pro software with access to over 1800 golf courses worldwide, supported by Flightscope and Uneekor technologies for an accurate indoor experience. Located in Plainfield, Indiana, it provides a one-stop shop for golfers, offering simulator rentals, professional lessons for both juniors and adults, and comprehensive club fittings through its Mizuno fitting system.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|coaching_available|club_rentals|juniors_youth|family_fun_center",
+  "vibe_tags": "casual|welcoming|modern|tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|families|juniors_youth|corporate_teams",
+  "why_golfers_like_it": [
+    "Access to over 1800 golf courses worldwide through GS Pro software",
+    "State-of-the-art technology with Flightscope and Uneekor for accuracy",
+    "Comprehensive club fitting services using Mizuno's advanced systems"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No on-site food service mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Flightscope",
+      "model": "Unknown",
+      "notes": "Used for accurate ball tracking and launch monitoring"
+    },
+    {
+      "brand": "Uneekor",
+      "model": "Unknown",
+      "notes": "Used for enhanced shot simulation and analysis"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://book.squareup.com/appointments/zsjhob9julnfqi/location/479CPXYBC6HE3/services",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "By Appointment",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|club_fitting|leagues|pro_shop",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can use your own clubs, but they also offer club rentals and have a pro shop with new and used equipment for purchase."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No external food or drink service is mentioned, so it appears they do not allow outside food or beverages."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The exact time for 18 holes isn't specified, but typical simulator sessions can vary depending on the number of players and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, they offer junior lessons and appear to be family-oriented, making it suitable for kids."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": null
+}

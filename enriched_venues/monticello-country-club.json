@@ -1,0 +1,91 @@
+{
+  "name": "Monticello Country Club",
+  "address": "1209 Golf Course Rd, Monticello, MN 55362",
+  "city": "Monticello",
+  "region": "Minnesota",
+  "country": "US",
+  "latitude": 45.307606,
+  "longitude": -93.818565,
+  "phone": "+17632954653",
+  "website": "http://www.montigolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770250127/golf_simulators/www_montigolf_com_ChIJhYKiGnaetFIRxdbW0Vte_q0.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Monticello+Country+Club/@45.307605699999996,-93.81856529999999,14z/data=!4m8!1m2!2m1!1sMonticello+Country+Club!3m4!1s0x52b49e761aa28285:0xadfe5e5bd1d6d6c5!8m2!3d45.307605699999996!4d-93.81856529999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJhYKiGnaetFIRxdbW0Vte_q0",
+  "email": "info@montigolf.com",
+  "venue_type": "country_club",
+  "about": "Monticello Country Club is a semi-private golf facility that combines an 18-hole championship course with indoor golf simulator technology. The course, located in Monticello, Minnesota, features a challenging layout designed by Tim Murphy and Joel Goldstrand, known for its majestic oaks and water hazards. The venue offers simulator rentals with upgraded launch monitors, catering to both public and member play with competitive weekday and weekend pricing. The facility hosts leagues, events, and provides a complete golf experience including on-site dining.",
+  "tags": "leagues|food_and_drinks|corporate_events|beginner_friendly|serious_golfers|juniors_youth|club_rentals|coaching_available",
+  "vibe_tags": "community_club|family_fun_center|upscale_lounge",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "Upgraded launch monitors for high-quality simulation",
+    "Winter leagues for year-round golf activity",
+    "Competitive pricing with senior and member specials",
+    "Combination of outdoor course and indoor simulator options",
+    "Semi-private club with welcoming public access"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "On-site bar and grill available with regular hours"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available at the on-site facility"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Unknown",
+      "model": "Upgraded Launch Monitor",
+      "notes": "Simulator details unspecified, but described as upgraded technology"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": "unknown",
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.monticellomngolfsims.com/book-online",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 30,
+  "price_range_max_local": 36,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.2,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 4.5,
+  "faq": [
+    {
+      "question": "Do I need my own golf clubs?",
+      "answer": "Players should bring their own golf clubs for simulator sessions, as the venue does not specify club rentals."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue has an on-site bar and grill, but does not explicitly state outside food/drink policies."
+    },
+    {
+      "question": "How long does it take to play 18 holes on the simulator?",
+      "answer": "Standard 18-hole simulator time is typically 1-2 hours depending on pace of play and group size."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, Monticello Country Club offers junior golf programs and caters to families with youth activities."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": null
+}

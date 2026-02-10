@@ -1,0 +1,85 @@
+{
+  "name": "The 19th Hole Virtual Golf",
+  "address": "105 S 2nd St, Jeannette, PA 15644",
+  "city": "Jeannette",
+  "region": "Pennsylvania",
+  "country": "US",
+  "latitude": 40.326997,
+  "longitude": -79.615925,
+  "phone": "+17243745241",
+  "website": "http://www.the19thholevg.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770201345/golf_simulators/www_the19thholevg_com_ChIJQ0PXcuLbNIgRcoYEBzIo5zw.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+19th+Hole+Virtual+Golf/@40.326997399999996,-79.61592499999999,14z/data=!4m8!1m2!2m1!1sThe+19th+Hole+Virtual+Golf!3m4!1s0x8834dbe272d74343:0x3ce7283207048672!8m2!3d40.326997399999996!4d-79.61592499999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJQ0PXcuLbNIgRcoYEBzIo5zw",
+  "email": "the19thholevirtualgolf@gmail.com",
+  "venue_type": "sim_bar|training_studio",
+  "about": "The 19th Hole Virtual Golf is an indoor golf facility located in Jeannette, PA, featuring multiple simulator bays for virtual golf play and practice. The venue offers a range of booking options including 1-4 hour tee times, league play, and various lesson packages with a certified PGA instructor. It provides a social environment where players can bring their own beverages, including alcohol, and enjoy golfing regardless of weather conditions. The facility caters to all skill levels and hosts leagues and events, combining a casual atmosphere with professional instruction and comprehensive golfing technology.",
+  "tags": "beginner_friendly|food_and_drinks|leagues|coaching_available|juniors_youth|solo_practice|corporate_teams|family_friendly|serious_practice|casual_gaming",
+  "vibe_tags": "casual|welcoming|social_sports_bar|community_club",
+  "who_its_for": "beginners|serious_golfers|families|juniors_youth|corporate_teams",
+  "why_golfers_like_it": [
+    "Exclusive access to the entire facility during bookings",
+    "BYOB policy with no corkage fee, including alcohol",
+    "Comprehensive lesson packages for all skill levels from PGA certified instructors",
+    "Flexible league play with flexible scheduling options",
+    "Hosts social events and special nights out"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food allowed inside the simulator bays; must be kept at provided tables"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Patrons are welcome to bring their own beverages, including alcohol"
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": "unknown",
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.the19thholevg.com/book-online",
+  "pricing_model": "per_bay_hour|package",
+  "price_range_min_local": 45,
+  "price_range_max_local": 180,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|tv_sports|leagues|pro_shop|coaching_available|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can bring your own clubs, but if you do, please ensure the club faces are clean before play. The facility provides simulator technology but doesn't specify whether clubs are available for rent."
+    },
+    {
+      "question": "Can I bring food and drinks to the facility?",
+      "answer": "Yes, you are welcome to bring your own beverages, including alcohol. However, no food or drinks are allowed inside the simulator bays at any time; they must be kept at the provided tables."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes depends on the booking duration chosen and the simulator software being used. Standard tee times are offered in 1, 2, 3, and 4-hour blocks, with the expectation that players will finish their session within their booked time."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, The 19th Hole Virtual Golf is kid-friendly. They offer junior golf lessons specifically for youth up to age 14 and cater to players of all skill levels, including beginners and children just starting to learn the game."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-10PM\"], \"Saturday\": [\"10AM-10PM\"], \"Sunday\": [\"10AM-10PM\"]}"
+}

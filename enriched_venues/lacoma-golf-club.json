@@ -1,0 +1,91 @@
+{
+  "name": "Lacoma Golf Club",
+  "address": "8080 Timmerman Dr, East Dubuque, IL 61025",
+  "city": "East Dubuque",
+  "region": "Illinois",
+  "country": "US",
+  "latitude": 42.489349,
+  "longitude": -90.626381,
+  "phone": "+18157473874",
+  "website": "http://www.lacomagolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770241080/golf_simulators/www_lacomagolf_com_ChIJh6uHljgq44cRiCcp5ewCDvY.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Lacoma+Golf+Club/@42.489349,-90.626381,14z/data=!4m8!1m2!2m1!1sLacoma+Golf+Club!3m4!1s0x87e32a389687ab87:0xf60e02ece5292788!8m2!3d42.489349!4d-90.626381",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJh6uHljgq44cRiCcp5ewCDvY",
+  "email": "info@lacomagolf.com",
+  "venue_type": "sim_bar",
+  "about": "Lacoma Golf Club is a comprehensive golf venue featuring traditional courses, practice facilities, and a simulator bar. Located in Dubuque, Iowa, it operates as a year-round destination with on-site dining and HD Golf simulators. The facility accommodates golfers of all skill levels, from families and beginners to serious players, and hosts events ranging from small groups to large outings. With a full bar, food service, and 19th hole amenities, it offers a relaxed environment for both practice and socializing.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|leagues|premium_tech|family_friendly|club_rentals|coaching_available",
+  "vibe_tags": "casual|welcoming|sports_bar",
+  "who_its_for": "beginners|families|serious_golfers|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "HD Golf simulators provide life-like realism with advanced 3D imaging technology",
+    "On-site bar and grill allow for traditional 19th hole amenities while playing",
+    "Multiple course options (Blue, Gold, Red) cater to all skill levels",
+    "Complete practice facilities including a driving range and putting greens"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Traditional grill food offerings available for dine-in or pick-up"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with beer, liquor, and soft drink options"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "HD Golf",
+      "model": "Simulator",
+      "notes": "Three HD Golf simulators with patented Image Processing Software"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://apimanager-cc12.clubcaddie.com/activities/view/ggfdabab",
+  "pricing_model": "per_person_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|kitchen_food|tv_sports|pro_shop|club_fitting|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Club rentals are available, though players can bring their own equipment."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drink are not mentioned; venue offers on-site grill and bar service."
+    },
+    {
+      "question": "How long does it take to play 18 holes on the simulator?",
+      "answer": "Standard 18-hole simulator play time is typically 1.5-2 hours, depending on group size."
+    },
+    {
+      "question": "Is Lacoma Golf Club kid-friendly?",
+      "answer": "Yes, the venue features a junior golf program and offers more forgiving course options suitable for families and beginners."
+    }
+  ],
+  "simulator_software": [
+    "HD Golf Simulator"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"8AM-8PM\"], \"Tuesday\": [\"8AM-8PM\"], \"Wednesday\": [\"8AM-8PM\"], \"Thursday\": [\"8AM-8PM\"], \"Friday\": [\"8AM-8PM\"], \"Saturday\": [\"8AM-8PM\"], \"Sunday\": [\"8AM-8PM\"]}"
+}

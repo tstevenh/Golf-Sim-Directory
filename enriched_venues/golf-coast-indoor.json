@@ -1,0 +1,89 @@
+{
+  "name": "Golf Coast Indoor",
+  "address": "16794 Kapalama Dr Suite A, Pass Christian, MS 39571",
+  "city": "Pass Christian",
+  "region": "Mississippi",
+  "country": "US",
+  "latitude": 30.409149,
+  "longitude": -89.345123,
+  "phone": "+16012155274",
+  "website": "https://www.golfcoastindoor.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770218112/golf_simulators/www_golfcoastindoor_com_ChIJuYEYd0oznIgRE0aQodQ7nq8.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Golf+Coast+Indoor/@30.409148599999998,-89.3451235,14z/data=!4m8!1m2!2m1!1sGolf+Coast+Indoor!3m4!1s0x889c334a771881b9:0xaf9e3bd4a1904613!8m2!3d30.409148599999998!4d-89.3451235",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJuYEYd0oznIgRE0aQodQ7nq8",
+  "email": "info@golfcoastindoor.com",
+  "venue_type": "sim_bar",
+  "about": "Golf Coast Indoor is an indoor golf facility located in Pass Christian, MS, offering 24/7 access to advanced golf simulation technology. The venue features the IDRA II launch monitor, which uses dual high-speed cameras and stereoscopic vision for precise ball and club tracking, providing detailed analytics for both full swings and short game. Pricing is based on hourly bay rentals, with memberships also available for frequent players. The facility is designed to be a welcoming space for golfers of all levels to practice, play virtual courses, or socialize with friends.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|club_rentals|coaching_available",
+  "vibe_tags": "casual|welcoming|modern|sports_bar",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Professional-grade IDRA II launch monitor with ultra-precise analytics for all aspects of the game",
+    "Spacious, modern bays available 24/7, allowing for flexible practice and playing schedules",
+    "BYOB and outside food policy, creating a relaxed, social atmosphere for group outings"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Outside food is encouraged"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "BYOB (Bring Your Own Beverages) is encouraged"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "IDRA",
+      "model": "II",
+      "notes": "Dual high-speed cameras with stereoscopic vision and non-marking ball/club technology"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://booking.registrygolf.com?organizationId=0d6966b1-dcf9-4cbc-9154-a4789609cd0a",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|private_party_room|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can bring your own clubs or try the ones available at the facility."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "BYOB and outside food are encouraged at Golf Coast Indoor."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "You can play a full round of 18 holes in an hour or less."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "There is no specific mention of kid-friendly amenities or policies, but the relaxed BYOB atmosphere may not be ideal for children."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

@@ -1,0 +1,91 @@
+{
+  "name": "OnX Golf",
+  "address": "600 Eagle Rock Ave, Roseland, NJ 07068",
+  "city": "Roseland",
+  "region": "New Jersey",
+  "country": "US",
+  "latitude": 40.827402,
+  "longitude": -74.330026,
+  "phone": "+19733870006",
+  "website": "https://www.onxgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770220373/golf_simulators/www_onxgolf_com_ChIJi_QPUgCpw4kRHBcmZ52ihrA.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/OnX+Golf/@40.8274015,-74.3300258,14z/data=!4m8!1m2!2m1!1sOnX+Golf!3m4!1s0x89c3a900520ff48b:0xb086a29d6726171c!8m2!3d40.8274015!4d-74.3300258",
+  "google_rating": 3.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJi_QPUgCpw4kRHBcmZ52ihrA",
+  "email": "onxgolf@gmail.com",
+  "venue_type": "multi_sport_sim",
+  "about": "OnX Golf is an indoor golf simulator venue featuring cutting-edge technology and a wide range of amenities. The facility provides access to over 100 championship courses and utilizes state-of-the-art golf simulator technology. It offers flexible pricing options for both non-members and members, with rates varying by season, day of the week, and time of day. The venue is equipped with amenities suitable for individual practice, group events, corporate functions, and organized leagues. Players can customize their rounds with various play options, and their shot data is saved in a personal web locker for tracking progress.",
+  "tags": "beginner_friendly|corporate_events|leagues|premium_tech|coaching_available|club_rentals|community_club",
+  "vibe_tags": "modern|community_club|tech_lab",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Over 100 famous worldwide golf courses available to play",
+    "State-of-the-art golf simulator technology with real golf balls",
+    "Comprehensive shot data, analytics, and scores saved in a personal web locker",
+    "Fast play with 18 holes completed in just 50 minutes per person",
+    "Support for leagues and competitive play across multiple locations"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Players are allowed to bring their own food"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Players are allowed to bring their own beverages"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Premium radar-based launch monitor providing real-time feedback"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://clients.uschedule.com/thegreenindoorgolf/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 30,
+  "price_range_max_local": 55,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|leagues|wifi|pro_shop|ada_accessible",
+  "rating_tech_quality": 4.1,
+  "rating_facility_comfort": 4.1,
+  "rating_value_for_money": 4.2,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue does not explicitly mention club rentals, so it's recommended to bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, players are allowed to bring their own food and beverages."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "You can play a full 18 holes in just 50 minutes per person."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, OnX Golf is kid-friendly and offers lessons for golfers of all ages and skill levels."
+    }
+  ],
+  "rating_overall": 4.1,
+  "opening_hours": "{\"Monday\": [\"9AM-8PM\"], \"Tuesday\": [\"9AM-8PM\"], \"Wednesday\": [\"9AM-8PM\"], \"Thursday\": [\"9AM-8PM\"], \"Friday\": [\"9AM-8PM\"], \"Saturday\": [\"9AM-8PM\"], \"Sunday\": [\"9AM-8PM\"]}"
+}

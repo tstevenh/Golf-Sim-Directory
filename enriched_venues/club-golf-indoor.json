@@ -1,0 +1,91 @@
+{
+  "name": "Club Golf Indoor",
+  "address": "109 Pier Master Pt Suite 140, Wilmington, NC 28412",
+  "city": "Wilmington",
+  "region": "North Carolina",
+  "country": "US",
+  "latitude": 34.154285,
+  "longitude": -77.942307,
+  "phone": "+19108335877",
+  "website": "http://clubgolfindoor.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770216564/golf_simulators/clubgolfindoor_com_ChIJD9Xk8TIdqokRxbEk2n6pyEc.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Club+Golf+Indoor/@34.1542854,-77.9423065,14z/data=!4m8!1m2!2m1!1sClub+Golf+Indoor!3m4!1s0x89aa1d32f1e4d50f:0x47c8a97eda24b1c5!8m2!3d34.1542854!4d-77.9423065",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJD9Xk8TIdqokRxbEk2n6pyEc",
+  "email": "tyler@clubgolfindoor.com",
+  "venue_type": "sim_bar",
+  "about": "Club Golf Indoor is a family-owned sports bar featuring three Full Swing golf simulators in Wilmington, NC. The venue offers a relaxing, social community environment where patrons can play over 80 virtual golf courses, practice at the driving range, or enjoy various non-golf games like zombie dodgeball and soccer. With a full bar, pool table, shuffleboard, and other table games, it provides a casual, all-weather golfing experience. Pricing is straightforward at $40 per hour or $25 per half-hour for simulator use, with a $15 half-hour rate for the driving range. The facility is best suited for casual play, group outings, and those seeking a fun, social atmosphere without the commitment of a traditional golf course.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|budget_friendly|family_friendly|private_rooms|late_night|coaching_available",
+  "vibe_tags": "sports_bar|family_fun_center|community_club|party_atmosphere",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "State-of-the-art Full Swing simulators with dual tracking technology for realistic practice",
+    "Over 80 virtual golf courses including renowned locations like Pebble Beach and St. Andrews",
+    "Full bar and relaxed atmosphere make it ideal for social golfing",
+    "Driving range option for focused practice sessions",
+    "Family-friendly environment with diverse games beyond golf"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "BYOB allowed for private events; no on-site kitchen mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar available with cold beverages"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Full Swing",
+      "model": "unknown",
+      "notes": "Industry leaders with dual tracking technology used by PGA champions"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://clubgolfindoor.com/book/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 25,
+  "price_range_max_local": 40,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|private_party_room|wifi|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify club rentals, suggesting patrons may need to bring their own equipment."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Private events allow BYOB; no outside food restrictions mentioned for general play."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "They estimate one hour for experienced golfers to complete 18 holes and recommend booking extra time for beginners."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "Yes, Club Golf Indoor is family-friendly with various games beyond golf and hosts events suitable for all ages."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"4-9PM\"], \"Tuesday\": [\"4-9PM\"], \"Wednesday\": [\"4-9PM\"], \"Thursday\": [\"4-9PM\"], \"Friday\": [\"2-10PM\"], \"Saturday\": [\"12-10PM\"], \"Sunday\": [\"12-7PM\"]}"
+}

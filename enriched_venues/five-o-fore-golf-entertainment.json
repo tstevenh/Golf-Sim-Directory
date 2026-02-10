@@ -1,0 +1,92 @@
+{
+  "name": "Five O Fore Golf + Entertainment",
+  "address": "3800 Howard Ave, New Orleans, LA 70125",
+  "city": "New Orleans",
+  "region": "Louisiana",
+  "country": "US",
+  "latitude": 29.956014,
+  "longitude": -90.09381,
+  "phone": "+15045818888",
+  "website": "https://fiveofore.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770229697/golf_simulators/fiveofore_com_ChIJJ7pZFwClIIYRqAlZ36eV0Xo.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Five+O+Fore+Golf+%2B+Entertainment/@29.956014399999997,-90.0938102,14z/data=!4m8!1m2!2m1!1sFive+O+Fore+Golf+%2B+Entertainment!3m4!1s0x8620a5001759ba27:0x7ad195a7df5909a8!8m2!3d29.956014399999997!4d-90.0938102",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJJ7pZFwClIIYRqAlZ36eV0Xo",
+  "email": "info@fiveofore.com",
+  "venue_type": "sim_bar",
+  "about": "Five O Fore Golf + Entertainment is a multi-level golf entertainment venue in New Orleans featuring 78 bays equipped with Trackman technology for immersive golf simulations and games. The venue offers a comprehensive experience combining high-tech golf with dining options, including a full-service restaurant serving Creole and Cajun-inspired cuisine, and multiple bars, including a dedicated Bourbon Lounge. With a Las Vegas-style light show and space for large groups and private events, it caters to both serious golfers and casual visitors seeking a fun, social atmosphere.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|kids_friendly|corporate_events|leagues|premium_tech|late_night|coaching_available|party_atmosphere",
+  "vibe_tags": "upscale_lounge|sports_bar|family_fun_center|party_atmosphere|tech_lab",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "State-of-the-art Trackman™ technology for precise analytics and immersive gameplay",
+    "78 spacious bays with a variety of games and simulations for all skill levels",
+    "On-site dining and bar options, including the Bourbon Lounge with local flavors",
+    "Virtual coaching available for personalized swing analysis and performance improvement",
+    "Las Vegas-style light show enhances the overall entertainment experience"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full-service restaurant with Creole and Cajun-inspired cuisine, including Boudin Balls, Cajun Crawfish Pies, and Clubhouse Nachos."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Multiple bars on each floor, including the Bourbon Lounge with specialty cocktails like Sazeracs and local beers."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "TM4",
+      "notes": "Premium radar-based launch monitors with precise ball and club tracking analytics."
+    }
+  ],
+  "simulator_software": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "auto_putt",
+  "lefty_friendly": true,
+  "bay_count_total": 78,
+  "booking_url": "https://fiveofore.com/book-now/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|leagues|ada_accessible|outdoor_seating|live_entertainment",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, clubs are typically provided for use in the bays, though personal clubs are welcome."
+    },
+    {
+      "question": "Can I bring outside food or drink?",
+      "answer": "No, outside food and drink are not permitted. The venue offers a full-service restaurant and bar options."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "18 holes typically take 60-90 minutes depending on group size and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Five O Fore offers birthday party packages and a family-friendly atmosphere with games suitable for all ages."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-12AM\"], \"Tuesday\": [\"10AM-12AM\"], \"Wednesday\": [\"10AM-12AM\"], \"Thursday\": [\"10AM-12AM\"], \"Friday\": [\"10AM-1AM\"], \"Saturday\": [\"10AM-1AM\"], \"Sunday\": [\"10AM-12AM\"]}"
+}

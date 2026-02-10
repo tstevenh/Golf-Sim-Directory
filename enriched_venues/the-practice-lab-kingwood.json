@@ -1,0 +1,89 @@
+{
+  "name": "The Practice Lab - Kingwood",
+  "address": "1419 Northpark Dr, Humble, TX 77339",
+  "city": "Humble",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 30.06897,
+  "longitude": -95.233338,
+  "phone": "+19365373495",
+  "website": "https://www.the-practice-lab.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770223426/golf_simulators/www_the-practice-lab_com_ChIJ-TyoYH9NR4YRyH_h9siT06Y.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Practice+Lab+-+Kingwood/@30.068969799999998,-95.23333749999999,14z/data=!4m8!1m2!2m1!1sThe+Practice+Lab+-+Kingwood!3m4!1s0x86474d7f60a83cf9:0xa6d393c8f6e17fc8!8m2!3d30.068969799999998!4d-95.23333749999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ-TyoYH9NR4YRyH_h9siT06Y",
+  "venue_type": "training_studio",
+  "about": "The Practice Lab is an indoor golf practice facility in Kingwood, Texas, featuring private bays equipped with Square launch monitors for accurate ball and club data tracking. The venue is designed for golfers of all levels, offering a climate-controlled environment to practice and improve performance year-round. Pricing is structured per hour per bay, with options for packages and memberships, and can accommodate up to two people per bay.",
+  "tags": "beginner_friendly|food_and_drinks|serious_practice|coaching_available|private_rooms|modern",
+  "vibe_tags": "industrial_training|family_fun_center|tech_lab",
+  "who_its_for": "beginners|serious_golfers|families|solo_practice|juniors_youth",
+  "why_golfers_like_it": [
+    "Industry-leading Square launch monitors provide incredibly accurate shot data",
+    "Private, climate-controlled bays allow year-round practice regardless of weather",
+    "Flexible pricing model with options for sessions, packages, and memberships"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Snack bar with light snacks available; outside food and drinks are not permitted"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Square",
+      "model": "Launch Monitor",
+      "notes": "Industry-leading launch monitors with simulator technology"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.the-practice-lab.com/scheduling",
+  "pricing_model": "mixed",
+  "price_range_min_local": 35,
+  "price_range_max_local": 45,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 2,
+  "amenities_list": "club_rentals|wifi|pro_shop",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 3.5,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "Yes, you'll need your own golf clubs. The facility provides premium golf balls designed to communicate with the launch monitors."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, outside food and drinks are not permitted. The facility has a snack bar with beverages and light snacks available for purchase."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify the time required to play 18 holes. Please contact the facility directly for details on simulator gameplay duration."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, The Practice Lab is family-owned and caters to golfers of all levels, making it suitable for juniors and families to practice together."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.0,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"10AM-8PM\"], \"Wednesday\": [\"10AM-8PM\"], \"Thursday\": [\"10AM-8PM\"], \"Friday\": [\"9AM-9PM\"], \"Saturday\": [\"9AM-9PM\"], \"Sunday\": [\"11AM-4PM\"]}"
+}

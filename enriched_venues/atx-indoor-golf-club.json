@@ -1,0 +1,89 @@
+{
+  "name": "ATX Indoor Golf Club",
+  "address": "5446 W US Hwy 290 Service Rd Unit 5, Austin, TX 78735",
+  "city": "Austin",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 30.237347,
+  "longitude": -97.84024,
+  "phone": "+15128009101",
+  "website": "https://atxindoorgolfclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770221793/golf_simulators/atxindoorgolfclub_com_ChIJs8KgTcxLW4YR7coE3hidQ7s.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/ATX+Indoor+Golf+Club/@30.2373467,-97.84024029999999,14z/data=!4m8!1m2!2m1!1sATX+Indoor+Golf+Club!3m4!1s0x865b4bcc4da0c2b3:0xbb439d18de04caed!8m2!3d30.2373467!4d-97.84024029999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJs8KgTcxLW4YR7coE3hidQ7s",
+  "venue_type": "sim_bar",
+  "about": "The ATX Indoor Golf Club provides a best-in-class, cutting edge indoor golf simulation experience utilizing industry-leading Trackman iO technology coupled with 4K UHD Laser Projection. The venue features two hitting bays designed with privacy in mind, offering a comfortable space with big screen TVs and flexible options for different player levels. Memberships and public tee times are available, providing a cost-efficient and accessible golfing environment that operates 24 hours a day, allowing members to play anytime.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|kids_friendly|corporate_events|premium_tech|private_rooms|club_rentals|budget_friendly|community_club",
+  "vibe_tags": "tech_lab|casual|welcoming|modern|private_luxury",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Access to over 400 top-rated global courses with stunning 4K graphics",
+    "24/7 member access with flexible booking for solo practice or groups",
+    "Privacy-focused bays allowing a distraction-free environment",
+    "Comprehensive swing data and analysis via Trackman's AI-powered tools"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Self-serve '19th Hole Pantry' with snacks; BYOB allowed for members and guests"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol available on premises; BYOB allowed for members and guests"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Ceiling-mounted unit with radar, infrared, and high-speed imaging for real-time club and ball analytics"
+    }
+  ],
+  "simulator_software": [
+    "Virtual Golf 3"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://yourgolfbooking.com/venues/atx-indoor-golf-club/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 50,
+  "price_range_max_local": 65,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|tv_sports|private_party_room|wifi|pro_shop|club_fitting",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "The website does not specify whether clubs are provided or if you need to bring your own. It is recommended to bring your own clubs for the best experience."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "Yes, members and guests are allowed to bring their own food and drink (BYOB). The venue also has a self-serve '19th Hole Pantry' with non-alcoholic beverages and snacks available for purchase."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not provide a specific time estimate for playing 18 holes, as it depends on the number of players, pace of play, and the specific course chosen."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is kid-friendly, offering Par-3 courses well-suited for beginners, as well as 'closest to the pin' and kid-oriented games."
+    }
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"9AM-9PM\"], \"Tuesday\": [\"9AM-9PM\"], \"Wednesday\": [\"9AM-9PM\"], \"Thursday\": [\"9AM-9PM\"], \"Friday\": [\"9AM-9PM\"], \"Saturday\": [\"9AM-9PM\"], \"Sunday\": [\"9AM-9PM\"]}"
+}

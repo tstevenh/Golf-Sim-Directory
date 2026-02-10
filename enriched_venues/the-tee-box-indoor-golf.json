@@ -1,0 +1,91 @@
+{
+  "name": "The Tee Box Indoor Golf",
+  "address": "517 Main St, Griswold, IA 51535",
+  "city": "Griswold",
+  "region": "Iowa",
+  "country": "US",
+  "latitude": 41.234986,
+  "longitude": -95.142,
+  "phone": "+17127784653",
+  "website": "http://teeboxgriswold.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770207555/golf_simulators/teeboxgriswold_com_ChIJF0z7MTdVk4cRw_9bqQUm77U.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Tee+Box+Indoor+Golf/@41.2349859,-95.14200029999999,14z/data=!4m8!1m2!2m1!1sThe+Tee+Box+Indoor+Golf!3m4!1s0x8793553731fb4c17:0xb5ef2605a95bffc3!8m2!3d41.2349859!4d-95.14200029999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJF0z7MTdVk4cRw_9bqQUm77U",
+  "email": "theteeboxgriswold@gmail.com",
+  "venue_type": "sim_bar",
+  "about": "The Tee Box in Griswold, Iowa, is a family-owned indoor golf facility open seasonally from September through mid-April. Housed in a converted space on Main Street, the venue features a single Full Swing golf simulator equipped with ION3 camera technology and dual-tracking systems to capture real ball flight. Beyond the virtual fairways, the establishment offers a casual bar atmosphere with multiple TVs for watching sports, darts, and a jukebox, making it a social hub for the local community during the colder months. The simulator is often used to broadcast major sporting events like Iowa Hawkeyes games when not in use for golf.",
+  "tags": "indoor_golf|simulator|bar|social|food_and_drinks|sports_bar|seasonal|family_owned",
+  "vibe_tags": "casual|sports_bar|family_friendly|social|welcoming",
+  "who_its_for": "beginners|families|large_groups|casual_golfers|sports_fans",
+  "why_golfers_like_it": [
+    "Full Swing simulator with official PGA Tour licensing",
+    "Selection of over 50 famous world-renowned courses",
+    "Casual sports bar environment with food and TVs",
+    "Family-owned operation with a welcoming atmosphere",
+    "Loyalty program offering a free hour after 5 visits"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Frozen pizzas, chips, candy bars, nuts. Outside food allowed."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Bar area available."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Full Swing",
+      "model": "unknown",
+      "notes": "Features ION3 camera and 4 high-speed Linescan cameras for dual-tracking technology."
+    }
+  ],
+  "simulator_software": [
+    "Full Swing"
+  ],
+  "launch_monitor_type": "Full Swing ION3",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 1,
+  "booking_url": "http://teeboxgriswold.com/",
+  "pricing_model": "Per hour",
+  "price_range_min_local": 35,
+  "price_range_max_local": 40,
+  "currency": "USD",
+  "walk_ins_allowed": false,
+  "coaching_available": false,
+  "private_rooms_count": 0,
+  "max_group_size_per_bay": 8,
+  "amenities_list": "bar_area|tv_screens|darts|jukebox|food_available|alcohol_available|club_rentals|changing_area",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You are welcome to bring your own clubs, provided they are clean. The venue has basic right-handed sets and a few left-handed clubs available for borrowing."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, you are allowed to bring your own food and drinks. The venue offers frozen pizzas and snacks but encourages supporting local businesses."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "On average, 1 person can play 18 holes in 1 hour. For 2 players, 18 holes takes approximately 2 hours."
+    },
+    {
+      "question": "Is this kid-friendly?",
+      "answer": "Yes, children are welcome to play on the simulator as long as they are accompanied by an adult. Families are recommended to book before 8 p.m."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": null
+}

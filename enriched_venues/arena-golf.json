@@ -1,0 +1,90 @@
+{
+  "name": "Arena Golf",
+  "address": "300 Alumni Rd, Newington, CT 06111",
+  "city": "Newington",
+  "region": "Connecticut",
+  "country": "US",
+  "latitude": 41.703412,
+  "longitude": -72.743158,
+  "phone": "+18605791220",
+  "website": "http://www.arenagolfct.com/",
+  "hero_image": "",
+  "google_maps_url": "https://www.google.com/maps/place/Arena+Golf/@41.7034124,-72.7431581,14z/data=!4m8!1m2!2m1!1sArena+Golf!3m4!1s0x89e7b3e89884d1d9:0x7e0ddc3c98d073ba!8m2!3d41.7034124!4d-72.7431581",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ2dGEmOiz54kRunPQmDzcDX4",
+  "email": "info@arenagolfct.com",
+  "venue_type": "sim_bar|training_studio|multi_sport_sim",
+  "about": "Arena Golf is an indoor golf simulator facility located within Newington Arena in Newington, CT. It utilizes Foresight Sports Falcon overhead launch monitors to offer realistic golf simulations, featuring play on renowned courses like Pebble Beach, St. Andrews, and Colonial. The venue provides a state-of-the-art environment for both practice and full-course gameplay with a focus on accurate and reliable tracking technology. The facility operates on a flat-rate, per-bay pricing model and offers detailed booking recommendations based on group size, ranging from 30 minutes for a single golfer playing 9 holes to 4 hours for four players completing 18 holes.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|premium_tech|coaching_available|solo_practice|families",
+  "vibe_tags": "casual|welcoming|modern|tech_lab|family_fun_center",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Premium Foresight Sports Falcon overhead launch monitor for unmatched accuracy",
+    "Ability to play on world-famous golf courses like Pebble Beach and St. Andrews",
+    "Convenient and faster golf rounds compared to traditional outdoor play",
+    "Full-size, true-to-life simulation experience from range practice to course play"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Patrons can bring their own food."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No information available on alcohol service."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": "Falcon",
+      "notes": "Overhead launch monitor. Venue uses GC Hawk simulator units."
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "overhead_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "auto_putt|gimme_circle|real_putting_surface|dedicated_green|moving_floor_green|mixed",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://www.arenagolfct.com/book-online",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 0,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|pro_shop|kitchen_food|wifi|private_party_room",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No information provided, though a professional instructor is available for lessons."
+    },
+    {
+      "question": "Can I bring my own food and beverages?",
+      "answer": "Yes, you can bring your own food and drinks."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time varies by group size: 1 hour for 1 golfer, 2 hours for 2 golfers, 3 hours for 3 golfers, and 4 hours for 4 golfers."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the facility is kid-friendly, as children must be accompanied by an adult and the coaching program includes experience with junior golfers."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-9PM\"], \"Tuesday\": [\"9AM-9PM\"], \"Wednesday\": [\"9AM-9PM\"], \"Thursday\": [\"9AM-9PM\"], \"Friday\": [\"9AM-9PM\"], \"Saturday\": [\"9AM-9PM\"], \"Sunday\": [\"9AM-9PM\"]}"
+}

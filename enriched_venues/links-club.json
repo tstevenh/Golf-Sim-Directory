@@ -1,0 +1,91 @@
+{
+  "name": "Links Club",
+  "address": "Ocean Avenue &, Mission St Suite 101, Carmel-By-The-Sea, CA 93921",
+  "city": "Carmel-By-The-Sea",
+  "region": "California",
+  "country": "US",
+  "latitude": 36.55463,
+  "longitude": -121.920834,
+  "phone": "+18312507816",
+  "website": "http://www.linksclubgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770225732/golf_simulators/www_linksclubgolf_com_ChIJh3b9Bf_njYARm_9e3uwpU1E.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Links+Club/@36.5546301,-121.9208335,14z/data=!4m8!1m2!2m1!1sLinks+Club!3m4!1s0x808de7ff05fd7687:0x515329ecde5eff9b!8m2!3d36.5546301!4d-121.9208335",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJh3b9Bf_njYARm_9e3uwpU1E",
+  "email": "april@linksclubgolf.com",
+  "venue_type": "sim_bar",
+  "about": "Links Club is a sports bar and entertainment venue in Carmel, California, featuring high-tech golf simulators with PXG clubs and Trackman technology. The venue operates seven days a week for 10 hours daily, offering bucket list golf courses on over 300 simulator courses and a VIP private event space for groups. Dining options include a chef-driven menu with seasonal creations and a curated selection of local wines and 10 craft beers on tap. It is suitable for casual play, practice, private events, and corporate gatherings.",
+  "tags": "food_and_drinks|corporate_events|leagues|premium_tech|private_rooms|coaching_available|date_night",
+  "vibe_tags": "sports_bar|party_atmosphere|tech_lab",
+  "who_its_for": "families|large_groups|corporate_teams|tourists_travelers|bachelor_parties",
+  "why_golfers_like_it": [
+    "Access to 300+ world-famous golf courses with LIDAR drone-mapped accuracy",
+    "VIP private event space accommodating up to 25 people with dedicated simulator",
+    "PGA Professional instruction available for private and group lessons",
+    "PXG club fitting and premium Trackman simulator technology",
+    "Daily events and free competitions for added entertainment"
+  ],
+  "kid_friendly": "yes",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Chef-driven, from-scratch menu with seasonal creations"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "10 craft beers on tap, local curated wine selection, and craft cocktails"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "unknown",
+      "notes": "High-tech simulator bays for practice and play"
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 6,
+  "booking_url": "https://reservations.shift4payments.com/#/ed6378d7-91af-4fb1-9cee-3e8a878d0ee9",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 20,
+  "price_range_max_local": 65,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|pro_shop|club_fitting|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, PXG clubs are provided for use with the simulators."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "Outside food and drinks are not allowed, as the venue offers its own chef-driven menu and bar with local wines and craft beers."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "League teams play 9 holes per session within a 2-hour time frame, with a triple bogey for any unfinished holes."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Links Club is primarily a sports bar and entertainment venue focused on golf, dining, and adult-oriented events, making it more suitable for adults and older teens."
+    }
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"2-11PM\"], \"Tuesday\": [\"2-11PM\"], \"Wednesday\": [\"2-11PM\"], \"Thursday\": [\"2-11PM\"], \"Friday\": [\"2PM-12AM\"], \"Saturday\": [\"12PM-12AM\"], \"Sunday\": [\"12-11PM\"]}"
+}

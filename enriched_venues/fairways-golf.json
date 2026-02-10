@@ -1,0 +1,90 @@
+{
+  "name": "Fairways Golf",
+  "address": "3101 Kennedy Ln Ste 1000, Texarkana, TX 75503",
+  "city": "Texarkana",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 33.453561,
+  "longitude": -94.077367,
+  "phone": "+14302010606",
+  "website": "https://fairwaysgolfsim.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770215104/golf_simulators/fairwaysgolfsim_com_ChIJAbN9EZlBNIYRtW0MavPWurM.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Fairways+Golf/@33.4535607,-94.0773672,14z/data=!4m8!1m2!2m1!1sFairways+Golf!3m4!1s0x86344199117db301:0xb3bad6f36a0c6db5!8m2!3d33.4535607!4d-94.0773672",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJAbN9EZlBNIYRtW0MavPWurM",
+  "email": "430-201-0606Info@fairwaysgolfsim.com",
+  "venue_type": "sim_bar",
+  "about": "Fairways Golf is an indoor golf destination in Texarkana, offering a variety of simulator bays for play, practice, and events. The facility provides over 500 world-class courses to play from the comfort of their bays, which are available for both left and right-handed players. The venue features private bays fitted with golf equipment and hosts events & leagues, positioning itself as a comprehensive golf experience center. Hours of operation are Tuesday-Saturday from 9am-11pm and Sunday from 2pm-9pm.",
+  "tags": "private_rooms|corporate_events|food_and_drinks|leagues|date_night|family_friendly|premium_tech",
+  "vibe_tags": "casual|welcoming|modern",
+  "who_its_for": "beginners|families|corporate_teams|large_groups|solo_practice",
+  "why_golfers_like_it": [
+    "Access to over 500 world-class golf courses from an indoor setting",
+    "Spacious private bays accommodating up to 8 people for groups",
+    "Dedicated bays for both left and right-handed players",
+    "Comprehensive event and league hosting capabilities"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Granola bars are available for purchase ($1.50)."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol available for sale, BYOB is not mentioned."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "unknown",
+      "model": "unknown",
+      "notes": "Brand and model not specified on the website."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://fairwaysgolfsim.com/booknow",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": null,
+  "price_range_max_local": null,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 8,
+  "amenities_list": "club_rentals|kitchen_food|pro_shop|club_fitting|leagues|private_rooms",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue provides fitted clubs and golf equipment, so bringing your own is not necessary."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Food and drinks can be kept at the provided tables, but NO FOOD OR DRINK is allowed inside the simulator at any time. Granola bars are available for purchase."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "The time to play 18 holes is not explicitly stated, but you can finish your 'last hole' unless another group is booked immediately after your reservation time."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is family-friendly and accommodates larger groups, making it suitable for families and gatherings."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"9AM-11PM\"], \"Tuesday\": [\"9AM-11PM\"], \"Wednesday\": [\"9AM-11PM\"], \"Thursday\": [\"9AM-11PM\"], \"Friday\": [\"9AM-11PM\"], \"Saturday\": [\"9AM-11PM\"], \"Sunday\": [\"2-9PM\"]}"
+}

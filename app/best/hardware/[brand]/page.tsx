@@ -1,15 +1,18 @@
 import { Metadata } from "next";
+import { Prisma } from "@prisma/client";
 import { db, venueCardSelect } from "@/lib/db";
 import { BestByPageContent } from "@/components/seo/BestByPageContent";
 import { matchesHardware } from "@/lib/best-by";
 import { getStaticRelatedLinks } from "@/lib/category-config.generated";
+import { normalizeHardwareBrand } from "@/lib/hardware-brands";
 
 interface BestHardwarePageProps {
   params: Promise<{ brand: string }>;
   searchParams?: Promise<Record<string, string | string[] | undefined>>;
 }
 
-export const revalidate = 3600;
+export const revalidate = 86400;
+type VenueCardRow = Prisma.VenueGetPayload<{ select: typeof venueCardSelect }>;
 
 // Pre-render all hardware pages at build time
 export async function generateStaticParams() {
@@ -85,17 +88,39 @@ export async function generateMetadata({ params }: BestHardwarePageProps): Promi
 export default async function BestHardwarePage({ params, searchParams }: BestHardwarePageProps) {
   const paramsResolved = (await searchParams) || {};
   const page = Math.max(1, Number(paramsResolved.page || 1));
+  const pageSize = 12;
   const { brand } = await params;
   const label = brand.replace(/-/g, " ").replace(/\b\w/g, l => l.toUpperCase());
   const brandKey = brand.toLowerCase();
+  const skip = (page - 1) * pageSize;
+  const canRawQuery = typeof (db as unknown as { $queryRaw?: unknown }).$queryRaw === "function";
+  const normalizedBrand = normalizeHardwareBrand(label);
 
-  const venues = await db.venue.findMany({
-    where: { status: "active" },
-    orderBy: [{ featured: "desc" }, { ratingOverall: "desc" }, { name: "asc" }],
-    select: venueCardSelect,
-  });
+  let totalVenues = 0;
+  let venues: VenueCardRow[] = [];
 
-  const filteredVenues = venues.filter((venue) => matchesHardware(venue, label));
+  if (canRawQuery && normalizedBrand) {
+    const where = { status: "active" as const, hardwareBrands: { has: normalizedBrand } };
+    [totalVenues, venues] = await Promise.all([
+      db.venue.count({ where }),
+      db.venue.findMany({
+        where,
+        orderBy: [{ featured: "desc" }, { ratingOverall: "desc" }, { name: "asc" }],
+        select: venueCardSelect,
+        take: pageSize,
+        skip,
+      }),
+    ]);
+  } else {
+    const allVenues = await db.venue.findMany({
+      where: { status: "active" },
+      orderBy: [{ featured: "desc" }, { ratingOverall: "desc" }, { name: "asc" }],
+      select: venueCardSelect,
+    });
+    const filteredVenues = allVenues.filter((venue) => matchesHardware(venue, label));
+    totalVenues = filteredVenues.length;
+    venues = filteredVenues.slice(skip, skip + pageSize);
+  }
   
   const content = hardwareContent[brandKey] || {
     tagline: `${label} Golf Simulators`,
@@ -151,13 +176,15 @@ export default async function BestHardwarePage({ params, searchParams }: BestHar
       ctaDescription={`If your venue uses ${label} hardware, claim your listing to verify details and appear in our curated collections.`}
       ctaPrimary={{ label: "Claim Your Listing", href: "/claim" }}
       ctaSecondary={{ label: "Submit New Venue", href: "/submit" }}
-      venues={filteredVenues}
+      venues={venues}
+      totalVenues={totalVenues}
       categoryType="hardware"
       categoryValue={brandKey}
       heroSubtitle={content.tagline}
       breadcrumbItems={breadcrumbs}
       showRanking={true}
       currentPage={page}
+      pageSize={pageSize}
       baseUrl={`/best/hardware/${brand}`}
     />
   );

@@ -1,0 +1,90 @@
+{
+  "name": "Big Screen Golf",
+  "address": "381 Circle of Progress Dr, Pottstown, PA 19464",
+  "city": "Pottstown",
+  "region": "Pennsylvania",
+  "country": "US",
+  "latitude": 40.2657,
+  "longitude": -75.663185,
+  "phone": "+16106004653",
+  "website": "https://www.bigscreengolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770213745/golf_simulators/www_bigscreengolf_com_ChIJuenpcq6HxokR5gtsf-IKdmE.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Big+Screen+Golf/@40.2656997,-75.66318489999999,14z/data=!4m8!1m2!2m1!1sBig+Screen+Golf!3m4!1s0x89c687ae72e9e9b9:0x61760ae27f6c0be6!8m2!3d40.2656997!4d-75.66318489999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJuenpcq6HxokR5gtsf-IKdmE",
+  "email": "Jared@BigScreenGolf.com",
+  "venue_type": "sim_bar|training_studio|retail_fitting_center",
+  "about": "Big Screen Golf is an indoor golf simulation facility in Pottstown, PA, offering the use of Uneekor technology on 16'x10' premium screens in private bays. The venue provides a data-driven experience, offering detailed shot analysis, access to nearly 2,000 virtual courses, and personalized instruction options. Pricing is structured at $40/hour for non-peak times and $50/hour for peak times, with a range of membership tiers available for frequent visitors to reduce costs and access exclusive benefits. It is well-suited for both serious golfers seeking practice and data analysis, as well as groups looking for a casual and entertaining activity with a full bar and pro shop on-site.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|private_rooms|club_rentals|coaching_available",
+  "vibe_tags": "sports_bar|tech_lab",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "High-fidelity Uneekor simulator technology providing detailed shot data",
+    "Access to nearly 2,000 courses, including iconic professional and local layouts",
+    "Full-service bar and pro shop on-site, creating a complete golf entertainment venue",
+    "Instructor-led lessons powered by AI technology for game improvement"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Guests can bring their own food or have it delivered from local restaurants."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "A 19th Hole bar serves drinks; BYOB is not permitted due to PA state laws."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "Unknown",
+      "notes": "Ceiling-mounted launch monitors; provide detailed ball and club data."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "overhead_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 4,
+  "booking_url": "https://app.birrdi.com/u/reserve?team_booking_link_id=big-screen-golf",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 40,
+  "price_range_max_local": 50,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 4,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "No, you can use your own clubs, but we also offer rentals. An older set of Hogan irons is available for free, and the latest sets from various manufacturers can be rented for $10/hour. Used drivers are also available at no charge."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "You can bring your own food to your reservation or have it delivered from a local place. However, due to PA state laws, we are not a BYOB facility. Our 19th Hole bar is open daily for drinks."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "It takes about an hour to play 18 holes as a single golfer. We recommend a reservation of 4-4.5 hours for a group of four to play 18 holes with a warmup."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, children under 16 can use the simulators but must be accompanied by an adult at all times. Events are designed to be enjoyable for all skill levels and can include playing movies in the theater for kids."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-10PM\"], \"Saturday\": [\"8AM-10PM\"], \"Sunday\": [\"1-7:30PM\"]}"
+}

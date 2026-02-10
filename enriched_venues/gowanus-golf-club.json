@@ -1,0 +1,96 @@
+{
+  "name": "Gowanus Golf Club",
+  "address": "124 9th St, Brooklyn, NY 11215",
+  "city": "Brooklyn",
+  "region": "New York",
+  "country": "US",
+  "latitude": 40.672703,
+  "longitude": -73.993831,
+  "phone": "+16199052690",
+  "website": "https://gowanusgolfclub.org/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770211309/golf_simulators/gowanusgolfclub_org_ChIJhYK-O8ZbwokRUvtSiawLCsc.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Gowanus+Golf+Club/@40.672703,-73.9938315,14z/data=!4m8!1m2!2m1!1sGowanus+Golf+Club!3m4!1s0x89c25bc63bbe8285:0xc70a0bac8952fb52!8m2!3d40.672703!4d-73.9938315",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJhYK-O8ZbwokRUvtSiawLCsc",
+  "email": "gowanusgolfclub@gmail.com",
+  "venue_type": "sim_bar|training_studio",
+  "about": "Gowanus Golf Club is a premier 24/7 access, self-service private golf simulator club located in Brooklyn, New York. The facility is designed for golfers looking to play and practice year-round,不受天气影响, offering a blend of technology and convenience. The club uses advanced simulator hardware including Trackman iO and Foresight Falcon technology to provide a realistic and data-rich golfing experience. Membership-based pricing models offer various tiers to suit different player needs, from basic to unlimited access, making it suitable for both casual players and serious golfers looking to improve their game.",
+  "tags": "beginner_friendly|food_and_drinks|serious_practice|premium_tech|coaching_available|community_club|solo_practice|upscale_lounge|tech_lab",
+  "vibe_tags": "casual|welcoming|modern|tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|families|solo_practice|coaches_instructors",
+  "why_golfers_like_it": [
+    "24/7 access allows for flexible practice sessions",
+    "Advanced Trackman iO and Foresight Falcon technology for accurate performance data",
+    "Year-round play不受天气影响, eliminating weather-related cancellations",
+    "Complimentary coffee, drinks, and snacks available, with a BYOB policy"
+  ],
+  "kid_friendly": false,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Complimentary coffee, drinks, and snacks are available for members. The club is also BYOB. Feel free to bring any food or refreshments you may need on the course!"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "BYOB policy - members can bring their own beverages."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Latest hardware product optimized for indoor golf. Combines radar, infrared and high-speed imaging to deliver real data in real time. This technology increases club face tracking and dramatically improves the playing experience."
+    },
+    {
+      "brand": "Foresight",
+      "model": "Falcon",
+      "notes": "Latest overhead launch monitor delivers a hitting area with the utmost shot-measuring accuracy and reliability, courtesy of the Quadrascopic Technology. The lightning-fast processing captures nearly twice the measured data parameters of competitive overhead launch monitors."
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://gowanusgolfclub.org/memberships/",
+  "pricing_model": "membership_only",
+  "price_range_min_local": 280.0,
+  "price_range_max_local": 600.0,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_fitting|pro_shop|wifi|club_rentals",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not explicitly state whether clubs are provided, but as a simulator club, it is standard practice for members to bring their own equipment."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, the club has a BYOB (Bring Your Own Beverage) policy. Complimentary coffee, drinks, and snacks are also available for members."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify the duration for 18 holes, but simulator sessions can typically be booked for specific time slots, allowing for flexible gameplay."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The website does not provide specific information regarding child-friendly policies or features. It is recommended to contact the club directly for details on whether children are allowed or if there are any age restrictions."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

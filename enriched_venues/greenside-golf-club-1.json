@@ -1,0 +1,90 @@
+{
+  "name": "Greenside Golf Club",
+  "address": "58 Old Colony Ave, Boston, MA 02127",
+  "city": "Boston",
+  "region": "Massachusetts",
+  "country": "US",
+  "latitude": 42.336327,
+  "longitude": -71.055751,
+  "phone": "+16940750186",
+  "website": "https://greensideboston.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770232394/golf_simulators/greensideboston_com_ChIJj1UQuAl744kRumN8m7n-fuA.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Greenside+Golf+Club/@42.3363271,-71.05575139999999,14z/data=!4m8!1m2!2m1!1sGreenside+Golf+Club!3m4!1s0x89e37b09b810558f:0xe07efeb99b7c63ba!8m2!3d42.3363271!4d-71.05575139999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJj1UQuAl744kRumN8m7n-fuA",
+  "venue_type": "sim_bar",
+  "about": "Greenside Golf Club is a premium golf simulator venue located in South Boston, featuring six AI-powered simulator bays. The facility offers year-round golfing access through a combination of state-of-the-art simulator technology and practice amenities. Greenside operates on a membership model with founding member options, targeting both serious golfers seeking practice and those looking for a social experience with food and beverage offerings. The venue is equipped with high-end tracking technology and professional-level launch monitors for accurate swing analysis and course simulation.",
+  "tags": "serious_practice|food_and_drinks|coaching_available|premium_tech|beginner_friendly|corporate_events|club_rentals|community_club|upscale_lounge",
+  "vibe_tags": "tech_lab|upscale_lounge|modern|welcoming",
+  "who_its_for": "serious_golfers|beginners|corporate_teams|solo_practice|tourists_travelers",
+  "why_golfers_like_it": [
+    "Tour-level Foresight launch monitors provide comprehensive shot data including ball speed, launch angles, and spin metrics",
+    "Greenside AI camera system offers video swing analysis with AI-driven feedback and drill recommendations",
+    "Membership includes unlimited bay access with priority booking and club storage",
+    "On-site coaching available at member rates for skill development",
+    "Practice putting area available without booking requirements"
+  ],
+  "kid_friendly": false,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Bar and lounge area; kitchen food collaborations mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with craft beer, seltzers; complimentary beverage for founding members"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": "Falcon",
+      "notes": "Tour-level launch monitor capturing comprehensive shot data"
+    }
+  ],
+  "simulator_software": [
+    "Greenside AI"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green|mixed",
+  "lefty_friendly": true,
+  "bay_count_total": 6,
+  "booking_url": "https://book.stripe.com/dRm28r2WZ3XsezOfgVejK00",
+  "pricing_model": "membership_only|mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 6,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "full_bar|kitchen_food|wifi|lockers|club_fitting|pro_shop|leagues|private_party_room|club_rentals|tv_sports",
+  "rating_tech_quality": 4.7,
+  "rating_facility_comfort": 4.3,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you'll need to bring your own clubs. The venue offers club storage and complimentary cleaning services for founding members."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue has a bar and lounge area with craft beer, seltzers, and coffee available. Outside food and drink policies aren't explicitly mentioned."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website doesn't specify exact timing for 18 holes, but simulator sessions are booked by the hour."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "No, the venue doesn't market itself as kid-friendly. It focuses on adult golfers with bar service and a work-friendly lounge area."
+    }
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": null
+}

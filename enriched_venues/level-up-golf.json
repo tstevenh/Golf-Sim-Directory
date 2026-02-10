@@ -1,0 +1,91 @@
+{
+  "name": "Level Up Golf",
+  "address": "1710 FM 423 Suite 600, Frisco, TX 75034",
+  "city": "Frisco",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 33.157661,
+  "longitude": -96.891593,
+  "phone": "+12543158236",
+  "website": "https://www.levelupgolfers.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770199394/golf_simulators/www_levelupgolfers_com_ChIJKxrCHDI7TIYR1n-1pgBqu84.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Level+Up+Golf/@33.157661399999995,-96.8915931,14z/data=!4m8!1m2!2m1!1sLevel+Up+Golf!3m4!1s0x864c3b321cc21a2b:0xcebb6a00a6b57fd6!8m2!3d33.157661399999995!4d-96.8915931",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJKxrCHDI7TIYR1n-1pgBqu84",
+  "email": "Info@levelupgolf.com",
+  "venue_type": "sim_bar|training_studio",
+  "about": "LevelUp Golf is a state-of-the-art indoor golf simulator facility offering technology-driven practice and play. The venue is equipped with Foresight GCQuad launch monitors and PuttView putting systems, providing detailed swing and putting analysis for players of all skill levels. It offers a flexible environment with 24/7 member access and non-member hours from 12 PM to 9 PM on weekdays and until 5 PM on Sundays, along with various membership tiers, private lessons, and league opportunities. The facility is designed to help golfers improve their game through cutting-edge technology in a comfortable, air-conditioned setting.",
+  "tags": "beginner_friendly|serious_practice|coaching_available|leagues|juniors_youth|premium_tech|family_fun_center|budget_friendly",
+  "vibe_tags": "modern|tech_lab|casual|welcoming",
+  "who_its_for": "beginners|serious_golfers|families|juniors_youth|solo_practice",
+  "why_golfers_like_it": [
+    "Advanced Foresight GCQuad and PuttView technology for detailed swing and putting analysis",
+    "Time-efficient play, allowing 18 holes to be completed within an hour",
+    "24/7 access for members and flexible booking options for non-members",
+    "Professional coaching from certified instructors using high-tech equipment",
+    "Access to over 1000+ virtual golf courses worldwide"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of food service"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": "GCQuad",
+      "notes": "Advanced imaging technology used in all 5 bays"
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface|dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 5,
+  "booking_url": "https://www.levelupgolfers.com/book-a-bay",
+  "pricing_model": "mixed",
+  "price_range_min_local": 50,
+  "price_range_max_local": 450,
+  "currency": "USD",
+  "walk_ins_allowed": "true",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|tv_sports|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you should bring your own golf clubs to use at the simulator bays."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No information is provided on outside food or drink policies."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "You can play 18 holes within an hour at LevelUp Golf."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, LevelUp Golf offers a Junior Golf Academy and is described as a great place for the whole family."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"12-9PM\"], \"Tuesday\": [\"12-9PM\"], \"Wednesday\": [\"12-9PM\"], \"Thursday\": [\"12-9PM\"], \"Friday\": [\"12-9PM\"], \"Saturday\": [\"12-9PM\"], \"Sunday\": [\"12-5PM\"]}"
+}

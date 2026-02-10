@@ -1,0 +1,95 @@
+{
+  "name": "Goose Island Golf Club",
+  "address": "1333 N Kingsbury St Suite 103, Chicago, IL 60642",
+  "city": "Chicago",
+  "region": "Illinois",
+  "country": "US",
+  "latitude": 41.90521,
+  "longitude": -87.649198,
+  "phone": "+17735624164",
+  "website": "https://gooseislandgolfclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770199652/golf_simulators/gooseislandgolfclub_com_ChIJVcza7xnTD4gR0wwqy_Dl5vI.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Goose+Island+Golf+Club/@41.905209899999996,-87.64919809999999,14z/data=!4m8!1m2!2m1!1sGoose+Island+Golf+Club!3m4!1s0x880fd319efdacc55:0xf2e6e5f0cb2a0cd3!8m2!3d41.905209899999996!4d-87.64919809999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJVcza7xnTD4gR0wwqy_Dl5vI",
+  "email": "info@gooseislandgolfclub.com",
+  "venue_type": "sim_bar|training_studio|private_rental|multi_sport_sim",
+  "about": "Goose Island Golf Club is a members-only indoor golf facility located in Chicago's Lincoln Park neighborhood, featuring six private simulator bays powered by Trackman technology. The venue emphasizes unlimited play with 24/7 access, catering to golfers seeking flexible practice and play opportunities outside traditional course hours. It combines golf simulation with premium amenities including a private cigar lounge, BYOB policy, and a dedicated fitness center, positioning itself as a comprehensive golf and social destination for serious golfers in an urban setting.",
+  "tags": "serious_golfers|food_and_drinks|corporate_events|leagues|premium_tech|private_rooms|club_rentals|coaching_available|upscale_lounge|community_club",
+  "vibe_tags": "upscale_lounge|private_luxury|community_club|modern",
+  "who_its_for": "serious_golfers|corporate_teams|solo_practice|low_handicap|coaches_instructors",
+  "why_golfers_like_it": [
+    "Unlimited 24/7 access for flexible practice and play on any schedule",
+    "Premium Trackman technology trusted by PGA TOUR professionals for tour-level accuracy",
+    "Exclusive private community with member events, leagues, and tournaments",
+    "Premium amenities including private cigar lounge and BYOB policy",
+    "Onsite PGA professionals for personalized coaching and skill development"
+  ],
+  "kid_friendly": false,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Kitchen and food service available in the facility"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "BYOB policy - patrons can bring their own alcoholic beverages"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Six private simulator bays using Trackman technology"
+    }
+  ],
+  "simulator_so": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 6,
+  "booking_url": "https://gooseislandgolfclub.com/",
+  "pricing_model": "membership_only",
+  "price_range_min_local": 0,
+  "price_range_max_local": 0,
+  "currency": "USD",
+  "walk_ins_allowed": false,
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|kitchen_food|tv_sports|lockers|wifi|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify whether clubs are provided or if members must bring their own. It's recommended to contact the club directly for equipment details."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, Goose Island Golf Club has a BYOB policy, allowing members to bring their own alcoholic beverages. The facility also has a kitchen and food service available."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify exact timing for 18 holes. With Trackman technology and six simulator bays, play time would likely vary depending on simulator software and player pace."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The website does not specifically mention kid-friendly policies or activities. As a members-only club with a cigar lounge, it appears geared toward adult golfers."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

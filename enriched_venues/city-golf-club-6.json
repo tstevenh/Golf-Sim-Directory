@@ -1,0 +1,94 @@
+{
+  "name": "City Golf Club",
+  "address": "2999 Olympus Blvd, Coppell, TX 75019",
+  "city": "Coppell",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 32.935081,
+  "longitude": -96.980997,
+  "phone": "+14696772244",
+  "website": "https://citygolfclub.co/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770210813/golf_simulators/citygolfclub_co_ChIJ42OEn0YpTIYREpvOsQGluYg.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/City+Golf+Club/@32.9350808,-96.9809971,14z/data=!4m8!1m2!2m1!1sCity+Golf+Club!3m4!1s0x864c29469f8463e3:0x88b9a501b1ce9b12!8m2!3d32.9350808!4d-96.9809971",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ42OEn0YpTIYREpvOsQGluYg",
+  "email": "contact@citygolfclub.co",
+  "venue_type": "multi_sport_sim",
+  "about": "City Golf Club offers convenient golf practice and expert instruction within urban office settings across the DFW area. The venue provides high-tech simulators and dedicated practice areas, allowing members 24/7 access to luxurious lounge environments. With locations in Dallas and Coppell, City Golf Club caters to golfers looking to improve their game on their own schedule, regardless of weather or time constraints. The club features Trackman technology, private lessons from PGA professionals, and a range of membership options tailored to different access needs.",
+  "tags": "beginner_friendly|corporate_events|premium_tech|coaching_available|private_rooms|club_rentals|community_club|serious_golfers|solo_practice",
+  "vibe_tags": "upscale_lounge|tech_lab|modern|private_luxury",
+  "who_its_for": "beginners|serious_golfers|corporate_teams|solo_practice|families",
+  "why_golfers_like_it": [
+    "24/7 access to luxurious lounge environments with high-tech simulators",
+    "Trackman technology with video swing analysis and benchmarking tools",
+    "Private lessons from PGA Professionals including top instructor Jonathan Buchanan",
+    "Multiple urban locations throughout the Dallas metroplex for convenience",
+    "Proprietary virtual lesson technology for advanced training"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of food service; BYOB policy not explicitly stated"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service; BYOB policy not explicitly stated"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Trackman bays with video and swing analysis applications"
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 9,
+  "booking_url": "https://clients.citygolfclub.co/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 75,
+  "price_range_max_local": 450,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 3,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|private_party_room|wifi|pro_shop|club_fitting",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Club fittings by Titleist are available, but personal clubs are typically required for use."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "BYOB policy is not explicitly stated. Contact the venue for specific details outside catering policies."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Time varies depending on simulator usage and course selection, but typical sessions range from 1-2 hours."
+    },
+    {
+      "question": "Is City Golf Club kid-friendly?",
+      "answer": "No specific mention of kid-friendly amenities or junior programs; appears focused on adult golfers."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"8AM-8PM\"], \"Tuesday\": [\"8AM-8PM\"], \"Wednesday\": [\"8AM-8PM\"], \"Thursday\": [\"8AM-8PM\"], \"Friday\": [\"8AM-8PM\"], \"Saturday\": [\"8AM-8PM\"], \"Sunday\": [\"8AM-8PM\"]}"
+}

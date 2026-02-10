@@ -1,0 +1,89 @@
+{
+  "name": "Clubhouse",
+  "address": "77 Charlton St, New York, NY 10014",
+  "city": "New York",
+  "region": "New York",
+  "country": "US",
+  "latitude": 40.727355,
+  "longitude": -74.006503,
+  "phone": "+19268753745",
+  "website": "http://clubhousegolf.nyc/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770202349/golf_simulators/clubhousegolf_nyc_ChIJc3DmWwBZwokRTLJzXDlqAEY.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Clubhouse/@40.7273546,-74.006503,14z/data=!4m8!1m2!2m1!1sClubhouse!3m4!1s0x89c259005be67073:0x46006a395c73b24c!8m2!3d40.7273546!4d-74.006503",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJc3DmWwBZwokRTLJzXDlqAEY",
+  "venue_type": "sim_bar",
+  "about": "Clubhouse is a high-tech golf simulator venue located in Hudson Square, NYC, offering an accessible and modern approach to indoor golf. Utilizing industry-leading Uneekor EYE XO2 launch monitors with three high-speed cameras, the facility provides accurate ball and club tracking with 24 data points per shot. The space is designed for practice, play, and socializing, with fully equipped bays featuring lounge seating and HD course visuals. Pricing operates on an hourly basis with peak and off-peak rates, along with package options for frequent players. The venue is open 24/7 and can be booked entirely through a mobile app for a seamless, on-demand experience.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|premium_tech|private_rooms|late_night|coaching_available",
+  "vibe_tags": "tech_lab|community_club|modern|casual",
+  "who_its_for": "serious_golfers|corporate_teams|solo_practice|coaches_instructors|tourists_travelers",
+  "why_golfers_like_it": [
+    "Industry-leading Uneekor technology providing 24 data points for detailed swing analysis",
+    "24/7 accessibility with app-based booking for ultimate convenience",
+    "Prime NYC location surrounded by dining and entertainment options",
+    "Ability to play with your own golf balls using Dimple Optix tracking"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Located in a neighborhood with many nearby food options, though on-site catering details are not specified."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No information on alcohol service; appears to be a BYOB venue."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "EYE XO2",
+      "notes": "Three high-speed camera launch monitor with Dimple Optix technology for real-time ball tracking"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.clubhousegolf.nyc/packages-pricing",
+  "pricing_model": "mixed",
+  "price_range_min_local": 65,
+  "price_range_max_local": 95,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|wifi|pro_shop|coaching_available",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, you can bring your own clubs or use Clubhouse's premium, tour-quality sets provided at the facility."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The website does not specify food and drink policies, but given it's a BYOB-style venue, it's likely permitted. However, the venue is located in an area with many nearby dining options."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "The website does not specify the time required to complete 18 holes, but given it's an indoor simulator facility, playing time would depend on the number of players and pace of play."
+    },
+    {
+      "question": "Is Clubhouse kid-friendly?",
+      "answer": "No, the venue does not appear to be specifically marketed or designed for children. It's geared toward adults, professionals, and serious golfers."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": null
+}

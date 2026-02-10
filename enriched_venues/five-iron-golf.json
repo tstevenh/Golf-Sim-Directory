@@ -1,0 +1,95 @@
+{
+  "name": "Five Iron Golf",
+  "address": "138 5th Ave, New York, NY 10011",
+  "city": "New York",
+  "region": "New York",
+  "country": "US",
+  "latitude": 40.739085,
+  "longitude": -73.991887,
+  "phone": "+18005135153",
+  "website": "https://fiveirongolf.com/locations/nyc-flatiron/%3Futm_source%3Dlocal%26utm_medium%3Dorganic%26utm_campaign%3Dny%26utm_content%3Dnyc-flatiron",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770199225/golf_simulators/fiveirongolf_com_ChIJ1bMDAKNZwokRqu2Gkg65fik.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Five+Iron+Golf/@40.7390851,-73.9918869,14z/data=!4m8!1m2!2m1!1sFive+Iron+Golf!3m4!1s0x89c259a30003b3d5:0x297eb90e9286edaa!8m2!3d40.7390851!4d-73.9918869",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ1bMDAKNZwokRqu2Gkg65fik",
+  "email": "flatiron@fiveirongolf.com",
+  "venue_type": "sim_bar",
+  "about": "Five Iron Golf Flatiron is an indoor golf venue featuring Trackman technology in a full-service bar and restaurant setting. The facility offers 10 simulator bays for playing a variety of virtual golf courses, from PGA Tour venues like Pebble Beach to minigames, alongside a high-tech practice environment. Membership provides free play and significant discounts on food, drinks, lessons, and events, while walk-in hourly rentals are available for non-members. The location combines golf with social amenities including a full bar, chef-inspired menu, shuffleboard, and ping pong, creating a casual and entertaining atmosphere for all skill levels.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|coaching_available|club_fitting|late_night|community_club",
+  "vibe_tags": "sports_bar|modern|welcoming|casual",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|tourists_travelers",
+  "why_golfers_like_it": [
+    "Trackman technology provides accurate data and access to 200+ world-class courses",
+    "Full-service bar and chef-inspired menu create a social golf experience",
+    "Membership offers free play and discounts on lessons, food, and events",
+    "No-dress-code atmosphere makes golf accessible to everyone",
+    "Late-night hours and special events like Super Sunday game day rentals"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full-service kitchen with chef-inspired menu, including wings, pizzas, and appetizers"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full-service bar with drink packages and specials"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "State-of-the-art Trackman technology with high-speed cameras in 10 simulator bays"
+    }
+  ],
+  "simulator_so": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 10,
+  "booking_url": "https://booking.fiveirongolf.com/select-experience?location=nyc-flatiron",
+  "pricing_model": "mixed",
+  "price_range_min_local": 29,
+  "price_range_max_local": 65,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 8,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|club_fitting|leagues|pro_shop",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own golf clubs?",
+      "answer": "You can bring your own clubs or rent them on-site. Club fitting services are also available with certified coaches using Trackman technology."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, outside food and drinks are not permitted. The venue offers a full-service bar and kitchen with a chef-inspired menu and drink packages."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time varies depending on your group size and pace, but most 18-hole rounds typically take 2-3 hours in a simulator setting."
+    },
+    {
+      "question": "Is this place kid-friendly?",
+      "answer": "Yes, the venue offers kids' parties, junior clinics, and has a casual atmosphere suitable for families. Special events and party packages are available for children."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"6AM-11PM\"], \"Tuesday\": [\"6AM-11PM\"], \"Wednesday\": [\"6AM-11PM\"], \"Thursday\": [\"6AM-11PM\"], \"Friday\": [\"6AM-1AM\"], \"Saturday\": [\"8AM-1AM\"], \"Sunday\": [\"8AM-11PM\"]}"
+}

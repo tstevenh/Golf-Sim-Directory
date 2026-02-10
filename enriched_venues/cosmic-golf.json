@@ -1,0 +1,90 @@
+{
+  "name": "Cosmic Golf",
+  "address": "850 Pine Valley Dr Suite 112, Elizabethtown, KY 42701",
+  "city": "Elizabethtown",
+  "region": "Kentucky",
+  "country": "US",
+  "latitude": 37.757967,
+  "longitude": -85.877458,
+  "phone": "+12706004653",
+  "website": "https://cosmic.golf/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770212563/golf_simulators/cosmic_golf_ChIJBxxmNCbnaIgREB3HZPuB3gE.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Cosmic+Golf/@37.7579667,-85.8774579,14z/data=!4m8!1m2!2m1!1sCosmic+Golf!3m4!1s0x8868e72634661c07:0x1de81fb64c71d10!8m2!3d37.7579667!4d-85.8774579",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJBxxmNCbnaIgREB3HZPuB3gE",
+  "venue_type": "sim_bar",
+  "about": "Cosmic Golf is a year-round entertainment venue in Elizabethtown, KY, featuring outdoor driving range bays and indoor golf simulators. The venue combines golf with a full-service restaurant, bar, and event space, making it suitable for both play and dining. Pricing for outdoor bays is $50-$60 per hour for up to six people, with leagues and event specials available. It caters to a range of patrons from casual golfers to families and groups looking for a combined food and activity experience.",
+  "tags": "food_and_drinks|leagues|corporate_events|kids_friendly|date_night|beginner_friendly|premium_tech|private_rooms",
+  "vibe_tags": "sports_bar|family_fun_center|tech_lab|party_atmosphere",
+  "who_its_for": "families|large_groups|beginners|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Combines indoor golf simulator play with a full-service restaurant and bar",
+    "Outdoor and indoor golf options available for year-round play",
+    "Hosts leagues and events, fostering a community atmosphere",
+    "Offers flexible booking for bays and a party room for groups",
+    "Pricing model accommodates both individual and group play"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full-service restaurant with a variety of burgers, sandwiches, wraps, pizza, and breakfast options. Kids eat free on Mondays."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar available with cocktail and drink specials, including themed cocktails for events."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Inrange",
+      "model": "unknown",
+      "notes": "Inrange Golf Technology simulators are used, but specific models are not detailed."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": "unknown",
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 12,
+  "booking_url": "https://alleytrak.com/app/client/4751-5628",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 50,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 3.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify whether clubs are provided, so it is recommended to bring your own or contact the venue directly."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue offers a full restaurant and bar, and while BYOB policies are not mentioned, ordering food and drinks on-site is encouraged."
+    },
+    {
+      "question": "How long does an 18-hole round take on the simulator?",
+      "answer": "The website does not provide specific timing for an 18-hole simulator round, but typical rounds can range from 1-2 hours depending on simulator usage."
+    },
+    {
+      "question": "Is Cosmic Golf kid-friendly?",
+      "answer": "Yes, Cosmic Golf is kid-friendly with kids eating free on Mondays and a family-oriented atmosphere including an outdoor putting course."
+    }
+  ],
+  "rating_overall": 3.9,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"8AM-12AM\"], \"Saturday\": [\"8AM-12AM\"], \"Sunday\": [\"8AM-10PM\"]}"
+}

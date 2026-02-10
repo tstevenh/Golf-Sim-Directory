@@ -1,0 +1,91 @@
+{
+  "name": "Bogey's Indoor Golf",
+  "address": "175 Mansfield Ave #3, Norton, MA 02766",
+  "city": "Norton",
+  "region": "Massachusetts",
+  "country": "US",
+  "latitude": 41.983208,
+  "longitude": -71.20903,
+  "phone": "+15086221048",
+  "website": "https://golfbogeys.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770200284/golf_simulators/golfbogeys_com_ChIJ_4M3tLdh5IkRzvcZr2S8I8s.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Bogey%27s+Indoor+Golf/@41.9832077,-71.20903009999999,14z/data=!4m8!1m2!2m1!1sBogey%27s+Indoor+Golf!3m4!1s0x89e461b7b43783ff:0xcb23bc64af19f7ce!8m2!3d41.9832077!4d-71.20903009999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ_4M3tLdh5IkRzvcZr2S8I8s",
+  "email": "bogey@golfbogeys.com",
+  "venue_type": "sim_bar",
+  "about": "Bogey's Indoor Golf is an indoor golf facility utilizing AboutGolf simulator technology. The venue offers a relaxed, social atmosphere for playing on over 90 world-famous courses, practicing with real-time swing data, and participating in leagues or events. Pricing is structured per bay per hour, with rates varying by season, and each bay can accommodate up to four players, making it suitable for both solo practice and group outings.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|budget_friendly|coaching_available|party_atmosphere|community_club",
+  "vibe_tags": "casual|welcoming|sports_bar|tech_lab",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "AboutGolf laser-based tracking technology for realistic ball flight and spin analysis",
+    "90+ world-famous courses available for play",
+    "Real-time swing data and shot tracking for practice improvement",
+    "Per bay pricing allows groups to split costs",
+    "Social atmosphere with TVs and the ability to bring food and beverages"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Patrons can bring their own food or have food delivered to the venue."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "Not explicitly mentioned, but food and beverage service is available."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "AboutGolf",
+      "model": "null",
+      "notes": "Laser-based tracking system provided with the balls"
+    }
+  ],
+  "simulator_software": [
+    "AboutGolf"
+  ],
+  "launch_monitor_type": "infrared_optical",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://clients.uschedule.com/bogeys/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 50,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|tv_sports|kitchen_food|leagues|pro_shop|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not explicitly state whether clubs are provided. It's best to contact them directly to confirm."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, you can bring your own food. The venue also allows for food delivery and has a selection of beverages available."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "Leagues are structured as 9-hole stroke play rounds that take 2 hours to complete. For a full 18 holes, you should plan for approximately 4 hours."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Bogey's is family-friendly and suitable for all ages, with events and an atmosphere that accommodate kids."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"11AM-10PM\"], \"Tuesday\": [\"11AM-10PM\"], \"Wednesday\": [\"11AM-10PM\"], \"Thursday\": [\"11AM-10PM\"], \"Friday\": [\"11AM-10PM\"], \"Saturday\": [\"9AM-11PM\"], \"Sunday\": [\"9AM-8PM\"]}"
+}

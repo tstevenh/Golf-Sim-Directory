@@ -1,0 +1,91 @@
+{
+  "name": "1611 Golf Club",
+  "address": "6001 Parker Blvd, North Richland Hills, TX 76180",
+  "city": "North Richland Hills",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 32.851857,
+  "longitude": -97.191507,
+  "phone": "+18175764093",
+  "website": "http://1611golf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770210776/golf_simulators/1611golf_com_ChIJncKKPQB5ToYRO_djB462V58.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/1611+Golf+Club/@32.8518573,-97.19150669999999,14z/data=!4m8!1m2!2m1!1s1611+Golf+Club!3m4!1s0x864e79003d8ac29d:0x9f57b68e0763f73b!8m2!3d32.8518573!4d-97.19150669999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJncKKPQB5ToYRO_djB462V58",
+  "email": "info@1611golf.com",
+  "venue_type": "sim_bar",
+  "about": "1611 Golf Club is a premier indoor golf venue located in the Dallas-Fort Worth area. It combines country club vibes with sports bar energy and a social club atmosphere. The venue utilizes cutting-edge Trackman technology for golf simulation, along with full bar and craft kitchen services. It is designed for both serious practice sessions and social gatherings, offering features like wall-to-wall TVs and space for events, parties, and leagues. Bay rentals are available for non-members, with memberships offering perks like daily sim time. The facility can host up to 6 people per bay, though 4 players are recommended for optimal experience, with a 2-hour minimum for all events.",
+  "tags": "food_and_drinks|leagues|corporate_events|date_night|premium_tech|coaching_available|club_rentals|private_rooms|community_club",
+  "vibe_tags": "sports_bar|tech_lab|community_club|casual|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|large_groups",
+  "why_golfers_like_it": [
+    "Professional-grade Trackman technology for accurate ball and club data",
+    "Full bar and craft kitchen available for a complete social experience",
+    "Flexible booking options with both pay-per-play and membership models",
+    "Social atmosphere with wall-to-wall TVs, suitable for groups and events",
+    "Expert lessons and coaching available for skill improvement"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Craft kitchen with a full menu available onsite."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full-service bar with alcoholic beverages available."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "Advanced radar technology trusted by top golf professionals for precise ball tracking."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.1611golf.com/bayrentals",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Most customers bring their own clubs, but rental sets are available for $10 if needed. Club rentals are free for 1611 members."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue has a full bar and craft kitchen available on-site. BYOB policies are not mentioned."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The typical round takes an average golfer 1 hour. It's recommended to add an hour for each player in your group."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "The website does not specify if the venue is kid-friendly or has special amenities for children."
+    }
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-11PM\"], \"Saturday\": [\"10AM-11PM\"], \"Sunday\": [\"10AM-9PM\"]}"
+}

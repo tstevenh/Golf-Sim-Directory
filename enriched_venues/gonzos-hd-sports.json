@@ -1,0 +1,89 @@
+{
+  "name": "Gonzo's HD Sports",
+  "address": "1860 Williston Rd, South Burlington, VT 05403",
+  "city": "South Burlington",
+  "region": "Vermont",
+  "country": "US",
+  "latitude": 44.462426,
+  "longitude": -73.151806,
+  "phone": "+18028810660",
+  "website": "http://www.gonzoshdsports.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770208216/golf_simulators/www_gonzoshdsports_com_ChIJMWXPXpt5ykwRa2jTXRZqSxs.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Gonzo%27s+HD+Sports/@44.462426199999996,-73.15180579999999,14z/data=!4m8!1m2!2m1!1sGonzo%27s+HD+Sports!3m4!1s0x4cca799b5ecf6531:0x1b4b6a165dd3686b!8m2!3d44.462426199999996!4d-73.15180579999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJMWXPXpt5ykwRa2jTXRZqSxs",
+  "venue_type": "sim_bar",
+  "about": "Gonzo's HD Sports is an indoor golf and sports simulation venue in South Burlington, VT. It features 8 Trackman iO golf simulators using patented optically enhanced radar tracking technology. The facility also offers a full bar, a sports bar with a drink menu, and event hosting capabilities for parties and corporate events. Golf instruction is available with PGA Lessons utilizing Trackman technology and V1 Pressure Mat. The venue caters to a diverse range of patrons from casual players to serious golfers and those looking for a social outing or event space.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|coaching_available|family_friendly|private_rooms|club_rentals",
+  "vibe_tags": "sports_bar|family_fun_center|tech_lab|party_atmosphere",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "State-of-the-art Trackman iO simulator technology for highly accurate ball and club tracking",
+    "PGA-level instruction available using Trackman data and V1 Pressure Mat for detailed swing analysis",
+    "Online tee time booking system for convenient and easy session scheduling",
+    "Full bar service available on-site for a complete social experience"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Outside food delivery is permitted (Ramunto's Brick Oven Pizza is mentioned as a partner), and guests can bring their own caterer."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with beer and cocktails available on-site."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Patented optically enhanced radar tracking (OERT) technology"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 8,
+  "booking_url": "https://app.acuityscheduling.com/schedule.php?owner=37016424",
+  "pricing_model": "per_bay_hour|package",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not explicitly state whether club rentals are available, so it is recommended to bring your own clubs for your session."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food delivery is permitted, and guests can bring their own caterer. A full bar with beer and cocktails is also available on-site."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify the average time required to play 18 holes, but it mentions online tee time booking, indicating sessions can be scheduled based on availability."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is described as a place for all ages and specifically mentions it is 'the place to celebrate' for people from age 8 to 60, with a variety of games including golf and sports simulators suitable for kids."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"3-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-10PM\"], \"Saturday\": [\"9AM-10PM\"], \"Sunday\": [\"9AM-6PM\"]}"
+}

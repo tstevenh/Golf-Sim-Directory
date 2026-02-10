@@ -1,0 +1,95 @@
+{
+  "name": "Fairways Indoor Golf Club, INC.",
+  "address": "25000 Bass Pro Dr Suite 104, Spanish Fort, AL 36527",
+  "city": "Spanish Fort",
+  "region": "Alabama",
+  "country": "US",
+  "latitude": 30.659359,
+  "longitude": -87.903894,
+  "phone": "+12516215277",
+  "website": "http://www.fairwaysindoorgolfclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770210543/golf_simulators/www_fairwaysindoorgolfclub_com_ChIJH_IbXAVDmogRNUfT4hBum2I.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Fairways+Indoor+Golf+Club%2C+INC./@30.6593591,-87.90389379999999,14z/data=!4m8!1m2!2m1!1sFairways+Indoor+Golf+Club%2C+INC.!3m4!1s0x889a43055c1bf21f:0x629b6e10e2d34735!8m2!3d30.6593591!4d-87.90389379999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJH_IbXAVDmogRNUfT4hBum2I",
+  "email": "info@fairwaysindoorgolfclub.com",
+  "venue_type": "sim_bar|multi_sport_sim",
+  "about": "Fairways Indoor Golf Club is a state-of-the-art facility in Spanish Fort, Alabama, featuring high-definition golf simulators where players use real clubs and balls. The venue offers an experience suitable for all skill levels, with a clubhouse atmosphere that supports everything from casual practice sessions to corporate outings and tournaments. Memberships are available on a monthly basis with no required contract durations, and the facility includes a full-service bar for additional convenience and social enjoyment.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|budget_friendly|private_rooms|club_rentals|coaching_available|family_friendly",
+  "vibe_tags": "sports_bar|family_fun_center|community_club|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Access to 90+ golf courses, playable in any weather or time",
+    "High-definition simulators with realistic ball and club tracking",
+    "Flexible membership options with unlimited play time",
+    "Full-service bar and social atmosphere for group events",
+    "Host of member-only events like tournaments and clinics"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No on-site kitchen, but BYOB is permitted."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full-service bar available on-site."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Unknown",
+      "model": "HD Simulator",
+      "notes": "High-definition simulators using high-speed, high-definition cameras to capture ball data."
+    }
+  ],
+  "simulator_so": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.fairwaysindoorgolfclub.com/book-a-tee-time/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|tv_sports|private_party_room|wifi|club_fitting|leagues",
+  "rating_tech_quality": 4.0,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "Yes, players are encouraged to bring their own clubs for the most authentic experience."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, BYOB is permitted, though the venue also offers a full-service bar."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Approximately 1-2 hours depending on the number of players and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the facility offers mini-games like Demolition Driving Range and welcomes families."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.0,
+  "opening_hours": "{\"Monday\": [\"2-10PM\"], \"Tuesday\": [\"2-10PM\"], \"Wednesday\": [\"2-10PM\"], \"Thursday\": [\"2-10PM\"], \"Friday\": [\"2-10PM\"], \"Saturday\": [\"12-10PM\"], \"Sunday\": [\"12-8PM\"]}"
+}

@@ -1,0 +1,95 @@
+{
+  "name": "Montclair Indoor Golf Club",
+  "address": "369 Bloomfield Ave, Montclair, NJ 07042",
+  "city": "Montclair",
+  "region": "New Jersey",
+  "country": "US",
+  "latitude": 40.812438,
+  "longitude": -74.215453,
+  "phone": "+19739600406",
+  "website": "https://montclairigc.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770202324/golf_simulators/montclairigc_com_ChIJf5LAo3xVwokRTvqyxDTEqCc.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Montclair+Indoor+Golf+Club/@40.8124379,-74.2154533,14z/data=!4m8!1m2!2m1!1sMontclair+Indoor+Golf+Club!3m4!1s0x89c2557ca3c0927f:0x27a8c434c4b2fa4e!8m2!3d40.8124379!4d-74.2154533",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJf5LAo3xVwokRTvqyxDTEqCc",
+  "email": "help@MontclairIGC.com",
+  "venue_type": "sim_bar|training_studio",
+  "about": "Montclair Indoor Golf Club is a modern facility offering year-round golf simulation with a focus on technology and player development. The venue utilizes premium TrackMan launch monitors in its three bays, providing detailed data and a realistic playing experience for golfers of all skill levels. Services include individual and group instruction, performance coaching, club fittings, and an easy-to-use app for booking and tracking progress.",
+  "tags": "serious_golfers|beginners|coaching_available|premium_tech|food_and_drinks|community_club|club_rentals|pro_shop|leagues",
+  "vibe_tags": "modern|tech_lab|community_club|welcoming",
+  "who_its_for": "serious_golfers|beginners|families|solo_practice|coaches_instructors",
+  "why_golfers_like_it": [
+    "Premium TrackMan technology in all bays",
+    "Convenient downtown Millburn location with ample parking",
+    "Comprehensive coaching and performance programs",
+    "Clean, modern facilities and excellent staff"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Located in Downtown Millburn with access to food and drinks before or after rounds."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "Not specified."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "Market-leading data and camera experience"
+    },
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Market-leading playing experience"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://clients.uschedule.com/montclairindoorgolfclub/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 200,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|pro_shop|leagues|parking|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.5,
+  "rating_value_for_money": 4.2,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "While you can bring your own clubs, the facility provides well-maintained equipment and club fitting services."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The club is located in Downtown Millburn with access to food and drinks before or after your round, though BYOB policy within the facility is not specified."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes depends on the number of players and simulator usage, but sessions can be booked online for specific time slots."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, the facility is welcoming to families and all skill levels, with instructors experienced in coaching juniors and beginners."
+    }
+  ],
+  "rating_overall": 4.5,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

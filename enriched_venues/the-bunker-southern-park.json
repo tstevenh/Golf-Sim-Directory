@@ -1,0 +1,95 @@
+{
+  "name": "The Bunker Southern Park",
+  "address": "7401 Market St Unit 550, Youngstown, OH 44512",
+  "city": "Youngstown",
+  "region": "Ohio",
+  "country": "US",
+  "latitude": 41.020113,
+  "longitude": -80.659807,
+  "phone": "+13303022399",
+  "website": "https://indoor-golf-ohio.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770218556/golf_simulators/indoor-golf-ohio_com_ChIJwzZrAEX7M4gRunEpeucmnJs.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Bunker+Southern+Park/@41.0201132,-80.65980669999999,14z/data=!4m8!1m2!2m1!1sThe+Bunker+Southern+Park!3m4!1s0x8833fb45006b36c3:0x9b9c26e77a2971ba!8m2!3d41.0201132!4d-80.65980669999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJwzZrAEX7M4gRunEpeucmnJs",
+  "email": "Dmillpga70@gmail.com",
+  "venue_type": "sim_bar|training_studio",
+  "about": "The Bunker Southern Park is an indoor golf and event space in Northeast Ohio. The facility features multiple simulator bays equipped with Foresight technology, allowing guests to practice swings, play famous PGA Tour courses, and compete in various game modes. In addition to golf, the venue offers comprehensive club fittings and repairs performed by in-house PGA Professionals, along with instructional programs through the Next Generation Golf Academy. The venue also includes a bar and grill, making it a versatile spot for both golf and social gatherings. The Bunker hosts a variety of weekly events and offers private event spaces for parties and corporate outings. Memberships and lesson bundles are available for frequent golfers looking to improve their game while saving money.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|coaching_available|private_rooms|family_friendly|premium_tech",
+  "vibe_tags": "sports_bar|family_fun_center|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "Foresight simulator technology for accurate ball tracking",
+    "Comprehensive golf instruction from PGA Professionals",
+    "Dedicated youth programs making golf accessible",
+    "Multiple private event spaces with full amenities",
+    "Full bar and grill service for a complete social experience"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen and bar service with award-winning menu selections"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": "Unknown",
+      "notes": "Equipped with Foresight technology"
+    }
+  ],
+  "simulator_so": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://apimanager-cc12.clubcaddie.com/activities/view/eefdabab",
+  "pricing_model": "per_bay_hour|membership_only|mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 8,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own golf clubs?",
+      "answer": "You can use your own clubs or rent equipment on-site. Club rentals are available for convenience."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No outside food or drink is allowed within The Bunker or Double Bogey's restaurant."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "For the best pace of play, we suggest no more than 4 adults per bay, which typically allows for an efficient round time."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, The Bunker offers Family Night events with arcade games, competitions, and activities for all ages."
+    }
+  ],
+  "simulator_software": [
+    "Foresight"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-12AM\"], \"Tuesday\": [\"10AM-12AM\"], \"Wednesday\": [\"10AM-12AM\"], \"Thursday\": [\"10AM-12AM\"], \"Friday\": [\"10AM-2AM\"], \"Saturday\": [\"10AM-2AM\"], \"Sunday\": [\"10AM-2AM\"]}"
+}

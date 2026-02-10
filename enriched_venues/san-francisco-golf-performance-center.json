@@ -1,0 +1,83 @@
+{
+  "name": "San Francisco Golf Performance Center",
+  "address": "456 Montgomery St #150, San Francisco, CA 94104",
+  "city": "San Francisco",
+  "region": "California",
+  "country": "US",
+  "latitude": 37.793608,
+  "longitude": -122.402614,
+  "phone": null,
+  "website": "http://www.sfgolfpc.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770213843/golf_simulators/www_sfgolfpc_com_ChIJU4sjZ4qAhYARZX7GL1KsByE.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/San+Francisco+Golf+Performance+Center/@37.7936078,-122.4026141,14z/data=!4m8!1m2!2m1!1sSan+Francisco+Golf+Performance+Center!3m4!1s0x8085808a67238b53:0x2107ac522fc67e65!8m2!3d37.7936078!4d-122.4026141",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJU4sjZ4qAhYARZX7GL1KsByE",
+  "email": "lisa@sfgolfpc.com",
+  "venue_type": "training_studio",
+  "about": "The San Francisco Golf Performance Center is a private studio for individualized, results-driven golf instruction. Located in the heart of San Francisco's Financial District, SFGPC is led exclusively by LPGA Professional Lisa Allee. With more than 30 years of experience and mentorship from the game's leading instructors, Lisa delivers highly individualized lessons designed to produce measurable improvement. Every lesson takes place in a focused, private environment using advanced technology, including launch monitor data and high-speed video analysis. Instruction is offered exclusively one-on-one to adult golfers of all abilities. New clients must complete an Initial Performance Assessment before scheduling regular lessons. No group lessons or junior instruction is available. Club fitting services are offered exclusively to existing clients.",
+  "tags": "serious_golfers|adults_only|premium_tech|private_rooms|club_fitting|coaching_available|byob|financial_district|one_on_one",
+  "vibe_tags": "private_luxury|tech_lab|professional|focused|upscale",
+  "who_its_for": "serious_golfers|adults_only|solo_practice|low_handicap|coaches_instructors",
+  "why_golfers_like_it": [
+    "Private, one-on-one instruction tailored to individual goals",
+    "Advanced technology with launch monitor and high-speed video analysis",
+    "Expert instruction from a certified LPGA and TPI professional with 30+ years of experience"
+  ],
+  "kid_friendly": false,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food services mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol services mentioned"
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar|hybrid|overhead_camera|floor_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 1,
+  "booking_url": "https://clients.uschedule.com/sfgolfpc/booking",
+  "pricing_model": "package",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": false,
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 1,
+  "amenities_list": "club_fitting|wifi|pro_shop|private_rooms",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "Clients must provide their own clubs. The facility is focused on instruction and does not mention club rentals."
+    },
+    {
+      "question": "Can I bring my own food or drink?",
+      "answer": "No food or drink services are mentioned, suggesting BYOB is not offered or permitted."
+    },
+    {
+      "question": "How long does an 18-hole round take?",
+      "answer": "Not specified, as the facility specializes in instruction rather than simulator play rounds."
+    },
+    {
+      "question": "Is this kid-friendly?",
+      "answer": "No. Instruction is provided to adult golfers only; clients must be at least 21 years of age."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"8AM-3PM\"], \"Wednesday\": [\"8AM-3PM\"], \"Thursday\": [\"8AM-3PM\"], \"Friday\": [\"8AM-3PM\"], \"Saturday\": [\"8AM-3PM\"], \"Sunday\": [\"Closed\"]}"
+}

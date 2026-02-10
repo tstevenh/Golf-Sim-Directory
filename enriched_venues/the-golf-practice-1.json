@@ -1,0 +1,92 @@
+{
+  "name": "The Golf Practice",
+  "address": "4995 Varsity Dr, Lisle, IL 60532",
+  "city": "Lisle",
+  "region": "Illinois",
+  "country": "US",
+  "latitude": 41.794184,
+  "longitude": -88.086403,
+  "phone": "+16307030877",
+  "website": "https://thegolfpractice.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770236308/golf_simulators/thegolfpractice_com_ChIJN4Uz7CNRDogRo1pHOZ08Iio.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Golf+Practice/@41.794183499999995,-88.0864026,14z/data=!4m8!1m2!2m1!1sThe+Golf+Practice!3m4!1s0x880e5123ec338537:0x2a223c9d39475aa3!8m2!3d41.794183499999995!4d-88.0864026",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJN4Uz7CNRDogRo1pHOZ08Iio",
+  "email": "info@thegolfpractice.com",
+  "venue_type": "training_studio",
+  "about": "The Golf Practice is a premier indoor golf training facility with locations in Highland Park and Lisle, Illinois. The Highland Park location spans 13,000 square feet and is equipped with 7 Trackman simulators, while the newer Lisle facility covers 15,000 square feet and features 8 Trackman simulators. Both locations offer extensive short game practice areas and a focus on player development through technology, coaching, and structured programs. The venues provide a professional environment for golfers to practice, receive instruction, and compete, with an emphasis on using data and technology to improve performance.",
+  "tags": "serious_practice|coaching_available|juniors_youth|premium_tech|beginner_friendly|private_events|club_fitting|leagues|budget_friendly|corporate_events",
+  "vibe_tags": "industrial_training|modern|welcoming|community_club",
+  "who_its_for": "serious_golfers|juniors_youth|families|coaches_instructors|solo_practice",
+  "why_golfers_like_it": [
+    "Cutting-edge Trackman technology provides detailed swing and ball data analysis",
+    "Focus on holistic player development with dedicated coaching for swing, mind, and body",
+    "State-of-the-art facilities offer extensive short game and putting practice areas",
+    "Structured youth programs cater to beginners and competitive junior golfers",
+    "Private event capabilities and club fitting services offer comprehensive golf solutions"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No on-site food service mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No bar or alcohol service mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "High-end launch monitor with dual radar technology providing precise ball and club data"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": 15,
+  "booking_url": "https://thegolfpractice.com/book",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|lockers|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The Golf Practice provides all necessary equipment for practice sessions, though many golfers prefer to use their own clubs for familiarity."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The website does not mention an on-site restaurant or bar, suggesting the facility may allow outside food and drinks for private events, but this should be confirmed when booking."
+    },
+    {
+      "question": "How long does an 18-hole simulation take?",
+      "answer": "The website does not specify the exact time for a full 18-hole simulation, but typical simulator sessions range from 1-2 hours depending on the number of players and pace of play."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "Yes, The Golf Practice offers a comprehensive junior program with multiple age-specific introductory and competitive levels for children as young as 3 years old."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"9AM-7PM\"], \"Tuesday\": [\"9AM-9PM\"], \"Wednesday\": [\"9AM-7PM\"], \"Thursday\": [\"9AM-9PM\"], \"Friday\": [\"9AM-6PM\"], \"Saturday\": [\"8AM-3PM\"], \"Sunday\": [\"8AM-3PM\"]}"
+}

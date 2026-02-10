@@ -1,0 +1,90 @@
+{
+  "name": "SwingScape Indoor Golf",
+  "address": "1555 Liberty Ln c2, Missoula, MT 59808",
+  "city": "Missoula",
+  "region": "Montana",
+  "country": "US",
+  "latitude": 46.877912,
+  "longitude": -114.020062,
+  "phone": "+14062017050",
+  "website": "https://www.swingscapegolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770214808/golf_simulators/www_swingscapegolf_com_ChIJ1y7vG1XPXVMR_xVdFPiUCRg.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/SwingScape+Indoor+Golf/@46.877911999999995,-114.020062,14z/data=!4m8!1m2!2m1!1sSwingScape+Indoor+Golf!3m4!1s0x535dcf551bef2ed7:0x180994f8145d15ff!8m2!3d46.877911999999995!4d-114.020062",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ1y7vG1XPXVMR_xVdFPiUCRg",
+  "email": "info@SwingScapeGolf.com",
+  "venue_type": "private_rental",
+  "about": "SwingScape Indoor Golf is a private golf simulator venue located in Missoula, Montana. The facility operates on a members-only basis and features a single, private simulator bay that is exclusively available to members during their booked tee times. Open 24 hours a day, the venue provides an environment for members to practice their swing, play a round with friends, or improve their game using state-of-the-art technology, regardless of weather conditions. The experience is centered on a Trackman 4 launch monitor system, which is used by PGA professionals.",
+  "tags": "serious_golfers|private_rooms|club_rentals|premium_tech|coaching_available",
+  "vibe_tags": "private_luxury|tech_lab",
+  "who_its_for": "serious_golfers|solo_practice|corporate_teams|coaches_instructors",
+  "why_golfers_like_it": [
+    "Complete privacy during your session with exclusive access to the single bay",
+    "Access to the Trackman 4 launch monitor, the same technology used by PGA professionals",
+    "24/7 access for ultimate flexibility in scheduling practice or play",
+    "Ability to bring guests at no additional cost"
+  ],
+  "kid_friendly": "yes",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "Not mentioned if external food is allowed."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "Not mentioned; BYOB status unknown but no full bar indicated."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "Single simulator bay equipped with Trackman 4 launch monitor, the same technology used by PGA golfers."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 1,
+  "booking_url": "https://www.swingscapegolf.com/membership-application",
+  "pricing_model": "membership_only",
+  "price_range_min_local": 150,
+  "price_range_max_local": 300,
+  "currency": "USD",
+  "walk_ins_allowed": "no",
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|wifi|pro_shop",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, extra clubs and balls are provided for you and your guests to use."
+    },
+    {
+      "question": "Can I bring food or drinks?",
+      "answer": "It is not explicitly stated whether external food or drinks are permitted."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time required to play 18 holes is not specified on the website."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Children may access the facility, but they must be accompanied by a member who is 18 or older."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

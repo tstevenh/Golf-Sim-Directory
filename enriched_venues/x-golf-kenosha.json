@@ -1,0 +1,85 @@
+{
+  "name": "X-Golf Kenosha",
+  "address": "8304 75th St Suite# 300, Kenosha, WI 53142",
+  "city": "Kenosha",
+  "region": "Wisconsin",
+  "country": "US",
+  "latitude": 42.567616,
+  "longitude": -87.909012,
+  "phone": "+12623610094",
+  "website": "http://www.xgolfkenosha.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770218605/golf_simulators/www_xgolfkenosha_com_ChIJNzn5A9hhBYgRffJcbdINAcA.png",
+  "google_maps_url": "https://www.google.com/maps/place/X-Golf+Kenosha/@42.567615499999995,-87.9090118,14z/data=!4m8!1m2!2m1!1sX-Golf+Kenosha!3m4!1s0x880561d803f93937:0xc0010dd26d5cf27d!8m2!3d42.567615499999995!4d-87.9090118",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJNzn5A9hhBYgRffJcbdINAcA",
+  "email": "info@xgolfkenosha.com",
+  "venue_type": "sim_bar",
+  "about": "X-Golf Kenosha offers indoor golf simulation using state-of-the-art technology, including camera systems, infrared lasers, and impact sensors, for a highly accurate and realistic experience. The venue provides 7 simulator bays, a full bar, food service, and event spaces, making it suitable for both individual practice and group activities. Pricing is per bay, per hour, accommodating up to 6 people, with various discounts available for seniors, military, and first responders.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|club_rentals|coaching_available|juniors_youth",
+  "vibe_tags": "sports_bar|family_fun_center|tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "World's most accurate golf simulator technology",
+    "PGA-certified professional instruction available",
+    "Accommodates up to 6 players per simulator bay",
+    "Full bar and food menu available on-site",
+    "Flexible pricing with multiple discounts"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Shareable bites, delicious appetizers, snacks, pizzas and more available"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with beer by the glass or on tap, cocktails and wines available"
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "mixed",
+  "lefty_friendly": true,
+  "bay_count_total": 7,
+  "booking_url": "https://app.squareup.com/appointments/book/si8qhqhje1y0m0/L0Y1AFNQ80EQ0/start",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 30,
+  "price_range_max_local": 65,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 0,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|private_party_room|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need clubs?",
+      "answer": "You can bring your own clubs, though rental clubs are available if needed."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drinks are not mentioned as being allowed. The venue offers a full bar and food menu on-site."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "It generally takes 1 hour for an individual player to complete 18 holes. If you have more than one player, you may want to book an additional hour for each person in your group."
+    },
+    {
+      "question": "Is it kid-friendly?",
+      "answer": "Yes, children of all ages are welcome at X-Golf Kenosha."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"9AM-12AM\"], \"Saturday\": [\"9AM-12AM\"], \"Sunday\": [\"9AM-7PM\"]}"
+}

@@ -1,0 +1,91 @@
+{
+  "name": "Swing Away Golf Club",
+  "address": "2117 Portland Ave, West Lawn, PA 19609",
+  "city": "West Lawn",
+  "region": "Pennsylvania",
+  "country": "US",
+  "latitude": 40.326939,
+  "longitude": -75.988234,
+  "phone": "+12086964653",
+  "website": "http://www.swingawaygolfclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770213047/golf_simulators/www_swingawaygolfclub_com_ChIJNyjYZZ1xxokRBWxG1uPmu-I.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Swing+Away+Golf+Club/@40.3269387,-75.9882336,14z/data=!4m8!1m2!2m1!1sSwing+Away+Golf+Club!3m4!1s0x89c6719d65d82837:0xe2bbe6e3d6466c05!8m2!3d40.3269387!4d-75.9882336",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJNyjYZZ1xxokRBWxG1uPmu-I",
+  "email": "golf@swingawaygolfclub.com",
+  "venue_type": "private_rental",
+  "about": "Swing Away Golf Club offers a private indoor golf experience centered around a high-end simulator bay. The venue features state-of-the-art technology, including the premium Uneekor EYEXO overhead launch monitor and realistic FiberBuilt hitting mats, set within a private and luxurious environment. Pricing is based on an hourly rate per bay, making it suitable for various group sizes and skill levels, from beginners seeking to learn the game to serious golfers looking for detailed data and swing analysis.",
+  "tags": "private_luxury|serious_practice|beginner_friendly|food_and_drinks|corporate_events|club_rentals|coaching_available|premium_tech|private_rooms|solo_practice",
+  "vibe_tags": "private_luxury|tech_lab|modern|welcoming",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Premium Uneekor EYEXO overhead launch monitor provides tour-level data accuracy",
+    "Private, distraction-free luxury bay for a focused and comfortable golf experience",
+    "High-resolution multi-angle video analysis for detailed swing improvement",
+    "Realistic FiberBuilt hitting mat reduces shock and mimics on-course conditions",
+    "Access to over 150,000 world-class courses via TGC Golf"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Kitchen and refrigerator available in the bay"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "BYOB not mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "EYEXO",
+      "notes": "Overhead, high-speed, camera-based launch monitor"
+    }
+  ],
+  "simulator_software": [
+    "TGC Golf"
+  ],
+  "launch_monitor_type": "overhead_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 1,
+  "booking_url": "http://www.swingawaygolfclub.com/book.html",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|private_party_room|pro_shop|wifi|dedicated_green|comfortable_seating|kitchen_food|tv_sports",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.5,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify, but you can typically bring your own clubs or use the venue's equipment. It is recommended to bring your own clubs for a familiar feel."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "The venue has a kitchen and refrigerator available in the bay. However, it does not mention a specific policy on bringing outside food or drinks."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "It takes about 1 hour for 1 person to play a round of golf. For each additional person, book another hour (i.e., 4 people = 4 hours)."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The content is not focused on being kid-friendly and mentions a private, luxury environment. It is geared towards adult golfers of all skill levels."
+    }
+  ],
+  "rating_overall": 4.4,
+  "opening_hours": "{\"Monday\": [\"7AM-4AM\"], \"Tuesday\": [\"7AM-4AM\"], \"Wednesday\": [\"7AM-4AM\"], \"Thursday\": [\"7AM-4AM\"], \"Friday\": [\"7AM-4AM\"], \"Saturday\": [\"7AM-4AM\"], \"Sunday\": [\"7AM-4AM\"]}"
+}

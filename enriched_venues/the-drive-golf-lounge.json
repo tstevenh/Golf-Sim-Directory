@@ -1,0 +1,84 @@
+{
+  "name": "The Drive Golf & Lounge",
+  "address": "414 West Ave, Holdrege, NE 68949",
+  "city": "Holdrege",
+  "region": "Nebraska",
+  "country": "US",
+  "latitude": 40.438509,
+  "longitude": -99.370972,
+  "phone": "+13089950556",
+  "website": "http://www.thedrivelounge.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770230186/golf_simulators/www_thedrivelounge_com_ChIJrbhFI77FnocRbBqT9g6Xk14.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Drive+Golf+%26+Lounge/@40.4385094,-99.37097229999999,14z/data=!4m8!1m2!2m1!1sThe+Drive+Golf+%26+Lounge!3m4!1s0x879ec5be2345b8ad:0x5e93970ef6931a6c!8m2!3d40.4385094!4d-99.37097229999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJrbhFI77FnocRbBqT9g6Xk14",
+  "email": "thedriveholdrege@gmail.com",
+  "venue_type": "sim_bar",
+  "about": "The Drive Golf & Lounge is a high-end cocktail lounge and entertainment venue featuring two top-of-the-line golf simulators. It combines premium golf technology with a full-service bar and restaurant, offering an upscale environment for both serious practice and casual socializing. Open to the public Wednesday through Saturday from 4pm to close, the venue provides 24/7 access for members and allows for play on over 150,000 virtual golf courses.",
+  "tags": "food_and_drinks|beginner_friendly|date_night|serious_golfers|upscale|social_memberships|corporate_events|no_weather_issues",
+  "vibe_tags": "upscale_lounge|sports_bar|tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Unlimited access to over 150,000 golf courses regardless of weather conditions",
+    "24/7 availability for members with flexible booking options",
+    "High-end cocktail lounge atmosphere combining golf with premium drinks and food",
+    "Clean, well-maintained facilities with proper etiquette requirements for an optimal experience"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen service available with food menus"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service with prime cocktails, beer, and wines"
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    "The Golf Club 2019"
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 2,
+  "booking_url": "https://apimanager-cc24.clubcaddie.com/activities/view/fffdabab",
+  "pricing_model": "mixed",
+  "price_range_min_local": 50,
+  "price_range_max_local": 540,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need clubs to play?",
+      "answer": "You must have clean clubs to play, as dirty clubs can ruin the compact screens. If you don't have clubs, the venue can provide a few sets."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue has a full kitchen and bar service available. Social members get 10% off all food and beverages."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Tee times are booked in 1 or 2 hour slots. You should come prepared and ready to play, as there is no time added if you show up late. If you can't finish in the allotted time, you'll need to quit and let the next group start."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The venue has a dress code requirement (no cut offs, tank tops, or sweat pants between 4pm and close) and appears to cater to an adult clientele focused on an upscale golf and lounge experience."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"Closed\"], \"Wednesday\": [\"4PM-1AM\"], \"Thursday\": [\"4PM-1AM\"], \"Friday\": [\"4PM-1AM\"], \"Saturday\": [\"4PM-1AM\"], \"Sunday\": [\"Closed\"]}"
+}

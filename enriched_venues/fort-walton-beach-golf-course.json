@@ -1,0 +1,91 @@
+{
+  "name": "Fort Walton Beach Golf Course",
+  "address": "1955 Lewis Turner Blvd, Fort Walton Beach, FL 32547",
+  "city": "Fort Walton Beach",
+  "region": "Florida",
+  "country": "US",
+  "latitude": 30.463252,
+  "longitude": -86.619399,
+  "phone": "+18508339664",
+  "website": "http://fwbgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770264610/golf_simulators/fwbgolf_com_ChIJeZXvDss_kYgRnyGBg6k1BeY.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Fort+Walton+Beach+Golf+Course/@30.4632524,-86.619399,14z/data=!4m8!1m2!2m1!1sFort+Walton+Beach+Golf+Course!3m4!1s0x88913fcb0eef9579:0xe60535a98381219f!8m2!3d30.4632524!4d-86.619399",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJeZXvDss_kYgRnyGBg6k1BeY",
+  "email": "jhill2@fwb.org",
+  "venue_type": "country_club",
+  "about": "Fort Walton Beach Golf Club is a public facility on Florida's Emerald Coast featuring two 18-hole championship courses and a modern TrackMan-equipped driving range. The Pines Course offers a classic parkland layout with rolling fairways, while the Oaks Course provides a tighter, tree-lined design with water hazards and a scenic Southern feel. The venue also includes a full-service clubhouse, pro shop, and restaurant, catering to both locals and visitors with exceptional value and year-round play.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|budget_friendly|club_rentals|coaching_available|tourists_travelers",
+  "vibe_tags": "community_club|family_fun_center|welcoming",
+  "who_its_for": "beginners|families|corporate_teams|tourists_travelers|solo_practice",
+  "why_golfers_like_it": [
+    "Advanced TrackMan technology for real-time shot data and simulated rounds",
+    "Two distinct 18-hole championship courses offering varied challenges",
+    "Exceptional value compared to other local resort courses",
+    "Year-round play availability with warm, sunny Florida weather"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full-service restaurant available on-site"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Restaurant likely serves alcohol; pro shop may have beverages"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Cutting-edge TrackMan Range technology for real-time shot data, virtual games, and simulated rounds"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.fwbgolf.com/book-now/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|full_bar|kitchen_food|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "While not explicitly stated, as a golf course, players typically bring their own clubs. Rental clubs may be available through the pro shop."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "The venue has a full-service restaurant and bar on-site. Outside food and drink policies are not specified, but typically allowed on the courses."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Standard 18-hole play time is typically 4-5 hours depending on pace of play and course conditions."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, the venue welcomes families with multiple tee boxes for different skill levels and a full-service clubhouse atmosphere suitable for all ages."
+    }
+  ],
+  "simulator_software": [
+    "TrackMan Range"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"6AM-7PM\"], \"Tuesday\": [\"6AM-7PM\"], \"Wednesday\": [\"6AM-7PM\"], \"Thursday\": [\"6AM-7PM\"], \"Friday\": [\"6AM-7PM\"], \"Saturday\": [\"6AM-7PM\"], \"Sunday\": [\"6AM-7PM\"]}"
+}

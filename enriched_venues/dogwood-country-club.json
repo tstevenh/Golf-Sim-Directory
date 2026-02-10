@@ -1,0 +1,90 @@
+{
+  "name": "Dogwood Country Club",
+  "address": "2431 Crabtree Blvd #101, Raleigh, NC 27604",
+  "city": "Raleigh",
+  "region": "North Carolina",
+  "country": "US",
+  "latitude": 35.805206,
+  "longitude": -78.614476,
+  "phone": "+19193279707",
+  "website": "http://dogwoodcountryclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770216641/golf_simulators/dogwoodcountryclub_com_ChIJt80D8olfrIkRWwa8Pj63p1E.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Dogwood+Country+Club/@35.8052062,-78.61447629999999,14z/data=!4m8!1m2!2m1!1sDogwood+Country+Club!3m4!1s0x89ac5f89f203cdb7:0x51a7b73e3ebc065b!8m2!3d35.8052062!4d-78.61447629999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJt80D8olfrIkRWwa8Pj63p1E",
+  "venue_type": "sim_bar",
+  "about": "Dogwood Country Club is an indoor golf and simulator venue in Raleigh, NC. It features Trackman radar technology for advanced simulation and launch monitor data. The venue offers golf simulator rentals, club fitting, lessons, and a pro shop. It operates on a membership-based model with starting costs at $5. The facility provides a premium indoor golf experience with customizable simulator installations and a luxurious atmosphere.",
+  "tags": "food_and_drinks|serious_golfers|date_night|corporate_events|premium_tech|club_rentals|coaching_available|private_rooms|community_club|custom_fitting",
+  "vibe_tags": "upscale_lounge|private_luxury|tech_lab|community_club|modern",
+  "who_its_for": "serious_golfers|corporate_teams|coaches_instructors|families|solo_practice",
+  "why_golfers_like_it": [
+    "Premium Trackman radar technology trusted by tour professionals",
+    "Luxurious, high-end simulator installation and design",
+    "Unlimited trackman time for members",
+    "Custom club fitting services available",
+    "Community-focused environment with member-exclusive benefits"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "BYOB policy mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "BYOB policy mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Radar technology trusted by 1000+ tour players worldwide"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://clients.uschedule.com/dogwoodcc/booking",
+  "pricing_model": "membership_only",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|pro_shop|club_fitting|leagues|wifi|tv_sports|private_party_room|wet_bar_entertainment_area|custom_golf_simulator_installation",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own golf clubs?",
+      "answer": "Yes, you should bring your own golf clubs to use the simulators and take advantage of the Trackman technology."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, the venue operates on a BYOB (Bring Your Own Beverages) policy."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes depends on the simulator software and pace of play, but typically ranges from 1.5 to 2 hours."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The venue doesn't specifically advertise as kid-friendly, but families are mentioned as one of their target audiences."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"10AM-9PM\"], \"Tuesday\": [\"10AM-9PM\"], \"Wednesday\": [\"10AM-9PM\"], \"Thursday\": [\"10AM-9PM\"], \"Friday\": [\"10AM-10PM\"], \"Saturday\": [\"10AM-10PM\"], \"Sunday\": [\"12-6PM\"]}"
+}

@@ -1,0 +1,93 @@
+{
+  "name": "Lucky's Indoor Golf",
+  "address": "5630 E Clinton St, Albany, OH 45710",
+  "city": "Albany",
+  "region": "Ohio",
+  "country": "US",
+  "latitude": 39.229299,
+  "longitude": -82.196386,
+  "phone": "+17406983456",
+  "website": "http://luckysindoorgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770211476/golf_simulators/luckysindoorgolf_com_ChIJ6aRXhJJ3SIgRhvCj3YmVA0Q.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Lucky%27s+Indoor+Golf/@39.229299399999995,-82.1963856,14z/data=!4m8!1m2!2m1!1sLucky%27s+Indoor+Golf!3m4!1s0x884877928457a4e9:0x44039589dda3f086!8m2!3d39.229299399999995!4d-82.1963856",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ6aRXhJJ3SIgRhvCj3YmVA0Q",
+  "email": "luckysindoorgolf@gmail.com",
+  "venue_type": "sim_bar",
+  "about": "Lucky's Indoor Golf combines premier indoor golf simulator technology with a classic pizza shop experience. The facility features three indoor golf simulator bays powered by TrackMan, providing an accurate and immersive golfing experience for all skill levels. Alongside the golf technology, the venue serves quality pizza, wings, and subs, creating a welcoming space that is perfect for practice, play, and gatherings with friends or for corporate events.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|families|large_groups|premium_tech",
+  "vibe_tags": "sports_bar|family_fun_center|casual|welcoming",
+  "who_its_for": "beginners|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "State-of-the-art TrackMan simulators for an accurate and immersive experience",
+    "On-site quality pizza and subs for a convenient dining experience",
+    "Year-round golf regardless of weather conditions",
+    "Available party room for group events and celebrations"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Classic pizza shop serving pizza, wings, subs, and more"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No information on alcohol service provided"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "TrackMan",
+      "model": "iO",
+      "notes": "Three bays powered by TrackMan technology"
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://booking.trackmangolf.com/venues/luckys-indoor-golf/booking/bays",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 40,
+  "price_range_max_local": 160,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 8,
+  "amenities_list": "kitchen_food|private_party_room",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The content does not specify whether club rentals are available, so it is recommended to bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue has a full kitchen serving pizza, wings, and subs, but does not specify if outside food or drinks are allowed."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The venue does not specify the time required to play 18 holes, as it depends on the number of players and pace of play."
+    },
+    {
+      "question": "Is Lucky's Indoor Golf kid-friendly?",
+      "answer": "Yes, the venue features interactive games for kids and beginners and has a party room available for birthday parties, making it suitable for families and children."
+    }
+  ],
+  "simulator_software": [
+    "TrackMan"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"3-8PM\"], \"Wednesday\": [\"3-8PM\"], \"Thursday\": [\"3-8PM\"], \"Friday\": [\"11AM-9PM\"], \"Saturday\": [\"11AM-9PM\"], \"Sunday\": [\"11AM-8PM\"]}"
+}

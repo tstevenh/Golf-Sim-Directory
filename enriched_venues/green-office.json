@@ -1,0 +1,88 @@
+{
+  "name": "Green Office",
+  "address": "245 E Trinity Pl Unit 1210, Decatur, GA 30030",
+  "city": "Decatur",
+  "region": "Georgia",
+  "country": "US",
+  "latitude": 33.771724,
+  "longitude": -84.293485,
+  "phone": "+14702042444",
+  "website": "http://www.greenoffice.golf/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770202100/golf_simulators/www_greenoffice_golf_ChIJBeunGEgH9YgRUZfoQy8vzEA.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Green+Office/@33.7717239,-84.2934849,14z/data=!4m8!1m2!2m1!1sGreen+Office!3m4!1s0x88f5074818a7eb05:0x40cc2f2f43e89751!8m2!3d33.7717239!4d-84.2934849",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJBeunGEgH9YgRUZfoQy8vzEA",
+  "venue_type": "sim_bar",
+  "about": "Green Office is a locally owned and operated community golf studio in the heart of Downtown Decatur, Georgia. The venue combines cutting-edge simulators with a warm, welcoming atmosphere, designed by a golfer for golfers of all levels. It offers flexible play options, from single sessions to memberships, and is a space for playing, practicing, and connecting with fellow golf enthusiasts rain or shine. Technology features include Uneekor EYE XO launch monitors for instant shot feedback and in-depth data analysis.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|coaching_available|community_club|modern",
+  "vibe_tags": "community_club|sports_bar|casual|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "State-of-the-art Uneekor EYE XO launch monitors provide instant shot feedback and in-depth data analysis",
+    "Flexible options to play with single sessions or Greenie Club memberships designed to fit any lifestyle",
+    "A warm, welcoming atmosphere designed for all levels of golfers to play, practice, and connect"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No information on food service provided."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No information on alcohol service provided."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "EYE XO",
+      "notes": "Premium launch monitor providing instant shot feedback with in-depth data analysis"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://app.whoosh.io/patron/club/green-office",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|tv_sports|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Green Office does not offer rental clubs at this time, so you must bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "There is no information provided about bringing outside food or drinks. The venue does not appear to have an on-site kitchen or bar."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify a typical time for playing 18 holes."
+    },
+    {
+      "question": "Is Green Office kid-friendly?",
+      "answer": "Yes, Green Office is kid-friendly as it welcomes 'golfers of all levels' and offers family-oriented programming and events."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

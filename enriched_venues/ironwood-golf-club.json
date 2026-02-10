@@ -1,0 +1,91 @@
+{
+  "name": "Ironwood Golf Club",
+  "address": "6902 E Highland Rd, Howell, MI 48843",
+  "city": "Howell",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 42.63009,
+  "longitude": -83.81869,
+  "phone": "+15175463211",
+  "website": "http://golfironwood.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770254781/golf_simulators/golfironwood_com_ChIJVeoGspFDI4gROtjd65P1u2w.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Ironwood+Golf+Club/@42.6300896,-83.8186898,14z/data=!4m8!1m2!2m1!1sIronwood+Golf+Club!3m4!1s0x88234391b206ea55:0x6cbbf593ebddd83a!8m2!3d42.6300896!4d-83.8186898",
+  "google_rating": 4.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJVeoGspFDI4gROtjd65P1u2w",
+  "email": "golfironwood@yahoo.com",
+  "venue_type": "sim_bar",
+  "about": "Ironwood Golf Club is a 6,053-yard, 18-hole course with three sets of tees designed to be challenging and playable for all handicap levels. The venue features a fully stocked pro shop and offers all-day course rentals for events. Additionally, it operates a dedicated indoor golf simulator facility with state-of-the-art technology for year-round play. The simulators feature advanced diagnostics similar to launch monitors used by major club fitters and are available for tournaments, leagues, private parties, and instruction. The venue is committed to providing great customer service and fair prices to ensure a positive experience for all visitors.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|leagues|premium_tech|club_rentals|coaching_available",
+  "vibe_tags": "casual|welcoming|modern|community_club",
+  "who_its_for": "families|large_groups|corporate_teams|beginners|serious_golfers",
+  "why_golfers_like_it": [
+    "State-of-the-art simulator diagnostics for detailed swing feedback",
+    "Wide variety of premium virtual courses available (88+)",
+    "Full bar and menu service available while playing",
+    "Golf instruction available for improvement and practice",
+    "Hosts tournaments, leagues, and special events for various skill levels"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full menu service available while using the simulators."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available while using the simulators."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Unknown",
+      "model": "Simulators",
+      "notes": "State-of-the-art golf simulators with diagnostics similar to launch monitors used by major club fitters."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://ironwood-golf.book.teeitup.golf",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.2,
+  "rating_facility_comfort": 4.1,
+  "rating_value_for_money": 4.1,
+  "faq": [
+    {
+      "question": "Do I need clubs?",
+      "answer": "The description does not explicitly state whether clubs are provided or must be brought by the golfer. It is recommended to call the clubhouse at 517.546.3211 for confirmation."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "The venue offers a full bar and menu service for guests enjoying the simulators. It does not mention a policy on bringing outside food or drink."
+    },
+    {
+      "question": "How long does it take to play 18 holes on the simulators?",
+      "answer": "The provided content does not specify the average time required to play 18 holes in the simulator facility."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The venue is described as being for 'all skill levels' and hosts events like parties. The specific amenities and policies for children are not detailed in the provided information."
+    }
+  ],
+  "rating_overall": 4.1,
+  "opening_hours": "{\"Monday\": [\"7:15AM-2AM\"], \"Tuesday\": [\"7:15AM-2AM\"], \"Wednesday\": [\"7:15AM-2AM\"], \"Thursday\": [\"7:15AM-2AM\"], \"Friday\": [\"7:15AM-2AM\"], \"Saturday\": [\"7:15AM-2AM\"], \"Sunday\": [\"7:15AM-2AM\"]}"
+}

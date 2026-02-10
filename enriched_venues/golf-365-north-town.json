@@ -1,0 +1,91 @@
+{
+  "name": "Golf 365 North Town",
+  "address": "3835 W Marquette Cir, Sheboygan, WI 53083",
+  "city": "Sheboygan",
+  "region": "Wisconsin",
+  "country": "US",
+  "latitude": 43.792119,
+  "longitude": -87.756276,
+  "phone": "+19205471655",
+  "website": "https://golf365wi.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770231851/golf_simulators/golf365wi_com_ChIJERvoY3FZA4gRVGbw1HTe3Ko.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Golf+365+North+Town/@43.7921194,-87.7562755,14z/data=!4m8!1m2!2m1!1sGolf+365+North+Town!3m4!1s0x8803597163e81b11:0xaadcde74d4f06654!8m2!3d43.7921194!4d-87.7562755",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJERvoY3FZA4gRVGbw1HTe3Ko",
+  "email": "golf365wi@gmail.com920.547.1655",
+  "venue_type": "sim_bar",
+  "about": "Golf 365 is a golf simulator venue in Sheboygan County, Wisconsin, with two locations: Northtown and Indiana Avenue. It offers year-round golf access using state-of-the-art Uneekor Eye XO launch monitors with GSPro simulation software, featuring a wide selection of real and fantasy golf courses. The venue operates with a simple, hourly pricing model and also provides a full bar and food menu, club rentals, fitting services, and the option to host private events or join seasonal leagues. It is designed to be a casual and welcoming environment for golfers of all skill levels, particularly appealing to those in areas with short outdoor seasons.",
+  "tags": "beginner_friendly|food_and_drinks|leagues|premium_tech|club_rentals|coaching_available|corporate_events|private_rooms|late_night|sports_bar",
+  "vibe_tags": "sports_bar|casual|welcoming|modern|family_fun_center",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Year-round golf access regardless of Wisconsin's harsh winter weather",
+    "State-of-the-art Uneekor Eye XO launch monitors and GSPro software for high-quality simulation",
+    "Variety of games and formats available, including mini golf and golf darts",
+    "Full service bar and food menu to enhance the social experience",
+    "Private rooms available for lessons and fittings, as well as group events"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen with food menu, featuring brisket smashburgers at North Town and Deo's pizzas at Indiana Avenue, as well as fresh pizza from local restaurants."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full service bar available at both locations."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "Eye XO",
+      "notes": "Launch monitors installed in all simulator bays."
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://918booking.com/emb-bookings?course=51",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 30,
+  "price_range_max_local": 50,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, club rentals are available at both locations. You can also purchase clubs, accessories, and get regripping services."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No, the venue provides a full bar and food menu at both locations, with signature items like brisket smashburgers and local pizza."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Standard play on the simulator is typically a 9-hole experience, lasting about one hour."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is family-friendly and offers non-golf entertainment such as dart boards, cornhole boards, and a casual atmosphere suitable for all ages."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-1AM\"], \"Tuesday\": [\"9AM-1AM\"], \"Wednesday\": [\"9AM-1AM\"], \"Thursday\": [\"9AM-1AM\"], \"Friday\": [\"9AM-1AM\"], \"Saturday\": [\"9AM-1AM\"], \"Sunday\": [\"9AM-1AM\"]}"
+}

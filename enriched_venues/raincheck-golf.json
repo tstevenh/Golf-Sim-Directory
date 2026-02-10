@@ -1,0 +1,95 @@
+{
+  "name": "RainCheck Golf",
+  "address": "8613 Tyler Blvd, Mentor, OH 44060",
+  "city": "Mentor",
+  "region": "Ohio",
+  "country": "US",
+  "latitude": 41.687481,
+  "longitude": -81.331788,
+  "phone": "+14405788008",
+  "website": "https://raincheck.golf/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770216057/golf_simulators/raincheck_golf_ChIJ0VWmcvWlMYgR-wBxZxodiAM.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/RainCheck+Golf/@41.687481,-81.3317883,14z/data=!4m8!1m2!2m1!1sRainCheck+Golf!3m4!1s0x8831a5f572a655d1:0x3881d1a677100fb!8m2!3d41.687481!4d-81.3317883",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ0VWmcvWlMYgR-wBxZxodiAM",
+  "email": "info@raincheck.golf",
+  "venue_type": "training_studio",
+  "about": "Raincheck Golf is a premier indoor golf facility in Mentor, Ohio, offering a comprehensive range of services including simulator bay rentals, professional club fittings, and expert lessons. The venue features premium simulator bays with accurate ball tracking technology and access to over 1,500 world-class golf courses. Raincheck Golf is a family-owned and operated business led by Leanne and Cory, providing a hub for all golfing needs from playing and equipment to instruction. The facility is designed to support every aspect of a golfer's game year-round, with plans for an expanded facility launching in 2026 featuring TrackMan bays and a 1,200 sq/ft putting green. Membership plans offer flexible pricing and seasonal benefits, catering to golfers who frequent the facility regularly.",
+  "tags": "beginner_friendly|corporate_events|leagues|premium_tech|coaching_available|club_rentals|training_studio|serious_practice",
+  "vibe_tags": "community_club|casual|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Premium simulator bays with accurate ball tracking",
+    "Family-owned and operated with expert staff",
+    "Comprehensive services including club fitting and lessons",
+    "Flexible membership options with seasonal benefits",
+    "Access to over 1,500 world-class golf courses"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of food service on premises"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service on premises"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Premium simulator technology mentioned in expanded facility plans"
+    }
+  ],
+  "simulator_so": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://app.whoosh.io/patron/club/raincheck-golf",
+  "pricing_model": "mixed",
+  "price_range_min_local": 5,
+  "price_range_max_local": 35,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The facility doesn't specify, but typically players bring their own clubs for the most accurate experience."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No information is provided about bringing outside food or drinks, suggesting it may not be permitted."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "No specific time is mentioned for playing 18 holes, but simulator sessions are typically booked by the hour."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, Raincheck Golf appears to be family-friendly as it's mentioned as a place for families to enjoy golf."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-10PM\"], \"Saturday\": [\"9AM-11PM\"], \"Sunday\": [\"9AM-6PM\"]}"
+}

@@ -1,0 +1,89 @@
+{
+  "name": "Tee It Up - Port Huron",
+  "address": "318 Grand River Ave, Port Huron, MI 48060",
+  "city": "Port Huron",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 42.976964,
+  "longitude": -82.422623,
+  "phone": "+18108243924",
+  "website": "https://www.teeitupmi.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770226243/golf_simulators/www_teeitupmi_com_ChIJ29l338idJYgRn3DFiZuC0fg.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Tee+It+Up+-+Port+Huron/@42.9769637,-82.42262269999999,14z/data=!4m8!1m2!2m1!1sTee+It+Up+-+Port+Huron!3m4!1s0x88259dc8df77d9db:0xf8d1829b89c5709f!8m2!3d42.9769637!4d-82.42262269999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ29l338idJYgRn3DFiZuC0fg",
+  "venue_type": "sim_bar",
+  "about": "Tee It Up - Port Huron is a golf simulator venue located inside The Wrigley Center in downtown Port Huron. It features Trackman4 technology, providing a hyper-realistic golf experience with detailed data analysis for practice or play on virtual courses. The venue offers leagues, lessons, and memberships, with special perks like discounts and priority tee times for members. They are closed for the summer and typically operate with standard hours, but also accommodate private parties by appointment.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|private_rooms|club_rentals|coaching_available|date_night",
+  "vibe_tags": "casual|welcoming|modern",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Premium Trackman4 technology for realistic simulation and detailed swing analysis",
+    "Flexible booking options for solo practice, group events, and leagues",
+    "Ability to host private parties and events with dedicated bay time"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of on-site food service"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of on-site alcohol service"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "Premium launch monitor with tour-proven ball tracking"
+    }
+  ],
+  "simulator_software": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 4,
+  "booking_url": "https://app.whoosh.io/patron/club/tee-it-up-port-huron/agenda/tee-it-up-port-huron/today",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|tv_sports|leagues|coaching_available",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify, but it's standard practice for golf simulator venues to allow players to bring their own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "The website does not mention policies on outside food or drink."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify the duration for 18 holes, but this information can typically be provided during booking."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The website does not explicitly state if children are welcome or if there are specific activities for them."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"12-9PM\"], \"Tuesday\": [\"12-9PM\"], \"Wednesday\": [\"12-9PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-10PM\"], \"Saturday\": [\"10AM-10PM\"], \"Sunday\": [\"10AM-5PM\"]}"
+}

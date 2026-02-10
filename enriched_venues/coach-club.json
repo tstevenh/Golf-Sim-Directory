@@ -1,0 +1,89 @@
+{
+  "name": "Coach Club",
+  "address": "69 Lafayette Rd, North Hampton, NH 03862",
+  "city": "North Hampton",
+  "region": "New Hampshire",
+  "country": "US",
+  "latitude": 42.973097,
+  "longitude": -70.834386,
+  "phone": "+16039640913",
+  "website": "http://coachclubnh.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770230723/golf_simulators/coachclubnh_com_ChIJrbCn4Dbp4okRWNlgRYa9Ujg.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Coach+Club/@42.973096999999996,-70.8343857,14z/data=!4m8!1m2!2m1!1sCoach+Club!3m4!1s0x89e2e936e0a7b0ad:0x3852bd864560d958!8m2!3d42.973096999999996!4d-70.8343857",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJrbCn4Dbp4okRWNlgRYa9Ujg",
+  "email": "INFO@COACHCLUBNH.COM",
+  "venue_type": "sim_bar",
+  "about": "Coach Club is a modern golf simulator venue designed for year-round game improvement and social play. It combines technology with community, featuring TrackMan simulators, extensive coaching programs, and a private clubhouse atmosphere. The facility offers memberships, leagues, tournaments, and events, supported by a team of PGA professionals including the 2022 New England PGA Teacher of the Year, Rico Riciputi. With locations in North Hampton, NH and Newburyport, MA, it provides an environment for golfers to practice, play, and connect.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|coaching_available|community_club",
+  "vibe_tags": "upscale_lounge|tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|coaches_instructors",
+  "why_golfers_like_it": [
+    "Premium TrackMan technology provides real-time data for game improvement",
+    "PGA-certified coaching from award-winning instructors like Rico Riciputi",
+    "Community-focused atmosphere with leagues, tournaments, and member events"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of food service on-site"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service on-site"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "Level 1 certified, combines two radars and one camera for precise tracking"
+    }
+  ],
+  "simulator_software": [
+    "TrackMan Golf"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "http://coachclubnh.com/pages/membership",
+  "pricing_model": "mixed",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|lockers|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website doesn't specify club rental options, so it's recommended to bring your own clubs for the best experience."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "There's no mention of BYOB policies or food restrictions, but it's best to check directly with the venue for their specific policies."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website doesn't specify, but typical simulator play times range from 1-2 hours depending on pace and number of players."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue offers family memberships and hosts junior programs, indicating it welcomes younger golfers."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"8AM-8PM\"], \"Tuesday\": [\"8AM-8PM\"], \"Wednesday\": [\"8AM-8PM\"], \"Thursday\": [\"8AM-8PM\"], \"Friday\": [\"8AM-8PM\"], \"Saturday\": [\"8AM-8PM\"], \"Sunday\": [\"8AM-8PM\"]}"
+}

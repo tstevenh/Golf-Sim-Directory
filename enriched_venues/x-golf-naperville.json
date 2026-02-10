@@ -1,0 +1,85 @@
+{
+  "name": "X-Golf Naperville",
+  "address": "790 Royal St George Dr Suite 139C, Naperville, IL 60563",
+  "city": "Naperville",
+  "region": "Illinois",
+  "country": "US",
+  "latitude": 41.783504,
+  "longitude": -88.164681,
+  "phone": "+13314575047",
+  "website": "https://playxgolf.com/locations/naperville/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770215353/golf_simulators/playxgolf_com_ChIJd-5-e3BXDogR5w9duQqcsEQ.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/X-Golf+Naperville/@41.783504099999995,-88.164681,14z/data=!4m8!1m2!2m1!1sX-Golf+Naperville!3m4!1s0x880e57707b7eee77:0x44b09c0ab95d0fe7!8m2!3d41.783504099999995!4d-88.164681",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJd-5-e3BXDogR5w9duQqcsEQ",
+  "email": "info@x-golfnaperville.com",
+  "venue_type": "sim_bar",
+  "about": "X-Golf Naperville offers indoor golf simulator experiences with state-of-the-art technology for playing, training, and entertainment. Their facility is equipped with accurate simulators that can accommodate up to six people per bay, with pricing varying by day of the week. The venue is known for its food and beverage options, leagues, tournaments, private events, and professional golf instruction. They offer various membership options and provide a space for golfers of all ages and skill levels to enjoy the game indoors regardless of weather conditions.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|kids_friendly|corporate_events|leagues|premium_tech|coaching_available|private_events|memberships",
+  "vibe_tags": "casual|welcoming|modern|sports_bar",
+  "who_its_for": "families|corporate_teams|beginners|serious_golfers|juniors_youth",
+  "why_golfers_like_it": [
+    "Unparalleled accuracy and realism through advanced camera systems, lasers, and impact sensors",
+    "Accommodates groups up to 6 people per bay, making it great for friends and families",
+    "Full bar and food service available for a complete entertainment experience",
+    "Professional golf instruction and various league options for skill development",
+    "BOGO Monday offers and flexible membership plans for regular players"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen available with 'tasty bites'; specific menu details require contacting the venue"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar available"
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://xgolfnaperville.as.me/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 55,
+  "price_range_max_local": 65,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|leagues|private_events|pro_shop|coaching_available",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "Club rental is available. You can bring your own clubs if you prefer."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "The venue has a full bar and kitchen with food and drinks available for purchase. Outside food and drink policies are not specified."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Generally, it takes about one hour for an individual to play 18 holes. For multiple players, you may need to book an additional hour per player depending on skill level and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, children of all ages are welcome. The venue offers junior clinics and lessons, and it's noted as a great place for families to have fun together."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-12AM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-12AM\"], \"Saturday\": [\"8AM-12AM\"], \"Sunday\": [\"8AM-8PM\"]}"
+}

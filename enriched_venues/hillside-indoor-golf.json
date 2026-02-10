@@ -1,0 +1,88 @@
+{
+  "name": "Hillside Indoor Golf",
+  "address": "69 Hillside Ave, Bangor, ME 04401",
+  "city": "Bangor",
+  "region": "Maine",
+  "country": "US",
+  "latitude": 44.827492,
+  "longitude": -68.779376,
+  "phone": "+12079926680",
+  "website": "https://www.hillsideathletics.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770198957/golf_simulators/www_hillsideathletics_com_ChIJkaw5R3u1r0wR2m4k5isc8UI.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Hillside+Indoor+Golf/@44.827491599999995,-68.7793765,14z/data=!4m8!1m2!2m1!1sHillside+Indoor+Golf!3m4!1s0x4cafb57b4739ac91:0x42f11c2be6246eda!8m2!3d44.827491599999995!4d-68.7793765",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJkaw5R3u1r0wR2m4k5isc8UI",
+  "email": "hillsideathleticsllc@gmail.com",
+  "venue_type": "multi_sport_sim",
+  "about": "Hillside Athletics is a multi-sport indoor facility in Bangor, Maine, featuring state-of-the-art GolfZon golf simulators and advanced baseball training equipment. The venue offers immersive golf experiences with dual hitting areas, three playing surfaces, and access to over 200 global courses, alongside baseball training tools like HitTrax, TrackMan, and SpinBall. Pricing is per hour, $45 for the simulator, with options for various group sizes, making it suitable for casual players and serious athletes alike.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|premium_tech|budget_friendly|coaching_available|multi_sport",
+  "vibe_tags": "industrial_training|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice|juniors_youth",
+  "why_golfers_like_it": [
+    "Dual hitting areas for multiple players",
+    "Over 200 global courses for variety",
+    "High-speed sensors and built-in T4 sensors for detailed shot data",
+    "Food and drink options to enhance the experience"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food allowed inside simulator bays; must be kept at provided tables."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Wide selection of beer and wine available to elevate the experience."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "GolfZon",
+      "model": "Premium Simulator",
+      "notes": "Features dual hitting areas, three playing surfaces, and T4 sensors."
+    }
+  ],
+  "simulator_software": "GolfZon",
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.vagaro.com/hal94wl",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 45,
+  "price_range_max_local": 55,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "full_bar|tv_sports|wifi|pro_shop",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, players need to provide their own clubs. Golf balls are provided in the simulators."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No, food, drinks, or glassware are not allowed inside the simulator bays. They must be kept at the provided tables."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time varies by group size: 1 golfer = 1 hour, 2 golfers = 2 hours, 3 golfers = 3 hours, 4 golfers = ~4 hours."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "No one under 17 is permitted to use the golf simulators without an accompanied adult."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"8AM-9PM\"], \"Tuesday\": [\"8AM-9PM\"], \"Wednesday\": [\"8AM-9PM\"], \"Thursday\": [\"8AM-9PM\"], \"Friday\": [\"8AM-11PM\"], \"Saturday\": [\"8AM-11PM\"], \"Sunday\": [\"8AM-7PM\"]}"
+}

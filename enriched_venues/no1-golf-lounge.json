@@ -1,0 +1,94 @@
+{
+  "name": "No.1 Golf Lounge",
+  "address": "5938 Centreville Crest Ln, Centreville, VA 20121",
+  "city": "Centreville",
+  "region": "Virginia",
+  "country": "US",
+  "latitude": 38.838236,
+  "longitude": -77.434627,
+  "phone": "+15715914455",
+  "website": "https://no1golflounge.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770204211/golf_simulators/no1golflounge_com_ChIJh10vv5FFtokRSFK6-B_4z_w.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/No.1+Golf+Lounge/@38.8382362,-77.4346269,14z/data=!4m8!1m2!2m1!1sNo.1+Golf+Lounge!3m4!1s0x89b64591bf2f5d87:0xfccff81ff8ba5248!8m2!3d38.8382362!4d-77.4346269",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJh10vv5FFtokRSFK6-B_4z_w",
+  "email": "info@no1golflounge.com",
+  "venue_type": "sim_bar",
+  "about": "No.1 Golf Lounge is a premium golf simulator venue offering focused practice and realistic course play. The facility features 11 Golfzon GDR simulators designed for both single-player practice and recreational play, providing accurate ball data for skill development. The venue operates with extended hours, staying open until 12 AM on weekdays and 2 AM on weekends, and includes a full bar and kitchen service for guests.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|leagues|premium_tech|private_rooms|late_night|coaching_available",
+  "vibe_tags": "upscale_lounge|sports_bar|private_luxury",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "High-end Golfzon GDR simulators for accurate ball tracking and realistic play",
+    "Full bar and kitchen service available during play",
+    "Extended hours including late night options on weekends",
+    "Private room vouchers included with membership tiers",
+    "Accurate ball data to support skill development and performance improvement"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen serving quality food for golfers during play"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full service bar with premium top shelf liquor and handcrafted cocktails"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Golfzon",
+      "model": "GDR",
+      "notes": "11 simulators designed for focused practice and realistic course play"
+    }
+  ],
+  "simulator_so": [
+    "Golfzon"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 11,
+  "booking_url": "https://clients.uschedule.com/no1golflounge/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "The venue provides all necessary equipment, including clubs, for use during your session."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue has a full kitchen and bar on-site, so outside food and drinks are not permitted."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "18 holes typically takes about 1-2 hours depending on simulator usage and group size."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "No specific kid-friendly amenities are mentioned, making it more suitable for adults and serious practice."
+    }
+  ],
+  "simulator_software": [
+    "Golfzon"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"10AM-12AM\"], \"Tuesday\": [\"10AM-12AM\"], \"Wednesday\": [\"10AM-12AM\"], \"Thursday\": [\"10AM-12AM\"], \"Friday\": [\"10AM-2AM\"], \"Saturday\": [\"10AM-2AM\"], \"Sunday\": [\"10AM-10PM\"]}"
+}

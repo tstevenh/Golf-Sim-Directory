@@ -1,0 +1,91 @@
+{
+  "name": "Agave Golf Club",
+  "address": "2350 E Germann Rd #37, Chandler, AZ 85286",
+  "city": "Chandler",
+  "region": "Arizona",
+  "country": "US",
+  "latitude": 33.280746,
+  "longitude": -111.801281,
+  "phone": "+16025654653",
+  "website": "https://www.agavegolfclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770209877/golf_simulators/www_agavegolfclub_com_ChIJNSoAN5KrK4cRKEhrukuVo-U.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Agave+Golf+Club/@33.2807465,-111.80128119999999,14z/data=!4m8!1m2!2m1!1sAgave+Golf+Club!3m4!1s0x872bab9237002a35:0xe5a3954bba6b4828!8m2!3d33.2807465!4d-111.80128119999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJNSoAN5KrK4cRKEhrukuVo-U",
+  "email": "Contact@AgaveGC.com",
+  "venue_type": "training_studio",
+  "about": "Agave Golf Club is a members-only indoor golf simulator venue located in Chandler, AZ. The facility features two hitting bays equipped with two Trackman 4 simulators, providing access to hundreds of golf courses and extensive data analytics for game improvement. Membership offers 24/7 access to the space, which includes a putting green and the ability to bring friends and family at no extra cost. The venue is designed for serious golfers looking to practice and analyze their game regardless of weather conditions or time of day.",
+  "tags": "serious_practice|data_driven|beginner_friendly|corporate_events|leagues|premium_tech|private_rooms|club_rentals|coaching_available",
+  "vibe_tags": "tech_lab|community_club|modern",
+  "who_its_for": "serious_golfers|families|corporate_teams|coaches_instructors|solo_practice",
+  "why_golfers_like_it": [
+    "Access to premium Trackman technology for detailed swing analysis",
+    "24/7 availability allows for flexible practice schedules",
+    "No green fees and protection from weather elements",
+    "Ability to bring guests at no additional cost",
+    "Comprehensive data tracking saved directly to a mobile app"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of food service; members may bring their own food."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service; likely BYOB policy."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "Two full Trackman simulators with launch monitor and ball tracking capabilities."
+    }
+  ],
+  "simulator_software": [
+    "Trackman 4"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://www.agavegolfclub.com/memberships",
+  "pricing_model": "membership_only",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": false,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.3,
+  "rating_value_for_money": 4.1,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "Yes, members are expected to bring their own clubs to use the simulators and hitting bays."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "Yes, members and their guests can bring food and drink to the facility as there is no mention of an in-house kitchen or bar."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes is not specified, but it depends on the simulator software and game format chosen by the members."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is kid-friendly as members can bring friends and family, including children, for no extra charge."
+    }
+  ],
+  "rating_overall": 4.4,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

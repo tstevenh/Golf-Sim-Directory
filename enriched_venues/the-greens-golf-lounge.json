@@ -1,0 +1,85 @@
+{
+  "name": "The Greens Golf Lounge",
+  "address": "459 Bloomfield Ave, Caldwell, NJ 07006",
+  "city": "Caldwell",
+  "region": "New Jersey",
+  "country": "US",
+  "latitude": 40.842762,
+  "longitude": -74.280827,
+  "phone": "+19089361627",
+  "website": "https://www.thegreensgolflounge.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770208880/golf_simulators/www_thegreensgolflounge_com_ChIJwVVUmAQBw4kRqYG8cF25r9M.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Greens+Golf+Lounge/@40.8427618,-74.28082719999999,14z/data=!4m8!1m2!2m1!1sThe+Greens+Golf+Lounge!3m4!1s0x89c30104985455c1:0xd3afb95d70bc81a9!8m2!3d40.8427618!4d-74.28082719999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJwVVUmAQBw4kRqYG8cF25r9M",
+  "email": "info@thegreensgolflounge.com",
+  "venue_type": "sim_bar",
+  "about": "The Greens Golf Lounge is a golf simulator venue located in Caldwell, NJ, offering year-round play regardless of weather conditions. They feature state-of-the-art simulators with high-speed camera sensors for immediate feedback, along with a moving swing plate and multi-surface hitting mat to replicate real-course lies. The venue is known for its community-focused environment, BYOB policy, and active leagues for couples and flexible teams. Patrons can book by the hour through packages or walk-in rates, with early bird specials available on weekdays. The facility also provides private event hosting options and personalized coaching services from a swing coach who offers playing lessons, short game work, and club fitting.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|coaching_available|private_rooms|club_rentals",
+  "vibe_tags": "casual|welcoming|modern|community_club",
+  "who_its_for": "beginners|families|corporate_teams|serious_golfers|solo_practice",
+  "why_golfers_like_it": [
+    "High-speed camera sensors provide immediate and accurate feedback on every shot",
+    "Moving swing plate with up to 6,800 possible lies for the most realistic simulation experience",
+    "BYOB policy allows players to enjoy their own beverages while playing",
+    "Active leagues and events cater to various skill levels and social play",
+    "Community-focused environment with a welcoming atmosphere for all skill levels"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "BYOB policy allowed; bring your own beer, wine, or soda"
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://clients.uschedule.com/greensclub/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 25,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|full_bar|tv_sports|private_party_room|leagues|club_fitting",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need my own golf clubs?",
+      "answer": "No, clubs are not mentioned as required; the facility provides all necessary equipment for simulation."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, The Greens Golf Lounge has a BYOB policy, allowing you to bring your own beer, wine, or non-alcoholic beverages."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "18-hole rounds typically take 1-2 hours depending on the number of players and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, kids under 16 are welcome but must be accompanied by an adult. The facility offers a family-friendly environment with leagues and events suitable for various skill levels."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-10PM\"], \"Saturday\": [\"9AM-10PM\"], \"Sunday\": [\"9AM-8PM\"]}"
+}

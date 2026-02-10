@@ -1,0 +1,92 @@
+{
+  "name": "Westside Bunker",
+  "address": "6488 Glenway Ave Suite N, Cincinnati, OH 45211",
+  "city": "Cincinnati",
+  "region": "Ohio",
+  "country": "US",
+  "latitude": 39.150604,
+  "longitude": -84.626586,
+  "phone": "+15139914074",
+  "website": "https://www.westsidebunker.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770211681/golf_simulators/www_westsidebunker_com_ChIJdUf4Xf7LQYgR1zMUD1jkT8o.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Westside+Bunker/@39.1506036,-84.6265858,14z/data=!4m8!1m2!2m1!1sWestside+Bunker!3m4!1s0x8841cbfe5df84775:0xca4fe4580f1433d7!8m2!3d39.1506036!4d-84.6265858",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJdUf4Xf7LQYgR1zMUD1jkT8o",
+  "email": "info@westsidebunker.com",
+  "venue_type": "sim_bar",
+  "about": "Westside Bunker is an indoor golf simulator venue in Cincinnati, OH, offering a full golf experience regardless of weather conditions. The facility features state-of-the-art simulators with advanced tracking technology, allowing players to practice, play, or host events in a relaxed setting. While pricing details are limited to membership options, the venue emphasizes flexibility and convenience for various golfing activities.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|private_rooms|club_rentals|coaching_available",
+  "vibe_tags": "casual|welcoming|modern|sports_bar",
+  "who_its_for": "beginners|families|corporate_teams|solo_practice|juniors_youth",
+  "why_golfers_like_it": [
+    "Professional-grade ProTee VX launch monitors with instant shot feedback",
+    "GSPro simulator software for ultra-realistic course recreation",
+    "Flexible options for solo practice, groups, and private events",
+    "BYO food and drinks allowed for a personalized experience",
+    "SGT Tours & Stats for scorecard tracking and league participation"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "BYO food is permitted; venue encourages bringing snacks"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "BYO drinks are permitted"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "ProTee",
+      "model": "VX",
+      "notes": "Professional accuracy and instant shot feedback"
+    }
+  ],
+  "simulator_software": [
+    "GSPro",
+    "SGT"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.westsidebunker.com/book-online/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|tv_sports|private_party_room|wifi|leagues|coaching_available",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Not specified, but typically recommended for best performance."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, BYO food and drinks are permitted and encouraged."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Not specified, but typical simulator rounds take 2-3 hours depending on pace."
+    },
+    {
+      "question": "Is Westside Bunker kid-friendly?",
+      "answer": "Yes, the venue offers junior lessons and accommodates families."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"8AM-11:30PM\"], \"Tuesday\": [\"8AM-11:30PM\"], \"Wednesday\": [\"8AM-11:30PM\"], \"Thursday\": [\"8AM-11:30PM\"], \"Friday\": [\"8AM-11:30PM\"], \"Saturday\": [\"8AM-11:30PM\"], \"Sunday\": [\"8AM-11:30PM\"]}"
+}

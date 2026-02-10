@@ -18,7 +18,7 @@ interface StatePageProps {
   }>;
 }
 
-export const revalidate = 60;
+export const revalidate = 86400;
 
 export async function generateMetadata({ params }: StatePageProps): Promise<Metadata> {
   try {
@@ -26,23 +26,15 @@ export async function generateMetadata({ params }: StatePageProps): Promise<Meta
     const stateAbbrev = getStateAbbrevFromName(state) || state.toUpperCase();
     const stateName = getStateDisplayName(stateAbbrev);
 
-    const venueCount = await db.venue.count({
-      where: {
-        state: stateAbbrev.toUpperCase(),
-        country: "US",
-        status: "active",
-      },
-    });
-
     return {
-      title: `Indoor Golf Simulators in ${stateName} — ${venueCount} Venues`,
-      description: `Browse ${venueCount} golf simulator venues across ${stateName}. Compare launch monitors, pricing, vibes, and amenities. Find your nearest indoor golf spot.`,
+      title: `Indoor Golf Simulators in ${stateName}`,
+      description: `Browse golf simulator venues across ${stateName}. Compare launch monitors, pricing, vibes, and amenities. Find your nearest indoor golf spot.`,
       alternates: {
         canonical: `https://golfsimmap.com/venue/us/${state}`,
       },
       openGraph: {
-        title: `Indoor Golf Simulators in ${stateName} — ${venueCount} Venues`,
-        description: `Browse ${venueCount} golf simulator venues across ${stateName}. Compare launch monitors, pricing, and book online.`,
+        title: `Indoor Golf Simulators in ${stateName}`,
+        description: `Browse golf simulator venues across ${stateName}. Compare launch monitors, pricing, and book online.`,
         type: "website",
         url: `https://golfsimmap.com/venue/us/${state}`,
       },
@@ -70,7 +62,7 @@ async function fetchStateData(state: string) {
   const stateAbbrev = getStateAbbrevFromName(state) || state.toUpperCase();
   const stateName = getStateDisplayName(stateAbbrev);
 
-  const [citiesResult, featuredVenues, totalVenues] = await Promise.all([
+  const [citiesResult, featuredVenues] = await Promise.all([
     db.venue.groupBy({
       by: ["city"],
       where: {
@@ -90,13 +82,6 @@ async function fetchStateData(state: string) {
       orderBy: { ratingOverall: "desc" },
       select: venueCardSelect,
     }),
-    db.venue.count({
-      where: {
-        state: stateAbbrev.toUpperCase(),
-        country: "US",
-        status: "active",
-      },
-    }),
   ]);
 
   return {
@@ -104,7 +89,6 @@ async function fetchStateData(state: string) {
     stateName,
     citiesResult,
     featuredVenues,
-    totalVenues,
   };
 }
 
@@ -128,9 +112,10 @@ export default async function StatePage({ params }: StatePageProps) {
     );
   }
 
-  const { stateAbbrev, stateName, citiesResult, featuredVenues, totalVenues } = data;
+  const { stateAbbrev, stateName, citiesResult, featuredVenues } = data;
 
   const citiesWithVenues = citiesResult.sort((a, b) => b._count.id - a._count.id);
+  const totalVenues = citiesWithVenues.reduce((sum, city) => sum + city._count.id, 0);
 
   const breadcrumbItems = [
     { label: "Home", href: "/" },
@@ -291,7 +276,6 @@ export default async function StatePage({ params }: StatePageProps) {
                       city={venue.city}
                       state={venue.state}
                       heroImage={venue.heroImage}
-                      shortDescription={venue.shortDescription}
                       venueType={venue.venueType}
                       simulatorSystems={venue.simulatorSystems as string[] | null}
                       launchMonitorType={venue.launchMonitorType}

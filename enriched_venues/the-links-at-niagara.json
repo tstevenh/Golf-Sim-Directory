@@ -1,0 +1,91 @@
+{
+  "name": "The Links at Niagara",
+  "address": "360 Rainbow Blvd Floor 2, Niagara Falls, NY 14303",
+  "city": "Niagara Falls",
+  "region": "New York",
+  "country": "US",
+  "latitude": 43.087444,
+  "longitude": -79.064155,
+  "phone": "+17162850610",
+  "website": "http://www.thelinksatniagara.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770231764/golf_simulators/www_thelinksatniagara_com_ChIJPRB9nQRD04kRcP7Gsan4ONA.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Links+at+Niagara/@43.0874441,-79.0641553,14z/data=!4m8!1m2!2m1!1sThe+Links+at+Niagara!3m4!1s0x89d343049d7d103d:0xd038f8a9b1c6fe70!8m2!3d43.0874441!4d-79.0641553",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJPRB9nQRD04kRcP7Gsan4ONA",
+  "email": "thelinksatniagara@gmail.com",
+  "venue_type": "sim_bar",
+  "about": "The Links at Niagara is an indoor golf facility located at 360 Rainbow Blvd in Niagara Falls, NY. The venue features premium TrackMan golf simulators, offering realistic course visuals and real-time swing analysis. It is designed for both casual golfers and serious players, with options for individual play, leagues, and group events. The facility includes a full bar and food options, creating a social atmosphere perfect for outings and celebrations.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|date_night|private_rooms|late_night",
+  "vibe_tags": "casual|welcoming|modern|sports_bar",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|large_groups",
+  "why_golfers_like_it": [
+    "Premium TrackMan simulators with unmatched accuracy",
+    "Real-time swing feedback and course visualization",
+    "Full bar and food options for a complete experience",
+    "League and event opportunities for competitive play",
+    "Ideal for both practice and social gatherings"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Delicious menu options available onsite"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with a variety of drinks"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Premium dual-bay system with orange and black casings"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "http://www.thelinksatniagara.com/book-a-tee-time",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue does not specify club rental options, but it is recommended to bring your own clubs for the best experience."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The facility has a full bar and offers food options, so outside food and drinks may not be permitted."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time for 18 holes is not specified, but typical simulator sessions last 1-2 hours depending on group size and pace."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The venue does not explicitly mention kid-friendly features, but it offers a casual atmosphere suitable for families."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"12-9PM\"], \"Tuesday\": [\"Closed\"], \"Wednesday\": [\"12-9PM\"], \"Thursday\": [\"12-9PM\"], \"Friday\": [\"12-10PM\"], \"Saturday\": [\"12-10PM\"], \"Sunday\": [\"12-8PM\"]}"
+}

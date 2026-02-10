@@ -1,0 +1,92 @@
+{
+  "name": "Tee Time Suites",
+  "address": "3624 E Highlands Ranch Pkwy #205, Highlands Ranch, CO 80126",
+  "city": "Highlands Ranch",
+  "region": "Colorado",
+  "country": "US",
+  "latitude": 39.542141,
+  "longitude": -104.947076,
+  "phone": "+17208533733",
+  "website": "http://teetimesuites.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770221607/golf_simulators/teetimesuites_com_ChIJlYXX5cODbIcRv4GLkJZMACY.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Tee+Time+Suites/@39.542140499999995,-104.9470762,14z/data=!4m8!1m2!2m1!1sTee+Time+Suites!3m4!1s0x876c83c3e5d78595:0x26004c96908b81bf!8m2!3d39.542140499999995!4d-104.9470762",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJlYXX5cODbIcRv4GLkJZMACY",
+  "email": "info@teetimesuites.com",
+  "venue_type": "private_rental",
+  "about": "Tee Time Suites is a private, unstaffed indoor golf simulator venue located in Highlands Ranch, Colorado. The facility is centered around a single, high-end Trackman4 simulator bay that provides members with exclusive access to golf simulation. Members operate the space through a proprietary app, using a personalized barcode for entry, which allows for complete privacy and convenience. The venue operates on a capped membership basis and provides in-house coaching options for those looking to improve their game.",
+  "tags": "serious_golfers|solo_practice|coaching_available|private_rooms|byob|golden_tee|no_staff|convenient_access|premium_tech|atmosphere_21+",
+  "vibe_tags": "private_luxury|tech_lab|modern|upscale_lounge",
+  "who_its_for": "serious_golfers|solo_practice|low_handicap|coaches_instructors|business_professionals",
+  "why_golfers_like_it": [
+    "Ultimate privacy with a no-staff, fully automated space accessed via a personalized barcode",
+    "Premium Trackman4 technology in the largest screen size available (16'W x 9'H)",
+    "The flexibility and convenience of booking sessions entirely through the mobile app"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "BYOB (Bring Your Own Beverage) is implied, as the venue is unstaffed. No on-site kitchen or food service is mentioned."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "BYOB (Bring Your Own Beverage) is implied, as the venue is unstaffed. No on-site bar is mentioned."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "Single simulator bay featuring the latest Trackman4 technology with the largest available screen size (16'W x 9'H)"
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 1,
+  "booking_url": "https://www.teetimesuites.com/",
+  "pricing_model": "membership_only",
+  "price_range_min_local": 49,
+  "price_range_max_local": 49,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|tv_sports|private_party_room|wifi|golden_tee|lounge_area",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own golf clubs?",
+      "answer": "Yes, members are expected to bring their own golf clubs and other personal golf equipment to use during their session."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, as an unstaffed venue, Tee Time Suites operates on a BYOB (Bring Your Own Beverage) policy. Members can bring their own food and drinks to enjoy in the lounge area."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Standard hourly sessions are booked for 50 minutes of golf time. To play a full 18 holes, members would need to book two consecutive one-hour sessions."
+    },
+    {
+      "question": "Is the venue kid-friendly or suitable for juniors?",
+      "answer": "The venue is marketed as a private, unstaffed space for adults. The FAQ section specifically addresses lessons with a professional coach, suggesting the primary focus is on serious golf practice rather than family or junior-oriented activities."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"6AM-10PM\"], \"Tuesday\": [\"6AM-10PM\"], \"Wednesday\": [\"6AM-10PM\"], \"Thursday\": [\"6AM-10PM\"], \"Friday\": [\"6AM-10PM\"], \"Saturday\": [\"6AM-10PM\"], \"Sunday\": [\"6AM-10PM\"]}"
+}

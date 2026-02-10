@@ -1,0 +1,84 @@
+{
+  "name": "X-Golf South Loop",
+  "address": "1117 S Clinton St, Chicago, IL 60607",
+  "city": "Chicago",
+  "region": "Illinois",
+  "country": "US",
+  "latitude": 41.868533,
+  "longitude": -87.640585,
+  "phone": "+13127723233",
+  "website": "https://www.xgolfsouthloop.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770199579/golf_simulators/www_xgolfsouthloop_com_ChIJF5N6DqMtDogRPwqjR2-9WnI.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/X-Golf+South+Loop/@41.868533,-87.64058519999999,14z/data=!4m8!1m2!2m1!1sX-Golf+South+Loop!3m4!1s0x880e2da30e7a9317:0x725abd6f47a30a3f!8m2!3d41.868533!4d-87.64058519999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJF5N6DqMtDogRPwqjR2-9WnI",
+  "email": "info@xgolfsouthloop.com",
+  "venue_type": "sim_bar",
+  "about": "X-Golf South Loop is a golf simulator venue featuring 7 state-of-the-art simulators for indoor play, training, and entertainment. The facility offers hourly bay rentals, accommodating up to 6 people per simulator, with flexible pricing for weekdays and weekends. With a full bar, lounge area, pool table, and space for up to 200 guests, it combines golf simulation with a social atmosphere suitable for casual play, corporate events, and parties. The venue also provides PGA-certified instruction, club fitting services, and memberships for regular players.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|club_rentals|coaching_available|family_friendly",
+  "vibe_tags": "sports_bar|community_club|modern|casual",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|large_groups",
+  "why_golfers_like_it": [
+    "Unparalleled accuracy and realism through advanced camera systems, infrared lasers, and impact sensors",
+    "Flexible pricing with 50% off daily promotions and membership options for regular players",
+    "Combination of golf simulation with a full bar, lounge, and event space for social play"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Available food options include bites and packages, with prices ranging from $3-$10"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with craft beer, wine, and cocktails; happy hour specials on weekdays (3PM-6PM)"
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_so": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "auto_putt",
+  "lefty_friendly": true,
+  "bay_count_total": 7,
+  "booking_url": "https://clients.uschedule.com/xgolfsouthloop/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 32.5,
+  "price_range_max_local": 45,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": null,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Club rentals are available, and the venue offers Callaway and Taylormade equipment for fitting and use."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drinks are not allowed; the venue has a full bar and food menu available."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Each individual can finish 18 holes in about one hour. For groups, it takes 1 hour per person added."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, children of all ages are welcome, making it suitable for family visits and junior golfers."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-12AM\"], \"Tuesday\": [\"10AM-12AM\"], \"Wednesday\": [\"10AM-12AM\"], \"Thursday\": [\"10AM-12AM\"], \"Friday\": [\"10AM-12AM\"], \"Saturday\": [\"9AM-12AM\"], \"Sunday\": [\"9AM-9PM\"]}"
+}

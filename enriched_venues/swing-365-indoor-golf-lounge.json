@@ -1,0 +1,89 @@
+{
+  "name": "Swing 365 Indoor Golf Lounge",
+  "address": "187 Prospect St #2, West Boylston, MA 01583",
+  "city": "West Boylston",
+  "region": "Massachusetts",
+  "country": "US",
+  "latitude": 42.358783,
+  "longitude": -71.792241,
+  "phone": "+15088354484",
+  "website": "https://www.wachusettcc.com/swing-365-indoor-golf/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770199881/golf_simulators/www_wachusettcc_com_ChIJW1ONC5X544kRAzaXpGbB_PU.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Swing+365+Indoor+Golf+Lounge/@42.3587829,-71.7922413,14z/data=!4m8!1m2!2m1!1sSwing+365+Indoor+Golf+Lounge!3m4!1s0x89e3f9950b8d535b:0xf5fcc166a4973603!8m2!3d42.3587829!4d-71.7922413",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJW1ONC5X544kRAzaXpGbB_PU",
+  "venue_type": "sim_bar",
+  "about": "Swing 365 Indoor Golf Lounge is an indoor golf venue featuring TrackMan technology, offering a full bar menu with 8 beers on tap and a premium cocktail selection. The facility provides food service with table-side options without interrupting play. The venue is suitable for individual practice, group events, corporate outings, and casual play, with a focus on accessibility for all skill levels and offering various games and challenges on virtual courses.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|date_night|bachelor_parties|premium_tech|large_groups",
+  "vibe_tags": "upscale_lounge|tech_lab|community_club|casual",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|large_groups",
+  "why_golfers_like_it": [
+    "Premium TrackMan technology for accurate data and simulation",
+    "On-site bar and full food menu available during play",
+    "Variety of interactive games and virtual course options",
+    "Flexible bay rentals for groups of all sizes"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full menu available with table-side service without interrupting play."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar menu with 8 beers on tap and premium cocktails."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Advanced launch monitor used for all simulations"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://foreupsoftware.com/index.php/booking/20837#/login",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 50,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|pro_shop|leagues|private_rooms",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need my own golf clubs?",
+      "answer": "The website does not explicitly state whether club rentals are available, but it is common for venues to provide clubs. It is recommended to call ahead to confirm."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, the venue provides a full bar menu with 8 beers on tap and premium cocktails, as well as a full food menu available with table-side service."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify the time required for 18 holes, but it mentions that rates are per hour per bay, so the time will depend on the pace of play and the number of players in the bay."
+    },
+    {
+      "question": "Is it kid-friendly?",
+      "answer": "Yes, the venue hosts birthday parties and small group events, making it suitable for families and children."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"9AM-9PM\"], \"Tuesday\": [\"9AM-9PM\"], \"Wednesday\": [\"9AM-9PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"8AM-10PM\"], \"Saturday\": [\"8AM-10PM\"], \"Sunday\": [\"8AM-8PM\"]}"
+}

@@ -1,0 +1,105 @@
+{
+  "name": "Birdies Golf Lounge",
+  "address": "25 N 100 E Suite 100, St. George, UT 84770",
+  "city": "St. George",
+  "region": "Utah",
+  "country": "US",
+  "latitude": 37.109014,
+  "longitude": -113.581995,
+  "phone": "+14354094276",
+  "website": "https://www.birdiesgolflounge.com/stgeorge",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770233384/golf_simulators/www_birdiesgolflounge_com_ChIJO6ve2BFFyoARlsP-n1szlWk.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Birdie%E2%80%99s+Golf+Lounge/@37.1090139,-113.5819954,14z/data=!4m8!1m2!2m1!1sBirdie%E2%80%99s+Golf+Lounge!3m4!1s0x80ca4511d8deab3b:0x6995335b9ffec396!8m2!3d37.1090139!4d-113.5819954",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJO6ve2BFFyoARlsP-n1szlWk",
+  "email": "admin@birdiesgolflounge.com",
+  "venue_type": "sim_bar",
+  "about": "Birdies Golf Lounge is an indoor golf simulator venue located in St. George, UT. It utilizes TruGolf technology with APOGEE launch monitors and Uneekor XO and XO2 simulators to offer a realistic golfing experience on over 1,900 virtual courses. The facility provides a laid-back social atmosphere, complete with food and drinks, making it suitable for casual play, leagues, and events. Pricing is available through both hourly bay bookings and various membership options, allowing flexibility for different types of players and groups.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|private_rooms|club_rentals|coaching_available|community_club",
+  "vibe_tags": "sports_bar|family_fun_center|community_club|casual|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "Advanced APOGEE launch monitors and Uneekor XO/XO2 simulators for accurate shot tracking",
+    "Weather-proof environment allowing for play in any condition",
+    "Social atmosphere with full bar and food options, suitable for both casual and competitive play"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Snacks and food are available on-site"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar available; no explicit mention of BYOB policy"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "TruGolf",
+      "model": "E6",
+      "notes": "Used for primary simulation experience"
+    },
+    {
+      "brand": "APOGEE",
+      "model": "Launch Monitor",
+      "notes": "Top-of-the-line launch monitor for swing statistics"
+    },
+    {
+      "brand": "Uneekor",
+      "model": "XO",
+      "notes": "Dual Swing Optix Cameras for two-angle video feedback"
+    },
+    {
+      "brand": "Uneekor",
+      "model": "XO2",
+      "notes": "Advanced simulator model for detailed ball and club tracking"
+    }
+  ],
+  "simulator_software": [
+    "GSPro",
+    "E6"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.birdiesgolflounge.com/stgeorge/booking/public",
+  "pricing_model": "mixed",
+  "price_range_min_local": 40,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 5,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "While not explicitly stated, it's standard practice at simulator venues to bring your own clubs, but rentals may be available on-site."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "The venue offers snacks, drinks, and a full bar on-site, but does not mention a BYOB policy."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "It takes about 1 hour per person to play 18 holes. For 4 people playing 18 holes, it will take 2.5 to 3 hours."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "Yes, the venue is suitable for families and kids, with a casual atmosphere and arcade-style games available."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": null
+}

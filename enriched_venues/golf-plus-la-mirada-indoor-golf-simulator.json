@@ -1,0 +1,90 @@
+{
+  "name": "Golf Plus La Mirada | Indoor Golf Simulator",
+  "address": "15020 La Mirada Blvd, La Mirada, CA 90638",
+  "city": "La Mirada",
+  "region": "California",
+  "country": "US",
+  "latitude": 33.89523,
+  "longitude": -118.007748,
+  "phone": "+17143675180",
+  "website": "https://www.golfnplus.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770203612/golf_simulators/www_golfnplus_com_ChIJGaS6AgQr3YAR03W9Y-h7leU.png",
+  "google_maps_url": "https://www.google.com/maps/place/Golf+Plus+La+Mirada+%7C+Indoor+Golf+Simulator/@33.8952299,-118.0077482,14z/data=!4m8!1m2!2m1!1sGolf+Plus+La+Mirada+%7C+Indoor+Golf+Simulator!3m4!1s0x80dd2b0402baa419:0xe5957be863bd75d3!8m2!3d33.8952299!4d-118.0077482",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJGaS6AgQr3YAR03W9Y-h7leU",
+  "email": "info@golfnplus.com",
+  "venue_type": "sim_bar",
+  "about": "Golf Plus La Mirada is an 18,000 square foot indoor golf simulator venue in La Mirada, CA, featuring state-of-the-art GTR simulation technology. The facility uses advanced cameras, sensors, and data analysis to create an immersive golf experience. It also includes Puttview, an Augmented Reality system that projects putt details onto the green for true interaction. Beyond golf, the venue offers a full kitchen and bar serving Korean-inspired comfort cuisine, along with private event spaces, making it suitable for a variety of social and corporate gatherings.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|private_rooms|family_friendly|late_night",
+  "vibe_tags": "sports_bar|modern|party_atmosphere",
+  "who_its_for": "beginners|families|corporate_teams|large_groups|solo_practice",
+  "why_golfers_like_it": [
+    "Advanced GTR simulation technology with immersive cameras and sensors",
+    "Puttview Augmented Reality system for a realistic putting experience",
+    "Full kitchen and bar with Korean-inspired cuisine available on-site",
+    "Flexible private event rooms for both golfing and karaoke parties"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen serving Korean-inspired comfort cuisine"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar available"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "GTR",
+      "model": "unknown",
+      "notes": "Cutting-edge golf simulation technology with state-of-the-art cameras and sensors"
+    }
+  ],
+  "simulator_software": [
+    "GTR"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.golfnplus.com/book-now",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 25,
+  "price_range_max_local": 50,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|kitchen_food|private_party_room|lockers|pro_shop|club_fitting",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own golf clubs?",
+      "answer": "You are welcome to bring your own golf clubs. Rental sets are also available for $25 per hour."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "The venue has a full kitchen and bar serving Korean-inspired comfort cuisine, so outside food and drink policies are not specified."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "The website does not specify the exact time for a full 18-hole round."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Golf Plus offers party packages for all ages and provides a fun atmosphere that is great for both kids and adults."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"3-11PM\"], \"Tuesday\": [\"3-11PM\"], \"Wednesday\": [\"3-11PM\"], \"Thursday\": [\"3-11PM\"], \"Friday\": [\"10AM-12AM\"], \"Saturday\": [\"10AM-12AM\"], \"Sunday\": [\"10AM-11PM\"]}"
+}

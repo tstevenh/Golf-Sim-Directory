@@ -1,0 +1,92 @@
+{
+  "name": "The Golf Lodge - Indoor Golf",
+  "address": "4530 S Carson St STE 1, Carson City, NV 89701",
+  "city": "Carson City",
+  "region": "Nevada",
+  "country": "US",
+  "latitude": 39.126123,
+  "longitude": -119.771683,
+  "phone": "+17755463725",
+  "website": "https://thegolflodge.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770216765/golf_simulators/thegolflodge_com_ChIJya5L25mhmYARAHeqXlve7lo.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Golf+Lodge+-+Indoor+Golf/@39.126122599999995,-119.7716827,14z/data=!4m8!1m2!2m1!1sThe+Golf+Lodge+-+Indoor+Golf!3m4!1s0x8099a199db4baec9:0x5aeede5b5eaa7700!8m2!3d39.126122599999995!4d-119.7716827",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJya5L25mhmYARAHeqXlve7lo",
+  "venue_type": "sim_bar",
+  "about": "The Golf Lodge is an indoor golf venue and bar that provides an elevated and inclusive golf experience. The facility features Trackman iO simulator technology across four hitting bays, giving players access to over 400 world-class courses. The venue is designed to feel like a modern country club, offering a comfortable environment where golfers of any skill level can practice, play, or receive instruction.\nThe venue operates on a membership model with options like the 'Gold Lodge' and 'Founding Member' tiers, which provide benefits such as discounted rates, VIP room access, and unlimited golf during off-peak hours. Booking is managed through YourGolfBooking.com and integrated with the Trackman app. The Carson City location opened in 2024, with a second location planned for Valparaiso, Indiana in 2026.",
+  "tags": "indoor_golf|trackman_simulator|bar_and_lounge|memberships|private_events|food_and_drinks|social_golf|coaching|family_friendly",
+  "vibe_tags": "country_club|modern|social|elevated|inclusive",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "Trackman iO technology for accurate data",
+    "Full-service bar with rotating taps and curated wine",
+    "Membership options for frequent players",
+    "Private event spaces with Trackman bays",
+    "Instruction from experienced teachers",
+    "Family-friendly with interactive games for kids"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "German restaurant (Alpen Haus) at Valparaiso location; snacks and bar food at Carson City."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Country-club-inspired bar offering crafted cocktails, rotating beers on tap, and curated wines."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Indoor golf simulator technology"
+    }
+  ],
+  "simulator_software": [
+    "Trackman",
+    "Trackman App"
+  ],
+  "launch_monitor_type": "Trackman iO",
+  "ball_tracking": "unknown",
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 4,
+  "booking_url": "https://yourgolfbooking.com/venues/the-golf-lodge/booking/bays",
+  "pricing_model": "Hourly rates and Memberships",
+  "price_range_min_local": 50,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "Trackman Simulators|Bar|VIP Room|Private Events|Club Rentals|Restrooms",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, you can bring your own clubs or use the clubs provided by the venue at no additional cost."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Likely no, as the venue features a full bar and kitchen service. You should contact the venue directly for specific outside food and drink policies."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "On a simulator, 18 holes typically takes between 45 minutes to an hour, depending on the number of players in your group."
+    },
+    {
+      "question": "Is this kid-friendly?",
+      "answer": "Yes, the venue is family-friendly and offers interactive games specifically designed to make the experience fun for kids and juniors."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"2-8PM\"], \"Tuesday\": [\"2-8PM\"], \"Wednesday\": [\"2-8PM\"], \"Thursday\": [\"2-8PM\"], \"Friday\": [\"2-10PM\"], \"Saturday\": [\"12-10PM\"], \"Sunday\": [\"12-8PM\"]}"
+}

@@ -1,0 +1,89 @@
+{
+  "name": "Golfstix Studio",
+  "address": "10340 Camino Santa Fe Suite H, San Diego, CA 92121",
+  "city": "San Diego",
+  "region": "California",
+  "country": "US",
+  "latitude": 32.904511,
+  "longitude": -117.17166,
+  "phone": "+18582558777",
+  "website": "http://www.golfstixstudio.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770213957/golf_simulators/www_golfstixstudio_com_ChIJhbduW3r524ARvEaX-RsVYz4.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Golfstix+Studio/@32.904510699999996,-117.17166019999999,14z/data=!4m8!1m2!2m1!1sGolfstix+Studio!3m4!1s0x80dbf97a5b6eb785:0x3e63151bf99746bc!8m2!3d32.904510699999996!4d-117.17166019999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJhbduW3r524ARvEaX-RsVYz4",
+  "venue_type": "training_studio",
+  "about": "Golfstix Studio is San Diego's premier indoor golf experience, offering state-of-the-art simulators and expert coaching. The venue features TrackMan iO technology to provide players with the most innovative golf simulator experience to improve play. They offer various services including hourly bookings, club building, coaching, and personalized club fitting, creating a premium environment where players can practice, compete, and connect year-round. Pricing is available for hourly sessions, with memberships also offered to track performance over time.",
+  "tags": "beginner_friendly|serious_practice|coaching_available|premium_tech|club_rentals|corporate_events|leagues|private_rooms|budget_friendly",
+  "vibe_tags": "tech_lab|community_club|industrial_training|casual",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Tour-level TrackMan iO technology provides real-time data and actionable insights to fine-tune your game",
+    "Expert coaching and personalized club fitting services available to help play your best",
+    "Variety of trusted club brands available for fitting and purchase",
+    "Convenient hourly booking options perfect for practice sessions or rounds with friends"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of food service available on-site"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service available on-site"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Industry's most advanced radar and camera-based tracking system providing real-time data on every swing"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "http://www.golfstixstudio.com/book",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|club_fitting|leagues|wifi|pro_shop",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, Golfstix Studio has a variety of clubs available for you to try out if you're looking to buy, and they also offer club building and fitting services."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "The website doesn't explicitly mention food or drink policies, so it's best to contact them directly to confirm their BYOB policy."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "While not explicitly stated, 2-hour sessions are available, which is typically sufficient time to play 18 holes on a simulator."
+    },
+    {
+      "question": "Is Golfstix Studio kid-friendly?",
+      "answer": "Yes, the venue appears to be family-friendly with its focus on learning and improvement, making it suitable for juniors and youth golfers."
+    }
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"9AM-7PM\"], \"Tuesday\": [\"9AM-7PM\"], \"Wednesday\": [\"9AM-7PM\"], \"Thursday\": [\"9AM-7PM\"], \"Friday\": [\"9AM-7PM\"], \"Saturday\": [\"9AM-7PM\"], \"Sunday\": [\"Closed\"]}"
+}

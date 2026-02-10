@@ -1,0 +1,88 @@
+{
+  "name": "The Atchison Golf Club at Bellevue",
+  "address": "1713 Country Club Rd, Atchison, KS 66002",
+  "city": "Atchison",
+  "region": "Kansas",
+  "country": "US",
+  "latitude": 39.574393,
+  "longitude": -95.147474,
+  "phone": "+19133673022",
+  "website": "https://www.atchisongolfclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770250061/golf_simulators/www_atchisongolfclub_com_ChIJq4mjjX3zv4cR76g8Fov9ehI.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Atchison+Golf+Club+at+Bellevue/@39.574393099999995,-95.147474,14z/data=!4m8!1m2!2m1!1sThe+Atchison+Golf+Club+at+Bellevue!3m4!1s0x87bff37d8da389ab:0x127afd8b163ca8ef!8m2!3d39.574393099999995!4d-95.147474",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJq4mjjX3zv4cR76g8Fov9ehI",
+  "venue_type": "sim_bar",
+  "about": "The Atchison Golf Club at Bellevue is a dual-venue facility offering both an outdoor 18-hole championship course and an indoor golf simulator bay area called The Bunker. Established in 1923, the outdoor course features a par-71 layout with mature trees, strategic elevation changes, and challenging terrain. The indoor facility utilizes TrackMan technology for year-round simulator play, practice, lessons, and leagues. Memberships are available but not required, catering to daily players and members alike. The venue also operates a full-service food and beverage operation at The Bunker, offering a complete menu for in-play dining and takeout.",
+  "tags": "serious_golfers|food_and_drinks|corporate_events|leagues|coaching_available|beginner_friendly|date_night|juniors_youth",
+  "vibe_tags": "community_club|tech_lab|casual|welcoming",
+  "who_its_for": "serious_golfers|families|corporate_teams|juniors_youth|solo_practice",
+  "why_golfers_like_it": [
+    "Year-round access to premium TrackMan simulators with world-famous course replicas",
+    "Flexible memberships available without requirement, allowing for daily play or full membership benefits",
+    "Comprehensive indoor and outdoor options for practice, leagues, and tournaments in one location"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full menu available at The B indoor facility, with online ordering and takeout options"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service on the website"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Industry-leading radar-based simulators with precise ball tracking and swing analysis"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://the-bunker-at-bellevue.book.teeitup.com/?course=19970",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 0,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "full_bar|kitchen_food|tv_sports|leagues|coaching_available",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue does not explicitly state whether club rentals are available. It is recommended to bring your own clubs for the best experience."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "The facility has its own food and beverage service called The Bunker, offering a full menu. BYOB (bring your own beverages) is not mentioned as an option."
+    },
+    {
+      "question": "How long does it take to play 18 holes on the simulator?",
+      "answer": "The website does not specify the duration for playing a full 18 holes on the simulators. Typically, simulator rounds take 1-2 hours depending on the course and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue appears to be kid-friendly, offering family-friendly events and programs with a focus on golf development for juniors."
+    }
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"8AM-6PM\"], \"Tuesday\": [\"8AM-9PM\"], \"Wednesday\": [\"8AM-9PM\"], \"Thursday\": [\"8AM-10PM\"], \"Friday\": [\"8AM-10PM\"], \"Saturday\": [\"8AM-10PM\"], \"Sunday\": [\"8AM-6PM\"]}"
+}

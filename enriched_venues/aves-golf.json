@@ -1,0 +1,96 @@
+{
+  "name": "Aves Golf",
+  "address": "1826 Carnegie Ave, Santa Ana, CA 92705",
+  "city": "Santa Ana",
+  "region": "California",
+  "country": "US",
+  "latitude": 33.710815,
+  "longitude": -117.845783,
+  "phone": "+17143563060",
+  "website": "https://www.avesgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770267347/golf_simulators/www_avesgolf_com_ChIJVz-5tjLf3IARi7PZ6qv0ICA.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Aves+Golf/@33.710814899999995,-117.84578339999999,14z/data=!4m8!1m2!2m1!1sAves+Golf!3m4!1s0x80dcdf32b6b93f57:0x2020f4abead9b38b!8m2!3d33.710814899999995!4d-117.84578339999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJVz-5tjLf3IARi7PZ6qv0ICA",
+  "email": "support@avesgolf.com",
+  "venue_type": "training_studio",
+  "about": "Aves Golf is a state-of-the-art indoor golf training facility that combines cutting-edge technology with personalized coaching to elevate players' games. The facility is equipped with premium Trackman iO launch monitors and PuttView technology, providing data-driven insights for swing and putting refinement. They offer a range of services including individual lessons, club fitting, tune-ups, and a pro shop, making it suitable for golfers of all skill levels looking to improve their performance through advanced tools and expert guidance.",
+  "tags": "serious_practice|beginner_friendly|coaching_available|premium_tech|club_rentals|juniors_youth",
+  "vibe_tags": "tech_lab|modern|professional",
+  "who_its_for": "serious_golfers|beginners|juniors_youth|coaches_instructors|solo_practice",
+  "why_golfers_like_it": [
+    "Trackman iO provides real-time 3D data and spin axis measurements for precise swing analysis",
+    "Personalized coaching based on individual body mobility and physical capabilities",
+    "PuttView technology offers an interactive 360° putting platform for green refinement",
+    "Premium club fitting and tuning services tailored to each player's unique needs",
+    "Flexible monthly membership options with tiered access levels"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned on website"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned on website"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Purpose-built indoor simulator with radar, infrared and high-speed imaging technology"
+    },
+    {
+      "brand": "PuttView",
+      "model": "unknown",
+      "notes": "360° putting solution with projector and tracking unit for indoor and outdoor use"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "https://yourgolfbooking.com/venues/aves-golf/booking/bays",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|pro_shop|club_fitting|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website doesn't specify whether club rentals are available, but it mentions services like club tune-ups and club fitting, suggesting they may provide club-related equipment."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "There is no mention of food or drink service on the website, and no BYOB policies are specified, suggesting outside food may not be permitted."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website doesn't provide specific information about 18-hole play times, as the facility focuses on swing practice, lessons, and technology-driven training rather than full game simulation."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "Yes, the website specifically mentions 'Junior Lessons' with 5-pack and 10-pack lesson packages, indicating they cater to younger golfers."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"10AM-8PM\"], \"Tuesday\": [\"10AM-8PM\"], \"Wednesday\": [\"10AM-8PM\"], \"Thursday\": [\"10AM-8PM\"], \"Friday\": [\"10AM-8PM\"], \"Saturday\": [\"10AM-6PM\"], \"Sunday\": [\"Closed\"]}"
+}

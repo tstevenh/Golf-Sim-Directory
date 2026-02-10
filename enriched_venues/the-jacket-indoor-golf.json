@@ -1,0 +1,90 @@
+{
+  "name": "The Jacket Indoor Golf",
+  "address": "2000 Matlock Rd ste 100, Mansfield, TX 76063",
+  "city": "Mansfield",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 32.592362,
+  "longitude": -97.106246,
+  "phone": "+16824008055",
+  "website": "https://thejacketindoorgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770200656/golf_simulators/thejacketindoorgolf_com_ChIJ6cbd_B1hToYR3-ptPPbvkQg.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Jacket+Indoor+Golf/@32.5923622,-97.10624639999999,14z/data=!4m8!1m2!2m1!1sThe+Jacket+Indoor+Golf!3m4!1s0x864e611dfcddc6e9:0x891eff63c6deadf!8m2!3d32.5923622!4d-97.10624639999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ6cbd_B1hToYR3-ptPPbvkQg",
+  "venue_type": "sim_bar",
+  "about": "The Jacket Indoor Golf & Sports Bar offers state-of-the-art indoor golf experiences in an upscale, comfortable setting. The facility features advanced Trackman technology, allowing players to enjoy 250+ golf courses, practice sessions, and games year-round. It caters to a diverse clientele, from those seeking a quick 9 holes on a lunch break to groups hosting birthday parties, corporate events, or casual nights out. Membership packages provide benefits like early booking, discounted rates, and complimentary monthly bay access, while non-members can also rent bays by the hour.",
+  "tags": "food_and_drinks|corporate_events|leagues|premium_tech|family_friendly|date_night|private_rooms|club_rentals|coaching_available",
+  "vibe_tags": "upscale_lounge|sports_bar|family_fun_center|tech_lab|modern",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "State-of-the-art Trackman iO technology for accurate ball and club tracking",
+    "Upscale atmosphere with a full-service sports bar and diverse dining options",
+    "Flexible booking for casual play, leagues, lessons, and private events",
+    "Convenient location open year-round, rain or shine",
+    "250+ virtual golf courses available for play"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full restaurant menu available at The Back 9 Bar and Grill, featuring classic bar food and diverse dining options"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with local craft beers, wine, and craft cocktails available; members receive 20% discount on food and drinks"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Combines radar, infrared and high-speed imaging to deliver real-time data including 3D spin and spin axis"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://yourgolfbooking.com/venues/the-jacket-indoor-golf-and-sports-bar/booking/bays",
+  "pricing_model": "mixed",
+  "price_range_min_local": 70,
+  "price_range_max_local": 70,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|leagues|ada_accessible|club_fitting",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, rental sets are available for $10, and free club rentals are offered for Players Club and Corporate members."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No outside food or drinks are allowed; The Back 9 Bar and Grill offers a full restaurant menu and bar service."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "A round of golf usually takes about an hour for an average player; it's recommended to add an additional hour for each player in your group when reserving a bay."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, The Jacket is family-friendly and offers activities for all ages, making it suitable for family outings and birthday parties."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-12AM\"], \"Friday\": [\"10AM-1AM\"], \"Saturday\": [\"10AM-1AM\"], \"Sunday\": [\"10AM-10PM\"]}"
+}

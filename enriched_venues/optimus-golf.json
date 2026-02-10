@@ -1,0 +1,89 @@
+{
+  "name": "Optimus Golf",
+  "address": "6661 Cochran Rd Suite B, Solon, OH 44139",
+  "city": "Solon",
+  "region": "Ohio",
+  "country": "US",
+  "latitude": 41.379202,
+  "longitude": -81.467896,
+  "phone": "+13157258773",
+  "website": "https://www.optimus-golf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770225118/golf_simulators/www_optimus-golf_com_ChIJX6YRERodMYgR6-GunO4Se_8.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Optimus+Golf/@41.3792018,-81.4678958,14z/data=!4m8!1m2!2m1!1sOptimus+Golf!3m4!1s0x88311d1a1111a65f:0xff7b12ee9caee1eb!8m2!3d41.3792018!4d-81.4678958",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJX6YRERodMYgR6-GunO4Se_8",
+  "email": "Todd.pga@gmail.com",
+  "venue_type": "training_studio",
+  "about": "Optimus Golf is an indoor golf facility in Solon that offers a state-of-the-art training environment with TrackMan simulators. The venue operates a membership program called the TrackMan Practice Club, which provides 24/7 access to the facility for a monthly fee, including 6 hours of monthly simulator reservations. Membership is limited to ensure quality access. The facility specializes in golf instruction, club fitting, and practice, utilizing technology to help golfers improve their game regardless of weather conditions.",
+  "tags": "serious_golfers|coaching_available|club_fitting|premium_tech|leagues|indoor|practice|juniors_youth",
+  "vibe_tags": "industrial_training|tech_lab|welcoming",
+  "who_its_for": "serious_golfers|coaches_instructors|juniors_youth",
+  "why_golfers_like_it": [
+    "Access to TrackMan technology for precise swing analysis and data tracking",
+    "24/7 practice facility access for members regardless of weather",
+    "Professional club fitting services using launch monitor technology"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No on-site food service mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Multiple TrackMan simulators available with course and game options"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://www.optimus-golf.com/contact",
+  "pricing_model": "membership_only",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 3,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|leagues|club_fitting",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, golfers are expected to bring their own clubs for practice and simulation sessions."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No information is provided about outside food or drink policies."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "No specific time is provided, but typical simulator sessions for 18 holes usually range from 1-2 hours depending on play speed."
+    },
+    {
+      "question": "Is Optimus Golf kid-friendly?",
+      "answer": "Yes, junior lessons are available for golfers ages 12 and up through the summer of high school graduation."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": null
+}

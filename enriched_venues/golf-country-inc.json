@@ -1,0 +1,89 @@
+{
+  "name": "Golf Country Inc",
+  "address": "4730 Smiths Creek Rd, Kimball, MI 48074",
+  "city": "Kimball",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 42.921032,
+  "longitude": -82.509521,
+  "phone": "+18103649160",
+  "website": "https://golfcountryonline.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770226267/golf_simulators/golfcountryonline_com_ChIJBxoaeoV1JYgRrvT0HuxRWds.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Golf+Country+Inc/@42.921031899999996,-82.5095214,14z/data=!4m8!1m2!2m1!1sGolf+Country+Inc!3m4!1s0x882575857a1a1a07:0xdb5951ec1ef4f4ae!8m2!3d42.921031899999996!4d-82.5095214",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJBxoaeoV1JYgRrvT0HuxRWds",
+  "venue_type": "retail_fitting_center",
+  "about": "Golf Country Inc is a family-owned and operated retail golf facility in Kimball, Michigan. It operates as a comprehensive destination for golfers, offering both a full pro shop with clubs, apparel, and equipment, and indoor Trackman 4 simulator rentals. The simulator sessions provide an immersive experience with accurate ball and club data analysis on world-class virtual courses. Pricing is structured at $45 per hour for up to four people, making it suitable for both individual practice and group play. The facility is known for its high-quality practice areas and expert custom fitting services.",
+  "tags": "serious_golfers|families|beginner_friendly|coaching_available|club_rentals|pro_shop|budget_friendly|private_rooms",
+  "vibe_tags": "community_club|modern|welcoming|tech_lab",
+  "who_its_for": "serious_golfers|families|beginners|coaches_instructors|juniors_youth",
+  "why_golfers_like_it": [
+    "Premium Trackman 4 technology with precise ball and club tracking",
+    "High-quality, all-weather practice facilities with fans and heaters",
+    "Expert-led custom club fitting with detailed data analysis",
+    "Affordable group-friendly simulator session pricing"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No on-site kitchen or food service mentioned."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No bar or alcohol service mentioned."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "Industry-leading radar launch monitor for accurate ball and club data."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://golfcountryonline.com/products/simulator-session",
+  "pricing_model": "per_person_hour",
+  "price_range_min_local": 45,
+  "price_range_max_local": 45,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|pro_shop|club_fitting|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.5,
+  "rating_value_for_money": 4.3,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you are expected to bring your own clubs for simulator sessions. The venue also offers extensive club rental options and custom fitting services."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue does not offer on-site food or drink service, but you are welcome to bring your own, with the exception of alcohol."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "An 18-hole round on the simulator averages between 45 minutes to an hour per person, depending on the number of players."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the facility is family-owned and welcomes juniors. It offers a welcoming environment suitable for families and young golfers, including lessons and fittings."
+    }
+  ],
+  "rating_overall": 4.5,
+  "opening_hours": "{\"Monday\": [\"9AM-6PM\"], \"Tuesday\": [\"9AM-6PM\"], \"Wednesday\": [\"9AM-6PM\"], \"Thursday\": [\"9AM-6PM\"], \"Friday\": [\"9AM-6PM\"], \"Saturday\": [\"9AM-6PM\"], \"Sunday\": [\"Closed\"]}"
+}

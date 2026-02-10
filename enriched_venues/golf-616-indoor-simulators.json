@@ -1,0 +1,93 @@
+{
+  "name": "Golf 616 Indoor Simulators",
+  "address": "400 Dodge NE, Comstock Park, MI 49321",
+  "city": "Comstock Park",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 43.046272,
+  "longitude": -85.658298,
+  "phone": "+16162234465",
+  "website": "https://www.golf616michigan.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770229342/golf_simulators/www_golf616michigan_com_ChIJ55FcqymrGYgR1A0-wpxeVVc.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Golf+616+Indoor+Simulators/@43.0462723,-85.6582979,14z/data=!4m8!1m2!2m1!1sGolf+616+Indoor+Simulators!3m4!1s0x8819ab29ab5c91e7:0x57555e9cc23e0dd4!8m2!3d43.0462723!4d-85.6582979",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ55FcqymrGYgR1A0-wpxeVVc",
+  "email": "info@golf616michigan.com",
+  "venue_type": "sim_bar",
+  "about": "Golf 616 Indoor Simulators is a public-facing venue offering a warm and welcoming atmosphere for golfers in Comstock Park, Michigan. The facility features 4 public bays and 1 private bay equipped with Trackman IO technology for precise shot tracking and analytics. It operates on a per-bay, per-hour pricing model and provides affordable membership options. The venue caters to a diverse clientele, including individuals, groups, and those looking for social golfing experiences, leagues, tournaments, and private events. Beyond golf, the venue includes a lounge area serving Michigan craft beer, liquor, wine, and hot food, along with a pro shop selling Lululemon golf apparel, making it a comprehensive entertainment destination.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|private_rooms|club_rentals|coaching_available",
+  "vibe_tags": "sports_bar|community_club|casual|welcoming|modern",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Cutting-edge Trackman IO technology provides precise analytics and feedback to refine your game",
+    "On-site 616 Lounge offers a variety of Michigan craft beer, liquor, wine, and hot food",
+    "Flexible private rooms are perfect for personalized lessons or celebrating special occasions",
+    "Inclusive atmosphere with a variety of leagues and tournaments for all skill levels"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Hot food available in the 616 lounge."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with Michigan craft beer, liquor, and wine."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Precise radar-based launch monitor providing detailed shot analytics."
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 5,
+  "booking_url": "https://booking.trackmangolf.com/venues/golf-616/booking/bays",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|kitchen_food|pro_shop|private_party_room|leagues|club_fitting",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "Yes, you will need to bring your own golf clubs to use the simulators."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, outside food and drinks are not allowed. The venue offers its own Michigan craft beer, liquor, wine, and hot food in the 616 lounge."
+    },
+    {
+      "question": "How long does an 18-hole round take?",
+      "answer": "An 18-hole round typically takes about 2-3 hours, depending on the pace of play and the number of players in your group."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is family-friendly and suitable for kids, offering space for birthday parties and group events."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"8AM-11PM\"], \"Saturday\": [\"8AM-11PM\"], \"Sunday\": [\"8AM-8PM\"]}"
+}

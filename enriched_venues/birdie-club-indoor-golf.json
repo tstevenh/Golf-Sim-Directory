@@ -1,0 +1,89 @@
+{
+  "name": "Birdie Club Indoor Golf",
+  "address": "3409 S Dale Mabry Hwy, Tampa, FL 33629",
+  "city": "Tampa",
+  "region": "Florida",
+  "country": "US",
+  "latitude": 27.912682,
+  "longitude": -82.506395,
+  "phone": "+18132845333",
+  "website": "http://www.birdieclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770200721/golf_simulators/www_birdieclub_com_ChIJa-tQy_vDwogRdmL4hpOPPQs.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Birdie+Club+Indoor+Golf/@27.9126822,-82.5063955,14z/data=!4m8!1m2!2m1!1sBirdie+Club+Indoor+Golf!3m4!1s0x88c2c3fbcb50eb6b:0xb3d8f9386f86276!8m2!3d27.9126822!4d-82.5063955",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJa-tQy_vDwogRdmL4hpOPPQs",
+  "email": "Darrenpga@hotmail.com",
+  "venue_type": "sim_bar",
+  "about": "Birdie Club Indoor Golf is a dedicated indoor golf lounge in South Tampa, offering year-round golf simulation in air-conditioned comfort. The facility is equipped with three Trackman simulators and provides an environment suitable for solo practice, group sessions, and private events. Pricing is based on hourly bay rates, with options for non-peak and peak hours, and memberships offering discounted simulator time. The venue is best suited for golfers seeking a convenient, tech-driven practice experience regardless of weather conditions.",
+  "tags": "beginner_friendly|corporate_events|coaching_available|sim_bar|community_club",
+  "vibe_tags": "casual|welcoming|modern|sports_bar",
+  "who_its_for": "beginners|families|solo_practice|corporate_teams",
+  "why_golfers_like_it": [
+    "High-tech Trackman simulators provide detailed swing data analysis",
+    "Flexible pricing model allows groups of up to 4 to split bay costs",
+    "Welcoming environment with supportive coaching available"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Outside food allowed; guests can bring in food from local options"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service; BYOB not indicated"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Premium radar launch monitor with advanced ball and club tracking"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://clients.uschedule.com/birdieclub/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 35,
+  "price_range_max_local": 50,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 3,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|tv_sports|private_party_room|wifi",
+  "rating_tech_quality": 5.0,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Not specified, but as a golf simulator venue, it's recommended to bring your own clubs for the most authentic experience."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, outside food is allowed. The venue does not have an in-house kitchen, but guests are welcome to bring in food from local South Tampa restaurants. Alcohol service is not mentioned."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Not specified on the website. Typically, 18 holes on a simulator take 1-2 hours depending on group size and pace."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is family-friendly with mentions of birthday parties and a welcoming atmosphere for all skill levels, including beginners and juniors."
+    }
+  ],
+  "rating_overall": 4.4,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-10PM\"], \"Saturday\": [\"10AM-10PM\"], \"Sunday\": [\"10AM-6PM\"]}"
+}

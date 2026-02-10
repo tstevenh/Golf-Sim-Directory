@@ -1,0 +1,90 @@
+{
+  "name": "The Golf Practice",
+  "address": "1546 Old Deerfield Rd, Highland Park, IL 60035",
+  "city": "Highland Park",
+  "region": "Illinois",
+  "country": "US",
+  "latitude": 42.175954,
+  "longitude": -87.819795,
+  "phone": "+18478500956",
+  "website": "http://www.thegolfpractice.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770225100/golf_simulators/www_thegolfpractice_com_ChIJuzilnFfBD4gRaHg-CHfnza8.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Golf+Practice/@42.175954399999995,-87.8197945,14z/data=!4m8!1m2!2m1!1sThe+Golf+Practice!3m4!1s0x880fc1579ca538bb:0xafcde777083e7868!8m2!3d42.175954399999995!4d-87.8197945",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJuzilnFfBD4gRaHg-CHfnza8",
+  "email": "info@thegolfpractice.com",
+  "venue_type": "training_studio",
+  "about": "The Golf Practice is an indoor golf training facility with locations in Highland Park and Lisle, Illinois. They offer comprehensive coaching programs focusing on swing, mind, and body aspects of the game, with specialized tracks for youth, high school prep, and college-bound athletes. The facilities are equipped with premium Trackman launch monitors and extensive short-game practice areas, providing a structured environment for skill development.",
+  "tags": "beginner_friendly|kids_friendly|serious_practice|coaching_available|leagues|juniors_youth",
+  "vibe_tags": "industrial_training|modern|community_club",
+  "who_its_for": "beginners|serious_golfers|families|juniors_youth|coaches_instructors",
+  "why_golfers_like_it": [
+    "Premium Trackman technology for precise swing analysis",
+    "Structured programs led by experienced coaches including Hall of Famer Hank Haney",
+    "Extensive short-game and putting practice areas"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No on-site food service mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No bar/alcohol service mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "High-end radar launch monitor used at both facilities"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 15,
+  "booking_url": "http://www.thegolfpractice.com/book",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|club_fitting|leagues|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can use your own clubs or they may have club rentals available for use during sessions."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No outside food or drinks are mentioned as being permitted."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "Time for 18 holes isn't specified, but simulator time is typically booked by the hour."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "Yes, The Golf Practice offers dedicated youth programs including junior introductory programs, competitive tracks, and summer camps for various age groups."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": null
+}

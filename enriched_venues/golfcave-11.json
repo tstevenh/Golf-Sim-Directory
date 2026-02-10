@@ -1,0 +1,91 @@
+{
+  "name": "GolfCave",
+  "address": "10 Schalks Crossing Rd, Plainsboro Township, NJ 08536",
+  "city": "Plainsboro Township",
+  "region": "New Jersey",
+  "country": "US",
+  "latitude": 40.337183,
+  "longitude": -74.595757,
+  "phone": "+16099792283",
+  "website": "https://www.golfcave.com/locations/plainsboro",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770208919/golf_simulators/www_golfcave_com_ChIJXyH4z-nnw4kRpwO4QmoV_SU.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/GolfCave/@40.3371827,-74.59575679999999,14z/data=!4m8!1m2!2m1!1sGolfCave!3m4!1s0x89c3e7e9cff8215f:0x25fd156a42b803a7!8m2!3d40.3371827!4d-74.59575679999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJXyH4z-nnw4kRpwO4QmoV_SU",
+  "email": "clark@golfcave.com",
+  "venue_type": "sim_bar",
+  "about": "GolfCave is a 24/7 indoor golf facility that provides golfers of all skill levels with the ability to play or practice in the privacy of their own 'Cave' using TrackMan simulators. Each location offers a personalized approach with lessons incorporating advanced metrics and video analysis. The facilities are designed for both individual practice and group activities, with a focus on a private and modern experience.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|private_rooms|club_rentals|coaching_available|solo_practice",
+  "vibe_tags": "private_luxury|tech_lab|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Private 'Caves' for a focused and uninterrupted golf experience",
+    "Access to TrackMan, the world's most accurate golf simulator technology",
+    "Flexible BYOB policy allowing golfers to bring their own food and drinks",
+    "Personalized one-on-one lessons tailored to individual skill levels"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Guests can bring their own food or have favorites delivered from nearby restaurants."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "BYOB policy is in place, allowing guests to bring their own drinks."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "World's most accurate golf simulator used across all locations."
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://clients.uschedule.com/golfcave/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 45,
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|lockers|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not explicitly state if clubs are provided, so it is recommended to bring your own."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, GolfCave has a BYOB policy, allowing guests to bring their own food and drinks."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "The website does not specify the duration for 18 holes, but it is recommended to check with the location for an estimate."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is described as beginner-friendly and offers options for families, suggesting it is suitable for children."
+    }
+  ],
+  "simulator_software": [
+    "TrackMan"
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

@@ -1,0 +1,89 @@
+{
+  "name": "X-Golf Appleton",
+  "address": "W3208 Van Roy Rd, Appleton, WI 54915",
+  "city": "Appleton",
+  "region": "Wisconsin",
+  "country": "US",
+  "latitude": 44.257695,
+  "longitude": -88.350257,
+  "phone": "+19208153455",
+  "website": "http://www.xgolfappleton.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770210155/golf_simulators/www_xgolfappleton_com_ChIJYeaUC46xA4gRLb1aacZb3vk.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/X-Golf+Appleton/@44.257695399999996,-88.35025739999999,14z/data=!4m8!1m2!2m1!1sX-Golf+Appleton!3m4!1s0x8803b18e0b94e661:0xf9de5bc6695abd2d!8m2!3d44.257695399999996!4d-88.35025739999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJYeaUC46xA4gRLb1aacZb3vk",
+  "email": "info@xgolfappleton.com",
+  "venue_type": "sim_bar",
+  "about": "X-Golf Appleton offers an indoor golf experience using advanced simulation technology. The facility features 8 simulators with camera systems, infrared lasers, and impact sensors to provide realistic gameplay. Pricing is based on simulator time, not per person, and includes food and beverage options. It is suitable for players of all skill levels, including beginners, and offers leagues, lessons, and events.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|kids_friendly|club_rentals|late_night|coaching_available",
+  "vibe_tags": "casual|welcoming|modern|sports_bar|community_club",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "State-of-the-art simulator technology with unparalleled accuracy",
+    "Full bar and food service available on-site",
+    "PGA-certified coaching and club fitting services"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Pizza, appetizers, snacks, and other shareable bites available"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with beer, cocktails, and wine; draft beer, mixed drinks, and specialty cocktails"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "X-Golf",
+      "model": "Simulator",
+      "notes": "Proprietary system with camera systems, infrared lasers, and impact sensors"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": 8,
+  "booking_url": "https://clients.uschedule.com/xgolfappleton/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|pro_shop|club_fitting|leagues|wifi",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need clubs?",
+      "answer": "No, rental clubs are available if you don't have your own."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "No outside food or drink is allowed, as X-Golf has a full bar and kitchen on-site."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "It generally takes 1 hour for one individual to play 18 holes. Each additional person adds about 1 hour to play 18 holes."
+    },
+    {
+      "question": "Is it kid-friendly?",
+      "answer": "Yes, children of all ages are welcome."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"9AM-10PM\"], \"Saturday\": [\"9AM-10PM\"], \"Sunday\": [\"8AM-7PM\"]}"
+}

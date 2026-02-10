@@ -1,0 +1,92 @@
+{
+  "name": "Golf Lab Academy",
+  "address": "1224 Village Way d, Santa Ana, CA 92705",
+  "city": "Santa Ana",
+  "region": "California",
+  "country": "US",
+  "latitude": 33.732318,
+  "longitude": -117.83619,
+  "phone": "+17145424653",
+  "website": "https://golflabacademy.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770244782/golf_simulators/golflabacademy_com_ChIJ74XTul7Z3IARNjAxDSqzXII.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Golf+Lab+Academy/@33.732318299999996,-117.8361898,14z/data=!4m8!1m2!2m1!1sGolf+Lab+Academy!3m4!1s0x80dcd95ebad385ef:0x825cb32a0d313036!8m2!3d33.732318299999996!4d-117.8361898",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ74XTul7Z3IARNjAxDSqzXII",
+  "venue_type": "training_studio",
+  "about": "Golf Lab Academy is a premier golf training facility in Santa Ana, California, providing high-tech instruction and practice. The studio utilizes advanced swing analysis tools, including the Foresight GC2 Launch Monitor and V1 Sports Swing Analyzer software, to help golfers improve their game through video analysis and data-driven feedback. The facility offers individual and group lessons, specialized clinics, and practice bays, designed to accelerate improvement in a focused, professional environment. It is particularly suited for those seeking structured improvement plans and a serious practice experience.",
+  "tags": "serious_practice|beginner_friendly|corporate_events|premium_tech|coaching_available|food_and_drinks|club_rentals",
+  "vibe_tags": "tech_lab|upscale_lounge|modern|welcoming",
+  "who_its_for": "serious_golfers|beginners|corporate_teams|coaches_instructors",
+  "why_golfers_like_it": [
+    "Professional-grade launch monitors (Foresight GC2) for detailed swing analysis",
+    "High-speed video technology for slow-motion replay and precise corrections",
+    "Spacious private bays designed for focused, distraction-free learning",
+    "Convenient location near the 55 freeway with free parking"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Food service available, including options for lunch and dining at the academy lounge."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available, with happy hour events and a comfortable lounge area for post-lesson refreshments."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": "GC2",
+      "notes": "Professional-grade launch monitor used for swing and ball data analysis."
+    }
+  ],
+  "simulator_so": [
+    "V1 Sports Swing Analyzer"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://golflabacademy.com/instructor-rates-booking-calendar/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|club_fitting",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you will need to bring your own golf clubs for lessons and practice sessions."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, outside food and drinks are not permitted. The facility offers its own menu with food and bar services available."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Simulated 18-hole sessions typically take 1.5 to 2 hours, depending on the number of players and pace of play."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Golf Lab Academy is not specifically marketed as a kid-friendly venue and appears to cater more to serious golfers and adult clients."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"8AM-5PM\"], \"Tuesday\": [\"8AM-5PM\"], \"Wednesday\": [\"8AM-5PM\"], \"Thursday\": [\"8AM-5PM\"], \"Friday\": [\"8AM-1PM\"], \"Saturday\": [\"8AM-1PM\"], \"Sunday\": [\"Closed\"]}"
+}

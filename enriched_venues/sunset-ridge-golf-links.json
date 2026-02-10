@@ -1,0 +1,94 @@
+{
+  "name": "Sunset Ridge Golf Links",
+  "address": "771 Cumberland St, Westbrook, ME 04092",
+  "city": "Westbrook",
+  "region": "Maine",
+  "country": "US",
+  "latitude": 43.701733,
+  "longitude": -70.372709,
+  "phone": "+12078549463",
+  "website": "https://sunsetridgeme.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770229770/golf_simulators/sunsetridgeme_com_ChIJ28HKxGKQskwRi7MlGRisXV4.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Sunset+Ridge+Golf+Links/@43.701733,-70.3727095,14z/data=!4m8!1m2!2m1!1sSunset+Ridge+Golf+Links!3m4!1s0x4cb29062c4cac1db:0x5e5dac181925b38b!8m2!3d43.701733!4d-70.3727095",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ28HKxGKQskwRi7MlGRisXV4",
+  "venue_type": "sim_bar|multi_sport_sim",
+  "about": "Sunset Ridge Golf Links is a facility in Westbrook, ME, featuring an 18-hole golf course, a 9-hole disc golf course, and indoor golf simulators. They offer memberships and hourly simulator play, with 5 Full Swing and Foresight GC Hawk simulators available. The venue provides event space and activities year-round, including a Bar & Grill, swimming pool in the summer, and various leagues and events. Simulators are available for practice on a driving range or for playing quick 9-hole games.",
+  "tags": "food_and_drinks|leagues|corporate_events|family_friendly|premium_tech|club_rentals|community_club|beginner_friendly",
+  "vibe_tags": "casual|welcoming|modern|community_club",
+  "who_its_for": "families|beginners|serious_golfers|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "Variety of simulator options with over 80 courses to choose from",
+    "Year-round play regardless of weather with indoor simulators",
+    "Opportunity to join leagues and events for a social experience",
+    "Multiple membership options for regular players"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Available at the Bar & Grill"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Available at the Bar & Grill"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Full Swing",
+      "model": "unknown",
+      "notes": "4 Full Swing simulators available"
+    },
+    {
+      "brand": "Foresight",
+      "model": "GC Hawk",
+      "notes": "3 Foresight GC Hawk simulators available"
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 7,
+  "booking_url": "http://sunsetridge.teesnap.net",
+  "pricing_model": "mixed",
+  "price_range_min_local": 35,
+  "price_range_max_local": 35,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|kitchen_food|tv_sports|leagues|club_rentals|pro_shop|coaching_available",
+  "rating_tech_quality": 4.7,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need clubs?",
+      "answer": "Yes, you will need to bring your own golf clubs to use the simulators."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "Food and drink are available for purchase at the on-site Bar & Grill. BYOB policies are not specified."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "You can play a quick 9 holes in approximately 30 minutes. 18 holes would take about an hour."
+    },
+    {
+      "question": "Is this kid-friendly?",
+      "answer": "Yes, the facility offers Youth Memberships and is family-friendly, with activities for all ages."
+    }
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"8AM-5:45PM\"], \"Tuesday\": [\"8AM-5:45PM\"], \"Wednesday\": [\"8AM-5:45PM\"], \"Thursday\": [\"8AM-5:45PM\"], \"Friday\": [\"8AM-5:45PM\"], \"Saturday\": [\"7AM-5:45PM\"], \"Sunday\": [\"7AM-5:45PM\"]}"
+}

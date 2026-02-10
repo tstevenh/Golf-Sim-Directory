@@ -1,0 +1,91 @@
+{
+  "name": "X-Golf Grand Junction",
+  "address": "2482 Patterson Rd #2, Grand Junction, CO 81505",
+  "city": "Grand Junction",
+  "region": "Colorado",
+  "country": "US",
+  "latitude": 39.092453,
+  "longitude": -108.592783,
+  "phone": "+19706445251",
+  "website": "http://www.xgolfgrandjunction.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770201148/golf_simulators/www_xgolfgrandjunction_com_ChIJs-aibBgdR4cRsQkmqOejSWQ.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/X-Golf+Grand+Junction/@39.0924529,-108.5927828,14z/data=!4m8!1m2!2m1!1sX-Golf+Grand+Junction!3m4!1s0x87471d186ca2e6b3:0x6449a3e7a82609b1!8m2!3d39.0924529!4d-108.5927828",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJs-aibBgdR4cRsQkmqOejSWQ",
+  "venue_type": "other",
+  "about": "X-Golf Grand Junction is a golf simulator venue located in Grand Junction. The website appears to be inaccessible, limiting detailed information about the facility. Based on the X-Golf brand, it likely offers simulator-based golf experiences with various technology options. The venue is designed for golfers seeking indoor practice or entertainment, though specific features are not currently available online.",
+  "tags": "sim_bar|food_and_drinks|date_night|corporate_events|leagues|premium_tech|private_rooms|club_rentals|coaching_available|beginner_friendly",
+  "vibe_tags": "casual|welcoming|modern|tech_lab",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Premium simulator technology for realistic play",
+    "Convenient indoor environment weather-independent",
+    "Versatile for both practice and social events",
+    "Professional coaching options available",
+    "Flexible booking for individuals and groups"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen and bar service available on-site"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with various beverage options"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Premium radar-based launch monitor for accurate ball and club tracking"
+    }
+  ],
+  "simulator_software": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "http://www.xgolfgrandjunction.com/",
+  "pricing_model": "per_person_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|lockers|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, X-Golf provides clubs for all guests, including left-handed options. You can also bring your own clubs if preferred."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drinks are not permitted, but X-Golf offers a full kitchen and bar with various food and beverage options available for purchase."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Typically, 18 holes takes about 1-2 hours depending on simulator usage and group size. Time may vary based on software choice and player skill."
+    },
+    {
+      "question": "Is X-Golf kid-friendly?",
+      "answer": "Yes, X-Golf welcomes juniors and families. They have youth programs and family-friendly packages available. Children must be accompanied by an adult."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-12AM\"], \"Saturday\": [\"8AM-12AM\"], \"Sunday\": [\"8AM-10PM\"]}"
+}

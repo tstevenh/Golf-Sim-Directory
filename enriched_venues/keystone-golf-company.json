@@ -1,0 +1,92 @@
+{
+  "name": "Keystone Golf Company",
+  "address": "1007 Hill Ave Unit 101, Wyomissing, PA 19610",
+  "city": "Wyomissing",
+  "region": "Pennsylvania",
+  "country": "US",
+  "latitude": 40.337811,
+  "longitude": -75.959333,
+  "phone": "+16107506546",
+  "website": "http://www.keystonegolfco.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770244464/golf_simulators/www_keystonegolfco_com_ChIJ48nTxKNxxokR2ijUcqtkap0.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Keystone+Golf+Company/@40.3378109,-75.95933339999999,14z/data=!4m8!1m2!2m1!1sKeystone+Golf+Company!3m4!1s0x89c671a3c4d3c9e3:0x9d6a64ab72d428da!8m2!3d40.3378109!4d-75.95933339999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ48nTxKNxxokR2ijUcqtkap0",
+  "email": "keystonegolfsims@gmail.com",
+  "venue_type": "sim_bar",
+  "about": "Keystone Golf Co. is an indoor golf simulator venue in Wyomissing, PA, featuring seven state-of-the-art bays equipped with Uneekor Eye XO2 launch monitors. The facility offers a premium atmosphere with ultra-realistic course visuals and comprehensive data analytics for golfers of all skill levels. Flexible memberships, competitive leagues, and professional instruction are available, alongside private event hosting capabilities. BYOB is permitted for beer, wine, and seltzers in the private bays.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|private_rooms|coaching_available|community_club",
+  "vibe_tags": "casual|welcoming|modern|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Premium Uneekor Eye XO2 launch monitors with 24 data points",
+    "Flexible memberships with rolling over unused hours",
+    "BYOB policy in private bays for a social experience",
+    "Professional instruction and club fitting services available",
+    "Host of premium courses via GSPro software"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned, BYOB allowed for beer, wine, seltzers"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "BYOB policy allows guests to bring their own beer, wine, or seltzers; no hard liquor permitted"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "Eye XO2",
+      "notes": "7 state-of-the-art launch monitors providing 24 data points including spin rate and launch angle"
+    }
+  ],
+  "simulator_software": [
+    "GSPro",
+    "Refine+ Golf"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 7,
+  "booking_url": "https://clients.uschedule.com/keystonegolfco/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 7,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|tv_sports|private_party_room|wifi|club_fitting|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need clubs?",
+      "answer": "Yes, guests must bring their own golf clubs to play on the simulators."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "Yes, BYOB is allowed for beer, wine, and seltzers in the private bays; no hard liquor permitted."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website doesn't specify exact timing for 18 holes, but sessions are booked by the hour."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "There is no specific mention of kid-friendly amenities or policies on the website."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"9AM-9PM\"], \"Tuesday\": [\"9AM-9PM\"], \"Wednesday\": [\"9AM-9PM\"], \"Thursday\": [\"9AM-9PM\"], \"Friday\": [\"9AM-10PM\"], \"Saturday\": [\"8AM-10PM\"], \"Sunday\": [\"8AM-6PM\"]}"
+}

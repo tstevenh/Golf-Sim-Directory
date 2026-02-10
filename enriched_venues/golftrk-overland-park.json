@@ -1,0 +1,99 @@
+{
+  "name": "GolfTRK - Overland Park",
+  "address": "7325 W 161st St, Stilwell, KS 66085",
+  "city": "Stilwell",
+  "region": "Kansas",
+  "country": "US",
+  "latitude": 38.83591,
+  "longitude": -94.670535,
+  "phone": "+19136744653",
+  "website": "https://www.golftrk.com/overland-park-ks",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770212203/golf_simulators/www_golftrk_com_ChIJkZAvmBjBwIcRYsvzmkoYKHw.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/GolfTRK+-+Overland+Park/@38.8359096,-94.6705353,14z/data=!4m8!1m2!2m1!1sGolfTRK+-+Overland+Park!3m4!1s0x87c0c118982f9091:0x7c28184a9af3cb62!8m2!3d38.8359096!4d-94.6705353",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJkZAvmBjBwIcRYsvzmkoYKHw",
+  "email": "caleb@golftrk.com",
+  "venue_type": "training_studio",
+  "about": "GolfTRK - Overland Park is an indoor golf facility focused on data-driven practice and improvement. The venue utilizes TrackMan technology for ball and club tracking, offering features like virtual course play and detailed performance analysis. Services include private lessons, memberships for unlimited access, and club fittings. The facility emphasizes a structured approach to golf improvement with tools like PuttView for putting analysis and Noonan Digital Caddie integration on-course.",
+  "tags": "serious_practice|beginner_friendly|corporate_events|coaching_available|premium_tech|juniors_youth|solo_practice|club_rentals|leagues",
+  "vibe_tags": "tech_lab|modern|community_club",
+  "who_its_for": "serious_golfers|beginners|juniors_youth|corporate_teams|coaches_instructors",
+  "why_golfers_like_it": [
+    "Tour-level TrackMan 4 and iO technology provides precise ball and club data",
+    "Data-driven improvement plans and performance tracking for measurable progress",
+    "Access to both high-tech bays and the PuttView putting system for comprehensive skill development"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Members are welcome to bring their own food"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Members are welcome to bring their own drinks"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "World-class ball tracking and club data"
+    },
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Advanced launch monitor technology"
+    },
+    {
+      "brand": "PuttView",
+      "model": "Indoor",
+      "notes": "Augmented Reality putting system with ball tracking"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://app.gymflow.io/golfTRK/golftrk/overlandpark/site/appointments/414",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "While you can bring your own clubs, GolfTRK also offers club rentals for members and non-members using their fitting services."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, members are welcome to bring their own food and drinks. The facility does not provide on-site food or beverage service but asks that you keep your area clean and dispose of trash."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "While exact timing isn't specified, playing virtual courses on the TrackMan system would typically take 1.5-2 hours, similar to a real round of golf."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, GolfTRK Overland Park is kid-friendly, offering a Junior Golf Academy and programs for young golfers. General Manager Caleb Kimmel has experience with junior golf instruction and developing youth training programs."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"5AM-12AM\"], \"Tuesday\": [\"5AM-12AM\"], \"Wednesday\": [\"5AM-12AM\"], \"Thursday\": [\"5AM-12AM\"], \"Friday\": [\"5AM-12AM\"], \"Saturday\": [\"5AM-12AM\"], \"Sunday\": [\"5AM-12AM\"]}"
+}

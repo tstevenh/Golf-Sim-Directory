@@ -1,0 +1,91 @@
+{
+  "name": "The Mulligans Golf Club",
+  "address": "37-04 Queens Blvd, Long Island City, NY 11101",
+  "city": "Long Island City",
+  "region": "New York",
+  "country": "US",
+  "latitude": 40.743821,
+  "longitude": -73.927751,
+  "phone": "+18454702810",
+  "website": "https://www.themulligansgolfclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770199238/golf_simulators/www_themulligansgolfclub_com_ChIJQb69cSlfwokRNIvQAQp_R4w.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Mulligans+Golf+Club/@40.7438213,-73.9277511,14z/data=!4m8!1m2!2m1!1sThe+Mulligans+Golf+Club!3m4!1s0x89c25f2971bdbe41:0x8c477f0a01d08b34!8m2!3d40.7438213!4d-73.9277511",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJQb69cSlfwokRNIvQAQp_R4w",
+  "venue_type": "sim_bar",
+  "about": "The Mulligans Golf Club is a golf simulator venue that combines advanced technology with an upscale social atmosphere. It features Trackman simulators, craft cocktails, and elevated food offerings, catering to players who value both performance and post-play socialization. The venue offers memberships with benefits like unlimited off-peak play and discounts, along with leagues, coaching, and event hosting capabilities for both individuals and groups.",
+  "tags": "food_and_drinks|leagues|coaching_available|corporate_events|date_night|premium_tech|upscale_lounge|serious_golfers",
+  "vibe_tags": "upscale_lounge|sports_bar|tech_lab|party_atmosphere",
+  "who_its_for": "serious_golfers|corporate_teams|families|solo_practice|large_groups",
+  "why_golfers_like_it": [
+    "Tour-level Trackman technology providing precise shot data",
+    "Upscale lounge with full bar for socializing after play",
+    "PGA-level coaching available for all skill levels",
+    "Leagues and events with competitive formats and prizes",
+    "Membership options include free simulator hours and discounts"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Elevated bites and gourmet food options available"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Craft cocktails and full bar service"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "8 Trackman simulators with access to world-famous courses"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 8,
+  "booking_url": "https://mulligansgolfclub.reservewithrex.com/package?venue=The%20Mulligans%20Golf%20Club",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 0,
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "full_bar|kitchen_food|tv_sports|leagues|coaching_available",
+  "rating_tech_quality": 5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website doesn't specify, but it's common practice at simulator venues to provide clubs or allow players to bring their own."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue offers its own food and craft cocktails, but whether outside food/drinks are allowed isn't specified."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Typical simulator play for 18 holes ranges from 1-2 hours depending on group size and pace."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The website doesn't explicitly mention child-friendly features or age restrictions."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.4,
+  "opening_hours": "{\"Monday\": [\"8AM-11PM\"], \"Tuesday\": [\"8AM-11PM\"], \"Wednesday\": [\"8AM-11PM\"], \"Thursday\": [\"8AM-11PM\"], \"Friday\": [\"8AM-12AM\"], \"Saturday\": [\"8AM-12AM\"], \"Sunday\": [\"8AM-11PM\"]}"
+}

@@ -1,0 +1,90 @@
+{
+  "name": "Calverton National",
+  "address": "313 Edwards Ave, Calverton, NY 11933",
+  "city": "Calverton",
+  "region": "New York",
+  "country": "US",
+  "latitude": 40.915631,
+  "longitude": -72.746585,
+  "phone": null,
+  "website": "https://www.calverton-national.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770214958/golf_simulators/www_calverton-national_com_ChIJbWbWPKtf6IkRj9dg3XHfC7o.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Calverton+National/@40.9156306,-72.7465847,14z/data=!4m8!1m2!2m1!1sCalverton+National!3m4!1s0x89e85fab3cd6666d:0xba0bdf71dd60d78f!8m2!3d40.9156306!4d-72.7465847",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJbWbWPKtf6IkRj9dg3XHfC7o",
+  "venue_type": "training_studio",
+  "about": "Calverton National is an indoor golf training facility featuring 4K simulators powered by Trackman technology. The venue offers a range of services including bay rentals, private lessons, and membership options. While focused on golf practice and skill development, the facility does not allow club sharing and operates on a reservation-only basis for bay access. The space appears designed for serious golfers looking to work on their game in a controlled environment.",
+  "tags": "serious_practice|coaching_available|beginner_friendly|leagues|premium_tech|budget_friendly|private_rooms|club_rentals",
+  "vibe_tags": "industrial_training|tech_lab|community_club|modern",
+  "who_its_for": "beginners|serious_golfers|families|coaches_instructors|juniors_youth",
+  "why_golfers_like_it": [
+    "Professional-grade Trackman 4K simulator technology",
+    "Structured lesson packages and coaching options",
+    "Flexible membership plans with monthly hour allocations",
+    "Dedicated indoor environment for all-weather practice",
+    "Reservations system ensures guaranteed bay access"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "4K indoor golf simulator"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "https://yourgolfbooking.com/venues/westhampton-national/booking/bays",
+  "pricing_model": "mixed",
+  "price_range_min_local": 50,
+  "price_range_max_local": 3500,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|coaching_available|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue does not allow club sharing, so you must bring your own clubs to use on the simulators."
+    },
+    {
+      "question": "Can I bring food or drinks?",
+      "answer": "No food or drink service is mentioned, so outside food and drinks likely are not permitted."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "No specific time information for 18 holes is provided on their website."
+    },
+    {
+      "question": "Is this kid-friendly?",
+      "answer": "Yes, the venue offers introductory lessons and appears family-friendly with options for juniors and group sessions."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"11AM-9PM\"], \"Tuesday\": [\"11AM-9PM\"], \"Wednesday\": [\"11AM-9PM\"], \"Thursday\": [\"11AM-9PM\"], \"Friday\": [\"11AM-10PM\"], \"Saturday\": [\"10AM-10PM\"], \"Sunday\": [\"10AM-9PM\"]}"
+}

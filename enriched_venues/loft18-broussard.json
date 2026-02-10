@@ -1,0 +1,94 @@
+{
+  "name": "Loft18 Broussard",
+  "address": "405 Albertson Pkwy, Broussard, LA 70518",
+  "city": "Broussard",
+  "region": "Louisiana",
+  "country": "US",
+  "latitude": 30.139944,
+  "longitude": -91.983896,
+  "phone": "+13373307073",
+  "website": "https://loft18.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770255519/golf_simulators/loft18_com_ChIJDVTAlfR9I4YR6jGhtHW-oT0.png",
+  "google_maps_url": "https://www.google.com/maps/place/Loft18+Broussard/@30.139944,-91.98389569999999,14z/data=!4m8!1m2!2m1!1sLoft18+Broussard!3m4!1s0x86237df495c0540d:0x3da1be75b4a131ea!8m2!3d30.139944!4d-91.98389569999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJDVTAlfR9I4YR6jGhtHW-oT0",
+  "email": "info@loft18.com",
+  "venue_type": "sim_bar",
+  "about": "Loft18 is an interactive sports bar and grill designed for year-round, all-weather golf and multi-sport action. The venue features custom-built Full Swing Golf simulation bays that deliver precision play for golfers of all experience levels. It operates as a full-service restaurant, bar, and lounge offering gastro-pub fare, craft beer, and cocktails in a casual, easy-going atmosphere with a strong emphasis on hospitality and socializing. The concept combines indoor golfing with a dining experience tailored for both sport enthusiasts and those seeking a relaxed social environment.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|private_rooms|club_rentals|community_club|upscale_lounge",
+  "vibe_tags": "sports_bar|casual|welcoming|modern",
+  "who_its_for": "beginners|families|corporate_teams|large_groups|solo_practice",
+  "why_golfers_like_it": [
+    "Custom-built Full Swing Golf simulation bays for precision play",
+    "Full-service restaurant and bar allowing for a complete social and dining experience",
+    "Award-winning multi-sport simulators suitable for all skill levels",
+    "Kicked-back atmosphere focused on relaxed socializing and networking"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Gastro-pub fare from a full-service kitchen, featuring locally sourced ingredients and an ever-changing menu. Reserve a table to dine in."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available on-site with craft beer and cocktails."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Full Swing",
+      "model": "Golf Simulator",
+      "notes": "Custom-built Full Swing Golf simulation bays."
+    }
+  ],
+  "simulator_so": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://loft18.reservewithrex.com/package?venue=Broussard&date",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "It is not explicitly stated whether rental clubs are available, but the facility is designed for golfers of all levels, suggesting some form of club provision is likely available."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, Loft18 is a full-service restaurant and bar, so external food and drinks are not permitted. You can dine and order drinks directly from their menu and bar."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time required to play 18 holes is not specified, but typical simulator bays allow for rounds to be completed in 2-3 hours depending on the game format and number of players."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Loft18 is described as a welcoming sports bar and grill, and the website features food and social images, suggesting a family-friendly environment where children are welcome."
+    }
+  ],
+  "simulator_software": [
+    "Full Swing Golf"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"11AM-10PM\"], \"Tuesday\": [\"11AM-10PM\"], \"Wednesday\": [\"11AM-11PM\"], \"Thursday\": [\"11AM-11PM\"], \"Friday\": [\"11AM-12AM\"], \"Saturday\": [\"11AM-12AM\"], \"Sunday\": [\"11AM-10PM\"]}"
+}

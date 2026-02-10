@@ -1,0 +1,92 @@
+{
+  "name": "Family Golf and Learning Center",
+  "address": "3717 Tree Court Industrial Blvd, St. Louis, MO 63122",
+  "city": "St. Louis",
+  "region": "Missouri",
+  "country": "US",
+  "latitude": 38.559525,
+  "longitude": -90.457199,
+  "phone": "+16368612500",
+  "website": "http://familygolfonline.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770201682/golf_simulators/familygolfonline_com_ChIJfe9pifzR2IcRO0rGY-y7qK4.png",
+  "google_maps_url": "https://www.google.com/maps/place/Family+Golf+and+Learning+Center/@38.559524499999995,-90.457199,14z/data=!4m8!1m2!2m1!1sFamily+Golf+and+Learning+Center!3m4!1s0x87d8d1fc8969ef7d:0xaea8bbec63c64a3b!8m2!3d38.559524499999995!4d-90.457199",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJfe9pifzR2IcRO0rGY-y7qK4",
+  "email": "info@familygolfonline.com",
+  "venue_type": "sim_bar",
+  "about": "Family Golf and Learning Center is a comprehensive golf facility in St. Louis offering a wide range of services including a driving range, a 9-hole par 3 course, indoor TrackMan simulators, lessons, club fitting, and a full-service restaurant. The venue provides multiple ways for golfers to learn, practice, and play, with options ranging from casual bucket practice to simulator sessions and structured coaching. It caters to various skill levels with an emphasis on accessibility, featuring amenities like heated stalls, grass tees, and a fitness center, making it a one-stop destination for the local golf community.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|family_friendly|coaching_available|private_rooms|club_rentals|juniors_youth",
+  "vibe_tags": "family_fun_center|tech_lab|community_club|modern",
+  "who_its_for": "beginners|families|corporate_teams|juniors_youth|solo_practice",
+  "why_golfers_like_it": [
+    "Premium TrackMan technology for advanced simulator sessions",
+    "Complete club fitting and repair services for optimizing equipment",
+    "Full-service Back Nine Bar and Grill with outdoor terrace",
+    "Encouraging and friendly atmosphere suitable for all skill levels",
+    "Year-round indoor and outdoor practice options",
+    "Dedicated junior golf programs and leagues"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full-service restaurant with a dining menu available"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full-service bar with outdoor terrace"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "3 indoor simulators available for hourly bookings"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://familygolfonline.com/trackman-simulators/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 200,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 5,
+  "amenities_list": "full_bar|kitchen_food|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.5,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can bring your own clubs, but rental clubs and club fitting services are also available on-site."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "Outside food and drinks are not mentioned; however, the venue offers a full-service Back Nine Bar and Restaurant with its own menu."
+    },
+    {
+      "question": "How long does an 18-hole simulator session take?",
+      "answer": "Simulator bookings are in 1-hour increments, so an 18-hole round would require booking multiple consecutive hours depending on the pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue offers dedicated junior golf programs, clinics, camps, and a par-3 course suitable for beginners and juniors."
+    }
+  ],
+  "rating_overall": 4.4,
+  "opening_hours": "{\"Monday\": [\"10AM-9PM\"], \"Tuesday\": [\"9AM-9PM\"], \"Wednesday\": [\"9AM-9PM\"], \"Thursday\": [\"9AM-9PM\"], \"Friday\": [\"9AM-9PM\"], \"Saturday\": [\"9AM-9PM\"], \"Sunday\": [\"9AM-7PM\"]}"
+}

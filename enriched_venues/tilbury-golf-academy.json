@@ -1,0 +1,90 @@
+{
+  "name": "Tilbury Golf Academy",
+  "address": "655 IN-120 Suite C27, Fremont, IN 46737",
+  "city": "Fremont",
+  "region": "Indiana",
+  "country": "US",
+  "latitude": 41.726694,
+  "longitude": -85.002578,
+  "phone": "+12606671159",
+  "website": "http://tilburygolfacademy.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770209562/golf_simulators/tilburygolfacademy_com_ChIJdWW_D9PZF4gR0NwlUTclB38.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Tilbury+Golf+Academy/@41.726694099999996,-85.002578,14z/data=!4m8!1m2!2m1!1sTilbury+Golf+Academy!3m4!1s0x8817d9d30fbf6575:0x7f0725375125dcd0!8m2!3d41.726694099999996!4d-85.002578",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJdWW_D9PZF4gR0NwlUTclB38",
+  "venue_type": "training_studio",
+  "about": "Tilbury Golf Academy is a specialized golf training facility offering advanced simulator technology and professional instruction. The venue features a luxurious private suite with a TrackMan simulator providing access to over 450 global courses, alongside a private teaching and club fitting studio equipped with high-speed cameras and premium brand equipment. It caters to golfers of all abilities through personalized coaching, club fitting services, and simulator usage, with a strong focus on junior development and family-friendly programming. The academy operates with extended winter hours and provides a comprehensive environment for both serious practice and casual play, supported by a PGA-certified professional with extensive teaching credentials.",
+  "tags": "beginner_friendly|serious_practice|kids_friendly|corporate_events|leagues|premium_tech|coaching_available|family_friendly|private_rooms|juniors_youth",
+  "vibe_tags": "private_luxury|family_fun_center|tech_lab|community_club|upscale_lounge",
+  "who_its_for": "beginners|serious_golfers|families|juniors_youth|solo_practice",
+  "why_golfers_like_it": [
+    "Premium TrackMan simulator with over 450 global courses",
+    "PGA-certified professional with specialized coaching expertise",
+    "Comprehensive club fitting services with top-tier brand equipment",
+    "Luxurious private suite for exclusive events and group play",
+    "Family-friendly atmosphere with junior development programs"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Primary simulator in private suite with over 450 courses"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 1,
+  "booking_url": "https://tilburygolfacademy.resurva.com/book",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|private_party_room|club_fitting|leagues|wifi|pro_shop",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "While you can bring your own clubs, the academy also offers club rentals and professional club fitting services with premium brands like Ping, Callaway, Mizuno, Cleveland, Srixon, TaylorMade, and Titleist."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No food or drink service is mentioned at the venue, though the private suite includes a TV for entertainment during your session."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Time for 18 holes isn't specified, but simulator sessions are booked by the hour, allowing flexibility for how many holes you can play within your time slot."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, the academy is highly kid-friendly with junior development programs including PGA Junior League, First Tee of Indiana, TGA Jr. Development classes, and coaching for the Fremont High School Girls golf team."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"9AM-9PM\"], \"Tuesday\": [\"9AM-9PM\"], \"Wednesday\": [\"9AM-9PM\"], \"Thursday\": [\"9AM-9PM\"], \"Friday\": [\"9AM-9PM\"], \"Saturday\": [\"9AM-9PM\"], \"Sunday\": [\"9AM-7PM\"]}"
+}

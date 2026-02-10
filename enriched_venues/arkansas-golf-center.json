@@ -1,0 +1,101 @@
+{
+  "name": "Arkansas Golf Center",
+  "address": "5150 John W Allison Rd, Conway, AR 72034",
+  "city": "Conway",
+  "region": "Arkansas",
+  "country": "US",
+  "latitude": 35.063746,
+  "longitude": -92.518012,
+  "phone": "+15013270171",
+  "website": "http://www.arkansasgolfcenter.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770241338/golf_simulators/www_arkansasgolfcenter_com_ChIJRdSBx118zYcRX9y-mMybiiA.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Arkansas+Golf+Center/@35.0637457,-92.5180118,14z/data=!4m8!1m2!2m1!1sArkansas+Golf+Center!3m4!1s0x87cd7c5dc781d445:0x208a9bcc98bedc5f!8m2!3d35.0637457!4d-92.5180118",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJRdSBx118zYcRX9y-mMybiiA",
+  "email": "staff@arkansasgolfcenter.com",
+  "venue_type": "retail_fitting_center",
+  "about": "Arkansas Golf Center is a comprehensive golf facility offering a mix of retail, practice, and instructional services. The venue features a 7,000 sq ft golf store, a 25-acre outdoor real grass driving range, and multiple indoor simulator and fitting bays equipped with premium launch monitor technology. It provides club fittings, lessons, repairs, and custom club building services. The facility operates with weekday and weekend hours and uses advanced Trackman, Flightscope, and Foresight GC Quad systems for fittings and lessons.",
+  "tags": "beginner_friendly|serious_golfers|families|juniors_youth|club_rentals|coaching_available|premium_tech|pro_shop|club_fitting",
+  "vibe_tags": "tech_lab|community_club|modern|welcoming",
+  "who_its_for": "beginners|serious_golfers|families|juniors_youth|coaches_instructors",
+  "why_golfers_like_it": [
+    "Premium launch monitor technology including Trackman 4, Flightscope X3, and Foresight GC Quad",
+    "Comprehensive indoor and outdoor practice facilities including a 25-acre real grass driving range",
+    "Award-winning club fitting services with 17 years of experience and 40,000 clubhead options",
+    "Climate-controlled indoor simulator and fitting rooms year-round",
+    "Flexible booking for fittings, lessons, and simulator bays"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "Primary launch monitor for fittings and lessons"
+    },
+    {
+      "brand": "Flightscope",
+      "model": "X3",
+      "notes": "Secondary launch monitor used with Trackman"
+    },
+    {
+      "brand": "Foresight",
+      "model": "GC Quad",
+      "notes": "Photometric launch monitor used for fittings"
+    }
+  ],
+  "simulator_software": [
+    "TopTracer"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://bookedin.com/book/arkansas-golf-center",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 3,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|pro_shop|club_fitting|coaching_available|indoor_facilities|outdoor_range|launch_monitor|climate_control|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, Arkansas Golf Center provides thousands of demo clubs for use during fittings and practice sessions. They also have a full pro shop with club rentals available."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No outside food or drinks are mentioned as being permitted. The facility focuses on golf services and does not appear to have a food and beverage service."
+    },
+    {
+      "question": "How long does it take to play 18 holes on the simulator?",
+      "answer": "This information is not explicitly stated in the provided content. Simulator play times are typically 1-2 hours for 18 holes depending on the software and player pace."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Arkansas Golf Center offers junior golf programs and services, making it suitable for families and young golfers. They specifically mention junior golf as one of their services."
+    }
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"9AM-7PM\"], \"Tuesday\": [\"9AM-7PM\"], \"Wednesday\": [\"9AM-7PM\"], \"Thursday\": [\"9AM-7PM\"], \"Friday\": [\"9AM-7PM\"], \"Saturday\": [\"9AM-7PM\"], \"Sunday\": [\"12-7PM\"]}"
+}

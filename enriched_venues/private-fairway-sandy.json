@@ -1,0 +1,91 @@
+{
+  "name": "Private Fairway Sandy",
+  "address": "8665 Highland Dr, Sandy, UT 84093",
+  "city": "Sandy",
+  "region": "Utah",
+  "country": "US",
+  "latitude": 40.592791,
+  "longitude": -111.830598,
+  "phone": "+18017973335",
+  "website": "http://sandy.privatefairway.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770205987/golf_simulators/sandy_privatefairway_com_ChIJ7T2ZbsNjUocRms-zqvvDiSY.png",
+  "google_maps_url": "https://www.google.com/maps/place/Private+Fairway+Sandy/@40.5927911,-111.8305982,14z/data=!4m8!1m2!2m1!1sPrivate+Fairway+Sandy!3m4!1s0x875263c36e993ded:0x2689c3fbaab3cf9a!8m2!3d40.5927911!4d-111.8305982",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ7T2ZbsNjUocRms-zqvvDiSY",
+  "email": "info@privatefairway.com",
+  "venue_type": "private_rental",
+  "about": "Private Fairway Sandy is an indoor golf studio featuring TrackMan 4 technology, providing a private and comprehensive golf simulation experience. The venue offers unlimited access for monthly members and punch pass options, with a limit of 35 members per location to ensure availability. Each session is 50 minutes long, and members benefit from detailed swing analysis using 26 data points. The facility is designed for serious golfers looking to improve their game, with amenities including a large putting green, TV, music, and Wi-Fi in a private bay setting. The process to join involves an orientation video, digital agreement signing, and receiving a key fob for 24/7 access.",
+  "tags": "serious_golfers|private_rooms|premium_tech|coaching_available|club_rentals|wifi",
+  "vibe_tags": "private_luxury|tech_lab|modern",
+  "who_its_for": "serious_golfers|solo_practice|coaches_instructors|low_handicap|families",
+  "why_golfers_like_it": [
+    "Complete privacy in a dedicated bay",
+    "TrackMan 4 technology provides detailed 26-point data analysis",
+    "Unlimited access with flexible membership options",
+    "Proven handicap reduction of 6-10 strokes per season",
+    "24/7 availability with key fob access"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No on-site food service; members can order from DoorDash"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol served on-site; BYOB policy not explicitly mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "Premium launch monitor with 26 data points, used by PGA Tour"
+    }
+  ],
+  "simulator_software": [
+    "TrackMan Golf"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 1,
+  "booking_url": "https://www.sandy.privatefairway.com/book-online",
+  "pricing_model": "mixed",
+  "price_range_min_local": 25,
+  "price_range_max_local": 150,
+  "currency": "USD",
+  "walk_ins_allowed": false,
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|tv_sports|private_party_room|wifi|pro_shop|putting_green",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, members are expected to bring their own clubs to use with the TrackMan simulator."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No on-site food or drink service is provided, but members can order from DoorDash to enjoy during their session."
+    },
+    {
+      "question": "How long does an 18-hole round take?",
+      "answer": "An 18-hole round typically takes approximately 2-3 hours depending on the course and player pace."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is kid-friendly as it offers a private environment where families can practice and play together."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"6AM-10PM\"], \"Tuesday\": [\"6AM-10PM\"], \"Wednesday\": [\"6AM-10PM\"], \"Thursday\": [\"6AM-10PM\"], \"Friday\": [\"6AM-10PM\"], \"Saturday\": [\"6AM-10PM\"], \"Sunday\": [\"Closed\"]}"
+}

@@ -1,0 +1,92 @@
+{
+  "name": "Drive Shack",
+  "address": "1647 Four Rings Dr, Richmond, VA 23233",
+  "city": "Richmond",
+  "region": "Virginia",
+  "country": "US",
+  "latitude": 37.667976,
+  "longitude": -77.651864,
+  "phone": "+18047293778",
+  "website": "https://www.driveshack.com/locations/richmond",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770206758/golf_simulators/www_driveshack_com_ChIJJ-gSkrNpsYkRY5eZttsCgvs.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Drive+Shack/@37.6679757,-77.6518643,14z/data=!4m8!1m2!2m1!1sDrive+Shack!3m4!1s0x89b169b39212e827:0xfb8202dbb6999763!8m2!3d37.6679757!4d-77.6518643",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJJ-gSkrNpsYkRY5eZttsCgvs",
+  "email": "Rectangle-113@2x-768x966.png",
+  "venue_type": "sim_bar",
+  "about": "Drive Shack Richmond is a high-tech golf entertainment venue located 20 minutes from downtown. It combines an interactive driving range with an upscale sports bar atmosphere, offering a blend of golf play, dining, and social experiences. The facility features climate-controlled bays, a rooftop terrace, and a full-service bar and restaurant, positioning itself as a comprehensive destination for both golf and social gatherings in the Richmond area.",
+  "tags": "food_and_drinks|date_night|corporate_events|beginner_friendly|premium_tech|group_events",
+  "vibe_tags": "upscale_lounge|sports_bar|tech_lab|party_atmosphere",
+  "who_its_for": "beginners|families|corporate_teams|large_groups|tourists_travelers",
+  "why_golfers_like_it": [
+    "Climate-controlled, all-weather hitting bays",
+    "Interactive golf games and multiple course simulations",
+    "Upscale dining and full bar experience",
+    "Rooftop terrace and lounge areas for socializing",
+    "TrackMan technology for accurate shot tracking"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full-service kitchen with a chef-inspired menu available"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with craft drinks and cocktails served"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Premium launch monitor technology for accurate ball and club tracking"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://www.exploretock.com/puttery-driveshack-richmond",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 25,
+  "price_range_max_local": 50,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|kitchen_food|tv_sports|private_party_room|wifi|rooftop_terrace",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.5,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "Club rentals are not explicitly mentioned, but the venue provides golf clubs for use in the bays as part of the experience."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No, outside food and drinks are not permitted as the venue has its own full-service kitchen and bar."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "18-hole simulation times vary depending on the course and number of players, but typical sessions last 1-2 hours per bay."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Drive Shack is family-friendly with a Puttery mini-golf section available, though the main golf bays are geared toward adults."
+    }
+  ],
+  "simulator_software": [
+    "TrackMan"
+  ],
+  "rating_overall": 4.4,
+  "opening_hours": "{\"Monday\": [\"5-10PM\"], \"Tuesday\": [\"12-10PM\"], \"Wednesday\": [\"12-10PM\"], \"Thursday\": [\"12-10PM\"], \"Friday\": [\"12PM-12AM\"], \"Saturday\": [\"10AM-12AM\"], \"Sunday\": [\"10AM-10PM\"]}"
+}

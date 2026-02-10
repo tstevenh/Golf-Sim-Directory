@@ -1,0 +1,89 @@
+{
+  "name": "Normanside Country Club",
+  "address": "150 Salisbury Rd, Delmar, NY 12054",
+  "city": "Delmar",
+  "region": "New York",
+  "country": "US",
+  "latitude": 42.639228,
+  "longitude": -73.820592,
+  "phone": "+15184394505",
+  "website": "https://www.normanside.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770222302/golf_simulators/www_normanside_com_ChIJC88Hfp8K3okR8qVuyRBmcFk.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Normanside+Country+Club/@42.639227899999995,-73.8205918,14z/data=!4m8!1m2!2m1!1sNormanside+Country+Club!3m4!1s0x89de0a9f7e07cf0b:0x59706610c96ea5f2!8m2!3d42.639227899999995!4d-73.8205918",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJC88Hfp8K3okR8qVuyRBmcFk",
+  "email": "robbie@normanside.com",
+  "venue_type": "country_club",
+  "about": "Normanside Country Club is a private country club located in Delmar, NY, that offers a range of amenities including a championship golf course, dining facilities, and indoor golf simulator bays equipped with Trackman technology. The venue provides public access to its restaurant and golf simulator experiences, with packages available for non-members. The facility features various event spaces for weddings and private gatherings, alongside a pro shop for club fittings and retail. Normanside positions itself as a community-focused establishment with premium facilities for both on-course and off-course golf activities.",
+  "tags": "food_and_drinks|corporate_events|private_rooms|club_rentals|coaching_available|premium_tech|family_friendly",
+  "vibe_tags": "community_club|upscale_lounge|private_luxury",
+  "who_its_for": "serious_golfers|families|corporate_teams|solo_practice|coaches_instructors",
+  "why_golfers_like_it": [
+    "Industry-leading Trackman technology provides detailed shot analytics and course simulation",
+    "Flexible booking options with 10-hour and 20-hour simulator packages",
+    "Combines golf practice with premium dining and event amenities in one location"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full restaurant service with public dining and separate catering menus available"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service with drink menu available on premises"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Professional-grade launch monitors with radar tracking technology"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://checkout.square.site/buy/C2ULTRSP2IPMQ3IM7SRMX5PF",
+  "pricing_model": "package",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|pro_shop|club_fitting|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own golf clubs?",
+      "answer": "Yes, players are expected to bring their own golf clubs for simulator sessions, as club rentals are not mentioned in the available information."
+    },
+    {
+      "question": "Can I bring outside food or drinks?",
+      "answer": "The venue has a full restaurant and bar service available to the public, suggesting that outside food and drinks may not be permitted, but this should be confirmed directly with the venue."
+    },
+    {
+      "question": "How long does it take to play 18 holes on the simulator?",
+      "answer": "The time required to play 18 holes on the simulator is not specified in the provided information, but typical simulator rounds range from 1-2 hours depending on pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Normanside Country Club appears to be family-friendly with wedding services, family dining options, and various community events mentioned throughout the website."
+    }
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"11:30AM-8PM\"], \"Wednesday\": [\"11:30AM-8PM\"], \"Thursday\": [\"11:30AM-8PM\"], \"Friday\": [\"11AM-8:30PM\"], \"Saturday\": [\"11AM-8:30PM\"], \"Sunday\": [\"12-5:30PM\"]}"
+}

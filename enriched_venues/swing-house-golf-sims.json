@@ -1,0 +1,91 @@
+{
+  "name": "Swing House Golf Sims",
+  "address": "101 County Rd 120 Suite 200, St Cloud, MN 56303",
+  "city": "St Cloud",
+  "region": "Minnesota",
+  "country": "US",
+  "latitude": 45.592794,
+  "longitude": -94.192029,
+  "phone": "+13204602588",
+  "website": "http://www.swinghousegolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770212086/golf_simulators/www_swinghousegolf_com_ChIJMXhto3pftFIRYc38uxgMh6o.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Swing+House+Golf+Sims/@45.5927942,-94.19202849999999,14z/data=!4m8!1m2!2m1!1sSwing+House+Golf+Sims!3m4!1s0x52b45f7aa36d7831:0xaa870c18bbfccd61!8m2!3d45.5927942!4d-94.19202849999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJMXhto3pftFIRYc38uxgMh6o",
+  "email": "TheGuys@SwingHouseGolf.com",
+  "venue_type": "sim_bar",
+  "about": "Swing House Golf Sims is an indoor golf simulator venue in St. Cloud, Minnesota. It features private bays equipped with Trackman iO technology, offering access to over 325 virtual courses and 53 tour venues. The facility is open 24/7 and allows for booking by the hour, with non-members paying $55 per hour. Memberships are available for those looking to plan further in advance and reduce per-play costs. It is a locally owned and operated business that provides a space for solo practice, group play, and special events.",
+  "tags": "serious_golfers|food_and_drinks|corporate_events|leagues|premium_tech|private_rooms|club_rentals|coaching_available",
+  "vibe_tags": "casual|welcoming|modern",
+  "who_its_for": "serious_golfers|corporate_teams|solo_practice|families",
+  "why_golfers_like_it": [
+    "Premium Trackman iO technology provides detailed swing and ball data",
+    "24/7 availability allows for flexible practice and play times",
+    "Private bays offer a comfortable space for solo or group sessions",
+    "Access to over 325 world-famous golf courses and 53 tour venues"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Bring your own food policy. No cooking facilities available."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Bring your own beverage policy. No on-site bar or alcohol sales."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Radar technology capturing up to 1,000 data points per second."
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://yourgolfbooking.com/venues/swing-house-golf-sims/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 30,
+  "price_range_max_local": 3600,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|wifi|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own golf clubs?",
+      "answer": "Yes, you must bring your own golf clubs to use the simulators."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, Swing House has a bring your own food and beverage policy. Guests are expected to leave the space clean, taking all trash and personal belongings with them."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "The time to play 18 holes can vary based on group size and pace, but a typical session for a group of 4 can take approximately 2-3 hours."
+    },
+    {
+      "question": "Is Swing House kid-friendly?",
+      "answer": "Yes, the venue allows for guests to bring up to 3 additional people to their reservation at no extra cost, making it suitable for families and groups of various sizes."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

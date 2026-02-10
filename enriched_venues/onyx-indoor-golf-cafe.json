@@ -1,0 +1,92 @@
+{
+  "name": "Onyx Indoor Golf & Cafe",
+  "address": "20996 Bake Pkwy # 106, Lake Forest, CA 92630",
+  "city": "Lake Forest",
+  "region": "California",
+  "country": "US",
+  "latitude": 33.657588,
+  "longitude": -117.70014,
+  "phone": "+19493937820",
+  "website": "http://onyxgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770229155/golf_simulators/onyxgolf_com_ChIJHddBlR_p3IARSq_pTaoGnaE.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Onyx+Indoor+Golf+%26+Cafe/@33.6575877,-117.7001403,14z/data=!4m8!1m2!2m1!1sOnyx+Indoor+Golf+%26+Cafe!3m4!1s0x80dce91f9541d71d:0xa19d06aa4de9af4a!8m2!3d33.6575877!4d-117.7001403",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJHddBlR_p3IARSq_pTaoGnaE",
+  "email": "info@onyxgolf.com",
+  "venue_type": "sim_bar",
+  "about": "Onyx Golf is a premier, PGA-staffed indoor golf facility located in Lake Forest, California. The venue utilizes Trackman Simulator technology to provide golfers of all levels with precise swing analysis and performance feedback within a comfortable, climate-controlled environment. As an authorized Titleist fitting location, it offers professional club fittings and features WellPutt mats calibrated to simulate outdoor green speeds. Onyx Golf combines state-of-the-art technology with a full-service café and lounge, providing a comprehensive indoor golf experience that includes simulator play, practice, and equipment services.",
+  "tags": "food_and_drinks|serious_practice|beginner_friendly|corporate_events|club_rentals|private_rooms|coaching_available",
+  "vibe_tags": "upscale_lounge|tech_lab",
+  "who_its_for": "beginners|serious_golfers|corporate_teams|solo_practice|coaches_instructors",
+  "why_golfers_like_it": [
+    "Premium Trackman technology for precise swing and ball flight analysis",
+    "Professional Titleist club fittings for equipment tailored to your swing",
+    "Full-service café and lounge with food, coffee, draft beers, and wine",
+    "Realistic putting experience with WellPutt mats calibrated to outdoor green speeds",
+    "Climate-controlled environment for comfortable play year-round"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full-service kitchen offering a diverse selection of delectable foods including bakery items and classic menu options"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service with draft beers, selected wines, and cocktails"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Premium radar technology with integrated camera systems providing video overlays and detailed swing data"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": 9,
+  "booking_url": "https://www.onyxgolf.com/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|pro_shop|club_fitting",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.5,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Bringing your own clubs is recommended, but Titleist club rentals are available for $20 per hour, with men's, women's (left and right-handed), and junior sets."
+    },
+    {
+      "question": "Can I bring outside food or drinks?",
+      "answer": "No outside food or beverages are permitted on the premises. Onyx Golf offers a full kitchen and bar with a variety of beers, selected wines, and food."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time for 18 holes varies depending on simulator software and pace of play, but typical sessions range from 1-2 hours for full 18-hole rounds."
+    },
+    {
+      "question": "Is Onyx Golf kid-friendly?",
+      "answer": "While not specifically marketed as kid-friendly, Onyx Golf welcomes junior golfers with available junior club rentals and provides a comprehensive golfing experience suitable for various ages."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.4,
+  "opening_hours": "{\"Monday\": [\"8AM-9PM\"], \"Tuesday\": [\"8AM-9PM\"], \"Wednesday\": [\"8AM-9PM\"], \"Thursday\": [\"8AM-9PM\"], \"Friday\": [\"8AM-10PM\"], \"Saturday\": [\"8AM-10PM\"], \"Sunday\": [\"8AM-8PM\"]}"
+}

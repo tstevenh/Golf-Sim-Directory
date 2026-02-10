@@ -1,0 +1,91 @@
+{
+  "name": "Chip + Birdies - Indoor Virtual Golf Club",
+  "address": "187 Mill Ln, Mountainside, NJ 07092",
+  "city": "Mountainside",
+  "region": "New Jersey",
+  "country": "US",
+  "latitude": 40.681265,
+  "longitude": -74.338677,
+  "phone": "+19085434497",
+  "website": "https://www.chipandbirdies.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770208899/golf_simulators/www_chipandbirdies_com_ChIJQbnUgMWxw4kR2bKfyuwOUD8.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Chip+%2B+Birdie%E2%80%99s+-+Indoor+Virtual+Golf+Club/@40.6812654,-74.3386769,14z/data=!4m8!1m2!2m1!1sChip+%2B+Birdie%E2%80%99s+-+Indoor+Virtual+Golf+Club!3m4!1s0x89c3b1c580d4b941:0x3f500eecca9fb2d9!8m2!3d40.6812654!4d-74.3386769",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJQbnUgMWxw4kR2bKfyuwOUD8",
+  "email": "hello@chipandbirdies.com",
+  "venue_type": "multi_sport_sim",
+  "about": "Chip + Birdies is an indoor virtual golf club offering a year-round golfing experience with pro-level technology and a no-pressure environment. The facility features private bays equipped with advanced simulator technology, accommodating up to four players per bay. Pricing is structured with hourly bay rentals and bulk hour packages available for those seeking more practice time. The venue is designed for various groups including families, friends, and individuals looking to improve their game or enjoy casual play. It emphasizes a modern, accessible golf experience with zero hassle, welcoming all ages and skill levels.",
+  "tags": "beginner_friendly|kids_friendly|private_rooms|club_rentals|coaching_available|premium_tech|budget_friendly|family_friendly|leagues",
+  "vibe_tags": "tech_lab|casual|welcoming|modern",
+  "who_its_for": "beginners|families|large_groups|serious_golfers|solo_practice",
+  "why_golfers_like_it": [
+    "Advanced TRACKMAN technology provides accurate data and analysis for improving skills",
+    "Indoor environment allows for year-round golf regardless of weather conditions",
+    "Private bays ensure a focused and comfortable playing experience for groups of up to four",
+    "Flexible pricing options including bulk hour packages for frequent players",
+    "No-pressure, fun-focused atmosphere suitable for both casual and serious practice"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of on-site food service, BYOB policy not explicitly stated but not prohibited"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service or bar on premises"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "unknown",
+      "notes": "Mentioned as TRACKMAN Technology for ball tracking and analysis"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://yourgolfbooking.com/venues/chip-birdies/booking/bays",
+  "pricing_model": "mixed",
+  "price_range_min_local": 25,
+  "price_range_max_local": 40,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|wifi|pro_shop|leagues|coaching_available|private_rooms",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "Players are expected to bring their own clubs as there is no mention of club rentals."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "The venue does not have staff present and does not mention food or drink service, suggesting outside food and drink may be permissible."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Time for 18 holes is not specified, but each bay can accommodate a foursome and prices are quoted per hour, so play time depends on group size and pace."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue explicitly welcomes all ages, including first-timers, making it suitable for families and children."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"10AM-8PM\"], \"Tuesday\": [\"10AM-8PM\"], \"Wednesday\": [\"10AM-8PM\"], \"Thursday\": [\"10AM-8PM\"], \"Friday\": [\"10AM-9PM\"], \"Saturday\": [\"8AM-9PM\"], \"Sunday\": [\"8AM-8PM\"]}"
+}

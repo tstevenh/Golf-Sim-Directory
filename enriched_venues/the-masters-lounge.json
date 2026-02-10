@@ -1,0 +1,91 @@
+{
+  "name": "The Masters Lounge",
+  "address": "220 N Blackwelder Ave, Oklahoma City, OK 73106",
+  "city": "Oklahoma City",
+  "region": "Oklahoma",
+  "country": "US",
+  "latitude": 35.469738,
+  "longitude": -97.538785,
+  "phone": "+19115802046",
+  "website": "https://www.masterslounge.golf/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770209395/golf_simulators/www_masterslounge_golf_ChIJ_fL3SFYRsocRGdUXwGQMf7U.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Masters+Lounge/@35.4697385,-97.5387846,14z/data=!4m8!1m2!2m1!1sThe+Masters+Lounge!3m4!1s0x87b2115648f7f2fd:0xb57f0c64c017d519!8m2!3d35.4697385!4d-97.5387846",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ_fL3SFYRsocRGdUXwGQMf7U",
+  "email": "Membership@MastersLounge.golf",
+  "venue_type": "sim_bar",
+  "about": "The Masters Lounge is a private, upscale golf simulator venue located in Oklahoma City, OK. It offers a single, luxury Trackman suite designed for up to six golfers, providing an exclusive country club-like experience without the formal membership. The facility is accessible by keycode 17 hours daily, available for both hourly bookings and exclusive memberships. It combines luxury comfort with Trackman technology to create a premium environment for golf practice and play. The venue is automated with no staff, allowing for flexible, on-demand access to its high-end amenities and state-of-the-art equipment.",
+  "tags": "serious_golfers|food_and_drinks|premium_tech|private_rooms|corporate_events|date_night|club_rentals|late_night|coaching_available|solo_practice",
+  "vibe_tags": "private_luxury|tech_lab|upscale_lounge",
+  "who_its_for": "serious_golfers|corporate_teams|solo_practice|tourists_travelers|families",
+  "why_golfers_like_it": [
+    "Privacy with a private, no-staff Trackman suite for uninterrupted play",
+    "Advanced Trackman iO technology providing precise swing data and impact replay",
+    "Flexible access with 17 hours daily availability and no membership requirement for hourly bookings",
+    "BYOB policy allowing guests to bring their own food and drinks",
+    "Accommodates groups of up to 6 golfers at no extra cost"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Guests can bring their own food."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Guests can bring their own drinks; no in-house bar service mentioned."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Industry-leading radar technology with impact replay for detailed swing analysis"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 1,
+  "booking_url": "https://calendly.com/masterslounge",
+  "pricing_model": "mixed",
+  "price_range_min_local": 34.99,
+  "price_range_max_local": 49.99,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|private_party_room|wifi|tv_sports|lockers",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, golfers are required to bring their own clubs."
+    },
+    {
+      "question": "Can I bring food and drinks?",
+      "answer": "Yes, guests are encouraged to bring their own food and drinks."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes is not specified on the website."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "No, the venue is geared toward adults and is not marketed as kid-friendly."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"7AM-12AM\"], \"Tuesday\": [\"7AM-12AM\"], \"Wednesday\": [\"7AM-12AM\"], \"Thursday\": [\"7AM-12AM\"], \"Friday\": [\"7AM-12AM\"], \"Saturday\": [\"7AM-12AM\"], \"Sunday\": [\"7AM-12AM\"]}"
+}

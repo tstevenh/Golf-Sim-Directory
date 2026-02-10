@@ -1,0 +1,89 @@
+{
+  "name": "Par Lab Golf",
+  "address": "939 S 48th St Suite 208, Tempe, AZ 85281",
+  "city": "Tempe",
+  "region": "Arizona",
+  "country": "US",
+  "latitude": 33.419603,
+  "longitude": -111.976716,
+  "phone": "+14803827258",
+  "website": "https://www.parlab.golf/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770231268/golf_simulators/www_parlab_golf_ChIJtVBL72wPK4cRY8KZpEpC1lQ.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Par+Lab+Golf/@33.4196026,-111.97671589999999,14z/data=!4m8!1m2!2m1!1sPar+Lab+Golf!3m4!1s0x872b0f6cef4b50b5:0x54d6424aa499c263!8m2!3d33.4196026!4d-111.97671589999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJtVBL72wPK4cRY8KZpEpC1lQ",
+  "venue_type": "private_rental",
+  "about": "Par Lab is a membership-only golf simulator facility located in Tempe, Arizona. It offers a large private golf bay with advanced technology including the Uneekor EYE XO2 launch monitor and access to over 1,000 golf courses. The venue provides a climate-controlled environment for sharpening skills or enjoying the game, with features like two 75-inch screens and a near 1,000 sq ft space. Catering to golfers of all skill levels, Par Lab is positioned as a premier destination for both serious practice and social play, available for large groups.",
+  "tags": "serious_golfers|large_groups|private_rooms|coaching_available|premium_tech|corporate_events|food_and_drinks|upscale_lounge",
+  "vibe_tags": "private_luxury|tech_lab|modern|welcoming",
+  "who_its_for": "serious_golfers|large_groups|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Largest hitting area on the market with Uneekor EYE XO2 technology",
+    "Comprehensive Performance Optix Package with detailed club and ball data",
+    "24/7 access to a private, climate-controlled 1,000 sq ft golf bay",
+    "Over 1,000 virtual golf courses available for play"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Food available from local vendors; specific menu details not specified"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service on-site"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "EYE XO2",
+      "notes": "Three high-speed infrared cameras, largest hitting area on market"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "infrared_optical",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 1,
+  "booking_url": "https://app.birrdi.com/u/reserve?team_booking_link_id=par-lab&date=2024-06-15",
+  "pricing_model": "membership_only",
+  "price_range_min_local": 150,
+  "price_range_max_local": 150,
+  "currency": "USD",
+  "walk_ins_allowed": false,
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|tv_sports|private_party_room|wifi|pro_shop|club_fitting",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify whether club rentals are available, so it is recommended to bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Food is available from local vendors on-site, but there is no mention of being able to bring outside food or drinks."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify the approximate time required to play a full 18 holes."
+    },
+    {
+      "question": "Is Par Lab kid-friendly?",
+      "answer": "Par Lab is a private, membership-only facility focused on adult golfers and is not marketed as a kid-friendly venue."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

@@ -1,0 +1,89 @@
+{
+  "name": "The Clubhouse Hawaii",
+  "address": "820 W Hind Dr unit 102, Honolulu, HI 96821",
+  "city": "Honolulu",
+  "region": "Hawaii",
+  "country": "US",
+  "latitude": 21.279025,
+  "longitude": -157.754443,
+  "phone": "+18084255128",
+  "website": "http://clubhousehawai.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770231525/golf_simulators/clubhousehawai_com_ChIJ100hmCwTAHwRB7uFlO3-IXA.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Clubhouse+Hawaii/@21.2790249,-157.7544433,14z/data=!4m8!1m2!2m1!1sThe+Clubhouse+Hawaii!3m4!1s0x7c00132c98214dd7:0x7021feed9485bb07!8m2!3d21.2790249!4d-157.7544433",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ100hmCwTAHwRB7uFlO3-IXA",
+  "venue_type": "sim_bar|training_studio|retail_fitting_center",
+  "about": "The Clubhouse Hawaii is a comprehensive golf hub offering simulator play, club fitting, lessons, repairs, and retail sales. They utilize Trackman technology for their golf simulators, providing a premium experience for players looking to practice or play virtual golf. The venue also features club fitting services, putter fittings, golf lessons, and a build shop for repairs, making it a one-stop destination for golfers of all skill levels. Located in Honolulu, they operate daily with extended hours and offer additional amenities like darts and pinball for a social hangout experience.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|coaching_available|club_rentals|private_rooms|pro_shop",
+  "vibe_tags": "sports_bar|community_club|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Premium Trackman technology for accurate ball and club tracking",
+    "Comprehensive services including fitting, lessons, and repairs in one location",
+    "Social atmosphere with additional amenities like darts and pinball",
+    "Flexible booking options for individuals, groups, and leagues"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Available onsite with a full kitchen"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available on premises"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Premium radar-based launch monitor for accurate simulation"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://clients.uschedule.com/theclubhouse/booking?filter=ser[42334]",
+  "pricing_model": "per_bay_hour|membership_only",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|lockers|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can bring your own clubs or use equipment provided at the venue. They also offer club rentals and custom fitting services."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue has a full kitchen and bar, so outside food and drink may not be permitted. They offer food and beverages for purchase on site."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Typically, 18 holes on a simulator takes about 2-3 hours depending on the pace of play and number of players in your group."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, The Clubhouse Hawaii welcomes families and has activities suitable for kids including darts and pinball games."
+    }
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"9AM-9PM\"], \"Tuesday\": [\"9AM-9PM\"], \"Wednesday\": [\"9AM-9PM\"], \"Thursday\": [\"9AM-9PM\"], \"Friday\": [\"9AM-9PM\"], \"Saturday\": [\"9AM-9PM\"], \"Sunday\": [\"9AM-9PM\"]}"
+}

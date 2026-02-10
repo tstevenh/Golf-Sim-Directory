@@ -1,0 +1,90 @@
+{
+  "name": "Crushers Golf Lounge",
+  "address": "147 E 2580 S Unit C, St. George, UT 84790",
+  "city": "St. George",
+  "region": "Utah",
+  "country": "US",
+  "latitude": 37.063941,
+  "longitude": -113.580292,
+  "phone": "+14353594653",
+  "website": "https://www.crushersgolflounge.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770233406/golf_simulators/www_crushersgolflounge_com_ChIJF5qzWrlFyoARFYyEbl59WbY.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Crushers+Golf+Lounge/@37.063941299999996,-113.5802915,14z/data=!4m8!1m2!2m1!1sCrushers+Golf+Lounge!3m4!1s0x80ca45b95ab39a17:0xb6597d5e6e848c15!8m2!3d37.063941299999996!4d-113.5802915",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJF5qzWrlFyoARFYyEbl59WbY",
+  "email": "crushersgolflounge@gmail.com",
+  "venue_type": "sim_bar",
+  "about": "Crushers Golf Lounge is a virtual golf experience venue featuring over 400 courses accessible via TrackMan technology. It operates on a pay-to-play and membership model, offering hourly sessions for individuals and groups. The lounge provides a social atmosphere with a focus on both practice and entertainment, featuring a bar and coaching services. Booking is done online through TrackMan's system, with options for group events and private lessons.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|coaching_available|premium_tech|club_rentals",
+  "vibe_tags": "sports_bar|community_club|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Access to a vast library of over 400 virtual golf courses",
+    "Premium TrackMan launch monitor technology for accurate data",
+    "Social and relaxed sports bar atmosphere for a complete experience",
+    "Availability of professional coaching for skill improvement"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen available on-site"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Premium radar-based launch monitor technology"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://booking.trackmangolf.com/venues/crushers-golf-lounge/booking/bays",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Club rentals are available on-site if you do not have your own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Food and drinks are available for purchase at the on-site bar and kitchen."
+    },
+    {
+      "question": "How long does an 18-hole round take?",
+      "answer": "An 18-hole round typically takes 2-3 hours depending on the pace of play and group size."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Crushers Golf Lounge is a family-friendly venue that welcomes juniors and youth golfers."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

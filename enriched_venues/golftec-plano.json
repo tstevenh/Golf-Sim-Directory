@@ -1,0 +1,89 @@
+{
+  "name": "GOLFTEC Plano",
+  "address": "340 Coit Rd suite 600, Plano, TX 75075",
+  "city": "Plano",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 33.002312,
+  "longitude": -96.766869,
+  "phone": "+19723988000",
+  "website": "https://www.golftec.com/golf-lessons/plano%3Futm_source%3Dgmb%26utm_medium%3Dorganic%26utm_campaign%3Dplano",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770245999/golf_simulators/www_golftec_com_ChIJK5hbA-AYTIYR28X6NyRKWxo.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/GOLFTEC+Plano/@33.0023122,-96.7668691,14z/data=!4m8!1m2!2m1!1sGOLFTEC+Plano!3m4!1s0x864c18e0035b982b:0x1a5b4a2437fac5db!8m2!3d33.0023122!4d-96.7668691",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJK5hbA-AYTIYR28X6NyRKWxo",
+  "venue_type": "training_studio",
+  "about": "GOLFTEC provides indoor golf instruction, practice, and club fitting services using advanced technology like OPTIMOTION motion tracking and launch monitors. Their lessons are data-driven, utilizing high-speed video analysis to help golfers of all levels improve their swing. The facilities are designed for focused practice and personalized coaching, offering a range of services from beginner swing evaluations to advanced on-course improvement strategies.",
+  "tags": "beginner_friendly|serious_practice|coaching_available|premium_tech|juniors_youth",
+  "vibe_tags": "tech_lab|industrial_training|modern",
+  "who_its_for": "beginners|serious_golfers|juniors_youth|solo_practice",
+  "why_golfers_like_it": [
+    "Data-driven instruction using motion capture and launch monitor technology",
+    "Personalized improvement plans created by certified PGA coaches",
+    "Access to advanced practice bays with real-time swing feedback",
+    "Comprehensive club fitting services with data-driven optimization"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "unknown",
+      "notes": "Launch monitors used for club and ball tracking during lessons and fittings"
+    }
+  ],
+  "simulator_software": [
+    "OPTIMOTION"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.golftec.com/book-a-service",
+  "pricing_model": "mixed",
+  "price_range_min_local": 95,
+  "price_range_max_local": 150,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|pro_shop|club_fitting|wifi|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you should bring your own clubs, but GOLFTEC also offers club rentals and sells clubs from top brands if needed."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No outside food or drinks are mentioned as being allowed at GOLFTEC facilities."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Time varies depending on whether you're taking a lesson, practicing with a simulator, or getting fitted, but typical sessions range from 30-90 minutes."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "Yes, GOLFTEC offers junior programs and instruction for youth golfers, making it a suitable environment for kids learning the game."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"8AM-9PM\"], \"Tuesday\": [\"8AM-8PM\"], \"Wednesday\": [\"8AM-9PM\"], \"Thursday\": [\"8AM-9PM\"], \"Friday\": [\"8AM-7PM\"], \"Saturday\": [\"8AM-6PM\"], \"Sunday\": [\"8AM-5PM\"]}"
+}

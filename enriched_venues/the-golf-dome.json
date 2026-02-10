@@ -1,0 +1,95 @@
+{
+  "name": "The Golf Dome",
+  "address": "8198 E Washington St, Chagrin Falls, OH 44023",
+  "city": "Chagrin Falls",
+  "region": "Ohio",
+  "country": "US",
+  "latitude": 41.418888,
+  "longitude": -81.349298,
+  "phone": "+14405431211",
+  "website": "http://www.thegolfdome.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770216073/golf_simulators/www_thegolfdome_com_ChIJlSjMVp8aMYgRhBeciyx5pwM.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Golf+Dome/@41.4188877,-81.3492979,14z/data=!4m8!1m2!2m1!1sThe+Golf+Dome!3m4!1s0x88311a9f56cc2895:0x3a7792c8b9c1784!8m2!3d41.4188877!4d-81.3492979",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJlSjMVp8aMYgRhBeciyx5pwM",
+  "email": "info@thegolfdome.com",
+  "venue_type": "multi_sport_sim",
+  "about": "The Golf Dome is an indoor sports complex that combines golf simulation with other athletic offerings. The facility features an Indoor Golf Practice Center with 28 TopTracer Practice Range Studios and 3 TrackMan Studios, alongside a mini-golf course, batting cages, and a turf baseball field. It offers a range of services including individual and group golf lessons for juniors and adults, club fitting using TrackMan technology, fitness training, mental coaching, and event hosting for parties and camps. The venue provides a year-round environment for practice and play, with a focus on technology-enabled training through its simulator studios and fitting services. Pricing is based on hourly studio time, with options for daily rates and various membership levels that offer discounts on practice time, pro shop items, and advance booking privileges.",
+  "tags": "beginner_friendly|corporate_events|leagues|premium_tech|club_rentals|coaching_available|juniors_youth|families|multi_sport",
+  "vibe_tags": "industrial_training|community_club|family_fun_center|tech_lab",
+  "who_its_for": "beginners|serious_golfers|families|juniors_youth|corporate_teams",
+  "why_golfers_like_it": [
+    "Offers both TopTracer and high-end TrackMan simulator technology for advanced game analysis",
+    "Provides a comprehensive practice environment with year-round access to driving bays and putting areas",
+    "Features on-site PGA professionals for lessons, custom club fitting, and player development programs"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned on-site, but they offer gift cards that can be matched to lesson and membership packages"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "3 dedicated TrackMan Studios for advanced launch monitoring, fitting, and simulation"
+    },
+    {
+      "brand": "Toptracer",
+      "model": "Range",
+      "notes": "28 TopTracer Practice Range Studios available for hourly rental, suitable for single or shared use"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 31,
+  "booking_url": "https://clients.uschedule.com/thegolfdome/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 45,
+  "price_range_max_local": 65,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 3,
+  "max_group_size_per_bay": 2,
+  "amenities_list": "club_rentals|pro_shop|club_fitting|leagues|fitness_training|mental_coaching|parties",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "The Golf Dome expects you to bring your own clubs, as they do not mention any club rental service. They do offer a comprehensive club fitting service using their TrackMan Fitting Studio."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "The website does not mention any BYOB (Bring Your Own Beverage) policy or any food service. They do offer gift cards for purchase, but these appear to be for lessons, memberships, or pro shop items rather than for food or drink."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify the time required to complete 18 holes on their simulator. Given the hourly studio rental model, the time would depend on the number of players and the pace of play, with a half-hour minimum booking for TopTracer Studios."
+    },
+    {
+      "question": "Is The Golf Dome kid-friendly?",
+      "answer": "Yes, The Golf Dome is very kid-friendly, offering junior golf lessons, junior development programs, junior camps, and a dedicated winter junior tournament series. They also host summer sports camps and have facilities suitable for families and youth groups."
+    }
+  ],
+  "simulator_software": [
+    "TrackMan"
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"9AM-8PM\"], \"Tuesday\": [\"9AM-8PM\"], \"Wednesday\": [\"9AM-8PM\"], \"Thursday\": [\"9AM-8PM\"], \"Friday\": [\"9AM-8PM\"], \"Saturday\": [\"9AM-8PM\"], \"Sunday\": [\"9AM-6PM\"]}"
+}

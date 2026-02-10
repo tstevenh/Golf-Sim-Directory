@@ -1,0 +1,92 @@
+{
+  "name": "The Turn Golf Club",
+  "address": "726 12200 S Suite E, Draper, UT 84020",
+  "city": "Draper",
+  "region": "Utah",
+  "country": "US",
+  "latitude": 40.528455,
+  "longitude": -111.870739,
+  "phone": "+18013827336",
+  "website": "http://theturngolfclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770206059/golf_simulators/theturngolfclub_com_ChIJodmLAfWHUocRUDLyGN7KlXk.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Turn+Golf+Club/@40.5284555,-111.8707388,14z/data=!4m8!1m2!2m1!1sThe+Turn+Golf+Club!3m4!1s0x875287f5018bd9a1:0x7995cade18f23250!8m2!3d40.5284555!4d-111.8707388",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJodmLAfWHUocRUDLyGN7KlXk",
+  "email": "team@theturngolfclub.com",
+  "venue_type": "sim_bar|training_studio|private_rental|multi_sport_sim|other",
+  "about": "The Turn Golf Club is a state-of-the-art indoor golf facility that provides year-round golf experiences using Trackman simulators. It offers multiple spacious bays with 24/7 access for members, a focus on swing and impact analysis technology, and an extensive library of over 350 world-renowned courses. The facility caters to a range of skill levels from beginners to PGA professionals and includes coaching, physical therapy, and corporate event options. Membership plans start at $230 per month, providing unlimited access and the ability to book two tee times at once, with the option to bring guests.",
+  "tags": "serious_practice|food_and_drinks|corporate_events|leagues|premium_tech|coaching_available|private_rooms|club_rentals|late_night|beginner_friendly",
+  "vibe_tags": "private_luxury|upscale_lounge|modern|community_club",
+  "who_its_for": "serious_golfers|beginners|corporate_teams|families|solo_practice",
+  "why_golfers_like_it": [
+    "24/7 access with flexible booking for convenient play anytime",
+    "Premium Trackman technology with swing analysis on over 350 courses",
+    "Spacious, luxurious bays designed for both individual and group play"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Food option available at The Oak"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Premium radar-based launch monitor"
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 4,
+  "booking_url": "https://TheTurnGolfClub.as.me/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 50,
+  "price_range_max_local": 350,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 4,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|kitchen_food|tv_sports|private_party_room|leagues|coaching|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify club rental options. It is recommended to bring your own clubs for the best experience."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue offers food options at The Oak, but there is no mention of a BYOB policy for outside food or drinks."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not provide a specific time for completing 18 holes. Typically, simulator golf can take 2-3 hours depending on the group size and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The minimum age requirement for membership is 18, and there are no specific mentions of youth programs or family-friendly activities, indicating it is not primarily focused on children."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

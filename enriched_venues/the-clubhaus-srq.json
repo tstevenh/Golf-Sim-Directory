@@ -1,0 +1,91 @@
+{
+  "name": "The Clubhaus SRQ",
+  "address": "5355 McIntosh Rd UNIT B, Sarasota, FL 34233",
+  "city": "Sarasota",
+  "region": "Florida",
+  "country": "US",
+  "latitude": 27.273912,
+  "longitude": -82.480405,
+  "phone": "+19412120059",
+  "website": "https://www.tch.golf/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770221081/golf_simulators/www_tch_golf_ChIJp4TjdQ5Bw4gRWxBLUezinlg.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Clubhaus+SRQ/@27.2739117,-82.4804048,14z/data=!4m8!1m2!2m1!1sThe+Clubhaus+SRQ!3m4!1s0x88c3410e75e384a7:0x589ee2ec514b105b!8m2!3d27.2739117!4d-82.4804048",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJp4TjdQ5Bw4gRWxBLUezinlg",
+  "email": "info@tch.golf",
+  "venue_type": "sim_bar|training_studio|private_rental",
+  "about": "The Clubhaus SRQ is an indoor golf venue featuring three advanced GSPPro simulators with over a thousand virtual courses. It offers memberships, leagues, lessons from a PGA-certified instructor, and event rental space. The venue targets both golfers looking for practice and fun, and event planners seeking a unique space. Memberships include unlimited play, and non-members can participate in leagues, lessons, and rent the facility for events. The club provides a climate-controlled environment accessible year-round, with food and beverage options available.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|coaching_available|club_rentals|family_friendly",
+  "vibe_tags": "sports_bar|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Access to over 1,000 virtual golf courses on GSPPro simulators",
+    "Unlimited simulator play with membership for non-peak hours",
+    "PGA-certified instruction available for game improvement",
+    "Flexible event rental space with three simulators and TVs",
+    "Monthly leagues open to all skill levels, including non-members"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "A variety of snacks are available."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Beer, wine, and non-alcoholic beverages are served."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "GSPPro",
+      "model": "unknown",
+      "notes": "Three advanced golf simulators that capture swing details, ball speed, and shot accuracy."
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://www.tch.golf/contact",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 250,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|leagues|private_party_room|wifi|coaching_available",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not explicitly state if rental clubs are provided, but it is common for indoor facilities to offer club rentals. It is best to contact them directly to confirm."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The Clubhaus SRQ offers a variety of snacks, beer, wine, and non-alcoholic beverages on-site. Whether outside food and drink are permitted is not specified on the website."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "With GSPPro simulators, the time to play 18 holes is significantly reduced compared to a traditional round. A typical 18-hole round on an indoor simulator can be completed in under two hours, depending on the number of players."
+    },
+    {
+      "question": "Is The Clubhaus kid-friendly?",
+      "answer": "Yes, The Clubhaus SRQ offers family memberships that include children between the ages of 16-25, and the venue is suitable for various events, making it a family-friendly option."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"10AM-9PM\"], \"Tuesday\": [\"10AM-9PM\"], \"Wednesday\": [\"10AM-9PM\"], \"Thursday\": [\"10AM-9PM\"], \"Friday\": [\"10AM-5PM\"], \"Saturday\": [\"9AM-1PM\"], \"Sunday\": [\"9AM-1PM\"]}"
+}

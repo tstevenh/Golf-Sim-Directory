@@ -73,10 +73,6 @@
   box-sizing: border-box;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 body {
   font-family: 'Space Grotesk', system-ui, sans-serif;
   background-color: var(--bg-primary);

@@ -1,0 +1,90 @@
+{
+  "name": "Bulrush Golf Club",
+  "address": "605 Brookside Pkwy, Rush City, MN 55069",
+  "city": "Rush City",
+  "region": "Minnesota",
+  "country": "US",
+  "latitude": 45.682182,
+  "longitude": -92.993126,
+  "phone": "+13203581050",
+  "website": "http://www.bulrushgolfclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770270206/golf_simulators/www_bulrushgolfclub_com_ChIJ_yV6d4laslIRcMlrWqW467s.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Bulrush+Golf+Club/@45.6821823,-92.9931259,14z/data=!4m8!1m2!2m1!1sBulrush+Golf+Club!3m4!1s0x52b25a89777a25ff:0xbbebb8a55a6bc970!8m2!3d45.6821823!4d-92.9931259",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ_yV6d4laslIRcMlrWqW467s",
+  "email": "mike.olson@bulrushgc.com",
+  "venue_type": "sim_bar|country_club",
+  "about": "Bulrush Golf Club offers a dual experience of traditional golf and indoor simulator play. The venue features a full 18-hole golf course and a dedicated Simulator Golf Lounge, allowing for year-round golf regardless of weather. The club provides a comfortable atmosphere at Rush Hour Bar & Grill, with additional offerings including leagues, lessons, and group events. It caters to both serious golfers and casual players seeking a social environment to enjoy the game.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|coaching_available|casual_golf|date_night",
+  "vibe_tags": "community_club|casual|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Indoor simulators provide golf access during winter months",
+    "Wide range of amenities including full bar and grill food service",
+    "Mobile app allows for easy booking and reservation management"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Available at Rush Hour Bar & Grill with kitchen hours 11AM – 9PM everyday"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available at Rush Hour Bar & Grill"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Premium radar-based launch monitor providing detailed ball and club data"
+    }
+  ],
+  "simulator_software": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://the-golf-lounge-at-bulrush-golf-club.book.teeitup.com/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "Yes, players should bring their own golf clubs to use in the simulators. The venue does not provide club rentals."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "No, outside food and drink are not allowed. Rush Hour Bar & Grill is available with full kitchen and bar service during operating hours."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "Standard 18-hole rounds typically take about 1-2 hours to complete in the simulator bays depending on pace of play and number of players per bay."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Bulrush Golf Club is family-friendly and welcomes junior golfers. The venue offers a welcoming atmosphere suitable for families and children."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"7AM-10PM\"], \"Tuesday\": [\"7AM-10PM\"], \"Wednesday\": [\"7AM-10PM\"], \"Thursday\": [\"7AM-10PM\"], \"Friday\": [\"7AM-10PM\"], \"Saturday\": [\"7AM-10PM\"], \"Sunday\": [\"7AM-10PM\"]}"
+}

@@ -1,0 +1,84 @@
+{
+  "name": "WinterStone Golf Course",
+  "address": "17101 E Kentucky Rd, Independence, MO 64058",
+  "city": "Independence",
+  "region": "Missouri",
+  "country": "US",
+  "latitude": 39.127167,
+  "longitude": -94.377274,
+  "phone": "+18162575755",
+  "website": "http://www.winterstonegolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770253060/golf_simulators/www_winterstonegolf_com_ChIJudYlm24CwYcRkhO89T6WtDc.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/WinterStone+Golf+Course/@39.1271667,-94.3772735,14z/data=!4m8!1m2!2m1!1sWinterStone+Golf+Course!3m4!1s0x87c1026e9b25d6b9:0x37b4963ef5bc1392!8m2!3d39.1271667!4d-94.3772735",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJudYlm24CwYcRkhO89T6WtDc",
+  "email": "staff@winterstonegolf.com",
+  "venue_type": "country_club",
+  "about": "WinterStone Golf Course is a public facility in Independence, Missouri, opened in 2003 on a former limestone mine site. The course is designed to provide an Ozarks-like feel with significant elevation changes, towering trees, lakes, and creeks. Managed by Orion Management, the venue offers traditional golf play, a pavilion for events, and various leagues and tournaments. The facility also provides lessons from a Class-A PGA instructor and opportunities for membership.",
+  "tags": "beginner_friendly|leagues|corporate_events|juniors_youth|coaching_available|food_and_drinks|family_friendly|country_club",
+  "vibe_tags": "community_club|family_fun_center|welcoming",
+  "who_its_for": "beginners|serious_golfers|families|juniors_youth|corporate_teams",
+  "why_golfers_like_it": [
+    "Scenic Ozarks-style course with elevation changes and natural hazards",
+    "Variety of leagues, tournaments, and events for different skill levels",
+    "On-site PGA instruction available for all skill levels",
+    "The Pavilion available for hosting weddings and other events"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Available for events and at The Pavilion"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Available for events, with green beer mentioned for St. Patrick's Scramble"
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": "unknown",
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": null,
+  "booking_url": "http://www.winterstonegolf.com/TeeTimes",
+  "pricing_model": "per_person_hour",
+  "price_range_min_local": 49,
+  "price_range_max_local": null,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": null,
+  "max_group_size_per_bay": null,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|pro_shop|leagues|ada_accessible|golf_simulator",
+  "rating_tech_quality": 4.0,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "The venue offers a Club Repair Program, suggesting players can bring their own clubs. It's not explicitly stated if rentals are available."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "Food and drink are available for events at The Pavilion. The St. Patrick's Scramble mentions green beer, suggesting alcohol is available for events."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not provide a specific time for playing 18 holes."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, WinterStone offers junior camps and is a family-oriented venue with events that can be enjoyed by all ages."
+    }
+  ],
+  "rating_overall": 4.0,
+  "opening_hours": "{\"Monday\": [\"7AM-7:30PM\"], \"Tuesday\": [\"7AM-7:30PM\"], \"Wednesday\": [\"7AM-7:30PM\"], \"Thursday\": [\"7AM-7:30PM\"], \"Friday\": [\"7AM-7PM\"], \"Saturday\": [\"7AM-7PM\"], \"Sunday\": [\"7AM-7PM\"]}"
+}

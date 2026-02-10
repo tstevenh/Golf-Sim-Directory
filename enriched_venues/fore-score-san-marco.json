@@ -1,0 +1,95 @@
+{
+  "name": "Fore Score San Marco",
+  "address": "1407 Atlantic Blvd, Jacksonville, FL 32207",
+  "city": "Jacksonville",
+  "region": "Florida",
+  "country": "US",
+  "latitude": 30.304613,
+  "longitude": -81.65448,
+  "phone": "+19043748851",
+  "website": "http://forescoregolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770243984/golf_simulators/forescoregolf_com_ChIJywButVS35YgRVY961ezhPvY.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Fore+Score+San+Marco/@30.304613399999997,-81.6544797,14z/data=!4m8!1m2!2m1!1sFore+Score+San+Marco!3m4!1s0x88e5b754b56e00cb:0xf63ee1ecd57a8f55!8m2!3d30.304613399999997!4d-81.6544797",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJywButVS35YgRVY961ezhPvY",
+  "email": "membership@forescoregolf.com",
+  "venue_type": "sim_bar",
+  "about": "Fore Score Golf San Marco is a premier golf simulator sports bar and restaurant that combines golf, food, and drink under one roof. The venue operates two locations in Jacksonville, Florida, featuring Full Swing Golf Simulators, an industry leader in simulator technology. Bay reservations are available by the hour, with bays assigned at the time of booking. The venue also hosts private events and offers multiple membership tiers, providing benefits like discounted rates and free play hours. It features a full bar and an elevated fast-casual menu, making it a destination for both golfers and social gatherings.",
+  "tags": "food_and_drinks|corporate_events|leagues|premium_tech|private_rooms|club_rentals|family_friendly|beginner_friendly|date_night",
+  "vibe_tags": "sports_bar|family_fun_center|community_club|welcoming",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|large_groups",
+  "why_golfers_like_it": [
+    "Industry-leading Full Swing simulator technology",
+    "Multiple golf courses and games available for play",
+    "All-day happy hour and food options available",
+    "Flexible booking with 1.5 hours for 18 holes",
+    "Option to practice or play non-golf sports like soccer and basketball"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Elevated fast-casual menu available"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with an inviting atmosphere for hanging out"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Full Swing",
+      "model": "Full Swing Golf Simulator",
+      "notes": "Industry leader, 4 at San Marco location, 6 at Gate Parkway"
+    }
+  ],
+  "simulator_so": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 10,
+  "booking_url": "https://www.forescoregolf.com/book-online",
+  "pricing_model": "per_bay_hour|membership_only",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 8,
+  "amenities_list": "full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues|ada_accessible",
+  "rating_tech_quality": 4.7,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "No, the venue provides clubs and sporting equipment, or you are welcome to bring your own."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, outside food and drinks are not allowed. The venue has a full bar and an elevated fast-casual menu."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "It takes an average golfer roughly an hour and a half to play 18 holes."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is a family-friendly hangout where families can make exciting memories."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"11AM-11PM\"], \"Tuesday\": [\"11AM-11PM\"], \"Wednesday\": [\"11AM-11PM\"], \"Thursday\": [\"11AM-11PM\"], \"Friday\": [\"11AM-12AM\"], \"Saturday\": [\"11AM-12AM\"], \"Sunday\": [\"11AM-11PM\"]}"
+}

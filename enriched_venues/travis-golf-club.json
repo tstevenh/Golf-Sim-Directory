@@ -1,0 +1,93 @@
+{
+  "name": "Travis Golf Club",
+  "address": "405 N St Mary's St #222, San Antonio, TX 78205",
+  "city": "San Antonio",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 29.427833,
+  "longitude": -98.491606,
+  "phone": "+13342217659",
+  "website": "https://www.travisgolfclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770224238/golf_simulators/www_travisgolfclub_com_ChIJszEsYyBfXIYRVAaDkkx4YJM.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Travis+Golf+Club/@29.427833,-98.49160549999999,14z/data=!4m8!1m2!2m1!1sTravis+Golf+Club!3m4!1s0x865c5f20632c31b3:0x9360784c92830654!8m2!3d29.427833!4d-98.49160549999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJszEsYyBfXIYRVAaDkkx4YJM",
+  "email": "info@travisgolfclub.com",
+  "venue_type": "sim_bar",
+  "about": "Travis Golf Club is a premier indoor golf destination located within the luxurious Travis Building in downtown San Antonio. It features state-of-the-art Full Swing Pro 2.0 simulators, which utilize infrared tracking technology and blue light LEDs for fast and accurate ball tracking. The club offers flexible membership options for both individual and corporate clients, with various session packages and add-ons like liquor lockers and gym access. It is positioned as an exclusive, upscale indoor golf experience tailored to golfers of all levels.",
+  "tags": "food_and_drinks|serious_golfers|corporate_events|premium_tech|club_rentals|date_night|private_rooms|upscale|downtown",
+  "vibe_tags": "upscale_lounge|private_luxury|tech_lab|modern",
+  "who_its_for": "serious_golfers|corporate_teams|solo_practice|tourists_travelers|low_handicap",
+  "why_golfers_like_it": [
+    "Trusted by PGA Tour professionals like Tiger Woods and Jordan Spieth",
+    "Fastest and most accurate indoor ball-tracking technology in the industry",
+    "Flexible membership plans with exclusive benefits and discounts for annual payments",
+    "Complimentary liquor lockers included with annual memberships"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "BYOB allowed, as liquor lockers can be rented"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Liquor lockers are a complimentary perk for annual members and can be purchased as add-ons"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Full Swing",
+      "model": "Pro 2.0 Simulator",
+      "notes": "Features infrared tracking technology and blue light LEDs in a compact, durable housing for maximum accuracy and speed"
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "infrared_optical",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://clients.uschedule.com/travisgolfclub/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 199,
+  "price_range_max_local": 599,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|full_bar|lockers|wifi|pro_shop|leagues|private_party_room|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue is an indoor golf simulator, so you will need to bring your own golf clubs to use on the simulator systems."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, the club operates on a BYOB (Bring Your Own Beverage) policy. Liquor lockers are available for rent, providing a secure space for members to store their personal alcohol."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Playing 18 holes on a simulator typically takes between 1.5 to 2.5 hours, depending on the simulator software and the pace of play of the group."
+    },
+    {
+      "question": "Is Travis Golf Club kid-friendly?",
+      "answer": "No, Travis Golf Club is a private, adult-oriented venue focused on providing an upscale golfing experience for individuals and corporate teams. It does not cater to children or families."
+    }
+  ],
+  "simulator_software": [
+    "Full Swing Pro 2.0"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": null
+}

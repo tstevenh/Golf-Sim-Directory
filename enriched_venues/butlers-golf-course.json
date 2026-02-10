@@ -1,0 +1,89 @@
+{
+  "name": "Butler's Golf Course",
+  "address": "800 Rock Run Rd, Elizabeth, PA 15037",
+  "city": "Elizabeth",
+  "region": "Pennsylvania",
+  "country": "US",
+  "latitude": 40.26765,
+  "longitude": -79.812621,
+  "phone": "+14127519121",
+  "website": "http://www.butlersgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770217158/golf_simulators/www_butlersgolf_com_ChIJmZyP3cjmNIgR-E1G0D3qa8Y.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Butler%27s+Golf+Course/@40.2676496,-79.8126214,14z/data=!4m8!1m2!2m1!1sButler%27s+Golf+Course!3m4!1s0x8834e6c8dd8f9c99:0xc66bea3dd0464df8!8m2!3d40.2676496!4d-79.8126214",
+  "google_rating": 4.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJmZyP3cjmNIgR-E1G0D3qa8Y",
+  "email": "info@butlersgolf.com",
+  "venue_type": "multi_sport_sim",
+  "about": "Butler's Golf Course is a multi-sport facility featuring 36 holes of championship golf in Elizabeth, PA, near Pittsburgh. The venue includes an indoor golf simulator space called 'The Loft,' equipped with 3 HD simulators, and offers a full-service restaurant, The Rock Run Inn. It caters to golfers of all skill levels with lessons, club fittings, and is also available for hosting outings, banquets, and other events. The facility also offers a bed and stay option, 'The John Butler House,' which accommodates up to eight guests.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|coaching_available|kids_friendly|premium_tech|family_fun_center|large_groups",
+  "vibe_tags": "casual|welcoming|modern|family_fun_center",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "Multiple high-definition simulators for year-round play",
+    "On-site restaurant with a full bar and diverse menu",
+    "Variety of practice and playing options with lessons, fittings, and 36-hole course access"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "The Rock Run Inn offers a diverse menu, weekly specials, and both take-out and dine-in options, open to golfers and non-golfers."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "The Rock Run Inn is described as a 'go-to destination' and a full bar is available for simulator use."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "unknown",
+      "model": "HD Simulator",
+      "notes": "Content describes '3 cutting-edge simulators' but does not specify the brand or model."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://butlers.hdgolf.com/",
+  "pricing_model": "mixed",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|kitchen_food|club_fitting|leagues|private_party_room|pro_shop",
+  "rating_tech_quality": 4.2,
+  "rating_facility_comfort": 4.1,
+  "rating_value_for_money": 4.1,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The content does not explicitly state whether you can use their clubs or must bring your own, but it mentions club fittings and a pro shop, implying you can bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "No, the facility has an on-site restaurant, The Rock Run Inn, which offers a full bar and diverse menu. BYOB policies are not mentioned."
+    },
+    {
+      "question": "How long does it take to play 18 holes on a simulator?",
+      "answer": "The content does not specify a standard time for an 18-hole simulator round."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "Yes, Butler's Golf Course welcomes junior golfers, offers Junior Golf programs, and the John Butler House is suitable for families, making it a kid-friendly venue."
+    }
+  ],
+  "rating_overall": 4.1,
+  "opening_hours": null
+}

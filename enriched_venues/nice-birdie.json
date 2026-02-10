@@ -1,0 +1,91 @@
+{
+  "name": "Nice Birdie",
+  "address": "20820 Park Row Blvd, Katy, TX 77449",
+  "city": "Katy",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 29.79271,
+  "longitude": -95.742327,
+  "phone": "+12819449791",
+  "website": "https://www.nicebirdietexas.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770209620/golf_simulators/www_nicebirdietexas_com_ChIJtzuIjNQnQYYRQ-gOa-YGi0M.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Nice+Birdie/@29.792709499999997,-95.7423266,14z/data=!4m8!1m2!2m1!1sNice+Birdie!3m4!1s0x864127d48c883bb7:0x438b06e66b0ee843!8m2!3d29.792709499999997!4d-95.7423266",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJtzuIjNQnQYYRQ-gOa-YGi0M",
+  "email": "nicebirdie20820@gmail.com",
+  "venue_type": "sim_bar|training_studio",
+  "about": "Nice Birdie is an indoor golf facility combining simulator technology with a bar and food service. The venue features 6 simulator bays, each accommodating up to 6 guests, with hourly pricing for bay rentals. A key focus is on providing data-rich practice sessions and access to over 180 virtual golf courses. The facility also offers memberships for regular practice and group event hosting for birthdays, corporate outings, and team events. Instruction is available through their NB Golf Academy program.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|coaching_available|premium_tech|family_friendly",
+  "vibe_tags": "casual|welcoming|modern|sports_bar",
+  "who_its_for": "beginners|families|corporate_teams|solo_practice|juniors_youth",
+  "why_golfers_like_it": [
+    "Access to over 180 virtual golf courses with high realism and accuracy",
+    "Real-time performance feedback including ball flight, clubhead speed, and swing path",
+    "Data-rich practice sessions with precise shot analysis for improving skills",
+    "Inclusive environment suitable for all ages and skill levels",
+    "Convenient indoor facility allowing play in any weather"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen service available with a dedicated menu."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Unknown",
+      "model": "Unknown",
+      "notes": "Brand not explicitly mentioned, but features an automatic rotating hitting surface with varied textures (fairway, rough, bunker)."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 6,
+  "booking_url": "https://clients.uschedule.com/nicebirdie/booking",
+  "pricing_model": "per_bay_hour|membership_only",
+  "price_range_min_local": 40,
+  "price_range_max_local": 55,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need clubs?",
+      "answer": "Bringing your own clubs is recommended for the most accurate experience. Club rentals are available on a first-come, first-served basis."
+    },
+    {
+      "question": "Can I bring food or drink to the hitting bay?",
+      "answer": "No, food or drinks are not allowed in the hitting bay for safety and cleanliness reasons."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Estimate one hour for each experienced golfer to complete 18 holes."
+    },
+    {
+      "question": "Is it kid-friendly?",
+      "answer": "Yes, the facility is built for all ages and abilities, with an inclusive environment where everyone can have a good time."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-11PM\"], \"Saturday\": [\"10AM-11PM\"], \"Sunday\": [\"10AM-8PM\"]}"
+}

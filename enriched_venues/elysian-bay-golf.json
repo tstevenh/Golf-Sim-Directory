@@ -1,0 +1,91 @@
+{
+  "name": "Elysian Bay Golf",
+  "address": "8421 E 61st St suit o, Tulsa, OK 74133",
+  "city": "Tulsa",
+  "region": "Oklahoma",
+  "country": "US",
+  "latitude": 36.076053,
+  "longitude": -95.88214,
+  "phone": "+19186092332",
+  "website": "http://elysianbaygolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770202964/golf_simulators/elysianbaygolf_com_ChIJdb-8HgmNtocR6uBKROdC1_o.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Elysian+Bay+Golf/@36.0760534,-95.8821402,14z/data=!4m8!1m2!2m1!1sElysian+Bay+Golf!3m4!1s0x87b68d091ebcbf75:0xfad742e7444ae0ea!8m2!3d36.0760534!4d-95.8821402",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJdb-8HgmNtocR6uBKROdC1_o",
+  "email": "info@elysianbaygolf.com",
+  "venue_type": "sim_bar",
+  "about": "Elysian Bay Golf is Tulsa's premier indoor golf lounge, operating 24/7 in a Caribbean-themed atmosphere. The facility features four Trackman iO simulator bays and offers memberships with perks such as priority booking, locked-in rates, and access to leagues and events. Members have access to amenities including lockers and a private lounge. The venue is designed for both casual play and serious practice, providing an all-weather golfing experience with a focus on community and convenience. The simulator technology is integrated with the TrackMan system for detailed performance tracking, and the space accommodates various group sizes for rounds, practice sessions, or social events.",
+  "tags": "serious_golfers|food_and_drinks|date_night|corporate_events|leagues|premium_tech|club_rentals|community_club|coaching_available",
+  "vibe_tags": "upscale_lounge|private_luxury|tech_lab|community_club",
+  "who_its_for": "serious_golfers|corporate_teams|families|solo_practice|juniors_youth",
+  "why_golfers_like_it": [
+    "24/7 access with key fob entry for ultimate convenience",
+    "Four Trackman iO simulator bays for advanced data and course variety",
+    "Founding member benefits with locked-in rates and priority booking",
+    "Caribbean atmosphere creating a unique and relaxing golf lounge experience",
+    "Professional coaching and training labs available for skill development"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen service available for members and guests"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service with Caribbean-themed cocktails available"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Four bays equipped with the latest TrackMan iO technology for accurate shot tracking"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": 4,
+  "booking_url": "https://yourgolfbooking.com/venues/elysian-bay-golf/booking/bays",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|lockers|wifi|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, players are expected to bring their own golf clubs to use with the simulators."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "Outside food and drink are not permitted as the venue offers a full kitchen and bar service for all guests."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "A typical 18-hole round takes approximately 2-3 hours depending on simulator availability and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Elysian Bay welcomes families and offers junior programs with special rates for junior golfers."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

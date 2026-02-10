@@ -1,0 +1,94 @@
+{
+  "name": "Swing Speed",
+  "address": "883 Boston Neck Rd, Narragansett, RI 02882",
+  "city": "Narragansett",
+  "region": "Rhode Island",
+  "country": "US",
+  "latitude": 41.475075,
+  "longitude": -71.434461,
+  "phone": "+14013630333",
+  "website": "https://www.swingspeedri.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770200356/golf_simulators/www_swingspeedri_com_ChIJ6UEQcT-75YkRYriV1OQDVPs.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Swing+Speed/@41.4750754,-71.4344614,14z/data=!4m8!1m2!2m1!1sSwing+Speed!3m4!1s0x89e5bb3f711041e9:0xfb5403e4d495b862!8m2!3d41.4750754!4d-71.4344614",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ6UEQcT-75YkRYriV1OQDVPs",
+  "email": "info@swingspeedri.com",
+  "venue_type": "training_studio",
+  "about": "Swing Speed is a self-service golf training facility in Narragansett, Rhode Island, equipped with TrackMan 4 iO simulators. It focuses on enhancing golfers' mobility and strength through data-driven practice, offering detailed shot analysis over 20 actionable data points and access to over 250 world-famous courses. The venue is designed for serious practice with real-time feedback and expert coaching, and it operates on a booking basis with flexible pricing and membership options for extended access.",
+  "tags": "beginner_friendly|serious_practice|coaching_available|premium_tech|private_rooms|leagues|budget_friendly|community_club|juniors_youth|corporate_teams",
+  "vibe_tags": "tech_lab|industrial_training|casual|welcoming",
+  "who_its_for": "serious_golfers|families|solo_practice|coaches_instructors|juniors_youth",
+  "why_golfers_like_it": [
+    "State-of-the-art TrackMan 4 iO simulators with precise club and ball tracking",
+    "Self-service facility with flexible booking and 24/7 access for top members",
+    "Data-driven practice with over 20 actionable metrics for game improvement",
+    "Coaching available with TPI-certified professionals for tailored fitness and swing drills",
+    "Variety of membership plans offering discounted rates and exclusive hours"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned; BYOB not specified"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned; BYOB not specified"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Two bays equipped with Optically Enhanced Radar Tracking (OERT)"
+    }
+  ],
+  "simulator_so": [
+    "TrackMan"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://yourgolfbooking.com/venues/swing-speed/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 44,
+  "price_range_max_local": 55,
+  "currency": "USD",
+  "walk_ins_allowed": false,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 5.0,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you will need to bring your own golf clubs to use at the facility."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "There is no mention of food or drink service at Swing Speed, so bringing your own may be allowed, but it is not explicitly stated."
+    },
+    {
+      "question": "How long does an 18-hole round take?",
+      "answer": "The time for an 18-hole round is not specified, but booking is done by the hour at $55 per hour (or $44 for members)."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, the facility mentions 'skill-building games for all ages' and offers a Junior membership, making it suitable for kids and youth golfers."
+    }
+  ],
+  "simulator_software": [
+    "TrackMan"
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"5-10PM\"], \"Tuesday\": [\"5-10PM\"], \"Wednesday\": [\"5-10PM\"], \"Thursday\": [\"5-10PM\"], \"Friday\": [\"3:30-10PM\"], \"Saturday\": [\"9AM-10PM\"], \"Sunday\": [\"9AM-10PM\"]}"
+}

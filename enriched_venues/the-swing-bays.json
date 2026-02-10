@@ -1,0 +1,90 @@
+{
+  "name": "The Swing Bays",
+  "address": "11183 S Parker Rd A, Parker, CO 80134",
+  "city": "Parker",
+  "region": "Colorado",
+  "country": "US",
+  "latitude": 39.511767,
+  "longitude": -104.765813,
+  "phone": "+17205244999",
+  "website": "http://theswingbays.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770215727/golf_simulators/theswingbays_com_ChIJpfiduKqRbIcReYQv3mWORyk.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Swing+Bays/@39.5117666,-104.765813,14z/data=!4m8!1m2!2m1!1sThe+Swing+Bays!3m4!1s0x876c91aab89df8a5:0x29478e65de2f8479!8m2!3d39.5117666!4d-104.765813",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJpfiduKqRbIcReYQv3mWORyk",
+  "email": "image-swing-bays-exterior@2x.jpg",
+  "venue_type": "sim_bar|training_studio|retail_fitting_center",
+  "about": "The Swing Bays is an indoor golf training and social venue offering a combination of high-tech simulator bays, professional coaching, fitness programs, and club fitting services. The facilities provide a comprehensive golf experience with premium TrackMan technology for simulation and analysis, catering to players looking to improve their game in a modern, community-oriented environment. With multiple locations across the United States, including Parker, Colorado, and several planned openings, the venue aims to be a one-stop destination for golfers seeking training, practice, and social activities.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|coaching_available|premium_tech|club_rentals|community_club",
+  "vibe_tags": "casual|welcoming|modern|tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|families|solo_practice|corporate_teams",
+  "why_golfers_like_it": [
+    "Premium TrackMan technology provides detailed swing and ball data for improvement",
+    "All-in-one facility with simulators, coaching, fitness, and club fitting under one roof",
+    "Social atmosphere with events like Couples Night and league play"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Charcuterie boards available for events like Couples Night"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Drink tickets included in some event packages; full bar service available"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "TrackMan",
+      "model": "iO",
+      "notes": "Premium radar-based launch monitor for detailed simulation and analysis"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://theswingbays.com/reservations/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|kitchen_food|tv_sports|club_fitting|leagues|pro_shop",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can bring your own clubs, but the venue also offers club rentals and services for fitting and repair."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drinks may not be permitted, but the venue offers a full bar and food service, including charcuterie boards for events."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Playing 18 holes typically takes 2-3 hours depending on the number of players and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The venue does not specifically advertise as kid-friendly, but families are welcome to enjoy the facilities and events."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"9AM-10PM\"], \"Saturday\": [\"9AM-10PM\"], \"Sunday\": [\"9AM-8PM\"]}"
+}

@@ -1,0 +1,89 @@
+{
+  "name": "Mount Hood Memorial Park & Golf Course",
+  "address": "100 Slayton Rd, Melrose, MA 02176",
+  "city": "Melrose",
+  "region": "Massachusetts",
+  "country": "US",
+  "latitude": 42.453537,
+  "longitude": -71.04005,
+  "phone": "+17816656656",
+  "website": "https://mthoodgolfclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770244208/golf_simulators/mthoodgolfclub_com_ChIJo_cDr0Vy44kRHnoBUoi-S4Y.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Mount+Hood+Memorial+Park+%26+Golf+Course/@42.453536899999996,-71.0400502,14z/data=!4m8!1m2!2m1!1sMount+Hood+Memorial+Park+%26+Golf+Course!3m4!1s0x89e37245af03f7a3:0x864bbe8852017a1e!8m2!3d42.453536899999996!4d-71.0400502",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJo_cDr0Vy44kRHnoBUoi-S4Y",
+  "email": "kscarito@sagamoregolf.com",
+  "venue_type": "sim_bar",
+  "about": "Mount Hood Golf Club is a public golf course located in Melrose, Massachusetts, that features three state-of-the-art Trackman Indoor Golf Simulators within its historic clubhouse. The simulators are available year-round, providing a dedicated indoor golf experience, especially during the winter season. The venue offers hourly rentals for the simulator bays, complemented by a bar menu serving comfort food and cocktails, creating an atmosphere that blends golf with social dining. Patrons can book sessions individually or purchase a 'Sim Pak,' which provides a package of 10 half-hour sessions at a discounted rate.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|leagues|premium_tech|group_friendly|date_night",
+  "vibe_tags": "sports_bar|community_club|casual|welcoming",
+  "who_its_for": "families|corporate_teams|serious_golfers|solo_practice|groups_of_friends",
+  "why_golfers_like_it": [
+    "Premium Trackman technology for accurate swing and ball data",
+    "Comfortable indoor setting available year-round, ideal for winter play",
+    "Food and beverage options available on-site, enhancing the social experience"
+  ],
+  "kid_friendly": false,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Snack bar offers various food options, described as delicious comfort food."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Bar menu features top-pour cocktails and beverages."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Three state-of-the-art Trackman simulators are available in the clubhouse."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://fox.tenfore.golf/mounthood",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 40,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": false,
+  "private_rooms_count": 3,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|kitchen_food|tv_sports|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you must bring your own clubs as they are not provided."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue offers a snack bar and full bar menu with food and drinks available for purchase."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "While a specific time for 18 holes is not mentioned, typical simulator sessions are booked by the hour, with a standard full round taking approximately 1-2 hours depending on the number of players."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "The venue does not specifically mention child-friendly policies or activities, so it is unclear if it is suitable for children."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"7AM-8PM\"], \"Tuesday\": [\"7AM-8PM\"], \"Wednesday\": [\"7AM-8PM\"], \"Thursday\": [\"7AM-8PM\"], \"Friday\": [\"7AM-8PM\"], \"Saturday\": [\"7AM-8PM\"], \"Sunday\": [\"7AM-8PM\"]}"
+}

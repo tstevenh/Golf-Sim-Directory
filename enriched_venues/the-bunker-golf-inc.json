@@ -1,0 +1,92 @@
+{
+  "name": "The Bunker - Golf Inc.",
+  "address": "1320 El Camino Dr, Pekin, IL 61554",
+  "city": "Pekin",
+  "region": "Illinois",
+  "country": "US",
+  "latitude": 40.539665,
+  "longitude": -89.631878,
+  "phone": "+13096208149",
+  "website": "http://bunkergolf.net/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770227267/golf_simulators/bunkergolf_net_ChIJvee4zSHzCogRzrnEOokQG4w.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Bunker+-+Golf+Inc./@40.5396649,-89.63187789999999,14z/data=!4m8!1m2!2m1!1sThe+Bunker+-+Golf+Inc.!3m4!1s0x880af321cdb8e7bd:0x8c1b10893ac4b9ce!8m2!3d40.5396649!4d-89.63187789999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJvee4zSHzCogRzrnEOokQG4w",
+  "email": "info@bunkergolf.net",
+  "venue_type": "sim_bar",
+  "about": "The Bunker Indoor Golf Lounge is Pekin's premier indoor golf simulator center featuring three AboutGolf simulators, including the area's only curved simulator experience. The venue offers a private gaming parlor and a bar with an extensive menu of beers and craft cocktails. It has partnered with BC BBQ to provide the area's best barbecue that can be delivered while playing or relaxing. The facility is open daily from 9 a.m. to 10 p.m., making it accessible for both day and evening sessions. It caters to various occasions with options for gift cards and event hosting.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|private_rooms|club_rentals|late_night|coaching_available",
+  "vibe_tags": "casual|welcoming|modern|sports_bar",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Three AboutGolf simulators including a unique curved simulator experience",
+    "Partnership with BC BBQ offering quality food delivery while playing",
+    "Full bar with extensive beer menu and craft cocktails",
+    "Private gaming parlor for a more intimate experience",
+    "Available for hosting events and corporate teams"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Area's best barbecue from BC BBQ available for delivery while playing or at the bar"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with extensive beer menu (tap and bottled) and craft cocktails"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "AboutGolf",
+      "model": "AboutGolf Simulator",
+      "notes": "Three simulators including the area's only CURVED simulator experience"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "http://bunkergolf.net/tee-times-1",
+  "pricing_model": "per_bay_hour|per_person_hour|package|mixed",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues",
+  "rating_tech_quality": 4.0,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue likely provides clubs, but it's recommended to bring your own if you have specific preferences or want the most accurate simulation experience."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "Outside food and drinks are not mentioned, but the venue offers its own bar with craft cocktails and an extensive beer menu, plus BC BBQ that can be delivered to your bay."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The typical time to play 18 holes on a simulator is approximately 2-3 hours depending on your pace and the number of people in your group."
+    },
+    {
+      "question": "Is this kid-friendly?",
+      "answer": "Yes, the Bunker appears to be family-friendly with a welcoming atmosphere and options that cater to different age groups."
+    }
+  ],
+  "simulator_software": [
+    "AboutGolf"
+  ],
+  "rating_overall": 4.1,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"9AM-1AM\"], \"Saturday\": [\"8AM-1AM\"], \"Sunday\": [\"8AM-10PM\"]}"
+}

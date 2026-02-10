@@ -17,7 +17,86 @@ interface VenuePageProps {
   }>;
 }
 
-export const revalidate = 60;
+export const revalidate = 86400;
+const META_DESCRIPTION_MAX = 160;
+
+function normalizeText(value: string | null | undefined): string {
+  return (value || "").replace(/\s+/g, " ").trim();
+}
+
+function truncateAtWord(value: string, maxLength = META_DESCRIPTION_MAX): string {
+  if (value.length <= maxLength) return value;
+  const clipped = value.slice(0, maxLength + 1);
+  const lastSpace = clipped.lastIndexOf(" ");
+  const safeCut = lastSpace > 100 ? clipped.slice(0, lastSpace) : clipped.slice(0, maxLength);
+  return `${safeCut.replace(/[.,;:!?-]+$/, "").trimEnd()}...`;
+}
+
+function getFirstMeaningfulSentence(about: string): string {
+  const sentences = normalizeText(about)
+    .split(/(?<=[.!?])\s+/)
+    .map((s) => s.trim())
+    .filter(Boolean);
+  const meaningful = sentences.find((s) => s.split(/\s+/).length >= 8) || sentences[0] || "";
+  if (!meaningful) return "";
+  return /[.!?]$/.test(meaningful) ? meaningful : `${meaningful}.`;
+}
+
+function buildFallbackDescription(
+  name: string,
+  city: string,
+  state: string,
+  venueTypeLabel: string,
+  launchMonitorType: string,
+  priceSnippet: string
+): string {
+  const techLabel =
+    launchMonitorType && launchMonitorType !== "unknown"
+      ? `${launchMonitorType} launch monitors`
+      : "golf simulators";
+  return `${name} in ${city}, ${state} - ${venueTypeLabel.toLowerCase()} with ${techLabel}.${priceSnippet} Book online or walk in.`;
+}
+
+function buildMetaDescription(venue: {
+  name: string;
+  city: string;
+  state: string;
+  about: string | null;
+  metaDescription: string | null;
+  launchMonitorType: string;
+}, venueTypeLabel: string, priceSnippet: string): string {
+  const explicitMeta = normalizeText(venue.metaDescription);
+  if (explicitMeta) return truncateAtWord(explicitMeta);
+
+  const about = normalizeText(venue.about);
+  if (about) {
+    let summary = getFirstMeaningfulSentence(about);
+    if (summary) {
+      const lower = summary.toLowerCase();
+      const hasName = lower.includes(venue.name.toLowerCase());
+      const hasCity = lower.includes(venue.city.toLowerCase());
+      const hasState = lower.includes(venue.state.toLowerCase());
+      if (!hasName || (!hasCity && !hasState)) {
+        summary = `${venue.name} in ${venue.city}, ${venue.state}. ${summary}`;
+      }
+      if (summary.length < 120) {
+        summary = `${summary} Compare amenities, pricing, and tech on GolfSimMap.`;
+      }
+      return truncateAtWord(summary);
+    }
+  }
+
+  return truncateAtWord(
+    buildFallbackDescription(
+      venue.name,
+      venue.city,
+      venue.state,
+      venueTypeLabel,
+      venue.launchMonitorType,
+      priceSnippet
+    )
+  );
+}
 
 export async function generateMetadata({ params }: VenuePageProps): Promise<Metadata> {
   try {
@@ -41,14 +120,7 @@ export async function generateMetadata({ params }: VenuePageProps): Promise<Meta
     const priceSnippet = venue.priceRangeMin && venue.priceRangeMax
       ? ` From $${venue.priceRangeMin}/hr.`
       : venue.priceRangeMin ? ` From $${venue.priceRangeMin}/hr.` : "";
-    const description =
-      venue.metaDescription ||
-      venue.shortDescription ||
-      `${venue.name} in ${venue.city}, ${venue.state} — ${venueTypeLabel.toLowerCase()} with ${
-        venue.launchMonitorType && venue.launchMonitorType !== "unknown"
-          ? venue.launchMonitorType + " launch monitors"
-          : "golf simulators"
-      }.${priceSnippet} Book online or walk in.`;
+    const description = buildMetaDescription(venue, venueTypeLabel, priceSnippet);
     const canonicalUrl = `https://golfsimmap.com/venue/us/${state}/${city}/${venue.slug}`;
 
     return {

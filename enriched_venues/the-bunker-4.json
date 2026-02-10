@@ -1,0 +1,91 @@
+{
+  "name": "The Bunker",
+  "address": "50 W Broadway, Jackson, WY 83001",
+  "city": "Jackson",
+  "region": "Wyoming",
+  "country": "US",
+  "latitude": 43.479237,
+  "longitude": -110.763078,
+  "phone": "+13072011072",
+  "website": "http://thebunkerjh.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770265692/golf_simulators/thebunkerjh_com_ChIJvXrqJrMbU1MRDj2DuKJmlbA.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Bunker/@43.4792371,-110.7630777,14z/data=!4m8!1m2!2m1!1sThe+Bunker!3m4!1s0x53531bb326ea7abd:0xb09566a2b8833d0e!8m2!3d43.4792371!4d-110.7630777",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJvXrqJrMbU1MRDj2DuKJmlbA",
+  "email": "manager@thebunkerjh.com",
+  "venue_type": "sim_bar",
+  "about": "The Bunker is a craft cocktail lounge and multi-sport simulator venue located in downtown Jackson Hole, Wyoming. It features two PGA-endorsed, Full Swing multi-sport golf simulators that use advanced overhead ION3 and infrared camera technology to provide realistic ball flight tracking. The venue combines a vintage speakeasy atmosphere with a full-service bar offering handcrafted cocktails, local beers, and a curated wine list. It operates on a flexible model, offering hourly bay rentals, various membership tiers, and private event hosting for groups of all sizes.",
+  "tags": "food_and_drinks|date_night|corporate_events|private_rooms|club_rentals|speakeasy|premium_tech|large_groups",
+  "vibe_tags": "speakeasy|sports_bar|upscale_lounge",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams|tourists_travelers|bachelor_parties",
+  "why_golfers_like_it": [
+    "State-of-the-art Full Swing simulators with advanced ION3 and camera technology for realistic ball flight",
+    "Two private simulator bays offering an exclusive and immersive golf experience",
+    "Unique combination of high-tech golf simulation and a high-end cocktail lounge atmosphere",
+    "Flexible booking options including memberships and extended session times",
+    "PGA-endorsed technology ensures a high-quality simulation experience"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen service serving comfort food. Food packages are available for private events. 15-20% food discount available for members."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full-service bar with handcrafted cocktails, local and regional draft beers, and a curated wine and spirits list. Alcohol consumption is allowed but must be responsible."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Full Swing",
+      "model": "Pro Series",
+      "notes": "Two state-of-the-art multi-sport simulators with overhead ION3 Camera and infrared/high-speed blue light LED cameras for ball tracking."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://app.birrdi.com/u/reserve?team_booking_link_id=the-bunker-jackson-hole",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": false,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|private_party_room|tv_sports|wifi|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.5,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, club rentals are included with certain memberships and can be provided for non-members. Contact The Bunker for details on rental availability."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "The Bunker has a full-service kitchen and bar. Bringing outside food or drink is not permitted, as they offer a wide menu of handcrafted cocktails, beers, and comfort food."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "A standard 18-hole round typically takes about 1.5 to 2 hours, depending on the number of players in your bay and the speed of play."
+    },
+    {
+      "question": "Is The Bunker kid-friendly?",
+      "answer": "Participants must be 6 years or older to use the golf simulators and 21 years or older for bar games, making it primarily an adult-oriented venue."
+    }
+  ],
+  "rating_overall": 4.4,
+  "opening_hours": "{\"Monday\": [\"11AM-10PM\"], \"Tuesday\": [\"11AM-10PM\"], \"Wednesday\": [\"11AM-10PM\"], \"Thursday\": [\"11AM-11PM\"], \"Friday\": [\"11AM-12AM\"], \"Saturday\": [\"11AM-12AM\"], \"Sunday\": [\"11AM-11:30PM\"]}"
+}

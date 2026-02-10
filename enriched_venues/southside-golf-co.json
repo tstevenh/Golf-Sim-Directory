@@ -1,0 +1,89 @@
+{
+  "name": "Southside Golf Co",
+  "address": "11215 Conroy Ln Unit 4, Manchaca, TX 78652",
+  "city": "Manchaca",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 30.142341,
+  "longitude": -97.805298,
+  "phone": "+15052698305",
+  "website": "http://www.southsidegolfco.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770243565/golf_simulators/www_southsidegolfco_com_ChIJUR156VZNW4YRXB9RgU7iKZw.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Southside+Golf+Co/@30.1423414,-97.80529829999999,14z/data=!4m8!1m2!2m1!1sSouthside+Golf+Co!3m4!1s0x865b4d56e9791d51:0x9c29e24e81511f5c!8m2!3d30.1423414!4d-97.80529829999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJUR156VZNW4YRXB9RgU7iKZw",
+  "email": "justin@southsidegolfco.com",
+  "venue_type": "sim_bar",
+  "about": "Southside Golf Co is a premium indoor golf simulator venue located in South Austin, TX. The facility features TrackMan-powered simulators in a relaxed, modern environment designed to offer tour-level accuracy without the pressure of a country club. It serves golfers from Manchaca, St. Elmo, and the greater Austin area with a focus on practice, league play, and a laid-back social atmosphere. The venue also offers private coaching, club services, and a lounge experience with pool tables, positioning itself as both a serious training space and a casual social hub for golfers.",
+  "tags": "food_and_drinks|leagues|coaching_available|premium_tech|beginner_friendly|private_rooms|club_rentals|corporate_events|community_club",
+  "vibe_tags": "casual|welcoming|modern|sports_bar|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Tour-level TrackMan technology providing precise data and feedback",
+    "Relaxed, no-pressure environment unlike traditional country clubs",
+    "Comprehensive offerings including leagues, private lessons, and social amenities"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Available on-site, though specific details are not provided."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Available on-site as part of the premium golf and pool lounge experience."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Industry-leading radar technology providing tour-level accuracy and detailed ball/club tracking data."
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://shop.southsidegolfco.com/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|lockers|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "It is recommended to bring your own clubs, as the venue is designed for serious golf practice."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "notes": "External food and drink policies are not specified. On-site dining and a full bar are available."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Playing 18 holes on a simulator typically takes less time than a real round, usually around 1 to 2 hours depending on simulator speed and player pace."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The venue does not explicitly advertise kid-friendly features, but it offers a welcoming environment that may be suitable for families with older children."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": null
+}

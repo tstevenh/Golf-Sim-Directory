@@ -1,0 +1,90 @@
+{
+  "name": "Hatley Golf Garage",
+  "address": "602 Lances Cir, Hatley, WI 54440",
+  "city": "Hatley",
+  "region": "Wisconsin",
+  "country": "US",
+  "latitude": 44.891482,
+  "longitude": -89.347863,
+  "phone": "+17158811370",
+  "website": "http://www.hatleygolfgarage.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770222061/golf_simulators/www_hatleygolfgarage_com_ChIJg_MWp1bTAYgRyxSfYhCZ3MI.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Hatley+Golf+Garage/@44.891481999999996,-89.3478628,14z/data=!4m8!1m2!2m1!1sHatley+Golf+Garage!3m4!1s0x8801d356a716f383:0xc2dc9910629f14cb!8m2!3d44.891481999999996!4d-89.3478628",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJg_MWp1bTAYgRyxSfYhCZ3MI",
+  "email": "hatleygolfgarage@gmail.com",
+  "venue_type": "sim_bar",
+  "about": "Hatley Golf Garage is an indoor golf facility that provides year-round access to golf through advanced simulation technology. The venue is family-owned and operated by a father-son duo, featuring Foresight Falcon simulators, which are described as the most accurate on the market and trusted by professionals. It caters to golfers of all skill levels, offering opportunities for practice, league play, private events, and casual play. Pricing is structured for individuals and small groups, with hourly rates and membership options for frequent players.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|private_rooms|club_rentals|community_club",
+  "vibe_tags": "casual|welcoming|modern|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Access to Foresight Falcon, the most accurate simulators trusted by professionals",
+    "Year-round play regardless of weather conditions",
+    "Variety of options including leagues, events, and flexible memberships",
+    "Convenient online booking system for tee times"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned; BYOB (Bring Your Own Beverage) policy implied, as league pricing includes a beverage."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "BYOB policy; league pricing includes one beverage per person."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": "Falcon",
+      "notes": "Described as 'the most accurate simulators on the market, trusted by professionals worldwide'"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://hatleygolfgarage.square.site/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 30,
+  "price_range_max_local": 250,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "false",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|full_bar|private_party_room|leagues|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue does not specify whether club rentals are available, so it is recommended to bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "BYOB (Bring Your Own Beverage) is allowed, and league pricing includes one beverage per person. No food service is mentioned, so bringing your own food is likely permitted."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify the time required for 18 holes, as it depends on the number of players and pace of play. It is recommended to inquire when booking."
+    },
+    {
+      "question": "Is Hatley Golf Garage kid-friendly?",
+      "answer": "Yes, the venue is described as being for 'golfers of all levels,' and it is family-owned and operated, making it suitable for children and beginners."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"12-8PM\"], \"Tuesday\": [\"12-8PM\"], \"Wednesday\": [\"12-8PM\"], \"Thursday\": [\"12-8PM\"], \"Friday\": [\"12-9PM\"], \"Saturday\": [\"11AM-9PM\"], \"Sunday\": [\"12-7PM\"]}"
+}

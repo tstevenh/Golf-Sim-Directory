@@ -16,11 +16,105 @@ export interface AvailableCategories {
   vibes: Array<{ slug: string; label: string; count: number }>;
   segments: Array<{ slug: string; label: string; count: number }>;
   hardware: Array<{ slug: string; label: string; count: number }>;
+  launchMonitors: Array<{ slug: string; label: string; count: number }>;
+  amenities: Array<{ slug: string; label: string; count: number }>;
+  software: Array<{ slug: string; label: string; count: number }>;
+  tags: Array<{ slug: string; label: string; count: number }>;
 }
 
-// Cache category lookups for 1 hour since they rarely change
+// Cache category lookups for a long time (7 days) since venue data changes infrequently.
 const CACHE_TAG = "category-counts";
-const CACHE_DURATION = 3600; // 1 hour
+const CACHE_DURATION = 604800; // 7 days
+const LAUNCH_MONITOR_LABELS: Record<string, string> = {
+  radar: "Radar",
+  photometric_camera: "Camera",
+  hybrid: "Hybrid",
+  unknown: "Standard",
+};
+const AMENITY_CATEGORIES = [
+  { slug: "private_rooms", label: "Private Rooms" },
+  { slug: "coaching_available", label: "Coaching" },
+  { slug: "wifi", label: "WiFi" },
+  { slug: "free_parking", label: "Free Parking" },
+  { slug: "valet_parking", label: "Valet Parking" },
+  { slug: "full_bar", label: "Full Bar" },
+  { slug: "kitchen_food", label: "Food" },
+] as const;
+const SOFTWARE_CATEGORIES = [
+  { slug: "gspro", label: "GSPro", aliases: ["gspro", "gsp"] },
+  { slug: "e6", label: "E6 Connect", aliases: ["e6", "e6connect"] },
+  { slug: "tgc", label: "TGC 2019", aliases: ["tgc", "thegolfclub", "thegolfclub2019"] },
+  { slug: "wgt", label: "WGT", aliases: ["wgt", "worldgolftour"] },
+  { slug: "creative-golf", label: "Creative Golf", aliases: ["creativegolf", "creativegolf3d"] },
+  { slug: "awesome-golf", label: "Awesome Golf", aliases: ["awesomegolf"] },
+  { slug: "trackman-virtual", label: "TrackMan Virtual", aliases: ["trackmanvirtual", "trackmanvirtualgolf"] },
+  { slug: "fsx", label: "FSX Play", aliases: ["fsx", "fsxplay"] },
+] as const;
+const PREFERRED_CITY_TAGS = [
+  "date-night",
+  "corporate-events",
+  "family-friendly",
+  "beginner-friendly",
+  "serious-practice",
+  "private-rooms",
+  "food-and-drinks",
+  "coaching-available",
+];
+
+function normalizeTagSlug(value: string): string {
+  return value
+    .toLowerCase()
+    .replace(/_/g, "-")
+    .replace(/[^a-z0-9-]/g, "")
+    .replace(/-+/g, "-")
+    .replace(/^-|-$/g, "");
+}
+
+function formatTagLabel(slug: string): string {
+  return slug
+    .split("-")
+    .filter(Boolean)
+    .map((part) => part[0].toUpperCase() + part.slice(1))
+    .join(" ");
+}
+
+function hasAmenity(venue: {
+  hasPrivateRooms: boolean | null;
+  coachingAvailable: boolean;
+  wifi: boolean | null;
+  parking: string;
+  foodAndDrink: unknown;
+}, amenitySlug: string): boolean {
+  switch (amenitySlug) {
+    case "private_rooms":
+      return Boolean(venue.hasPrivateRooms);
+    case "coaching_available":
+      return Boolean(venue.coachingAvailable);
+    case "wifi":
+      return Boolean(venue.wifi);
+    case "free_parking":
+      return venue.parking === "free_lot";
+    case "valet_parking":
+      return venue.parking === "valet";
+    case "full_bar": {
+      const data = (venue.foodAndDrink || {}) as { alcohol?: unknown; hasBar?: unknown };
+      return String(data.alcohol ?? "").toLowerCase() === "true" || String(data.hasBar ?? "").toLowerCase() === "true";
+    }
+    case "kitchen_food": {
+      const data = (venue.foodAndDrink || {}) as { food?: unknown; hasFood?: unknown };
+      return String(data.food ?? "").toLowerCase() === "true" || String(data.hasFood ?? "").toLowerCase() === "true";
+    }
+    default:
+      return false;
+  }
+}
+
+function extractSoftwareSlugs(softwareSlugs: string[] | null): string[] {
+  if (!Array.isArray(softwareSlugs)) {
+    return [];
+  }
+  return softwareSlugs.filter((slug): slug is string => typeof slug === "string" && slug.length > 0);
+}
 
 /**
  * Get available categories for a city with cached results.
@@ -30,151 +124,146 @@ export const getAvailableCategoriesForCity = unstable_cache(
   async (state: string, city: string): Promise<AvailableCategories> => {
     const stateUpper = state.toUpperCase();
 
-    // Get distinct vibe tags and their counts using raw query for efficiency
-    const [vibeResults, segmentResults, hardwareResults] = await Promise.all([
-      // Query vibe tags - venues that have at least one of our known vibe tags
-      db.$queryRaw<
-        Array<{ tag: string; count: bigint }>
-      >`SELECT unnest("vibeTags") as tag, COUNT(*) as count 
-        FROM venues 
-        WHERE LOWER(city) = LOWER(${city}) 
-          AND state = ${stateUpper}
-          AND country = 'US' 
-          AND status = 'active'
-          AND "vibeTags" && ${VIBE_CATEGORIES.map((c) => c.slug)}::text[]
-        GROUP BY tag`,
+    // One query per city, then count in-memory (cached).
+    const venues = await db.venue.findMany({
+      where: {
+        city: { equals: city, mode: "insensitive" },
+        state: stateUpper,
+        country: "US",
+        status: "active",
+      },
+      select: {
+        vibeTags: true,
+        whoItsFor: true,
+        hardwareBrands: true,
+        tags: true,
+        launchMonitorType: true,
+        hasPrivateRooms: true,
+        coachingAvailable: true,
+        wifi: true,
+        parking: true,
+        foodAndDrink: true,
+        softwareSlugs: true,
+      },
+    });
 
-      // Query whoItsFor segments
-      db.$queryRaw<
-        Array<{ tag: string; count: bigint }>
-      >`SELECT unnest("whoItsFor") as tag, COUNT(*) as count 
-        FROM venues 
-        WHERE LOWER(city) = LOWER(${city}) 
-          AND state = ${stateUpper}
-          AND country = 'US' 
-          AND status = 'active'
-          AND "whoItsFor" && ${SEGMENT_CATEGORIES.map((c) => c.slug)}::text[]
-        GROUP BY tag`,
+    const vibeCounts = new Map<string, number>();
+    const segmentCounts = new Map<string, number>();
+    const hardwareCounts = new Map<string, number>();
+    const launchMonitorCounts = new Map<string, number>();
+    const amenityCounts = new Map<string, number>();
+    const softwareCounts = new Map<string, number>();
+    const tagCounts = new Map<string, number>();
 
-      // Query hardware from simulator_systems JSON
-      // This is more complex - we'll fetch venues and extract
-      getHardwareCounts(stateUpper, city),
-    ]);
-
-    // Build maps from results
-    const vibeCounts = new Map(
-      vibeResults.map((r) => [r.tag, Number(r.count)])
-    );
-    const segmentCounts = new Map(
-      segmentResults.map((r) => [r.tag, Number(r.count)])
-    );
-
-    // Build result arrays, only including categories from our config
-    const vibes = VIBE_CATEGORIES.filter(
-      (cat) => (vibeCounts.get(cat.slug) || 0) > 0
-    )
-      .map((cat) => ({
-        slug: cat.slug,
-        label: cat.label,
-        count: vibeCounts.get(cat.slug) || 0,
-      }))
-      .sort((a, b) => b.count - a.count);
-
-    const segments = SEGMENT_CATEGORIES.filter(
-      (cat) => (segmentCounts.get(cat.slug) || 0) > 0
-    )
-      .map((cat) => ({
-        slug: cat.slug,
-        label: cat.label,
-        count: segmentCounts.get(cat.slug) || 0,
-      }))
-      .sort((a, b) => b.count - a.count);
-
-    return { vibes, segments, hardware: hardwareResults };
-  },
-  [CACHE_TAG],
-  { revalidate: CACHE_DURATION, tags: [CACHE_TAG] }
-);
-
-/**
- * Get hardware counts by analyzing simulator_systems JSON.
- * This is done in a separate query since JSON aggregation is complex in Postgres.
- */
-async function getHardwareCounts(
-  state: string,
-  city: string
-): Promise<Array<{ slug: string; label: string; count: number }>> {
-  // Fetch minimal data - just the simulator systems
-  const venues = await db.venue.findMany({
-    where: {
-      city: { equals: city, mode: "insensitive" },
-      state: state,
-      country: "US",
-      status: "active",
-      simulatorSystems: { not: undefined },
-    },
-    select: { simulatorSystems: true },
-  });
-
-  const hardwareCounts = new Map<string, number>();
-
-  for (const venue of venues) {
-    if (!venue.simulatorSystems) continue;
-
-    try {
-      const systems = Array.isArray(venue.simulatorSystems)
-        ? venue.simulatorSystems
-        : [];
-      for (const system of systems) {
-        const sys = system as { brand?: string } | undefined;
-        if (sys?.brand) {
-          const slug = mapBrandToHardwareSlug(sys.brand.toLowerCase());
-          if (slug) {
-            hardwareCounts.set(slug, (hardwareCounts.get(slug) || 0) + 1);
-          }
+    for (const venue of venues) {
+      for (const vibe of venue.vibeTags || []) {
+        if (VIBE_CATEGORIES.some((v) => v.slug === vibe)) {
+          vibeCounts.set(vibe, (vibeCounts.get(vibe) || 0) + 1);
         }
       }
-    } catch {
-      // Skip invalid JSON
-    }
-  }
 
-  return HARDWARE_CATEGORIES.filter(
-    (cat) => (hardwareCounts.get(cat.slug) || 0) > 0
-  )
-    .map((cat) => ({
+      for (const segment of venue.whoItsFor || []) {
+        if (SEGMENT_CATEGORIES.some((s) => s.slug === segment)) {
+          segmentCounts.set(segment, (segmentCounts.get(segment) || 0) + 1);
+        }
+      }
+
+      for (const brand of venue.hardwareBrands || []) {
+        if (HARDWARE_CATEGORIES.some((h) => h.slug === brand)) {
+          hardwareCounts.set(brand, (hardwareCounts.get(brand) || 0) + 1);
+        }
+      }
+
+      const monitorSlug = String(venue.launchMonitorType || "unknown");
+      if (LAUNCH_MONITOR_LABELS[monitorSlug]) {
+        launchMonitorCounts.set(monitorSlug, (launchMonitorCounts.get(monitorSlug) || 0) + 1);
+      }
+
+      for (const amenity of AMENITY_CATEGORIES) {
+        if (hasAmenity(venue, amenity.slug)) {
+          amenityCounts.set(amenity.slug, (amenityCounts.get(amenity.slug) || 0) + 1);
+        }
+      }
+
+      for (const softwareSlug of extractSoftwareSlugs(venue.softwareSlugs)) {
+        softwareCounts.set(softwareSlug, (softwareCounts.get(softwareSlug) || 0) + 1);
+      }
+
+      for (const tag of venue.tags || []) {
+        const normalized = normalizeTagSlug(tag);
+        if (!normalized) continue;
+        tagCounts.set(normalized, (tagCounts.get(normalized) || 0) + 1);
+      }
+    }
+
+    const vibes = VIBE_CATEGORIES.map((cat) => ({
+      slug: cat.slug,
+      label: cat.label,
+      count: vibeCounts.get(cat.slug) || 0,
+    }))
+      .filter((cat) => cat.count > 0)
+      .sort((a, b) => b.count - a.count);
+
+    const segments = SEGMENT_CATEGORIES.map((cat) => ({
+      slug: cat.slug,
+      label: cat.label,
+      count: segmentCounts.get(cat.slug) || 0,
+    }))
+      .filter((cat) => cat.count > 0)
+      .sort((a, b) => b.count - a.count);
+
+    const hardware = HARDWARE_CATEGORIES.map((cat) => ({
       slug: cat.slug,
       label: cat.label,
       count: hardwareCounts.get(cat.slug) || 0,
     }))
-    .sort((a, b) => b.count - a.count);
-}
+      .filter((cat) => cat.count > 0)
+      .sort((a, b) => b.count - a.count);
 
-/**
- * Map brand names to our hardware category slugs
- */
-function mapBrandToHardwareSlug(brand: string): string | null {
-  const brandMap: Record<string, string> = {
-    trackman: "trackman",
-    foresight: "foresight",
-    "gc quad": "gc-quad",
-    gcquad: "gc-quad",
-    garmin: "garmin",
-    skytrak: "skytrak",
-    "full swing": "full-swing",
-    fullswing: "full-swing",
-    flightscope: "flightscope",
-    mevo: "flightscope",
-    optishot: "optishot",
-    trugolf: "trugolf",
-    uneekor: "uneekor",
-    aboutgolf: "aboutgolf",
-    hd: "hd-golf",
-    "hd golf": "hd-golf",
-  };
+    const launchMonitors = Object.entries(LAUNCH_MONITOR_LABELS)
+      .map(([slug, label]) => ({
+        slug,
+        label,
+        count: launchMonitorCounts.get(slug) || 0,
+      }))
+      .filter((cat) => cat.count > 0)
+      .sort((a, b) => b.count - a.count);
 
-  return brandMap[brand] || null;
-}
+    const amenities = AMENITY_CATEGORIES.map((cat) => ({
+      slug: cat.slug,
+      label: cat.label,
+      count: amenityCounts.get(cat.slug) || 0,
+    }))
+      .filter((cat) => cat.count > 0)
+      .sort((a, b) => b.count - a.count);
+
+    const software = SOFTWARE_CATEGORIES.map((cat) => ({
+      slug: cat.slug,
+      label: cat.label,
+      count: softwareCounts.get(cat.slug) || 0,
+    }))
+      .filter((cat) => cat.count > 0)
+      .sort((a, b) => b.count - a.count);
+
+    const tags = Array.from(tagCounts.entries())
+      .map(([slug, count]) => ({
+        slug,
+        label: formatTagLabel(slug),
+        count,
+      }))
+      .filter((tag) => tag.count > 0)
+      .sort((a, b) => {
+        const aPreferred = PREFERRED_CITY_TAGS.includes(a.slug) ? 0 : 1;
+        const bPreferred = PREFERRED_CITY_TAGS.includes(b.slug) ? 0 : 1;
+        if (aPreferred !== bPreferred) return aPreferred - bPreferred;
+        return b.count - a.count;
+      });
+
+    return { vibes, segments, hardware, launchMonitors, amenities, software, tags };
+  },
+  [CACHE_TAG],
+  { revalidate: CACHE_DURATION, tags: [CACHE_TAG] }
+);
 
 /**
  * Get category browse links for city page, filtered to only show
@@ -183,13 +272,19 @@ function mapBrandToHardwareSlug(brand: string): string | null {
 export async function getCityCategoryBrowseLinksWithCounts(
   state: string,
   city: string,
-  limit = 4
+  limit = 4,
+  queryState?: string
 ): Promise<{
   vibes: Array<{ href: string; label: string; count: number }>;
   segments: Array<{ href: string; label: string; count: number }>;
   hardware: Array<{ href: string; label: string; count: number }>;
+  launchMonitors: Array<{ href: string; label: string; count: number }>;
+  amenities: Array<{ href: string; label: string; count: number }>;
+  software: Array<{ href: string; label: string; count: number }>;
+  tags: Array<{ href: string; label: string; count: number }>;
 }> {
-  const categories = await getAvailableCategoriesForCity(state, city);
+  const categories = await getAvailableCategoriesForCity(queryState || state, city);
+  const citySlug = city.toLowerCase().replace(/\s+/g, "-");
 
   return {
     vibes: categories.vibes.slice(0, limit).map((cat) => ({
@@ -204,6 +299,26 @@ export async function getCityCategoryBrowseLinksWithCounts(
     })),
     hardware: categories.hardware.slice(0, limit).map((cat) => ({
       href: getCityHardwareUrl(state, city, cat.slug),
+      label: cat.label,
+      count: cat.count,
+    })),
+    launchMonitors: categories.launchMonitors.slice(0, limit).map((cat) => ({
+      href: `/venue/us/${state}/${citySlug}/best/launch-monitor/${cat.slug}`,
+      label: cat.label,
+      count: cat.count,
+    })),
+    amenities: categories.amenities.slice(0, limit).map((cat) => ({
+      href: `/venue/us/${state}/${citySlug}/best/amenities/${cat.slug}`,
+      label: cat.label,
+      count: cat.count,
+    })),
+    software: categories.software.slice(0, limit).map((cat) => ({
+      href: `/venue/us/${state}/${citySlug}/best/software/${cat.slug}`,
+      label: cat.label,
+      count: cat.count,
+    })),
+    tags: categories.tags.slice(0, limit).map((cat) => ({
+      href: `/venue/us/${state}/${citySlug}/best/${cat.slug}`,
       label: cat.label,
       count: cat.count,
     })),
@@ -222,7 +337,7 @@ const getCachedVenuesForCategories = unstable_cache(
         tags: true,
         vibeTags: true,
         whoItsFor: true,
-        simulatorSystems: true,
+        hardwareBrands: true,
         launchMonitorType: true,
       },
     });
@@ -250,14 +365,7 @@ export const getGlobalRelatedLinksWithCounts = unstable_cache(
     if (currentCategory === "hardware") {
       const otherHardware = HARDWARE_CATEGORIES.filter((h) => h.slug !== currentSlug);
       for (const hw of otherHardware) {
-        const count = venues.filter((v) => {
-          try {
-            const systems = v.simulatorSystems as { brand?: string }[] | null;
-            return systems?.some((s) => s.brand?.toLowerCase() === hw.slug.toLowerCase());
-          } catch {
-            return false;
-          }
-        }).length;
+        const count = venues.filter((v) => (v.hardwareBrands || []).includes(hw.slug)).length;
         if (count > 0) {
           links.push({ href: `/best/hardware/${hw.slug}`, label: `Best ${hw.label}`, count });
         }

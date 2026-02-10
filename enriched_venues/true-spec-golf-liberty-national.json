@@ -1,0 +1,90 @@
+{
+  "name": "True Spec Golf - Liberty National",
+  "address": "100 Caven Point Rd, Jersey City, NJ 07305",
+  "city": "Jersey City",
+  "region": "New Jersey",
+  "country": "US",
+  "latitude": 40.694927,
+  "longitude": -74.07241,
+  "phone": "+18447298809",
+  "website": "https://truespecgolf.com/liberty-national/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770206873/golf_simulators/truespecgolf_com_ChIJWTDbPFNRwokRguGauUkCvGM.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/True+Spec+Golf+-+Liberty+National/@40.6949269,-74.0724101,14z/data=!4m8!1m2!2m1!1sTrue+Spec+Golf+-+Liberty+National!3m4!1s0x89c251533cdb3059:0x63bc0249b99ae182!8m2!3d40.6949269!4d-74.0724101",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJWTDbPFNRwokRguGauUkCvGM",
+  "email": "info@truespecgolf.com",
+  "venue_type": "retail_fitting_center",
+  "about": "True Spec Golf at Liberty National is a premium indoor-to-outdoor fitting studio located at the prestigious Liberty National Golf Club. The venue utilizes the Foresight GCQuad, the industry's first quadroscopic launch monitor, and features a brand-agnostic fitting matrix with over 70,000 clubhead and shaft combinations. It is a by-appointment only facility that focuses on expert club fitting services, aiming to help golfers find the optimal equipment to improve their game. The location offers views of the Statue of Liberty, New York Harbor, and the Manhattan skyline, enhancing the overall experience for golfers seeking a high-tech fitting environment.",
+  "tags": "serious_golfers|premium_tech|club_fitting|by_appointment|scenic_views|coaching_available",
+  "vibe_tags": "tech_lab|private_luxury|upscale_lounge",
+  "who_its_for": "serious_golfers|coaches_instructors|solo_practice|low_handicap|tourists_travelers",
+  "why_golfers_like_it": [
+    "Access to the Foresight GCQuad, a top-tier quadroscopic launch monitor",
+    "Brand-agnostic fitting matrix with over 70,000 clubhead and shaft combinations",
+    "Premium indoor-to-outdoor studio setting at the prestigious Liberty National Golf Club"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of food service"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": "GCQuad",
+      "notes": "Industry's first quadroscopic launch monitor"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 1,
+  "booking_url": "https://truespecgolf.com/get-fit/",
+  "pricing_model": "package",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|pro_shop|club_fitting|scenic_views",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "While you can bring your existing clubs for analysis or a gap analysis fitting, the studio provides a comprehensive array of over 70,000 clubhead and shaft combinations for fittings."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "There is no mention of food or drink service at the Liberty National location, and it operates on an appointment-only basis for club fittings."
+    },
+    {
+      "question": "How long does a typical fitting session last?",
+      "answer": "The website does not specify an exact duration for fitting sessions, but they are scheduled by appointment, and the process involves analyzing data with the launch monitor to find the best equipment combination."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The venue is a premium club fitting studio focused on serious golfers and does not appear to offer amenities or services aimed at children."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"8AM-4PM\"], \"Wednesday\": [\"8AM-4PM\"], \"Thursday\": [\"8AM-4PM\"], \"Friday\": [\"8AM-4PM\"], \"Saturday\": [\"8AM-4PM\"], \"Sunday\": [\"8AM-4PM\"]}"
+}

@@ -1,0 +1,93 @@
+{
+  "name": "The Golf Studio",
+  "address": "718A US-62 180 W, Seminole, TX 79360",
+  "city": "Seminole",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 32.725698,
+  "longitude": -102.745895,
+  "phone": "+14329556032",
+  "website": "https://thegolfstudio.org/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770213593/golf_simulators/thegolfstudio_org_ChIJLUwm92lh_IYRxQfGG6lxCB0.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Golf+Studio/@32.725698099999995,-102.7458954,14z/data=!4m8!1m2!2m1!1sThe+Golf+Studio!3m4!1s0x86fc6169f7264c2d:0x1d0871a91bc607c5!8m2!3d32.725698099999995!4d-102.7458954",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJLUwm92lh_IYRxQfGG6lxCB0",
+  "email": "thegolfstudio2025@outlook.com",
+  "venue_type": "sim_bar",
+  "about": "The Golf Studio is an indoor golf simulator venue in Seminole, Texas, offering a premium experience with Foresight Sports Falcon overhead launch monitor technology. It provides a high-tech, comfortable environment for golfers of all skill levels to play year-round, regardless of weather conditions. The facility features hourly rentals, various membership options, and space for private events and group gatherings.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|premium_tech|budget_friendly|club_rentals|private_rooms|coaching_available",
+  "vibe_tags": "sports_bar|casual|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "State-of-the-art Foresight Sports Falcon overhead launch monitor for accurate gameplay",
+    "Year-round indoor golf不受恶劣天气影响",
+    "Bring-your-own-alcohol policy with a relaxed social atmosphere",
+    "Available for private events and group bookings"
+  ],
+  "kid_friendly": false,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "Patrons are welcome to bring their own food"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "BYOB policy - guests can bring their own beer, wine, or non-alcoholic drinks. Cups, coolers, and ice are welcome."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight Sports",
+      "model": "Falcon",
+      "notes": "Overhead launch monitor"
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "overhead_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 2,
+  "booking_url": "https://thegolfstudio.org/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 15,
+  "price_range_max_local": 20,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 5,
+  "amenities_list": "club_rentals|full_bar|private_party_room|wifi|pro_shop",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The provided content does not specify whether clubs are provided. It is recommended to call them directly at 432-955-6032 to inquire about club availability."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, you are welcome to bring your own food and drinks, including alcohol. Cups, coolers, and ice are also welcome. Please drink responsibly."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The provided content does not specify the time required to play 18 holes. This information would likely depend on the simulator software and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The venue is suitable for families and can host group events, but there is no specific information regarding child-friendly features or age restrictions."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"3-10PM\"], \"Tuesday\": [\"3-10PM\"], \"Wednesday\": [\"3-10PM\"], \"Thursday\": [\"Closed\"], \"Friday\": [\"3-10PM\"], \"Saturday\": [\"9AM-10PM\"], \"Sunday\": [\"12-10PM\"]}"
+}

@@ -1,0 +1,93 @@
+{
+  "name": "Unique Golf",
+  "address": "356 Union Blvd, West Islip, NY 11795",
+  "city": "West Islip",
+  "region": "New York",
+  "country": "US",
+  "latitude": 40.706621,
+  "longitude": -73.303559,
+  "phone": "+16314226431",
+  "website": "https://uniquegolfshop.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770248056/golf_simulators/uniquegolfshop_com_ChIJAd8KZirT6YkRDLN7sIGS0hU.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Unique+Golf/@40.706620699999995,-73.3035591,14z/data=!4m8!1m2!2m1!1sUnique+Golf!3m4!1s0x89e9d32a660adf01:0x15d29281b07bb30c!8m2!3d40.706620699999995!4d-73.3035591",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJAd8KZirT6YkRDLN7sIGS0hU",
+  "venue_type": "retail_fitting_center",
+  "about": "Unique Golf Shop is a golf simulator venue and retail store located in West Islip, New York. It features two state-of-the-art Foresight simulators with GC Hawk and overhead Falcon units, available for rent by the hour for individuals or groups. The venue offers custom club fittings, a repair service, and a 4-lesson beginner program for $199.99. Open seven days a week, the shop also buys and sells used golf equipment for cash.",
+  "tags": "beginner_friendly|serious_practice|leagues|coaching_available|budget_friendly|club_rentals|pro_shop",
+  "vibe_tags": "casual|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|families|solo_practice|juniors_youth",
+  "why_golfers_like_it": [
+    "Access to premium Foresight simulators with advanced tracking",
+    "Affordable club fitting services on any budget",
+    "Option to rent simulators and demo new equipment simultaneously"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No on-site food service mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No on-site alcohol service mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": "GC Hawk",
+      "notes": "Primary simulator unit"
+    },
+    {
+      "brand": "Foresight",
+      "model": "Falcon Overhead",
+      "notes": "Overhead tracking unit"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "overhead_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://clients.uschedule.com/uniquegolfshop/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|pro_shop|club_fitting|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 4.2,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can bring your own clubs or use the opportunity to demo new equipment while renting the simulators."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "There is no mention of food or drink service, so BYOB is not explicitly mentioned."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "No specific time estimate is provided for a full 18-hole simulation."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "Yes, the venue is described as welcoming to golfers of all ages, including juniors and beginners."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-6PM\"], \"Tuesday\": [\"10AM-6PM\"], \"Wednesday\": [\"10AM-6PM\"], \"Thursday\": [\"10AM-6PM\"], \"Friday\": [\"10AM-6PM\"], \"Saturday\": [\"10AM-5PM\"], \"Sunday\": [\"10AM-4PM\"]}"
+}

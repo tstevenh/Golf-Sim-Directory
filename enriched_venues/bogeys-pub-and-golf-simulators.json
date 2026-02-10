@@ -1,0 +1,91 @@
+{
+  "name": "Bogey's Pub and Golf Simulators",
+  "address": "14425 Goodwin Ave, Hastings, MN 55033",
+  "city": "Hastings",
+  "region": "Minnesota",
+  "country": "US",
+  "latitude": 44.736995,
+  "longitude": -92.967036,
+  "phone": "+16514808558",
+  "website": "https://bogeyspubandgolfsimulators.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770199024/golf_simulators/bogeyspubandgolfsimulators_com_ChIJsbPMSZLJ94cRbH90Lfaw8lg.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Bogey%27s+Pub+and+Golf+Simulators/@44.7369948,-92.9670362,14z/data=!4m8!1m2!2m1!1sBogey%27s+Pub+and+Golf+Simulators!3m4!1s0x87f7c99249ccb3b1:0x58f2b0f62d747f6c!8m2!3d44.7369948!4d-92.9670362",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJsbPMSZLJ94cRbH90Lfaw8lg",
+  "email": "simulators@emeraldgreensgolf.com",
+  "venue_type": "sim_bar",
+  "about": "Bogey's Pub and Golf Simulators is a venue located at Emerald Greens Golf Course in Hastings, MN, featuring eight high-definition golf simulators. The facility offers a mix of indoor golf, food, and drink, with a full bar serving an impressive selection of tap beers. In addition to golf, two bays are equipped with HD Multi-Sports games and two bays feature Laser Shot firearm simulators for hunting and target practice. The venue provides private event space, weekly specials, and a patio with fire tables.",
+  "tags": "food_and_drinks|corporate_events|leagues|premium_tech|private_rooms|club_rentals|family_friendly|coaching_available|late_night|budget_friendly",
+  "vibe_tags": "sports_bar|family_fun_center|community_club|party_atmosphere",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams|solo_practice|juniors_youth|bachelor_parties",
+  "why_golfers_like_it": [
+    "State-of-the-art HD simulators with pinpoint accuracy",
+    "Multiple sport options including golf, shooting simulators, and arcade games",
+    "On-site pub with full bar and food service",
+    "Private event space and league play options"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full menu with pub classics, burgers, wings, salads, sandwiches, wraps, and signature appetizers. Now serving breakfast."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with rotating tap beers, including local and seasonal brews. Vikings game day specials on domestic taps and appetizers."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "HD Golf",
+      "model": "Simulator",
+      "notes": "State-of-the-art, high definition, widescreen simulators with 4+ cameras for swing analysis."
+    }
+  ],
+  "simulator_software": [
+    "HD Golf",
+    "Laser Shot"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 8,
+  "booking_url": "https://clients.uschedule.com/emeraldgreensgolf/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 30,
+  "price_range_max_local": 55,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, golfers are expected to bring their own clubs for use with the simulators."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No, outside food and drinks are not allowed. Bogey's Pub offers a full menu and bar service on-site."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "18 holes take approximately 1 hour for 1 person, 1 hour 45 minutes for 2 people, 2 hours 30 minutes for 3 people, and 3 hours 15 minutes for 4 people."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Bogey's Pub is kid-friendly, offering a family-friendly atmosphere, menu options, and is suitable for birthday parties for all ages."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"8AM-10PM\"], \"Tuesday\": [\"8AM-10PM\"], \"Wednesday\": [\"8AM-10PM\"], \"Thursday\": [\"8AM-10PM\"], \"Friday\": [\"7AM-10PM\"], \"Saturday\": [\"7AM-10PM\"], \"Sunday\": [\"7AM-10PM\"]}"
+}

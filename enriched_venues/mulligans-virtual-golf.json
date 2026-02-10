@@ -1,0 +1,91 @@
+{
+  "name": "Mulligan's Virtual Golf",
+  "address": "586 Deming Rd, Berlin, CT 06037",
+  "city": "Berlin",
+  "region": "Connecticut",
+  "country": "US",
+  "latitude": 41.641833,
+  "longitude": -72.728304,
+  "phone": "+18608936574",
+  "website": "https://www.mulligansvirtualgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770209092/golf_simulators/www_mulligansvirtualgolf_com_ChIJXTEnuBiz54kRkeCiEYtd28Q.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Mulligan%27s+Virtual+Golf/@41.6418329,-72.7283037,14z/data=!4m8!1m2!2m1!1sMulligan%27s+Virtual+Golf!3m4!1s0x89e7b318b827315d:0xc4db5d8b11a2e091!8m2!3d41.6418329!4d-72.7283037",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJXTEnuBiz54kRkeCiEYtd28Q",
+  "email": "info@mulligansvirtualgolf.com",
+  "venue_type": "sim_bar",
+  "about": "Mulligan's Virtual Golf is an indoor golf simulator venue in Berlin, CT, featuring state-of-the-art Trackman iO technology in spacious, private bays. The facility offers a relaxed BYOB atmosphere where golfers can practice seriously or socialize without crowds or pressure. With tour-level accuracy and a variety of virtual golf courses, it provides a realistic and comfortable indoor golf experience year-round. The venue includes multiple simulator bays, a lounge area, and recreational amenities like ping pong and pool tables, making it suitable for both individual practice and group events.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|private_rooms|club_rentals|community_club|casual",
+  "vibe_tags": "casual|welcoming|modern|sports_bar|family_fun_center",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "Tour-level Trackman iO technology for accurate ball flight data",
+    "Spacious private bays with no crowds or pressure",
+    "Relaxed BYOB atmosphere for socializing",
+    "Variety of recreational amenities beyond golf",
+    "Year-round availability regardless of weather"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Not explicitly mentioned but the lounge area suggests food service may be available"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "BYOB (Bring Your Own Beverage) policy is allowed"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Dual-radar tracking system delivering tour-level accuracy"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://booking.trackmangolf.com/venues/mulligans-virtual-golf/booking/bays",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own golf clubs?",
+      "answer": "The website doesn't explicitly mention club rentals, so it's recommended to bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, Mulligan's has a relaxed BYOB (Bring Your Own Beverage) policy."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website doesn't specify exact timing, but typically simulator rounds take 1.5-2 hours depending on the number of players."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the facility offers recreational activities like ping pong and pool tables, making it suitable for families and children."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"10AM-8PM\"], \"Tuesday\": [\"10AM-8PM\"], \"Wednesday\": [\"10AM-8PM\"], \"Thursday\": [\"10AM-8PM\"], \"Friday\": [\"10AM-10PM\"], \"Saturday\": [\"8AM-10PM\"], \"Sunday\": [\"8AM-8PM\"]}"
+}

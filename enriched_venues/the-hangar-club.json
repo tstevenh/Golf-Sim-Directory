@@ -1,0 +1,91 @@
+{
+  "name": "The Hangar Club",
+  "address": "7600 E 1st Pl, Denver, CO 80230",
+  "city": "Denver",
+  "region": "Colorado",
+  "country": "US",
+  "latitude": 39.7209,
+  "longitude": -104.897892,
+  "phone": "+17205001141",
+  "website": "https://hangarclub.co/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770215427/golf_simulators/hangarclub_co_ChIJGZ3PRNl9bIcRs84Ev-AtjyM.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Hangar+Club/@39.720900199999996,-104.8978923,14z/data=!4m8!1m2!2m1!1sThe+Hangar+Club!3m4!1s0x876c7dd944cf9d19:0x238f2de0bf04ceb3!8m2!3d39.720900199999996!4d-104.8978923",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJGZ3PRNl9bIcRs84Ev-AtjyM",
+  "email": "info@hangarclub.co",
+  "venue_type": "sim_bar",
+  "about": "The Hangar Club is Denver's premier indoor golf destination, sports bar, and event venue featuring 10 TrackMan simulators in a 22,000 square foot space. The venue combines golf simulation with a full-service sports bar and restaurant, offering a casual atmosphere that is open to all without reservations. It is designed for both golfers and sports fans, with a focus on providing an engaging experience through high-end technology, social dining, and event hosting capabilities.",
+  "tags": "food_and_drinks|corporate_events|leagues|premium_tech|coaching_available|date_night|beginner_friendly|private_rooms|club_rentals",
+  "vibe_tags": "sports_bar|tech_lab|community_club|casual|welcoming",
+  "who_its_for": "beginners|serious_golfers|corporate_teams|large_groups|bachelor_parties",
+  "why_golfers_like_it": [
+    "10 industry-leading TrackMan simulators with realistic shot tracking and course variety",
+    "On-site TrueSpec club fitting services using launch monitor technology for personalized equipment",
+    "Private lessons available from teaching professionals to improve skills",
+    "Large, private hitting bays with spacious seating areas in Denver",
+    "Integrated sports bar and restaurant for socializing during or after play"
+  ],
+  "kid_friendly": "yes",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Curated menu with shareable bites, seasonal plates, and elevated bar classics made with fresh ingredients"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Extensive list of craft cocktails, local beers, and wine; no BYOB mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "10 industry-leading simulators with the largest private hitting bays and seating areas in Denver"
+    }
+  ],
+  "simulator_software": [
+    "TrackMan software"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "yes",
+  "bay_count_total": 10,
+  "booking_url": "https://hangarclub.co/tee-time/",
+  "pricing_model": "per_bay_hour|mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 10,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|club_fitting|leagues|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.5,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Club rentals are available, but golfers are welcome to bring their own equipment."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No outside food or drinks are permitted. Hangar Club offers a full-service sports bar and restaurant with a curated menu and extensive craft cocktails, local beer, and wine selections."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes depends on the simulator software and number of players per bay. Sessions are typically booked by the hour, and the TrackMan app can help track performance during play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The venue does not specifically mention kid-friendly amenities or policies. It is primarily marketed as an adult-focused sports bar and golf destination."
+    }
+  ],
+  "rating_overall": 4.4,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"9AM-12AM\"], \"Saturday\": [\"9AM-12AM\"], \"Sunday\": [\"9AM-10PM\"]}"
+}

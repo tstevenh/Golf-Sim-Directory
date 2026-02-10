@@ -1,0 +1,86 @@
+{
+  "name": "Shanks Golf Lounge",
+  "address": "1204 W 15th St, Auburn, IN 46706",
+  "city": "Auburn",
+  "region": "Indiana",
+  "country": "US",
+  "latitude": 41.364398,
+  "longitude": -85.079118,
+  "phone": "+12605700756",
+  "website": "https://shanksgolflounge.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770198987/golf_simulators/shanksgolflounge_com_ChIJGwDAs8IbFogRvQxta4Mrqt4.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Shank%E2%80%99s+Golf+Lounge/@41.364397499999995,-85.07911759999999,14z/data=!4m8!1m2!2m1!1sShank%E2%80%99s+Golf+Lounge!3m4!1s0x88161bc2b3c0001b:0xdeaa2b836b6d0cbd!8m2!3d41.364397499999995!4d-85.07911759999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJGwDAs8IbFogRvQxta4Mrqt4",
+  "venue_type": "sim_bar",
+  "about": "Shanks Golf Lounge is an indoor golf facility located in Auburn, Indiana, featuring four top-of-the-line Trackman simulators. The venue provides a casual, laid-back atmosphere suitable for both serious golfers and those seeking a fun social experience. It operates year-round, rain or shine, and offers food and drinks alongside its golf simulation services. The venue also features a tiered membership system with various perks to accommodate different player needs and frequencies of visit.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|kids_friendly|corporate_events|leagues|premium_tech|community_club",
+  "vibe_tags": "sports_bar|family_fun_center|community_club",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "Four high-end Trackman simulators available year-round",
+    "Casual, social atmosphere with food and drinks",
+    "Tiered membership system with flexible access and discounts"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Simple food menu available."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Great selection of beer, seltzers, and soft drinks."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "4 top-of-the-line Trackman simulators suitable for all skill levels."
+    }
+  ],
+  "simulator_software": "Trackman",
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 4,
+  "booking_url": "https://booking.trackmangolf.com/venues/shanks-golf-lounge/booking/bays",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 4,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "Yes, you will need to bring your own golf clubs to use the simulators."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "Outside food and drinks are not permitted as the venue offers its own simple food menu and a selection of beer, seltzers, and soft drinks."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes can vary depending on the group's pace, but it typically takes about 1-2 hours per bay."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue offers specific memberships for youth (Lil' Linksters for ages 12 & under and Junior Elite for ages 13-17), including free bay time and special events."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-12AM\"], \"Saturday\": [\"10AM-12AM\"], \"Sunday\": [\"12-8PM\"]}"
+}

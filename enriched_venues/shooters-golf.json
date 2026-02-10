@@ -1,0 +1,101 @@
+{
+  "name": "Shooters Golf",
+  "address": "50 Pine Creek Rd, Wexford, PA 15090",
+  "city": "Wexford",
+  "region": "Pennsylvania",
+  "country": "US",
+  "latitude": 40.585707,
+  "longitude": -80.046812,
+  "phone": "+14123674653",
+  "website": "http://shootersgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770201368/golf_simulators/shootersgolf_com_ChIJV9t80G6LNIgRQitsUBd9gvA.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Shooters+Golf/@40.585707,-80.0468123,14z/data=!4m8!1m2!2m1!1sShooters+Golf!3m4!1s0x88348b6ed07cdb57:0xf0827d17506c2b42!8m2!3d40.585707!4d-80.0468123",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJV9t80G6LNIgRQitsUBd9gvA",
+  "email": "leaflet@1.3.1",
+  "venue_type": "sim_bar",
+  "about": "Shooters Golf is a multi-sport simulator venue that combines golf simulation with a full-service bar and restaurant experience. The facility features state-of-the-art technology, including Toptracer and Fullswing Multi-Sport Simulators, allowing guests to play golf and a variety of other sports in an indoor setting. With offerings ranging from casual group hangouts to corporate events and private parties, the venue provides a flexible environment for both golf enthusiasts and social gatherings. Pricing is structured per bay hour, with packages available for events and various hourly rates depending on the day of the week and time of day.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|premium_tech|private_rooms|club_rentals|late_night|coaching_available",
+  "vibe_tags": "sports_bar|family_fun_center|party_atmosphere|community_club",
+  "who_its_for": "families|large_groups|corporate_teams|solo_practice|bachelor_parties",
+  "why_golfers_like_it": [
+    "Multi-sport simulators allow for golf and other sports like soccer, basketball, and baseball",
+    "Toptracer technology enhances practice sessions with detailed ball tracking",
+    "Flexible booking options for private bays and group events",
+    "On-site PGA pro instruction available for lessons",
+    "Late-night hours and bar specials for casual play and socializing"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen with menu including brunch, lunch, dinner, and late-night options. Features famous Shooters Smash Burgers and customizable catering packages."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full-service bar with happy hour specials, domestic bottles, drafts, well liquor, and house wine. Outdoor patio available for drinks."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Toptracer",
+      "model": "Golf Bay",
+      "notes": "Enhanced ball tracking for practice and game simulation"
+    },
+    {
+      "brand": "Fullswing",
+      "model": "Multi-Sport Simulator",
+      "notes": "Multi-sport capability including golf, soccer, basketball, and baseball"
+    }
+  ],
+  "simulator_so": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "mixed",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://www.sevenrooms.com/reservations/shootersgolf",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own golf clubs?",
+      "answer": "No, club rentals are available on-site. However, you are welcome to bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drinks are not permitted. The venue offers a full kitchen and bar with food and drink options available for purchase."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "A standard 18-hole round typically takes about 1-2 hours depending on the simulator settings and number of players in your bay."
+    },
+    {
+      "question": "Is Shooters Golf kid-friendly?",
+      "answer": "Yes, the venue is family-friendly and offers packages for kids' parties and events. There is a 'Little Putters' menu available."
+    }
+  ],
+  "simulator_software": [
+    "Toptracer",
+    "Fullswing"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-12AM\"], \"Tuesday\": [\"10AM-12AM\"], \"Wednesday\": [\"10AM-12AM\"], \"Thursday\": [\"10AM-12AM\"], \"Friday\": [\"10AM-12AM\"], \"Saturday\": [\"10AM-12AM\"], \"Sunday\": [\"10AM-12AM\"]}"
+}

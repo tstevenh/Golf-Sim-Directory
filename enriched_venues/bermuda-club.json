@@ -1,0 +1,90 @@
+{
+  "name": "Bermuda Club",
+  "address": "5840 El Camino Real #106, Carlsbad, CA 92008",
+  "city": "Carlsbad",
+  "region": "California",
+  "country": "US",
+  "latitude": 33.134475,
+  "longitude": -117.270308,
+  "phone": "+17603504344",
+  "website": "https://www.bermudaclubs.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770254291/golf_simulators/www_bermudaclubs_com_ChIJw1PPWFRz3IARvIGwSJjRgY4.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Bermuda+Club/@33.1344747,-117.2703083,14z/data=!4m8!1m2!2m1!1sBermuda+Club!3m4!1s0x80dc735458cf53c3:0x8e81d19848b081bc!8m2!3d33.1344747!4d-117.2703083",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJw1PPWFRz3IARvIGwSJjRgY4",
+  "email": "info@bermudaclubs.com",
+  "venue_type": "multi_sport_sim",
+  "about": "Bermuda Club is a modern third place combining coworking, wellness, and golf under one roof. The facility offers a full suite of amenities including private offices, a gym, sauna, cold plunges, and four Full Swing golf simulators. Membership provides access to all spaces and is designed for busy professionals seeking productivity, health, and community in a single location. The venue hosts social events, corporate gatherings, and private parties, creating a unique environment that blends work, play, and recovery.",
+  "tags": "serious_golfers|food_and_drinks|corporate_events|leagues|premium_tech|private_rooms|club_rentals|community_club|coaching_available",
+  "vibe_tags": "upscale_lounge|tech_lab|community_club|modern",
+  "who_its_for": "serious_golfers|corporate_teams|solo_practice|coaches_instructors|large_groups",
+  "why_golfers_like_it": [
+    "Four premium Full Swing golf simulators for year-round play",
+    "Dedicated custom putting green for short game practice",
+    "Social events and competitions foster a vibrant golf community",
+    "Integration with work and wellness spaces for a holistic lifestyle"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "On-site kitchen and food service available"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service and speakeasy area for cocktails"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Full Swing",
+      "model": "unknown",
+      "notes": "Four indoor golf simulators"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": "unknown",
+  "club_tracking": "unknown",
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 4,
+  "booking_url": "https://www.bermudaclubs.com/pages/membership",
+  "pricing_model": "membership_only",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 4,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "The venue does not specify if clubs are provided, so members should plan to bring their own golf clubs for simulator use."
+    },
+    {
+      "question": "Can I bring my own food or drink?",
+      "answer": "No, the venue has an on-site kitchen and full bar service for all members and guests."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The venue does not specify time requirements for 18 holes, but simulators typically allow for 18-hole rounds in approximately 1-2 hours depending on group size and pace."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Bermuda Club hosts family-friendly events and is open to families, as evidenced by events like 'parents night out' and birthday celebrations."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"8AM-8PM\"], \"Tuesday\": [\"8AM-8PM\"], \"Wednesday\": [\"8AM-8PM\"], \"Thursday\": [\"8AM-8PM\"], \"Friday\": [\"8AM-10PM\"], \"Saturday\": [\"8AM-10PM\"], \"Sunday\": [\"8AM-5PM\"]}"
+}

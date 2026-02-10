@@ -1,0 +1,97 @@
+{
+  "name": "Thomas Campbell Golf",
+  "address": "2175 Larpenteur Ave W, St Paul, MN 55108",
+  "city": "St Paul",
+  "region": "Minnesota",
+  "country": "US",
+  "latitude": 44.992088,
+  "longitude": -93.192052,
+  "phone": "+16122455025",
+  "website": "https://www.thomascampbellgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770238278/golf_simulators/www_thomascampbellgolf_com_ChIJz4Nqbd0ts1IRJ6HbyN98_gA.png",
+  "google_maps_url": "https://www.google.com/maps/place/Thomas+Campbell+Golf/@44.992087999999995,-93.1920524,14z/data=!4m8!1m2!2m1!1sThomas+Campbell+Golf!3m4!1s0x52b32ddd6d6a83cf:0xfe7cdfc8dba127!8m2!3d44.992087999999995!4d-93.1920524",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJz4Nqbd0ts1IRJ6HbyN98_gA",
+  "email": "thomas@thomascampbellgolf.com",
+  "venue_type": "training_studio",
+  "about": "Thomas Campbell Golf is a professional golf instruction and training studio offering both indoor and outdoor lessons year-round. The facility operates seasonally with an indoor studio at The Golf Barn in Savage, Minnesota from November to April, and outdoor sessions at The Wilds Golf Course in Prior Lake from April to October. It is led by Class A PGA Professional Thomas Campbell, a highly decorated player and coach who provides individualized instruction using advanced technology including Swing Catalyst cameras, Foresight GCQuad launch monitors, and various simulator software. The studio offers a range of lesson packages for adults, juniors, and online coaching, with a focus on personalized improvement plans for golfers of all skill levels.",
+  "tags": "serious_practice|beginner_friendly|juniors_youth|coaching_available|private_rooms|club_rentals|premium_tech|low_handicap",
+  "vibe_tags": "industrial_training|tech_lab|professional|modern",
+  "who_its_for": "serious_golfers|beginners|juniors_youth|low_handicap|solo_practice",
+  "why_golfers_like_it": [
+    "Access to premium simulator technology including Foresight GCQuad and Swing Catalyst for detailed swing analysis",
+    "Highly experienced PGA coach with multiple Player of the Year awards and extensive tournament experience",
+    "Seasonal flexibility with both indoor studio and outdoor course options",
+    "Personalized instruction tailored to individual player skills and goals"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No information about food services available on the website."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No information about alcohol services available on the website."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": "GCQuad",
+      "notes": "Primary launch monitor for collecting ball and club data"
+    },
+    {
+      "brand": "Swing Catalyst",
+      "model": null,
+      "notes": "Camera system and software for swing analysis"
+    }
+  ],
+  "simulator_software": [
+    "Foresight FSX Play",
+    "Foresight FSX 2020",
+    "GS Pro"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.thomascampbellgolf.com/booking-calendar/indoor-golf-lesson-the-golf-barn",
+  "pricing_model": "package",
+  "price_range_min_local": 125,
+  "price_range_max_local": 200,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|club_fitting",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need my own golf clubs?",
+      "answer": "The website does not specify whether rental clubs are available. It is recommended to bring your own clubs, or contact the venue directly for equipment options."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "There is no information about bringing outside food or drinks to the facility. It is recommended to confirm directly with Thomas Campbell Golf if this is permitted."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "On-course lessons last approximately 1 hour and 50 minutes, but typical simulator play times for 18 holes are not specified."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "Yes, the venue offers specific junior lessons and has a history of coaching youth golf camps, making it suitable for junior golfers."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"9:15AM-4:15PM\"], \"Tuesday\": [\"9AM-4PM\"], \"Wednesday\": [\"9:30AM-5:30PM\"], \"Thursday\": [\"9:30AM-3:30PM\", \"8-10PM\"], \"Friday\": [\"9AM-5PM\"], \"Saturday\": [\"8AM-1PM\"], \"Sunday\": [\"Closed\"]}"
+}

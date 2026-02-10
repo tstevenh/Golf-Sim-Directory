@@ -1,0 +1,93 @@
+{
+  "name": "The Golf House",
+  "address": "1885 Holste Rd, Northbrook, IL 60062",
+  "city": "Northbrook",
+  "region": "Illinois",
+  "country": "US",
+  "latitude": 42.100556,
+  "longitude": -87.82696,
+  "phone": "+17737192531",
+  "website": "http://golfhousenorthbrook.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770253118/golf_simulators/golfhousenorthbrook_com_ChIJVVUV7AjHD4gRBQ1mwtxRfKM.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Golf+House/@42.100556399999995,-87.8269596,14z/data=!4m8!1m2!2m1!1sThe+Golf+House!3m4!1s0x880fc708ec155555:0xa37c51dcc2660d05!8m2!3d42.100556399999995!4d-87.8269596",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJVVUV7AjHD4gRBQ1mwtxRfKM",
+  "email": "golfhousedan@gmail.com",
+  "venue_type": "sim_bar",
+  "about": "The Golf House is a premier golf simulator and social club in Northbrook, IL, featuring two cutting-edge Golfzon simulators for year-round play. The facility offers a comfortable lounge area with amenities like a 120-inch projection TV, shuffleboard, poker tables, and a dart board, making it ideal for both serious practice and social gatherings. Patrons can enjoy access to over 200 virtual golf courses, with options ranging from hourly reservations at $50 to various membership packages for full-time access.",
+  "tags": "food_and_drinks|corporate_events|leagues|premium_tech|private_rooms|club_rentals|family_friendly|late_night",
+  "vibe_tags": "sports_bar|community_club|family_fun_center",
+  "who_its_for": "serious_golfers|families|large_groups|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Two advanced Golfzon simulators with over 200 courses available",
+    "Convenient 16-hour daily operation, perfect for Chicago winter play",
+    "Social lounge with multiple entertainment options for non-golfers",
+    "Flexible booking options including permanent tee times and memberships"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Catering available through partner Landmark, or guests can bring their own food"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service, BYOB likely allowed"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Golfzon",
+      "model": "Simulator",
+      "notes": "Two cutting-edge simulators with mobile platforms and multiple playing surfaces"
+    }
+  ],
+  "simulator_so": [
+    "Golfzon"
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface|dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://schedule.golfhousenorthbrook.com/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 50,
+  "price_range_max_local": 2000,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|kitchen_food|tv_sports|private_party_room|wifi|pro_shop|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you should bring your own clubs as the facility doesn't mention club rentals."
+    },
+    {
+      "question": "Can I bring food and drink?",
+      "answer": "Yes, you can bring your own food or have it catered through their partner Landmark. BYOB is likely permitted."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Recommended time slots are 3 hours for foursomes playing 18 holes."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue accommodates families with private parties and has a lounge area suitable for all ages."
+    }
+  ],
+  "simulator_software": [
+    "Golfzon"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": null
+}

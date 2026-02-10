@@ -1,0 +1,94 @@
+{
+  "name": "Ferguson Golf Institute",
+  "address": "2217 Commerce Rd, Forest Hill, MD 21050",
+  "city": "Forest Hill",
+  "region": "Maryland",
+  "country": "US",
+  "latitude": 39.579045,
+  "longitude": -76.367908,
+  "phone": "+14439811648",
+  "website": "http://www.fgigolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770202495/golf_simulators/www_fgigolf_com_ChIJH_KgAYffx4kRPN8WGplux80.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Ferguson+Golf+Institute/@39.5790455,-76.3679081,14z/data=!4m8!1m2!2m1!1sFerguson+Golf+Institute!3m4!1s0x89c7df8701a0f21f:0xcdc76e991a16df3c!8m2!3d39.5790455!4d-76.3679081",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJH_KgAYffx4kRPN8WGplux80",
+  "email": "fergogolf@gmail.com",
+  "venue_type": "training_studio",
+  "about": "Ferguson Golf Institute operates as a multi-location training studio with facilities in Forest Hill and Churchville, Maryland. They specialize in golf instruction, club fitting, and simulator usage, utilizing launch monitor data, high-speed video, and biomechanical analysis. The venue offers a range of services from one-on-one lessons to junior programs and corporate outings, catering to golfers of all skill levels looking to improve their game in a structured environment.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|coaching_available|kids_friendly|juniors_youth",
+  "vibe_tags": "casual|welcoming|modern|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "Access to premium launch monitor technology for data-driven swing analysis",
+    "Comprehensive junior programs and leagues for young golfers",
+    "BYOB policy allows golfers to bring their own food and drinks",
+    "Extensive club fitting services with a wide range of equipment brands",
+    "Experienced coaching staff with a proven track record of success"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Food is welcome at both locations"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "BYOB policy - bring your own alcohol"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "Unknown",
+      "notes": "Uneekor bay rentals available at both locations"
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://www.fgigolf.com/make-a-booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 30,
+  "price_range_max_local": 330,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|kitchen_food|wifi|pro_shop|club_fitting|leagues|juniors_youth",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you should bring your own golf clubs to use with the simulators. The facility also offers club fitting services if you need equipment."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, both Forest Hill and Churchville locations have a BYOB policy where you can bring your own food and drinks."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes varies depending on simulator availability and your pace. Typical sessions are 1-3 hours for 9 holes, so 18 holes would likely take 2-6 hours."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Ferguson Golf Institute offers extensive junior golf programs including winter and fall leagues, summer camps, and PGA Jr Tour events, making it very kid-friendly."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"9AM-9PM\"], \"Tuesday\": [\"9AM-9PM\"], \"Wednesday\": [\"9AM-9PM\"], \"Thursday\": [\"9AM-9PM\"], \"Friday\": [\"9AM-10PM\"], \"Saturday\": [\"9AM-9PM\"], \"Sunday\": [\"9AM-7PM\"]}"
+}

@@ -1,0 +1,91 @@
+{
+  "name": "The Birdie Lab - Fort Collins Golf Lessons",
+  "address": "17 Old Town Square Suite 135, Fort Collins, CO 80524",
+  "city": "Fort Collins",
+  "region": "Colorado",
+  "country": "US",
+  "latitude": 40.588023,
+  "longitude": -105.075711,
+  "phone": "+19704442144",
+  "website": "https://thebirdielab.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770260079/golf_simulators/thebirdielab_com_ChIJ2Z816BxLaYcRMdh6jZdtd-8.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Birdie+Lab+-+Fort+Collins+Golf+Lessons/@40.588023299999996,-105.07571109999999,14z/data=!4m8!1m2!2m1!1sThe+Birdie+Lab+-+Fort+Collins+Golf+Lessons!3m4!1s0x87694b1ce8359fd9:0xef776d978d7ad831!8m2!3d40.588023299999996!4d-105.07571109999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ2Z816BxLaYcRMdh6jZdtd-8",
+  "email": "birdie-lab@3x.png",
+  "venue_type": "training_studio",
+  "about": "The Birdie Lab is an indoor golf training facility in Fort Collins, CO, specializing in golf lessons and practice with TrackMan technology. The venue is led by expert instructor Matt Gibson and is located at South Broadway Country Club, offering a dedicated space for golfers to improve their game using advanced launch monitor technology. Services include indoor and outdoor lessons, swing analysis, and mental game coaching, catering to players of all skill levels from beginners to tour professionals. Pricing is structured around individual lessons and package deals, with options for 30-minute to hourly sessions, multi-hour packages, and monthly memberships for regular practice.",
+  "tags": "beginner_friendly|serious_golfers|coaching_available|premium_tech|training_studio",
+  "vibe_tags": "tech_lab|industrial_training",
+  "who_its_for": "beginners|serious_golfers|coaches_instructors|juniors_youth",
+  "why_golfers_like_it": [
+    "Access to top-of-the-line TrackMan technology for detailed swing analysis",
+    "Expert coaching from PGA-certified instructor with extensive professional experience",
+    "Flexible lesson packages and monthly memberships for various skill levels and budgets",
+    "Indoor facility allowing for year-round practice regardless of weather",
+    "Focus on personalized coaching tailored to individual goals"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned on website"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned on website"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "unknown",
+      "notes": "TrackMan technology is specified but exact model not mentioned"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://thebirdielab.com/book-now/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 110,
+  "currency": "USD",
+  "walk_ins_allowed": false,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|coaching_available",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website doesn't specify whether clubs are provided or if you need to bring your own. It's recommended to bring your own clubs for consistency in practice, but you may contact the venue directly to inquire about club rentals."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The website does not mention any food or drink service. It's unclear outside food is permitted, so it's best to contact The Birdie Lab directly to confirm their policy on bringing your own refreshments."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website doesn't provide specific information about 18-hole simulation times. Individual lessons are 30 minutes to 1 hour, while package deals offer 5-10 hours of training, but there is no mention of full 18-hole simulation sessions or typical timeframes for completing an 18-hole virtual round."
+    },
+    {
+      "question": "Is The Birdie Lab kid-friendly?",
+      "answer": "The website describes the facility as offering lessons for 'all levels: Beginners to tour pros!' and mentions coaching experience with 'college and high school teams,' indicating youth instruction is available. However, it doesn't explicitly state if the facility is kid-friendly in terms of amenities or a family-oriented environment."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"Closed\"], \"Wednesday\": [\"9AM-1PM\"], \"Thursday\": [\"9AM-1PM\"], \"Friday\": [\"9AM-1PM\"], \"Saturday\": [\"10AM-1PM\"], \"Sunday\": [\"Closed\"]}"
+}

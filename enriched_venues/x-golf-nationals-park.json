@@ -1,0 +1,91 @@
+{
+  "name": "X-Golf Nationals Park",
+  "address": "1500 South Capitol St SE, Washington, DC 20003",
+  "city": "Washington",
+  "region": "District Of Columbia",
+  "country": "US",
+  "latitude": 38.872482,
+  "longitude": -77.006276,
+  "phone": "+12028533578",
+  "website": "https://www.xgolfnationalspark.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770204168/golf_simulators/www_xgolfnationalspark_com_ChIJYcLheFW5t4kREc5PUsi8URI.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/X-Golf+Nationals+Park/@38.8724817,-77.00627589999999,14z/data=!4m8!1m2!2m1!1sX-Golf+Nationals+Park!3m4!1s0x89b7b95578e1c261:0x1251bcc8524fce11!8m2!3d38.8724817!4d-77.00627589999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJYcLheFW5t4kREc5PUsi8URI",
+  "email": "info@xgolfnationalspark.com",
+  "venue_type": "sim_bar",
+  "about": "X-Golf Nationals Park is an indoor golf simulation venue offering high-tech simulators with a full bar and lounge. It features eight state-of-the-art simulator bays, each capable of accommodating up to six people per hour. The venue provides a variety of services including league play, tournaments, golf lessons, private event hosting, and food and beverage options. Pricing is structured per bay, per hour, with rates varying by day and time of day.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|club_rentals|coaching_available",
+  "vibe_tags": "sports_bar|community_club|tech_lab",
+  "who_its_for": "beginners|families|corporate_teams|solo_practice|large_groups",
+  "why_golfers_like_it": [
+    "State-of-the-art simulator technology with unparalleled accuracy and realism",
+    "Flexible hourly pricing that accommodates groups of up to six people per bay",
+    "Full bar and restaurant service available for a complete social experience",
+    "Hosts competitive leagues and tournaments with cash and travel prizes",
+    "On-site professional golf instruction available for skill improvement"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Offers shareable bites, appetizers, snacks, and pizzas; full menu available via contact"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service with beer by the glass or on tap, cocktails, and wines"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "X-Golf",
+      "model": "Simulator",
+      "notes": "Proprietary system combining camera systems, infrared lasers, and impact sensors"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "mixed",
+  "lefty_friendly": true,
+  "bay_count_total": 8,
+  "booking_url": "https://www.xgolfnationalspark.com/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 45,
+  "price_range_max_local": 65,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "No, rental golf clubs are available at the venue."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "The venue has a full bar and restaurant service, but no specific BYOB policy is mentioned."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Generally it takes about one hour for an individual player to complete 18 holes. For multiple players, it's recommended to book an additional hour per person in your group."
+    },
+    {
+      "question": "Is it kid-friendly?",
+      "answer": "Yes, the venue welcomes children of all ages and offers courses suitable for all skill levels."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"9AM-10PM\"], \"Saturday\": [\"9AM-10PM\"], \"Sunday\": [\"9AM-10PM\"]}"
+}

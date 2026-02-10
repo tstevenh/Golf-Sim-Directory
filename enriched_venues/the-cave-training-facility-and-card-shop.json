@@ -1,0 +1,93 @@
+{
+  "name": "The Cave Training Facility and Card Shop",
+  "address": "21285 S State Hwy 78, Leonard, TX 75452",
+  "city": "Leonard",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 33.375054,
+  "longitude": -96.331289,
+  "phone": "+19032014923",
+  "website": "https://thecavetrainingfacility.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770231387/golf_simulators/thecavetrainingfacility_com_ChIJrWOh8CiJS4YRmzu9URTdexg.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Cave+Training+Facility+and+Card+Shop/@33.375053799999996,-96.33128939999999,14z/data=!4m8!1m2!2m1!1sThe+Cave+Training+Facility+and+Card+Shop!3m4!1s0x864b8928f0a163ad:0x187bdd1451bd3b9b!8m2!3d33.375053799999996!4d-96.33128939999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJrWOh8CiJS4YRmzu9URTdexg",
+  "venue_type": "multi_sport_sim",
+  "about": "The Cave Training Facility and Card Shop is an indoor multi-sport training center located in Leonard, Texas. It features both indoor batting cages for baseball/softball and a high-tech golf simulator for year-round practice. The facility is climate-controlled and equipped with premium Uneekor Eye XO technology and launch monitors. Pricing is structured for both casual users and members, with hourly rental rates and a monthly membership option available for those who frequent the facility.",
+  "tags": "beginner_friendly|serious_golfers|families|solo_practice|premium_tech|club_rentals|coaching_available|retail_fitting_center",
+  "vibe_tags": "industrial_training|community_club|modern",
+  "who_its_for": "beginners|serious_golfers|families|solo_practice|coaches_instructors",
+  "why_golfers_like_it": [
+    "Access to Uneekor Eye XO technology with advanced launch monitor for detailed swing feedback",
+    "Climate-controlled environment for comfortable practice regardless of weather",
+    "Wide selection of 100K virtual golf courses available on demand",
+    "Structured rental pricing with discounted rates for monthly members"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned. BYOB policy is not explicitly stated."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service or bar mentioned on the premises."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "Eye XO",
+      "notes": "Primary launch monitor with ball and club tracking"
+    }
+  ],
+  "simulator_so": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://thecavetrainingfacility.com/#contact",
+  "pricing_model": "mixed",
+  "price_range_min_local": 15,
+  "price_range_max_local": 50,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|pro_shop|climate_controlled|wifi|tv_sports",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify if clubs are available for rental. It is recommended to bring your own clubs for the golf simulator experience."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "notes": "The website does not mention a food and drink policy or any on-site catering options."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not provide an estimated time for playing 18 holes on the simulator. Typical simulator rounds can vary from 1.5 to 3 hours depending on the number of players and pace of play."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, the venue is listed as kid-friendly, offering batting cages which are suitable for youth players, and a golf simulator that can be used by people of all ages."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"4-9PM\"], \"Tuesday\": [\"4-9PM\"], \"Wednesday\": [\"4-9PM\"], \"Thursday\": [\"4-9PM\"], \"Friday\": [\"4-9PM\"], \"Saturday\": [\"10AM-6PM\"], \"Sunday\": [\"12-6PM\"]}"
+}

@@ -1,0 +1,90 @@
+{
+  "name": "Backspin Social | Indoor Golf & Bar",
+  "address": "6717 Market St, Wilmington, NC 28405",
+  "city": "Wilmington",
+  "region": "North Carolina",
+  "country": "US",
+  "latitude": 34.25853,
+  "longitude": -77.837577,
+  "phone": "+19106608004",
+  "website": "http://www.backspinsocial.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770222965/golf_simulators/www_backspinsocial_com_ChIJKZal2e6LqYkRp-8BCpYeFaI.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Backspin+Social+%7C+Indoor+Golf+%26+Bar/@34.25853,-77.837577,14z/data=!4m8!1m2!2m1!1sBackspin+Social+%7C+Indoor+Golf+%26+Bar!3m4!1s0x89a98beed9a59629:0xa2151e960a01efa7!8m2!3d34.25853!4d-77.837577",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJKZal2e6LqYkRp-8BCpYeFaI",
+  "email": "mike@backspinsocial.com",
+  "venue_type": "sim_bar",
+  "about": "Backspin Social is an indoor golf and bar venue featuring four extra-large golf simulators with access to over 1,800 courses worldwide, including famous ones. It offers a social environment where guests can play golf, craft cocktails, local draft beer, and a large whiskey selection. The venue provides space for events, birthday parties, work events, and team happy hours, with capacity for over 200 people. Technology includes state-of-the-art simulators with instant feedback and data capture for game improvement, and it hosts leagues, contests, and memberships for all skill levels.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|leagues|premium_tech|large_groups|budget_friendly|private_rooms|club_rentals|community_club",
+  "vibe_tags": "sports_bar|casual|welcoming|modern|community_club",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "State-of-the-art Uneekor EYE XO launch monitors providing instant feedback with high accuracy and 24 data points",
+    "Access to over 1,800 golf courses worldwide, including famous ones, with E6 & TGC software",
+    "Social atmosphere with a full bar, lounge areas, and event space for a complete experience"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Kitchen available with food options for events and casual dining."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with craft cocktails, local draft beer, and a large whiskey selection."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "EYE XO",
+      "notes": "Overhead (Mounted) Launch Monitor using 2 high-speed cameras for instant shot feedback with high accuracy and in-depth data."
+    }
+  ],
+  "simulator_software": [
+    "E6",
+    "The Golf Club (TGC)"
+  ],
+  "launch_monitor_type": "overhead_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 4,
+  "booking_url": "https://www.backspinsocial.com/book-online",
+  "pricing_model": "mixed",
+  "price_range_min_local": 25,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, clubs are provided for use with the simulators. You are welcome to bring your own clubs if you prefer."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drinks are not permitted, as the venue offers a full bar and kitchen with food options available for purchase."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Playing 18 holes typically takes 1-2 hours depending on the number of players and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Backspin Social is family-friendly and welcomes children, making it suitable for family events and outings."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"3-10PM\"], \"Tuesday\": [\"3-10PM\"], \"Wednesday\": [\"11AM-10PM\"], \"Thursday\": [\"11AM-10PM\"], \"Friday\": [\"11AM-10PM\"], \"Saturday\": [\"11AM-10PM\"], \"Sunday\": [\"11AM-10PM\"]}"
+}

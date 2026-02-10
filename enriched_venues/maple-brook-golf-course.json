@@ -1,0 +1,91 @@
+{
+  "name": "Maple Brook Golf Course",
+  "address": "681 Lansing St, Charlotte, MI 48813",
+  "city": "Charlotte",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 42.573208,
+  "longitude": -84.823578,
+  "phone": "+15175431570",
+  "website": "http://www.maplebrookgolfclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770238380/golf_simulators/www_maplebrookgolfclub_com_ChIJGx30Xg2vIogRAGzBJzSeIi0.png",
+  "google_maps_url": "https://www.google.com/maps/place/Maple+Brook+Golf+Course/@42.5732078,-84.8235778,14z/data=!4m8!1m2!2m1!1sMaple+Brook+Golf+Course!3m4!1s0x8822af0d5ef41d1b:0x2d229e3427c16c00!8m2!3d42.5732078!4d-84.8235778",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJGx30Xg2vIogRAGzBJzSeIi0",
+  "venue_type": "sim_bar",
+  "about": "Maple Brook Golf Club offers an indoor golf simulator experience with spacious, modern simulator bays featuring 4K graphics. The venue provides access to over 1,500 golf courses worldwide, including prestigious locations like Augusta National and TPC Sawgrass, alongside Michigan-specific courses. Pricing is structured per hour with peak and off-peak rates, and the facility is equipped with a pro shop, club fitting services, and on-site dining options. It is suitable for both individual practice and group events, featuring skills challenges and contests.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|leagues|premium_tech|club_rentals|coaching_available|solo_practice|large_groups",
+  "vibe_tags": "sports_bar|family_fun_center|community_club|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Spacious, modern simulator bays with 4K graphics",
+    "Access to over 1,500 golf courses worldwide",
+    "On-site club fitting and lessons available",
+    "Variety of skills challenges and contests for group play",
+    "Full-service pro shop and dining options"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "On-site Bar & Grill offering food service"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available at the Bar & Grill"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Unknown",
+      "model": "Unknown",
+      "notes": "Not explicitly mentioned, but features 4K graphics and advanced tracking capabilities"
+    }
+  ],
+  "simulator_software": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://chronogolf.com/club/18248",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 45,
+  "price_range_max_local": 55,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|full_bar|kitchen_food|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, you can use your own clubs, but the facility also offers club rentals and a pro shop for equipment needs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drinks are not mentioned, but the venue has an on-site Bar & Grill that offers food and alcohol options."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The exact time for 18 holes is not specified, but typical simulator sessions are booked per hour, and 18 holes usually take around 2-3 hours depending on group size and pace."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Maple Brook Golf Club is kid-friendly, offering a welcoming atmosphere for families and groups with children."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-8PM\"], \"Tuesday\": [\"9AM-8PM\"], \"Wednesday\": [\"9AM-8PM\"], \"Thursday\": [\"9AM-8PM\"], \"Friday\": [\"9AM-8PM\"], \"Saturday\": [\"9AM-8PM\"], \"Sunday\": [\"9AM-8PM\"]}"
+}

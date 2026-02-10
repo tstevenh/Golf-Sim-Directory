@@ -1,0 +1,93 @@
+{
+  "name": "Swing Magnolia",
+  "address": "500 Furys Ferry Rd Ste 107, Augusta, GA 30907",
+  "city": "Augusta",
+  "region": "Georgia",
+  "country": "US",
+  "latitude": 33.536443,
+  "longitude": -82.080802,
+  "phone": "+17064479094",
+  "website": "https://swingmagnolia.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770230742/golf_simulators/swingmagnolia_com_ChIJx56pJajT-YgRbKf5PSdHezY.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Swing+Magnolia/@33.5364432,-82.08080149999999,14z/data=!4m8!1m2!2m1!1sSwing+Magnolia!3m4!1s0x88f9d3a825a99ec7:0x367b47273df9a76c!8m2!3d33.5364432!4d-82.08080149999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJx56pJajT-YgRbKf5PSdHezY",
+  "email": "info@swingmagnolia.com",
+  "venue_type": "sim_bar",
+  "about": "Swing Magnolia is a golf simulator venue utilizing Trackman iO technology to provide year-round access to over 400 virtual courses. The facility features multiple simulator bays equipped with radar-powered launch monitors for precise shot data analysis, offering an environment suitable for both individual practice and group events. Pricing is based on bay rental and varies by day, with online booking available. It is best suited for casual play, corporate outings, and events, with a professional setup focused on technology and convenience.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|kids_friendly|premium_tech|date_night|private_rooms",
+  "vibe_tags": "sports_bar|family_fun_center|tech_lab|modern",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "State-of-the-art Trackman iO radar technology for unmatched accuracy",
+    "Year-round access to world-famous golf courses regardless of weather",
+    "Free use of high-quality Stix club sets during bay rental"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Catered food packages available for events at Dinkd Pickleball location"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar available with food and drinks"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Ceiling-mounted, radar-powered launch monitor"
+    }
+  ],
+  "simulator_so": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://swingmagnolia.com/book",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|pro_shop",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, complimentary high-quality Stix club sets are available for use during your bay rental."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "External food and drink policies are not specified, but a full bar with food options is available on-site."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time required to play 18 holes is not specified, as virtual course length and gameplay style can vary."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is suitable for all ages and skill levels, offering fun games and experiences perfect for families."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"6AM-8PM\"], \"Tuesday\": [\"6AM-9PM\"], \"Wednesday\": [\"6AM-9PM\"], \"Thursday\": [\"6AM-9PM\"], \"Friday\": [\"6AM-9PM\"], \"Saturday\": [\"7AM-9PM\"], \"Sunday\": [\"9AM-7PM\"]}"
+}

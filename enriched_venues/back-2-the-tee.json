@@ -1,0 +1,90 @@
+{
+  "name": "Back 2 the Tee",
+  "address": "201 S Washington St STE 10, Owosso, MI 48867",
+  "city": "Owosso",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 42.996286,
+  "longitude": -84.169973,
+  "phone": "+19897216345",
+  "website": "https://back2thetee.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770220964/golf_simulators/back2thetee_com_ChIJmyB-xw0HI4gR7oH3HnR_ufU.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Back+2+the+Tee/@42.9962862,-84.1699732,14z/data=!4m8!1m2!2m1!1sBack+2+the+Tee!3m4!1s0x8823070dc77e209b:0xf5b97f741ef781ee!8m2!3d42.9962862!4d-84.1699732",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJmyB-xw0HI4gR7oH3HnR_ufU",
+  "email": "back2thetee@gmail.com",
+  "venue_type": "sim_bar|multi_sport_sim",
+  "about": "Back 2 the Tee is an indoor golf venue and family-owned business in Owosso, MI. The facility utilizes Full Swing simulators to provide year-round golfing, leagues, coaching, and equipment fitting. The venue caters to a diverse range of patrons, from serious golfers seeking to improve their game to families and groups looking for entertainment. Beyond golf, the simulators support a variety of other sports and activities like baseball, soccer, and a unique zombie dodgeball mode. The atmosphere is described as welcoming and community-focused, with an emphasis on making golf fun, competitive, and accessible.",
+  "tags": "beginner_friendly|food_and_drinks|kids_friendly|corporate_events|leagues|premium_tech|coaching_available|multi_sport|family_fun_center",
+  "vibe_tags": "casual|welcoming|community_club|family_fun_center",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|juniors_youth",
+  "why_golfers_like_it": [
+    "Variety of sports and games available on premium Full Swing simulators",
+    "Flexible leagues with multiple formats and competitive options",
+    "Professional coaching from a former PGA Tour Pro and high school coach",
+    "Family-friendly environment with options for kids and group events"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "Outside food is permitted; venue does not have an on-site kitchen."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Liquor license allows for the sale of canned seltzers and beer."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Full Swing",
+      "model": "unknown",
+      "notes": "Primary simulator hardware; endorsed by PGA Tour, Golf Channel, and Tiger Woods."
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://back2thetee.com/contact/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 8,
+  "amenities_list": "club_rentals|full_bar|tv_sports|private_party_room|pro_shop|club_fitting|leagues|multi_sport",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "The venue does not explicitly state whether clubs are available for rent. It is recommended to bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food is permitted. The venue has a liquor license and sells canned seltzers and beer, but does not have an on-site kitchen."
+    },
+    {
+      "question": "How many holes can one person play in an hour?",
+      "answer": "One person can play 18 holes per hour. For two people, it is 9 holes per hour."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is kid-friendly. They offer junior golf coaching, and testimonials mention having a great time with kids, including activities like zombie dodgeball."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"2-10PM\"], \"Wednesday\": [\"2-9PM\"], \"Thursday\": [\"2-10PM\"], \"Friday\": [\"12-10PM\"], \"Saturday\": [\"10AM-10PM\"], \"Sunday\": [\"Closed\"]}"
+}

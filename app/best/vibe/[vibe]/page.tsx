@@ -1,7 +1,6 @@
 import { Metadata } from "next";
 import { db, venueCardSelect } from "@/lib/db";
 import { BestByPageContent } from "@/components/seo/BestByPageContent";
-import { matchesVibe } from "@/lib/best-by";
 import { getStaticRelatedLinks } from "@/lib/category-config.generated";
 
 interface BestVibePageProps {
@@ -9,7 +8,7 @@ interface BestVibePageProps {
   searchParams?: Promise<Record<string, string | string[] | undefined>>;
 }
 
-export const revalidate = 3600;
+export const revalidate = 86400;
 
 // Pre-render all vibe pages at build time
 export async function generateStaticParams() {
@@ -85,17 +84,28 @@ export async function generateMetadata({ params }: BestVibePageProps): Promise<M
 export default async function BestVibePage({ params, searchParams }: BestVibePageProps) {
   const paramsResolved = (await searchParams) || {};
   const page = Math.max(1, Number(paramsResolved.page || 1));
+  const pageSize = 12;
   const { vibe } = await params;
   const vibeLabel = vibe.replace(/_/g, " ").replace(/-/g, " ").replace(/\b\w/g, l => l.toUpperCase());
   const vibeKey = vibe.toLowerCase();
+  const vibeVariants = Array.from(new Set([vibe, vibe.replace(/-/g, "_"), vibe.replace(/_/g, "-")]));
+  const skip = (page - 1) * pageSize;
 
-  const venues = await db.venue.findMany({
-    where: { status: "active" },
-    orderBy: [{ featured: "desc" }, { ratingOverall: "desc" }, { name: "asc" }],
-    select: venueCardSelect,
-  });
+  const where = {
+    status: "active" as const,
+    vibeTags: { hasSome: vibeVariants },
+  };
 
-  const filteredVenues = venues.filter((venue) => matchesVibe(venue, vibe));
+  const [totalVenues, venues] = await Promise.all([
+    db.venue.count({ where }),
+    db.venue.findMany({
+      where,
+      orderBy: [{ featured: "desc" }, { ratingOverall: "desc" }, { name: "asc" }],
+      select: venueCardSelect,
+      take: pageSize,
+      skip,
+    }),
+  ]);
 
   const content = vibeContent[vibeKey] || {
     tagline: `${vibeLabel} Atmosphere`,
@@ -151,13 +161,15 @@ export default async function BestVibePage({ params, searchParams }: BestVibePag
       ctaDescription={`If your venue has a ${vibeLabel.toLowerCase()} atmosphere, claim your listing to verify details and appear in our curated collections.`}
       ctaPrimary={{ label: "Claim Your Listing", href: "/claim" }}
       ctaSecondary={{ label: "Submit New Venue", href: "/submit" }}
-      venues={filteredVenues}
+      venues={venues}
+      totalVenues={totalVenues}
       categoryType="vibe"
       categoryValue={vibeKey}
       heroSubtitle={content.tagline}
       breadcrumbItems={breadcrumbs}
       showRanking={true}
       currentPage={page}
+      pageSize={pageSize}
       baseUrl={`/best/vibe/${vibe}`}
     />
   );

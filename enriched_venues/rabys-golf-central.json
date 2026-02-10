@@ -1,0 +1,92 @@
+{
+  "name": "Rabys Golf Central",
+  "address": "1639 E Broomfield Rd #2c, Mt Pleasant, MI 48858",
+  "city": "Mt Pleasant",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 43.583294,
+  "longitude": -84.750799,
+  "phone": "+19894004653",
+  "website": "https://www.rabysgolfcentral.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770226236/golf_simulators/www_rabysgolfcentral_com_ChIJdWPPmmcbIogR2yGUHhfsszw.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Raby%E2%80%99s+Golf+Central/@43.583293999999995,-84.750799,14z/data=!4m8!1m2!2m1!1sRaby%E2%80%99s+Golf+Central!3m4!1s0x88221b679acf6375:0x3cb3ec171e9421db!8m2!3d43.583293999999995!4d-84.750799",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJdWPPmmcbIogR2yGUHhfsszw",
+  "email": "rabysgolfcentral@yahoo.com",
+  "venue_type": "sim_bar",
+  "about": "Raby's Golf Central is a community-oriented golf simulation venue that brings together people of all ages to enjoy the game. The facility utilizes Trackman iO technology to provide an immersive experience with access to 288 courses, 51 tour venues, and the ability to compete in global tournaments. They offer a range of services, including club regripping, and are open late until midnight, making it convenient for various play schedules.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|premium_tech|club_rentals|leagues|community_club",
+  "vibe_tags": "casual|welcoming|modern|community_club",
+  "who_its_for": "beginners|families|corporate_teams|solo_practice|coaches_instructors",
+  "why_golfers_like_it": [
+    "Access to premium Trackman iO technology for accurate shot tracking",
+    "Ability to play on 288 courses and compete in global tournaments",
+    "Experienced club regripping services using the latest technology",
+    "Welcoming community-oriented environment for all skill levels",
+    "Late hours open until midnight for flexible scheduling"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "On-site kitchen or food service available"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar available for drinks"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Premium launch monitor with radar technology for ball and club tracking"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://booking.trackmangolf.com/venues/raby-s-golf-central/booking/bays",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": false,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|lockers|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can bring your own clubs, but Raby's Golf Central also offers club rentals and fitting services if needed."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue has an on-site kitchen and full bar, but external food and drink policies are not specified."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Typical simulation times vary, but 18 holes usually takes 1-2 hours depending on pace of play and group size."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Raby's Golf Central welcomes all ages and has a family-oriented environment, making it suitable for juniors and youth."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"9AM-11PM\"], \"Tuesday\": [\"9AM-11PM\"], \"Wednesday\": [\"9AM-11PM\"], \"Thursday\": [\"9AM-11PM\"], \"Friday\": [\"9AM-11PM\"], \"Saturday\": [\"9AM-12AM\"], \"Sunday\": [\"9AM-10PM\"]}"
+}

@@ -1,0 +1,89 @@
+{
+  "name": "Indoor Golf of Utah",
+  "address": "467 S Main St suite 101, Brigham City, UT 84302",
+  "city": "Brigham City",
+  "region": "Utah",
+  "country": "US",
+  "latitude": 41.501523,
+  "longitude": -112.015663,
+  "phone": "+14357305859",
+  "website": "https://indoorgolfofutah.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770213137/golf_simulators/indoorgolfofutah_com_ChIJ0YQL5dJ7U4cR2T2j_TOarXA.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Indoor+Golf+of+Utah/@41.5015226,-112.0156629,14z/data=!4m8!1m2!2m1!1sIndoor+Golf+of+Utah!3m4!1s0x87537bd2e50b84d1:0x70ad9a33fda33dd9!8m2!3d41.5015226!4d-112.0156629",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ0YQL5dJ7U4cR2T2j_TOarXA",
+  "email": "info@indoorgolfofutah.com",
+  "venue_type": "sim_bar|training_studio|private_rental|retail_fitting_center|country_club|multi_sport_sim|hotel_resort|other",
+  "about": "Indoor Golf of Utah offers a year-round golf experience using state-of-the-art TrackMan simulation technology. The facility is designed to be accessible regardless of weather or season, featuring multiple simulation bays, professional coaching, and 24/7 member access. It provides a premium indoor environment where golf enthusiasts can play on over 100 world-class courses, receive expert instruction, and participate in leagues and events.",
+  "tags": "beginner_friendly|corporate_events|leagues|premium_tech|coaching_available|private_rooms|club_rentals|community_club",
+  "vibe_tags": "tech_lab|community_club|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Access to over 100 world-class golf courses year-round",
+    "24/7 facility access with staff support during business hours",
+    "PGA-certified coaching using TrackMan's advanced swing analysis"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of food services on the website"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol services on the website"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "State-of-the-art dual-radar technology providing precise ball and club tracking"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://indoorgolf.app/onboarding",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can bring your own clubs or rent equipment at the facility, though specific rental details aren't provided on the website."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The website doesn't mention any food or drink services, so it's unclear if outside food and drinks are permitted."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website doesn't specify the time required to play 18 holes, but individual sessions are available in 1-hour increments."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "The website doesn't specifically address kid-friendliness, though it mentions family-oriented leagues and events."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

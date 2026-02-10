@@ -1,0 +1,91 @@
+{
+  "name": "SimGolf",
+  "address": "1451 NY-5S, Amsterdam, NY 12010",
+  "city": "Amsterdam",
+  "region": "New York",
+  "country": "US",
+  "latitude": 42.930645,
+  "longitude": -74.207916,
+  "phone": "+15182126021",
+  "website": "http://simgolfpga.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770200091/golf_simulators/simgolfpga_com_ChIJxRJtpU1h3okRdYpPeYNgGgw.png",
+  "google_maps_url": "https://www.google.com/maps/place/SimGolf/@42.9306449,-74.2079162,14z/data=!4m8!1m2!2m1!1sSimGolf!3m4!1s0x89de614da56d12c5:0xc1a6083794f8a75!8m2!3d42.9306449!4d-74.2079162",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJxRJtpU1h3okRdYpPeYNgGgw",
+  "email": "Scott@simgolfpga.com",
+  "venue_type": "training_studio",
+  "about": "SimGolf is a premier indoor golf development center in Upstate New York, featuring a 10,000-square-foot facility with five hitting bays and 3,500 square feet of dedicated short-game space. It operates as the home of Scott Warren Golf, a 2025 NENYPGA Player Development Award winner, offering year-round coaching, individual lessons, and custom club fitting. The venue utilizes Uneekor EYEXO technology for its simulators and provides access to over 100 famous golf courses with tour-level statistics and analytics, making it suitable for golfers of all skill levels. The facility also hosts corporate events, junior programs, and club fitting days from major brands like PING and Titleist, while offering seasonal memberships and party packages for children.",
+  "tags": "beginner_friendly|coaching_available|corporate_events|juniors_youth|premium_tech|serious_golfers|training_studio|club_fitting|leagues",
+  "vibe_tags": "community_club|industrial_training|modern",
+  "who_its_for": "beginners|serious_golfers|families|juniors_youth|corporate_teams",
+  "why_golfers_like_it": [
+    "Access to Uneekor EYEXO technology for precise ball and club tracking",
+    "Custom club fitting services from PGA professionals with premium brands",
+    "Year-round indoor golf practice with launch monitor technology",
+    "Junior and adult instructional programs led by a PGA award-winning coach",
+    "Flexible booking options for simulators, practice time, and clinics"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned; BYOB policy not specified"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "EYEXO",
+      "notes": "State-of-the-art photometric camera system used for fittings and practice"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 4,
+  "booking_url": "https://www.simgolfpga.com/teefindr",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, golfers should bring their own clubs for practice and simulator sessions. Club rentals are not mentioned."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "No food or drink service is mentioned, and BYOB policy is not specified."
+    },
+    {
+      "question": "How long does it take to play 18 holes on the simulator?",
+      "answer": "Time for 18 holes is not explicitly stated, but simulator sessions are booked by the hour, with rates varying by time of day and season."
+    },
+    {
+      "question": "Is SimGolf kid-friendly?",
+      "answer": "Yes, SimGolf offers junior instructional programs, clinics, and kids' parties (starting at $19 per child for 90 minutes)."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"12-8PM\"], \"Tuesday\": [\"12-8PM\"], \"Wednesday\": [\"9AM-8PM\"], \"Thursday\": [\"10AM-8PM\"], \"Friday\": [\"12-8:30PM\"], \"Saturday\": [\"9:30AM-8:30PM\"], \"Sunday\": [\"10AM-5PM\"]}"
+}

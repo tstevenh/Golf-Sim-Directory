@@ -1,0 +1,92 @@
+{
+  "name": "Bogeys Golf Simulator",
+  "address": "257 W Main St, Brownsville, TN 38012",
+  "city": "Brownsville",
+  "region": "Tennessee",
+  "country": "US",
+  "latitude": 35.594306,
+  "longitude": -89.265284,
+  "phone": "+17316163915",
+  "website": "http://bogeysgolfsimulator.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770238832/golf_simulators/bogeysgolfsimulator_com_ChIJif0uEpLdfogRtw-Q4wrrrXc.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Bogeys+Golf+Simulator/@35.5943061,-89.2652841,14z/data=!4m8!1m2!2m1!1sBogeys+Golf+Simulator!3m4!1s0x887edd92122efd89:0x77adeb0ae3900fb7!8m2!3d35.5943061!4d-89.2652841",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJif0uEpLdfogRtw-Q4wrrrXc",
+  "email": "bogeysgolf1@gmail.com",
+  "venue_type": "sim_bar",
+  "about": "Bogeys Golf Simulator is a venue offering a unique golf simulator experience in Brownsville, TN. They use Protee VX Simulator technology with high-speed cameras and Artificial Intelligence to provide speed and accuracy for a virtual golf experience. The venue is accessible 24/7, 365 days a year, allowing players to book by the hour for up to 8 players per session. Players can choose from over 500 prestige golf courses worldwide or practice solo with provided clubs if needed. Bogeys features a lounge area for relaxation and socializing, along with snacks and drinks available for purchase. Membership options are available for discounted rates.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|kids_friendly|corporate_events|leagues|budget_friendly|club_rentals|late_night|community_club",
+  "vibe_tags": "casual|welcoming|modern|family_fun_center",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|solo_practice",
+  "why_golfers_like_it": [
+    "24/7 availability for flexible booking",
+    "Access to over 500 prestigious golf courses worldwide",
+    "Protee VX Simulator technology with high-speed cameras and AI",
+    "Club rentals available for players without their own set",
+    "Lounge area for socializing and relaxation",
+    "Membership options with discounted hourly rates"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Snacks and drinks available for purchase."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "BYOB is allowed as per 'feel free to bring your own'."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Protee",
+      "model": "VX Simulator",
+      "notes": "High-speed cameras and AI for speed and accuracy."
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 1,
+  "booking_url": "https://clients.uschedule.com/bogeysgolfsimulator/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "true",
+  "coaching_available": "unknown",
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 8,
+  "amenities_list": "club_rentals|kitchen_food|wifi|tv_sports|lounge_area",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "No, Bogeys provides clubs for players to use if you don't have your own set."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, you are welcome to bring your own food and drinks. Bogeys also offers snacks and drinks for purchase."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "A typical 18-hole round takes approximately 2 hours and 15 minutes."
+    },
+    {
+      "question": "Is Bogeys kid-friendly?",
+      "answer": "Yes, Bogeys is kid-friendly with a lounge area available for children to relax during their turn or while watching."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

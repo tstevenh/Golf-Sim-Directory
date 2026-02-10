@@ -1,0 +1,91 @@
+{
+  "name": "iSwing Indoor Golf",
+  "address": "42101 N 41st Dr Suite 124, Phoenix, AZ 85086",
+  "city": "Phoenix",
+  "region": "Arizona",
+  "country": "US",
+  "latitude": 33.86663,
+  "longitude": -112.146794,
+  "phone": "+16234404036",
+  "website": "https://iswinggolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770209886/golf_simulators/iswinggolf_com_ChIJ0Y8OA-6fLIcRpTGCwwr3cjE.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/iSwing+Indoor+Golf/@33.8666301,-112.14679389999999,14z/data=!4m8!1m2!2m1!1siSwing+Indoor+Golf!3m4!1s0x872c9fee030e8fd1:0x3172f70ac38231a5!8m2!3d33.8666301!4d-112.14679389999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ0Y8OA-6fLIcRpTGCwwr3cjE",
+  "email": "info@iswinggolf.com",
+  "venue_type": "sim_bar",
+  "about": "iSwing Indoor Golf is a premier indoor golf simulator facility located in Anthem, AZ, featuring 5 simulator bays equipped with state-of-the-art ball and clubhead tracking technology. The venue offers a comprehensive golf experience with wall-to-wall custom curved screens, allowing players to practice, play on over 2,000 virtual courses, and compete in leagues or events. Amenities include a beer and wine bar, an open TV lounge, and a putting green, providing a social atmosphere for both serious golfers and casual players. The facility is designed for golfers to enjoy the game day or night, rain or shine, with technology such as shot tracing, ball contact cameras, and an AI Swing Trainer for immediate feedback.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|kids_friendly|corporate_events|leagues|premium_tech|private_rooms|coaching_available",
+  "vibe_tags": "sports_bar|family_fun_center|community_club",
+  "who_its_for": "beginners|serious_golfers|families|juniors_youth|corporate_teams",
+  "why_golfers_like_it": [
+    "State-of-the-art ball and clubhead tracking technology",
+    "Over 2,000 virtual courses available for play",
+    "Immediate swing feedback from AI Swing Trainer and multiple camera angles",
+    "Social atmosphere with beer and wine bar and TV lounge"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food mentioned on the website."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Beer and wine bar available on-site."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "unknown",
+      "notes": "Mentioned state-of-the-art ball & clubhead tracking, but specific model not listed."
+    }
+  ],
+  "simulator_software": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": 5,
+  "booking_url": "https://iswinggolf.com/book-golf",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 8,
+  "amenities_list": "club_rentals|full_bar|tv_sports|private_party_room|wifi|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not explicitly state whether clubs are provided or if you need to bring your own. It is recommended to contact the venue directly for clarification."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The website does not mention a policy on bringing outside food and drinks. However, the venue offers a beer and wine bar on-site."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website states that you can 'breeze through 18 in half the time' compared to a traditional round, suggesting it takes approximately 1-2 hours to complete 18 holes."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue offers junior golf programs, camps, and junior memberships, making it a kid-friendly environment for young golfers."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"10AM-8PM\"], \"Tuesday\": [\"10AM-8PM\"], \"Wednesday\": [\"10AM-8PM\"], \"Thursday\": [\"10AM-8PM\"], \"Friday\": [\"10AM-9PM\"], \"Saturday\": [\"9AM-9PM\"], \"Sunday\": [\"9AM-7PM\"]}"
+}

@@ -1,0 +1,95 @@
+{
+  "name": "X-Golf Canton",
+  "address": "44524 Ford Rd, Canton Township, MI 48187",
+  "city": "Canton Township",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 42.323615,
+  "longitude": -83.480127,
+  "phone": "+17342286988",
+  "website": "http://xgolfcanton.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770216331/golf_simulators/xgolfcanton_com_ChIJpf4R-MVTO4gRK4eHEvfybrk.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/X-Golf+Canton/@42.3236148,-83.4801272,14z/data=!4m8!1m2!2m1!1sX-Golf+Canton!3m4!1s0x883b53c5f811fea5:0xb96ef2f71287872b!8m2!3d42.3236148!4d-83.4801272",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJpf4R-MVTO4gRK4eHEvfybrk",
+  "email": "xgolfcanton.john@gmail.com",
+  "venue_type": "sim_bar",
+  "about": "X-Golf Canton offers indoor golf simulation with a full-service bar and restaurant. Their facilities include state-of-the-art golf simulators designed for players of all skill levels. The venue hosts a variety of events from corporate gatherings to birthday parties and provides options for both casual play and serious practice sessions. Pricing is structured per simulator bay per hour, accommodating up to six players per bay, with rates varying based on day and time.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|coaching_available|family_friendly",
+  "vibe_tags": "sports_bar|casual|welcoming|modern",
+  "who_its_for": "beginners|families|corporate_teams|large_groups|solo_practice",
+  "why_golfers_like_it": [
+    "State-of-the-art simulator technology with high accuracy and realism",
+    "Full bar and restaurant on-site for a complete entertainment experience",
+    "Flexible pricing for individuals and groups with capacity for up to six players per bay",
+    "PGA-certified coaching available for skill development",
+    "Welcoming atmosphere for both beginners and experienced golfers"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Menu includes shareable bites, appetizers, snacks, pizzas and more"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service with beer by the glass or on tap, cocktails and wines"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "X-Golf",
+      "model": "proprietary",
+      "notes": "Combination of camera systems, infrared lasers, impact sensors"
+    }
+  ],
+  "simulator_so": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://clients.uschedule.com/xgolfcanton/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 40,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|private_party_room|wifi|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, club rentals are available. You can also bring your own clubs if preferred."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No outside food or drinks are allowed. The venue offers a full bar and restaurant with various food and drink options available for purchase."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Generally takes 1 hour for an individual player to play 18 holes. If you have more than one player, you may want to book an additional hour for each player in your group, though skill level can affect pace of play."
+    },
+    {
+      "question": "Is X-Golf Canton kid-friendly?",
+      "answer": "Yes, children of all ages are welcome. The venue offers entertainment options suitable for families and has accommodated large events including children's parties."
+    }
+  ],
+  "simulator_software": [
+    "V1 Pro Golf"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-12AM\"], \"Friday\": [\"9AM-12AM\"], \"Saturday\": [\"9AM-12AM\"], \"Sunday\": [\"9AM-8PM\"]}"
+}

@@ -1,0 +1,89 @@
+{
+  "name": "Swing Away Golf Club",
+  "address": "100 Frankfurt Cir Suite DE, Birmingham, AL 35211",
+  "city": "Birmingham",
+  "region": "Alabama",
+  "country": "US",
+  "latitude": 33.438345,
+  "longitude": -86.866344,
+  "phone": "+12056598721",
+  "website": "http://sagolfclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770203942/golf_simulators/sagolfclub_com_ChIJB0zWExcfiYgRooRqLyUtJwg.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Swing+Away+Golf+Club/@33.4383453,-86.8663442,14z/data=!4m8!1m2!2m1!1sSwing+Away+Golf+Club!3m4!1s0x88891f1713d64c07:0x8272d252f6a84a2!8m2!3d33.4383453!4d-86.8663442",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJB0zWExcfiYgRooRqLyUtJwg",
+  "email": "Asset-3@4x-8-985x1024.png",
+  "venue_type": "sim_bar|training_studio",
+  "about": "Swing Away Golf Club is a PGA Certified virtual indoor golf venue in Birmingham, Alabama. They operate a 3-bay clubhouse equipped with Fullswing Pro 2.0 simulators featuring advanced tri-tracking technology, overhead ION3 cameras, and infrared technology for precise ball flight measurement. The facility offers memberships, simulator retail sales, private event bookings, leagues, and a pro shop. Their target audience includes serious golfers, families, and corporate teams looking for high-tech practice and entertainment.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|private_rooms|club_rentals|coaching_available|serious_practice|family_friendly",
+  "vibe_tags": "modern|tech_lab|community_club|sports_bar",
+  "who_its_for": "serious_golfers|families|corporate_teams|beginners|solo_practice",
+  "why_golfers_like_it": [
+    "Industry-leading Fullswing Pro 2.0 simulators with professional-grade accuracy",
+    "Tri-tracking technology using ION3 and HYPERCLEAR cameras for real-time ball flight analysis",
+    "Comprehensive offerings including memberships, leagues, private events, and retail sales"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "Not mentioned on website, but the podcast and event focus suggest a potential food service."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service on website."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Fullswing",
+      "model": "Pro 2.0",
+      "notes": "Tri-tracking technology with ION3 and HYPERCLEAR cameras"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "photometric_camera|infrared_optical",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://app.whoosh.io/patron/club/swing-away-golf/agenda/golf/today",
+  "pricing_model": "per_bay_hour|membership_only|mixed",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|pro_shop|leagues|private_party_room|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not explicitly state whether clubs are provided. It's recommended to bring your own for the best experience, but you may inquire directly with the club."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "There is no mention of a BYOB policy on the website. The pro shop is available, but no food or drink services are detailed, so it's best to contact the venue directly."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "The website does not specify the duration for an 18-hole round. This can vary based on simulator wait times and play speed, so booking ahead is recommended."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Swing Away Golf Club appears to be family-friendly, with mentions of events and a podcast that suggests an inclusive, community-oriented atmosphere suitable for all ages."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"9AM-9PM\"], \"Wednesday\": [\"9AM-9PM\"], \"Thursday\": [\"9AM-9PM\"], \"Friday\": [\"9AM-10PM\"], \"Saturday\": [\"9AM-10PM\"], \"Sunday\": [\"9AM-6PM\"]}"
+}

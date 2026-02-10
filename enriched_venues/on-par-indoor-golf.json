@@ -1,0 +1,79 @@
+{
+  "name": "On Par Indoor Golf",
+  "address": "33 Macon Dr, Cataula, GA 31804",
+  "city": "Cataula",
+  "region": "Georgia",
+  "country": "US",
+  "latitude": 32.637834,
+  "longitude": -84.8894,
+  "phone": "+17359583595",
+  "website": "https://www.onparindoorgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770198870/golf_simulators/www_onparindoorgolf_com_ChIJm18nzwZL84gRs7qy8pfGbVA.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/On+Par+Indoor+Golf/@32.6378337,-84.8894002,14z/data=!4m8!1m2!2m1!1sOn+Par+Indoor+Golf!3m4!1s0x88f34b06cf275f9b:0x506dc697f2b2bab3!8m2!3d32.6378337!4d-84.8894002",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJm18nzwZL84gRs7qy8pfGbVA",
+  "email": "onparindoorgolf@gmail.com",
+  "venue_type": "training_studio|private_rental|other",
+  "about": "On Par Indoor Golf provides a state-of-the-art indoor golf experience using ProTee VX Launch Monitor technology and over 150k simulated courses. The facility offers private swing lessons and bay rentals for golfers of all skill levels, with detailed metrics on ball and club data. Pricing is transparent, with options for 1-2 hour lessons and 1-4 hour bay rentals available for booking online.",
+  "tags": "beginner_friendly|serious_practice|corporate_events|private_rooms|coaching_available|premium_tech|club_rentals",
+  "vibe_tags": "private_luxury|tech_lab|industrial_training",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice|coaches_instructors",
+  "why_golfers_like_it": [
+    "ProTee VX Launch Monitor provides 1:1 accuracy with over 25 data points",
+    "Access to over 150k simulated courses worldwide including real pro courses",
+    "Private swing lessons available from professional instructors",
+    "Detailed real-time feedback on ball flight and club metrics"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": false,
+  "simulator_hardware": [
+    {
+      "brand": "ProTee",
+      "model": "VX",
+      "notes": "Overhead launch monitor with 1:1 accuracy measuring 25+ ball and club data points"
+    }
+  ],
+  "simulator_software": [
+    "TGC"
+  ],
+  "launch_monitor_type": "overhead_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 1,
+  "booking_url": "https://www.onparindoorgolf.com/book-online",
+  "pricing_model": "per_person_hour|package",
+  "price_range_min_local": 45,
+  "price_range_max_local": 160,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|private_rooms|coaching_available|premium_tech",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "The venue provides all necessary equipment including clubs, though personal clubs can be brought if preferred."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "The venue does not mention food and drink services, so it's unclear if outside food and drinks are permitted."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Playing time varies depending on the number of golfers and pace, but typical 18-hole sessions range from 2-3 hours."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The venue is family-friendly and suitable for golfers of all skill levels, though specific children's amenities are not mentioned."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"Closed\"], \"Wednesday\": [\"10AM-7PM\"], \"Thursday\": [\"10AM-7PM\"], \"Friday\": [\"10AM-7PM\"], \"Saturday\": [\"10AM-7PM\"], \"Sunday\": [\"10AM-7PM\"]}"
+}

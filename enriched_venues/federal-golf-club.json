@@ -1,0 +1,90 @@
+{
+  "name": "Federal Golf Club",
+  "address": "1915 Federal Blvd, Ann Arbor, MI 48103",
+  "city": "Ann Arbor",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 42.269862,
+  "longitude": -83.774798,
+  "phone": "+17347564377",
+  "website": "https://federalgolfclub.squarespace.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770222122/golf_simulators/federalgolfclub_squarespace_com_ChIJvdX24saxPIgRq4j2DjtOTyo.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Federal+Golf+Club/@42.2698624,-83.7747977,14z/data=!4m8!1m2!2m1!1sFederal+Golf+Club!3m4!1s0x883cb1c6e2f6d5bd:0x2a4f4e3b0ef688ab!8m2!3d42.2698624!4d-83.7747977",
+  "google_rating": 3.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJvdX24saxPIgRq4j2DjtOTyo",
+  "email": "Federalgolfclub@gmail.com",
+  "venue_type": "sim_bar",
+  "about": "Established in 2023, Federal Golf Club provides an indoor golf experience using Trackman Simulators, combining play with social aspects like watching sports and enjoying the exclusivity of a private club setting. Located in Ann Arbor, MI, the venue is designed for golfers to play with friends in a private, upscale environment. It functions as a members-only private club that emphasizes both serious practice and social gatherings, featuring a full bar and sports viewing options.",
+  "tags": "private_luxury|serious_practice|food_and_drinks|social_club|date_night|corporate_events|premium_tech|club_rentals",
+  "vibe_tags": "private_luxury|sports_bar|upscale_lounge|community_club",
+  "who_its_for": "serious_golfers|corporate_teams|large_groups|solo_practice|coaches_instructors",
+  "why_golfers_like_it": [
+    "Premium Trackman Simulator technology for accurate ball and club tracking",
+    "Exclusive private club atmosphere combining golf with social sports viewing",
+    "Full bar and kitchen amenities for a complete entertainment experience"
+  ],
+  "kid_friendly": false,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "On-site kitchen and dining options available"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service with cocktails and beverages"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Premium radar-based launch monitor with dual camera technology"
+    }
+  ],
+  "simulator_software": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://federalgolfclub.squarespace.com/scheduling",
+  "pricing_model": "membership_only",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|kitchen_food|tv_sports|private_party_room|club_rentals|wifi|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.1,
+  "rating_facility_comfort": 4.1,
+  "rating_value_for_money": 4.2,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, players are expected to bring their own golf clubs to use with the simulators."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drink are not permitted as the venue has an on-site kitchen and full bar."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Typically, 18 holes can be played in approximately 1-2 hours depending on the size of your group and simulator availability."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Federal Golf Club is a private adults-oriented venue focused on serious golf and social gatherings, so it is not specifically designed for children."
+    }
+  ],
+  "rating_overall": 4.1,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

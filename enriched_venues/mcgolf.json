@@ -1,0 +1,89 @@
+{
+  "name": "McGolf",
+  "address": "150 Bridge St, Dedham, MA 02026",
+  "city": "Dedham",
+  "region": "Massachusetts",
+  "country": "US",
+  "latitude": 42.266612,
+  "longitude": -71.176134,
+  "phone": "+17813269616",
+  "website": "http://www.mcgolfonline.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770240133/golf_simulators/www_mcgolfonline_com_ChIJpy7YpHF_44kRZ0CG8kUMwn8.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/McGolf/@42.266612099999996,-71.1761344,14z/data=!4m8!1m2!2m1!1sMcGolf!3m4!1s0x89e37f71a4d82ea7:0x7fc20c45f2864067!8m2!3d42.266612099999996!4d-71.1761344",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJpy7YpHF_44kRZ0CG8kUMwn8",
+  "venue_type": "multi_sport_sim",
+  "about": "McGolf Driving Range is a state-of-the-art practice facility in Dedham, MA, dedicated to providing a family atmosphere for golfers of all levels. The venue features a comprehensive practice experience including a driving range, a dedicated short game area, a mini golf course, and a golf simulator lab. McGolf offers a variety of instructional programs from private lessons to junior clinics and provides social and recreational amenities. The facility operates seasonally with certain services like the cafe closing for part of the year, while the simulator lab opens in the fall and winter months.",
+  "tags": "beginner_friendly|food_and_drinks|kids_friendly|serious_golfers|family_fun_center|coaching_available|sim_bar|premium_tech",
+  "vibe_tags": "casual|welcoming|modern|family_fun_center",
+  "who_its_for": "beginners|serious_golfers|families|juniors_youth|solo_practice",
+  "why_golfers_like_it": [
+    "State-of-the-art practice facility with a dedicated simulator lab",
+    "Comprehensive short game area for targeted practice",
+    "Variety of instructional programs and private lessons available",
+    "Family-friendly environment with a mini golf course"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Cafe available with menu including hot dogs, fries, and other food items; currently closed for the remainder of the season"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Unknown",
+      "model": "Full Swing Simulator",
+      "notes": "Mentions 'Full Swing Simulator' on the booking page and Swing Lab section"
+    }
+  ],
+  "simulator_software": [
+    "Unknown"
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": "unknown",
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": null,
+  "booking_url": "https://clients.uschedule.com/mcgolf/booking?filter=ser%5B17963%5D",
+  "pricing_model": "mixed",
+  "price_range_min_local": null,
+  "price_range_max_local": null,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": null,
+  "max_group_size_per_bay": null,
+  "amenities_list": "club_rentals|kitchen_food|pro_shop|club_fitting|leagues",
+  "rating_tech_quality": 3.5,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 3.8,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "The website does not explicitly state whether clubs are provided. It is recommended to bring your own clubs or check with the venue directly."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "The venue has its own cafe and creamery, but does not mention a policy against bringing outside food or drinks."
+    },
+    {
+      "question": "How long is a typical simulator session for 18 holes?",
+      "answer": "The website does not specify the duration for an 18-hole simulator session. Information on simulator booking and session length can be found by contacting the venue or using their booking portal."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "Yes, McGolf is designed with a family atmosphere and offers a mini golf course, junior lessons, and a dedicated space for families."
+    }
+  ],
+  "rating_overall": 3.8,
+  "opening_hours": "{\"Monday\": [\"9AM-8PM\"], \"Tuesday\": [\"9AM-8PM\"], \"Wednesday\": [\"9AM-8PM\"], \"Thursday\": [\"9AM-8PM\"], \"Friday\": [\"9AM-8PM\"], \"Saturday\": [\"9AM-8PM\"], \"Sunday\": [\"9AM-8PM\"]}"
+}

@@ -1,0 +1,90 @@
+{
+  "name": "Wild Wood Country Club",
+  "address": "1201 Rush West Rush Rd, Rush, NY 14543",
+  "city": "Rush",
+  "region": "New York",
+  "country": "US",
+  "latitude": 42.983722,
+  "longitude": -77.645182,
+  "phone": "+15853345860",
+  "website": "http://www.golfwildwood.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770250641/golf_simulators/www_golfwildwood_com_ChIJKbLD1shI0YkRDETpNoqrnlo.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Wild+Wood+Country+Club/@42.9837215,-77.6451823,14z/data=!4m8!1m2!2m1!1sWild+Wood+Country+Club!3m4!1s0x89d148c8d6c3b229:0x5a9eab8a36e9440c!8m2!3d42.9837215!4d-77.6451823",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJKbLD1shI0YkRDETpNoqrnlo",
+  "email": "msweazy@golfwildwood.com",
+  "venue_type": "country_club",
+  "about": "Wild Wood Country Club is a full-service, year-round facility located in Rush, New York. Originally founded in 1968 and renamed in 1980, the club operates as a semi-private establishment that welcomes both members and non-members. The venue features a beautifully maintained golf course, an elegant banquet venue, and state-of-the-art indoor simulators, making it versatile for various activities throughout the year. In 2019, the club was ranked #18 among Public/Semi-Private golf courses in New York State, reflecting its high quality and dedication to excellence. The facility includes a newly remodeled clubhouse with modern amenities, a private meeting room for up to 30 people equipped with an HD projector, and an indoor putting and chipping green, offering a comprehensive experience for golfers and event hosts alike.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|family_friendly|coaching_available|private_rooms|club_rentals",
+  "vibe_tags": "upscale_lounge|community_club|modern|welcoming",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "State-of-the-art Foresight Sports Technology with comprehensive ball and club data tracking",
+    "Versatile year-round facility supporting golf leagues and tournaments",
+    "Beautifully maintained golf course with a scenic overlook for dining",
+    "Newly remodeled clubhouse providing a modern, elegant space for events"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "The Stone Bridge Bar & Grill offers dining options, open Tuesday through Friday from 4 pm to 10 pm, and is accessible to both members and guests."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "The restaurant and bar provide a welcoming spot for refreshing drinks after a round of golf."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight Sports",
+      "model": "Unknown",
+      "notes": "3 Simulator Bays with Foresight Sports Technology featuring both ball and club data tracking."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 3,
+  "booking_url": "https://apimanager-cc29.clubcaddie.com/webapi/view/iefdabab",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "full_bar|kitchen_food|private_party_room|club_rentals|leagues|wifi",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need clubs?",
+      "answer": "While not explicitly stated, golf simulators typically allow players to bring their own clubs or use provided ones; it's best to check with the venue for specific requirements."
+    },
+    {
+      "question": "Can I bring food or drinks?",
+      "answer": "The venue offers on-site dining at the Stone Bridge Bar & Grill, but bringing outside food or drinks is not mentioned, so it's recommended to confirm their policy."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time required for 18 holes on a simulator can vary, but typically ranges from 1 to 2 hours depending on the simulator setup and player pace."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the club is family-friendly, offering junior camps and a welcoming atmosphere suitable for children, making it a great option for families."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"7AM-10PM\"], \"Tuesday\": [\"7AM-10PM\"], \"Wednesday\": [\"7AM-10PM\"], \"Thursday\": [\"7AM-10PM\"], \"Friday\": [\"7AM-10PM\"], \"Saturday\": [\"6AM-10PM\"], \"Sunday\": [\"6AM-10PM\"]}"
+}

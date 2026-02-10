@@ -1,0 +1,97 @@
+{
+  "name": "FORE Golf",
+  "address": "18720 Stone Oak Pkwy #123, San Antonio, TX 78258",
+  "city": "San Antonio",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 29.609932,
+  "longitude": -98.491192,
+  "phone": "+12108429617",
+  "website": "https://foreswinglounge.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770243182/golf_simulators/foreswinglounge_com_ChIJ4yoyqjtjXIYRmw5AC7bcNA8.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/FORE+Golf/@29.6099325,-98.4911923,14z/data=!4m8!1m2!2m1!1sFORE+Golf!3m4!1s0x865c633baa322ae3:0xf34dcb60b400e9b!8m2!3d29.6099325!4d-98.4911923",
+  "google_rating": 4.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ4yoyqjtjXIYRmw5AC7bcNA8",
+  "email": "Golfmanager@foreswinglounge.com",
+  "venue_type": "sim_bar",
+  "about": "Fore! Swing Lounge is an indoor golf facility in San Antonio that offers a modern, social environment for playing and practicing golf. The venue utilizes Trackman technology to provide a realistic golfing experience with accurate swing analysis and ball tracking. It features multiple simulators available for hourly play, along with a lounge area, food, and beverage options. The facility is designed for various activities including casual play, leagues, corporate events, and private parties, catering to both golfers and non-golfers looking for a unique entertainment venue.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|private_rooms|club_rentals|coaching_available|late_night",
+  "vibe_tags": "upscale_lounge|sports_bar|party_atmosphere|tech_lab",
+  "who_its_for": "beginners|families|corporate_teams|large_groups|bachelor_parties",
+  "why_golfers_like_it": [
+    "Premium Trackman technology provides accurate swing and ball tracking data",
+    "Social lounge atmosphere makes it ideal for groups and events",
+    "Flexible pricing with membership options and off-peak discounts",
+    "In-house coaching available for improvement sessions",
+    "Food and beverage service available on-site"
+  ],
+  "kid_friendly": "yes",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Kitchen food available with a menu and 20% off for members during member hours"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar available, though no explicit BYOB policy is mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Ceiling-mounted unit combining radar, infrared, and high-speed imaging for precise data tracking"
+    },
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "Another high-end simulator model offered at the venue"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "http://www.sevenrooms.com/reservations/foreswinglounge?duration-picker=true",
+  "pricing_model": "mixed",
+  "price_range_min_local": 30,
+  "price_range_max_local": 75,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues",
+  "rating_tech_quality": 4.2,
+  "rating_facility_comfort": 4.1,
+  "rating_value_for_money": 4.1,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, free club rentals are available for use at the venue."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue has an in-house kitchen and bar, but external food and drink policies are not explicitly mentioned."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "While exact timing isn't specified, typical simulator sessions run for hourly blocks, with 60 minutes of daily simulator time included in memberships."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The venue doesn't specifically mention kid-friendly amenities or policies, but it does host birthday events and family-oriented activities."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.1,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-12:30AM\"], \"Friday\": [\"10AM-12:30AM\"], \"Saturday\": [\"10AM-12:30AM\"], \"Sunday\": [\"10AM-10PM\"]}"
+}

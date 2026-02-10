@@ -1,0 +1,90 @@
+{
+  "name": "Narrow Valley Sportsplex",
+  "address": "20 Market St, Nesquehoning, PA 18240",
+  "city": "Nesquehoning",
+  "region": "Pennsylvania",
+  "country": "US",
+  "latitude": 40.862078,
+  "longitude": -75.819416,
+  "phone": "+15702735555",
+  "website": "https://www.narrowvalleysports.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770262203/golf_simulators/www_narrowvalleysports_com_ChIJ83VwLHexxYkRo25LZWdXDxI.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Narrow+Valley+Sportsplex/@40.8620782,-75.8194157,14z/data=!4m8!1m2!2m1!1sNarrow+Valley+Sportsplex!3m4!1s0x89c5b1772c7075f3:0x120f5767654b6ea3!8m2!3d40.8620782!4d-75.8194157",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ83VwLHexxYkRo25LZWdXDxI",
+  "email": "admin@narrowvalleysports.com",
+  "venue_type": "multi_sport_sim",
+  "about": "Narrow Valley Sportsplex is a state-of-the-art sports complex in Nesquehoning, Pennsylvania, offering a variety of athletic facilities and activities. The venue features a dedicated golf lounge equipped with a TruGolf simulator and a custom putting green, providing a realistic golfing experience. Additionally, the facility includes amenities like pickleball courts, basketball and volleyball courts, a fitness area, turf space, and batting cages, catering to athletes of all ages and skill levels. The complex provides a comprehensive environment for sports, fitness, and community events, with options for private rentals, memberships, and various training programs available.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|coaching_available|family_friendly|private_rooms|club_rentals",
+  "vibe_tags": "casual|welcoming|modern|community_club|tech_lab",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|coaches_instructors",
+  "why_golfers_like_it": [
+    "TruGolf simulator with over 30 actual courses for a realistic experience",
+    "Custom-designed putting area with six varied cup locations and built-in undulation",
+    "Wet bar and conversation seating with a 75-inch TV for a comfortable social environment",
+    "Ability to book hourly slots for individual or group play"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No information on food services available."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Wet bar available in the golf lounge."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "TruGolf",
+      "model": "unknown",
+      "notes": "TruGolf simulator with stunning graphics and life-like experience."
+    }
+  ],
+  "simulator_software": [
+    "TruGolf"
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 1,
+  "booking_url": "https://narrowvalley.ezfacility.com/Sessions",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you will need to bring your own clubs to enjoy the golf lounge."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The golf lounge offers a wet bar, but no information is provided on outside food or drinks."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "For an optimal experience, it is recommended to book one hour per person. For a foursome playing 18 holes, reserve four hours."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is kid-friendly and offers programs like Sports Night for children ages 4-17, as well as various sports and fitness activities suitable for all ages."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"6AM-10PM\"], \"Tuesday\": [\"6AM-10PM\"], \"Wednesday\": [\"6AM-10PM\"], \"Thursday\": [\"6AM-10PM\"], \"Friday\": [\"6AM-10PM\"], \"Saturday\": [\"6AM-10PM\"], \"Sunday\": [\"8AM-8PM\"]}"
+}

@@ -1,0 +1,92 @@
+{
+  "name": "Tims Fore Golf Club",
+  "address": "111 N High St, Winchester, TN 37398",
+  "city": "Winchester",
+  "region": "Tennessee",
+  "country": "US",
+  "latitude": 35.186121,
+  "longitude": -86.113756,
+  "phone": "+19313135005",
+  "website": "http://www.timsforegolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770224980/golf_simulators/www_timsforegolf_com_ChIJeSBGOQB5YYgR_fvVnbRQPJY.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Tims+Fore+Golf+Club/@35.1861211,-86.1137557,14z/data=!4m8!1m2!2m1!1sTims+Fore+Golf+Club!3m4!1s0x8861790039462079:0x963c50b49dd5fbfd!8m2!3d35.1861211!4d-86.1137557",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJeSBGOQB5YYgR_fvVnbRQPJY",
+  "email": "timsforegolfclub@gmail.com",
+  "venue_type": "sim_bar",
+  "about": "Tims Fore Golf Club is an indoor golf and multi-sport simulator venue located in Downtown Winchester, Franklin County. It utilizes Full Swing simulators to provide a climate-controlled environment for year-round play, practice, and entertainment. The venue offers hourly simulator rentals with varying pricing based on duration and membership tiers, along with weekly access to tournaments and events for certain members. The facility is designed to offer a casual and welcoming atmosphere for both individual practice and group activities.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|kids_friendly|corporate_events|leagues|premium_tech|club_rentals|coaching_available|community_club",
+  "vibe_tags": "casual|welcoming|modern|family_fun_center",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|solo_practice",
+  "why_golfers_like_it": [
+    "Powered by Full Swing simulators, trusted by professional golfers like Tiger Woods for accuracy",
+    "Offers a relaxed social atmosphere with the ability to bring food and drinks",
+    "Provides over 50 world-famous courses to play and 30+ other gaming experiences",
+    "Features PGA-certified instructors available for lessons to improve your game"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Great snacks available, with a relaxed atmosphere for enjoying food"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Drinks are available, creating a full bar-like experience"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Full Swing",
+      "model": "ION3",
+      "notes": "State-of-the-art system featuring an overhead camera and infrared technology for accurate tracking"
+    }
+  ],
+  "simulator_software": [
+    "Full Swing Golf",
+    "Full Swing Games",
+    "Full Swing Multisport"
+  ],
+  "launch_monitor_type": "overhead_camera|infrared_optical",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://clients.uschedule.com/timsforegolfclub/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 40,
+  "price_range_max_local": 120,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own golf clubs and golf balls?",
+      "answer": "You are encouraged to bring your own equipment, but the venue has a limited number of extra clubs available. Golf balls are provided and will never be lost in the water or woods."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Food and drinks are available at the venue. For safety, all food and drink must be kept at the provided tables; nothing is allowed inside the simulator or near the computer."
+    },
+    {
+      "question": "How long does it take to play 18 holes on a simulator?",
+      "answer": "A typical round of 18 holes takes about 45 minutes to an hour. For a foursome that may take longer, 2 hours is generally sufficient time."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is kid-friendly. The Full Swing software includes putt putt and practice games for children, and the multisport option offers 13 other activities."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"2-8PM\"], \"Tuesday\": [\"2-8PM\"], \"Wednesday\": [\"2-8PM\"], \"Thursday\": [\"2-8PM\"], \"Friday\": [\"2-10PM\"], \"Saturday\": [\"12-10PM\"], \"Sunday\": [\"2-6PM\"]}"
+}

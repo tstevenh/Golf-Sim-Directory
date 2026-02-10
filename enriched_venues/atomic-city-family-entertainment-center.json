@@ -1,0 +1,90 @@
+{
+  "name": "Atomic City Family Entertainment Center",
+  "address": "3801 Hinkleville Rd, Paducah, KY 42001",
+  "city": "Paducah",
+  "region": "Kentucky",
+  "country": "US",
+  "latitude": 37.082828,
+  "longitude": -88.670007,
+  "phone": "+12705584868",
+  "website": "http://atomicpaducah.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770227063/golf_simulators/atomicpaducah_com_ChIJYYCFl_AbeogRlvkn5fOAKL4.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Atomic+City+Family+Entertainment+Center/@37.082828299999996,-88.67000689999999,14z/data=!4m8!1m2!2m1!1sAtomic+City+Family+Entertainment+Center!3m4!1s0x887a1bf097858061:0xbe2880f3e527f996!8m2!3d37.082828299999996!4d-88.67000689999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJYYCFl_AbeogRlvkn5fOAKL4",
+  "email": "events@atomicpaducah.com",
+  "venue_type": "sim_bar",
+  "about": "Atomic City Family Entertainment Center is a 44,000 sq ft indoor venue featuring golf simulators alongside other attractions like go-karts, an arcade, and food and beverages. It offers two Full Swing Golf Simulators available for hourly bookings. The venue is designed as a family-friendly entertainment center with a relaxed atmosphere. For golfers, it provides a casual setting with access to a variety of courses, high-definition graphics, and realistic gameplay.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|private_rooms|budget_friendly|family_friendly|group_friendly|casual_atmosphere",
+  "vibe_tags": "family_fun_center|sports_bar|welcoming|modern",
+  "who_its_for": "families|corporate_teams|beginners|large_groups|solo_practice",
+  "why_golfers_like_it": [
+    "Convenient indoor location with multiple attractions",
+    "High-definition graphics and realistic gameplay from Full Swing technology",
+    "Flexible booking options with both advance and walk-in availability",
+    "Variety of virtual courses accessible during play"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen and food menu available; outside food and beverage are not permitted."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Bar service available; no outside alcohol permitted."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Full Swing",
+      "model": "Unknown",
+      "notes": "Two Full Swing simulators available. One 18' simulator is exclusively for guests 18+ near the bar. One 12' simulator is in a private room for guests 14+."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://atomicpaducah.pcsparty.com/bookings/index.asp",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": null,
+  "price_range_max_local": null,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": false,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 8,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi",
+  "rating_tech_quality": 4.0,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, booking includes the use of provided clubs and golf balls."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No, outside food and beverage, including cakes, are not permitted. A full menu and bar are available on-site."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Time slots for the golf simulators begin and end on the hour; duration depends on the number of holes you choose to play within your booked hour."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Atomic City is a family entertainment center with attractions for all ages. However, the golf simulators have age restrictions: the 18' simulator is for guests 18+ and the 12' simulator is for guests 14+ (must be accompanied by an adult)."
+    }
+  ],
+  "rating_overall": 4.1,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"Closed\"], \"Wednesday\": [\"5-9PM\"], \"Thursday\": [\"5-9PM\"], \"Friday\": [\"5-10PM\"], \"Saturday\": [\"11AM-10PM\"], \"Sunday\": [\"12-8PM\"]}"
+}

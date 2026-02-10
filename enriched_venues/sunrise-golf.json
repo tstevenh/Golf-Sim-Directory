@@ -1,0 +1,90 @@
+{
+  "name": "Sunrise Golf",
+  "address": "3947 Moencks Rd, Bettendorf, IA 52722",
+  "city": "Bettendorf",
+  "region": "Iowa",
+  "country": "US",
+  "latitude": 41.562241,
+  "longitude": -90.453808,
+  "phone": "+15633326386",
+  "website": "https://sunrisegolf.net/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770249085/golf_simulators/sunrisegolf_net_ChIJk02ecH834ocRCzYJ0DP--Y8.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Sunrise+Golf/@41.562241,-90.453808,14z/data=!4m8!1m2!2m1!1sSunrise+Golf!3m4!1s0x87e2377f709e4d93:0x8ff9fe33d009360b!8m2!3d41.562241!4d-90.453808",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJk02ecH834ocRCzYJ0DP--Y8",
+  "email": "Sunrisepartyspot@gmail.com",
+  "venue_type": "sim_bar",
+  "about": "Sunrise Golf is a year-round golf destination offering both a 9-hole outdoor course and an indoor golf simulator facility. Established in 1983, the venue provides a casual environment with a bar and patio for post-round refreshments. The indoor golf simulator operates during the winter months and can be booked by the hour, while the outdoor course is walk-on friendly with tee times available for the simulator. The venue also features an 18-hole disc golf course and hosts tournaments and events.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|kids_friendly|corporate_events|leagues|budget_friendly|private_rooms|club_rentals|community_club",
+  "vibe_tags": "sports_bar|family_fun_center|community_club|casual|welcoming|modern",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|solo_practice|juniors_youth",
+  "why_golfers_like_it": [
+    "Year-round indoor golf access with state-of-the-art simulator technology",
+    "Flexible walk-on play with available tee times",
+    "On-site bar and patio for socializing after a round",
+    "Versatile venue for tournaments, parties, and special events"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Limited food options available; can bring your own food or use recommended caterers for events"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar available on-site for post-round refreshments"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "PGA Tour Simulator",
+      "model": "Unknown",
+      "notes": "State-of-the-art golf simulator with multiple course options and play formats"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": "unknown",
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.sunrisegolf.net/golf-simulator",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 40,
+  "price_range_max_local": 40,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own golf clubs?",
+      "answer": "Yes, you need to bring your own golf clubs to use the golf simulator."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Limited food options are available on-site, and you can bring your own food for events. A full bar is available for beverages."
+    },
+    {
+      "question": "How long does it take to play 18 holes on the simulator?",
+      "answer": "The time to play 18 holes on the simulator varies depending on your pace and group size, but typically ranges from 1-2 hours."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "Yes, Sunrise Golf offers junior rates and is suitable for families, making it a kid-friendly venue."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"1-7PM\"], \"Tuesday\": [\"1-7PM\"], \"Wednesday\": [\"1-7PM\"], \"Thursday\": [\"1-7PM\"], \"Friday\": [\"1-7PM\"], \"Saturday\": [\"1-7PM\"], \"Sunday\": [\"1-7PM\"]}"
+}

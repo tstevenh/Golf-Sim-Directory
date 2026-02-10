@@ -1,0 +1,90 @@
+{
+  "name": "4Ever Golf",
+  "address": "1676 Main St, Jefferson, MA 01522",
+  "city": "Jefferson",
+  "region": "Massachusetts",
+  "country": "US",
+  "latitude": 42.361077,
+  "longitude": -71.883606,
+  "phone": "+17745516731",
+  "website": "http://my4evergolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770225698/golf_simulators/my4evergolf_com_ChIJM_m2ok7_44kRAqTg9739rtw.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/4Ever+Golf/@42.361077099999996,-71.883606,14z/data=!4m8!1m2!2m1!1s4Ever+Golf!3m4!1s0x89e3ff4ea2b6f933:0xdcaefdbdf7e0a402!8m2!3d42.361077099999996!4d-71.883606",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJM_m2ok7_44kRAqTg9739rtw",
+  "venue_type": "sim_bar",
+  "about": "4Ever Golf is an indoor golf venue featuring TrackMan 4 simulators, offering a high-tech, year-round golf experience. The venue operates 24/7 with no closing hours, providing access to new world-class courses added monthly. It is designed for training, competition, and social play, with locations in Dudley and Holden, Massachusetts.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|kids_friendly|corporate_events|leagues|premium_tech|budget_friendly|private_rooms|club_rentals|late_night|coaching_available",
+  "vibe_tags": "tech_lab|casual|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "24/7 access with no closing hours for flexible play",
+    "Powered by high-accuracy TrackMan 4 simulators for premium technology",
+    "Multiple bays available at two convenient locations in Massachusetts",
+    "Option to join leagues and host events or parties"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "BYOB policy allows guests to bring their own food and drinks."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "BYOB policy allows guests to bring their own alcoholic beverages."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "High-accuracy simulators with monthly new course additions"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://www.my4evergolf.com/reserve",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|lockers|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need clubs?",
+      "answer": "Yes, you will need to bring your own golf clubs to use the simulators."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "Yes, 4Ever Golf operates on a BYOB (Bring Your Own Beverages) policy, allowing guests to bring their own food and drinks."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes varies depending on the number of players and pace, but typically it takes about 2-3 hours per bay."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, 4Ever Golf is kid-friendly and welcomes families to enjoy the indoor golf experience together."
+    }
+  ],
+  "simulator_software": [
+    "TrackMan"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

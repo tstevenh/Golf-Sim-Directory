@@ -1,0 +1,96 @@
+{
+  "name": "ADS Golf Inc",
+  "address": "2880 Scott St #106, Vista, CA 92081",
+  "city": "Vista",
+  "region": "California",
+  "country": "US",
+  "latitude": 33.140256,
+  "longitude": -117.227852,
+  "phone": "+17607368269",
+  "website": "http://www.adsgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770256582/golf_simulators/www_adsgolf_com_ChIJyfVIG5iK24ARyBTWC6f8iog.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/ADS+Golf+Inc/@33.1402564,-117.2278518,14z/data=!4m8!1m2!2m1!1sADS+Golf+Inc!3m4!1s0x80db8a981b48f5c9:0x888afca70bd614c8!8m2!3d33.1402564!4d-117.2278518",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJyfVIG5iK24ARyBTWC6f8iog",
+  "email": "adsgolf@sbcglobal.net",
+  "venue_type": "retail_fitting_center",
+  "about": "ADS Golf Inc is a custom club fitting business with approximately 20 years of experience, serving golfers from weekend warriors to touring professionals. The venue specializes in personalized club fittings using advanced technology like the TrackMan Radar System and Capto Putter Fitting system to analyze and optimize equipment. All fittings are done by appointment and charged at a rate of $125 per hour, with comprehensive reports provided to players detailing optimal specifications and shot comparisons. The business also offers an online retail shop for premium golf components and authorized products from major brands.",
+  "tags": "serious_golfers|club_fitting|premium_tech|private_rooms|coaching_available|retail_fitting_center|beginner_friendly|budget_friendly",
+  "vibe_tags": "tech_lab|professional_service|welcoming",
+  "who_its_for": "beginners|serious_golfers|families|coaches_instructors|low_handicap",
+  "why_golfers_like_it": [
+    "Comprehensive club fitting with detailed TrackMan analysis and reports",
+    "Personalized service for all skill levels from weekend warriors to professionals",
+    "Advanced technology including TrackMan radar and Capto putting system",
+    "Flexible appointment-based scheduling",
+    "Authorized retailer of premium golf components"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "Radar System",
+      "notes": "Primary launch monitor for club fittings"
+    },
+    {
+      "brand": "Capto",
+      "model": "Putter Fitting System",
+      "notes": "Specialized putting analysis system"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 1,
+  "booking_url": "https://squareup.com/appointments/book/A509115QS41JF/ads-golf-inc",
+  "pricing_model": "per_person_hour",
+  "price_range_min_local": 125,
+  "price_range_max_local": 125,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|pro_shop|club_fitting|coaching_available|private_rooms",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can bring your current clubs for comparison during the fitting, but ADS Golf provides all necessary equipment and test clubs for the fitting session."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "There is no mention of food or drink service at the facility, so it appears to be a fitting studio without dining options."
+    },
+    {
+      "question": "How long does an 18-hole fitting session take?",
+      "answer": "Club fittings are charged on an hourly basis at $125/hr. A comprehensive fitting typically takes about 1-2 hours depending on the complexity of the analysis required."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "ADS Golf focuses on serious club fitting for golfers of all skill levels, but there's no specific mention of child-friendly amenities or junior programs, suggesting it may not be specifically geared toward families with children."
+    }
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"9:30AM-6PM\"], \"Tuesday\": [\"9:30AM-6PM\"], \"Wednesday\": [\"9:30AM-6PM\"], \"Thursday\": [\"9:30AM-6PM\"], \"Friday\": [\"9:30AM-6PM\"], \"Saturday\": [\"9AM-5PM\"], \"Sunday\": [\"Closed\"]}"
+}

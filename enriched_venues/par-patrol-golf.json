@@ -1,0 +1,90 @@
+{
+  "name": "Par Patrol Golf",
+  "address": "24600 Sandhill Blvd unit 101 103, Punta Gorda, FL 33983",
+  "city": "Punta Gorda",
+  "region": "Florida",
+  "country": "US",
+  "latitude": 27.020092,
+  "longitude": -82.046235,
+  "phone": "+18142183359",
+  "website": "https://www.parpatrol.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770241646/golf_simulators/www_parpatrol_com_ChIJ46tCWvKp3IgR_NV0jmw6zRs.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Par+Patrol+Golf/@27.020091599999997,-82.0462354,14z/data=!4m8!1m2!2m1!1sPar+Patrol+Golf!3m4!1s0x88dca9f25a42abe3:0x1bcd3a6c8e74d5fc!8m2!3d27.020091599999997!4d-82.0462354",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ46tCWvKp3IgR_NV0jmw6zRs",
+  "email": "eli@parpatrol.com",
+  "venue_type": "sim_bar",
+  "about": "Par Patrol Golf is an indoor golf simulator venue featuring three air-conditioned bays powered by ProTee VX technology. Open to the public from 8am-1pm daily with 24/7 access for members, the facility offers a realistic golf experience with instant data feedback on club contact, ball speed, and distance. Beyond golf, the venue includes entertainment options like bumper pool and ping pong, and is available for private events and corporate bookings with custom food and beverage options.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|coaching_available|premium_tech|late_night",
+  "vibe_tags": "sports_bar|casual|welcoming|modern",
+  "who_its_for": "beginners|families|corporate_teams|solo_practice|tourists_travelers",
+  "why_golfers_like_it": [
+    "ProTee VX technology provides accurate and realistic indoor golf experience",
+    "24/7 access for members and convenient public hours",
+    "Variety of entertainment options including sports packages and non-golf games",
+    "Available for private events with custom catering options"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Custom food and beverage options available for events"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service available"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "ProTee",
+      "model": "VX",
+      "notes": "High speed cameras providing live feedback on club contact, ball speed, and distance"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://app.birrdi.com/u/reserve?team_booking_link_id=par-patrol-golf",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 3,
+  "max_group_size_per_bay": 10,
+  "amenities_list": "club_rentals|tv_sports|kitchen_food|private_party_room|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The content doesn't explicitly mention club rentals, but it's common practice at simulator venues. It's recommended to contact the venue directly."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Par Patrol offers custom food and beverage options for events, but outside event contexts, BYOB policies aren't specified."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The content doesn't specify average playing time, but indoor golf typically takes 1-2 hours for 18 holes depending on simulator setup and player pace."
+    },
+    {
+      "question": "Is Par Patrol Golf kid-friendly?",
+      "answer": "Yes, the venue accommodates families and includes entertainment options like bumper pool and ping pong that appeal to various age groups."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

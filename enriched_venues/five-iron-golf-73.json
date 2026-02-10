@@ -1,0 +1,91 @@
+{
+  "name": "Five Iron Golf",
+  "address": "729 N Washington Ave Suite D, Minneapolis, MN 55401",
+  "city": "Minneapolis",
+  "region": "Minnesota",
+  "country": "US",
+  "latitude": 44.987701,
+  "longitude": -93.278025,
+  "phone": "+18005135153",
+  "website": "https://fiveirongolf.com/locations/minneapolis-north-loop/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770213258/golf_simulators/fiveirongolf_com_ChIJ2XbpCAAzs1IRWlI-ZAXWHzQ.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Five+Iron+Golf/@44.987701,-93.2780245,14z/data=!4m8!1m2!2m1!1sFive+Iron+Golf!3m4!1s0x52b3330008e976d9:0x341fd605643e525a!8m2!3d44.987701!4d-93.2780245",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ2XbpCAAzs1IRWlI-ZAXWHzQ",
+  "email": "minneapolis@fiveirongolf.com",
+  "venue_type": "sim_bar",
+  "about": "Five Iron Golf Minneapolis North Loop is an indoor golf facility that combines Trackman simulator technology with a full-service sports bar and lounge. The venue offers a spacious outdoor patio and is located in the North Loop neighborhood, featuring custom-built golf simulator bays for up to six people. Pricing varies by day and time, with memberships starting at $139 per month that include free daily golf and discounts on other services. It is best suited for social golfers, groups, and those seeking a casual yet technologically advanced golfing experience paired with food and drinks.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|private_rooms|club_rentals|coaching_available|community_club",
+  "vibe_tags": "sports_bar|casual|welcoming|modern|community_club",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "State-of-the-art Trackman technology for accurate swing data",
+    "Full-service bar and chef-inspired menu available on-site",
+    "Flexible membership options with free daily play and discounts",
+    "No-dress-code atmosphere makes golf accessible for everyone",
+    "Ability to play at PGA Tour venues like Pebble Beach virtually"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full-service restaurant with chef-inspired menu available"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full-service bar with craft cocktails and local draft beers"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Dual-radar Trackman technology with high-speed cameras for accurate ball and club tracking"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "auto_putt",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://booking.fiveirongolf.com/select-experience?location=minneapolis-north-loop",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|leagues|ada_accessible|club_fitting",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you should bring your own clubs as they are not provided. However, club rentals are available."
+    },
+    {
+      "question": "Can I bring outside food or drinks?",
+      "answer": "No, outside food or drinks are not allowed. The venue offers a full-service bar and restaurant on-site."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time varies, but a typical round of 18 holes can take approximately 1-2 hours depending on the group size and pace."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Five Iron Golf offers kids' parties and junior clinics, making it a kid-friendly venue."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"6AM-10PM\"], \"Tuesday\": [\"6AM-10PM\"], \"Wednesday\": [\"6AM-10PM\"], \"Thursday\": [\"6AM-10PM\"], \"Friday\": [\"6AM-12AM\"], \"Saturday\": [\"10AM-12AM\"], \"Sunday\": [\"10AM-10PM\"]}"
+}

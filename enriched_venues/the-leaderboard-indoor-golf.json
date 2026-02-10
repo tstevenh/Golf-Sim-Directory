@@ -1,0 +1,92 @@
+{
+  "name": "The Leaderboard Indoor Golf",
+  "address": "5366 Plainfield Ave NE Suite B, Grand Rapids, MI 49525",
+  "city": "Grand Rapids",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 43.05454,
+  "longitude": -85.581865,
+  "phone": "+16165008709",
+  "website": "https://theleaderboardgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770207478/golf_simulators/theleaderboardgolf_com_ChIJ3xlkcvxVGIgRx4DMeWs_Snk.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Leaderboard+Indoor+Golf/@43.0545404,-85.581865,14z/data=!4m8!1m2!2m1!1sThe+Leaderboard+Indoor+Golf!3m4!1s0x881855fc726419df:0x794a3f6b79cc80c7!8m2!3d43.0545404!4d-85.581865",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ3xlkcvxVGIgRx4DMeWs_Snk",
+  "email": "info@theleaderboardgolf.com",
+  "venue_type": "sim_bar",
+  "about": "The Leaderboard Indoor Golf is a premier indoor golf facility located in Grand Rapids, MI, offering a full-service experience with the latest 4k golf simulation technology. It features high-end simulators from Uneekor and GSPro software, providing players with access to a wide variety of courses ranging from putt-putt to PGA-level. The venue operates on a per-bay, hourly pricing model and offers a welcoming environment suitable for both casual players and serious golfers looking to practice or play year-round. Beyond the simulators, The Leaderboard includes a cocktail lounge known for its craft beverages, creating a social space perfect for post-game relaxation or events.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|private_rooms|club_rentals|coaching_available",
+  "vibe_tags": "sports_bar|community_club|modern",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "High-fidelity 4k simulators with Uneekor and GSPro technology",
+    "On-site craft cocktail lounge with local beer from Founders and Bell's",
+    "Friendly staff provides thorough guidance for first-time users",
+    "Flexible pricing with hourly bay rentals and membership options",
+    "Wide variety of courses and game modes for different skill levels"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned, but BYOB may be allowed (not explicitly confirmed)"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full-service bar with craft cocktails, house-made syrups, local beer from Founders and Bell's, plus wine and liquor options"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "QED or similar",
+      "notes": "Premium photometric camera system for accurate ball and club tracking"
+    }
+  ],
+  "simulator_software": [
+    "GSPro",
+    "Uneekor"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://the-leaderboard.square.site/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 40,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 10,
+  "amenities_list": "club_rentals|full_bar|private_party_room|tv_sports|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can bring your own equipment, but the venue provides all necessary clubs and gear for use."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No outside food or drinks are allowed, as the venue has a full bar with craft cocktails and local beers."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "18-hole play time varies depending on pace and game type, but typically ranges from 2-3 hours per bay."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the facility offers a fun experience for all ages and families, with no age restrictions mentioned."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-12AM\"], \"Saturday\": [\"10AM-12AM\"], \"Sunday\": [\"10AM-10PM\"]}"
+}

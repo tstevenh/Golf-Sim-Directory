@@ -1,0 +1,89 @@
+{
+  "name": "Flyaway Sim Golf",
+  "address": "1371 Raiders Way suite 150, Henderson, NV 89052",
+  "city": "Henderson",
+  "region": "Nevada",
+  "country": "US",
+  "latitude": 35.978012,
+  "longitude": -115.145483,
+  "phone": "+17023784703",
+  "website": "https://www.flyawaysimgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770245220/golf_simulators/www_flyawaysimgolf_com_ChIJa5VphSrNyIAR0qdcjTZGIqw.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Flyaway+Sim+Golf/@35.978011599999995,-115.145483,14z/data=!4m8!1m2!2m1!1sFlyaway+Sim+Golf!3m4!1s0x80c8cd2a8569956b:0xac2246368d5ca7d2!8m2!3d35.978011599999995!4d-115.145483",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJa5VphSrNyIAR0qdcjTZGIqw",
+  "email": "info@flyawaysimgolf.com",
+  "venue_type": "training_studio",
+  "about": "Flyaway Sim Golf is an indoor golf simulator venue in Henderson, featuring 24/7 access for members and public bookings available from 8 a.m. to 8 p.m. The facility is equipped with Trackman-powered bays, providing real-time swing analytics, virtual rounds on 400+ courses, and pro-level performance insights. Players must bring their own clubs, while tees, balls, and water are provided. A curated selection of snacks and drinks are available for purchase. Memberships start at $179 per month, with hourly rates at $50.",
+  "tags": "serious_golfers|beginner_friendly|food_and_drinks|coaching_available|corporate_events|leagues|premium_tech|late_night",
+  "vibe_tags": "tech_lab|modern|welcoming",
+  "who_its_for": "serious_golfers|beginners|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "24/7 access for members with flexible booking options",
+    "Powered by Trackman technology for real-time swing analytics",
+    "400+ virtual courses available for play and practice"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Curated range of snacks available for purchase"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Fully integrated Trackman 360º ecosystem with real-time data and immersive virtual courses"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://yourgolfbooking.com/venues/flyaway-sim-golf/booking/bays",
+  "pricing_model": "mixed",
+  "price_range_min_local": 50,
+  "price_range_max_local": 179,
+  "currency": "USD",
+  "walk_ins_allowed": false,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "wifi|pro_shop|club_fitting|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you must bring your own clubs to use at the facility."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No outside food or drinks are allowed, but a curated selection of snacks and drinks are available for purchase on-site."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes is not specified, but virtual rounds are available on 400+ courses."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "There is no specific mention of kid-friendly amenities or policies."
+    }
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"8AM-8PM\"], \"Tuesday\": [\"8AM-8PM\"], \"Wednesday\": [\"8AM-8PM\"], \"Thursday\": [\"8AM-8PM\"], \"Friday\": [\"8AM-8PM\"], \"Saturday\": [\"8AM-8PM\"], \"Sunday\": [\"8AM-8PM\"]}"
+}

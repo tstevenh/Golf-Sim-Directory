@@ -1,0 +1,84 @@
+{
+  "name": "Ahwatukee Golf Club",
+  "address": "12432 S 48th St, Phoenix, AZ 85044",
+  "city": "Phoenix",
+  "region": "Arizona",
+  "country": "US",
+  "latitude": 33.333492,
+  "longitude": -111.98219,
+  "phone": "+14808931161",
+  "website": "http://www.ahwatukeegolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770257853/golf_simulators/www_ahwatukeegolf_com_ChIJaUYUYrMFK4cRwDFQsnCEp3M.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Ahwatukee+Golf+Club/@33.3334919,-111.9821898,14z/data=!4m8!1m2!2m1!1sAhwatukee+Golf+Club!3m4!1s0x872b05b362144669:0x73a78470b25031c0!8m2!3d33.3334919!4d-111.9821898",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJaUYUYrMFK4cRwDFQsnCEp3M",
+  "email": "golf@ahwatukeegolf.com",
+  "venue_type": "country_club",
+  "about": "Ahwatukee Golf Club is a public golf facility in Phoenix, Arizona, featuring a redesigned desert course with mature tree-lined fairways. The venue includes a newly renovated main building and an indoor golf center equipped with six simulator bays. It offers both outdoor golf and indoor simulator options, available for hourly reservations. The facility aims to provide value to golfers of all skill levels, with a focus on improved conditions and a welcoming atmosphere since being purchased in August 2023.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|budget_friendly|private_rooms|club_rentals|coaching_available|juniors_youth",
+  "vibe_tags": "casual|welcoming|modern|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|tourists_travelers",
+  "why_golfers_like_it": [
+    "State-of-the-art indoor golf simulator bays available for play regardless of weather",
+    "Welcoming staff environment that makes newcomers feel appreciated",
+    "Challenging yet fair desert course layout designed by John Bulla",
+    "Affordable pricing for both outdoor and indoor golf experiences"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "On-site restaurant available"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available at the restaurant"
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": "unknown",
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 6,
+  "booking_url": "https://indoor-golf-center-at-ahwatukee.book.teeitup.com/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 5,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "restaurant|full_bar|pro_shop|club_rentals|private_rooms|coaching_available|event_hosting|ada_accessible",
+  "rating_tech_quality": 4.0,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.5,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can bring your own clubs or use club rentals available at the facility."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The facility has an on-site restaurant and bar, but outside food and drink policies may vary for simulator sessions."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "The outdoor course is a par 72 layout, and 18-hole play time varies depending on pace of play and course conditions."
+    },
+    {
+      "question": "Is Ahwatukee Golf Club kid-friendly?",
+      "answer": "Yes, the venue welcomes families and junior golfers, with reviews specifically mentioning the welcoming environment for newcomers and kids."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"6AM-6PM\"], \"Tuesday\": [\"6AM-6PM\"], \"Wednesday\": [\"6AM-6PM\"], \"Thursday\": [\"6AM-6PM\"], \"Friday\": [\"6AM-6PM\"], \"Saturday\": [\"6AM-6PM\"], \"Sunday\": [\"6AM-6PM\"]}"
+}

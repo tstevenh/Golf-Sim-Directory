@@ -1,0 +1,91 @@
+{
+  "name": "Plattsburgh Golf Simulation",
+  "address": "15 Clinton St, Plattsburgh, NY 12901",
+  "city": "Plattsburgh",
+  "region": "New York",
+  "country": "US",
+  "latitude": 44.697761,
+  "longitude": -73.453473,
+  "phone": "+15183101010",
+  "website": "http://plattsgolfsim.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770244292/golf_simulators/plattsgolfsim_com_ChIJKYpPdQA5ykwRqD_h5oF88hU.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Plattsburgh+Golf+Simulation/@44.697760699999996,-73.45347319999999,14z/data=!4m8!1m2!2m1!1sPlattsburgh+Golf+Simulation!3m4!1s0x4cca3900754f8a29:0x15f27c81e6e13fa8!8m2!3d44.697760699999996!4d-73.45347319999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJKYpPdQA5ykwRqD_h5oF88hU",
+  "email": "plattsgolfsim@gmail.com",
+  "venue_type": "other",
+  "about": "Plattsburgh Golf Simulation is a golf simulator venue located in Plattsburgh, NY, offering a high-quality simulator experience in a welcoming hometown atmosphere. The facility provides state-of-the-art technology with Uneekor EYE XO sensors and access to over 600 renowned golf courses worldwide, allowing players to perfect their game regardless of season or weather. Pricing is offered by the bay, not per person, with packages ranging from a half-hour to a ten-hour bundle, designed for both individuals and groups.",
+  "tags": "beginner_friendly|leagues|premium_tech|private_rooms|club_rentals|late_night|coaching_available|serious_golfers",
+  "vibe_tags": "casual|welcoming|modern|community_club",
+  "who_its_for": "serious_golfers|families|large_groups|solo_practice|coaches_instructors",
+  "why_golfers_like_it": [
+    "High-fidelity Uneekor EYE XO swing analysis",
+    "Access to 600+ premier golf courses globally",
+    "Flexible pricing by the bay for individuals and groups",
+    "Extended hours accommodating late-night practice",
+    "Available coaching and league play for skill development"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of food service or kitchen facilities."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of a bar or alcohol service."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "EYE XO",
+      "notes": "High-speed camera system providing detailed swing analysis."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.plattsgolfsim.com/book-online",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 30,
+  "price_range_max_local": 150,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|coaching_available|leagues|late_night|tv_sports",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue does not explicitly state if club rentals are available or if customers must bring their own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "There is no mention of food or drink service, and no policies against bringing outside items are specified."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "A full 18-hole round can be completed in three hours for a group of 3 golfers or four hours for a group of 4 golfers."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "There is no specific information provided regarding children, family-friendly amenities, or junior programs."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": null
+}

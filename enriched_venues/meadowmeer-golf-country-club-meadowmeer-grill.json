@@ -1,0 +1,93 @@
+{
+  "name": "Meadowmeer Golf & Country Club & Meadowmeer Grill",
+  "address": "11640 Meadowmeer Cir NE, Bainbridge Island, WA 98110",
+  "city": "Bainbridge Island",
+  "region": "Washington",
+  "country": "US",
+  "latitude": 47.664292,
+  "longitude": -122.542642,
+  "phone": "+12068422218",
+  "website": "https://meadowmeergolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770243826/golf_simulators/meadowmeergolf_com_ChIJS_zpskM8kFQRJldqO98Pz4A.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Meadowmeer+Golf+%26+Country+Club+%26+Meadowmeer+Grill/@47.6642924,-122.54264189999999,14z/data=!4m8!1m2!2m1!1sMeadowmeer+Golf+%26+Country+Club+%26+Meadowmeer+Grill!3m4!1s0x54903c43b2e9fc4b:0x80cf0fdf3b6a5726!8m2!3d47.6642924!4d-122.54264189999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJS_zpskM8kFQRJldqO98Pz4A",
+  "email": "proshop@meadowmeergolf.com",
+  "venue_type": "country_club",
+  "about": "Meadowmeer Golf & Country Club is a 9-hole semi-private golf course located on Bainbridge Island, playable as an 18-hole course using different tee boxes. The facility features an Indoor Golf Center, completed in 2022, equipped with Trackman technology. It also houses the Meadowmeer Bar & Grill, which serves American fare and cocktails and is open to both members and the public. The venue offers a mix of outdoor golf, year-round indoor simulation, dining, and event space, providing a comprehensive golf and social experience.",
+  "tags": "food_and_drinks|beginner_friendly|leagues|corporate_events|juniors_youth",
+  "vibe_tags": "community_club|family_fun_center|welcoming",
+  "who_its_for": "beginners|families|corporate_teams|juniors_youth|tourists_travelers",
+  "why_golfers_like_it": [
+    "Year-round practice and play with state-of-the-art Trackman technology",
+    "Scenic Pacific Northwest setting surrounded by old growth forest",
+    "Dining options available for both members and the public"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "American fare available at the Meadowmeer Bar & Grill"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Robust cocktail menu available at the Meadowmeer Bar & Grill"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Four hitting bays equipped with Trackman technology"
+    }
+  ],
+  "simulator_so": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 4,
+  "booking_url": "https://clients.uschedule.com/meadowmeergolf/account/login",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "true",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|kitchen_food|private_party_room|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.5,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify if club rentals are available, so it is recommended to bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue has an on-site restaurant and bar, the Meadowmeer Bar & Grill, which serves food and cocktails, so outside food and drink policies are not specified."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not provide specific information on the time it takes to complete 18 holes."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue offers a Junior Golf Camp program and is described as 'A Place for Everyone to Golf,' indicating it is family-friendly."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.4,
+  "opening_hours": null
+}

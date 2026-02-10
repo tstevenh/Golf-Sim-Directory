@@ -1,0 +1,95 @@
+{
+  "name": "NeoGolf",
+  "address": "4018 Cassimer Ave, D'Iberville, MS 39540",
+  "city": "D'Iberville",
+  "region": "Mississippi",
+  "country": "US",
+  "latitude": 30.44583,
+  "longitude": -88.900247,
+  "phone": "+12283009134",
+  "website": "https://www.neogolfclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770228172/golf_simulators/www_neogolfclub_com_ChIJMXxg3MwNnIgRA4s1XTU_YY4.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/NeoGolf/@30.445829699999997,-88.90024729999999,14z/data=!4m8!1m2!2m1!1sNeoGolf!3m4!1s0x889c0dccdc607c31:0x8e613f355d358b03!8m2!3d30.445829699999997!4d-88.90024729999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJMXxg3MwNnIgRA4s1XTU_YY4",
+  "email": "neogolf4016@gmail.com",
+  "venue_type": "sim_bar|training_studio",
+  "about": "NeoGolf is a year-round indoor golf experience with two locations in Mississippi, offering both public and membership access. The facility utilizes TrackMan technology for play, practice, and training, catering to casual players and serious competitors alike. Memberships provide 24/7 access with unlimited play hours, while public bookings are available with limited hours. The venue also offers PGA professional lessons, junior programs, and private event hosting capabilities.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|kids_friendly|coaching_available|premium_tech|private_rooms|club_rentals|community_club|juniors_youth",
+  "vibe_tags": "casual|welcoming|modern|tech_lab|family_fun_center",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "Premium TrackMan technology provides accurate ball and club tracking",
+    "24/7 membership access with unlimited play hours",
+    "PGA professional coaching with TPI assessments and NeoFit training",
+    "Family-friendly atmosphere with junior programs and group play options",
+    "Weatherproof indoor environment perfect for year-round play",
+    "Flexible booking options including public sessions and private events"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Food available via QR code ordering from Crave Food Hall next door at Ocean Springs location. BYO pizza/drinks allowed at no charge (must clean up)"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol served on premises, though BYO drinks may be allowed for events"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "State-of-the-art TrackMan bays available for hourly rental"
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://yourgolfbooking.com/venues/neo-golf/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 239,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|kitchen_food|tv_sports|private_party_room|wifi|pro_shop|club_fitting|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "Rental clubs are available on-site at both locations. You can use your own clubs if preferred."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "BYO pizza/drinks are allowed at no charge (must clean up). Food can also be ordered via QR code from Crave Food Hall at the Ocean Springs location."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time for 18 holes varies depending on course selection and number of players. Booking is typically done by the hour."
+    },
+    {
+      "question": "Is NeoGolf kid-friendly?",
+      "answer": "Yes, NeoGolf offers junior programs, clinics, and is suitable for families. Junior clinics run on Tuesdays from 4:30-6:30."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

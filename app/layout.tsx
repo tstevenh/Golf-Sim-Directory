@@ -4,6 +4,7 @@ import "./globals.css";
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
 import { AuthProvider } from "@/components/auth-provider";
+import { ScrollToTopOnRouteChange } from "@/components/scroll-to-top-on-route-change";
 
 const spaceGrotesk = Space_Grotesk({
   variable: "--font-space-grotesk",
@@ -88,6 +89,7 @@ export default function RootLayout({
         }}
       >
         <AuthProvider>
+          <ScrollToTopOnRouteChange />
           <Navbar />
           <main className="flex-1 relative pt-16 md:pt-20">
             {children}

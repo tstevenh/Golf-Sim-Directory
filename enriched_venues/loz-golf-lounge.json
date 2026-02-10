@@ -1,0 +1,94 @@
+{
+  "name": "LOZ Golf Lounge",
+  "address": "5384 Osage Beach Pkwy, Osage Beach, MO 65065",
+  "city": "Osage Beach",
+  "region": "Missouri",
+  "country": "US",
+  "latitude": 38.126613,
+  "longitude": -92.662947,
+  "phone": "+15737231832",
+  "website": "http://www.lozgolflounge.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770212279/golf_simulators/www_lozgolflounge_com_ChIJm-1e25TFxIcRvEPAM5LNNUw.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/LOZ+Golf+Lounge/@38.1266129,-92.662947,14z/data=!4m8!1m2!2m1!1sLOZ+Golf+Lounge!3m4!1s0x87c4c594db5eed9b:0x4c35cd9233c043bc!8m2!3d38.1266129!4d-92.662947",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJm-1e25TFxIcRvEPAM5LNNUw",
+  "email": "mymail@mailservice.com",
+  "venue_type": "sim_bar|multi_sport_sim",
+  "about": "LOZ Golf Lounge is an indoor golf and shooting simulator venue in Osage Beach, MO. The facility offers golf simulation using TrackMan 4 technology with access to over 450 courses worldwide, along with a world-class sporting clays shooting simulator. Pricing is bay-based, with hourly rates for golf and shooting simulators. It is suitable for individual practice, group play, and serious game analysis using professional-grade tracking equipment.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|club_rentals|coaching_available",
+  "vibe_tags": "casual|welcoming|modern",
+  "who_its_for": "families|serious_golfers|corporate_teams|tourists_travelers|solo_practice",
+  "why_golfers_like_it": [
+    "Professional-grade TrackMan 4 technology for detailed swing and ball data",
+    "Access to over 450+ world-class golf courses",
+    "Combine golf with a high-end shooting simulator for a multi-sport experience"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Connected to a sports bar and grill, food service is available on-site."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "Not explicitly stated to be available."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "Premium radar-based launch monitor for ball and club tracking"
+    },
+    {
+      "brand": "Håkan Dahlby",
+      "model": "Aim Tracker",
+      "notes": "Olympic-developed simulator for skeet, trap, and sporting clays"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://foreupsoftware.com/index.php/booking/20729/5559#/teetimes",
+  "pricing_model": "per_bay_hour|mixed",
+  "price_range_min_local": 30,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 8,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 3.5,
+  "faq": [
+    {
+      "question": "Do I need clubs?",
+      "answer": "You can use your own clubs, or rent them for $15 per bag. They have complete sets for lefties, righties, women, and children."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue is connected to a sports bar and grill, so you can purchase food and drinks on-site."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "It depends on your skill level and the number of players. A single player can play 18 holes in 1-2 hours, while a skilled foursome will need 3-4 hours."
+    },
+    {
+      "question": "Is it kid-friendly?",
+      "answer": "Yes, you are welcome to play with your children, but they must have adult supervision."
+    }
+  ],
+  "rating_overall": 4.0,
+  "opening_hours": null
+}

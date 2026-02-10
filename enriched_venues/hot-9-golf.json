@@ -1,0 +1,91 @@
+{
+  "name": "Hot 9 Golf",
+  "address": "3201 W Alton Gloor Blvd suite E, Brownsville, TX 78520",
+  "city": "Brownsville",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 25.974559,
+  "longitude": -97.530273,
+  "phone": "+19565722610",
+  "website": "http://hot9golf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770243179/golf_simulators/hot9golf_com_ChIJd_03-GCRb4YRMjIqdqg99Qw.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Hot+9+Golf/@25.974559,-97.5302729,14z/data=!4m8!1m2!2m1!1sHot+9+Golf!3m4!1s0x866f9160f837fd77:0xcf53da8762a3232!8m2!3d25.974559!4d-97.5302729",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJd_03-GCRb4YRMjIqdqg99Qw",
+  "email": "hot9golf@gmail.com",
+  "venue_type": "sim_bar",
+  "about": "Hot 9 Golf is an indoor golf simulator venue in Brownsville, TX, offering year-round play regardless of weather. The facility utilizes Full Swing technology to provide real-time shot tracking, including carry distance, total distance, spin, and dispersion. Customers can choose from per-hour bay rentals or monthly membership plans that include banked hours and member perks. The venue caters to golfers of all skill levels looking to practice, play iconic courses from around the world, or compete in a comfortable, climate-controlled environment.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|budget_friendly|club_rentals|late_night|coaching_available",
+  "vibe_tags": "casual|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "Tour-level shot data for real game improvement",
+    "Access to world-class championship courses",
+    "Flexible pricing with both hourly and membership options",
+    "Year-round play in any weather",
+    "Prime-time and early morning booking availability"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "BYOK (Bring Your Own Kitchen) policy allows outside food"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "BYOB (Bring Your Own Beverage) policy allows outside drinks"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Full Swing",
+      "model": "Unknown",
+      "notes": "Official simulator partner providing tour-level shot data"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://clients.uschedule.com/hot9golf/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 44.99,
+  "price_range_max_local": 54.99,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 5,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|wifi|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Customers are required to bring their own golf clubs and personal golf balls for play."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, Hot 9 Golf allows customers to bring outside food and drinks. The venue operates on a BYOB and BYOK policy."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "The time to complete 18 holes can vary depending on the number of players, course difficulty, and shot pace, but typically ranges from 1.5 to 2.5 hours for a standard four-person group."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Hot 9 Golf is kid-friendly. They offer a Student Plan membership and accommodate up to 5 guests per bay, making it suitable for family outings."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": null
+}

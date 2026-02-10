@@ -1,0 +1,90 @@
+{
+  "name": "Broheim's Indoor Golf & Pub",
+  "address": "53 NE Carefree Ln, Waukee, IA 50263",
+  "city": "Waukee",
+  "region": "Iowa",
+  "country": "US",
+  "latitude": 41.615995,
+  "longitude": -93.867606,
+  "phone": "+15155289192",
+  "website": "http://broheimsgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770207564/golf_simulators/broheimsgolf_com_ChIJqcN21n8j7IcRkRCxRJTCNlw.png",
+  "google_maps_url": "https://www.google.com/maps/place/Broheim%27s+Indoor+Golf+%26+Pub/@41.6159955,-93.86760629999999,14z/data=!4m8!1m2!2m1!1sBroheim%27s+Indoor+Golf+%26+Pub!3m4!1s0x87ec237fd676c3a9:0x5c36c29444b11091!8m2!3d41.6159955!4d-93.86760629999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJqcN21n8j7IcRkRCxRJTCNlw",
+  "email": "info@broheimsgolf.com",
+  "venue_type": "sim_bar",
+  "about": "Broheim's Indoor Golf & Pub is a 6,000-square-foot facility featuring five spacious simulator bays. The venue utilizes About Golf technology to offer access to over 85 world-class courses and up to 1,500 courses via GSPro. With a capacity for over 200 guests, the space includes amenities like a fully stocked bar with 20 tap handles, shuffleboard, darts, and arcade machines. It operates 7 days a week with hourly rates for simulator bays and offers a casual, laid-back atmosphere suitable for casual play, leagues, and private events. Outside food is welcome, and frozen pizzas are available on-site.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|party_atmosphere|coaching_available",
+  "vibe_tags": "sports_bar|community_club",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Spacious, comfortable simulator bays prevent feeling cramped",
+    "Access to a vast library of world-class golf courses",
+    "Fully stocked bar and casual pub atmosphere enhance the experience",
+    "Variety of golf-based games and skill challenges for all skill levels"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Outside food is welcome; frozen pizzas available on-site"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Fully stocked bar with 20 tap handles offering craft beers and top shelf liquors"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "About Golf",
+      "model": "Unknown",
+      "notes": "State-of-the-art simulators used to play the world's most scenic and challenging courses"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 5,
+  "booking_url": "http://broheimsgolf.com/book-tee-time",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 30,
+  "price_range_max_local": 45,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 5,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|leagues|wifi",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, club set rental is available. Clean golf shoes can be worn, but metal spikes are not allowed."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, outside food is welcome. Groups of 15 or more are allowed to bring in outside food. A fully stocked bar is available on-site."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "While not explicitly stated, 18 holes can typically be completed in 1-2 hours depending on simulator software and player pace."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is suitable for families and has a casual atmosphere. However, no one under 21 is allowed after 9pm."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-11PM\"], \"Tuesday\": [\"10AM-11PM\"], \"Wednesday\": [\"10AM-11PM\"], \"Thursday\": [\"10AM-11PM\"], \"Friday\": [\"10AM-11PM\"], \"Saturday\": [\"8AM-11PM\"], \"Sunday\": [\"8AM-10PM\"]}"
+}

@@ -1,0 +1,92 @@
+{
+  "name": "A&R Axe Throwing and Indoor Golf",
+  "address": "6975 S Lewis Ave, Tulsa, OK 74136",
+  "city": "Tulsa",
+  "region": "Oklahoma",
+  "country": "US",
+  "latitude": 36.061599,
+  "longitude": -95.956912,
+  "phone": "+19187648808",
+  "website": "http://www.aandraxes.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770238408/golf_simulators/www_aandraxes_com_ChIJbQJPiEKTtocRJDNxbDG52YI.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/A%26R+Axe+Throwing+and+Indoor+Golf/@36.061598599999996,-95.95691149999999,14z/data=!4m8!1m2!2m1!1sA%26R+Axe+Throwing+and+Indoor+Golf!3m4!1s0x87b69342884f026d:0x82d9b9316c713324!8m2!3d36.061598599999996!4d-95.95691149999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJbQJPiEKTtocRJDNxbDG52YI",
+  "email": "bookings@aandraxes.com",
+  "venue_type": "multi_sport_sim",
+  "about": "A&R Axe Throwing and Indoor Golf is a locally owned business offering axe throwing and golf simulator experiences in Tulsa. The venue is equipped with a single golf bay featuring TruGolf's APOGEE launch monitor, providing detailed swing and shot data. Axe throwing is available at $16 per person, while indoor golf is priced at $45 per bay per hour for up to four people. The facility is suitable for casual practice, group events, and parties, with options for facility rentals and private bookings. It is located at the corner of 71st and Lewis, accessible from various parts of the metro area and near numerous restaurants and entertainment spots.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|family_friendly|private_rooms|coaching_available|budget_friendly",
+  "vibe_tags": "family_fun_center|community_club",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Advanced TruGolf APOGEE launch monitor with precise swing analysis",
+    "Comprehensive shot data including ball speed, spin, and launch angles",
+    "Voice-activated system with real-time trajectory display",
+    "Flexible booking options for solo and group sessions",
+    "Casual and welcoming atmosphere for all skill levels"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Guests can bring their own food or have it delivered; snacks and drinks are also available for purchase."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Beer and wine are sold on-site, but outside alcoholic beverages are not permitted."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "TruGolf",
+      "model": "Apogee",
+      "notes": "Overhead stereoscopic camera system with voice activation"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "overhead_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 1,
+  "booking_url": "https://www.aandraxes.com/book-online",
+  "pricing_model": "mixed",
+  "price_range_min_local": 16,
+  "price_range_max_local": 45,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "private_party_room|wifi|kitchen_food",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, the venue provides all necessary equipment for both axe throwing and golf simulator sessions."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "You can bring your own food and non-alcoholic drinks, but outside alcohol is not permitted. Snacks, beer, and wine are available for purchase on-site."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The golf simulator offers flexible session times (60, 90, or 120 minutes), and the time to complete 18 holes depends on your group size and pace."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is family-friendly and welcomes minors, though staff may assess a minor's ability to safely participate in axe throwing."
+    }
+  ],
+  "simulator_software": [
+    "TruGolf Max Apogee"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": null
+}

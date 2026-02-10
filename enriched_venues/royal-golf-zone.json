@@ -1,0 +1,100 @@
+{
+  "name": "Royal Golf Zone",
+  "address": "2000 Royal Ln, Dallas, TX 75229",
+  "city": "Dallas",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 32.895152,
+  "longitude": -96.911145,
+  "phone": "+12143779917",
+  "website": "https://www.royalgolfzone.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770200591/golf_simulators/www_royalgolfzone_com_ChIJkaNthf4nTIYRot5SZUrgZ7E.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Royal+Golf+Zone/@32.8951517,-96.9111448,14z/data=!4m8!1m2!2m1!1sRoyal+Golf+Zone!3m4!1s0x864c27fe856da391:0xb167e04a6552dea2!8m2!3d32.8951517!4d-96.9111448",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJkaNthf4nTIYRot5SZUrgZ7E",
+  "email": "royalgolfzone@gmail.com",
+  "venue_type": "sim_bar",
+  "about": "Royal Golf Zone is an indoor golf simulator venue located in Dallas, TX, featuring a total of eleven simulator bays across two brands. Three bays are equipped with KGolf Simulators, which utilize Unreal Engine 4 for high-quality visuals and provide detailed shot analytics such as ball speed, launch angle, and spin rate. The remaining eight bays feature Bravo Simulators, developed with a decade of cutting-edge technology to deliver an authentic golf experience. Pricing is structured by the hour, with rates varying by bay type and no additional charges based on the number of players. The facility is designed to offer a comfortable and welcoming environment for all skill levels, providing a perfect escape from unpredictable weather with a modern and premium-feeling space at an accessible price point.",
+  "tags": "beginner_friendly|food_and_drinks|serious_golfers|families|corporate_events|leagues|premium_tech|budget_friendly|private_rooms|club_rentals",
+  "vibe_tags": "casual|welcoming|modern|sports_bar|family_fun_center",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Premium technology without the premium price tag",
+    "BYOB policy allowing guests to bring their own food and drinks",
+    "Top-tier simulator hardware with detailed shot data analytics",
+    "Welcoming atmosphere with incredibly friendly and caring staff",
+    "Flexible booking options including online, phone, and walk-ins"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "BYOB establishment; guests can bring their own food. A few snack options are also available."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "BYOB establishment; guests can bring their own alcoholic beverages. A few non-alcoholic beverages are also available."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "KGolf",
+      "model": "Simulator",
+      "notes": "Advanced simulator using Unreal Engine 4 for stunning visuals. Offers full control over the game and detailed shot data including ball speed, club speed, launch angle, spin rate, and smash factor. Installed in 3 bays."
+    },
+    {
+      "brand": "Bravo",
+      "model": "Simulator",
+      "notes": "Authentic golf experience with advanced graphics and gameplay, developed over a decade with cutting-edge technology. Installed in 8 bays."
+    }
+  ],
+  "simulator_so": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 11,
+  "booking_url": "https://book.squareup.com/appointments/6j9ekfakhgyiy8/location/LHCCPQDRB3BNQ/services",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": 11,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|wifi|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The provided information does not specify whether club rentals are available. It is recommended to call the venue directly to inquire about club options."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, Royal Golf Zone is a BYOB (Bring Your Own Beverage) establishment. Guests are welcome to bring their own alcoholic beverages and food. The venue also offers a few non-alcoholic beverages and snack options."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The provided information does not specify the average time required to complete 18 holes. As a general estimate, playing 18 holes on a simulator typically takes between 2 to 3 hours, depending on the number of players and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is welcoming to all skill levels and several customer reviews mention it as a great place for friends and family, indicating a family-friendly atmosphere."
+    }
+  ],
+  "simulator_software": [
+    "KGolf Simulators (Unreal Engine 4), Bravo Simulators"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"9AM-10PM\"], \"Saturday\": [\"9AM-10PM\"], \"Sunday\": [\"9AM-10PM\"]}"
+}

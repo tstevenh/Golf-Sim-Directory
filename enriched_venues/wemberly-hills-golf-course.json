@@ -1,0 +1,92 @@
+{
+  "name": "Wemberly Hills Golf Course",
+  "address": "66 Club House Ln, Olyphant, PA 18447",
+  "city": "Olyphant",
+  "region": "Pennsylvania",
+  "country": "US",
+  "latitude": 41.548957,
+  "longitude": -75.638825,
+  "phone": "+15702548240",
+  "website": "https://www.wemberlyhillsgc.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770206383/golf_simulators/www_wemberlyhillsgc_com_ChIJfdNwN8fWxIkRjmjlL5dKlSM.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Wemberly+Hills+Golf+Course/@41.548957,-75.638825,14z/data=!4m8!1m2!2m1!1sWemberly+Hills+Golf+Course!3m4!1s0x89c4d6c73770d37d:0x23954a972fe5688e!8m2!3d41.548957!4d-75.638825",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJfdNwN8fWxIkRjmjlL5dKlSM",
+  "venue_type": "sim_bar",
+  "about": "Wemberly Hills Golf Course is a public 9-hole course located in Scott Township, PA, featuring both outdoor play and an indoor golf simulator powered by Trackman technology. The facility offers a 2,500 sq ft clubhouse with a pro shop, restaurant, and outdoor patio overlooking the ninth green. It operates as a \"hidden gem\" in Northeast Pennsylvania, providing golf entertainment for all ages and skill levels with a mix of traditional outdoor rounds and simulator sessions.",
+  "tags": "beginner_friendly|food_and_drinks|families|corporate_events|leagues|budget_friendly|club_rentals|coaching_available|juniors_youth",
+  "vibe_tags": "casual|welcoming|modern|community_club",
+  "who_its_for": "beginners|families|corporate_teams|juniors_youth|tourists_travelers",
+  "why_golfers_like_it": [
+    "Indoor Trackman simulator for year-round play regardless of weather",
+    "Affordable pricing with punch cards and flexible memberships",
+    "Welcoming atmosphere suitable for all skill levels, including families",
+    "Convenient location near Scranton with full clubhouse amenities"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "On-site restaurant with full kitchen service"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Fully stocked bar and grill available on premises"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "State-of-the-art simulator technology for ball flight analysis"
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 1,
+  "booking_url": "https://wemberly-hills-golf-course-simulator.book.teeitup.com/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|kitchen_food|tv_sports|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, players should bring their own clubs for simulator sessions, though rentals may be available upon request."
+    },
+    {
+      "question": "Can I bring outside food or drinks?",
+      "answer": "No, outside food and drinks are not permitted as the venue has its own restaurant and bar on premises."
+    },
+    {
+      "question": "How long does an 18-hole simulator session take?",
+      "answer": "A typical 18-hole simulator session takes approximately 1-2 hours depending on group size and pace of play."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, Wemberly Hills is family-friendly with welcoming staff and activities suitable for golfers of all ages, including junior memberships available."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"8AM-10PM\"], \"Tuesday\": [\"8AM-10PM\"], \"Wednesday\": [\"8AM-10PM\"], \"Thursday\": [\"8AM-10PM\"], \"Friday\": [\"8AM-10PM\"], \"Saturday\": [\"8AM-10PM\"], \"Sunday\": [\"8AM-10PM\"]}"
+}

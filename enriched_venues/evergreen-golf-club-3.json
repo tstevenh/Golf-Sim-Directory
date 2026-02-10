@@ -1,0 +1,92 @@
+{
+  "name": "Evergreen Golf Club",
+  "address": "N6246 US-12, Elkhorn, WI 53121",
+  "city": "Elkhorn",
+  "region": "Wisconsin",
+  "country": "US",
+  "latitude": 42.719113,
+  "longitude": -88.541365,
+  "phone": "+12627416200",
+  "website": "https://www.evergreengolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770241907/golf_simulators/www_evergreengolf_com_ChIJ3fO3GxGzxYkRsH3wvHwnTFU.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Evergreen+Golf+Club/@42.719113,-88.5413651,14z/data=!4m8!1m2!2m1!1sEvergreen+Golf+Club!3m4!1s0x89c5b3111bb7f3dd:0x554c277cbcf07db0!8m2!3d42.719113!4d-88.5413651",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ3fO3GxGzxYkRsH3wvHwnTFU",
+  "venue_type": "country_club",
+  "about": "Evergreen Golf Club is a full-service country club featuring 27 championship golf holes and state-of-the-art indoor Trackman 4 simulators. The venue combines a traditional golf club experience with modern technology, offering both outdoor play and indoor simulation. Memberships and hourly sim rentals are available, with options ranging from individual to corporate plans. The facility includes amenities like the Bunker Bar & Grill, event spaces for weddings and banquets, and a relaxed pavilion area overlooking the course.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|club_rentals|family_friendly|coaching_available|juniors_youth",
+  "vibe_tags": "community_club|family_fun_center|upscale_lounge",
+  "who_its_for": "serious_golfers|families|corporate_teams|juniors_youth|tourists_travelers",
+  "why_golfers_like_it": [
+    "Access to premium Trackman 4 simulators with radar precision technology for detailed shot analysis",
+    "Variety of membership options catering to different play schedules and budgets",
+    "On-site Bunker Bar & Grill with food and beverage service during simulator sessions",
+    "Private member booking engine and 21-day advance tee time reservations"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen service available at Bunker Bar & Grill"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available at Bunker Bar & Grill"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "State-of-the-art radar precision technology with detailed shot analysis"
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.evergreengolf.com/golf-simulator",
+  "pricing_model": "mixed",
+  "price_range_min_local": 40,
+  "price_range_max_local": 50,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|kitchen_food|tv_sports|private_party_room|wifi|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you will need to bring your own clubs for simulator sessions. The venue does not mention club rentals for simulator play."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Food and drinks can be purchased at the on-site Bunker Bar & Grill, which serves meals and beverages to simulator participants."
+    },
+    {
+      "question": "How long does it take to play 18 holes on the simulator?",
+      "answer": "It takes about 1 hour for one person to play 18 holes, or 2 hours for two people to complete 18 holes."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Evergreen offers junior memberships for golfers 17 and under, with reduced rates for family members under 21 on certain membership plans."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"7AM-7PM\"], \"Tuesday\": [\"7AM-7PM\"], \"Wednesday\": [\"7AM-7PM\"], \"Thursday\": [\"7AM-10PM\"], \"Friday\": [\"7AM-10PM\"], \"Saturday\": [\"7AM-10PM\"], \"Sunday\": [\"7AM-7PM\"]}"
+}

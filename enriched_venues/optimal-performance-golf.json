@@ -1,0 +1,97 @@
+{
+  "name": "Optimal Performance Golf",
+  "address": "10401 93rd Ave N, Maple Grove, MN 55369",
+  "city": "Maple Grove",
+  "region": "Minnesota",
+  "country": "US",
+  "latitude": 45.122897,
+  "longitude": -93.413762,
+  "phone": "+17634653674",
+  "website": "http://optimalperformancegolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770205026/golf_simulators/optimalperformancegolf_com_ChIJgxqcV-k5s1IRbEg3uIugusE.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Optimal+Performance+Golf/@45.122896999999995,-93.41376199999999,14z/data=!4m8!1m2!2m1!1sOptimal+Performance+Golf!3m4!1s0x52b339e9579c1a83:0xc1baa08bb837486c!8m2!3d45.122896999999995!4d-93.41376199999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJgxqcV-k5s1IRbEg3uIugusE",
+  "email": "luke@optimalperformancegolf.com",
+  "venue_type": "sim_bar",
+  "about": "Optimal Performance Golf (OPG) is an indoor golf and sports bar facility in Maple Grove, Minnesota, offering a year-round golf experience. It features golf simulators, club fitting services, leagues, clinics, and a full-service bar and restaurant called Paulie's. The venue is designed to provide a best-in-class experience with a focus on community and technology, utilizing advanced fitting technology like the Foresight GC Quad Max and dual camera simulators.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|coaching_available|juniors_youth|family_friendly|date_night",
+  "vibe_tags": "sports_bar|family_fun_center|community_club|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "State-of-the-art Foresight GC Quad Max technology for precise club fitting",
+    "Year-round access to golf regardless of weather conditions",
+    "Full-service bar and restaurant (Paulie's) for a complete experience",
+    "Specialized leagues and camps for all skill levels and ages",
+    "Dedicated indoor putting and chipping greens"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full-service restaurant (Paulie's) with a menu available online"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available on-site"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": "GC Quad Max",
+      "notes": "Premium launch monitor with 4-camera function for precise fitting data"
+    },
+    {
+      "brand": "About Golf",
+      "model": "unknown",
+      "notes": "Dual camera and pressure plate technology for teaching and play"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface|dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": null,
+  "booking_url": "https://clients.uschedule.com/optimalperformancegolf/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 10,
+  "price_range_max_local": 400,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": null,
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own golf clubs?",
+      "answer": "You are welcome to bring your own clubs, but club rentals are also available."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No, outside food and drinks are not permitted. The facility has a full-service bar and restaurant, Paulie's, on-site."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "A typical 18-hole round on the simulator takes approximately one hour."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Optimal Performance Golf is family-friendly and welcomes children, with junior camps and clinics available."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"8AM-11PM\"], \"Tuesday\": [\"8AM-11PM\"], \"Wednesday\": [\"8AM-11PM\"], \"Thursday\": [\"8AM-11PM\"], \"Friday\": [\"8AM-11PM\"], \"Saturday\": [\"8AM-11PM\"], \"Sunday\": [\"8AM-11PM\"]}"
+}

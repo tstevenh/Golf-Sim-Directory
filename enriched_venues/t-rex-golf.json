@@ -1,0 +1,82 @@
+{
+  "name": "T-Rex Golf",
+  "address": "1115 Central Ave, Hot Springs National Park, AR 71901",
+  "city": "Hot Springs National Park",
+  "region": "Arkansas",
+  "country": "US",
+  "latitude": 34.504664,
+  "longitude": -93.055045,
+  "phone": "+15015201242",
+  "website": "http://www.trexgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770253760/golf_simulators/www_trexgolf_com_ChIJW3XLJgMrzYcRQSRQ0DdcyHU.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/T-Rex+Golf/@34.504664,-93.05504499999999,14z/data=!4m8!1m2!2m1!1sT-Rex+Golf!3m4!1s0x87cd2b0326cb755b:0x75c85c37d0502441!8m2!3d34.504664!4d-93.05504499999999",
+  "google_rating": 4.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJW3XLJgMrzYcRQSRQ0DdcyHU",
+  "venue_type": "other",
+  "about": "T-Rex Fun Spot is a family-oriented entertainment venue in Hot Springs, Arkansas, offering a variety of attractions beyond golf simulation. The facility includes laser tag, go-karts, a 4-seat gyroscope, a climbing wall, and a 5D virtual reality ride, with black light miniature golf and the largest rope/zip line course in Hot Springs. Patrons can choose individual attraction pricing at $8 per activity plus tax, with the exception of the rope/zip course at $16, or opt for a 2-hour unlimited wristband for $40 tax included. The venue operates with a focus on group and party bookings, offering two distinct birthday party packages that include a private party room and access to selected attractions.",
+  "tags": "kids_friendly|family_fun_center|corporate_events|party_atmosphere|budget_friendly|private_rooms|group_events",
+  "vibe_tags": "family_fun_center|party_atmosphere|casual|welcoming",
+  "who_its_for": "families|large_groups|kids_youth|corporate_teams|tourists_travelers",
+  "why_golfers_like_it": [
+    "Variety of non-golf attractions for mixed group entertainment",
+    "Affordable, all-inclusive wristband option for 2 hours of fun",
+    "Party packages available for private group events with dedicated space"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of food service on site. Likely allows outside food or caters for parties."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service on premises."
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": "unknown",
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "http://www.trexgolf.com/birthday-party",
+  "pricing_model": "package",
+  "price_range_min_local": 8,
+  "price_range_max_local": 16,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "private_party_room|club_rentals",
+  "rating_tech_quality": 4.2,
+  "rating_facility_comfort": 4.1,
+  "rating_value_for_money": 4.1,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "No, clubs are not required as the venue offers a variety of non-golf activities like laser tag, go-karts, and a rope/zip course."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "The website does not specify a food or drink policy. It is recommended to contact the venue directly for details on outside food and beverages."
+    },
+    {
+      "question": "How long does it take to complete 18 holes?",
+      "answer": "This venue does not offer traditional golf simulation; its main attractions like laser tag, go-karts, and mini golf are time-based activities, not 18-hole golf experiences."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "Yes, T-Rex Fun Spot is highly kid-friendly, featuring attractions like black light miniature golf, a climbing wall, and dedicated birthday party packages specifically designed for children."
+    }
+  ],
+  "rating_overall": 4.1,
+  "opening_hours": "{\"Monday\": [\"10AM-8PM\"], \"Tuesday\": [\"10AM-8PM\"], \"Wednesday\": [\"10AM-8PM\"], \"Thursday\": [\"10AM-8PM\"], \"Friday\": [\"10AM-10PM\"], \"Saturday\": [\"10AM-11PM\"], \"Sunday\": [\"10AM-8PM\"]}"
+}

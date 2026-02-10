@@ -1,0 +1,91 @@
+{
+  "name": "Pin High Indoor Golf Club",
+  "address": "680 Innovation Blvd #1105, Forney, TX 75126",
+  "city": "Forney",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 32.775636,
+  "longitude": -96.459081,
+  "phone": "+14692944439",
+  "website": "https://www.pinhighigc.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770199286/golf_simulators/www_pinhighigc_com_ChIJFzItAvitToYRJcjlJRMq_tY.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Pin+High+Indoor+Golf+Club/@32.7756365,-96.4590808,14z/data=!4m8!1m2!2m1!1sPin+High+Indoor+Golf+Club!3m4!1s0x864eadf8022d3217:0xd6fe2a1325e5c825!8m2!3d32.7756365!4d-96.4590808",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJFzItAvitToYRJcjlJRMq_tY",
+  "email": "golf@pinhighigc.com",
+  "venue_type": "multi_sport_sim",
+  "about": "Pin High Indoor Golf Club is a family-owned and operated facility located in Forney, Texas, offering a unique indoor golf simulator experience. The venue features two state-of-the-art Trackman simulator bays designed to be accessible for golfers of all skill levels and ages. The facility provides a training-focused environment, with a selection of virtual courses and advanced swing analysis technology. Pricing options include hourly bay rentals and various membership tiers, catering to both individual players and groups.",
+  "tags": "beginner_friendly|corporate_events|leagues|premium_tech|club_rentals|family_friendly|coaching_available",
+  "vibe_tags": "family_fun_center|community_club|modern",
+  "who_its_for": "beginners|families|corporate_teams|serious_golfers|solo_practice",
+  "why_golfers_like_it": [
+    "Uses premium Trackman technology for accurate ball and club tracking",
+    "Offers flexible booking through TrackMan account system",
+    "Provides a welcoming and accessible environment for all skill levels",
+    "Features multiple membership options for regular play",
+    "Hosts leagues and tournaments for competitive golfers"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of an on-site kitchen or food service."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service; BYOB policy not specified."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Trackman simulator bays for virtual golf experience and swing analysis"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "gimme_circle",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 2,
+  "booking_url": "https://booking.trackmangolf.com/venues/pin-high-indoor-golf-club/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 30,
+  "price_range_max_local": 500,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|tv_sports|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "Rental clubs are available and can be added to your booking as needed."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "There is no mention of an on-site kitchen, and policies for outside food and drink are not specified."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Booking times are available in 30 or 60-minute increments, with up to six players per bay."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the facility is described as family-friendly and suitable for all ages."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"5-10PM\"], \"Tuesday\": [\"5-10PM\"], \"Wednesday\": [\"5-10PM\"], \"Thursday\": [\"5-10PM\"], \"Friday\": [\"5-10PM\"], \"Saturday\": [\"10AM-9PM\"], \"Sunday\": [\"2-9PM\"]}"
+}

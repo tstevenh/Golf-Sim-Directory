@@ -1,0 +1,91 @@
+{
+  "name": "Par2play",
+  "address": "695 Hamilton St G, Somerset, NJ 08873",
+  "city": "Somerset",
+  "region": "New Jersey",
+  "country": "US",
+  "latitude": 40.491337,
+  "longitude": -74.474013,
+  "phone": "+18336979464",
+  "website": "http://www.par2play.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770211533/golf_simulators/www_par2play_com_ChIJHXC4uzzHw4kRAv6wKwTqsUo.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Par2play/@40.491337,-74.4740133,14z/data=!4m8!1m2!2m1!1sPar2play!3m4!1s0x89c3c73cbbb8701d:0x4ab1ea042bb0fe02!8m2!3d40.491337!4d-74.4740133",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJHXC4uzzHw4kRAv6wKwTqsUo",
+  "email": "info@par2play.com",
+  "venue_type": "sim_bar",
+  "about": "Par2play is an indoor golf simulator venue located in Somerset, New Jersey. The facility features climate-controlled hitting bays equipped with tour-level technology and high-speed cameras to capture every swing. They offer a range of services including simulator bay rentals, golf lessons, and event hosting. The venue aims to provide a comfortable and fun environment for golfers of all skill levels, with a focus on accessible technology and social play. Members receive benefits such as complimentary club fittings, priority bookings, and discounts on services and events.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|coaching_available|private_rooms",
+  "vibe_tags": "sports_bar|family_fun_center|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "State-of-the-art tour-level simulator technology with high-speed cameras",
+    "Complimentary premium golf club rentals with each bay rental",
+    "Flexible event space suitable for both corporate and private gatherings",
+    "Membership program with exclusive benefits like club fittings and priority bookings",
+    "Instructors who are PGA Professionals with extensive teaching experience"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Available for order during play via QR code or by speaking with a Bay Host"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Available for order during play via QR code or by speaking with a Bay Host"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Full Swing",
+      "model": "MultiSport",
+      "notes": "Tour-level technology with high-speed cameras used for swing analysis"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://booking.par2play.com/webstoreNew/services/833d46e8-a115-4627-8068-e813c4d23719",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|club_fitting|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, complimentary premium golf clubs are provided with every bay rental. You can also use your own clubs if you prefer."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Food and drinks are available for order during your session via a QR code or by speaking with a Bay Host. There is no mention of outside food or drink policies."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not provide a specific time for 18 holes. Play time varies depending on the course and group pace."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Par2play is described as a place where everyone can have fun, and it offers a comfortable environment for families with its climate-controlled bays and sports bar atmosphere."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-10PM\"], \"Saturday\": [\"9AM-10PM\"], \"Sunday\": [\"9AM-10PM\"]}"
+}

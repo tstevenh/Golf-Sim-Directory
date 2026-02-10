@@ -1,0 +1,83 @@
+{
+  "name": "Tn Golf Station",
+  "address": "1276 NW Broad St, Murfreesboro, TN 37129",
+  "city": "Murfreesboro",
+  "region": "Tennessee",
+  "country": "US",
+  "latitude": 35.862859,
+  "longitude": -86.407716,
+  "phone": "+16156247821",
+  "website": "https://tngolfstation.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770218634/golf_simulators/tngolfstation_com_ChIJK62trOkHZIgRzuZXvgqp1MI.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Tn+Golf+Station/@35.8628595,-86.4077161,14z/data=!4m8!1m2!2m1!1sTn+Golf+Station!3m4!1s0x886407e9acadad2b:0xc2d4a90abe57e6ce!8m2!3d35.8628595!4d-86.4077161",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJK62trOkHZIgRzuZXvgqp1MI",
+  "venue_type": "sim_bar",
+  "about": "Tn Golf Station is an indoor golf facility that features state-of-the-art simulators for year-round play. The venue combines golf with a social atmosphere, offering food, drinks, and a space for both casual and serious play. It provides a realistic golfing experience suitable for practicing or enjoying rounds with friends, with a focus on creating a fun and accessible environment. Their operating hours extend on Mondays and Sundays until the end of NFL games, and the venue also hosts special events like partner drawings and tournaments.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|party_atmosphere|late_night|community_club",
+  "vibe_tags": "sports_bar|casual|welcoming|modern",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Year-round indoor golf with state-of-the-art simulators",
+    "Social atmosphere combining golf with food and drinks",
+    "Extended hours on NFL game days for flexible play",
+    "Special events and partner drawings for community engagement"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen and food menu available"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service with cold beer and cocktails"
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": "unknown",
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 12,
+  "booking_url": "https://clients.uschedule.com/tngolfstation/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|leagues|late_night",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "While not specified, it is common practice at indoor golf facilities to allow players to bring their own clubs or use rentals."
+    },
+    {
+      "question": "Can I bring my own food or drink?",
+      "answer": "The venue offers its own food and drink menu, including a full bar, so external food and drink may not be permitted."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes is not specified, but typical indoor golf simulator rounds take 1.5-2 hours depending on player skill and group size."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "Yes, Tn Golf Station is described as a fun place for everyone, and its casual atmosphere suggests it is welcoming to families."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"3-9PM\"], \"Wednesday\": [\"11AM-9PM\"], \"Thursday\": [\"11AM-10PM\"], \"Friday\": [\"10AM-12AM\"], \"Saturday\": [\"10AM-12AM\"], \"Sunday\": [\"11AM-9PM\"]}"
+}

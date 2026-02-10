@@ -1,0 +1,87 @@
+{
+  "name": "OCPGI Golf Golf lessons / Golf course",
+  "address": "441 E Columbine Ave Suite C, Santa Ana, CA 92707",
+  "city": "Santa Ana",
+  "region": "California",
+  "country": "US",
+  "latitude": 33.703356,
+  "longitude": -117.861567,
+  "phone": "+17146004935",
+  "website": "http://www.ocpgi.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770249877/golf_simulators/www_ocpgi_com_ChIJoRIWgqvf3IARIp83M1nODHo.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/OCPGI+Golf+Golf+lessons+%2F+Golf+course/@33.7033555,-117.8615672,14z/data=!4m8!1m2!2m1!1sOCPGI+Golf+Golf+lessons+%2F+Golf+course!3m4!1s0x80dcdfab821612a1:0x7a0cce5933379f22!8m2!3d33.7033555!4d-117.8615672",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJoRIWgqvf3IARIp83M1nODHo",
+  "email": "ocpgigolf@gmail.com",
+  "venue_type": "training_studio",
+  "about": "Orange County Par Golf Institute (OCPGI) is a specialized golf training facility focused on advanced performance coaching and simulation technology. They offer private lessons using state-of-the-art equipment including Trackman and Foresight simulators, alongside Titleist Performance Institute biomechanics analysis. The venue caters to golfers seeking technical skill improvement, with a structured approach covering fundamentals, swing mechanics, short game mastery, and on-course strategy. Their pricing reflects a premium, coaching-centric model with sessions available by private booking only.",
+  "tags": "beginner_friendly|serious_golfers|coaching_available|premium_tech|juniors_youth|private_rooms|club_rentals",
+  "vibe_tags": "tech_lab|industrial_training|community_club",
+  "who_its_for": "serious_golfers|juniors_youth|coaches_instructors|solo_practice",
+  "why_golfers_like_it": [
+    "Access to premium Trackman and Foresight simulators with course play",
+    "Expert TPI Level 3 certified coaching for technical improvement",
+    "Specialized junior programs with US Kids Golf certification",
+    "Biomechanics-focused training for injury prevention and performance"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": null,
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Level 2 certified Trackman system for launch monitoring"
+    },
+    {
+      "brand": "Foresight",
+      "model": "GC Quad",
+      "notes": "Foresight simulator with 105 virtual golf courses"
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "auto_putt",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "http://www.ocpgi.com/pricing",
+  "pricing_model": "per_person_hour",
+  "price_range_min_local": 250,
+  "price_range_max_local": 250,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|pro_shop|coaching_available",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 3.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Players are expected to bring their own golf equipment for lessons and simulator use."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue does not mention food or drink services, suggesting it's a BYOB facility."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "While not explicitly stated, simulator sessions are typically 1-hour private coaching sessions."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "Yes, OCPGI offers US Kids Golf certified coaching programs specifically designed for junior golfers."
+    }
+  ],
+  "simulator_software": [
+    "Foresight Sports"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"7AM-8PM\"], \"Tuesday\": [\"7AM-8PM\"], \"Wednesday\": [\"7AM-8PM\"], \"Thursday\": [\"7AM-8PM\"], \"Friday\": [\"7AM-8PM\"], \"Saturday\": [\"7AM-8PM\"], \"Sunday\": [\"7AM-8PM\"]}"
+}

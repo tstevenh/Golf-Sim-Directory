@@ -1,0 +1,90 @@
+{
+  "name": "Club 27 indoor golf",
+  "address": "1261 N Fairfield Rd, Beavercreek, OH 45432",
+  "city": "Beavercreek",
+  "region": "Ohio",
+  "country": "US",
+  "latitude": 39.727072,
+  "longitude": -84.058735,
+  "phone": "+19379125038",
+  "website": "http://club27golf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770198681/golf_simulators/club27golf_com_ChIJOaqOztmbQIgRtm8nhJBxf18.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Club+27+indoor+golf/@39.727072199999995,-84.0587346,14z/data=!4m8!1m2!2m1!1sClub+27+indoor+golf!3m4!1s0x88409bd9ce8eaa39:0x5f7f719084276fb6!8m2!3d39.727072199999995!4d-84.0587346",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJOaqOztmbQIgRtm8nhJBxf18",
+  "email": "Club27_Green@2x_1765223630319-Dsn97wyy.png",
+  "venue_type": "sim_bar|training_studio|private_rental|retail_fitting_center|country_club|multi_sport_sim|hotel_resort|other",
+  "about": "Club 27 is an indoor golf simulation venue in Beavercreek, Ohio, featuring 4 premium simulator bays equipped with the latest technology for accurate ball flight data and immersive course visuals. The facility operates on a pay-per-hour basis with no membership required, offering flexible time slots from 1 to 6 hours with 30-minute increments. Designed for both seasoned golfers and beginners, Club 27 provides a climate-controlled environment where players can perfect their swing year-round regardless of weather conditions. Each bay is fully equipped with professional-grade equipment, private access, and comfortable seating to ensure an optimal golfing experience.",
+  "tags": "beginner_friendly|serious_golfers|families|large_groups|solo_practice|premium_tech|private_rooms|club_rentals|coaching_available|community_club",
+  "vibe_tags": "private_luxury|tech_lab|community_club|family_fun_center",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|solo_practice|coaches_instructors",
+  "why_golfers_like_it": [
+    "24/7 self-service access",
+    "Climate-controlled environment",
+    "Premium simulator technology",
+    "Flexible time slots",
+    "Group-friendly up to 6 players",
+    "No membership required"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned; BYOB not specified"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Premium Golf Simulator",
+      "model": null,
+      "notes": "State-of-the-art technology with accurate ball flight data and immersive visuals"
+    }
+  ],
+  "simulator_software": "unknown",
+  "launch_monitor_type": "radar|photometric_camera|hybrid|overhead_camera|floor_camera|infrared_optical|unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 4,
+  "booking_url": "http://club27golf.com/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 40,
+  "price_range_max_local": 240,
+  "currency": "USD",
+  "walk_ins_allowed": false,
+  "coaching_available": false,
+  "private_rooms_count": 4,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|lockers|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need clubs?",
+      "answer": "Players must bring their own golf clubs as they are not provided by the venue."
+    },
+    {
+      "question": "Can I bring food/drink?",
+      "answer": "No food or drink service is mentioned; BYOB policy not specified."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Time for 18 holes depends on player skill and simulator software, but sessions are booked in 1-6 hour increments with 30-minute additions."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Club 27 welcomes families and is suitable for beginners, including juniors, with group-friendly bays accommodating up to 6 players."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

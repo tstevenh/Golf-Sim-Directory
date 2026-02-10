@@ -1,0 +1,89 @@
+{
+  "name": "X-Golf St. Louis",
+  "address": "9626 Manchester Rd, St. Louis, MO 63119",
+  "city": "St. Louis",
+  "region": "Missouri",
+  "country": "US",
+  "latitude": 38.607599,
+  "longitude": -90.366795,
+  "phone": "+13147163466",
+  "website": "https://xgolfstlouis.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770201603/golf_simulators/xgolfstlouis_com_ChIJkTV3VIHL2IcR_aP3YOGyxSM.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/X-Golf+St.+Louis/@38.607598599999996,-90.36679529999999,14z/data=!4m8!1m2!2m1!1sX-Golf+St.+Louis!3m4!1s0x87d8cb8154773591:0x23c5b2e160f7a3fd!8m2!3d38.607598599999996!4d-90.36679529999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJkTV3VIHL2IcR_aP3YOGyxSM",
+  "email": "info@xgolfstl.com",
+  "venue_type": "sim_bar",
+  "about": "X-Golf St. Louis is an indoor golf simulator venue that combines virtual reality gaming, food and beverage, and golf lessons. The facility features eight of the world's most innovative and accurate golf simulators, utilizing camera systems, infrared lasers, and impact sensors to deliver a realistic golfing experience. The venue is designed for individuals, groups, and events, offering a flexible space with a full bar, food options, and amenities for parties, corporate functions, and social outings.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|private_rooms|club_rentals|coaching_available",
+  "vibe_tags": "casual|welcoming|modern|sports_bar|party_atmosphere",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "State-of-the-art simulator technology with 98% accuracy using camera, laser, and impact sensor systems",
+    "Convenient features like the automated X-Ball system that retrieves and tees up balls for each player",
+    "All-in-one experience combining golf, food, drinks, and social events in a relaxed atmosphere"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen service with tasty bites and a provided food menu"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available on-site"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "X-Golf",
+      "model": "Simulator System",
+      "notes": "Hybrid system using camera systems, infrared lasers, and impact sensors"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 8,
+  "booking_url": "https://XGolfSTL.as.me/Stlouis",
+  "pricing_model": "mixed",
+  "price_range_min_local": 35,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "You can bring your own clubs or rentals may be available, though this is not explicitly stated."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No, outside food and drinks are not permitted as the venue has its own full kitchen and bar."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time required for 18 holes is not specified, but it would depend on simulator software and player speed."
+    },
+    {
+      "question": "Is it kid-friendly?",
+      "answer": "Yes, the venue offers game options for all ages and levels, making it suitable for families."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-12AM\"], \"Saturday\": [\"9AM-12AM\"], \"Sunday\": [\"9AM-8PM\"]}"
+}

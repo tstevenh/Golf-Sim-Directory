@@ -1,0 +1,90 @@
+{
+  "name": "The Bridge Golf Learning Center",
+  "address": "33 W 116th St, New York, NY 10026",
+  "city": "New York",
+  "region": "New York",
+  "country": "US",
+  "latitude": 40.801427,
+  "longitude": -73.947827,
+  "phone": "+16464537488",
+  "website": "https://bridgegolffoundation.org/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770205625/golf_simulators/bridgegolffoundation_org_ChIJh4oeKw72wokRcojgRYvr8pE.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Bridge+Golf+Learning+Center/@40.8014274,-73.947827,14z/data=!4m8!1m2!2m1!1sThe+Bridge+Golf+Learning+Center!3m4!1s0x89c2f60e2b1e8a87:0x91f2eb8b45e08872!8m2!3d40.8014274!4d-73.947827",
+  "google_rating": 4.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJh4oeKw72wokRcojgRYvr8pE",
+  "email": "info@bridgegolffoundation.org",
+  "venue_type": "training_studio",
+  "about": "The Bridge Golf Learning Center is an indoor golf facility and a wholly-owned for-profit subsidiary of The Bridge Golf Foundation. Located in Harlem, it provides fee-based services for golfers of all skill levels and ages, focusing on making golf more accessible and affordable. The center is equipped with state-of-the-art technology and staffed by PGA Teaching Professionals, offering a comprehensive range of services including golf lessons, simulator sessions, club fittings, and fitness screenings. All profits from the center's operations support the foundation's mission to help young men of color close gaps in achievement, learning, and opportunity through golf and education.",
+  "tags": "beginner_friendly|serious_golfers|coaching_available|juniors_youth|community_club|premium_tech|private_rooms",
+  "vibe_tags": "industrial_training|tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|juniors_youth|coaches_instructors|solo_practice",
+  "why_golfers_like_it": [
+    "State-of-the-art TrackMan technology for accurate ball and club data",
+    "Comprehensive TPI fitness screenings for improved performance and injury prevention",
+    "Customized lessons from PGA Teaching Professionals using advanced teaching methods"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned. The venue likely operates on a bring-your-own basis."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned. The venue appears to focus on golf instruction and practice."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "TrackMan",
+      "model": "Combine",
+      "notes": "Premium launch monitor with dual radar technology for ball and club tracking, featuring Combine performance testing"
+    }
+  ],
+  "simulator_software": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://bridgegolffoundation.org/bglc/book-simulator/",
+  "pricing_model": "per_person_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|lockers|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.2,
+  "rating_facility_comfort": 4.1,
+  "rating_value_for_money": 4.1,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you should bring your own clubs for lessons and simulator sessions. The center specializes in providing instruction and technology to help you improve your game with your own equipment."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue does not mention food or drink service, so it is likely that outside food and non-alcoholic beverages are permitted. However, alcoholic beverages are not mentioned as available."
+    },
+    {
+      "question": "How long does it take to play 18 holes on a simulator?",
+      "answer": "While the exact time for 18 holes isn't specified, the TrackMan technology allows for efficient play, and the center is open daily for sessions. The duration can vary based on simulator usage and scheduling."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, the Bridge Golf Learning Center has a dedicated program for young men and offers instruction for all ages, making it a suitable environment for juniors and youth golfers."
+    }
+  ],
+  "rating_overall": 4.1,
+  "opening_hours": "{\"Monday\": [\"8AM-3PM\", \"7-9PM\"], \"Tuesday\": [\"8AM-3PM\", \"7-9PM\"], \"Wednesday\": [\"8AM-3PM\", \"7-9PM\"], \"Thursday\": [\"8AM-3PM\", \"7-9PM\"], \"Friday\": [\"8AM-3PM\", \"7-9PM\"], \"Saturday\": [\"8AM-4PM\"], \"Sunday\": [\"8AM-4PM\"]}"
+}

@@ -1,0 +1,86 @@
+{
+  "name": "Simcity indoor golf simulator",
+  "address": "930 Stillwater Ave, Bangor, ME 04401",
+  "city": "Bangor",
+  "region": "Maine",
+  "country": "US",
+  "latitude": 44.840678,
+  "longitude": -68.746499,
+  "phone": "+12073077057",
+  "website": "https://www.simcityindoorgolf.com/bangor",
+  "hero_image": "https://lh3.googleusercontent.com/gps-proxy/ALd4DhE4asl_YN0fCPmC_BA1MlUMBw54JJakmV0cxyoYL7l26xRjz90ocFiYmjZiJEBjdaB1x17fGDwbQzfqrOyQwEYkVeFi-uRq7nuRY8yovnMO9IxCMq7XOUJtLMYsCiUDNZRsorrH14HNBqbjmfQ9_UkKKzsvsNgkudn9QJXjWqLZ81o9LXIRP98Z=w800-h500-k-no",
+  "google_maps_url": "https://www.google.com/maps/place/Simcity+indoor+golf+simulator/@44.8406777,-68.7464986,14z/data=!4m8!1m2!2m1!1sSimcity+indoor+golf+simulator!3m4!1s0x4cafb50014719293:0xfe5d42757053d630!8m2!3d44.8406777!4d-68.7464986",
+  "google_rating": 4.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJk5JxFAC1r0wRMNZTcHVCXf4",
+  "venue_type": "sim_bar",
+  "about": "Sim-City Indoor Golf is a family-owned and operated business that offers an indoor golfing experience using Trackman iO technology. The venue provides a welcoming atmosphere for golfers of all skill levels, with food and beverages available on-site. Pricing is $50 per hour for standard rates and $40 per hour for veterans. It is best suited for individuals looking to play, practice, or participate in leagues, with options for both casual and competitive play.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|club_rentals|coaching_available",
+  "vibe_tags": "sports_bar|community_club|tech_lab",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice|juniors_youth|bachelor_parties",
+  "why_golfers_like_it": [
+    "Advanced Trackman iO technology for precise ball and club tracking",
+    "Unified leagues across multiple locations with competitive leaderboards",
+    "On-site food and beverages partnered with Birdies Grill & Tavern"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Food available on-site, partnered with Birdies Grill & Tavern"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Beverages available on-site, partnered with Birdies Grill & Tavern"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Four brand-new Trackman i0 simulators with radar and optical tracking"
+    }
+  ],
+  "simulator_software": "Trackman",
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 4,
+  "booking_url": "https://alleytrak.com/app/client/4743",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 50,
+  "price_range_max_local": 80,
+  "currency": "USD",
+  "walk_ins_allowed": false,
+  "coaching_available": true,
+  "private_rooms_count": 0,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|leagues|club_fitting",
+  "rating_tech_quality": 4.2,
+  "rating_facility_comfort": 4.1,
+  "rating_value_for_money": 4.1,
+  "faq": [
+    {
+      "question": "Do I need clubs?",
+      "answer": "It is recommended to bring your own clubs, but rental sets are available with limited availability."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Food and drinks are available on-site, but they must be kept outside the simulator bays."
+    },
+    {
+      "question": "How much time is needed for 18 holes?",
+      "answer": "2 golfers can complete 18 holes in 2 hours, while 4 golfers will need 4 hours."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is welcoming to golfers of all skill levels, including juniors."
+    }
+  ],
+  "rating_overall": 4.1,
+  "opening_hours": "{\"Monday\": [\"9AM-9PM\"], \"Tuesday\": [\"9AM-9PM\"], \"Wednesday\": [\"9AM-9PM\"], \"Thursday\": [\"9AM-9PM\"], \"Friday\": [\"9AM-9PM\"], \"Saturday\": [\"9AM-9PM\"], \"Sunday\": [\"9AM-9PM\"]}"
+}

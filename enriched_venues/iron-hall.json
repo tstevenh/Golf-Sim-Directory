@@ -1,0 +1,93 @@
+{
+  "name": "Iron Hall",
+  "address": "653 N 11th Ave, Pocatello, ID 83201",
+  "city": "Pocatello",
+  "region": "Idaho",
+  "country": "US",
+  "latitude": 42.8746,
+  "longitude": -112.442784,
+  "phone": "+12084505393",
+  "website": "http://ironhallpoky.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770245332/golf_simulators/ironhallpoky_com_ChIJu19ofgBPVVMR4-Vw0TpU0oc.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Iron+Hall/@42.8746005,-112.4427844,14z/data=!4m8!1m2!2m1!1sIron+Hall!3m4!1s0x53554f007e685fbb:0x87d2543ad170e5e3!8m2!3d42.8746005!4d-112.4427844",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJu19ofgBPVVMR4-Vw0TpU0oc",
+  "email": "ironhallspace@gmail.com",
+  "venue_type": "multi_sport_sim",
+  "about": "Iron Hall is an indoor golf facility located in Pocatello, ID, equipped with two private simulator bays featuring advanced TrackMan iO technology. The venue offers a premium experience for both casual players and serious golfers, providing access to world-renowned golf courses in a climate-controlled environment. Pricing is based on hourly session rates, with options for single bays or combined bays, as well as monthly and annual memberships that include unlimited bookings and discounts on additional sessions.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|private_rooms|club_rentals|family_friendly|budget_friendly",
+  "vibe_tags": "tech_lab|family_fun_center|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Advanced TrackMan iO simulators provide detailed swing analytics and course replay technology for game improvement",
+    "Private bays offer a focused, distraction-free environment for practice or competition",
+    "Complimentary club rentals and 24/7 booking availability for members add significant value and convenience"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "Food is not allowed inside the simulator rooms, though the event space has a kitchenette."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "Drinks with lids are welcome inside the simulator rooms."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "TrackMan",
+      "model": "iO",
+      "notes": "Two private simulator bays, referred to as 'The Front Nine' and 'The Back Nine'."
+    }
+  ],
+  "simulator_so": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": false,
+  "bay_count_total": 2,
+  "booking_url": "https://fareharbor.com/embeds/book/theironhall/?full-items=yes",
+  "pricing_model": "mixed",
+  "price_range_min_local": 40,
+  "price_range_max_local": 189,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 5,
+  "amenities_list": "club_rentals|wifi|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, two sets of complimentary right-handed golf clubs are provided per simulator bay."
+    },
+    {
+      "question": "Can I bring food and drink?",
+      "answer": "Drinks with lids are welcome inside the simulator rooms. Food is not allowed inside the rooms, though the event space has a kitchenette available for events."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "A 9-hole round takes approximately 1 hour. To complete a full 18-hole round, you would need to book two 1-hour sessions."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, customer reviews mention families enjoying the venue, and it is suitable for a 4-year-old child, indicating a kid-friendly atmosphere."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-5PM\"], \"Tuesday\": [\"9AM-5PM\"], \"Wednesday\": [\"9AM-5PM\"], \"Thursday\": [\"9AM-5PM\"], \"Friday\": [\"9AM-5PM\"], \"Saturday\": [\"9AM-5PM\"], \"Sunday\": [\"9AM-5PM\"]}"
+}

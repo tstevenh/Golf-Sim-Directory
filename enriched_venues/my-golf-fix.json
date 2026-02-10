@@ -1,0 +1,85 @@
+{
+  "name": "My Golf Fix",
+  "address": "4601 E Main St Ste970, Farmington, NM 87402",
+  "city": "Farmington",
+  "region": "New Mexico",
+  "country": "US",
+  "latitude": 36.762844,
+  "longitude": -108.154031,
+  "phone": "+15053250265",
+  "website": "https://www.mygolffix.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770226702/golf_simulators/www_mygolffix_com_ChIJ_R0aEXiPO4cRXDZXKPPNA5A.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/My+Golf+Fix/@36.7628436,-108.1540311,14z/data=!4m8!1m2!2m1!1sMy+Golf+Fix!3m4!1s0x873b8f78111a1dfd:0x9003cdf32857365c!8m2!3d36.7628436!4d-108.1540311",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ_R0aEXiPO4cRXDZXKPPNA5A",
+  "email": "brettcrawford@mygolffix.com",
+  "venue_type": "training_studio",
+  "about": "My Golf Fix LLC is an indoor golf simulator and training facility located within the Animas Valley Mall in Farmington, NM. The venue offers a modern indoor golf experience with various simulator bays, chipping areas, and putting greens. Services include bucket sessions, hourly simulator rentals, club fitting, professional lessons, and repair services. The facility provides accessible pricing options for both casual players and serious golfers, including flexible hourly rates and yearly memberships at different levels.",
+  "tags": "beginner_friendly|club_rentals|coaching_available|premium_tech|budget_friendly|private_rooms|family_friendly|solo_practice|serious_practice|corporate_events",
+  "vibe_tags": "modern|community_club|industrial_training|family_fun_center|tech_lab",
+  "who_its_for": "beginners|serious_golfers|families|solo_practice|corporate_teams",
+  "why_golfers_like_it": [
+    "Comprehensive club mapping with detailed metrics (carry distance, dispersion, gap analysis)",
+    "Multiple membership tiers with 40% savings on bulk hours",
+    "PGA-certified professional instructors with extensive tournament experience",
+    "Flexible pricing for solo and group sessions",
+    "Located in a mall with convenient access and parking"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned; BYOB not specified"
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": "unknown",
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": null,
+  "booking_url": "https://apimanager-cc36.clubcaddie.com/activities/view/eifdabab",
+  "pricing_model": "mixed",
+  "price_range_min_local": 5,
+  "price_range_max_local": 125,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": null,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|club_fitting|pro_shop|lessons|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can bring your own clubs or rent them for an additional $5 per session. Club rentals are available for bucket sessions and simulator time."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No food or drink service is mentioned, and there's no information about outside food/drink policies."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Time for 18 holes isn't specified, but simulator sessions are available in 30-minute to 1-hour increments. Pre-booking is recommended for longer sessions."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, the facility appears kid-friendly with family memberships available and mentions of junior golf pros and youth coaching services."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"10AM-8PM\"], \"Tuesday\": [\"10AM-8PM\"], \"Wednesday\": [\"10AM-8PM\"], \"Thursday\": [\"10AM-8PM\"], \"Friday\": [\"10AM-8PM\"], \"Saturday\": [\"10AM-8PM\"], \"Sunday\": [\"12-6PM\"]}"
+}

@@ -1,0 +1,92 @@
+{
+  "name": "Generation Golf Lounge & Bar",
+  "address": "288 N Santa Anita Ave #1, Arcadia, CA 91006",
+  "city": "Arcadia",
+  "region": "California",
+  "country": "US",
+  "latitude": 34.143266,
+  "longitude": -118.031101,
+  "phone": "+16265384284",
+  "website": "https://www.genggolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770209947/golf_simulators/www_genggolf_com_ChIJtwP15NvbwoARz4zt2jIUTl8.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Generation+Golf+Lounge+%26+Bar/@34.1432661,-118.0311014,14z/data=!4m8!1m2!2m1!1sGeneration+Golf+Lounge+%26+Bar!3m4!1s0x80c2dbdbe4f503b7:0x5f4e1432daed8ccf!8m2!3d34.1432661!4d-118.0311014",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJtwP15NvbwoARz4zt2jIUTl8",
+  "email": "info@genggolf.com",
+  "venue_type": "sim_bar",
+  "about": "Generation Golf (GENG) is a high-end indoor golf simulator facility and bar located in Arcadia, CA. It offers entertainment through high-definition full-swing simulation golf, complemented by food, beverages, golf merchandise, and an upscale lounge environment. The facility is designed for a premium experience, featuring advanced golf technology and a social atmosphere for both casual play and serious practice.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|premium_tech|coaching_available|upscale_lounge",
+  "vibe_tags": "upscale_lounge|sports_bar|private_luxury|tech_lab",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Advanced GCQuad simulator technology with HD screens and precise ball tracking",
+    "Upscale bar and lounge environment with a wide selection of beers, wines, and cocktails",
+    "1-on-1 professional coaching and equipment fitting services using tour-proven launch monitors"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Culinary delights and food options are available to complement the golf experience."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with a wide range of beers, wines, sake, soju, refreshing draft options, and signature cocktails."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "GCQuad",
+      "model": "unknown",
+      "notes": "Advanced indoor simulator with precise ball tracking and HD screens."
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 4,
+  "booking_url": "https://www.genggolf.com/book-online",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 45,
+  "price_range_max_local": 70,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|kitchen_food|club_fitting|tv_sports|pro_shop",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can bring your own clubs, or the facility provides equipment for use during your session."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Beverages are available for purchase separately at the on-site bar. Outside food and drink policies are not specified."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "A standard 1-hour session is available, which is typically sufficient for 9 holes or a focused practice session."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is suitable for families and kids, offering a welcoming environment for all skill levels."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"1-10PM\"], \"Tuesday\": [\"1-10PM\"], \"Wednesday\": [\"1-10PM\"], \"Thursday\": [\"1-10PM\"], \"Friday\": [\"10AM-12AM\"], \"Saturday\": [\"10AM-12AM\"], \"Sunday\": [\"10AM-10PM\"]}"
+}

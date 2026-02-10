@@ -1,0 +1,94 @@
+{
+  "name": "Indoor Golf",
+  "address": "4127 Plank Rd, Fredericksburg, VA 22407",
+  "city": "Fredericksburg",
+  "region": "Virginia",
+  "country": "US",
+  "latitude": 38.290864,
+  "longitude": -77.531909,
+  "phone": "+15407923727",
+  "website": "https://www.keepactivegolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770206440/golf_simulators/www_keepactivegolf_com_ChIJFXc7kDPBtokRZn3cKGjlEpY.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Indoor+Golf/@38.290863699999996,-77.53190889999999,14z/data=!4m8!1m2!2m1!1sIndoor+Golf!3m4!1s0x89b6c133903b7715:0x9612e56828dc7d66!8m2!3d38.290863699999996!4d-77.53190889999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJFXc7kDPBtokRZn3cKGjlEpY",
+  "email": "info@keepactivegolf.com",
+  "venue_type": "other",
+  "about": "Keep Active Indoor Golf is a facility offering 24/7 access to members via fobs, with initial setup during staffed hours. It features two Full Swing Golf Simulators that support up to 8 golfers per bay, utilizing industry-leading technology for real-time feedback and practice customization. The venue operates on a membership-only model with tiered plans providing weekly bay time, and allows members to bring their own food, drinks, and clubs for a self-sufficient experience.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|budget_friendly|private_rooms|club_rentals|community_club",
+  "vibe_tags": "casual|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "24/7 access for members via fobs allows for flexible practice sessions",
+    "Full Swing technology provides real-time feedback and customization for practice",
+    "Support for up to 8 golfers per bay makes it great for groups and friends",
+    "Option to bring your own food and drink creates a relaxed, comfortable environment"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Members may bring their own food"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service; BYOB not specified"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Full Swing",
+      "model": "unknown",
+      "notes": "2 simulators support up to 8 golfers"
+    }
+  ],
+  "simulator_so": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://www.keepactivegolf.com/",
+  "pricing_model": "membership_only",
+  "price_range_min_local": 89,
+  "price_range_max_local": 149,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": false,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 8,
+  "amenities_list": "wifi|club_rentals|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, the venue does not provide clubs; you must bring your own."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "Yes, you may bring your own food and drink."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Time for 18 holes is not specified; depends on simulator software and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue allows families and supports large groups, making it suitable for kids."
+    }
+  ],
+  "simulator_software": [
+    "Full Swing Golf"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

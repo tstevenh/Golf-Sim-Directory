@@ -1,0 +1,106 @@
+{
+  "name": "The City Golf - West LA",
+  "address": "11500 W Olympic Blvd Suite 100, Los Angeles, CA 90064",
+  "city": "Los Angeles",
+  "region": "California",
+  "country": "US",
+  "latitude": 34.036151,
+  "longitude": -118.444208,
+  "phone": "+13107097010",
+  "website": "http://www.thecitygolf.com/",
+  "hero_image": "",
+  "google_maps_url": "https://www.google.com/maps/place/The+City+Golf+-+West+LA/@34.036151,-118.4442083,14z/data=!4m8!1m2!2m1!1sThe+City+Golf+-+West+LA!3m4!1s0x80c2bb8cc56c13bd:0x9af219c640d5b249!8m2!3d34.036151!4d-118.4442083",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJvRNsxYy7woARSbLVQMYZ8po",
+  "email": "info@thecitygolf.com",
+  "venue_type": "training_studio",
+  "about": "The City Golf is a premium indoor golf range facility with locations in Los Angeles, Sherman Oaks, and West LA. It utilizes Foresight's GCQuad and Falcon launch monitors to provide precise ball-flight and club-head data analysis. The venue caters to golfers seeking to refine their game with pro-grade feedback, offering simulator bays, a dedicated Performance Center for club fitting with a PGA professional, and a state-of-the-art putting training system called TourPutt. In-house instructors are available for free quick pointers or private lessons. The facility requires patrons to bring their own clubs as no rentals are provided.",
+  "tags": "serious_practice|premium_tech|coaching_available|private_rooms|club_fitting|beginners|corporate_events|juniors_youth|solo_practice",
+  "vibe_tags": "tech_lab|industrial_training|modern",
+  "who_its_for": "serious_golfers|beginners|coaches_instructors|solo_practice|corporate_teams",
+  "why_golfers_like_it": [
+    "Advanced GCQuad and Falcon launch monitors provide precise club and ball data analysis",
+    "In-house PGA professionals offer coaching and club fitting services",
+    "TourPutt system allows for detailed putting pattern analysis and training",
+    "High-tech simulation environment available day or night regardless of weather",
+    "Performance Center fittings with equipment used by PGA/LPGA Tour Players"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of an on-site kitchen or food service."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of an on-site bar or alcohol service."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": "GCQuad",
+      "notes": "Primary launch monitor using a combination of infrared object tracking and high-speed camera technology"
+    },
+    {
+      "brand": "Foresight",
+      "model": "Falcon",
+      "notes": "Used in some bays alongside GCQuad for quadrascopic data"
+    },
+    {
+      "brand": "EYEXO",
+      "model": "2",
+      "notes": "Used in a number of bays"
+    },
+    {
+      "brand": "GCHawk",
+      "model": "",
+      "notes": "Used in a number of bays"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "photometric_camera|infrared_optical",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 20,
+  "booking_url": "https://www.thecitygolf.com/reservation/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_fitting|pro_shop|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you must bring your own clubs. The City Golf does not provide any rental clubs."
+    },
+    {
+      "question": "Can I bring my own food or drink?",
+      "answer": "The website does not mention a policy regarding bringing outside food or drink, but also does not indicate an on-site kitchen or bar service."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website mentions that simulated 18-hole play is available but does not specify an estimated time for a round."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "There is no specific information regarding child-friendly features, policies, or junior programs mentioned on the website."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"8AM-10PM\"], \"Tuesday\": [\"8AM-10PM\"], \"Wednesday\": [\"8AM-10PM\"], \"Thursday\": [\"8AM-10PM\"], \"Friday\": [\"8AM-10PM\"], \"Saturday\": [\"9AM-8PM\"], \"Sunday\": [\"9AM-8PM\"]}"
+}

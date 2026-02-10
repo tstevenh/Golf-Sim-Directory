@@ -1,0 +1,93 @@
+{
+  "name": "The Pursuit Golf Outpost",
+  "address": "3920 Merrick Rd, Seaford, NY 11783",
+  "city": "Seaford",
+  "region": "New York",
+  "country": "US",
+  "latitude": 40.666052,
+  "longitude": -73.486305,
+  "phone": "+15167653650",
+  "website": "https://www.thepursuitgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770261275/golf_simulators/www_thepursuitgolf_com_ChIJHX5of3R_wokRAuSiyS_ETkI.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Pursuit+Golf+Outpost/@40.666051499999995,-73.4863049,14z/data=!4m8!1m2!2m1!1sThe+Pursuit+Golf+Outpost!3m4!1s0x89c27f747f687e1d:0x424ec42fc9a2e402!8m2!3d40.666051499999995!4d-73.4863049",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJHX5of3R_wokRAuSiyS_ETkI",
+  "email": "service@thepursuitgolf.com",
+  "venue_type": "multi_sport_sim",
+  "about": "The Pursuit Golf Outpost is a golf simulator venue featuring two premium bays equipped with Uneekor EYE XO2 simulators. The facility offers various software packages, including GS Pro for range practice, skill challenges, and play on over 1,500 global courses, and Uneekor View for detailed swing analysis with integrated cameras and an AI Swing Trainer. The venue provides a mix of services, including simulator rentals, monthly memberships, golf lessons with PGA and USGTF pros, and participation in golf leagues and events.",
+  "tags": "serious_practice|coaching_available|leagues|premium_tech|juniors_youth|beginner_friendly|corporate_events|private_rooms",
+  "vibe_tags": "modern|community_club|industrial_training",
+  "who_its_for": "serious_golfers|beginners|juniors_youth|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Premium Uneekor EYE XO2 simulators with high-quality hitting mats and giant screens",
+    "Detailed swing analysis with Uneekor View software and AI Swing Trainer",
+    "Access to over 1,500 courses worldwide via GS Pro software",
+    "Dedicated golf lessons from PGA and USGTF certified professionals",
+    "Active leagues and events for competitive and casual play",
+    "Flexible membership packages with discounts for regular use"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of food service on-site"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service on-site; BYOB policy not specified"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "EYE XO2",
+      "notes": "Premium simulator with integrated cameras for ball tracking and swing analysis"
+    }
+  ],
+  "simulator_software": [
+    "GSPro",
+    "Uneekor View"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://www.thepursuitgolf.com/book-online",
+  "pricing_model": "mixed",
+  "price_range_min_local": 30,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|leagues|coaching_available",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue provides premium hitting mats, but it's recommended to bring your own clubs for the most authentic experience."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No mention of food or drink service is available on-site. BYOB policy is not specified."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Standard 18-hole rounds typically take 1-2 hours depending on the course and number of players, but exact timing may vary."
+    },
+    {
+      "question": "Is this place kid-friendly?",
+      "answer": "Yes, they offer a grade school student discount of $20 for hourly bookings or $10 for half-hour bookings for students in grade 12 and younger."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-10PM\"], \"Saturday\": [\"10AM-10PM\"], \"Sunday\": [\"10AM-8PM\"]}"
+}

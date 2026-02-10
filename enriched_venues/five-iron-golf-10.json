@@ -1,0 +1,93 @@
+{
+  "name": "Five Iron Golf",
+  "address": "327 A St, Boston, MA 02210",
+  "city": "Boston",
+  "region": "Massachusetts",
+  "country": "US",
+  "latitude": 42.349272,
+  "longitude": -71.049068,
+  "phone": "+18005135153",
+  "website": "https://fiveirongolf.com/locations/boston-seaport/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770227122/golf_simulators/fiveirongolf_com_ChIJ3R2A-t1744kRVuD_8h1CJ2Y.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Five+Iron+Golf/@42.3492719,-71.0490684,14z/data=!4m8!1m2!2m1!1sFive+Iron+Golf!3m4!1s0x89e37bddfa801ddd:0x6627421df2ffe056!8m2!3d42.3492719!4d-71.0490684",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ3R2A-t1744kRVuD_8h1CJ2Y",
+  "email": "seaport@fiveirongolf.com",
+  "venue_type": "sim_bar",
+  "about": "Five Iron Golf Seaport is a 16,000 square foot indoor golf and entertainment venue located in Boston's Seaport District. The facility combines state-of-the-art golf simulator bays with a sports lounge atmosphere, offering a comprehensive experience for golfers of all skill levels. Patrons can play at over 200 virtual courses, including famous PGA Tour venues like Pebble Beach and Bethpage Black, engage in competitive minigames, or receive data-driven instruction using Trackman technology and high-speed swing cameras. The venue caters to a diverse clientele, from serious golfers seeking improvement to groups looking for a social outing, with the added attractions of duckpin bowling, a full-service bar, and chef-inspired food options.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|private_rooms|coaching_available",
+  "vibe_tags": "sports_bar|community_club|party_atmosphere",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "Access to 200+ world-class virtual courses including prestigious PGA Tour venues",
+    "State-of-the-art Trackman technology with high-speed cameras for detailed swing analysis",
+    "Versatile venue offering both serious practice sessions and entertaining social experiences"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Chef-inspired menu with options including boneless wings"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full-service bar stocked with craft brews"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Dual-radar technology in custom-built bays"
+    }
+  ],
+  "simulator_so": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://booking.fiveirongolf.com/select-experience?location=boston-seaport",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 345,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own golf clubs?",
+      "answer": "You can bring your own clubs or use provided equipment. The venue features Trackman technology and club fitting services."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "Outside food and drinks are not permitted as the venue offers a full-service bar and chef-inspired menu."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Playing times vary depending on the course and number of players, but a typical 18-hole round takes approximately 1.5-2 hours."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Five Iron Golf Seaport is kid-friendly and offers kids' parties, junior clinics, and duckpin bowling as family-friendly activities."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"6AM-11PM\"], \"Tuesday\": [\"6AM-11PM\"], \"Wednesday\": [\"6AM-11PM\"], \"Thursday\": [\"6AM-11PM\"], \"Friday\": [\"6AM-1AM\"], \"Saturday\": [\"8AM-1AM\"], \"Sunday\": [\"8AM-11PM\"]}"
+}

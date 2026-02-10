@@ -1,0 +1,93 @@
+{
+  "name": "Ace's Range",
+  "address": "1505 Pioneer Ave, Cheyenne, WY 82001",
+  "city": "Cheyenne",
+  "region": "Wyoming",
+  "country": "US",
+  "latitude": 41.131351,
+  "longitude": -104.816772,
+  "phone": "+13076306685",
+  "website": "https://acesrangewy.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770247503/golf_simulators/acesrangewy_com_ChIJlbbrmww7b4cRQ_2LBunhZVw.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Ace%27s+Range/@41.1313509,-104.81677169999999,14z/data=!4m8!1m2!2m1!1sAce%27s+Range!3m4!1s0x876f3b0c9bebb695:0x5c65e1e9068bfd43!8m2!3d41.1313509!4d-104.81677169999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJlbbrmww7b4cRQ_2LBunhZVw",
+  "venue_type": "sim_bar",
+  "about": "Ace's Range is an indoor golf simulator venue in Cheyenne, WY, offering private climate-controlled bays with Trackman simulators. The facility features 200+ virtual golf courses alongside additional activities like an indoor shooting simulator, racing simulator, and food and beverage options. Patrons can book bays by the hour, with rates varying by activity, and the venue offers membership discounts for frequent visitors. It is designed for all skill levels and ages, providing an alternative to outdoor play during inclement weather.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|kids_friendly|corporate_events|leagues|premium_tech|private_rooms|club_rentals|community_club",
+  "vibe_tags": "sports_bar|family_fun_center|party_atmosphere|tech_lab|casual|welcoming",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "Climate-controlled private bays for year-round play",
+    "Premium Trackman simulators with 200+ course options",
+    "Variety of activities beyond golf, including shooting and racing simulators",
+    "On-site food and beverages, including a full bar",
+    "Discounted rates for members"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen with items like gyro fries and mozzarella sticks"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with bottled and canned beverages, including cocktails"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Six top-of-the-line Trackman golf simulators"
+    }
+  ],
+  "simulator_so": [
+    "Trackman Golf"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 6,
+  "booking_url": "https://acesrangewy.com/book/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 12,
+  "price_range_max_local": 500,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 12,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|private_party_room|wifi|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue does not specify whether club rentals are available, but it is recommended to bring your own clubs for use with the simulators."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "Outside food and drinks are not mentioned, but the venue has a full kitchen and bar, suggesting on-site options are available."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The venue does not specify a time for 18 holes, but Trackman simulators typically allow for faster play than traditional golf."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Ace's Range is family-friendly and welcomes all ages and skill levels."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"11:30AM-10PM\"], \"Tuesday\": [\"11:30AM-10PM\"], \"Wednesday\": [\"11:30AM-10PM\"], \"Thursday\": [\"11:30AM-10PM\"], \"Friday\": [\"11:30AM-12AM\"], \"Saturday\": [\"11:30AM-12AM\"], \"Sunday\": [\"11:30AM-10PM\"]}"
+}

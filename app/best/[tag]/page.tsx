@@ -1,8 +1,7 @@
 import { Metadata } from "next";
 import { db, venueCardSelect } from "@/lib/db";
 import { BestByPageContent } from "@/components/seo/BestByPageContent";
-import { TagPageHero, getTagHeroContent } from "@/components/seo/PageHero";
-import { matchesTag } from "@/lib/best-by";
+import { TagPageHero } from "@/components/seo/PageHero";
 import { getStaticRelatedLinks } from "@/lib/category-config.generated";
 
 interface BestTagPageProps {
@@ -10,7 +9,7 @@ interface BestTagPageProps {
   searchParams?: Promise<Record<string, string | string[] | undefined>>;
 }
 
-export const revalidate = 3600;
+export const revalidate = 86400;
 
 // Pre-render all tag pages at build time
 export async function generateStaticParams() {
@@ -95,15 +94,26 @@ export default async function BestTagPage({ params, searchParams }: BestTagPageP
   const { tag } = await params;
   const paramsResolved = (await searchParams) || {};
   const page = Math.max(1, Number(paramsResolved.page || 1));
+  const pageSize = 12;
   const tagLabel = tag.replace(/-/g, " ");
+  const tagVariants = Array.from(new Set([tag, tag.replace(/-/g, "_"), tag.replace(/_/g, "-")]));
+  const skip = (page - 1) * pageSize;
 
-  const venues = await db.venue.findMany({
-    where: { status: "active" },
-    orderBy: [{ featured: "desc" }, { ratingOverall: "desc" }, { name: "asc" }],
-    select: venueCardSelect,
-  });
+  const where = {
+    status: "active" as const,
+    tags: { hasSome: tagVariants },
+  };
 
-  const filteredVenues = venues.filter((venue) => matchesTag(venue, tag));
+  const [totalVenues, venues] = await Promise.all([
+    db.venue.count({ where }),
+    db.venue.findMany({
+      where,
+      orderBy: [{ featured: "desc" }, { ratingOverall: "desc" }, { name: "asc" }],
+      select: venueCardSelect,
+      take: pageSize,
+      skip,
+    }),
+  ]);
 
   // Breadcrumb trail
   const breadcrumbs = [
@@ -119,7 +129,7 @@ export default async function BestTagPage({ params, searchParams }: BestTagPageP
     },
     {
       question: `How many ${tagLabel} golf simulator venues are there?`,
-      answer: `We currently have ${filteredVenues.length} venues tagged for ${tagLabel}. This list is updated regularly as we discover new venues and receive owner submissions.`,
+      answer: `We currently have ${totalVenues} venues tagged for ${tagLabel}. This list is updated regularly as we discover new venues and receive owner submissions.`,
     },
     {
       question: "How do I find these venues near me?",
@@ -142,14 +152,14 @@ export default async function BestTagPage({ params, searchParams }: BestTagPageP
       {/* Hero Section */}
       <TagPageHero
         tag={tag}
-        venueCount={filteredVenues.length}
+        venueCount={totalVenues}
         breadcrumbs={breadcrumbs}
       />
 
       {/* Main Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <BestByPageContent
-          title={`${filteredVenues.length} ${tagLabel.replace(/\b\w/g, l => l.toUpperCase())} Venues`}
+          title={`${totalVenues} ${tagLabel.replace(/\b\w/g, l => l.toUpperCase())} Venues`}
           description={`Browse all golf simulator venues perfect for ${tagLabel}. Sort by rating, compare amenities, and find your ideal spot.`}
           guidancePoints={[
             "Top-rated venues appear first — look for the Featured badge for editor picks.",
@@ -164,8 +174,10 @@ export default async function BestTagPage({ params, searchParams }: BestTagPageP
           ctaDescription={`If your venue is great for ${tagLabel}, claim your listing to verify details and get featured in our collections.`}
           ctaPrimary={{ label: "Claim Your Listing", href: "/claim" }}
           ctaSecondary={{ label: "Submit New Venue", href: "/submit" }}
-          venues={filteredVenues}
+          venues={venues}
+          totalVenues={totalVenues}
           currentPage={page}
+          pageSize={pageSize}
           baseUrl={`/best/${tag}`}
         />
       </div>

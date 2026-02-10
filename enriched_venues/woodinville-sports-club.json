@@ -1,0 +1,90 @@
+{
+  "name": "Woodinville Sports Club",
+  "address": "15327 140th Pl NE, Woodinville, WA 98072",
+  "city": "Woodinville",
+  "region": "Washington",
+  "country": "US",
+  "latitude": 47.739444,
+  "longitude": -122.146198,
+  "phone": "+14254871090",
+  "website": "https://www.woodinvillesportsclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770237995/golf_simulators/www_woodinvillesportsclub_com_ChIJNaP_fy4MkFQR6OfEmjln2qk.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Woodinville+Sports+Club/@47.739444299999995,-122.1461976,14z/data=!4m8!1m2!2m1!1sWoodinville+Sports+Club!3m4!1s0x54900c2e7fffa335:0xa9da67399ac4e7e8!8m2!3d47.739444299999995!4d-122.1461976",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJNaP_fy4MkFQR6OfEmjln2qk",
+  "email": "tier1golf@woodinvillesportsclub.com",
+  "venue_type": "multi_sport_sim",
+  "about": "Woodinville Sports Club is a multi-sports facility that features a golf simulation studio called Swing Lab, equipped with four state-of-the-art indoor golf simulators. The venue offers professional golf instruction for all ages, from beginners to elite players, provided by a WGTF Master Certified Coach and includes access to a scenic driving range with Toptracer technology. Membership options are available, with special launch offers providing access to the golf simulators and other amenities like the fitness center, tennis courts, and pickleball courts.",
+  "tags": "beginner_friendly|food_and_drinks|kids_friendly|corporate_events|premium_tech|coaching_available|family_friendly|leagues",
+  "vibe_tags": "community_club|tech_lab|family_fun_center",
+  "who_its_for": "beginners|serious_golfers|families|juniors_youth|corporate_teams",
+  "why_golfers_like_it": [
+    "Access to 4 state-of-the-art simulators using professional-grade technology",
+    "Real-time feedback on 24 data points for swing and ball flight analysis",
+    "Year-round access to heated driving bays and indoor simulators",
+    "Instruction available from a WGTF Master Certified Coach"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Permanent food and beverage available on-site"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Happy hour drinks available; specific BYOB policy not mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "Unknown",
+      "notes": "Utilizes UNEEKOR technology that captures 24 data points in real time"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 4,
+  "booking_url": "https://app.courtreserve.com/Online/Reservations/Bookings/6689?sId=14414",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 4,
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|lockers|wifi|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not explicitly state whether club rentals are available or if you must bring your own."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "The venue has permanent food and beverage available on-site. BYOB policy is not specified."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not provide a specific time estimate for playing a full round on the simulators."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the Woodinville Sports Club is kid-friendly, offering golf instruction for juniors, summer camps, and a multi-sport Adventure Club."
+    }
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"6AM-11PM\"], \"Tuesday\": [\"6AM-11PM\"], \"Wednesday\": [\"6AM-11PM\"], \"Thursday\": [\"6AM-11PM\"], \"Friday\": [\"6AM-11PM\"], \"Saturday\": [\"7AM-10PM\"], \"Sunday\": [\"7AM-10PM\"]}"
+}

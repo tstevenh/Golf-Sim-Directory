@@ -1,0 +1,86 @@
+{
+  "name": "Community Fieldhouse Sports Bar and Grill",
+  "address": "2007 Riley Fuzzel Rd, Spring, TX 77386",
+  "city": "Spring",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 30.104662,
+  "longitude": -95.400384,
+  "phone": "+13463404417",
+  "website": "https://communityfieldhouse.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770229055/golf_simulators/communityfieldhouse_com_ChIJU431-wQ1R4YRy0zz0yMv1Uk.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Community+Fieldhouse+Sports+Bar+and+Grill/@30.104661999999998,-95.40038369999999,14z/data=!4m8!1m2!2m1!1sCommunity+Fieldhouse+Sports+Bar+and+Grill!3m4!1s0x86473504fbf58d53:0x49d52f23d3f34ccb!8m2!3d30.104661999999998!4d-95.40038369999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJU431-wQ1R4YRy0zz0yMv1Uk",
+  "email": "andy@communityfieldhouse.com",
+  "venue_type": "sim_bar",
+  "about": "Community Fieldhouse is a multi-sport venue offering golf, baseball, and other sports simulators alongside dining and event spaces. It features a high-end golf simulator with various games and driving range options, available for hourly rentals. The venue also offers memberships, open play sessions, and court rentals for other sports like pickleball, volleyball, and basketball. It emphasizes a community-focused atmosphere with options for both casual players and organized events.",
+  "tags": "beginner_friendly|food_and_drinks|kids_friendly|corporate_events|leagues|budget_friendly|club_rentals|community_club|family_fun_center",
+  "vibe_tags": "sports_bar|community_club|family_fun_center|modern",
+  "who_its_for": "beginners|families|corporate_teams|solo_practice|juniors_youth",
+  "why_golfers_like_it": [
+    "High-end golf simulator with a variety of games and course options",
+    "Air-conditioned indoor environment for year-round play",
+    "Option to rent clubs or bring your own equipment",
+    "Open play and membership options for flexible access",
+    "Professional golf instructors available for lessons"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Craft Fusion grill offering American cuisine, online ordering available via Toasttab"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full cocktail bar with craft cocktails and beer available"
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_so": null,
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://communityfieldhouse.upperhand.io/customers/4-community-fieldhouse-spring-tx/events",
+  "pricing_model": "mixed",
+  "price_range_min_local": 50,
+  "price_range_max_local": 140,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 0,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.0,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 3.5,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Some clubs are available for use, but it is recommended to bring your own set if possible. The venue provides golf balls and stationary tees."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, outside food and drinks are not permitted. The venue offers a full-service dining area with a craft fusion grill and cocktail bar."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time for 18 holes is not specified, but simulators are rented by the hour or half-hour, allowing flexible playtime based on booking."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, children under 5 require a parent/guardian to be with them at all times, and child wristbands must be purchased. The venue offers various family-oriented activities and events."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 3.8,
+  "opening_hours": "{\"Monday\": [\"3-10PM\"], \"Tuesday\": [\"3-10PM\"], \"Wednesday\": [\"3-10PM\"], \"Thursday\": [\"11AM-10PM\"], \"Friday\": [\"11AM-11PM\"], \"Saturday\": [\"9AM-11PM\"], \"Sunday\": [\"9AM-10PM\"]}"
+}

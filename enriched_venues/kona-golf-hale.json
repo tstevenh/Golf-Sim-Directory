@@ -1,0 +1,89 @@
+{
+  "name": "Kona Golf Hale",
+  "address": "74-5606 Pawai Pl Bay 6, Kailua-Kona, HI 96740",
+  "city": "Kailua-Kona",
+  "region": "Hawaii",
+  "country": "US",
+  "latitude": 19.643251,
+  "longitude": -155.998041,
+  "phone": "+18084645212",
+  "website": "https://www.konagolfhale.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770227643/golf_simulators/www_konagolfhale_com_ChIJtblNCw0PVHkRCWyZ3VHQ9ik.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Kona+Golf+Hale/@19.6432506,-155.99804079999998,14z/data=!4m8!1m2!2m1!1sKona+Golf+Hale!3m4!1s0x79540f0d0b4db9b5:0x29f6d051dd996c09!8m2!3d19.6432506!4d-155.99804079999998",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJtblNCw0PVHkRCWyZ3VHQ9ik",
+  "email": "tjreillyhawaii@yahoo.com",
+  "venue_type": "sim_bar",
+  "about": "Kona Golf Hale is a community-focused indoor golf lounge located in Kailua-Kona, Hawaii. It operates as a family-friendly venue featuring golf simulators and a multi-sport arcade bay. The facility is equipped with ProTee VX Launch Monitors and GSPro software, providing detailed shot tracking with video replay capabilities. Operating hours are 1 PM to 10 PM daily, with members enjoying 24/7 access. Pricing is structured per bay per hour, with discounts for members and special Tuesday promotions, making it accessible for both casual golfers and those looking for extended practice sessions.",
+  "tags": "food_and_drinks|family_friendly|corporate_events|leagues|premium_tech|budget_friendly|private_rooms|club_rentals|kids_friendly|community_club",
+  "vibe_tags": "family_fun_center|community_club|casual|welcoming",
+  "who_its_for": "families|large_groups|corporate_teams|solo_practice|tourists_travelers",
+  "why_golfers_like_it": [
+    "ProTee VX Launch Monitor with high-speed camera tracking and video replay for detailed shot analysis",
+    "Family-friendly environment with BYOB policy and Hawaiian County Liquor Laws",
+    "Unlimited range balls included during play and available club rentals for an additional fee"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Food is welcome, guests can bring their own food"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "BYOB is welcome, Hawaii County Liquor Laws apply"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "ProTee",
+      "model": "VX",
+      "notes": "High Speed Camera Tracking with Video Replay"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 4,
+  "booking_url": "https://usa.golfmanager.com/konagolfhale",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 15,
+  "price_range_max_local": 70,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|kitchen_food|tv_sports|private_party_room|wifi|pro_shop",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own golf clubs?",
+      "answer": "No, you can bring your own clubs, but rental clubs are available for an additional $5 per hour."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, food and drinks are welcome, and BYOB is permitted with Hawaii County Liquor Laws applying."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes can vary depending on group size and pace, but it's typically around 2-3 hours per bay."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "Yes, Kona Golf Hale is family-friendly and welcomes all ages, with activities available for kids."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"1-10PM\"], \"Tuesday\": [\"1-10PM\"], \"Wednesday\": [\"1-10PM\"], \"Thursday\": [\"1-10PM\"], \"Friday\": [\"1-10PM\"], \"Saturday\": [\"1-10PM\"], \"Sunday\": [\"1-10PM\"]}"
+}

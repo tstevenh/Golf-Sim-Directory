@@ -1,0 +1,88 @@
+{
+  "name": "Rochester Country Club",
+  "address": "94 Church St, Rochester, NH 03839",
+  "city": "Rochester",
+  "region": "New Hampshire",
+  "country": "US",
+  "latitude": 43.265675,
+  "longitude": -70.978095,
+  "phone": "+16033329892",
+  "website": "http://rochestercc.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770237576/golf_simulators/rochestercc_com_ChIJKT2PoOya4okR9pyscqbaCKk.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Rochester+Country+Club/@43.265674499999996,-70.9780955,14z/data=!4m8!1m2!2m1!1sRochester+Country+Club!3m4!1s0x89e29aeca08f3d29:0xa908daa672ac9cf6!8m2!3d43.265674499999996!4d-70.9780955",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJKT2PoOya4okR9pyscqbaCKk",
+  "venue_type": "country_club",
+  "about": "Rochester Country Club is a traditional golf club in Rochester, New Hampshire, that combines a classic course experience with modern indoor golf simulator technology. The facility features an 18-hole championship course, a well-stocked pro shop, and on-site dining at SK's Greenside Grill, making it a comprehensive destination for both on-course and off-course golf activities. With a variety of membership options available and a focus on accommodating golfers from juniors to seniors, the club provides a welcoming environment for both casual play and serious practice.",
+  "tags": "food_and_drinks|leagues|coaching_available|corporate_events|club_rentals|family_friendly",
+  "vibe_tags": "community_club|family_fun_center|upscale_lounge",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "Indoor golf simulators available for year-round play",
+    "Variety of membership levels to suit different budgets and skill levels",
+    "On-site restaurant and banquet facilities for post-game dining and events"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full restaurant service available at SK's Greenside Grill"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "On-site bar and restaurant with alcohol service"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "unknown",
+      "model": "unknown",
+      "notes": "Brand and model not specified on website"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "http://rochestercc.com/rates/online-tee-times",
+  "pricing_model": "mixed",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": "true",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "pro_shop|club_fitting|kitchen_food|full_bar|private_party_room|leagues|club_rentals",
+  "rating_tech_quality": 3.5,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 3.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify whether club rentals are available. It is recommended to bring your own clubs for the best experience."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside alcohol is not permitted according to the dress code and policies. The on-site restaurant, SK's Greenside Grill, offers food and drink options."
+    },
+    {
+      "question": "How long does it take to play 18 holes on the simulator?",
+      "answer": "The website does not specify the time required for an 18-hole simulator session. Contact the club directly for more information."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the club offers junior memberships and programs, indicating it is family-friendly and welcomes youth golfers."
+    }
+  ],
+  "rating_overall": 3.8,
+  "opening_hours": "{\"Monday\": [\"8AM-10PM\"], \"Tuesday\": [\"8AM-10PM\"], \"Wednesday\": [\"8AM-10PM\"], \"Thursday\": [\"8AM-10PM\"], \"Friday\": [\"8AM-10PM\"], \"Saturday\": [\"8AM-10PM\"], \"Sunday\": [\"8AM-8PM\"]}"
+}

@@ -1,0 +1,91 @@
+{
+  "name": "The Course",
+  "address": "551 Belle Ave, Mankato, MN 56001",
+  "city": "Mankato",
+  "region": "Minnesota",
+  "country": "US",
+  "latitude": 44.165345,
+  "longitude": -93.97196,
+  "phone": "+12672345862",
+  "website": "https://thecoursemn.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770199014/golf_simulators/thecoursemn_com_ChIJy999BCM79IcRfHz4jzpF2JY.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Course/@44.1653454,-93.9719598,14z/data=!4m8!1m2!2m1!1sThe+Course!3m4!1s0x87f43b23047ddfcb:0x96d8453a8ff87c7c!8m2!3d44.1653454!4d-93.9719598",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJy999BCM79IcRfHz4jzpF2JY",
+  "email": "info@thecoursemn.com",
+  "venue_type": "training_studio",
+  "about": "The Course is a members-only indoor golf simulator venue in Mankato, Minnesota. It offers private golf suites equipped with championship-level GolfZon technology, featuring tilting platforms, multiple terrains, automated ball feed, video playback, and swing analytics. The venue provides access to a variety of realistically mapped golf courses and partners with the Caleb Christensen Golf Academy for PGA-level coaching. Pricing is based on a tiered membership system with options for casual to serious players, including pre-paid hours and advance booking windows. The facility is designed for year-round use, offering a private club atmosphere suitable for practice, play, and group events.",
+  "tags": "serious_golfers|beginner_friendly|coaching_available|corporate_events|premium_tech|club_rentals|private_rooms",
+  "vibe_tags": "private_luxury|tech_lab|community_club",
+  "who_its_for": "serious_golfers|beginners|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Championship-level GolfZon simulator technology with detailed analytics",
+    "Partnership with PGA pro Caleb Christensen for expert coaching",
+    "Private, members-only club atmosphere with flexible booking options",
+    "Accurate, to-scale course mapping and advanced putting technology"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Patrons can bring their own food or order in from external vendors."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Patrons can bring their own drinks; no mention of on-site bar or alcohol service."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "GolfZon",
+      "model": "Premium Series",
+      "notes": "Top-of-the-line simulator with tilting platforms, 3 terrains, and automated ball tee-up technology"
+    }
+  ],
+  "simulator_software": [
+    "GolfZon",
+    "GSPro"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.thecoursemn.com/book-a-tee-time",
+  "pricing_model": "membership_only",
+  "price_range_min_local": 35,
+  "price_range_max_local": 699,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": true,
+  "max_group_size_per_bay": 8,
+  "amenities_list": "club_rentals|private_party_room|wifi|pro_shop|club_fitting|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need clubs?",
+      "answer": "Yes, golfers are expected to bring their own clubs for use in the simulator bays."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "Yes, patrons are allowed to bring their own food and drinks, with the option to order in from external vendors."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The automated ball feed technology allows players to complete 18 holes in under 1 hour."
+    },
+    {
+      "question": "Is it kid-friendly?",
+      "answer": "The venue's primary focus is on adult golfers and corporate events, with no specific information about youth programs or kid-friendly amenities."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": null
+}

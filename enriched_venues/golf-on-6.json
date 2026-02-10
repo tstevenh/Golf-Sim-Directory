@@ -1,0 +1,90 @@
+{
+  "name": "Golf On 6",
+  "address": "250 US-6, Mahopac, NY 10541",
+  "city": "Mahopac",
+  "region": "New York",
+  "country": "US",
+  "latitude": 41.352318,
+  "longitude": -73.749451,
+  "phone": "+18455335335",
+  "website": "http://www.golfon6.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770198933/golf_simulators/www_golfon6_com_ChIJQWwo6pa1wokRG7tLzbR7CWI.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Golf+On+6/@41.3523178,-73.7494506,14z/data=!4m8!1m2!2m1!1sGolf+On+6!3m4!1s0x89c2b596ea286c41:0x62097bb4cd4bbb1b!8m2!3d41.3523178!4d-73.7494506",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJQWwo6pa1wokRG7tLzbR7CWI",
+  "email": "info@golfon6.com",
+  "venue_type": "sim_bar",
+  "about": "Golf on 6 is an indoor golf simulator venue in Mahopac, NY, offering five bays equipped with state-of-the-art technology for realistic golf play in any weather. The facility provides hourly simulator rentals, with rates varying by day of the week, and specializes in accommodating groups, leagues, and individual practice sessions. It is a best-for venue for golfers seeking a social, tech-driven experience combined with food and drink options, making it suitable for casual play, group outings, and post-game socializing.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|budget_friendly|club_rentals|coaching_available",
+  "vibe_tags": "sports_bar|community_club|tech_lab",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams|solo_practice|juniors_youth|bachelor_parties",
+  "why_golfers_like_it": [
+    "State-of-the-art simulator technology",
+    "Social atmosphere with craft beer wall",
+    "Flexible group pricing and bay capacity",
+    "On-site coaching options for all skill levels"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food or beverages allowed to be brought in. Food service may be available on-site but not specified."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Features a craft beer wall; no outside alcohol permitted."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "unknown",
+      "notes": "State-of-the-art golf simulators; exact model not specified."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface|dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 5,
+  "booking_url": "https://foreupsoftware.com/index.php/booking/20605/5070#/teetimes",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 50,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 5,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|leagues|wifi|coaching_available",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need clubs?",
+      "answer": "Players are encouraged to bring their own clean clubs, but individual club rentals are available if needed."
+    },
+    {
+      "question": "Can I bring food or drink?",
+      "answer": "No food or beverages are allowed to be brought in, but the venue features a craft beer wall."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "It takes approximately one hour for an individual player to play 18 holes. For groups, an additional hour is needed per player (e.g., four hours for a foursome)."
+    },
+    {
+      "question": "Is it kid-friendly?",
+      "answer": "Children under 16 can use the simulators but must be accompanied by an adult at all times."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"9AM-10PM\"], \"Saturday\": [\"8AM-10PM\"], \"Sunday\": [\"8AM-10PM\"]}"
+}

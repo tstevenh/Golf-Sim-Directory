@@ -1,0 +1,90 @@
+{
+  "name": "The Clubhouse",
+  "address": "3627 E Indian School Rd # 204A, Phoenix, AZ 85018",
+  "city": "Phoenix",
+  "region": "Arizona",
+  "country": "US",
+  "latitude": 33.494865,
+  "longitude": -112.002041,
+  "phone": "+11234567891",
+  "website": "https://www.theclubhouseaz.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770209853/golf_simulators/www_theclubhouseaz_com_ChIJm6chldsNK4cRwUmQJa-0mGg.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Clubhouse/@33.4948648,-112.0020406,14z/data=!4m8!1m2!2m1!1sThe+Clubhouse!3m4!1s0x872b0ddb9521a79b:0x6898b4af259049c1!8m2!3d33.4948648!4d-112.0020406",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJm6chldsNK4cRwUmQJa-0mGg",
+  "email": "paul@theclubhouseaz.com",
+  "venue_type": "training_studio",
+  "about": "The Clubhouse AZ is a members-only indoor golf studio in Phoenix, featuring TrackMan technology for precision and play. It blends a relaxed lounge environment with an immersive golf experience, offering amenities like plush seating, personal music or television, and refreshments in a private setting. The facility is suitable for solo practice, small group sessions, and private events, focusing on both performance and leisure.",
+  "tags": "serious_golfers|private_rooms|late_night|coaching_available|upscale_lounge|food_and_drinks|corporate_events",
+  "vibe_tags": "private_luxury|tech_lab|casual|welcoming|modern",
+  "who_its_for": "serious_golfers|solo_practice|corporate_teams|large_groups|low_handicap",
+  "why_golfers_like_it": [
+    "Cutting-edge TrackMan technology for detailed shot analysis",
+    "Private, luxury lounge environment with personalized amenities",
+    "Flexible booking options with peak and off-hour rates",
+    "Members-only access ensuring an exclusive experience"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Refreshments available on-site"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "Not mentioned as available"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Premium radar-based launch monitor"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "https://clients.uschedule.com/theclubhouseaz/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 29,
+  "price_range_max_local": 199,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|private_rooms|kitchen_food|tv_sports|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Bring your own clubs to enjoy the indoor golf experience."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Refreshments are available on-site, but outside food and drink policies are not specified."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "A 30-minute complimentary tee time is offered, but typical 18-hole duration is not specified."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "No information is provided about kid-friendly amenities or policies."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"5AM-12AM\"], \"Tuesday\": [\"5AM-12AM\"], \"Wednesday\": [\"5AM-12AM\"], \"Thursday\": [\"5AM-12AM\"], \"Friday\": [\"5AM-12AM\"], \"Saturday\": [\"5AM-12AM\"], \"Sunday\": [\"5AM-12AM\"]}"
+}

@@ -1,0 +1,90 @@
+{
+  "name": "X-Golf",
+  "address": "1 Towne Centre Blvd STE 4500, Fredericksburg, VA 22407",
+  "city": "Fredericksburg",
+  "region": "Virginia",
+  "country": "US",
+  "latitude": 38.290161,
+  "longitude": -77.510635,
+  "phone": "+15405489079",
+  "website": "https://xgolf-fredericksburg.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770206493/golf_simulators/xgolf-fredericksburg_com_ChIJb7QrsGvBtokRXi0r7CfJpW8.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/X-Golf/@38.2901611,-77.510635,14z/data=!4m8!1m2!2m1!1sX-Golf!3m4!1s0x89b6c16bb02bb46f:0x6fa5c927ec2b2d5e!8m2!3d38.2901611!4d-77.510635",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJb7QrsGvBtokRXi0r7CfJpW8",
+  "venue_type": "sim_bar",
+  "about": "X-Golf Fredericksburg is a modern indoor golf facility featuring state-of-the-art simulators designed for year-round play, training, and entertainment. The venue offers a range of services including league play, personalized instruction using simulator analytics, and professional PXG club fittings. With a focus on convenience and technology, the space provides a relaxed atmosphere for golfers of all skill levels to enjoy the game in a climate-controlled environment. Membership plans are available for frequent players, offering monthly simulator hours and discounts on additional bay time and league fees.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|coaching_available|date_night|private_rooms",
+  "vibe_tags": "casual|welcoming|modern|tech_lab",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "State-of-the-art simulators with advanced tracking technology",
+    "Year-round play regardless of weather conditions",
+    "Professional instruction with instant swing data and video analysis",
+    "Flexible space designed for both casual play and serious practice",
+    "A variety of membership options for frequent players"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full lineup of delicious food available with a relaxed, welcoming atmosphere"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Refreshing drinks available to elevate the experience"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "X-Golf",
+      "model": "Simulator",
+      "notes": "State-of-the-art simulators mentioned throughout the website"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://app.birrdi.com/u/browse/reserve?team_booking_link_id=x-golf-fredericksburg",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|kitchen_food|tv_sports|private_party_room|wifi|club_fitting|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You are welcome to bring your own clubs, but the facility provides all necessary equipment for use with their simulators."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "X-Golf Fredericksburg offers a full menu of food and drinks available for purchase. The venue also features a kitchen and bar service for guests."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Playing 18 holes typically takes about 1-2 hours depending on the number of players and pace of play, with the exact time depending on simulator usage and group size."
+    },
+    {
+      "question": "Is X-Golf Fredericksburg kid-friendly?",
+      "answer": "Yes, the venue is designed for golfers of all skill levels and ages, making it suitable for families and children. They also offer birthday party packages and events."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10:30AM-10PM\"], \"Friday\": [\"9AM-12AM\"], \"Saturday\": [\"9AM-12AM\"], \"Sunday\": [\"11AM-9PM\"]}"
+}

@@ -1,0 +1,92 @@
+{
+  "name": "TeeShotz Indoor Golf",
+  "address": "2142 Wales Rd NE, Massillon, OH 44646",
+  "city": "Massillon",
+  "region": "Ohio",
+  "country": "US",
+  "latitude": 40.823291,
+  "longitude": -81.502532,
+  "phone": "+13305743100",
+  "website": "https://www.teeshotzindoorgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770219209/golf_simulators/www_teeshotzindoorgolf_com_ChIJTY5HjMDXNogRYMCV5FNnfbo.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/TeeShotz+Indoor+Golf/@40.8232907,-81.5025321,14z/data=!4m8!1m2!2m1!1sTeeShotz+Indoor+Golf!3m4!1s0x8836d7c08c478e4d:0xba7d6753e495c060!8m2!3d40.8232907!4d-81.5025321",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJTY5HjMDXNogRYMCV5FNnfbo",
+  "email": "teeshotzmassillon@gmail.com",
+  "venue_type": "sim_bar",
+  "about": "TeeShotz Indoor Golf offers a laid-back atmosphere for golfers of all skill levels, from amateurs to seasoned players. The facility features advanced technology including GSPro simulator software, an Uneekor HotShot trouble mat, and overhead camera systems for accurate putting. Located at 2142 Wales Rd in Massillon, the venue caters to both individual practice and group outings with amenities like a pool table, arcade games, and darts. They emphasize a casual environment where golfers can work on their game during colder months with features like VTrack technology for improved shot analysis.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|budget_friendly|club_rentals|family_friendly",
+  "vibe_tags": "sports_bar|family_fun_center|casual",
+  "who_its_for": "beginners|families|large_groups|solo_practice|corporate_teams",
+  "why_golfers_like_it": [
+    "Accurate overhead camera putting system with Wiz-I technology",
+    "Variety of simulator software including GSPro and Operation 36",
+    "Affordable pricing with flexible booking options for groups",
+    "Extended hours and advanced ball tracking with VTrack",
+    "Casual atmosphere with non-golf amenities like pool and arcade games"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "Food menu (T-Meldrums) is coming soon. Currently only snacks and coffee available."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No outside alcohol permitted. Beer & cocktail troughs mentioned but status unclear."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "HotShot",
+      "notes": "Features a trouble mat converter for enhanced practice capabilities"
+    }
+  ],
+  "simulator_software": [
+    "GSPro",
+    "Operation 36"
+  ],
+  "launch_monitor_type": "overhead_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.teeshotzindoorgolf.com/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|private_party_room|tv_sports|leagues|arcade_games|pool_table|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Club rentals are available for women and youth golfers. Swing training aids are coming soon."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No outside alcohol is permitted. Food from outside is not mentioned, but snacks and coffee are available for purchase."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website doesn't specify the exact time for 18 holes, but it recommends booking 5-10 minutes in advance for tee times and notes that running 10 minutes past your booking results in an automatic 1-hour charge."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is kid-friendly. They mention 'kids_friendly' in their tags, have a casual atmosphere, and offer arcade games and darts. Children 17 and under must be accompanied by an adult."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": null
+}

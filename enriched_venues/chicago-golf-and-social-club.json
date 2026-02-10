@@ -1,0 +1,109 @@
+{
+  "name": "Chicago Golf and Social Club",
+  "address": "4015 N Rockwell St, Chicago, IL 60618",
+  "city": "Chicago",
+  "region": "Illinois",
+  "country": "US",
+  "latitude": 41.95473,
+  "longitude": -87.692918,
+  "phone": "+13033350592",
+  "website": "https://chicagogsc.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770199641/golf_simulators/chicagogsc_com_ChIJRUo1Ul3TD4gRy_zMjk2aatU.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Chicago+Golf+and+Social+Club/@41.954730399999995,-87.6929181,14z/data=!4m8!1m2!2m1!1sChicago+Golf+and+Social+Club!3m4!1s0x880fd35d52354a45:0xd56a9a4d8eccfccb!8m2!3d41.954730399999995!4d-87.6929181",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJRUo1Ul3TD4gRy_zMjk2aatU",
+  "venue_type": "other",
+  "about": "Chicago Golf and Social Club is a members-only indoor facility located in Chicago's North Center neighborhood. Established as Chicago's Original Golf Cave, it offers 24/7 access to its members, functioning as a private sanctuary for golf enthusiasts. The facility is equipped with high-end simulation technology, including Foresight GC Quad, GC3, and TrackMan 4 launch monitors, as well as Uneekor QED simulators. The venue allows players to access thousands of premium courses and utilizes professional-grade data analytics to help improve their game. In addition to open play, the club hosts exclusive tournaments and leagues, such as two-man scrambles, fostering a competitive yet social community among its members.\n\nThe venue operates on a membership model with both 12-month and 6-month plans available, providing unlimited online booking capabilities through a dedicated member portal. While primarily a practice and simulation facility, it accommodates social interactions by allowing members to bring guests for a nominal fee. The facility caters to serious golfers who value privacy and flexibility, offering an environment where they can practice, play, and socialize at any time of day. Although the focus is on golf, the club offers event booking for private parties and corporate gatherings, positioning itself as a specialized hub for the dedicated golfing community in Chicago.",
+  "tags": "indoor_golf|members_only|simulator|premium_tech|social|leagues|late_night|training|events",
+  "vibe_tags": "private_luxury|industrial_training|competitive|modern|exclusive",
+  "who_its_for": "serious_golfers|low_handicap|solo_practice|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "24/7 keycard access for members",
+    "Premium simulation tech including TrackMan 4 and Foresight GC Quad",
+    "Unlimited online booking with no staff needed",
+    "Exclusive membership access ensures bay availability",
+    "Professional-grade club repair services on-site",
+    "Active community with tournaments and leagues"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No kitchen; members can bring own food"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No bar; members can bring own drinks (BYOB)"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight Sports",
+      "model": "GC Quad",
+      "notes": "Installed in simulator bays"
+    },
+    {
+      "brand": "Foresight Sports",
+      "model": "GC3",
+      "notes": "Installed in simulator bays"
+    },
+    {
+      "brand": "TrackMan",
+      "model": "TrackMan 4",
+      "notes": "Uses optical radar technology"
+    },
+    {
+      "brand": "Uneekor",
+      "model": "QED",
+      "notes": "Refine software, course play and swing analysis"
+    }
+  ],
+  "simulator_software": [
+    "Foresight Sports Software",
+    "TrackMan Software",
+    "The Golf Club (TGC)",
+    "Uneekor Refine"
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": "Camera-based|Radar",
+  "club_tracking": "unknown",
+  "putting_mode": "true",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "https://docs.google.com/forms/d/e/1FAIpQLSekCxcEVEJ-6ivYf9WVKrilTLd145rHlqoz27NZRYLhnLgYeA/viewform?usp=sf_link",
+  "pricing_model": "Membership",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": false,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "24/7 Access|Club Repair|Lessons|Private Events|Tournaments|Leagues|Guest Passes",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "While not explicitly stated, the venue offers club repair services and lessons, suggesting storage or rentals may be available, but bringing your own set is standard for a members-only practice facility."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, as there is no mention of a kitchen or bar on-site, members are typically permitted to bring their own refreshments to this self-service facility."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Typically, 18 holes takes approximately 45 to 60 minutes on a simulator, depending on the software and pace of play."
+    },
+    {
+      "question": "Is this kid-friendly?",
+      "answer": "Yes, indoor golf simulators are generally family-friendly, allowing juniors to play in a controlled and safe environment."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

@@ -1,0 +1,91 @@
+{
+  "name": "DeWitt Golf Center",
+  "address": "11890 Old U.S. 27, DeWitt, MI 48820",
+  "city": "DeWitt",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 42.843042,
+  "longitude": -84.544543,
+  "phone": "+15176693075",
+  "website": "http://www.dewittgolfcenter.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770220555/golf_simulators/www_dewittgolfcenter_com_ChIJN0u-KzbsIogRacuEbqSvEhM.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/DeWitt+Golf+Center/@42.8430422,-84.5445431,14z/data=!4m8!1m2!2m1!1sDeWitt+Golf+Center!3m4!1s0x8822ec362bbe4b37:0x1312afa46e84cb69!8m2!3d42.8430422!4d-84.5445431",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJN0u-KzbsIogRacuEbqSvEhM",
+  "venue_type": "multi_sport_sim",
+  "about": "DeWitt Golf Center is a state-of-the-art practice facility serving Clinton County and the greater mid-Michigan area. The venue offers a variety of options for golfers of any age and skill, including a driving range, miniature golf, a pro shop, and ice cream shop. For simulator golf, the facility features Full Swing Golf Simulators, which allow up to eight people to play simultaneously. The on-site pro shop provides comprehensive club fitting and repair services to meet customized needs and ensure timely completion.",
+  "tags": "beginner_friendly|family_friendly|corporate_events|food_and_drinks|coaching_available|juniors_youth",
+  "vibe_tags": "family_fun_center|community_club|casual|welcoming|modern",
+  "who_its_for": "beginners|families|large_groups|juniors_youth|corporate_teams",
+  "why_golfers_like_it": [
+    "Simulators accommodate up to 8 people, perfect for large groups and events",
+    "State-of-the-art practice facility with diverse offerings beyond golf",
+    "On-site professional club fitting and repair services available"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "On-site ice cream shop available."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Full Swing",
+      "model": "Golf Simulator",
+      "notes": "High-quality simulator capable of handling up to 8 players at once."
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "unknown",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 50,
+  "price_range_max_local": 50,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 8,
+  "amenities_list": "pro_shop|club_fitting|kitchen_food|leagues|ada_accessible",
+  "rating_tech_quality": 4.0,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.3,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "It is recommended to bring your own clubs for an optimal experience, though the pro shop may offer rentals."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drinks are not mentioned; however, the facility has an on-site ice cream shop and pro shop."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Two people generally can complete 9 holes in one hour."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue features an 18-hole miniature golf course that offers fun for all ages."
+    }
+  ],
+  "simulator_software": [
+    "Full Swing Golf Simulators"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-8PM\"], \"Tuesday\": [\"10AM-8PM\"], \"Wednesday\": [\"10AM-8PM\"], \"Thursday\": [\"10AM-8PM\"], \"Friday\": [\"10AM-8PM\"], \"Saturday\": [\"10AM-8PM\"], \"Sunday\": [\"10AM-8PM\"]}"
+}

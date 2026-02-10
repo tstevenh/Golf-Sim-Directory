@@ -1,0 +1,90 @@
+{
+  "name": "Beach Golf",
+  "address": "603 Arnold Ave, Point Pleasant Beach, NJ 08742",
+  "city": "Point Pleasant Beach",
+  "region": "New Jersey",
+  "country": "US",
+  "latitude": 40.091959,
+  "longitude": -74.050162,
+  "phone": "+18483671524",
+  "website": "https://www.beachgolfnj.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770240230/golf_simulators/www_beachgolfnj_com_ChIJh6wF2nqHwYkRWvPltpiOpUg.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Beach+Golf/@40.0919591,-74.0501621,14z/data=!4m8!1m2!2m1!1sBeach+Golf!3m4!1s0x89c1877ada05ac87:0x48a58e98b6e5f35a!8m2!3d40.0919591!4d-74.0501621",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJh6wF2nqHwYkRWvPltpiOpUg",
+  "venue_type": "sim_bar",
+  "about": "Beach Golf is an indoor golf destination at the Jersey Shore featuring state-of-the-art Trackman simulator technology. The venue offers flexible play options, including open play, monthly memberships, and leagues, catering to both casual players and competitive golfers. It also provides a full range of services including lessons, club fittings, and repairs, all within a space designed for social gatherings and private events.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|coaching_available|family_friendly",
+  "vibe_tags": "casual|welcoming|modern|community_club",
+  "who_its_for": "beginners|families|corporate_teams|solo_practice|juniors_youth",
+  "why_golfers_like_it": [
+    "State-of-the-art Trackman simulators with global courses and real-time metrics",
+    "Flexible pricing model including open play and affordable monthly memberships",
+    "BYOB and food-friendly environment perfect for social gatherings",
+    "Available for private events and leagues with a relaxed, beach-town vibe"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Food-friendly, allowing catering or delivery to your bay"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "BYOB (Bring Your Own Beverages) policy"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Three simulator bays featuring global courses and real-time metrics"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://app.birrdi.com/u/browse/reserve?team_booking_link_id=beach-golf-nj",
+  "pricing_model": "mixed",
+  "price_range_min_local": 75,
+  "price_range_max_local": 250,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 3,
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|kitchen_food|tv_sports|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "While you can bring your own clubs, the venue offers club rentals, fittings, and repairs, making it accessible for those without equipment."
+    },
+    {
+      "question": "Can I bring food and drinks?",
+      "answer": "Yes, the venue is BYOB and food-friendly, allowing you to bring your own drinks or have catering/local food delivered to your bay."
+    },
+    {
+      "question": "How long does an 18-hole round take?",
+      "answer": "The time for an 18-hole round is not explicitly mentioned, but open play is booked by the hour, with sessions starting at $75 per bay."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is welcoming to juniors and youth, offering group lessons and a supportive environment for young golfers."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"10AM-8PM\"], \"Tuesday\": [\"10AM-8PM\"], \"Wednesday\": [\"10AM-8PM\"], \"Thursday\": [\"10AM-8PM\"], \"Friday\": [\"9AM-8PM\"], \"Saturday\": [\"9AM-8PM\"], \"Sunday\": [\"9AM-6PM\"]}"
+}

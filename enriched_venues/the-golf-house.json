@@ -1,0 +1,92 @@
+{
+  "name": "The Golf House",
+  "address": "1411 Hwy 67 Access Rd, Midlothian, TX 76065",
+  "city": "Midlothian",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 32.497075,
+  "longitude": -96.99227,
+  "phone": "+13805991789",
+  "website": "https://www.thegolfhousetx.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770199291/golf_simulators/www_thegolfhousetx_com_ChIJ-9lhQSjzToYR4qB6u2G7KP8.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Golf+House/@32.4970746,-96.9922701,14z/data=!4m8!1m2!2m1!1sThe+Golf+House!3m4!1s0x864ef3284161d9fb:0xff28bb61bb7aa0e2!8m2!3d32.4970746!4d-96.9922701",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ-9lhQSjzToYR4qB6u2G7KP8",
+  "email": "thegolfhousetx@gmail.com",
+  "venue_type": "sim_bar",
+  "about": "The Golf House is an indoor golf simulator venue and social hub located in Midlothian, TX. It features top-tier technology with golf bays and a multi-sport simulator, combining a high-tech environment with a cozy, family-friendly atmosphere. The venue offers flexible booking options, including bay rentals, memberships, and event hosting. It operates as a go-to spot for both practice and social gatherings, providing amenities such as lounge spaces and 24/7 member access. Members receive monthly simulator hours and discounts on additional time, with options for corporate and group packages.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|family_friendly|club_rentals|private_rooms|coaching_available",
+  "vibe_tags": "casual|welcoming|modern|family_fun_center|party_atmosphere",
+  "who_its_for": "beginners|families|corporate_teams|large_groups|solo_practice",
+  "why_golfers_like_it": [
+    "Cutting-edge golf simulators with multi-sport capabilities",
+    "24/7 member access for flexible practice and play",
+    "Family-friendly atmosphere with lounge spaces for socializing",
+    "Monthly membership hours and discounts on additional time",
+    "Versatile space for events, parties, and corporate gatherings"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "External food and beverages are allowed, with partnerships available for local catering"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "External alcohol is permitted for events"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Premium radar-based launch monitor with high accuracy"
+    }
+  ],
+  "simulator_software": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://thegolfhouse.gymmasteronline.com/portal/book/service?logo=0",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|kitchen_food|tv_sports|private_party_room|wifi|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.3,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, golfers are expected to bring their own clubs for use in the simulator bays."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "External food and beverages are allowed, with options to partner with local caterers for events."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Playing 18 holes on a simulator typically takes 1-2 hours, depending on the number of players and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, The Golf House offers a family-friendly atmosphere and welcomes children, with options for parties and events suitable for all ages."
+    }
+  ],
+  "rating_overall": 4.4,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-10PM\"], \"Saturday\": [\"10AM-10PM\"], \"Sunday\": [\"10AM-10PM\"]}"
+}

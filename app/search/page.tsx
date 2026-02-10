@@ -1,9 +1,12 @@
 import { Metadata } from "next";
 import Link from "next/link";
 import { db, venueCardSelect } from "@/lib/db";
+import { Prisma } from "@prisma/client";
+import { LaunchMonitorType, VenueType } from "@prisma/client";
 import { VenueCard, VenueGrid } from "@/components/venue/VenueCard";
 import { Pagination } from "@/components/ui/Pagination";
 import { getStateSlug } from "@/lib/states";
+import { normalizeHardwareBrand } from "@/lib/hardware-brands";
 import { Search } from "lucide-react";
 
 export const metadata: Metadata = {
@@ -67,11 +70,13 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
   const alcohol = params.alcohol === "true";
   const wifi = params.wifi === "true";
   const privateRooms = params.privateRooms === "true";
-  const page = Math.max(1, Number(params.page || 1));
+  const pageParam = typeof params.page === "string" ? Number(params.page) : 1;
+  const page = Number.isFinite(pageParam) && pageParam > 0 ? Math.floor(pageParam) : 1;
   const pageSize = 12;
+  let forceNoResults = false;
+  const normalizedHardware = hardware ? normalizeHardwareBrand(hardware) : "";
 
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const baseWhere: Record<string, any> = {
+  const baseWhere: Prisma.VenueWhereInput = {
     status: "active",
   };
 
@@ -92,11 +97,35 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
   }
 
   if (venueType) {
-    baseWhere.venueType = venueType;
+    const validVenueTypes = new Set<VenueType>([
+      "sim_bar",
+      "training_studio",
+      "private_rental",
+      "retail_fitting_center",
+      "country_club",
+      "multi_sport_sim",
+      "hotel_resort",
+      "other",
+    ]);
+    if (validVenueTypes.has(venueType as VenueType)) {
+      baseWhere.venueType = venueType as VenueType;
+    } else {
+      forceNoResults = true;
+    }
   }
 
   if (launchMonitorType) {
-    baseWhere.launchMonitorType = launchMonitorType;
+    const validLaunchMonitorTypes = new Set<LaunchMonitorType>([
+      "radar",
+      "photometric_camera",
+      "hybrid",
+      "unknown",
+    ]);
+    if (validLaunchMonitorTypes.has(launchMonitorType as LaunchMonitorType)) {
+      baseWhere.launchMonitorType = launchMonitorType as LaunchMonitorType;
+    } else {
+      forceNoResults = true;
+    }
   }
 
   if (typeof minPrice === "number" && !isNaN(minPrice)) {
@@ -123,42 +152,99 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
     baseWhere.hasPrivateRooms = true;
   }
 
-  let venues = await db.venue.findMany({
-    where: baseWhere,
-    orderBy: [{ featured: "desc" }, { ratingOverall: "desc" }, { name: "asc" }],
-    select: venueCardSelect,
-  });
+  const canRawQuery = typeof (db as unknown as { $queryRaw?: unknown }).$queryRaw === "function";
+  if (normalizedHardware && canRawQuery) {
+    baseWhere.hardwareBrands = { has: normalizedHardware };
+  }
+  type VenueListRow = Prisma.VenueGetPayload<{ select: typeof venueCardSelect }>;
 
-  if (hardware) {
-    const hardwareLower = hardware.toLowerCase().trim();
-    venues = venues.filter((venue) => {
-      if (!venue.simulatorSystems) return false;
-      try {
-        const systems = venue.simulatorSystems as { brand?: string; model?: string }[];
-        return systems.some((system) => system.brand?.toLowerCase().trim() === hardwareLower);
-      } catch {
-        return false;
-      }
+  const intersectIds = (current: Set<string> | null, ids: string[]) => {
+    const next = new Set(ids);
+    if (current === null) return next;
+    return new Set([...current].filter((id) => next.has(id)));
+  };
+
+  let totalVenues: number | null = 0;
+  let pagedVenues: VenueListRow[] = [];
+  let hasNextPage = false;
+
+  if (forceNoResults) {
+    totalVenues = 0;
+    pagedVenues = [];
+    hasNextPage = false;
+  } else if (!canRawQuery && (hardware || food || alcohol)) {
+    // Fallback path for mock DB (no raw SQL support).
+    let venues = await db.venue.findMany({
+      where: baseWhere,
+      orderBy: [{ featured: "desc" }, { ratingOverall: "desc" }, { name: "asc" }],
+      select: venueCardSelect,
     });
+
+    if (hardware) {
+      const hardwareLower = normalizedHardware || hardware.toLowerCase().trim();
+      venues = venues.filter((venue) => {
+        if ((venue.hardwareBrands || []).includes(hardwareLower)) return true;
+        if (!venue.simulatorSystems) return false;
+        try {
+          const systems = venue.simulatorSystems as { brand?: string; model?: string }[];
+          return systems.some(
+            (system) => normalizeHardwareBrand(system.brand?.toLowerCase().trim() || "") === hardwareLower
+          );
+        } catch {
+          return false;
+        }
+      });
+    }
+
+    if (food || alcohol) {
+      venues = venues.filter((venue) => {
+        if (!venue.foodAndDrink) return false;
+        try {
+          const data = venue.foodAndDrink as { food?: boolean; alcohol?: boolean };
+          if (food && !data.food) return false;
+          if (alcohol && !data.alcohol) return false;
+          return true;
+        } catch {
+          return false;
+        }
+      });
+    }
+
+    totalVenues = venues.length;
+    pagedVenues = venues.slice((page - 1) * pageSize, page * pageSize);
+    hasNextPage = page * pageSize < totalVenues;
+  } else {
+    let advancedFilterIds: Set<string> | null = null;
+
+    if (food || alcohol) {
+      const foodAndDrinkRows = await db.$queryRaw<{ id: string }[]>`
+        SELECT v.id
+        FROM "venues" v
+        WHERE v."status" = 'active'
+          AND (${food} = false OR COALESCE((v."foodAndDrink"->>'food')::boolean, false) = true)
+          AND (${alcohol} = false OR COALESCE((v."foodAndDrink"->>'alcohol')::boolean, false) = true)
+      `;
+      advancedFilterIds = intersectIds(advancedFilterIds, foodAndDrinkRows.map((row) => row.id));
+    }
+
+    if (advancedFilterIds) {
+      baseWhere.id = { in: advancedFilterIds.size > 0 ? [...advancedFilterIds] : ["__no_match__"] };
+    }
+
+    const rows = await db.venue.findMany({
+      where: baseWhere,
+      orderBy: [{ featured: "desc" }, { ratingOverall: "desc" }, { name: "asc" }],
+      select: venueCardSelect,
+      skip: (page - 1) * pageSize,
+      take: pageSize + 1,
+    });
+    hasNextPage = rows.length > pageSize;
+    pagedVenues = rows.slice(0, pageSize);
+    totalVenues = null;
   }
 
-  if (food || alcohol) {
-    venues = venues.filter((venue) => {
-      if (!venue.foodAndDrink) return false;
-      try {
-        const data = venue.foodAndDrink as { food?: boolean; alcohol?: boolean };
-        if (food && !data.food) return false;
-        if (alcohol && !data.alcohol) return false;
-        return true;
-      } catch {
-        return false;
-      }
-    });
-  }
-
-  const totalVenues = venues.length;
-  const totalPages = Math.max(1, Math.ceil(totalVenues / pageSize));
-  const pagedVenues = venues.slice((page - 1) * pageSize, page * pageSize);
+  const totalPages = totalVenues === null ? undefined : Math.max(1, Math.ceil(totalVenues / pageSize));
+  const hasExactCount = totalPages !== undefined;
 
   return (
     <div className="min-h-screen bg-deep-black">
@@ -280,9 +366,15 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
         {/* Results */}
         <section>
           <div className="flex items-center justify-between mb-6">
-            <h2 className="text-cream">{totalVenues} results</h2>
-            {totalVenues > 0 && (
-              <span className="text-sm text-muted">Page {page} of {totalPages}</span>
+            <h2 className="text-cream">
+              {hasExactCount
+                ? `${totalVenues} results`
+                : `${pagedVenues.length} results`}
+            </h2>
+            {pagedVenues.length > 0 && (
+              <span className="text-sm text-muted">
+                {hasExactCount ? `Page ${page} of ${totalPages}` : `Page ${page}`}
+              </span>
             )}
           </div>
 
@@ -311,7 +403,6 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
                     city={venue.city}
                     state={venue.state}
                     heroImage={venue.heroImage}
-                    shortDescription={venue.shortDescription}
                     venueType={venue.venueType}
                     simulatorSystems={venue.simulatorSystems as string[] | null}
                     launchMonitorType={venue.launchMonitorType}
@@ -328,6 +419,7 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
               <Pagination
                 currentPage={page}
                 totalPages={totalPages}
+                hasNextPage={hasExactCount ? page < (totalPages || 1) : hasNextPage}
                 baseUrl="/search"
                 searchParams={params}
               />

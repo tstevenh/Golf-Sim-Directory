@@ -1,0 +1,85 @@
+{
+  "name": "X-Golf Brooklyn",
+  "address": "105 N 13th St, Brooklyn, NY 11249",
+  "city": "Brooklyn",
+  "region": "New York",
+  "country": "US",
+  "latitude": 40.722677,
+  "longitude": -73.956142,
+  "phone": "+17189711165",
+  "website": "http://www.xgolfbrooklyn.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770208104/golf_simulators/www_xgolfbrooklyn_com_ChIJeYgCuyJZwokR1g2Im-QCgtk.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/X-Golf+Brooklyn/@40.722676799999995,-73.95614189999999,14z/data=!4m8!1m2!2m1!1sX-Golf+Brooklyn!3m4!1s0x89c25922bb028879:0xd98202e49b880dd6!8m2!3d40.722676799999995!4d-73.95614189999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJeYgCuyJZwokR1g2Im-QCgtk",
+  "email": "birdies@xgolfbrooklyn.com",
+  "venue_type": "sim_bar",
+  "about": "X-Golf Brooklyn is an indoor golf simulator venue offering advanced technology for game improvement and entertainment. The facility utilizes proprietary simulator technology combining laser, light, impact, and camera sensory systems to collect raw golf data at and around the impact zone. With a capacity of up to 10 people per bay and the ability to accommodate 1-6 players at a time, it serves both serious golfers and social groups. Bookings are accepted 7 days in advance, with members enjoying early access to reservation windows. Federal holidays are charged at weekend rates. The venue includes a clubhouse with food and drink options and also functions as a coworking space with free Wi-Fi.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|club_rentals|community_club",
+  "vibe_tags": "casual|welcoming|modern|sports_bar",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Proprietary technology provides the most accurate and comprehensive ball and club tracking data",
+    "State-of-the-art simulators with 46 full courses, Par 3 courses, and driving range options",
+    "Concierge staff offer quick crash courses to help new players get started",
+    "Club rentals available for $35 per set per booking",
+    "Members have access to reserved club storage and early booking windows"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "In-house kitchen available; most dishes can be made gluten-free. No outside food permitted. Child-friendly options available."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar available on-site. Cocktail options include partners like Ilegal Mezcal."
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "http://www.xgolfbrooklyn.com/booknow",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|wifi|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, club rentals are available for $35 per set per booking. Members also have access to reserved club storage."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "Outside food is not permitted. The venue has an in-house kitchen and a full bar available for guests."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes can vary depending on the number of players and your pace of play, as the simulator allows groups of 1-6 players per bay."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, X-Golf Brooklyn welcomes all ages and offers youth club rentals along with child-friendly food and drink options."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"7AM-10PM\"], \"Tuesday\": [\"7AM-10PM\"], \"Wednesday\": [\"7AM-12AM\"], \"Thursday\": [\"7AM-12AM\"], \"Friday\": [\"7AM-2AM\"], \"Saturday\": [\"9AM-2AM\"], \"Sunday\": [\"9AM-10PM\"]}"
+}

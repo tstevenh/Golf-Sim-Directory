@@ -1,0 +1,91 @@
+{
+  "name": "Private Fairway Medina",
+  "address": "220 N State Rd, Medina, OH 44256",
+  "city": "Medina",
+  "region": "Ohio",
+  "country": "US",
+  "latitude": 41.142076,
+  "longitude": -81.876214,
+  "phone": "+13305157109",
+  "website": "https://medina.privatefairway.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770230338/golf_simulators/medina_privatefairway_com_ChIJW0mdiKK3MIgRc3qQRAgDpB8.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Private+Fairway+Medina/@41.1420758,-81.8762138,14z/data=!4m8!1m2!2m1!1sPrivate+Fairway+Medina!3m4!1s0x8830b7a2889d495b:0x1fa4030844907a73!8m2!3d41.1420758!4d-81.8762138",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJW0mdiKK3MIgRc3qQRAgDpB8",
+  "email": "medina@privatefairway.com",
+  "venue_type": "private_rental",
+  "about": "Private Fairway Medina offers 24-hour indoor golf access using TrackMan technology at a private studio location. The venue operates on a membership-only basis, with tiered options including unlimited monthly and session-based punch passes. Members benefit from key fob access, a mobile booking app, and detailed swing data analysis to improve their game. The facility limits membership to 35 members per location to ensure ample booking availability.",
+  "tags": "serious_golfers|corporate_events|premium_tech|practice_focused|adults_only|modern|access_controlled",
+  "vibe_tags": "tech_lab|private_luxury|modern",
+  "who_its_for": "serious_golfers|corporate_teams|solo_practice|coaches_instructors|adults_only",
+  "why_golfers_like_it": [
+    "24-hour access with key fob entry",
+    "TrackMan technology provides detailed swing data",
+    "Membership limits ensure booking availability",
+    "Mobile app for easy scheduling",
+    "Dedicated private studio environment"
+  ],
+  "kid_friendly": false,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Members can bring food and drinks for entertaining"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Members can bring alcohol for entertaining"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Premium radar-based launch monitor capturing complete club and ball data"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://medina.privatefairway.com/book-online",
+  "pricing_model": "membership_only",
+  "price_range_min_local": 1,
+  "price_range_max_local": 3,
+  "currency": "USD",
+  "walk_ins_allowed": false,
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|kitchen_food|mobile_booking|key_fob_access|video_library|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.5,
+  "rating_value_for_money": 4.2,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "Yes, you need to bring your own clubs to use the TrackMan simulator system."
+    },
+    {
+      "question": "Can I bring food and drink?",
+      "answer": "Yes, members can bring food and drinks for entertaining purposes."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Each session lasts 50 minutes, and you can book up to three consecutive sessions (2 hours 50 minutes total)."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "No, this is an adult-focused private membership facility with no specific children's amenities mentioned."
+    }
+  ],
+  "rating_overall": 4.5,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

@@ -1,0 +1,93 @@
+{
+  "name": "NorCal Golf Academy",
+  "address": "1557A 3rd Ave, Walnut Creek, CA 94597",
+  "city": "Walnut Creek",
+  "region": "California",
+  "country": "US",
+  "latitude": 37.919319,
+  "longitude": -122.067271,
+  "phone": "+19259376242",
+  "website": "https://norcalgolfacademy.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770240385/golf_simulators/norcalgolfacademy_com_ChIJtau3H-1hhYAR4kcM1CcPbC8.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/NorCal+Golf+Academy/@37.9193192,-122.06727099999999,14z/data=!4m8!1m2!2m1!1sNorCal+Golf+Academy!3m4!1s0x808561ed1fb7abb5:0x2f6c0f27d40c47e2!8m2!3d37.9193192!4d-122.06727099999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJtau3H-1hhYAR4kcM1CcPbC8",
+  "venue_type": "training_studio",
+  "about": "NorCal Golf Academy is a premier golf instruction and performance facility located in the Bay Area. It offers a comprehensive range of services including personalized golf lessons, club fitting and repair, and utilizes advanced technology for swing analysis and performance tracking. The facility features 7 hitting bays, a putting studio, and is equipped with top-tier technology such as the GC Quad launch monitor and GEARS Golf motion capture system. All services are designed to provide clarity, direction, and measurable progress for golfers of all skill levels.",
+  "tags": "beginner_friendly|serious_practice|coaching_available|premium_tech|juniors_youth|private_rooms|club_fitting|leagues",
+  "vibe_tags": "industrial_training|tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|juniors_youth|families|solo_practice",
+  "why_golfers_like_it": [
+    "Access to world-class technology including GC Quad and GEARS Golf for highly accurate swing analysis",
+    "Personalized coaching from highly-certified instructors focusing on measurable results",
+    "Indoor climate-controlled environment with top-tier turf and tour-level golf balls"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of food services on-site."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol services on-site."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": "GC Quad",
+      "notes": "World's most accurate launch monitor for ball flight tracking"
+    },
+    {
+      "brand": "Trackman",
+      "model": "IO Duo",
+      "notes": "Premium dual radar launch monitor"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green|moving_floor_green",
+  "lefty_friendly": true,
+  "bay_count_total": 7,
+  "booking_url": "https://clients.uschedule.com/norcalgolfacademy/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 150,
+  "price_range_max_local": 250,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|club_fitting|pro_shop|leagues|ada_accessible|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can bring your own clubs, but the facility also offers club rentals and professional club fitting services to ensure you have the right equipment."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No external food or drinks are mentioned as being permitted. The focus is on the golf instruction and training experience."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "The content does not specify a time for 18 holes on a simulator. The academy primarily focuses on lessons, practice, and fitting rather than traditional simulator play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the facility offers specific junior golf programs and is equipped with technology suited for young players to improve their game."
+    }
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"8AM-8PM\"], \"Tuesday\": [\"8AM-8PM\"], \"Wednesday\": [\"8AM-8PM\"], \"Thursday\": [\"8AM-8PM\"], \"Friday\": [\"8AM-7PM\"], \"Saturday\": [\"8AM-6PM\"], \"Sunday\": [\"Closed\"]}"
+}

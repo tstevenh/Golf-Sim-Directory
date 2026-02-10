@@ -1,0 +1,90 @@
+{
+  "name": "Stix Golf Lounge",
+  "address": "13272 MO-13 Ste D, Kimberling City, MO 65686",
+  "city": "Kimberling City",
+  "region": "Missouri",
+  "country": "US",
+  "latitude": 36.648378,
+  "longitude": -93.414633,
+  "phone": "+14173121418",
+  "website": "http://stixgolflounge.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770225549/golf_simulators/stixgolflounge_com_ChIJe3yLv4sZz4cRVyZOyEzssc8.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Stix+Golf+Lounge/@36.6483778,-93.4146335,14z/data=!4m8!1m2!2m1!1sStix+Golf+Lounge!3m4!1s0x87cf198bbf8b7c7b:0xcfb1ec4cc84e2657!8m2!3d36.6483778!4d-93.4146335",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJe3yLv4sZz4cRVyZOyEzssc8",
+  "venue_type": "sim_bar",
+  "about": "Stix Golf Lounge combines a sports bar environment with golf simulation technology, featuring NFL Sunday Ticket on big screens and 2 simulators. Located on State Highway 13 in Kimberling City, Missouri, the venue offers a casual setting for both golf and social activities. It provides a unique experience for patrons looking to enjoy a drink while playing virtual golf on a high-resolution screen with 1366x768 display capabilities. The facility appears to focus on creating an accessible atmosphere with a reservation system for bay bookings.",
+  "tags": "food_and_drinks|beginner_friendly|sports_bar|date_night|corporate_events|leagues|premium_tech|club_rentals|family_friendly",
+  "vibe_tags": "sports_bar|casual|welcoming|modern",
+  "who_its_for": "beginners|families|corporate_teams|solo_practice|tourists_travelers",
+  "why_golfers_like_it": [
+    "Integrated sports bar environment allows golf and socializing",
+    "Big screens with NFL Sunday Ticket create an engaging viewing experience",
+    "Reservation system ensures guaranteed bay access",
+    "Convenient location on State Highway 13 for easy access",
+    "Combination of golf technology and bar amenities in one location"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen available as indicated by the MENU section"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar available as sports bar with cocktails mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "unknown",
+      "model": "unknown",
+      "notes": "Hardware specifications not explicitly detailed on website"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://admin.activebooker.com/franchise-lanes/stix_golf_lounge_simulators",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": null,
+  "price_range_max_local": null,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": false,
+  "private_rooms_count": 0,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi",
+  "rating_tech_quality": 3.5,
+  "rating_facility_comfort": 3.5,
+  "rating_value_for_money": 3.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own golf clubs?",
+      "answer": "The website doesn't specify, but as a simulation venue, they likely provide club rentals. Contact them directly for confirmation."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No, Stix Golf Lounge has its own full kitchen and bar. They offer food and beverages for purchase."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "With 2 simulators available, playing time would depend on group size and reservation duration. Contact the venue for specific time estimates."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the facility appears to be family-friendly, with a casual sports bar atmosphere and accommodations for groups."
+    }
+  ],
+  "rating_overall": 3.3,
+  "opening_hours": "{\"Monday\": [\"3-9PM\"], \"Tuesday\": [\"3-9PM\"], \"Wednesday\": [\"3-9PM\"], \"Thursday\": [\"11AM-9PM\"], \"Friday\": [\"11AM-9PM\"], \"Saturday\": [\"11AM-9PM\"], \"Sunday\": [\"11AM-9PM\"]}"
+}

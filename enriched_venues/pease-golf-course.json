@@ -1,0 +1,90 @@
+{
+  "name": "Pease Golf Course",
+  "address": "200 Grafton Rd, Portsmouth, NH 03801",
+  "city": "Portsmouth",
+  "region": "New Hampshire",
+  "country": "US",
+  "latitude": 43.061577,
+  "longitude": -70.813423,
+  "phone": "+16034331331",
+  "website": "http://peasegolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770237343/golf_simulators/peasegolf_com_ChIJievIXlOV4okRdIu-CmyNggI.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Pease+Golf+Course/@43.0615768,-70.8134231,14z/data=!4m8!1m2!2m1!1sPease+Golf+Course!3m4!1s0x89e295535ec8eb89:0x2828d6c0abe8b74!8m2!3d43.0615768!4d-70.8134231",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJievIXlOV4okRdIu-CmyNggI",
+  "venue_type": "sim_bar",
+  "about": "Pease Golf Course operates a golf simulator venue with a strong focus on year-round play, featuring aboutGolf PGA Tour Simulators. The venue offers 27 holes of traditional golf when in season but primarily serves as a golf simulator center during winter months, with bays available 7 days a week. The facility includes a full-service restaurant (Grill 28), pro shop, and hosts various leagues, tournaments, and events. The venue caters to golfers of all skill levels, offering coaching, club fitting services, and simulator leagues.",
+  "tags": "food_and_drinks|beginner_friendly|leagues|corporate_events|coaching_available|family_friendly|premium_tech|private_rooms|club_rentals|community_club",
+  "vibe_tags": "casual|welcoming|modern|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "Only PGA Tour simulator of its kind in northern New England",
+    "Year-round play with 27-hole traditional and simulator options",
+    "On-site restaurant and bar for post-game dining and socializing",
+    "Regular tournaments and leagues with competitive and social formats",
+    "Professional coaching services and club fitting available"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Grill 28 serves breakfast, lunch and dinner with American and Mediterranean influences"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Local beer and international wine available at Grill 28"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "aboutGolf",
+      "model": "PGA Tour Simulators",
+      "notes": "Premium simulation system, the only PGA Tour simulator of its kind in northern New England"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://foreupsoftware.com/index.php/booking/22471#/login",
+  "pricing_model": "mixed",
+  "price_range_min_local": 27,
+  "price_range_max_local": 59,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Players are expected to bring their own golf clubs for simulator sessions."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue has an on-site restaurant and bar (Grill 28) where food and drinks can be purchased, though bringing outside items isn't specified."
+    },
+    {
+      "question": "How long does it take to play 18 holes on the simulator?",
+      "answer": "The website doesn't specify exact timing for 18 holes on the simulator."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "Yes, the venue offers junior golf lessons and caters to families with various activities and programming."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"8AM-6PM\"], \"Tuesday\": [\"8AM-6PM\"], \"Wednesday\": [\"8AM-6PM\"], \"Thursday\": [\"8AM-6PM\"], \"Friday\": [\"8AM-6PM\"], \"Saturday\": [\"8AM-6PM\"], \"Sunday\": [\"8AM-6PM\"]}"
+}

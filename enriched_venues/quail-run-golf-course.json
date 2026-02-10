@@ -1,0 +1,91 @@
+{
+  "name": "Quail Run Golf Course",
+  "address": "327 S 5th St, Columbus, NE 68601",
+  "city": "Columbus",
+  "region": "Nebraska",
+  "country": "US",
+  "latitude": 41.412392,
+  "longitude": -97.331024,
+  "phone": "+14025641313",
+  "website": "http://quailrungolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770235111/golf_simulators/quailrungolf_com_ChIJz0wg_3XpkIcRQ9hG931mJmQ.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Quail+Run+Golf+Course/@41.4123916,-97.3310241,14z/data=!4m8!1m2!2m1!1sQuail+Run+Golf+Course!3m4!1s0x8790e975ff204ccf:0x6426667df746d843!8m2!3d41.4123916!4d-97.3310241",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJz0wg_3XpkIcRQ9hG931mJmQ",
+  "email": "golfpro@columbusne.us.",
+  "venue_type": "multi_sport_sim",
+  "about": "Quail Run Golf Course is a public golf facility in Columbus, Nebraska, offering both traditional play and technology-driven experiences. The venue operates a Van Berg Family Golf Center & TRACKman Lounge, providing simulator technology for golf practice and play. The facility caters to a range of golfers, from serious players to families and groups, with a variety of tee boxes, leagues, and events. Additionally, the site offers comprehensive programs including the FORE! Academy for youth and adults, lessons, private coaching, and footgolf, creating a multi-sport environment centered on golf and recreation.",
+  "tags": "beginner_friendly|corporate_events|leagues|premium_tech|coaching_available|juniors_youth|food_and_drinks|family_friendly|group_bookings|public_access",
+  "vibe_tags": "community_club|family_fun_center|modern|welcoming",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "Premium TRACKman technology for detailed swing analysis",
+    "Dedicated youth and adult coaching programs",
+    "Variety of leagues and competitive events for all skill levels",
+    "Multi-sport options including footgolf",
+    "Public access with flexible booking policies"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "On-site kitchen and food service available, including complimentary cook-outs for events"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service; likely BYOB policy"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "High-end radar launch monitor system in the Van Berg Family Golf Center & TRACKman Lounge"
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.quailrungolf.com/tee-times/",
+  "pricing_model": "per_person_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|kitchen_food|tv_sports|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, players should bring their own golf clubs for simulator sessions, though the facility may offer club rentals or have demo equipment available for lessons."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "Outside food and drink may be allowed, but the facility has an on-site kitchen that provides food service. Alcohol service is not mentioned, suggesting a BYOB policy."
+    },
+    {
+      "question": "How long does it take to play 18 holes on the simulator?",
+      "answer": "The time for 18 holes can vary, but typical simulator sessions range from 1.5 to 2.5 hours depending on group size and pace of play."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, the facility is very kid-friendly, offering the FORE! Academy with youth programs, junior leagues, summer camps, and footgolf for families."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"7AM-6PM\"], \"Tuesday\": [\"7AM-6PM\"], \"Wednesday\": [\"7AM-6PM\"], \"Thursday\": [\"7AM-6PM\"], \"Friday\": [\"7AM-6PM\"], \"Saturday\": [\"7AM-6PM\"], \"Sunday\": [\"7AM-6PM\"]}"
+}

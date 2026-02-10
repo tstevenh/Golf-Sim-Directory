@@ -1,6 +1,7 @@
 "use client";
+/* eslint-disable @next/next/no-img-element */
 
-import { useState, useRef, useEffect } from "react";
+import { useState, useRef, useEffect, useCallback } from "react";
 import { ChevronLeft, ChevronRight, Expand, X } from "lucide-react";
 
 interface ImageGalleryProps {
@@ -19,13 +20,13 @@ export function ImageGallery({ images, alt, className = "" }: ImageGalleryProps)
   // Minimum swipe distance for a swipe to be registered
   const minSwipeDistance = 50;
 
-  const goToNext = () => {
+  const goToNext = useCallback(() => {
     setCurrentIndex((prev) => (prev + 1) % images.length);
-  };
+  }, [images.length]);
 
-  const goToPrev = () => {
+  const goToPrev = useCallback(() => {
     setCurrentIndex((prev) => (prev - 1 + images.length) % images.length);
-  };
+  }, [images.length]);
 
   const goToIndex = (index: number) => {
     setCurrentIndex(index);
@@ -67,7 +68,7 @@ export function ImageGallery({ images, alt, className = "" }: ImageGalleryProps)
 
     window.addEventListener("keydown", handleKeyDown);
     return () => window.removeEventListener("keydown", handleKeyDown);
-  }, [isFullscreen]);
+  }, [goToNext, goToPrev, isFullscreen]);
 
   // Prevent body scroll when fullscreen
   useEffect(() => {

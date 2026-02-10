@@ -1,0 +1,94 @@
+{
+  "name": "The Tee Box - Golf Bar & Restaurant",
+  "address": "906 S Kansas Ave Suite 100, Topeka, KS 66612",
+  "city": "Topeka",
+  "region": "Kansas",
+  "country": "US",
+  "latitude": 39.046896,
+  "longitude": -95.674902,
+  "phone": "+17853292519",
+  "website": "http://www.theteeboxgroup.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770216125/golf_simulators/www_theteeboxgroup_com_ChIJO6m9BQoDv4cRda8giOQyuAk.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Tee+Box+-+Golf+Bar+%26+Restaurant/@39.0468963,-95.6749024,14z/data=!4m8!1m2!2m1!1sThe+Tee+Box+-+Golf+Bar+%26+Restaurant!3m4!1s0x87bf030a05bda93b:0x9b832e48820af75!8m2!3d39.0468963!4d-95.6749024",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJO6m9BQoDv4cRda8giOQyuAk",
+  "email": "leaflet@1.3.1",
+  "venue_type": "sim_bar",
+  "about": "The Tee Box - Golf Bar & Restaurant is a local family-owned facility located in Downtown Topeka on Historic Kansas Avenue. It provides an experience for golfers and foodies alike, equipped with state-of-the-art Trackman golf simulation bays that allow players of any level to golf anywhere, anytime. The venue offers a range of services including a craft kitchen menu, handcrafted cocktails, top-shelf spirits, and event catering. Catering packages are available for various occasions, and the facility also offers mobile golf services and event planning with all-in-one packages designed with budget in mind.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|coaching_available|date_night|solo_practice|large_groups",
+  "vibe_tags": "sports_bar|community_club|tech_lab",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "State-of-the-art Trackman simulation technology",
+    "Top-shelf spirits and craft kitchen menu offerings",
+    "Catering packages for all occasions",
+    "Mobile golf services for events",
+    "Clubs and balls are provided, making it easy for newcomers"
+  ],
+  "kid_friendly": false,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Craft kitchen menu selections are available, featuring items such as The Eagle Flatbread on Gluten Free Crust, BBQ nacho plate, ground beef, chicken, and shrimp tacos."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Handcrafted cocktails, top shelf spirits, and tastings are available. Specific drinks mentioned include Kansas City Vodka, Concord Grape Preserves, Ginger, Lime, Weller Special Reserve, and Woodford Reserve Vern's 4."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "State-of-the-art Trackman golf simulation bays are installed."
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://clients.uschedule.com/theteeboxgroup/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|private_party_room|wifi",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, the Tee Box provides clubs and balls for use in their simulation bays."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No, outside food and drinks are not allowed. The Tee Box offers a full kitchen and bar menu."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes is not specified, but the Trackman simulators allow for virtual play on numerous courses."
+    },
+    {
+      "question": "Is The Tee Box kid-friendly?",
+      "answer": "The website does not specify if children are welcome or if there are any kid-specific amenities or activities."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"11AM-10PM\"], \"Wednesday\": [\"11AM-10PM\"], \"Thursday\": [\"11AM-10PM\"], \"Friday\": [\"11AM-12AM\"], \"Saturday\": [\"9AM-12AM\"], \"Sunday\": [\"Closed\"]}"
+}

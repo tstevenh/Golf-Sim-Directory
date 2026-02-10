@@ -1,0 +1,89 @@
+{
+  "name": "Sim-City Indoor Golf",
+  "address": "100 Larrabee Rd Ste 250, Westbrook, ME 04092",
+  "city": "Westbrook",
+  "region": "Maine",
+  "country": "US",
+  "latitude": 43.676689,
+  "longitude": -70.335464,
+  "phone": "+12075915062",
+  "website": "http://www.simcityindoorgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770206126/golf_simulators/www_simcityindoorgolf_com_ChIJDfTKMXybskwReiGB2XiaV5g.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Sim-City+Indoor+Golf/@43.6766891,-70.33546439999999,14z/data=!4m8!1m2!2m1!1sSim-City+Indoor+Golf!3m4!1s0x4cb29b7c31caf40d:0x98579a78d981217a!8m2!3d43.6766891!4d-70.33546439999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJDfTKMXybskwReiGB2XiaV5g",
+  "venue_type": "sim_bar",
+  "about": "Sim-City Indoor Golf operates as a full-service indoor golf complex with locations in Westbrook, Bangor, and Old Orchard Beach, Maine. Established in 2018, the facility utilizes Trackman iO simulators to provide a realistic golfing experience year-round. The venues feature on-site food and beverages through a partnership with Birdies Grill & Tavern, creating an all-in-one destination for practice, leagues, and casual play. Sim City offers flexible booking for hourly sessions and organizes competitive leagues across its three locations, with a unified leaderboard system managed through the Trackman Golf App.",
+  "tags": "beginner_friendly|food_and_drinks|leagues|premium_tech|coaching_available|corporate_events|families|club_fitting|juniors_youth|serious_golfers",
+  "vibe_tags": "casual|welcoming|modern|community_club|sports_bar",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "Access to professional-grade Trackman iO technology for accurate swing and ball data",
+    "Unified league play across multiple locations with automated scoring and leaderboards",
+    "Full-service environment with food, drinks, and social amenities integrated with the golf experience",
+    "Flexible hourly booking with options for private lessons, club fitting, and event hosting"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "On-site food service provided through partnership with Birdies Grill & Tavern"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "On-site beverage service provided through partnership with Birdies Grill & Tavern"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Advanced dual-mode radar and optical tracking system used across all locations"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://alleytrak.com/app/client/4741",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 40,
+  "price_range_max_local": 50,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|kitchen_food|full_bar|tv_sports|club_fitting|leagues|wifi|pro_shop",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "It is recommended to bring your own clubs, but rental sets are available with limited availability. Clubs must be cleaned of excessive mud and debris before use for accurate tracking."
+    },
+    {
+      "question": "Can I bring food and drinks into the simulator bays?",
+      "answer": "No, all food and drinks must be kept outside the simulator bays. On-site food and beverages are available through the partnership with Birdies Grill & Tavern."
+    },
+    {
+      "question": "How much time is needed for 18 holes?",
+      "answer": "For 18 holes, the time required is approximately 2 hours for 2 golfers or 4 hours for 4 golfers. The final 5 minutes of reservations are reserved for clean-up and checkout."
+    },
+    {
+      "question": "Is Sim City kid-friendly?",
+      "answer": "Yes, Sim City offers junior divisions in their leagues and provides a welcoming atmosphere for golfers of all skill levels, including beginners and youth players."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-10PM\"], \"Saturday\": [\"10AM-10PM\"], \"Sunday\": [\"10AM-10PM\"]}"
+}

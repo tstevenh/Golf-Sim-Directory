@@ -1,0 +1,91 @@
+{
+  "name": "Break 80",
+  "address": "2621 S Shepherd Dr #143, Houston, TX 77098",
+  "city": "Houston",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 29.741016,
+  "longitude": -95.41032,
+  "phone": "+18322718461",
+  "website": "https://break80.golf/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770223735/golf_simulators/break80_golf_ChIJP3ndCEvBQIYRaKoNGYqFHrU.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Break+80/@29.7410157,-95.41032009999999,14z/data=!4m8!1m2!2m1!1sBreak+80!3m4!1s0x8640c14b08dd793f:0xb51e858a190daa68!8m2!3d29.7410157!4d-95.41032009999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJP3ndCEvBQIYRaKoNGYqFHrU",
+  "email": "break80@break80.golf",
+  "venue_type": "sim_bar|training_studio",
+  "about": "Break 80 is a 24-hour indoor golf facility featuring state-of-the-art Trackman simulators. It offers a flexible membership model designed for golfers of all skill levels who want to practice and play at their convenience. The facility provides detailed swing analysis and shot data to help players lower their scores, with access to a wide selection of world-class golf courses. Pricing is structured around flexible time-based sessions and membership options, emphasizing accessibility and convenience for both casual players and serious golfers.",
+  "tags": "serious_golfers|beginner_friendly|budget_friendly|coaching_available|premium_tech|leagues|private_rooms|club_rentals|late_night|tech_lab",
+  "vibe_tags": "tech_lab|modern|community_club",
+  "who_its_for": "serious_golfers|beginners|solo_practice|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "24/7 access to premium Trackman technology for flexible practice anytime",
+    "Detailed pro-level swing data and analytics to lower scores",
+    "Access to 250+ world-class courses in a realistic, immersive simulator environment",
+    "Community features including leagues and competitions for members",
+    "Convenient mobile app for booking and facility access"
+  ],
+  "kid_friendly": false,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service available; members are instructed not to bring food or drinks near simulator areas"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service available; members are instructed not to bring food or drinks near simulator areas"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "TM4",
+      "notes": "State-of-the-art Trackman simulators providing real-time analytics and immersive course play"
+    }
+  ],
+  "simulator_software": [
+    "Trackman Golf"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://portal.healthclubsystems.com/sign-up?companyId=80&type=guest",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own golf clubs?",
+      "answer": "The FAQ doesn't explicitly address whether club rentals are available, but it's recommended that members bring their own clubs for the best experience with the Trackman technology."
+    },
+    {
+      "question": "Can I bring food or drinks to the facility?",
+      "answer": "No, food and drinks are not permitted near the simulator hitting area. Only water is allowed if specified."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "While exact timing isn't specified, using a golf simulator typically allows for faster rounds than traditional golf, usually taking 2-3 hours depending on the number of players and pace of play."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "The website doesn't specifically mention kid-friendly features, but the facility is accessible to all skill levels including juniors. The 24/7 access and availability of practice features suggest a family-friendly environment."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

@@ -1,0 +1,90 @@
+{
+  "name": "Links and Drinks",
+  "address": "7 Lois Ln, South Easton, MA 02375",
+  "city": "South Easton",
+  "region": "Massachusetts",
+  "country": "US",
+  "latitude": 42.035527,
+  "longitude": -71.072124,
+  "phone": "+15084728969",
+  "website": "https://www.linksanddrinksgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770200315/golf_simulators/www_linksanddrinksgolf_com_ChIJ6byMDPaP5IkReNnJqwQVqAc.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Links+and+Drinks/@42.0355272,-71.0721236,14z/data=!4m8!1m2!2m1!1sLinks+and+Drinks!3m4!1s0x89e48ff60c8cbce9:0x7a81504abc9d978!8m2!3d42.0355272!4d-71.0721236",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ6byMDPaP5IkReNnJqwQVqAc",
+  "venue_type": "sim_bar",
+  "about": "Links and Drinks is a virtual golf simulator venue located in South Easton, Massachusetts, featuring two TrackMan IO bays. The venue offers hourly rentals for individual practice and group sessions, with pricing that varies between peak and off-peak hours. It also provides memberships, prepaid packages, and coaching options through its on-site Golf Academy of New England. The venue is designed for both casual social play and serious practice, with a focus on affordability and TrackMan technology. It is open to the public with walk-ins allowed and features an early bird special for weekday morning sessions.",
+  "tags": "food_and_drinks|budget_friendly|beginner_friendly|corporate_events|leagues|coaching_available|date_night",
+  "vibe_tags": "casual|welcoming|modern|sports_bar",
+  "who_its_for": "beginners|families|corporate_teams|solo_practice|large_groups",
+  "why_golfers_like_it": [
+    "Affordable access to premium TrackMan iO technology",
+    "Flexible booking with 1/2 hour rental increments",
+    "On-site coaching from PGA professionals",
+    "Membership options with early booking windows",
+    "Social atmosphere with food and beverage options"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Food available on-site through The Kitchen, an in-house option"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Alcohol available on-site"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "2 state-of-the-art TrackMan IO bays"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 2,
+  "booking_url": "https://yourgolfbooking.com/venues/links-and-drinks/booking/bays",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 35,
+  "price_range_max_local": 65,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "full_bar|kitchen_food|tv_sports|leagues|club_rentals",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify whether clubs are provided, so it is recommended to bring your own."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Food and drinks are available on-site through The Kitchen. The website does not mention BYOB policies."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "2 people can play 18 holes in 90 to 120 minutes."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue appears to be kid-friendly, offering junior lessons and packages."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"8AM-10PM\"], \"Tuesday\": [\"8AM-10PM\"], \"Wednesday\": [\"8AM-10PM\"], \"Thursday\": [\"8AM-11PM\"], \"Friday\": [\"8AM-11PM\"], \"Saturday\": [\"8AM-11PM\"], \"Sunday\": [\"8AM-10PM\"]}"
+}

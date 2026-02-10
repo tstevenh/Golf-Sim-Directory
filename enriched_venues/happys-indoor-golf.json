@@ -1,0 +1,93 @@
+{
+  "name": "Happy's Indoor Golf",
+  "address": "22 Center St, Southington, CT 06489",
+  "city": "Southington",
+  "region": "Connecticut",
+  "country": "US",
+  "latitude": 41.601726,
+  "longitude": -72.878815,
+  "phone": "+18609169539",
+  "website": "http://www.happysindoorgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770200181/golf_simulators/www_happysindoorgolf_com_ChIJY4-dJgu354kR3mZhau__5Xs.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Happy%27s+Indoor+Golf/@41.6017265,-72.8788154,14z/data=!4m8!1m2!2m1!1sHappy%27s+Indoor+Golf!3m4!1s0x89e7b70b269d8f63:0x7be5ffef6a6166de!8m2!3d41.6017265!4d-72.8788154",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJY4-dJgu354kR3mZhau__5Xs",
+  "email": "hello@happysindoorgolf.com",
+  "venue_type": "sim_bar",
+  "about": "Happy's Indoor Golf is an indoor golf simulator venue located in Southington. The facility utilizes state-of-the-art simulators to provide a convenient, weather-independent golfing experience for players of all skill levels, with a focus on accessibility and affordability. It operates on a flat hourly rate model and is designed for casual play, offering flexible hours and a welcoming, judgment-free environment where expert caddy support is available to guide players.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|budget_friendly|coaching_available",
+  "vibe_tags": "casual|welcoming|modern",
+  "who_its_for": "beginners|families|corporate_teams|solo_practice|large_groups",
+  "why_golfers_like_it": [
+    "Convenient and faster pace than traditional golf, allowing for a full 18 holes in just 2 hours",
+    "Affordable flat hourly rate with no per-person charges, making it budget-friendly for groups",
+    "Welcoming and non-intimidating atmosphere suitable for players of all skill levels"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "BYOB (Bring Your Own Beverage) and food facility, allowing you to bring your own snacks and drinks without overpaying."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "BYOB (Bring Your Own Beverage) facility, allowing you to bring your own alcoholic drinks."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "unknown",
+      "model": "unknown",
+      "notes": "State-of-the-art simulators providing authentic playing experience with accurate ball physics, wind conditions, and green speeds."
+    }
+  ],
+  "simulator_so": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 1,
+  "booking_url": "https://happysindoorgolf.com/get-started/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": false,
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|leagues|coaching_available|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need golf clubs to play?",
+      "answer": "No, equipment is provided. Rental clubs, balls, and tees are included with your tee time. However, you are also welcome to bring your own clubs if you prefer."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, we are a BYOB (Bring Your Own Beverage) and food facility, allowing you to enjoy your favorite snacks and drinks without overpaying."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Indoor golf is more efficient, allowing two players to complete 18 holes in just 2 hours."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The content does not specifically address kid-friendliness. However, the welcoming environment and focus on fun for all skill levels make it potentially suitable for families."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"9AM-10PM\"], \"Saturday\": [\"9AM-10PM\"], \"Sunday\": [\"9AM-10PM\"]}"
+}

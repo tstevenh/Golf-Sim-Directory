@@ -1,0 +1,82 @@
+{
+  "name": "Topgolf Allen",
+  "address": "1500 Andrews Pkwy, Allen, TX 75002",
+  "city": "Allen",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 33.123105,
+  "longitude": -96.658637,
+  "phone": "+14696759730",
+  "website": "https://topgolf.com/us/allen/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770262785/golf_simulators/topgolf_com_ChIJUcK6ztUQTIYRaW8GN1Fuv70.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Topgolf+Allen/@33.1231048,-96.6586367,14z/data=!4m8!1m2!2m1!1sTopgolf+Allen!3m4!1s0x864c10d5cebac251:0xbdbf6e5137066f69!8m2!3d33.1231048!4d-96.6586367",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJUcK6ztUQTIYRaW8GN1Fuv70",
+  "venue_type": "sim_bar",
+  "about": "Topgolf Allen is a premier entertainment destination in Allen, TX, featuring all-weather hitting bays equipped with HDTVs and climate control for year-round play. The venue utilizes high-tech golf balls that automatically score players' shots at giant outfield targets. Each hitting bay can accommodate up to six players, and the facility offers a full-service bar and restaurant. Pricing is structured per hour, per bay, with various promotions available throughout the week, including half-off golf on weekdays and special event nights on weekends.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|kids_friendly|corporate_events|premium_tech|budget_friendly|private_rooms|club_rentals|late_night",
+  "vibe_tags": "sports_bar|family_fun_center|party_atmosphere|tech_lab|community_club",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|tourists_travelers",
+  "why_golfers_like_it": [
+    "All-weather climate-controlled bays ensure comfortable play year-round",
+    "High-tech golf balls provide automatic scoring, eliminating manual scorekeeping",
+    "Versatile private event spaces are available for groups and corporate outings"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen with a diverse menu including vegetarian and gluten-free options, though outside food is not permitted except for store-bought cakes for celebrations."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full-service bar available on-site."
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    "Toptracer"
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 90,
+  "booking_url": "https://topgolf.com/us/allen/plan-a-visit/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 3,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.0,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, Topgolf provides complimentary clubs for use, though you are welcome to bring your own."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No, outside food and beverages are not permitted due to health and safety practices, with the exception of store-bought cakes for birthdays or celebrations."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "While not explicitly stated, a standard game of Topgolf typically consists of 9 holes, with the duration depending on the number of players and pace of play."
+    },
+    {
+      "question": "Is Topgolf kid-friendly?",
+      "answer": "Yes, Topgolf is family-friendly. However, anyone under 16 must be supervised by a guest 21+, and anyone under 18 must be supervised by a guest 21+ after 9 PM."
+    }
+  ],
+  "rating_overall": 4.1,
+  "opening_hours": "{\"Monday\": [\"10AM-11PM\"], \"Tuesday\": [\"10AM-11PM\"], \"Wednesday\": [\"10AM-11PM\"], \"Thursday\": [\"10AM-11PM\"], \"Friday\": [\"9AM-1AM\"], \"Saturday\": [\"9AM-1AM\"], \"Sunday\": [\"9AM-12AM\"]}"
+}

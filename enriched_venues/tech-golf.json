@@ -1,0 +1,89 @@
+{
+  "name": "Tech Golf",
+  "address": "325 Emmett Ave Unit L, Bowling Green, KY 42101",
+  "city": "Bowling Green",
+  "region": "Kentucky",
+  "country": "US",
+  "latitude": 36.969259,
+  "longitude": -86.474509,
+  "phone": "+12709042761",
+  "website": "http://techgolf.net/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770203726/golf_simulators/techgolf_net_ChIJBZVZQLjpZYgRpc3palHtvRQ.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Tech+Golf/@36.9692587,-86.4745086,14z/data=!4m8!1m2!2m1!1sTech+Golf!3m4!1s0x8865e9b840599505:0x14bded516ae9cda5!8m2!3d36.9692587!4d-86.4745086",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJBZVZQLjpZYgRpc3palHtvRQ",
+  "email": "teetime@techgolf.net",
+  "venue_type": "other",
+  "about": "Tech Golf of Bowling Green is the city's first and only indoor golf simulation facility, offering a climate-controlled environment for year-round play. The venue provides a range of experiences from individual practice and simulator gameplay to group events and parties in their renovated Par-Tee Room. Available by appointment only, the facility features TruGolf simulators with high-speed camera technology and E6 CONNECT software for an immersive golf experience across nearly 100 virtual courses.",
+  "tags": "beginner_friendly|corporate_events|leagues|premium_tech|private_rooms|club_rentals|family_friendly|food_and_drinks",
+  "vibe_tags": "family_fun_center|party_atmosphere|modern|welcoming",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "Climate-controlled indoor facility open year-round regardless of weather",
+    "Advanced TruGolf technology with real-time swing analysis and course accuracy",
+    "Versatile venue space that accommodates both individual practice and group events"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Par-Tee room available for events with kitchen facilities including fridge and microwave"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service available on-site"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "TruGolf",
+      "model": "TruGolf Simulator",
+      "notes": "Utilizes high-speed camera technology for ball and club data capture"
+    }
+  ],
+  "simulator_software": [
+    "E6 CONNECT"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "http://techgolf.net/book-a-session",
+  "pricing_model": "per_person_hour",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|kitchen_food|private_party_room|wifi|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "The website doesn't specify whether clubs are provided, so it's recommended to bring your own equipment."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "The venue has a kitchen and bar top area in the VIP simulator room, but no clear policy on outside food/drinks is mentioned."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "The website doesn't provide specific timing for 18 holes, as sessions are booked in 30-minute or 1-hour increments per person."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, children under 5 are free, and the venue appears to accommodate families with various age groups."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"2:30-10PM\"], \"Tuesday\": [\"2:30-10PM\"], \"Wednesday\": [\"2:30-10PM\"], \"Thursday\": [\"2:30-10PM\"], \"Friday\": [\"2:30-10PM\"], \"Saturday\": [\"12-10PM\"], \"Sunday\": [\"12-10PM\"]}"
+}

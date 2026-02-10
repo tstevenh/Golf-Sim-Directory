@@ -1,0 +1,95 @@
+{
+  "name": "Morristown Indoor Golf Club",
+  "address": "48 Bank St, Morristown, NJ 07960",
+  "city": "Morristown",
+  "region": "New Jersey",
+  "country": "US",
+  "latitude": 40.795819,
+  "longitude": -74.483041,
+  "phone": "+19739600406",
+  "website": "https://morristownigc.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770208058/golf_simulators/morristownigc_com_ChIJZbPh3bKnw4kRT02PUMGZOvk.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Morristown+Indoor+Golf+Club/@40.7958192,-74.483041,14z/data=!4m8!1m2!2m1!1sMorristown+Indoor+Golf+Club!3m4!1s0x89c3a7b2dde1b365:0xf93a99c1508f4d4f!8m2!3d40.7958192!4d-74.483041",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJZbPh3bKnw4kRT02PUMGZOvk",
+  "email": "help@MorristownIGC.com",
+  "venue_type": "training_studio",
+  "about": "Morristown Indoor Golf Club is a modern indoor facility focused on using technology to help golfers improve their game. The venue features multiple bays equipped with high-end TrackMan launch monitors, providing detailed data on every shot. They offer a range of services from individual and group lessons to self-practice sessions, with a membership model for unlimited access. The facility is designed with a clean, modern aesthetic and includes amenities like a dedicated putting green and training aids, positioning itself as a premium destination year-round practice and improvement.",
+  "tags": "serious_practice|coaching_available|premium_tech|corporate_events|leagues|club_rentals|community_club",
+  "vibe_tags": "modern|tech_lab|community_club|welcoming",
+  "who_its_for": "serious_golfers|beginners|coaches_instructors|corporate_teams",
+  "why_golfers_like_it": [
+    "State-of-the-art TrackMan launch monitors provide professional-grade data for every shot",
+    "Flexible 24/7 access for self-practice and improvement sessions",
+    "Comprehensive instructional programs with highly qualified PGA professionals and mental coaches"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Located in Downtown Millburn with access to food and drinks nearby; no mention of an on-site kitchen."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of an on-site bar or alcohol service; BYOB is not specified."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "Market-leading data and camera experience"
+    },
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Market-leading playing experience"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 3,
+  "booking_url": "https://clients.uschedule.com/morristownigc/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 200,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|leagues|parking|wifi|pro_shop|club_fitting|dedicated_green|training_aids",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "Yes, you are required to bring your own clubs to use at the facility."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The website does not specify a policy on outside food and drinks. It does mention the facility is located near food and drink options in Downtown Millburn."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not provide an estimated time for a full 18-hole simulation."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "There is no specific information available regarding youth programs or the suitability of the facility for children."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

@@ -1,0 +1,89 @@
+{
+  "name": "Pars and Brews Golf Lounge",
+  "address": "590 Farrington Hwy unit 505, Kapolei, HI 96707",
+  "city": "Kapolei",
+  "region": "Hawaii",
+  "country": "US",
+  "latitude": 21.337559,
+  "longitude": -158.081219,
+  "phone": "+18087737000",
+  "website": "https://www.parsandbrews.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770248818/golf_simulators/www_parsandbrews_com_ChIJUeaWKiFjAHwRnS0MGAJW36k.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Pars+and+Brews+Golf+Lounge/@21.337559199999998,-158.08121939999998,14z/data=!4m8!1m2!2m1!1sPars+and+Brews+Golf+Lounge!3m4!1s0x7c0063212a96e651:0xa9df5602180c2d9d!8m2!3d21.337559199999998!4d-158.08121939999998",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJUeaWKiFjAHwRnS0MGAJW36k",
+  "email": "info@parsandbrews.com",
+  "venue_type": "sim_bar",
+  "about": "Pars and Brews Golf Lounge is an indoor golf venue located in West Oahu. It features 5 simulator bays equipped with TrackMan technology, the same system used by PGA Tour professionals, allowing players to analyze their swings and play on over 450 championship courses. The venue combines golf with a craft beer experience, featuring a self-pour wall with 18 taps of local Hawaiian brews. It is designed to be family-friendly and accessible to all skill levels, with operating hours from 9 AM to 10 PM daily for non-members and 24/7 access for premium members. Pricing is available through a pay-per-bay model or monthly memberships, with various tiers offering different benefits such as peak hour discounts, guest privileges, and advance booking options.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|kids_friendly|corporate_events|leagues|premium_tech|late_night|coaching_available",
+  "vibe_tags": "casual|welcoming|modern|sports_bar",
+  "who_its_for": "beginners|families|corporate_teams|solo_practice|tourists_travelers",
+  "why_golfers_like_it": [
+    "Premium TrackMan technology for detailed swing analysis and play on 450+ championship courses",
+    "24/7 member access allowing for flexible play on their own schedule",
+    "Unique combination of golf with a self-pour craft beer wall featuring local Hawaiian brews"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Food is available through partnerships with local restaurants, offering a menu of appetizers, entrees, and snacks."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Self-pour beer wall with 18 taps of local Hawaiian craft brews, charged by the ounce."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "5 premium bays with PGA Tour-level ball-tracking technology"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 5,
+  "booking_url": "https://yourgolfbooking.com/venues/pars-and-brews-golf-lounge/booking/bays?utm_source=website&utm_medium=button&utm_campaign=book_bay_parsandbrews",
+  "pricing_model": "mixed",
+  "price_range_min_local": 30,
+  "price_range_max_local": 199,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 0,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|leagues|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to be good at golf to join?",
+      "answer": "Not at all. The venue welcomes members ranging from complete beginners to scratch golfers. The TrackMan technology is designed to help players of all skill levels improve, and the simulators make it fun for everyone."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food is not mentioned, but the venue has a self-pour beer wall with 18 taps of local Hawaiian craft brews. Food is available through partnerships with local restaurants."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify the time required for an 18-hole round. It is recommended to contact the venue directly for this information."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Pars and Brews is family-friendly and perfect for all ages. Kids enjoy the virtual golf experience, and the simulators are safe and easy to use for all ages."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"9AM-10PM\"], \"Saturday\": [\"9AM-10PM\"], \"Sunday\": [\"9AM-10PM\"]}"
+}

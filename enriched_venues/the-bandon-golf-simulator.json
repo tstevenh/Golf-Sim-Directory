@@ -1,0 +1,91 @@
+{
+  "name": "The Bandon Golf Simulator",
+  "address": "1155 Baltimore Ave SE, Bandon, OR 97411",
+  "city": "Bandon",
+  "region": "Oregon",
+  "country": "US",
+  "latitude": 43.112856,
+  "longitude": -124.412743,
+  "phone": "+15413299753",
+  "website": "https://thebandongolfsimulator.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770256240/golf_simulators/thebandongolfsimulator_com_ChIJ42sjqtebxFQRyz0tDEzNoHQ.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Bandon+Golf+Simulator/@43.1128564,-124.4127429,14z/data=!4m8!1m2!2m1!1sThe+Bandon+Golf+Simulator!3m4!1s0x54c49bd7aa236be3:0x74a0cd4c0c2d3dcb!8m2!3d43.1128564!4d-124.4127429",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ42sjqtebxFQRyz0tDEzNoHQ",
+  "email": "Golf@thebandongolfsimulator.com",
+  "venue_type": "sim_bar",
+  "about": "The Bandon Golf Simulator is a unique venue located inside Mick's Hair Surgeons, offering a casual and accessible indoor golf experience. Utilizing Full Swing Technology, the facility provides a simulator for golfers to practice and play various courses. The venue offers straightforward pricing with options for single players and groups, alongside digital punch cards for better rates. It is best suited for casual golfers looking for a quick session in a relaxed environment.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|budget_friendly|club_rentals|community_club|casual|welcoming",
+  "vibe_tags": "casual|welcoming|modern|community_club",
+  "who_its_for": "beginners|serious_golfers|families|solo_practice|tourists_travelers",
+  "why_golfers_like_it": [
+    "Full Swing Technology for realistic simulation",
+    "Flexible pricing with digital punch cards",
+    "Unique and memorable setting in a barbershop",
+    "Online booking convenience"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Available at the adjacent barbershop"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Available at the adjacent barbershop"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Full Swing",
+      "model": "unknown",
+      "notes": "High-end simulator system"
+    }
+  ],
+  "simulator_software": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": 1,
+  "booking_url": "https://clients.uschedule.com/thebandongolfsimulator/booking",
+  "pricing_model": "per_person_hour",
+  "price_range_min_local": 20,
+  "price_range_max_local": 40,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|lockers|wifi|community_club",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, the venue provides golf clubs and equipment for use in the simulator."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Food and drinks are available at the adjacent barbershop, but outside alcohol may not be permitted."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to complete 18 holes varies, but typically it takes about 1-2 hours depending on the simulator software and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the Bandon Golf Simulator is kid-friendly and welcomes families looking for a fun activity."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"9AM-9PM\"], \"Tuesday\": [\"9AM-9PM\"], \"Wednesday\": [\"9AM-9PM\"], \"Thursday\": [\"9AM-9PM\"], \"Friday\": [\"9AM-9PM\"], \"Saturday\": [\"9AM-9PM\"], \"Sunday\": [\"9AM-9PM\"]}"
+}

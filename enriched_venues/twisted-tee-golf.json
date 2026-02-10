@@ -1,0 +1,89 @@
+{
+  "name": "Twisted Tee Golf",
+  "address": "314 E 5th Ave #207, Owasso, OK 74055",
+  "city": "Owasso",
+  "region": "Oklahoma",
+  "country": "US",
+  "latitude": 36.257337,
+  "longitude": -95.849458,
+  "phone": "+19185162108",
+  "website": "http://www.twistedteeok.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770203016/golf_simulators/www_twistedteeok_com_ChIJJ71aooLxtocRHIhms9L1oU0.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Twisted+Tee+Golf/@36.257336699999996,-95.8494578,14z/data=!4m8!1m2!2m1!1sTwisted+Tee+Golf!3m4!1s0x87b6f182a25abd27:0x4da1f5d2b366881c!8m2!3d36.257336699999996!4d-95.8494578",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJJ71aooLxtocRHIhms9L1oU0",
+  "email": "info@twistedteeok.com",
+  "venue_type": "multi_sport_sim",
+  "about": "Twisted Tee Golf is an indoor golf facility located in Owasso, Oklahoma, catering to golfers of all skill levels. The venue is equipped with advanced simulation technology, including Trackman iO units, and offers a range of services such as bay rentals, lessons, leagues, and events. It provides a space for players to practice, play courses worldwide, or enjoy arcade-style games in a climate-controlled environment, making it a versatile option regardless of weather conditions.",
+  "tags": "beginner_friendly|serious_practice|corporate_events|leagues|premium_tech|kids_friendly|date_night|coaching_available",
+  "vibe_tags": "modern|tech_lab|family_fun_center",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "Oklahoma's first Trackman iO units for advanced data analytics",
+    "Ability to play over 500 courses in hyper-realistic 4K settings",
+    "Weather-proof facility ensuring playability in all conditions"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned, BYOB policy not specified"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned, BYOB policy not specified"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Advanced indoor golf simulator with radar, infrared, and high-speed imaging"
+    }
+  ],
+  "simulator_software": [
+    "Trackman App"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "https://app.birrdi.com/u/browse/reserve?team_booking_link_id=twisted-tee-golf",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|leagues|pro_shop|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, players are expected to bring their own clubs as there is no mention of club rentals."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No information is provided about bringing outside food or drinks, so it's recommended to contact the venue directly."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes is not specified, as it depends on the simulator software and player pace."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Twisted Tee Golf is designed for golfers of all ages and skill levels, making it suitable for kids."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"9AM-12AM\"], \"Saturday\": [\"9AM-12AM\"], \"Sunday\": [\"12-7PM\"]}"
+}

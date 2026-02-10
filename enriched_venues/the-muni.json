@@ -1,0 +1,83 @@
+{
+  "name": "The Muni",
+  "address": "1400 14th St NW Suite B, Washington, DC 20005",
+  "city": "Washington",
+  "region": "District Of Columbia",
+  "country": "US",
+  "latitude": 38.908942,
+  "longitude": -77.032275,
+  "phone": "+12022040350",
+  "website": "https://themuni.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770219617/golf_simulators/themuni_com_ChIJ58KEnkC3t4kRED3jxP2jQEI.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Muni/@38.9089423,-77.0322746,14z/data=!4m8!1m2!2m1!1sThe+Muni!3m4!1s0x89b7b7409e84c2e7:0x4240a3fdc4e33d10!8m2!3d38.9089423!4d-77.0322746",
+  "google_rating": 4.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ58KEnkC3t4kRED3jxP2jQEI",
+  "email": "info@themuni.com",
+  "venue_type": "sim_bar",
+  "about": "The Muni is a golf simulator venue and bar located in Washington, D.C. The facility features state-of-the-art golf simulators, interactive putting greens, and electronic dartboards, all designed for play without formal golf experience. It operates as an adult-oriented establishment with a laid-back, social atmosphere that blends gaming with a full bar and kitchen service. The venue caters to both casual players and groups seeking a unique social outing, with an emphasis on fun, accessibility, and entertainment over technical golf instruction.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|late_night|private_rooms|budget_friendly",
+  "vibe_tags": "sports_bar|party_atmosphere|tech_lab|casual|welcoming|modern",
+  "who_its_for": "beginners|large_groups|corporate_teams|bachelor_parties|solo_practice",
+  "why_golfers_like_it": [
+    "All-in-one venue combining golf simulation with interactive games like darts and virtual putting",
+    "No reservations needed, with a walk-in, first-come-first-served policy for easy access",
+    "Customizable bays and games suitable for players of all skill levels"
+  ],
+  "kid_friendly": false,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen available with personal pan pizzas and other food items; QR ordering for delivery to your spot"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with craft cocktails, including specialty drinks like the 'John Daly'; no BYOB allowed"
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://themuni.com/group-events",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": false,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|private_party_room|pro_shop",
+  "rating_tech_quality": 4.2,
+  "rating_facility_comfort": 4.1,
+  "rating_value_for_money": 4.1,
+  "faq": [
+    {
+      "question": "Do I need my own golf clubs?",
+      "answer": "No, personal golf clubs are not permitted; clubs are provided at the venue."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No outside food or drinks are allowed; the venue offers a full menu and bar accessible via QR ordering."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time for 18 holes varies depending on group size and play pace, but typically ranges from 1.5 to 2.5 hours."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "No, The Muni is a bar and strictly for those 21 years and over; no children are permitted."
+    }
+  ],
+  "rating_overall": 4.1,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"6PM-12AM\"], \"Wednesday\": [\"6PM-12AM\"], \"Thursday\": [\"6PM-12AM\"], \"Friday\": [\"5PM-1AM\"], \"Saturday\": [\"12PM-1AM\"], \"Sunday\": [\"12PM-12AM\"]}"
+}

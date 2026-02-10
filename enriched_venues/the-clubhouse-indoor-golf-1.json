@@ -1,0 +1,91 @@
+{
+  "name": "The Clubhouse Indoor Golf",
+  "address": "2510 W Farmington Rd, West Peoria, IL 61604",
+  "city": "West Peoria",
+  "region": "Illinois",
+  "country": "US",
+  "latitude": 40.703994,
+  "longitude": -89.633998,
+  "phone": "+13094246802",
+  "website": "https://www.clubhousepeoria.golf/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770220993/golf_simulators/www_clubhousepeoria_golf_ChIJF5ucErBeCogRRJFjidsY-2w.png",
+  "google_maps_url": "https://www.google.com/maps/place/The+Clubhouse+Indoor+Golf/@40.7039943,-89.63399779999999,14z/data=!4m8!1m2!2m1!1sThe+Clubhouse+Indoor+Golf!3m4!1s0x880a5eb0129c9b17:0x6cfb18db89639144!8m2!3d40.7039943!4d-89.63399779999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJF5ucErBeCogRRJFjidsY-2w",
+  "email": "ccbbq18@gmail.com",
+  "venue_type": "sim_bar",
+  "about": "The Clubhouse Indoor Golf is located upstairs at The Country Club BBQ restaurant in West Peoria, IL. It offers indoor golf simulator rentals with aboutGolf technology and food/beverage service. The venue features two simulators available for individual or joint rental, with pricing set at $40/hour per simulator or $80/hour for both. It is suitable for individual practice, group outings, and lessons, with a focus on convenience and accessibility.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|leagues|kids_friendly|coaching_available",
+  "vibe_tags": "casual|sports_bar|family_fun_center",
+  "who_its_for": "families|beginners|large_groups|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "Full restaurant service with food and drink available while playing",
+    "Convenient location within a popular BBQ restaurant",
+    "Technology provides accurate shot tracking and swing analysis",
+    "Flexible pricing allows for cost-effective group sessions",
+    "Accommodates both casual players and serious practice sessions"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full restaurant service available; catering options for large groups"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full service bar with drink specials; servers can bring drinks to simulators"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "aboutGolf",
+      "model": "unknown",
+      "notes": "aboutGolf simulators provide accurate shot tracking within 1%"
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://www.clubhousepeoria.golf/schedule-your-tee-time/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 40,
+  "price_range_max_local": 80,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|kitchen_food|private_party_room|wifi|club_rentals|leagues",
+  "rating_tech_quality": 4.0,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You are encouraged to bring your own clubs, but they must be clean before using the simulators."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "No, outside alcohol and food are not allowed. The venue offers full restaurant and bar services."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "One person takes less than an hour to play 18 holes. Four players take about 4 hours on one simulator or 2 hours on both simulators."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is described as 'Fun For All Ages' and offers food and beverages for kids and adults."
+    }
+  ],
+  "rating_overall": 4.0,
+  "opening_hours": "{\"Monday\": [\"9AM-11PM\"], \"Tuesday\": [\"9AM-11PM\"], \"Wednesday\": [\"9AM-11PM\"], \"Thursday\": [\"9AM-11PM\"], \"Friday\": [\"9AM-11PM\"], \"Saturday\": [\"9AM-10PM\"], \"Sunday\": [\"9AM-11PM\"]}"
+}

@@ -1,0 +1,89 @@
+{
+  "name": "Swing Central Golf Club",
+  "address": "1802 El Camino Real, Redwood City, CA 94063",
+  "city": "Redwood City",
+  "region": "California",
+  "country": "US",
+  "latitude": 37.478052,
+  "longitude": -122.224784,
+  "phone": "+16508478752",
+  "website": "https://swingcentralgc.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770229916/golf_simulators/swingcentralgc_com_ChIJzbkRAg2jj4ARyxMYmGGRkR8.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Swing+Central+Golf+Club/@37.4780517,-122.2247841,14z/data=!4m8!1m2!2m1!1sSwing+Central+Golf+Club!3m4!1s0x808fa30d0211b9cd:0x1f919161981813cb!8m2!3d37.4780517!4d-122.2247841",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJzbkRAg2jj4ARyxMYmGGRkR8",
+  "email": "swingcentralgc@gmail.com",
+  "venue_type": "sim_bar",
+  "about": "Swing Central Golf Club offers an immersive and realistic golfing experience for all levels of golfers using state-of-the-art Trackman simulators. The facility provides a casual and welcoming environment where visitors can play virtual golf, take lessons, and host events. Pricing is structured on an hourly basis with various membership options and range cards available for regular players, making it accessible for both casual rounds and dedicated practice sessions.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|premium_tech|coaching_available|casual|welcoming",
+  "vibe_tags": "sports_bar|community_club|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "High-tech Trackman iO simulators provide detailed shot analysis and data tracking",
+    "Flexible pricing model with hourly play, memberships, and range card options",
+    "Welcoming atmosphere suitable for both serious practice and social outings"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Packaged snacks, soft drinks, candy, chips, water available for purchase. Guests can bring their own food and non-alcoholic drinks."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Rotating beer and wine available for purchase in 21+ bays. No drink minimum, but entire party must be 21+."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "State-of-the-art simulators providing shot analysis, impact location, club path, and virtual golf capabilities"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://yourgolfbooking.com/venues/swing-central-golf-club/booking/bays",
+  "pricing_model": "mixed",
+  "price_range_min_local": 45,
+  "price_range_max_local": 50,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|wifi|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "You can bring your own clubs, but the venue also provides loaner clubs. If you bring your golf shoes, please clean them before arrival."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "You can bring any food and non-alcoholic drinks for consumption on site. Alcohol is available for purchase in 21+ bays."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "A typical 18-hole round of virtual golf on Trackman usually takes between 45-60 minutes per player when using auto-putt settings."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is kid-friendly and allows all ages in regular bays. Each bay can accommodate up to 6 people."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"11AM-9PM\"], \"Tuesday\": [\"3-9PM\"], \"Wednesday\": [\"11AM-9PM\"], \"Thursday\": [\"11AM-9PM\"], \"Friday\": [\"10AM-9PM\"], \"Saturday\": [\"10AM-9PM\"], \"Sunday\": [\"10AM-6PM\"]}"
+}

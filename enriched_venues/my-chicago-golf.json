@@ -1,0 +1,90 @@
+{
+  "name": "My Chicago Golf",
+  "address": "707 N Milwaukee Ave Lower Level, Chicago, IL 60642",
+  "city": "Chicago",
+  "region": "Illinois",
+  "country": "US",
+  "latitude": 41.894629,
+  "longitude": -87.652443,
+  "phone": "+17736831816",
+  "website": "http://www.mychicagogolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770199494/golf_simulators/www_mychicagogolf_com_ChIJKYXa0CzTD4gRY_m-Vwci59o.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/My+Chicago+Golf/@41.894629099999996,-87.6524429,14z/data=!4m8!1m2!2m1!1sMy+Chicago+Golf!3m4!1s0x880fd32cd0da8529:0xdae7220757bef963!8m2!3d41.894629099999996!4d-87.6524429",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJKYXa0CzTD4gRY_m-Vwci59o",
+  "email": "info@mychicagogolf.com",
+  "venue_type": "training_studio",
+  "about": "My Chicago Golf is a private training facility focused on golf lessons, practice, and club fittings. It features Foresight GC QUAD simulators for accurate ball flight analysis on championship courses, accessible only to members. The venue offers various simulator rental packages for members and provides coaching services tailored to all skill levels, from beginners to experienced players. Instruction packages are available, and fitting services include free fitting with the purchase of a driver or iron set.",
+  "tags": "serious_practice|coaching_available|premium_tech|club_rentals|beginner_friendly",
+  "vibe_tags": "industrial_training|community_club",
+  "who_its_for": "beginners|serious_golfers|solo_practice|coaches_instructors",
+  "why_golfers_like_it": [
+    "High-precision Foresight GC Quad technology for accurate data and feedback",
+    "Access to championship golf courses like Augusta National on simulators",
+    "Private member-only environment focused on skill development",
+    "Tailored coaching packages and club fitting services"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No information on food availability"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service; BYOB status unclear"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": "GC QUAD",
+      "notes": "Provides extremely accurate ball flight readings"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "https://clients.uschedule.com/mychicagogolf/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 135,
+  "price_range_max_local": 600,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|club_fitting",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify whether club rentals are available. It is recommended to bring your own clubs for lessons and simulator sessions."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "There is no information on food and drink policies on the website. The BYOB status is unclear."
+    },
+    {
+      "question": "How long does it take to play 18 holes on the simulator?",
+      "answer": "The website does not provide a specific time estimate for playing 18 holes. Simulator rental packages are offered in 3, 5, and 10-hour blocks."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The website does not mention any specific kid-friendly features or programs, though it states lessons are tailored for all skill levels, including beginners."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"8AM-8PM\"], \"Tuesday\": [\"8AM-8PM\"], \"Wednesday\": [\"8AM-8PM\"], \"Thursday\": [\"8AM-8PM\"], \"Friday\": [\"8AM-8PM\"], \"Saturday\": [\"8AM-8PM\"], \"Sunday\": [\"8AM-8PM\"]}"
+}

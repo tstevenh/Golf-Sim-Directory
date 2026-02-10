@@ -1,0 +1,93 @@
+{
+  "name": "Golf Metrics",
+  "address": "10970 S Cleveland Ave #603, Fort Myers, FL 33907",
+  "city": "Fort Myers",
+  "region": "Florida",
+  "country": "US",
+  "latitude": 26.580497,
+  "longitude": -81.874756,
+  "phone": "+12394703677",
+  "website": "https://golfmetricsfl.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770202612/golf_simulators/golfmetricsfl_com_ChIJj1M51AFB24gRwZ_fMIFMnvk.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Golf+Metrics/@26.580496999999998,-81.8747558,14z/data=!4m8!1m2!2m1!1sGolf+Metrics!3m4!1s0x88db4101d439538f:0xf99e4c8130df9fc1!8m2!3d26.580496999999998!4d-81.8747558",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJj1M51AFB24gRwZ_fMIFMnvk",
+  "email": "seanballiet@pga.com",
+  "venue_type": "training_studio",
+  "about": "Golf Metrics is an indoor golf studio located in Fort Myers, Florida, specializing in high-tech training and personalized instruction. The facility utilizes Trackman launch monitor technology and putting analyzers to provide detailed data feedback, allowing golfers to practice on over 400 virtual courses regardless of weather conditions. The studio offers a private, air-conditioned environment focused on game improvement through private coaching, club fitting, and solo practice sessions.\n\nThe venue emphasizes a 'data-driven' approach to golf, catering to players who want to analyze their swing mechanics and track their progress with precision. Services range from one-hour practice bays to comprehensive lesson packages with PGA professionals. The space is designed for serious training, featuring video replay capabilities and a comfortable setting to work on all aspects of the game, from full swing to putting.\n\nGolf Metrics operates by appointment only seven days a week, offering flexible hours to accommodate various schedules. While the primary focus is on instruction and skill development, the venue also supports club and ball fitting to ensure players have the proper equipment for their swing.",
+  "tags": "indoor_golf|coaching_available|trackman_simulator|club_fitting|lessons|serious_practice|private_events|data_driven|pga_professional|rain_or_shine",
+  "vibe_tags": "private_luxury|professional_training|modern|climate_controlled|intimate",
+  "who_its_for": "serious_golfers|beginners|solo_practice|juniors_youth|low_handicap",
+  "why_golfers_like_it": [
+    "Access to Trackman launch monitor technology for precise data analysis",
+    "Climate-controlled environment allows for year-round practice regardless of weather",
+    "Private coaching from experienced PGA professionals",
+    "Ability to play virtual rounds on over 400 famous golf courses worldwide",
+    "Comprehensive club and ball fitting services available on-site",
+    "Private, air-conditioned bays provide a comfortable training atmosphere"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of bar service on website"
+    },
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of food service on website"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "unknown",
+      "notes": "Trackman launch monitor technology utilized in bays"
+    }
+  ],
+  "simulator_software": [
+    "unknown",
+    "Trackman Software"
+  ],
+  "launch_monitor_type": "Trackman",
+  "ball_tracking": "Radar",
+  "club_tracking": "unknown",
+  "putting_mode": "Yes",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "https://golfmetricsfl.com/online-booking/",
+  "pricing_model": "hourly_rate",
+  "price_range_min_local": 50,
+  "price_range_max_local": 150,
+  "currency": "USD",
+  "walk_ins_allowed": false,
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "climate_control|club_fitting|pga_instruction|video_analysis|putting_analyzer|private_events|online_booking",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "While not explicitly stated on the website, most training studios allow you to use your own clubs for the most accurate fitting and data analysis. It is recommended to contact the venue directly regarding club rentals if you do not own a set."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "As this is a private training studio focused on instruction, there is no public bar or restaurant. You may be able to bring your own non-alcoholic beverages, but it is best to confirm their policy when booking."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "On a simulator, an average group of 4 players can play 18 holes in approximately 4 hours, while a single player can typically finish in about 45 minutes to an hour."
+    },
+    {
+      "question": "Is this kid-friendly?",
+      "answer": "Yes, Golf Metrics offers youth golfer training programs specifically designed to help young students focus their game for high school and collegiate levels."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"7AM-7PM\"], \"Tuesday\": [\"7AM-7PM\"], \"Wednesday\": [\"7AM-7PM\"], \"Thursday\": [\"7AM-7PM\"], \"Friday\": [\"7AM-7PM\"], \"Saturday\": [\"7AM-7PM\"], \"Sunday\": [\"Closed\"]}"
+}

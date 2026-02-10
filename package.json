@@ -11,7 +11,12 @@
     "db:migrate": "prisma migrate dev",
     "db:push": "prisma db push",
     "db:studio": "prisma studio",
-    "db:seed": "tsx prisma/seed.ts"
+    "db:seed": "tsx prisma/seed.ts",
+    "db:backfill:hardware-brands": "node --import tsx scripts/backfill-hardware-brands.ts",
+    "db:backfill:software-slugs": "node --import tsx scripts/backfill-software-slugs.ts",
+    "db:import:venues": "node --import tsx scripts/seed-real-data.ts",
+    "db:update:zip-email": "node --import tsx scripts/update-zip-email.ts",
+    "categories:analyze": "node --import tsx scripts/analyze-categories.ts"
   },
   "dependencies": {
     "@auth/prisma-adapter": "^2.11.1",

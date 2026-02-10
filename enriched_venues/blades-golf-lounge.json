@@ -1,0 +1,91 @@
+{
+  "name": "Blades Golf Lounge",
+  "address": "24 W Camelback Rd Suite C, Phoenix, AZ 85013",
+  "city": "Phoenix",
+  "region": "Arizona",
+  "country": "US",
+  "latitude": 33.509777,
+  "longitude": -112.075815,
+  "phone": "+16024560252",
+  "website": "http://bladesgolflounge.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770227979/golf_simulators/bladesgolflounge_com_ChIJAyMm9pgTK4cRCICPjwnrXf4.png",
+  "google_maps_url": "https://www.google.com/maps/place/Blades+Golf+Lounge/@33.509777299999996,-112.0758149,14z/data=!4m8!1m2!2m1!1sBlades+Golf+Lounge!3m4!1s0x872b1398f6262303:0xfe5deb098f8f8008!8m2!3d33.509777299999996!4d-112.0758149",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJAyMm9pgTK4cRCICPjwnrXf4",
+  "venue_type": "sim_bar",
+  "about": "Blades Golf Lounge is an indoor golf simulator venue in Phoenix, Arizona, featuring Foresight Falcon technology—the same camera-based system trusted by PGA, LPGA, and LIV tour professionals. The facility blends retro-modern aesthetics with Scottish golf club influences, offering a 24/7 accessible space with free parking. It operates on a mixed model, offering both hourly pay-as-you-go sessions and founding memberships that provide unlimited access. The venue is designed for both serious golfers seeking advanced data tracking and casual players looking for a relaxed, modern atmosphere.",
+  "tags": "food_and_drinks|premium_tech|late_night|beginner_friendly|corporate_events|serious_practice|date_night|club_rentals|coaching_available",
+  "vibe_tags": "upscale_lounge|tech_lab|casual|welcoming|modern",
+  "who_its_for": "serious_golfers|beginners|corporate_teams|solo_practice|tourists_travelers",
+  "why_golfers_like_it": [
+    "Professional-grade Foresight Falcon camera-based simulator technology",
+    "24/7 member access with booking via Birrdi and unique access codes",
+    "Ability to play with your own golf ball for authentic feedback",
+    "Comprehensive data tracking including ball speed, spin, and club path",
+    "Retro-modern lounge environment with free parking"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "BYOB policy allows guests to bring their own food and drinks"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "BYOB policy allows guests to bring their own alcohol"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": "Falcon",
+      "notes": "Camera-based simulator trusted by PGA, LPGA, and LIV tour professionals; allows use of personal golf balls"
+    }
+  ],
+  "simulator_software": [
+    "GSPro",
+    "FSX Play"
+  ],
+  "launch_monitor_type": "overhead_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "https://app.birrdi.com/u/reserve?team_booking_link_id=blades-golf-lounge",
+  "pricing_model": "mixed",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you should bring your own clubs to get the most accurate data tracking, as the Foresight Falcon system allows you to play with your personal golf ball and equipment."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, Blades Golf Lounge operates on a BYOB (Bring Your Own Beverage) policy, allowing guests to bring their own food and drinks to enjoy during their session."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Standard tee times are available in 60-minute increments, with up to 3-hour tee times offered for members, allowing flexibility for both quick sessions and longer play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The venue does not specifically mention kid-friendly features in its provided information, so it is unclear whether it is designed or suitable for children."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

@@ -1,0 +1,96 @@
+{
+  "name": "GolfTRK - Lenexa",
+  "address": "11207 Strang Line Rd, Lenexa, KS 66215",
+  "city": "Lenexa",
+  "region": "Kansas",
+  "country": "US",
+  "latitude": 38.925242,
+  "longitude": -94.752617,
+  "phone": "+19135134653",
+  "website": "https://www.golftrk.com/lenexa-ks",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770212398/golf_simulators/www_golftrk_com_ChIJbdCD5h-VwIcRUrkEr5EwsWU.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/GolfTRK+-+Lenexa/@38.9252417,-94.752617,14z/data=!4m8!1m2!2m1!1sGolfTRK+-+Lenexa!3m4!1s0x87c0951fe683d06d:0x65b13091af04b952!8m2!3d38.9252417!4d-94.752617",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJbdCD5h-VwIcRUrkEr5EwsWU",
+  "email": "sean@golftrk.com",
+  "venue_type": "training_studio",
+  "about": "GolfTRK - Lenexa is an indoor golf facility offering year-round practice and improvement through data-driven technology. The venue features TrackMan bays for advanced ball and club tracking, along with an exclusive PuttView augmented reality putting system that provides real-time analysis. Membership is required for independent bay reservations, while lessons and club fittings are available to both members and non-members.",
+  "tags": "serious_practice|coaching_available|corporate_events|beginner_friendly|premium_tech",
+  "vibe_tags": "tech_lab|community_club",
+  "who_its_for": "serious_golfers|families|corporate_teams|solo_practice|coaches_instructors",
+  "why_golfers_like_it": [
+    "Exclusive access to PuttView AR putting technology for data-driven practice",
+    "World-class TrackMan 4 and iO launch monitors for precise ball and club tracking",
+    "Noonan Digital Caddie platform for on-course data-driven club and aim recommendations",
+    "Director of Golf with PGA Tour and professional playing experience"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "Members are welcome to bring their own food"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "Members are welcome to bring their own drinks"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "World-class ball tracking and club data"
+    },
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "World-class ball tracking and club data"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://app.gymflow.io/golfTRK/golftrk/lenexa/site/appointments/410",
+  "pricing_model": "membership_only",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "false",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|club_fitting|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "Yes, you need to bring your own clubs for practice and simulator play."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, members are welcome to bring their own food and drinks. Please keep your area clean and dispose of trash."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes depends on the simulator software and pace of play, but typically ranges from 2-3 hours."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the facility is kid-friendly with coaching available for juniors and youth golfers."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"5AM-12AM\"], \"Tuesday\": [\"5AM-12AM\"], \"Wednesday\": [\"5AM-12AM\"], \"Thursday\": [\"5AM-12AM\"], \"Friday\": [\"5AM-12AM\"], \"Saturday\": [\"5AM-12AM\"], \"Sunday\": [\"5AM-12AM\"]}"
+}

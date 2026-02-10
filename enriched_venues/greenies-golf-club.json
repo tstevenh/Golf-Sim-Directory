@@ -1,0 +1,89 @@
+{
+  "name": "Greenies Golf Club",
+  "address": "26181 Avenida Aeropuerto, San Juan Capistrano, CA 92675",
+  "city": "San Juan Capistrano",
+  "region": "California",
+  "country": "US",
+  "latitude": 33.482308,
+  "longitude": -117.67291,
+  "phone": "+19493953069",
+  "website": "http://greeniesclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770232175/golf_simulators/greeniesclub_com_ChIJh08lP_nx3IARDfl4XQYTUMk.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Greenies+Golf+Club/@33.482307999999996,-117.6729101,14z/data=!4m8!1m2!2m1!1sGreenies+Golf+Club!3m4!1s0x80dcf1f93f254f87:0xc95013065d78f90d!8m2!3d33.482307999999996!4d-117.6729101",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJh08lP_nx3IARDfl4XQYTUMk",
+  "email": "greeniesgolfclub@gmail.com",
+  "venue_type": "sim_bar|training_studio",
+  "about": "Greenies Golf Club is a golf simulator venue offering both public and member access to its facilities. The venue provides a range of services including pro shop, club fitting, and private event hosting, with a notable focus on accommodating various group sizes. Pricing is structured hourly for non-members and offers 24/7 access for members, positioning itself as a flexible option for both casual players and serious golfers seeking to improve their game.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|coaching_available|club_rentals|premium_tech|budget_friendly|solo_practice",
+  "vibe_tags": "casual|welcoming|modern|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "24/7 member access for flexible practice scheduling",
+    "On-site pro shop and club fitting services for equipment needs",
+    "Accommodates private events for groups up to 20 guests"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "BYOB policy suggests outside food is allowed"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service on premises"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "unknown",
+      "model": "unknown",
+      "notes": "No specific simulator hardware information provided"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": "unknown",
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "http://greeniesclub.com/public-tee-times",
+  "pricing_model": "per_bay_hour|membership_only",
+  "price_range_min_local": 50,
+  "price_range_max_local": 200,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|pro_shop|club_fitting|private_party_room|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No information provided, but it's standard to bring your own clubs for simulator sessions."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, the venue operates on a BYOB (Bring Your Own Beverage) policy."
+    },
+    {
+      "question": "How long does an 18-hole simulation take?",
+      "answer": "No specific time mentioned, but typical simulator rounds take approximately 1-2 hours depending on player pace."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "No specific information about kid-friendliness is available."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"10AM-5PM\"], \"Tuesday\": [\"10AM-5PM\"], \"Wednesday\": [\"10AM-5PM\"], \"Thursday\": [\"10AM-5PM\"], \"Friday\": [\"10AM-5PM\"], \"Saturday\": [\"11AM-4PM\"], \"Sunday\": [\"11AM-4PM\"]}"
+}

@@ -1,0 +1,82 @@
+{
+  "name": "Eagle Golf and Grill",
+  "address": "3941 Pintail Dr, Springfield, IL 62711",
+  "city": "Springfield",
+  "region": "Illinois",
+  "country": "US",
+  "latitude": 39.742562,
+  "longitude": -89.71337,
+  "phone": "+12179704137",
+  "website": "https://www.eaglegolfandgrill.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770204793/golf_simulators/www_eaglegolfandgrill_com_ChIJgTOhPFVHdYgR6-BgLxnNjxc.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Eagle+Golf+and+Grill/@39.742562299999996,-89.7133702,14z/data=!4m8!1m2!2m1!1sEagle+Golf+and+Grill!3m4!1s0x887547553ca13381:0x178fcd192f60e0eb!8m2!3d39.742562299999996!4d-89.7133702",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJgTOhPFVHdYgR6-BgLxnNjxc",
+  "venue_type": "sim_bar",
+  "about": "Eagle Golf and Grill combines indoor golf simulation with a full-service food and drink experience. The venue utilizes advanced technology for golf simulation and offers a variety of dining options including starters, salads, and sandwiches. It hosts a range of activities from leagues and events to lessons and memberships, catering to both casual players and serious golfers looking to practice or socialize.",
+  "tags": "food_and_drinks|leagues|beginner_friendly|corporate_events|coaching_available|private_rooms|date_night",
+  "vibe_tags": "sports_bar|family_fun_center|community_club",
+  "who_its_for": "beginners|families|corporate_teams|serious_golfers|solo_practice",
+  "why_golfers_like_it": [
+    "All-in-one golf and dining experience",
+    "Hosting simulator leagues for competitive play",
+    "Comprehensive lesson programs for skill improvement"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full menu with starters, salads, sandwiches, and signature selections"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol information found on website"
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 12,
+  "booking_url": "https://app.birrdi.com/u/reserve?team_booking_link_id=eagle-golf-and-grill&date=2023-12-26",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|leagues|coaching_available",
+  "rating_tech_quality": 4.0,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify whether club rentals are available, but it does mention 'club rentals' in the amenities list, suggesting they may provide equipment."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue offers its own food and drinks menu, but does not mention a BYOB policy. It appears they want you to purchase from their establishment."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "The website does not provide specific timing details for 18-hole rounds."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "Yes, the venue appears to be kid-friendly as it offers a family-oriented atmosphere with food options and mentions 'family_fun_center' in vibe tags."
+    }
+  ],
+  "rating_overall": 4.0,
+  "opening_hours": "{\"Monday\": [\"3-9PM\"], \"Tuesday\": [\"3-9PM\"], \"Wednesday\": [\"11AM-9PM\"], \"Thursday\": [\"11AM-9PM\"], \"Friday\": [\"11AM-9PM\"], \"Saturday\": [\"11AM-9PM\"], \"Sunday\": [\"11AM-9PM\"]}"
+}

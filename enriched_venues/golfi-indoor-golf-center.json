@@ -1,0 +1,91 @@
+{
+  "name": "GOLFi Indoor Golf Center",
+  "address": "22601 La Palma Ave #107, Yorba Linda, CA 92887",
+  "city": "Yorba Linda",
+  "region": "California",
+  "country": "US",
+  "latitude": 33.880541,
+  "longitude": -117.734812,
+  "phone": "+17143120888",
+  "website": "https://www.golfiusa.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770203667/golf_simulators/www_golfiusa_com_ChIJC4w4Ts3P3IARJt2476JweP4.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/GOLFi+Indoor+Golf+Center/@33.8805409,-117.7348124,14z/data=!4m8!1m2!2m1!1sGOLFi+Indoor+Golf+Center!3m4!1s0x80dccfcd4e388c0b:0xfe7870a2efb8dd26!8m2!3d33.8805409!4d-117.7348124",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJC4w4Ts3P3IARJt2476JweP4",
+  "email": "admin@golfiusa.com",
+  "venue_type": "training_studio",
+  "about": "GOLFi Indoor Golf Center is a high-tech indoor golf venue located in Yorba Linda, California. The facility uses an American-made 3 Trak launch monitor system with high-speed cameras to capture shot data with over 98% accuracy. Players have access to over 119 world-class golf courses and can engage in various game modes, from realistic rounds to entertainment options like poker and skee ball. The center offers a mix of individual practice, group play, and professional training programs, with sessions typically lasting between one to one and a half hours for a full round.",
+  "tags": "beginner_friendly|corporate_events|coaching_available|premium_tech|private_rooms|club_rentals|family_friendly",
+  "vibe_tags": "industrial_training|tech_lab|family_fun_center|modern",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|juniors_youth",
+  "why_golfers_like_it": [
+    "High-precision 3 Trak launch monitor with 98% accuracy",
+    "Access to over 119 premium golf courses",
+    "On-site PGA-level coaching with 10-30 years of experience",
+    "Variety of entertainment games beyond traditional golf",
+    "Comprehensive swing analysis technology"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No on-site kitchen mentioned, outside food policy not specified"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No bar mentioned, no alcohol references on website"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "3 Trak",
+      "model": "Launch Monitor",
+      "notes": "American-made with high-speed cameras capturing 3D vector, spin, speed, and angles"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://golfi.reservewithrex.com/package",
+  "pricing_model": "per_person_hour",
+  "price_range_min_local": 75,
+  "price_range_max_local": 280,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|pro_shop|coaching_available|private_rooms|tv_sports",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own golf clubs?",
+      "answer": "Players are recommended to bring their own golf clubs for a better experience, but GOLFi provides equipment for free. A repair fee will be required for any damage to their equipment."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The website does not specify a policy on outside food and drinks, nor does it mention an on-site kitchen or bar."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "A full round of 18 holes typically takes between one hour and one and a half hours, depending on the course and players' skill level."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, GOLFi offers junior tournament training, registration, and on-site technical coaching, making it suitable for young golfers."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"9AM-8PM\"], \"Tuesday\": [\"9AM-8PM\"], \"Wednesday\": [\"9AM-8PM\"], \"Thursday\": [\"9AM-8PM\"], \"Friday\": [\"9AM-10PM\"], \"Saturday\": [\"9AM-10PM\"], \"Sunday\": [\"9AM-10PM\"]}"
+}

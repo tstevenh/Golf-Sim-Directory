@@ -1,0 +1,90 @@
+{
+  "name": "Dr. Greens Golf & Entertainment Westborough",
+  "address": "153 Turnpike Rd, Westborough, MA 01581",
+  "city": "Westborough",
+  "region": "Massachusetts",
+  "country": "US",
+  "latitude": 42.285355,
+  "longitude": -71.611561,
+  "phone": "+15083663673",
+  "website": "http://drgreensgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770199258/golf_simulators/drgreensgolf_com_ChIJUU_SAIUK5IkRPKCWeSbbXig.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Dr.+Greens+Golf+%26+Entertainment+Westborough/@42.2853554,-71.61156079999999,14z/data=!4m8!1m2!2m1!1sDr.+Greens+Golf+%26+Entertainment+Westborough!3m4!1s0x89e40a8500d24f51:0x285edb267996a03c!8m2!3d42.2853554!4d-71.61156079999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJUU_SAIUK5IkRPKCWeSbbXig",
+  "email": "donna.lavallee@drgreensgolf.comm",
+  "venue_type": "sim_bar",
+  "about": "Dr. Greens Golf & Entertainment is a top-tier virtual golf center with locations in Ashland and Westborough, MA. It features state-of-the-art simulators, full-service bars, and entertainment like pool, shuffleboard, and darts. The venue offers nearly 100 unique courses, including Ryder Cup tracks and iconic locations like Pebble Beach. Dr. Greens provides a range of pricing options with discounted weekday rates and is positioned as an ideal environment for both casual play and serious practice during winter months.",
+  "tags": "food_and_drinks|beginner_friendly|date_night|corporate_events|leagues|premium_tech|coaching_available",
+  "vibe_tags": "sports_bar|family_fun_center|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "State-of-the-art aboutGolf® 3Trak™ Machine Vision Launch Monitors providing PGA-level accuracy",
+    "Full-service bars and food offerings available on-site",
+    "Access to nearly 100 unique courses, including iconic tracks like Pebble Beach",
+    "Entertainment options beyond golf including pool, shuffleboard, and darts"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Each location serves food with its own unique twist while maintaining high quality standards"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full-service bars with dedicated bartenders, rotating local beer selection, wine, and mixed drinks"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "aboutGolf",
+      "model": "3Trak",
+      "notes": "Machine Vision Launch Monitors trusted by the PGA, Titleist, and top instructors"
+    }
+  ],
+  "simulator_software": [
+    "aboutGolf"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://clients.uschedule.com/drgreens/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 45,
+  "price_range_max_local": 65,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The content doesn't explicitly specify, but typically at virtual golf centers, you can use your own clubs or they may provide rental options."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, the venue has a full-service bar and food offerings available on-site at each location."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "The content doesn't specify exact timing, but simulator rounds typically take 2-3 hours depending on the number of players and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Dr. Greens positions itself as a family-friendly center with entertainment options beyond golf that would appeal to various age groups."
+    }
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-11PM\"], \"Saturday\": [\"8AM-11PM\"], \"Sunday\": [\"8AM-9PM\"]}"
+}

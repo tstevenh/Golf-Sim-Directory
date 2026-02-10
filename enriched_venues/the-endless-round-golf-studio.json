@@ -1,0 +1,94 @@
+{
+  "name": "The Endless Round Golf Studio",
+  "address": "7785 Main Rd, Mattituck, NY 11952",
+  "city": "Mattituck",
+  "region": "New York",
+  "country": "US",
+  "latitude": 40.980122,
+  "longitude": -72.544827,
+  "phone": "+16312987156",
+  "website": "https://www.endlessroundgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770224937/golf_simulators/www_endlessroundgolf_com_ChIJEV_2ajKP6IkRc9Luzue3KnU.png",
+  "google_maps_url": "https://www.google.com/maps/place/The+Endless+Round+Golf+Studio/@40.980122,-72.544827,14z/data=!4m8!1m2!2m1!1sThe+Endless+Round+Golf+Studio!3m4!1s0x89e88f326af65f11:0x752ab7e7ceeed273!8m2!3d40.980122!4d-72.544827",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJEV_2ajKP6IkRc9Luzue3KnU",
+  "email": "info@endlessroudngolf.com",
+  "venue_type": "sim_bar",
+  "about": "Endless Round Golf Studio is a premier indoor golf facility located on the North Fork of Long Island. It features four state-of-the-art simulator bays equipped with the latest TrackMan technology, offering both private bay access and an open facility layout. The venue operates with a reservation-based system and provides a range of services from hourly bay rentals and leagues to professional golf instruction and memberships designed for different skill levels. The facility also offers food and beverage services, including coal oven pizza from Table 87, creating a social environment for players.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|leagues|coaching_available|premium_tech|family_friendly|date_night",
+  "vibe_tags": "casual|welcoming|modern|community_club|sports_bar",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Top-tier TrackMan simulator technology for accurate shot data",
+    "In-house professional coaching from PGA-certified instructors",
+    "Social atmosphere with Table 87 pizza available for on-course dining",
+    "Flexible booking system with options for solo play or large groups"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Coal oven pizza from Table 87 served fresh in 10 minutes; outside food allowed, but no food or drink on bay turf."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Alcoholic beverages available for sale; personal beverages not allowed, mini-fridges provided in each bay."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "TrackMan",
+      "model": "iO",
+      "notes": "Four state-of-the-art bays with latest TrackMan technology"
+    }
+  ],
+  "simulator_so": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 4,
+  "booking_url": "https://yourgolfbooking.com/venues/endless-round-golf/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": false,
+  "coaching_available": true,
+  "private_rooms_count": 4,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|kitchen_food|tv_sports|private_party_room|wifi|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The content does not specify club rental availability, so it is recommended to bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "You may bring your own food, but not your own beverages. Food and drink are not permitted on the bay turf."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "It takes approximately one hour for an individual player to play 18 holes. Groups should book additional hours per player (e.g., a foursome books four hours)."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, children under 14 can use the simulators but must be accompanied by an adult at all times."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"10AM-8PM\"], \"Tuesday\": [\"10AM-8PM\"], \"Wednesday\": [\"10AM-8PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-10PM\"], \"Saturday\": [\"10AM-10PM\"], \"Sunday\": [\"10AM-8PM\"]}"
+}

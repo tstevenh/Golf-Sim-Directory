@@ -1,0 +1,90 @@
+{
+  "name": "Foreged Indoor Country Club",
+  "address": "5999 Rice Creek Pkwy suite 104, Shoreview, MN 55126",
+  "city": "Shoreview",
+  "region": "Minnesota",
+  "country": "US",
+  "latitude": 45.123869,
+  "longitude": -93.185208,
+  "phone": "+16512103858",
+  "website": "https://www.foregedindoorgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770203789/golf_simulators/www_foregedindoorgolf_com_ChIJw7AQ3jwns1IROWGGlvkccOw.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Foreged+Indoor+Country+Club/@45.1238685,-93.1852083,14z/data=!4m8!1m2!2m1!1sForeged+Indoor+Country+Club!3m4!1s0x52b3273cde10b0c3:0xec701cf996866139!8m2!3d45.1238685!4d-93.1852083",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJw7AQ3jwns1IROWGGlvkccOw",
+  "email": "info@foregedgolf.com",
+  "venue_type": "private_rental",
+  "about": "Foreged Indoor Country Club is a private golf simulator venue offering 24/7 access to its facilities for members. It features state-of-the-art Trackman iO technology in its hitting bay, providing an ultimate indoor golf experience with access to 350+ courses. The venue operates as a members-only club, designed for golfers seeking a private, country club-like atmosphere without the crowds, complete with a putting green, training aids, and a lounge area. The club model is built around convenience and exclusivity, allowing members to book online for private sessions with no staff present and access via mobile credentials.",
+  "tags": "serious_practice|private_luxury|club_rentals|food_and_drinks|solo_practice|low_handicap",
+  "vibe_tags": "private_luxury|tech_lab|upscale_lounge",
+  "who_its_for": "serious_golfers|solo_practice|low_handicap|corporate_teams",
+  "why_golfers_like_it": [
+    "24/7 private access with no crowds",
+    "Premium Trackman iO technology for accurate simulation",
+    "Complete privacy with no staff or other members during sessions",
+    "Flexible one-hour booking sessions with online scheduling"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "BYOB allowed. Members can bring food or order from nearby restaurant menus. Fridge and microwave available for use."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "BYOB allowed. Members can bring their own drinks."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Ceiling-mounted unit purpose-built for indoor golf with ultimate technology"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "https://yourgolfbooking.com/venues/foreged-indoor-country-club/booking/bays",
+  "pricing_model": "membership_only",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|tv_sports|lockers|wifi|pro_shop",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need clubs?",
+      "answer": "Yes, you must bring your own clubs as rentals are not available."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, members can bring food and drinks. There is a fridge and microwave available, and you can also order food from nearby restaurant menus."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "One golfer can complete a round of golf in about one hour."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, kids are welcome provided they are accompanied by a member. Kids under the age of 16 must be with an adult."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

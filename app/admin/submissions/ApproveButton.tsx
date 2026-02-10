@@ -24,7 +24,7 @@ export function ApproveButton({ submissionId }: { submissionId: string }) {
         const error = await res.json();
         alert(`Error: ${error.error}`);
       }
-    } catch (err) {
+    } catch {
       alert("Failed to approve submission");
     } finally {
       setIsLoading(false);

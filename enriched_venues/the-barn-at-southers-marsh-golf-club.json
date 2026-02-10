@@ -1,0 +1,94 @@
+{
+  "name": "The Barn at Southers Marsh Golf Club",
+  "address": "30 Southers Marsh Ln, Plymouth, MA 02360",
+  "city": "Plymouth",
+  "region": "Massachusetts",
+  "country": "US",
+  "latitude": 41.894441,
+  "longitude": -70.711085,
+  "phone": "+15088303535",
+  "website": "https://southersmarsh.com/barn",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770243876/golf_simulators/southersmarsh_com_ChIJp_63LM-55IkRmA4TWTEh8yU.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Barn+at+Southers+Marsh+Golf+Club/@41.8944408,-70.7110854,14z/data=!4m8!1m2!2m1!1sThe+Barn+at+Southers+Marsh+Golf+Club!3m4!1s0x89e4b9cf2cb7fea7:0x25f3213159130e98!8m2!3d41.8944408!4d-70.7110854",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJp_63LM-55IkRmA4TWTEh8yU",
+  "email": "golf@southersmarsh.com",
+  "venue_type": "training_studio",
+  "about": "The Barn at Southers Marsh Golf Club is an indoor golf facility featuring 9 hitting bays, powered by Toptracer Range technology. It allows golf in almost all weather conditions and offers virtual play on 25 famous courses like Pebble Beach and St. Andrews, along with 9 other interactive games. Pricing is typically $44 per hour per bay, with a $35 Monday special and leagues at $22 per player, booked in 2-hour increments. The facility includes a pro shop, reservations are recommended, and it is currently closed due to snowfall.",
+  "tags": "serious_golfers|leagues|premium_tech|coaching_available|club_rentals|budget_friendly|private_rooms",
+  "vibe_tags": "industrial_training|tech_lab|community_club|modern",
+  "who_its_for": "serious_golfers|families|corporate_teams|solo_practice|coaches_instructors",
+  "why_golfers_like_it": [
+    "Powered by Toptracer Range technology for professional-grade shot tracking",
+    "Access to 25 world-famous virtual golf courses for immersive play",
+    "Competitive leagues and weekly leaderboards for social and competitive play",
+    "Indoor facility allows golf in almost all weather conditions",
+    "Bay reservations provide a dedicated space for practice or play"
+  ],
+  "kid_friendly": null,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Pro shop available; no food preparation mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service or BYOB policy"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Toptracer",
+      "model": "Range",
+      "notes": "Same technology used on televised golf tournaments"
+    }
+  ],
+  "simulator_so": [
+    "Toptracer Range"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 9,
+  "booking_url": "https://southersmarsh.teesnap.net/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 35,
+  "price_range_max_local": 44,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 0,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|pro_shop|leagues|wifi",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not explicitly state whether clubs are provided, so it is recommended to bring your own."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "There is no mention of an outside food and drink policy, and no on-site bar or kitchen is described. It's best to confirm directly with the venue."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Playing virtual golf courses can vary in time, but typical rounds can take 2-3 hours depending on the course and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The website does not specifically mention child-friendly features or policies, so this information is not available."
+    }
+  ],
+  "simulator_software": [
+    "Toptracer Range"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"1-8PM\"], \"Tuesday\": [\"1-8PM\"], \"Wednesday\": [\"1-8PM\"], \"Thursday\": [\"1-9PM\"], \"Friday\": [\"12-9PM\"], \"Saturday\": [\"12-8PM\"], \"Sunday\": [\"12-6PM\"]}"
+}

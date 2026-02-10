@@ -1,0 +1,89 @@
+{
+  "name": "Private Fairway Farmingdale",
+  "address": "238 NY-109, Farmingdale, NY 11735",
+  "city": "Farmingdale",
+  "region": "New York",
+  "country": "US",
+  "latitude": 40.719379,
+  "longitude": -73.415121,
+  "phone": "+12097824546",
+  "website": "https://farmingdale.privatefairway.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770212711/golf_simulators/farmingdale_privatefairway_com_ChIJ883Qm4cr6IkROaSxh64wwhc.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Private+Fairway+Farmingdale/@40.7193786,-73.4151205,14z/data=!4m8!1m2!2m1!1sPrivate+Fairway+Farmingdale!3m4!1s0x89e82b879bd0cdf3:0x17c230ae87b1a439!8m2!3d40.7193786!4d-73.4151205",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ883Qm4cr6IkROaSxh64wwhc",
+  "venue_type": "sim_bar",
+  "about": "Private Fairway Farmingdale is an indoor golf facility focused on providing 24-hour access to TrackMan simulator bays. The venue operates on a membership model, offering tiered options from unlimited monthly access to punch passes for flexible usage. It is designed for serious practice and play, featuring TrackMan technology for detailed swing analysis and a limited membership to ensure availability. The space is geared toward golfers looking to improve their game with technology and enjoy a private, uncrowded environment. The facility emphasizes convenience, offering 24-hour access, a mobile booking app, and quick booking times due to membership limitations.",
+  "tags": "serious_practice|food_and_drinks|corporate_events|private_rooms|premium_tech|budget_friendly|family_friendly|solo_practice",
+  "vibe_tags": "private_luxury|tech_lab|modern",
+  "who_its_for": "serious_golfers|corporate_teams|families|solo_practice|low_handicap",
+  "why_golfers_like_it": [
+    "24-hour access provides maximum flexibility for practice and play",
+    "TrackMan technology delivers detailed club and ball data for game improvement",
+    "Limited membership ensures next-day booking availability",
+    "Mobile app for easy booking and session management"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "BYOK (Bring Your Own Food) allowed; facility has a service counter for serving food and drinks"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "BYOB (Bring Your Own Beverages) allowed; facility has a serving bar"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Primary simulator and launch monitor system used for all bays"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://farmingdale.privatefairway.com/book-online",
+  "pricing_model": "membership_only",
+  "price_range_min_local": 79,
+  "price_range_max_local": 850,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": false,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|pro_shop|club_fitting|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you will need to bring your own clubs to use the simulators."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "Yes, the facility allows BYOK (Bring Your Own Food) and BYOB (Bring Your Own Beverages)."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes varies based on simulator usage and pace, but sessions are typically booked by the hour or session."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is family-friendly and can host private events for families and kids."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

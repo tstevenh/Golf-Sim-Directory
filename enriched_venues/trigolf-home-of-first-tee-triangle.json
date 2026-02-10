@@ -1,0 +1,91 @@
+{
+  "name": "TriGolf - Home of First Tee  Triangle",
+  "address": "12201 Leesville Rd, Raleigh, NC 27613",
+  "city": "Raleigh",
+  "region": "North Carolina",
+  "country": "US",
+  "latitude": 35.918892,
+  "longitude": -78.754425,
+  "phone": "+19198387200",
+  "website": "http://www.trigolf.org/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770235963/golf_simulators/www_trigolf_org_ChIJ0fwTQOn7rIkRYh37P1yH2xA.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/TriGolf+-+Home+of+First+Tee+%E2%80%94+Triangle/@35.9188919,-78.754425,14z/data=!4m8!1m2!2m1!1sTriGolf+-+Home+of+First+Tee+%E2%80%94+Triangle!3m4!1s0x89acfbe94013fcd1:0x10db875c3ffb1d62!8m2!3d35.9188919!4d-78.754425",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ0fwTQOn7rIkRYh37P1yH2xA",
+  "email": "Jeff@FirstTeeTriangle.org",
+  "venue_type": "other",
+  "about": "TriGolf is a premier golf facility operated by First Tee — Triangle, blending top-notch amenities with a community-focused mission. The venue features a 32,000 sq. ft. Himalayas-style putting green with an 18-hole putting course, a 28-bay driving range equipped with Toptracer Technology, and two indoor/outdoor simulator bays using Trackman Radar Technology. A 9-hole par-3 course designed by Gil Hanse is set to open in September 2025. The facility caters to golfers of all skill levels through memberships, lessons, leagues, and events, emphasizing both high-tech practice spaces and a welcoming atmosphere for families and individuals.",
+  "tags": "beginner_friendly|kids_friendly|corporate_events|leagues|premium_tech|family_fun_center|community_club|coaching_available|juniors_youth",
+  "vibe_tags": "community_club|family_fun_center|modern|welcoming",
+  "who_its_for": "beginners|families|serious_golfers|juniors_youth|corporate_teams",
+  "why_golfers_like_it": [
+    "State-of-the-art Trackman and Toptracer technology for precise data and immersive simulation experiences",
+    "Extensive practice facilities, including a massive Himalayas-style putting green and dedicated chipping areas",
+    "Flexible membership options tailored to individual, family, junior, and senior golfers",
+    "Host of events and leagues for both casual players and competitive golfers",
+    "Junior programs and youth-focused initiatives promoting golf education and community"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of food service on-site; BYOB policy not specified."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service on-site; BYOB policy not specified."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "Radar",
+      "notes": "Installed in two indoor/outdoor simulator bays for advanced ball and club tracking"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "mixed",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://apimanager-cc28.clubcaddie.com/activities/view/fhfdabab",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|pro_shop|leagues|event_spaces|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The facility provides a wide range of clubs for use, including left-handed bays, but players are welcome to bring their own equipment."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "BYOB policy is not specified, but the venue hosts events and pavilions, suggesting outside food may be permitted for private gatherings."
+    },
+    {
+      "question": "How long does it take to play 18 holes on a simulator?",
+      "answer": "Standard 18-hole simulator sessions typically take 60-90 minutes, depending on player pace and course selection."
+    },
+    {
+      "question": "Is TriGolf kid-friendly?",
+      "answer": "Yes, the facility is highly kid-friendly, offering junior programs, youth equipment, birthday party spaces, and family-oriented amenities."
+    }
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"10AM-6PM\"], \"Tuesday\": [\"10AM-6PM\"], \"Wednesday\": [\"10AM-6PM\"], \"Thursday\": [\"10AM-6PM\"], \"Friday\": [\"10AM-6PM\"], \"Saturday\": [\"10AM-6PM\"], \"Sunday\": [\"10AM-6PM\"]}"
+}

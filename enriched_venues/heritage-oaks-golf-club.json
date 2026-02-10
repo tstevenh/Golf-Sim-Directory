@@ -1,0 +1,93 @@
+{
+  "name": "Heritage Oaks Golf Club",
+  "address": "3535 Dundee Rd, Northbrook, IL 60062",
+  "city": "Northbrook",
+  "region": "Illinois",
+  "country": "US",
+  "latitude": 42.136184,
+  "longitude": -87.866236,
+  "phone": "+18472912351",
+  "website": "http://www.heritageoaksgc.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770253261/golf_simulators/www_heritageoaksgc_com_ChIJe693HLK4D4gRefUswGa20yI.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Heritage+Oaks+Golf+Club/@42.1361843,-87.8662365,14z/data=!4m8!1m2!2m1!1sHeritage+Oaks+Golf+Club!3m4!1s0x880fb8b21c77af7b:0x22d3b666c02cf579!8m2!3d42.1361843!4d-87.8662365",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJe693HLK4D4gRefUswGa20yI",
+  "venue_type": "sim_bar|training_studio|private_rental|retail_fitting_center|country_club|multi_sport_sim|hotel_resort|other",
+  "about": "Heritage Oaks Golf Club is a public facility managed by the Northbrook Park District. It features multiple playing options, including an 18-hole Classic Course, a 9-hole Legacy Course, an Anetsberger Par-3 course, and indoor golf simulators. The venue is equipped with a TrackMan range, putting green, and short game area, providing comprehensive practice facilities. It also hosts corporate events, leagues, and offers instruction through the Northbrook Golf Academy. The Acorn Grill + Terrace restaurant is currently closed for improvements but is normally available for dining.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|budget_friendly|private_rooms|club_rentals|coaching_available|family_friendly",
+  "vibe_tags": "community_club|casual|welcoming|modern",
+  "who_its_for": "beginners|families|corporate_teams|solo_practice|juniors_youth",
+  "why_golfers_like_it": [
+    "Premium TrackMan technology for advanced practice and simulation",
+    "Variety of course options from full 18 holes to a Par 3",
+    "Comprehensive practice amenities including a short game area and putting green",
+    "Junior and adult instructional programs available through the Northbrook Golf Academy"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "Acorn Grill + Terrace is temporarily closed for improvements (Feb 5-9). Restaurant typically offers full service."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "Acorn Grill + Terrace is temporarily closed for improvements. Availability of alcohol in normal operations is not specified."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Integrated into the TrackMan Range and indoor simulator bays for launch monitor data"
+    }
+  ],
+  "simulator_so": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://iframe.uschedule.com/heritageoaksgolfclub/booking",
+  "pricing_model": "per_person_hour|package|mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|lockers|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You do not need to bring your own clubs to use the indoor golf simulators or practice facilities. Club rentals and professional club fittings are available services at the venue."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The Acorn Grill + Terrace restaurant is currently closed, but it typically serves food and drinks. BYOB policies are not explicitly mentioned on the website."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes on a simulator?",
+      "answer": "While the exact duration is not specified, a typical 18-hole simulator session generally takes 1-2 hours, depending on the number of players in your group."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "Yes, Heritage Oaks Golf Club is kid-friendly. It offers a dedicated Par-3 course (Anetsberger) and has a specific focus on youth programs through its Northbrook Golf Academy."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-9PM\"], \"Tuesday\": [\"9AM-9PM\"], \"Wednesday\": [\"9AM-9PM\"], \"Thursday\": [\"9AM-9PM\"], \"Friday\": [\"9AM-9PM\"], \"Saturday\": [\"9AM-9PM\"], \"Sunday\": [\"9AM-9PM\"]}"
+}

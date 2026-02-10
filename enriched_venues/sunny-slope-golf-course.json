@@ -1,0 +1,90 @@
+{
+  "name": "Sunny Slope Golf Course",
+  "address": "4285 S Sunny Slope Rd, New Berlin, WI 53151",
+  "city": "New Berlin",
+  "region": "Wisconsin",
+  "country": "US",
+  "latitude": 42.967679,
+  "longitude": -88.094528,
+  "phone": "+12627849779",
+  "website": "https://sunnyslopegolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770244491/golf_simulators/sunnyslopegolf_com_ChIJc1o-OFwJBYgRlZFrlgMScEw.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Sunny+Slope+Golf+Course/@42.9676792,-88.0945284,14z/data=!4m8!1m2!2m1!1sSunny+Slope+Golf+Course!3m4!1s0x8805095c383e5a73:0x4c701203966b9195!8m2!3d42.9676792!4d-88.0945284",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJc1o-OFwJBYgRlZFrlgMScEw",
+  "venue_type": "sim_bar",
+  "about": "Sunny Slope Golf Course is a 9-hole course located in a quiet, secluded corner of New Berlin, WI. The venue offers both outdoor golf on its course and indoor simulation capabilities using Trackman technology. It provides a full bar and bar food service, making it a multi-faceted destination for golfers and social gatherings. The facility also hosts leagues, banquets, clubhouse rentals, and a pro shop, catering to a variety of golf and social needs.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|club_rentals|coaching_available",
+  "vibe_tags": "casual|welcoming|community_club",
+  "who_its_for": "beginners|families|corporate_teams|coaches_instructors|solo_practice",
+  "why_golfers_like_it": [
+    "Access to premium Trackman technology for accurate simulation",
+    "Full bar and food service available on-site",
+    "Secluded and quiet setting for focused play",
+    "Hosts leagues and events for regular play",
+    "Offers both outdoor and indoor golf options"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Bar food is available"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service is available"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Indoor Trackman simulator available for booking"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://foreupsoftware.com/index.php/booking/21914/12263#teetimes",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|pro_shop|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify whether clubs are provided, so it is recommended to bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue has a full bar and serves bar food, but the policy on outside food and drinks is not specified."
+    },
+    {
+      "question": "How long does it take to play 18 holes on the simulator?",
+      "answer": "The website does not provide information on the typical duration for 18 holes on the simulator."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "There is no specific information regarding kid-friendly amenities or policies on the website."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"8AM-9:30PM\"], \"Tuesday\": [\"8AM-9:30PM\"], \"Wednesday\": [\"8AM-9:30PM\"], \"Thursday\": [\"8AM-9:30PM\"], \"Friday\": [\"8AM-9:30PM\"], \"Saturday\": [\"8AM-9:30PM\"], \"Sunday\": [\"8AM-9:30PM\"]}"
+}

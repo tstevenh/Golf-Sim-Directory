@@ -1,0 +1,90 @@
+{
+  "name": "Holland Heights Golf Course",
+  "address": "1228 Steuben Hill Rd, Herkimer, NY 13350",
+  "city": "Herkimer",
+  "region": "New York",
+  "country": "US",
+  "latitude": 43.050751,
+  "longitude": -75.007187,
+  "phone": "+13158668716",
+  "website": "https://hollandheightsherkimer.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770241238/golf_simulators/hollandheightsherkimer_com_ChIJd2I4fQxL2YkRsG9uMSFiPxQ.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Holland+Heights+Golf+Course/@43.050750699999995,-75.0071868,14z/data=!4m8!1m2!2m1!1sHolland+Heights+Golf+Course!3m4!1s0x89d94b0c7d386277:0x143f6221316e6fb0!8m2!3d43.050750699999995!4d-75.0071868",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJd2I4fQxL2YkRsG9uMSFiPxQ",
+  "email": "hollandheightsgolf@gmail.com",
+  "venue_type": "sim_bar",
+  "about": "Holland Heights Golf Course is a family-owned and operated 18-hole golf venue located in the rolling hills of Herkimer, New York, with a blue-collar pricing philosophy. The facility offers a mix of traditional outdoor golf and indoor golf simulation, featuring two Full Swing simulators that provide year-round play. The venue emphasizes a welcoming, family-like atmosphere, aiming to deliver a scenic, well-maintained, and challenging experience with country club conditions at accessible prices. In addition to golf and simulation, the venue includes a banquet hall for large events and a Pub & Pro Shop.",
+  "tags": "food_and_drinks|corporate_events|leagues|budget_friendly|private_rooms|club_rentals|family_friendly",
+  "vibe_tags": "community_club|family_fun_center|welcoming",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Features the same premium Full Swing simulators used in the TGL league",
+    "Offers year-round play regardless of weather conditions",
+    "Provides a scenic and challenging 18-hole course with stunning views",
+    "Hosts large-scale events in a spacious, customizable banquet hall"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "On-site kitchen and food service available for events and in the Pub & Pro Shop"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available in the Pub & Pro Shop"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Full Swing",
+      "model": "unknown",
+      "notes": "Two state-of-the-art Full Swing simulators, upgraded in late 2018 with new software and projectors"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": "Yes",
+  "club_tracking": "Yes",
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 2,
+  "booking_url": "https://hollandheightsherkimer.com/simulator/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 40,
+  "price_range_max_local": 45,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|full_bar|kitchen_food|pro_shop|private_party_room|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, players should bring their own clubs to use with the simulators or for play on the course."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "No, outside food and drink are not permitted. The venue has an on-site kitchen and full bar in the Pub & Pro Shop."
+    },
+    {
+      "question": "How long does it take to play 18 holes on the simulator?",
+      "answer": "Playing 18 holes on the simulator typically takes about 1-2 hours, depending on group size and pace of play."
+    },
+    {
+      "question": "Is Holland Heights kid-friendly?",
+      "answer": "Yes, the venue welcomes families and kid-friendly activities, including simulator play and hosting family events like reunions."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"7AM-7PM\"], \"Tuesday\": [\"7AM-7PM\"], \"Wednesday\": [\"7AM-7PM\"], \"Thursday\": [\"7AM-7PM\"], \"Friday\": [\"7AM-7PM\"], \"Saturday\": [\"7AM-7PM\"], \"Sunday\": [\"7AM-7PM\"]}"
+}

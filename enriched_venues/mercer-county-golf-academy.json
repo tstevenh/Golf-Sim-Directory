@@ -1,0 +1,92 @@
+{
+  "name": "Mercer County Golf Academy",
+  "address": "1 Wheeler Way, Princeton, NJ 08540",
+  "city": "Princeton",
+  "region": "New Jersey",
+  "country": "US",
+  "latitude": 40.308255,
+  "longitude": -74.672436,
+  "phone": "+16095200040",
+  "website": "http://mercercountygolfacademy.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770247789/golf_simulators/mercercountygolfacademy_com_ChIJvzUGtm7hw4kRlrbgFBHWou0.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Mercer+County+Golf+Academy/@40.3082548,-74.6724363,14z/data=!4m8!1m2!2m1!1sMercer+County+Golf+Academy!3m4!1s0x89c3e16eb60635bf:0xeda2d61114e0b696!8m2!3d40.3082548!4d-74.6724363",
+  "google_rating": 4.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJvzUGtm7hw4kRlrbgFBHWou0",
+  "email": "simductivegolf@gmail.com",
+  "venue_type": "training_studio",
+  "about": "The Mercer County Golf Academy, operating under the Simductive Golf brand, is a year-round indoor facility located in West Windsor, New Jersey. It offers a 6,000 square-foot space equipped with three golf simulators featuring aboutGOLF 3TRAK® machine vision technology, a 600 square-foot indoor putting green, and a club fitting center. The venue is specifically geared toward golfers of all ages and skill levels with a focus on instruction, from private lessons and clinics to leagues and tournaments. Its primary appeal is as a dedicated training and practice environment for those looking to improve their game, especially during the winter months.",
+  "tags": "serious_practice|coaching_available|juniors_youth|beginner_friendly|leagues|premium_tech|club_rentals",
+  "vibe_tags": "industrial_training|community_club",
+  "who_its_for": "beginners|serious_golfers|juniors_youth|families|solo_practice",
+  "why_golfers_like_it": [
+    "State-of-the-art aboutGOLF 3TRAK® simulator technology for precise data tracking",
+    "Comprehensive junior academy and development programs for young golfers",
+    "Dedicated indoor facility for year-round practice and play, regardless of weather",
+    "In-depth club fitting and club services to optimize equipment performance",
+    "Structured programs like leagues and tournaments for competitive play"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of an on-site kitchen or food service"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service. BYOB is not indicated."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "AboutGOLF",
+      "model": "3TRAK®",
+      "notes": "Machine vision technology simulator"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 3,
+  "booking_url": "http://mercercountygolfacademy.com/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 20,
+  "price_range_max_local": 55,
+  "currency": "USD",
+  "walk_ins_allowed": false,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|club_fitting|leagues|pro_shop|wifi",
+  "rating_tech_quality": 4.2,
+  "rating_facility_comfort": 4.1,
+  "rating_value_for_money": 4.1,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, golfers are expected to bring their own clubs. The facility also offers club fitting services to help optimize your equipment."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No, the website does not mention an on-site kitchen or bar, and there is no indication of outside food or drink being allowed."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "While not explicitly stated, 18 holes on a simulator typically take 1-1.5 hours depending on the number of players and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the Mercer County Golf Academy offers a comprehensive Junior Academy with programs for youth, including development programs, clinics, leagues, and camps."
+    }
+  ],
+  "simulator_software": [
+    "aboutGOLF"
+  ],
+  "rating_overall": 4.1,
+  "opening_hours": "{\"Monday\": [\"9AM-4PM\"], \"Tuesday\": [\"9AM-4PM\"], \"Wednesday\": [\"9AM-4PM\"], \"Thursday\": [\"9AM-4PM\"], \"Friday\": [\"9AM-4PM\"], \"Saturday\": [\"9AM-3PM\"], \"Sunday\": [\"10AM-2PM\"]}"
+}

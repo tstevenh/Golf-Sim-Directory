@@ -1,0 +1,91 @@
+{
+  "name": "The Golf Club-Oconee",
+  "address": "1430 Capital Avenue STE 117, Watkinsville, GA 30677",
+  "city": "Watkinsville",
+  "region": "Georgia",
+  "country": "US",
+  "latitude": 33.869593,
+  "longitude": -83.446789,
+  "phone": "+17067057249",
+  "website": "https://thegolfcluboconee.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770251012/golf_simulators/thegolfcluboconee_com_ChIJVcSSyQNx9ogRyxGTVFQHdNQ.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Golf+Club-Oconee/@33.8695933,-83.4467894,14z/data=!4m8!1m2!2m1!1sThe+Golf+Club-Oconee!3m4!1s0x88f67103c992c455:0xd4740754549311cb!8m2!3d33.8695933!4d-83.4467894",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJVcSSyQNx9ogRyxGTVFQHdNQ",
+  "email": "info@thegolfcluboconee.com",
+  "venue_type": "sim_bar",
+  "about": "The Golf Club Oconee is a members-only indoor golf facility located in Watkinsville, Georgia, offering a 24/7 accessible environment with TruGolf simulators. The venue features two bays, each accommodating up to four players, and provides unlimited play and practice time at no additional cost for members. With a focus on technology, comfort, and community, the facility combines state-of-the-art golf simulation with a relaxed club atmosphere, including an outdoor patio and the ability to host events or casual meetups. Designed for convenience and efficiency, the club allows members to play rounds in any weather or time of day without the constraints of traditional golf courses.",
+  "tags": "food_and_drinks|serious_golfers|beginner_friendly|corporate_events|leagues|premium_tech|coaching_available|community_club",
+  "vibe_tags": "casual|welcoming|modern|community_club",
+  "who_its_for": "serious_golfers|families|corporate_teams|solo_practice|low_handicap",
+  "why_golfers_like_it": [
+    "24/7 access and no weather constraints",
+    "TruGolf E6 Connect technology with LiDAR-scanned courses",
+    "Relaxed club environment with outdoor patio",
+    "Unlimited play and practice time for members",
+    "Ability to play global courses like Pebble Beach"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Limited snacks available for purchase at the club"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service; BYOB not specified"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "TruGolf",
+      "model": "E6 Connect",
+      "notes": "High-speed camera-based simulators with photometric launch monitors"
+    }
+  ],
+  "simulator_software": [
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 2,
+  "booking_url": "https://clients.uschedule.com/thegolfcluboconee/account/login?returnurl=/thegolfcluboconee/schedule",
+  "pricing_model": "membership_only",
+  "price_range_min_local": 35,
+  "price_range_max_local": null,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|kitchen_food|tv_sports|pro_shop|club_fitting|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need clubs?",
+      "answer": "Members can bring their own clubs, though club fittings are available as an add-on service."
+    },
+    {
+      "question": "Can I bring my own food or drink?",
+      "answer": "Limited snacks and beverages are available for purchase, but BYOB is not explicitly mentioned."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The facility allows for efficient play, with no waiting times, though exact 18-hole duration is not specified."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Kid-friendliness is not explicitly mentioned, but the club environment and ability to host events suggest potential family appeal."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

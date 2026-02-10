@@ -1,0 +1,83 @@
+{
+  "name": "Birdie Project Golf Academy",
+  "address": "1380 Busch Pkwy, Buffalo Grove, IL 60089",
+  "city": "Buffalo Grove",
+  "region": "Illinois",
+  "country": "US",
+  "latitude": 42.172187,
+  "longitude": -87.930713,
+  "phone": "+18472434465",
+  "website": "http://birdieproject.net/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770236342/golf_simulators/birdieproject_net_ChIJGX4aOwC_D4gRJ3OTnxOcpCk.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Birdie+Project+Golf+Academy/@42.1721869,-87.93071259999999,14z/data=!4m8!1m2!2m1!1sBirdie+Project+Golf+Academy!3m4!1s0x880fbf003b1a7e19:0x29a49c139f937327!8m2!3d42.1721869!4d-87.93071259999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJGX4aOwC_D4gRJ3OTnxOcpCk",
+  "email": "birdieprojectac@gmail.com",
+  "venue_type": "training_studio",
+  "about": "Birdie Project Golf Academy is a golf training facility located in Buffalo Grove, IL. It features three private bays equipped with Foresight GC4 launch monitors and PuttView putting technology for advanced swing and putting analysis. The academy offers private and group lessons, club fittings, and monthly memberships focused on skill development and course play.",
+  "tags": "beginner_friendly|serious_practice|coaching_available|premium_tech|club_rentals|leagues|juniors_youth|corporate_events",
+  "vibe_tags": "industrial_training|community_club|modern|welcoming",
+  "who_its_for": "beginners|serious_golfers|juniors_youth|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Advanced Foresight GC4 technology for precise swing analysis",
+    "Dedicated PuttView putting area for green-side practice",
+    "Expert instruction from 20-year veteran Grace Kil",
+    "Exclusive L.A. Putter fittings with 10% discount",
+    "Flexible membership packages for practice and play"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": null,
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": "GC4",
+      "notes": "Premium radar-based launch monitor in 3 private bays"
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://www.birdieproject.net/book-online",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 3,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|club_fitting|leagues|pro_shop|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you should bring your own clubs. The facility provides club stickers for data collection during sessions."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "The website does not specify food or drink policies. It's recommended to contact the venue directly for details on outside food and beverage."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "The time for 18 holes of simulator play is not specified, but typical simulator rounds take 1-2 hours depending on the course and number of players."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "The academy offers junior golf programs and is suitable for young golfers, though specific age restrictions or children's amenities are not detailed."
+    }
+  ],
+  "simulator_software": [
+    "Foresight"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"9AM-8PM\"], \"Tuesday\": [\"9AM-8PM\"], \"Wednesday\": [\"9AM-8PM\"], \"Thursday\": [\"9AM-8PM\"], \"Friday\": [\"9AM-8PM\"], \"Saturday\": [\"9AM-8PM\"], \"Sunday\": [\"9AM-8PM\"]}"
+}

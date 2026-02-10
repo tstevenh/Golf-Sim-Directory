@@ -1,0 +1,84 @@
+{
+  "name": "Phalen Park Golf Course",
+  "address": "1615 Phalen Dr, St Paul, MN 55106",
+  "city": "St Paul",
+  "region": "Minnesota",
+  "country": "US",
+  "latitude": 44.989167,
+  "longitude": -93.062778,
+  "phone": "+16517780413",
+  "website": "http://stpaul.golf/phalen-park-gc/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770238314/golf_simulators/stpaul_golf_ChIJHenj-QLVslIRnZhjJtJEQ2g.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Phalen+Park+Golf+Course/@44.9891667,-93.06277779999999,14z/data=!4m8!1m2!2m1!1sPhalen+Park+Golf+Course!3m4!1s0x52b2d502f9e3e91d:0x684344d22663989d!8m2!3d44.9891667!4d-93.06277779999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJHenj-QLVslIRnZhjJtJEQ2g",
+  "email": "chris@foursomegolf.com.",
+  "venue_type": "sim_bar",
+  "about": "Phalen Park Golf Course features an indoor golf simulator facility within its clubhouse, operating year-round to complement its seasonal outdoor 18-hole course. The venue provides three state-of-the-art simulators available for hourly booking with a full-service bar and grill. While the outdoor course is closed for the 2025 season, the simulators offer a year-round golfing option with leagues and special pricing. The facility is geared towards both casual practice and organized events, with amenities including a 200-seat banquet room that can be rented for private occasions.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|budget_friendly|private_rooms|club_rentals|coaching_available|community_club",
+  "vibe_tags": "casual|welcoming|modern|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Year-round access to state-of-the-art golf simulators",
+    "Full-service bar and grill available during simulator sessions",
+    "Happy hour pricing for off-peak weekday sessions",
+    "Banquet facilities available for private events and group outings"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full service bar and grill available during simulator sessions"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full service bar available"
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 3,
+  "booking_url": "https://e.cps.golf/PhalenLesson/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 33,
+  "price_range_max_local": 33.0,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|full_bar|kitchen_food|private_party_room|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website doesn't specify, but it's standard practice to bring your own clubs for simulator sessions."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue has a full-service bar and grill, so outside food and drinks are likely not permitted."
+    },
+    {
+      "question": "How long does an 18-hole simulator session take?",
+      "answer": "Standard 18-hole simulator sessions typically take 1-2 hours depending on group size and pace of play."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "The venue offers a 'Youth on Course' program, suggesting it accommodates junior golfers, though specific details about simulator age restrictions are not provided."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"6AM-10PM\"], \"Tuesday\": [\"6AM-10PM\"], \"Wednesday\": [\"6AM-10PM\"], \"Thursday\": [\"6AM-10PM\"], \"Friday\": [\"6AM-10PM\"], \"Saturday\": [\"10AM-10PM\"], \"Sunday\": [\"10AM-10PM\"]}"
+}

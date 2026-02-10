@@ -1,0 +1,91 @@
+{
+  "name": "The Wedge",
+  "address": "10552 Co Rd 213 #7a, Forney, TX 75126",
+  "city": "Forney",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 32.710366,
+  "longitude": -96.387743,
+  "phone": "+12145860566",
+  "website": "http://www.findyourwedge.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770199296/golf_simulators/www_findyourwedge_com_ChIJ2zX9Y7tNSYYRbfrSeYw1uGA.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Wedge/@32.710366199999996,-96.38774269999999,14z/data=!4m8!1m2!2m1!1sThe+Wedge!3m4!1s0x86494dbb63fd35db:0x60b8358c79d2fa6d!8m2!3d32.710366199999996!4d-96.38774269999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ2zX9Y7tNSYYRbfrSeYw1uGA",
+  "email": "Findyourwedge@gmail.com",
+  "venue_type": "private_rental",
+  "about": "The Wedge Golf is a private, members-only indoor golf venue offering an elite environment with state-of-the-art technology. As a private club, it features TrackMan launch monitors and advanced tracking camera systems, providing an accurate practice setting for skill sharpening or casual rounds with friends. The venue combines precision, comfort, and exclusivity, positioning itself as the ultimate indoor destination for golfers who demand excellence on and off the course. Membership is required, with options ranging from month-to-month to 12-month commitments, and a flexible hourly rate option is also available for non-members.",
+  "tags": "serious_practice|premium_tech|private_luxury|adults_only|coaching_available|corporate_events|leagues",
+  "vibe_tags": "private_luxury|tech_lab|upscale_lounge",
+  "who_its_for": "serious_golfers|corporate_teams|coaches_instructors|adults_only",
+  "why_golfers_like_it": [
+    "Elite, members-only environment ensuring privacy and exclusivity",
+    "State-of-the-art TrackMan launch monitors for the most accurate data and simulation",
+    "Multiple membership tiers to suit different practice habits and schedules",
+    "Flexible booking windows ranging from 3 to 14 days in advance"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of food service; BYOB policy not specified"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service; BYOB policy not specified"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "unknown",
+      "notes": "State-of-the-art launch monitors mentioned"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://booking.trackmangolf.com/venues/the-wedge/booking/bays",
+  "pricing_model": "mixed",
+  "price_range_min_local": 25,
+  "price_range_max_local": 275,
+  "currency": "USD",
+  "walk_ins_allowed": false,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 3,
+  "amenities_list": "club_rentals|full_bar|tv_sports|private_party_room|wifi|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "The website does not explicitly state whether club rentals are available. It is recommended to contact the venue directly for confirmation on club availability."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The website does not specify a food and drink policy. It is recommended to contact The Wedge directly to inquire about their policy on outside food and beverages."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "The website does not provide information on the average time to play 18 holes. This can vary depending on simulator usage and group size, so it's best to contact the venue for specific details."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "No, The Wedge is a private, members-only club with a focus on an elite adult environment. It does not appear to be marketed as a family-friendly or kid-friendly venue."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"6AM-10PM\"], \"Tuesday\": [\"6AM-10PM\"], \"Wednesday\": [\"6AM-10PM\"], \"Thursday\": [\"6AM-10PM\"], \"Friday\": [\"6AM-10PM\"], \"Saturday\": [\"6AM-10PM\"], \"Sunday\": [\"6AM-10PM\"]}"
+}

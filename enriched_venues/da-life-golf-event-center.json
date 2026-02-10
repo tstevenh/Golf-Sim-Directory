@@ -1,0 +1,91 @@
+{
+  "name": "DA LIFE GOLF & EVENT CENTER",
+  "address": "12105 W Alameda Pkwy Suite 140, Lakewood, CO 80228",
+  "city": "Lakewood",
+  "region": "Colorado",
+  "country": "US",
+  "latitude": 39.707417,
+  "longitude": -105.136285,
+  "phone": "+17209893023",
+  "website": "https://www.dalifegolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770215415/golf_simulators/www_dalifegolf_com_ChIJPzTuMQ-Da4cRj01u54fm3EU.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/DA+LIFE+GOLF+%26+EVENT+CENTER/@39.707417299999996,-105.1362855,14z/data=!4m8!1m2!2m1!1sDA+LIFE+GOLF+%26+EVENT+CENTER!3m4!1s0x876b830f31ee343f:0x45dce687e76e4d8f!8m2!3d39.707417299999996!4d-105.1362855",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJPzTuMQ-Da4cRj01u54fm3EU",
+  "email": "info@dalifegolf.com",
+  "venue_type": "sim_bar|training_studio|private_rental|multi_sport_sim",
+  "about": "DA LIFE GOLF & EVENT CENTER is Lakewood, Colorado's premier indoor golf simulator venue. The facility utilizes Full Swing technology to track key swing and ball-striking data, offering a space for golfers to refine their game. Beyond individual practice, the venue fosters a community atmosphere through leagues, event center functions, and partnerships with local organizations. It operates on a mixed pricing model with hourly bookings, memberships, and private event rentals available to cater to a diverse range of customers.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|club_rentals|private_rooms|coaching_available",
+  "vibe_tags": "community_club|tech_lab|casual|welcoming",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "Full Swing technology provides detailed swing data and ball tracking to help translate practice to the course",
+    "Ability to play iconic courses like Pebble Beach and St. Andrews alongside the pros",
+    "Multiple formats are available, including matchplay and Ryder Cup style",
+    "Welcoming community atmosphere and social environment for all skill levels"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of an on-site kitchen or food service."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of an alcohol bar. BYOB is not specified."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Full Swing",
+      "model": "unknown",
+      "notes": "Mentioned as the simulator technology provider used for tracking swing and ball-striking data."
+    }
+  ],
+  "simulator_software": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://clients.uschedule.com/dalifegolf/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|private_party_room|tv_sports|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The content does not specify, so it is recommended to bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food or drink?",
+      "answer": "The content does not specify a BYOB policy or restrictions on outside food and drink."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "The content does not provide a specific time estimate for playing 18 holes."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue appears to be family-friendly, offering a welcoming atmosphere and games like darts, skee ball, and football in addition to golf."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"12-10PM\"], \"Wednesday\": [\"12-10PM\"], \"Thursday\": [\"12-10PM\"], \"Friday\": [\"12-10PM\"], \"Saturday\": [\"12-10PM\"], \"Sunday\": [\"9AM-9PM\"]}"
+}

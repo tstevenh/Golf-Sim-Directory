@@ -1,0 +1,90 @@
+{
+  "name": "The Hack Shack",
+  "address": "108 W 39th St Rm 310, New York, NY 10018",
+  "city": "New York",
+  "region": "New York",
+  "country": "US",
+  "latitude": 40.753023,
+  "longitude": -73.986164,
+  "phone": "+12126854804",
+  "website": "http://www.thehackshack.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770205818/golf_simulators/www_thehackshack_com_ChIJyZgxSKdZwokR03xru_P0E6k.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Hack+Shack/@40.753023299999995,-73.986164,14z/data=!4m8!1m2!2m1!1sThe+Hack+Shack!3m4!1s0x89c259a7483198c9:0xa913f4f3bb6b7cd3!8m2!3d40.753023299999995!4d-73.986164",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJyZgxSKdZwokR03xru_P0E6k",
+  "email": "info@thehackshack.com",
+  "venue_type": "sim_bar",
+  "about": "The Hack Shack is a premier indoor golf facility located in New York City, offering a unique combination of high-level golf technology and a social atmosphere. The venue features Trackman simulators and a wide variety of courses, catering to both beginners and experienced golfers in an inclusive, year-round environment. With no long-term commitments required for memberships and flexible hourly rates, it provides an accessible option for both casual players and dedicated enthusiasts looking to practice or play with friends.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|coaching_available|date_night|large_groups|solo_practice",
+  "vibe_tags": "sports_bar|community_club|modern|welcoming",
+  "who_its_for": "beginners|serious_golfers|corporate_teams|large_groups|solo_practice",
+  "why_golfers_like_it": [
+    "Top-of-the-line Trackman technology for realistic simulation",
+    "Flexible no-commitment membership options with discounted rates",
+    "Social atmosphere with food, drinks, and sports viewing",
+    "Accommodates both individual practice and group events"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "On-site kitchen and food service available"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with adult beverages available"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Premium radar technology providing detailed ball and club tracking"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://go.booker.com/location/golfman/service-menu",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 85,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "full_bar|kitchen_food|tv_sports|club_rentals|pro_shop|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "You can bring your own clubs or rent them on-site. The facility offers club rentals for players who don't have their own equipment."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drinks are not allowed as The Hack Shack has its own full kitchen and bar serving food and beverages."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Typically, a full 18-hole simulation takes approximately 2-3 hours depending on group size and pace of play."
+    },
+    {
+      "question": "Is The Hack Shack kid-friendly?",
+      "answer": "The venue is designed for adults and adult-oriented social activities, with no specific mention of child-friendly amenities or policies."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"8AM-11PM\"], \"Tuesday\": [\"8AM-11PM\"], \"Wednesday\": [\"8AM-11PM\"], \"Thursday\": [\"8AM-11PM\"], \"Friday\": [\"8AM-11PM\"], \"Saturday\": [\"9AM-11PM\"], \"Sunday\": [\"9AM-9PM\"]}"
+}

@@ -1,0 +1,90 @@
+{
+  "name": "Midland Golf HQ",
+  "address": "1011 Commerce Dr, Midland, MI 48642",
+  "city": "Midland",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 43.667851,
+  "longitude": -84.239114,
+  "phone": "+19897507117",
+  "website": "http://midlandgolfhq.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770204477/golf_simulators/midlandgolfhq_com_ChIJF0k7zrl_IYgRJiVGD-byhCE.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Midland+Golf+HQ/@43.667851,-84.2391145,14z/data=!4m8!1m2!2m1!1sMidland+Golf+HQ!3m4!1s0x88217fb9ce3b4917:0x2184f2e60f462526!8m2!3d43.667851!4d-84.2391145",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJF0k7zrl_IYgRJiVGD-byhCE",
+  "venue_type": "training_studio|sim_bar|private_rental|retail_fitting_center|other",
+  "about": "Midland Golf HQ is a comprehensive golf training facility combining indoor technology with outdoor practice options. The venue offers two golf simulators equipped with Uneekor EYE XO launch monitors and E6 Software, providing access to over 100 courses. An outdoor driving range, indoor hitting nets, and a putting green complement the practice amenities. Professional coaching is available from Austin Deiters and Jesse Franjione, with club fittings utilizing FlightScope X3 technology. The facility operates with varied seasonal hours and offers season passes for regular visitors. Pricing follows a per-person hourly model for simulator usage and lessons, with specific rates for juniors and group sessions.",
+  "tags": "beginner_friendly|serious_practice|coaching_available|juniors_youth|corporate_events|premium_tech|club_rentals|leagues|budget_friendly|community_club",
+  "vibe_tags": "tech_lab|welcoming|modern|community_club",
+  "who_its_for": "beginners|serious_golfers|families|juniors_youth|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Professional-grade FlightScope X3 launch monitor technology for accurate club and ball data",
+    "Uneekor EYE XO simulators with E6 Software offering 100+ world-class courses",
+    "PGA-certified coaching staff with experience in both private lessons and group clinics",
+    "Seasonal indoor leagues and premium range passes for year-round play",
+    "Comprehensive club fitting services with technology-driven customization"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of food service"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service or BYOB policy"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "EYE XO",
+      "notes": "Two simulators equipped with Uneekor EYE XO launch monitors"
+    }
+  ],
+  "simulator_software": [
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://www.midlandgolfhq.com/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 45,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 0,
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|pro_shop|club_fitting|leagues|wifi|training_aids|video_analysis|indoor_putting_green|indoor_hitting_nets|outdoor_driving_range",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The facility does not explicitly state whether clubs are provided, but as a golf training and simulation center, it's recommended that golfers bring their own clubs for the most accurate experience."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "There is no mention of a BYOB policy or food service at the facility, so it's advisable to confirm this with the venue directly before your visit."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website doesn't specify a time estimate for playing 18 holes, but with two simulators available and no queue information mentioned, it would depend on booking availability and group size."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Midland Golf HQ offers junior rates for lessons (12th grade and under) and has a shop manager with experience coaching junior golf camps and group clinics, making it suitable for younger golfers."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"1-8PM\"], \"Tuesday\": [\"10AM-8PM\"], \"Wednesday\": [\"10AM-8PM\"], \"Thursday\": [\"10AM-8PM\"], \"Friday\": [\"10AM-8PM\"], \"Saturday\": [\"10AM-8PM\"], \"Sunday\": [\"10AM-7PM\"]}"
+}

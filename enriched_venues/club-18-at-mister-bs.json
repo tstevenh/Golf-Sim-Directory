@@ -1,0 +1,93 @@
+{
+  "name": "Club 18 at Mister B's",
+  "address": "1340 Hirschland Rd Suite C, Evansville, IN 47715",
+  "city": "Evansville",
+  "region": "Indiana",
+  "country": "US",
+  "latitude": 37.989037,
+  "longitude": -87.473083,
+  "phone": "+18124920075",
+  "website": "http://club18golf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770218479/golf_simulators/club18golf_com_ChIJGYdZchUrbogR5bpXHGCoTQY.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Club+18+at+Mister+B%27s/@37.9890372,-87.47308249999999,14z/data=!4m8!1m2!2m1!1sClub+18+at+Mister+B%27s!3m4!1s0x886e2b1572598719:0x64da8601c57bae5!8m2!3d37.9890372!4d-87.47308249999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJGYdZchUrbogR5bpXHGCoTQY",
+  "venue_type": "sim_bar",
+  "about": "Club 18 at Mister B's is a dual-location golf simulator venue operating in Evansville and Owensboro. The facility uses Trackman technology and offers an upscale bar atmosphere, making it a hybrid golf and social space. Customers are charged per bay hour, allowing for groups of up to 6 golfers to play together for a single hourly rate. The venue emphasizes safety and clear rules, with strict guidelines on equipment use and COVID-19 risk acknowledgment.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|serious_golfers|families|corporate_events|premium_tech|budget_friendly|club_rentals|coaching_available",
+  "vibe_tags": "upscale_lounge|sports_bar|tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|date_night",
+  "why_golfers_like_it": [
+    "Premium Trackman technology for accurate shot tracking",
+    "Upscale bar atmosphere providing a social golf experience",
+    "Flexible hourly pricing accommodating groups of up to 6",
+    "Two convenient locations in Evansville and Owensboro"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen available with menu items like BBQ Chicken pizza"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar serving cocktails and cold beer, no BYOB policy indicated"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Premium radar-based launch monitor used across all simulator bays"
+    }
+  ],
+  "simulator_so": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://club18golf.com/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 50,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|kitchen_food|tv_sports|private_party_room|pro_shop|club_fitting|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, rental clubs are available. You are responsible for any damage or missing clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No outside food or drinks are allowed inside the simulators. Kitchen and bar services are available on-site."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "For a twosome, it typically takes 1.5 hours. For a foursome, it usually takes 3 hours."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The venue has an upscale bar atmosphere and safety rules that suggest it is not primarily designed for children."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-9:30PM\"], \"Tuesday\": [\"10AM-9:30PM\"], \"Wednesday\": [\"10AM-9:30PM\"], \"Thursday\": [\"10AM-9:30PM\"], \"Friday\": [\"10AM-10:30PM\"], \"Saturday\": [\"10AM-10:30PM\"], \"Sunday\": [\"10AM-9:30PM\"]}"
+}

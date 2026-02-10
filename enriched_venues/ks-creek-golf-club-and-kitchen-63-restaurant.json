@@ -1,0 +1,95 @@
+{
+  "name": "K's Creek Golf Club and Kitchen 63 Restaurant",
+  "address": "1265 Sandusky Rd, Jacksonville, IL 62650",
+  "city": "Jacksonville",
+  "region": "Illinois",
+  "country": "US",
+  "latitude": 39.750905,
+  "longitude": -90.249251,
+  "phone": "+12176020533",
+  "website": "http://www.kscreekgolfclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770270199/golf_simulators/www_kscreekgolfclub_com_ChIJv7Po9hPp34cRQvXfYXyoDyA.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/K%27s+Creek+Golf+Club+and+Kitchen+63+Restaurant/@39.7509054,-90.2492508,14z/data=!4m8!1m2!2m1!1sK%27s+Creek+Golf+Club+and+Kitchen+63+Restaurant!3m4!1s0x87dfe913f6e8b3bf:0x200fa87c61dff542!8m2!3d39.7509054!4d-90.2492508",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJv7Po9hPp34cRQvXfYXyoDyA",
+  "email": "kscreekgolfclub@gmail.com",
+  "venue_type": "sim_bar|training_studio|private_rental|retail_fitting_center|country_club|multi_sport_sim|hotel_resort|other",
+  "about": "K's Creek Golf Club offers a dual experience combining a golf course with an indoor simulator center and a full-service restaurant. The facility features an Indoor Golf Center equipped with three Full Swing Simulators, which can be used for golf or other sports like soccer and baseball. The venue includes Kitchen 63, an upscale Modern American restaurant with a dedicated bar area and outdoor amenities like a playground and bocce ball courts. Pricing appears to be flexible with hourly simulator rates, daily course rates, and annual passes available.",
+  "tags": "food_and_drinks|beginner_friendly|kids_friendly|corporate_events|multi_sport_sim|family_fun_center",
+  "vibe_tags": "casual|welcoming|modern|family_fun_center",
+  "who_its_for": "families|beginners|corporate_teams|large_groups|tourists_travelers",
+  "why_golfers_like_it": [
+    "Play over 80 different courses",
+    "SwingTrack technology for swing analysis",
+    "Weather-independent golf with comfortable indoor conditions",
+    "Multiple sports available beyond golf",
+    "On-site food and drink services"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Upscale Modern American restaurant with hand-cut steaks, fresh seafood, and salads. Full menu available with online ordering and delivery."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Dedicated bar area serving wine, handcrafted cocktails, and other beverages."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Full Swing",
+      "model": "Simulator",
+      "notes": "3 High-End Full Swing Simulators with SwingTrack technology for swing and ball flight analysis."
+    }
+  ],
+  "simulator_so": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://order.toasttab.com/online/ks-creek-golf-club-kitchen-63-1265-sandusky-road",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|kitchen_food|tv_sports|private_party_room|club_rentals|pro_shop|leagues|kids_play_area",
+  "rating_tech_quality": 4.0,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "Yes, you are expected to bring your own clubs for use with the simulators."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No, the venue has its own restaurant (Kitchen 63) and bar where food and drinks must be purchased."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "You can play 9 holes in under an hour on the simulators."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue has a playground and bocce ball courts, making it family-friendly."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.0,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"Closed\"], \"Wednesday\": [\"10:30AM-9PM\"], \"Thursday\": [\"10:30AM-9PM\"], \"Friday\": [\"10:30AM-9PM\"], \"Saturday\": [\"10:30AM-9PM\"], \"Sunday\": [\"10:30AM-6PM\"]}"
+}

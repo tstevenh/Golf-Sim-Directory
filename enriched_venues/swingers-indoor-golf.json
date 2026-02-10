@@ -1,0 +1,88 @@
+{
+  "name": "Swingers Indoor Golf",
+  "address": "317 S State St, Oscoda Township, MI 48750",
+  "city": "Oscoda Township",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 44.418007,
+  "longitude": -83.329808,
+  "phone": "+19893350935",
+  "website": "https://www.swingersindoorgolf.net/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770204421/golf_simulators/www_swingersindoorgolf_net_ChIJRbXNTzg9J4gRl0sQbPZQvwg.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Swingers+Indoor+Golf/@44.418006999999996,-83.329808,14z/data=!4m8!1m2!2m1!1sSwingers+Indoor+Golf!3m4!1s0x88273d384fcdb545:0x8bf50f66c104b97!8m2!3d44.418006999999996!4d-83.329808",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJRbXNTzg9J4gRl0sQbPZQvwg",
+  "venue_type": "sim_bar|training_studio|private_rental|retail_fitting_center|country_club|multi_sport_sim|hotel_resort|other",
+  "about": "Swingers Indoor Golf is a premier indoor golf simulator venue located in Oscoda, Michigan, offering year-round access to state-of-the-art technology and a welcoming atmosphere. The facility is equipped with ProTee VX Overhead launch monitors and GSPro software, featuring over 350 community-built courses and support for up to four players per bay. Rentals are available by the hour, allowing golfers to hit the range or play a full round on top courses worldwide. The venue offers a selection of non-alcoholic drinks and apparel for sale, with options from Bahami Style, including shirts, accessories, and golf gloves. Swingers caters to a diverse clientele, from beginners to serious golfers, providing a relaxed environment for practice, play, and league participation.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|kids_friendly|corporate_events|leagues|premium_tech|budget_friendly|private_rooms|club_rentals|coaching_available",
+  "vibe_tags": "sports_bar|family_fun_center|community_club|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Advanced ProTee VX Overhead launch monitor technology for precise shot data",
+    "GSPro software offering over 350 community courses with multiplayer support",
+    "Relaxed, welcoming atmosphere suitable for players of all skill levels"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service mentioned; only non-alcoholic drinks available."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "ProTee",
+      "model": "VX Overhead",
+      "notes": "Dual high-speed camera system with slow-motion impact viewing."
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "overhead_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://www.swingersindoorgolf.net/s/appointments",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|lockers|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue does not specify whether club rentals are available, so it is recommended to bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "The venue offers a selection of non-alcoholic drinks for sale but does not mention outside food or drink policies."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time required to play 18 holes is not specified, but hourly bay rentals are available for practice or full rounds."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Swingers Indoor Golf is described as welcoming and suitable for families, with kid-friendly amenities like non-alcoholic drinks and a relaxed atmosphere."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"3:30-10PM\"], \"Wednesday\": [\"3:30-10PM\"], \"Thursday\": [\"3:30-10PM\"], \"Friday\": [\"3:30-10PM\"], \"Saturday\": [\"2-10PM\"], \"Sunday\": [\"2-10PM\"]}"
+}

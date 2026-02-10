@@ -1,0 +1,90 @@
+{
+  "name": "Peak Golf",
+  "address": "1730 Briargate Blvd, Colorado Springs, CO 80920",
+  "city": "Colorado Springs",
+  "region": "Colorado",
+  "country": "US",
+  "latitude": 38.948512,
+  "longitude": -104.794668,
+  "phone": "+17193774725",
+  "website": "https://peakgolf.us/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770226878/golf_simulators/peakgolf_us_ChIJ3yqI6VBPE4cR0jVRiDLZ6w8.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Peak+Golf/@38.948511599999996,-104.7946679,14z/data=!4m8!1m2!2m1!1sPeak+Golf!3m4!1s0x87134f50e9882adf:0xfebd932885135d2!8m2!3d38.948511599999996!4d-104.7946679",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ3yqI6VBPE4cR0jVRiDLZ6w8",
+  "email": "info@peakgolf.us",
+  "venue_type": "sim_bar",
+  "about": "Peak Golf is an indoor golf simulator facility located inside the larger Peak Pickleball complex in Colorado Springs. It features premium Trackman IO technology, allowing year-round play on over 300 virtual golf courses with real-time data tracking. The venue has a lounge-style atmosphere with comfortable seating, offering a social space where groups can enjoy food and drinks while playing. Pricing is based on hourly simulator bay rates, split among up to four players, and the facility includes access to golf club rentals.",
+  "tags": "food_and_drinks|leagues|club_rentals|coaching_available|premium_tech|beginner_friendly|corporate_events",
+  "vibe_tags": "casual|welcoming|modern|sports_bar",
+  "who_its_for": "families|beginners|serious_golfers|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Gold-standard Trackman IO simulator for precise ball and club tracking",
+    "Convenient on-site food and drink options including beer and pizza",
+    "Social lounge environment perfect for groups and family outings",
+    "Variety of game formats and challenges beyond standard play"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Joey's Pizza available on-site"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Whistle Pig Brewing Co. available in the lobby"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Premium radar-based launch monitor with real-time ball and club tracking"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://peakgolf.us/book/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 50,
+  "price_range_max_local": 50,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|wifi|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, Peak Golf offers Wilson-branded golf clubs available for rent at $10 per hour. You can select club rentals during the online booking process."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No outside food or drinks are allowed. Peak Golf serves food and drinks on-site, with Whistle Pig Brewing Co. in the lobby and Joey's Pizza available nearby."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes isn't explicitly stated, but typical simulator sessions are booked by the hour. Players can schedule simulator time through CourtReserve and play at their own pace."
+    },
+    {
+      "question": "Is Peak Golf kid-friendly?",
+      "answer": "Yes, Peak Golf is suitable for families. The venue offers a comfortable lounge environment with couches and tables, is located next to Chapel Hills Mall for shopping, and provides a welcoming space for various age groups."
+    }
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"7AM-9PM\"], \"Tuesday\": [\"7AM-9PM\"], \"Wednesday\": [\"7AM-9PM\"], \"Thursday\": [\"7AM-9PM\"], \"Friday\": [\"7AM-9PM\"], \"Saturday\": [\"7AM-9PM\"], \"Sunday\": [\"7AM-9PM\"]}"
+}

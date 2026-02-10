@@ -1,0 +1,90 @@
+{
+  "name": "Kevics Golf Academy",
+  "address": "133 Sports Pkwy suite d, Keller, TX 76248",
+  "city": "Keller",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 32.9334,
+  "longitude": -97.257995,
+  "phone": "+14402586672",
+  "website": "https://www.kevics.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770210899/golf_simulators/www_kevics_com_ChIJD_U4FTfXTYYRxARFS-JFKME.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Kevics+Golf+Academy/@32.9333996,-97.2579949,14z/data=!4m8!1m2!2m1!1sKevics+Golf+Academy!3m4!1s0x864dd7371538f50f:0xc12845e24b4504c4!8m2!3d32.9333996!4d-97.2579949",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJD_U4FTfXTYYRxARFS-JFKME",
+  "venue_type": "training_studio",
+  "about": "Kevics Golf Academy is a year-round practice facility specializing in golf coaching and TrackMan technology. The academy offers private and group coaching sessions for adults and juniors, along with junior golf programs, camps, and scholarship opportunities. They utilize TrackMan launch monitor technology for both instruction and self-guided practice sessions. The venue emphasizes a structured learning environment with strict safety rules and a 24-hour cancellation policy for all services.",
+  "tags": "serious_practice|juniors_youth|coaching_available|private_rooms|budget_friendly",
+  "vibe_tags": "industrial_training|community_club|modern",
+  "who_its_for": "serious_golfers|juniors_youth|beginners|coaches_instructors",
+  "why_golfers_like_it": [
+    "Access to premium TrackMan technology for detailed swing analysis",
+    "Structured coaching programs tailored to individual skill levels",
+    "Focus on creating a safe and respectful learning environment",
+    "Year-round practice facility independent of weather conditions"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of food service; likely BYOB"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service; likely BYOB"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "unknown",
+      "notes": "TrackMan launch monitor technology is prominently featured"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.kevics.com/booking/lessons.html",
+  "pricing_model": "mixed",
+  "price_range_min_local": 37,
+  "price_range_max_local": 75,
+  "currency": "USD",
+  "walk_ins_allowed": false,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|coaching_available",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, golfers are expected to bring their own clubs for all sessions and practice."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No specific mention of food or drink service, suggesting it may be a BYOB facility, but this is not explicitly confirmed."
+    },
+    {
+      "question": "How long does it take to play 18 holes on the simulator?",
+      "answer": "Time for 18 holes is not specified, but TrackMan range sessions are offered in 55-minute and 85-minute increments."
+    },
+    {
+      "question": "Is this facility kid-friendly?",
+      "answer": "Yes, Kevics Golf Academy offers dedicated junior golf programs, summer camps, and has specific rules and expectations for junior participants."
+    }
+  ],
+  "simulator_software": [
+    "TrackMan TPS"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"9AM-9PM\"], \"Tuesday\": [\"9AM-9PM\"], \"Wednesday\": [\"9AM-9PM\"], \"Thursday\": [\"9AM-5PM\"], \"Friday\": [\"9AM-5PM\"], \"Saturday\": [\"9AM-2PM\"], \"Sunday\": [\"Closed\"]}"
+}

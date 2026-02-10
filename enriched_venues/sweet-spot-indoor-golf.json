@@ -1,0 +1,94 @@
+{
+  "name": "Sweet Spot Indoor Golf",
+  "address": "4655 S 1900 W #1, Roy, UT 84067",
+  "city": "Roy",
+  "region": "Utah",
+  "country": "US",
+  "latitude": 41.178917,
+  "longitude": -112.026367,
+  "phone": "+13852881902",
+  "website": "https://golfsweet.net/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770223954/golf_simulators/golfsweet_net_ChIJ-S2osqoPU4cRKATPzhTeAvQ.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Sweet+Spot+Indoor+Golf/@41.1789175,-112.0263672,14z/data=!4m8!1m2!2m1!1sSweet+Spot+Indoor+Golf!3m4!1s0x87530faab2a82df9:0xf402de14cecf0428!8m2!3d41.1789175!4d-112.0263672",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ-S2osqoPU4cRKATPzhTeAvQ",
+  "email": "service@golfsweet.net",
+  "venue_type": "sim_bar",
+  "about": "Sweet Spot Indoor Golf is a premium single-bay indoor golf facility that provides a professional golfing experience with a focus on privacy and high-quality technology. The venue utilizes TrackMan launch monitors, the same system trusted by PGA professionals, to offer precise data and the ability to play world's top courses in stunning high definition. Designed with a private luxury atmosphere, the space caters exclusively to members, featuring a distraction-free environment with comfortable temperature controls and 24-hour availability to accommodate any schedule. Memberships offer unlimited sessions with zero contracts, while also providing options for corporate events that combine business presentations with leisure activities.",
+  "tags": "beginner_friendly|serious_golfers|corporate_events|private_rooms|coaching_available|premium_tech|late_night|food_and_drinks|casual|welcoming",
+  "vibe_tags": "private_luxury|tech_lab|casual|welcoming",
+  "who_its_for": "serious_golfers|corporate_teams|solo_practice|low_handicap|coaches_instructors",
+  "why_golfers_like_it": [
+    "Professional-grade TrackMan technology for precise shot data and swing analysis",
+    "Unlimited, distraction-free practice sessions with no contracts required",
+    "24-hour availability allowing for flexible practice at any time",
+    "Private single-bay space designed exclusively for members' comfort and focus",
+    "AI-driven practice recommendations to improve ball striking over time"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned on website"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No bar or alcohol service mentioned on website; appears to be BYOB policy"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Premium launch monitor used by PGA professionals for precise shot data"
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 1,
+  "booking_url": "https://golfsweet.net/membership",
+  "pricing_model": "membership_only",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|private_party_room|wifi|pro_shop|club_fitting",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.5,
+  "rating_value_for_money": 4.2,
+  "faq": [
+    {
+      "question": "Do I need to bring my own golf clubs?",
+      "answer": "The website doesn't explicitly state whether they provide club rentals, but it does mention 'top-quality hitting mats' and 'club fitting' as amenities, suggesting they may have equipment available. It's recommended to contact them directly for specific equipment details."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "While the website doesn't mention an on-site kitchen or bar, it appears that you can bring your own food and drinks, as the corporate event description mentions creating memorable experiences 'with the joy of play,' and there are no restrictions mentioned against outside items."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "The website doesn't specify the average time to complete 18 holes. Since it's a premium single-bay facility focused on quality practice sessions rather than speed, playing 18 holes would likely take longer than at a traditional course, potentially 2-3 hours depending on the players' pace and the simulator's capabilities."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The venue is described as a 'premium single-bay facility' designed exclusively for members, with an atmosphere focused on serious golf practice and corporate events. There's no mention of family-oriented activities, junior programs, or child-friendly amenities, indicating it's not particularly geared toward kids."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.5,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

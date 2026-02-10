@@ -1,0 +1,89 @@
+{
+  "name": "Tribute Golf Course",
+  "address": "1001 Golf Club Rd, Wausau, WI 54403",
+  "city": "Wausau",
+  "region": "Wisconsin",
+  "country": "US",
+  "latitude": 44.991543,
+  "longitude": -89.615388,
+  "phone": "+17156753663",
+  "website": "http://golfinwausau.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770228880/golf_simulators/golfinwausau_com_ChIJreCheVAnAIgRyIDy6DaD6ZA.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Tribute+Golf+Course/@44.9915425,-89.6153879,14z/data=!4m8!1m2!2m1!1sTribute+Golf+Course!3m4!1s0x8800275079a1e0ad:0x90e98336e8f280c8!8m2!3d44.9915425!4d-89.6153879",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJreCheVAnAIgRyIDy6DaD6ZA",
+  "venue_type": "sim_bar|training_studio",
+  "about": "Tribute Golf Course, located in Wausau, Wisconsin, is part of a dual-venue facility that includes both an outdoor golf course and an indoor golf simulator. The indoor simulator offers a climate-controlled environment for year-round practice and play. It provides convenient booking through Eagle Club Systems and supports both individual and group sessions. The facility is affiliated with Tribute Golf Course, which features a full-service clubhouse restaurant and is managed by local ownership focused on providing affordable rates and community-friendly golf experiences.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|coaching_available|juniors_youth|family_friendly",
+  "vibe_tags": "casual|welcoming|modern|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "Indoor golf simulator allows for year-round play and practice, unaffected by weather",
+    "Offers competitive pricing with a $2/player discount for online tee time reservations",
+    "Convenient booking system with options to save a shortcut on mobile devices for easy access",
+    "Supports junior golf programs with free and discounted rates for young players"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "On-site full-service bar & restaurant (Bunkers Restaurant) at the clubhouse offering a full menu"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full-service bar available at Bunkers Restaurant in the clubhouse"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Eagle Club Systems",
+      "model": "ECS Tee Time Software",
+      "notes": "In-house booking and management software; no specific hardware details provided"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": "unknown",
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 12,
+  "booking_url": "https://player.eagleclubsystems.online/#/tee-slot?dbname=wgcops20220301",
+  "pricing_model": "per_person_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 3.5,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 4.2,
+  "faq": [
+    {
+      "question": "Do I need my own golf clubs to use the simulator?",
+      "answer": "The website does not specify if club rentals are available; it is recommended to bring your own clubs for the best experience."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue features Bunkers Restaurant, a full-service bar & restaurant, so outside food and drink policies are not detailed. It is recommended to inquire directly."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes on the simulator?",
+      "answer": "The website does not provide a specific time estimate for completing 18 holes, but booking is done in hourly slots."
+    },
+    {
+      "question": "Is the simulator kid-friendly?",
+      "answer": "Yes, the facility supports junior golf with free golf for juniors when playing with a paid adult and special events like the 'Fore The Kids Golf Funraiser Event'."
+    }
+  ],
+  "rating_overall": 3.9,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"Closed\"], \"Wednesday\": [\"10AM-8PM\"], \"Thursday\": [\"10AM-8PM\"], \"Friday\": [\"10AM-8PM\"], \"Saturday\": [\"10AM-8PM\"], \"Sunday\": [\"10AM-8PM\"]}"
+}

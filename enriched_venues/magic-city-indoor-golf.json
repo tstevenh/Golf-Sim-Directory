@@ -1,0 +1,90 @@
+{
+  "name": "Magic City Indoor Golf",
+  "address": "1218 Alford Ave, Birmingham, AL 35226",
+  "city": "Birmingham",
+  "region": "Alabama",
+  "country": "US",
+  "latitude": 33.431664,
+  "longitude": -86.82542,
+  "phone": "+12055934543",
+  "website": "http://www.magiccityindoorgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770201899/golf_simulators/www_magiccityindoorgolf_com_ChIJzU2qJWgfiYgRsfXf4m9VR-U.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Magic+City+Indoor+Golf/@33.431663799999995,-86.82541979999999,14z/data=!4m8!1m2!2m1!1sMagic+City+Indoor+Golf!3m4!1s0x88891f6825aa4dcd:0xe547556fe2dff5b1!8m2!3d33.431663799999995!4d-86.82541979999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJzU2qJWgfiYgRsfXf4m9VR-U",
+  "venue_type": "training_studio",
+  "about": "Magic City Indoor Golf is an indoor golf facility offering a combination of advanced technology and professional instruction. The venue features GCHawk launch monitors, GSPro course software, and Swing Catalyst video analysis technology for comprehensive swing and putting analysis. Located in Hoover, Alabama, it provides a dedicated space for golf practice, lessons, and competitive leagues. Memberships, bay rentals, and club fitting services are available, with the option to book sessions online or by phone.",
+  "tags": "serious_practice|coaching_available|leagues|premium_tech|club_fitting|food_and_drinks|corporate_events",
+  "vibe_tags": "tech_lab|community_club|modern",
+  "who_its_for": "serious_golfers|families|corporate_teams|juniors_youth|coaches_instructors",
+  "why_golfers_like_it": [
+    "Comprehensive swing analysis with video and balance plate technology",
+    "Access to over 1100 virtual courses with GSPro software",
+    "PGA-certified professional instruction available",
+    "Option for group events and private parties",
+    "In-house club fitting services from major manufacturers"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Variety of snacks available, with option to have food delivered"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Beer, wine, and sodas available for purchase"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight Sports",
+      "model": "GCHawk",
+      "notes": "Overhead-mounted launch monitor with ball tracking"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": "unknown",
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 5,
+  "booking_url": "https://clients.uschedule.com/thompsongolfacademy/booking?filter=loc[11353]_ser[36199]",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 0,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|club_fitting|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Club rentals are available, and you can also bring your own clubs. Club fitting services from major manufacturers are also offered."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food delivery is permitted, and the venue offers snacks, sodas, beer, and wine for purchase."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes depends on the virtual course and player pace, but typical sessions range from 1-2 hours."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, the facility offers junior instruction and camps, making it suitable for children and families."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-9PM\"], \"Tuesday\": [\"9AM-9PM\"], \"Wednesday\": [\"9AM-9PM\"], \"Thursday\": [\"9AM-9PM\"], \"Friday\": [\"9AM-9PM\"], \"Saturday\": [\"8AM-10PM\"], \"Sunday\": [\"9AM-8PM\"]}"
+}

@@ -1,0 +1,91 @@
+{
+  "name": "Swing Loose Indoor Golf",
+  "address": "2000 Center Dr Suite A206, Hoffman Estates, IL 60192",
+  "city": "Hoffman Estates",
+  "region": "Illinois",
+  "country": "US",
+  "latitude": 42.07232,
+  "longitude": -88.126681,
+  "phone": "+18478862770",
+  "website": "https://swingloosegolf.com/locations/il/hoffman-estates/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770220872/golf_simulators/swingloosegolf_com_ChIJJYUJXPynD4gRSrRhin91t2M.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Swing+Loose+Indoor+Golf/@42.0723205,-88.1266808,14z/data=!4m8!1m2!2m1!1sSwing+Loose+Indoor+Golf!3m4!1s0x880fa7fc5c098525:0x63b7757f8a61b44a!8m2!3d42.0723205!4d-88.1266808",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJJYUJXPynD4gRSrRhin91t2M",
+  "email": "info.bwc@swingloosegolf.com",
+  "venue_type": "sim_bar",
+  "about": "Swing Loose Indoor Golf - Hoffman Estates is an indoor golf facility located in the Bell Works Chicagoland complex. It utilizes TrackMan iO technology in multiple bays to provide realistic golf simulation experiences with real-time swing analysis and ball flight data. The venue offers a relaxed atmosphere suitable for casual play, practice sessions, and group events, with a focus on accessibility through hourly bay rentals and membership options. Pricing is flexible, with hourly rates, monthly memberships starting at $99, and special offers for frequent players and building tenants.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|kids_friendly|corporate_events|leagues|premium_tech|budget_friendly|private_rooms|club_rentals|coaching_available",
+  "vibe_tags": "casual|welcoming|modern|family_fun_center",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Real-time swing feedback and ball data from TrackMan iO technology",
+    "Ability to play on iconic virtual golf courses worldwide",
+    "Flexible booking options for groups up to 6 people per bay",
+    "Relaxed, fun atmosphere suitable for various occasions",
+    "Option to book adjacent bays for larger parties and events"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen available with food service"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "BYOB policy allows guests to bring their own food and drinks"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Combines radar, infrared, and high-speed imaging for accurate real-time data"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "https://clients.uschedule.com/swingloosehoffman/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 0,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|leagues|pro_shop|club_fitting|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can bring your own clubs or rent them at the venue. Swing Loose also offers custom club fittings using TrackMan technology."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, the venue has a BYOB policy, allowing guests to bring their own food and drinks. They also have a full kitchen and bar available."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes varies based on your pace and the course chosen, but typically takes 1.5-2 hours on average."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is family-friendly and accommodates up to 6 people per bay. They also offer kids golf clinics and host birthday parties."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"8AM-6PM\"], \"Tuesday\": [\"8AM-6PM\"], \"Wednesday\": [\"11AM-10PM\"], \"Thursday\": [\"11AM-10PM\"], \"Friday\": [\"11AM-10PM\"], \"Saturday\": [\"9AM-10PM\"], \"Sunday\": [\"10AM-6PM\"]}"
+}

@@ -1,0 +1,90 @@
+{
+  "name": "Terrace Park Country Club",
+  "address": "5341 S Milford Rd, Milford, OH 45150",
+  "city": "Milford",
+  "region": "Ohio",
+  "country": "US",
+  "latitude": 39.157494,
+  "longitude": -84.293013,
+  "phone": "+15138313384",
+  "website": "https://terraceparkcc.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770252704/golf_simulators/terraceparkcc_com_ChIJPfg_y-uqQYgR1wTGTzzuieI.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Terrace+Park+Country+Club/@39.1574945,-84.293013,14z/data=!4m8!1m2!2m1!1sTerrace+Park+Country+Club!3m4!1s0x8841aaebcb3ff83d:0xe289ee3c4fc604d7!8m2!3d39.1574945!4d-84.293013",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJPfg_y-uqQYgR1wTGTzzuieI",
+  "email": "info@terraceparkcc.com",
+  "venue_type": "country_club",
+  "about": "Terrace Park Country Club is a private, family-oriented country club located in the eastern suburbs of Cincinnati, Ohio. Founded in 1910, the club is situated along the East Fork and Little Miami Rivers, offering a tranquil, parkland setting for its members. The venue features an 18-hole golf course, extensive outdoor and indoor practice facilities, and a state-of-the-art Trackman simulator and launch monitor for year-round play and practice. Additional amenities include platform tennis, pickleball, a swimming pool, a fitness center, and multiple dining and bar spaces for private and club-wide events. Membership is required for access and participation in all club activities.",
+  "tags": "serious_golfers|families|corporate_events|private_rooms|club_rentals|food_and_drinks|premium_tech|coaching_available|leagues",
+  "vibe_tags": "private_luxury|family_fun_center|community_club|upscale_lounge",
+  "who_its_for": "serious_golfers|families|corporate_teams|coaches_instructors|juniors_youth",
+  "why_golfers_like_it": [
+    "State-of-the-art Trackman golf simulator and launch monitor for year-round play",
+    "Extensive outdoor and indoor practice facilities for dedicated practice sessions",
+    "18-hole championship course in a tranquil, parkland setting",
+    "Multiple dining options and event spaces for social gatherings"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Multiple dining spaces available for breakfast, lunch, and dinner; custom menus can be created for events."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar services available in the club's dining and bar spaces."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "State-of-the-art Trackman golf simulator and launch monitor"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://terraceparkcc.com/member-login",
+  "pricing_model": "membership_only",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 5,
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|full_bar|kitchen_food|private_party_room|wifi|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.5,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs to use the simulator?",
+      "answer": "The website does not explicitly state whether club rentals are available, so it is recommended to bring your own clubs or contact the club directly for more information."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The club offers multiple dining and bar spaces, but as a private club, policies on outside food and drinks are not detailed. It is best to inquire directly with the club for specific policies."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes on the simulator?",
+      "answer": "The website does not provide specific timing for simulator rounds, but typical simulator sessions for 18 holes range from 2 to 3 hours depending on the group size and pace of play."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, Terrace Park Country Club is family-friendly and offers many year-round activities for kids, including swimming, fitness, and various sports."
+    }
+  ],
+  "rating_overall": 4.4,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"7:30AM-9PM\"], \"Wednesday\": [\"7:30AM-9PM\"], \"Thursday\": [\"7:30AM-9PM\"], \"Friday\": [\"7:30AM-9PM\"], \"Saturday\": [\"7:30AM-9PM\"], \"Sunday\": [\"7:30AM-9PM\"]}"
+}

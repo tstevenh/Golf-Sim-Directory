@@ -1,0 +1,99 @@
+{
+  "name": "Tee Box Golf House",
+  "address": "137 Mountain View Rd, Hillsborough Township, NJ 08844",
+  "city": "Hillsborough Township",
+  "region": "New Jersey",
+  "country": "US",
+  "latitude": 40.480224,
+  "longitude": -74.665638,
+  "phone": "+19082920992",
+  "website": "https://teeboxgolfhouse.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770208890/golf_simulators/teeboxgolfhouse_com_ChIJX0UhB0Lpw4kRbbvpiI-hGYc.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Tee+Box+Golf+House/@40.480223599999995,-74.6656381,14z/data=!4m8!1m2!2m1!1sTee+Box+Golf+House!3m4!1s0x89c3e9420721455f:0x8719a18f88e9bb6d!8m2!3d40.480223599999995!4d-74.6656381",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJX0UhB0Lpw4kRbbvpiI-hGYc",
+  "email": "INFO@TEEBOXGOLFHOUSE.COM",
+  "venue_type": "sim_bar",
+  "about": "Tee Box Golf House is a golf simulator lounge located in Hillsborough, New Jersey, offering a space for all skill levels to play in perfect conditions, practice with Trackman-powered data, or relax with mini golf. The venue operates on a bay-hour pricing model, allowing up to 6 people per bay, and is situated inside Iron Peak Sports and Events, which provides additional amenities including a bar and restaurant. Booking is recommended to ensure the facility is open, with members able to book up to two weeks in advance and non-members up to one week.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|coaching_available|private_rooms|club_rentals|community_club",
+  "vibe_tags": "casual|welcoming|modern|sports_bar",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|large_groups",
+  "why_golfers_like_it": [
+    "Premium Trackman technology for accurate game tracking and data analysis",
+    "Spacious bays accommodating up to 6 players for group outings",
+    "On-site coaching available for game improvement",
+    "Part of a larger sports complex with full bar and restaurant"
+  ],
+  "kid_friendly": false,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Food service available from Iron Peak Sports and Events' kitchen, starting at 12:30 pm on weekends and 5 pm on weekdays. Outside food is not permitted when the bar is open."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available from Iron Peak Sports and Events, starting at 12:30 pm on weekends and 5 pm on weekdays."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Purpose-built indoor golf simulator designed for the ultimate indoor golf experience."
+    },
+    {
+      "brand": "Trackman",
+      "model": "TM4",
+      "notes": "Complete golf performance, improvement, and entertainment solution that is more than just a launch monitor."
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://booking.trackmangolf.com/venues/tee-box-golf-house/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 65,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|leagues|pro_shop|coaching_available",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "While a few sets of clubs are available on a first-come, first-served basis, it is highly recommended that you bring your own set. The venue does not have enough clubs for all bays."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drinks are not permitted when the on-site bar is open. Food service is available from the Iron Peak Sports and Events kitchen."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "On average, it takes 1 hour per golfer to complete 18 holes. If there is one player, it will take 1 hour, but with 4 players, it is recommended to book 4 hours to ensure enough time to finish the round."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "No, the venue specifically states they do not have kids golf clubs and is not marketed as a family-friendly environment for children."
+    }
+  ],
+  "simulator_software": [
+    "Trackman",
+    "Trackman Golf"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"12-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"9AM-10PM\"], \"Saturday\": [\"9AM-10PM\"], \"Sunday\": [\"9AM-8PM\"]}"
+}

@@ -1,0 +1,89 @@
+{
+  "name": "Tour Quality Golf",
+  "address": "6006 S Sheridan Rd Suite A, Tulsa, OK 74145",
+  "city": "Tulsa",
+  "region": "Oklahoma",
+  "country": "US",
+  "latitude": 36.077264,
+  "longitude": -95.905397,
+  "phone": "+19182217096",
+  "website": "http://www.tourqualitygolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770202979/golf_simulators/www_tourqualitygolf_com_ChIJA86Qr2OMtocRkI8GJfr6tqw.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Tour+Quality+Golf/@36.077264299999996,-95.9053971,14z/data=!4m8!1m2!2m1!1sTour+Quality+Golf!3m4!1s0x87b68c63af90ce03:0xacb6fafa25068f90!8m2!3d36.077264299999996!4d-95.9053971",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJA86Qr2OMtocRkI8GJfr6tqw",
+  "email": "customerservice@tourqualitygolf.com",
+  "venue_type": "training_studio",
+  "about": "Tour Quality Golf is an indoor golf training facility in Tulsa, Oklahoma, offering year-round access through TrackMan-powered simulator bays. The facility provides comprehensive services including PGA-certified coaching, precision club fitting, and golf club repair, catering to golfers of all skill levels. It operates on a flexible model, allowing non-members to book bays by the hour while also offering multi-tiered memberships for those seeking unlimited, 24/7 access.",
+  "tags": "beginner_friendly|serious_golfers|coaching_available|corporate_events|juniors_youth|premium_tech|private_rooms|club_rentals|budget_friendly",
+  "vibe_tags": "industrial_training|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "Year-round, all-weather indoor access to premium TrackMan simulators",
+    "Comprehensive services from lessons and fittings to club repair under one roof",
+    "Flexible pricing model with no membership required for bay rentals"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food services mentioned on the website."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol services mentioned on the website."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Primary simulator hardware used for bay rentals and fitting services."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://app.birrdi.com/u/reserve?team_booking_link_id=tour-quality-golf",
+  "pricing_model": "mixed",
+  "price_range_min_local": 40,
+  "price_range_max_local": 50,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|pro_shop|club_fitting|leagues|lockers|wifi",
+  "rating_tech_quality": 5.0,
+  "rating_facility_comfort": 4.6,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can bring your own clubs, but the facility offers a variety of demo gear across multiple brands for use during fittings and practice sessions."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No external food or drink services are mentioned, indicating they are not available on-site."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website doesn't specify the time for an 18-hole simulation, as pricing is based on hourly bay rentals rather than per-round."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, the venue specifically offers a Junior Membership for golfers under 17, indicating a welcoming environment for younger players."
+    }
+  ],
+  "rating_overall": 4.5,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-10PM\"], \"Saturday\": [\"10AM-10PM\"], \"Sunday\": [\"10AM-7PM\"]}"
+}

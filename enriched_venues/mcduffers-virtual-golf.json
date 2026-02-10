@@ -1,0 +1,90 @@
+{
+  "name": "McDuffers Virtual Golf",
+  "address": "215 W Lake Rd, Mayville, NY 14757",
+  "city": "Mayville",
+  "region": "New York",
+  "country": "US",
+  "latitude": 42.232644,
+  "longitude": -79.490601,
+  "phone": "+17162699003",
+  "website": "http://www.mcdufferschq.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770214043/golf_simulators/www_mcdufferschq_com_ChIJ-5qRV2hPLYgRdusGzeYJjPQ.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/McDuffers+Virtual+Golf/@42.232644,-79.49060109999999,14z/data=!4m8!1m2!2m1!1sMcDuffers+Virtual+Golf!3m4!1s0x882d4f6857919afb:0xf48c09e6cd06eb76!8m2!3d42.232644!4d-79.49060109999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ-5qRV2hPLYgRdusGzeYJjPQ",
+  "venue_type": "sim_bar",
+  "about": "McDuffers Virtual Golf offers a premium virtual golf experience using Golfzon's state-of-the-art simulator technology. The venue provides a realistic and immersive gameplay environment with features like a moving swing plate, high-speed camera sensors, and auto-tee retrieval. Patrons can play on over 200 real-life courses, including Pebble Beach and Bethpage State Park. The pricing is structured per simulator hour, with rates of $40 on weekdays and $50 on weekends for up to six people. McDuffers is ideal for those seeking both serious practice and a social golfing experience.",
+  "tags": "food_and_drinks|serious_golfers|premium_tech|corporate_events|large_groups|date_night|coaching_available",
+  "vibe_tags": "casual|welcoming|modern",
+  "who_its_for": "serious_golfers|families|large_groups|corporate_teams|tourists_travelers",
+  "why_golfers_like_it": [
+    "Golfzon's top-tier simulator technology provides highly accurate ball tracking and yardages",
+    "Moving swing plate mimics real-world conditions for authentic practice",
+    "Over 200 world-class courses available for play",
+    "Immediate swing feedback with launch angle, ball speed, and trajectory analysis",
+    "Private bay setup accommodates groups for social or corporate events"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Available at Bellini's Lounge during operating hours or patrons can bring their own non-alcoholic food and snacks are available at the hotel front desk"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Available at Bellini's Lounge during its operating hours (Tuesday-Saturday, 4-9pm); BYOB alcohol not permitted"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Golfzon",
+      "model": null,
+      "notes": "Premium simulator system with moving swing plate and high-speed camera sensors"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface|dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "http://www.mcdufferschq.com/book-now",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 40,
+  "price_range_max_local": 50,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|kitchen_food|tv_sports|club_rentals|pro_shop|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website doesn't explicitly state if they provide club rentals, but it's recommended to bring your own clubs for the most authentic experience."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "You can bring your own non-alcoholic drinks and food when Bellini's Lounge is closed. Snacks are also available at the hotel front desk. Alcohol can only be purchased at Bellini's Lounge during its operating hours."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "A single golfer can play approximately 18 holes in one hour. The venue accommodates up to six people per simulator bay."
+    },
+    {
+      "question": "Is McDuffers kid-friendly?",
+      "answer": "Yes, McDuffers is family-friendly with a casual atmosphere and activities suitable for various skill levels, making it a good option for families."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"8AM-9PM\"], \"Tuesday\": [\"8AM-9PM\"], \"Wednesday\": [\"8AM-9PM\"], \"Thursday\": [\"8AM-9PM\"], \"Friday\": [\"8AM-10PM\"], \"Saturday\": [\"8AM-10PM\"], \"Sunday\": [\"8AM-10PM\"]}"
+}

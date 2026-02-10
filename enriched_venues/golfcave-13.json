@@ -1,0 +1,93 @@
+{
+  "name": "GolfCave",
+  "address": "455 W Mt Pleasant Ave, Livingston, NJ 07039",
+  "city": "Livingston",
+  "region": "New Jersey",
+  "country": "US",
+  "latitude": 40.79607,
+  "longitude": -74.34468,
+  "phone": "+19737652283",
+  "website": "https://golfcave.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770209028/golf_simulators/golfcave_com_ChIJ2wOxl2Gpw4kRX7WSDlrBk1o.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/GolfCave/@40.796070199999996,-74.3446799,14z/data=!4m8!1m2!2m1!1sGolfCave!3m4!1s0x89c3a96197b103db:0x5a93c15a0e92b55f!8m2!3d40.796070199999996!4d-74.3446799",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ2wOxl2Gpw4kRX7WSDlrBk1o",
+  "email": "clark@golfcave.com",
+  "venue_type": "sim_bar",
+  "about": "GolfCave is a 24/7 indoor golf facility offering private 'Cave' bays equipped with TrackMan golf simulators, allowing players to practice or play on over 250 renowned courses. The venues cater to golfers of all skill levels with amenities including BYOB food and drink, recliner seating, and advanced TrackMan technology for detailed swing analysis. GolfCave provides flexible booking options for individual sessions, group events, and corporate outings, combining the convenience of a private practice space with the social atmosphere of a modern sports lounge.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|private_rooms|club_rentals|coaching_available",
+  "vibe_tags": "sports_bar|private_luxury|tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "24/7 access to private simulator bays",
+    "Advanced TrackMan technology for precise swing data",
+    "BYOB policy for food and drinks in a comfortable lounge setting",
+    "Ability to play on over 100 famous golf courses",
+    "Indoor league and tournament options year-round",
+    "On-site coaching and club fitting services"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "BYOB policy allows patrons to bring their own food into the private bays."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "BYOB policy allows patrons to bring their own alcoholic beverages."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Primary launch monitor and simulator system providing real-time ball and club data."
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://clients.uschedule.com/golfcave/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 45,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|private_party_room|club_fitting|leagues|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need my own golf clubs?",
+      "answer": "Yes, you will need to bring your own golf clubs to use at GolfCave."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, GolfCave operates on a BYOB (Bring Your Own Beverage) policy, allowing you to bring food and drinks into your private bay."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "A typical 18-hole round at GolfCave takes approximately 2-3 hours, depending on the course and simulator speed."
+    },
+    {
+      "question": "Is GolfCave kid-friendly?",
+      "answer": "Yes, GolfCave is accessible for juniors and youth golfers, offering a family-friendly environment for practice and play."
+    }
+  ],
+  "simulator_software": [
+    "TrackMan"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"9AM-9PM\"], \"Tuesday\": [\"9AM-9PM\"], \"Wednesday\": [\"9AM-9PM\"], \"Thursday\": [\"9AM-9PM\"], \"Friday\": [\"9AM-9PM\"], \"Saturday\": [\"9AM-9PM\"], \"Sunday\": [\"9AM-9PM\"]}"
+}

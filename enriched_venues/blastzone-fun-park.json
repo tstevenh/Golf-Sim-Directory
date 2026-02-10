@@ -1,0 +1,91 @@
+{
+  "name": "BlastZone Fun Park",
+  "address": "100 Wises Grove Rd, New Brighton, PA 15066",
+  "city": "New Brighton",
+  "region": "Pennsylvania",
+  "country": "US",
+  "latitude": 40.767612,
+  "longitude": -80.290798,
+  "phone": "+17248437043",
+  "website": "https://blastzonefunpark.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770232543/golf_simulators/blastzonefunpark_com_ChIJL6xQ_pZwNIgR7DSec9nGHMM.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/BlastZone+Fun+Park/@40.767611699999996,-80.2907982,14z/data=!4m8!1m2!2m1!1sBlastZone+Fun+Park!3m4!1s0x88347096fe50ac2f:0xc31cc6d9739e34ec!8m2!3d40.767611699999996!4d-80.2907982",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJL6xQ_pZwNIgR7DSec9nGHMM",
+  "venue_type": "multi_sport_sim",
+  "about": "BlastZone Fun Park is a multi-sport entertainment facility in New Brighton, PA, offering Trackman technology across its driving range bays. The venue provides simulator-based golf practice as part of its diverse activities, which include axe throwing, paintball, and a GellyBall arena. Pricing for the driving range is based on a ball purchase model, with Trackman simulation included. The facility is geared toward casual players, groups, and families seeking a variety of recreational activities beyond traditional golf.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|kids_friendly|budget_friendly|private_rooms|club_rentals",
+  "vibe_tags": "family_fun_center|party_atmosphere|tech_lab|community_club",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Trackman technology included with ball purchase",
+    "No reservation required for walk-in play",
+    "Multi-sport venue offering additional entertainment options",
+    "Affordable pricing model with bundled simulation access",
+    "Junior and group-friendly environment"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "No specific food service mentioned, BYOB likely allowed for events"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol service indicated on website"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "unknown",
+      "notes": "Trackman simulator in every bay, specific model not specified"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://blastzonefunpark.com/collections/book-now",
+  "pricing_model": "package",
+  "price_range_min_local": 25,
+  "price_range_max_local": 75,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website doesn't explicitly state whether clubs are provided or required. It's recommended to call ahead to confirm club availability."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The website doesn't specify food/drink policies. For group events, BYOB may be permitted, but confirmation is needed."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Website doesn't specify time estimates for 18 holes. Typical simulator play ranges from 1.5-3 hours depending on pace of play."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "Yes, BlastZone Fun Park offers multiple family-friendly activities including GellyBall, mini golf, and zombie-themed events, making it suitable for children."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

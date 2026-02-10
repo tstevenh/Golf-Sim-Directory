@@ -1,0 +1,85 @@
+{
+  "name": "Caddyshack",
+  "address": "209 Gloucester St, Brunswick, GA 31520",
+  "city": "Brunswick",
+  "region": "Georgia",
+  "country": "US",
+  "latitude": 31.149021,
+  "longitude": -81.496047,
+  "phone": "+19122757648",
+  "website": "https://www.caddyshacksimgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770233516/golf_simulators/www_caddyshacksimgolf_com_ChIJJer0TBTX5IgR9nRG1iVlr4E.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Caddyshack/@31.149020999999998,-81.4960469,14z/data=!4m8!1m2!2m1!1sCaddyshack!3m4!1s0x88e4d7144cf4ea25:0x81af6525d64674f6!8m2!3d31.149020999999998!4d-81.4960469",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJJer0TBTX5IgR9nRG1iVlr4E",
+  "venue_type": "sim_bar",
+  "about": "Caddyshack is an indoor golf entertainment venue featuring high-definition simulators and advanced ball-tracking systems designed to provide a realistic experience. The facility caters to a wide range of skill levels, offering analytical feedback for serious practice as well as casual game modes for recreational play. The environment focuses on community and comfort, inviting guests to play solo, join leagues, or host events in a space designed for fun and social connection.",
+  "tags": "indoor_golf|simulator|social|league_play|events|alcohol|casual|family_fun|membership|tournaments",
+  "vibe_tags": "casual|welcoming|social|sports_bar",
+  "who_its_for": "beginners|families|large_groups|serious_golfers|corporate_teams",
+  "why_golfers_like_it": [
+    "Weekly organized tournaments and leagues",
+    "Memberships available for frequent players",
+    "Full service bar with food and drinks",
+    "High-definition graphics and realistic simulation",
+    "Suitable for all skill levels with practice and game modes",
+    "Accepts walk-ins based on availability"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available, special beverage deals for members."
+    },
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Facility mentions comfort and community, implying dining options."
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": "unknown",
+  "club_tracking": "unknown",
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.caddyshacksimgolf.com/s/appointments",
+  "pricing_model": "Per Hour",
+  "price_range_min_local": 40,
+  "price_range_max_local": 50,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": false,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "food_and_drink|payment_options|tournaments|leagues|events|membership|parking",
+  "rating_tech_quality": 4.0,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "While not explicitly stated, most indoor golf venues provide rental clubs. It is recommended to call ahead to confirm availability."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Likely no. Caddyshack offers a full bar and likely food options, so outside food and beverages are typically not permitted."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "On average, 18 holes takes approximately 45-60 minutes per player, though Caddyshack recommends 1.5-2 hours for two players."
+    },
+    {
+      "question": "Is this kid-friendly?",
+      "answer": "Yes, Caddyshack states that all skill levels are welcome and provides a facility designed for fun, making it a suitable environment for families and juniors."
+    }
+  ],
+  "rating_overall": 4.0,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"4-9PM\"], \"Wednesday\": [\"4-9PM\"], \"Thursday\": [\"4-9PM\"], \"Friday\": [\"12-10PM\"], \"Saturday\": [\"10AM-10PM\"], \"Sunday\": [\"1-9PM\"]}"
+}

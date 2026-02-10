@@ -1,0 +1,90 @@
+{
+  "name": "The Bunker Guilderland",
+  "address": "2390 Western Ave, Guilderland, NY 12084",
+  "city": "Guilderland",
+  "region": "New York",
+  "country": "US",
+  "latitude": 42.706096,
+  "longitude": -73.918586,
+  "phone": "+15188673008",
+  "website": "http://getinthebunker.golf/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770217768/golf_simulators/getinthebunker_golf_ChIJpQinfl113okR9yt5kokO1fw.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Bunker+Guilderland/@42.706095999999995,-73.9185858,14z/data=!4m8!1m2!2m1!1sThe+Bunker+Guilderland!3m4!1s0x89de755d7ea708a5:0xfcd50e8992792bf7!8m2!3d42.706095999999995!4d-73.9185858",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJpQinfl113okR9yt5kokO1fw",
+  "email": "careers@getinthebunker.golf",
+  "venue_type": "sim_bar",
+  "about": "The Bunker is an indoor golf and social lounge venue that utilizes TrackMan technology, providing realistic golf simulation experiences. It operates multiple locations, each featuring a mix of golf bays, a bar, and food service, catering to both golfers and non-golfers. The venue is designed for various activities, including casual play, competitive sessions, leagues, corporate events, and parties, offering a comprehensive experience with a focus on hospitality and social interaction.",
+  "tags": "food_and_drinks|corporate_events|leagues|coaching_available|beginner_friendly|date_night|premium_tech|club_rentals",
+  "vibe_tags": "sports_bar|upscale_lounge|community_club",
+  "who_its_for": "beginners|serious_golfers|corporate_teams|families|solo_practice",
+  "why_golfers_like_it": [
+    "Access to professional-grade TrackMan simulators used by PGA players",
+    "Ability to host large groups in a single bay, making it cost-effective for parties and outings",
+    "Offers a complete social experience with a full bar and food menu in a relaxed lounge setting"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full food menu at some locations, light food menu at others"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar available at all locations"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Multiple bays equipped with TrackMan technology"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "http://getinthebunker.golf/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 65,
+  "price_range_max_local": 125,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 8,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|leagues|coaching_available",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.5,
+  "rating_value_for_money": 4.2,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "The venue is an indoor golf simulator, so you can play with or without your own clubs."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "Outside food and drinks are not permitted, as the venue has its own full bar and food menu."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The recommended time is one hour per person for a full 18-hole round."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The Bunker is primarily an adult-oriented sports bar and lounge, not specifically designed for children."
+    }
+  ],
+  "simulator_software": [
+    "TrackMan"
+  ],
+  "rating_overall": 4.5,
+  "opening_hours": "{\"Monday\": [\"9AM-11PM\"], \"Tuesday\": [\"9AM-11PM\"], \"Wednesday\": [\"9AM-11PM\"], \"Thursday\": [\"9AM-11PM\"], \"Friday\": [\"9AM-11PM\"], \"Saturday\": [\"9AM-11PM\"], \"Sunday\": [\"9AM-8PM\"]}"
+}

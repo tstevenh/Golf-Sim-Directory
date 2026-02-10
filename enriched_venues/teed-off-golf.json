@@ -1,0 +1,84 @@
+{
+  "name": "Tee'd Off Golf",
+  "address": "1600 S Water St #9, Kent, OH 44240",
+  "city": "Kent",
+  "region": "Ohio",
+  "country": "US",
+  "latitude": 41.135899,
+  "longitude": -81.356355,
+  "phone": "+13309683035",
+  "website": "https://teedoff-golf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770216101/golf_simulators/teedoff-golf_com_ChIJ_UoyrrslMYgR7v4ZDziIhks.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Tee%27d+Off+Golf/@41.135898499999996,-81.3563552,14z/data=!4m8!1m2!2m1!1sTee%27d+Off+Golf!3m4!1s0x883125bbae324afd:0x4b8688380f19feee!8m2!3d41.135898499999996!4d-81.3563552",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ_UoyrrslMYgR7v4ZDziIhks",
+  "venue_type": "sim_bar",
+  "about": "Tee'd Off Golf is a new indoor golf simulator venue located in Kent, Ohio, featuring three state-of-the-art simulator bays. Each bay accommodates up to four players, offering a space for both serious golfers looking to improve their game and groups seeking a fun activity. The facility provides an AI swing analysis trainer for personalized improvement and a variety of virtual golf courses. Pricing is structured at $50 per hour per bay for simulator time and $70 per hour for AI training sessions.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|families|corporate_events|leagues|premium_tech|private_rooms|club_rentals|coaching_available",
+  "vibe_tags": "casual|welcoming|modern|tech_lab",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "State-of-the-art simulator technology with AI swing analysis",
+    "Flexible booking for individuals and groups up to four per bay",
+    "Variety of virtual golf courses from around the world",
+    "On-site rental clubs and provided golf balls for convenience",
+    "Extended weekend hours for flexible play times"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Snacks and cold food available for purchase"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No alcohol served at this time"
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://book.squareup.com/appointments/fmpaug3bcgef2w/location/LVM844XDD8F6X/services",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 50,
+  "price_range_max_local": 70,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 3,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|tv_sports|leagues|wifi|pro_shop",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring clubs?",
+      "answer": "Bring your own clubs, or rental clubs are available for $10 per set. Balls are always provided."
+    },
+    {
+      "question": "Can I bring food or drink?",
+      "answer": "Food and drinks must remain at designated chairs. No food or beverages are allowed inside the simulator bay or near computers/electronics. Beverages and snacks are available for purchase on-site."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "It generally takes approximately 2 hours for 4 people to play 9 holes."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Children under age 14 must be accompanied by an adult at all times, making the venue suitable for families with supervision."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"11AM-9PM\"], \"Tuesday\": [\"Closed\"], \"Wednesday\": [\"11AM-9PM\"], \"Thursday\": [\"11AM-9PM\"], \"Friday\": [\"11AM-10PM\"], \"Saturday\": [\"9AM-10PM\"], \"Sunday\": [\"7AM-12PM\"]}"
+}

@@ -1,0 +1,89 @@
+{
+  "name": "The Bogey Room - Private Golf Simulator",
+  "address": "388 Larkspur St, Ponderay, ID 83852",
+  "city": "Ponderay",
+  "region": "Idaho",
+  "country": "US",
+  "latitude": 48.306282,
+  "longitude": -116.537511,
+  "phone": "+19862057090",
+  "website": "http://www.bogeyroom.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770249298/golf_simulators/www_bogeyroom_com_ChIJEe-5YI3RY1MRJejire4p0cU.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Bogey+Room+-+Private+Golf+Simulator/@48.306281999999996,-116.537511,14z/data=!4m8!1m2!2m1!1sThe+Bogey+Room+-+Private+Golf+Simulator!3m4!1s0x5363d18d60b9ef11:0xc5d129eeade2e825!8m2!3d48.306281999999996!4d-116.537511",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJEe-5YI3RY1MRJejire4p0cU",
+  "email": "golf@bogeyroom.com",
+  "venue_type": "sim_bar",
+  "about": "The Bogey Room is a private, member-only indoor golf lounge operating across three locations in the Pacific Northwest (Spokane Valley, WA; Sandpoint, ID; Hayden, ID). It offers exclusive access to state-of-the-art golf simulators in a luxury lounge environment designed for year-round play, practice, and community events. The venue operates on a membership basis with an initiation fee and monthly dues, providing unlimited access and the ability to bring guests. Pricing varies by location and does not require long-term contracts.",
+  "tags": "food_and_drinks|beginner_friendly|families|corporate_events|leagues|premium_tech|club_rentals|community_club|coaching_available",
+  "vibe_tags": "private_luxury|sports_bar|community_club",
+  "who_its_for": "families|serious_golfers|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "24/7 key card access and mobile booking for ultimate convenience",
+    "State-of-the-art Uneekor technology with 100+ world-class courses",
+    "Bi-monthly leagues, member tournaments, and a strong community focus"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "BYOB policy allowed; members can bring their own food and drink. Fridge available for storage during bookings. No eating or drinking on the turf."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "BYOB policy allowed; members can bring their own alcohol."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "Launch Monitor",
+      "notes": "Uneekor Launch Monitors, noted for being less than 1% off in accuracy."
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://clients.uschedule.com/bogeyroom/booking",
+  "pricing_model": "membership_only",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|kitchen_food|tv_sports|leagues|coaching_available",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to be a member to play?",
+      "answer": "Yes, membership is required to enjoy the golf lounge. The only exception is if you are a guest of a member."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "Yes, this is a private lounge where you can bring your own food and drink. A fridge is available for storage during your booking. Please do not eat or drink on the turf."
+    },
+    {
+      "question": "What are the lounge hours?",
+      "answer": "As a private lounge with 24/7 key card access, members can play at any time. However, walk-ins are allowed, though a booking will take precedence."
+    },
+    {
+      "question": "Is it kid-friendly?",
+      "answer": "Yes, the Bogey Room is described as family-friendly and encourages a community environment suitable for families."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

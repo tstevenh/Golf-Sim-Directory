@@ -1,0 +1,91 @@
+{
+  "name": "Tarpon Golf Club",
+  "address": "39320 US Hwy 19 N, Tarpon Springs, FL 34689",
+  "city": "Tarpon Springs",
+  "region": "Florida",
+  "country": "US",
+  "latitude": 28.1292,
+  "longitude": -82.74093,
+  "phone": "+17272974399",
+  "website": "https://www.tarpongolfclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770213520/golf_simulators/www_tarpongolfclub_com_ChIJx0bP0R6NwogRuwVW2nwnYr0.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Tarpon+Golf+Club/@28.1291998,-82.7409304,14z/data=!4m8!1m2!2m1!1sTarpon+Golf+Club!3m4!1s0x88c28d1ed1cf46c7:0xbd62277cda5605bb!8m2!3d28.1291998!4d-82.7409304",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJx0bP0R6NwogRuwVW2nwnYr0",
+  "email": "Golf.Team@tarpongolfclub.com",
+  "venue_type": "sim_bar",
+  "about": "Tarpon Golf Club is an indoor golf simulator venue offering a private and relaxing atmosphere for play, training, and socializing. The facility features state-of-the-art golf simulators with TruGolf Apogee hardware and E6 software, providing 4K high-definition graphics on a 16-foot wide screen. Players can access over 100 virtual courses from around the world and use the driving ranges for practice. The club offers flexible membership options, including monthly memberships, bulk session passes, and walk-ins, with sessions available in one, two, or four-hour blocks. Amenities include three 4K smart TVs for entertainment and sports streaming, allowing guests to bring their own food, drinks, and friends at no extra cost.",
+  "tags": "food_and_drinks|beginner_friendly|coaching_available|solo_practice|family_friendly|premium_tech",
+  "vibe_tags": "casual|welcoming|modern|private_luxury",
+  "who_its_for": "beginners|serious_golfers|families|solo_practice|tourists_travelers",
+  "why_golfers_like_it": [
+    "Professional-grade TruGolf Apogee simulators with 4K HD graphics and E6 software",
+    "Detailed swing analytics including impact cameras, ball data, and club head data",
+    "Relaxed private atmosphere where guests can bring their own food, drinks, and friends",
+    "Over 100 virtual golf courses and driving ranges available worldwide",
+    "Opportunity to take lessons from a professional golfer and performance coach"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Guests can bring their own food; a full-size refrigerator is available in the back room"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Guests can bring their own drinks"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "TruGolf",
+      "model": "Apogee",
+      "notes": "16-foot wide screen projection"
+    }
+  ],
+  "simulator_software": [
+    "E6"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": null,
+  "booking_url": "https://www.tarpongolfclub.com/book-the-club",
+  "pricing_model": "mixed",
+  "price_range_min_local": null,
+  "price_range_max_local": null,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": null,
+  "max_group_size_per_bay": null,
+  "amenities_list": "club_rentals|tv_sports|wifi|kitchen_food",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you need to bring your own clean clubs. No stickers are needed."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, you can bring your own food and drinks at no extra cost. A full-size refrigerator is available for your use."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The content does not specify the time required to play 18 holes."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is family-friendly and allows guests to bring friends and family at no additional charge."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"8AM-12AM\"], \"Tuesday\": [\"8AM-12AM\"], \"Wednesday\": [\"8AM-12AM\"], \"Thursday\": [\"8AM-12AM\"], \"Friday\": [\"8AM-12AM\"], \"Saturday\": [\"8AM-12AM\"], \"Sunday\": [\"8AM-12AM\"]}"
+}

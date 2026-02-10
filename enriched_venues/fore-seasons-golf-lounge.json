@@ -1,0 +1,95 @@
+{
+  "name": "Fore Seasons Golf Lounge",
+  "address": "3975 N 0800 E, Ephraim, UT 84627",
+  "city": "Ephraim",
+  "region": "Utah",
+  "country": "US",
+  "latitude": 39.32836,
+  "longitude": -111.622193,
+  "phone": "+14352834653",
+  "website": "https://pebblebeach.golf/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770226338/golf_simulators/pebblebeach_golf_ChIJXSFbsrdxTIcRIzHo8GcXtDE.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Fore+Seasons+Golf+Lounge/@39.328359999999996,-111.6221927,14z/data=!4m8!1m2!2m1!1sFore+Seasons+Golf+Lounge!3m4!1s0x874c71b7b25b215d:0x31b41767f0e83123!8m2!3d39.328359999999996!4d-111.6221927",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJXSFbsrdxTIcRIzHo8GcXtDE",
+  "email": "info@foreseasonsgolflounge.com",
+  "venue_type": "sim_bar",
+  "about": "Fore Seasons Golf Lounge is an indoor golf facility equipped with Trackman simulators, offering a climate-controlled environment for year-round play. The venue features over 240 golf courses globally and utilizes PGA/LPGA-approved technology for real-time swing and ball tracking. It provides options for casual play, private lessons, and memberships that include 24/7 access, catering to golfers of all skill levels.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|premium_tech|coaching_available|private_rooms|club_rentals|late_night|community_club",
+  "vibe_tags": "casual|welcoming|modern|tech_lab",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Access to over 240 golf courses worldwide",
+    "Real-time swing and ball tracking for immediate adjustments",
+    "24/7 membership access for flexible scheduling",
+    "PGA professional lessons available for skill development",
+    "Climate-controlled facility for year-round comfort"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Casual dining options available"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "BYOB policy not explicitly stated"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "PGA/LPGA-approved radar technology for precise shot tracking"
+    }
+  ],
+  "simulator_so": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://foreseasonsgolflounge.golfoclock.com/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|lockers|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, players are expected to bring their own clubs for use with the simulators."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue offers food and drink options, but a BYOB policy is not explicitly stated."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Typically, 18 holes can be played in 2-3 hours depending on group size and pace."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the facility is suitable for families and beginners of all ages."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

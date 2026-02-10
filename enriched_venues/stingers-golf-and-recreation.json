@@ -1,0 +1,95 @@
+{
+  "name": "Stingers Golf and Recreation",
+  "address": "601 E Paradise Dr, West Bend, WI 53095",
+  "city": "West Bend",
+  "region": "Wisconsin",
+  "country": "US",
+  "latitude": 43.397138,
+  "longitude": -88.166643,
+  "phone": "+12622476887",
+  "website": "https://www.stingersgolfwb.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770229613/golf_simulators/www_stingersgolfwb_com_ChIJkTz4uPj1BIgRFjsJtYeS5NU.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Stingers+Golf+and+Recreation/@43.3971381,-88.1666427,14z/data=!4m8!1m2!2m1!1sStingers+Golf+and+Recreation!3m4!1s0x8804f5f8b8f83c91:0xd5e49287b5093b16!8m2!3d43.3971381!4d-88.1666427",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJkTz4uPj1BIgRFjsJtYeS5NU",
+  "email": "theranwanta@stingersgolfwb.com",
+  "venue_type": "sim_bar",
+  "about": "Stingers Golf and Recreation is an indoor golf facility featuring AboutGolf simulators with state-of-the-art technology. They offer a variety of services including individual and group lessons, simulator leagues, and event hosting capabilities. The venue operates year-round with flexible hours and provides a comprehensive golf experience including practice facilities, food and beverage options, and both indoor and outdoor activities. Pricing is structured by time packages with seasonal variations, and they offer prepaid time discounts for frequent visitors.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|leagues|coaching_available|premium_tech|budget_friendly|family_friendly|group_events",
+  "vibe_tags": "sports_bar|family_fun_center|community_club|modern",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "State-of-the-art AboutGolf simulators with advanced technology for game improvement",
+    "Flexible booking system with online reservations and prepaid time options",
+    "Variety of activities including driving range, mini-golf, and indoor simulators",
+    "Professional instruction available with video analysis",
+    "Event hosting capabilities for parties and corporate outings",
+    "Year-round operation with extended weekend hours"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen available with pizza and other food options. Food packages included in event pricing."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Beer bar available inside the clubhouse. Drink tickets included in event packages."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "AboutGolf",
+      "model": "Simulator",
+      "notes": "State-of-the-art curved golf simulator screens"
+    }
+  ],
+  "simulator_so": [
+    "AboutGolf"
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://stingersgolfwb.reserve2day.com/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|pro_shop|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue does not specify whether clubs are provided, but it's recommended to bring your own for the best fit and familiarity."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drinks are not mentioned, but the venue has a full kitchen and bar available on-site."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The venue does not specify exact timing, but simulator time is typically booked in hourly increments."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Stingers offers a mini-golf course and is suitable for families with children."
+    }
+  ],
+  "simulator_software": [
+    "About Golf"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"9AM-11PM\"], \"Saturday\": [\"9AM-11PM\"], \"Sunday\": [\"9AM-10PM\"]}"
+}

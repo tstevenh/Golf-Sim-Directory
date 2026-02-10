@@ -1,0 +1,88 @@
+{
+  "name": "GolfLoft Keene",
+  "address": "3 Krif Ct, Keene, NH 03431",
+  "city": "Keene",
+  "region": "New Hampshire",
+  "country": "US",
+  "latitude": 42.913342,
+  "longitude": -72.286433,
+  "phone": "+16033660130",
+  "website": "http://www.golfkeene.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770199946/golf_simulators/www_golfkeene_com_ChIJ17ORZZlz4YkRySrTO1qbGuc.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/GolfLoft+Keene/@42.9133425,-72.2864329,14z/data=!4m8!1m2!2m1!1sGolfLoft+Keene!3m4!1s0x89e173996591b3d7:0xe71a9b5a3bd32ac9!8m2!3d42.9133425!4d-72.2864329",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ17ORZZlz4YkRySrTO1qbGuc",
+  "venue_type": "sim_bar",
+  "about": "GolfLoft Keene is an indoor golf facility that uses AboutGolf simulators to offer access to over 85 virtual courses. It caters to golfers of all skill levels with 24/7 access for members and hourly rentals for non-members. The venue features PGA professional instruction, PING club fitting services, and a relaxed clubhouse atmosphere. The Golf Loft provides a space for practice, league play, and events, equipped with modern technology including 32-inch TVs on each simulator.",
+  "tags": "beginner_friendly|leagues|coaching_available|food_and_drinks|date_night|family_friendly",
+  "vibe_tags": "community_club|casual|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "24/7 access allows for flexible practice and play times",
+    "Licensed PING fitter and regripping services for club customization",
+    "Multiple simulator bays available with entertainment TVs"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "BYOB allowed, bringing outside food and drinks is permitted"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "BYOB allowed, bringing outside alcohol is permitted"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "AboutGolf",
+      "model": "Simulator",
+      "notes": "85+ course simulator system used for all virtual golf experiences"
+    }
+  ],
+  "simulator_software": [
+    "AboutGolf"
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://clients.uschedule.com/thegolfloft/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 90,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|leagues|club_fitting|wifi",
+  "rating_tech_quality": 4.0,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "Yes, you need to bring your own golf clubs to use the simulators. Club rentals are not mentioned as an available service."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, the venue is BYOB, meaning you can bring your own food and alcohol."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not specify an exact time for 18 holes, but with 24/7 access and flexible booking, you can take as much time as needed."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, the venue offers a special junior rate of $60 per hour and is open to golfers of all skill levels, making it suitable for kids."
+    }
+  ],
+  "rating_overall": 4.1,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

@@ -1,0 +1,89 @@
+{
+  "name": "X-Golf Cedar Park",
+  "address": "12301 W Parmer Ln Building 1, Unit 105, Cedar Park, TX 78613",
+  "city": "Cedar Park",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 30.524526,
+  "longitude": -97.776883,
+  "phone": "+15126076227",
+  "website": "https://playxgolf.com/locations/cedar-park/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770240322/golf_simulators/playxgolf_com_ChIJu6lx8_3TRIYRniTuKta8OO4.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/X-Golf+Cedar+Park/@30.5245264,-97.77688309999999,14z/data=!4m8!1m2!2m1!1sX-Golf+Cedar+Park!3m4!1s0x8644d3fdf371a9bb:0xee38bcd62aee249e!8m2!3d30.5245264!4d-97.77688309999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJu6lx8_3TRIYRniTuKta8OO4",
+  "email": "robert@xgolfcedarpark.com",
+  "venue_type": "sim_bar",
+  "about": "X-Golf Cedar Park is a modern indoor golf facility featuring seven high-accuracy simulators in a 6,000 sq ft space. It offers a full bar with cocktails, beer, and wine, along with pizza and appetizers for a complete entertainment experience. The venue caters to golfers of all levels with PGA lessons, memberships, leagues, tournaments, and PXG club fittings. Each simulator accommodates up to 6 people and provides a premium experience with automatic ball teeing and fresh turf. The facility also features 12 TVs for sporting events and is available for private events and team building activities.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|leagues|premium_tech|club_rentals|coaching_available|family_friendly",
+  "vibe_tags": "sports_bar|modern|family_fun_center",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "World's most accurate golf simulator technology analyzing 6,000 measurements per second",
+    "Premium experience with automatic ball teeing and fresh turf",
+    "Comprehensive amenities including full bar, food, and 12 TVs for sports events"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Pizza and appetizers available"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with cocktails, beer, and wine"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "X-Golf",
+      "model": "State-of-the-art Simulator",
+      "notes": "Combination of camera systems, infrared lasers, impact sensors"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "mixed",
+  "lefty_friendly": true,
+  "bay_count_total": 7,
+  "booking_url": "https://indoorgolfcedarpark.as.me/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 45,
+  "price_range_max_local": 65,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 7,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|leagues|club_fitting",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, rental clubs are available at the venue."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No outside food or drinks are allowed as the venue offers its own full bar and food menu."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Generally, it takes 1 hour for an individual player to complete 18 holes. If playing with multiple people, you may need to book additional time depending on the group size."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, X-Golf Cedar Park welcomes children of all ages."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-9PM\"], \"Tuesday\": [\"10AM-9PM\"], \"Wednesday\": [\"10AM-9PM\"], \"Thursday\": [\"10AM-9PM\"], \"Friday\": [\"10AM-10PM\"], \"Saturday\": [\"9AM-10PM\"], \"Sunday\": [\"9AM-8PM\"]}"
+}

@@ -1,0 +1,93 @@
+{
+  "name": "Private Fairway Highwood",
+  "address": "772 Sheridan Rd, Highwood, IL 60040",
+  "city": "Highwood",
+  "region": "Illinois",
+  "country": "US",
+  "latitude": 42.212747,
+  "longitude": -87.817272,
+  "phone": "+18474635691",
+  "website": "https://highwood.privatefairway.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770215389/golf_simulators/highwood_privatefairway_com_ChIJiSVlgALBD4gRqx2qA9BY0hQ.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Private+Fairway+Highwood/@42.212747199999995,-87.8172721,14z/data=!4m8!1m2!2m1!1sPrivate+Fairway+Highwood!3m4!1s0x880fc10280652589:0x14d258d003aa1dab!8m2!3d42.212747199999995!4d-87.8172721",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJiSVlgALBD4gRqx2qA9BY0hQ",
+  "email": "highwood@privatefairway.com",
+  "venue_type": "training_studio",
+  "about": "Private Fairway Highwood is an indoor golf facility providing 24-hour access to TrackMan-equipped studios. The venue focuses on serious golf practice and improvement, offering memberships with unlimited access or punch passes. Members can lower their official handicap by 6-10 strokes using the TrackMan system, which provides complete club and ball data analysis. The facility features key fob entry and a mobile app for booking and managing sessions, with a policy of limited monthly memberships to ensure good access times for all players.",
+  "tags": "serious_practice|beginner_friendly|corporate_events|premium_tech|private_rooms|coaching_available|members_only|leagues|juniors_youth",
+  "vibe_tags": "industrial_training|tech_lab|community_club|modern",
+  "who_its_for": "serious_golfers|beginners|corporate_teams|solo_practice|coaches_instructors",
+  "why_golfers_like_it": [
+    "TrackMan technology provides complete club and ball data for every swing",
+    "24-hour access allows for flexible practice and play scheduling",
+    "Limited membership ensures good availability and access to tee times",
+    "Digital key fob and mobile app for easy booking and studio access"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of on-site food service"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "TrackMan",
+      "model": "iO",
+      "notes": "Primary launch monitor system for all bays"
+    }
+  ],
+  "simulator_so": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://highwood.privatefairway.com/book-online",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 12,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|tv_sports|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.0,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, the website mentions bringing your own clubs for both the free trial and regular sessions."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "No, there is no mention of BYOB or outside food being permitted at the facility."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website doesn't specify the time required to complete 18 holes, but sessions are booked in 50-minute increments."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "No, the facility is geared toward serious golf practice and improvement, with no mention of junior programs or family-friendly features."
+    }
+  ],
+  "simulator_software": [
+    "TrackMan"
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

@@ -1,0 +1,90 @@
+{
+  "name": "Bogey's Indoor Golf",
+  "address": "216 PA-183, Schuylkill Haven, PA 17972",
+  "city": "Schuylkill Haven",
+  "region": "Pennsylvania",
+  "country": "US",
+  "latitude": 40.617676,
+  "longitude": -76.214822,
+  "phone": "+16104847406",
+  "website": "https://www.bogeysindoorgolfsimulator.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770214730/golf_simulators/www_bogeysindoorgolfsimulator_com_ChIJY6qA2EHvxYkR_K35Hm2mzsg.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Bogey%27s+Indoor+Golf/@40.6176757,-76.2148225,14z/data=!4m8!1m2!2m1!1sBogey%27s+Indoor+Golf!3m4!1s0x89c5ef41d880aa63:0xc8cea66d1ef9adfc!8m2!3d40.6176757!4d-76.2148225",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJY6qA2EHvxYkR_K35Hm2mzsg",
+  "venue_type": "sim_bar",
+  "about": "Bogey's Indoor Golf is a state-of-the-art indoor golf simulator venue that allows golfers to play year-round regardless of weather conditions. The facility features advanced simulators with technology that tracks every swing and ball flight, providing a realistic and precise gameplay experience. Booking is done by the hour, offering flexible scheduling for individuals and groups, and is suitable for both casual players and seasoned golfers looking to practice or play on world-famous courses in a climate-controlled environment. The venue emphasizes convenience, social interaction, and a comfortable atmosphere, making it an ideal spot for fitting golf into a busy schedule or hosting small events.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|premium_tech|private_rooms|club_rentals|community_club",
+  "vibe_tags": "casual|welcoming|modern|sports_bar",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "All-weather, year-round play in a climate-controlled facility",
+    "Advanced simulator technology with detailed swing and ball flight tracking",
+    "Flexible booking by the hour to fit any schedule",
+    "Spacious and comfortable bays perfect for groups",
+    "Social atmosphere ideal for competing with friends"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Outside food may be restricted unless approved by management; avoid strong-smelling or messy foods"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service on premises"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "unknown",
+      "model": "unknown",
+      "notes": "Advanced simulator technology with detailed swing and ball flight tracking, but specific brand or model not mentioned"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar|photometric_camera|hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.bogeysindoorgolfsimulator.com/reserve",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|kitchen_food|tv_sports|private_party_room|wifi|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue does not specify whether club rentals are available, but it mentions 'club rentals' as an amenity, suggesting you may be able to rent clubs on-site."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food or beverages may be restricted unless approved by management. It's best to avoid strong-smelling or messy foods if bringing your own."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The venue recommends at least one hour per person for a full round, but the total time can vary depending on group size and pace."
+    },
+    {
+      "question": "Is Bogey's Indoor Golf kid-friendly?",
+      "answer": "Yes, the venue appears to be kid-friendly as it mentions families as a target audience and has a casual, welcoming atmosphere suitable for all ages."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"8AM-9PM\"], \"Tuesday\": [\"8AM-9PM\"], \"Wednesday\": [\"8AM-9PM\"], \"Thursday\": [\"8AM-9PM\"], \"Friday\": [\"8AM-9PM\"], \"Saturday\": [\"8AM-9PM\"], \"Sunday\": [\"8AM-9PM\"]}"
+}

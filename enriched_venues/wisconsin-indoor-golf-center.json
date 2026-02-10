@@ -1,0 +1,95 @@
+{
+  "name": "Wisconsin Indoor Golf Center",
+  "address": "206 Travis Ln #2, Waukesha, WI 53189",
+  "city": "Waukesha",
+  "region": "Wisconsin",
+  "country": "US",
+  "latitude": 42.976709,
+  "longitude": -88.230203,
+  "phone": "+12624360002",
+  "website": "http://wisconsinindoorgolfcenter.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770201161/golf_simulators/wisconsinindoorgolfcenter_com_ChIJMx1MMGamBYgRaprvBiGzMyY.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Wisconsin+Indoor+Golf+Center/@42.9767094,-88.23020269999999,14z/data=!4m8!1m2!2m1!1sWisconsin+Indoor+Golf+Center!3m4!1s0x8805a666304c1d33:0x2633b32106ef9a6a!8m2!3d42.9767094!4d-88.23020269999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJMx1MMGamBYgRaprvBiGzMyY",
+  "email": "Zach@wisconsinindoorgolfcenter.com",
+  "venue_type": "sim_bar",
+  "about": "Wisconsin Indoor Golf Center provides a family-friendly environment with 12 state-of-the-art golf simulators and a full bar. The facility offers hourly rentals for individual and group play, featuring over 2,000 courses worldwide, including Pebble Beach and Bethpage Black. Services include custom club fittings with a 40-year Ping representative, regripping, and memberships that provide one hour of daily play on weekdays. Located in Waukesha, WI, the venue is open for winter season operations with extended weekend hours.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|coaching_available|family_friendly|premium_tech|club_rentals",
+  "vibe_tags": "family_fun_center|sports_bar|tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Access to 12 premium TrackMan simulators with 2,000+ worldwide courses",
+    "On-site full bar with specialty cocktails and bar food, including NFL Sunday Ticket",
+    "Custom Ping club fitting services with a 40-year representative for improved performance",
+    "Flexible memberships offering one hour of daily weekday play for $199/month"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Bar food available including pizza, burgers, wings, and snacks"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with specialty cocktails"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "TrackMan",
+      "model": "iO",
+      "notes": "Premium radar-based launch monitor and simulator system"
+    },
+    {
+      "brand": "aboutGolf",
+      "model": "unknown",
+      "notes": "Photometric camera-based simulator system"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://app.acuityscheduling.com/schedule.php?owner=18145763",
+  "pricing_model": "mixed",
+  "price_range_min_local": 35,
+  "price_range_max_local": 47,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own golf clubs?",
+      "answer": "Yes, you will need to bring your own golf clubs to use the simulators."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "Outside food and drink are not allowed, but the venue offers a full bar with specialty cocktails and bar food including pizza, burgers, and wings."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Playing 18 holes typically takes 1-2 hours depending on the simulator software and the number of players sharing the bay."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Wisconsin Indoor Golf Center has a family-friendly environment, making it suitable for children to play and enjoy the golf experience."
+    }
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"9AM-11PM\"], \"Saturday\": [\"7AM-11PM\"], \"Sunday\": [\"7AM-8PM\"]}"
+}

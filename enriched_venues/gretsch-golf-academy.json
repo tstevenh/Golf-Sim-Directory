@@ -1,0 +1,94 @@
+{
+  "name": "Gretsch Golf Academy",
+  "address": "8580 Dean Martin Dr, Las Vegas, NV 89139",
+  "city": "Las Vegas",
+  "region": "Nevada",
+  "country": "US",
+  "latitude": 36.03401,
+  "longitude": -115.18248,
+  "phone": "+17252048112",
+  "website": "https://gretschgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770241550/golf_simulators/gretschgolf_com_ChIJST4iCpLPyIARAgL1KJPilMQ.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Gretsch+Golf+Academy/@36.034010099999996,-115.1824798,14z/data=!4m8!1m2!2m1!1sGretsch+Golf+Academy!3m4!1s0x80c8cf920a223e49:0xc494e29328f50202!8m2!3d36.034010099999996!4d-115.1824798",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJST4iCpLPyIARAgL1KJPilMQ",
+  "email": "hello@gretschgolf.com",
+  "venue_type": "training_studio",
+  "about": "Gretsch Golf Academy is a premier indoor golf training facility located in Las Vegas, NV. The academy features 13 golf bays with Foresight Falcon simulators, PGA Professional instruction, and a dedicated short game area with a real sand bunker. It offers a comprehensive training environment focused on skill development, utilizing modern technology such as Swing Catalyst video analysis and providing access to 1,800+ virtual golf courses. The facility is designed for structured practice, private lessons, club fittings, and membership-based programs catering to golfers of all ages and skill levels.",
+  "tags": "beginner_friendly|serious_practice|coaching_available|juniors_youth|families|premium_tech|club_rentals|leagues|private_rooms",
+  "vibe_tags": "upscale_lounge|tech_lab|community_club|modern",
+  "who_its_for": "beginners|serious_golfers|families|juniors_youth|solo_practice",
+  "why_golfers_like_it": [
+    "High-end Foresight Falcon simulators with precise shot data and video analysis",
+    "Dedicated short game area with real sand bunker for authentic practice conditions",
+    "Female-led, professional PGA instruction with a focus on long-term development",
+    "Two private bays with curved screens and lounge seating for immersive group sessions",
+    "16,000 sq ft purpose-built training facility designed for focused improvement"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service is mentioned. Outside food may be allowed."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "A non-alcoholic refreshment bar is available in private bays. No BYOB policy is stated."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": "Falcon",
+      "notes": "9 standard bays and 2 private bays with precise ball flight tracking and data analysis"
+    }
+  ],
+  "simulator_so": [
+    "Foresight Sports"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "real_putting_surface",
+  "lefty_friendly": true,
+  "bay_count_total": 13,
+  "booking_url": "https://gretschgolf.com/book",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|tv_sports|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you are expected to bring your own clubs for use in the simulator bays and short game area."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "No external food or alcohol is allowed, though a non-alcoholic refreshment bar is available in private bays."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Play times can vary, but a full 18-hole round typically takes 2 to 3 hours depending on the number of players and pace of play."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, the academy has a multi-level Junior Academy for beginners and competitive juniors, making it a great environment for young golfers to learn and develop their skills."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"8AM-9PM\"], \"Tuesday\": [\"8AM-9PM\"], \"Wednesday\": [\"8AM-9PM\"], \"Thursday\": [\"8AM-9PM\"], \"Friday\": [\"8AM-9PM\"], \"Saturday\": [\"8AM-9PM\"], \"Sunday\": [\"8AM-9PM\"]}"
+}

@@ -1,0 +1,96 @@
+{
+  "name": "ScorZone Golf Center & Lounge",
+  "address": "Tim Hortons Iceplex, 2700 Brighton Henrietta Town Line Rd, Rochester, NY 14623",
+  "city": "Rochester",
+  "region": "New York",
+  "country": "US",
+  "latitude": 43.098305,
+  "longitude": -77.602414,
+  "phone": "+15859029663",
+  "website": "http://www.scorzonegolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770207314/golf_simulators/www_scorzonegolf_com_ChIJ__9viSww0YkRqTRE9lCDX3k.png",
+  "google_maps_url": "https://www.google.com/maps/place/ScorZone+Golf+Center+%26+Lounge/@43.0983048,-77.60241359999999,14z/data=!4m8!1m2!2m1!1sScorZone+Golf+Center+%26+Lounge!3m4!1s0x89d1302c896fffff:0x795f8350f64434a9!8m2!3d43.0983048!4d-77.60241359999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ__9viSww0YkRqTRE9lCDX3k",
+  "email": "scorzone@timhortonsiceplex.com",
+  "venue_type": "sim_bar",
+  "about": "ScorZone Golf Center & Lounge is a golf simulator venue located at the Tim Hortons Iceplex in Rochester, NY. The facility features top-of-the-line golf simulator technology with three bays equipped with Foresight FSX Play GCQuad and GS Pro simulators. It offers a comfortable lounge atmosphere and a putting green. The venue provides access to over 1,100 golf courses, league opportunities, and golf club fittings with Mizuno, Cleveland, and Srixon brands. Additional amenities include on-site food and drink options at the Chef's Bar & Grill located within the same complex.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|club_rentals|community_club",
+  "vibe_tags": "casual|welcoming|sports_bar|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Premium Foresight GCQuad and GS Pro simulator technology",
+    "Over 1,100 virtual golf courses available",
+    "On-site Chef's Bar & Grill for food and drinks",
+    "Golf club fittings with major brands",
+    "Comfortable lounge atmosphere and dedicated putting green"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Available at Chef's Bar & Grill at Tim Hortons Iceplex"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Available at Chef's Bar & Grill at Tim Hortons Iceplex"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": "FSX Play GCQuad",
+      "notes": ""
+    },
+    {
+      "brand": "Foresight",
+      "model": "GS Pro",
+      "notes": ""
+    }
+  ],
+  "simulator_software": [
+    "FSX Play"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://app.birrdi.com/u/reserve?team_booking_link_id=scorzone-golf-center",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|leagues|club_fitting|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own golf clubs?",
+      "answer": "Yes, you will need to bring your own golf clubs. The facility also offers club fittings with Mizuno, Cleveland, and Srixon brands."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue has Chef's Bar & Grill at Tim Hortons Iceplex available for food and drinks. BYOB policies are not specified."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Time to play 18 holes is not specified, but typical simulator rounds take 1-2 hours depending on the number of players and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is family-friendly and offers a comfortable lounge atmosphere suitable for all ages."
+    }
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"12-8PM\"], \"Tuesday\": [\"12-8PM\"], \"Wednesday\": [\"12-8PM\"], \"Thursday\": [\"12-8PM\"], \"Friday\": [\"12-10PM\"], \"Saturday\": [\"10AM-10PM\"], \"Sunday\": [\"10AM-8PM\"]}"
+}

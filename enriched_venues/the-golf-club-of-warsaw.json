@@ -1,0 +1,90 @@
+{
+  "name": "The Golf Club of Warsaw",
+  "address": "318 Enterprise Dr, Warsaw, IN 46580",
+  "city": "Warsaw",
+  "region": "Indiana",
+  "country": "US",
+  "latitude": 41.259572,
+  "longitude": -85.853987,
+  "phone": "+15743146727",
+  "website": "https://www.thegolfclubofwarsaw.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770198981/golf_simulators/www_thegolfclubofwarsaw_com_ChIJh-Ha6kSfFogRDZU_PtYOBCg.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Golf+Club+of+Warsaw/@41.2595716,-85.8539874,14z/data=!4m8!1m2!2m1!1sThe+Golf+Club+of+Warsaw!3m4!1s0x88169f44eadae187:0x28040ed63e3f950d!8m2!3d41.2595716!4d-85.8539874",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJh-Ha6kSfFogRDZU_PtYOBCg",
+  "email": "info@thegolfclubofwarsaw.com",
+  "venue_type": "sim_bar",
+  "about": "The Golf Club of Warsaw is an indoor golf simulator venue that offers a premium experience for players of all abilities. Utilizing HD Golf simulator technology with four high-speed cameras, the facility provides accurate measurement of swing data and projection onto photo-realistic courses. The venue features semi-private rooms, a user-friendly interface with touch screens, and a variety of options including elite courses, social games, and practice modes. It is suitable for individual practice, friendly competitions, and corporate events, with a strong emphasis on high-tech simulation and comfort. Pricing appears to be on a per-session basis, accessible online booking, and availability for both casual players and serious golfers looking to improve their game.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|premium_tech|private_rooms|club_rentals|coaching_available",
+  "vibe_tags": "upscale_lounge|tech_lab|private_luxury",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams|solo_practice|coaches_instructors",
+  "why_golfers_like_it": [
+    "Highly accurate HD Golf simulator technology with four high-speed cameras",
+    "Semi-private rooms for comfortable and focused play",
+    "Large catalog of world-class courses mapped in stunning HD graphics",
+    "Advanced swing analysis including spin, distance, and speed measurements"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of on-site food service"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service; BYOB policy not specified"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "HD Golf",
+      "model": "Simulator",
+      "notes": "Four high-speed camera system with dedicated spin camera accurate to +/-100RPM"
+    }
+  ],
+  "simulator_software": [
+    "HD Golf"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://thegolfclubofwarsaw.as.me/",
+  "pricing_model": "per_person_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|private_party_room|wifi|pro_shop|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not explicitly state whether club rentals are available, though 'club_rentals' is listed as an amenity. It is recommended to contact the venue directly for confirmation."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The website does not mention any food or drink service, nor does it specify a BYOB policy. It is best to contact the venue directly for information outside catering policies."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "The website does not specify an average duration for a full 18-hole simulation. Typically, indoor golf rounds can vary from 1.5 to 3 hours depending on the simulator setup and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The website mentions 'Social Games' that are 'Perfect for challenging friends, family, or colleagues', but does not explicitly state specific child-friendly features or policies. It is advisable to contact the venue for details regarding children's participation and any age restrictions."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"11AM-10PM\"], \"Wednesday\": [\"11AM-10PM\"], \"Thursday\": [\"11AM-10PM\"], \"Friday\": [\"11AM-10PM\"], \"Saturday\": [\"8AM-9PM\"], \"Sunday\": [\"8AM-9PM\"]}"
+}

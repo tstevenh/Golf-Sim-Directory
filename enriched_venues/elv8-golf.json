@@ -1,0 +1,90 @@
+{
+  "name": "Elv8 Golf",
+  "address": "290 Parkway Industrial Ct, Lake St Louis, MO 63367",
+  "city": "Lake St Louis",
+  "region": "Missouri",
+  "country": "US",
+  "latitude": 38.76466,
+  "longitude": -90.802969,
+  "phone": "+16362650557",
+  "website": "https://elv8golf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770202675/golf_simulators/elv8golf_com_ChIJmzis2KPP3ocRDQZNlQ2mUgQ.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Elv8+Golf/@38.7646604,-90.8029686,14z/data=!4m8!1m2!2m1!1sElv8+Golf!3m4!1s0x87decfa3d8ac389b:0x452a60d954d060d!8m2!3d38.7646604!4d-90.8029686",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJmzis2KPP3ocRDQZNlQ2mUgQ",
+  "email": "info@elv8golf.com",
+  "venue_type": "training_studio",
+  "about": "Elv8 Golf is a player-focused golf performance hub dedicated to growing the game for athletes of all ages and experience levels. From beginners learning the basics to competitive juniors and adults looking to refine their skills, we create accessible, supportive, and professional golf experiences. The facility offers structured coaching, modern technology, and movement-based learning designed to make golf more enjoyable and more successful. Elv8 provides a comprehensive environment for year-round golf through its state-of-the-art simulator bays, junior golf programs, training memberships, and various leagues and events for golfers of all levels.",
+  "tags": "beginner_friendly|kids_friendly|leagues|coaching_available|serious_practice|juniors_youth|community_club|tech_lab",
+  "vibe_tags": "industrial_training|family_fun_center|community_club",
+  "who_its_for": "beginners|serious_golfers|families|juniors_youth|solo_practice",
+  "why_golfers_like_it": [
+    "Comprehensive junior golf academy with eight progressive levels",
+    "State-of-the-art Trackman simulators for year-round practice and play",
+    "Individualized, holistic training approach with structured development pathways",
+    "Wide range of programs from individual training to team and league play"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No information on food service available."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No information on alcohol service available."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "State-of-the-art simulator bays for accurate practice and play."
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://apimanager-cc20.clubcaddie.com/activities/view/ccfdabab",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|leagues|fitness|pro_shop",
+  "rating_tech_quality": 5.0,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Players are expected to bring their own golf clubs for practice and simulator sessions."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "The policy on outside food and drink is not specified on the website."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes on a simulator?",
+      "answer": "A typical 18-hole simulator round usually takes about 1.5 to 2 hours, depending on the pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Elv8 Golf is highly kid-friendly, offering a comprehensive junior golf academy with eight progressive levels designed for young athletes from first-touch learners to competitive players."
+    }
+  ],
+  "rating_overall": 4.4,
+  "opening_hours": "{\"Monday\": [\"7AM-10PM\"], \"Tuesday\": [\"7AM-10PM\"], \"Wednesday\": [\"7AM-10PM\"], \"Thursday\": [\"7AM-10PM\"], \"Friday\": [\"7AM-10PM\"], \"Saturday\": [\"7AM-10PM\"], \"Sunday\": [\"10AM-6PM\"]}"
+}

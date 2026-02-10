@@ -1,0 +1,89 @@
+{
+  "name": "The Virtual Golf Club",
+  "address": "2776 14000 S, Bluffdale, UT 84065",
+  "city": "Bluffdale",
+  "region": "Utah",
+  "country": "US",
+  "latitude": 40.497317,
+  "longitude": -111.959417,
+  "phone": "+18012079611",
+  "website": "https://myvirtualgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770206026/golf_simulators/myvirtualgolf_com_ChIJ_QN50CCFUocRp__vEoQWDc8.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Virtual+Golf+Club/@40.497316999999995,-111.959417,14z/data=!4m8!1m2!2m1!1sThe+Virtual+Golf+Club!3m4!1s0x87528520d07903fd:0xcf0d168412efffa7!8m2!3d40.497316999999995!4d-111.959417",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ_QN50CCFUocRp__vEoQWDc8",
+  "email": "scot@myvirtualgolf.com",
+  "venue_type": "training_studio",
+  "about": "The Virtual Golf Club is a premier indoor golf training facility in Utah, featuring state-of-the-art Trackman launch monitor technology and 350 virtual golf courses. It offers a controlled, year-round environment for playing, practicing, and learning, suitable for all skill levels from beginners to seasoned professionals. The facility provides various options including hourly rates, punch passes, lesson packages, and membership access, with a focus on using advanced data analytics to improve golf performance.",
+  "tags": "beginner_friendly|serious_golfers|coaching_available|corporate_events|premium_tech|private_rooms|club_rentals|budget_friendly|juniors_youth",
+  "vibe_tags": "tech_lab|community_club|modern|welcoming",
+  "who_its_for": "beginners|serious_golfers|juniors_youth|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Access to Trackman technology providing precise ball flight and club data analysis",
+    "Year-round, weather-independent golf on 350 famous virtual courses",
+    "Personalized instruction programs for all skill levels and age groups"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of food service on-site."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service on-site."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Advanced launch monitor with precise ball tracking and over 40 data points"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://www.myvirtualgolf.com/contact",
+  "pricing_model": "mixed",
+  "price_range_min_local": 25,
+  "price_range_max_local": 65,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 12,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|private_party_room|wifi|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website doesn't explicitly state whether club rentals are available, but it mentions having 'clubs that deliver realistic ball flight data,' suggesting they provide equipment."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "There is no mention of food or drink service at the venue, so it appears to be BYOB (Bring Your Own Beverages)."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website doesn't specify the time required for an 18-hole round, as it depends on the number of players and pace of play in the simulator."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the Virtual Golf Club offers youth golf lessons for ages 6-18, making it suitable for junior golfers."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

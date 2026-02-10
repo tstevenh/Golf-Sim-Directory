@@ -1,0 +1,95 @@
+{
+  "name": "The Golf Place",
+  "address": "3920 Dr. M.L.K. Jr Blvd, New Bern, NC 28562",
+  "city": "New Bern",
+  "region": "North Carolina",
+  "country": "US",
+  "latitude": 35.09566,
+  "longitude": -77.11395,
+  "phone": "+12524604545",
+  "website": "https://thegolfplacenb.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770228373/golf_simulators/thegolfplacenb_com_ChIJEQHPWeTXqIkR6XfsM1Ntl_Q.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Golf+Place/@35.0956599,-77.1139498,14z/data=!4m8!1m2!2m1!1sThe+Golf+Place!3m4!1s0x89a8d7e459cf0111:0xf4976d5333ec77e9!8m2!3d35.0956599!4d-77.1139498",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJEQHPWeTXqIkR6XfsM1Ntl_Q",
+  "email": "thegolfplacenb@gmail.com",
+  "venue_type": "sim_bar",
+  "about": "The Golf Place is New Bern's first dedicated indoor golf simulator facility, opening September 2025. It features tour-level Foresight GC Hawk simulators with 24/7 member access and offers public play during staffed hours. The facility combines cutting-edge technology with a relaxed atmosphere, including a lounge area with craft beer and wine. Membership options range from seasonal to founding-level, providing flexible access to practice, leagues, and professional coaching.",
+  "tags": "food_and_drinks|beginner_friendly|date_night|leagues|premium_tech|coaching_available|club_rentals|private_rooms|community_club",
+  "vibe_tags": "casual|welcoming|modern|upscale_lounge",
+  "who_its_for": "beginners|serious_golfers|families|solo_practice|corporate_teams",
+  "why_golfers_like_it": [
+    "Tour-level Foresight GC Hawk technology for precise shot data",
+    "24/7 member access with flexible booking options",
+    "In-house PGA professional for data-driven instruction",
+    "Social atmosphere with craft beverages and relaxed lounge space"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Gourmet light fare available in the lounge area"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Curated beer and wine selection, perfect for date nights"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": "GC Hawk",
+      "notes": "Overhead ball tracking technology with sub-millimeter precision"
+    }
+  ],
+  "simulator_so": [
+    "FSX Play",
+    "FSX 2020",
+    "FSX Pro"
+  ],
+  "launch_monitor_type": "overhead_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://thegolfplacenb.com/book",
+  "pricing_model": "mixed",
+  "price_range_min_local": 30,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|wifi|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need clubs?",
+      "answer": "You can bring your own clubs for the most accurate instruction, or use complimentary rental clubs provided by the facility."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "The facility offers craft beer and wine for purchase, along with gourmet light fare. Outside food and drink policies are not specified."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time required for 18 holes is not specified, but sessions are booked by the hour with up to 4 players per bay."
+    },
+    {
+      "question": "Is it kid-friendly?",
+      "answer": "Yes, the facility offers kids' driving range-style events and is accessible with family-friendly amenities including ADA parking and restrooms."
+    }
+  ],
+  "simulator_software": [
+    "FSX Play; FSX 2020; FSX Pro"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"10AM-8PM\"], \"Tuesday\": [\"10AM-8PM\"], \"Wednesday\": [\"10AM-8PM\"], \"Thursday\": [\"10AM-8PM\"], \"Friday\": [\"10AM-8PM\"], \"Saturday\": [\"10AM-8PM\"], \"Sunday\": [\"10AM-8PM\"]}"
+}

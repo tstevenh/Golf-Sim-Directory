@@ -1,0 +1,85 @@
+{
+  "name": "X-Golf Riverton",
+  "address": "13347 Teal Rdg Wy Suite N-105, Riverton, UT 84096",
+  "city": "Riverton",
+  "region": "Utah",
+  "country": "US",
+  "latitude": 40.509265,
+  "longitude": -111.994609,
+  "phone": "+18018786823",
+  "website": "http://xgolfutah.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770217068/golf_simulators/xgolfutah_com_ChIJ2bIyCGGFUocRf62yomYtk2I.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/X-Golf+Riverton/@40.509264699999996,-111.9946093,14z/data=!4m8!1m2!2m1!1sX-Golf+Riverton!3m4!1s0x875285610832b2d9:0x62932d66a2b2ad7f!8m2!3d40.509264699999996!4d-111.9946093",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ2bIyCGGFUocRf62yomYtk2I",
+  "email": "info@xgolfutah.com",
+  "venue_type": "sim_bar",
+  "about": "X-Golf Riverton is an indoor golf simulator venue located in Riverton, Utah. It features state-of-the-art simulators that combine camera systems, infrared lasers, and impact sensors to provide players with an accurate and realistic golfing experience. The venue offers various services including leagues, clinics, lessons, and event hosting, catering to all ages and skill levels. Pricing starts at $45 per hour for simulator time, with membership options also available.",
+  "tags": "food_and_drinks|beginner_friendly|leagues|kids_friendly|corporate_events|premium_tech|late_night|coaching_available",
+  "vibe_tags": "sports_bar|family_fun_center|tech_lab",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "Access to the world's best golf courses without leaving the city",
+    "State-of-the-art technology providing unparalleled accuracy and realism",
+    "Availability of leagues and competitions for all skill levels",
+    "PGA professional instruction for all ages",
+    "Convenient operating hours including late nights on Fridays and Saturdays"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "On-site food available (menu link provided), no outside food permitted"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service; outside beverages not permitted"
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "http://xgolfutah.com/bookteetime",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 45,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|kitchen_food|tv_sports|leagues|pro_shop|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "The venue does not specify whether club rentals are available. It's recommended to bring your own clubs unless otherwise confirmed."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "No outside food or beverages are permitted. The venue offers its own food menu."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Most groups complete their rounds in 2-3 hours, depending on the pace of play and ability level."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, all ages are welcome during all business operating hours. The venue offers junior golf clinics and lessons led by a PGA professional."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-10PM\"], \"Tuesday\": [\"10AM-10PM\"], \"Wednesday\": [\"10AM-10PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-12AM\"], \"Saturday\": [\"9AM-12AM\"], \"Sunday\": [\"9AM-9PM\"]}"
+}

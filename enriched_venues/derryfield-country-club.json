@@ -1,0 +1,89 @@
+{
+  "name": "Derryfield Country Club",
+  "address": "625 Mammoth Rd, Manchester, NH 03104",
+  "city": "Manchester",
+  "region": "New Hampshire",
+  "country": "US",
+  "latitude": 42.993282,
+  "longitude": -71.433549,
+  "phone": "+16036690235",
+  "website": "http://www.derryfieldgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770245713/golf_simulators/www_derryfieldgolf_com_ChIJL3udLAZP4okRVF2nSNtnzA4.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Derryfield+Country+Club/@42.9932818,-71.4335487,14z/data=!4m8!1m2!2m1!1sDerryfield+Country+Club!3m4!1s0x89e24f062c9d7b2f:0xecc67db48a75d54!8m2!3d42.9932818!4d-71.4335487",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJL3udLAZP4okRVF2nSNtnzA4",
+  "venue_type": "country_club",
+  "about": "Derryfield Country Club is an eighteen-hole regulation public golf course located in Manchester, NH, established in 1932. It is one of only three municipally-owned golf courses in New Hampshire. The facility features both outdoor golf and indoor PGA Tour Simulators, along with a full-service restaurant and pro shop. The venue offers golf instruction, leagues, tournaments, and season permits for regular players. Its municipal ownership positions it as a community-accessible option for both casual play and serious practice.",
+  "tags": "food_and_drinks|leagues|coaching_available|corporate_events|premium_tech|beginner_friendly|family_friendly|club_rentals|community_club",
+  "vibe_tags": "community_club|sports_bar|family_fun_center",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "Combination of outdoor course play and indoor PGA Tour Simulators for year-round practice",
+    "Municipal ownership provides accessible pricing and community-oriented atmosphere",
+    "Full-service restaurant and pro shop enhance the overall experience",
+    "Variety of leagues and tournaments for regular and competitive play"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Derryfield Restaurant & Lounge serves full service meals and a snack shack is also available"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full service bar available at Derryfield Restaurant & Lounge"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "PGA Tour",
+      "model": "Simulator",
+      "notes": "Three indoor golf simulators available at the facility"
+    }
+  ],
+  "simulator_software": [
+    "PGA Tour Software"
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 3,
+  "booking_url": "https://secure.east.prophetservices.com/DerryfieldCC",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "full_bar|kitchen_food|pro_shop|leagues|ada_accessible|club_rentals",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can bring your own clubs or rent equipment from the pro shop, which offers club rentals."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drink policies are not specified, but the venue offers a full-service restaurant and snack shack for on-site dining and beverages."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not provide specific timing for 18 holes, but tee times are required 7 days per week and can be scheduled online or by phone."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Derryfield Country Club offers a PGA Junior League and provides a family-friendly environment with both indoor and outdoor activities suitable for children."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"6:30AM-7:30PM\"], \"Tuesday\": [\"6:30AM-7:30PM\"], \"Wednesday\": [\"6:30AM-7:30PM\"], \"Thursday\": [\"6:30AM-7:30PM\"], \"Friday\": [\"6:30AM-7:30PM\"], \"Saturday\": [\"6:30AM-7:30PM\"], \"Sunday\": [\"6:30AM-7:30PM\"]}"
+}

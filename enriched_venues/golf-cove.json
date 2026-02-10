@@ -1,0 +1,83 @@
+{
+  "name": "Golf Cove",
+  "address": "336 State St, North Haven, CT 06473",
+  "city": "North Haven",
+  "region": "Connecticut",
+  "country": "US",
+  "latitude": 41.370443,
+  "longitude": -72.886766,
+  "phone": "+12033905994",
+  "website": "http://www.golfcovect.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770209130/golf_simulators/www_golfcovect_com_ChIJAaBW-CbR54kRgTuxMRMjH5U.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Golf+Cove/@41.370443,-72.8867664,14z/data=!4m8!1m2!2m1!1sGolf+Cove!3m4!1s0x89e7d126f856a001:0x951f231331b13b81!8m2!3d41.370443!4d-72.8867664",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJAaBW-CbR54kRgTuxMRMjH5U",
+  "venue_type": "sim_bar",
+  "about": "Golf Cove is an indoor golf and multisport facility located in North Haven, Connecticut. It features a selection of virtual golf simulators alongside a multisport arcade offering games like soccer and hockey. The venue operates with a full-service kitchen and bar, providing restaurant-quality food and craft cocktails. It offers a variety of membership levels and is equipped with private event spaces suitable for birthdays, corporate gatherings, and family celebrations. The facility uses advanced technology to provide a realistic virtual sports experience for golfers of all skill levels.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|kids_friendly|corporate_events|leagues|premium_tech|private_rooms|club_rentals|community_club",
+  "vibe_tags": "sports_bar|family_fun_center|community_club",
+  "who_its_for": "beginners|families|corporate_teams|large_groups|solo_practice",
+  "why_golfers_like_it": [
+    "Advanced simulators provide a realistic and engaging virtual golf experience",
+    "Full-service bar and kitchen offering restaurant-quality food and cocktails",
+    "Private rooms allow for a secluded social or practice environment",
+    "Membership structure offers significant savings and priority booking"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full-service kitchen with a variety of food options available for events or on-site dining"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full-service bar offering craft beers, cocktails, and other beverages"
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "https://918booking.com/emb-bookings?course=7",
+  "pricing_model": "mixed",
+  "price_range_min_local": "unknown",
+  "price_range_max_local": "unknown",
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "full_bar|kitchen_food|private_party_room|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify whether you can bring your own clubs or if rentals are available. It is recommended to contact the venue directly for details on equipment."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "No, the venue has a full-service kitchen and bar offering food and drinks for purchase."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website mentions a 3-hour maximum reservation time per visit, which would likely be sufficient for a round of 18 holes."
+    },
+    {
+      "question": "Is it kid-friendly?",
+      "answer": "Yes, the facility is described as a place with 'something for everyone,' and offers a multisport arcade, making it suitable for children and families."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"10AM-11PM\"], \"Tuesday\": [\"10AM-11PM\"], \"Wednesday\": [\"10AM-11PM\"], \"Thursday\": [\"10AM-12AM\"], \"Friday\": [\"10AM-12AM\"], \"Saturday\": [\"10AM-12AM\"], \"Sunday\": [\"10AM-11PM\"]}"
+}

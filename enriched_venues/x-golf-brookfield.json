@@ -1,0 +1,83 @@
+{
+  "name": "X-Golf Brookfield",
+  "address": "12565 W Feerick St Unit C, Brookfield, WI 53005",
+  "city": "Brookfield",
+  "region": "Wisconsin",
+  "country": "US",
+  "latitude": 43.085352,
+  "longitude": -88.068011,
+  "phone": "+12624398972",
+  "website": "http://www.xgolfbrookfield.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770210196/golf_simulators/www_xgolfbrookfield_com_ChIJfeMo2dYDBYgRJtfixa9FhZg.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/X-Golf+Brookfield/@43.0853518,-88.0680113,14z/data=!4m8!1m2!2m1!1sX-Golf+Brookfield!3m4!1s0x880503d6d928e37d:0x988545afc5e2d726!8m2!3d43.0853518!4d-88.0680113",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJfeMo2dYDBYgRJtfixa9FhZg",
+  "email": "info@xgolfbrookfield.com",
+  "venue_type": "sim_bar",
+  "about": "X-Golf Brookfield is a high-tech indoor golf facility featuring seven state-of-the-art golf simulators. The venue offers a modern experience combining realistic golf play with training, dining, and social events. It is suitable for golfers of all skill levels, from beginners to serious players, and includes amenities like food and beverage service, private event hosting, and professional coaching. The facility is designed to provide an accessible golf experience with various booking options, from casual play to league participation and corporate events.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|coaching_available|premium_tech|private_rooms|club_rentals|family_friendly",
+  "vibe_tags": "casual|welcoming|modern|sports_bar",
+  "who_its_for": "beginners|families|corporate_teams|serious_golfers|juniors_youth",
+  "why_golfers_like_it": [
+    "State-of-the-art simulators with unparalleled accuracy using camera systems, infrared lasers, and impact sensors",
+    "Flexible pricing model based on simulator time, not per person, accommodating groups of all sizes",
+    "Full bar and food service available, making it suitable for both golf and social gatherings"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Menu includes shareable bites, appetizers, snacks, and pizzas"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full liquor service with beer by the glass or on tap, and cocktails"
+    }
+  ],
+  "simulator_hardware": null,
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 7,
+  "booking_url": "https://clients.uschedule.com/xgolfbrookfield/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|full_bar|kitchen_food|private_party_room|wifi|club_fitting|leagues",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Club rentals are available, but you are welcome to use your own clubs. The facility also offers club fitting services."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue has a full bar and kitchen service offering food and beverages, but outside food and drinks are not mentioned as being allowed."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Generally, it takes about 1 hour for an individual player to complete 18 holes. For multiple players, an additional hour per player is recommended."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, children of all ages are welcome, making it suitable for families and junior golfers."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"9AM-10PM\"], \"Saturday\": [\"8AM-12AM\"], \"Sunday\": [\"8AM-7PM\"]}"
+}

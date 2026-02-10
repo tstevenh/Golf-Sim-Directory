@@ -1,0 +1,91 @@
+{
+  "name": "SimWoods Golf Society",
+  "address": "21904 23 Mile Rd, Macomb, MI 48042",
+  "city": "Macomb",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 42.67203,
+  "longitude": -82.895666,
+  "phone": "+15863154653",
+  "website": "http://www.simwoodsgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770203079/golf_simulators/www_simwoodsgolf_com_ChIJoxWuvPsfJYgR8qAqrhddr3o.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/SimWoods+Golf+Society/@42.672029699999996,-82.8956664,14z/data=!4m8!1m2!2m1!1sSimWoods+Golf+Society!3m4!1s0x88251ffbbcae15a3:0x7aaf5d17ae2aa0f2!8m2!3d42.672029699999996!4d-82.8956664",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJoxWuvPsfJYgR8qAqrhddr3o",
+  "email": "swgsocial@simwoodsgolf.com",
+  "venue_type": "private_rental",
+  "about": "SimWoods Golf Society is an unattended private indoor golf simulator facility offering 24/7 access to premium golf simulation technology. The venue features state-of-the-art Uneekor EYEXO2 Launch Monitor and Swing Optix system, providing a realistic golf experience with high-speed cameras and accurate data tracking. It operates on a self-service model where customers book bays online and have exclusive use of the space during their reservation. The facility includes a 4-hole putting green, café lounge with refreshments, poker table, and TV lounge, catering to both individual practice and group events up to 5.5 hours.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|private_rooms|late_night|coaching_available|club_rentals|solo_practice",
+  "vibe_tags": "casual|welcoming|modern|tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "24/7 self-service access with no bay availability concerns",
+    "Premium Uneekor EYEXO2 technology with GSPRO software for realistic simulation",
+    "Flexible booking system with real-time pricing and last-minute availability",
+    "Exclusive after-hours access for Players Pass members",
+    "Comprehensive facility including putting green and comfortable lounge areas"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Café lounge available with coffee, tea, snacks, and beverages; customers can order delivery during their session"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service or BYOB policy"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "EYEXO2",
+      "notes": "Premium launch monitor with Swing Optix system, featuring high-speed cameras and multiple hitting zones"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "dedicated_green",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "https://app.birrdi.com/u/reserve?team_booking_link_id=simWoods-golf-stratford",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|kitchen_food|tv_sports|leagues|wifi|pro_shop",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you should bring your own golf clubs. The facility provides complimentary rental sets if needed, but recommends bringing a spare set of shoes to prevent debris from entering the simulator."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "You can order delivery during your session. The facility has a café lounge with coffee, tea, snacks, and beverages available for purchase."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Groups can play for up to 5.5 hours per session, with flexibility to enjoy a full round of golf and order delivery during that time."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "The facility accommodates golfers of all skill levels and can host group gatherings including birthday parties, but specific kid-friendly features or age restrictions are not detailed."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

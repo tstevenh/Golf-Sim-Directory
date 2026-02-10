@@ -1,0 +1,89 @@
+{
+  "name": "Baxters RCade",
+  "address": "1800 Main St Suite 100, Canonsburg, PA 15317",
+  "city": "Canonsburg",
+  "region": "Pennsylvania",
+  "country": "US",
+  "latitude": 40.275273,
+  "longitude": -80.166389,
+  "phone": "+17249950013",
+  "website": "https://baxtersrcade.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770250710/golf_simulators/baxtersrcade_com_ChIJleICih5VNIgR6D4yGihToBA.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Baxter%E2%80%99s+R%E2%80%A2Cade/@40.275273399999996,-80.16638909999999,14z/data=!4m8!1m2!2m1!1sBaxter%E2%80%99s+R%E2%80%A2Cade!3m4!1s0x8834551e8a02e295:0x10a053281a323ee8!8m2!3d40.275273399999996!4d-80.16638909999999",
+  "google_rating": 4.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJleICih5VNIgR6D4yGihToBA",
+  "venue_type": "sim_bar",
+  "about": "Baxter's R•Cade is a multi-entertainment venue in Canonsburg, PA, combining a full-service bar and kitchen with golf simulators, classic arcade games, and bocce ball courts. The facility features state-of-the-art TrackMan virtual golf technology for realistic gameplay and practice, alongside a relaxed atmosphere suitable for groups, families, and individual players. Pricing options include hourly bay rentals and monthly golf memberships, with flexible hours that cater to both casual visits and league play. The venue is designed as an all-in-one destination for gaming, dining, and socializing, offering a distinct blend of high-tech sports and classic entertainment.",
+  "tags": "food_and_drinks|beginner_friendly|date_night|families|leagues|premium_tech|private_rooms|club_rentals|party_atmosphere|retro_gaming",
+  "vibe_tags": "sports_bar|family_fun_center|party_atmosphere|retro_gaming|casual|welcoming",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "TrackMan 4 launch monitor with multi-sensor technology for precise club and ball tracking",
+    "Variety of virtual golf games including 'Streets of Neon', 'Magic Pond', and 'Capture the Flag'",
+    "Full bar and food service available for a complete entertainment experience",
+    "Flexible booking system with both hourly and membership options"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen service with a menu featuring snacks, hearty meals, and sweet treats"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with adult beverages, craft beers, and specialty cocktails including happy hour deals"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "State-of-the-art TrackMan 4 system with dual radar and camera technology for precise tracking"
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://yourgolfbooking.com/venues/baxters-r-cade/booking/bays",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues|ada_accessible",
+  "rating_tech_quality": 4.2,
+  "rating_facility_comfort": 4.1,
+  "rating_value_for_money": 4.1,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "No, the venue provides all necessary equipment for virtual golf play, including clubs and balls."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No, outside food and drinks are not permitted as the venue offers a full kitchen and bar service."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Playing 18 holes typically takes 1-2 hours depending on group size and pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Baxter's R•Cade is family-friendly and offers arcade games, bocce ball, and a casual atmosphere suitable for all ages."
+    }
+  ],
+  "rating_overall": 4.1,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"4-10PM\"], \"Wednesday\": [\"4-10PM\"], \"Thursday\": [\"4-10PM\"], \"Friday\": [\"4-11PM\"], \"Saturday\": [\"11AM-11PM\"], \"Sunday\": [\"12-6PM\"]}"
+}

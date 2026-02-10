@@ -1,0 +1,88 @@
+{
+  "name": "The Fidalgo Club",
+  "address": "901 3rd St, Anacortes, WA 98221",
+  "city": "Anacortes",
+  "region": "Washington",
+  "country": "US",
+  "latitude": 48.519678,
+  "longitude": -122.611253,
+  "phone": "+13606107486",
+  "website": "https://www.fidalgoclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770234867/golf_simulators/www_fidalgoclub_com_ChIJe2IeGm55hVQRjFEEGZIeh3A.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Fidalgo+Club/@48.519677599999994,-122.6112531,14z/data=!4m8!1m2!2m1!1sThe+Fidalgo+Club!3m4!1s0x5485796e1a1e627b:0x70871e921904518c!8m2!3d48.519677599999994!4d-122.6112531",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJe2IeGm55hVQRjFEEGZIeh3A",
+  "venue_type": "multi_sport_sim",
+  "about": "The Fidalgo Club is a membership-based, 24-hour-access destination designed for golfers, families, and friends to connect, play, and unwind all year long. Located in the heart of Anacortes, WA, it is a first-of-its-kind facility that brings together top-tier golf technology, entertainment, and community under one roof. The club features two premium indoor golf simulators for year-round play, an indoor putting green, a lounge and viewing area, and an arcade and kids' play zone, all accessible exclusively to members. Every membership opens the door to full access to the simulators, putting green, arcade, lounge areas, and member events for one monthly fee, with options for Individual or Household plans.",
+  "tags": "beginner_friendly|kids_friendly|leagues|premium_tech|coaching_available|community_club|family_friendly",
+  "vibe_tags": "family_fun_center|community_club|modern|welcoming",
+  "who_its_for": "families|beginners|juniors_youth|serious_golfers|solo_practice",
+  "why_golfers_like_it": [
+    "24/7 access to premium golf simulators for flexible practice and play",
+    "Community-focused atmosphere with events and leagues for all ages",
+    "All-in-one membership provides access to simulators, putting green, arcade, and lounge areas"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of an on-site kitchen or food service."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of an alcohol bar or BYOB policy."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Garmin",
+      "model": "R50",
+      "notes": "Premium launch monitors with real-time swing data."
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://www.fidalgoclub.com/simulator-booking",
+  "pricing_model": "membership_only",
+  "price_range_min_local": 0,
+  "price_range_max_local": 0,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 1,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|wifi|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify, but as a simulator venue, it is standard practice that you can use your own clubs or they may provide rental clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The website does not mention a BYOB policy or any restrictions on outside food and drinks, but it also does not mention an on-site cafe or bar."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "Website content does not specify a standard time for an 18-hole simulator round."
+    },
+    {
+      "question": "Is this venue kid-friendly?",
+      "answer": "Yes, The Fidalgo Club is explicitly kid-friendly, featuring a dedicated kids' play zone, arcade games, and junior golf camps and clinics for all skill levels and age groups."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

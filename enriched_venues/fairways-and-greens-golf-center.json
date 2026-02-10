@@ -1,0 +1,89 @@
+{
+  "name": "Fairways and Greens Golf Center",
+  "address": "626 Simmons Rd Suite 1, Knoxville, TN 37932",
+  "city": "Knoxville",
+  "region": "Tennessee",
+  "country": "US",
+  "latitude": 35.914823,
+  "longitude": -84.136476,
+  "phone": "+18657774653",
+  "website": "http://fairwaysandgreens.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770234380/golf_simulators/fairwaysandgreens_com_ChIJz2wvG64vXIgR1s162441dP0.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Fairways+and+Greens+Golf+Center/@35.914823399999996,-84.1364755,14z/data=!4m8!1m2!2m1!1sFairways+and+Greens+Golf+Center!3m4!1s0x885c2fae1b2f6ccf:0xfd74358edb7acdd6!8m2!3d35.914823399999996!4d-84.1364755",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJz2wvG64vXIgR1s162441dP0",
+  "venue_type": "retail_fitting_center",
+  "about": "Fairways and Greens Golf Center is a year-round, membership-based golf practice facility located in West Knoxville. The center offers a comprehensive range of services including a driving range, Trackman-equipped bays for simulation and practice, a nine-hole par 3 course called 'The Loop,' club fitting with professional instructors, and a fitness center. It is recognized as a Top 50 Stand-Alone Range by the Golf Range Association of America and a Top 100 Clubfitter by Golf Digest. Membership provides benefits like unlimited range balls and discounted lessons, while non-members are welcome for daily fees and specific services.",
+  "tags": "beginner_friendly|serious_golfers|families|corporate_events|premium_tech|coaching_available|club_rentals|leagues",
+  "vibe_tags": "community_club|tech_lab|modern|welcoming",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "Premium Trackman technology for game improvement and virtual play",
+    "Comprehensive practice facilities including a 9-hole par 3 course",
+    "Award-winning club fitting and PGA-certified instruction",
+    "Year-round operation with both indoor and outdoor bays"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of on-site food services"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol services"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Used for both swing analysis and virtual golf simulation"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "unknown",
+  "pricing_model": "mixed",
+  "price_range_min_local": 25,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|pro_shop|club_fitting|leagues|fitness_center|putting_greens|practice_course|lighted_range|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you should bring your own clubs. The facility also offers club fitting services if you need new equipment."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "There is no mention of food or drink services, so it appears outside food and drinks are not prohibited."
+    },
+    {
+      "question": "How long does it take to play 18 holes on the simulator?",
+      "answer": "18 holes typically takes about 2-3 hours depending on group size and pace of play."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, the facility is family-friendly with instructors available for all ages and skill levels, including junior lessons."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-8PM\"], \"Tuesday\": [\"9AM-8PM\"], \"Wednesday\": [\"9AM-8PM\"], \"Thursday\": [\"9AM-8PM\"], \"Friday\": [\"9AM-7PM\"], \"Saturday\": [\"9AM-6PM\"], \"Sunday\": [\"10AM-6PM\"]}"
+}

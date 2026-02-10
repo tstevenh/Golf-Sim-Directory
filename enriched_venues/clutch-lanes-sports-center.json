@@ -1,0 +1,93 @@
+{
+  "name": "Clutch Lanes & Sports Center",
+  "address": "4190 State Rd, Cuyahoga Falls, OH 44223",
+  "city": "Cuyahoga Falls",
+  "region": "Ohio",
+  "country": "US",
+  "latitude": 41.18573,
+  "longitude": -81.509502,
+  "phone": "+13309283794",
+  "website": "http://www.clutchlanes.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770239245/golf_simulators/www_clutchlanes_com_ChIJ27iWvKknMYgRBtNMRwUa9GY.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Clutch+Lanes+%26+Sports+Center/@41.185730199999995,-81.5095024,14z/data=!4m8!1m2!2m1!1sClutch+Lanes+%26+Sports+Center!3m4!1s0x883127a9bc96b8db:0x66f41a05474cd306!8m2!3d41.185730199999995!4d-81.5095024",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ27iWvKknMYgRBtNMRwUa9GY",
+  "email": "leaflet@1.3.1",
+  "venue_type": "sim_bar",
+  "about": "Clutch Lanes & Sports Center is a multi-venue entertainment center offering golf simulator bays alongside other recreational activities like bowling and volleyball. The golf facilities feature a Full Swing simulator system for head-to-head competitions and skill contests. The venue provides a modern, casual environment that combines sports entertainment with a full-service bar and kitchen, making it suitable for both casual play and organized events. Reservations are recommended to secure a bay, ensuring availability and a smooth experience.",
+  "tags": "food_and_drinks|beginner_friendly|family_friendly|corporate_events|leagues|premium_tech|kids_friendly",
+  "vibe_tags": "family_fun_center|sports_bar|casual|welcoming|modern",
+  "who_its_for": "families|beginners|corporate_teams|large_groups",
+  "why_golfers_like_it": [
+    "Interactive Full Swing simulator technology for head-to-head play",
+    "Easy online reservation system to guarantee a bay",
+    "Integrated food and bar service available during play",
+    "Multi-sport venue offering variety and entertainment beyond golf"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full kitchen service available, with an extensive menu accessible for dine-in or takeout orders."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "On-site bar service is available."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Full Swing",
+      "model": "Full Swing Simulator",
+      "notes": "Interactive golf simulator system for competition and skill challenges."
+    }
+  ],
+  "simulator_so": [
+    "Full Swing"
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://secure.meriq.com/clutchlanes/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": "unknown",
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|private_party_room|leagues|wifi|pro_shop",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The venue does not specify if they provide club rentals, so it is recommended to bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "The venue has a full kitchen and bar on-site, but it does not explicitly mention a BYOB policy. Food and drinks can be purchased directly from the venue."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "A typical 18-hole round on a simulator usually takes about 1 to 1.5 hours, depending on the number of players and any skill challenges played."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, Clutch Lanes & Sports Center is kid-friendly, offering activities like bowling and parties that cater to families and children."
+    }
+  ],
+  "simulator_software": [
+    "Full Swing"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"12-11PM\"], \"Tuesday\": [\"9AM-11PM\"], \"Wednesday\": [\"12-11PM\"], \"Thursday\": [\"9AM-11PM\"], \"Friday\": [\"9AM-2AM\"], \"Saturday\": [\"10AM-2AM\"], \"Sunday\": [\"10AM-10PM\"]}"
+}

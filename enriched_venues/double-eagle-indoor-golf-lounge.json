@@ -1,0 +1,95 @@
+{
+  "name": "Double Eagle Indoor Golf & Lounge",
+  "address": "208 Brucewood Rd, Southern Pines, NC 28387",
+  "city": "Southern Pines",
+  "region": "North Carolina",
+  "country": "US",
+  "latitude": 35.16999,
+  "longitude": -79.42196,
+  "phone": "+19106848550",
+  "website": "http://doubleeaglenc.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770205530/golf_simulators/doubleeaglenc_com_ChIJecXUdl-1VIgRsh0hLjiFuX4.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Double+Eagle+Indoor+Golf+%26+Lounge/@35.16999,-79.42196,14z/data=!4m8!1m2!2m1!1sDouble+Eagle+Indoor+Golf+%26+Lounge!3m4!1s0x8854b55f76d4c579:0x7eb985382e211db2!8m2!3d35.16999!4d-79.42196",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJecXUdl-1VIgRsh0hLjiFuX4",
+  "email": "Golfpros@doubleeaglenc.com",
+  "venue_type": "sim_bar",
+  "about": "Double Eagle Indoor Golf & Lounge is an indoor golf facility and sports bar located in Pinehurst, North Carolina. It features virtual golf bays equipped with Trackman technology, allowing players to experience play on over 280 globally available courses. The venue operates as a dual-purpose space, combining high-tech golf simulation with a sports bar atmosphere, making it accessible for both practice sessions and social gatherings. The facility offers various options including individual practice, group play, and lessons, catering to a range of skill levels from beginners to experienced golfers. Pricing is structured by the hour, with special weekday rates and monthly membership options available.",
+  "tags": "food_and_drinks|beginner_friendly|corporate_events|leagues|coaching_available|date_night|sports_bar|solo_practice",
+  "vibe_tags": "sports_bar|casual|welcoming|modern",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|solo_practice",
+  "why_golfers_like_it": [
+    "Access to premium Trackman technology for accurate shot tracking",
+    "Wide selection of over 280 golf courses from around the world",
+    "Flexible booking options for solo practice or group play",
+    "Combination of golf simulation with a full-service sports bar",
+    "Availability of coaching and clinics for skill improvement"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Packaged snacks and munchies available on site. Full meals can be delivered from neighboring restaurants."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full service bar available with friendly bartenders who make custom drinks."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Premium launch monitor with extensive course library and technical parameters"
+    }
+  ],
+  "simulator_so": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "auto_putt|gimme_circle|real_putting_surface|dedicated_green|moving_floor_green|mixed",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "http://doubleeaglenc.com/appointments",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 40,
+  "price_range_max_local": 60,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 8,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|lockers|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "No, rental clubs are available for $25 per entire stay in Men's, Women's, Kids, and R/L sizes. Many players prefer to bring their own clubs for practice."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "While packaged snacks and drinks are available for purchase, the venue allows customers to get food delivered from neighboring restaurants for full meals."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "18 holes typically take about 2 hours depending on the course difficulty and player skill level. Beginners or those wanting a more relaxed pace can opt for 9 holes."
+    },
+    {
+      "question": "Is it kid-friendly?",
+      "answer": "Yes, the venue offers club rentals in kids' sizes and can accommodate families. The combination of golf simulation and sports bar atmosphere makes it suitable for various age groups."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"2-9PM\"], \"Tuesday\": [\"10AM-9PM\"], \"Wednesday\": [\"10AM-9PM\"], \"Thursday\": [\"10AM-10PM\"], \"Friday\": [\"10AM-10PM\"], \"Saturday\": [\"10AM-10PM\"], \"Sunday\": [\"10AM-9PM\"]}"
+}

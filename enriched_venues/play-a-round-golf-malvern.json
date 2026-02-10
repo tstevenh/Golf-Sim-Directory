@@ -1,0 +1,96 @@
+{
+  "name": "Play-a-Round Golf Malvern",
+  "address": "245 Lancaster Ave, Malvern, PA 19355",
+  "city": "Malvern",
+  "region": "Pennsylvania",
+  "country": "US",
+  "latitude": 40.040603,
+  "longitude": -75.543145,
+  "phone": "+16107259155",
+  "website": "http://www.playaroundgolf.net/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770215019/golf_simulators/www_playaroundgolf_net_ChIJmZnz_bDyxokRkRXZqegQczQ.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Play-a-Round+Golf+Malvern/@40.040603399999995,-75.5431455,14z/data=!4m8!1m2!2m1!1sPlay-a-Round+Golf+Malvern!3m4!1s0x89c6f2b0fdf39999:0x347310e8a9d91591!8m2!3d40.040603399999995!4d-75.5431455",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJmZnz_bDyxokRkRXZqegQczQ",
+  "email": "19355610-725-9155malvern@playaroundgolf.net",
+  "venue_type": "sim_bar|training_studio|multi_sport_sim",
+  "about": "Play-a-Round Golf is an indoor golf simulator venue with locations in Malvern and Ardmore, PA. The facility uses aboutGolf simulators to provide a realistic golfing experience with access to over 80 virtual courses, including championship tracks like Pebble Beach and St. Andrews. The simulators offer precise data on swing speed, ball speed, launch angles, and club path. The venue is designed for all skill levels, featuring an environment with no on-course pressure, making it suitable for beginners and advanced golfers alike. It operates on an hourly basis and is open year-round, offering a comfortable and accessible space for practice, casual play, and events.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|kids_friendly|corporate_events|leagues|premium_tech|private_rooms|club_rentals|coaching_available",
+  "vibe_tags": "casual|welcoming|modern|family_fun_center",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|juniors_youth",
+  "why_golfers_like_it": [
+    "Realistic aboutGolf simulators with accurate ball and club tracking data",
+    "Access to over 80 world-class golf courses for play and practice",
+    "Family-friendly environment with options for non-golf activities like mini-golf and darts",
+    "BYOB policy (beer and wine) and ability to bring or order food for a social atmosphere",
+    "PGA-affiliated coaching available for personalized skill development"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Guests may bring their own food or order from nearby eateries that deliver to the simulators. Snacks, sodas, and water are also available on-site."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "BYOB policy is permitted for guests of legal age (21). Liquor is not allowed, but beer and wine can be consumed on the premises."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "aboutGolf",
+      "model": "Simulator",
+      "notes": "State-of-the-art simulators used at both Malvern (7 units) and Ardmore (9 units) locations. High-speed cameras track ball flight and provide accurate data analysis."
+    },
+    {
+      "brand": "aG",
+      "model": "Balance/Flix",
+      "notes": "Dual video golf simulators available at the Ardmore location for enhanced practice and analysis."
+    }
+  ],
+  "simulator_software": [
+    "aG Locker"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 16,
+  "booking_url": "https://clients.uschedule.com/playaroundgolf/booking",
+  "pricing_model": "per_bay_hour|membership_only",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|kitchen_food|tv_sports|private_party_room|wifi|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own golf clubs?",
+      "answer": "Yes, you should bring your own golf clubs to use with the simulators, as club rentals are not mentioned as a standard service."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, guests are allowed to bring their own food and beverages. The venue has a BYOB policy for beer and wine (no liquor) and allows ordering from nearby eateries that deliver to the simulators."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time required to play 18 holes depends on the number of players and pace of play, but the venue allows for flexible sessions where guests can finish a full 18 or play just a couple of holes."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is kid-friendly, with options for children to play golf or use giant screens for other games like mini-golf and darts. It also hosts junior golf camps and is suitable for birthday parties."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"9AM-11PM\"], \"Saturday\": [\"8AM-11PM\"], \"Sunday\": [\"8AM-9PM\"]}"
+}

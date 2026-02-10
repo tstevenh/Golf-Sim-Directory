@@ -1,0 +1,94 @@
+{
+  "name": "Players Club Virtual Golf",
+  "address": "348 Evelyn St, Paramus, NJ 07652",
+  "city": "Paramus",
+  "region": "New Jersey",
+  "country": "US",
+  "latitude": 40.944427,
+  "longitude": -74.069837,
+  "phone": "+12014839690",
+  "website": "http://njindoorgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770208090/golf_simulators/njindoorgolf_com_ChIJX63fZef6wokR29cWCfu73PU.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Players+Club+Virtual+Golf/@40.944427399999995,-74.0698367,14z/data=!4m8!1m2!2m1!1sPlayers+Club+Virtual+Golf!3m4!1s0x89c2fae765dfad5f:0xf5dcbbfb0916d7db!8m2!3d40.944427399999995!4d-74.0698367",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJX63fZef6wokR29cWCfu73PU",
+  "email": "07652201-483-9690info@njindoorgolf.com",
+  "venue_type": "sim_bar",
+  "about": "Players Club Virtual Golf is an indoor golf simulator venue in Paramus, NJ, offering year-round play on 71 world-famous golf simulators with a focus on fun, improvement, and social events. The facility provides a relaxed atmosphere for both casual players and serious golfers to enjoy 9 or 18-hole rounds, join leagues, or host private parties, with a commitment to a high-quality simulator experience. Pricing is structured by the hour, with options for group play and dedicated practice features, though players are charged for reserved time regardless of actual usage to accommodate demand.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|private_rooms|club_rentals|coaching_available|date_night",
+  "vibe_tags": "casual|welcoming|modern|family_fun_center|party_atmosphere",
+  "who_its_for": "beginners|families|large_groups|corporate_teams|serious_golfers",
+  "why_golfers_like_it": [
+    "Features Michael Breed practice range for skill analysis and improvement",
+    "Hourly rates that don't charge per person, making it great for groups",
+    "Offers full facility rentals for private parties and corporate events",
+    "BYOB policy with refrigerated beverage stations for convenience"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Grab-and-go food is available for purchase"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "BYOB allowed; facility provides refrigerated beverage stations but does not sell alcohol"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Courses71",
+      "model": "World-Famous Ten Golf Simulators",
+      "notes": "Specific hardware model not detailed, but described as 71 high-quality simulators"
+    }
+  ],
+  "simulator_so": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 71,
+  "booking_url": "https://the-players-club.book.teeitup.com/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 50,
+  "price_range_max_local": 55,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|private_party_room|wifi|refrigerated_beverage_stations|grab_and_go_food",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need my own clubs?",
+      "answer": "Yes, players must use regulation Callaway Blue golf balls for the system to accurately compute ball speed and spin. Players are expected to bring their own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Yes, you can bring your own food and alcohol (BYOB). The facility provides refrigerated beverage stations for customer-supplied drinks and sells non-alcoholic beverages, coffee, and grab-and-go food."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "It takes approximately one hour per person to complete 18 holes once familiar with the system. For groups, it's recommended to book an additional hour per player (e.g., a foursome should book 4 hours)."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, children under 16 can use the simulators but must be accompanied by an adult at all times."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"9AM-10PM\"], \"Saturday\": [\"8AM-10PM\"], \"Sunday\": [\"8AM-9PM\"]}"
+}

@@ -1,0 +1,89 @@
+{
+  "name": "X Golf Wayland: Indoor Golf Simulator & Virtual Golfing",
+  "address": "60 Andrew Ave, Wayland, MA 01778",
+  "city": "Wayland",
+  "region": "Massachusetts",
+  "country": "US",
+  "latitude": 42.36493,
+  "longitude": -71.368516,
+  "phone": "+15082765230",
+  "website": "https://www.xgolfwayland.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770220778/golf_simulators/www_xgolfwayland_com_ChIJbf2xw_eF44kRPNIBloAOzd8.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/X+Golf+Wayland%3A+Indoor+Golf+Simulator+%26+Virtual+Golfing/@42.3649298,-71.3685155,14z/data=!4m8!1m2!2m1!1sX+Golf+Wayland%3A+Indoor+Golf+Simulator+%26+Virtual+Golfing!3m4!1s0x89e385f7c3b1fd6d:0xdfcd0e809601d23c!8m2!3d42.3649298!4d-71.3685155",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJbf2xw_eF44kRPNIBloAOzd8",
+  "venue_type": "sim_bar|training_studio|multi_sport_sim",
+  "about": "X-Golf Wayland is an indoor golf simulation center featuring advanced virtual golf technology. The venue operates with a fast-paced, no-hassle experience where players can complete 18 holes in approximately 60 minutes. It offers a relaxed and welcoming atmosphere suitable for players of all ages and skill levels, and is designed to accommodate a variety of events including individual play, group outings, corporate functions, and private parties. The facility utilizes proprietary high-tech simulators developed through over 15 years of R&D, integrating advanced camera systems, infrared lasers, and impact sensors for accurate and realistic gameplay. Pricing is structured per bay, with rates varying by day of the week and time of day.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|coaching_available|date_night|party_atmosphere",
+  "vibe_tags": "casual|welcoming|modern|tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|large_groups",
+  "why_golfers_like_it": [
+    "State-of-the-art simulator technology with high-speed cameras and sensors for unmatched accuracy",
+    "Fast-paced gameplay with 18 holes playable in around 60 minutes",
+    "Variety of services including PGA coaching, leagues, and event hosting",
+    "Ability to play on world-renowned virtual courses like Pebble Beach and Bethpage Black"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Kitchen and food service available on-site, with full menu accessible via website."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Bar service available on-site, with beer and wine options. No mention of BYOB policy."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "X-Golf",
+      "model": "Proprietary Simulator",
+      "notes": "Proprietary simulator system with advanced high-speed cameras, infrared lasers, and optical/impact sensors developed in-house."
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "infrared_optical",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 6,
+  "booking_url": "https://www.xgolfwayland.com/book-now/",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 50,
+  "price_range_max_local": 70,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The content does not explicitly state whether you need to bring your own clubs. It is recommended to bring your own set for the most accurate experience, but the facility may have rentals available. Contact them directly for confirmation."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "No, X-Golf Wayland has its own on-site kitchen and bar, providing food and drink options. There is no mention of a BYOB (bring your own alcohol) policy."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "You can complete 18 holes in approximately 60 minutes at X-Golf Wayland."
+    },
+    {
+      "question": "Is X-Golf Wayland kid-friendly?",
+      "answer": "Yes, the venue has a relaxed, welcoming atmosphere that makes it perfect for players of all ages, including children."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"9AM-11PM\"], \"Saturday\": [\"8AM-11PM\"], \"Sunday\": [\"8AM-9PM\"]}"
+}

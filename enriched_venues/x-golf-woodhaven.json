@@ -1,0 +1,91 @@
+{
+  "name": "X-Golf Woodhaven",
+  "address": "19840 West Rd, Woodhaven, MI 48183",
+  "city": "Woodhaven",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 42.14221,
+  "longitude": -83.224577,
+  "phone": "+17343044968",
+  "website": "https://playxgolf.com/locations/woodhaven/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770216344/golf_simulators/playxgolf_com_ChIJadjvqss5O4gRCcGFWNyPTqA.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/X-Golf+Woodhaven/@42.142209699999995,-83.2245774,14z/data=!4m8!1m2!2m1!1sX-Golf+Woodhaven!3m4!1s0x883b39cbaaefd869:0xa04e8fdc5885c109!8m2!3d42.142209699999995!4d-83.2245774",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJadjvqss5O4gRCcGFWNyPTqA",
+  "email": "info@xgolfwoodhaven.com",
+  "venue_type": "sim_bar",
+  "about": "X-Golf Woodhaven is a state-of-the-art indoor golf simulator venue that offers players a highly accurate and realistic golf experience through advanced camera systems, infrared lasers, impact sensors, and sophisticated gaming software. The venue features multiple simulator bays suitable for up to six golfers per hour, with pricing structured per bay, making it accessible for both individual players and groups. The facility also operates as a lounge and bar, providing a casual environment for golfers to play, socialize, and host events, complemented by a full liquor license and food offerings.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|private_rooms|club_rentals|community_club|coaching_available",
+  "vibe_tags": "sports_bar|tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Unparalleled accuracy and realism with cutting-edge simulator technology",
+    "Flexible booking system with online reservations and extended hours",
+    "Comprehensive amenities including a full bar, food packages, and event hosting",
+    "Supportive environment for all skill levels, from casual players to competitive leagues"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Food and beverage packages available, including tasty bites and appetizers"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full liquor license with craft beer and complimentary non-alcoholic beverages for members"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "X-Golf",
+      "model": "Simulator",
+      "notes": "Proprietary indoor golf simulator systems using camera systems, infrared lasers, and impact sensors"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://clients.uschedule.com/xgolfwoodhaven/booking",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 45,
+  "price_range_max_local": 55,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": false,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Club rentals are available, but you are welcome to bring your own clubs. The simulator has its own tee built into the system."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No outside food or drinks are allowed, as the venue offers its own food and beverage packages, including a full bar."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Each individual player can finish 18 holes in about one hour. For multiple players, it takes approximately 1 hour per person to play 18 holes."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, children of all ages are welcome to play at X-Golf Woodhaven."
+    }
+  ],
+  "simulator_software": [
+    "X-Golf"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-11PM\"], \"Tuesday\": [\"9AM-11PM\"], \"Wednesday\": [\"9AM-11PM\"], \"Thursday\": [\"9AM-11PM\"], \"Friday\": [\"9AM-12AM\"], \"Saturday\": [\"9AM-12AM\"], \"Sunday\": [\"9AM-11PM\"]}"
+}

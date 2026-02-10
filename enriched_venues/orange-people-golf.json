@@ -1,0 +1,79 @@
+{
+  "name": "Orange People Golf",
+  "address": "3002 Dow Ave #226, Tustin, CA 92780",
+  "city": "Tustin",
+  "region": "California",
+  "country": "US",
+  "latitude": 33.708199,
+  "longitude": -117.804681,
+  "phone": "+19495338575",
+  "website": "http://oppilates.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770249815/golf_simulators/oppilates_com_ChIJr3wg8h7d3IARaoJQ8OyWNiQ.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Orange+People+Golf/@33.7081988,-117.8046809,14z/data=!4m8!1m2!2m1!1sOrange+People+Golf!3m4!1s0x80dcdd1ef2207caf:0x243696ecf050826a!8m2!3d33.7081988!4d-117.8046809",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJr3wg8h7d3IARaoJQ8OyWNiQ",
+  "email": "orangepeople@mail.com",
+  "venue_type": "multi_sport_sim",
+  "about": "Orange People Golf is a multi-sport venue located in Orange County, California, featuring both a main studio in Irvine and a dedicated screen golf studio in Tustin. The facility offers a unique combination of Reformer and Flying Pilates classes alongside screen golf technology. The golf studio is equipped with high-speed camera sensors that capture detailed swing data, including ball speed, launch angle, and spin RPM. Pricing options include hourly practice rates, monthly passes, and private golf lessons, with a minimum booking requirement of one hour. The venue appears to cater to both fitness and golf enthusiasts, providing a modern, technologically-driven environment.",
+  "tags": "serious_golfers|coaching_available|private_rooms|club_rentals|premium_tech|beginner_friendly|solo_practice|corporate_teams",
+  "vibe_tags": "tech_lab|modern|casual",
+  "who_its_for": "serious_golfers|beginners|solo_practice|corporate_teams|coaches_instructors",
+  "why_golfers_like_it": [
+    "Ultra high-speed camera sensors (1900 frames/sec) provide precise swing data analysis",
+    "Specialized marked golf balls allow for accurate spin and spin axis measurement without blind spots",
+    "Variety of pricing options including hourly rates and multi-month passes",
+    "Dedicated private golf lessons with various professional instructors"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": null,
+  "simulator_hardware": [
+    {
+      "brand": "Unknown",
+      "model": "Custom Sensor System",
+      "notes": "Powered by KAKAO VX, featuring two 1900 frames/sec ultra high-speed camera sensors"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": "true",
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 1,
+  "booking_url": "https://clients.mindbodyonline.com/classic/ws?studioid=765216&stype=-7&sView=day&sLoc=0",
+  "pricing_model": "mixed",
+  "price_range_min_local": 35,
+  "price_range_max_local": 239,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|coaching_available|private_rooms",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own golf clubs?",
+      "answer": "The website does not specify whether clubs are provided, so it's recommended to bring your own equipment."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "There is no mention of food or drink services on-site, and no BYOB policy is specified."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website does not provide information on typical playing times for 18 holes."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "No specific information regarding child-friendly features or services is mentioned on the website."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"9AM-9PM\"], \"Tuesday\": [\"9AM-9PM\"], \"Wednesday\": [\"9AM-9PM\"], \"Thursday\": [\"9AM-9PM\"], \"Friday\": [\"9AM-9PM\"], \"Saturday\": [\"8:30AM-5:30PM\"], \"Sunday\": [\"11:30AM-5:30PM\"]}"
+}

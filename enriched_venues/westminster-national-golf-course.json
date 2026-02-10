@@ -1,0 +1,90 @@
+{
+  "name": "Westminster National Golf Course",
+  "address": "2158 Littlestown Pike, Westminster, MD 21158",
+  "city": "Westminster",
+  "region": "Maryland",
+  "country": "US",
+  "latitude": 39.633461,
+  "longitude": -77.006134,
+  "phone": "+14108764653",
+  "website": "https://www.golfwestminsternational.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770266594/golf_simulators/www_golfwestminsternational_com_ChIJR4wCgCFGyIkRaVgzkS04few.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Westminster+National+Golf+Course/@39.633460899999996,-77.006134,14z/data=!4m8!1m2!2m1!1sWestminster+National+Golf+Course!3m4!1s0x89c8462180028c47:0xec7d382d91335869!8m2!3d39.633460899999996!4d-77.006134",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJR4wCgCFGyIkRaVgzkS04few",
+  "email": "westminsternationalgc@yahoo.com",
+  "venue_type": "other",
+  "about": "Westminster National Golf Course is an 18-hole daily fee golf course set within the farmland and rolling hills of Carroll County, Maryland. The facility operates as a family-run business and features both a traditional outdoor course and an indoor golf simulator space known as the Track Shack. It is positioned as a well-maintained, high-value option for golfers in the Mid-Atlantic region. The venue provides a complete golf experience with amenities like a driving range, practice greens, a pro shop, lessons, and a banquet room, alongside its indoor golf technology offerings.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|leagues|premium_tech|coaching_available|family_friendly",
+  "vibe_tags": "community_club|casual|welcoming",
+  "who_its_for": "beginners|families|corporate_teams|juniors_youth|serious_golfers",
+  "why_golfers_like_it": [
+    "Premium Trackman technology for data-rich practice and lessons",
+    "Convenient location near Westminster and Littlestown",
+    "Family-friendly environment with dedicated junior lesson programs"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "On-site snack bar available. banquet room available for events."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service. BYOB policy is not specified."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Used for indoor lessons and simulator play."
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://westminster-national-simulator-v2.book.teeitup.com/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 40,
+  "price_range_max_local": 255,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify if club rentals are available for the simulator. It is recommended to bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "The venue has a snack bar and banquet room, but a policy on outside food and drink is not mentioned."
+    },
+    {
+      "question": "How long does an 18-hole simulator round take?",
+      "answer": "The website does not specify the duration for an 18-hole simulator session."
+    },
+    {
+      "question": "Is this kid-friendly?",
+      "answer": "Yes, the venue offers specific junior lesson programs for ages 12 and under, indicating it is family-friendly."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"7AM-9PM\"], \"Tuesday\": [\"7AM-9PM\"], \"Wednesday\": [\"7AM-9PM\"], \"Thursday\": [\"7AM-9PM\"], \"Friday\": [\"7AM-9PM\"], \"Saturday\": [\"7AM-9PM\"], \"Sunday\": [\"7AM-9PM\"]}"
+}

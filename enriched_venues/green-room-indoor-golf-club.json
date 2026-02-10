@@ -1,0 +1,93 @@
+{
+  "name": "Green Room Indoor Golf Club",
+  "address": "4023 Camino Ranchero Ste. A, Camarillo, CA 93012",
+  "city": "Camarillo",
+  "region": "California",
+  "country": "US",
+  "latitude": 34.220397,
+  "longitude": -119.016551,
+  "phone": "+18052291399",
+  "website": "https://www.greenroomindoorgolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770230715/golf_simulators/www_greenroomindoorgolf_com_ChIJwdE1yiQ36IARuaLDHRXaxQo.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Green+Room+Indoor+Golf+Club/@34.2203971,-119.01655099999999,14z/data=!4m8!1m2!2m1!1sGreen+Room+Indoor+Golf+Club!3m4!1s0x80e83724ca35d1c1:0xac5da151dc3a2b9!8m2!3d34.2203971!4d-119.01655099999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJwdE1yiQ36IARuaLDHRXaxQo",
+  "email": "info@greenroomindoorgolf.com",
+  "venue_type": "sim_bar|training_studio",
+  "about": "Green Room Indoor Golf Club provides indoor golf simulation technology with a casual, modern atmosphere. The venue features Trackman iO simulators that allow for practice or play on various courses, emphasizing flexibility for users to fit golf into their schedules. Pricing includes hourly public bookings starting at $25 per 30 minutes and membership options beginning at $180 per month, offering discounted rates and priority access. It caters to individuals, groups, and event hosting, focusing on convenience and technology-enhanced gameplay without the constraints of traditional golf courses.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|premium_tech|coaching_available|leagues|club_rentals|solo_practice|family_friendly",
+  "vibe_tags": "casual|welcoming|modern|sports_bar|tech_lab",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Flexible scheduling with no tee times, allowing play anytime",
+    "Tour-level Trackman iO technology for precise swing analysis",
+    "Casual atmosphere that accommodates both practice and social play"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Kitchen available for food service"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Delivers tour-level metrics including club speed, spin rates, carry distance, and face angle"
+    }
+  ],
+  "simulator_so": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://www.greenroomindoorgolf.com/book",
+  "pricing_model": "mixed",
+  "price_range_min_local": 25,
+  "price_range_max_local": 180,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|club_fitting|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website does not specify if club rentals are available, so it's recommended to bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "The venue offers kitchen food service, but it's unclear if outside food or drinks are permitted."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "Indoor golf sessions are designed to be completed in under an hour, unlike traditional rounds."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is described as family-friendly and suitable for hosting events, including those involving children."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.3,
+  "opening_hours": "{\"Monday\": [\"5AM-11PM\"], \"Tuesday\": [\"5AM-11PM\"], \"Wednesday\": [\"5AM-11PM\"], \"Thursday\": [\"5AM-11PM\"], \"Friday\": [\"5AM-11PM\"], \"Saturday\": [\"5AM-11PM\"], \"Sunday\": [\"5AM-11PM\"]}"
+}

@@ -1,0 +1,89 @@
+{
+  "name": "Hosel Rockets Golf and Whiskey Lounge",
+  "address": "4350 Dixie Hwy, Waterford Township, MI 48329",
+  "city": "Waterford Township",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 42.682749,
+  "longitude": -83.374515,
+  "phone": "+12485993496",
+  "website": "https://www.hoselrockets.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770200510/golf_simulators/www_hoselrockets_com_ChIJkeTKYP-XJIgRiiLr5dgFpVM.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Hosel+Rockets+Golf+and+Whiskey+Lounge/@42.6827488,-83.37451539999999,14z/data=!4m8!1m2!2m1!1sHosel+Rockets+Golf+and+Whiskey+Lounge!3m4!1s0x882497ff60cae491:0x53a505d8e5eb228a!8m2!3d42.6827488!4d-83.37451539999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJkeTKYP-XJIgRiiLr5dgFpVM",
+  "email": "info@hoselrockets.com",
+  "venue_type": "sim_bar",
+  "about": "Hosel Rockets Golf and Whiskey Lounge is an indoor golf simulator venue that combines state-of-the-art technology with a premium bar and dining experience. It features Trackman iO simulators providing a highly accurate golfing experience for practice and play, alongside a curated selection of premium whiskeys, bourbons, and craft cocktails. The venue offers an upscale, relaxed setting with a 29-foot wide video wall and gastro-pub inspired food, making it a destination for year-round golf and social gatherings. It caters to both serious golfers looking to improve their game and those seeking a unique leisure activity, with convenient booking through its online platform.",
+  "tags": "food_and_drinks|serious_golfers|date_night|corporate_events|premium_tech|upscale_lounge|group_friendly|whiskey_bar|sim_bar|casual_golf",
+  "vibe_tags": "upscale_lounge|sports_bar|tech_lab|community_club",
+  "who_its_for": "serious_golfers|beginners|corporate_teams|date_night|groups",
+  "why_golfers_like_it": [
+    "Trackman iO simulators provide immersive and highly accurate golfing experience with cutting-edge radar technology",
+    "Wide selection of world-renowned courses and practice modes for skill refinement and play",
+    "Premium whiskey selection and elevated gastro-pub food in an upscale, relaxed atmosphere"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Elevated gastro-pub inspired menu available on-site"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Curated selection of premium whiskeys, bourbons, local Michigan whiskeys, and specialty cocktails"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "State-of-the-art radar technology for highly accurate shot tracking"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://booking.trackmangolf.com/venues/hosel-rockets-golf-and-whiskey-lounge/booking/bays",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.5,
+  "rating_value_for_money": 4.2,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website doesn't explicitly state whether club rentals are available, but it's recommended to bring your own clubs for the best experience."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "No, the venue offers an elevated gastro-pub inspired menu and a curated whiskey selection on-site, with no mention of outside food or drinks being allowed."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website doesn't specify the duration for 18 holes, but typical simulator rounds take 1.5-2 hours depending on group size and pace of play."
+    },
+    {
+      "question": "Is Hosel Rockets kid-friendly?",
+      "answer": "No, the venue features a whiskey bar and upscale atmosphere focused on adult golf and dining experiences, making it unsuitable for children."
+    }
+  ],
+  "rating_overall": 4.5,
+  "opening_hours": "{\"Monday\": [\"4-10PM\"], \"Tuesday\": [\"11AM-10PM\"], \"Wednesday\": [\"11AM-10PM\"], \"Thursday\": [\"11AM-10PM\"], \"Friday\": [\"11AM-11PM\"], \"Saturday\": [\"11AM-11PM\"], \"Sunday\": [\"11AM-8PM\"]}"
+}

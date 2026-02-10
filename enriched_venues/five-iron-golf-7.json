@@ -1,0 +1,96 @@
+{
+  "name": "Five Iron Golf",
+  "address": "2131 N Elston Ave, Chicago, IL 60614",
+  "city": "Chicago",
+  "region": "Illinois",
+  "country": "US",
+  "latitude": 41.920472,
+  "longitude": -87.670145,
+  "phone": "+18005135153",
+  "website": "https://fiveirongolf.com/locations/chicago-bucktown/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770199533/golf_simulators/fiveirongolf_com_ChIJkfIv0uHTD4gR4fY1iiycpBA.png",
+  "google_maps_url": "https://www.google.com/maps/place/Five+Iron+Golf/@41.9204722,-87.6701454,14z/data=!4m8!1m2!2m1!1sFive+Iron+Golf!3m4!1s0x880fd3e1d22ff291:0x10a49c2c8a35f6e1!8m2!3d41.9204722!4d-87.6701454",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJkfIv0uHTD4gR4fY1iiycpBA",
+  "email": "bucktown@fiveirongolf.com",
+  "venue_type": "sim_bar",
+  "about": "Five Iron Golf Bucktown is an indoor golf and social hub located in Chicago, IL. The venue features Golfzon simulators with lifelike moving swing plates and Unreal Engine graphics, providing a realistic indoor golf experience. Patrons can play legendary championship courses from around the world, compete in mini-games, and receive instruction from certified coaches. The facility also includes an indoor sports bar with a full bar, craft cocktails, and a chef-inspired menu. Membership options are available, offering free play and discounts on various services and food items.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|corporate_events|leagues|premium_tech|private_rooms|club_rentals|late_night|coaching_available",
+  "vibe_tags": "sports_bar|community_club|modern|welcoming",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "State-of-the-art Golfzon simulators with realistic graphics and moving swing plates",
+    "Certified on-site coaching and advanced data feedback to improve your game",
+    "Full-service sports bar with craft cocktails and chef-inspired food, perfect for socializing",
+    "Convenient free parking available on-site",
+    "Membership benefits include free play and discounts on food, drinks, and instruction"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Chef-inspired bites, pizzas, wings, and appetizers available. Full menu and late-night specials offered."
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar with craft cocktails and drink specials available. 5i After Dark offers $5 and $10 wings and drink specials."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Golfzon",
+      "model": "Unspecified",
+      "notes": "Features lifelike moving swing plates and Unreal Engine graphics"
+    },
+    {
+      "brand": "Trackman",
+      "model": "Unspecified",
+      "notes": "Used for lessons and advanced data tracking, available as an upgrade for specific sessions"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "hybrid",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "mixed",
+  "lefty_friendly": true,
+  "bay_count_total": 12,
+  "booking_url": "https://booking.fiveirongolf.com/select-experience?location=chicago-bucktown",
+  "pricing_model": "mixed",
+  "price_range_min_local": 29,
+  "price_range_max_local": 345,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 8,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|club_fitting|leagues|wifi|pro_shop",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "You can bring your own clubs, but the venue also offers club rentals and a pro shop for your convenience. Custom club fitting services are available through Callaway Tour Fitting."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "Outside food and drinks are not permitted. The venue has a full-service kitchen and bar with a variety of food options, craft cocktails, and drink specials available for purchase."
+    },
+    {
+      "question": "How long does an 18-hole round take?",
+      "answer": "An 18-hole round typically takes about 2-3 hours depending on the pace of play and the number of players in your group. This can vary based on the course and simulator software."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Five Iron Golf Bucktown is kid-friendly, offering junior clinics, kids' party packages, and a welcoming atmosphere for families. The venue also features games and activities suitable for younger golfers."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"6AM-11PM\"], \"Tuesday\": [\"6AM-11PM\"], \"Wednesday\": [\"6AM-11PM\"], \"Thursday\": [\"6AM-11PM\"], \"Friday\": [\"6AM-1AM\"], \"Saturday\": [\"8AM-1AM\"], \"Sunday\": [\"8AM-11PM\"]}"
+}

@@ -1,0 +1,94 @@
+{
+  "name": "In Play Golf",
+  "address": "115 Duffner Dr Suite C, Lynden, WA 98264",
+  "city": "Lynden",
+  "region": "Washington",
+  "country": "US",
+  "latitude": 48.937712,
+  "longitude": -122.487476,
+  "phone": "+13606579646",
+  "website": "https://golfinplay.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770232230/golf_simulators/golfinplay_com_ChIJ44rN5Wa3hVQRRTfjczP_MXo.png",
+  "google_maps_url": "https://www.google.com/maps/place/In+Play+Golf/@48.937712,-122.4874765,14z/data=!4m8!1m2!2m1!1sIn+Play+Golf!3m4!1s0x5485b766e5cd8ae3:0x7a31ff3373e33745!8m2!3d48.937712!4d-122.4874765",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ44rN5Wa3hVQRRTfjczP_MXo",
+  "email": "chad@golfinplay.com",
+  "venue_type": "sim_bar|other",
+  "about": "InPlay is an indoor golf facility featuring TrackMan iO simulators and operating 24/7 with keyless entry access. The venue offers hourly play, memberships, and leagues for both individual and group golfers. Located in Lynden, WA, it provides a premium, flexible golf experience with a focus on technology, social competition, and convenience for all skill levels.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|kids_friendly|corporate_events|leagues|premium_tech|budget_friendly|private_rooms|late_night",
+  "vibe_tags": "casual|welcoming|modern|tech_lab|community_club",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|solo_practice",
+  "why_golfers_like_it": [
+    "24/7 keyless entry access provides ultimate flexibility",
+    "Premium TrackMan iO technology delivers highly accurate ball and club tracking",
+    "Social leagues and tournaments create a fun, competitive environment",
+    "Flexible pricing with hourly rates, memberships, and gift card options"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of food service"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of bar or alcohol service"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Ceiling-mounted system with radar, infrared, and high-speed imaging"
+    }
+  ],
+  "simulator_so": [
+    "GSPro",
+    "E6 Connect"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": 2,
+  "booking_url": "https://yourgolfbooking.com/venues/in-play/booking",
+  "pricing_model": "mixed",
+  "price_range_min_local": 45,
+  "price_range_max_local": 85,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|lockers|wifi|pro_shop|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The website doesn't specify, but it's standard practice to bring your own clubs to golf simulator venues."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "There is no mention of outside food or drink policies, but as a BYOB venue, it may be allowed."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The website doesn't specify exact timing, but typical simulator rounds take 1-2 hours depending on pace of play."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the venue is family-friendly with mentions of group play and events suitable for different ages."
+    }
+  ],
+  "simulator_software": [
+    "TrackMan"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

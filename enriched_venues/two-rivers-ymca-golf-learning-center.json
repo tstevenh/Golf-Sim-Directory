@@ -1,0 +1,90 @@
+{
+  "name": "Two Rivers YMCA Golf Learning Center",
+  "address": "5507 22nd Ave, Moline, IL 61265",
+  "city": "Moline",
+  "region": "Illinois",
+  "country": "US",
+  "latitude": 41.494332,
+  "longitude": -90.464904,
+  "phone": "+13092771779",
+  "website": "https://www.tworiversymca.org/golf",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770208045/golf_simulators/www_tworiversymca_org_ChIJtR-Zc5Ew4ocR2u0OGXJo9l8.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Two+Rivers+YMCA+Golf+Learning+Center/@41.4943325,-90.46490399999999,14z/data=!4m8!1m2!2m1!1sTwo+Rivers+YMCA+Golf+Learning+Center!3m4!1s0x87e2309173991fb5:0x5ff66872190eedda!8m2!3d41.4943325!4d-90.46490399999999",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJtR-Zc5Ew4ocR2u0OGXJo9l8",
+  "venue_type": "multi_sport_sim",
+  "about": "Two Rivers YMCA Golf Learning Center is a multi-sport facility that includes an indoor golf simulator and practice bays. The venue utilizes Uneekor technology for its indoor simulator, offering year-round practice and entertainment with a variety of popular golf courses available. Pricing is structured per hour with separate rates for members and community users, and facility reservations are required. The center also features youth golf programs through The First Tee Quad Cities, focusing on character development and life skills through the sport.",
+  "tags": "beginner_friendly|corporate_events|leagues|premium_tech|budget_friendly|private_rooms|club_rentals|coaching_available|juniors_youth",
+  "vibe_tags": "family_fun_center|community_club|tech_lab",
+  "who_its_for": "beginners|families|corporate_teams|solo_practice|juniors_youth",
+  "why_golfers_like_it": [
+    "Heated covered hitting bays with Toptracer Range technology for skill-based games",
+    "Indoor simulator powered by Uneekor allowing for year-round play regardless of weather",
+    "Mobile app integration for tracking practice data and accessing a global golf community",
+    "Affordable bucket pricing options with discounts for members",
+    "Flexible private party options for groups of up to 4 players"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of food service"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "Eye XO",
+      "notes": "Primary simulator hardware"
+    }
+  ],
+  "simulator_software": [
+    "Toptracer Range"
+  ],
+  "launch_monitor_type": "unknown",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://www.tworiversymca.org/golf",
+  "pricing_model": "per_person_hour",
+  "price_range_min_local": 20,
+  "price_range_max_local": 70,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 4,
+  "amenities_list": "club_rentals|leagues|wifi",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, golfers are expected to bring their own clubs to use at the simulator and practice bays."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "The website does not mention any policy against bringing outside food or drinks, but it's recommended to call ahead to confirm."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "While not explicitly stated, a typical simulator session is 1 hour. The ability to play 18 holes within that time depends on the number of players and pace of play."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "Yes, the venue offers youth golf programs through The First Tee and features a Kids Adventure Center for childcare, making it family-friendly."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"Closed\"], \"Tuesday\": [\"Closed\"], \"Wednesday\": [\"Closed\"], \"Thursday\": [\"Closed\"], \"Friday\": [\"12-6PM\"], \"Saturday\": [\"12-6PM\"], \"Sunday\": [\"12-6PM\"]}"
+}

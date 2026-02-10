@@ -1,0 +1,89 @@
+{
+  "name": "Savannah Indoor Golf Club",
+  "address": "1100 Eisenhower Dr # 19, Savannah, GA 31406",
+  "city": "Savannah",
+  "region": "Georgia",
+  "country": "US",
+  "latitude": 32.006862,
+  "longitude": -81.098705,
+  "phone": "+19126559119",
+  "website": "http://savannahindoorgolfclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770226202/golf_simulators/savannahindoorgolfclub_com_ChIJFzSTv0if-4gRZv5LZTB2jg0.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Savannah+Indoor+Golf+Club/@32.006862,-81.0987052,14z/data=!4m8!1m2!2m1!1sSavannah+Indoor+Golf+Club!3m4!1s0x88fb9f48bf933417:0xd8e7630654bfe66!8m2!3d32.006862!4d-81.0987052",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJFzSTv0if-4gRZv5LZTB2jg0",
+  "venue_type": "training_studio",
+  "about": "Savannah Indoor Golf Club is a private indoor golf performance facility providing 24/7 access for members to play, practice, and train on TrackMan 4 simulators. The venue offers certified PGA coaching and instruction, custom fitting of major golf brands, and data-driven practice technologies. Memberships include keyless entry and unlimited putting green use in a climate-controlled environment, with options ranging from 4 to 6 hours of monthly simulator time to unlimited access for serious golfers.",
+  "tags": "beginner_friendly|serious_practice|coaching_available|corporate_events|premium_tech|club_rentals|private_rooms|leagues|community_club|tech_lab",
+  "vibe_tags": "private_luxury|tech_lab|community_club|modern",
+  "who_its_for": "beginners|serious_golfers|corporate_teams|solo_practice|coaches_instructors",
+  "why_golfers_like_it": [
+    "Access to premium TrackMan 4 launch monitors and 4K video analysis for detailed swing feedback",
+    "24/7 keyless entry access for flexible practice and play schedules",
+    "Over 375 worldwide golf courses available to play, including iconic venues like Pebble Beach and St. Andrews",
+    "Custom club fitting services with major golf brands to optimize equipment"
+  ],
+  "kid_friendly": false,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of food services"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol services; BYOB policy not specified"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "Professional-grade launch monitor with radar technology, 4K video analysis, and precise ball and club tracking"
+    }
+  ],
+  "simulator_software": [
+    null
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://savannah-indoor-golf-club.square.site/",
+  "pricing_model": "mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 459,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|private_rooms|club_fitting|leagues|pro_shop|wifi|climate_control|unlimited_putting_green",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you should bring your own clubs. The facility also offers custom club fitting services with major golf brands if you need equipment optimization."
+    },
+    {
+      "question": "Can I bring my own food or drink?",
+      "answer": "There is no mention of food or drink services at the venue, but it doesn't specify a BYOB policy. It's best to contact the facility directly to confirm."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "While the exact time isn't specified, simulator sessions typically allow for faster play than real golf, depending on the number of players and pace."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The venue doesn't specifically mention kid-friendly features or junior programs. It appears focused on serious practice and adult instruction."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

@@ -1,0 +1,91 @@
+{
+  "name": "The Golf Clubs",
+  "address": "7590 N Colonial Ave Suite A, Fresno, CA 93711",
+  "city": "Fresno",
+  "region": "California",
+  "country": "US",
+  "latitude": 36.847714,
+  "longitude": -119.803952,
+  "phone": "+15595506776",
+  "website": "https://thegolfclubs.us/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770227586/golf_simulators/thegolfclubs_us_ChIJ0VUVjC1plIARil2PE68FiqA.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/The+Golf+Clubs/@36.8477143,-119.8039524,14z/data=!4m8!1m2!2m1!1sThe+Golf+Clubs!3m4!1s0x8094692d8c1555d1:0xa08a05af138f5d8a!8m2!3d36.8477143!4d-119.8039524",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ0VUVjC1plIARil2PE68FiqA",
+  "email": "trevorgolflessons@gmail.com_",
+  "venue_type": "multi_sport_sim",
+  "about": "The Golf Clubs is a private, self-service indoor golf facility located off Palm and Nees. It utilizes Trackman 4 sensors, 4k projectors, and 14ft screens to provide a comprehensive golf simulation experience. The venue offers amenities like a lounge lobby, complementary snacks, and drinks, making it suitable for various players, from those looking to practice like the pros to those seeking a relaxing environment to play.",
+  "tags": "beginner_friendly|food_and_drinks|corporate_events|coaching_available|premium_tech|club_rentals|private_rooms|community_club",
+  "vibe_tags": "private_luxury|tech_lab|community_club|modern",
+  "who_its_for": "beginners|serious_golfers|corporate_teams|solo_practice|families",
+  "why_golfers_like_it": [
+    "Premium Trackman 4 technology providing 26 data points and detailed swing analysis",
+    "Climate-controlled, private bays for a comfortable and focused practice session",
+    "Complementary snacks and drinks provided to all members and guests",
+    "Ability to play on over 280 different courses and participate in various golf games",
+    "Luxurious lounge area with TVs for relaxing before or after play"
+  ],
+  "kid_friendly": "unknown",
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Complementary snacks provided to all members and guests"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Complementary drinks provided to all members and guests"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4",
+      "notes": "Top-of-the-line sensors providing 26 data points, multiple swing graphics, and video analysis"
+    }
+  ],
+  "simulator_software": [
+    "TGC"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.thegolfclubs.us/newbooking",
+  "pricing_model": "per_bay_hour|mixed",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|kitchen_food|tv_sports|private_party_room|wifi|pro_shop|club_fitting|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "The content does not explicitly state whether you need to bring your own clubs."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "No, complementary snacks and drinks are provided to all members and guests."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The content does not specify the time required to play 18 holes."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "The content does not explicitly mention if the venue is kid-friendly."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"5AM-10PM\"], \"Tuesday\": [\"5AM-10PM\"], \"Wednesday\": [\"5AM-10PM\"], \"Thursday\": [\"5AM-10PM\"], \"Friday\": [\"5AM-10PM\"], \"Saturday\": [\"5AM-10PM\"], \"Sunday\": [\"5AM-10PM\"]}"
+}

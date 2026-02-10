@@ -1,0 +1,92 @@
+{
+  "name": "Black Tee Golf",
+  "address": "131 N 300 W Suite B, St. George, UT 84770",
+  "city": "St. George",
+  "region": "Utah",
+  "country": "US",
+  "latitude": 37.110484,
+  "longitude": -113.589985,
+  "phone": "+14359620924",
+  "website": "https://www.blackteegc.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770233442/golf_simulators/www_blackteegc_com_ChIJX6FxD_1FyoARJornkY--cy0.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Black+Tee+Golf/@37.110483599999995,-113.5899852,14z/data=!4m8!1m2!2m1!1sBlack+Tee+Golf!3m4!1s0x80ca45fd0f71a15f:0x2d73be8f91e78a26!8m2!3d37.110483599999995!4d-113.5899852",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJX6FxD_1FyoARJornkY--cy0",
+  "email": "blackteegc@gmail.com",
+  "venue_type": "private_rental",
+  "about": "Black Tee Golf is a 100% private indoor golf club located in Southern Utah. The facility utilizes TrackMan 4 Dual Radar Technology simulator bays, providing members and their guests with climate-controlled access to world-renowned golf courses like St Andrews and Pebble Beach year-round. Membership is required for access, with plans ranging from individual to corporate options, and operates 24 hours a day with online booking for 1-2 hour session blocks.",
+  "tags": "private_rooms|coaching_available|serious_golfers|premium_tech|corporate_events|beginner_friendly|club_rentals",
+  "vibe_tags": "private_luxury|tech_lab|community_club",
+  "who_its_for": "serious_golfers|families|corporate_teams|coaches_instructors|beginners",
+  "why_golfers_like_it": [
+    "Unlimited access to climate-controlled facilities for year-round play",
+    "Detailed swing analysis using TrackMan 4 technology with over 40 parameters",
+    "Variety of on-course games and competitions like closest-to-the-pin and bullseye target shooting",
+    "Flexible 24/7 booking system for 1 or 2 hour sessions",
+    "Option to bring your own golf balls for accurate practice data"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of food service available on-site"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service available on-site"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "4 Dual Radar Technology",
+      "notes": "2 state-of-the-art simulator bays"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 2,
+  "booking_url": "https://www.blackteegc.com/book-online",
+  "pricing_model": "membership_only",
+  "price_range_min_local": 95,
+  "price_range_max_local": 575,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|private_rooms|wifi|pro_shop|coaching_available|club_fitting",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you should bring your own clubs as the facility expects members to use their own equipment for accurate TrackMan swing analysis."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "The website does not mention food or drink service, suggesting it may be allowed, but this is not explicitly confirmed."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The facility mentions you can play 18 holes with a partner in 1 hour."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, the website mentions bringing a family member or friend for a demo, and the limited membership option is explicitly for an individual and one guest, indicating family access is permitted."
+    }
+  ],
+  "simulator_software": [
+    "TrackMan Performance Studio"
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

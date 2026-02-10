@@ -1,0 +1,89 @@
+{
+  "name": "Moss Ridge Golf Club",
+  "address": "13545 Apple Ave, Ravenna, MI 49451",
+  "city": "Ravenna",
+  "region": "Michigan",
+  "country": "US",
+  "latitude": 43.23468,
+  "longitude": -85.91088,
+  "phone": "+12318535665",
+  "website": "http://www.mossridge.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770245966/golf_simulators/www_mossridge_com_ChIJl_9cDRUNGYgRPedLAB9oqoI.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Moss+Ridge+Golf+Club/@43.234680399999995,-85.9108801,14z/data=!4m8!1m2!2m1!1sMoss+Ridge+Golf+Club!3m4!1s0x88190d150d5cff97:0x82aa681f004be73d!8m2!3d43.234680399999995!4d-85.9108801",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJl_9cDRUNGYgRPedLAB9oqoI",
+  "venue_type": "country_club",
+  "about": "Moss Ridge Golf Club is a full-service club committed to offering exceptional service and a distinctive golfing experience. The venue provides a scenic and challenging golfing experience to local residents and visitors while hosting a wide array of public and private gatherings. During colder months, the facility offers a continued golfing experience with its state-of-the-art TrackMan simulators, allowing players to enjoy golfing around the world from the comfort indoors. The club features a full-service staff trained to accommodate all golfing needs with an emphasis on prompt, personal service, and attention to detail.",
+  "tags": "food_and_drinks|corporate_events|leagues|premium_tech|families|large_groups|club_rentals",
+  "vibe_tags": "casual|welcoming|modern|sports_bar",
+  "who_its_for": "beginners|serious_golfers|families|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Premium TrackMan simulator technology for realistic play year-round",
+    "Full-service staff providing prompt and personalized attention to detail",
+    "Convenient location with both outdoor course and indoor simulator options",
+    "Scenic and challenging course conditions suitable for various skill levels"
+  ],
+  "kid_friendly": false,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Full-service Bar and Grille available on-site"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full bar service available at the on-site Bar and Grille"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "TrackMan",
+      "model": "iO",
+      "notes": "State-of-the-art TrackMan simulators for indoor golf"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "https://mossridge.com/tee-times/#simulator",
+  "pricing_model": "per_person_hour",
+  "price_range_min_local": 60,
+  "price_range_max_local": 100,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|pro_shop|leagues|ada_accessible",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Players can bring their own clubs or use the available equipment. The club provides 2020 Club Cars with Premium Seating and GPS units to guide club selection."
+    },
+    {
+      "question": "Can I bring my own food and drinks?",
+      "answer": "The venue has an on-site Bar and Grille that offers food and beverages. External food and drink policies are not explicitly mentioned."
+    },
+    {
+      "question": "How long does it typically take to play 18 holes?",
+      "answer": "Specific timing for 18 holes is not provided. The venue recommends booking tee times online and mentions that simulator bookings are available for year-round play."
+    },
+    {
+      "question": "Is the facility kid-friendly?",
+      "answer": "The venue does not specifically mention kid-friendly amenities or policies, though it does host family-oriented events and outings."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"9AM-10PM\"], \"Tuesday\": [\"9AM-10PM\"], \"Wednesday\": [\"9AM-10PM\"], \"Thursday\": [\"9AM-10PM\"], \"Friday\": [\"9AM-10PM\"], \"Saturday\": [\"9AM-10PM\"], \"Sunday\": [\"9AM-10PM\"]}"
+}

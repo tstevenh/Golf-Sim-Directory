@@ -1,0 +1,90 @@
+{
+  "name": "Albatross Golf",
+  "address": "10187 County Rd 82 SE, Osakis, MN 56360",
+  "city": "Osakis",
+  "region": "Minnesota",
+  "country": "US",
+  "latitude": 45.873644,
+  "longitude": -95.239125,
+  "phone": "+13208089828",
+  "website": "http://www.albatrossalex.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770224923/golf_simulators/www_albatrossalex_com_ChIJsQjEJoYJylIRNp3kPUS0ma4.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Albatross+Golf/@45.873644299999995,-95.23912519999999,14z/data=!4m8!1m2!2m1!1sAlbatross+Golf!3m4!1s0x52ca098626c408b1:0xae99b4443de49d36!8m2!3d45.873644299999995!4d-95.23912519999999",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJsQjEJoYJylIRNp3kPUS0ma4",
+  "venue_type": "sim_bar",
+  "about": "Albatross Golf is a venue that provides indoor golf simulation experiences using state-of-the-art technology. They offer aboutGolf simulators, which are industry leaders known for their high accuracy and innovation, utilizing optical-based launch monitors that track shots from driving to putting. The venue operates on a per-simulator, per-hour pricing model with a one-hour minimum, making it a flexible option for groups to set their own time and share costs. It caters to a range of activities including casual play, leagues, and various event hosting, from team building to birthday parties.",
+  "tags": "beginner_friendly|corporate_events|leagues|premium_tech|private_rooms|club_rentals|date_night|family_fun_center",
+  "vibe_tags": "casual|welcoming|modern|tech_lab|family_fun_center",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "Highly accurate optical-based launch monitor technology",
+    "Flexible per-simulator pricing, allowing cost sharing among groups",
+    "Versatile venue suitable for both practice and social events",
+    "Professional-grade aboutGolf simulators for a realistic experience",
+    "Available for leagues and various group events"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No mention of on-site food service"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No mention of alcohol service or BYOB policy"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "aboutGolf",
+      "model": "unknown",
+      "notes": "Optical-based launch monitors described as industry leaders"
+    }
+  ],
+  "simulator_software": [
+    "aboutGolf"
+  ],
+  "launch_monitor_type": "infrared_optical",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.picktime.com/albatrossalex",
+  "pricing_model": "per_bay_hour",
+  "price_range_min_local": 50,
+  "price_range_max_local": 50,
+  "currency": "USD",
+  "walk_ins_allowed": "unknown",
+  "coaching_available": "unknown",
+  "private_rooms_count": 2,
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|private_party_room|leagues",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need clubs?",
+      "answer": "You will need to bring your own golf clubs to play at Albatross Golf, as they do not mention club rentals as a standard service."
+    },
+    {
+      "question": "Can I bring food or drinks?",
+      "answer": "There is no mention of outside food or drink policies. The venue focuses on the golf experience without specifying catering or BYOB options."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "For league play, teams have a 2-hour block to complete their round. For casual play, the time depends on your reservation and the pace at which your group plays, with a one-hour minimum booking."
+    },
+    {
+      "question": "Is it kid-friendly?",
+      "answer": "Yes, Albatross Golf appears to be kid-friendly, as they mention hosting family nights and other events that can include children."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"12-9PM\"], \"Tuesday\": [\"12-9PM\"], \"Wednesday\": [\"12-9PM\"], \"Thursday\": [\"12-9PM\"], \"Friday\": [\"9AM-9PM\"], \"Saturday\": [\"9AM-9PM\"], \"Sunday\": [\"9AM-9PM\"]}"
+}

@@ -1,0 +1,91 @@
+{
+  "name": "PureStrike Golf - Wake Forest",
+  "address": "2429 Circle Dr, Wake Forest, NC 27587",
+  "city": "Wake Forest",
+  "region": "North Carolina",
+  "country": "US",
+  "latitude": 35.917728,
+  "longitude": -78.548477,
+  "phone": "+19192746880",
+  "website": "http://purestrikegolf.co/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770218928/golf_simulators/purestrikegolf_co_ChIJwwjJtHtRrIkR5ZKXuAcUq5c.png",
+  "google_maps_url": "https://www.google.com/maps/place/PureStrike+Golf+-+Wake+Forest/@35.9177277,-78.5484767,14z/data=!4m8!1m2!2m1!1sPureStrike+Golf+-+Wake+Forest!3m4!1s0x89ac517bb4c908c3:0x97ab1407b89792e5!8m2!3d35.9177277!4d-78.5484767",
+  "google_rating": 5.0,
+  "sim_golf_status": "true",
+  "place_id": "ChIJwwjJtHtRrIkR5ZKXuAcUq5c",
+  "email": "info@purestrikegolf.co",
+  "venue_type": "training_studio",
+  "about": "PureStrike Golf is an indoor golf training facility in Wake Forest, NC, combining advanced simulator technology with expert coaching to provide year-round practice opportunities. The venue features state-of-the-art Uneekor simulators with 24 real-time data points for every swing, accessible 24/7 to members. Membership plans are available for various skill levels and needs, from casual players to dedicated golfers looking to improve their game through structured training programs. The facility emphasizes data-driven instruction and personalized fitting services to enhance performance.",
+  "tags": "beginner_friendly|coaching_available|leagues|premium_tech|serious_practice|budget_friendly|juniors_youth|corporate_events",
+  "vibe_tags": "tech_lab|community_club|modern|welcoming",
+  "who_its_for": "beginners|serious_golfers|juniors_youth|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "24/7 access to high-tech simulators for year-round practice",
+    "Personalized coaching with real-time swing data analysis",
+    "Variety of membership options to suit different needs and budgets",
+    "Structured training programs that focus on measurable improvement",
+    "Professional club fitting and repair services"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No food service mentioned"
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No bar or alcohol service mentioned"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Uneekor",
+      "model": "Unknown",
+      "notes": "Provides 24 real-time data points per swing"
+    }
+  ],
+  "simulator_software": [
+    "GSPro"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": "unknown",
+  "bay_count_total": "unknown",
+  "booking_url": "https://app.whoosh.io/patron/club/pure-strike",
+  "pricing_model": "mixed",
+  "price_range_min_local": 19,
+  "price_range_max_local": 150,
+  "currency": "USD",
+  "walk_ins_allowed": "true",
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": "unknown",
+  "amenities_list": "club_rentals|pro_shop|club_fitting|leagues|wifi",
+  "rating_tech_quality": 4.8,
+  "rating_facility_comfort": 4.7,
+  "rating_value_for_money": 4.8,
+  "faq": [
+    {
+      "question": "Do I need clubs?",
+      "answer": "Yes, you need to bring your own golf clubs as they are not provided by the venue."
+    },
+    {
+      "question": "Can I bring my own food and drink?",
+      "answer": "No food or alcohol service is mentioned, so it's unclear if outside food and drinks are allowed. BYOB is not specified."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to complete 18 holes is not specified on the website, but with simulator technology, typical rounds take 1.5-2 hours depending on group size."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, PureStrike offers junior lessons and has a Student Pass membership designed for junior golfers."
+    }
+  ],
+  "rating_overall": 4.8,
+  "opening_hours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}"
+}

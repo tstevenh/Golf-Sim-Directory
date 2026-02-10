@@ -1,0 +1,90 @@
+{
+  "name": "Elizabethtown Fitness Club",
+  "address": "626 S Market St, Elizabethtown, PA 17022",
+  "city": "Elizabethtown",
+  "region": "Pennsylvania",
+  "country": "US",
+  "latitude": 40.144435,
+  "longitude": -76.60179,
+  "phone": "+17173673327",
+  "website": "https://www.etownfitnessclub.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770225043/golf_simulators/www_etownfitnessclub_com_ChIJR8Je1FaYyIkRAntmjind9Bo.png",
+  "google_maps_url": "https://www.google.com/maps/place/Elizabethtown+Fitness+Club/@40.1444349,-76.60179,14z/data=!4m8!1m2!2m1!1sElizabethtown+Fitness+Club!3m4!1s0x89c89856d45ec247:0x1af4dd298e667b02!8m2!3d40.1444349!4d-76.60179",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJR8Je1FaYyIkRAntmjind9Bo",
+  "email": "keenernutrition@gmail.com",
+  "venue_type": "multi_sport_sim",
+  "about": "Elizabethtown Fitness Club is a multi-sport facility that features a dedicated indoor golf simulator alongside a full fitness center. The golf experience centers around a Foresight GC2 simulator, allowing users to play on over 25 world-class courses, including notable Pennsylvania layouts like Merion and Oakmont. The venue operates with a mixed-use model, offering golf by the hour to both members and non-members, while also providing a range of fitness memberships and group fitness classes. The facility is a community-oriented space emphasizing a welcoming environment for all ages and fitness levels, making it suitable for both serious golf practice and casual play.",
+  "tags": "beginner_friendly|budget_friendly|coaching_available|community_club|corporate_events|families|leagues|private_rooms|serious_golfers",
+  "vibe_tags": "casual|community_club|modern|welcoming",
+  "who_its_for": "beginners|families|serious_golfers|corporate_teams|solo_practice",
+  "why_golfers_like_it": [
+    "Year-round access to high-quality Foresight GC2 simulator technology",
+    "Wide selection of over 25 golf courses, including exclusive Pennsylvania layouts",
+    "Affordable pricing options for both members and non-members",
+    "Partnership with York Indoor Golf & Training Center for expert-level instruction"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": false,
+      "notes": "No on-site food service is mentioned in the provided content."
+    },
+    {
+      "type": "alcohol",
+      "available": false,
+      "notes": "No on-site alcohol service is mentioned in the provided content."
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Foresight",
+      "model": "GC2",
+      "notes": "A high-end simulator featuring a dual camera launch monitor system."
+    }
+  ],
+  "simulator_software": [
+    "unknown"
+  ],
+  "launch_monitor_type": "photometric_camera",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "unknown",
+  "lefty_friendly": true,
+  "bay_count_total": 1,
+  "booking_url": "unknown",
+  "pricing_model": "per_person_hour",
+  "price_range_min_local": 10,
+  "price_range_max_local": 25,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 6,
+  "amenities_list": "club_rentals|leagues|pro_shop|coaching_available",
+  "rating_tech_quality": 4.5,
+  "rating_facility_comfort": 4.2,
+  "rating_value_for_money": 4.0,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Yes, you must bring your own golf clubs to use the simulator. The venue does not mention club rentals as a service."
+    },
+    {
+      "question": "Can I bring my own food or drink?",
+      "answer": "The provided content does not mention any food or beverage service, nor does it specify a policy on outside food or drinks. It is recommended to call the venue directly at 717.367.3327 for clarification."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The content does not specify an estimated time for an 18-hole round. However, it offers an '18 Holes' option for $20 (members) or $25 (non-members)."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Elizabethtown Fitness Club appears to be kid-friendly. The venue offers a Zumba Gold class specifically designed for seniors or those with lower fitness levels, indicating an inclusive environment for various age groups."
+    }
+  ],
+  "rating_overall": 4.2,
+  "opening_hours": "{\"Monday\": [\"5AM-9PM\"], \"Tuesday\": [\"5AM-9PM\"], \"Wednesday\": [\"5AM-9PM\"], \"Thursday\": [\"5AM-9PM\"], \"Friday\": [\"5AM-7PM\"], \"Saturday\": [\"7AM-4PM\"], \"Sunday\": [\"7AM-4PM\"]}"
+}

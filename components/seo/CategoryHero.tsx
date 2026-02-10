@@ -1,6 +1,6 @@
 "use client";
+/* eslint-disable @next/next/no-img-element */
 
-import { ReactNode } from "react";
 import { 
   MapPin, 
   Users, 

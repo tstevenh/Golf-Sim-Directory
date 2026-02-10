@@ -1,0 +1,92 @@
+{
+  "name": "Five Iron Golf",
+  "address": "200 Lipscomb St, Fort Worth, TX 76104",
+  "city": "Fort Worth",
+  "region": "Texas",
+  "country": "US",
+  "latitude": 32.742678,
+  "longitude": -97.333312,
+  "phone": "+18005135153",
+  "website": "https://www.fiveirongolf.com/",
+  "hero_image": "https://res.cloudinary.com/dz9ekxish/image/upload/v1770210757/golf_simulators/www_fiveirongolf_com_ChIJ91TZfE9xToYRZzITtP7dVOM.jpg",
+  "google_maps_url": "https://www.google.com/maps/place/Five+Iron+Golf/@32.7426785,-97.3333119,14z/data=!4m8!1m2!2m1!1sFive+Iron+Golf!3m4!1s0x864e714f7cd954f7:0xe354ddfeb4133267!8m2!3d32.7426785!4d-97.3333119",
+  "google_rating": null,
+  "sim_golf_status": "true",
+  "place_id": "ChIJ91TZfE9xToYRZzITtP7dVOM",
+  "email": "leagues@fiveirongolf.com",
+  "venue_type": "sim_bar",
+  "about": "Five Iron Golf is a modern indoor golf venue that combines high-tech simulator play with a social sports bar atmosphere. The facility features state-of-the-art Trackman simulator bays, high-speed swing cameras, and access to over 200 world-class virtual golf courses, including PGA Tour venues like Pebble Beach. Each location is designed to bring together the driving range, clubhouse, and sports bar under one roof, offering a full-service bar with a chef-inspired menu and a lively social atmosphere. The venue operates with a no-dress-code policy, making golf accessible for all skill levels, from seasoned pros to beginners. Pricing varies by day, time, and location, with members receiving significant discounts on simulator rentals and other services.",
+  "tags": "beginner_friendly|food_and_drinks|date_night|kids_friendly|corporate_events|leagues|premium_tech|budget_friendly|private_rooms|club_rentals|late_night|coaching_available",
+  "vibe_tags": "sports_bar|party_atmosphere|community_club|modern|welcoming",
+  "who_its_for": "beginners|serious_golfers|families|large_groups|corporate_teams",
+  "why_golfers_like_it": [
+    "State-of-the-art Trackman technology provides accurate ball and club tracking data",
+    "Access to 200+ world-class virtual golf courses, including PGA Tour venues",
+    "Full-service bar and chef-inspired menu for a complete dining and golfing experience",
+    "No-dress-code policy makes golf accessible and welcoming for all skill levels",
+    "Membership options offer significant discounts and benefits like free play during off-peak hours"
+  ],
+  "kid_friendly": true,
+  "food_and_drink": [
+    {
+      "type": "food",
+      "available": true,
+      "notes": "Chef-inspired menu with a focus on appetizers, pizzas, and wings"
+    },
+    {
+      "type": "alcohol",
+      "available": true,
+      "notes": "Full-service bar with drink specials, happy hour deals, and a variety of beer, wine, and cocktails"
+    }
+  ],
+  "simulator_hardware": [
+    {
+      "brand": "Trackman",
+      "model": "iO",
+      "notes": "Custom-built simulators with industry-leading launch monitors providing accurate data on ball flight, spin rate, swing speed, club path, and attack angle"
+    }
+  ],
+  "simulator_so": null,
+  "launch_monitor_type": "radar",
+  "ball_tracking": true,
+  "club_tracking": true,
+  "putting_mode": "gimme_circle",
+  "lefty_friendly": true,
+  "bay_count_total": "unknown",
+  "booking_url": "https://www.fiveirongolf.com/sim-rentals",
+  "pricing_model": "mixed",
+  "price_range_min_local": 29,
+  "price_range_max_local": 345,
+  "currency": "USD",
+  "walk_ins_allowed": true,
+  "coaching_available": true,
+  "private_rooms_count": "unknown",
+  "max_group_size_per_bay": 8,
+  "amenities_list": "club_rentals|full_bar|kitchen_food|tv_sports|private_party_room|wifi|club_fitting|leagues|ada_accessible",
+  "rating_tech_quality": 4.7,
+  "rating_facility_comfort": 4.5,
+  "rating_value_for_money": 4.2,
+  "faq": [
+    {
+      "question": "Do I need to bring my own clubs?",
+      "answer": "Club rentals are available, but players are welcome to bring their own clubs. The venue does not explicitly state a BYOB policy for clubs."
+    },
+    {
+      "question": "Can I bring my own food or drinks?",
+      "answer": "Outside food and drinks are not permitted. Five Iron Golf offers a full-service bar with a chef-inspired menu, including appetizers, pizzas, and wings."
+    },
+    {
+      "question": "How long does it take to play 18 holes?",
+      "answer": "The time to play 18 holes varies depending on the number of players and the simulator's speed, but typically ranges from 2-3 hours."
+    },
+    {
+      "question": "Is the venue kid-friendly?",
+      "answer": "Yes, Five Iron Golf is kid-friendly, offering junior clinics for ages 6-14 and hosting kids' birthday parties. The no-dress-code policy and welcoming atmosphere make it suitable for families."
+    }
+  ],
+  "simulator_software": [
+    "Trackman"
+  ],
+  "rating_overall": 4.5,
+  "opening_hours": null
+}
