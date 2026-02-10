@@ -11,7 +11,8 @@ export async function GET(request: Request) {
   const venueType = searchParams.get("type");
   const query = searchParams.get("q");
   const page = parseInt(searchParams.get("page") || "1");
-  const limit = parseInt(searchParams.get("limit") || "20");
+  // Cap limit at 50 to prevent excessive data transfer
+  const limit = Math.min(parseInt(searchParams.get("limit") || "20"), 50);
   
   const skip = (page - 1) * limit;
   
@@ -67,6 +68,11 @@ export async function GET(request: Request) {
       limit,
       total,
       pages: Math.ceil(total / limit),
+    },
+  }, {
+    headers: {
+      // Cache for 5 minutes, allow stale for 1 hour while revalidating
+      'Cache-Control': 'public, max-age=300, stale-while-revalidate=3600',
     },
   });
 }

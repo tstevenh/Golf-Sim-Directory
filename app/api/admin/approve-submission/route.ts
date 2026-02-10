@@ -56,13 +56,26 @@ export async function POST(request: Request) {
     // Generate slug from name
     const name = (data.name as string) || "Untitled Venue";
     const baseSlug = slugify(name);
-    
-    // Check for existing slug and append number if needed
+
+    // Check for existing slugs with single query instead of N+1 loop
+    const existingSlugs = await db.venue.findMany({
+      where: {
+        slug: {
+          startsWith: baseSlug
+        }
+      },
+      select: { slug: true },
+    });
+
+    // Generate unique slug
     let slug = baseSlug;
-    let counter = 1;
-    while (await db.venue.findUnique({ where: { slug } })) {
+    if (existingSlugs.length > 0) {
+      const existingSlugSet = new Set(existingSlugs.map(v => v.slug));
+      let counter = 1;
+      while (existingSlugSet.has(`${baseSlug}-${counter}`)) {
+        counter++;
+      }
       slug = `${baseSlug}-${counter}`;
-      counter++;
     }
 
     // Create the venue
@@ -76,7 +89,8 @@ export async function POST(request: Request) {
         state: (data.state as string) || "",
         zipCode: (data.zipCode as string) || "",
         country: "US",
-        // Default coordinates - should be updated with real geocoding
+        // TODO: Update schema to allow nullable coordinates (0,0 is Gulf of Guinea - not ideal default)
+        // For now using 0 as schema requires non-null Float
         latitude: 0,
         longitude: 0,
         phone: (data.phone as string) || null,

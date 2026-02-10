@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { MapPin, Star, Monitor, ArrowUpRight, Trophy, Award } from "lucide-react";
+import { VerifiedBadge } from "@/components/ui/VerifiedBadge";
 
 interface VenueCardProps {
   id: string;
@@ -17,6 +18,7 @@ interface VenueCardProps {
   priceRangeMax?: number | null;
   ratingOverall: number | null;
   featured?: boolean;
+  claimed?: boolean;
   tags?: string[] | null;
   href: string;
   // New props for rankings
@@ -98,6 +100,7 @@ export function VenueCard({
   priceRangeMax,
   ratingOverall,
   featured,
+  claimed,
   tags,
   href,
   rank,
@@ -154,6 +157,13 @@ export function VenueCard({
             <span className="truncate">{city}, {state}</span>
           </div>
 
+          {/* Verified Badge */}
+          {claimed && (
+            <div className="mb-3">
+              <VerifiedBadge size="sm" />
+            </div>
+          )}
+
           {/* Meta row - Touch friendly (min 48px) */}
           <div className="flex items-center justify-between pt-4 border-t border-subtle min-h-[48px]">
             {formatPrice(priceRangeMin, priceRangeMax) ? (
@@ -203,6 +213,7 @@ export function VenueCardCompact({
   launchMonitorType,
   ratingOverall,
   featured,
+  claimed,
   href,
   rank,
   showRank = false,
@@ -232,6 +243,7 @@ export function VenueCardCompact({
           </p>
 
           <div className="mt-2 flex items-center gap-2">
+            {claimed && <VerifiedBadge size="sm" />}
             {showRank && rank && rank <= 3 && (
               <div className="w-6 h-6 bg-masters-green rounded-full flex items-center justify-center">
                 <span className="text-deep-black font-mono font-bold text-xs">{rank}</span>

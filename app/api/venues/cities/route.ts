@@ -25,7 +25,12 @@ export async function GET(request: Request) {
       .sort((a, b) => b._count.id - a._count.id)
       .map((c) => c.city);
 
-    return NextResponse.json({ cities });
+    return NextResponse.json({ cities }, {
+      headers: {
+        // Cache for 1 hour - city data changes infrequently
+        'Cache-Control': 'public, max-age=3600, stale-while-revalidate=86400',
+      },
+    });
   } catch (error) {
     console.error("Error fetching cities:", error);
     return NextResponse.json({ cities: [] });

@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import { cache } from "react";
 import { db } from "@/lib/db";
 import { auth } from "@/lib/auth";
 import { VenueDetail } from "@/components/venue/VenueDetail";
@@ -19,6 +20,13 @@ interface VenuePageProps {
 
 export const revalidate = 86400;
 const META_DESCRIPTION_MAX = 160;
+
+// Memoize venue fetch to prevent duplicate queries between generateMetadata and page
+const getVenueBySlug = cache(async (slug: string) => {
+  return await db.venue.findUnique({
+    where: { slug },
+  });
+});
 
 function normalizeText(value: string | null | undefined): string {
   return (value || "").replace(/\s+/g, " ").trim();
@@ -101,9 +109,8 @@ function buildMetaDescription(venue: {
 export async function generateMetadata({ params }: VenuePageProps): Promise<Metadata> {
   try {
     const { venueSlug } = await params;
-    const venue = await db.venue.findUnique({
-      where: { slug: venueSlug },
-    });
+    // Use cached fetch to avoid duplicate query with page component
+    const venue = await getVenueBySlug(venueSlug);
 
     if (!venue) {
       return { title: "Venue Not Found" };
@@ -173,9 +180,8 @@ export default async function VenuePage({ params }: VenuePageProps) {
       .replace(/-/g, " ")
       .replace(/\b\w/g, (l) => l.toUpperCase());
 
-    const venue = await db.venue.findUnique({
-      where: { slug: venueSlug },
-    });
+    // Use cached fetch - already called in generateMetadata, so this won't hit DB again
+    const venue = await getVenueBySlug(venueSlug);
 
     if (!venue || venue.status !== "active") {
       notFound();

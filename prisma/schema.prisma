@@ -3,8 +3,8 @@ generator client {
 }
 
 datasource db {
-  provider = "postgresql"
-  url      = env("DATABASE_URL")
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
   directUrl = env("DIRECT_URL")
 }
 
@@ -82,123 +82,126 @@ enum SubmissionStatus {
 
 // Models
 model Venue {
-  id                String   @id @default(cuid())
-  slug              String   @unique
-  
+  id   String @id @default(cuid())
+  slug String @unique
+
   // Core Info
-  name              String
-  brandName         String?
-  venueType         VenueType @default(other)
-  
+  name      String
+  brandName String?
+  venueType VenueType @default(other)
+
   // Address
-  address           String
-  city              String
-  state             String
-  zipCode           String
-  country           String   @default("US")
-  latitude          Float
-  longitude         Float
-  
+  address   String
+  city      String
+  state     String
+  zipCode   String
+  country   String @default("US")
+  latitude  Float
+  longitude Float
+
   // Contact
-  phone             String?
-  email             String?
-  website           String?
-  bookingUrl        String?
-  googleMapsUrl     String?
-  
+  phone         String?
+  email         String?
+  website       String?
+  bookingUrl    String?
+  googleMapsUrl String?
+
   // SEO Content
-  shortDescription  String?  @db.VarChar(500)
-  about             String?  @db.Text
-  
+  shortDescription String? @db.VarChar(500)
+  about            String? @db.Text
+
   // Categorization
-  tags              String[]
-  vibeTags          String[]
-  whoItsFor         String[]
-  
+  tags      String[]
+  vibeTags  String[]
+  whoItsFor String[]
+
   // Tech Info
-  simulatorSystems  Json?    // [{"brand":"Trackman","model":"iO"}]
-  hardwareBrands    String[] @default([])
-  softwareSlugs     String[] @default([])
+  simulatorSystems  Json? // [{"brand":"Trackman","model":"iO"}]
+  hardwareBrands    String[]          @default([])
+  softwareSlugs     String[]          @default([])
   launchMonitorType LaunchMonitorType @default(unknown)
-  ballTracking      Boolean? @default(false)
-  clubTracking      Boolean? @default(false)
-  puttingMode       String?  // auto_putt, gimme_circle, real_putting_surface
-  leftyFriendly     Boolean  @default(false)
-  
+  ballTracking      Boolean?          @default(false)
+  clubTracking      Boolean?          @default(false)
+  puttingMode       String? // auto_putt, gimme_circle, real_putting_surface
+  leftyFriendly     Boolean           @default(false)
+
   // Facility
-  bayCount          Int?
-  hasPrivateRooms   Boolean  @default(false)
-  privateRoomsCount Int?
+  bayCount           Int?
+  hasPrivateRooms    Boolean @default(false)
+  privateRoomsCount  Int?
   maxGroupSizePerBay Int?
-  
+
   // Pricing
-  pricingModel      PricingModel @default(unknown)
-  priceRangeMin     Int?
-  priceRangeMax     Int?
-  currency          String   @default("USD")
-  
+  pricingModel  PricingModel @default(unknown)
+  priceRangeMin Int?
+  priceRangeMax Int?
+  currency      String       @default("USD")
+
   // Amenities
-  foodAndDrink      Json?    // {"food": true, "alcohol": true, "notes": "Full bar"}
+  foodAndDrink      Json? // {"food": true, "alcohol": true, "notes": "Full bar"}
   parking           ParkingType @default(unknown)
   accessibility     String[] // wheelchair_accessible, elevator, etc.
-  wifi              Boolean? @default(false)
-  kidFriendly       Boolean? @default(false)
-  coachingAvailable Boolean  @default(false)
-  
+  wifi              Boolean?    @default(false)
+  kidFriendly       Boolean?    @default(false)
+  coachingAvailable Boolean     @default(false)
+
   // Hours
-  hours             String?  // mon:09:00-22:00|tue:09:00-22:00|...
-  walkInsAllowed    Boolean? @default(true)
-  
+  hours          String? // mon:09:00-22:00|tue:09:00-22:00|...
+  walkInsAllowed Boolean? @default(true)
+
   // Media
-  heroImage         String?
-  
+  heroImage String?
+
   // Ratings (aggregated or manually set)
   ratingTechQuality     Float?
   ratingFacilityComfort Float?
   ratingValueForMoney   Float?
   ratingOverall         Float?
-  
+
   // Why golfers like it
-  whyGolfersLikeIt  Json?    // ["Great tech", "Friendly staff"]
-  
+  whyGolfersLikeIt Json? // ["Great tech", "Friendly staff"]
+
   // Status & Ownership
-  status            VenueStatus @default(active)
-  claimed           Boolean  @default(false)
-  claimedById       String?
-  claimedAt         DateTime?
-  featured          Boolean  @default(false)
-  featuredUntil     DateTime?
-  
+  status        VenueStatus @default(active)
+  claimed       Boolean     @default(false)
+  claimedById   String?
+  claimedAt     DateTime?
+  featured      Boolean     @default(false)
+  featuredUntil DateTime?
+
   // Verification
   verificationLevel VerificationLevel @default(unverified)
   lastVerifiedAt    DateTime?
-  dataSource        String   @default("manual") // manual, scraped, owner_submitted
-  
+  dataSource        String            @default("manual") // manual, scraped, owner_submitted
+
   // SEO
-  metaTitle         String?
-  metaDescription   String?
-  
+  metaTitle       String?
+  metaDescription String?
+
   // Comprehensive Data (for claimed listings)
   comprehensiveData Json?
-  
+
   // Timestamps
-  createdAt         DateTime @default(now())
-  updatedAt         DateTime @updatedAt
-  
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
   // Relations
-  claimedBy         User?    @relation("ClaimedVenues", fields: [claimedById], references: [id])
-  favorites         Favorite[]
-  corrections       CorrectionReport[]
-  
+  claimedBy     User?              @relation("ClaimedVenues", fields: [claimedById], references: [id])
+  favorites     Favorite[]
+  corrections   CorrectionReport[]
+  claimRequests ClaimRequest[]
+
   @@index([city, state])
   @@index([slug])
   @@index([venueType])
   @@index([featured])
   @@index([claimed])
   @@index([status])
+  @@index([name], map: "idx_venues_name") // For search queries
   @@index([latitude, longitude])
   @@index([status, featured, ratingOverall])
   @@index([status, city, state])
+  @@index([status, state, city, featured, ratingOverall], map: "idx_venues_city_page") // Optimized for city pages
   @@index([status, country, state], map: "idx_venues_status_country_state")
   @@index([status, country, state, city], map: "idx_venues_status_country_state_city")
   @@index([status, launchMonitorType], map: "idx_venues_status_launch_monitor")
@@ -214,26 +217,27 @@ model Venue {
 }
 
 model User {
-  id                String    @id @default(cuid())
-  email             String    @unique
-  password          String    // Hashed
-  name              String?
-  role              UserRole  @default(golfer)
-  emailVerified     DateTime?
-  
+  id            String    @id @default(cuid())
+  email         String    @unique
+  password      String // Hashed
+  name          String?
+  role          UserRole  @default(golfer)
+  emailVerified DateTime?
+
   // For business owners
-  businessName      String?
-  phone             String?
-  
+  businessName String?
+  phone        String?
+
   // Relations
-  claimedVenues     Venue[]   @relation("ClaimedVenues")
+  claimedVenues     Venue[]            @relation("ClaimedVenues")
   favorites         Favorite[]
   correctionReports CorrectionReport[]
   submissions       Submission[]
-  
-  createdAt         DateTime  @default(now())
-  updatedAt         DateTime  @updatedAt
-  
+  claimRequests     ClaimRequest[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
   @@map("users")
 }
 
@@ -242,74 +246,98 @@ model Favorite {
   userId    String
   venueId   String
   createdAt DateTime @default(now())
-  
-  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
-  venue     Venue    @relation(fields: [venueId], references: [id], onDelete: Cascade)
-  
+
+  user  User  @relation(fields: [userId], references: [id], onDelete: Cascade)
+  venue Venue @relation(fields: [venueId], references: [id], onDelete: Cascade)
+
   @@unique([userId, venueId])
   @@map("favorites")
 }
 
 model CorrectionReport {
-  id              String   @id @default(cuid())
-  venueId         String
-  reportedById    String?
-  
+  id           String  @id @default(cuid())
+  venueId      String
+  reportedById String?
+
   // What needs correction
-  field           String
-  currentValue    String?
-  suggestedValue  String
-  notes           String?
-  
-  status          CorrectionStatus @default(pending)
-  reviewedById    String?
-  reviewedAt      DateTime?
-  reviewNotes     String?
-  
-  createdAt       DateTime @default(now())
-  
-  venue           Venue    @relation(fields: [venueId], references: [id], onDelete: Cascade)
-  reportedBy      User?    @relation(fields: [reportedById], references: [id])
-  
+  field          String
+  currentValue   String?
+  suggestedValue String
+  notes          String?
+
+  status       CorrectionStatus @default(pending)
+  reviewedById String?
+  reviewedAt   DateTime?
+  reviewNotes  String?
+
+  createdAt DateTime @default(now())
+
+  venue      Venue @relation(fields: [venueId], references: [id], onDelete: Cascade)
+  reportedBy User? @relation(fields: [reportedById], references: [id])
+
   @@map("correction_reports")
 }
 
 model Submission {
-  id            String   @id @default(cuid())
-  
+  id String @id @default(cuid())
+
   // Submitted venue data
-  data          Json
-  
+  data Json
+
   submittedById String?
   status        SubmissionStatus @default(pending)
-  
-  reviewedById  String?
-  reviewedAt    DateTime?
-  notes         String?
-  
+
+  reviewedById String?
+  reviewedAt   DateTime?
+  notes        String?
+
   // If approved, link to created venue
-  venueId       String?
-  
-  createdAt     DateTime @default(now())
-  updatedAt     DateTime @updatedAt
-  
-  submittedBy   User?    @relation(fields: [submittedById], references: [id])
-  
+  venueId String?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  submittedBy User? @relation(fields: [submittedById], references: [id])
+
   @@map("submissions")
 }
 
+model ClaimRequest {
+  id String @id @default(cuid())
+
+  venueId String
+  venue   Venue  @relation(fields: [venueId], references: [id], onDelete: Cascade)
+
+  requestedById String
+  requestedBy   User   @relation(fields: [requestedById], references: [id], onDelete: Cascade)
+
+  // Verification info
+  businessEmail String
+  proofText     String @db.Text
+
+  status       SubmissionStatus @default(pending)
+  reviewedById String?
+  reviewedAt   DateTime?
+  reviewNotes  String?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@map("claim_requests")
+}
+
 model FeaturedListing {
-  id          String   @id @default(cuid())
-  venueId     String   @unique
-  tier        String   // basic, premium, platinum
-  price       Int      // in cents
-  startsAt    DateTime
-  endsAt      DateTime
-  isActive    Boolean  @default(true)
+  id              String   @id @default(cuid())
+  venueId         String   @unique
+  tier            String // basic, premium, platinum
+  price           Int // in cents
+  startsAt        DateTime
+  endsAt          DateTime
+  isActive        Boolean  @default(true)
   stripePaymentId String?
-  
-  createdAt   DateTime @default(now())
-  updatedAt   DateTime @updatedAt
-  
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
   @@map("featured_listings")
 }

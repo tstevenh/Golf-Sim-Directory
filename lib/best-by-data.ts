@@ -282,6 +282,15 @@ export async function getCityCategoryBrowseLinksWithCounts(
   amenities: Array<{ href: string; label: string; count: number }>;
   software: Array<{ href: string; label: string; count: number }>;
   tags: Array<{ href: string; label: string; count: number }>;
+  totalCounts: {
+    vibes: number;
+    segments: number;
+    hardware: number;
+    launchMonitors: number;
+    amenities: number;
+    software: number;
+    tags: number;
+  };
 }> {
   const categories = await getAvailableCategoriesForCity(queryState || state, city);
   const citySlug = city.toLowerCase().replace(/\s+/g, "-");
@@ -322,6 +331,15 @@ export async function getCityCategoryBrowseLinksWithCounts(
       label: cat.label,
       count: cat.count,
     })),
+    totalCounts: {
+      vibes: categories.vibes.length,
+      segments: categories.segments.length,
+      hardware: categories.hardware.length,
+      launchMonitors: categories.launchMonitors.length,
+      amenities: categories.amenities.length,
+      software: categories.software.length,
+      tags: categories.tags.length,
+    },
   };
 }
 

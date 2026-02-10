@@ -3,6 +3,8 @@
 
 import { Venue, SessionUser } from "@/types";
 import { getStateSlug } from "@/lib/states";
+import { VerifiedBadge } from "@/components/ui/VerifiedBadge";
+import { ClaimVenueModal } from "@/components/venue/ClaimVenueModal";
 import {
   MapPin,
   Phone,
@@ -110,7 +112,7 @@ export function VenueDetail({
   nearbyVenues = [],
 }: VenueDetailProps) {
   const [isFavorited, setIsFavorited] = useState(initialFavorited);
-  const [isClaiming, setIsClaiming] = useState(false);
+  const [showClaimModal, setShowClaimModal] = useState(false);
   const [claimSuccess, setClaimSuccess] = useState(false);
 
   const toggleFavorite = async () => {
@@ -131,35 +133,16 @@ export function VenueDetail({
     }
   };
 
-  const handleClaim = async () => {
+  const handleClaim = () => {
     if (!user) {
       window.location.href = "/login?redirect=/venue/" + venue.slug;
       return;
     }
+    setShowClaimModal(true);
+  };
 
-    if (!confirm("Are you sure you want to claim this venue? You must be the owner or authorized representative.")) {
-      return;
-    }
-
-    setIsClaiming(true);
-    try {
-      const res = await fetch(`/api/venues/${venue.id}/claim`, {
-        method: "POST",
-      });
-      if (res.ok) {
-        setClaimSuccess(true);
-        alert("Venue claimed successfully! You can now manage this venue from your dashboard.");
-        window.location.href = "/dashboard";
-      } else {
-        const error = await res.json();
-        alert(error.error || "Failed to claim venue");
-      }
-    } catch (error) {
-      console.error("Error claiming venue:", error);
-      alert("Failed to claim venue");
-    } finally {
-      setIsClaiming(false);
-    }
+  const handleClaimSuccess = () => {
+    setClaimSuccess(true);
   };
 
   // Parse JSON fields
@@ -205,15 +188,22 @@ export function VenueDetail({
               </span>
             )}
 
-            {/* Venue Name */}
-            <h1 className="text-3xl md:text-4xl font-bold text-cream mb-3">
+            {/* Venue Name - Better mobile wrapping */}
+            <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-cream mb-3 break-words">
               {venue.name}
             </h1>
 
-            {/* Location */}
-            <div className="flex items-center gap-2 text-muted flex-wrap">
-              <MapPin className="w-4 h-4 flex-shrink-0" />
-              <span>
+            {/* Verified Badge */}
+            {venue.claimed && (
+              <div className="mb-4">
+                <VerifiedBadge size="lg" />
+              </div>
+            )}
+
+            {/* Location - Better mobile layout */}
+            <div className="flex items-start gap-2 text-muted flex-wrap">
+              <MapPin className="w-4 h-4 flex-shrink-0 mt-0.5" />
+              <span className="text-sm sm:text-base break-words">
                 {venue.address}
                 {venue.city && `, ${venue.city}`}
                 {venue.state && `, ${venue.state}`}
@@ -222,8 +212,8 @@ export function VenueDetail({
             </div>
           </div>
 
-          {/* Action Buttons */}
-          <div className="flex gap-2 flex-shrink-0">
+          {/* Action Buttons - Desktop: right side, Mobile: full width */}
+          <div className="w-full sm:w-auto flex gap-2 flex-shrink-0">
             <button
               onClick={toggleFavorite}
               className={`flex items-center gap-2 px-4 py-2 border transition-colors ${
@@ -326,6 +316,61 @@ export function VenueDetail({
                   Visit Website
                 </a>
               ) : null}
+            </div>
+
+            {/* Quick Info - Mobile Only (appears after hero image) */}
+            <div className="lg:hidden grid grid-cols-1 sm:grid-cols-2 gap-4">
+              {/* Hours */}
+              {venue.hours && (
+                <div className="border border-default p-4 bg-charcoal">
+                  <div className="flex items-center gap-2 mb-2">
+                    <Clock className="w-4 h-4 text-masters-green" />
+                    <h3 className="text-cream font-medium text-sm">Hours</h3>
+                  </div>
+                  <p className="text-xs text-muted">
+                    {venue.hours.split("|")[0]?.split(":")[1] || "See details"}
+                  </p>
+                </div>
+              )}
+
+              {/* Price Range */}
+              {(venue.priceRangeMin || venue.priceRangeMax) && (
+                <div className="border border-default p-4 bg-charcoal">
+                  <div className="flex items-center gap-2 mb-2">
+                    <DollarSign className="w-4 h-4 text-masters-green" />
+                    <h3 className="text-cream font-medium text-sm">Pricing</h3>
+                  </div>
+                  <p className="text-xs text-muted">
+                    {venue.priceRangeMin && venue.priceRangeMax
+                      ? `$${venue.priceRangeMin}-$${venue.priceRangeMax}/hr`
+                      : venue.priceRangeMin
+                      ? `From $${venue.priceRangeMin}/hr`
+                      : `Up to $${venue.priceRangeMax}/hr`}
+                  </p>
+                </div>
+              )}
+
+              {/* Contact */}
+              {(venue.phone || venue.website) && (
+                <div className="border border-default p-4 bg-charcoal sm:col-span-2">
+                  <div className="flex items-center gap-2 mb-2">
+                    <Phone className="w-4 h-4 text-masters-green" />
+                    <h3 className="text-cream font-medium text-sm">Contact</h3>
+                  </div>
+                  <div className="flex flex-wrap gap-3 text-xs">
+                    {venue.phone && (
+                      <a href={`tel:${venue.phone}`} className="text-muted hover:text-masters-green">
+                        {venue.phone}
+                      </a>
+                    )}
+                    {venue.website && (
+                      <a href={venue.website} target="_blank" rel="noopener noreferrer" className="text-muted hover:text-masters-green">
+                        Website
+                      </a>
+                    )}
+                  </div>
+                </div>
+              )}
             </div>
 
             {/* About Section */}
@@ -703,39 +748,14 @@ export function VenueDetail({
                 </p>
                 <button
                   onClick={handleClaim}
-                  disabled={isClaiming}
-                  className="w-full btn-primary justify-center disabled:opacity-50"
+                  className="w-full btn-primary justify-center"
                 >
-                  {isClaiming ? "Claiming..." : (
-                    <>
-                      <Building2 className="w-4 h-4" />
-                      <span>Claim This Venue</span>
-                    </>
-                  )}
+                  <Building2 className="w-4 h-4" />
+                  <span>Claim This Venue</span>
                 </button>
               </div>
             )}
 
-            {/* Claimed badge */}
-            {(venue.claimed || claimSuccess) && (
-              <div className="border border-masters-green p-6 bg-masters-green/10">
-                <div className="flex items-center gap-2 text-masters-green">
-                  <Check className="w-5 h-5" />
-                  <span className="font-medium">Claimed Listing</span>
-                </div>
-                <p className="text-sm text-muted mt-2">
-                  This venue is managed by the owner.
-                </p>
-                {user && venue.claimedById === user.id && (
-                  <Link
-                    href="/dashboard"
-                    className="mt-3 inline-block text-sm text-masters-green hover:text-cream transition-colors"
-                  >
-                    Manage in Dashboard →
-                  </Link>
-                )}
-              </div>
-            )}
 
             {/* Book a Bay CTA */}
             <div className="border border-masters-green p-6 bg-masters-green/5">
@@ -1141,6 +1161,15 @@ export function VenueDetail({
           </div>
         </section>
       </div>
+
+      {/* Claim Venue Modal */}
+      <ClaimVenueModal
+        venueId={venue.id}
+        venueName={venue.name}
+        isOpen={showClaimModal}
+        onClose={() => setShowClaimModal(false)}
+        onSuccess={handleClaimSuccess}
+      />
     </div>
   );
 }

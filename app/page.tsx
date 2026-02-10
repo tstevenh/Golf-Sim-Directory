@@ -19,9 +19,10 @@ export default async function HomePage() {
   let statesWithCounts: any[] = [];
 
   try {
-    // Fetch featured venues from database
+    // Fetch featured venues from database (limit to 9 for homepage display)
     topVenues = await db.venue.findMany({
       where: { status: "active", featured: true },
+      take: 9,
       orderBy: [{ ratingOverall: "desc" }, { name: "asc" }],
       select: {
         id: true,
@@ -64,13 +65,17 @@ export default async function HomePage() {
       }));
 
     // Get cities with venue counts for popular cities section
+    // Note: Prisma groupBy doesn't support orderBy with aggregates, so we sort in memory
+    // Consider using raw SQL for better performance: SELECT city, state, COUNT(*) ... ORDER BY COUNT(*) DESC LIMIT 30
     const citiesResult = await db.venue.groupBy({
       by: ["city", "state"],
       where: { status: "active" },
       _count: { id: true },
     });
-    // Sort and limit in memory since take doesn't work with groupBy
-    citiesWithCounts = citiesResult.sort((a, b) => b._count.id - a._count.id);
+    // Sort by venue count and limit to top 30 (we only use top 12 for display)
+    citiesWithCounts = citiesResult
+      .sort((a, b) => b._count.id - a._count.id)
+      .slice(0, 30);
   } catch (error) {
     console.error("Database error during build:", error);
     // Return empty data - page will show fallback UI

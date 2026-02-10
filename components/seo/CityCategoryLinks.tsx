@@ -24,6 +24,15 @@ interface CityCategoryLinksProps {
   amenities: CategoryLink[];
   software: CategoryLink[];
   tags: CategoryLink[];
+  totalCounts: {
+    vibes: number;
+    segments: number;
+    hardware: number;
+    launchMonitors: number;
+    amenities: number;
+    software: number;
+    tags: number;
+  };
 }
 
 export function CityCategoryLinks({
@@ -36,11 +45,13 @@ export function CityCategoryLinks({
   amenities,
   software,
   tags,
+  totalCounts,
 }: CityCategoryLinksProps) {
   // Get index URLs from shared config
   const vibeIndexUrl = getCityVibeIndexUrl(state, city);
   const whoItsForIndexUrl = getCityWhoItsForIndexUrl(state, city);
   const hardwareIndexUrl = getCityHardwareIndexUrl(state, city);
+  const citySlug = city.toLowerCase().replace(/\s+/g, "-");
 
   // Don't render if no categories have venues
   if (
@@ -95,14 +106,16 @@ export function CityCategoryLinks({
                   </Link>
                 </li>
               ))}
-              <li>
-                <Link
-                  href={vibeIndexUrl}
-                  className="text-masters-green hover:text-cream transition-colors text-sm"
-                >
-                  View all vibes →
-                </Link>
-              </li>
+              {totalCounts.vibes > 3 && (
+                <li>
+                  <Link
+                    href={vibeIndexUrl}
+                    className="text-masters-green hover:text-cream transition-colors text-sm"
+                  >
+                    View all vibes →
+                  </Link>
+                </li>
+              )}
             </ul>
           </div>
         )}
@@ -131,14 +144,16 @@ export function CityCategoryLinks({
                   </Link>
                 </li>
               ))}
-              <li>
-                <Link
-                  href={whoItsForIndexUrl}
-                  className="text-masters-green hover:text-cream transition-colors text-sm"
-                >
-                  View all occasions →
-                </Link>
-              </li>
+              {totalCounts.segments > 3 && (
+                <li>
+                  <Link
+                    href={whoItsForIndexUrl}
+                    className="text-masters-green hover:text-cream transition-colors text-sm"
+                  >
+                    View all occasions →
+                  </Link>
+                </li>
+              )}
             </ul>
           </div>
         )}
@@ -167,14 +182,16 @@ export function CityCategoryLinks({
                   </Link>
                 </li>
               ))}
-              <li>
-                <Link
-                  href={hardwareIndexUrl}
-                  className="text-masters-green hover:text-cream transition-colors text-sm"
-                >
-                  View all tech →
-                </Link>
-              </li>
+              {totalCounts.hardware > 3 && (
+                <li>
+                  <Link
+                    href={hardwareIndexUrl}
+                    className="text-masters-green hover:text-cream transition-colors text-sm"
+                  >
+                    View all tech →
+                  </Link>
+                </li>
+              )}
             </ul>
           </div>
         )}
@@ -203,6 +220,16 @@ export function CityCategoryLinks({
                   </Link>
                 </li>
               ))}
+              {totalCounts.launchMonitors > 3 && (
+                <li>
+                  <Link
+                    href={`/venue/us/${state}/${citySlug}/best/launch-monitor`}
+                    className="text-masters-green hover:text-cream transition-colors text-sm"
+                  >
+                    View all launch monitors →
+                  </Link>
+                </li>
+              )}
             </ul>
           </div>
         )}
@@ -231,6 +258,16 @@ export function CityCategoryLinks({
                   </Link>
                 </li>
               ))}
+              {totalCounts.amenities > 3 && (
+                <li>
+                  <Link
+                    href={`/venue/us/${state}/${citySlug}/best/amenities`}
+                    className="text-masters-green hover:text-cream transition-colors text-sm"
+                  >
+                    View all amenities →
+                  </Link>
+                </li>
+              )}
             </ul>
           </div>
         )}
@@ -259,6 +296,16 @@ export function CityCategoryLinks({
                   </Link>
                 </li>
               ))}
+              {totalCounts.software > 3 && (
+                <li>
+                  <Link
+                    href={`/venue/us/${state}/${citySlug}/best/software`}
+                    className="text-masters-green hover:text-cream transition-colors text-sm"
+                  >
+                    View all software →
+                  </Link>
+                </li>
+              )}
             </ul>
           </div>
         )}
@@ -287,6 +334,16 @@ export function CityCategoryLinks({
                   </Link>
                 </li>
               ))}
+              {totalCounts.tags > 3 && (
+                <li>
+                  <Link
+                    href={`/venue/us/${state}/${citySlug}/best`}
+                    className="text-masters-green hover:text-cream transition-colors text-sm"
+                  >
+                    View all experiences →
+                  </Link>
+                </li>
+              )}
             </ul>
           </div>
         )}

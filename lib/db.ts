@@ -11,7 +11,14 @@ const useMockDb = !process.env.DATABASE_URL || process.env.DATABASE_URL.includes
 // Export either real Prisma client or mock DB
 export const db = useMockDb
   ? mockDb as unknown as PrismaClient
-  : (globalForPrisma.prisma ?? new PrismaClient());
+  : (globalForPrisma.prisma ?? new PrismaClient({
+      log: process.env.NODE_ENV === "development" ? ["error", "warn"] : ["error"],
+      datasources: {
+        db: {
+          url: process.env.DATABASE_URL,
+        },
+      },
+    }));
 
 if (!useMockDb && process.env.NODE_ENV !== "production") {
   globalForPrisma.prisma = db as PrismaClient;

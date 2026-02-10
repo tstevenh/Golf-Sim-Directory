@@ -5,6 +5,7 @@ import { redirect } from "next/navigation";
 import Link from "next/link";
 import { Heart, Building2, Mail, User, ArrowRight, MapPin, FileText } from "lucide-react";
 import { Venue, Favorite, UserRole, Submission } from "@prisma/client";
+import { getStateSlug } from "@/lib/states";
 
 interface FavoriteWithVenue extends Favorite {
   venue: {
@@ -230,14 +231,14 @@ export default async function DashboardPage() {
                       </div>
                       <div className="flex gap-3">
                         <Link
-                          href={`/venue/${venue.slug}`}
+                          href={`/venue/us/${getStateSlug(venue.state)}/${venue.city.toLowerCase().replace(/\s+/g, "-")}/${venue.slug}`}
                           className="text-sm text-muted hover:text-masters-green transition-colors"
                         >
                           View
                         </Link>
                         <span className="text-default">|</span>
                         <Link
-                          href={`/dashboard/business/${venue.id}/edit`}
+                          href={`/dashboard/venues/${venue.id}/edit`}
                           className="text-sm text-muted hover:text-masters-green transition-colors"
                         >
                           Edit
@@ -266,6 +267,18 @@ export default async function DashboardPage() {
                 className="px-4 py-2 bg-masters-green text-deep-black font-medium text-sm hover:bg-masters-green/90 transition-colors"
               >
                 Review Submissions →
+              </Link>
+              <Link
+                href="/admin/claims"
+                className="px-4 py-2 bg-masters-green text-deep-black font-medium text-sm hover:bg-masters-green/90 transition-colors"
+              >
+                Review Claims →
+              </Link>
+              <Link
+                href="/admin/corrections"
+                className="px-4 py-2 bg-masters-green text-deep-black font-medium text-sm hover:bg-masters-green/90 transition-colors"
+              >
+                Review Corrections →
               </Link>
             </div>
           </div>

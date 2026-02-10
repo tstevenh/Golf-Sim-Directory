@@ -126,10 +126,6 @@ export function SeoIndexSections({
                 <div className="w-2 h-2 rounded-full bg-masters-green" />
                 <span className="text-muted">{venueCount} venues listed</span>
               </div>
-              <div className="flex items-center gap-2 text-sm">
-                <div className="w-2 h-2 rounded-full bg-blue-400" />
-                <span className="text-muted">Updated weekly</span>
-              </div>
             </div>
           )}
         </div>

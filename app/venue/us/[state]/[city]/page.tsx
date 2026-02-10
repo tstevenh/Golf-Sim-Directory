@@ -102,7 +102,7 @@ export default async function CityPage({ params, searchParams }: CityPageProps) 
         distinct: ["city"],
         take: 6,
       }),
-      getCityCategoryBrowseLinksWithCounts(state, cityFormatted, 4, stateAbbrev.toUpperCase()),
+      getCityCategoryBrowseLinksWithCounts(state, cityFormatted, 3, stateAbbrev.toUpperCase()),
     ]);
 
     const hasNextPage = venueRows.length > pageSize;
@@ -230,6 +230,7 @@ export default async function CityPage({ params, searchParams }: CityPageProps) 
               amenities={cityCategoryLinks.amenities}
               software={cityCategoryLinks.software}
               tags={cityCategoryLinks.tags}
+              totalCounts={cityCategoryLinks.totalCounts}
             />
           </div>
 

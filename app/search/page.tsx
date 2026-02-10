@@ -5,9 +5,10 @@ import { Prisma } from "@prisma/client";
 import { LaunchMonitorType, VenueType } from "@prisma/client";
 import { VenueCard, VenueGrid } from "@/components/venue/VenueCard";
 import { Pagination } from "@/components/ui/Pagination";
-import { getStateSlug } from "@/lib/states";
+import { getStateSlug, getStateDisplayName } from "@/lib/states";
 import { normalizeHardwareBrand } from "@/lib/hardware-brands";
 import { Search } from "lucide-react";
+import { SearchForm } from "./SearchForm";
 
 export const metadata: Metadata = {
   title: "Search Golf Simulators — Find Venues Near You",
@@ -21,37 +22,6 @@ export const revalidate = 0;
 interface SearchPageProps {
   searchParams?: Promise<Record<string, string | string[] | undefined>>;
 }
-
-const venueTypes = [
-  { value: "", label: "Any Type" },
-  { value: "sim_bar", label: "Simulator Bar" },
-  { value: "training_studio", label: "Training Studio" },
-  { value: "private_rental", label: "Private Rental" },
-  { value: "retail_fitting_center", label: "Retail/Fitting" },
-  { value: "country_club", label: "Country Club" },
-  { value: "multi_sport_sim", label: "Multi-Sport" },
-  { value: "hotel_resort", label: "Hotel/Resort" },
-];
-
-const launchMonitorTypes = [
-  { value: "", label: "Any System" },
-  { value: "radar", label: "Radar" },
-  { value: "photometric_camera", label: "Camera" },
-  { value: "hybrid", label: "Hybrid" },
-  { value: "overhead_camera", label: "Overhead Camera" },
-];
-
-const hardwareBrands = [
-  "Trackman",
-  "Foresight",
-  "Uneekor",
-  "GCQuad",
-  "Full Swing",
-  "AboutGolf",
-  "SkyTrak",
-  "FlightScope",
-  "Golfzon",
-];
 
 export default async function SearchPage({ searchParams }: SearchPageProps) {
   const params = (await searchParams) || {};
@@ -76,6 +46,32 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
   let forceNoResults = false;
   const normalizedHardware = hardware ? normalizeHardwareBrand(hardware) : "";
 
+  // Fetch available states and cities (only those with active venues)
+  const [statesData, citiesData] = await Promise.all([
+    db.venue.findMany({
+      where: { status: "active" },
+      select: { state: true },
+      distinct: ["state"],
+      orderBy: { state: "asc" },
+    }),
+    db.venue.findMany({
+      where: { status: "active" },
+      select: { city: true, state: true },
+      distinct: ["city", "state"],
+      orderBy: [{ state: "asc" }, { city: "asc" }],
+    }),
+  ]);
+
+  const availableStates = statesData.map((v) => ({
+    code: v.state,
+    name: getStateDisplayName(v.state),
+  }));
+
+  const availableCities = citiesData.map((v) => ({
+    city: v.city,
+    state: v.state,
+  }));
+
   const baseWhere: Prisma.VenueWhereInput = {
     status: "active",
   };
@@ -83,7 +79,6 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
   if (query) {
     baseWhere.OR = [
       { name: { contains: query, mode: "insensitive" } },
-      { city: { contains: query, mode: "insensitive" } },
       { zipCode: { contains: query, mode: "insensitive" } },
     ];
   }
@@ -231,16 +226,21 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
       baseWhere.id = { in: advancedFilterIds.size > 0 ? [...advancedFilterIds] : ["__no_match__"] };
     }
 
-    const rows = await db.venue.findMany({
-      where: baseWhere,
-      orderBy: [{ featured: "desc" }, { ratingOverall: "desc" }, { name: "asc" }],
-      select: venueCardSelect,
-      skip: (page - 1) * pageSize,
-      take: pageSize + 1,
-    });
-    hasNextPage = rows.length > pageSize;
-    pagedVenues = rows.slice(0, pageSize);
-    totalVenues = null;
+    // Fetch total count and paginated results in parallel
+    const [totalCount, rows] = await Promise.all([
+      db.venue.count({ where: baseWhere }),
+      db.venue.findMany({
+        where: baseWhere,
+        orderBy: [{ featured: "desc" }, { ratingOverall: "desc" }, { name: "asc" }],
+        select: venueCardSelect,
+        skip: (page - 1) * pageSize,
+        take: pageSize,
+      }),
+    ]);
+
+    totalVenues = totalCount;
+    pagedVenues = rows;
+    hasNextPage = page * pageSize < totalCount;
   }
 
   const totalPages = totalVenues === null ? undefined : Math.max(1, Math.ceil(totalVenues / pageSize));
@@ -249,131 +249,57 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
   return (
     <div className="min-h-screen bg-deep-black">
       <div className="absolute inset-0 scorecard-grid opacity-20" />
-      
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         {/* Header */}
-        <div className="mb-10">
-          <div className="flex items-center gap-3 mb-4">
+        <div className="mb-6">
+          <div className="flex items-center gap-3 mb-2">
             <div className="w-8 h-px bg-masters-green" />
             <span className="text-masters-green text-xs font-mono uppercase tracking-widest">Search</span>
           </div>
-          <h1 className="text-cream mb-2">Search Golf Simulators</h1>
-          <p className="text-muted max-w-2xl">
+          <h1 className="text-cream text-3xl mb-1">Search Golf Simulators</h1>
+          <p className="text-muted text-sm max-w-2xl">
             Find indoor golf venues by location, hardware, and amenities.
           </p>
         </div>
 
         {/* Search & Filter Section */}
-        <section className="border border-default bg-charcoal p-6 md:p-8 mb-10">
-          <form className="space-y-4" method="get">
-            {/* Row 1: Search + Location */}
-            <div className="grid md:grid-cols-3 gap-4">
-              <input 
-                name="q" 
-                defaultValue={query} 
-                placeholder="Search by name" 
-                className="golf-input !pl-4" 
-              />
-              <input 
-                name="city" 
-                defaultValue={city} 
-                placeholder="City" 
-                className="golf-input !pl-4" 
-              />
-              <input 
-                name="state" 
-                defaultValue={state} 
-                placeholder="State" 
-                className="golf-input !pl-4" 
-              />
-            </div>
-
-            {/* Row 2: Type + Monitor + Hardware */}
-            <div className="grid md:grid-cols-3 gap-4">
-              <select name="venueType" defaultValue={venueType} className="golf-input !pl-4">
-                {venueTypes.map((type) => (
-                  <option key={type.value} value={type.value}>{type.label}</option>
-                ))}
-              </select>
-              <select name="launchMonitorType" defaultValue={launchMonitorType} className="golf-input !pl-4">
-                {launchMonitorTypes.map((type) => (
-                  <option key={type.value} value={type.value}>{type.label}</option>
-                ))}
-              </select>
-              <select name="hardware" defaultValue={hardware} className="golf-input !pl-4">
-                <option value="">Any Hardware</option>
-                {hardwareBrands.map((brand) => (
-                  <option key={brand} value={brand}>{brand}</option>
-                ))}
-              </select>
-            </div>
-
-            {/* Row 3: Price Range + Checkboxes */}
-            <div className="grid md:grid-cols-4 gap-4">
-              <input 
-                name="minPrice" 
-                type="number"
-                defaultValue={minPrice?.toString()} 
-                placeholder="Min $/hr" 
-                className="golf-input !pl-4" 
-              />
-              <input 
-                name="maxPrice" 
-                type="number"
-                defaultValue={maxPrice?.toString()} 
-                placeholder="Max $/hr" 
-                className="golf-input !pl-4" 
-              />
-              <div className="md:col-span-2 flex flex-wrap gap-4 items-center">
-                <label className="flex items-center gap-2 text-sm text-muted cursor-pointer">
-                  <input type="checkbox" name="kidFriendly" defaultChecked={kidFriendly} className="rounded border-default" />
-                  Kid-friendly
-                </label>
-                <label className="flex items-center gap-2 text-sm text-muted cursor-pointer">
-                  <input type="checkbox" name="coaching" defaultChecked={coaching} className="rounded border-default" />
-                  Coaching
-                </label>
-                <label className="flex items-center gap-2 text-sm text-muted cursor-pointer">
-                  <input type="checkbox" name="food" defaultChecked={food} className="rounded border-default" />
-                  Food
-                </label>
-                <label className="flex items-center gap-2 text-sm text-muted cursor-pointer">
-                  <input type="checkbox" name="alcohol" defaultChecked={alcohol} className="rounded border-default" />
-                  Bar
-                </label>
-                <label className="flex items-center gap-2 text-sm text-muted cursor-pointer">
-                  <input type="checkbox" name="wifi" defaultChecked={wifi} className="rounded border-default" />
-                  WiFi
-                </label>
-                <label className="flex items-center gap-2 text-sm text-muted cursor-pointer">
-                  <input type="checkbox" name="privateRooms" defaultChecked={privateRooms} className="rounded border-default" />
-                  Private Rooms
-                </label>
-              </div>
-            </div>
-
-            {/* Row 4: Buttons */}
-            <div className="flex flex-wrap gap-3 pt-2">
-              <button type="submit" className="btn-primary">
-                <Search className="w-4 h-4" />
-                <span>Search</span>
-              </button>
-              <Link href="/search" className="btn-outline">Reset</Link>
-            </div>
-          </form>
-        </section>
+        <div className="mb-6">
+          <SearchForm
+            initialQuery={query}
+            initialCity={city}
+            initialState={state}
+            initialVenueType={venueType}
+            initialLaunchMonitorType={launchMonitorType}
+            initialHardware={hardware}
+            initialMinPrice={minPrice}
+            initialMaxPrice={maxPrice}
+            initialKidFriendly={kidFriendly}
+            initialCoaching={coaching}
+            initialFood={food}
+            initialAlcohol={alcohol}
+            initialWifi={wifi}
+            initialPrivateRooms={privateRooms}
+            availableStates={availableStates}
+            availableCities={availableCities}
+          />
+        </div>
 
         {/* Results */}
         <section>
           <div className="flex items-center justify-between mb-6">
-            <h2 className="text-cream">
-              {hasExactCount
-                ? `${totalVenues} results`
-                : `${pagedVenues.length} results`}
+            <h2 className="text-cream text-xl">
+              {totalVenues === 0 ? (
+                "No results found"
+              ) : totalVenues === 1 ? (
+                "1 venue found"
+              ) : (
+                `${totalVenues?.toLocaleString()} venues found`
+              )}
             </h2>
-            {pagedVenues.length > 0 && (
+            {pagedVenues.length > 0 && totalPages && (
               <span className="text-sm text-muted">
-                {hasExactCount ? `Page ${page} of ${totalPages}` : `Page ${page}`}
+                Page {page} of {totalPages}
               </span>
             )}
           </div>
