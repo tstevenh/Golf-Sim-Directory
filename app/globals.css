@@ -505,3 +505,94 @@ p {
   pointer-events: none;
   mix-blend-mode: overlay;
 }
+
+/* ============================================
+   ARTICLE CONTENT STYLES - Blog Post Spacing
+   ============================================ */
+
+.article-content ul,
+.article-content ol {
+  list-style-position: outside;
+  padding-left: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.article-content ul {
+  list-style-type: disc;
+}
+
+.article-content ol {
+  list-style-type: decimal;
+}
+
+.article-content li {
+  margin-bottom: 0.75rem;
+  line-height: 1.8;
+}
+
+.article-content li::marker {
+  color: hsl(var(--masters-green));
+  font-weight: 600;
+}
+
+.article-content p {
+  margin-bottom: 1.5rem;
+  line-height: 1.9;
+}
+
+.article-content h2 {
+  margin-top: 3rem;
+  margin-bottom: 1.25rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid hsla(var(--cream) / 0.1);
+}
+
+.article-content h3 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.article-content h4 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+/* ============================================
+   ARTICLE TABLES
+   ============================================ */
+
+.article-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-size: 0.95rem;
+}
+
+.article-content thead {
+  border-bottom: 2px solid hsla(var(--cream) / 0.2);
+}
+
+.article-content th {
+  text-align: left;
+  padding: 0.75rem 1rem;
+  font-weight: 600;
+  color: hsl(var(--cream));
+  background-color: hsla(var(--slate) / 0.5);
+}
+
+.article-content td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid hsla(var(--cream) / 0.1);
+  color: hsla(var(--cream) / 0.8);
+  vertical-align: top;
+}
+
+.article-content tbody tr:hover {
+  background-color: hsla(var(--slate) / 0.3);
+}
+
+.article-content tbody tr:last-child td {
+  border-bottom: none;
+}

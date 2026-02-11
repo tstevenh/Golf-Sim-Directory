@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { supabase } from "@/lib/supabase";
 import { getStateSlug } from "@/lib/states";
+import { getAllPosts } from "@/lib/blog";
 import {
   AVAILABLE_TAGS,
   AVAILABLE_VIBES,
@@ -41,12 +42,12 @@ export async function generateSitemaps() {
 }
 
 // ── Helper: fetch all venues (paginated) ────────────────────────────────────
-async function fetchAllVenues(
+async function fetchAllVenues<T = Record<string, unknown>>(
   select: string,
   offset = 0,
   limit?: number
-) {
-  const rows: Record<string, unknown>[] = [];
+): Promise<T[]> {
+  const rows: T[] = [];
   let from = offset;
   const pageSize = 1000;
   const max = limit ? offset + limit : Infinity;
@@ -59,7 +60,7 @@ async function fetchAllVenues(
       .eq("status", "active")
       .range(from, to);
     if (error || !page || page.length === 0) break;
-    rows.push(...page);
+    rows.push(...(page as T[]));
     if (page.length < pageSize) break;
     from += pageSize;
   }
@@ -78,7 +79,7 @@ export default async function sitemap({
   return buildVenueSitemap(id - 2);
 }
 
-// ── ID 0: Static pages + states + cities ────────────────────────────────────
+// ── ID 0: Static pages + blog posts + states + cities ──────────────────────
 async function buildStaticSitemap(): Promise<MetadataRoute.Sitemap> {
   const staticPages: MetadataRoute.Sitemap = [
     { url: BASE_URL, lastModified: new Date(), changeFrequency: "daily", priority: 1.0 },
@@ -94,17 +95,24 @@ async function buildStaticSitemap(): Promise<MetadataRoute.Sitemap> {
     { url: `${BASE_URL}/privacy`, lastModified: new Date(), changeFrequency: "yearly", priority: 0.3 },
   ];
 
+  // Blog posts
+  const posts = getAllPosts();
+  const blogRoutes: MetadataRoute.Sitemap = posts.map((post) => ({
+    url: `${BASE_URL}/blog/${post.slug}`,
+    lastModified: post.date ? new Date(post.date) : new Date(),
+    changeFrequency: "monthly" as const,
+    priority: 0.7,
+  }));
+
   // Fetch venues for state/city derivation
-  const venues = await fetchAllVenues("state, city, country");
+  const venues = await fetchAllVenues<{ state: string; city: string; country: string }>("state, city, country");
   const usVenues = venues.filter((v) => v.country === "US");
 
   const stateSet = new Set<string>();
   const citySet = new Set<string>();
   for (const v of usVenues) {
-    const state = v.state as string;
-    const city = v.city as string;
-    stateSet.add(state);
-    citySet.add(`${state}|${city}`);
+    stateSet.add(v.state);
+    citySet.add(`${v.state}|${v.city}`);
   }
 
   const stateRoutes: MetadataRoute.Sitemap = Array.from(stateSet).map((state) => ({
@@ -124,7 +132,7 @@ async function buildStaticSitemap(): Promise<MetadataRoute.Sitemap> {
     };
   });
 
-  return [...staticPages, ...stateRoutes, ...cityRoutes];
+  return [...staticPages, ...blogRoutes, ...stateRoutes, ...cityRoutes];
 }
 
 // ── ID 1: /best/* category pages ────────────────────────────────────────────
@@ -212,15 +220,15 @@ function buildBestSitemap(): MetadataRoute.Sitemap {
 // ── ID 2+: Venue detail pages (paginated) ───────────────────────────────────
 async function buildVenueSitemap(page: number): Promise<MetadataRoute.Sitemap> {
   const offset = page * VENUES_PER_SITEMAP;
-  const venues = await fetchAllVenues(
+  const venues = await fetchAllVenues<{ slug: string; city: string; state: string; updatedAt: string }>(
     "slug, city, state, updatedAt",
     offset,
     VENUES_PER_SITEMAP
   );
 
   return venues.map((v) => ({
-    url: `${BASE_URL}/venue/us/${getStateSlug(v.state as string)}/${(v.city as string).toLowerCase().replace(/\s+/g, "-")}/${v.slug}`,
-    lastModified: v.updatedAt as string,
+    url: `${BASE_URL}/venue/us/${getStateSlug(v.state)}/${v.city.toLowerCase().replace(/\s+/g, "-")}/${v.slug}`,
+    lastModified: v.updatedAt,
     changeFrequency: "weekly" as const,
     priority: 0.6,
   }));

@@ -124,7 +124,6 @@ export default async function AdminCorrectionsPage() {
                 <div className="mt-6 pt-6 border-t border-default">
                   <ReviewCorrectionButton
                     correctionId={correction.id}
-                    venueId={correction.venue.id}
                     field={correction.field}
                     suggestedValue={correction.suggestedValue}
                   />

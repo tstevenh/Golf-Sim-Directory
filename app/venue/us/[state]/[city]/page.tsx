@@ -276,7 +276,7 @@ export default async function CityPage({ params, searchParams }: CityPageProps) 
               relatedLinks={relatedLinks}
               ctaTitle="Own a Golf Simulator Venue?"
               ctaDescription="Get your venue listed on GolfSimMap and reach more golfers searching for simulator experiences in your area."
-              ctaPrimary={{ label: "List Your Venue", href: "/list-venue" }}
+              ctaPrimary={{ label: "List Your Venue", href: "/submit" }}
               ctaSecondary={{ label: "Learn More", href: "/about" }}
               venueCount={knownVenueCount}
               showStats={true}

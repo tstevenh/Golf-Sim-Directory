@@ -6,14 +6,12 @@ import { Check, X } from "lucide-react";
 
 interface ReviewCorrectionButtonProps {
   correctionId: string;
-  venueId: string;
   field: string;
   suggestedValue: string;
 }
 
 export function ReviewCorrectionButton({
   correctionId,
-  venueId,
   field,
   suggestedValue,
 }: ReviewCorrectionButtonProps) {

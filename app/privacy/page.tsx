@@ -4,6 +4,15 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Privacy Policy",
   description: "Privacy Policy for GolfSimMap - the indoor golf simulator directory.",
+  alternates: {
+    canonical: "https://golfsimmap.com/privacy",
+  },
+  openGraph: {
+    title: "Privacy Policy",
+    description: "Privacy Policy for GolfSimMap - the indoor golf simulator directory.",
+    type: "website",
+    url: "https://golfsimmap.com/privacy",
+  },
 };
 
 export default function PrivacyPage() {

@@ -1,16 +1,30 @@
+import { Metadata } from "next";
 import { supabase } from "@/lib/supabase";
 import { notFound } from "next/navigation";
 import { ReportCorrectionForm } from "./ReportCorrectionForm";
 
-export const metadata = {
-  title: "Report Correction",
-};
+interface ReportPageProps {
+  params: Promise<{ state: string; city: string; venueSlug: string }>;
+}
 
-export default async function ReportCorrectionPage({
-  params,
-}: {
-  params: Promise<{ venueSlug: string }>;
-}) {
+export async function generateMetadata({ params }: ReportPageProps): Promise<Metadata> {
+  const { state, city, venueSlug } = await params;
+  
+  return {
+    title: "Report Correction",
+    alternates: {
+      canonical: `https://golfsimmap.com/venue/us/${state}/${city}/${venueSlug}/report`,
+    },
+    openGraph: {
+      title: "Report Correction — GolfSimMap",
+      description: "Help us improve venue information by reporting corrections.",
+      type: "website",
+      url: `https://golfsimmap.com/venue/us/${state}/${city}/${venueSlug}/report`,
+    },
+  };
+}
+
+export default async function ReportCorrectionPage({ params }: ReportPageProps) {
   const { venueSlug } = await params;
 
   const { data: venue } = await supabase
@@ -37,7 +51,7 @@ export default async function ReportCorrectionPage({
           <h1 className="text-cream mb-2">Help us improve this listing</h1>
           <p className="text-muted">
             Found incorrect information about <span className="text-cream">{venue.name}</span>?
-            Let us know and we'll review your suggestion.
+            Let us know and we&apos;ll review your suggestion.
           </p>
         </div>
 

@@ -5,7 +5,7 @@ export default function robots(): MetadataRoute.Robots {
     rules: {
       userAgent: "*",
       allow: "/",
-      disallow: ["/api/", "/dashboard", "/login", "/register"],
+      disallow: ["/api/", "/admin", "/dashboard", "/login", "/register"],
     },
     sitemap: "https://golfsimmap.com/sitemap.xml",
   };

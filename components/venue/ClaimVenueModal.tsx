@@ -155,7 +155,7 @@ export function ClaimVenueModal({
               required
             />
             <p className="text-xs text-muted mt-1">
-              Briefly explain why you're authorized to claim this venue (1-2 sentences)
+              Briefly explain why you&apos;re authorized to claim this venue (1-2 sentences)
             </p>
           </div>
 

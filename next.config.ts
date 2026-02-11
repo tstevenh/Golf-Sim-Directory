@@ -2,8 +2,6 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   images: {
-    // Restrict to known image domains for security and optimization
-    // Using ** hostname disables Next.js image optimization
     remotePatterns: [
       {
         protocol: "https",
@@ -11,21 +9,31 @@ const nextConfig: NextConfig = {
       },
       {
         protocol: "https",
-        hostname: "lh3.googleusercontent.com", // Google images
+        hostname: "lh3.googleusercontent.com",
       },
       {
         protocol: "https",
-        hostname: "*.cloudfront.net", // CDN
+        hostname: "*.cloudfront.net",
       },
-      // Add your own image domains here as needed
     ],
-    // Enable image optimization
     formats: ['image/avif', 'image/webp'],
+    minimumCacheTTL: 60 * 60 * 24 * 30, // 30 days
   },
-  // Enable compression
   compress: true,
-  // Remove X-Powered-By header for security
   poweredByHeader: false,
+  trailingSlash: false,
+  async headers() {
+    return [
+      {
+        source: "/:path*",
+        headers: [
+          { key: "X-Content-Type-Options", value: "nosniff" },
+          { key: "X-Frame-Options", value: "SAMEORIGIN" },
+          { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
+        ],
+      },
+    ];
+  },
 };
 
 export default nextConfig;

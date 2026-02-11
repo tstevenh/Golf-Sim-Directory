@@ -12,6 +12,15 @@ export const metadata: Metadata = {
   title: "GolfSimMap — Find Indoor Golf Simulators Near You",
   description:
     "Discover 3,870+ indoor golf simulator venues across the US. Compare launch monitors, pricing, amenities, and book your next session.",
+  alternates: {
+    canonical: "https://golfsimmap.com",
+  },
+  openGraph: {
+    title: "GolfSimMap — Find Indoor Golf Simulators Near You",
+    description: "Discover 3,870+ indoor golf simulator venues across the US. Compare launch monitors, pricing, amenities, and book your next session.",
+    type: "website",
+    url: "https://golfsimmap.com",
+  },
 };
 
 export default async function HomePage() {

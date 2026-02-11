@@ -115,7 +115,8 @@ export default async function BestAmenityPage({ params, searchParams }: BestAmen
   const normalizedAmenity = amenityKey.replace(/-/g, "_");
 
   // Map amenity slugs to Supabase column filters
-  const amenityFilterMap: Record<string, (q: any) => any> = {
+  type QueryBuilder = ReturnType<typeof supabase.from<'venues'>>;
+  const amenityFilterMap: Record<string, (q: QueryBuilder) => QueryBuilder> = {
     private_rooms: (q) => q.eq("hasPrivateRooms", true),
     coaching_available: (q) => q.eq("coachingAvailable", true),
     lessons: (q) => q.eq("coachingAvailable", true),

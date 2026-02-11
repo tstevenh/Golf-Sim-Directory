@@ -4,6 +4,15 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Terms of Service",
   description: "Terms of Service for GolfSimMap - the indoor golf simulator directory.",
+  alternates: {
+    canonical: "https://golfsimmap.com/terms",
+  },
+  openGraph: {
+    title: "Terms of Service",
+    description: "Terms of Service for GolfSimMap - the indoor golf simulator directory.",
+    type: "website",
+    url: "https://golfsimmap.com/terms",
+  },
 };
 
 export default function TermsPage() {

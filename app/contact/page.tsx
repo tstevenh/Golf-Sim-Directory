@@ -5,6 +5,15 @@ import { Mail, MapPin, MessageSquare } from "lucide-react";
 export const metadata: Metadata = {
   title: "Contact GolfSimMap — Questions & Partnerships",
   description: "Have a question about a venue listing? Want to partner with GolfSimMap? Get in touch with our team.",
+  alternates: {
+    canonical: "https://golfsimmap.com/contact",
+  },
+  openGraph: {
+    title: "Contact GolfSimMap — Questions & Partnerships",
+    description: "Have a question about a venue listing? Want to partner with GolfSimMap? Get in touch with our team.",
+    type: "website",
+    url: "https://golfsimmap.com/contact",
+  },
 };
 
 const TALLY_FORM_URL = "https://tally.so/r/OD58rA?transparentBackground=true";

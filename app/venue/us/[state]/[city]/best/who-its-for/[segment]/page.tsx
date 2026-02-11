@@ -54,7 +54,6 @@ const segmentDescriptions: Record<string, { tagline: string; description: string
 export async function generateMetadata({ params }: CityBestWhoItsForPageProps): Promise<Metadata> {
   const { state, city, segment } = await params;
   const stateAbbrev = getStateAbbrevFromName(state) || state.toUpperCase();
-  const stateName = getStateDisplayName(stateAbbrev);
   const cityFormatted = city.replace(/-/g, " ").replace(/\b\w/g, l => l.toUpperCase());
   const segmentLabel = segment.replace(/_/g, " ").replace(/\b\w/g, l => l.toUpperCase());
   const segmentDesc = segmentDescriptions[segment.toLowerCase()] || { tagline: "", description: "" };

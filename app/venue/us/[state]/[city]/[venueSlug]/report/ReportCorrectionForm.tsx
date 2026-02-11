@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import type { Venue } from "@/lib/supabase";
-import { Flag, Check, X, ArrowLeft } from "lucide-react";
+import { Flag, Check, ArrowLeft } from "lucide-react";
 
 interface ReportCorrectionFormProps {
   venue: Venue;

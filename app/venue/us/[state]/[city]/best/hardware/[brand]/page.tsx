@@ -28,7 +28,6 @@ const hardwareDescriptions: Record<string, string> = {
 export async function generateMetadata({ params }: CityBestHardwarePageProps): Promise<Metadata> {
   const { state, city, brand } = await params;
   const stateAbbrev = getStateAbbrevFromName(state) || state.toUpperCase();
-  const stateName = getStateDisplayName(stateAbbrev);
   const cityFormatted = city.replace(/-/g, " ").replace(/\b\w/g, l => l.toUpperCase());
   const brandLabel = brand.replace(/-/g, " ").replace(/\b\w/g, l => l.toUpperCase());
   const brandDesc = hardwareDescriptions[brand.toLowerCase()] || "quality simulator hardware";

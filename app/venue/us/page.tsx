@@ -2,7 +2,6 @@ import { Metadata } from "next";
 import Link from "next/link";
 import { supabase } from "@/lib/supabase";
 import { TrendingUp, Monitor, Sparkles, Users, Coffee, Radar, Tag, Laptop } from "lucide-react";
-import { StateCard } from "@/components/location/LocationCards";
 import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
 import { SeoIndexSections } from "@/components/seo/SeoIndexSections";
 import { getStateDisplayName } from "@/lib/states";

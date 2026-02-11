@@ -1,7 +1,6 @@
 "use client";
 
 import { useState, useMemo } from "react";
-import Link from "next/link";
 import { ArrowDownAZ, ArrowDown01 } from "lucide-react";
 import { StateCard } from "@/components/location/LocationCards";
 import { getStateDisplayName } from "@/lib/states";

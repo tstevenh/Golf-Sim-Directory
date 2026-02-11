@@ -17,6 +17,7 @@ export interface BlogPost {
   category: string;
   author: string;
   featured?: boolean;
+  coverImage?: string;
 }
 
 export function getAllPosts(): BlogPost[] {
@@ -27,9 +28,9 @@ export function getAllPosts(): BlogPost[] {
 
   const fileNames = fs.readdirSync(postsDirectory);
   const allPosts = fileNames
-    .filter((fileName) => fileName.endsWith(".md"))
+    .filter((fileName) => fileName.endsWith(".md") || fileName.endsWith(".mdx"))
     .map((fileName) => {
-      const slug = fileName.replace(/\.md$/, "");
+      const slug = fileName.replace(/\.mdx?$/, "");
       const fullPath = path.join(postsDirectory, fileName);
       const fileContents = fs.readFileSync(fullPath, "utf8");
       const { data, content } = matter(fileContents);
@@ -44,6 +45,7 @@ export function getAllPosts(): BlogPost[] {
         category: data.category || "",
         author: data.author || "GolfSimMap Team",
         featured: data.featured || false,
+        coverImage: data.coverImage || "",
       };
     });
 
@@ -55,9 +57,13 @@ export function getAllPosts(): BlogPost[] {
 }
 
 export async function getPostBySlug(slug: string): Promise<BlogPost | null> {
-  const fullPath = path.join(postsDirectory, `${slug}.md`);
-  
-  if (!fs.existsSync(fullPath)) {
+  // Try .mdx first, then .md
+  const mdxPath = path.join(postsDirectory, `${slug}.mdx`);
+  const mdPath = path.join(postsDirectory, `${slug}.md`);
+
+  const fullPath = fs.existsSync(mdxPath) ? mdxPath : fs.existsSync(mdPath) ? mdPath : null;
+
+  if (!fullPath) {
     return null;
   }
 
@@ -81,6 +87,7 @@ export async function getPostBySlug(slug: string): Promise<BlogPost | null> {
     category: data.category || "",
     author: data.author || "GolfSimMap Team",
     featured: data.featured || false,
+    coverImage: data.coverImage || "",
   };
 }
 
@@ -91,6 +98,27 @@ export function getAllSlugs(): string[] {
 
   const fileNames = fs.readdirSync(postsDirectory);
   return fileNames
-    .filter((fileName) => fileName.endsWith(".md"))
-    .map((fileName) => fileName.replace(/\.md$/, ""));
+    .filter((fileName) => fileName.endsWith(".md") || fileName.endsWith(".mdx"))
+    .map((fileName) => fileName.replace(/\.mdx?$/, ""));
+}
+
+export function getRelatedPosts(currentSlug: string, category: string, limit: number = 3): BlogPost[] {
+  const allPosts = getAllPosts();
+  
+  // Filter out current post
+  const otherPosts = allPosts.filter((post) => post.slug !== currentSlug);
+  
+  // First, try to find posts in the same category
+  const sameCategory = otherPosts.filter((post) => post.category === category);
+  
+  // If we have enough in the same category, return those
+  if (sameCategory.length >= limit) {
+    return sameCategory.slice(0, limit);
+  }
+  
+  // Otherwise, fill with other recent posts
+  const remaining = limit - sameCategory.length;
+  const differentCategory = otherPosts.filter((post) => post.category !== category);
+  
+  return [...sameCategory, ...differentCategory.slice(0, remaining)];
 }

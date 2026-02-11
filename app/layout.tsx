@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     default: "GolfSimMap — Find Indoor Golf Simulators Near You",
     template: "%s | GolfSimMap",
   },
-  description: "Search 270+ indoor golf simulator venues across the US. Compare TrackMan, Foresight & Uneekor launch monitors, check pricing, and book your next session.",
+  description: "Search 3,800+ indoor golf simulator venues across the US. Compare TrackMan, Foresight & Uneekor launch monitors, check pricing, and book your next session.",
   keywords: ["golf simulators", "indoor golf", "screen golf", "golf simulator near me", "TrackMan", "Foresight", "Uneekor", "golf simulator bar"],
   metadataBase: new URL("https://golfsimmap.com"),
   icons: {
@@ -32,15 +32,16 @@ export const metadata: Metadata = {
       { url: "/favicon.png", type: "image/png" },
     ],
     shortcut: "/favicon.ico",
-    apple: "/favicon.png",
+    apple: "/favicon.png", // ideally replace with 180x180 apple-touch-icon.png
   },
+  manifest: "/manifest.json",
   openGraph: {
     type: "website",
     locale: "en_US",
     url: "https://golfsimmap.com",
     siteName: "GolfSimMap",
     title: "GolfSimMap — Find Indoor Golf Simulators Near You",
-    description: "Search 270+ indoor golf simulator venues across the US. Compare TrackMan, Foresight & Uneekor launch monitors, check pricing, and book your next session.",
+    description: "Search 3,800+ indoor golf simulator venues across the US. Compare TrackMan, Foresight & Uneekor launch monitors, check pricing, and book your next session.",
     images: [
       {
         url: "/og-image.jpg",
@@ -53,7 +54,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "GolfSimMap — Find Indoor Golf Simulators Near You",
-    description: "Search 270+ indoor golf simulator venues across the US. Compare TrackMan, Foresight & Uneekor launch monitors, check pricing, and book your next session.",
+    description: "Search 3,800+ indoor golf simulator venues across the US. Compare TrackMan, Foresight & Uneekor launch monitors, check pricing, and book your next session.",
     images: ["/og-image.jpg"],
   },
   robots: {
@@ -67,9 +68,7 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
-  verification: {
-    google: "your-google-verification-code", // Add when available
-  },
+  // verification: { google: "ADD_YOUR_CODE_HERE" },
   alternates: {
     canonical: "https://golfsimmap.com",
   },

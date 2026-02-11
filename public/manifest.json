@@ -1,0 +1,21 @@
+{
+  "name": "GolfSimMap",
+  "short_name": "GolfSimMap",
+  "description": "Find indoor golf simulators near you. Compare launch monitors, pricing, and amenities.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0a",
+  "theme_color": "#2d6a4f",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon.ico",
+      "sizes": "48x48",
+      "type": "image/x-icon"
+    }
+  ]
+}

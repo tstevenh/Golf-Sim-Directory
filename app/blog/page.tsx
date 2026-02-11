@@ -6,6 +6,15 @@ import { getAllPosts } from "@/lib/blog";
 export const metadata: Metadata = {
   title: "Indoor Golf Blog — Tips, Guides & Industry News",
   description: "Tips, buying guides, and industry news for indoor golf enthusiasts. Learn about launch monitors, simulator setups, and venue reviews.",
+  alternates: {
+    canonical: "https://golfsimmap.com/blog",
+  },
+  openGraph: {
+    title: "Indoor Golf Blog — Tips, Guides & Industry News",
+    description: "Tips, buying guides, and industry news for indoor golf enthusiasts. Learn about launch monitors, simulator setups, and venue reviews.",
+    type: "website",
+    url: "https://golfsimmap.com/blog",
+  },
 };
 
 export default function BlogPage() {

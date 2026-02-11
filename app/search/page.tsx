@@ -12,6 +12,15 @@ import { SearchForm } from "./SearchForm";
 export const metadata: Metadata = {
   title: "Search Golf Simulators — Find Venues Near You",
   description: "Search indoor golf simulator venues by city, state, launch monitor type, vibe, and amenities. Find and book your perfect venue.",
+  alternates: {
+    canonical: "https://golfsimmap.com/search",
+  },
+  openGraph: {
+    title: "Search Golf Simulators — Find Venues Near You",
+    description: "Search indoor golf simulator venues by city, state, launch monitor type, vibe, and amenities. Find and book your perfect venue.",
+    type: "website",
+    url: "https://golfsimmap.com/search",
+  },
 };
 
 // Force dynamic rendering to avoid caching issues
