@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { db } from "@/lib/db";
+import { supabase } from "@/lib/supabase";
 
 // GET /api/venues/cities?state=CA - Get cities for a state
 export async function GET(request: Request) {
@@ -11,19 +11,12 @@ export async function GET(request: Request) {
   }
 
   try {
-    const citiesResult = await db.venue.groupBy({
-      by: ["city"],
-      where: { 
-        state: state.toUpperCase(),
-        status: "active",
-      },
-      _count: { id: true },
+    const { data: citiesResult } = await supabase.rpc("get_cities_in_state", {
+      target_state: state.toUpperCase(),
     });
 
-    // Sort by venue count (most popular first)
-    const cities = citiesResult
-      .sort((a, b) => b._count.id - a._count.id)
-      .map((c) => c.city);
+    // Already sorted by count desc in the RPC function
+    const cities = (citiesResult || []).map((c: { city: string }) => c.city);
 
     return NextResponse.json({ cities }, {
       headers: {

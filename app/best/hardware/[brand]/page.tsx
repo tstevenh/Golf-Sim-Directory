@@ -1,8 +1,7 @@
 import { Metadata } from "next";
-import { Prisma } from "@prisma/client";
-import { db, venueCardSelect } from "@/lib/db";
+import { supabase, VENUE_CARD_FIELDS } from "@/lib/supabase";
+import type { VenueListItem } from "@/types";
 import { BestByPageContent } from "@/components/seo/BestByPageContent";
-import { matchesHardware } from "@/lib/best-by";
 import { getStaticRelatedLinks } from "@/lib/category-config.generated";
 import { normalizeHardwareBrand } from "@/lib/hardware-brands";
 
@@ -12,7 +11,6 @@ interface BestHardwarePageProps {
 }
 
 export const revalidate = 86400;
-type VenueCardRow = Prisma.VenueGetPayload<{ select: typeof venueCardSelect }>;
 
 // Pre-render all hardware pages at build time
 export async function generateStaticParams() {
@@ -33,7 +31,7 @@ export async function generateStaticParams() {
 const hardwareContent: Record<string, { tagline: string; description: string; icon?: string }> = {
   "trackman": {
     tagline: "Tour-Level Accuracy",
-    description: "TrackMan uses dual radar technology to track both club and ball data with exceptional precision. The gold standard used by PGA Tour professionals and top teaching pros worldwide.",
+    description: "TrackMan uses dual radar to track club and ball data with exceptional precision. The gold standard used by PGA Tour pros and top instructors.",
   },
   "foresight": {
     tagline: "Camera-Based Precision",
@@ -41,7 +39,7 @@ const hardwareContent: Record<string, { tagline: string; description: string; ic
   },
   "uneekor": {
     tagline: "Overhead Excellence",
-    description: "Uneekor's overhead camera systems (QED, EYE XO) provide accurate ball and club tracking with minimal space requirements. Popular for home setups and commercial venues.",
+    description: "Uneekor overhead cameras (QED, EYE XO) deliver accurate ball and club tracking with minimal space needs. Popular for home and commercial setups.",
   },
   "full-swing": {
     tagline: "Immersive Entertainment",
@@ -67,17 +65,17 @@ const hardwareContent: Record<string, { tagline: string; description: string; ic
 
 export async function generateMetadata({ params }: BestHardwarePageProps): Promise<Metadata> {
   const { brand } = await params;
-  const label = brand.replace(/-/g, " ");
+  const label = brand.replace(/-/g, " ").replace(/\b\w/g, l => l.toUpperCase());
   const content = hardwareContent[brand.toLowerCase()] || { tagline: "Golf Simulator Hardware", description: "" };
-  
+
   return {
-    title: `Best ${label} Golf Simulator Venues Near You`,
+    title: `Best ${label} Simulator Venues — Find ${label} Near You`,
     description: content.description || `Find indoor golf venues using ${label} hardware. Compare ratings, amenities, and booking options.`,
     alternates: {
       canonical: `https://golfsimmap.com/best/hardware/${brand}`,
     },
     openGraph: {
-      title: `Best ${label} Golf Simulators`,
+      title: `Best ${label} Simulator Venues — Find ${label} Near You`,
       description: content.description || `Find indoor golf venues using ${label} hardware.`,
       type: "website",
       url: `https://golfsimmap.com/best/hardware/${brand}`,
@@ -93,33 +91,30 @@ export default async function BestHardwarePage({ params, searchParams }: BestHar
   const label = brand.replace(/-/g, " ").replace(/\b\w/g, l => l.toUpperCase());
   const brandKey = brand.toLowerCase();
   const skip = (page - 1) * pageSize;
-  const canRawQuery = typeof (db as unknown as { $queryRaw?: unknown }).$queryRaw === "function";
   const normalizedBrand = normalizeHardwareBrand(label);
 
   let totalVenues = 0;
-  let venues: VenueCardRow[] = [];
+  let venues: VenueListItem[] = [];
 
-  if (canRawQuery && normalizedBrand) {
-    const where = { status: "active" as const, hardwareBrands: { has: normalizedBrand } };
-    [totalVenues, venues] = await Promise.all([
-      db.venue.count({ where }),
-      db.venue.findMany({
-        where,
-        orderBy: [{ featured: "desc" }, { ratingOverall: "desc" }, { name: "asc" }],
-        select: venueCardSelect,
-        take: pageSize,
-        skip,
-      }),
+  if (normalizedBrand) {
+    const [{ count }, { data: venueRows }] = await Promise.all([
+      supabase
+        .from("venues")
+        .select("*", { count: "exact", head: true })
+        .eq("status", "active")
+        .contains("hardwareBrands", [normalizedBrand]),
+      supabase
+        .from("venues")
+        .select(VENUE_CARD_FIELDS)
+        .eq("status", "active")
+        .contains("hardwareBrands", [normalizedBrand])
+        .order("featured", { ascending: false })
+        .order("ratingOverall", { ascending: false, nullsFirst: false })
+        .order("name", { ascending: true })
+        .range(skip, skip + pageSize - 1),
     ]);
-  } else {
-    const allVenues = await db.venue.findMany({
-      where: { status: "active" },
-      orderBy: [{ featured: "desc" }, { ratingOverall: "desc" }, { name: "asc" }],
-      select: venueCardSelect,
-    });
-    const filteredVenues = allVenues.filter((venue) => matchesHardware(venue, label));
-    totalVenues = filteredVenues.length;
-    venues = filteredVenues.slice(skip, skip + pageSize);
+    totalVenues = count ?? 0;
+    venues = venueRows || [];
   }
   
   const content = hardwareContent[brandKey] || {

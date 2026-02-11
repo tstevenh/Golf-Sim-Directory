@@ -1,7 +1,6 @@
 import { Metadata } from "next";
-import { db, venueCardSelect } from "@/lib/db";
+import { supabase, VENUE_CARD_FIELDS } from "@/lib/supabase";
 import { BestByPageContent } from "@/components/seo/BestByPageContent";
-import { TagPageHero } from "@/components/seo/PageHero";
 import { getStaticRelatedLinks } from "@/lib/category-config.generated";
 
 interface BestTagPageProps {
@@ -30,11 +29,11 @@ export async function generateStaticParams() {
 const tagMetaContent: Record<string, { tagline: string; description: string }> = {
   "sim-bar": {
     tagline: "Golf + Great Food & Drinks",
-    description: "Discover golf simulator venues with full bar service, craft cocktails, and delicious food. Perfect for social outings where you want the complete entertainment experience."
+    description: "Golf simulator venues with full bar service, craft cocktails, and great food. Perfect for social outings with the complete entertainment experience."
   },
   "date-night": {
     tagline: "Romantic Golf Experiences",
-    description: "Find the perfect golf simulator spots for date night. These venues offer intimate atmospheres, quality food & drinks, and a fun activity you can enjoy together."
+    description: "Top golf simulator spots for date night. Intimate atmospheres, quality food and drinks, and a fun activity you can enjoy together."
   },
   "corporate-events": {
     tagline: "Team Building & Client Entertainment",
@@ -50,7 +49,7 @@ const tagMetaContent: Record<string, { tagline: string; description: string }> =
   },
   "party-venue": {
     tagline: "Celebrate & Play",
-    description: "Golf simulator spots perfect for parties and celebrations. Whether it's a birthday, bachelor party, or just a fun night out, these venues know how to throw an event."
+    description: "Golf simulator venues perfect for parties. Birthdays, bachelor parties, or a fun night out — these spots know how to throw an event."
   },
   "premium-experience": {
     tagline: "Luxury Golf Simulation",
@@ -72,18 +71,29 @@ function getTagMetaContent(tag: string) {
 
 export async function generateMetadata({ params }: BestTagPageProps): Promise<Metadata> {
   const { tag } = await params;
-  const tagLabel = tag.replace(/-/g, " ");
+  const tagLabel = tag.replace(/-/g, " ").replace(/\b\w/g, l => l.toUpperCase());
   const content = getTagMetaContent(tag);
-  
+
+  // Count venues for this tag
+  const tagVariants = Array.from(new Set([tag, tag.replace(/-/g, "_"), tag.replace(/_/g, "-")]));
+  const { count } = await supabase
+    .from("venues")
+    .select("*", { count: "exact", head: true })
+    .eq("status", "active")
+    .overlaps("tags", tagVariants);
+  const totalCount = count ?? 0;
+
+  const description = content.description || `Discover the ${totalCount} best ${tagLabel.toLowerCase()} golf simulator venues. Compare ratings, amenities, and pricing to find your perfect spot.`;
+
   return {
-    title: `Best ${tagLabel} Golf Simulator Venues Near You`,
-    description: content.description,
+    title: `Best ${tagLabel} Golf Simulators — ${totalCount} Venues Reviewed`,
+    description,
     alternates: {
       canonical: `https://golfsimmap.com/best/${tag}`,
     },
     openGraph: {
       title: `Best ${tagLabel} Golf Simulators`,
-      description: content.description,
+      description,
       type: "website",
       url: `https://golfsimmap.com/best/${tag}`,
     },
@@ -99,21 +109,24 @@ export default async function BestTagPage({ params, searchParams }: BestTagPageP
   const tagVariants = Array.from(new Set([tag, tag.replace(/-/g, "_"), tag.replace(/_/g, "-")]));
   const skip = (page - 1) * pageSize;
 
-  const where = {
-    status: "active" as const,
-    tags: { hasSome: tagVariants },
-  };
-
-  const [totalVenues, venues] = await Promise.all([
-    db.venue.count({ where }),
-    db.venue.findMany({
-      where,
-      orderBy: [{ featured: "desc" }, { ratingOverall: "desc" }, { name: "asc" }],
-      select: venueCardSelect,
-      take: pageSize,
-      skip,
-    }),
+  const [{ count: totalCount }, { data: venueRows }] = await Promise.all([
+    supabase
+      .from("venues")
+      .select("*", { count: "exact", head: true })
+      .eq("status", "active")
+      .overlaps("tags", tagVariants),
+    supabase
+      .from("venues")
+      .select(VENUE_CARD_FIELDS)
+      .eq("status", "active")
+      .overlaps("tags", tagVariants)
+      .order("featured", { ascending: false })
+      .order("ratingOverall", { ascending: false, nullsFirst: false })
+      .order("name", { ascending: true })
+      .range(skip, skip + pageSize - 1),
   ]);
+  const totalVenues = totalCount ?? 0;
+  const venues = venueRows || [];
 
   // Breadcrumb trail
   const breadcrumbs = [
@@ -149,16 +162,9 @@ export default async function BestTagPage({ params, searchParams }: BestTagPageP
 
   return (
     <div className="min-h-screen bg-deep-black">
-      {/* Hero Section */}
-      <TagPageHero
-        tag={tag}
-        venueCount={totalVenues}
-        breadcrumbs={breadcrumbs}
-      />
-
-      {/* Main Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <BestByPageContent
+          breadcrumbItems={breadcrumbs}
           title={`${totalVenues} ${tagLabel.replace(/\b\w/g, l => l.toUpperCase())} Venues`}
           description={`Browse all golf simulator venues perfect for ${tagLabel}. Sort by rating, compare amenities, and find your ideal spot.`}
           guidancePoints={[

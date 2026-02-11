@@ -91,8 +91,8 @@ export function getVenueBestByLinks(
   venue: {
     city: string;
     state: string;
-    vibeTags?: string[];
-    whoItsFor?: string[];
+    vibeTags?: string[] | null;
+    whoItsFor?: string[] | null;
     simulatorSystems?: unknown;
   }
 ): Array<{ href: string; label: string }> {
@@ -103,10 +103,11 @@ export function getVenueBestByLinks(
   // Add vibe-based links the venue belongs to (max 2)
   if (venue.vibeTags) {
     venue.vibeTags.slice(0, 2).forEach((vibe) => {
-      const vibeCat = VIBE_CATEGORIES.find((v) => v.slug === vibe);
+      const vibeHyphen = vibe.replace(/_/g, "-");
+      const vibeCat = VIBE_CATEGORIES.find((v) => v.slug === vibe || v.slug === vibeHyphen);
       if (vibeCat) {
         links.push({
-          href: `/venue/us/${stateSlug}/${citySlug}/best/vibe/${vibe}`,
+          href: `/venue/us/${stateSlug}/${citySlug}/best/vibe/${vibeHyphen}`,
           label: `Best ${vibeCat.label} in ${venue.city}`,
         });
       }
@@ -116,10 +117,11 @@ export function getVenueBestByLinks(
   // Add whoItsFor-based links (max 1)
   if (venue.whoItsFor) {
     const segment = venue.whoItsFor[0];
-    const segCat = SEGMENT_CATEGORIES.find((s) => s.slug === segment);
+    const segmentHyphen = segment.replace(/_/g, "-");
+    const segCat = SEGMENT_CATEGORIES.find((s) => s.slug === segment || s.slug === segmentHyphen);
     if (segCat) {
       links.push({
-        href: `/venue/us/${stateSlug}/${citySlug}/best/who-its-for/${segment}`,
+        href: `/venue/us/${stateSlug}/${citySlug}/best/who-its-for/${segmentHyphen}`,
         label: `Best for ${segCat.label} in ${venue.city}`,
       });
     }
@@ -175,17 +177,17 @@ export function getCityHardwareIndexUrl(state: string, city: string): string {
 // Helper functions for generating detail page URLs
 export function getCityVibeUrl(state: string, city: string, vibeSlug: string): string {
   const citySlug = city.toLowerCase().replace(/\s+/g, "-");
-  return `/venue/us/${state}/${citySlug}/best/vibe/${vibeSlug}`;
+  return `/venue/us/${state}/${citySlug}/best/vibe/${vibeSlug.replace(/_/g, "-")}`;
 }
 
 export function getCityWhoItsForUrl(state: string, city: string, segmentSlug: string): string {
   const citySlug = city.toLowerCase().replace(/\s+/g, "-");
-  return `/venue/us/${state}/${citySlug}/best/who-its-for/${segmentSlug}`;
+  return `/venue/us/${state}/${citySlug}/best/who-its-for/${segmentSlug.replace(/_/g, "-")}`;
 }
 
 export function getCityHardwareUrl(state: string, city: string, hardwareSlug: string): string {
   const citySlug = city.toLowerCase().replace(/\s+/g, "-");
-  return `/venue/us/${state}/${citySlug}/best/hardware/${hardwareSlug}`;
+  return `/venue/us/${state}/${citySlug}/best/hardware/${hardwareSlug.replace(/_/g, "-")}`;
 }
 
 // Helper functions for state and city URLs

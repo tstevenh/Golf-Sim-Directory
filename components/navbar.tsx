@@ -2,7 +2,8 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { useSession, signOut } from "next-auth/react";
+import { useAuth } from "@/components/auth-provider";
+import { createClient } from "@/lib/supabase/client";
 import { useState, useEffect } from "react";
 import {
   Menu,
@@ -19,7 +20,7 @@ import {
 } from "lucide-react";
 
 export function Navbar() {
-  const { data: session } = useSession();
+  const { user } = useAuth();
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
 
@@ -35,7 +36,6 @@ export function Navbar() {
   // Navigation links with icons for mobile
   const navLinks = [
     { label: "Find Venues", href: "/venue/us", icon: MapPin },
-    { label: "Search", href: "/search", icon: Search },
     { label: "Best By", href: "/best", icon: Trophy },
     { label: "Launch Monitors", href: "/launch-monitors", icon: Target },
     { label: "For Owners", href: "/submit", icon: Briefcase },
@@ -112,7 +112,7 @@ export function Navbar() {
               <Search className="w-5 h-5" />
             </Link>
 
-            {session?.user ? (
+            {user ? (
               <div className="flex items-center gap-3">
                 <Link
                   href="/dashboard"
@@ -121,7 +121,11 @@ export function Navbar() {
                   Dashboard
                 </Link>
                 <button
-                  onClick={() => signOut()}
+                  onClick={async () => {
+                    const supabase = createClient();
+                    await supabase.auth.signOut();
+                    window.location.href = "/";
+                  }}
                   className="px-4 py-2.5 text-xs font-semibold uppercase tracking-wider border border-default text-muted hover:border-masters-green hover:text-cream transition-all rounded"
                 >
                   Sign Out
@@ -199,7 +203,7 @@ export function Navbar() {
 
               {/* Auth Section */}
               <div className="space-y-1">
-                {session?.user ? (
+                {user ? (
                   <>
                     <Link
                       href="/dashboard"
@@ -210,9 +214,11 @@ export function Navbar() {
                       <span>Dashboard</span>
                     </Link>
                     <button
-                      onClick={() => {
-                        signOut();
+                      onClick={async () => {
+                        const supabase = createClient();
+                        await supabase.auth.signOut();
                         setIsOpen(false);
+                        window.location.href = "/";
                       }}
                       className="flex items-center gap-4 px-4 py-4 min-h-[56px] w-full text-left text-muted font-medium rounded-lg hover:bg-slate/50 active:bg-slate transition-colors"
                     >

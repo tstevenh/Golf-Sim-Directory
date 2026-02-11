@@ -1,7 +1,7 @@
 // Data access functions for "Best By" categories
 // Uses optimized database queries with caching
 
-import { db } from "@/lib/db";
+import { supabase } from "@/lib/supabase";
 import { unstable_cache } from "next/cache";
 import {
   VIBE_CATEGORIES,
@@ -70,6 +70,11 @@ function normalizeTagSlug(value: string): string {
     .replace(/^-|-$/g, "");
 }
 
+/** Convert any slug to URL-friendly format (underscores → hyphens) */
+function toUrlSlug(slug: string): string {
+  return slug.replace(/_/g, "-");
+}
+
 function formatTagLabel(slug: string): string {
   return slug
     .split("-")
@@ -125,27 +130,15 @@ export const getAvailableCategoriesForCity = unstable_cache(
     const stateUpper = state.toUpperCase();
 
     // One query per city, then count in-memory (cached).
-    const venues = await db.venue.findMany({
-      where: {
-        city: { equals: city, mode: "insensitive" },
-        state: stateUpper,
-        country: "US",
-        status: "active",
-      },
-      select: {
-        vibeTags: true,
-        whoItsFor: true,
-        hardwareBrands: true,
-        tags: true,
-        launchMonitorType: true,
-        hasPrivateRooms: true,
-        coachingAvailable: true,
-        wifi: true,
-        parking: true,
-        foodAndDrink: true,
-        softwareSlugs: true,
-      },
-    });
+    const { data: venues } = await supabase
+      .from("venues")
+      .select("vibeTags, whoItsFor, hardwareBrands, tags, launchMonitorType, hasPrivateRooms, coachingAvailable, wifi, parking, foodAndDrink, softwareSlugs")
+      .ilike("city", city)
+      .eq("state", stateUpper)
+      .eq("country", "US")
+      .eq("status", "active");
+
+    if (!venues) return { vibes: [], segments: [], hardware: [], launchMonitors: [], amenities: [], software: [], tags: [] };
 
     const vibeCounts = new Map<string, number>();
     const segmentCounts = new Map<string, number>();
@@ -312,22 +305,22 @@ export async function getCityCategoryBrowseLinksWithCounts(
       count: cat.count,
     })),
     launchMonitors: categories.launchMonitors.slice(0, limit).map((cat) => ({
-      href: `/venue/us/${state}/${citySlug}/best/launch-monitor/${cat.slug}`,
+      href: `/venue/us/${state}/${citySlug}/best/launch-monitor/${toUrlSlug(cat.slug)}`,
       label: cat.label,
       count: cat.count,
     })),
     amenities: categories.amenities.slice(0, limit).map((cat) => ({
-      href: `/venue/us/${state}/${citySlug}/best/amenities/${cat.slug}`,
+      href: `/venue/us/${state}/${citySlug}/best/amenities/${toUrlSlug(cat.slug)}`,
       label: cat.label,
       count: cat.count,
     })),
     software: categories.software.slice(0, limit).map((cat) => ({
-      href: `/venue/us/${state}/${citySlug}/best/software/${cat.slug}`,
+      href: `/venue/us/${state}/${citySlug}/best/software/${toUrlSlug(cat.slug)}`,
       label: cat.label,
       count: cat.count,
     })),
     tags: categories.tags.slice(0, limit).map((cat) => ({
-      href: `/venue/us/${state}/${citySlug}/best/${cat.slug}`,
+      href: `/venue/us/${state}/${citySlug}/best/${toUrlSlug(cat.slug)}`,
       label: cat.label,
       count: cat.count,
     })),
@@ -349,16 +342,12 @@ export async function getCityCategoryBrowseLinksWithCounts(
  */
 const getCachedVenuesForCategories = unstable_cache(
   async () => {
-    return db.venue.findMany({
-      where: { status: "active" },
-      select: {
-        tags: true,
-        vibeTags: true,
-        whoItsFor: true,
-        hardwareBrands: true,
-        launchMonitorType: true,
-      },
-    });
+    const { data } = await supabase
+      .from("venues")
+      .select("tags, vibeTags, whoItsFor, hardwareBrands, launchMonitorType")
+      .eq("status", "active");
+
+    return data || [];
   },
   ["global-venues-for-categories"],
   { revalidate: CACHE_DURATION, tags: [CACHE_TAG] }
@@ -385,7 +374,7 @@ export const getGlobalRelatedLinksWithCounts = unstable_cache(
       for (const hw of otherHardware) {
         const count = venues.filter((v) => (v.hardwareBrands || []).includes(hw.slug)).length;
         if (count > 0) {
-          links.push({ href: `/best/hardware/${hw.slug}`, label: `Best ${hw.label}`, count });
+          links.push({ href: `/best/hardware/${toUrlSlug(hw.slug)}`, label: `Best ${hw.label}`, count });
         }
       }
     }
@@ -395,7 +384,7 @@ export const getGlobalRelatedLinksWithCounts = unstable_cache(
       if (currentCategory === "vibe" && vibe.slug === currentSlug) continue;
       const count = venues.filter((v) => (v.vibeTags || []).includes(vibe.slug)).length;
       if (count > 0 && links.length < limit) {
-        links.push({ href: `/best/vibe/${vibe.slug}`, label: `Best ${vibe.label}`, count });
+        links.push({ href: `/best/vibe/${toUrlSlug(vibe.slug)}`, label: `Best ${vibe.label}`, count });
       }
     }
 
@@ -404,7 +393,7 @@ export const getGlobalRelatedLinksWithCounts = unstable_cache(
       if (currentCategory === "who-its-for" && segment.slug === currentSlug) continue;
       const count = venues.filter((v) => (v.whoItsFor || []).includes(segment.slug)).length;
       if (count > 0 && links.length < limit) {
-        links.push({ href: `/best/who-its-for/${segment.slug}`, label: `Best for ${segment.label}`, count });
+        links.push({ href: `/best/who-its-for/${toUrlSlug(segment.slug)}`, label: `Best for ${segment.label}`, count });
       }
     }
 

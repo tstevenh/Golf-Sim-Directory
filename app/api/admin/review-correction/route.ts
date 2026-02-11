@@ -1,13 +1,13 @@
 import { NextResponse } from "next/server";
-import { db } from "@/lib/db";
-import { auth } from "@/lib/auth";
+import { supabase } from "@/lib/supabase";
+import { getUser } from "@/lib/auth";
 
 // POST /api/admin/review-correction - Approve or reject a correction report
 export async function POST(request: Request) {
   try {
-    const session = await auth();
+    const user = await getUser();
 
-    if (!session?.user?.id || session.user.role !== "admin") {
+    if (!user?.id || user.role !== "admin") {
       return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
     }
 
@@ -22,10 +22,11 @@ export async function POST(request: Request) {
     }
 
     // Get the correction report
-    const correction = await db.correctionReport.findUnique({
-      where: { id: correctionId },
-      include: { venue: true },
-    });
+    const { data: correction } = await supabase
+      .from("correction_reports")
+      .select("*")
+      .eq("id", correctionId)
+      .single();
 
     if (!correction) {
       return NextResponse.json(
@@ -74,22 +75,21 @@ export async function POST(request: Request) {
 
       updateData[field] = value;
 
-      // Update venue and mark correction as approved in a transaction
-      await db.$transaction([
-        db.venue.update({
-          where: { id: correction.venueId },
-          data: updateData,
-        }),
-        db.correctionReport.update({
-          where: { id: correctionId },
-          data: {
-            status: "approved",
-            reviewedById: session.user.id,
-            reviewedAt: new Date(),
-            reviewNotes: reviewNotes || null,
-          },
-        }),
-      ]);
+      // Update venue and mark correction as approved (sequential)
+      await supabase
+        .from("venues")
+        .update(updateData)
+        .eq("id", correction.venueId);
+
+      await supabase
+        .from("correction_reports")
+        .update({
+          status: "approved",
+          reviewedById: user.id,
+          reviewedAt: new Date().toISOString(),
+          reviewNotes: reviewNotes || null,
+        })
+        .eq("id", correctionId);
 
       return NextResponse.json({
         success: true,
@@ -97,15 +97,15 @@ export async function POST(request: Request) {
       });
     } else if (action === "reject") {
       // Just mark as rejected
-      await db.correctionReport.update({
-        where: { id: correctionId },
-        data: {
+      await supabase
+        .from("correction_reports")
+        .update({
           status: "rejected",
-          reviewedById: session.user.id,
-          reviewedAt: new Date(),
+          reviewedById: user.id,
+          reviewedAt: new Date().toISOString(),
           reviewNotes: reviewNotes || null,
-        },
-      });
+        })
+        .eq("id", correctionId);
 
       return NextResponse.json({
         success: true,

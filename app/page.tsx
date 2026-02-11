@@ -1,4 +1,5 @@
-import { db } from "@/lib/db";
+import { Metadata } from "next";
+import { supabase } from "@/lib/supabase";
 import { getStateSlug, getStateDisplayName } from "@/lib/states";
 import { HeroSection } from "@/components/home/HeroSection";
 import { HowItWorks } from "@/components/home/HowItWorks";
@@ -6,6 +7,12 @@ import { FeaturedVenues } from "@/components/home/FeaturedVenues";
 import { LaunchMonitorComparison } from "@/components/home/LaunchMonitorComparison";
 import { PopularCities } from "@/components/home/PopularCities";
 import { BusinessCTA } from "@/components/home/BusinessCTA";
+
+export const metadata: Metadata = {
+  title: "GolfSimMap — Find Indoor Golf Simulators Near You",
+  description:
+    "Discover 3,870+ indoor golf simulator venues across the US. Compare launch monitors, pricing, amenities, and book your next session.",
+};
 
 export default async function HomePage() {
   // Fetch data with error handling for build time
@@ -20,74 +27,56 @@ export default async function HomePage() {
 
   try {
     // Fetch featured venues from database (limit to 9 for homepage display)
-    topVenues = await db.venue.findMany({
-      where: { status: "active", featured: true },
-      take: 9,
-      orderBy: [{ ratingOverall: "desc" }, { name: "asc" }],
-      select: {
-        id: true,
-        slug: true,
-        name: true,
-        city: true,
-        state: true,
-        heroImage: true,
-        venueType: true,
-        simulatorSystems: true,
-        launchMonitorType: true,
-        priceRangeMin: true,
-        priceRangeMax: true,
-        ratingOverall: true,
-        featured: true,
-        tags: true,
-        vibeTags: true,
-      },
-    });
+    const { data: featuredData } = await supabase
+      .from("venues")
+      .select("id, slug, name, city, state, heroImage, venueType, simulatorSystems, launchMonitorType, priceRangeMin, priceRangeMax, ratingOverall, featured, tags, vibeTags")
+      .eq("status", "active")
+      .eq("featured", true)
+      .order("ratingOverall", { ascending: false, nullsFirst: false })
+      .order("name", { ascending: true })
+      .limit(9);
+
+    topVenues = featuredData || [];
 
     // Get total venue count for stats
-    totalVenues = await db.venue.count({ where: { status: "active" } });
+    const { count } = await supabase
+      .from("venues")
+      .select("*", { count: "exact", head: true })
+      .eq("status", "active");
 
-    // Get states with venue counts
-    const statesResult = await db.venue.groupBy({
-      by: ["state"],
-      where: { status: "active" },
-      _count: { id: true },
-    });
-    totalStates = statesResult.length;
+    totalVenues = count || 0;
 
-    // Sort states by venue count and format
-    statesWithCounts = statesResult
-      .sort((a, b) => b._count.id - a._count.id)
-      .map((s) => ({
+    // Get states with venue counts using database function
+    const { data: statesResult } = await supabase.rpc("get_state_venue_counts");
+
+    if (statesResult) {
+      totalStates = statesResult.length;
+      statesWithCounts = statesResult.map((s: { state: string; count: number }) => ({
         code: s.state.toLowerCase(),
         name: getStateDisplayName(s.state),
         slug: getStateSlug(s.state),
-        count: s._count.id,
+        count: s.count,
       }));
+    }
 
-    // Get cities with venue counts for popular cities section
-    // Note: Prisma groupBy doesn't support orderBy with aggregates, so we sort in memory
-    // Consider using raw SQL for better performance: SELECT city, state, COUNT(*) ... ORDER BY COUNT(*) DESC LIMIT 30
-    const citiesResult = await db.venue.groupBy({
-      by: ["city", "state"],
-      where: { status: "active" },
-      _count: { id: true },
+    // Get cities with venue counts using database function
+    const { data: citiesResult } = await supabase.rpc("get_city_venue_counts", {
+      limit_count: 30,
     });
-    // Sort by venue count and limit to top 30 (we only use top 12 for display)
-    citiesWithCounts = citiesResult
-      .sort((a, b) => b._count.id - a._count.id)
-      .slice(0, 30);
+
+    citiesWithCounts = citiesResult || [];
   } catch (error) {
     console.error("Database error during build:", error);
     // Return empty data - page will show fallback UI
   }
 
   // Transform cities data - top 12 for the section, top 30 for footer
-  const popularCities = citiesWithCounts.slice(0, 12).map((city) => ({
+  const popularCities = citiesWithCounts.slice(0, 12).map((city: { city: string; state: string; count: number }) => ({
     name: city.city,
     stateCode: city.state.toLowerCase(),
     stateSlug: getStateSlug(city.state),
     slug: city.city.toLowerCase().replace(/\s+/g, "-"),
-    venueCount: city._count.id,
+    venueCount: city.count,
   }));
 
   // Transform venues for the featured section

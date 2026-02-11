@@ -1,9 +1,9 @@
 import { Metadata } from "next";
-import { Prisma } from "@prisma/client";
-import { db, venueCardSelect } from "@/lib/db";
+import { supabase, VENUE_CARD_FIELDS } from "@/lib/supabase";
+import type { VenueListItem } from "@/types";
 import { BestByPageContent } from "@/components/seo/BestByPageContent";
 import { getStaticRelatedLinks } from "@/lib/category-config.generated";
-import { extractSoftwareSlugsFromComprehensiveData, normalizeSoftwareSlug } from "@/lib/software-slugs";
+import { normalizeSoftwareSlug } from "@/lib/software-slugs";
 
 interface BestSoftwarePageProps {
   params: Promise<{ software: string }>;
@@ -11,7 +11,6 @@ interface BestSoftwarePageProps {
 }
 
 export const revalidate = 86400;
-type VenueCardRow = Prisma.VenueGetPayload<{ select: typeof venueCardSelect }>;
 
 // Pre-render all software pages at build time
 export async function generateStaticParams() {
@@ -30,19 +29,19 @@ export async function generateStaticParams() {
 const softwareContent: Record<string, { tagline: string; description: string }> = {
   "e6": {
     tagline: "Premium Course Library",
-    description: "E6 Connect offers an extensive library of world-famous courses with stunning graphics. Features include practice modes, challenges, and online play. The industry standard for commercial simulators.",
+    description: "E6 Connect features world-famous courses with stunning graphics, practice modes, challenges, and online play. The industry standard for simulators.",
   },
   "gsp": {
     tagline: "Full Swing Golf Experience",
-    description: "GSPro (Golf Simulator Pro) is a community-driven simulator software with an impressive course library and active development. Known for realistic ball physics and extensive customization.",
+    description: "GSPro is a community-driven simulator with an impressive course library and active development. Known for realistic physics and deep customization.",
   },
   "gspro": {
     tagline: "Community-Driven Excellence",
-    description: "GSPro offers thousands of courses created by an active community. Features realistic physics, multiple game modes, and regular updates. Popular choice for serious golfers.",
+    description: "GSPro offers thousands of community-created courses, realistic physics, multiple game modes, and regular updates. A top choice for serious golfers.",
   },
   "tgc": {
     tagline: "The Golf Club Experience",
-    description: "The Golf Club (TGC 2019) features a massive library of user-created courses and realistic gameplay. Known for its course designer and online multiplayer features.",
+    description: "TGC 2019 features a massive library of user-created courses and realistic gameplay. Known for its course designer and online multiplayer.",
   },
   "wgt": {
     tagline: "World Golf Tour",
@@ -50,7 +49,7 @@ const softwareContent: Record<string, { tagline: string; description: string }> 
   },
   "creative-golf": {
     tagline: "Creative Golf 3D",
-    description: "Creative Golf 3D offers colorful graphics and family-friendly gameplay. Features mini-golf courses alongside realistic options, making it great for mixed groups.",
+    description: "Creative Golf 3D offers colorful graphics and family-friendly gameplay. Mini-golf and realistic courses make it great for mixed groups.",
   },
   "awesome-golf": {
     tagline: "Awesome Golf Experience",
@@ -58,7 +57,7 @@ const softwareContent: Record<string, { tagline: string; description: string }> 
   },
   "trackman-virtual": {
     tagline: "TrackMan Virtual Golf",
-    description: "TrackMan's native software offers official course licenses (including St Andrews) and seamless integration with TrackMan hardware for the most accurate data display.",
+    description: "TrackMan's native software with official course licenses including St Andrews. Seamless hardware integration for the most accurate data.",
   },
 };
 
@@ -66,15 +65,15 @@ export async function generateMetadata({ params }: BestSoftwarePageProps): Promi
   const { software } = await params;
   const label = software.replace(/-/g, " ").replace(/\b\w/g, l => l.toUpperCase());
   const content = softwareContent[software.toLowerCase()] || { tagline: "", description: "" };
-  
+
   return {
-    title: `Best ${label} Golf Simulator Venues Near You`,
+    title: `Best ${label} Simulator Venues — Play ${label} Near You`,
     description: content.description || `Find venues using ${label} simulator software. Compare amenities, hardware, and booking options.`,
     alternates: {
       canonical: `https://golfsimmap.com/best/software/${software}`,
     },
     openGraph: {
-      title: `Best ${label} Golf Simulators`,
+      title: `Best ${label} Simulator Venues — Play ${label} Near You`,
       description: content.description || `Find venues using ${label} simulator software.`,
       type: "website",
       url: `https://golfsimmap.com/best/software/${software}`,
@@ -91,41 +90,29 @@ export default async function BestSoftwarePage({ params, searchParams }: BestSof
   const softwareKey = software.toLowerCase();
   const softwareSlug = normalizeSoftwareSlug(softwareKey);
   const skip = (page - 1) * pageSize;
-  const canUseArrayFilters = typeof (db as unknown as { $queryRaw?: unknown }).$queryRaw === "function";
 
   let totalVenues = 0;
-  let venues: VenueCardRow[] = [];
+  let venues: VenueListItem[] = [];
 
-  if (!softwareSlug) {
-    totalVenues = 0;
-    venues = [];
-  } else if (canUseArrayFilters) {
-    const where = {
-      status: "active" as const,
-      softwareSlugs: { has: softwareSlug },
-    };
-    [totalVenues, venues] = await Promise.all([
-      db.venue.count({ where }),
-      db.venue.findMany({
-        where,
-        orderBy: [{ featured: "desc" }, { ratingOverall: "desc" }, { name: "asc" }],
-        select: venueCardSelect,
-        take: pageSize,
-        skip,
-      }),
+  if (softwareSlug) {
+    const [{ count }, { data: venueRows }] = await Promise.all([
+      supabase
+        .from("venues")
+        .select("*", { count: "exact", head: true })
+        .eq("status", "active")
+        .contains("softwareSlugs", [softwareSlug]),
+      supabase
+        .from("venues")
+        .select(VENUE_CARD_FIELDS)
+        .eq("status", "active")
+        .contains("softwareSlugs", [softwareSlug])
+        .order("featured", { ascending: false })
+        .order("ratingOverall", { ascending: false, nullsFirst: false })
+        .order("name", { ascending: true })
+        .range(skip, skip + pageSize - 1),
     ]);
-  } else {
-    const allVenues = await db.venue.findMany({
-      where: { status: "active" },
-      orderBy: [{ featured: "desc" }, { ratingOverall: "desc" }, { name: "asc" }],
-      select: { ...venueCardSelect, softwareSlugs: true, comprehensiveData: true },
-    });
-    const filteredVenues = allVenues.filter((venue) => {
-      if ((venue.softwareSlugs || []).includes(softwareSlug)) return true;
-      return extractSoftwareSlugsFromComprehensiveData(venue.comprehensiveData).includes(softwareSlug);
-    });
-    totalVenues = filteredVenues.length;
-    venues = filteredVenues.slice(skip, skip + pageSize) as VenueCardRow[];
+    totalVenues = count ?? 0;
+    venues = venueRows || [];
   }
 
   const content = softwareContent[softwareKey] || {

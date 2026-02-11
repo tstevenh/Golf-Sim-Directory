@@ -50,7 +50,7 @@ export default function PrivacyPage() {
           <h2 className="text-cream text-lg mt-8 mb-4">5. Your Rights</h2>
           <p className="mb-4">
             You may access, update, or delete your account information at any time by contacting us 
-            at hello@golfsimmap.com.
+            at tim@golfsimmap.com.
           </p>
 
           <h2 className="text-cream text-lg mt-8 mb-4">6. Changes to This Policy</h2>
@@ -61,7 +61,7 @@ export default function PrivacyPage() {
 
           <h2 className="text-cream text-lg mt-8 mb-4">7. Contact Us</h2>
           <p className="mb-4">
-            If you have any questions about this Privacy Policy, please contact us at hello@golfsimmap.com.
+            If you have any questions about this Privacy Policy, please contact us at tim@golfsimmap.com.
           </p>
         </div>
 

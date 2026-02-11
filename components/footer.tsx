@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { Facebook, Twitter, Instagram, Youtube, Mail } from "lucide-react";
+import { Mail } from "lucide-react";
 
 const footerLinks = {
   discover: [
@@ -13,7 +13,7 @@ const footerLinks = {
     { label: "Claim Listing", href: "/claim" },
     { label: "Business Dashboard", href: "/dashboard" },
     { label: "Submit Venue", href: "/submit" },
-    { label: "Support", href: "mailto:hello@golfsimmap.com" },
+    { label: "Support", href: "mailto:tim@golfsimmap.com" },
   ],
   company: [
     { label: "About Us", href: "/about" },
@@ -26,7 +26,7 @@ const footerLinks = {
   ],
 };
 
-// Top states for footer - will be populated from database
+// Top states for footer - most populous states with indoor golf venues
 const topStates = [
   { name: "California", slug: "california" },
   { name: "Texas", slug: "texas" },
@@ -46,6 +46,7 @@ const topStates = [
   { name: "Tennessee", slug: "tennessee" },
   { name: "Indiana", slug: "indiana" },
   { name: "Missouri", slug: "missouri" },
+  { name: "Colorado", slug: "colorado" },
 ];
 
 // Top cities for footer
@@ -80,6 +81,8 @@ const topCities = [
   { name: "Mesa", stateSlug: "arizona" },
   { name: "Atlanta", stateSlug: "georgia" },
   { name: "Raleigh", stateSlug: "north-carolina" },
+  { name: "Miami", stateSlug: "florida" },
+  { name: "San Francisco", stateSlug: "california" },
 ];
 
 export function Footer() {
@@ -115,34 +118,15 @@ export function Footer() {
             {/* Contact */}
             <div className="space-y-2 mb-6">
               <a 
-                href="mailto:hello@golfsimmap.com" 
+                href="mailto:tim@golfsimmap.com" 
                 className="flex items-center gap-2 text-sm text-muted hover:text-cream transition-colors"
               >
                 <Mail className="w-4 h-4" />
-                hello@golfsimmap.com
+                tim@golfsimmap.com
               </a>
             </div>
 
-            {/* Social Links */}
-            <div className="flex gap-2">
-              {[
-                { icon: Facebook, label: "Facebook" },
-                { icon: Twitter, label: "Twitter" },
-                { icon: Instagram, label: "Instagram" },
-                { icon: Youtube, label: "YouTube" },
-              ].map(({ icon: Icon, label }) => (
-                <a
-                  key={label}
-                  href={`https://${label.toLowerCase()}.com/golfsimmap`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-10 h-10 border border-subtle flex items-center justify-center text-muted hover:border-masters-green hover:text-masters-green transition-colors"
-                  aria-label={label}
-                >
-                  <Icon className="w-4 h-4" />
-                </a>
-              ))}
-            </div>
+
           </div>
 
           {/* Link Columns */}

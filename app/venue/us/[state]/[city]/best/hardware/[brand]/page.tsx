@@ -1,8 +1,7 @@
 import { Metadata } from "next";
-import { Prisma } from "@prisma/client";
-import { db, venueCardSelect } from "@/lib/db";
+import { supabase, VENUE_CARD_FIELDS } from "@/lib/supabase";
+import type { VenueListItem } from "@/types";
 import { BestByPageContent } from "@/components/seo/BestByPageContent";
-import { matchesHardware } from "@/lib/best-by";
 import { getStateDisplayName, getStateAbbrevFromName } from "@/lib/states";
 import { getStaticRelatedLinks } from "@/lib/category-config.generated";
 import { normalizeHardwareBrand } from "@/lib/hardware-brands";
@@ -13,7 +12,6 @@ interface CityBestHardwarePageProps {
 }
 
 export const revalidate = 86400;
-type VenueCardRow = Prisma.VenueGetPayload<{ select: typeof venueCardSelect }>;
 
 // Hardware-specific descriptions
 const hardwareDescriptions: Record<string, string> = {
@@ -36,7 +34,7 @@ export async function generateMetadata({ params }: CityBestHardwarePageProps): P
   const brandDesc = hardwareDescriptions[brand.toLowerCase()] || "quality simulator hardware";
 
   return {
-    title: `Best ${brandLabel} Golf Simulators in ${cityFormatted}, ${stateName} `,
+    title: `Best ${brandLabel} Golf Simulators in ${cityFormatted}, ${stateAbbrev}`,
     description: `Find venues using ${brandLabel} simulators in ${cityFormatted}. ${brandDesc}. Compare ratings, amenities, and book your session.`,
     alternates: {
       canonical: `https://golfsimmap.com/venue/us/${state}/${city}/best/hardware/${brand}`,
@@ -61,57 +59,44 @@ export default async function CityBestHardwarePage({ params, searchParams }: Cit
   const brandLabel = brand.replace(/-/g, " ").replace(/\b\w/g, l => l.toUpperCase());
   const brandDesc = hardwareDescriptions[brand.toLowerCase()] || "quality simulator hardware";
   const skip = (page - 1) * pageSize;
-  const canRawQuery = typeof (db as unknown as { $queryRaw?: unknown }).$queryRaw === "function";
   const normalizedBrand = normalizeHardwareBrand(brandLabel);
 
   let totalVenues = 0;
-  let venues: VenueCardRow[] = [];
+  let venues: VenueListItem[] = [];
 
-  if (canRawQuery && normalizedBrand) {
-    const where = {
-      city: { equals: cityFormatted, mode: "insensitive" as const },
-      state: stateAbbrev.toUpperCase(),
-      country: "US" as const,
-      status: "active" as const,
-      hardwareBrands: { has: normalizedBrand },
-    };
-    [totalVenues, venues] = await Promise.all([
-      db.venue.count({ where }),
-      db.venue.findMany({
-        where,
-        orderBy: [{ featured: "desc" }, { ratingOverall: "desc" }, { name: "asc" }],
-        select: venueCardSelect,
-        take: pageSize,
-        skip,
-      }),
+  if (normalizedBrand) {
+    const [{ count }, { data: venueRows }] = await Promise.all([
+      supabase
+        .from("venues")
+        .select("*", { count: "exact", head: true })
+        .ilike("city", cityFormatted)
+        .eq("state", stateAbbrev.toUpperCase())
+        .eq("country", "US")
+        .eq("status", "active")
+        .contains("hardwareBrands", [normalizedBrand]),
+      supabase
+        .from("venues")
+        .select(VENUE_CARD_FIELDS)
+        .ilike("city", cityFormatted)
+        .eq("state", stateAbbrev.toUpperCase())
+        .eq("country", "US")
+        .eq("status", "active")
+        .contains("hardwareBrands", [normalizedBrand])
+        .order("featured", { ascending: false })
+        .order("ratingOverall", { ascending: false, nullsFirst: false })
+        .order("name", { ascending: true })
+        .range(skip, skip + pageSize - 1),
     ]);
-  } else {
-    const allVenues = await db.venue.findMany({
-      where: {
-        city: { equals: cityFormatted, mode: "insensitive" },
-        state: stateAbbrev.toUpperCase(),
-        country: "US",
-        status: "active",
-      },
-      orderBy: [{ featured: "desc" }, { ratingOverall: "desc" }, { name: "asc" }],
-      select: venueCardSelect,
-    });
-    const filteredVenues = allVenues.filter((venue) => matchesHardware(venue, brandLabel));
-    totalVenues = filteredVenues.length;
-    venues = filteredVenues.slice(skip, skip + pageSize);
+    totalVenues = count ?? 0;
+    venues = venueRows || [];
   }
 
-  const nearbyCitiesResult = await db.venue.findMany({
-    where: {
-      state: stateAbbrev.toUpperCase(),
-      country: "US",
-      status: "active",
-      NOT: { city: { equals: cityFormatted, mode: "insensitive" } },
-    },
-    select: { city: true },
-    distinct: ["city"],
-    take: 6,
+  const { data: nearbyCitiesRaw } = await supabase.rpc("get_nearby_cities", {
+    target_state: stateAbbrev.toUpperCase(),
+    exclude_city: cityFormatted,
+    limit_count: 6,
   });
+  const nearbyCitiesResult = (nearbyCitiesRaw || []) as { city: string }[];
 
   const nearbyLinks = nearbyCitiesResult.map((c) => ({
     label: `${brandLabel} in ${c.city}`,

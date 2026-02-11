@@ -1,11 +1,14 @@
 import { NextResponse } from "next/server";
-import { db } from "@/lib/db";
-import { auth } from "@/lib/auth";
+import { supabase } from "@/lib/supabase";
+import type { VenueType } from "@/lib/supabase";
+import { getUser } from "@/lib/auth";
+
+const API_VENUE_FIELDS = "id,slug,name,venueType,city,state,heroImage,priceRangeMin,priceRangeMax,simulatorSystems,ratingOverall,featured,claimed,tags,vibeTags";
 
 // GET /api/venues - Search venues
 export async function GET(request: Request) {
   const { searchParams } = new URL(request.url);
-  
+
   const city = searchParams.get("city");
   const state = searchParams.get("state");
   const venueType = searchParams.get("type");
@@ -13,61 +16,55 @@ export async function GET(request: Request) {
   const page = parseInt(searchParams.get("page") || "1");
   // Cap limit at 50 to prevent excessive data transfer
   const limit = Math.min(parseInt(searchParams.get("limit") || "20"), 50);
-  
+
   const skip = (page - 1) * limit;
-  
-  const where: Record<string, unknown> = {
-    status: "active",
-  };
-  
-  if (city) where.city = { equals: city, mode: "insensitive" };
-  if (state) where.state = { equals: state, mode: "insensitive" };
-  if (venueType) where.venueType = venueType;
-  if (query) {
-    where.OR = [
-      { name: { contains: query, mode: "insensitive" } },
-      { city: { contains: query, mode: "insensitive" } },
-    ];
+
+  // Build data query
+  let dataQuery = supabase
+    .from("venues")
+    .select(API_VENUE_FIELDS)
+    .eq("status", "active");
+
+  // Build count query
+  let countQuery = supabase
+    .from("venues")
+    .select("*", { count: "exact", head: true })
+    .eq("status", "active");
+
+  if (city) {
+    dataQuery = dataQuery.ilike("city", city);
+    countQuery = countQuery.ilike("city", city);
   }
-  
-  const [venues, total] = await Promise.all([
-    db.venue.findMany({
-      where,
-      skip,
-      take: limit,
-      orderBy: [
-        { featured: "desc" },
-        { ratingOverall: "desc" },
-        { name: "asc" },
-      ],
-      select: {
-        id: true,
-        slug: true,
-        name: true,
-        venueType: true,
-        city: true,
-        state: true,
-        heroImage: true,
-        priceRangeMin: true,
-        priceRangeMax: true,
-        simulatorSystems: true,
-        ratingOverall: true,
-        featured: true,
-        claimed: true,
-        tags: true,
-        vibeTags: true,
-      },
-    }),
-    db.venue.count({ where }),
+  if (state) {
+    dataQuery = dataQuery.ilike("state", state);
+    countQuery = countQuery.ilike("state", state);
+  }
+  if (venueType) {
+    dataQuery = dataQuery.eq("venueType", venueType as VenueType);
+    countQuery = countQuery.eq("venueType", venueType as VenueType);
+  }
+  if (query) {
+    const filter = `name.ilike.%${query}%,city.ilike.%${query}%`;
+    dataQuery = dataQuery.or(filter);
+    countQuery = countQuery.or(filter);
+  }
+
+  const [{ data: venues }, { count: total }] = await Promise.all([
+    dataQuery
+      .order("featured", { ascending: false })
+      .order("ratingOverall", { ascending: false, nullsFirst: false })
+      .order("name", { ascending: true })
+      .range(skip, skip + limit - 1),
+    countQuery,
   ]);
-  
+
   return NextResponse.json({
-    venues,
+    venues: venues || [],
     pagination: {
       page,
       limit,
-      total,
-      pages: Math.ceil(total / limit),
+      total: total ?? 0,
+      pages: Math.ceil((total ?? 0) / limit),
     },
   }, {
     headers: {
@@ -80,18 +77,22 @@ export async function GET(request: Request) {
 // POST /api/venues - Submit new venue
 export async function POST(request: Request) {
   try {
-    const session = await auth();
+    const user = await getUser();
     const body = await request.json();
-    
+
     // Create submission
-    const submission = await db.submission.create({
-      data: {
+    const { data: submission, error } = await supabase
+      .from("submissions")
+      .insert({
         data: body,
-        submittedById: session?.user?.id || null,
+        submittedById: user?.id || null,
         status: "pending",
-      },
-    });
-    
+      })
+      .select("id")
+      .single();
+
+    if (error) throw error;
+
     return NextResponse.json({
       success: true,
       message: "Venue submitted for review",

@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import { db, venueCardSelect } from "@/lib/db";
+import { supabase, VENUE_CARD_FIELDS } from "@/lib/supabase";
 import { BestByPageContent } from "@/components/seo/BestByPageContent";
 import { getStaticRelatedLinks } from "@/lib/category-config.generated";
 
@@ -28,35 +28,35 @@ export async function generateStaticParams() {
 const segmentContent: Record<string, { tagline: string; description: string }> = {
   families: {
     tagline: "Fun for All Ages",
-    description: "Family-friendly venues welcome kids, offer casual vibes, and usually have food options. Perfect for weekend outings, birthday parties, or just quality time together. Staff is patient, and the atmosphere is welcoming for golfers of all ages and skill levels.",
+    description: "Family-friendly venues that welcome kids, offer casual vibes, and have food options. Great for weekend outings, birthdays, or quality time together.",
   },
   beginners: {
     tagline: "Start Your Golf Journey",
-    description: "Beginner-friendly spots have patient staff, forgiving setups, and lessons available. No one will judge your swing here — these venues specialize in helping new golfers learn and enjoy the game without pressure.",
+    description: "Beginner-friendly spots with patient staff, forgiving setups, and lessons available. No judgment here — just venues that help new golfers learn.",
   },
   serious_golfers: {
     tagline: "Train Like a Pro",
-    description: "For golfers who want accurate data, quality hardware, and space to actually work on their game. These venues focus on practice and improvement over entertainment — think less bar, more range.",
+    description: "For golfers who want accurate data, quality hardware, and space to work on their game. Practice-focused venues — less bar, more range.",
   },
   serious: {
     tagline: "Train Like a Pro",
-    description: "For golfers who want accurate data, quality hardware, and space to actually work on their game. These venues focus on practice and improvement over entertainment — think less bar, more range.",
+    description: "For golfers who want accurate data, quality hardware, and space to work on their game. Practice-focused venues — less bar, more range.",
   },
   groups: {
     tagline: "Party-Ready Venues",
-    description: "Group-friendly venues handle parties, corporate events, and bachelor weekends with ease. Multiple bays, food and drink packages, and often private rooms make these perfect for celebrations.",
+    description: "Group-friendly venues for parties, corporate events, and bachelor weekends. Multiple bays, food and drink packages, and private rooms.",
   },
   couples: {
     tagline: "Perfect Date Night",
-    description: "Date-night venues have good food, craft drinks, and an atmosphere that works for two. Many offer couples packages or leagues for regulars looking to make it a weekly ritual.",
+    description: "Date-night venues with good food, craft drinks, and an atmosphere that works for two. Many offer couples packages or leagues for regulars.",
   },
   corporate: {
     tagline: "Professional Events",
-    description: "Corporate-friendly venues handle large bookings, catering, and A/V equipment when needed. Many offer comprehensive event packages for team building, client entertainment, and company outings.",
+    description: "Corporate-friendly venues with large bookings, catering, and A/V options. Event packages for team building, client entertainment, and company outings.",
   },
   kids: {
     tagline: "Kid-Approved Fun",
-    description: "Venues that welcome children with open arms. Safe environments, fun activities, and staff who understand that little golfers need extra patience and encouragement.",
+    description: "Venues that welcome children with open arms. Safe environments, fun activities, and staff who know little golfers need extra patience.",
   },
   seniors: {
     tagline: "Comfortable & Accessible",
@@ -66,18 +66,18 @@ const segmentContent: Record<string, { tagline: string; description: string }> =
 
 export async function generateMetadata({ params }: BestWhoItsForPageProps): Promise<Metadata> {
   const { segment } = await params;
-  const label = segment.replace(/_/g, " ").replace(/-/g, " ");
+  const label = segment.replace(/_/g, " ").replace(/-/g, " ").replace(/\b\w/g, l => l.toUpperCase());
   const content = segmentContent[segment.toLowerCase()] || { tagline: "", description: "" };
-  
+
   return {
-    title: `Best Golf Simulators for ${label} — Top Venues`,
-    description: content.description || `Find golf simulator venues perfect for ${label}. Compare amenities, vibes, and booking options.`,
+    title: `Best Golf Simulators for ${label} — Top Rated Venues`,
+    description: content.description || `Find golf simulator venues perfect for ${label.toLowerCase()}. Compare amenities, vibes, and booking options.`,
     alternates: {
       canonical: `https://golfsimmap.com/best/who-its-for/${segment}`,
     },
     openGraph: {
-      title: `Best Golf Simulators for ${label}`,
-      description: content.description || `Find golf simulator venues perfect for ${label}.`,
+      title: `Best Golf Simulators for ${label} — Top Rated Venues`,
+      description: content.description || `Find golf simulator venues perfect for ${label.toLowerCase()}.`,
       type: "website",
       url: `https://golfsimmap.com/best/who-its-for/${segment}`,
     },
@@ -94,21 +94,23 @@ export default async function BestWhoItsForPage({ params, searchParams }: BestWh
   const segmentVariants = Array.from(new Set([segment, segment.replace(/-/g, "_"), segment.replace(/_/g, "-")]));
   const skip = (page - 1) * pageSize;
 
-  const where = {
-    status: "active" as const,
-    whoItsFor: { hasSome: segmentVariants },
-  };
-
-  const [totalVenues, venues] = await Promise.all([
-    db.venue.count({ where }),
-    db.venue.findMany({
-      where,
-      orderBy: [{ featured: "desc" }, { ratingOverall: "desc" }, { name: "asc" }],
-      select: venueCardSelect,
-      take: pageSize,
-      skip,
-    }),
+  const [{ count: totalVenues }, { data: venueRows }] = await Promise.all([
+    supabase
+      .from("venues")
+      .select("*", { count: "exact", head: true })
+      .eq("status", "active")
+      .overlaps("whoItsFor", segmentVariants),
+    supabase
+      .from("venues")
+      .select(VENUE_CARD_FIELDS)
+      .eq("status", "active")
+      .overlaps("whoItsFor", segmentVariants)
+      .order("featured", { ascending: false })
+      .order("ratingOverall", { ascending: false, nullsFirst: false })
+      .order("name", { ascending: true })
+      .range(skip, skip + pageSize - 1),
   ]);
+  const venues = venueRows || [];
 
   const content = segmentContent[segmentKey] || {
     tagline: `Perfect for ${label}`,
@@ -165,7 +167,7 @@ export default async function BestWhoItsForPage({ params, searchParams }: BestWh
       ctaPrimary={{ label: "Claim Your Listing", href: "/claim" }}
       ctaSecondary={{ label: "Submit New Venue", href: "/submit" }}
       venues={venues}
-      totalVenues={totalVenues}
+      totalVenues={totalVenues ?? 0}
       categoryType="segment"
       categoryValue={segmentKey}
       heroSubtitle={content.tagline}

@@ -1,6 +1,7 @@
 import { Metadata } from "next";
-import { LaunchMonitorType } from "@prisma/client";
-import { db, venueCardSelect } from "@/lib/db";
+import type { LaunchMonitorType } from "@/lib/supabase";
+import type { VenueListItem } from "@/types";
+import { supabase, VENUE_CARD_FIELDS } from "@/lib/supabase";
 import { BestByPageContent } from "@/components/seo/BestByPageContent";
 import { getStateDisplayName, getStateAbbrevFromName } from "@/lib/states";
 import { getStaticRelatedLinks } from "@/lib/category-config.generated";
@@ -60,7 +61,7 @@ export async function generateMetadata({ params }: CityBestLaunchMonitorPageProp
   const content = launchMonitorContent[type.toLowerCase()] || { shortDesc: "this launch monitor type" };
 
   return {
-    title: `${typeLabel} Launch Monitor Venues in ${cityFormatted}, ${stateName} `,
+    title: `${typeLabel} Launch Monitor Venues in ${cityFormatted}, ${stateAbbrev}`,
     description: `Find golf simulator venues with ${content.shortDesc} in ${cityFormatted}. Compare accuracy, hardware brands, and book your session.`,
     alternates: {
       canonical: `https://golfsimmap.com/venue/us/${state}/${city}/best/launch-monitor/${type}`,
@@ -93,38 +94,42 @@ export default async function CityBestLaunchMonitorPage({ params, searchParams }
     longDesc: `Venues using ${typeLabel} launch monitor technology. These systems track your shots and provide data to improve your game.`,
   };
 
-  const where = {
-    city: { equals: cityFormatted, mode: "insensitive" as const },
-    state: stateAbbrev.toUpperCase(),
-    country: "US" as const,
-    status: "active" as const,
-    launchMonitorType: type as LaunchMonitorType,
-  };
+  let totalVenues = 0;
+  let venues: VenueListItem[] = [];
+  let nearbyCitiesResult: { city: string }[] = [];
 
-  const [totalVenues, venues, nearbyCitiesResult] = isValidType
-    ? await Promise.all([
-        db.venue.count({ where }),
-        db.venue.findMany({
-          where,
-          orderBy: [{ featured: "desc" }, { ratingOverall: "desc" }, { name: "asc" }],
-          select: venueCardSelect,
-          take: pageSize,
-          skip,
-        }),
-        db.venue.findMany({
-          where: {
-            state: stateAbbrev.toUpperCase(),
-            country: "US",
-            status: "active",
-            launchMonitorType: type as LaunchMonitorType,
-            NOT: { city: { equals: cityFormatted, mode: "insensitive" } },
-          },
-          select: { city: true },
-          distinct: ["city"],
-          take: 6,
-        }),
-      ])
-    : [0, [], []];
+  if (isValidType) {
+    const [{ count: totalVenuesRaw }, { data: venueRows }, { data: nearbyCitiesRaw }] = await Promise.all([
+      supabase
+        .from("venues")
+        .select("*", { count: "exact", head: true })
+        .ilike("city", cityFormatted)
+        .eq("state", stateAbbrev.toUpperCase())
+        .eq("country", "US")
+        .eq("status", "active")
+        .eq("launchMonitorType", type as LaunchMonitorType),
+      supabase
+        .from("venues")
+        .select(VENUE_CARD_FIELDS)
+        .ilike("city", cityFormatted)
+        .eq("state", stateAbbrev.toUpperCase())
+        .eq("country", "US")
+        .eq("status", "active")
+        .eq("launchMonitorType", type as LaunchMonitorType)
+        .order("featured", { ascending: false })
+        .order("ratingOverall", { ascending: false, nullsFirst: false })
+        .order("name", { ascending: true })
+        .range(skip, skip + pageSize - 1),
+      supabase.rpc("get_nearby_cities", {
+        target_state: stateAbbrev.toUpperCase(),
+        exclude_city: cityFormatted,
+        limit_count: 6,
+      }),
+    ]);
+    totalVenues = totalVenuesRaw ?? 0;
+    venues = venueRows || [];
+    nearbyCitiesResult = (nearbyCitiesRaw || []) as { city: string }[];
+  }
 
   const nearbyLinks = nearbyCitiesResult.map((c) => ({
     label: `${typeLabel} in ${c.city}`,

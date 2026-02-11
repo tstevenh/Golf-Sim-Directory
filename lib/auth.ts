@@ -1,88 +1,65 @@
-import NextAuth from "next-auth";
-import Credentials from "next-auth/providers/credentials";
-import bcrypt from "bcryptjs";
-import { db } from "./db";
-import { UserRole } from "@prisma/client";
+import { redirect } from "next/navigation";
+import { createClient } from "@/lib/supabase/server";
+import { supabase as supabaseService } from "@/lib/supabase";
+import type { UserRole } from "@/lib/supabase";
 
-export const {
-  handlers: { GET, POST },
-  auth,
-  signIn,
-  signOut,
-} = NextAuth({
-  session: {
-    strategy: "jwt",
-  },
-  pages: {
-    signIn: "/login",
-    error: "/login",
-  },
-  providers: [
-    Credentials({
-      name: "credentials",
-      credentials: {
-        email: { label: "Email", type: "email" },
-        password: { label: "Password", type: "password" },
-      },
-      async authorize(credentials) {
-        if (!credentials?.email || !credentials?.password) {
-          return null;
-        }
-
-        const user = await db.user.findUnique({
-          where: { email: credentials.email as string },
-        });
-
-        if (!user || !user.password) {
-          return null;
-        }
-
-        const isValid = await bcrypt.compare(
-          credentials.password as string,
-          user.password
-        );
-
-        if (!isValid) {
-          return null;
-        }
-
-        return {
-          id: user.id,
-          email: user.email,
-          name: user.name,
-          role: user.role,
-        };
-      },
-    }),
-  ],
-  callbacks: {
-    async jwt({ token, user }) {
-      if (user) {
-        token.id = user.id;
-        token.role = user.role;
-      }
-      return token;
-    },
-    async session({ session, token }) {
-      if (token && session.user) {
-        session.user.id = token.id as string;
-        session.user.role = (token.role as UserRole) || "golfer";
-      }
-      return session;
-    },
-  },
-});
-
-// Helper to hash passwords
-export async function hashPassword(password: string): Promise<string> {
-  return bcrypt.hash(password, 12);
+export interface AuthUser {
+  id: string;
+  email: string;
+  name?: string | null;
+  role: UserRole;
 }
 
-// Helper to check if user is business owner
-export async function isBusinessOwner(userId: string) {
-  const user = await db.user.findUnique({
-    where: { id: userId },
-    select: { role: true },
-  });
-  return user?.role === "business_owner" || user?.role === "admin";
+/**
+ * Get the current authenticated user from the Supabase session.
+ * Reads role from public.users (source of truth) rather than JWT app_metadata
+ * to ensure role changes take effect immediately.
+ * Returns null if not authenticated.
+ */
+export async function getUser(): Promise<AuthUser | null> {
+  const supabase = await createClient();
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
+
+  if (!user) return null;
+
+  // Read role from public.users (source of truth)
+  const { data: dbUser } = await supabaseService
+    .from("users")
+    .select("role, name")
+    .eq("id", user.id)
+    .single();
+
+  return {
+    id: user.id,
+    email: user.email!,
+    name: dbUser?.name ?? user.user_metadata?.name ?? null,
+    role: (dbUser?.role as UserRole) ?? (user.app_metadata?.role as UserRole) ?? "golfer",
+  };
+}
+
+/**
+ * Require authentication. Redirects to /login if not authenticated.
+ */
+export async function requireAuth(callbackUrl?: string): Promise<AuthUser> {
+  const user = await getUser();
+  if (!user) {
+    const loginUrl = callbackUrl
+      ? `/login?callbackUrl=${encodeURIComponent(callbackUrl)}`
+      : "/login";
+    redirect(loginUrl);
+  }
+  return user;
+}
+
+/**
+ * Require admin role. Redirects to / if not admin.
+ */
+export async function requireAdmin(): Promise<AuthUser> {
+  const user = await getUser();
+  if (!user || user.role !== "admin") {
+    redirect("/");
+  }
+  return user;
 }

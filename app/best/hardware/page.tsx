@@ -97,7 +97,7 @@ export default function HardwareIndexPage() {
             {hardwareCounts.map((hardware) => (
               <Link
                 key={hardware.slug}
-                href={`/best/hardware/${hardware.slug}`}
+                href={`/best/hardware/${hardware.slug.replace(/_/g, "-")}`}
                 className="group block border border-default bg-charcoal rounded-lg p-6 hover:border-masters-green/50 hover:bg-masters-green/5 transition-all duration-200"
               >
                 <div className="flex items-start justify-between mb-4">

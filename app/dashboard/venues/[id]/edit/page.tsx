@@ -1,5 +1,5 @@
-import { auth } from "@/lib/auth";
-import { db } from "@/lib/db";
+import { requireAuth } from "@/lib/auth";
+import { supabase } from "@/lib/supabase";
 import { redirect, notFound } from "next/navigation";
 import { VenueEditForm } from "./VenueEditFormFull";
 
@@ -12,23 +12,21 @@ export default async function VenueEditPage({
 }: {
   params: Promise<{ id: string }>;
 }) {
-  const session = await auth();
+  const user = await requireAuth("/dashboard");
   const { id } = await params;
 
-  if (!session?.user?.id) {
-    redirect("/login?callbackUrl=/dashboard");
-  }
-
-  const venue = await db.venue.findUnique({
-    where: { id },
-  });
+  const { data: venue } = await supabase
+    .from("venues")
+    .select("*")
+    .eq("id", id)
+    .single();
 
   if (!venue) {
     notFound();
   }
 
   // Check if user owns this venue
-  if (venue.claimedById !== session.user.id && session.user.role !== "admin") {
+  if (venue.claimedById !== user.id && user.role !== "admin") {
     redirect("/dashboard");
   }
 

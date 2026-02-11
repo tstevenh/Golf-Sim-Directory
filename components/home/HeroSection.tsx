@@ -2,7 +2,7 @@
 /* eslint-disable @next/next/no-img-element */
 
 import { useState, useEffect, useRef, useMemo } from "react";
-import { MapPin, ChevronDown, ArrowRight } from "lucide-react";
+import { Search, ChevronDown, ArrowRight } from "lucide-react";
 
 const launchMonitors = [
   { value: "", label: "Any System" },
@@ -11,6 +11,10 @@ const launchMonitors = [
   { value: "uneekor", label: "Uneekor" },
   { value: "gcquad", label: "GCQuad" },
   { value: "flightscope", label: "FlightScope" },
+  { value: "fullswing", label: "Full Swing" },
+  { value: "golfzon", label: "Golfzon" },
+  { value: "aboutgolf", label: "AboutGolf" },
+  { value: "skytrak", label: "SkyTrak" },
 ];
 
 function useCountUp(end: number, duration: number = 2000) {
@@ -51,7 +55,7 @@ interface HeroSectionProps {
 }
 
 export function HeroSection({ totalVenues, totalStates }: HeroSectionProps) {
-  const [location, setLocation] = useState("");
+  const [query, setQuery] = useState("");
   const [system, setSystem] = useState("");
   const [isLoaded, setIsLoaded] = useState(false);
 
@@ -65,8 +69,9 @@ export function HeroSection({ totalVenues, totalStates }: HeroSectionProps) {
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault();
     const params = new URLSearchParams();
-    if (location) params.set("city", location);
-    if (system) params.set("system", system);
+    // Single search field searches venue name, city, or ZIP code
+    if (query.trim()) params.set("q", query.trim());
+    if (system) params.set("hardware", system);
     window.location.href = `/search?${params.toString()}`;
   };
 
@@ -97,25 +102,25 @@ export function HeroSection({ totalVenues, totalStates }: HeroSectionProps) {
       />
 
       {/* Content */}
-      <div className="relative z-10 w-full max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12 text-center">
+      <div className="relative z-10 w-full max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 pt-14 pb-8 md:pt-8 md:pb-12 text-center flex flex-col justify-center min-h-screen">
         <div
           className={`transition-all duration-1000 ${isLoaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
             }`}
         >
           {/* Eyebrow */}
-          <div className="flex items-center justify-center gap-3 mb-6">
-            <div className="w-12 h-px bg-masters-green" />
-            <span className="text-masters-green text-xs font-mono uppercase tracking-widest">
+          <div className="flex items-center justify-center gap-3 mb-4 md:mb-6">
+            <div className="w-8 md:w-12 h-px bg-masters-green" />
+            <span className="text-masters-green text-[10px] md:text-xs font-mono uppercase tracking-widest">
               Indoor Golf Simulator Directory
             </span>
-            <div className="w-12 h-px bg-masters-green" />
+            <div className="w-8 md:w-12 h-px bg-masters-green" />
           </div>
 
           {/* Main Headline - H1 for SEO */}
           <h1
-            className="text-cream mb-4 font-bold tracking-tighter"
+            className="text-cream mb-3 md:mb-4 font-bold tracking-tighter"
             style={{
-              fontSize: 'clamp(3rem, 8vw, 6rem)',
+              fontSize: 'clamp(3rem, 12vw, 6rem)',
               lineHeight: 0.95
             }}
           >
@@ -124,7 +129,7 @@ export function HeroSection({ totalVenues, totalStates }: HeroSectionProps) {
             <span className="text-masters-green">Perfect</span> Swing
           </h1>
 
-          <p className="text-lg md:text-xl text-muted mb-10 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-base md:text-xl text-muted mb-6 md:mb-10 max-w-2xl mx-auto leading-relaxed">
             Discover over{" "}
             <strong className="text-cream">
               {(totalVenues || 8).toLocaleString()} indoor golf simulator venues
@@ -136,19 +141,19 @@ export function HeroSection({ totalVenues, totalStates }: HeroSectionProps) {
           {/* Search Form */}
           <form
             onSubmit={handleSearch}
-            className="space-y-4 mb-10 max-w-xl mx-auto"
+            className="space-y-3 md:space-y-4 mb-6 md:mb-10 max-w-xl mx-auto"
             id="search"
           >
             <div className="flex flex-col sm:flex-row gap-3">
               <div className="flex-1 relative">
-                <MapPin className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-muted" />
+                <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-muted" />
                 <input
                   type="text"
-                  placeholder="City, state, or ZIP"
-                  value={location}
-                  onChange={(e) => setLocation(e.target.value)}
-                  className="golf-input"
-                  aria-label="Location"
+                  placeholder="Venue, City, or ZIP"
+                  value={query}
+                  onChange={(e) => setQuery(e.target.value)}
+                  className="golf-input !pl-12"
+                  aria-label="Search venues"
                 />
               </div>
 
@@ -177,37 +182,37 @@ export function HeroSection({ totalVenues, totalStates }: HeroSectionProps) {
 
           {/* Stats */}
           <div
-            className="flex flex-wrap justify-center gap-4"
+            className="flex flex-wrap justify-center gap-2 md:gap-4"
             // eslint-disable-next-line react-hooks/refs
             ref={venuesCount.ref}
           >
-            <div className="stat-cell">
-              <span className="block text-3xl md:text-4xl font-mono font-bold text-cream">
+            <div className="stat-cell px-3 py-2 md:px-4 md:py-4">
+              <span className="block text-2xl md:text-4xl font-mono font-bold text-cream">
                 {/* eslint-disable-next-line react-hooks/refs */}
                 {venuesCount.count.toLocaleString()}+
               </span>
-              <span className="text-xs text-muted uppercase tracking-wider">
+              <span className="text-[10px] md:text-xs text-muted uppercase tracking-wider">
                 Venues
               </span>
             </div>
             <div
-              className="stat-cell"
+              className="stat-cell px-3 py-2 md:px-4 md:py-4"
               // eslint-disable-next-line react-hooks/refs
               ref={statesCount.ref}
             >
-              <span className="block text-3xl md:text-4xl font-mono font-bold text-cream">
+              <span className="block text-2xl md:text-4xl font-mono font-bold text-cream">
                 {/* eslint-disable-next-line react-hooks/refs */}
                 {statesCount.count}
               </span>
-              <span className="text-xs text-muted uppercase tracking-wider">
+              <span className="text-[10px] md:text-xs text-muted uppercase tracking-wider">
                 States
               </span>
             </div>
-            <div className="stat-cell">
-              <span className="block text-3xl md:text-4xl font-mono font-bold text-masters-green">
+            <div className="stat-cell px-3 py-2 md:px-4 md:py-4">
+              <span className="block text-2xl md:text-4xl font-mono font-bold text-masters-green">
                 Live
               </span>
-              <span className="text-xs text-muted uppercase tracking-wider">
+              <span className="text-[10px] md:text-xs text-muted uppercase tracking-wider">
                 Availability
               </span>
             </div>
@@ -216,11 +221,11 @@ export function HeroSection({ totalVenues, totalStates }: HeroSectionProps) {
       </div>
 
       {/* Scroll Indicator */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2">
-        <span className="text-xs text-muted uppercase tracking-widest">
+      <div className="absolute bottom-4 md:bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-1 md:gap-2">
+        <span className="text-[10px] md:text-xs text-muted uppercase tracking-widest">
           Scroll
         </span>
-        <div className="w-px h-8 bg-masters-green" />
+        <div className="w-px h-6 md:h-8 bg-masters-green" />
       </div>
     </section>
   );

@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { signIn } from "next-auth/react";
+import { createClient } from "@/lib/supabase/client";
 import Link from "next/link";
 import { Mail, Lock, User, ArrowRight } from "lucide-react";
 
@@ -54,10 +54,10 @@ export default function RegisterPage() {
       } else {
         setSuccess(true);
         // Auto sign in after registration
-        await signIn("credentials", {
+        const supabase = createClient();
+        await supabase.auth.signInWithPassword({
           email: formData.email,
           password: formData.password,
-          redirect: false,
         });
         // Redirect after a short delay
         setTimeout(() => {

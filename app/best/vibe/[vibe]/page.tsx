@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import { db, venueCardSelect } from "@/lib/db";
+import { supabase, VENUE_CARD_FIELDS } from "@/lib/supabase";
 import { BestByPageContent } from "@/components/seo/BestByPageContent";
 import { getStaticRelatedLinks } from "@/lib/category-config.generated";
 
@@ -29,23 +29,23 @@ export async function generateStaticParams() {
 const vibeContent: Record<string, { tagline: string; description: string }> = {
   "upscale": {
     tagline: "Premium Golf Experiences",
-    description: "Luxury golf simulator venues with upscale amenities, premium finishes, and exceptional service. Perfect for client entertainment, special occasions, or when you want the finest simulator experience.",
+    description: "Luxury golf simulator venues with upscale amenities, premium finishes, and exceptional service. Ideal for client entertainment or special occasions.",
   },
   "casual": {
     tagline: "Relaxed & Laid-Back",
-    description: "Casual golf simulator spots perfect for kicking back with friends. No dress code, no pretense — just good golf and good times. Great for beginners and regulars alike.",
+    description: "Casual golf simulator spots for kicking back with friends. No dress code, no pretense — just good golf and good times for all skill levels.",
   },
   "sports-bar": {
     tagline: "Golf Meets Game Day",
-    description: "Sports bar venues with golf simulators where you can watch the big game, grab some wings, and squeeze in a few holes. The best of both worlds for sports fans.",
+    description: "Sports bar venues with golf simulators. Watch the big game, grab wings, and squeeze in a few holes — the best of both worlds for sports fans.",
   },
   "sports_bar": {
     tagline: "Golf Meets Game Day",
-    description: "Sports bar venues with golf simulators where you can watch the big game, grab some wings, and squeeze in a few holes. The best of both worlds for sports fans.",
+    description: "Sports bar venues with golf simulators. Watch the big game, grab wings, and squeeze in a few holes — the best of both worlds for sports fans.",
   },
   "boutique": {
     tagline: "Intimate & Curated",
-    description: "Smaller, boutique golf simulator venues offering personalized attention and a more intimate atmosphere. Often feature unique decor and specialized services.",
+    description: "Boutique golf simulator venues with personalized attention and an intimate atmosphere. Unique decor and specialized services set them apart.",
   },
   "family": {
     tagline: "Fun for Everyone",
@@ -57,24 +57,24 @@ const vibeContent: Record<string, { tagline: string; description: string }> = {
   },
   "entertainment": {
     tagline: "Full Entertainment Experience",
-    description: "Entertainment-focused venues where golf simulators are part of a larger experience. Often feature multiple activities, games, and group entertainment options.",
+    description: "Entertainment-focused venues where golf simulators are part of a bigger experience. Multiple activities, games, and group options available.",
   },
 };
 
 export async function generateMetadata({ params }: BestVibePageProps): Promise<Metadata> {
   const { vibe } = await params;
-  const vibeLabel = vibe.replace(/_/g, " ").replace(/-/g, " ");
+  const vibeLabel = vibe.replace(/_/g, " ").replace(/-/g, " ").replace(/\b\w/g, l => l.toUpperCase());
   const content = vibeContent[vibe.toLowerCase()] || { tagline: "", description: "" };
-  
+
   return {
-    title: `Best ${vibeLabel} Golf Simulator Venues Near You`,
-    description: content.description || `Discover golf simulator venues with a ${vibeLabel} vibe. Compare amenities, hardware, and booking options.`,
+    title: `Best ${vibeLabel} Golf Simulator Venues — Top Picks`,
+    description: content.description || `Discover golf simulator venues with a ${vibeLabel.toLowerCase()} vibe. Compare amenities, hardware, and booking options.`,
     alternates: {
       canonical: `https://golfsimmap.com/best/vibe/${vibe}`,
     },
     openGraph: {
-      title: `Best ${vibeLabel} Golf Simulators`,
-      description: content.description || `Discover golf simulator venues with a ${vibeLabel} vibe.`,
+      title: `Best ${vibeLabel} Golf Simulator Venues — Top Picks`,
+      description: content.description || `Discover golf simulator venues with a ${vibeLabel.toLowerCase()} vibe.`,
       type: "website",
       url: `https://golfsimmap.com/best/vibe/${vibe}`,
     },
@@ -91,21 +91,23 @@ export default async function BestVibePage({ params, searchParams }: BestVibePag
   const vibeVariants = Array.from(new Set([vibe, vibe.replace(/-/g, "_"), vibe.replace(/_/g, "-")]));
   const skip = (page - 1) * pageSize;
 
-  const where = {
-    status: "active" as const,
-    vibeTags: { hasSome: vibeVariants },
-  };
-
-  const [totalVenues, venues] = await Promise.all([
-    db.venue.count({ where }),
-    db.venue.findMany({
-      where,
-      orderBy: [{ featured: "desc" }, { ratingOverall: "desc" }, { name: "asc" }],
-      select: venueCardSelect,
-      take: pageSize,
-      skip,
-    }),
+  const [{ count: totalVenues }, { data: venueRows }] = await Promise.all([
+    supabase
+      .from("venues")
+      .select("*", { count: "exact", head: true })
+      .eq("status", "active")
+      .overlaps("vibeTags", vibeVariants),
+    supabase
+      .from("venues")
+      .select(VENUE_CARD_FIELDS)
+      .eq("status", "active")
+      .overlaps("vibeTags", vibeVariants)
+      .order("featured", { ascending: false })
+      .order("ratingOverall", { ascending: false, nullsFirst: false })
+      .order("name", { ascending: true })
+      .range(skip, skip + pageSize - 1),
   ]);
+  const venues = venueRows || [];
 
   const content = vibeContent[vibeKey] || {
     tagline: `${vibeLabel} Atmosphere`,
@@ -162,7 +164,7 @@ export default async function BestVibePage({ params, searchParams }: BestVibePag
       ctaPrimary={{ label: "Claim Your Listing", href: "/claim" }}
       ctaSecondary={{ label: "Submit New Venue", href: "/submit" }}
       venues={venues}
-      totalVenues={totalVenues}
+      totalVenues={totalVenues ?? 0}
       categoryType="vibe"
       categoryValue={vibeKey}
       heroSubtitle={content.tagline}

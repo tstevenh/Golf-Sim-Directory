@@ -1,7 +1,6 @@
 import { Metadata } from "next";
-import { redirect } from "next/navigation";
-import { db } from "@/lib/db";
-import { auth } from "@/lib/auth";
+import { supabase } from "@/lib/supabase";
+import { requireAdmin } from "@/lib/auth";
 import Link from "next/link";
 import { ApproveButton } from "./ApproveButton";
 
@@ -10,23 +9,16 @@ export const metadata: Metadata = {
 };
 
 export default async function AdminSubmissionsPage() {
-  const session = await auth();
-  
-  // Check if user is admin
-  if (!session?.user || session.user.role !== "admin") {
-    redirect("/");
-  }
+  await requireAdmin();
 
   // Fetch pending submissions
-  const submissions = await db.submission.findMany({
-    where: { status: "pending" },
-    orderBy: { createdAt: "desc" },
-    include: {
-      submittedBy: {
-        select: { email: true, name: true },
-      },
-    },
-  });
+  const { data: submissions } = await supabase
+    .from("submissions")
+    .select("*, submittedBy:users!submittedById(email, name)")
+    .eq("status", "pending")
+    .order("createdAt", { ascending: false });
+
+  if (!submissions) return null;
 
   return (
     <div className="min-h-screen bg-deep-black py-12">

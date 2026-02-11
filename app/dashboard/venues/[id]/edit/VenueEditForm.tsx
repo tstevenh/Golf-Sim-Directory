@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import { Venue } from "@prisma/client";
+import type { Venue } from "@/lib/supabase";
 import { Save, X } from "lucide-react";
 
 interface VenueEditFormProps {

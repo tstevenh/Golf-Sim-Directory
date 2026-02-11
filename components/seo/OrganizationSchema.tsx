@@ -16,7 +16,7 @@ export function OrganizationSchema() {
     ],
     contactPoint: {
       "@type": "ContactPoint",
-      email: "hello@golfsimmap.com",
+      email: "tim@golfsimmap.com",
       contactType: "customer support",
     },
   };

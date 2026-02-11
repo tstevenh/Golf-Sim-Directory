@@ -1,9 +1,6 @@
-import { Venue as PrismaVenue, User as PrismaUser, Favorite as PrismaFavorite, UserRole } from "@prisma/client";
+import type { Venue, User, Favorite, UserRole } from "@/lib/supabase";
 
-export type Venue = PrismaVenue;
-export type User = PrismaUser;
-export type Favorite = PrismaFavorite;
-export { UserRole };
+export type { Venue, User, Favorite, UserRole };
 
 export interface VenueWithFavorites extends Venue {
   favorites?: Favorite[];
@@ -48,20 +45,4 @@ export interface SessionUser {
   email: string;
   name?: string | null;
   role: UserRole;
-}
-
-// Extend NextAuth types
-declare module "next-auth" {
-  interface Session {
-    user: SessionUser;
-  }
-
-  interface User {
-    role: UserRole;
-  }
-  
-  interface JWT {
-    id?: string;
-    role?: UserRole;
-  }
 }

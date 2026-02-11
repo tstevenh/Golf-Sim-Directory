@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 import Link from "next/link";
-import { db } from "@/lib/db";
+import { supabase } from "@/lib/supabase";
 import { getStateDisplayName, getStateAbbrevFromName } from "@/lib/states";
 import { SEGMENT_CATEGORIES, getCityWhoItsForUrl, getStateUrl, getCityUrl } from "@/lib/best-by-config";
 import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
@@ -42,40 +42,20 @@ export default async function CityWhoItsForIndexPage({ params }: CityWhoItsForIn
   const cityFormatted = city
     .replace(/-/g, " ")
     .replace(/\b\w/g, (l) => l.toUpperCase());
-  const canRawQuery = typeof (db as unknown as { $queryRaw?: unknown }).$queryRaw === "function";
+  const { data: venueSegments } = await supabase
+    .from("venues")
+    .select("whoItsFor")
+    .ilike("city", cityFormatted)
+    .eq("state", stateAbbrev.toUpperCase())
+    .eq("country", "US")
+    .eq("status", "active");
 
-  let countsBySlug = new Map<string, number>();
-
-  if (canRawQuery) {
-    const rows = await db.$queryRaw<{ slug: string; count: bigint | number }[]>`
-      SELECT segment AS slug, COUNT(*)::bigint AS count
-      FROM "venues" v
-      CROSS JOIN LATERAL unnest(v."whoItsFor") AS segment
-      WHERE v."city" ILIKE ${cityFormatted}
-        AND v."state" = ${stateAbbrev.toUpperCase()}
-        AND v."country" = 'US'
-        AND v."status" = 'active'
-      GROUP BY segment
-    `;
-    countsBySlug = new Map(rows.map((row) => [row.slug, Number(row.count)]));
-  } else {
-    // Fallback path for mock DB (no raw SQL support).
-    const venues = await db.venue.findMany({
-      where: {
-        city: { equals: cityFormatted, mode: "insensitive" },
-        state: stateAbbrev.toUpperCase(),
-        country: "US",
-        status: "active",
-      },
-      select: { whoItsFor: true },
-    });
-    countsBySlug = new Map(
-      SEGMENT_CATEGORIES.map((segment) => [
-        segment.slug,
-        venues.filter((v) => (v.whoItsFor || []).includes(segment.slug)).length,
-      ])
-    );
-  }
+  const countsBySlug = new Map<string, number>(
+    SEGMENT_CATEGORIES.map((segment) => [
+      segment.slug,
+      (venueSegments || []).filter((v) => (v.whoItsFor || []).includes(segment.slug)).length,
+    ])
+  );
 
   const segmentCounts = SEGMENT_CATEGORIES.map((segment) => {
     const count = countsBySlug.get(segment.slug) || 0;

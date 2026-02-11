@@ -1,13 +1,13 @@
 import { NextResponse } from "next/server";
-import { db } from "@/lib/db";
-import { auth } from "@/lib/auth";
+import { supabase, supabaseAdmin } from "@/lib/supabase";
+import { getUser } from "@/lib/auth";
 
 // POST /api/admin/review-claim - Approve or reject claim request
 export async function POST(request: Request) {
   try {
-    const session = await auth();
+    const user = await getUser();
 
-    if (!session?.user || session.user.role !== "admin") {
+    if (!user || user.role !== "admin") {
       return NextResponse.json(
         { error: "Unauthorized" },
         { status: 401 }
@@ -23,13 +23,11 @@ export async function POST(request: Request) {
       );
     }
 
-    const claimRequest = await db.claimRequest.findUnique({
-      where: { id: claimRequestId },
-      include: {
-        venue: true,
-        requestedBy: true,
-      },
-    });
+    const { data: claimRequest } = await supabase
+      .from("claim_requests")
+      .select("*")
+      .eq("id", claimRequestId)
+      .single();
 
     if (!claimRequest) {
       return NextResponse.json(
@@ -46,33 +44,39 @@ export async function POST(request: Request) {
     }
 
     if (action === "approve") {
-      // Approve the claim
-      await db.$transaction([
-        // Update venue
-        db.venue.update({
-          where: { id: claimRequest.venueId },
-          data: {
-            claimed: true,
-            claimedById: claimRequest.requestedById,
-            claimedAt: new Date(),
-          },
-        }),
-        // Update claim request
-        db.claimRequest.update({
-          where: { id: claimRequestId },
-          data: {
-            status: "approved",
-            reviewedById: session.user.id,
-            reviewedAt: new Date(),
-            reviewNotes,
-          },
-        }),
-        // Upgrade user to business_owner
-        db.user.update({
-          where: { id: claimRequest.requestedById },
-          data: { role: "business_owner" },
-        }),
-      ]);
+      const now = new Date().toISOString();
+
+      // Approve the claim (sequential operations instead of $transaction)
+      // Update venue
+      await supabase
+        .from("venues")
+        .update({
+          claimed: true,
+          claimedById: claimRequest.requestedById,
+          claimedAt: now,
+        })
+        .eq("id", claimRequest.venueId);
+
+      // Update claim request
+      await supabase
+        .from("claim_requests")
+        .update({
+          status: "approved",
+          reviewedById: user.id,
+          reviewedAt: now,
+          reviewNotes,
+        })
+        .eq("id", claimRequestId);
+
+      // Upgrade user to business_owner in public.users and auth.users metadata
+      await supabase
+        .from("users")
+        .update({ role: "business_owner" })
+        .eq("id", claimRequest.requestedById);
+
+      await supabaseAdmin.auth.admin.updateUserById(claimRequest.requestedById, {
+        app_metadata: { role: "business_owner" },
+      });
 
       return NextResponse.json({
         success: true,
@@ -80,15 +84,15 @@ export async function POST(request: Request) {
       });
     } else if (action === "reject") {
       // Reject the claim
-      await db.claimRequest.update({
-        where: { id: claimRequestId },
-        data: {
+      await supabase
+        .from("claim_requests")
+        .update({
           status: "rejected",
-          reviewedById: session.user.id,
-          reviewedAt: new Date(),
+          reviewedById: user.id,
+          reviewedAt: new Date().toISOString(),
           reviewNotes,
-        },
-      });
+        })
+        .eq("id", claimRequestId);
 
       return NextResponse.json({
         success: true,

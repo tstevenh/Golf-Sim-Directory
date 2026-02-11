@@ -1,4 +1,4 @@
-import { db } from "@/lib/db";
+import { supabase } from "@/lib/supabase";
 import { notFound } from "next/navigation";
 import { ReportCorrectionForm } from "./ReportCorrectionForm";
 
@@ -13,9 +13,11 @@ export default async function ReportCorrectionPage({
 }) {
   const { venueSlug } = await params;
 
-  const venue = await db.venue.findUnique({
-    where: { slug: venueSlug },
-  });
+  const { data: venue } = await supabase
+    .from("venues")
+    .select("*")
+    .eq("slug", venueSlug)
+    .single();
 
   if (!venue) {
     notFound();

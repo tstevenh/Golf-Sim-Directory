@@ -2,8 +2,8 @@ import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { cache } from "react";
-import { db } from "@/lib/db";
-import { auth } from "@/lib/auth";
+import { supabase } from "@/lib/supabase";
+import { getUser } from "@/lib/auth";
 import { VenueDetail } from "@/components/venue/VenueDetail";
 import { VenueSchema } from "@/components/seo/VenueSchema";
 import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
@@ -19,25 +19,36 @@ interface VenuePageProps {
 }
 
 export const revalidate = 86400;
-const META_DESCRIPTION_MAX = 160;
+const META_DESCRIPTION_MAX = 155;
 
 // Memoize venue fetch to prevent duplicate queries between generateMetadata and page
 const getVenueBySlug = cache(async (slug: string) => {
-  return await db.venue.findUnique({
-    where: { slug },
-  });
+  const { data } = await supabase
+    .from("venues")
+    .select("*")
+    .eq("slug", slug)
+    .single();
+  return data;
 });
 
 function normalizeText(value: string | null | undefined): string {
   return (value || "").replace(/\s+/g, " ").trim();
 }
 
-function truncateAtWord(value: string, maxLength = META_DESCRIPTION_MAX): string {
+function truncateToSentences(value: string, maxLength = META_DESCRIPTION_MAX): string {
   if (value.length <= maxLength) return value;
-  const clipped = value.slice(0, maxLength + 1);
+  const sentences = value.split(/(?<=[.!?])\s+/);
+  let result = "";
+  for (const sentence of sentences) {
+    const candidate = result ? `${result} ${sentence}` : sentence;
+    if (candidate.length > maxLength) break;
+    result = candidate;
+  }
+  if (result) return result;
+  const clipped = value.slice(0, maxLength - 1);
   const lastSpace = clipped.lastIndexOf(" ");
-  const safeCut = lastSpace > 100 ? clipped.slice(0, lastSpace) : clipped.slice(0, maxLength);
-  return `${safeCut.replace(/[.,;:!?-]+$/, "").trimEnd()}...`;
+  const safeCut = lastSpace > 80 ? clipped.slice(0, lastSpace) : clipped.slice(0, maxLength - 1);
+  return `${safeCut.replace(/[.,;:!?-]+$/, "").trimEnd()}.`;
 }
 
 function getFirstMeaningfulSentence(about: string): string {
@@ -74,27 +85,15 @@ function buildMetaDescription(venue: {
   launchMonitorType: string;
 }, venueTypeLabel: string, priceSnippet: string): string {
   const explicitMeta = normalizeText(venue.metaDescription);
-  if (explicitMeta) return truncateAtWord(explicitMeta);
+  if (explicitMeta) return truncateToSentences(explicitMeta);
 
   const about = normalizeText(venue.about);
   if (about) {
-    let summary = getFirstMeaningfulSentence(about);
-    if (summary) {
-      const lower = summary.toLowerCase();
-      const hasName = lower.includes(venue.name.toLowerCase());
-      const hasCity = lower.includes(venue.city.toLowerCase());
-      const hasState = lower.includes(venue.state.toLowerCase());
-      if (!hasName || (!hasCity && !hasState)) {
-        summary = `${venue.name} in ${venue.city}, ${venue.state}. ${summary}`;
-      }
-      if (summary.length < 120) {
-        summary = `${summary} Compare amenities, pricing, and tech on GolfSimMap.`;
-      }
-      return truncateAtWord(summary);
-    }
+    const firstSentence = getFirstMeaningfulSentence(about);
+    if (firstSentence) return firstSentence;
   }
 
-  return truncateAtWord(
+  return truncateToSentences(
     buildFallbackDescription(
       venue.name,
       venue.city,
@@ -187,50 +186,35 @@ export default async function VenuePage({ params }: VenuePageProps) {
       notFound();
     }
 
-    const nearbyVenueSelect = {
-      id: true,
-      name: true,
-      slug: true,
-      city: true,
-      state: true,
-      heroImage: true,
-      venueType: true,
-      simulatorSystems: true,
-      launchMonitorType: true,
-      priceRangeMin: true,
-      priceRangeMax: true,
-      ratingOverall: true,
-      featured: true,
-      tags: true,
-    } as const;
+    const nearbyVenueFields = "id, name, slug, city, state, heroImage, venueType, simulatorSystems, launchMonitorType, priceRangeMin, priceRangeMax, ratingOverall, featured, tags";
 
     // Fetch nearby venues in the same city first.
-    const nearbyVenuesInCity = await db.venue.findMany({
-      where: {
-        city: venue.city,
-        state: venue.state,
-        id: { not: venue.id },
-        status: "active",
-      },
-      orderBy: [{ featured: "desc" }, { ratingOverall: "desc" }],
-      take: 4,
-      select: nearbyVenueSelect,
-    });
+    const { data: nearbyVenuesInCity } = await supabase
+      .from("venues")
+      .select(nearbyVenueFields)
+      .eq("city", venue.city)
+      .eq("state", venue.state)
+      .neq("id", venue.id)
+      .eq("status", "active")
+      .order("featured", { ascending: false })
+      .order("ratingOverall", { ascending: false, nullsFirst: false })
+      .limit(4);
 
     // If the city has only this venue, fall back to the same state.
-    const isStateFallback = nearbyVenuesInCity.length === 0;
-    const nearbyVenues = isStateFallback
-      ? await db.venue.findMany({
-          where: {
-            state: venue.state,
-            id: { not: venue.id },
-            status: "active",
-          },
-          orderBy: [{ featured: "desc" }, { ratingOverall: "desc" }],
-          take: 4,
-          select: nearbyVenueSelect,
-        })
-      : nearbyVenuesInCity;
+    const isStateFallback = !nearbyVenuesInCity || nearbyVenuesInCity.length === 0;
+    let nearbyVenues = nearbyVenuesInCity || [];
+    if (isStateFallback) {
+      const { data: stateVenues } = await supabase
+        .from("venues")
+        .select(nearbyVenueFields)
+        .eq("state", venue.state)
+        .neq("id", venue.id)
+        .eq("status", "active")
+        .order("featured", { ascending: false })
+        .order("ratingOverall", { ascending: false, nullsFirst: false })
+        .limit(4);
+      nearbyVenues = stateVenues || [];
+    }
 
     // Cast nearby venues to match VenueCard props
     const nearbyVenuesFormatted = nearbyVenues.map((v) => ({
@@ -239,27 +223,25 @@ export default async function VenuePage({ params }: VenuePageProps) {
       tags: v.tags as string[] | null,
     }));
 
-    const session = await auth();
+    const authUser = await getUser();
 
     let isFavorited = false;
-    if (session?.user?.id) {
-      const favorite = await db.favorite.findUnique({
-        where: {
-          userId_venueId: {
-            userId: session.user.id,
-            venueId: venue.id,
-          },
-        },
-      });
+    if (authUser?.id) {
+      const { data: favorite } = await supabase
+        .from("favorites")
+        .select("id")
+        .eq("userId", authUser.id)
+        .eq("venueId", venue.id)
+        .maybeSingle();
       isFavorited = !!favorite;
     }
 
-    const sessionUser: SessionUser | undefined = session?.user
+    const sessionUser: SessionUser | undefined = authUser
       ? {
-          id: session.user.id,
-          email: session.user.email,
-          name: session.user.name,
-          role: session.user.role,
+          id: authUser.id,
+          email: authUser.email,
+          name: authUser.name,
+          role: authUser.role,
         }
       : undefined;
 

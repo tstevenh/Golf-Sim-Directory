@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import { db, venueCardSelect } from "@/lib/db";
+import { supabase, VENUE_CARD_FIELDS } from "@/lib/supabase";
 import { BestByPageContent } from "@/components/seo/BestByPageContent";
 import { getStateDisplayName, getStateAbbrevFromName } from "@/lib/states";
 import { getStaticRelatedLinks } from "@/lib/category-config.generated";
@@ -60,7 +60,7 @@ export async function generateMetadata({ params }: CityBestWhoItsForPageProps): 
   const segmentDesc = segmentDescriptions[segment.toLowerCase()] || { tagline: "", description: "" };
 
   return {
-    title: `Best Golf Simulators for ${segmentLabel} in ${cityFormatted}, ${stateName} `,
+    title: `Best Golf Simulators for ${segmentLabel} in ${cityFormatted}, ${stateAbbrev}`,
     description: segmentDesc.description || `Find best golf simulator venues for ${segmentLabel} in ${cityFormatted}. Compare amenities, vibes, and booking options.`,
     alternates: {
       canonical: `https://golfsimmap.com/venue/us/${state}/${city}/best/who-its-for/${segment}`,
@@ -90,35 +90,36 @@ export default async function CityBestWhoItsForPage({ params, searchParams }: Ci
     description: `Venues ideal for ${segmentLabel.toLowerCase()} in ${cityFormatted}. These spots cater specifically to your needs and preferences.`,
   };
 
-  const where = {
-    city: { equals: cityFormatted, mode: "insensitive" as const },
-    state: stateAbbrev.toUpperCase(),
-    country: "US" as const,
-    status: "active" as const,
-    whoItsFor: { hasSome: segmentVariants },
-  };
-
-  const [totalVenues, venues, nearbyCitiesResult] = await Promise.all([
-    db.venue.count({ where }),
-    db.venue.findMany({
-      where,
-      orderBy: [{ featured: "desc" }, { ratingOverall: "desc" }, { name: "asc" }],
-      select: venueCardSelect,
-      take: pageSize,
-      skip,
-    }),
-    db.venue.findMany({
-      where: {
-        state: stateAbbrev.toUpperCase(),
-        country: "US",
-        status: "active",
-        NOT: { city: { equals: cityFormatted, mode: "insensitive" } },
-      },
-      select: { city: true },
-      distinct: ["city"],
-      take: 6,
+  const [{ count: totalVenuesRaw }, { data: venueRows }, { data: nearbyCitiesRaw }] = await Promise.all([
+    supabase
+      .from("venues")
+      .select("*", { count: "exact", head: true })
+      .ilike("city", cityFormatted)
+      .eq("state", stateAbbrev.toUpperCase())
+      .eq("country", "US")
+      .eq("status", "active")
+      .overlaps("whoItsFor", segmentVariants),
+    supabase
+      .from("venues")
+      .select(VENUE_CARD_FIELDS)
+      .ilike("city", cityFormatted)
+      .eq("state", stateAbbrev.toUpperCase())
+      .eq("country", "US")
+      .eq("status", "active")
+      .overlaps("whoItsFor", segmentVariants)
+      .order("featured", { ascending: false })
+      .order("ratingOverall", { ascending: false, nullsFirst: false })
+      .order("name", { ascending: true })
+      .range(skip, skip + pageSize - 1),
+    supabase.rpc("get_nearby_cities", {
+      target_state: stateAbbrev.toUpperCase(),
+      exclude_city: cityFormatted,
+      limit_count: 6,
     }),
   ]);
+  const totalVenues = totalVenuesRaw ?? 0;
+  const venues = venueRows || [];
+  const nearbyCitiesResult = (nearbyCitiesRaw || []) as { city: string }[];
 
   const nearbyLinks = nearbyCitiesResult.map((c) => ({
     label: `For ${segmentLabel} in ${c.city}`,

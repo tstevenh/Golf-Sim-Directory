@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 import Link from "next/link";
-import { db } from "@/lib/db";
+import { supabase } from "@/lib/supabase";
 import { getStateDisplayName, getStateAbbrevFromName } from "@/lib/states";
 import { HARDWARE_CATEGORIES, getCityHardwareUrl, getStateUrl, getCityUrl } from "@/lib/best-by-config";
 import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
@@ -53,48 +53,26 @@ export default async function CityHardwareIndexPage({ params }: CityHardwareInde
   const cityFormatted = city
     .replace(/-/g, " ")
     .replace(/\b\w/g, (l) => l.toUpperCase());
-  const canRawQuery = typeof (db as unknown as { $queryRaw?: unknown }).$queryRaw === "function";
-
   const normalizeHardware = (value: string) => normalizeHardwareBrand(value).replace(/[^a-z0-9]/g, "");
-  let countsByBrand = new Map<string, number>();
 
-  if (canRawQuery) {
-    const rows = await db.$queryRaw<{ brand_key: string; count: bigint | number }[]>`
-      SELECT
-        regexp_replace(lower(brand_slug), '[^a-z0-9]', '', 'g') AS brand_key,
-        COUNT(*)::bigint AS count
-      FROM "venues" v
-      CROSS JOIN LATERAL unnest(v."hardwareBrands") AS brand_slug
-      WHERE v."city" ILIKE ${cityFormatted}
-        AND v."state" = ${stateAbbrev.toUpperCase()}
-        AND v."country" = 'US'
-        AND v."status" = 'active'
-        AND brand_slug <> ''
-      GROUP BY brand_key
-    `;
-    countsByBrand = new Map(rows.map((row) => [row.brand_key, Number(row.count)]));
-  } else {
-    // Fallback path for mock DB (no raw SQL support).
-    const venues = await db.venue.findMany({
-      where: {
-        city: { equals: cityFormatted, mode: "insensitive" },
-        state: stateAbbrev.toUpperCase(),
-        country: "US",
-        status: "active",
-      },
-      select: { simulatorSystems: true },
-    });
-    countsByBrand = new Map(
-      HARDWARE_CATEGORIES.map((hardware) => [
-        normalizeHardware(hardware.slug),
-        venues.filter((v) => {
-          const systems = v.simulatorSystems as { brand?: string; model?: string }[] | null;
-          if (!systems) return false;
-          return systems.some((s) => normalizeHardware(s.brand || "") === normalizeHardware(hardware.slug));
-        }).length,
-      ])
-    );
-  }
+  const { data: venueHardware } = await supabase
+    .from("venues")
+    .select("hardwareBrands")
+    .ilike("city", cityFormatted)
+    .eq("state", stateAbbrev.toUpperCase())
+    .eq("country", "US")
+    .eq("status", "active");
+
+  const countsByBrand = new Map<string, number>(
+    HARDWARE_CATEGORIES.map((hardware) => [
+      normalizeHardware(hardware.slug),
+      (venueHardware || []).filter((v) => {
+        const brands = v.hardwareBrands as string[] | null;
+        if (!brands) return false;
+        return brands.some((b) => normalizeHardware(b) === normalizeHardware(hardware.slug));
+      }).length,
+    ])
+  );
 
   const hardwareCounts = HARDWARE_CATEGORIES.map((hardware) => {
     const count = countsByBrand.get(normalizeHardware(hardware.slug)) || 0;

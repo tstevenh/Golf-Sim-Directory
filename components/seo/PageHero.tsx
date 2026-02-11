@@ -268,7 +268,7 @@ export function CityPageHero({
                 {topTags.map((tag) => (
                   <a
                     key={tag}
-                    href={`/venue/us/${state.toLowerCase()}/${city.toLowerCase().replace(/\s+/g, '-')}/best/${tag}`}
+                    href={`/venue/us/${state.toLowerCase()}/${city.toLowerCase().replace(/\s+/g, '-')}/best/${tag.replace(/_/g, '-')}`}
                     className="px-3 py-2 bg-charcoal border border-default rounded-full text-cream-subtle text-sm hover:border-masters-green hover:text-masters-green transition-colors min-h-[40px] flex items-center"
                   >
                     {tag.replace(/-/g, ' ')}

@@ -8,8 +8,8 @@ interface VenueBestByLinksProps {
   venue: {
     city: string;
     state: string;
-    vibeTags?: string[];
-    whoItsFor?: string[];
+    vibeTags?: string[] | null;
+    whoItsFor?: string[] | null;
     simulatorSystems?: unknown;
   };
 }

@@ -1,275 +1,159 @@
-#!/usr/bin/env npx ts-node
-/**
- * Category Analysis Script
- * 
- * Run this before deployment to generate static category config.
- * Output: lib/category-config.generated.ts
- * 
- * Usage: npx ts-node scripts/analyze-categories.ts
- */
-
-import { PrismaClient } from "@prisma/client";
+import { createClient } from "@supabase/supabase-js";
 import * as fs from "fs";
 import * as path from "path";
-import { fileURLToPath } from "url";
-import { extractSoftwareSlugsFromComprehensiveData } from "../lib/software-slugs";
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+// Load .env.local
+const envPath = path.resolve(__dirname, "../.env.local");
+const envContent = fs.readFileSync(envPath, "utf-8");
+for (const line of envContent.split("\n")) {
+  const match = line.match(/^([^#=]+)=(.*)$/);
+  if (match) {
+    const key = match[1].trim();
+    let val = match[2].trim();
+    if ((val.startsWith('"') && val.endsWith('"')) || (val.startsWith("'") && val.endsWith("'")))
+      val = val.slice(1, -1);
+    if (!process.env[key]) process.env[key] = val;
+  }
+}
 
-const prisma = new PrismaClient();
+const supabase = createClient(process.env.NEXT_PUBLIC_SUPABASE_URL!, process.env.SUPABASE_SERVICE_ROLE_KEY!);
+const OUTPUT_PATH = path.resolve(__dirname, "../lib/category-config.generated.ts");
 
-interface CategoryCount {
+// ── Label formatting ────────────────────────────────────────────────────────
+const CUSTOM_LABELS: Record<string, string> = {
+  // Hardware
+  "trackman": "TrackMan", "foresight": "Foresight", "uneekor": "Uneekor",
+  "full-swing": "Full Swing", "skytrak": "SkyTrak", "golfzon": "Golfzon",
+  "aboutgolf": "AboutGolf", "flightscope": "FlightScope", "trugolf": "TruGolf",
+  "toptracer": "Toptracer", "gc-quad": "GC Quad", "optishot": "OptiShot",
+  "garmin": "Garmin", "rapsodo": "Rapsodo", "x-golf": "X-Golf",
+  "hd-golf": "HD Golf", "protee": "ProTee", "swing-catalyst": "Swing Catalyst",
+  "v1-sports": "V1 Sports",
+  // Software
+  "gspro": "GSPro", "e6": "E6 Connect", "tgc": "TGC 2019", "wgt": "WGT",
+  "creative-golf": "Creative Golf 3D", "awesome-golf": "Awesome Golf",
+  "trackman-virtual": "TrackMan Virtual", "fsx": "FSX Play",
+  // Launch monitors
+  "radar": "Radar", "photometric_camera": "Camera", "hybrid": "Hybrid",
+  "unknown": "Unknown",
+  // Amenities
+  "parking": "Parking", "coaching_available": "Coaching", "private_rooms": "Private Rooms",
+};
+
+function toLabel(slug: string): string {
+  if (CUSTOM_LABELS[slug]) return CUSTOM_LABELS[slug];
+  return slug
+    .replace(/[_-]/g, " ")
+    .replace(/\b\w/g, (c) => c.toUpperCase());
+}
+
+interface CategoryItem {
   slug: string;
   label: string;
   count: number;
 }
 
-interface CategoryConfig {
-  generatedAt: string;
-  totalVenues: number;
-  tags: CategoryCount[];
-  vibes: CategoryCount[];
-  segments: CategoryCount[];
-  hardware: CategoryCount[];
-  amenities: CategoryCount[];
-  software: CategoryCount[];
-  launchMonitors: CategoryCount[];
+// ── Fetch all venues (paginated) ────────────────────────────────────────────
+async function fetchAllVenues() {
+  const allVenues: Record<string, unknown>[] = [];
+  let from = 0;
+  const PAGE = 1000;
+  while (true) {
+    const { data: page, error } = await supabase
+      .from("venues")
+      .select("tags, vibeTags, whoItsFor, hardwareBrands, softwareSlugs, launchMonitorType, coachingAvailable, hasPrivateRooms, comprehensiveData")
+      .eq("status", "active")
+      .range(from, from + PAGE - 1);
+    if (error) { console.error("Fetch error:", error); process.exit(1); }
+    if (!page || page.length === 0) break;
+    allVenues.push(...page);
+    if (page.length < PAGE) break;
+    from += PAGE;
+  }
+  return allVenues;
 }
 
-// Category definitions
-const TAG_LABELS: Record<string, string> = {
-  "sim-bar": "Sim Bar",
-  "date-night": "Date Night",
-  "corporate-events": "Corporate Events",
-  "family-friendly": "Family Friendly",
-  "serious-practice": "Serious Practice",
-  "party-venue": "Party Venue",
-  "premium-experience": "Premium Experience",
-  "budget-friendly": "Budget Friendly",
-};
+// ── Count array field values ────────────────────────────────────────────────
+function countArrayField(venues: Record<string, unknown>[], field: string): CategoryItem[] {
+  const counts = new Map<string, number>();
+  for (const v of venues) {
+    const arr = v[field];
+    if (!Array.isArray(arr)) continue;
+    for (const item of arr) {
+      if (typeof item === "string" && item.trim()) {
+        const slug = item.trim();
+        counts.set(slug, (counts.get(slug) || 0) + 1);
+      }
+    }
+  }
+  return [...counts.entries()]
+    .map(([slug, count]) => ({ slug, label: toLabel(slug), count }))
+    .sort((a, b) => b.count - a.count);
+}
 
-const VIBE_LABELS: Record<string, string> = {
-  "upscale": "Upscale",
-  "casual": "Casual",
-  "sports-bar": "Sports Bar",
-  "boutique": "Boutique",
-  "lounge": "Lounge",
-  "entertainment": "Entertainment",
-  "family": "Family",
-  "tech-lab": "Tech Lab",
-  "party-atmosphere": "Party Atmosphere",
-};
+// ── Main ────────────────────────────────────────────────────────────────────
+async function main() {
+  console.log("Fetching all active venues...");
+  const venues = await fetchAllVenues();
+  const total = venues.length;
+  console.log(`Fetched ${total} active venues`);
 
-const SEGMENT_LABELS: Record<string, string> = {
-  "beginners": "Beginners",
-  "corporate-groups": "Corporate Groups",
-  "serious-golfers": "Serious Golfers",
-  "date-night": "Date Night",
-  "large-groups": "Large Groups",
-  "families": "Families",
-  "league-players": "League Players",
-  "seniors": "Seniors",
-};
+  // Tags
+  const tags = countArrayField(venues, "tags");
+  console.log(`Tags: ${tags.length} categories`);
 
-const HARDWARE_LABELS: Record<string, string> = {
-  "trackman": "TrackMan",
-  "foresight": "Foresight",
-  "uneekor": "Uneekor",
-  "full-swing": "Full Swing",
-  "golfzon": "Golfzon",
-  "aboutgolf": "AboutGolf",
-  "skytrak": "SkyTrak",
-  "gc-quad": "GC Quad",
-  "garmin": "Garmin",
-};
+  // Vibes
+  const vibes = countArrayField(venues, "vibeTags");
+  console.log(`Vibes: ${vibes.length} categories`);
 
-const AMENITY_LABELS: Record<string, string> = {
-  "private_rooms": "Private Rooms",
-  "full_bar": "Full Bar",
-  "kitchen_food": "Food Service",
-  "coaching_available": "Coaching",
-  "club_fitting": "Club Fitting",
-  "wifi": "WiFi",
-  "parking": "Parking",
-  "outdoor_space": "Outdoor Space",
-  "events": "Events",
-  "leagues": "Leagues",
-  "memberships": "Memberships",
-};
+  // Who it's for (segments)
+  const segments = countArrayField(venues, "whoItsFor");
+  console.log(`Segments: ${segments.length} categories`);
 
-const SOFTWARE_LABELS: Record<string, string> = {
-  "e6": "E6 Connect",
-  "gspro": "GSPro",
-  "tgc": "TGC 2019",
-  "wgt": "WGT",
-  "creative-golf": "Creative Golf",
-  "awesome-golf": "Awesome Golf",
-  "trackman-virtual": "TrackMan Virtual",
-};
+  // Hardware brands
+  const hardware = countArrayField(venues, "hardwareBrands");
+  console.log(`Hardware: ${hardware.length} categories`);
 
-const LAUNCH_MONITOR_LABELS: Record<string, string> = {
-  "radar": "Radar",
-  "photometric_camera": "Camera",
-  "hybrid": "Hybrid",
-};
+  // Software slugs
+  const software = countArrayField(venues, "softwareSlugs");
+  console.log(`Software: ${software.length} categories`);
 
-async function analyzeCategories(): Promise<CategoryConfig> {
-  console.log("🔍 Analyzing venue categories...\n");
+  // Launch monitors
+  const launchMonitorCounts = new Map<string, number>();
+  for (const v of venues) {
+    const lm = v.launchMonitorType;
+    if (typeof lm === "string" && lm.trim()) {
+      launchMonitorCounts.set(lm, (launchMonitorCounts.get(lm) || 0) + 1);
+    }
+  }
+  const launchMonitors: CategoryItem[] = [...launchMonitorCounts.entries()]
+    .map(([slug, count]) => ({ slug, label: toLabel(slug), count }))
+    .sort((a, b) => b.count - a.count);
+  console.log(`Launch Monitors: ${launchMonitors.length} categories`);
 
-  const venues = await prisma.venue.findMany({
-    where: { status: "active" },
-    select: {
-      tags: true,
-      vibeTags: true,
-      whoItsFor: true,
-      hardwareBrands: true,
-      simulatorSystems: true,
-      launchMonitorType: true,
-      softwareSlugs: true,
-      comprehensiveData: true,
-      hasPrivateRooms: true,
-      coachingAvailable: true,
-      wifi: true,
-      parking: true,
-      foodAndDrink: true,
+  // Amenities (computed from boolean/other fields)
+  const amenities: CategoryItem[] = [
+    { slug: "parking", label: "Parking", count: total }, // all venues assumed to have some parking info
+    {
+      slug: "coaching_available", label: "Coaching",
+      count: venues.filter((v) => v.coachingAvailable === true).length,
     },
-  });
+    {
+      slug: "private_rooms", label: "Private Rooms",
+      count: venues.filter((v) => v.hasPrivateRooms === true).length,
+    },
+  ].sort((a, b) => b.count - a.count);
+  console.log(`Amenities: ${amenities.length} categories`);
 
-  console.log(`📊 Found ${venues.length} active venues\n`);
+  // Generate the file
+  const now = new Date().toISOString();
+  const formatItems = (items: CategoryItem[]) =>
+    items.map((i) => `  ${JSON.stringify(i, null, 2).replace(/\n/g, "\n  ")}`).join(",\n");
 
-  // Count tags
-  const tagCounts: Record<string, number> = {};
-  for (const venue of venues) {
-    const tags = venue.tags || [];
-    for (const tag of tags) {
-      tagCounts[tag] = (tagCounts[tag] || 0) + 1;
-    }
-  }
-
-  // Count vibes
-  const vibeCounts: Record<string, number> = {};
-  for (const venue of venues) {
-    const vibes = venue.vibeTags || [];
-    for (const vibe of vibes) {
-      vibeCounts[vibe] = (vibeCounts[vibe] || 0) + 1;
-    }
-  }
-
-  // Count segments (whoItsFor)
-  const segmentCounts: Record<string, number> = {};
-  for (const venue of venues) {
-    const segments = venue.whoItsFor || [];
-    for (const segment of segments) {
-      segmentCounts[segment] = (segmentCounts[segment] || 0) + 1;
-    }
-  }
-
-  // Count hardware
-  const hardwareCounts: Record<string, number> = {};
-  for (const venue of venues) {
-    if (Array.isArray(venue.hardwareBrands) && venue.hardwareBrands.length > 0) {
-      for (const brand of venue.hardwareBrands) {
-        if (!brand) continue;
-        hardwareCounts[brand] = (hardwareCounts[brand] || 0) + 1;
-      }
-      continue;
-    }
-    // Fallback for legacy rows without hardwareBrands.
-    try {
-      const systems = venue.simulatorSystems as { brand?: string }[] | null;
-      if (systems) {
-        for (const system of systems) {
-          if (system.brand) {
-            const brand = system.brand.toLowerCase().replace(/\s+/g, "-");
-            hardwareCounts[brand] = (hardwareCounts[brand] || 0) + 1;
-          }
-        }
-      }
-    } catch {
-      // Skip invalid data
-    }
-  }
-
-  // Count amenities
-  const amenityCounts: Record<string, number> = {};
-  for (const venue of venues) {
-    if (venue.hasPrivateRooms) amenityCounts["private_rooms"] = (amenityCounts["private_rooms"] || 0) + 1;
-    if (venue.coachingAvailable) amenityCounts["coaching_available"] = (amenityCounts["coaching_available"] || 0) + 1;
-    if (venue.wifi) amenityCounts["wifi"] = (amenityCounts["wifi"] || 0) + 1;
-    if (venue.parking) amenityCounts["parking"] = (amenityCounts["parking"] || 0) + 1;
-    
-    try {
-      const food = venue.foodAndDrink as { hasFood?: boolean; hasBar?: boolean } | null;
-      if (food?.hasFood) amenityCounts["kitchen_food"] = (amenityCounts["kitchen_food"] || 0) + 1;
-      if (food?.hasBar) amenityCounts["full_bar"] = (amenityCounts["full_bar"] || 0) + 1;
-    } catch {
-      // Skip invalid data
-    }
-
-    try {
-      const data = venue.comprehensiveData as { clubFitting?: boolean; leagues?: boolean; memberships?: boolean; events?: boolean } | null;
-      if (data?.clubFitting) amenityCounts["club_fitting"] = (amenityCounts["club_fitting"] || 0) + 1;
-      if (data?.leagues) amenityCounts["leagues"] = (amenityCounts["leagues"] || 0) + 1;
-      if (data?.memberships) amenityCounts["memberships"] = (amenityCounts["memberships"] || 0) + 1;
-      if (data?.events) amenityCounts["events"] = (amenityCounts["events"] || 0) + 1;
-    } catch {
-      // Skip invalid data
-    }
-  }
-
-  // Count software (prefer normalized softwareSlugs, fallback to comprehensiveData)
-  const softwareCounts: Record<string, number> = {};
-  for (const venue of venues) {
-    const slugs =
-      Array.isArray(venue.softwareSlugs) && venue.softwareSlugs.length > 0
-        ? venue.softwareSlugs
-        : extractSoftwareSlugsFromComprehensiveData(venue.comprehensiveData);
-    for (const slug of slugs) {
-      softwareCounts[slug] = (softwareCounts[slug] || 0) + 1;
-    }
-  }
-
-  // Count launch monitors
-  const launchMonitorCounts: Record<string, number> = {};
-  for (const venue of venues) {
-    if (venue.launchMonitorType) {
-      launchMonitorCounts[venue.launchMonitorType] = (launchMonitorCounts[venue.launchMonitorType] || 0) + 1;
-    }
-  }
-
-  // Convert to sorted arrays (only include categories with venues)
-  const toSortedArray = (counts: Record<string, number>, labels: Record<string, string>): CategoryCount[] => {
-    return Object.entries(counts)
-      .filter(([, count]) => count > 0)
-      .map(([slug, count]) => ({
-        slug,
-        label: labels[slug] || slug.replace(/-/g, " ").replace(/_/g, " ").replace(/\b\w/g, l => l.toUpperCase()),
-        count,
-      }))
-      .sort((a, b) => b.count - a.count);
-  };
-
-  const config: CategoryConfig = {
-    generatedAt: new Date().toISOString(),
-    totalVenues: venues.length,
-    tags: toSortedArray(tagCounts, TAG_LABELS),
-    vibes: toSortedArray(vibeCounts, VIBE_LABELS),
-    segments: toSortedArray(segmentCounts, SEGMENT_LABELS),
-    hardware: toSortedArray(hardwareCounts, HARDWARE_LABELS),
-    amenities: toSortedArray(amenityCounts, AMENITY_LABELS),
-    software: toSortedArray(softwareCounts, SOFTWARE_LABELS),
-    launchMonitors: toSortedArray(launchMonitorCounts, LAUNCH_MONITOR_LABELS),
-  };
-
-  return config;
-}
-
-function generateTypeScriptFile(config: CategoryConfig): string {
-  return `// AUTO-GENERATED FILE - DO NOT EDIT
-// Generated by: npx ts-node scripts/analyze-categories.ts
-// Generated at: ${config.generatedAt}
-// Total venues: ${config.totalVenues}
+  const output = `// AUTO-GENERATED FILE - DO NOT EDIT
+// Generated by: npx tsx scripts/analyze-categories.ts
+// Generated at: ${now}
+// Total venues: ${total}
 
 export interface CategoryItem {
   slug: string;
@@ -277,29 +161,48 @@ export interface CategoryItem {
   count: number;
 }
 
-export const GENERATED_AT = "${config.generatedAt}";
-export const TOTAL_VENUES = ${config.totalVenues};
+export const GENERATED_AT = "${now}";
+export const TOTAL_VENUES = ${total};
 
-// Tags with venues (${config.tags.length} categories)
-export const AVAILABLE_TAGS: CategoryItem[] = ${JSON.stringify(config.tags, null, 2)};
+// Tags with venues (${tags.length} categories)
+export const AVAILABLE_TAGS: CategoryItem[] = [
+${formatItems(tags)}
+];
 
-// Vibes with venues (${config.vibes.length} categories)
-export const AVAILABLE_VIBES: CategoryItem[] = ${JSON.stringify(config.vibes, null, 2)};
+// Vibes with venues (${vibes.length} categories)
+export const AVAILABLE_VIBES: CategoryItem[] = [
+${formatItems(vibes)}
+];
 
-// Segments with venues (${config.segments.length} categories)
-export const AVAILABLE_SEGMENTS: CategoryItem[] = ${JSON.stringify(config.segments, null, 2)};
+// Segments with venues (${segments.length} categories)
+export const AVAILABLE_SEGMENTS: CategoryItem[] = [
+${formatItems(segments)}
+];
 
-// Hardware with venues (${config.hardware.length} categories)
-export const AVAILABLE_HARDWARE: CategoryItem[] = ${JSON.stringify(config.hardware, null, 2)};
+// Hardware with venues (${hardware.length} categories)
+export const AVAILABLE_HARDWARE: CategoryItem[] = [
+${formatItems(hardware)}
+];
 
-// Amenities with venues (${config.amenities.length} categories)
-export const AVAILABLE_AMENITIES: CategoryItem[] = ${JSON.stringify(config.amenities, null, 2)};
+// Amenities with venues (${amenities.length} categories)
+export const AVAILABLE_AMENITIES: CategoryItem[] = [
+${formatItems(amenities)}
+];
 
-// Software with venues (${config.software.length} categories)
-export const AVAILABLE_SOFTWARE: CategoryItem[] = ${JSON.stringify(config.software, null, 2)};
+// Software with venues (${software.length} categories)
+export const AVAILABLE_SOFTWARE: CategoryItem[] = [
+${formatItems(software)}
+];
 
-// Launch monitors with venues (${config.launchMonitors.length} categories)
-export const AVAILABLE_LAUNCH_MONITORS: CategoryItem[] = ${JSON.stringify(config.launchMonitors, null, 2)};
+// Launch monitors with venues (${launchMonitors.length} categories)
+export const AVAILABLE_LAUNCH_MONITORS: CategoryItem[] = [
+${formatItems(launchMonitors)}
+];
+
+/** Convert any slug to URL-friendly format (underscores → hyphens) */
+function toUrlSlug(slug: string): string {
+  return slug.replace(/_/g, "-");
+}
 
 // Helper to get related links for a category (static, no DB query)
 export function getStaticRelatedLinks(
@@ -312,12 +215,12 @@ export function getStaticRelatedLinks(
   // Add vibes (if not current category)
   if (currentCategory !== "vibe") {
     for (const vibe of AVAILABLE_VIBES.slice(0, 2)) {
-      links.push({ href: \`/best/vibe/\${vibe.slug}\`, label: \`Best \${vibe.label}\`, count: vibe.count });
+      links.push({ href: \`/best/vibe/\${toUrlSlug(vibe.slug)}\`, label: \`Best \${vibe.label}\`, count: vibe.count });
     }
   } else {
     // Add other vibes excluding current
     for (const vibe of AVAILABLE_VIBES.filter(v => v.slug !== currentSlug).slice(0, 2)) {
-      links.push({ href: \`/best/vibe/\${vibe.slug}\`, label: \`Best \${vibe.label}\`, count: vibe.count });
+      links.push({ href: \`/best/vibe/\${toUrlSlug(vibe.slug)}\`, label: \`Best \${vibe.label}\`, count: vibe.count });
     }
   }
 
@@ -325,13 +228,13 @@ export function getStaticRelatedLinks(
   if (currentCategory !== "who-its-for") {
     for (const seg of AVAILABLE_SEGMENTS.slice(0, 2)) {
       if (links.length < limit) {
-        links.push({ href: \`/best/who-its-for/\${seg.slug}\`, label: \`Best for \${seg.label}\`, count: seg.count });
+        links.push({ href: \`/best/who-its-for/\${toUrlSlug(seg.slug)}\`, label: \`Best for \${seg.label}\`, count: seg.count });
       }
     }
   } else {
     for (const seg of AVAILABLE_SEGMENTS.filter(s => s.slug !== currentSlug).slice(0, 2)) {
       if (links.length < limit) {
-        links.push({ href: \`/best/who-its-for/\${seg.slug}\`, label: \`Best for \${seg.label}\`, count: seg.count });
+        links.push({ href: \`/best/who-its-for/\${toUrlSlug(seg.slug)}\`, label: \`Best for \${seg.label}\`, count: seg.count });
       }
     }
   }
@@ -340,13 +243,13 @@ export function getStaticRelatedLinks(
   if (currentCategory !== "hardware") {
     for (const hw of AVAILABLE_HARDWARE.slice(0, 2)) {
       if (links.length < limit) {
-        links.push({ href: \`/best/hardware/\${hw.slug}\`, label: \`Best \${hw.label}\`, count: hw.count });
+        links.push({ href: \`/best/hardware/\${toUrlSlug(hw.slug)}\`, label: \`Best \${hw.label}\`, count: hw.count });
       }
     }
   } else {
     for (const hw of AVAILABLE_HARDWARE.filter(h => h.slug !== currentSlug).slice(0, 2)) {
       if (links.length < limit) {
-        links.push({ href: \`/best/hardware/\${hw.slug}\`, label: \`Best \${hw.label}\`, count: hw.count });
+        links.push({ href: \`/best/hardware/\${toUrlSlug(hw.slug)}\`, label: \`Best \${hw.label}\`, count: hw.count });
       }
     }
   }
@@ -354,49 +257,25 @@ export function getStaticRelatedLinks(
   return links.slice(0, limit);
 }
 
-// Check if a category slug has venues
+// Check if a category slug has venues (matches both underscore and hyphen formats)
 export function hasVenues(category: string, slug: string): boolean {
+  const variants = [slug, slug.replace(/-/g, "_"), slug.replace(/_/g, "-")];
   switch (category) {
-    case "tags": return AVAILABLE_TAGS.some(t => t.slug === slug);
-    case "vibe": return AVAILABLE_VIBES.some(v => v.slug === slug);
-    case "who-its-for": return AVAILABLE_SEGMENTS.some(s => s.slug === slug);
-    case "hardware": return AVAILABLE_HARDWARE.some(h => h.slug === slug);
-    case "amenities": return AVAILABLE_AMENITIES.some(a => a.slug === slug);
-    case "software": return AVAILABLE_SOFTWARE.some(s => s.slug === slug);
-    case "launch-monitor": return AVAILABLE_LAUNCH_MONITORS.some(l => l.slug === slug);
+    case "tags": return AVAILABLE_TAGS.some(t => variants.includes(t.slug));
+    case "vibe": return AVAILABLE_VIBES.some(v => variants.includes(v.slug));
+    case "who-its-for": return AVAILABLE_SEGMENTS.some(s => variants.includes(s.slug));
+    case "hardware": return AVAILABLE_HARDWARE.some(h => variants.includes(h.slug));
+    case "amenities": return AVAILABLE_AMENITIES.some(a => variants.includes(a.slug));
+    case "software": return AVAILABLE_SOFTWARE.some(s => variants.includes(s.slug));
+    case "launch-monitor": return AVAILABLE_LAUNCH_MONITORS.some(l => variants.includes(l.slug));
     default: return false;
   }
 }
 `;
+
+  fs.writeFileSync(OUTPUT_PATH, output);
+  console.log(`\nWritten to ${OUTPUT_PATH}`);
+  console.log(`Total venues: ${total}`);
 }
 
-async function main() {
-  try {
-    const config = await analyzeCategories();
-
-    // Print summary
-    console.log("📈 Category Summary:");
-    console.log(`   Tags: ${config.tags.length} (${config.tags.map(t => t.slug).join(", ")})`);
-    console.log(`   Vibes: ${config.vibes.length} (${config.vibes.map(v => v.slug).join(", ")})`);
-    console.log(`   Segments: ${config.segments.length} (${config.segments.map(s => s.slug).join(", ")})`);
-    console.log(`   Hardware: ${config.hardware.length} (${config.hardware.map(h => h.slug).join(", ")})`);
-    console.log(`   Amenities: ${config.amenities.length} (${config.amenities.map(a => a.slug).join(", ")})`);
-    console.log(`   Software: ${config.software.length} (${config.software.map(s => s.slug).join(", ")})`);
-    console.log(`   Launch Monitors: ${config.launchMonitors.length} (${config.launchMonitors.map(l => l.slug).join(", ")})`);
-
-    // Generate TypeScript file
-    const tsContent = generateTypeScriptFile(config);
-    const outputPath = path.join(__dirname, "../lib/category-config.generated.ts");
-    fs.writeFileSync(outputPath, tsContent);
-
-    console.log(`\n✅ Generated: lib/category-config.generated.ts`);
-    console.log(`   Run 'npm run build' to use the new static config.\n`);
-  } catch (error) {
-    console.error("❌ Error analyzing categories:", error);
-    process.exit(1);
-  } finally {
-    await prisma.$disconnect();
-  }
-}
-
-main();
+main().catch((err) => { console.error("Fatal:", err); process.exit(1); });

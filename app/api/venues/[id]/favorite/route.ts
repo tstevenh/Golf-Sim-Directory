@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
-import { db } from "@/lib/db";
-import { auth } from "@/lib/auth";
+import { supabase } from "@/lib/supabase";
+import { getUser } from "@/lib/auth";
 
 // POST /api/venues/[id]/favorite - Toggle favorite
 export async function POST(
@@ -8,39 +8,38 @@ export async function POST(
   { params }: { params: Promise<{ id: string }> }
 ) {
   try {
-    const session = await auth();
+    const user = await getUser();
     const { id } = await params;
-    
-    if (!session?.user?.id) {
+
+    if (!user?.id) {
       return NextResponse.json(
         { error: "Unauthorized" },
         { status: 401 }
       );
     }
-    
-    const existing = await db.favorite.findUnique({
-      where: {
-        userId_venueId: {
-          userId: session.user.id,
-          venueId: id,
-        },
-      },
-    });
-    
+
+    const { data: existing } = await supabase
+      .from("favorites")
+      .select("id")
+      .eq("userId", user.id)
+      .eq("venueId", id)
+      .maybeSingle();
+
     if (existing) {
       // Remove favorite
-      await db.favorite.delete({
-        where: { id: existing.id },
-      });
+      await supabase
+        .from("favorites")
+        .delete()
+        .eq("id", existing.id);
       return NextResponse.json({ favorited: false });
     } else {
       // Add favorite
-      await db.favorite.create({
-        data: {
-          userId: session.user.id,
+      await supabase
+        .from("favorites")
+        .insert({
+          userId: user.id,
           venueId: id,
-        },
-      });
+        });
       return NextResponse.json({ favorited: true });
     }
   } catch (error) {

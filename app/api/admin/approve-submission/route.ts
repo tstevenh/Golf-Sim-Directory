@@ -1,7 +1,8 @@
 import { NextResponse } from "next/server";
-import { db } from "@/lib/db";
-import { auth } from "@/lib/auth";
-import type { VenueType, LaunchMonitorType, PricingModel, ParkingType } from "@prisma/client";
+import { supabase, supabaseAdmin } from "@/lib/supabase";
+import { getUser } from "@/lib/auth";
+import type { VenueType, LaunchMonitorType, PricingModel, ParkingType } from "@/lib/supabase";
+import type { Json } from "@/types/supabase";
 import { extractHardwareBrandsFromSimulatorSystems } from "@/lib/hardware-brands";
 import { extractSoftwareSlugsFromSubmissionData } from "@/lib/software-slugs";
 
@@ -18,8 +19,8 @@ function slugify(text: string): string {
 export async function POST(request: Request) {
   try {
     // Check auth - only admins should access this
-    const session = await auth();
-    if (!session?.user || session.user.role !== "admin") {
+    const user = await getUser();
+    if (!user || user.role !== "admin") {
       return NextResponse.json(
         { error: "Unauthorized" },
         { status: 401 }
@@ -29,9 +30,11 @@ export async function POST(request: Request) {
     const { submissionId } = await request.json();
 
     // Get the submission
-    const submission = await db.submission.findUnique({
-      where: { id: submissionId },
-    });
+    const { data: submission } = await supabase
+      .from("submissions")
+      .select("*")
+      .eq("id", submissionId)
+      .single();
 
     if (!submission) {
       return NextResponse.json(
@@ -49,7 +52,7 @@ export async function POST(request: Request) {
 
     // Parse submission data
     const data = submission.data as Record<string, unknown>;
-    const simulatorSystems = (data.simulatorSystems as object) || null;
+    const simulatorSystems = (data.simulatorSystems as Json) ?? null;
     const hardwareBrands = extractHardwareBrandsFromSimulatorSystems(simulatorSystems);
     const softwareSlugs = extractSoftwareSlugsFromSubmissionData(data);
 
@@ -58,18 +61,14 @@ export async function POST(request: Request) {
     const baseSlug = slugify(name);
 
     // Check for existing slugs with single query instead of N+1 loop
-    const existingSlugs = await db.venue.findMany({
-      where: {
-        slug: {
-          startsWith: baseSlug
-        }
-      },
-      select: { slug: true },
-    });
+    const { data: existingSlugs } = await supabase
+      .from("venues")
+      .select("slug")
+      .like("slug", `${baseSlug}%`);
 
     // Generate unique slug
     let slug = baseSlug;
-    if (existingSlugs.length > 0) {
+    if (existingSlugs && existingSlugs.length > 0) {
       const existingSlugSet = new Set(existingSlugs.map(v => v.slug));
       let counter = 1;
       while (existingSlugSet.has(`${baseSlug}-${counter}`)) {
@@ -79,8 +78,9 @@ export async function POST(request: Request) {
     }
 
     // Create the venue
-    const venue = await db.venue.create({
-      data: {
+    const { data: venue, error: venueError } = await supabase
+      .from("venues")
+      .insert({
         slug,
         name,
         brandName: (data.brandName as string) || null,
@@ -89,8 +89,6 @@ export async function POST(request: Request) {
         state: (data.state as string) || "",
         zipCode: (data.zipCode as string) || "",
         country: "US",
-        // TODO: Update schema to allow nullable coordinates (0,0 is Gulf of Guinea - not ideal default)
-        // For now using 0 as schema requires non-null Float
         latitude: 0,
         longitude: 0,
         phone: (data.phone as string) || null,
@@ -98,11 +96,11 @@ export async function POST(request: Request) {
         website: (data.website as string) || null,
         bookingUrl: (data.bookingUrl as string) || null,
         about: (data.about as string) || null,
-        venueType: (data.venueType as VenueType) || "other",
+        venueType: ((data.venueType as VenueType) || "other"),
         simulatorSystems,
         hardwareBrands,
         softwareSlugs,
-        launchMonitorType: (data.launchMonitorType as LaunchMonitorType) || "unknown",
+        launchMonitorType: ((data.launchMonitorType as LaunchMonitorType) || "unknown"),
         ballTracking: (data.ballTracking as boolean) || false,
         clubTracking: (data.clubTracking as boolean) || false,
         puttingMode: (data.puttingMode as string) || null,
@@ -111,11 +109,11 @@ export async function POST(request: Request) {
         hasPrivateRooms: (data.hasPrivateRooms as boolean) || false,
         privateRoomsCount: data.privateRoomsCount ? parseInt(data.privateRoomsCount as string) : null,
         maxGroupSizePerBay: data.maxGroupSizePerBay ? parseInt(data.maxGroupSizePerBay as string) : null,
-        pricingModel: (data.pricingModel as PricingModel) || "unknown",
+        pricingModel: ((data.pricingModel as PricingModel) || "unknown"),
         priceRangeMin: data.priceRangeMin ? parseInt(data.priceRangeMin as string) : null,
         priceRangeMax: data.priceRangeMax ? parseInt(data.priceRangeMax as string) : null,
-        foodAndDrink: data.foodAndDrink as object || null,
-        parking: (data.parking as ParkingType) || "unknown",
+        foodAndDrink: (data.foodAndDrink as Json) ?? null,
+        parking: ((data.parking as ParkingType) || "unknown"),
         wifi: (data.wifi as boolean) || false,
         kidFriendly: (data.kidFriendly as boolean) || false,
         coachingAvailable: (data.coachingAvailable as boolean) || false,
@@ -128,17 +126,44 @@ export async function POST(request: Request) {
         status: "active",
         dataSource: "owner_submitted",
         verificationLevel: "partially_verified",
-      },
-    });
+        // Assign venue to the submitter so it shows in their "Your Listings"
+        claimed: !!submission.submittedById,
+        claimedById: submission.submittedById,
+        claimedAt: submission.submittedById ? new Date().toISOString() : null,
+      })
+      .select("id, slug")
+      .single();
+
+    if (venueError) throw venueError;
 
     // Update submission status
-    await db.submission.update({
-      where: { id: submissionId },
-      data: { 
+    await supabase
+      .from("submissions")
+      .update({
         status: "approved",
         venueId: venue.id,
-      },
-    });
+      })
+      .eq("id", submissionId);
+
+    // Upgrade submitter to business_owner if they're a golfer
+    if (submission.submittedById) {
+      const { data: submitter } = await supabase
+        .from("users")
+        .select("role")
+        .eq("id", submission.submittedById)
+        .single();
+
+      if (submitter?.role === "golfer") {
+        await supabase
+          .from("users")
+          .update({ role: "business_owner" })
+          .eq("id", submission.submittedById);
+
+        await supabaseAdmin.auth.admin.updateUserById(submission.submittedById, {
+          app_metadata: { role: "business_owner" },
+        });
+      }
+    }
 
     return NextResponse.json({
       success: true,

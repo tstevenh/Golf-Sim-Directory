@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import { Venue } from "@prisma/client";
+import type { Venue } from "@/lib/supabase";
 import { Flag, Check, X, ArrowLeft } from "lucide-react";
 
 interface ReportCorrectionFormProps {

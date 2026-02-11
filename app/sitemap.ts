@@ -1,74 +1,227 @@
 import type { MetadataRoute } from "next";
-import { db } from "@/lib/db";
+import { supabase } from "@/lib/supabase";
 import { getStateSlug } from "@/lib/states";
+import {
+  AVAILABLE_TAGS,
+  AVAILABLE_VIBES,
+  AVAILABLE_SEGMENTS,
+  AVAILABLE_HARDWARE,
+  AVAILABLE_SOFTWARE,
+  AVAILABLE_AMENITIES,
+  AVAILABLE_LAUNCH_MONITORS,
+} from "@/lib/category-config.generated";
 
-export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const baseUrl = "https://golfsimmap.com";
+const BASE_URL = "https://golfsimmap.com";
+const VENUES_PER_SITEMAP = 5000;
 
-  // Static pages
-  const staticPages = [
-    { path: "", priority: 1, frequency: "daily" as const },
-    { path: "/about", priority: 0.8, frequency: "weekly" as const },
-    { path: "/contact", priority: 0.8, frequency: "weekly" as const },
-    { path: "/blog", priority: 0.8, frequency: "weekly" as const },
-    { path: "/terms", priority: 0.5, frequency: "monthly" as const },
-    { path: "/privacy", priority: 0.5, frequency: "monthly" as const },
-    { path: "/search", priority: 0.9, frequency: "weekly" as const },
-    { path: "/submit", priority: 0.8, frequency: "weekly" as const },
-    { path: "/claim", priority: 0.8, frequency: "weekly" as const },
-    { path: "/venue/us", priority: 0.9, frequency: "daily" as const },
-    { path: "/best", priority: 0.9, frequency: "weekly" as const },
+// ── Sitemap index ───────────────────────────────────────────────────────────
+// ID 0 = static + states + cities
+// ID 1 = /best/* category pages
+// ID 2+ = venue detail pages (paginated)
+
+export async function generateSitemaps() {
+  const { count } = await supabase
+    .from("venues")
+    .select("id", { count: "exact", head: true })
+    .eq("status", "active");
+
+  const venueCount = count || 0;
+  const venueSitemapCount = Math.max(1, Math.ceil(venueCount / VENUES_PER_SITEMAP));
+
+  const ids = [
+    { id: 0 }, // static + states + cities
+    { id: 1 }, // /best/* category pages
   ];
 
-  // Get all states
-  const states = await db.venue.groupBy({
-    by: ["state"],
-    where: { status: "active", country: "US" },
-  });
+  for (let i = 0; i < venueSitemapCount; i++) {
+    ids.push({ id: 2 + i }); // venue pages
+  }
 
-  // Get all cities
-  const cities = await db.venue.groupBy({
-    by: ["city", "state"],
-    where: { status: "active", country: "US" },
-  });
+  return ids;
+}
 
-  // Get all venues
-  const venues = await db.venue.findMany({
-    where: { status: "active" },
-    select: { slug: true, city: true, state: true, updatedAt: true },
-  });
+// ── Helper: fetch all venues (paginated) ────────────────────────────────────
+async function fetchAllVenues(
+  select: string,
+  offset = 0,
+  limit?: number
+) {
+  const rows: Record<string, unknown>[] = [];
+  let from = offset;
+  const pageSize = 1000;
+  const max = limit ? offset + limit : Infinity;
 
-  // Static routes
-  const staticRoutes: MetadataRoute.Sitemap = staticPages.map((page) => ({
-    url: `${baseUrl}${page.path}`,
-    lastModified: new Date(),
-    changeFrequency: page.frequency,
-    priority: page.priority,
-  }));
+  while (from < max) {
+    const to = Math.min(from + pageSize - 1, max - 1);
+    const { data: page, error } = await supabase
+      .from("venues")
+      .select(select)
+      .eq("status", "active")
+      .range(from, to);
+    if (error || !page || page.length === 0) break;
+    rows.push(...page);
+    if (page.length < pageSize) break;
+    from += pageSize;
+  }
 
-  // State routes
-  const stateRoutes: MetadataRoute.Sitemap = states.map((s) => ({
-    url: `${baseUrl}/venue/us/${getStateSlug(s.state)}`,
+  return rows;
+}
+
+// ── Sitemap generators ──────────────────────────────────────────────────────
+export default async function sitemap({
+  id,
+}: {
+  id: number;
+}): Promise<MetadataRoute.Sitemap> {
+  if (id === 0) return buildStaticSitemap();
+  if (id === 1) return buildBestSitemap();
+  return buildVenueSitemap(id - 2);
+}
+
+// ── ID 0: Static pages + states + cities ────────────────────────────────────
+async function buildStaticSitemap(): Promise<MetadataRoute.Sitemap> {
+  const staticPages: MetadataRoute.Sitemap = [
+    { url: BASE_URL, lastModified: new Date(), changeFrequency: "daily", priority: 1.0 },
+    { url: `${BASE_URL}/search`, lastModified: new Date(), changeFrequency: "weekly", priority: 0.9 },
+    { url: `${BASE_URL}/venue/us`, lastModified: new Date(), changeFrequency: "daily", priority: 0.9 },
+    { url: `${BASE_URL}/best`, lastModified: new Date(), changeFrequency: "weekly", priority: 0.9 },
+    { url: `${BASE_URL}/blog`, lastModified: new Date(), changeFrequency: "weekly", priority: 0.8 },
+    { url: `${BASE_URL}/about`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE_URL}/contact`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE_URL}/submit`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE_URL}/claim`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE_URL}/terms`, lastModified: new Date(), changeFrequency: "yearly", priority: 0.3 },
+    { url: `${BASE_URL}/privacy`, lastModified: new Date(), changeFrequency: "yearly", priority: 0.3 },
+  ];
+
+  // Fetch venues for state/city derivation
+  const venues = await fetchAllVenues("state, city, country");
+  const usVenues = venues.filter((v) => v.country === "US");
+
+  const stateSet = new Set<string>();
+  const citySet = new Set<string>();
+  for (const v of usVenues) {
+    const state = v.state as string;
+    const city = v.city as string;
+    stateSet.add(state);
+    citySet.add(`${state}|${city}`);
+  }
+
+  const stateRoutes: MetadataRoute.Sitemap = Array.from(stateSet).map((state) => ({
+    url: `${BASE_URL}/venue/us/${getStateSlug(state)}`,
     lastModified: new Date(),
     changeFrequency: "weekly",
-    priority: 0.7,
+    priority: 0.8,
   }));
 
-  // City routes
-  const cityRoutes: MetadataRoute.Sitemap = cities.map((c) => ({
-    url: `${baseUrl}/venue/us/${getStateSlug(c.state)}/${c.city.toLowerCase().replace(/\s+/g, "-")}`,
-    lastModified: new Date(),
-    changeFrequency: "weekly",
+  const cityRoutes: MetadataRoute.Sitemap = Array.from(citySet).map((key) => {
+    const [state, city] = key.split("|");
+    return {
+      url: `${BASE_URL}/venue/us/${getStateSlug(state)}/${city.toLowerCase().replace(/\s+/g, "-")}`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.7,
+    };
+  });
+
+  return [...staticPages, ...stateRoutes, ...cityRoutes];
+}
+
+// ── ID 1: /best/* category pages ────────────────────────────────────────────
+function toUrlSlug(slug: string): string {
+  return slug.replace(/_/g, "-");
+}
+
+function buildBestSitemap(): MetadataRoute.Sitemap {
+  const routes: MetadataRoute.Sitemap = [];
+  const now = new Date();
+
+  // /best/[tag]
+  for (const tag of AVAILABLE_TAGS.filter((t) => t.count > 0)) {
+    routes.push({
+      url: `${BASE_URL}/best/${toUrlSlug(tag.slug)}`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.6,
+    });
+  }
+
+  // /best/vibe/[vibe]
+  for (const vibe of AVAILABLE_VIBES.filter((v) => v.count > 0)) {
+    routes.push({
+      url: `${BASE_URL}/best/vibe/${toUrlSlug(vibe.slug)}`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.6,
+    });
+  }
+
+  // /best/who-its-for/[segment]
+  for (const seg of AVAILABLE_SEGMENTS.filter((s) => s.count > 0)) {
+    routes.push({
+      url: `${BASE_URL}/best/who-its-for/${toUrlSlug(seg.slug)}`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.6,
+    });
+  }
+
+  // /best/hardware/[brand]
+  for (const hw of AVAILABLE_HARDWARE.filter((h) => h.count > 0)) {
+    routes.push({
+      url: `${BASE_URL}/best/hardware/${toUrlSlug(hw.slug)}`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.6,
+    });
+  }
+
+  // /best/software/[software]
+  for (const sw of AVAILABLE_SOFTWARE.filter((s) => s.count > 0)) {
+    routes.push({
+      url: `${BASE_URL}/best/software/${toUrlSlug(sw.slug)}`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.6,
+    });
+  }
+
+  // /best/amenities/[amenity]
+  for (const am of AVAILABLE_AMENITIES.filter((a) => a.count > 0)) {
+    routes.push({
+      url: `${BASE_URL}/best/amenities/${toUrlSlug(am.slug)}`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.6,
+    });
+  }
+
+  // /best/launch-monitor/[type]
+  for (const lm of AVAILABLE_LAUNCH_MONITORS.filter((l) => l.count > 0)) {
+    routes.push({
+      url: `${BASE_URL}/best/launch-monitor/${toUrlSlug(lm.slug)}`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.6,
+    });
+  }
+
+  return routes;
+}
+
+// ── ID 2+: Venue detail pages (paginated) ───────────────────────────────────
+async function buildVenueSitemap(page: number): Promise<MetadataRoute.Sitemap> {
+  const offset = page * VENUES_PER_SITEMAP;
+  const venues = await fetchAllVenues(
+    "slug, city, state, updatedAt",
+    offset,
+    VENUES_PER_SITEMAP
+  );
+
+  return venues.map((v) => ({
+    url: `${BASE_URL}/venue/us/${getStateSlug(v.state as string)}/${(v.city as string).toLowerCase().replace(/\s+/g, "-")}/${v.slug}`,
+    lastModified: v.updatedAt as string,
+    changeFrequency: "weekly" as const,
     priority: 0.6,
   }));
-
-  // Venue routes
-  const venueRoutes: MetadataRoute.Sitemap = venues.map((v) => ({
-    url: `${baseUrl}/venue/us/${getStateSlug(v.state)}/${v.city.toLowerCase().replace(/\s+/g, "-")}/${v.slug}`,
-    lastModified: v.updatedAt,
-    changeFrequency: "weekly",
-    priority: 0.5,
-  }));
-
-  return [...staticRoutes, ...stateRoutes, ...cityRoutes, ...venueRoutes];
 }

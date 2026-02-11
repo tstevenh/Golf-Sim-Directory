@@ -1,10 +1,10 @@
 import { Metadata } from "next";
-import { Prisma } from "@prisma/client";
-import { db, venueCardSelect } from "@/lib/db";
+import { supabase, VENUE_CARD_FIELDS } from "@/lib/supabase";
+import type { VenueListItem } from "@/types";
 import { BestByPageContent } from "@/components/seo/BestByPageContent";
 import { getStateDisplayName, getStateAbbrevFromName } from "@/lib/states";
 import { getStaticRelatedLinks } from "@/lib/category-config.generated";
-import { extractSoftwareSlugsFromComprehensiveData, normalizeSoftwareSlug } from "@/lib/software-slugs";
+import { normalizeSoftwareSlug } from "@/lib/software-slugs";
 
 interface CityBestSoftwarePageProps {
   params: Promise<{ state: string; city: string; software: string }>;
@@ -12,7 +12,6 @@ interface CityBestSoftwarePageProps {
 }
 
 export const revalidate = 86400;
-type VenueCardRow = Prisma.VenueGetPayload<{ select: typeof venueCardSelect }>;
 
 // Software-specific content with unique copy
 const softwareContent: Record<string, { tagline: string; shortDesc: string; longDesc: string }> = {
@@ -72,7 +71,7 @@ export async function generateMetadata({ params }: CityBestSoftwarePageProps): P
   const content = softwareContent[software.toLowerCase()] || { shortDesc: "this simulation software" };
 
   return {
-    title: `${softwareLabel} Golf Simulators in ${cityFormatted}, ${stateName} `,
+    title: `${softwareLabel} Golf Simulators in ${cityFormatted}, ${stateAbbrev}`,
     description: `Find golf simulator venues running ${content.shortDesc} in ${cityFormatted}. Compare courses, features, and book your session.`,
     alternates: {
       canonical: `https://golfsimmap.com/venue/us/${state}/${city}/best/software/${software}`,
@@ -97,7 +96,6 @@ export default async function CityBestSoftwarePage({ params, searchParams }: Cit
   const softwareKey = software.toLowerCase();
   const softwareSlug = normalizeSoftwareSlug(softwareKey);
   const skip = (page - 1) * pageSize;
-  const canUseArrayFilters = typeof (db as unknown as { $queryRaw?: unknown }).$queryRaw === "function";
 
   const content = softwareContent[softwareKey] || {
     tagline: `${softwareLabel} Software`,
@@ -106,69 +104,40 @@ export default async function CityBestSoftwarePage({ params, searchParams }: Cit
   };
 
   let totalVenues = 0;
-  let venues: VenueCardRow[] = [];
-  let nearbyCitiesResult: Array<{ city: string }> = [];
+  let venues: VenueListItem[] = [];
+  let nearbyCitiesResult: { city: string }[] = [];
 
-  if (!softwareSlug) {
-    totalVenues = 0;
-    venues = [];
-    nearbyCitiesResult = [];
-  } else if (canUseArrayFilters) {
-    const cityWhere = {
-      city: { equals: cityFormatted, mode: "insensitive" as const },
-      state: stateAbbrev.toUpperCase(),
-      country: "US" as const,
-      status: "active" as const,
-      softwareSlugs: { has: softwareSlug },
-    };
-    [totalVenues, venues, nearbyCitiesResult] = await Promise.all([
-      db.venue.count({ where: cityWhere }),
-      db.venue.findMany({
-        where: cityWhere,
-        orderBy: [{ featured: "desc" }, { ratingOverall: "desc" }, { name: "asc" }],
-        select: venueCardSelect,
-        take: pageSize,
-        skip,
-      }),
-      db.venue.findMany({
-        where: {
-          state: stateAbbrev.toUpperCase(),
-          country: "US",
-          status: "active",
-          softwareSlugs: { has: softwareSlug },
-          NOT: { city: { equals: cityFormatted, mode: "insensitive" } },
-        },
-        select: { city: true },
-        distinct: ["city"],
-        take: 6,
+  if (softwareSlug) {
+    const [{ count: totalVenuesRaw }, { data: venueRows }, { data: nearbyCitiesRaw }] = await Promise.all([
+      supabase
+        .from("venues")
+        .select("*", { count: "exact", head: true })
+        .ilike("city", cityFormatted)
+        .eq("state", stateAbbrev.toUpperCase())
+        .eq("country", "US")
+        .eq("status", "active")
+        .contains("softwareSlugs", [softwareSlug]),
+      supabase
+        .from("venues")
+        .select(VENUE_CARD_FIELDS)
+        .ilike("city", cityFormatted)
+        .eq("state", stateAbbrev.toUpperCase())
+        .eq("country", "US")
+        .eq("status", "active")
+        .contains("softwareSlugs", [softwareSlug])
+        .order("featured", { ascending: false })
+        .order("ratingOverall", { ascending: false, nullsFirst: false })
+        .order("name", { ascending: true })
+        .range(skip, skip + pageSize - 1),
+      supabase.rpc("get_nearby_cities", {
+        target_state: stateAbbrev.toUpperCase(),
+        exclude_city: cityFormatted,
+        limit_count: 6,
       }),
     ]);
-  } else {
-    const allVenues = await db.venue.findMany({
-      where: {
-        state: stateAbbrev.toUpperCase(),
-        country: "US",
-        status: "active",
-      },
-      orderBy: [{ featured: "desc" }, { ratingOverall: "desc" }, { name: "asc" }],
-      select: { ...venueCardSelect, softwareSlugs: true, comprehensiveData: true },
-    });
-
-    const matchingVenues = allVenues.filter((venue) => {
-      if ((venue.softwareSlugs || []).includes(softwareSlug)) return true;
-      return extractSoftwareSlugsFromComprehensiveData(venue.comprehensiveData).includes(softwareSlug);
-    });
-    const cityMatches = matchingVenues.filter((venue) => venue.city.toLowerCase() === cityFormatted.toLowerCase());
-    totalVenues = cityMatches.length;
-    venues = cityMatches.slice(skip, skip + pageSize) as VenueCardRow[];
-
-    const nearbyCitySet = new Set<string>();
-    for (const venue of matchingVenues) {
-      if (venue.city.toLowerCase() !== cityFormatted.toLowerCase() && nearbyCitySet.size < 6) {
-        nearbyCitySet.add(venue.city);
-      }
-    }
-    nearbyCitiesResult = Array.from(nearbyCitySet).map((cityName) => ({ city: cityName }));
+    totalVenues = totalVenuesRaw ?? 0;
+    venues = venueRows || [];
+    nearbyCitiesResult = (nearbyCitiesRaw || []) as { city: string }[];
   }
 
   const nearbyLinks = nearbyCitiesResult.map((cityEntry) => ({

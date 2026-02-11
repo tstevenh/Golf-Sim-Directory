@@ -1,8 +1,7 @@
 import { Metadata } from "next";
-import { Prisma } from "@prisma/client";
-import { db, venueCardSelect } from "@/lib/db";
+import { supabase, VENUE_CARD_FIELDS } from "@/lib/supabase";
+import type { VenueListItem } from "@/types";
 import { BestByPageContent } from "@/components/seo/BestByPageContent";
-import { matchesAmenity } from "@/lib/best-by";
 import { getStaticRelatedLinks } from "@/lib/category-config.generated";
 
 interface BestAmenityPageProps {
@@ -11,7 +10,6 @@ interface BestAmenityPageProps {
 }
 
 export const revalidate = 86400;
-type VenueCardRow = Prisma.VenueGetPayload<{ select: typeof venueCardSelect }>;
 
 // Pre-render all amenity pages at build time
 export async function generateStaticParams() {
@@ -88,18 +86,18 @@ const amenityContent: Record<string, { tagline: string; description: string }> =
 
 export async function generateMetadata({ params }: BestAmenityPageProps): Promise<Metadata> {
   const { amenity } = await params;
-  const label = amenity.replace(/_/g, " ").replace(/-/g, " ");
+  const label = amenity.replace(/_/g, " ").replace(/-/g, " ").replace(/\b\w/g, l => l.toUpperCase());
   const content = amenityContent[amenity.toLowerCase()] || { tagline: "", description: "" };
-  
+
   return {
-    title: `Golf Simulators with ${label} — Top-Rated Venues`,
-    description: content.description || `Find venues offering ${label}. Compare hardware, booking options, and vibes.`,
+    title: `Golf Simulators with ${label} — Top Rated Venues Near You`,
+    description: content.description || `Find venues offering ${label.toLowerCase()}. Compare hardware, booking options, and vibes.`,
     alternates: {
       canonical: `https://golfsimmap.com/best/amenities/${amenity}`,
     },
     openGraph: {
-      title: `Best Golf Simulators with ${label}`,
-      description: content.description || `Find venues offering ${label}.`,
+      title: `Golf Simulators with ${label} — Top Rated Venues Near You`,
+      description: content.description || `Find venues offering ${label.toLowerCase()}.`,
       type: "website",
       url: `https://golfsimmap.com/best/amenities/${amenity}`,
     },
@@ -114,81 +112,70 @@ export default async function BestAmenityPage({ params, searchParams }: BestAmen
   const label = amenity.replace(/_/g, " ").replace(/-/g, " ").replace(/\b\w/g, l => l.toUpperCase());
   const amenityKey = amenity.toLowerCase();
   const skip = (page - 1) * pageSize;
-  const canRawQuery = typeof (db as unknown as { $queryRaw?: unknown }).$queryRaw === "function";
-
   const normalizedAmenity = amenityKey.replace(/-/g, "_");
-  const amenityWhereMap: Record<string, Record<string, unknown>> = {
-    private_rooms: { hasPrivateRooms: true },
-    coaching_available: { coachingAvailable: true },
-    wifi: { wifi: true },
-    free_parking: { parking: "free_lot" },
-    valet_parking: { parking: "valet" },
-    lessons: { coachingAvailable: true },
+
+  // Map amenity slugs to Supabase column filters
+  const amenityFilterMap: Record<string, (q: any) => any> = {
+    private_rooms: (q) => q.eq("hasPrivateRooms", true),
+    coaching_available: (q) => q.eq("coachingAvailable", true),
+    lessons: (q) => q.eq("coachingAvailable", true),
+    wifi: (q) => q.eq("wifi", true),
+    free_parking: (q) => q.eq("parking", "free_lot"),
+    valet_parking: (q) => q.eq("parking", "valet"),
   };
 
   let totalVenues = 0;
-  let venues: VenueCardRow[] = [];
+  let venues: VenueListItem[] = [];
 
-  if (amenityWhereMap[normalizedAmenity]) {
-    const where = {
-      status: "active" as const,
-      ...amenityWhereMap[normalizedAmenity],
-    };
-    [totalVenues, venues] = await Promise.all([
-      db.venue.count({ where }),
-      db.venue.findMany({
-        where,
-        orderBy: [{ featured: "desc" }, { ratingOverall: "desc" }, { name: "asc" }],
-        select: venueCardSelect,
-        take: pageSize,
-        skip,
-      }),
+  if (amenityFilterMap[normalizedAmenity]) {
+    const applyFilter = amenityFilterMap[normalizedAmenity];
+    const [{ count }, { data: venueRows }] = await Promise.all([
+      applyFilter(
+        supabase.from("venues").select("*", { count: "exact", head: true }).eq("status", "active")
+      ),
+      applyFilter(
+        supabase
+          .from("venues")
+          .select(VENUE_CARD_FIELDS)
+          .eq("status", "active")
+      )
+        .order("featured", { ascending: false })
+        .order("ratingOverall", { ascending: false, nullsFirst: false })
+        .order("name", { ascending: true })
+        .range(skip, skip + pageSize - 1),
     ]);
-  } else if (canRawQuery && (normalizedAmenity === "full_bar" || normalizedAmenity === "kitchen_food")) {
-    const rows =
-      normalizedAmenity === "full_bar"
-        ? await db.$queryRaw<{ id: string }[]>`
-            SELECT v.id
-            FROM "venues" v
-            WHERE v."status" = 'active'
-              AND (
-                lower(COALESCE(v."foodAndDrink"->>'alcohol', 'false')) = 'true'
-                OR lower(COALESCE(v."foodAndDrink"->>'hasBar', 'false')) = 'true'
-              )
-          `
-        : await db.$queryRaw<{ id: string }[]>`
-            SELECT v.id
-            FROM "venues" v
-            WHERE v."status" = 'active'
-              AND (
-                lower(COALESCE(v."foodAndDrink"->>'food', 'false')) = 'true'
-                OR lower(COALESCE(v."foodAndDrink"->>'hasFood', 'false')) = 'true'
-              )
-          `;
-    const ids = rows.map((row) => row.id);
+    totalVenues = count ?? 0;
+    venues = venueRows || [];
+  } else if (normalizedAmenity === "full_bar" || normalizedAmenity === "kitchen_food") {
+    // Use RPC for JSON field filtering
+    const requireFood = normalizedAmenity === "kitchen_food";
+    const requireAlcohol = normalizedAmenity === "full_bar";
+    const { data: idRows } = await supabase.rpc("get_venue_ids_with_food_drink", {
+      require_food: requireFood,
+      require_alcohol: requireAlcohol,
+    });
+    const ids = (idRows || []).map((row: { id: string }) => row.id);
 
     if (ids.length > 0) {
-      const where = { status: "active" as const, id: { in: ids } };
-      [totalVenues, venues] = await Promise.all([
-        db.venue.count({ where }),
-        db.venue.findMany({
-          where,
-          orderBy: [{ featured: "desc" }, { ratingOverall: "desc" }, { name: "asc" }],
-          select: venueCardSelect,
-          take: pageSize,
-          skip,
-        }),
+      const [{ count }, { data: venueRows }] = await Promise.all([
+        supabase
+          .from("venues")
+          .select("*", { count: "exact", head: true })
+          .eq("status", "active")
+          .in("id", ids),
+        supabase
+          .from("venues")
+          .select(VENUE_CARD_FIELDS)
+          .eq("status", "active")
+          .in("id", ids)
+          .order("featured", { ascending: false })
+          .order("ratingOverall", { ascending: false, nullsFirst: false })
+          .order("name", { ascending: true })
+          .range(skip, skip + pageSize - 1),
       ]);
+      totalVenues = count ?? 0;
+      venues = venueRows || [];
     }
-  } else {
-    const allVenues = await db.venue.findMany({
-      where: { status: "active" },
-      orderBy: [{ featured: "desc" }, { ratingOverall: "desc" }, { name: "asc" }],
-      select: venueCardSelect,
-    });
-    const filteredVenues = allVenues.filter((venue) => matchesAmenity(venue, amenity));
-    totalVenues = filteredVenues.length;
-    venues = filteredVenues.slice(skip, skip + pageSize);
   }
 
   const content = amenityContent[amenityKey] || {

@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import { db, venueCardSelect } from "@/lib/db";
+import { supabase, VENUE_CARD_FIELDS } from "@/lib/supabase";
 import { BestByPageContent } from "@/components/seo/BestByPageContent";
 import { getStateDisplayName, getStateAbbrevFromName } from "@/lib/states";
 import { getStaticRelatedLinks } from "@/lib/category-config.generated";
@@ -56,7 +56,7 @@ export async function generateMetadata({ params }: CityBestVibePageProps): Promi
   const vibeDesc = vibeDescriptions[vibe.toLowerCase()] || { tagline: "", description: "" };
 
   return {
-    title: `Best ${vibeLabel} Golf Simulators in ${cityFormatted}, ${stateName} `,
+    title: `Best ${vibeLabel} Golf Simulators in ${cityFormatted}, ${stateAbbrev}`,
     description: vibeDesc.description || `Find ${vibeLabel} vibe golf simulator venues in ${cityFormatted}, ${stateName}. Compare atmosphere, amenities, and booking options.`,
     alternates: {
       canonical: `https://golfsimmap.com/venue/us/${state}/${city}/best/vibe/${vibe}`,
@@ -83,35 +83,36 @@ export default async function CityBestVibePage({ params, searchParams }: CityBes
   const vibeVariants = Array.from(new Set([vibe, vibe.replace(/-/g, "_"), vibe.replace(/_/g, "-")]));
   const skip = (page - 1) * pageSize;
 
-  const where = {
-    city: { equals: cityFormatted, mode: "insensitive" as const },
-    state: stateAbbrev.toUpperCase(),
-    country: "US" as const,
-    status: "active" as const,
-    vibeTags: { hasSome: vibeVariants },
-  };
-
-  const [totalVenues, venues, nearbyCitiesResult] = await Promise.all([
-    db.venue.count({ where }),
-    db.venue.findMany({
-      where,
-      orderBy: [{ featured: "desc" }, { ratingOverall: "desc" }, { name: "asc" }],
-      select: venueCardSelect,
-      take: pageSize,
-      skip,
-    }),
-    db.venue.findMany({
-      where: {
-        state: stateAbbrev.toUpperCase(),
-        country: "US",
-        status: "active",
-        NOT: { city: { equals: cityFormatted, mode: "insensitive" } },
-      },
-      select: { city: true },
-      distinct: ["city"],
-      take: 6,
+  const [{ count: totalVenuesRaw }, { data: venueRows }, { data: nearbyCitiesRaw }] = await Promise.all([
+    supabase
+      .from("venues")
+      .select("*", { count: "exact", head: true })
+      .ilike("city", cityFormatted)
+      .eq("state", stateAbbrev.toUpperCase())
+      .eq("country", "US")
+      .eq("status", "active")
+      .overlaps("vibeTags", vibeVariants),
+    supabase
+      .from("venues")
+      .select(VENUE_CARD_FIELDS)
+      .ilike("city", cityFormatted)
+      .eq("state", stateAbbrev.toUpperCase())
+      .eq("country", "US")
+      .eq("status", "active")
+      .overlaps("vibeTags", vibeVariants)
+      .order("featured", { ascending: false })
+      .order("ratingOverall", { ascending: false, nullsFirst: false })
+      .order("name", { ascending: true })
+      .range(skip, skip + pageSize - 1),
+    supabase.rpc("get_nearby_cities", {
+      target_state: stateAbbrev.toUpperCase(),
+      exclude_city: cityFormatted,
+      limit_count: 6,
     }),
   ]);
+  const totalVenues = totalVenuesRaw ?? 0;
+  const venues = venueRows || [];
+  const nearbyCitiesResult = (nearbyCitiesRaw || []) as { city: string }[];
 
   const vibeDesc = vibeDescriptions[vibeKey] || {
     tagline: `${vibeLabel} Atmosphere`,

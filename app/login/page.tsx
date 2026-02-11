@@ -2,7 +2,7 @@
 
 import { Suspense } from "react";
 import { useState } from "react";
-import { signIn } from "next-auth/react";
+import { createClient } from "@/lib/supabase/client";
 import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 import { Mail, Lock, ArrowRight } from "lucide-react";
@@ -21,14 +21,13 @@ function LoginForm() {
     setError("");
 
     try {
-      const result = await signIn("credentials", {
+      const supabase = createClient();
+      const { error: authError } = await supabase.auth.signInWithPassword({
         email,
         password,
-        redirect: false,
-        callbackUrl,
       });
 
-      if (result?.error) {
+      if (authError) {
         setError("Invalid email or password");
       } else {
         window.location.href = callbackUrl;

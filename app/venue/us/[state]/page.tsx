@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 import Link from "next/link";
-import { db, venueCardSelect } from "@/lib/db";
+import { supabase, VENUE_CARD_FIELDS } from "@/lib/supabase";
 import { Building2, MapPin } from "lucide-react";
 import { CityCard } from "@/components/location/LocationCards";
 import { VenueCard } from "@/components/venue/VenueCard";
@@ -26,15 +26,22 @@ export async function generateMetadata({ params }: StatePageProps): Promise<Meta
     const stateAbbrev = getStateAbbrevFromName(state) || state.toUpperCase();
     const stateName = getStateDisplayName(stateAbbrev);
 
+    const { count } = await supabase
+      .from("venues")
+      .select("*", { count: "exact", head: true })
+      .eq("state", stateAbbrev.toUpperCase())
+      .eq("status", "active");
+    const venueCount = count || 0;
+
     return {
-      title: `Indoor Golf Simulators in ${stateName}`,
-      description: `Browse golf simulator venues across ${stateName}. Compare launch monitors, pricing, vibes, and amenities. Find your nearest indoor golf spot.`,
+      title: `${venueCount} Indoor Golf Simulators in ${stateName} | GolfSimMap`,
+      description: `Find the best indoor golf simulators in ${stateName}. Compare ${venueCount} venues by launch monitor, pricing, and vibe. Book your session today.`,
       alternates: {
         canonical: `https://golfsimmap.com/venue/us/${state}`,
       },
       openGraph: {
-        title: `Indoor Golf Simulators in ${stateName}`,
-        description: `Browse golf simulator venues across ${stateName}. Compare launch monitors, pricing, and book online.`,
+        title: `${venueCount} Indoor Golf Simulators in ${stateName} | GolfSimMap`,
+        description: `Find the best indoor golf simulators in ${stateName}. Compare ${venueCount} venues by launch monitor, pricing, and vibe. Book your session today.`,
         type: "website",
         url: `https://golfsimmap.com/venue/us/${state}`,
       },
@@ -62,33 +69,29 @@ async function fetchStateData(state: string) {
   const stateAbbrev = getStateAbbrevFromName(state) || state.toUpperCase();
   const stateName = getStateDisplayName(stateAbbrev);
 
-  const [citiesResult, featuredVenues] = await Promise.all([
-    db.venue.groupBy({
-      by: ["city"],
-      where: {
-        state: stateAbbrev.toUpperCase(),
-        country: "US",
-        status: "active",
-      },
-      _count: { id: true },
-    }),
-    db.venue.findMany({
-      where: {
-        state: stateAbbrev.toUpperCase(),
-        country: "US",
-        status: "active",
-        featured: true,
-      },
-      orderBy: { ratingOverall: "desc" },
-      select: venueCardSelect,
-    }),
+  const [{ data: citiesRaw }, { data: featuredVenues }] = await Promise.all([
+    supabase.rpc("get_cities_in_state", { target_state: stateAbbrev.toUpperCase() }),
+    supabase
+      .from("venues")
+      .select(VENUE_CARD_FIELDS)
+      .eq("state", stateAbbrev.toUpperCase())
+      .eq("country", "US")
+      .eq("status", "active")
+      .eq("featured", true)
+      .order("ratingOverall", { ascending: false, nullsFirst: false }),
   ]);
+
+  // Map to match existing format
+  const citiesResult = (citiesRaw || []).map((c: { city: string; count: number }) => ({
+    city: c.city,
+    _count: { id: Number(c.count) },
+  }));
 
   return {
     stateAbbrev,
     stateName,
     citiesResult,
-    featuredVenues,
+    featuredVenues: featuredVenues || [],
   };
 }
 
@@ -146,17 +149,17 @@ export default async function StatePage({ params }: StatePageProps) {
     // Global vibe categories
     ...VIBE_CATEGORIES.slice(0, 2).map((v) => ({
       label: `Best ${v.label}`,
-      href: `/best/vibe/${v.slug}`,
+      href: `/best/vibe/${v.slug.replace(/_/g, "-")}`,
     })),
-    // Segment categories  
+    // Segment categories
     ...SEGMENT_CATEGORIES.slice(0, 2).map((s) => ({
       label: `Best for ${s.label}`,
-      href: `/best/who-its-for/${s.slug}`,
+      href: `/best/who-its-for/${s.slug.replace(/_/g, "-")}`,
     })),
     // Hardware categories
     ...HARDWARE_CATEGORIES.slice(0, 2).map((h) => ({
       label: `Best ${h.label}`,
-      href: `/best/hardware/${h.slug}`,
+      href: `/best/hardware/${h.slug.replace(/_/g, "-")}`,
     })),
     // Launch monitor guide
     { label: "Launch monitor guide", href: "/launch-monitors" },

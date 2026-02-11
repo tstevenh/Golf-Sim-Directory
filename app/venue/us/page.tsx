@@ -1,23 +1,24 @@
 import { Metadata } from "next";
 import Link from "next/link";
-import { db } from "@/lib/db";
-import { TrendingUp, Monitor, Sparkles, Users, Coffee, Radar } from "lucide-react";
+import { supabase } from "@/lib/supabase";
+import { TrendingUp, Monitor, Sparkles, Users, Coffee, Radar, Tag, Laptop } from "lucide-react";
 import { StateCard } from "@/components/location/LocationCards";
 import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
 import { SeoIndexSections } from "@/components/seo/SeoIndexSections";
 import { getStateDisplayName } from "@/lib/states";
+import { StatesSortWrapper } from "./StatesSortWrapper";
 
 export const revalidate = 86400;
 
 export const metadata: Metadata = {
-  title: "Golf Simulators in Every US State — Browse by City",
-  description: "Find indoor golf simulators in your state. Browse 270+ venues across the US by city, launch monitor, vibe, and amenities. Compare pricing and book online.",
+  title: "Indoor Golf Simulators in All 50 States | GolfSimMap",
+  description: "Browse 3,000+ indoor golf simulator venues across every US state. Compare pricing, launch monitors, and amenities. Find your nearest spot and book online.",
   alternates: {
     canonical: "https://golfsimmap.com/venue/us",
   },
   openGraph: {
-    title: "Golf Simulators in Every US State — Browse by City",
-    description: "Find indoor golf simulators in your state. Browse 270+ venues across the US by city, launch monitor, vibe, and amenities.",
+    title: "Indoor Golf Simulators in All 50 States | GolfSimMap",
+    description: "Browse 3,000+ indoor golf simulator venues across every US state. Compare pricing, launch monitors, and amenities. Find your nearest spot and book online.",
     type: "website",
     url: "https://golfsimmap.com/venue/us",
   },
@@ -27,16 +28,16 @@ export default async function StatesIndexPage() {
   // Get all states with venue counts
   let statesWithVenues: { state: string; _count: { id: number } }[] = [];
   let totalVenues = 0;
-  
+
   try {
-    const result = await db.venue.groupBy({
-      by: ["state"],
-      where: { status: "active", country: "US" },
-      _count: { id: true },
-    });
-    // Sort by venue count descending
-    statesWithVenues = result.sort((a, b) => b._count.id - a._count.id);
-    totalVenues = statesWithVenues.reduce((sum, s) => sum + s._count.id, 0);
+    const { data: statesResult } = await supabase.rpc("get_state_venue_counts");
+    if (statesResult) {
+      statesWithVenues = statesResult.map((s: { state: string; count: number }) => ({
+        state: s.state,
+        _count: { id: Number(s.count) },
+      }));
+      totalVenues = statesWithVenues.reduce((sum, s) => sum + s._count.id, 0);
+    }
   } catch {
     // Return empty if DB unavailable during build
   }
@@ -142,10 +143,32 @@ export default async function StatesIndexPage() {
       description: "Choose your tracking technology",
       links: [
         { label: "Radar Systems", href: "/best/launch-monitor/radar" },
-        { label: "Camera Systems", href: "/best/launch-monitor/photometric_camera" },
+        { label: "Camera Systems", href: "/best/launch-monitor/photometric-camera" },
         { label: "Hybrid Systems", href: "/best/launch-monitor/hybrid" },
       ],
       viewAll: { label: "All launch monitors", href: "/best/launch-monitor" },
+    },
+    {
+      icon: Tag,
+      title: "Best For",
+      description: "Venues tailored to specific needs",
+      links: [
+        { label: "Serious Practice", href: "/best/serious-practice" },
+        { label: "Beginners", href: "/best/beginners" },
+        { label: "League Play", href: "/best/league-play" },
+      ],
+      viewAll: { label: "All categories", href: "/best" },
+    },
+    {
+      icon: Laptop,
+      title: "By Software",
+      description: "Golf simulation platforms",
+      links: [
+        { label: "GSPro", href: "/best/software/gspro" },
+        { label: "TGC 2019", href: "/best/software/tgc-2019" },
+        { label: "E6 Connect", href: "/best/software/e6-connect" },
+      ],
+      viewAll: { label: "All software", href: "/best/software" },
     },
   ];
 
@@ -217,7 +240,7 @@ export default async function StatesIndexPage() {
         </div>
 
         {/* Quick Category Navigation */}
-        <div className="mb-12 grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4">
+        <div className="mb-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-7 gap-4">
           {categoryCards.map((card) => {
             const Icon = card.icon;
             return (
@@ -250,37 +273,8 @@ export default async function StatesIndexPage() {
           })}
         </div>
 
-        {/* States Grid */}
-        <section className="mb-12">
-          <h2 className="text-cream text-xl mb-6 flex items-center gap-2">
-            <span className="w-1 h-6 bg-masters-green rounded-full" />
-            Browse All States
-          </h2>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
-            {statesWithVenues.map((stateData) => {
-              const stateCode = stateData.state;
-              const stateName = getStateDisplayName(stateCode);
-              const stateSlug = stateName.toLowerCase().replace(/\s+/g, "-");
-              
-              return (
-                <StateCard
-                  key={stateCode}
-                  stateCode={stateCode}
-                  stateName={stateName}
-                  venueCount={stateData._count.id}
-                  href={`/venue/us/${stateSlug}`}
-                />
-              );
-            })}
-          </div>
-
-          {/* Empty state */}
-          {statesWithVenues.length === 0 && (
-            <div className="text-center py-16 border border-default rounded-lg">
-              <p className="text-muted">No venues found. Check back soon!</p>
-            </div>
-          )}
-        </section>
+        {/* States Grid with Sort */}
+        <StatesSortWrapper statesWithVenues={statesWithVenues} />
 
         {/* SEO Content Sections */}
         <SeoIndexSections

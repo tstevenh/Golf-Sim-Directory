@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
-import { db } from "@/lib/db";
-import { auth } from "@/lib/auth";
+import { supabase } from "@/lib/supabase";
+import { getUser } from "@/lib/auth";
 
 // PATCH /api/venues/[id]/update - Update venue (owner or admin only)
 export async function PATCH(
@@ -8,16 +8,18 @@ export async function PATCH(
   { params }: { params: Promise<{ id: string }> }
 ) {
   try {
-    const session = await auth();
+    const user = await getUser();
     const { id } = await params;
 
-    if (!session?.user?.id) {
+    if (!user?.id) {
       return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
     }
 
-    const venue = await db.venue.findUnique({
-      where: { id },
-    });
+    const { data: venue } = await supabase
+      .from("venues")
+      .select("id, claimedById")
+      .eq("id", id)
+      .single();
 
     if (!venue) {
       return NextResponse.json({ error: "Venue not found" }, { status: 404 });
@@ -25,8 +27,8 @@ export async function PATCH(
 
     // Check if user owns this venue or is admin
     if (
-      venue.claimedById !== session.user.id &&
-      session.user.role !== "admin"
+      venue.claimedById !== user.id &&
+      user.role !== "admin"
     ) {
       return NextResponse.json(
         { error: "You don't have permission to edit this venue" },
@@ -37,9 +39,9 @@ export async function PATCH(
     const body = await request.json();
 
     // Update venue (excluding ratings which cannot be edited)
-    const updatedVenue = await db.venue.update({
-      where: { id },
-      data: {
+    const { data: updatedVenue, error } = await supabase
+      .from("venues")
+      .update({
         // Basic
         name: body.name,
         brandName: body.brandName,
@@ -93,9 +95,13 @@ export async function PATCH(
         metaTitle: body.metaTitle,
         metaDescription: body.metaDescription,
 
-        updatedAt: new Date(),
-      },
-    });
+        updatedAt: new Date().toISOString(),
+      })
+      .eq("id", id)
+      .select()
+      .single();
+
+    if (error) throw error;
 
     return NextResponse.json({
       success: true,

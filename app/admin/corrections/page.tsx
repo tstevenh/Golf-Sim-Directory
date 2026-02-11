@@ -1,6 +1,5 @@
-import { auth } from "@/lib/auth";
-import { db } from "@/lib/db";
-import { redirect } from "next/navigation";
+import { requireAdmin } from "@/lib/auth";
+import { supabase } from "@/lib/supabase";
 import { ReviewCorrectionButton } from "./ReviewCorrectionButton";
 import { ArrowLeft } from "lucide-react";
 import Link from "next/link";
@@ -10,34 +9,15 @@ export const metadata = {
 };
 
 export default async function AdminCorrectionsPage() {
-  const session = await auth();
+  await requireAdmin();
 
-  if (!session?.user?.id || session.user.role !== "admin") {
-    redirect("/");
-  }
+  const { data: corrections } = await supabase
+    .from("correction_reports")
+    .select("*, venue:venues!venueId(id, name, city, state, slug), reportedBy:users!reportedById(id, name, email)")
+    .eq("status", "pending")
+    .order("createdAt", { ascending: false });
 
-  const corrections = await db.correctionReport.findMany({
-    where: { status: "pending" },
-    include: {
-      venue: {
-        select: {
-          id: true,
-          name: true,
-          city: true,
-          state: true,
-          slug: true,
-        },
-      },
-      reportedBy: {
-        select: {
-          id: true,
-          name: true,
-          email: true,
-        },
-      },
-    },
-    orderBy: { createdAt: "desc" },
-  });
+  if (!corrections) return null;
 
   return (
     <div className="min-h-screen bg-deep-black py-12">

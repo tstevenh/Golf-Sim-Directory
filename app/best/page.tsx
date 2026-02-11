@@ -31,13 +31,13 @@ import {
 export const dynamic = "force-static";
 
 export const metadata: Metadata = {
-  title: "Best Golf Simulators by Category — Vibe, Tech, Amenities",
+  title: "Best Golf Simulators by Category — Vibe, Tech, Amenities | GolfSimMap",
   description: "Find your perfect golf simulator venue. Browse by vibe, launch monitor tech, amenities, software, or occasion. Compare hundreds of venues across the US.",
   alternates: {
     canonical: "https://golfsimmap.com/best",
   },
   openGraph: {
-    title: "Best Golf Simulators by Category — Vibe, Tech, Amenities",
+    title: "Best Golf Simulators by Category — Vibe, Tech, Amenities | GolfSimMap",
     description: "Find your perfect golf simulator venue. Browse by vibe, launch monitor tech, amenities, software, or occasion.",
     type: "website",
     url: "https://golfsimmap.com/best",
@@ -69,6 +69,11 @@ const breadcrumbItems = [
 ];
 
 // Icon mapping
+/** Convert any slug to URL-friendly format (underscores → hyphens) */
+function toUrlSlug(slug: string): string {
+  return slug.replace(/_/g, "-");
+}
+
 const iconMap: Record<string, React.ElementType> = {
   "upscale": Trophy,
   "sports-bar": Monitor,
@@ -82,16 +87,16 @@ const iconMap: Record<string, React.ElementType> = {
   "serious-golfers": Zap,
   "families": Baby,
   "large-groups": Users,
-  "private_rooms": Coffee,
-  "full_bar": Coffee,
-  "coaching_available": GraduationCap,
+  "private-rooms": Coffee,
+  "full-bar": Coffee,
+  "coaching-available": GraduationCap,
   "radar": Radar,
-  "photometric_camera": Monitor,
+  "photometric-camera": Monitor,
   "default": Monitor,
 };
 
 function getIcon(slug: string): React.ElementType {
-  return iconMap[slug] || iconMap.default;
+  return iconMap[toUrlSlug(slug)] || iconMap.default;
 }
 
 export default function BestByIndexPage() {
@@ -104,7 +109,7 @@ export default function BestByIndexPage() {
       icon: Trophy,
       items: AVAILABLE_VIBES.filter(v => v.count > 0).slice(0, 4).map(v => ({
         ...v,
-        href: `/best/vibe/${v.slug}`,
+        href: `/best/vibe/${toUrlSlug(v.slug)}`,
         icon: getIcon(v.slug),
       })),
       viewAll: AVAILABLE_VIBES.length > 4 ? { label: "All vibes", href: "/best/vibe" } : null,
@@ -116,7 +121,7 @@ export default function BestByIndexPage() {
       icon: Heart,
       items: AVAILABLE_TAGS.filter(t => t.count > 0).slice(0, 4).map(t => ({
         ...t,
-        href: `/best/${t.slug}`,
+        href: `/best/${toUrlSlug(t.slug)}`,
         icon: getIcon(t.slug),
       })),
       viewAll: null,
@@ -128,7 +133,7 @@ export default function BestByIndexPage() {
       icon: Monitor,
       items: AVAILABLE_HARDWARE.filter(h => h.count > 0).slice(0, 4).map(h => ({
         ...h,
-        href: `/best/hardware/${h.slug}`,
+        href: `/best/hardware/${toUrlSlug(h.slug)}`,
         icon: Monitor,
       })),
       viewAll: AVAILABLE_HARDWARE.length > 4 ? { label: "All hardware", href: "/best/hardware" } : null,
@@ -140,7 +145,7 @@ export default function BestByIndexPage() {
       icon: Users,
       items: AVAILABLE_SEGMENTS.filter(s => s.count > 0).slice(0, 4).map(s => ({
         ...s,
-        href: `/best/who-its-for/${s.slug}`,
+        href: `/best/who-its-for/${toUrlSlug(s.slug)}`,
         icon: getIcon(s.slug),
       })),
       viewAll: AVAILABLE_SEGMENTS.length > 4 ? { label: "All golfer types", href: "/best/who-its-for" } : null,
@@ -152,7 +157,7 @@ export default function BestByIndexPage() {
       icon: Coffee,
       items: AVAILABLE_AMENITIES.filter(a => a.count > 0).slice(0, 4).map(a => ({
         ...a,
-        href: `/best/amenities/${a.slug}`,
+        href: `/best/amenities/${toUrlSlug(a.slug)}`,
         icon: getIcon(a.slug),
       })),
       viewAll: null,
@@ -164,7 +169,7 @@ export default function BestByIndexPage() {
       icon: Radar,
       items: AVAILABLE_LAUNCH_MONITORS.filter(l => l.count > 0).slice(0, 4).map(l => ({
         ...l,
-        href: `/best/launch-monitor/${l.slug}`,
+        href: `/best/launch-monitor/${toUrlSlug(l.slug)}`,
         icon: getIcon(l.slug),
       })),
       viewAll: null,
@@ -176,7 +181,7 @@ export default function BestByIndexPage() {
       icon: Gamepad2,
       items: AVAILABLE_SOFTWARE.filter(s => s.count > 0).slice(0, 4).map(s => ({
         ...s,
-        href: `/best/software/${s.slug}`,
+        href: `/best/software/${toUrlSlug(s.slug)}`,
         icon: Gamepad2,
       })),
       viewAll: null,

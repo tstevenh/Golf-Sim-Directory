@@ -1,6 +1,5 @@
-import { auth } from "@/lib/auth";
-import { db } from "@/lib/db";
-import { redirect } from "next/navigation";
+import { requireAdmin } from "@/lib/auth";
+import { supabase } from "@/lib/supabase";
 import Link from "next/link";
 import { ReviewClaimButton } from "./ReviewClaimButton";
 import { getStateSlug } from "@/lib/states";
@@ -10,26 +9,15 @@ export const metadata = {
 };
 
 export default async function AdminClaimsPage() {
-  const session = await auth();
+  await requireAdmin();
 
-  if (!session?.user || session.user.role !== "admin") {
-    redirect("/");
-  }
+  const { data: claimRequests } = await supabase
+    .from("claim_requests")
+    .select("*, venue:venues!venueId(*), requestedBy:users!requestedById(id, email, name)")
+    .eq("status", "pending")
+    .order("createdAt", { ascending: false });
 
-  const claimRequests = await db.claimRequest.findMany({
-    where: { status: "pending" },
-    include: {
-      venue: true,
-      requestedBy: {
-        select: {
-          id: true,
-          email: true,
-          name: true,
-        },
-      },
-    },
-    orderBy: { createdAt: "desc" },
-  });
+  if (!claimRequests) return null;
 
   return (
     <div className="min-h-screen bg-deep-black py-12">

@@ -442,20 +442,19 @@ export async function generateMetadata({ params }: LaunchMonitorPageProps): Prom
     data.metrics ? `${data.metrics} data points` : null,
   ].filter(Boolean) as string[];
 
-  const descriptionParts = [
-    `${data.name} by ${data.manufacturer}.`,
-    highlightParts.length ? `${highlightParts.join(" • ")}.` : null,
-  ].filter(Boolean);
-  const description = descriptionParts.join(" ");
+  const highlights = highlightParts.length ? highlightParts.join(", ") : "";
+  const description = highlights
+    ? `${data.name} by ${data.manufacturer}. ${highlights}. Find venues near you with ${data.name}.`
+    : `${data.name} by ${data.manufacturer}. Find venues near you with ${data.name}.`;
   
   return {
-    title: `${data.name} — Specs & Pricing`,
+    title: `${data.name} Review — Specs, Pricing & Venues Near You`,
     description,
     alternates: {
       canonical: `https://golfsimmap.com/launch-monitors/${slug}`,
     },
     openGraph: {
-      title: `${data.name} — Specs & Pricing`,
+      title: `${data.name} Review — Specs, Pricing & Venues Near You`,
       description,
       type: "article",
       url: `https://golfsimmap.com/launch-monitors/${slug}`,
@@ -475,7 +474,7 @@ export default async function LaunchMonitorDetailPage({ params }: LaunchMonitorP
   const { productSchema, faqSchema } = generateSchemas(data, slug);
   const hardwareLabel = data.hardwareBrand ?? data.manufacturer;
   const hardwareSlug = data.hardwareSlug;
-  const hardwareLink = hardwareSlug ? `/best/hardware/${hardwareSlug}` : "/venue/us";
+  const hardwareLink = hardwareSlug ? `/best/hardware/${hardwareSlug.replace(/_/g, "-")}` : "/venue/us";
   const stats = [
     data.price
       ? { label: "Price", value: data.price, icon: DollarSign, valueClass: "text-cream font-mono font-semibold" }

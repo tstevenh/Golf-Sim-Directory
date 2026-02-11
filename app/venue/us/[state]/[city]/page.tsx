@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 import Link from "next/link";
-import { db, venueCardSelect } from "@/lib/db";
+import { supabase, VENUE_CARD_FIELDS } from "@/lib/supabase";
 import { MapPin } from "lucide-react";
 import { VenueCard, VenueGrid } from "@/components/venue/VenueCard";
 import { CitySchema } from "@/components/seo/CitySchema";
@@ -27,20 +27,28 @@ export async function generateMetadata({ params }: CityPageProps): Promise<Metad
   try {
     const { state, city } = await params;
     const stateAbbrev = getStateAbbrevFromName(state) || state.toUpperCase();
-    const stateName = getStateDisplayName(stateAbbrev);
     const cityFormatted = city
       .replace(/-/g, " ")
       .replace(/\b\w/g, (l) => l.toUpperCase());
 
+    const { count } = await supabase
+      .from("venues")
+      .select("*", { count: "exact", head: true })
+      .ilike("city", cityFormatted)
+      .eq("state", stateAbbrev.toUpperCase())
+      .eq("country", "US")
+      .eq("status", "active");
+    const venueCount = count || 0;
+
     return {
-      title: `Best Golf Simulators in ${cityFormatted}, ${stateName}`,
-      description: `Compare indoor golf simulator venues in ${cityFormatted}, ${stateName}. See launch monitors, pricing, hours, reviews, and book your session online.`,
+      title: `${venueCount} Best Golf Simulators in ${cityFormatted}, ${stateAbbrev.toUpperCase()}`,
+      description: `Compare the top indoor golf simulators in ${cityFormatted}. See launch monitors, pricing, hours, and reviews. Book your session online today.`,
       alternates: {
         canonical: `https://golfsimmap.com/venue/us/${state}/${city}`,
       },
       openGraph: {
-        title: `Best Golf Simulators in ${cityFormatted}, ${stateName}`,
-        description: `Compare indoor golf simulator venues in ${cityFormatted}. See pricing, reviews, and book online.`,
+        title: `${venueCount} Best Golf Simulators in ${cityFormatted}, ${stateAbbrev.toUpperCase()}`,
+        description: `Compare the top indoor golf simulators in ${cityFormatted}. See launch monitors, pricing, hours, and reviews. Book your session online today.`,
         type: "website",
         url: `https://golfsimmap.com/venue/us/${state}/${city}`,
       },
@@ -78,35 +86,29 @@ export default async function CityPage({ params, searchParams }: CityPageProps) 
     const pageSize = 12;
     const skip = (page - 1) * pageSize;
 
-    const [venueRows, nearbyCitiesResult, cityCategoryLinks] = await Promise.all([
-      db.venue.findMany({
-        where: {
-          city: { equals: cityFormatted, mode: "insensitive" },
-          state: stateAbbrev.toUpperCase(),
-          country: "US",
-          status: "active",
-        },
-        orderBy: [{ featured: "desc" }, { ratingOverall: "desc" }, { name: "asc" }],
-        select: venueCardSelect,
-        take: pageSize + 1,
-        skip,
-      }),
-      db.venue.findMany({
-        where: {
-          state: stateAbbrev.toUpperCase(),
-          country: "US",
-          status: "active",
-          city: { not: cityFormatted },
-        },
-        select: { city: true },
-        distinct: ["city"],
-        take: 6,
+    const [{ data: venueRows }, { data: nearbyCitiesRaw }, cityCategoryLinks] = await Promise.all([
+      supabase
+        .from("venues")
+        .select(VENUE_CARD_FIELDS)
+        .ilike("city", cityFormatted)
+        .eq("state", stateAbbrev.toUpperCase())
+        .eq("country", "US")
+        .eq("status", "active")
+        .order("featured", { ascending: false })
+        .order("ratingOverall", { ascending: false, nullsFirst: false })
+        .order("name", { ascending: true })
+        .range(skip, skip + pageSize),
+      supabase.rpc("get_nearby_cities", {
+        target_state: stateAbbrev.toUpperCase(),
+        exclude_city: cityFormatted,
+        limit_count: 6,
       }),
       getCityCategoryBrowseLinksWithCounts(state, cityFormatted, 3, stateAbbrev.toUpperCase()),
     ]);
 
-    const hasNextPage = venueRows.length > pageSize;
-    const venues = venueRows.slice(0, pageSize);
+    const allVenues = venueRows || [];
+    const hasNextPage = allVenues.length > pageSize;
+    const venues = allVenues.slice(0, pageSize);
     const knownVenueCount = page === 1 && !hasNextPage ? venues.length : undefined;
 
     if (page === 1 && venues.length === 0) {
@@ -124,7 +126,7 @@ export default async function CityPage({ params, searchParams }: CityPageProps) 
         </div>
       );
     }
-    const nearbyCities = nearbyCitiesResult.map((c) => c.city);
+    const nearbyCities = (nearbyCitiesRaw || []).map((c: { city: string }) => c.city);
 
     // Related links - static, no extra DB query
     const staticLinks = getStaticRelatedLinks("city", "", 4);

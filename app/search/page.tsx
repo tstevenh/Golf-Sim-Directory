@@ -1,8 +1,7 @@
 import { Metadata } from "next";
 import Link from "next/link";
-import { db, venueCardSelect } from "@/lib/db";
-import { Prisma } from "@prisma/client";
-import { LaunchMonitorType, VenueType } from "@prisma/client";
+import { supabase, VENUE_CARD_FIELDS } from "@/lib/supabase";
+import type { VenueType, LaunchMonitorType } from "@/lib/supabase";
 import { VenueCard, VenueGrid } from "@/components/venue/VenueCard";
 import { Pagination } from "@/components/ui/Pagination";
 import { getStateSlug, getStateDisplayName } from "@/lib/states";
@@ -18,6 +17,16 @@ export const metadata: Metadata = {
 // Force dynamic rendering to avoid caching issues
 export const dynamic = "force-dynamic";
 export const revalidate = 0;
+
+const VALID_VENUE_TYPES = new Set([
+  "sim_bar", "training_studio", "private_rental", "retail_fitting_center",
+  "country_club", "multi_sport_sim", "hotel_resort", "other",
+  "indoor_golf_center", "entertainment_venue", "golf_performance_center", "bar",
+]);
+
+const VALID_LAUNCH_MONITOR_TYPES = new Set([
+  "radar", "photometric_camera", "hybrid", "unknown",
+]);
 
 interface SearchPageProps {
   searchParams?: Promise<Record<string, string | string[] | undefined>>;
@@ -38,7 +47,7 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
   const coaching = params.coaching === "true";
   const food = params.food === "true";
   const alcohol = params.alcohol === "true";
-  const wifi = params.wifi === "true";
+  const wifiFilter = params.wifi === "true";
   const privateRooms = params.privateRooms === "true";
   const pageParam = typeof params.page === "string" ? Number(params.page) : 1;
   const page = Number.isFinite(pageParam) && pageParam > 0 ? Math.floor(pageParam) : 1;
@@ -46,205 +55,144 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
   let forceNoResults = false;
   const normalizedHardware = hardware ? normalizeHardwareBrand(hardware) : "";
 
-  // Fetch available states and cities (only those with active venues)
-  const [statesData, citiesData] = await Promise.all([
-    db.venue.findMany({
-      where: { status: "active" },
-      select: { state: true },
-      distinct: ["state"],
-      orderBy: { state: "asc" },
-    }),
-    db.venue.findMany({
-      where: { status: "active" },
-      select: { city: true, state: true },
-      distinct: ["city", "state"],
-      orderBy: [{ state: "asc" }, { city: "asc" }],
-    }),
+  // Fetch available states and cities for dropdowns
+  const [{ data: statesData }, { data: citiesData }] = await Promise.all([
+    supabase.rpc("get_distinct_states"),
+    supabase.rpc("get_distinct_cities"),
   ]);
 
-  const availableStates = statesData.map((v) => ({
+  const availableStates = (statesData || []).map((v: { state: string }) => ({
     code: v.state,
     name: getStateDisplayName(v.state),
   }));
 
-  const availableCities = citiesData.map((v) => ({
+  const availableCities = (citiesData || []).map((v: { city: string; state: string }) => ({
     city: v.city,
     state: v.state,
   }));
 
-  const baseWhere: Prisma.VenueWhereInput = {
-    status: "active",
-  };
-
-  if (query) {
-    baseWhere.OR = [
-      { name: { contains: query, mode: "insensitive" } },
-      { zipCode: { contains: query, mode: "insensitive" } },
-    ];
+  // Validate enum filters
+  if (venueType && !VALID_VENUE_TYPES.has(venueType)) {
+    forceNoResults = true;
+  }
+  if (launchMonitorType && !VALID_LAUNCH_MONITOR_TYPES.has(launchMonitorType)) {
+    forceNoResults = true;
   }
 
-  if (city) {
-    baseWhere.city = { contains: city, mode: "insensitive" };
-  }
-
-  if (state) {
-    baseWhere.state = { contains: state, mode: "insensitive" };
-  }
-
-  if (venueType) {
-    const validVenueTypes = new Set<VenueType>([
-      "sim_bar",
-      "training_studio",
-      "private_rental",
-      "retail_fitting_center",
-      "country_club",
-      "multi_sport_sim",
-      "hotel_resort",
-      "other",
-    ]);
-    if (validVenueTypes.has(venueType as VenueType)) {
-      baseWhere.venueType = venueType as VenueType;
-    } else {
-      forceNoResults = true;
-    }
-  }
-
-  if (launchMonitorType) {
-    const validLaunchMonitorTypes = new Set<LaunchMonitorType>([
-      "radar",
-      "photometric_camera",
-      "hybrid",
-      "unknown",
-    ]);
-    if (validLaunchMonitorTypes.has(launchMonitorType as LaunchMonitorType)) {
-      baseWhere.launchMonitorType = launchMonitorType as LaunchMonitorType;
-    } else {
-      forceNoResults = true;
-    }
-  }
-
-  if (typeof minPrice === "number" && !isNaN(minPrice)) {
-    baseWhere.priceRangeMin = { gte: minPrice };
-  }
-
-  if (typeof maxPrice === "number" && !isNaN(maxPrice)) {
-    baseWhere.priceRangeMax = { lte: maxPrice };
-  }
-
-  if (kidFriendly) {
-    baseWhere.kidFriendly = true;
-  }
-
-  if (coaching) {
-    baseWhere.coachingAvailable = true;
-  }
-
-  if (wifi) {
-    baseWhere.wifi = true;
-  }
-
-  if (privateRooms) {
-    baseWhere.hasPrivateRooms = true;
-  }
-
-  const canRawQuery = typeof (db as unknown as { $queryRaw?: unknown }).$queryRaw === "function";
-  if (normalizedHardware && canRawQuery) {
-    baseWhere.hardwareBrands = { has: normalizedHardware };
-  }
-  type VenueListRow = Prisma.VenueGetPayload<{ select: typeof venueCardSelect }>;
-
-  const intersectIds = (current: Set<string> | null, ids: string[]) => {
-    const next = new Set(ids);
-    if (current === null) return next;
-    return new Set([...current].filter((id) => next.has(id)));
-  };
-
-  let totalVenues: number | null = 0;
-  let pagedVenues: VenueListRow[] = [];
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  let pagedVenues: any[] = [];
+  let totalVenues = 0;
   let hasNextPage = false;
 
   if (forceNoResults) {
     totalVenues = 0;
     pagedVenues = [];
     hasNextPage = false;
-  } else if (!canRawQuery && (hardware || food || alcohol)) {
-    // Fallback path for mock DB (no raw SQL support).
-    let venues = await db.venue.findMany({
-      where: baseWhere,
-      orderBy: [{ featured: "desc" }, { ratingOverall: "desc" }, { name: "asc" }],
-      select: venueCardSelect,
-    });
-
-    if (hardware) {
-      const hardwareLower = normalizedHardware || hardware.toLowerCase().trim();
-      venues = venues.filter((venue) => {
-        if ((venue.hardwareBrands || []).includes(hardwareLower)) return true;
-        if (!venue.simulatorSystems) return false;
-        try {
-          const systems = venue.simulatorSystems as { brand?: string; model?: string }[];
-          return systems.some(
-            (system) => normalizeHardwareBrand(system.brand?.toLowerCase().trim() || "") === hardwareLower
-          );
-        } catch {
-          return false;
-        }
-      });
-    }
-
-    if (food || alcohol) {
-      venues = venues.filter((venue) => {
-        if (!venue.foodAndDrink) return false;
-        try {
-          const data = venue.foodAndDrink as { food?: boolean; alcohol?: boolean };
-          if (food && !data.food) return false;
-          if (alcohol && !data.alcohol) return false;
-          return true;
-        } catch {
-          return false;
-        }
-      });
-    }
-
-    totalVenues = venues.length;
-    pagedVenues = venues.slice((page - 1) * pageSize, page * pageSize);
-    hasNextPage = page * pageSize < totalVenues;
   } else {
-    let advancedFilterIds: Set<string> | null = null;
-
+    // Get food/alcohol filtered IDs if needed
+    let foodDrinkIds: string[] | null = null;
     if (food || alcohol) {
-      const foodAndDrinkRows = await db.$queryRaw<{ id: string }[]>`
-        SELECT v.id
-        FROM "venues" v
-        WHERE v."status" = 'active'
-          AND (${food} = false OR COALESCE((v."foodAndDrink"->>'food')::boolean, false) = true)
-          AND (${alcohol} = false OR COALESCE((v."foodAndDrink"->>'alcohol')::boolean, false) = true)
-      `;
-      advancedFilterIds = intersectIds(advancedFilterIds, foodAndDrinkRows.map((row) => row.id));
+      const { data: foodDrinkData } = await supabase.rpc("get_venue_ids_with_food_drink", {
+        require_food: food,
+        require_alcohol: alcohol,
+      });
+      foodDrinkIds = (foodDrinkData || []).map((r: { id: string }) => r.id);
+      if (foodDrinkIds.length === 0) {
+        totalVenues = 0;
+        pagedVenues = [];
+        hasNextPage = false;
+      }
     }
 
-    if (advancedFilterIds) {
-      baseWhere.id = { in: advancedFilterIds.size > 0 ? [...advancedFilterIds] : ["__no_match__"] };
+    // Only run main query if we haven't already determined empty results
+    if (foodDrinkIds === null || foodDrinkIds.length > 0) {
+      // Build the count query
+      let countQuery = supabase
+        .from("venues")
+        .select("*", { count: "exact", head: true })
+        .eq("status", "active");
+
+      // Build the data query
+      let dataQuery = supabase
+        .from("venues")
+        .select(VENUE_CARD_FIELDS)
+        .eq("status", "active");
+
+      // Apply text search (OR condition) - searches venue name, city, or ZIP code
+      if (query) {
+        const orFilter = `name.ilike.%${query}%,city.ilike.%${query}%,zipCode.ilike.%${query}%`;
+        countQuery = countQuery.or(orFilter);
+        dataQuery = dataQuery.or(orFilter);
+      }
+
+      // Apply filters to both queries
+      if (city) {
+        countQuery = countQuery.ilike("city", `%${city}%`);
+        dataQuery = dataQuery.ilike("city", `%${city}%`);
+      }
+      if (state) {
+        countQuery = countQuery.ilike("state", `%${state}%`);
+        dataQuery = dataQuery.ilike("state", `%${state}%`);
+      }
+      if (venueType) {
+        countQuery = countQuery.eq("venueType", venueType as VenueType);
+        dataQuery = dataQuery.eq("venueType", venueType as VenueType);
+      }
+      if (launchMonitorType) {
+        countQuery = countQuery.eq("launchMonitorType", launchMonitorType as LaunchMonitorType);
+        dataQuery = dataQuery.eq("launchMonitorType", launchMonitorType as LaunchMonitorType);
+      }
+      if (typeof minPrice === "number" && !isNaN(minPrice)) {
+        countQuery = countQuery.gte("priceRangeMin", minPrice);
+        dataQuery = dataQuery.gte("priceRangeMin", minPrice);
+      }
+      if (typeof maxPrice === "number" && !isNaN(maxPrice)) {
+        countQuery = countQuery.lte("priceRangeMax", maxPrice);
+        dataQuery = dataQuery.lte("priceRangeMax", maxPrice);
+      }
+      if (kidFriendly) {
+        countQuery = countQuery.eq("kidFriendly", true);
+        dataQuery = dataQuery.eq("kidFriendly", true);
+      }
+      if (coaching) {
+        countQuery = countQuery.eq("coachingAvailable", true);
+        dataQuery = dataQuery.eq("coachingAvailable", true);
+      }
+      if (wifiFilter) {
+        countQuery = countQuery.eq("wifi", true);
+        dataQuery = dataQuery.eq("wifi", true);
+      }
+      if (privateRooms) {
+        countQuery = countQuery.eq("hasPrivateRooms", true);
+        dataQuery = dataQuery.eq("hasPrivateRooms", true);
+      }
+      if (normalizedHardware) {
+        countQuery = countQuery.contains("hardwareBrands", [normalizedHardware]);
+        dataQuery = dataQuery.contains("hardwareBrands", [normalizedHardware]);
+      }
+      if (foodDrinkIds) {
+        countQuery = countQuery.in("id", foodDrinkIds);
+        dataQuery = dataQuery.in("id", foodDrinkIds);
+      }
+
+      // Apply ordering and pagination to data query
+      dataQuery = dataQuery
+        .order("featured", { ascending: false })
+        .order("ratingOverall", { ascending: false, nullsFirst: false })
+        .order("name", { ascending: true })
+        .range((page - 1) * pageSize, page * pageSize - 1);
+
+      // Execute both queries in parallel
+      const [countResult, dataResult] = await Promise.all([countQuery, dataQuery]);
+
+      totalVenues = countResult.count || 0;
+      pagedVenues = dataResult.data || [];
+      hasNextPage = page * pageSize < totalVenues;
     }
-
-    // Fetch total count and paginated results in parallel
-    const [totalCount, rows] = await Promise.all([
-      db.venue.count({ where: baseWhere }),
-      db.venue.findMany({
-        where: baseWhere,
-        orderBy: [{ featured: "desc" }, { ratingOverall: "desc" }, { name: "asc" }],
-        select: venueCardSelect,
-        skip: (page - 1) * pageSize,
-        take: pageSize,
-      }),
-    ]);
-
-    totalVenues = totalCount;
-    pagedVenues = rows;
-    hasNextPage = page * pageSize < totalCount;
   }
 
-  const totalPages = totalVenues === null ? undefined : Math.max(1, Math.ceil(totalVenues / pageSize));
-  const hasExactCount = totalPages !== undefined;
+  const totalPages = Math.max(1, Math.ceil(totalVenues / pageSize));
+  const hasExactCount = true;
 
   return (
     <div className="min-h-screen bg-deep-black">
@@ -278,7 +226,7 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
             initialCoaching={coaching}
             initialFood={food}
             initialAlcohol={alcohol}
-            initialWifi={wifi}
+            initialWifi={wifiFilter}
             initialPrivateRooms={privateRooms}
             availableStates={availableStates}
             availableCities={availableCities}

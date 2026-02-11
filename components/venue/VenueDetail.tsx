@@ -1065,7 +1065,7 @@ export function VenueDetail({
             </Link>
             {venue.vibeTags && venue.vibeTags.length > 0 && (
               <Link
-                href={`/venue/us/${getStateSlug(venue.state)}/${venue.city.toLowerCase().replace(/\s+/g, "-")}/best/vibe/${venue.vibeTags[0]}`}
+                href={`/venue/us/${getStateSlug(venue.state)}/${venue.city.toLowerCase().replace(/\s+/g, "-")}/best/vibe/${venue.vibeTags[0].replace(/_/g, "-")}`}
                 className="px-4 py-2.5 border border-default rounded-full text-cream-subtle text-sm hover:border-masters-green hover:text-cream hover:bg-masters-green/5 transition-all"
               >
                 {formatTag(venue.vibeTags[0])} venues in {venue.city}
@@ -1073,7 +1073,7 @@ export function VenueDetail({
             )}
             {venue.launchMonitorType && venue.launchMonitorType !== "unknown" && (
               <Link
-                href={`/best/launch-monitor/${venue.launchMonitorType}`}
+                href={`/best/launch-monitor/${venue.launchMonitorType.replace(/_/g, "-")}`}
                 className="px-4 py-2.5 border border-default rounded-full text-cream-subtle text-sm hover:border-masters-green hover:text-cream hover:bg-masters-green/5 transition-all"
               >
                 {LAUNCH_MONITOR_LABELS[venue.launchMonitorType] || formatTag(venue.launchMonitorType)} venues

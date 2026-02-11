@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
-import { db } from "@/lib/db";
-import { auth } from "@/lib/auth";
+import { supabase } from "@/lib/supabase";
+import { getUser } from "@/lib/auth";
 
 // POST /api/venues/[id]/claim - Request to claim venue
 export async function POST(
@@ -8,11 +8,11 @@ export async function POST(
   { params }: { params: Promise<{ id: string }> }
 ) {
   try {
-    const session = await auth();
+    const user = await getUser();
     const { id } = await params;
     const body = await request.json();
 
-    if (!session?.user?.id) {
+    if (!user?.id) {
       return NextResponse.json(
         { error: "Unauthorized" },
         { status: 401 }
@@ -28,9 +28,11 @@ export async function POST(
       );
     }
 
-    const venue = await db.venue.findUnique({
-      where: { id },
-    });
+    const { data: venue } = await supabase
+      .from("venues")
+      .select("id, claimed")
+      .eq("id", id)
+      .single();
 
     if (!venue) {
       return NextResponse.json(
@@ -47,12 +49,12 @@ export async function POST(
     }
 
     // Check if there's already a pending claim request for this venue
-    const existingRequest = await db.claimRequest.findFirst({
-      where: {
-        venueId: id,
-        status: "pending",
-      },
-    });
+    const { data: existingRequest } = await supabase
+      .from("claim_requests")
+      .select("id")
+      .eq("venueId", id)
+      .eq("status", "pending")
+      .maybeSingle();
 
     if (existingRequest) {
       return NextResponse.json(
@@ -62,15 +64,19 @@ export async function POST(
     }
 
     // Create claim request for admin review
-    const claimRequest = await db.claimRequest.create({
-      data: {
+    const { data: claimRequest, error } = await supabase
+      .from("claim_requests")
+      .insert({
         venueId: id,
-        requestedById: session.user.id,
+        requestedById: user.id,
         businessEmail,
         proofText,
         status: "pending",
-      },
-    });
+      })
+      .select("id")
+      .single();
+
+    if (error) throw error;
 
     return NextResponse.json({
       success: true,

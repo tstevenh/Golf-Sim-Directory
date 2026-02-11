@@ -1,14 +1,15 @@
 /* eslint-disable @next/next/no-img-element */
-import { auth } from "@/lib/auth";
-import { db } from "@/lib/db";
-import { redirect } from "next/navigation";
+import { requireAuth } from "@/lib/auth";
+import { supabase } from "@/lib/supabase";
+import type { Venue, Submission, UserRole } from "@/lib/supabase";
 import Link from "next/link";
 import { Heart, Building2, Mail, User, ArrowRight, MapPin, FileText } from "lucide-react";
-import { Venue, Favorite, UserRole, Submission } from "@prisma/client";
 import { getStateSlug } from "@/lib/states";
 
-interface FavoriteWithVenue extends Favorite {
-  venue: {
+interface FavoriteWithVenue {
+  id: string;
+  createdAt: string;
+  venues: {
     id: string;
     name: string;
     slug: string;
@@ -20,45 +21,34 @@ interface FavoriteWithVenue extends Favorite {
 }
 
 export default async function DashboardPage() {
-  const session = await auth();
+  const user = await requireAuth("/dashboard");
 
-  if (!session?.user?.id) {
-    redirect("/login?callbackUrl=/dashboard");
-  }
+  // Get user's favorites (join with venues table)
+  const { data: favoritesRaw } = await supabase
+    .from("favorites")
+    .select("id, createdAt, venues(id, name, slug, city, state, heroImage, address)")
+    .eq("userId", user.id)
+    .order("createdAt", { ascending: false });
+  const favorites = (favoritesRaw || []) as unknown as FavoriteWithVenue[];
 
-  // Get user's favorites
-  const favorites = await db.favorite.findMany({
-    where: { userId: session.user.id },
-    include: {
-      venue: {
-        select: {
-          id: true,
-          name: true,
-          slug: true,
-          city: true,
-          state: true,
-          heroImage: true,
-          address: true,
-        },
-      },
-    },
-    orderBy: { createdAt: "desc" },
-  }) as FavoriteWithVenue[];
+  const userRole = user.role as UserRole;
 
-  // Get claimed venues for business owners
-  const userRole = session.user.role as UserRole;
-  const claimedVenues: Venue[] = userRole === "business_owner" || userRole === "admin"
-    ? await db.venue.findMany({
-        where: { claimedById: session.user.id },
-        orderBy: { claimedAt: "desc" },
-      })
-    : [];
+  // Get venues owned by this user (claimed or submitted & approved)
+  const { data: ownedVenuesRaw } = await supabase
+    .from("venues")
+    .select("*")
+    .eq("claimedById", user.id)
+    .order("claimedAt", { ascending: false });
+  const ownedVenues: Venue[] = ownedVenuesRaw || [];
 
-  // Get user's submissions
-  const submissions = await db.submission.findMany({
-    where: { submittedById: session.user.id },
-    orderBy: { createdAt: "desc" },
-  });
+  // Get user's submissions (exclude approved — those show in "Your Listings")
+  const { data: submissionsRaw } = await supabase
+    .from("submissions")
+    .select("*")
+    .eq("submittedById", user.id)
+    .neq("status", "approved")
+    .order("createdAt", { ascending: false });
+  const submissions = submissionsRaw || [];
 
   return (
     <div className="min-h-screen bg-deep-black py-12">
@@ -74,7 +64,7 @@ export default async function DashboardPage() {
           </div>
           <h1 className="text-cream">Welcome Back</h1>
           <p className="text-muted">
-            {session.user.name || session.user.email}
+            {user.name || user.email}
           </p>
         </div>
 
@@ -151,7 +141,7 @@ export default async function DashboardPage() {
               <div className="text-center py-8 border border-dashed border-default">
                 <p className="text-muted mb-4">You haven&apos;t saved any venues yet.</p>
                 <Link
-                  href="/"
+                  href="/search"
                   className="text-masters-green hover:text-cream transition-colors text-sm"
                 >
                   Browse venues →
@@ -162,14 +152,14 @@ export default async function DashboardPage() {
                 {favorites.map((fav: FavoriteWithVenue) => (
                   <Link
                     key={fav.id}
-                    href={`/venue/${fav.venue.slug}`}
+                    href={`/venue/us/${getStateSlug(fav.venues.state)}/${fav.venues.city.toLowerCase().replace(/\s+/g, "-")}/${fav.venues.slug}`}
                     className="flex items-center gap-4 p-4 border border-default hover:border-masters-green transition-colors group"
                   >
                     <div className="w-16 h-16 bg-slate flex-shrink-0 overflow-hidden">
-                      {fav.venue.heroImage ? (
+                      {fav.venues.heroImage ? (
                         <img
-                          src={fav.venue.heroImage}
-                          alt={fav.venue.name}
+                          src={fav.venues.heroImage}
+                          alt={fav.venues.name}
                           className="w-full h-full object-cover"
                         />
                       ) : (
@@ -180,10 +170,10 @@ export default async function DashboardPage() {
                     </div>
                     <div className="flex-1 min-w-0">
                       <h3 className="font-medium text-cream truncate group-hover:text-masters-green transition-colors">
-                        {fav.venue.name}
+                        {fav.venues.name}
                       </h3>
                       <p className="text-sm text-muted">
-                        {fav.venue.city}, {fav.venue.state}
+                        {fav.venues.city}, {fav.venues.state}
                       </p>
                     </div>
                     <ArrowRight className="w-4 h-4 text-muted group-hover:text-masters-green transition-colors" />
@@ -193,8 +183,8 @@ export default async function DashboardPage() {
             )}
           </div>
 
-          {/* Claimed Venues (for business owners) */}
-          {(userRole === "business_owner" || userRole === "admin") && (
+          {/* Your Listings (owned venues — from approved submissions or claims) */}
+          {(ownedVenues.length > 0 || userRole === "business_owner" || userRole === "admin") && (
             <div className="border border-default bg-charcoal p-6">
               <div className="flex items-center gap-3 mb-6">
                 <div className="w-10 h-10 border border-masters-green flex items-center justify-center">
@@ -202,15 +192,15 @@ export default async function DashboardPage() {
                 </div>
                 <div>
                   <h2 className="text-cream">Your Listings</h2>
-                  <p className="text-sm text-muted">{claimedVenues.length} claimed</p>
+                  <p className="text-sm text-muted">{ownedVenues.length} listing{ownedVenues.length !== 1 && "s"}</p>
                 </div>
               </div>
 
-              {claimedVenues.length === 0 ? (
+              {ownedVenues.length === 0 ? (
                 <div className="text-center py-8 border border-dashed border-default">
                   <p className="text-muted mb-4">You haven&apos;t claimed any listings yet.</p>
                   <Link
-                    href="#business"
+                    href="/claim"
                     className="text-masters-green hover:text-cream transition-colors text-sm"
                   >
                     Claim a listing →
@@ -218,7 +208,7 @@ export default async function DashboardPage() {
                 </div>
               ) : (
                 <div className="space-y-3">
-                  {claimedVenues.map((venue: Venue) => (
+                  {ownedVenues.map((venue: Venue) => (
                     <div
                       key={venue.id}
                       className="flex items-center justify-between p-4 border border-default"
@@ -297,7 +287,7 @@ export default async function DashboardPage() {
               <Mail className="w-4 h-4 text-muted" />
               <div>
                 <span className="text-xs text-muted uppercase tracking-wider block">Email</span>
-                <span className="text-cream">{session.user.email}</span>
+                <span className="text-cream">{user.email}</span>
               </div>
             </div>
             <div className="flex items-center gap-3">

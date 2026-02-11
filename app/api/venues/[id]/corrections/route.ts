@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
-import { db } from "@/lib/db";
-import { auth } from "@/lib/auth";
+import { supabase } from "@/lib/supabase";
+import { getUser } from "@/lib/auth";
 
 // POST /api/venues/[id]/corrections - Report incorrect info
 export async function POST(
@@ -8,22 +8,26 @@ export async function POST(
   { params }: { params: Promise<{ id: string }> }
 ) {
   try {
-    const session = await auth();
+    const user = await getUser();
     const { id } = await params;
     const body = await request.json();
-    
-    const correction = await db.correctionReport.create({
-      data: {
+
+    const { data: correction, error } = await supabase
+      .from("correction_reports")
+      .insert({
         venueId: id,
-        reportedById: session?.user?.id || null,
+        reportedById: user?.id || null,
         field: body.field,
         currentValue: body.currentValue,
         suggestedValue: body.suggestedValue,
         notes: body.notes,
         status: "pending",
-      },
-    });
-    
+      })
+      .select("id")
+      .single();
+
+    if (error) throw error;
+
     return NextResponse.json({
       success: true,
       message: "Correction submitted for review",

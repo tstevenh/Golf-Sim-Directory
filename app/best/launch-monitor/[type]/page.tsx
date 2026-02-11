@@ -1,6 +1,7 @@
 import { Metadata } from "next";
-import { LaunchMonitorType } from "@prisma/client";
-import { db, venueCardSelect } from "@/lib/db";
+import { supabase, VENUE_CARD_FIELDS } from "@/lib/supabase";
+import type { LaunchMonitorType } from "@/lib/supabase";
+import type { VenueListItem } from "@/types";
 import { BestByPageContent } from "@/components/seo/BestByPageContent";
 import { getStaticRelatedLinks } from "@/lib/category-config.generated";
 
@@ -24,31 +25,31 @@ export async function generateStaticParams() {
 const launchMonitorContent: Record<string, { tagline: string; description: string }> = {
   radar: {
     tagline: "Doppler Radar Technology",
-    description: "Radar systems like TrackMan use Doppler radar to track ball flight from impact through landing. Best for full-shot data and outdoor accuracy. The gold standard for ball flight analysis and the technology used by PGA Tour professionals.",
+    description: "Radar launch monitors like TrackMan use Doppler tech to track ball flight from impact to landing. The gold standard for ball flight analysis on tour.",
   },
   photometric_camera: {
     tagline: "High-Speed Camera Systems",
-    description: "Camera-based systems capture high-speed images at impact, measuring club and ball data with exceptional precision. They excel at club data (face angle, path, attack angle) and work well indoors where radar signals may struggle.",
+    description: "Camera-based systems capture high-speed images at impact for precise club and ball data. Excel at face angle, path, and attack angle indoors.",
   },
   hybrid: {
     tagline: "Best of Both Worlds",
-    description: "Hybrid systems combine radar and camera technology for comprehensive data capture. These typically provide the most accurate and complete data sets, measuring both ball flight (radar) and club impact (camera) simultaneously.",
+    description: "Hybrid systems combine radar and camera tech for the most complete data. Measure ball flight and club impact simultaneously for top accuracy.",
   },
   overhead_camera: {
     tagline: "Above-The-Action Tracking",
-    description: "Overhead camera systems mount above the hitting area and track the ball from above. Common in entertainment venues like TopGolf, these systems balance accuracy with throughput for high-volume facilities.",
+    description: "Overhead cameras mount above the hitting area to track shots from above. Common at entertainment venues, balancing accuracy with high throughput.",
   },
   floor_camera: {
     tagline: "Ground-Level Precision",
-    description: "Floor-mounted cameras capture impact from below or at ground level, often paired with other sensors. These systems can provide excellent club data and are popular in fitting centers.",
+    description: "Floor-mounted cameras capture impact from below, often paired with other sensors. Excellent club data makes them popular in fitting centers.",
   },
   infrared_optical: {
     tagline: "Light Sensor Technology",
-    description: "Infrared optical systems use light sensors to track ball and club movement through the hitting zone. These offer good accuracy at a lower price point than radar systems, making them popular for home setups and budget-conscious venues.",
+    description: "Infrared optical systems use light sensors to track ball and club movement. Good accuracy at a lower price, popular for home setups and budget venues.",
   },
   unknown: {
     tagline: "Launch Monitor Technology",
-    description: "Venues with launch monitors where the specific technology type isn't specified. These may use various systems — contact the venue for details about their equipment.",
+    description: "Venues with launch monitors where the specific technology isn't listed. Contact the venue directly for details about their tracking system.",
   },
 };
 
@@ -56,16 +57,16 @@ export async function generateMetadata({ params }: BestLaunchMonitorPageProps): 
   const { type } = await params;
   const label = type.replace(/_/g, " ").replace(/\b\w/g, l => l.toUpperCase());
   const content = launchMonitorContent[type.toLowerCase()] || { tagline: "", description: "" };
-  
+
   return {
-    title: `${label} Launch Monitor Venues — Find & Compare`,
-    description: content.description || `Find golf simulator venues using ${label} launch monitors. Compare accuracy, amenities, and booking options.`,
+    title: `Best ${label} Launch Monitor Venues — Compare & Book`,
+    description: content.description || `Find golf simulator venues using ${label.toLowerCase()} launch monitors. Compare accuracy, amenities, and booking options.`,
     alternates: {
       canonical: `https://golfsimmap.com/best/launch-monitor/${type}`,
     },
     openGraph: {
-      title: `Best ${label} Launch Monitor Venues`,
-      description: content.description || `Find golf simulator venues using ${label} launch monitors.`,
+      title: `Best ${label} Launch Monitor Venues — Compare & Book`,
+      description: content.description || `Find golf simulator venues using ${label.toLowerCase()} launch monitors.`,
       type: "website",
       url: `https://golfsimmap.com/best/launch-monitor/${type}`,
     },
@@ -83,23 +84,29 @@ export default async function BestLaunchMonitorPage({ params, searchParams }: Be
   const validTypes = new Set<LaunchMonitorType>(["radar", "photometric_camera", "hybrid", "unknown"]);
   const isValidType = validTypes.has(type as LaunchMonitorType);
 
-  const where = {
-    status: "active" as const,
-    launchMonitorType: type as LaunchMonitorType,
-  };
+  let totalVenues = 0;
+  let venues: VenueListItem[] = [];
 
-  const [totalVenues, venues] = isValidType
-    ? await Promise.all([
-        db.venue.count({ where }),
-        db.venue.findMany({
-          where,
-          orderBy: [{ featured: "desc" }, { ratingOverall: "desc" }, { name: "asc" }],
-          select: venueCardSelect,
-          take: pageSize,
-          skip,
-        }),
-      ])
-    : [0, []];
+  if (isValidType) {
+    const [{ count }, { data: venueRows }] = await Promise.all([
+      supabase
+        .from("venues")
+        .select("*", { count: "exact", head: true })
+        .eq("status", "active")
+        .eq("launchMonitorType", type as LaunchMonitorType),
+      supabase
+        .from("venues")
+        .select(VENUE_CARD_FIELDS)
+        .eq("status", "active")
+        .eq("launchMonitorType", type as LaunchMonitorType)
+        .order("featured", { ascending: false })
+        .order("ratingOverall", { ascending: false, nullsFirst: false })
+        .order("name", { ascending: true })
+        .range(skip, skip + pageSize - 1),
+    ]);
+    totalVenues = count ?? 0;
+    venues = venueRows || [];
+  }
 
   const content = launchMonitorContent[typeKey] || {
     tagline: `${label} Technology`,

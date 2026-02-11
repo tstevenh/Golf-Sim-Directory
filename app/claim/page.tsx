@@ -1,36 +1,78 @@
-import { Metadata } from "next";
+"use client";
+
 import Link from "next/link";
-import { db } from "@/lib/db";
-import { VenueCard } from "@/components/venue/VenueCard";
-import { getStateSlug } from "@/lib/states";
+import { useState } from "react";
+import { Search, ArrowRight, Building2 } from "lucide-react";
 
-export const metadata: Metadata = {
-  title: "Claim Your Golf Simulator Venue Listing",
-  description: "Own a golf simulator venue? Claim your free listing on GolfSimMap to update hours, photos, pricing, and reach more local golfers.",
-};
+export default function ClaimPage() {
+  const [query, setQuery] = useState("");
 
-export default async function ClaimPage() {
-  const unverifiedVenues = await db.venue.findMany({
-    where: { status: "active", claimed: false },
-    orderBy: [{ name: "asc" }],
-    take: 12,
-  });
+  const handleSearch = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (query.trim()) {
+      window.location.href = `/search?q=${encodeURIComponent(query.trim())}`;
+    }
+  };
 
   return (
     <div className="min-h-screen bg-deep-black py-12">
       <div className="absolute inset-0 scorecard-grid opacity-20" />
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="mb-10">
-          <div className="flex items-center gap-3 mb-4">
+      <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        {/* Header */}
+        <div className="mb-10 text-center">
+          <div className="flex items-center justify-center gap-3 mb-4">
             <div className="w-8 h-px bg-masters-green" />
             <span className="text-masters-green text-xs font-mono uppercase tracking-widest">For Owners</span>
+            <div className="w-8 h-px bg-masters-green" />
           </div>
-          <h1 className="text-cream mb-2">Claim Your Venue</h1>
-          <p className="text-muted max-w-2xl">
-            Own a golf simulator venue? Claim your listing to verify details, update photos, and show up higher in search results.
+          <h1 className="text-cream text-3xl md:text-4xl mb-4">Claim Your Venue</h1>
+          <p className="text-muted max-w-2xl mx-auto">
+            Own a golf simulator venue? Find your listing and claim it to verify details, 
+            update photos, and show up higher in search results.
           </p>
         </div>
 
+        {/* Search Section */}
+        <section className="mb-12 border border-default bg-charcoal p-8">
+          <div className="flex items-center justify-center gap-3 mb-6">
+            <div className="w-12 h-12 border border-masters-green flex items-center justify-center">
+              <Building2 className="w-6 h-6 text-masters-green" />
+            </div>
+          </div>
+          <h2 className="text-cream text-xl text-center mb-2">Find Your Venue</h2>
+          <p className="text-muted text-center mb-6 text-sm">
+            Search by venue name to find your listing
+          </p>
+
+          <form onSubmit={handleSearch} className="max-w-xl mx-auto">
+            <div className="flex flex-col sm:flex-row gap-3">
+              <div className="flex-1 relative">
+                <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-muted" />
+                <input
+                  type="text"
+                  placeholder="Enter your venue name"
+                  value={query}
+                  onChange={(e) => setQuery(e.target.value)}
+                  className="golf-input !pl-12 w-full"
+                  aria-label="Search for your venue"
+                />
+              </div>
+              <button type="submit" className="btn-primary whitespace-nowrap">
+                <span>Search</span>
+                <ArrowRight className="w-4 h-4" />
+              </button>
+            </div>
+          </form>
+
+          <p className="text-muted text-center text-sm mt-4">
+            Not listed yet?{" "}
+            <Link href="/submit" className="text-masters-green hover:text-cream transition-colors">
+              Submit your venue first →
+            </Link>
+          </p>
+        </section>
+
+        {/* Benefits & How it works */}
         <div className="grid md:grid-cols-2 gap-8 mb-12">
           <div className="border border-default bg-charcoal p-6">
             <h2 className="text-cream mb-4">Why claim your listing?</h2>
@@ -63,7 +105,7 @@ export default async function ClaimPage() {
             <ol className="space-y-3 text-muted">
               <li className="flex items-start gap-2">
                 <span className="text-masters-green font-mono">1.</span>
-                <span>Find your venue below or search for it</span>
+                <span>Search for your venue above</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-masters-green font-mono">2.</span>
@@ -85,46 +127,20 @@ export default async function ClaimPage() {
           </div>
         </div>
 
-        <div className="border border-default bg-charcoal p-6 mb-12">
-          <h2 className="text-cream mb-4">Don&apos;t see your venue?</h2>
-          <p className="text-muted mb-4">
-            If your venue isn&apos;t listed yet, submit it first. Once it&apos;s live, you can claim and verify it.
-          </p>
-          <Link href="/submit" className="btn-primary inline-block">
-            Submit a venue
-          </Link>
-        </div>
-
-        {unverifiedVenues.length > 0 && (
-          <section>
-            <h2 className="text-cream mb-6">Unclaimed venues</h2>
-            <p className="text-muted mb-6">
-              These venues haven&apos;t been claimed yet. If you own one, click through to claim it.
-            </p>
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {unverifiedVenues.map((venue) => (
-                <VenueCard
-                  key={venue.id}
-                  id={venue.id}
-                  slug={venue.slug}
-                  name={venue.name}
-                  city={venue.city}
-                  state={venue.state}
-                  heroImage={venue.heroImage}
-                  venueType={venue.venueType}
-                  simulatorSystems={venue.simulatorSystems as string[] | null}
-                  launchMonitorType={venue.launchMonitorType}
-                  priceRangeMin={venue.priceRangeMin}
-                  priceRangeMax={venue.priceRangeMax}
-                  ratingOverall={venue.ratingOverall}
-                  featured={venue.featured}
-                  tags={venue.tags}
-                  href={`/venue/us/${getStateSlug(venue.state)}/${venue.city.toLowerCase().replace(/\s+/g, "-")}/${venue.slug}`}
-                />
-              ))}
+        {/* Submit CTA */}
+        <section className="border border-default bg-charcoal p-6">
+          <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
+            <div>
+              <h2 className="text-cream mb-2">Don&apos;t see your venue?</h2>
+              <p className="text-muted text-sm">
+                If your venue isn&apos;t listed yet, submit it first. Once it&apos;s live, you can claim and verify it.
+              </p>
             </div>
-          </section>
-        )}
+            <Link href="/submit" className="btn-primary whitespace-nowrap">
+              Submit a venue
+            </Link>
+          </div>
+        </section>
       </div>
     </div>
   );

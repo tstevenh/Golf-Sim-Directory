@@ -18,14 +18,14 @@ type LaunchMonitorCard = {
 };
 
 export const metadata: Metadata = {
-  title: "Golf Launch Monitor Guide — TrackMan vs Foresight vs Uneekor",
-  description: "Compare top golf launch monitors side by side: TrackMan 4, Foresight GCQuad, Uneekor EYE XO. Official specs and pricing.",
+  title: "Golf Launch Monitor Comparison — TrackMan vs Foresight vs Uneekor",
+  description: "Compare top golf launch monitors side by side. See specs, pricing, accuracy, and find venues near you that use each system.",
   alternates: {
     canonical: "https://golfsimmap.com/launch-monitors",
   },
   openGraph: {
-    title: "Golf Launch Monitor Guide — TrackMan vs Foresight vs Uneekor",
-    description: "Compare top golf launch monitors side by side. Official specs and pricing.",
+    title: "Golf Launch Monitor Comparison — TrackMan vs Foresight vs Uneekor",
+    description: "Compare top golf launch monitors side by side. See specs, pricing, accuracy, and find venues near you that use each system.",
     type: "website",
     url: "https://golfsimmap.com/launch-monitors",
   },
