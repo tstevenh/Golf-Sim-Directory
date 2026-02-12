@@ -246,9 +246,6 @@ export function Footer() {
               © {currentYear} GolfSimMap. All rights reserved.
             </p>
             <div className="flex flex-col sm:flex-row sm:items-center gap-3">
-              <p className="text-xs text-muted">
-                Verified golf simulator venues across the USA.
-              </p>
               <div className="flex items-center gap-2">
                 <a
                   href="https://startupfa.me/s/golfsimmap?utm_source=golfsimmap.com"
@@ -308,6 +305,22 @@ export function Footer() {
                     src="https://shipybara.com/images/badges/shipybara-badge-light.svg"
                     alt="Featured on Shipybara"
                     width="150"
+                    height="54"
+                    loading="lazy"
+                    decoding="async"
+                    className="h-7 w-auto opacity-90 hover:opacity-100 transition-opacity"
+                  />
+                </a>
+                <a
+                  href="https://turbo0.com/item/golfsimmap"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex"
+                >
+                  <img
+                    src="https://img.turbo0.com/badge-listed-light.svg"
+                    alt="Listed on Turbo0"
+                    width="180"
                     height="54"
                     loading="lazy"
                     decoding="async"
