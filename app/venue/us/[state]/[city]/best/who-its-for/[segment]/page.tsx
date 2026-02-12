@@ -3,6 +3,7 @@ import { supabase, VENUE_CARD_FIELDS } from "@/lib/supabase";
 import { BestByPageContent } from "@/components/seo/BestByPageContent";
 import { getStateDisplayName, getStateAbbrevFromName } from "@/lib/states";
 import { getStaticRelatedLinks } from "@/lib/category-config.generated";
+import { getCachedNearbyCities } from "@/lib/cached-queries";
 
 interface CityBestWhoItsForPageProps {
   params: Promise<{ state: string; city: string; segment: string }>;
@@ -89,7 +90,7 @@ export default async function CityBestWhoItsForPage({ params, searchParams }: Ci
     description: `Venues ideal for ${segmentLabel.toLowerCase()} in ${cityFormatted}. These spots cater specifically to your needs and preferences.`,
   };
 
-  const [{ count: totalVenuesRaw }, { data: venueRows }, { data: nearbyCitiesRaw }] = await Promise.all([
+  const [{ count: totalVenuesRaw }, { data: venueRows }, nearbyCitiesRaw] = await Promise.all([
     supabase
       .from("venues")
       .select("*", { count: "exact", head: true })
@@ -110,11 +111,7 @@ export default async function CityBestWhoItsForPage({ params, searchParams }: Ci
       .order("ratingOverall", { ascending: false, nullsFirst: false })
       .order("name", { ascending: true })
       .range(skip, skip + pageSize - 1),
-    supabase.rpc("get_nearby_cities", {
-      target_state: stateAbbrev.toUpperCase(),
-      exclude_city: cityFormatted,
-      limit_count: 6,
-    }),
+    getCachedNearbyCities(stateAbbrev.toUpperCase(), cityFormatted, 6),
   ]);
   const totalVenues = totalVenuesRaw ?? 0;
   const venues = venueRows || [];

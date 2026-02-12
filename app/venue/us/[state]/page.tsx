@@ -1,6 +1,12 @@
 import { Metadata } from "next";
 import Link from "next/link";
 import { supabase, VENUE_CARD_FIELDS } from "@/lib/supabase";
+import { getCachedCitiesInState } from "@/lib/cached-queries";
+import {
+  getDistinctStatesFromSnapshot,
+  getStateVenueCountsFromSnapshot,
+  readVenueSnapshot,
+} from "@/lib/build-venues-cache";
 import { Building2, MapPin } from "lucide-react";
 import { CityCard } from "@/components/location/LocationCards";
 import { VenueCard } from "@/components/venue/VenueCard";
@@ -9,6 +15,7 @@ import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
 import {
   getStateDisplayName,
   getStateAbbrevFromName,
+  getStateSlug,
 } from "@/lib/states";
 import { VIBE_CATEGORIES, SEGMENT_CATEGORIES, HARDWARE_CATEGORIES } from "@/lib/best-by-config";
 
@@ -26,12 +33,16 @@ export async function generateMetadata({ params }: StatePageProps): Promise<Meta
     const stateAbbrev = getStateAbbrevFromName(state) || state.toUpperCase();
     const stateName = getStateDisplayName(stateAbbrev);
 
-    const { count } = await supabase
-      .from("venues")
-      .select("*", { count: "exact", head: true })
-      .eq("state", stateAbbrev.toUpperCase())
-      .eq("status", "active");
-    const venueCount = count || 0;
+    const snapshot = readVenueSnapshot();
+    const venueCount = snapshot
+      ? getStateVenueCountsFromSnapshot().find((row) => row.state === stateAbbrev.toUpperCase())?.count || 0
+      : (
+          await supabase
+            .from("venues")
+            .select("*", { count: "exact", head: true })
+            .eq("state", stateAbbrev.toUpperCase())
+            .eq("status", "active")
+        ).count || 0;
 
     return {
       title: `${venueCount} Indoor Golf Simulators in ${stateName} | GolfSimMap`,
@@ -55,13 +66,16 @@ export async function generateMetadata({ params }: StatePageProps): Promise<Meta
 }
 
 export async function generateStaticParams() {
-  return [
-    { state: "illinois" },
-    { state: "new-york" },
-    { state: "california" },
-    { state: "texas" },
-    { state: "florida" },
-  ];
+  const snapshot = readVenueSnapshot();
+  if (snapshot) {
+    return getDistinctStatesFromSnapshot().map((state) => ({ state: getStateSlug(state) }));
+  }
+
+  const { data } = await supabase.rpc("get_distinct_states");
+  if (!data) return [];
+  return data.map((row: { state: string }) => ({
+    state: getStateSlug(row.state),
+  }));
 }
 
 // Separate data fetching function to avoid try/catch around JSX
@@ -69,8 +83,8 @@ async function fetchStateData(state: string) {
   const stateAbbrev = getStateAbbrevFromName(state) || state.toUpperCase();
   const stateName = getStateDisplayName(stateAbbrev);
 
-  const [{ data: citiesRaw }, { data: featuredVenues }] = await Promise.all([
-    supabase.rpc("get_cities_in_state", { target_state: stateAbbrev.toUpperCase() }),
+  const [citiesRaw, { data: featuredVenues }] = await Promise.all([
+    getCachedCitiesInState(stateAbbrev.toUpperCase()),
     supabase
       .from("venues")
       .select(VENUE_CARD_FIELDS)

@@ -96,19 +96,24 @@ export function getVenueBestByLinks(
     simulatorSystems?: unknown;
   }
 ): Array<{ href: string; label: string }> {
-  const citySlug = venue.city.toLowerCase().replace(/\s+/g, "-");
-  const stateSlug = getStateSlug(venue.state);
+  const city = typeof venue.city === "string" ? venue.city : "";
+  const state = typeof venue.state === "string" ? venue.state : "";
+  if (!city || !state) return [];
+
+  const citySlug = city.toLowerCase().replace(/\s+/g, "-");
+  const stateSlug = getStateSlug(state);
   const links: Array<{ href: string; label: string }> = [];
 
   // Add vibe-based links the venue belongs to (max 2)
   if (venue.vibeTags) {
     venue.vibeTags.slice(0, 2).forEach((vibe) => {
+      if (typeof vibe !== "string" || !vibe) return;
       const vibeHyphen = vibe.replace(/_/g, "-");
       const vibeCat = VIBE_CATEGORIES.find((v) => v.slug === vibe || v.slug === vibeHyphen);
       if (vibeCat) {
         links.push({
           href: `/venue/us/${stateSlug}/${citySlug}/best/vibe/${vibeHyphen}`,
-          label: `Best ${vibeCat.label} in ${venue.city}`,
+          label: `Best ${vibeCat.label} in ${city}`,
         });
       }
     });
@@ -117,12 +122,13 @@ export function getVenueBestByLinks(
   // Add whoItsFor-based links (max 1)
   if (venue.whoItsFor) {
     const segment = venue.whoItsFor[0];
+    if (typeof segment !== "string" || !segment) return links.slice(0, 3);
     const segmentHyphen = segment.replace(/_/g, "-");
     const segCat = SEGMENT_CATEGORIES.find((s) => s.slug === segment || s.slug === segmentHyphen);
     if (segCat) {
       links.push({
         href: `/venue/us/${stateSlug}/${citySlug}/best/who-its-for/${segmentHyphen}`,
-        label: `Best for ${segCat.label} in ${venue.city}`,
+        label: `Best for ${segCat.label} in ${city}`,
       });
     }
   }

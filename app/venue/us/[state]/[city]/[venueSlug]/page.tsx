@@ -3,12 +3,15 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { cache } from "react";
 import { supabase } from "@/lib/supabase";
-import { getUser } from "@/lib/auth";
+import { getCachedNearbyVenues } from "@/lib/cached-queries";
+import {
+  getStaticVenueParamsFromSnapshot,
+  getVenueBySlugFromSnapshot,
+} from "@/lib/build-venues-cache";
 import { VenueDetail } from "@/components/venue/VenueDetail";
 import { VenueSchema } from "@/components/seo/VenueSchema";
 import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
-import { SessionUser } from "@/types";
-import { getStateDisplayName, getStateAbbrevFromName } from "@/lib/states";
+import { getStateDisplayName, getStateAbbrevFromName, getStateSlug } from "@/lib/states";
 
 interface VenuePageProps {
   params: Promise<{
@@ -23,12 +26,11 @@ const META_DESCRIPTION_MAX = 155;
 
 // Memoize venue fetch to prevent duplicate queries between generateMetadata and page
 const getVenueBySlug = cache(async (slug: string) => {
-  const { data } = await supabase
-    .from("venues")
-    .select("*")
-    .eq("slug", slug)
-    .single();
-  return data;
+  const snapshotVenue = getVenueBySlugFromSnapshot(slug);
+  if (snapshotVenue) return snapshotVenue;
+
+  const { data } = await supabase.from("venues").select("*").eq("slug", slug).single();
+  return data || null;
 });
 
 function normalizeText(value: string | null | undefined): string {
@@ -157,17 +159,45 @@ export async function generateMetadata({ params }: VenuePageProps): Promise<Meta
 }
 
 export async function generateStaticParams() {
-  return [
-    { state: "illinois", city: "chicago", venueSlug: "x-golf-chicago" },
-    { state: "illinois", city: "chicago", venueSlug: "five-iron-golf-chicago" },
-    { state: "illinois", city: "chicago", venueSlug: "topgolf-chicago" },
-    { state: "illinois", city: "chicago", venueSlug: "golftec-chicago-loop" },
-    { state: "new-york", city: "new-york", venueSlug: "indoor-golf-nyc" },
-    { state: "california", city: "los-angeles", venueSlug: "sim-golf-la" },
-    { state: "texas", city: "dallas", venueSlug: "pga-tour-superstore-dallas" },
-    { state: "florida", city: "miami", venueSlug: "drive-shack-miami" },
-    { state: "texas", city: "austin", venueSlug: "topgolf-austin" },
-  ];
+  const snapshotParams = getStaticVenueParamsFromSnapshot();
+  if (snapshotParams.length > 0) {
+    return snapshotParams.map((venue) => ({
+      state: getStateSlug(venue.state),
+      city: venue.city.toLowerCase().replace(/\s+/g, "-"),
+      venueSlug: venue.venueSlug,
+    }));
+  }
+
+  const params: { state: string; city: string; venueSlug: string }[] = [];
+  const pageSize = 1000;
+  let offset = 0;
+  let hasMore = true;
+
+  while (hasMore) {
+    const { data } = await supabase
+      .from("venues")
+      .select("slug, city, state")
+      .eq("status", "active")
+      .eq("country", "US")
+      .range(offset, offset + pageSize - 1);
+
+    if (!data || data.length === 0) {
+      break;
+    }
+
+    params.push(
+      ...data.map((venue) => ({
+        state: getStateSlug(venue.state),
+        city: venue.city.toLowerCase().replace(/\s+/g, "-"),
+        venueSlug: venue.slug,
+      }))
+    );
+
+    hasMore = data.length === pageSize;
+    offset += pageSize;
+  }
+
+  return params;
 }
 
 export default async function VenuePage({ params }: VenuePageProps) {
@@ -186,35 +216,12 @@ export default async function VenuePage({ params }: VenuePageProps) {
       notFound();
     }
 
-    const nearbyVenueFields = "id, name, slug, city, state, heroImage, venueType, simulatorSystems, launchMonitorType, priceRangeMin, priceRangeMax, ratingOverall, featured, tags";
-
-    // Fetch nearby venues in the same city first.
-    const { data: nearbyVenuesInCity } = await supabase
-      .from("venues")
-      .select(nearbyVenueFields)
-      .eq("city", venue.city)
-      .eq("state", venue.state)
-      .neq("id", venue.id)
-      .eq("status", "active")
-      .order("featured", { ascending: false })
-      .order("ratingOverall", { ascending: false, nullsFirst: false })
-      .limit(4);
-
-    // If the city has only this venue, fall back to the same state.
-    const isStateFallback = !nearbyVenuesInCity || nearbyVenuesInCity.length === 0;
-    let nearbyVenues = nearbyVenuesInCity || [];
-    if (isStateFallback) {
-      const { data: stateVenues } = await supabase
-        .from("venues")
-        .select(nearbyVenueFields)
-        .eq("state", venue.state)
-        .neq("id", venue.id)
-        .eq("status", "active")
-        .order("featured", { ascending: false })
-        .order("ratingOverall", { ascending: false, nullsFirst: false })
-        .limit(4);
-      nearbyVenues = stateVenues || [];
-    }
+    const { venues: nearbyVenues, scope: nearbyScope } = await getCachedNearbyVenues(
+      venue.city,
+      venue.state,
+      String(venue.id)
+    );
+    const isStateFallback = nearbyScope === "state";
 
     // Cast nearby venues to match VenueCard props
     const nearbyVenuesFormatted = nearbyVenues.map((v) => ({
@@ -222,28 +229,6 @@ export default async function VenuePage({ params }: VenuePageProps) {
       simulatorSystems: v.simulatorSystems as string[] | null,
       tags: v.tags as string[] | null,
     }));
-
-    const authUser = await getUser();
-
-    let isFavorited = false;
-    if (authUser?.id) {
-      const { data: favorite } = await supabase
-        .from("favorites")
-        .select("id")
-        .eq("userId", authUser.id)
-        .eq("venueId", venue.id)
-        .maybeSingle();
-      isFavorited = !!favorite;
-    }
-
-    const sessionUser: SessionUser | undefined = authUser
-      ? {
-          id: authUser.id,
-          email: authUser.email,
-          name: authUser.name,
-          role: authUser.role,
-        }
-      : undefined;
 
     return (
       <div className="min-h-screen bg-deep-black">
@@ -262,8 +247,8 @@ export default async function VenuePage({ params }: VenuePageProps) {
 
         <VenueDetail 
           venue={venue} 
-          isFavorited={isFavorited} 
-          user={sessionUser}
+          isFavorited={false} 
+          user={undefined}
           nearbyVenues={nearbyVenuesFormatted}
           nearbyScope={isStateFallback ? "state" : "city"}
         />

@@ -3,6 +3,7 @@ import { supabase, VENUE_CARD_FIELDS } from "@/lib/supabase";
 import type { VenueListItem } from "@/types";
 import { BestByPageContent } from "@/components/seo/BestByPageContent";
 import { getStateDisplayName, getStateAbbrevFromName } from "@/lib/states";
+import { getCachedNearbyCities } from "@/lib/cached-queries";
 import { getStaticRelatedLinks } from "@/lib/category-config.generated";
 import { normalizeSoftwareSlug } from "@/lib/software-slugs";
 
@@ -108,7 +109,7 @@ export default async function CityBestSoftwarePage({ params, searchParams }: Cit
   let nearbyCitiesResult: { city: string }[] = [];
 
   if (softwareSlug) {
-    const [{ count: totalVenuesRaw }, { data: venueRows }, { data: nearbyCitiesRaw }] = await Promise.all([
+    const [{ count: totalVenuesRaw }, { data: venueRows }, nearbyCitiesRaw] = await Promise.all([
       supabase
         .from("venues")
         .select("*", { count: "exact", head: true })
@@ -129,15 +130,11 @@ export default async function CityBestSoftwarePage({ params, searchParams }: Cit
         .order("ratingOverall", { ascending: false, nullsFirst: false })
         .order("name", { ascending: true })
         .range(skip, skip + pageSize - 1),
-      supabase.rpc("get_nearby_cities", {
-        target_state: stateAbbrev.toUpperCase(),
-        exclude_city: cityFormatted,
-        limit_count: 6,
-      }),
+      getCachedNearbyCities(stateAbbrev.toUpperCase(), cityFormatted, 6),
     ]);
     totalVenues = totalVenuesRaw ?? 0;
     venues = venueRows || [];
-    nearbyCitiesResult = (nearbyCitiesRaw || []) as { city: string }[];
+    nearbyCitiesResult = nearbyCitiesRaw as { city: string }[];
   }
 
   const nearbyLinks = nearbyCitiesResult.map((cityEntry) => ({

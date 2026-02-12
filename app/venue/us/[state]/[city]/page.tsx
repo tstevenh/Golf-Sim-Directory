@@ -1,13 +1,20 @@
 import { Metadata } from "next";
 import Link from "next/link";
 import { supabase, VENUE_CARD_FIELDS } from "@/lib/supabase";
+import { getCachedNearbyCities } from "@/lib/cached-queries";
+import {
+  getCityVenueCountFromSnapshot,
+  getCityVenuesPageFromSnapshot,
+  getDistinctCitiesFromSnapshot,
+  readVenueSnapshot,
+} from "@/lib/build-venues-cache";
 import { MapPin } from "lucide-react";
 import { VenueCard, VenueGrid } from "@/components/venue/VenueCard";
 import { CitySchema } from "@/components/seo/CitySchema";
 import { Pagination } from "@/components/ui/Pagination";
 import { CityCategoryLinks } from "@/components/seo/CityCategoryLinks";
 import { SeoIndexSections } from "@/components/seo/SeoIndexSections";
-import { getStateDisplayName, getStateAbbrevFromName } from "@/lib/states";
+import { getStateDisplayName, getStateAbbrevFromName, getStateSlug } from "@/lib/states";
 import { getStaticRelatedLinks } from "@/lib/category-config.generated";
 import { getCityVibeIndexUrl, getCityWhoItsForIndexUrl, getCityHardwareIndexUrl } from "@/lib/best-by-config";
 import { getCityCategoryBrowseLinksWithCounts } from "@/lib/best-by-data";
@@ -18,7 +25,6 @@ interface CityPageProps {
     state: string;
     city: string;
   }>;
-  searchParams?: Promise<{ page?: string }>;
 }
 
 export const revalidate = 86400;
@@ -31,14 +37,18 @@ export async function generateMetadata({ params }: CityPageProps): Promise<Metad
       .replace(/-/g, " ")
       .replace(/\b\w/g, (l) => l.toUpperCase());
 
-    const { count } = await supabase
-      .from("venues")
-      .select("*", { count: "exact", head: true })
-      .ilike("city", cityFormatted)
-      .eq("state", stateAbbrev.toUpperCase())
-      .eq("country", "US")
-      .eq("status", "active");
-    const venueCount = count || 0;
+    const snapshot = readVenueSnapshot();
+    const venueCount = snapshot
+      ? getCityVenueCountFromSnapshot(stateAbbrev.toUpperCase(), cityFormatted)
+      : (
+          await supabase
+            .from("venues")
+            .select("*", { count: "exact", head: true })
+            .ilike("city", cityFormatted)
+            .eq("state", stateAbbrev.toUpperCase())
+            .eq("country", "US")
+            .eq("status", "active")
+        ).count || 0;
 
     return {
       title: `${venueCount} Best Golf Simulators in ${cityFormatted}, ${stateAbbrev.toUpperCase()}`,
@@ -62,56 +72,60 @@ export async function generateMetadata({ params }: CityPageProps): Promise<Metad
 }
 
 export async function generateStaticParams() {
-  return [
-    { state: "illinois", city: "chicago" },
-    { state: "new-york", city: "new-york" },
-    { state: "california", city: "los-angeles" },
-    { state: "texas", city: "dallas" },
-    { state: "texas", city: "austin" },
-    { state: "florida", city: "miami" },
-  ];
+  const snapshot = readVenueSnapshot();
+  if (snapshot) {
+    return getDistinctCitiesFromSnapshot().map((row) => ({
+      state: getStateSlug(row.state),
+      city: row.city.toLowerCase().replace(/\s+/g, "-"),
+    }));
+  }
+
+  const { data } = await supabase.rpc("get_distinct_cities");
+  if (!data) return [];
+  return data.map((row: { city: string; state: string }) => ({
+    state: getStateSlug(row.state),
+    city: row.city.toLowerCase().replace(/\s+/g, "-"),
+  }));
 }
 
-export default async function CityPage({ params, searchParams }: CityPageProps) {
+export default async function CityPage({ params }: CityPageProps) {
   try {
     const { state, city } = await params;
-    const query = await searchParams;
     const stateAbbrev = getStateAbbrevFromName(state) || state.toUpperCase();
     const stateName = getStateDisplayName(stateAbbrev);
     const cityFormatted = city
       .replace(/-/g, " ")
       .replace(/\b\w/g, (l) => l.toUpperCase());
 
-    const page = Math.max(1, Number(query?.page || 1));
     const pageSize = 12;
-    const skip = (page - 1) * pageSize;
+    const currentPage = 1;
 
-    const [{ data: venueRows }, { data: nearbyCitiesRaw }, cityCategoryLinks] = await Promise.all([
-      supabase
-        .from("venues")
-        .select(VENUE_CARD_FIELDS)
-        .ilike("city", cityFormatted)
-        .eq("state", stateAbbrev.toUpperCase())
-        .eq("country", "US")
-        .eq("status", "active")
-        .order("featured", { ascending: false })
-        .order("ratingOverall", { ascending: false, nullsFirst: false })
-        .order("name", { ascending: true })
-        .range(skip, skip + pageSize),
-      supabase.rpc("get_nearby_cities", {
-        target_state: stateAbbrev.toUpperCase(),
-        exclude_city: cityFormatted,
-        limit_count: 6,
-      }),
+    const snapshot = readVenueSnapshot();
+    const [{ venues, hasNextPage }, nearbyCitiesRaw, cityCategoryLinks] = await Promise.all([
+      snapshot
+        ? Promise.resolve(getCityVenuesPageFromSnapshot(stateAbbrev.toUpperCase(), cityFormatted, 1, pageSize))
+        : supabase
+            .from("venues")
+            .select(VENUE_CARD_FIELDS)
+            .ilike("city", cityFormatted)
+            .eq("state", stateAbbrev.toUpperCase())
+            .eq("country", "US")
+            .eq("status", "active")
+            .order("featured", { ascending: false })
+            .order("ratingOverall", { ascending: false, nullsFirst: false })
+            .order("name", { ascending: true })
+            .range(0, pageSize)
+            .then(({ data }) => {
+              const rows = data || [];
+              return { venues: rows.slice(0, pageSize), hasNextPage: rows.length > pageSize };
+            }),
+      getCachedNearbyCities(stateAbbrev.toUpperCase(), cityFormatted, 6),
       getCityCategoryBrowseLinksWithCounts(state, cityFormatted, 3, stateAbbrev.toUpperCase()),
     ]);
 
-    const allVenues = venueRows || [];
-    const hasNextPage = allVenues.length > pageSize;
-    const venues = allVenues.slice(0, pageSize);
-    const knownVenueCount = page === 1 && !hasNextPage ? venues.length : undefined;
+    const knownVenueCount = !hasNextPage ? venues.length : undefined;
 
-    if (page === 1 && venues.length === 0) {
+    if (venues.length === 0) {
       return (
         <div className="min-h-screen bg-deep-black py-12">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -211,9 +225,9 @@ export default async function CityPage({ params, searchParams }: CityPageProps) 
               ))}
             </VenueGrid>
 
-            {(page > 1 || hasNextPage) && (
+            {(currentPage > 1 || hasNextPage) && (
               <Pagination
-                currentPage={page}
+                currentPage={currentPage}
                 hasNextPage={hasNextPage}
                 baseUrl={`/venue/us/${state}/${city}`}
               />

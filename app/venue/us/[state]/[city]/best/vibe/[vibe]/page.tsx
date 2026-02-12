@@ -3,6 +3,7 @@ import { supabase, VENUE_CARD_FIELDS } from "@/lib/supabase";
 import { BestByPageContent } from "@/components/seo/BestByPageContent";
 import { getStateDisplayName, getStateAbbrevFromName } from "@/lib/states";
 import { getStaticRelatedLinks } from "@/lib/category-config.generated";
+import { getCachedNearbyCities } from "@/lib/cached-queries";
 
 interface CityBestVibePageProps {
   params: Promise<{ state: string; city: string; vibe: string }>;
@@ -83,7 +84,7 @@ export default async function CityBestVibePage({ params, searchParams }: CityBes
   const vibeVariants = Array.from(new Set([vibe, vibe.replace(/-/g, "_"), vibe.replace(/_/g, "-")]));
   const skip = (page - 1) * pageSize;
 
-  const [{ count: totalVenuesRaw }, { data: venueRows }, { data: nearbyCitiesRaw }] = await Promise.all([
+  const [{ count: totalVenuesRaw }, { data: venueRows }, nearbyCitiesRaw] = await Promise.all([
     supabase
       .from("venues")
       .select("*", { count: "exact", head: true })
@@ -104,11 +105,7 @@ export default async function CityBestVibePage({ params, searchParams }: CityBes
       .order("ratingOverall", { ascending: false, nullsFirst: false })
       .order("name", { ascending: true })
       .range(skip, skip + pageSize - 1),
-    supabase.rpc("get_nearby_cities", {
-      target_state: stateAbbrev.toUpperCase(),
-      exclude_city: cityFormatted,
-      limit_count: 6,
-    }),
+    getCachedNearbyCities(stateAbbrev.toUpperCase(), cityFormatted, 6),
   ]);
   const totalVenues = totalVenuesRaw ?? 0;
   const venues = venueRows || [];

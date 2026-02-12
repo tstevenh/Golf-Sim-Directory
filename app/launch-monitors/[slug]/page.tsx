@@ -428,6 +428,12 @@ function generateSchemas(data: LaunchMonitorData, slug: string) {
   return { productSchema, faqSchema };
 }
 
+export const revalidate = 86400;
+
+export function generateStaticParams() {
+  return Object.keys(launchMonitorsData).map((slug) => ({ slug }));
+}
+
 export async function generateMetadata({ params }: LaunchMonitorPageProps): Promise<Metadata> {
   const { slug } = await params;
   const data = launchMonitorsData[slug];

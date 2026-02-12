@@ -1,6 +1,11 @@
 import { Metadata } from "next";
-import { supabase } from "@/lib/supabase";
 import { getStateSlug, getStateDisplayName } from "@/lib/states";
+import {
+  getCachedFeaturedVenues,
+  getCachedTotalActiveVenueCount,
+  getCachedStateVenueCounts,
+  getCachedCityVenueCounts,
+} from "@/lib/cached-queries";
 import { HeroSection } from "@/components/home/HeroSection";
 import { HowItWorks } from "@/components/home/HowItWorks";
 import { FeaturedVenues } from "@/components/home/FeaturedVenues";
@@ -24,7 +29,7 @@ export const metadata: Metadata = {
 };
 
 export default async function HomePage() {
-  // Fetch data with error handling for build time
+  // Fetch data via cached wrappers (shared across builds + ISR)
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   let topVenues: any[] = [];
   let totalVenues = 0;
@@ -35,28 +40,15 @@ export default async function HomePage() {
   let statesWithCounts: any[] = [];
 
   try {
-    // Fetch featured venues from database (limit to 9 for homepage display)
-    const { data: featuredData } = await supabase
-      .from("venues")
-      .select("id, slug, name, city, state, heroImage, venueType, simulatorSystems, launchMonitorType, priceRangeMin, priceRangeMax, ratingOverall, featured, tags, vibeTags")
-      .eq("status", "active")
-      .eq("featured", true)
-      .order("ratingOverall", { ascending: false, nullsFirst: false })
-      .order("name", { ascending: true })
-      .limit(9);
+    const [featuredData, venueCount, statesResult, citiesResult] = await Promise.all([
+      getCachedFeaturedVenues(9),
+      getCachedTotalActiveVenueCount(),
+      getCachedStateVenueCounts(),
+      getCachedCityVenueCounts(30),
+    ]);
 
-    topVenues = featuredData || [];
-
-    // Get total venue count for stats
-    const { count } = await supabase
-      .from("venues")
-      .select("*", { count: "exact", head: true })
-      .eq("status", "active");
-
-    totalVenues = count || 0;
-
-    // Get states with venue counts using database function
-    const { data: statesResult } = await supabase.rpc("get_state_venue_counts");
+    topVenues = featuredData;
+    totalVenues = venueCount;
 
     if (statesResult) {
       totalStates = statesResult.length;
@@ -68,15 +60,9 @@ export default async function HomePage() {
       }));
     }
 
-    // Get cities with venue counts using database function
-    const { data: citiesResult } = await supabase.rpc("get_city_venue_counts", {
-      limit_count: 30,
-    });
-
     citiesWithCounts = citiesResult || [];
   } catch (error) {
     console.error("Database error during build:", error);
-    // Return empty data - page will show fallback UI
   }
 
   // Transform cities data - top 12 for the section, top 30 for footer

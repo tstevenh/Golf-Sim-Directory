@@ -42,7 +42,8 @@ export const stateAbbrevToDisplay: Record<string, string> = {
 };
 
 export function getStateAbbrevFromName(name: string): string | null {
-  return stateNameToAbbrev[name.toLowerCase()] || null;
+  const normalized = name.toLowerCase().trim().replace(/\s+/g, "-");
+  return stateNameToAbbrev[normalized] || null;
 }
 
 export function getStateNameFromAbbrev(abbrev: string): string | null {
@@ -56,6 +57,23 @@ export function getStateDisplayName(abbrev: string): string {
 /** Convert a state abbreviation (e.g. "CA") to a URL slug (e.g. "california"). */
 export function getStateSlug(abbrev: string): string {
   return getStateNameFromAbbrev(abbrev) || abbrev.toLowerCase();
+}
+
+/** Normalize state input (abbrev or name) to a 2-letter uppercase code when possible. */
+export function normalizeStateCode(value: string): string {
+  const trimmed = value.trim();
+  if (!trimmed) return trimmed;
+
+  if (/^[a-z]{2}$/i.test(trimmed)) {
+    return trimmed.toUpperCase();
+  }
+
+  const abbrev = getStateAbbrevFromName(trimmed);
+  if (abbrev) {
+    return abbrev.toUpperCase();
+  }
+
+  return trimmed.toUpperCase();
 }
 
 export function slugify(text: string): string {

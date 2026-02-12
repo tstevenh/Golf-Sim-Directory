@@ -3,6 +3,7 @@ import { supabase, VENUE_CARD_FIELDS } from "@/lib/supabase";
 import type { VenueListItem } from "@/types";
 import { BestByPageContent } from "@/components/seo/BestByPageContent";
 import { getStateDisplayName, getStateAbbrevFromName } from "@/lib/states";
+import { getCachedNearbyCities } from "@/lib/cached-queries";
 import { getStaticRelatedLinks } from "@/lib/category-config.generated";
 import { normalizeHardwareBrand } from "@/lib/hardware-brands";
 
@@ -90,12 +91,7 @@ export default async function CityBestHardwarePage({ params, searchParams }: Cit
     venues = venueRows || [];
   }
 
-  const { data: nearbyCitiesRaw } = await supabase.rpc("get_nearby_cities", {
-    target_state: stateAbbrev.toUpperCase(),
-    exclude_city: cityFormatted,
-    limit_count: 6,
-  });
-  const nearbyCitiesResult = (nearbyCitiesRaw || []) as { city: string }[];
+  const nearbyCitiesResult = await getCachedNearbyCities(stateAbbrev.toUpperCase(), cityFormatted, 6);
 
   const nearbyLinks = nearbyCitiesResult.map((c) => ({
     label: `${brandLabel} in ${c.city}`,

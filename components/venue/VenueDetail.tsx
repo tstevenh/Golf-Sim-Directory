@@ -38,7 +38,7 @@ import {
   Building2,
 } from "lucide-react";
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { VenueCard, VenueGrid } from "./VenueCard";
 import { VenueBestByLinks } from "./VenueBestByLinks";
 
@@ -97,11 +97,20 @@ const PRICING_MODEL_LABELS: Record<string, string> = {
 };
 
 // Format tag to human readable
-function formatTag(tag: string): string {
-  return tag
+function formatTag(tag: unknown): string {
+  const value = String(tag ?? "");
+  return value
     .replace(/_/g, " ")
     .replace(/-/g, " ")
     .replace(/\b\w/g, (l) => l.toUpperCase());
+}
+
+function toStateSlug(state: string | null | undefined): string {
+  return state ? getStateSlug(state) : "unknown";
+}
+
+function toCitySlug(city: string | null | undefined): string {
+  return city ? city.toLowerCase().replace(/\s+/g, "-") : "unknown";
 }
 
 export function VenueDetail({
@@ -111,14 +120,67 @@ export function VenueDetail({
   nearbyScope = "city",
   nearbyVenues = [],
 }: VenueDetailProps) {
+  const [currentUser, setCurrentUser] = useState<SessionUser | undefined>(user);
   const [isFavorited, setIsFavorited] = useState(initialFavorited);
   const [showClaimModal, setShowClaimModal] = useState(false);
   const [claimSuccess, setClaimSuccess] = useState(false);
+  const venuePath = `/venue/us/${toStateSlug(venue.state)}/${toCitySlug(venue.city)}/${venue.slug}`;
+  const loginUrl = `/login?callbackUrl=${encodeURIComponent(venuePath)}`;
+
+  const fetchFavoriteState = async () => {
+    const res = await fetch(`/api/venues/${venue.id}/favorite`, {
+      method: "GET",
+      cache: "no-store",
+    });
+    if (!res.ok) {
+      throw new Error("Failed to fetch favorite state");
+    }
+    return (await res.json()) as {
+      authenticated?: boolean;
+      favorited?: boolean;
+      user?: SessionUser | null;
+    };
+  };
+
+  useEffect(() => {
+    let cancelled = false;
+
+    async function hydrateFavoriteState() {
+      try {
+        const data = await fetchFavoriteState();
+        if (cancelled) return;
+        if (data.authenticated && data.user) {
+          setCurrentUser(data.user);
+        } else {
+          setCurrentUser(undefined);
+        }
+        setIsFavorited(Boolean(data.favorited));
+      } catch {
+        // Keep server-rendered defaults if hydration check fails.
+      }
+    }
+
+    hydrateFavoriteState();
+    return () => {
+      cancelled = true;
+    };
+  }, [venue.id]);
 
   const toggleFavorite = async () => {
-    if (!user) {
-      window.location.href = "/login?redirect=/venue/" + venue.slug;
-      return;
+    if (!currentUser) {
+      try {
+        const data = await fetchFavoriteState();
+        if (data.authenticated && data.user) {
+          setCurrentUser(data.user);
+          setIsFavorited(Boolean(data.favorited));
+        } else {
+          window.location.href = loginUrl;
+          return;
+        }
+      } catch {
+        window.location.href = loginUrl;
+        return;
+      }
     }
 
     try {
@@ -126,17 +188,33 @@ export function VenueDetail({
         method: "POST",
       });
       if (res.ok) {
-        setIsFavorited(!isFavorited);
+        const data = (await res.json()) as { favorited?: boolean };
+        if (typeof data.favorited === "boolean") {
+          setIsFavorited(data.favorited);
+        } else {
+          setIsFavorited(!isFavorited);
+        }
       }
     } catch (error) {
       console.error("Error toggling favorite:", error);
     }
   };
 
-  const handleClaim = () => {
-    if (!user) {
-      window.location.href = "/login?redirect=/venue/" + venue.slug;
-      return;
+  const handleClaim = async () => {
+    if (!currentUser) {
+      try {
+        const data = await fetchFavoriteState();
+        if (data.authenticated && data.user) {
+          setCurrentUser(data.user);
+          setIsFavorited(Boolean(data.favorited));
+        } else {
+          window.location.href = loginUrl;
+          return;
+        }
+      } catch {
+        window.location.href = loginUrl;
+        return;
+      }
     }
     setShowClaimModal(true);
   };
@@ -227,7 +305,7 @@ export function VenueDetail({
             </button>
 
             <Link
-              href={`/venue/us/${getStateSlug(venue.state)}/${venue.city.toLowerCase().replace(/\s+/g, "-")}/${venue.slug}/report`}
+              href={`/venue/us/${toStateSlug(venue.state)}/${toCitySlug(venue.city)}/${venue.slug}/report`}
               className="flex items-center gap-2 px-4 py-2 border border-default text-muted hover:border-masters-green hover:text-cream transition-colors"
             >
               <Flag className="w-5 h-5" />
@@ -1052,31 +1130,31 @@ export function VenueDetail({
           </div>
           <div className="flex flex-wrap gap-3">
             <Link
-              href={`/venue/us/${getStateSlug(venue.state)}/${venue.city.toLowerCase().replace(/\s+/g, "-")}`}
+              href={`/venue/us/${toStateSlug(venue.state)}/${toCitySlug(venue.city)}`}
               className="px-4 py-2.5 border border-default rounded-full text-cream-subtle text-sm hover:border-masters-green hover:text-cream hover:bg-masters-green/5 transition-all"
             >
               All venues in {venue.city}
             </Link>
             <Link
-              href={`/venue/us/${getStateSlug(venue.state)}`}
+              href={`/venue/us/${toStateSlug(venue.state)}`}
               className="px-4 py-2.5 border border-default rounded-full text-cream-subtle text-sm hover:border-masters-green hover:text-cream hover:bg-masters-green/5 transition-all"
             >
               All venues in {venue.state}
             </Link>
             {venue.vibeTags && venue.vibeTags.length > 0 && (
               <Link
-                href={`/venue/us/${getStateSlug(venue.state)}/${venue.city.toLowerCase().replace(/\s+/g, "-")}/best/vibe/${venue.vibeTags[0].replace(/_/g, "-")}`}
+                href={`/venue/us/${toStateSlug(venue.state)}/${toCitySlug(venue.city)}/best/vibe/${String(venue.vibeTags[0] || "").replace(/_/g, "-")}`}
                 className="px-4 py-2.5 border border-default rounded-full text-cream-subtle text-sm hover:border-masters-green hover:text-cream hover:bg-masters-green/5 transition-all"
               >
-                {formatTag(venue.vibeTags[0])} venues in {venue.city}
+                {formatTag(String(venue.vibeTags[0] || ""))} venues in {venue.city}
               </Link>
             )}
             {venue.launchMonitorType && venue.launchMonitorType !== "unknown" && (
               <Link
-                href={`/best/launch-monitor/${venue.launchMonitorType.replace(/_/g, "-")}`}
+                href={`/best/launch-monitor/${String(venue.launchMonitorType).replace(/_/g, "-")}`}
                 className="px-4 py-2.5 border border-default rounded-full text-cream-subtle text-sm hover:border-masters-green hover:text-cream hover:bg-masters-green/5 transition-all"
               >
-                {LAUNCH_MONITOR_LABELS[venue.launchMonitorType] || formatTag(venue.launchMonitorType)} venues
+                {LAUNCH_MONITOR_LABELS[String(venue.launchMonitorType)] || formatTag(String(venue.launchMonitorType))} venues
               </Link>
             )}
             <Link
@@ -1124,7 +1202,7 @@ export function VenueDetail({
                     ratingOverall={nearby.ratingOverall}
                     featured={nearby.featured}
                     tags={nearby.tags as string[] | null}
-                    href={`/venue/us/${getStateSlug(nearby.state)}/${nearby.city.toLowerCase().replace(/\s+/g, "-")}/${nearby.slug}`}
+                    href={`/venue/us/${toStateSlug(nearby.state)}/${toCitySlug(nearby.city)}/${nearby.slug}`}
                   />
                 ))}
               </VenueGrid>

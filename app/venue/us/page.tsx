@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 import Link from "next/link";
-import { supabase } from "@/lib/supabase";
+import { getCachedStateVenueCounts } from "@/lib/cached-queries";
 import { TrendingUp, Monitor, Sparkles, Users, Coffee, Radar, Tag, Laptop } from "lucide-react";
 import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
 import { SeoIndexSections } from "@/components/seo/SeoIndexSections";
@@ -29,7 +29,7 @@ export default async function StatesIndexPage() {
   let totalVenues = 0;
 
   try {
-    const { data: statesResult } = await supabase.rpc("get_state_venue_counts");
+    const statesResult = await getCachedStateVenueCounts();
     if (statesResult) {
       statesWithVenues = statesResult.map((s: { state: string; count: number }) => ({
         state: s.state,
