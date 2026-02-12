@@ -124,7 +124,7 @@ export default function BestByIndexPage() {
         href: `/best/${toUrlSlug(t.slug)}`,
         icon: getIcon(t.slug),
       })),
-      viewAll: null,
+      viewAll: AVAILABLE_TAGS.length > 4 ? { label: "All experiences", href: "/best" } : null,
     },
     {
       id: "hardware",
@@ -160,7 +160,7 @@ export default function BestByIndexPage() {
         href: `/best/amenities/${toUrlSlug(a.slug)}`,
         icon: getIcon(a.slug),
       })),
-      viewAll: null,
+      viewAll: AVAILABLE_AMENITIES.length > 4 ? { label: "All amenities", href: "/best/amenities" } : null,
     },
     {
       id: "launch-monitor",
@@ -172,7 +172,7 @@ export default function BestByIndexPage() {
         href: `/best/launch-monitor/${toUrlSlug(l.slug)}`,
         icon: getIcon(l.slug),
       })),
-      viewAll: null,
+      viewAll: AVAILABLE_LAUNCH_MONITORS.length > 4 ? { label: "All launch monitors", href: "/best/launch-monitor" } : null,
     },
     {
       id: "software",
@@ -184,7 +184,7 @@ export default function BestByIndexPage() {
         href: `/best/software/${toUrlSlug(s.slug)}`,
         icon: Gamepad2,
       })),
-      viewAll: null,
+      viewAll: AVAILABLE_SOFTWARE.length > 4 ? { label: "All software", href: "/best/software" } : null,
     },
   ].filter(cat => cat.items.length > 0); // Only show categories with items
 

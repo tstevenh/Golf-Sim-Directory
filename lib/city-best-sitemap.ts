@@ -243,6 +243,14 @@ function buildCityBestSitemapEntries(buckets: Map<string, CityBestBuckets>): Met
     const citySlug = toCitySlug(bucket.cityName);
     const baseUrl = `${BASE_URL}/venue/us/${stateSlug}/${citySlug}/best`;
 
+    if (bucket.tags.size > 0) {
+      entries.push({
+        url: `${baseUrl}`,
+        lastModified: now,
+        changeFrequency: "weekly",
+        priority: 0.5,
+      });
+    }
     for (const tag of Array.from(bucket.tags).sort((a, b) => a.localeCompare(b))) {
       entries.push({
         url: `${baseUrl}/${toUrlSlug(tag)}`,
@@ -311,6 +319,14 @@ function buildCityBestSitemapEntries(buckets: Map<string, CityBestBuckets>): Met
         priority: 0.45,
       });
     }
+    if (bucket.software.size > 0) {
+      entries.push({
+        url: `${baseUrl}/software`,
+        lastModified: now,
+        changeFrequency: "weekly",
+        priority: 0.5,
+      });
+    }
 
     for (const launchMonitor of Array.from(bucket.launchMonitors).sort((a, b) => a.localeCompare(b))) {
       entries.push({
@@ -320,6 +336,14 @@ function buildCityBestSitemapEntries(buckets: Map<string, CityBestBuckets>): Met
         priority: 0.45,
       });
     }
+    if (bucket.launchMonitors.size > 0) {
+      entries.push({
+        url: `${baseUrl}/launch-monitor`,
+        lastModified: now,
+        changeFrequency: "weekly",
+        priority: 0.5,
+      });
+    }
 
     for (const amenity of Array.from(bucket.amenities).sort((a, b) => a.localeCompare(b))) {
       entries.push({
@@ -327,6 +351,14 @@ function buildCityBestSitemapEntries(buckets: Map<string, CityBestBuckets>): Met
         lastModified: now,
         changeFrequency: "weekly",
         priority: 0.45,
+      });
+    }
+    if (bucket.amenities.size > 0) {
+      entries.push({
+        url: `${baseUrl}/amenities`,
+        lastModified: now,
+        changeFrequency: "weekly",
+        priority: 0.5,
       });
     }
   }

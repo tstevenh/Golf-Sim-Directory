@@ -1,13 +1,22 @@
 import { Metadata } from "next";
 import Link from "next/link";
-import { getCachedStateVenueCounts } from "@/lib/cached-queries";
+import { getCachedCityVenueCounts, getCachedStateVenueCounts } from "@/lib/cached-queries";
 import { TrendingUp, Monitor, Sparkles, Users, Coffee, Radar, Tag, Laptop } from "lucide-react";
 import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
 import { SeoIndexSections } from "@/components/seo/SeoIndexSections";
-import { getStateDisplayName } from "@/lib/states";
+import { getStateDisplayName, getStateSlug } from "@/lib/states";
 import { StatesSortWrapper } from "./StatesSortWrapper";
 
 export const revalidate = 86400;
+
+function toPathSegment(value: string): string {
+  return value
+    .trim()
+    .toLowerCase()
+    .replace(/[_\s]+/g, "-")
+    .replace(/-+/g, "-")
+    .replace(/^-|-$/g, "");
+}
 
 export const metadata: Metadata = {
   title: "Indoor Golf Simulators in All 50 States | GolfSimMap",
@@ -26,6 +35,7 @@ export const metadata: Metadata = {
 export default async function StatesIndexPage() {
   // Get all states with venue counts
   let statesWithVenues: { state: string; _count: { id: number } }[] = [];
+  let topCities: { city: string; state: string; count: number }[] = [];
   let totalVenues = 0;
 
   try {
@@ -41,17 +51,27 @@ export default async function StatesIndexPage() {
     // Return empty if DB unavailable during build
   }
 
+  try {
+    const cityResult = await getCachedCityVenueCounts(8);
+    if (cityResult) {
+      topCities = cityResult;
+    }
+  } catch {
+    // Return empty if DB unavailable during build
+  }
+
   const breadcrumbItems = [
     { label: "Home", href: "/" },
     { label: "United States", current: true },
   ];
 
-  // Top states for nearby links
-  const topStateLinks = statesWithVenues.slice(0, 8).map((s) => {
-    const stateName = getStateDisplayName(s.state);
+  // Top cities for nearby links
+  const topCityLinks = topCities.slice(0, 8).map((cityData) => {
+    const stateSlug = getStateSlug(cityData.state);
+    const citySlug = toPathSegment(cityData.city);
     return {
-      label: `Golf simulators in ${stateName}`,
-      href: `/venue/us/${stateName.toLowerCase().replace(/\s+/g, "-")}`,
+      label: `Golf simulators in ${cityData.city}`,
+      href: `/venue/us/${stateSlug}/${citySlug}`,
     };
   });
 
@@ -291,8 +311,8 @@ export default async function StatesIndexPage() {
           methodologyDescription="GolfSimMap combines user reviews, on-site assessments, and direct venue data to create comprehensive listings. We evaluate launch monitor accuracy, facility quality, staff expertise, and overall value. Verified venues have confirmed their details with us. Rankings prioritize data completeness and user satisfaction, with featured venues meeting our highest quality standards."
           faqTitle="Frequently Asked Questions"
           faqItems={faqItems}
-          nearbyTitle="Top States for Golf Simulators"
-          nearbyLinks={topStateLinks}
+          nearbyTitle="Top Cities for Golf Simulators"
+          nearbyLinks={topCityLinks}
           relatedTitle="Browse by Category"
           relatedLinks={relatedLinks}
           ctaTitle="Own a Golf Simulator Venue?"

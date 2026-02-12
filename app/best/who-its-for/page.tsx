@@ -6,6 +6,16 @@ import { AVAILABLE_SEGMENTS } from "@/lib/category-config.generated";
 
 export const dynamic = "force-static";
 
+const segmentDescriptions: Record<string, string> = {
+  beginners: "Approachable venues great for first-time simulator golfers.",
+  "corporate-groups": "Venues set up for team events and client outings.",
+  "serious-golfers": "Data-focused environments for low-handicap players.",
+  "date-night": "Fun, social venues suited for couples and small groups.",
+  "large-groups": "Layouts and booking setups that support bigger parties.",
+  families: "Welcoming venues for parents, kids, and mixed-skill players.",
+  "league-players": "Venues with structured competitive and recurring play.",
+};
+
 export const metadata: Metadata = {
   title: "Golf Simulators for Every Occasion — Date Night, Groups & More",
   description: "Find golf simulator venues perfect for date nights, corporate events, family outings, serious practice, bachelor parties, and more.",
@@ -27,7 +37,10 @@ const breadcrumbItems = [
 ];
 
 export default function WhoItsForIndexPage() {
-  const segmentCounts = AVAILABLE_SEGMENTS.filter((s) => s.count > 0);
+  const segmentCounts = AVAILABLE_SEGMENTS.filter((s) => s.count > 0).map((s) => ({
+    ...s,
+    description: segmentDescriptions[s.slug] || `Find venues best suited for ${s.label.toLowerCase()}.`,
+  }));
 
   return (
     <div className="min-h-screen bg-deep-black">
@@ -90,6 +103,7 @@ export default function WhoItsForIndexPage() {
                   </h2>
                   <ArrowRight className="w-5 h-5 text-muted group-hover:text-masters-green transition-colors" />
                 </div>
+                <p className="text-muted mb-4">{segment.description}</p>
                 <div className="flex items-center gap-2 text-sm">
                   <span className="text-masters-green font-mono">{segment.count}</span>
                   <span className="text-muted">

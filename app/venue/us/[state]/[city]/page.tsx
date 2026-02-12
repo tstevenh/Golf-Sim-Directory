@@ -136,7 +136,7 @@ export default async function CityPage({ params }: CityPageProps) {
 
     // Build nearby city links
     const nearbyLinks = nearbyCities.map((cityName) => ({
-      label: cityName,
+      label: `Golf simulators in ${cityName}`,
       href: `/venue/us/${state}/${cityName.toLowerCase().replace(/\s+/g, "-")}`,
     }));
 

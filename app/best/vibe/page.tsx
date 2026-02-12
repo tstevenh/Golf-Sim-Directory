@@ -6,6 +6,16 @@ import { AVAILABLE_VIBES } from "@/lib/category-config.generated";
 
 export const dynamic = "force-static";
 
+const vibeDescriptions: Record<string, string> = {
+  upscale: "Premium spaces with elevated service and polished interiors.",
+  casual: "Relaxed venues for easy-going simulator sessions with friends.",
+  "sports-bar": "Game-day energy with screens, drinks, and social play.",
+  boutique: "Smaller-format venues with curated experiences and atmosphere.",
+  lounge: "Comfort-forward venues designed for long, social sessions.",
+  entertainment: "Activity-first venues built for fun group events.",
+  family: "Friendly spaces that welcome mixed-skill and all-ages groups.",
+};
+
 export const metadata: Metadata = {
   title: "Golf Simulators by Vibe — Casual, Upscale, Sports Bar & More",
   description: "Browse golf simulator venues by atmosphere. Find casual hangouts, upscale lounges, sports bars, tech labs, and party spots near you.",
@@ -27,7 +37,10 @@ const breadcrumbItems = [
 ];
 
 export default function VibeIndexPage() {
-  const vibeCounts = AVAILABLE_VIBES.filter((v) => v.count > 0);
+  const vibeCounts = AVAILABLE_VIBES.filter((v) => v.count > 0).map((v) => ({
+    ...v,
+    description: vibeDescriptions[v.slug] || `Find venues with a ${v.label.toLowerCase()} atmosphere.`,
+  }));
 
   return (
     <div className="min-h-screen bg-deep-black">
@@ -90,6 +103,7 @@ export default function VibeIndexPage() {
                   </h2>
                   <ArrowRight className="w-5 h-5 text-muted group-hover:text-masters-green transition-colors" />
                 </div>
+                <p className="text-muted mb-4">{vibe.description}</p>
                 <div className="flex items-center gap-2 text-sm">
                   <span className="text-masters-green font-mono">{vibe.count}</span>
                   <span className="text-muted">
