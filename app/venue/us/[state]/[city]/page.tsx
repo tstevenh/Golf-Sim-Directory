@@ -5,7 +5,6 @@ import { getCachedNearbyCities } from "@/lib/cached-queries";
 import {
   getCityVenueCountFromSnapshot,
   getCityVenuesPageFromSnapshot,
-  getDistinctCitiesFromSnapshot,
   readVenueSnapshot,
 } from "@/lib/build-venues-cache";
 import { MapPin } from "lucide-react";
@@ -14,7 +13,7 @@ import { CitySchema } from "@/components/seo/CitySchema";
 import { Pagination } from "@/components/ui/Pagination";
 import { CityCategoryLinks } from "@/components/seo/CityCategoryLinks";
 import { SeoIndexSections } from "@/components/seo/SeoIndexSections";
-import { getStateDisplayName, getStateAbbrevFromName, getStateSlug } from "@/lib/states";
+import { getStateDisplayName, getStateAbbrevFromName } from "@/lib/states";
 import { getStaticRelatedLinks } from "@/lib/category-config.generated";
 import { getCityVibeIndexUrl, getCityWhoItsForIndexUrl, getCityHardwareIndexUrl } from "@/lib/best-by-config";
 import { getCityCategoryBrowseLinksWithCounts } from "@/lib/best-by-data";
@@ -70,23 +69,6 @@ export async function generateMetadata({ params }: CityPageProps): Promise<Metad
       description: "Find indoor golf simulators and screen golf venues near you.",
     };
   }
-}
-
-export async function generateStaticParams() {
-  const snapshot = readVenueSnapshot();
-  if (snapshot) {
-    return getDistinctCitiesFromSnapshot().map((row) => ({
-      state: getStateSlug(row.state),
-      city: row.city.toLowerCase().replace(/\s+/g, "-"),
-    }));
-  }
-
-  const { data } = await supabase.rpc("get_distinct_cities");
-  if (!data) return [];
-  return data.map((row: { city: string; state: string }) => ({
-    state: getStateSlug(row.state),
-    city: row.city.toLowerCase().replace(/\s+/g, "-"),
-  }));
 }
 
 export default async function CityPage({ params }: CityPageProps) {

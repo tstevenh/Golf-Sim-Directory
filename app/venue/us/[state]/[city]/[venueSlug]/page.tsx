@@ -5,13 +5,12 @@ import { cache } from "react";
 import { supabase } from "@/lib/supabase";
 import { getCachedNearbyVenues } from "@/lib/cached-queries";
 import {
-  getStaticVenueParamsFromSnapshot,
   getSnapshotActiveUSVenues,
 } from "@/lib/build-venues-cache";
 import { VenueDetail } from "@/components/venue/VenueDetail";
 import { VenueSchema } from "@/components/seo/VenueSchema";
 import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
-import { getStateDisplayName, getStateAbbrevFromName, getStateSlug, normalizeStateCode } from "@/lib/states";
+import { getStateDisplayName, getStateAbbrevFromName, normalizeStateCode } from "@/lib/states";
 
 interface VenuePageProps {
   params: Promise<{
@@ -182,48 +181,6 @@ export async function generateMetadata({ params }: VenuePageProps): Promise<Meta
   } catch {
     return { title: "Venue", description: "Golf simulator venue" };
   }
-}
-
-export async function generateStaticParams() {
-  const snapshotParams = getStaticVenueParamsFromSnapshot();
-  if (snapshotParams.length > 0) {
-    return snapshotParams.map((venue) => ({
-      state: getStateSlug(venue.state),
-      city: toPathSegment(venue.city),
-      venueSlug: toPathSegment(venue.venueSlug),
-    }));
-  }
-
-  const params: { state: string; city: string; venueSlug: string }[] = [];
-  const pageSize = 1000;
-  let offset = 0;
-  let hasMore = true;
-
-  while (hasMore) {
-    const { data } = await supabase
-      .from("venues")
-      .select("slug, city, state")
-      .eq("status", "active")
-      .eq("country", "US")
-      .range(offset, offset + pageSize - 1);
-
-    if (!data || data.length === 0) {
-      break;
-    }
-
-    params.push(
-      ...data.map((venue) => ({
-        state: getStateSlug(venue.state),
-        city: toPathSegment(venue.city),
-        venueSlug: toPathSegment(venue.slug),
-      }))
-    );
-
-    hasMore = data.length === pageSize;
-    offset += pageSize;
-  }
-
-  return params;
 }
 
 export default async function VenuePage({ params }: VenuePageProps) {
