@@ -15,6 +15,22 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "*.cloudfront.net",
       },
+      {
+        protocol: "https",
+        hostname: "startupfa.me",
+      },
+      {
+        protocol: "https",
+        hostname: "foundrlist.com",
+      },
+      {
+        protocol: "https",
+        hostname: "trylaunch.ai",
+      },
+      {
+        protocol: "https",
+        hostname: "shipybara.com",
+      },
     ],
     formats: ['image/avif', 'image/webp'],
     minimumCacheTTL: 60 * 60 * 24 * 30, // 30 days

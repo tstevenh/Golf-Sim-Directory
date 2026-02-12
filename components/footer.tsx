@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { Mail } from "lucide-react";
+/* eslint-disable @next/next/no-img-element */
 
 const footerLinks = {
   discover: [
@@ -244,9 +245,77 @@ export function Footer() {
             <p className="text-xs text-muted">
               © {currentYear} GolfSimMap. All rights reserved.
             </p>
-            <p className="text-xs text-muted">
-              Verified golf simulator venues across the USA.
-            </p>
+            <div className="flex flex-col sm:flex-row sm:items-center gap-3">
+              <p className="text-xs text-muted">
+                Verified golf simulator venues across the USA.
+              </p>
+              <div className="flex items-center gap-2">
+                <a
+                  href="https://startupfa.me/s/golfsimmap?utm_source=golfsimmap.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex"
+                >
+                  <img
+                    src="https://startupfa.me/badges/featured-badge-small.webp"
+                    alt="GolfSimMap - Featured on Startup Fame"
+                    width="224"
+                    height="36"
+                    loading="lazy"
+                    decoding="async"
+                    className="h-7 w-auto opacity-90 hover:opacity-100 transition-opacity"
+                  />
+                </a>
+                <a
+                  href="https://foundrlist.com/product/golfsimmap"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex"
+                >
+                  <img
+                    src="https://foundrlist.com/api/badge/golfsimmap"
+                    alt="Live on FoundrList"
+                    width="180"
+                    height="72"
+                    loading="lazy"
+                    decoding="async"
+                    className="h-7 w-auto opacity-90 hover:opacity-100 transition-opacity"
+                  />
+                </a>
+                <a
+                  href="https://trylaunch.ai/launch/golfsimmap"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex"
+                >
+                  <img
+                    src="https://trylaunch.ai/badges/badge-color.png"
+                    alt="Featured on Launch"
+                    width="180"
+                    height="53"
+                    loading="lazy"
+                    decoding="async"
+                    className="h-7 w-auto opacity-90 hover:opacity-100 transition-opacity"
+                  />
+                </a>
+                <a
+                  href="https://shipybara.com/projects/golfsimmap"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex"
+                >
+                  <img
+                    src="https://shipybara.com/images/badges/shipybara-badge-light.svg"
+                    alt="Featured on Shipybara"
+                    width="150"
+                    height="54"
+                    loading="lazy"
+                    decoding="async"
+                    className="h-7 w-auto opacity-90 hover:opacity-100 transition-opacity"
+                  />
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
