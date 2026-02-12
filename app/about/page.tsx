@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Target, MapPin, Database, Building2, Users, CheckCircle, ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "About GolfSimMap — The Indoor Golf Simulator Directory",
+  title: "About the Indoor Golf Simulator Directory",
   description: "GolfSimMap helps golfers find and compare indoor golf simulator venues across the US. Learn about our mission and how we built the directory.",
   alternates: {
     canonical: "https://golfsimmap.com/about",

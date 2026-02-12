@@ -31,7 +31,7 @@ import {
 export const dynamic = "force-static";
 
 export const metadata: Metadata = {
-  title: "Best Golf Simulators by Category — Vibe, Tech, Amenities | GolfSimMap",
+  title: "Best Golf Simulators by Category — Vibe, Tech, Amenities",
   description: "Find your perfect golf simulator venue. Browse by vibe, launch monitor tech, amenities, software, or occasion. Compare hundreds of venues across the US.",
   alternates: {
     canonical: "https://golfsimmap.com/best",

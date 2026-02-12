@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Mail, MapPin, MessageSquare } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Contact GolfSimMap — Questions & Partnerships",
+  title: "Contact — Questions & Partnerships",
   description: "Have a question about a venue listing? Want to partner with GolfSimMap? Get in touch with our team.",
   alternates: {
     canonical: "https://golfsimmap.com/contact",

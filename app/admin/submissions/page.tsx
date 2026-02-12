@@ -5,7 +5,7 @@ import Link from "next/link";
 import { ApproveButton } from "./ApproveButton";
 
 export const metadata: Metadata = {
-  title: "Admin - Submissions | GolfSimMap",
+  title: "Admin - Submissions",
 };
 
 export default async function AdminSubmissionsPage() {

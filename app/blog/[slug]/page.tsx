@@ -27,7 +27,7 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
   }
   
   return {
-    title: `${post.title} — GolfSimMap Blog`,
+    title: `${post.title} — Blog`,
     description: post.excerpt,
     alternates: {
       canonical: `https://golfsimmap.com/blog/${slug}`,

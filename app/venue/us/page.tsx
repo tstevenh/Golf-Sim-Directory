@@ -19,7 +19,7 @@ function toPathSegment(value: string): string {
 }
 
 export const metadata: Metadata = {
-  title: "Indoor Golf Simulators in All 50 States | GolfSimMap",
+  title: "Indoor Golf Simulators in All 50 States",
   description: "Browse 3,000+ indoor golf simulator venues across every US state. Compare pricing, launch monitors, and amenities. Find your nearest spot and book online.",
   alternates: {
     canonical: "https://golfsimmap.com/venue/us",

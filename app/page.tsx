@@ -14,7 +14,9 @@ import { PopularCities } from "@/components/home/PopularCities";
 import { BusinessCTA } from "@/components/home/BusinessCTA";
 
 export const metadata: Metadata = {
-  title: "GolfSimMap — Find Indoor Golf Simulators Near You",
+  title: {
+    absolute: "GolfSimMap — Find Indoor Golf Simulators Near You",
+  },
   description:
     "Discover 3,870+ indoor golf simulator venues across the US. Compare launch monitors, pricing, amenities, and book your next session.",
   alternates: {
@@ -132,7 +134,7 @@ export default async function HomePage() {
       />
       <HeroSection totalVenues={totalVenues} totalStates={totalStates} />
       <HowItWorks />
-      <FeaturedVenues venues={featuredVenues} />
+      {featuredVenues.length > 0 ? <FeaturedVenues venues={featuredVenues} /> : null}
       <LaunchMonitorComparison />
       <PopularCities cities={popularCities} states={statesWithCounts.slice(0, 10)} />
       <BusinessCTA />

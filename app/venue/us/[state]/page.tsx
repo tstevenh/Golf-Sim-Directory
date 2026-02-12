@@ -46,7 +46,7 @@ export async function generateMetadata({ params }: StatePageProps): Promise<Meta
         ).count || 0;
 
     return {
-      title: `${venueCount} Indoor Golf Simulators in ${stateName} | GolfSimMap`,
+      title: `${venueCount} Indoor Golf Simulators in ${stateName}`,
       description: `Find the best indoor golf simulators in ${stateName}. Compare ${venueCount} venues by launch monitor, pricing, and vibe. Book your session today.`,
       alternates: {
         canonical: `https://golfsimmap.com/venue/us/${state}`,
