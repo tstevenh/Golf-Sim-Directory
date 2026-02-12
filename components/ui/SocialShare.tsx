@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Check, Copy, Linkedin, Facebook, Link2 } from "lucide-react";
+import { Check, Linkedin, Facebook, Link2 } from "lucide-react";
 
 interface SocialShareProps {
   url: string;

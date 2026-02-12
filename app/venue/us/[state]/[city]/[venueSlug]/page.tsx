@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { cache } from "react";
+import { cache, type ComponentProps } from "react";
 import { supabase } from "@/lib/supabase";
 import { getCachedNearbyVenues } from "@/lib/cached-queries";
 import {
@@ -22,6 +22,7 @@ interface VenuePageProps {
 
 export const revalidate = 86400;
 const META_DESCRIPTION_MAX = 155;
+type NearbyVenuesForDetail = NonNullable<ComponentProps<typeof VenueDetail>["nearbyVenues"]>;
 
 function toPathSegment(value: string): string {
   return value
@@ -183,7 +184,17 @@ export async function generateMetadata({ params }: VenuePageProps): Promise<Meta
   }
 }
 
-export default async function VenuePage({ params }: VenuePageProps) {
+interface VenuePageData {
+  state: string;
+  city: string;
+  stateName: string;
+  cityFormatted: string;
+  venue: Awaited<ReturnType<typeof getVenueBySlug>>;
+  nearbyVenuesFormatted: NearbyVenuesForDetail;
+  nearbyScope: Awaited<ReturnType<typeof getCachedNearbyVenues>>["scope"];
+}
+
+async function loadVenuePageData(params: VenuePageProps["params"]): Promise<VenuePageData | null> {
   try {
     const { state, city, venueSlug } = await params;
     const stateAbbrev = getStateAbbrevFromName(state) || state.toUpperCase();
@@ -194,9 +205,16 @@ export default async function VenuePage({ params }: VenuePageProps) {
 
     // Use cached fetch - already called in generateMetadata, so this won't hit DB again
     const venue = await getVenueBySlug(venueSlug, state, city);
-
     if (!venue || venue.status !== "active") {
-      notFound();
+      return {
+        state,
+        city,
+        stateName,
+        cityFormatted,
+        venue: null,
+        nearbyVenuesFormatted: [],
+        nearbyScope: "city",
+      };
     }
 
     const { venues: nearbyVenues, scope: nearbyScope } = await getCachedNearbyVenues(
@@ -204,40 +222,31 @@ export default async function VenuePage({ params }: VenuePageProps) {
       venue.state,
       String(venue.id)
     );
-    const isStateFallback = nearbyScope === "state";
 
     // Cast nearby venues to match VenueCard props
-    const nearbyVenuesFormatted = nearbyVenues.map((v) => ({
+    const nearbyVenuesFormatted: NearbyVenuesForDetail = nearbyVenues.map((v) => ({
       ...v,
       simulatorSystems: v.simulatorSystems as string[] | null,
       tags: v.tags as string[] | null,
     }));
 
-    return (
-      <div className="min-h-screen bg-deep-black">
-        <VenueSchema venue={venue} />
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-6">
-          <Breadcrumbs
-            items={[
-              { label: "Home", href: "/" },
-              { label: "United States", href: "/venue/us" },
-              { label: stateName, href: `/venue/us/${state}` },
-              { label: cityFormatted, href: `/venue/us/${state}/${city}` },
-              { label: venue.name },
-            ]}
-          />
-        </div>
-
-        <VenueDetail 
-          venue={venue} 
-          isFavorited={false} 
-          user={undefined}
-          nearbyVenues={nearbyVenuesFormatted}
-          nearbyScope={isStateFallback ? "state" : "city"}
-        />
-      </div>
-    );
+    return {
+      state,
+      city,
+      stateName,
+      cityFormatted,
+      venue,
+      nearbyVenuesFormatted,
+      nearbyScope,
+    };
   } catch {
+    return null;
+  }
+}
+
+export default async function VenuePage({ params }: VenuePageProps) {
+  const pageData = await loadVenuePageData(params);
+  if (!pageData) {
     return (
       <div className="min-h-screen bg-deep-black py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -250,4 +259,36 @@ export default async function VenuePage({ params }: VenuePageProps) {
       </div>
     );
   }
+
+  const { state, city, stateName, cityFormatted, venue, nearbyVenuesFormatted, nearbyScope } = pageData;
+  if (!venue || venue.status !== "active") {
+    notFound();
+  }
+
+  const isStateFallback = nearbyScope === "state";
+
+  return (
+    <div className="min-h-screen bg-deep-black">
+      <VenueSchema venue={venue} />
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-6">
+        <Breadcrumbs
+          items={[
+            { label: "Home", href: "/" },
+            { label: "United States", href: "/venue/us" },
+            { label: stateName, href: `/venue/us/${state}` },
+            { label: cityFormatted, href: `/venue/us/${state}/${city}` },
+            { label: venue.name },
+          ]}
+        />
+      </div>
+
+      <VenueDetail
+        venue={venue}
+        isFavorited={false}
+        user={undefined}
+        nearbyVenues={nearbyVenuesFormatted}
+        nearbyScope={isStateFallback ? "state" : "city"}
+      />
+    </div>
+  );
 }

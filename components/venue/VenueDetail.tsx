@@ -39,7 +39,7 @@ import {
   Building2,
 } from "lucide-react";
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { VenueCard, VenueGrid } from "./VenueCard";
 import { VenueBestByLinks } from "./VenueBestByLinks";
 
@@ -128,7 +128,7 @@ export function VenueDetail({
   const venuePath = getVenueHref(venue.state, venue.city, venue.slug);
   const loginUrl = `/login?callbackUrl=${encodeURIComponent(venuePath)}`;
 
-  const fetchFavoriteState = async () => {
+  const fetchFavoriteState = useCallback(async () => {
     const res = await fetch(`/api/venues/${venue.id}/favorite`, {
       method: "GET",
       cache: "no-store",
@@ -141,7 +141,7 @@ export function VenueDetail({
       favorited?: boolean;
       user?: SessionUser | null;
     };
-  };
+  }, [venue.id]);
 
   useEffect(() => {
     let cancelled = false;
@@ -165,7 +165,7 @@ export function VenueDetail({
     return () => {
       cancelled = true;
     };
-  }, [venue.id]);
+  }, [fetchFavoriteState]);
 
   const toggleFavorite = async () => {
     if (!currentUser) {
