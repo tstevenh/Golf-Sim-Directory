@@ -1,5 +1,5 @@
 import { Venue } from "@/types";
-import { getStateSlug } from "@/lib/states";
+import { getVenueHref } from "@/lib/venue-url";
 
 interface VenueSchemaProps {
   venue: Venue;
@@ -79,7 +79,7 @@ function buildSchemaDescription(venue: Venue): string {
 }
 
 export function VenueSchema({ venue }: VenueSchemaProps) {
-  const venueUrl = `https://golfsimmap.com/venue/us/${getStateSlug(venue.state)}/${venue.city.toLowerCase().replace(/\s+/g, "-")}/${venue.slug}`;
+  const venueUrl = `https://golfsimmap.com${getVenueHref(venue.state, venue.city, venue.slug)}`;
 
   const schema = {
     "@context": "https://schema.org",

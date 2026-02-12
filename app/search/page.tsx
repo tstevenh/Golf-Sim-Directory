@@ -4,14 +4,19 @@ import { supabase, VENUE_CARD_FIELDS } from "@/lib/supabase";
 import type { VenueType, LaunchMonitorType } from "@/lib/supabase";
 import { VenueCard, VenueGrid } from "@/components/venue/VenueCard";
 import { Pagination } from "@/components/ui/Pagination";
-import { getStateSlug, getStateDisplayName } from "@/lib/states";
+import { getStateDisplayName } from "@/lib/states";
 import { normalizeHardwareBrand } from "@/lib/hardware-brands";
+import { getVenueHref } from "@/lib/venue-url";
 import { Search } from "lucide-react";
 import { SearchForm } from "./SearchForm";
 
 export const metadata: Metadata = {
   title: "Search Golf Simulators — Find Venues Near You",
   description: "Search indoor golf simulator venues by city, state, launch monitor type, vibe, and amenities. Find and book your perfect venue.",
+  robots: {
+    index: false,
+    follow: false,
+  },
   alternates: {
     canonical: "https://golfsimmap.com/search",
   },
@@ -294,7 +299,7 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
                     ratingOverall={venue.ratingOverall}
                     featured={venue.featured}
                     tags={venue.tags}
-                    href={`/venue/us/${getStateSlug(venue.state)}/${venue.city.toLowerCase().replace(/\s+/g, "-")}/${venue.slug}`}
+                    href={getVenueHref(venue.state, venue.city, venue.slug)}
                   />
                 ))}
               </VenueGrid>

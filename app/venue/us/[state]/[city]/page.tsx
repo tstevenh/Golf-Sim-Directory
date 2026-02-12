@@ -19,6 +19,7 @@ import { getStaticRelatedLinks } from "@/lib/category-config.generated";
 import { getCityVibeIndexUrl, getCityWhoItsForIndexUrl, getCityHardwareIndexUrl } from "@/lib/best-by-config";
 import { getCityCategoryBrowseLinksWithCounts } from "@/lib/best-by-data";
 import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
+import { getVenueHref } from "@/lib/venue-url";
 
 interface CityPageProps {
   params: Promise<{
@@ -220,7 +221,7 @@ export default async function CityPage({ params }: CityPageProps) {
                   ratingOverall={venue.ratingOverall}
                   featured={venue.featured}
                   tags={venue.tags}
-                  href={`/venue/us/${state}/${city}/${venue.slug}`}
+                  href={getVenueHref(venue.state, venue.city, venue.slug)}
                 />
               ))}
             </VenueGrid>

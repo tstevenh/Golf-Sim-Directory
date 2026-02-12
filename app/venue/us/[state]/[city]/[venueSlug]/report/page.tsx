@@ -12,6 +12,10 @@ export async function generateMetadata({ params }: ReportPageProps): Promise<Met
   
   return {
     title: "Report Correction",
+    robots: {
+      index: false,
+      follow: false,
+    },
     alternates: {
       canonical: `https://golfsimmap.com/venue/us/${state}/${city}/${venueSlug}/report`,
     },

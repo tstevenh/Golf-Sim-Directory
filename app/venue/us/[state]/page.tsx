@@ -18,6 +18,7 @@ import {
   getStateSlug,
 } from "@/lib/states";
 import { VIBE_CATEGORIES, SEGMENT_CATEGORIES, HARDWARE_CATEGORIES } from "@/lib/best-by-config";
+import { getVenueHref } from "@/lib/venue-url";
 
 interface StatePageProps {
   params: Promise<{
@@ -301,7 +302,7 @@ export default async function StatePage({ params }: StatePageProps) {
                       ratingOverall={venue.ratingOverall}
                       featured={venue.featured}
                       tags={venue.tags}
-                      href={`/venue/us/${state}/${venue.city.toLowerCase().replace(/\s+/g, "-")}/${venue.slug}`}
+                      href={getVenueHref(venue.state, venue.city, venue.slug)}
                     />
                   ))}
                 </div>

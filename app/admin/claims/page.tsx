@@ -2,7 +2,7 @@ import { requireAdmin } from "@/lib/auth";
 import { supabase } from "@/lib/supabase";
 import Link from "next/link";
 import { ReviewClaimButton } from "./ReviewClaimButton";
-import { getStateSlug } from "@/lib/states";
+import { getVenueHref } from "@/lib/venue-url";
 
 export const metadata = {
   title: "Review Claim Requests - Admin",
@@ -76,9 +76,7 @@ export default async function AdminClaimsPage() {
                       )}
                       <div className="pt-2">
                         <Link
-                          href={`/venue/us/${getStateSlug(request.venue.state)}/${request.venue.city
-                            .toLowerCase()
-                            .replace(/\s+/g, "-")}/${request.venue.slug}`}
+                          href={getVenueHref(request.venue.state, request.venue.city, request.venue.slug)}
                           target="_blank"
                           className="text-masters-green hover:text-cream transition-colors text-sm"
                         >

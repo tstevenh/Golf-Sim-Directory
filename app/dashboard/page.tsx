@@ -4,7 +4,7 @@ import { supabase } from "@/lib/supabase";
 import type { Venue, Submission, UserRole } from "@/lib/supabase";
 import Link from "next/link";
 import { Heart, Building2, Mail, User, ArrowRight, MapPin, FileText } from "lucide-react";
-import { getStateSlug } from "@/lib/states";
+import { getVenueHref } from "@/lib/venue-url";
 
 interface FavoriteWithVenue {
   id: string;
@@ -152,7 +152,7 @@ export default async function DashboardPage() {
                 {favorites.map((fav: FavoriteWithVenue) => (
                   <Link
                     key={fav.id}
-                    href={`/venue/us/${getStateSlug(fav.venues.state)}/${fav.venues.city.toLowerCase().replace(/\s+/g, "-")}/${fav.venues.slug}`}
+                    href={getVenueHref(fav.venues.state, fav.venues.city, fav.venues.slug)}
                     className="flex items-center gap-4 p-4 border border-default hover:border-masters-green transition-colors group"
                   >
                     <div className="w-16 h-16 bg-slate flex-shrink-0 overflow-hidden">
@@ -221,7 +221,7 @@ export default async function DashboardPage() {
                       </div>
                       <div className="flex gap-3">
                         <Link
-                          href={`/venue/us/${getStateSlug(venue.state)}/${venue.city.toLowerCase().replace(/\s+/g, "-")}/${venue.slug}`}
+                          href={getVenueHref(venue.state, venue.city, venue.slug)}
                           className="text-sm text-muted hover:text-masters-green transition-colors"
                         >
                           View

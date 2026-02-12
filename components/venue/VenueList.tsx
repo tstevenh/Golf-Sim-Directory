@@ -3,7 +3,7 @@
 import { Venue } from "@/types";
 import { VenueCard } from "./VenueCard";
 import { MapPin } from "lucide-react";
-import { getStateSlug } from "@/lib/states";
+import { getVenueHref } from "@/lib/venue-url";
 
 interface VenueListProps {
   venues: Venue[];
@@ -22,9 +22,6 @@ export function VenueList({ venues }: VenueListProps) {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
       {venues.map((venue) => {
-        const stateSlug = getStateSlug(venue.state);
-        const citySlug = venue.city.toLowerCase().replace(/\s+/g, "-");
-        
         return (
           <VenueCard
             key={venue.id}
@@ -42,7 +39,7 @@ export function VenueList({ venues }: VenueListProps) {
             ratingOverall={venue.ratingOverall}
             featured={venue.featured}
             tags={venue.tags}
-            href={`/venue/us/${stateSlug}/${citySlug}/${venue.slug}`}
+            href={getVenueHref(venue.state, venue.city, venue.slug)}
           />
         );
       })}

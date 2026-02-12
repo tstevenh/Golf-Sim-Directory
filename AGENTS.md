@@ -90,7 +90,7 @@ my-app/
 │   ├── index.ts                  # TypeScript type definitions
 │   └── supabase.ts               # Auto-generated Supabase types
 ├── enriched_venues/              # JSON venue data (~3,000 files)
-├── middleware.ts                 # Next.js middleware (auth, redirects)
+├── proxy.ts                      # Next.js proxy (auth, redirects)
 ├── next.config.ts                # Next.js configuration
 ├── tsconfig.json                 # TypeScript config
 ├── postcss.config.mjs            # PostCSS config (Tailwind 4)
@@ -110,7 +110,7 @@ my-app/
 | `tsconfig.json` | TypeScript - strict mode, path aliases (`@/*`) |
 | `postcss.config.mjs` | Tailwind CSS 4 with @tailwindcss/postcss |
 | `components.json` | shadcn/ui - New York style, slate base color |
-| `middleware.ts` | Cookie handling, underscore→hyphen 301 redirects |
+| `proxy.ts` | Cookie handling, underscore→hyphen 301 redirects |
 
 ### Database Schema (Supabase)
 

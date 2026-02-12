@@ -5,7 +5,7 @@ import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import { VenueCard } from "@/components/venue/VenueCard";
-import { getStateSlug } from "@/lib/states";
+import { getVenueHref } from "@/lib/venue-url";
 
 interface Venue {
   id: string;
@@ -135,7 +135,7 @@ export function FeaturedVenues({ venues }: FeaturedVenuesProps) {
                 ratingOverall={venue.ratingOverall}
                 featured={venue.featured}
                 tags={venue.tags}
-                href={`/venue/us/${getStateSlug(venue.state)}/${venue.city.toLowerCase().replace(/\s+/g, "-")}/${venue.slug}`}
+                href={getVenueHref(venue.state, venue.city, venue.slug)}
               />
             </div>
           ))}

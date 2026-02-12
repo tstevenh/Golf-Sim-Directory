@@ -3,7 +3,7 @@ import { SeoIndexSections } from "@/components/seo/SeoIndexSections";
 import { VenueCard, VenueGrid } from "@/components/venue/VenueCard";
 import { CategoryHero } from "@/components/seo/CategoryHero";
 import { Pagination } from "@/components/ui/Pagination";
-import { getStateSlug } from "@/lib/states";
+import { getVenueHref } from "@/lib/venue-url";
 
 type CategoryType = 
   | "tag" 
@@ -152,7 +152,7 @@ export function BestByPageContent({
                     ratingOverall={venue.ratingOverall}
                     featured={venue.featured}
                     tags={venue.tags}
-                    href={`/venue/us/${getStateSlug(venue.state)}/${venue.city.toLowerCase().replace(/\s+/g, "-")}/${venue.slug}`}
+                    href={getVenueHref(venue.state, venue.city, venue.slug)}
                     rank={showRanking ? (currentPage - 1) * pageSize + index + 1 : undefined}
                     showRank={showRanking && (currentPage - 1) * pageSize + index < 10}
                   />
@@ -299,7 +299,7 @@ export function CityPageContent({
                     ratingOverall={venue.ratingOverall}
                     featured={venue.featured}
                     tags={venue.tags}
-                    href={`/venue/us/${getStateSlug(venue.state)}/${venue.city.toLowerCase().replace(/\s+/g, "-")}/${venue.slug}`}
+                    href={getVenueHref(venue.state, venue.city, venue.slug)}
                     rank={(currentPage - 1) * pageSize + index + 1}
                     showRank={(currentPage - 1) * pageSize + index < 5}
                   />

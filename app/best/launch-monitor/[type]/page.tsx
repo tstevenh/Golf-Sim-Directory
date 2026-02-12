@@ -16,7 +16,7 @@ export const revalidate = 86400;
 export async function generateStaticParams() {
   return [
     { type: "radar" },
-    { type: "photometric_camera" },
+    { type: "photometric-camera" },
     { type: "hybrid" },
   ];
 }
@@ -55,8 +55,9 @@ const launchMonitorContent: Record<string, { tagline: string; description: strin
 
 export async function generateMetadata({ params }: BestLaunchMonitorPageProps): Promise<Metadata> {
   const { type } = await params;
+  const normalizedType = type.toLowerCase().replace(/-/g, "_");
   const label = type.replace(/_/g, " ").replace(/\b\w/g, l => l.toUpperCase());
-  const content = launchMonitorContent[type.toLowerCase()] || { tagline: "", description: "" };
+  const content = launchMonitorContent[normalizedType] || { tagline: "", description: "" };
 
   return {
     title: `Best ${label} Launch Monitor Venues — Compare & Book`,
@@ -78,11 +79,12 @@ export default async function BestLaunchMonitorPage({ params, searchParams }: Be
   const page = Math.max(1, Number(paramsResolved.page || 1));
   const pageSize = 12;
   const { type } = await params;
+  const normalizedType = type.toLowerCase().replace(/-/g, "_");
   const label = type.replace(/_/g, " ").replace(/\b\w/g, l => l.toUpperCase());
-  const typeKey = type.toLowerCase();
+  const typeKey = normalizedType;
   const skip = (page - 1) * pageSize;
   const validTypes = new Set<LaunchMonitorType>(["radar", "photometric_camera", "hybrid", "unknown"]);
-  const isValidType = validTypes.has(type as LaunchMonitorType);
+  const isValidType = validTypes.has(typeKey as LaunchMonitorType);
 
   let totalVenues = 0;
   let venues: VenueListItem[] = [];
@@ -93,12 +95,12 @@ export default async function BestLaunchMonitorPage({ params, searchParams }: Be
         .from("venues")
         .select("*", { count: "exact", head: true })
         .eq("status", "active")
-        .eq("launchMonitorType", type as LaunchMonitorType),
+        .eq("launchMonitorType", typeKey as LaunchMonitorType),
       supabase
         .from("venues")
         .select(VENUE_CARD_FIELDS)
         .eq("status", "active")
-        .eq("launchMonitorType", type as LaunchMonitorType)
+        .eq("launchMonitorType", typeKey as LaunchMonitorType)
         .order("featured", { ascending: false })
         .order("ratingOverall", { ascending: false, nullsFirst: false })
         .order("name", { ascending: true })
@@ -142,7 +144,7 @@ export default async function BestLaunchMonitorPage({ params, searchParams }: Be
   // Related categories - static, no DB query
   const relatedLinks = [
     { label: "Browse all categories", href: "/best" },
-    ...getStaticRelatedLinks("launch-monitor", type, 6),
+    ...getStaticRelatedLinks("launch-monitor", typeKey, 6),
   ];
 
   return (

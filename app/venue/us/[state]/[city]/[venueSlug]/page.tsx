@@ -6,12 +6,12 @@ import { supabase } from "@/lib/supabase";
 import { getCachedNearbyVenues } from "@/lib/cached-queries";
 import {
   getStaticVenueParamsFromSnapshot,
-  getVenueBySlugFromSnapshot,
+  getSnapshotActiveUSVenues,
 } from "@/lib/build-venues-cache";
 import { VenueDetail } from "@/components/venue/VenueDetail";
 import { VenueSchema } from "@/components/seo/VenueSchema";
 import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
-import { getStateDisplayName, getStateAbbrevFromName, getStateSlug } from "@/lib/states";
+import { getStateDisplayName, getStateAbbrevFromName, getStateSlug, normalizeStateCode } from "@/lib/states";
 
 interface VenuePageProps {
   params: Promise<{
@@ -24,13 +24,40 @@ interface VenuePageProps {
 export const revalidate = 86400;
 const META_DESCRIPTION_MAX = 155;
 
+function toPathSegment(value: string): string {
+  return value
+    .trim()
+    .toLowerCase()
+    .replace(/[_\s]+/g, "-")
+    .replace(/-+/g, "-")
+    .replace(/^-|-$/g, "");
+}
+
 // Memoize venue fetch to prevent duplicate queries between generateMetadata and page
-const getVenueBySlug = cache(async (slug: string) => {
-  const snapshotVenue = getVenueBySlugFromSnapshot(slug);
+const getVenueBySlug = cache(async (slug: string, state: string, city: string) => {
+  const normalizedSlug = toPathSegment(slug);
+  const stateCode = normalizeStateCode(getStateAbbrevFromName(state) || state.toUpperCase());
+  const cityFormatted = city.replace(/-/g, " ").replace(/\b\w/g, (l) => l.toUpperCase());
+  const normalizedCity = cityFormatted.trim().toLowerCase();
+
+  const snapshotVenue = getSnapshotActiveUSVenues().find(
+    (venue) =>
+      normalizeStateCode(String(venue.state || "")) === stateCode &&
+      String(venue.city || "").trim().toLowerCase() === normalizedCity &&
+      toPathSegment(String(venue.slug || "")) === normalizedSlug
+  );
   if (snapshotVenue) return snapshotVenue;
 
-  const { data } = await supabase.from("venues").select("*").eq("slug", slug).single();
-  return data || null;
+  const { data } = await supabase
+    .from("venues")
+    .select("*")
+    .eq("status", "active")
+    .eq("country", "US")
+    .eq("state", stateCode)
+    .ilike("city", cityFormatted);
+
+  if (!data || data.length === 0) return null;
+  return data.find((venue) => toPathSegment(String(venue.slug || "")) === normalizedSlug) || null;
 });
 
 function normalizeText(value: string | null | undefined): string {
@@ -109,15 +136,14 @@ function buildMetaDescription(venue: {
 
 export async function generateMetadata({ params }: VenuePageProps): Promise<Metadata> {
   try {
-    const { venueSlug } = await params;
+    const { state, city, venueSlug } = await params;
     // Use cached fetch to avoid duplicate query with page component
-    const venue = await getVenueBySlug(venueSlug);
+    const venue = await getVenueBySlug(venueSlug, state, city);
 
     if (!venue) {
       return { title: "Venue Not Found" };
     }
 
-    const { state, city } = await params;
     const venueTypeLabel = venue.venueType === "sim_bar" ? "Simulator Bar" 
       : venue.venueType === "training_studio" ? "Training Studio"
       : venue.venueType === "entertainment_venue" ? "Entertainment Venue"
@@ -129,7 +155,7 @@ export async function generateMetadata({ params }: VenuePageProps): Promise<Meta
       ? ` From $${venue.priceRangeMin}/hr.`
       : venue.priceRangeMin ? ` From $${venue.priceRangeMin}/hr.` : "";
     const description = buildMetaDescription(venue, venueTypeLabel, priceSnippet);
-    const canonicalUrl = `https://golfsimmap.com/venue/us/${state}/${city}/${venue.slug}`;
+    const canonicalUrl = `https://golfsimmap.com/venue/us/${state}/${toPathSegment(city)}/${toPathSegment(venue.slug)}`;
 
     return {
       title,
@@ -163,8 +189,8 @@ export async function generateStaticParams() {
   if (snapshotParams.length > 0) {
     return snapshotParams.map((venue) => ({
       state: getStateSlug(venue.state),
-      city: venue.city.toLowerCase().replace(/\s+/g, "-"),
-      venueSlug: venue.venueSlug,
+      city: toPathSegment(venue.city),
+      venueSlug: toPathSegment(venue.venueSlug),
     }));
   }
 
@@ -188,8 +214,8 @@ export async function generateStaticParams() {
     params.push(
       ...data.map((venue) => ({
         state: getStateSlug(venue.state),
-        city: venue.city.toLowerCase().replace(/\s+/g, "-"),
-        venueSlug: venue.slug,
+        city: toPathSegment(venue.city),
+        venueSlug: toPathSegment(venue.slug),
       }))
     );
 
@@ -210,7 +236,7 @@ export default async function VenuePage({ params }: VenuePageProps) {
       .replace(/\b\w/g, (l) => l.toUpperCase());
 
     // Use cached fetch - already called in generateMetadata, so this won't hit DB again
-    const venue = await getVenueBySlug(venueSlug);
+    const venue = await getVenueBySlug(venueSlug, state, city);
 
     if (!venue || venue.status !== "active") {
       notFound();

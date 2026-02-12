@@ -44,9 +44,7 @@ export const metadata: Metadata = {
     description: "Search 3,800+ indoor golf simulator venues across the US. Compare TrackMan, Foresight & Uneekor launch monitors, check pricing, and book your next session.",
     images: [
       {
-        url: "/og-image.jpg",
-        width: 1200,
-        height: 630,
+        url: "/hero-golf-simulator.jpg",
         alt: "GolfSimMap — Find Indoor Golf Simulators Near You",
       },
     ],
@@ -55,7 +53,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "GolfSimMap — Find Indoor Golf Simulators Near You",
     description: "Search 3,800+ indoor golf simulator venues across the US. Compare TrackMan, Foresight & Uneekor launch monitors, check pricing, and book your next session.",
-    images: ["/og-image.jpg"],
+    images: ["/hero-golf-simulator.jpg"],
   },
   robots: {
     index: true,

@@ -3,6 +3,7 @@
 
 import { Venue, SessionUser } from "@/types";
 import { getStateSlug } from "@/lib/states";
+import { getVenueHref } from "@/lib/venue-url";
 import { VerifiedBadge } from "@/components/ui/VerifiedBadge";
 import { ClaimVenueModal } from "@/components/venue/ClaimVenueModal";
 import {
@@ -124,7 +125,7 @@ export function VenueDetail({
   const [isFavorited, setIsFavorited] = useState(initialFavorited);
   const [showClaimModal, setShowClaimModal] = useState(false);
   const [claimSuccess, setClaimSuccess] = useState(false);
-  const venuePath = `/venue/us/${toStateSlug(venue.state)}/${toCitySlug(venue.city)}/${venue.slug}`;
+  const venuePath = getVenueHref(venue.state, venue.city, venue.slug);
   const loginUrl = `/login?callbackUrl=${encodeURIComponent(venuePath)}`;
 
   const fetchFavoriteState = async () => {
@@ -305,7 +306,7 @@ export function VenueDetail({
             </button>
 
             <Link
-              href={`/venue/us/${toStateSlug(venue.state)}/${toCitySlug(venue.city)}/${venue.slug}/report`}
+              href={`${venuePath}/report`}
               className="flex items-center gap-2 px-4 py-2 border border-default text-muted hover:border-masters-green hover:text-cream transition-colors"
             >
               <Flag className="w-5 h-5" />
@@ -1202,7 +1203,7 @@ export function VenueDetail({
                     ratingOverall={nearby.ratingOverall}
                     featured={nearby.featured}
                     tags={nearby.tags as string[] | null}
-                    href={`/venue/us/${toStateSlug(nearby.state)}/${toCitySlug(nearby.city)}/${nearby.slug}`}
+                    href={getVenueHref(nearby.state, nearby.city, nearby.slug)}
                   />
                 ))}
               </VenueGrid>

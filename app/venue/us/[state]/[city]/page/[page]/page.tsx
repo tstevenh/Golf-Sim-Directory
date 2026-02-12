@@ -8,6 +8,7 @@ import { VenueCard, VenueGrid } from "@/components/venue/VenueCard";
 import { Pagination } from "@/components/ui/Pagination";
 import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
 import { getStateDisplayName, getStateAbbrevFromName } from "@/lib/states";
+import { getVenueHref } from "@/lib/venue-url";
 
 interface CityPaginationPageProps {
   params: Promise<{
@@ -119,7 +120,7 @@ export default async function CityPaginationPage({ params }: CityPaginationPageP
               ratingOverall={(venue.ratingOverall as number | null) ?? null}
               featured={Boolean(venue.featured)}
               tags={(venue.tags as string[] | null) ?? null}
-              href={`/venue/us/${state}/${city}/${venue.slug}`}
+              href={getVenueHref(String(venue.state), String(venue.city), String(venue.slug))}
             />
           ))}
         </VenueGrid>

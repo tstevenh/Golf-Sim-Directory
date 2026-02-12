@@ -55,11 +55,12 @@ const launchMonitorContent: Record<string, { tagline: string; shortDesc: string;
 
 export async function generateMetadata({ params }: CityBestLaunchMonitorPageProps): Promise<Metadata> {
   const { state, city, type } = await params;
+  const normalizedType = type.toLowerCase().replace(/-/g, "_");
   const stateAbbrev = getStateAbbrevFromName(state) || state.toUpperCase();
   const stateName = getStateDisplayName(stateAbbrev);
   const cityFormatted = city.replace(/-/g, " ").replace(/\b\w/g, l => l.toUpperCase());
   const typeLabel = type.replace(/_/g, " ").replace(/-/g, " ").replace(/\b\w/g, l => l.toUpperCase());
-  const content = launchMonitorContent[type.toLowerCase()] || { shortDesc: "this launch monitor type" };
+  const content = launchMonitorContent[normalizedType] || { shortDesc: "this launch monitor type" };
 
   return {
     title: `${typeLabel} Launch Monitor Venues in ${cityFormatted}, ${stateAbbrev}`,
@@ -80,14 +81,15 @@ export default async function CityBestLaunchMonitorPage({ params, searchParams }
   const page = Math.max(1, Number(paramsResolved.page || 1));
   const pageSize = 12;
   const { state, city, type } = await params;
+  const normalizedType = type.toLowerCase().replace(/-/g, "_");
   const stateAbbrev = getStateAbbrevFromName(state) || state.toUpperCase();
   const stateName = getStateDisplayName(stateAbbrev);
   const cityFormatted = city.replace(/-/g, " ").replace(/\b\w/g, l => l.toUpperCase());
   const typeLabel = type.replace(/_/g, " ").replace(/-/g, " ").replace(/\b\w/g, l => l.toUpperCase());
-  const typeKey = type.toLowerCase();
+  const typeKey = normalizedType;
   const skip = (page - 1) * pageSize;
   const validTypes = new Set<LaunchMonitorType>(["radar", "photometric_camera", "hybrid", "unknown"]);
-  const isValidType = validTypes.has(type as LaunchMonitorType);
+  const isValidType = validTypes.has(typeKey as LaunchMonitorType);
 
   const content = launchMonitorContent[typeKey] || {
     tagline: `${typeLabel} Technology`,
@@ -108,7 +110,7 @@ export default async function CityBestLaunchMonitorPage({ params, searchParams }
         .eq("state", stateAbbrev.toUpperCase())
         .eq("country", "US")
         .eq("status", "active")
-        .eq("launchMonitorType", type as LaunchMonitorType),
+        .eq("launchMonitorType", typeKey as LaunchMonitorType),
       supabase
         .from("venues")
         .select(VENUE_CARD_FIELDS)
@@ -116,7 +118,7 @@ export default async function CityBestLaunchMonitorPage({ params, searchParams }
         .eq("state", stateAbbrev.toUpperCase())
         .eq("country", "US")
         .eq("status", "active")
-        .eq("launchMonitorType", type as LaunchMonitorType)
+        .eq("launchMonitorType", typeKey as LaunchMonitorType)
         .order("featured", { ascending: false })
         .order("ratingOverall", { ascending: false, nullsFirst: false })
         .order("name", { ascending: true })
@@ -164,7 +166,7 @@ export default async function CityBestLaunchMonitorPage({ params, searchParams }
     { label: `All venues in ${cityFormatted}`, href: `/venue/us/${state}/${city}` },
     { label: `${typeLabel} venues (national)`, href: `/best/launch-monitor/${type}` },
     { label: `All venues in ${stateName}`, href: `/venue/us/${state}` },
-    ...getStaticRelatedLinks("launch-monitor", type, 4),
+    ...getStaticRelatedLinks("launch-monitor", typeKey, 4),
   ];
 
   return (
