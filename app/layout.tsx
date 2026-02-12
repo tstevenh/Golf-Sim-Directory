@@ -1,10 +1,14 @@
 import type { Metadata } from "next";
 import { Space_Grotesk, JetBrains_Mono } from "next/font/google";
+import Script from "next/script";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
 import { AuthProvider } from "@/components/auth-provider";
 import { ScrollToTopOnRouteChange } from "@/components/scroll-to-top-on-route-change";
+
+const GA_MEASUREMENT_ID = "G-FSVT6K4L9H";
 
 const spaceGrotesk = Space_Grotesk({
   variable: "--font-space-grotesk",
@@ -66,7 +70,6 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
-  // verification: { google: "ADD_YOUR_CODE_HERE" },
   alternates: {
     canonical: "https://golfsimmap.com",
   },
@@ -85,6 +88,18 @@ export default function RootLayout({
           fontFamily: "'Space Grotesk', system-ui, sans-serif",
         }}
       >
+        <Script
+          src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${GA_MEASUREMENT_ID}');
+          `}
+        </Script>
         <AuthProvider>
           <ScrollToTopOnRouteChange />
           <Navbar />
@@ -93,6 +108,7 @@ export default function RootLayout({
           </main>
           <Footer />
         </AuthProvider>
+        <Analytics />
       </body>
     </html>
   );
