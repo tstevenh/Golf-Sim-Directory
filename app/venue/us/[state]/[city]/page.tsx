@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import Link from "next/link";
+import type { VenueListItem } from "@/types";
 import { supabase, VENUE_CARD_FIELDS } from "@/lib/supabase";
 import { getCachedNearbyCities } from "@/lib/cached-queries";
 import {
@@ -77,7 +78,7 @@ interface CityPageData {
   stateAbbrev: string;
   stateName: string;
   cityFormatted: string;
-  venues: Awaited<ReturnType<typeof getCityVenuesPageFromSnapshot>>["venues"];
+  venues: VenueListItem[];
   hasNextPage: boolean;
   nearbyCitiesRaw: Awaited<ReturnType<typeof getCachedNearbyCities>>;
   cityCategoryLinks: Awaited<ReturnType<typeof getCityCategoryBrowseLinksWithCounts>>;
