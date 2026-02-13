@@ -7,6 +7,11 @@ import gfm from "remark-gfm";
 
 const postsDirectory = path.join(process.cwd(), "content/blog");
 
+export interface BlogFaqItem {
+  question: string;
+  answer: string;
+}
+
 export interface BlogPost {
   slug: string;
   title: string;
@@ -18,6 +23,112 @@ export interface BlogPost {
   author: string;
   featured?: boolean;
   coverImage?: string;
+  faq?: BlogFaqItem[];
+}
+
+function toText(value: unknown): string {
+  return typeof value === "string" ? value.trim() : "";
+}
+
+function parseFaqEntries(value: unknown): BlogFaqItem[] {
+  if (!Array.isArray(value)) return [];
+
+  return value
+    .map((entry) => {
+      if (!entry || typeof entry !== "object") return null;
+      const record = entry as Record<string, unknown>;
+      const question = toText(record.question ?? record.q ?? record.name);
+      const answer = toText(record.answer ?? record.a ?? record.text);
+      if (!question || !answer) return null;
+      return { question, answer };
+    })
+    .filter((entry): entry is BlogFaqItem => Boolean(entry));
+}
+
+function parseFaqFromFrontmatter(data: Record<string, unknown>): BlogFaqItem[] {
+  const entries = parseFaqEntries(data.faq ?? data.faqs);
+  return entries;
+}
+
+function cleanMarkdownText(value: string): string {
+  return value
+    .replace(/\[(.*?)\]\((.*?)\)/g, "$1")
+    .replace(/[`*_~]/g, "")
+    .replace(/<[^>]+>/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function extractFaqFromMarkdown(markdown: string): BlogFaqItem[] {
+  const lines = markdown.split("\n");
+  const headingPattern = /^(#{1,6})\s+(.+?)\s*#*\s*$/;
+  const faqSectionPattern = /^(faq|frequently asked questions?)[:\s]*$/i;
+
+  let faqStartIndex = -1;
+  let faqHeadingLevel = 0;
+
+  for (let i = 0; i < lines.length; i += 1) {
+    const match = lines[i].match(headingPattern);
+    if (!match) continue;
+
+    const level = match[1].length;
+    const headingText = cleanMarkdownText(match[2]).toLowerCase();
+    if (faqSectionPattern.test(headingText)) {
+      faqStartIndex = i;
+      faqHeadingLevel = level;
+      break;
+    }
+  }
+
+  if (faqStartIndex === -1) return [];
+
+  const faqs: BlogFaqItem[] = [];
+  let currentQuestion = "";
+  let answerLines: string[] = [];
+
+  const pushCurrentFaq = () => {
+    const question = cleanMarkdownText(currentQuestion);
+    const answer = cleanMarkdownText(
+      answerLines
+        .map((line) => line.replace(/^[-*+]\s+/, "").trim())
+        .join(" ")
+    );
+
+    if (question && answer) {
+      faqs.push({ question, answer });
+    }
+
+    currentQuestion = "";
+    answerLines = [];
+  };
+
+  for (let i = faqStartIndex + 1; i < lines.length; i += 1) {
+    const line = lines[i];
+    const headingMatch = line.match(headingPattern);
+
+    if (headingMatch) {
+      const level = headingMatch[1].length;
+      const headingText = cleanMarkdownText(headingMatch[2]);
+
+      if (level <= faqHeadingLevel) {
+        pushCurrentFaq();
+        break;
+      }
+
+      if (currentQuestion) {
+        pushCurrentFaq();
+      }
+      currentQuestion = headingText;
+      continue;
+    }
+
+    if (currentQuestion && line.trim()) {
+      answerLines.push(line);
+    }
+  }
+
+  pushCurrentFaq();
+  return faqs;
 }
 
 export function getAllPosts(): BlogPost[] {
@@ -34,6 +145,9 @@ export function getAllPosts(): BlogPost[] {
       const fullPath = path.join(postsDirectory, fileName);
       const fileContents = fs.readFileSync(fullPath, "utf8");
       const { data, content } = matter(fileContents);
+      const frontmatter = data as Record<string, unknown>;
+      const frontmatterFaq = parseFaqFromFrontmatter(frontmatter);
+      const faq = frontmatterFaq.length ? frontmatterFaq : extractFaqFromMarkdown(content);
 
       return {
         slug,
@@ -46,6 +160,7 @@ export function getAllPosts(): BlogPost[] {
         author: data.author || "GolfSimMap Team",
         featured: data.featured || false,
         coverImage: data.coverImage || "",
+        faq,
       };
     });
 
@@ -69,6 +184,9 @@ export async function getPostBySlug(slug: string): Promise<BlogPost | null> {
 
   const fileContents = fs.readFileSync(fullPath, "utf8");
   const { data, content } = matter(fileContents);
+  const frontmatter = data as Record<string, unknown>;
+  const frontmatterFaq = parseFaqFromFrontmatter(frontmatter);
+  const faq = frontmatterFaq.length ? frontmatterFaq : extractFaqFromMarkdown(content);
 
   // Convert markdown to HTML
   const processedContent = await remark()
@@ -88,6 +206,7 @@ export async function getPostBySlug(slug: string): Promise<BlogPost | null> {
     author: data.author || "GolfSimMap Team",
     featured: data.featured || false,
     coverImage: data.coverImage || "",
+    faq,
   };
 }
 

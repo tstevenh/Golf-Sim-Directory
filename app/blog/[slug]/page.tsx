@@ -7,6 +7,19 @@ import { SocialShare } from "@/components/ui/SocialShare";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import Image from "next/image";
 
+const SITE_URL = "https://golfsimmap.com";
+
+function toIsoDate(value: string): string | undefined {
+  if (!value) return undefined;
+  const parsed = new Date(value);
+  return Number.isNaN(parsed.getTime()) ? undefined : parsed.toISOString();
+}
+
+function toAbsoluteUrl(url: string): string {
+  if (url.startsWith("http://") || url.startsWith("https://")) return url;
+  return `${SITE_URL}${url.startsWith("/") ? url : `/${url}`}`;
+}
+
 interface BlogPostPageProps {
   params: Promise<{ slug: string }>;
 }
@@ -51,13 +64,20 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
   
   // Get related articles
   const relatedPosts = getRelatedPosts(slug, post.category, 3);
+  const canonicalUrl = `${SITE_URL}/blog/${slug}`;
+  const publishedDate = toIsoDate(post.date);
+  const coverImageUrl = post.coverImage ? toAbsoluteUrl(post.coverImage) : undefined;
   
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
     headline: post.title,
     description: post.excerpt,
-    datePublished: post.date ? new Date(post.date).toISOString() : undefined,
+    datePublished: publishedDate,
+    dateModified: publishedDate,
+    image: coverImageUrl ? [coverImageUrl] : undefined,
+    inLanguage: "en-US",
+    articleSection: post.category || undefined,
     author: {
       "@type": "Person",
       name: post.author,
@@ -65,13 +85,32 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
     publisher: {
       "@type": "Organization",
       name: "GolfSimMap",
-      url: "https://golfsimmap.com",
+      url: SITE_URL,
+      logo: {
+        "@type": "ImageObject",
+        url: `${SITE_URL}/logo.png`,
+      },
     },
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": `https://golfsimmap.com/blog/${slug}`,
+      "@id": canonicalUrl,
     },
   };
+  const faqItems = post.faq ?? [];
+  const faqSchema = faqItems.length
+    ? {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        mainEntity: faqItems.map((faq) => ({
+          "@type": "Question",
+          name: faq.question,
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: faq.answer,
+          },
+        })),
+      }
+    : null;
 
   return (
     <div className="min-h-screen bg-deep-black">
@@ -79,6 +118,12 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
       />
+      {faqSchema ? (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+      ) : null}
       <div className="absolute inset-0 scorecard-grid opacity-20" />
 
       <article className="relative z-10">

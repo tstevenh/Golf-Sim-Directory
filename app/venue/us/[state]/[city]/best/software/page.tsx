@@ -43,6 +43,23 @@ export default async function CityBestSoftwareIndexPage({ params }: CityBestSoft
   const cityFormatted = toTitleCaseCity(city);
   const categories = await getAvailableCategoriesForCity(stateAbbrev.toUpperCase(), cityFormatted);
   const software = categories.software;
+  const collectionSchema = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: `Browse by Software in ${cityFormatted}, ${stateName}`,
+    description: `Find golf simulator venues in ${cityFormatted} by software platform. Compare GSPro, E6, TGC, and more.`,
+    url: `https://golfsimmap.com/venue/us/${state}/${city}/best/software`,
+    mainEntity: {
+      "@type": "ItemList",
+      numberOfItems: software.length,
+      itemListElement: software.map((item, index) => ({
+        "@type": "ListItem",
+        position: index + 1,
+        name: `Best ${item.label}`,
+        url: `https://golfsimmap.com/venue/us/${state}/${city}/best/software/${item.slug}`,
+      })),
+    },
+  };
 
   return (
     <div className="min-h-screen bg-deep-black">
@@ -56,6 +73,11 @@ export default async function CityBestSoftwareIndexPage({ params }: CityBestSoft
             { label: "Browse by Software" },
           ]}
           className="mb-8"
+        />
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionSchema) }}
         />
 
         <div className="mb-12">

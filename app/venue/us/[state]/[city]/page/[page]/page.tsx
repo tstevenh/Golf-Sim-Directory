@@ -76,8 +76,35 @@ export default async function CityPaginationPage({ params }: CityPaginationPageP
     notFound();
   }
 
+  const canonicalUrl = `https://golfsimmap.com/venue/us/${state}/${city}/page/${currentPage}`;
+  const cityPaginationSchema = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: `Golf Simulators in ${cityFormatted}, ${stateName} (Page ${currentPage})`,
+    description: `Browse more golf simulator venues in ${cityFormatted}, ${stateAbbrev}. Page ${currentPage}.`,
+    url: canonicalUrl,
+    mainEntity: {
+      "@type": "ItemList",
+      numberOfItems: venues.length,
+      itemListElement: venues.map((venue, index) => ({
+        "@type": "ListItem",
+        position: (currentPage - 1) * pageSize + index + 1,
+        name: String(venue.name),
+        url: `https://golfsimmap.com${getVenueHref(
+          String(venue.state),
+          String(venue.city),
+          String(venue.slug)
+        )}`,
+      })),
+    },
+  };
+
   return (
     <div className="min-h-screen bg-deep-black py-12">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(cityPaginationSchema) }}
+      />
       <div className="absolute inset-0 scorecard-grid opacity-20" />
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

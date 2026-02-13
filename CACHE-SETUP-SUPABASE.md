@@ -1,235 +1,234 @@
 # Cache + Supabase Setup (Production)
 
-Last updated: 2026-02-10
+Last updated: 2026-02-13
 
-## 0) Top Checklist (When Adding New Venues)
+## 0) Quick Checklist (When Adding or Updating Venues)
 
-Use this exact order:
+Use this order for bulk data updates:
 
-1. Add new JSON files into `../data-for-website/enriched_venues`.
-2. Import dry-run:
+1. Add/update venue JSON in `../data-for-website/enriched_venues`.
+2. Dry run import:
    `npm run db:import:venues -- --mode=upsert --dry-run --data-dir=../data-for-website/enriched_venues`
-3. Import real:
+3. Real import:
    `npm run db:import:venues -- --mode=upsert --data-dir=../data-for-website/enriched_venues`
-4. Refresh normalized hardware/software (dry-run then real):
+4. Backfill normalized category fields:
    `npm run db:backfill:hardware-brands -- --dry-run`
    `npm run db:backfill:hardware-brands`
    `npm run db:backfill:software-slugs -- --dry-run`
    `npm run db:backfill:software-slugs`
-5. Regenerate category counts:
+5. Rebuild category config:
    `npm run categories:analyze`
 6. Optional safety checks:
    `npm run lint`
-   `npx tsc --noEmit`
+   `npm run build`
 
 Default mode:
 
 1. Use `--mode=upsert` for normal updates.
-2. Only use `--mode=fresh` if you intentionally want to wipe and reload all venues.
+2. Use `--mode=fresh` only when intentionally wiping/reloading all venues.
 
-## 1) Goal
+## 1) Goals
 
-This setup is designed to:
+This setup is optimized to:
 
-1. Keep venue browse pages fast.
-2. Reduce Supabase database load on Free plan.
-3. Reduce egress and repeated DB reads during traffic spikes.
-4. Keep search page real-time while most browse pages are cached.
+1. Keep SEO pages heavily cached.
+2. Minimize Vercel Fast Origin Transfer.
+3. Reduce Supabase query load and egress.
+4. Keep key user flows working: auth, favorites, claim, submit, correction reports.
 
-## 2) Current Rendering Strategy
+## 2) Rendering + Cache Strategy (Current)
 
-The app now uses 3 rendering modes:
+The app uses three patterns:
 
-1. Static (`force-static`)
-- Used on index-style category pages that do not need live data every request.
+1. Static pre-render for small route sets.
+2. ISR with `revalidate = 2592000` (30 days) for heavy SEO routes.
+3. Dynamic rendering only where freshness is required.
 
-2. ISR cache (`revalidate = 86400`)
-- Used on heavy listing/detail browse pages.
-- Cached for 24 hours, then refreshed in background.
+### 2.1) Static pre-render (small sets)
 
-3. Dynamic (`force-dynamic`)
-- Used on `app/search/page.tsx` so filtering/search stays live.
+Examples:
 
-## 3) What `revalidate = 86400` Means
+1. `app/venue/us/[state]/page.tsx` via `generateStaticParams` (51 states).
+2. Global best detail routes via `generateStaticParams` (bounded category sets):
+   `app/best/[tag]/page.tsx`
+   `app/best/vibe/[vibe]/page.tsx`
+   `app/best/who-its-for/[segment]/page.tsx`
+   `app/best/hardware/[brand]/page.tsx`
+   `app/best/software/[software]/page.tsx`
+   `app/best/amenities/[amenity]/page.tsx`
+   `app/best/launch-monitor/[type]/page.tsx`
+3. Launch monitor detail pages:
+   `app/launch-monitors/[slug]/page.tsx`
 
-`86400` seconds = 24 hours.
+Important:
 
-Effect:
+1. City pages and venue detail pages are no longer pre-rendered at build-time.
+2. This is intentional to avoid massive build output/transfer.
 
-1. First request after deploy/build generates page data.
-2. Next users get cached HTML/data from Vercel.
-3. After 24h, one request triggers background refresh.
-4. Most requests do not hit Supabase directly.
+### 2.2) ISR 30-day routes
 
-Tradeoff:
-
-1. Much lower DB load and better stability.
-2. Venue edits may take up to 24h to appear automatically.
-
-## 4) Files Using 24h Cache
-
-### Venue browse hierarchy
+These are cached for 30 days and regenerated on demand after expiry:
 
 1. `app/venue/us/page.tsx`
 2. `app/venue/us/[state]/page.tsx`
 3. `app/venue/us/[state]/[city]/page.tsx`
-4. `app/venue/us/[state]/[city]/[venueSlug]/page.tsx`
+4. `app/venue/us/[state]/[city]/page/[page]/page.tsx`
+5. `app/venue/us/[state]/[city]/[venueSlug]/page.tsx`
+6. City best index/detail pages:
+   `app/venue/us/[state]/[city]/best/page.tsx`
+   `app/venue/us/[state]/[city]/best/vibe/page.tsx`
+   `app/venue/us/[state]/[city]/best/who-its-for/page.tsx`
+   `app/venue/us/[state]/[city]/best/hardware/page.tsx`
+   `app/venue/us/[state]/[city]/best/software/page.tsx`
+   `app/venue/us/[state]/[city]/best/amenities/page.tsx`
+   `app/venue/us/[state]/[city]/best/launch-monitor/page.tsx`
+   and all matching detail routes under those folders.
+7. Global best detail pages under `app/best/*/[param]/page.tsx`
+8. `app/robots.ts`
+9. `app/sitemap.ts`
+10. `app/sitemaps/city-best/sitemap.ts`
+11. `app/launch-monitors/[slug]/page.tsx`
 
-### City best index pages
-
-1. `app/venue/us/[state]/[city]/best/vibe/page.tsx`
-2. `app/venue/us/[state]/[city]/best/hardware/page.tsx`
-3. `app/venue/us/[state]/[city]/best/who-its-for/page.tsx`
-
-### City best detail pages
-
-1. `app/venue/us/[state]/[city]/best/[tag]/page.tsx`
-2. `app/venue/us/[state]/[city]/best/vibe/[vibe]/page.tsx`
-3. `app/venue/us/[state]/[city]/best/who-its-for/[segment]/page.tsx`
-4. `app/venue/us/[state]/[city]/best/hardware/[brand]/page.tsx`
-5. `app/venue/us/[state]/[city]/best/software/[software]/page.tsx`
-6. `app/venue/us/[state]/[city]/best/amenities/[amenity]/page.tsx`
-7. `app/venue/us/[state]/[city]/best/launch-monitor/[type]/page.tsx`
-
-### Global best detail pages
-
-1. `app/best/[tag]/page.tsx`
-2. `app/best/vibe/[vibe]/page.tsx`
-3. `app/best/who-its-for/[segment]/page.tsx`
-4. `app/best/hardware/[brand]/page.tsx`
-5. `app/best/software/[software]/page.tsx`
-6. `app/best/amenities/[amenity]/page.tsx`
-7. `app/best/launch-monitor/[type]/page.tsx`
-
-## 5) Pages Intentionally Kept Dynamic
+### 2.3) Dynamic (intentionally uncached)
 
 1. `app/search/page.tsx`
-- `force-dynamic`
-- `revalidate = 0`
-- Reason: users expect live filtering and immediate result updates.
+   - `dynamic = "force-dynamic"`
+   - `revalidate = 0`
+   - robots noindex/nofollow + blocked in `robots.txt`
 
-## 6) Supabase Connection Setup (Free Plan Safe)
+## 3) Data Caching Layer (Next.js `unstable_cache`)
 
-Use transaction pooler URL for app traffic.
+Shared Supabase queries are wrapped in `unstable_cache` with 30-day TTL:
 
-Recommended `.env` shape:
+1. `lib/cached-queries.ts` (`THIRTY_DAYS = 2592000`)
+2. `lib/best-by-data.ts` (`CACHE_DURATION = 2592000`)
 
-```env
-DATABASE_URL="postgresql://<user>:<password>@aws-<region>.pooler.supabase.com:6543/postgres?pgbouncer=true&connection_limit=1"
-DIRECT_URL="postgresql://<user>:<password>@aws-<region>.pooler.supabase.com:6543/postgres?pgbouncer=true&connection_limit=1"
-```
+Common cache tags:
 
-Notes:
+1. `state-venue-counts`
+2. `city-venue-counts`
+3. `cities-in-state`
+4. `featured-venues`
+5. `total-active-venue-count`
+6. `nearby-cities`
+7. `nearby-venues`
+8. `category-counts`
 
-1. `DATABASE_URL`: used for app queries.
-2. `DIRECT_URL`: Prisma often uses this for schema operations.
-3. On IPv4-only networks, direct host `db.<project>.supabase.co:5432` may fail to connect.
-4. In that case, using pooler URL for both is acceptable for this project setup.
-5. `connection_limit` must be numeric (example: `connection_limit=1`, not `connection_limit=1s`).
+## 4) Build Snapshot Cache (`.cache/venues.json`)
 
-## 6.1) SQL Editor Fallback for Schema Changes
+Build step:
 
-If `npm run db:push` fails or hangs on pooled connections, apply schema changes directly in Supabase SQL Editor.
+1. `prebuild` runs `scripts/prebuild-venues-cache.ts`
+2. Script fetches active US venues and writes `.cache/venues.json`
 
-Current required SQL for software category optimization:
+Usage:
 
-```sql
-alter table public."venues"
-add column if not exists "softwareSlugs" text[] not null default '{}';
+1. Build-time pages can read snapshot data instead of hitting Supabase repeatedly.
+2. Runtime only uses snapshot if `USE_VENUE_SNAPSHOT=1` (or during build phase).
 
-create index if not exists "idx_venues_software_slugs_gin"
-on public."venues"
-using gin ("softwareSlugs");
-```
+Why this matters:
 
-After running SQL in Supabase, run local Prisma client generation and backfill scripts from app:
+1. Fewer Supabase calls during builds.
+2. Lower build-time origin transfer and faster build consistency.
 
-1. `npx prisma generate`
-2. `npm run db:backfill:software-slugs -- --dry-run`
-3. `npm run db:backfill:software-slugs`
-4. `npm run categories:analyze`
+## 5) Middleware Auth Refresh Scope (`proxy.ts`)
 
-## 7) Connection Limits Explained
+Auth refresh is intentionally limited via `shouldRefreshAuth(...)` in `proxy.ts`.
 
-From your Supabase settings screenshot:
+Session refresh runs only for:
 
-1. Pool Size: `15`
-2. Max Client Connections: `200`
+1. `/dashboard*`
+2. `/admin*`
+3. `/api/admin*`
+4. `/api/venues`
+5. `/api/venues/:id/favorite`
+6. `/api/venues/:id/claim`
+7. `/api/venues/:id/update`
 
-Important:
+Result:
 
-1. This is not equal to "60 users max on website".
-2. Limit is active DB connections, not total visitors.
-3. Static cached pages can serve many users with little/no DB activity.
-4. Connection issues happen when many requests need live DB at same time.
+1. Public SEO pages avoid unnecessary auth round-trips.
+2. Lower per-request overhead and transfer.
 
-What users see if limit is hit:
+## 6) URL Normalization and Redirects
 
-1. Some pages become slow.
-2. Some requests error or timeout.
-3. Data is not deleted; access is temporarily blocked until pressure drops.
+`proxy.ts` also handles:
 
-## 8) Why This Setup Helps Long-Term Usage
+1. Underscore to hyphen 301 redirects (canonical slug normalization).
+2. Legacy city pagination query redirect:
+   `/venue/us/:state/:city?page=2` -> `/venue/us/:state/:city/page/2`
 
-1. Fewer DB calls per request due to cached pages.
-2. Less data transfer from DB for repeated traffic.
-3. Better resilience during spikes.
-4. Lower chance of hitting Free-plan connection/egress limits.
+## 7) On-Demand Revalidation After Mutations
 
-## 9) Operational Runbook
+`lib/revalidate-venue.ts` is called by mutation/admin endpoints:
 
-After large data imports or schema updates:
+1. `app/api/venues/[id]/update/route.ts`
+2. `app/api/admin/review-claim/route.ts`
+3. `app/api/admin/review-correction/route.ts`
+4. `app/api/admin/approve-submission/route.ts`
 
-1. `npx prisma generate`
-2. `npm run db:push` (or use SQL Editor fallback in section 6.1)
-3. `npm run db:backfill:hardware-brands -- --dry-run`
-4. `npm run db:backfill:hardware-brands`
-5. `npm run db:backfill:software-slugs -- --dry-run`
-6. `npm run db:backfill:software-slugs`
-7. `npm run categories:analyze`
+It revalidates:
 
-Why step 7 matters:
+1. Core pages (`/`, `/venue/us`, state/city/venue pages).
+2. Best-by route patterns (city and global).
+3. Metadata routes (`/robots.txt`, `/sitemap.xml`, city-best sitemap).
+4. Cache tags listed in section 3.
 
-1. It regenerates `lib/category-config.generated.ts`.
-2. Keeps category counts/links aligned with latest venue dataset.
+## 8) Environment Variables (Vercel + Local)
 
-## 10) Content Freshness Rules
+Required:
 
-With 24h cache:
+1. `NEXT_PUBLIC_SUPABASE_URL`
+2. `NEXT_PUBLIC_SUPABASE_ANON_KEY`
+3. `SUPABASE_SERVICE_ROLE_KEY`
 
-1. New or updated venue content may not show instantly.
-2. Typical max wait is 24h without manual action.
+What each key is used for:
 
-If immediate update is needed:
+1. `NEXT_PUBLIC_SUPABASE_URL`: Supabase project URL.
+2. `NEXT_PUBLIC_SUPABASE_ANON_KEY`: client/browser auth and middleware session client.
+3. `SUPABASE_SERVICE_ROLE_KEY`: server-side/admin queries and prebuild snapshot script.
 
-1. Redeploy app.
-2. Or temporarily lower `revalidate` on specific pages.
-3. Future improvement: add on-demand revalidation endpoint triggered by admin updates.
+Optional (Prisma tooling only):
 
-## 11) Current Known Limitation
+1. `DATABASE_URL`
+2. `DIRECT_URL`
 
-City page "Browse by Category" currently uses global static category config in:
+Note:
 
-1. `app/venue/us/[state]/[city]/page.tsx`
+1. Runtime app traffic uses Supabase JS clients, not Prisma query runtime.
+2. Prisma URLs are only needed for Prisma commands (`db:push`, migrate, etc.).
 
-Impact:
+## 9) Freshness Rules
 
-1. Some category links may exist globally but have 0 venues in that specific city.
+Under normal traffic:
 
-Recommended next improvement:
+1. SEO pages can remain cached up to 30 days.
+2. Mutations through app/admin APIs trigger revalidation quickly.
 
-1. Switch city related category links to city-local counts only.
+If data is changed outside API routes (direct SQL or bulk import scripts):
 
-## 12) Quick Health Checklist
+1. Trigger a new deploy to refresh caches safely.
+2. Or add/execute a manual revalidation endpoint/script (future improvement).
+
+## 10) Monitoring Checklist
 
 Weekly checks:
 
-1. Supabase usage dashboard: connection peaks, egress trend.
-2. Verify category file freshness date in `lib/category-config.generated.ts`.
-3. Test one city page, one category page, and one search page for response time.
+1. Vercel usage dashboard:
+   - Fast Origin Transfer trend
+   - Function invocation spikes
+2. Supabase usage:
+   - DB load
+   - egress trend
+3. `lib/category-config.generated.ts` freshness after imports
+4. Spot-check:
+   - one city page
+   - one venue detail page
+   - one city best page
+   - search page behavior
 
-If performance drops:
+If usage spikes:
 
 1. Confirm no accidental `revalidate` reductions.
-2. Confirm search queries still paginated.
-3. Check for heavy new DB queries added without cache.
+2. Confirm no new global middleware/auth work on public routes.
+3. Confirm large route sets were not reintroduced to `generateStaticParams`.

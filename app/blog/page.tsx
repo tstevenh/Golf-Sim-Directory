@@ -21,9 +21,38 @@ export default function BlogPage() {
   const posts = getAllPosts();
   const featuredPost = posts.find((p) => p.featured);
   const regularPosts = posts.filter((p) => !p.featured);
+  const siteUrl = "https://golfsimmap.com";
+  const toAbsoluteUrl = (url: string) => {
+    if (url.startsWith("http://") || url.startsWith("https://")) return url;
+    return `${siteUrl}${url.startsWith("/") ? url : `/${url}`}`;
+  };
+  const blogCollectionSchema = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: "GolfSimMap Blog",
+    description:
+      "Tips, buying guides, and industry news for indoor golf enthusiasts. Learn about launch monitors, simulator setups, and venue reviews.",
+    url: `${siteUrl}/blog`,
+    mainEntity: {
+      "@type": "ItemList",
+      itemListOrder: "https://schema.org/ItemListOrderDescending",
+      numberOfItems: posts.length,
+      itemListElement: posts.map((post, index) => ({
+        "@type": "ListItem",
+        position: index + 1,
+        url: `${siteUrl}/blog/${post.slug}`,
+        name: post.title,
+        image: post.coverImage ? toAbsoluteUrl(post.coverImage) : undefined,
+      })),
+    },
+  };
 
   return (
     <div className="min-h-screen bg-deep-black py-12">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(blogCollectionSchema) }}
+      />
       <div className="absolute inset-0 scorecard-grid opacity-20" />
 
       <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">

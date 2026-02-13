@@ -43,6 +43,23 @@ export default async function CityBestTagsIndexPage({ params }: CityBestTagsInde
   const cityFormatted = toTitleCaseCity(city);
   const categories = await getAvailableCategoriesForCity(stateAbbrev.toUpperCase(), cityFormatted);
   const tags = categories.tags;
+  const collectionSchema = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: `Browse by Experience in ${cityFormatted}, ${stateName}`,
+    description: `Explore top golf simulator experiences in ${cityFormatted}. Browse by date night, family-friendly, corporate events, and more.`,
+    url: `https://golfsimmap.com/venue/us/${state}/${city}/best`,
+    mainEntity: {
+      "@type": "ItemList",
+      numberOfItems: tags.length,
+      itemListElement: tags.map((tag, index) => ({
+        "@type": "ListItem",
+        position: index + 1,
+        name: `Best ${tag.label}`,
+        url: `https://golfsimmap.com/venue/us/${state}/${city}/best/${tag.slug}`,
+      })),
+    },
+  };
 
   return (
     <div className="min-h-screen bg-deep-black">
@@ -56,6 +73,11 @@ export default async function CityBestTagsIndexPage({ params }: CityBestTagsInde
             { label: "Browse by Experience" },
           ]}
           className="mb-8"
+        />
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionSchema) }}
         />
 
         <div className="mb-12">

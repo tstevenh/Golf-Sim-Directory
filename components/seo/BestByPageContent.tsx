@@ -83,9 +83,35 @@ export function BestByPageContent({
     typeof totalVenues === "number"
       ? venues
       : venues.slice((currentPage - 1) * pageSize, currentPage * pageSize);
+  const normalizedBaseUrl = baseUrl
+    ? (baseUrl.startsWith("/") ? baseUrl : `/${baseUrl}`)
+    : "/best";
+  const pageUrl = `https://golfsimmap.com${normalizedBaseUrl}${currentPage > 1 ? `?page=${currentPage}` : ""}`;
+  const collectionSchema = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: title,
+    description,
+    url: pageUrl,
+    mainEntity: {
+      "@type": "ItemList",
+      numberOfItems: totalVenueCount,
+      itemListElement: pagedVenues.map((venue, index) => ({
+        "@type": "ListItem",
+        position: (currentPage - 1) * pageSize + index + 1,
+        name: venue.name,
+        url: `https://golfsimmap.com${getVenueHref(venue.state, venue.city, venue.slug)}`,
+      })),
+    },
+  };
 
   return (
     <div className="min-h-screen bg-deep-black">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionSchema) }}
+      />
+
       {/* Category Hero */}
       <CategoryHero
         type={categoryType}

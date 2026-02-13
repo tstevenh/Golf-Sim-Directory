@@ -43,6 +43,23 @@ export default async function CityBestLaunchMonitorIndexPage({ params }: CityBes
   const cityFormatted = toTitleCaseCity(city);
   const categories = await getAvailableCategoriesForCity(stateAbbrev.toUpperCase(), cityFormatted);
   const launchMonitors = categories.launchMonitors;
+  const collectionSchema = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: `Browse by Launch Monitor in ${cityFormatted}, ${stateName}`,
+    description: `Find golf simulator venues in ${cityFormatted} by launch monitor type. Compare radar, camera, and hybrid systems.`,
+    url: `https://golfsimmap.com/venue/us/${state}/${city}/best/launch-monitor`,
+    mainEntity: {
+      "@type": "ItemList",
+      numberOfItems: launchMonitors.length,
+      itemListElement: launchMonitors.map((item, index) => ({
+        "@type": "ListItem",
+        position: index + 1,
+        name: `Best ${item.label}`,
+        url: `https://golfsimmap.com/venue/us/${state}/${city}/best/launch-monitor/${item.slug.replace(/_/g, "-")}`,
+      })),
+    },
+  };
 
   return (
     <div className="min-h-screen bg-deep-black">
@@ -56,6 +73,11 @@ export default async function CityBestLaunchMonitorIndexPage({ params }: CityBes
             { label: "Browse by Launch Monitor" },
           ]}
           className="mb-8"
+        />
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionSchema) }}
         />
 
         <div className="mb-12">

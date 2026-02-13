@@ -17,7 +17,7 @@ This folder contains all blog articles for GolfSimMap. Articles are written in M
 ---
 title: "Your Article Title"
 excerpt: "A brief summary that appears on the blog listing page (1-2 sentences)"
-date: "Feb 11, 2026"
+date: "2026-02-11"
 readTime: "5 min read"
 category: "Tips"
 author: "Your Name"
@@ -114,11 +114,63 @@ Your paragraphs go here. Use **bold** for emphasis and [links](/search) for inte
 |-------|----------|-------------|---------|
 | `title` | **Yes** | The article headline | `"How to Choose a Golf Simulator"` |
 | `excerpt` | **Yes** | Short description (1-2 sentences) | `"TrackMan vs Foresight..."` |
-| `date` | **Yes** | Publication date | `"Feb 11, 2026"` |
+| `date` | **Yes** | Publication date (recommended ISO format) | `"2026-02-11"` |
 | `readTime` | **Yes** | Estimated reading time | `"5 min read"` |
 | `category` | **Yes** | Article category | `"Tips"`, `"Buying Guide"`, `"News"` |
 | `author` | No | Author name (defaults to team) | `"John Smith"` |
 | `featured` | No | Pin to top of blog page | `true` or `false` |
+| `faq` / `faqs` | No | FAQ items for FAQ schema | See FAQ examples below |
+
+---
+
+## FAQ Schema (Auto + Frontmatter)
+
+Blog posts now support FAQ schema in two ways:
+
+1. Frontmatter FAQ (manual)
+2. Auto-parse from article section
+
+### Option 1: Frontmatter FAQ
+
+Use `faq` or `faqs` in frontmatter:
+
+```markdown
+---
+title: "Best Launch Monitor for Home Use"
+excerpt: "How to choose launch monitor hardware for your budget and space."
+date: "2026-02-11"
+readTime: "6 min read"
+category: "Buying Guide"
+faqs:
+  - question: "What launch monitor is best for beginners?"
+    answer: "Most beginners should start with camera-based systems in the sub-$3,000 range."
+  - question: "Do I need a gaming PC?"
+    answer: "Some systems require a PC, while others support iPad-only setups."
+---
+```
+
+### Option 2: Auto-Parse from Article Body
+
+If frontmatter FAQ is missing, the system will parse a section named:
+
+- `## FAQ`
+- `## Frequently Asked Questions`
+
+Then each `###` heading under that section becomes a question, and the paragraph/list below it becomes the answer.
+
+```markdown
+## FAQ
+
+### How much does a home simulator cost?
+Most setups start around $3,000 and can exceed $20,000 depending on hardware and build quality.
+
+### Is 9-foot ceiling height enough?
+For many golfers yes, but taller players often benefit from 10-foot ceilings.
+```
+
+Notes:
+- Frontmatter FAQ takes priority over auto-parsed FAQ.
+- Keep FAQ content visible on-page (not schema-only) to align with Google guidelines.
 
 ### Category Options
 
@@ -177,7 +229,7 @@ Link to relevant site pages using internal links:
 ---
 title: "5 Winter Golf Practice Tips"
 excerpt: "Don't let cold weather kill your game. Here's how to stay sharp using indoor simulators."
-date: "Feb 11, 2026"
+date: "2026-02-11"
 readTime: "4 min read"
 category: "Tips"
 author: "GolfSimMap Team"
@@ -232,6 +284,7 @@ Before deploying, check:
 - [ ] All internal links work
 - [ ] No spelling errors
 - [ ] Images referenced correctly (if any)
+- [ ] If using FAQ schema, FAQ content is visible in the article body
 
 ---
 

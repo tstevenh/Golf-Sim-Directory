@@ -43,6 +43,23 @@ export default async function CityBestAmenitiesIndexPage({ params }: CityBestAme
   const cityFormatted = toTitleCaseCity(city);
   const categories = await getAvailableCategoriesForCity(stateAbbrev.toUpperCase(), cityFormatted);
   const amenities = categories.amenities;
+  const collectionSchema = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: `Browse by Amenities in ${cityFormatted}, ${stateName}`,
+    description: `Find golf simulator venues in ${cityFormatted} by amenities. Compare private rooms, coaching, parking, bar, and more.`,
+    url: `https://golfsimmap.com/venue/us/${state}/${city}/best/amenities`,
+    mainEntity: {
+      "@type": "ItemList",
+      numberOfItems: amenities.length,
+      itemListElement: amenities.map((item, index) => ({
+        "@type": "ListItem",
+        position: index + 1,
+        name: `Best ${item.label}`,
+        url: `https://golfsimmap.com/venue/us/${state}/${city}/best/amenities/${item.slug.replace(/_/g, "-")}`,
+      })),
+    },
+  };
 
   return (
     <div className="min-h-screen bg-deep-black">
@@ -56,6 +73,11 @@ export default async function CityBestAmenitiesIndexPage({ params }: CityBestAme
             { label: "Browse by Amenities" },
           ]}
           className="mb-8"
+        />
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionSchema) }}
         />
 
         <div className="mb-12">
