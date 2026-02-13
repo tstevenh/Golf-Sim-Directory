@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import { getCityBestSitemapIds } from "@/lib/city-best-sitemap";
 
 const BASE_URL = "https://golfsimmap.com";
+export const revalidate = 2592000;
 
 export default async function robots(): Promise<MetadataRoute.Robots> {
   const cityBestSitemapIds = await getCityBestSitemapIds();
@@ -13,7 +14,7 @@ export default async function robots(): Promise<MetadataRoute.Robots> {
     rules: {
       userAgent: "*",
       allow: "/",
-      disallow: ["/api/", "/admin", "/dashboard", "/login", "/register"],
+      disallow: ["/api/", "/admin", "/dashboard", "/login", "/register", "/search"],
     },
     host: BASE_URL,
     sitemap: [`${BASE_URL}/sitemap.xml`, ...cityBestSitemaps],

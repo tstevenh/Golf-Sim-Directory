@@ -26,7 +26,7 @@ interface StatePageProps {
   }>;
 }
 
-export const revalidate = 86400;
+export const revalidate = 2592000;
 
 export async function generateMetadata({ params }: StatePageProps): Promise<Metadata> {
   try {

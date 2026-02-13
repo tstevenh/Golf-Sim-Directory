@@ -18,6 +18,7 @@ import {
 
 const BASE_URL = "https://golfsimmap.com";
 export const CITY_BEST_SITEMAP_CHUNK_SIZE = 45000;
+const VENUE_FETCH_BATCH_SIZE = 1000;
 
 type CityBestSitemapVenueRow = Pick<
   SnapshotVenueRow,
@@ -132,21 +133,30 @@ async function fetchCityBestSitemapVenueRows(): Promise<CityBestSitemapVenueRow[
 
   const rows: CityBestSitemapVenueRow[] = [];
   let from = 0;
-  const pageSize = 1000;
 
   while (true) {
-    const to = from + pageSize - 1;
-    const { data: page, error } = await supabase
+    const to = from + VENUE_FETCH_BATCH_SIZE - 1;
+    const { data, error } = await supabase
       .from("venues")
-      .select("state, city, tags, vibeTags, whoItsFor, hardwareBrands, launchMonitorType, softwareSlugs, hasPrivateRooms, coachingAvailable, wifi, parking, foodAndDrink")
+      .select(
+        "state, city, tags, vibeTags, whoItsFor, hardwareBrands, launchMonitorType, softwareSlugs, hasPrivateRooms, coachingAvailable, wifi, parking, foodAndDrink"
+      )
       .eq("status", "active")
       .eq("country", "US")
+      .order("id", { ascending: true })
       .range(from, to);
 
-    if (error || !page || page.length === 0) break;
-    rows.push(...(page as CityBestSitemapVenueRow[]));
-    if (page.length < pageSize) break;
-    from += pageSize;
+    if (error) {
+      throw error;
+    }
+
+    const batch = (data || []) as CityBestSitemapVenueRow[];
+    rows.push(...batch);
+
+    if (batch.length < VENUE_FETCH_BATCH_SIZE) {
+      break;
+    }
+    from += VENUE_FETCH_BATCH_SIZE;
   }
 
   return rows;

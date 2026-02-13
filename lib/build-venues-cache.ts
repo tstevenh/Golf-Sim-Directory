@@ -19,6 +19,7 @@ interface VenueSnapshotFile {
 }
 
 const SNAPSHOT_PATH = path.join(process.cwd(), ".cache", "venues.json");
+const BUILD_PHASE = "phase-production-build";
 let snapshotCache: VenueSnapshotFile | null | undefined;
 
 function isString(value: unknown): value is string {
@@ -50,6 +51,13 @@ function readSnapshotFromDisk(): VenueSnapshotFile | null {
 }
 
 export function readVenueSnapshot(): VenueSnapshotFile | null {
+  // Snapshot is intended for build-time generation. Runtime can opt in explicitly.
+  const allowSnapshot =
+    process.env.NEXT_PHASE === BUILD_PHASE || process.env.USE_VENUE_SNAPSHOT === "1";
+  if (!allowSnapshot) {
+    return null;
+  }
+
   if (snapshotCache !== undefined) {
     return snapshotCache;
   }

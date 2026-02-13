@@ -10,7 +10,7 @@ interface CityWhoItsForIndexPageProps {
   params: Promise<{ state: string; city: string }>;
 }
 
-export const revalidate = 86400;
+export const revalidate = 2592000;
 
 export async function generateMetadata({ params }: CityWhoItsForIndexPageProps): Promise<Metadata> {
   const { state, city } = await params;

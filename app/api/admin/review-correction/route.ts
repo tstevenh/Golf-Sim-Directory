@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import { supabase } from "@/lib/supabase";
 import { getUser } from "@/lib/auth";
+import { revalidateVenuePublicPages } from "@/lib/revalidate-venue";
 
 // POST /api/admin/review-correction - Approve or reject a correction report
 export async function POST(request: Request) {
@@ -75,6 +76,12 @@ export async function POST(request: Request) {
 
       updateData[field] = value;
 
+      const { data: venueForPaths } = await supabase
+        .from("venues")
+        .select("state, city, slug")
+        .eq("id", correction.venueId)
+        .single();
+
       // Update venue and mark correction as approved (sequential)
       await supabase
         .from("venues")
@@ -90,6 +97,14 @@ export async function POST(request: Request) {
           reviewNotes: reviewNotes || null,
         })
         .eq("id", correctionId);
+
+      if (venueForPaths?.state && venueForPaths?.city) {
+        revalidateVenuePublicPages({
+          state: venueForPaths.state,
+          city: venueForPaths.city,
+          venueSlug: venueForPaths.slug,
+        });
+      }
 
       return NextResponse.json({
         success: true,

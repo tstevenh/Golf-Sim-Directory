@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 import { getCityBestSitemapChunks, getCityBestSitemapIds } from "@/lib/city-best-sitemap";
 
-export const revalidate = 86400;
+export const revalidate = 2592000;
 
 export async function generateSitemaps() {
   const ids = await getCityBestSitemapIds();

@@ -7,7 +7,7 @@ import { SeoIndexSections } from "@/components/seo/SeoIndexSections";
 import { getStateDisplayName, getStateSlug } from "@/lib/states";
 import { StatesSortWrapper } from "./StatesSortWrapper";
 
-export const revalidate = 86400;
+export const revalidate = 2592000;
 
 function toPathSegment(value: string): string {
   return value

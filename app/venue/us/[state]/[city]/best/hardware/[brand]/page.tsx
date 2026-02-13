@@ -12,7 +12,7 @@ interface CityBestHardwarePageProps {
   searchParams?: Promise<Record<string, string | string[] | undefined>>;
 }
 
-export const revalidate = 86400;
+export const revalidate = 2592000;
 
 // Hardware-specific descriptions
 const hardwareDescriptions: Record<string, string> = {

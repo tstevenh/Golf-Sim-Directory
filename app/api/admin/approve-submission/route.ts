@@ -5,6 +5,7 @@ import type { VenueType, LaunchMonitorType, PricingModel, ParkingType } from "@/
 import type { Json } from "@/types/supabase";
 import { extractHardwareBrandsFromSimulatorSystems } from "@/lib/hardware-brands";
 import { extractSoftwareSlugsFromSubmissionData } from "@/lib/software-slugs";
+import { revalidateVenuePublicPages } from "@/lib/revalidate-venue";
 
 // Helper to create URL-friendly slug
 function slugify(text: string): string {
@@ -164,6 +165,12 @@ export async function POST(request: Request) {
         });
       }
     }
+
+    revalidateVenuePublicPages({
+      state: String(data.state || ""),
+      city: String(data.city || ""),
+      venueSlug: venue.slug,
+    });
 
     return NextResponse.json({
       success: true,

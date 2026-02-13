@@ -28,7 +28,7 @@ interface CityPageProps {
   }>;
 }
 
-export const revalidate = 86400;
+export const revalidate = 2592000;
 
 export async function generateMetadata({ params }: CityPageProps): Promise<Metadata> {
   try {

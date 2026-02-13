@@ -10,7 +10,7 @@ interface BestLaunchMonitorPageProps {
   searchParams?: Promise<Record<string, string | string[] | undefined>>;
 }
 
-export const revalidate = 86400;
+export const revalidate = 2592000;
 
 // Pre-render all launch monitor pages at build time
 export async function generateStaticParams() {

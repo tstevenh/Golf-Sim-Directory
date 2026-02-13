@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import { supabase } from "@/lib/supabase";
 import { getUser } from "@/lib/auth";
+import { revalidateVenuePublicPages } from "@/lib/revalidate-venue";
 
 // PATCH /api/venues/[id]/update - Update venue (owner or admin only)
 export async function PATCH(
@@ -17,7 +18,7 @@ export async function PATCH(
 
     const { data: venue } = await supabase
       .from("venues")
-      .select("id, claimedById")
+      .select("id, claimedById, state, city, slug")
       .eq("id", id)
       .single();
 
@@ -102,6 +103,12 @@ export async function PATCH(
       .single();
 
     if (error) throw error;
+
+    revalidateVenuePublicPages({
+      state: String(updatedVenue.state || venue.state),
+      city: String(updatedVenue.city || venue.city),
+      venueSlug: String(updatedVenue.slug || venue.slug),
+    });
 
     return NextResponse.json({
       success: true,

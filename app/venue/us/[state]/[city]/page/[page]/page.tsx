@@ -18,7 +18,7 @@ interface CityPaginationPageProps {
   }>;
 }
 
-export const revalidate = 86400;
+export const revalidate = 2592000;
 
 export async function generateMetadata({ params }: CityPaginationPageProps): Promise<Metadata> {
   const { state, city, page } = await params;

@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import { supabase, supabaseAdmin } from "@/lib/supabase";
 import { getUser } from "@/lib/auth";
+import { revalidateVenuePublicPages } from "@/lib/revalidate-venue";
 
 // POST /api/admin/review-claim - Approve or reject claim request
 export async function POST(request: Request) {
@@ -77,6 +78,20 @@ export async function POST(request: Request) {
       await supabaseAdmin.auth.admin.updateUserById(claimRequest.requestedById, {
         app_metadata: { role: "business_owner" },
       });
+
+      const { data: venueForPaths } = await supabase
+        .from("venues")
+        .select("state, city, slug")
+        .eq("id", claimRequest.venueId)
+        .single();
+
+      if (venueForPaths?.state && venueForPaths?.city) {
+        revalidateVenuePublicPages({
+          state: venueForPaths.state,
+          city: venueForPaths.city,
+          venueSlug: venueForPaths.slug,
+        });
+      }
 
       return NextResponse.json({
         success: true,

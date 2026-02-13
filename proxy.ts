@@ -1,6 +1,15 @@
 import { createServerClient } from "@supabase/ssr";
 import { NextResponse, type NextRequest } from "next/server";
 
+function shouldRefreshAuth(pathname: string): boolean {
+  if (pathname.startsWith("/dashboard")) return true;
+  if (pathname.startsWith("/admin")) return true;
+  if (pathname.startsWith("/api/admin")) return true;
+  if (pathname === "/api/venues") return true;
+  if (/^\/api\/venues\/[^/]+\/(favorite|claim|update)$/.test(pathname)) return true;
+  return false;
+}
+
 export async function proxy(request: NextRequest) {
   // 301 redirect underscore slugs to hyphen slugs (SEO: avoid duplicate pages)
   const { pathname } = request.nextUrl;
@@ -33,6 +42,10 @@ export async function proxy(request: NextRequest) {
       url.pathname = `${pathname.replace(/\/$/, "")}/page/${pageNum}`;
       return NextResponse.redirect(url, 307);
     }
+  }
+
+  if (!shouldRefreshAuth(pathname)) {
+    return NextResponse.next({ request });
   }
 
   let supabaseResponse = NextResponse.next({

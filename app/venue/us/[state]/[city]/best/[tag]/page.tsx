@@ -10,7 +10,7 @@ interface CityBestTagPageProps {
   searchParams?: Promise<Record<string, string | string[] | undefined>>;
 }
 
-export const revalidate = 86400;
+export const revalidate = 2592000;
 
 // Tag-specific descriptions for city pages
 const tagDescriptions: Record<string, string> = {

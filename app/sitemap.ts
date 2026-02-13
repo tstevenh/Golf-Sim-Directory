@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import { supabase } from "@/lib/supabase";
 import { getStateSlug } from "@/lib/states";
 import { getAllPosts } from "@/lib/blog";
+import { getSnapshotActiveUSVenues } from "@/lib/build-venues-cache";
 import {
   AVAILABLE_TAGS,
   AVAILABLE_VIBES,
@@ -15,11 +16,13 @@ import {
 const BASE_URL = "https://golfsimmap.com";
 const LAUNCH_MONITOR_SLUGS = ["trackman-4", "gcquad", "uneekor-eyexo"] as const;
 const CITY_PAGE_SIZE = 12;
+const VENUE_FETCH_BATCH_SIZE = 1000;
+export const revalidate = 2592000;
+
 type SitemapVenueRow = {
   slug: string;
   city: string;
   state: string;
-  country: string;
   updatedAt: string;
 };
 
@@ -32,32 +35,82 @@ function toPathSegment(value: string): string {
     .replace(/^-|-$/g, "");
 }
 
-// ── Helper: fetch all active US venues (paginated) ─────────────────────────
-async function fetchAllVenues<T = Record<string, unknown>>(select: string): Promise<T[]> {
-  const rows: T[] = [];
+function getSitemapVenueRowsFromSnapshot(): SitemapVenueRow[] {
+  return getSnapshotActiveUSVenues()
+    .filter((venue) =>
+      typeof venue.slug === "string" &&
+      typeof venue.city === "string" &&
+      typeof venue.state === "string"
+    )
+    .map((venue) => ({
+      slug: String(venue.slug),
+      city: String(venue.city),
+      state: String(venue.state),
+      updatedAt:
+        typeof venue.updatedAt === "string"
+          ? venue.updatedAt
+          : new Date().toISOString(),
+    }));
+}
+
+async function getSitemapVenueRowsFromDb(): Promise<SitemapVenueRow[]> {
+  const rows: SitemapVenueRow[] = [];
   let from = 0;
-  const pageSize = 1000;
 
   while (true) {
-    const to = from + pageSize - 1;
-    const { data: page, error } = await supabase
+    const to = from + VENUE_FETCH_BATCH_SIZE - 1;
+    const { data, error } = await supabase
       .from("venues")
-      .select(select)
+      .select("slug, city, state, updatedAt")
       .eq("status", "active")
       .eq("country", "US")
+      .order("id", { ascending: true })
       .range(from, to);
-    if (error || !page || page.length === 0) break;
-    rows.push(...(page as T[]));
-    if (page.length < pageSize) break;
-    from += pageSize;
+
+    if (error) {
+      throw error;
+    }
+
+    const batch = data || [];
+    rows.push(
+      ...batch
+        .filter(
+          (venue) =>
+            typeof venue.slug === "string" &&
+            typeof venue.city === "string" &&
+            typeof venue.state === "string"
+        )
+        .map((venue) => ({
+          slug: String(venue.slug),
+          city: String(venue.city),
+          state: String(venue.state),
+          updatedAt:
+            typeof venue.updatedAt === "string"
+              ? venue.updatedAt
+              : new Date().toISOString(),
+        }))
+    );
+
+    if (batch.length < VENUE_FETCH_BATCH_SIZE) {
+      break;
+    }
+    from += VENUE_FETCH_BATCH_SIZE;
   }
 
   return rows;
 }
 
+async function getSitemapVenueRows(): Promise<SitemapVenueRow[]> {
+  const snapshotRows = getSitemapVenueRowsFromSnapshot();
+  if (snapshotRows.length > 0) {
+    return snapshotRows;
+  }
+  return getSitemapVenueRowsFromDb();
+}
+
 // ── Sitemap generator ───────────────────────────────────────────────────────
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const venueRows = await fetchAllVenues<SitemapVenueRow>("slug, city, state, country, updatedAt");
+  const venueRows = await getSitemapVenueRows();
   const staticRoutes = buildStaticSitemap(venueRows);
   const bestRoutes = buildBestSitemap();
   const venueRoutes = buildVenueSitemap(venueRows);

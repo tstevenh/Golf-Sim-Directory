@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import { redirect } from "next/navigation";
+import { requireAuth } from "@/lib/auth";
 
 export const metadata: Metadata = {
   title: "Submit a Venue",
@@ -12,10 +14,15 @@ export const metadata: Metadata = {
   },
 };
 
-export default function SubmitLayout({
+export default async function SubmitLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const user = await requireAuth("/submit");
+  if (user.role !== "business_owner") {
+    redirect("/claim");
+  }
+
   return children;
 }

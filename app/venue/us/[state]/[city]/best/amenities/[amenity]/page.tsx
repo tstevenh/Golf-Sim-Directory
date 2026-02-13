@@ -11,7 +11,7 @@ interface CityBestAmenityPageProps {
   searchParams?: Promise<Record<string, string | string[] | undefined>>;
 }
 
-export const revalidate = 86400;
+export const revalidate = 2592000;
 
 // Amenity-specific content with unique copy
 const amenityContent: Record<string, { tagline: string; shortDesc: string; longDesc: string }> = {

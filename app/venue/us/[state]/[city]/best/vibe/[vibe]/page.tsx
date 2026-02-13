@@ -10,7 +10,7 @@ interface CityBestVibePageProps {
   searchParams?: Promise<Record<string, string | string[] | undefined>>;
 }
 
-export const revalidate = 86400;
+export const revalidate = 2592000;
 
 // Vibe-specific descriptions for city pages
 const vibeDescriptions: Record<string, { tagline: string; description: string }> = {

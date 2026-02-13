@@ -78,6 +78,19 @@ export async function GET(request: Request) {
 export async function POST(request: Request) {
   try {
     const user = await getUser();
+    if (!user?.id) {
+      return NextResponse.json(
+        { error: "Please log in to submit a venue" },
+        { status: 401 }
+      );
+    }
+    if (user.role !== "business_owner") {
+      return NextResponse.json(
+        { error: "Only business owners can submit venues" },
+        { status: 403 }
+      );
+    }
+
     const body = await request.json();
 
     // Create submission
@@ -85,7 +98,7 @@ export async function POST(request: Request) {
       .from("submissions")
       .insert({
         data: body,
-        submittedById: user?.id || null,
+        submittedById: user.id,
         status: "pending",
       })
       .select("id")
