@@ -10,7 +10,7 @@ interface CityBestWhoItsForPageProps {
   searchParams?: Promise<Record<string, string | string[] | undefined>>;
 }
 
-export const revalidate = 2592000;
+export const revalidate = 15552000;
 
 // Segment-specific descriptions for city pages
 const segmentDescriptions: Record<string, { tagline: string; description: string }> = {

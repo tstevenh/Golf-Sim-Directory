@@ -20,7 +20,7 @@ interface VenuePageProps {
   }>;
 }
 
-export const revalidate = 2592000;
+export const revalidate = 15552000;
 const META_DESCRIPTION_MAX = 155;
 type NearbyVenuesForDetail = NonNullable<ComponentProps<typeof VenueDetail>["nearbyVenues"]>;
 

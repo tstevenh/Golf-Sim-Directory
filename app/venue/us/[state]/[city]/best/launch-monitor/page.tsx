@@ -9,7 +9,7 @@ interface CityBestLaunchMonitorIndexPageProps {
   params: Promise<{ state: string; city: string }>;
 }
 
-export const revalidate = 2592000;
+export const revalidate = 15552000;
 
 function toTitleCaseCity(citySlug: string): string {
   return citySlug.replace(/-/g, " ").replace(/\b\w/g, (l) => l.toUpperCase());

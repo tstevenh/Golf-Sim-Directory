@@ -12,7 +12,7 @@ interface CityBestSoftwarePageProps {
   searchParams?: Promise<Record<string, string | string[] | undefined>>;
 }
 
-export const revalidate = 2592000;
+export const revalidate = 15552000;
 
 // Software-specific content with unique copy
 const softwareContent: Record<string, { tagline: string; shortDesc: string; longDesc: string }> = {

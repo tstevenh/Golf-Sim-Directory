@@ -428,7 +428,7 @@ function generateSchemas(data: LaunchMonitorData, slug: string) {
   return { productSchema, faqSchema };
 }
 
-export const revalidate = 2592000;
+export const revalidate = 15552000;
 
 export function generateStaticParams() {
   return Object.keys(launchMonitorsData).map((slug) => ({ slug }));

@@ -17,7 +17,7 @@ const BASE_URL = "https://golfsimmap.com";
 const LAUNCH_MONITOR_SLUGS = ["trackman-4", "gcquad", "uneekor-eyexo"] as const;
 const CITY_PAGE_SIZE = 12;
 const VENUE_FETCH_BATCH_SIZE = 1000;
-export const revalidate = 2592000;
+export const revalidate = 15552000;
 
 type SitemapVenueRow = {
   slug: string;
@@ -111,14 +111,14 @@ async function getSitemapVenueRows(): Promise<SitemapVenueRow[]> {
 // ── Sitemap generator ───────────────────────────────────────────────────────
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const venueRows = await getSitemapVenueRows();
-  const staticRoutes = buildStaticSitemap(venueRows);
+  const staticRoutes = await buildStaticSitemap(venueRows);
   const bestRoutes = buildBestSitemap();
   const venueRoutes = buildVenueSitemap(venueRows);
   return [...staticRoutes, ...bestRoutes, ...venueRoutes];
 }
 
 // ── Static pages + blog posts + states + cities ─────────────────────────────
-function buildStaticSitemap(venueRows: SitemapVenueRow[]): MetadataRoute.Sitemap {
+async function buildStaticSitemap(venueRows: SitemapVenueRow[]): Promise<MetadataRoute.Sitemap> {
   const now = new Date();
   const staticPages: MetadataRoute.Sitemap = [
     { url: BASE_URL, lastModified: now, changeFrequency: "daily", priority: 1.0 },
@@ -146,7 +146,7 @@ function buildStaticSitemap(venueRows: SitemapVenueRow[]): MetadataRoute.Sitemap
   }));
 
   // Blog posts
-  const posts = getAllPosts();
+  const posts = await getAllPosts();
   const blogRoutes: MetadataRoute.Sitemap = posts.map((post) => ({
     url: `${BASE_URL}/blog/${post.slug}`,
     lastModified: post.date ? new Date(post.date) : new Date(),

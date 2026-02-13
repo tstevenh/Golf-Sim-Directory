@@ -22,9 +22,9 @@ export interface AvailableCategories {
   tags: Array<{ slug: string; label: string; count: number }>;
 }
 
-// Cache category lookups for a long time (30 days) since venue data changes infrequently.
+// Cache category lookups for a long time (6 months) since venue data changes infrequently.
 const CACHE_TAG = "category-counts";
-const CACHE_DURATION = 2592000; // 30 days
+const CACHE_DURATION = 15552000; // 6 months
 const LAUNCH_MONITOR_LABELS: Record<string, string> = {
   radar: "Radar",
   photometric_camera: "Camera",

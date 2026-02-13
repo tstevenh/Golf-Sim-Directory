@@ -9,6 +9,13 @@ This folder contains all blog articles for GolfSimMap. Articles are written in M
 3. Fill in your content
 4. Save and deploy
 
+If you are using Supabase-backed blog content:
+
+1. Add article rows to `public.blog_posts` (see `add-blog-posts-table.sql`).
+2. Set `is_published = true` and `published_at` when ready to publish.
+3. Keep `content` as Markdown (the app renders it to HTML).
+4. After publish/update, call `POST /api/revalidate-blog` to refresh `/blog`, post page, and sitemap immediately.
+
 ---
 
 ## Article Template

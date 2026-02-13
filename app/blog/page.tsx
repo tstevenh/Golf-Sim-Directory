@@ -3,6 +3,8 @@ import Link from "next/link";
 import { Calendar, Clock, ArrowRight } from "lucide-react";
 import { getAllPosts } from "@/lib/blog";
 
+export const revalidate = 15552000;
+
 export const metadata: Metadata = {
   title: "Indoor Golf Blog — Tips, Guides & Industry News",
   description: "Tips, buying guides, and industry news for indoor golf enthusiasts. Learn about launch monitors, simulator setups, and venue reviews.",
@@ -17,8 +19,8 @@ export const metadata: Metadata = {
   },
 };
 
-export default function BlogPage() {
-  const posts = getAllPosts();
+export default async function BlogPage() {
+  const posts = await getAllPosts();
   const featuredPost = posts.find((p) => p.featured);
   const regularPosts = posts.filter((p) => !p.featured);
   const siteUrl = "https://golfsimmap.com";

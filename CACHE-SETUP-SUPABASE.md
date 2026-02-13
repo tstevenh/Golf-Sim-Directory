@@ -41,7 +41,7 @@ This setup is optimized to:
 The app uses three patterns:
 
 1. Static pre-render for small route sets.
-2. ISR with `revalidate = 2592000` (30 days) for heavy SEO routes.
+2. ISR with `revalidate = 15552000` (6 months) for heavy SEO routes.
 3. Dynamic rendering only where freshness is required.
 
 ### 2.1) Static pre-render (small sets)
@@ -65,9 +65,9 @@ Important:
 1. City pages and venue detail pages are no longer pre-rendered at build-time.
 2. This is intentional to avoid massive build output/transfer.
 
-### 2.2) ISR 30-day routes
+### 2.2) ISR 6-month routes
 
-These are cached for 30 days and regenerated on demand after expiry:
+These are cached for 6 months and regenerated on demand after expiry:
 
 1. `app/venue/us/page.tsx`
 2. `app/venue/us/[state]/page.tsx`
@@ -98,10 +98,10 @@ These are cached for 30 days and regenerated on demand after expiry:
 
 ## 3) Data Caching Layer (Next.js `unstable_cache`)
 
-Shared Supabase queries are wrapped in `unstable_cache` with 30-day TTL:
+Shared Supabase queries are wrapped in `unstable_cache` with 6-month TTL:
 
-1. `lib/cached-queries.ts` (`THIRTY_DAYS = 2592000`)
-2. `lib/best-by-data.ts` (`CACHE_DURATION = 2592000`)
+1. `lib/cached-queries.ts` (`SIX_MONTHS = 15552000`)
+2. `lib/best-by-data.ts` (`CACHE_DURATION = 15552000`)
 
 Common cache tags:
 
@@ -181,6 +181,7 @@ Required:
 1. `NEXT_PUBLIC_SUPABASE_URL`
 2. `NEXT_PUBLIC_SUPABASE_ANON_KEY`
 3. `SUPABASE_SERVICE_ROLE_KEY`
+4. `REVALIDATE_SECRET` (for on-demand blog revalidation endpoint)
 
 What each key is used for:
 
@@ -193,6 +194,10 @@ Optional (Prisma tooling only):
 1. `DATABASE_URL`
 2. `DIRECT_URL`
 
+Optional (content source switch):
+
+1. `BLOG_CONTENT_SOURCE` (`supabase` default, `filesystem` fallback)
+
 Note:
 
 1. Runtime app traffic uses Supabase JS clients, not Prisma query runtime.
@@ -202,8 +207,9 @@ Note:
 
 Under normal traffic:
 
-1. SEO pages can remain cached up to 30 days.
+1. SEO pages can remain cached up to 6 months.
 2. Mutations through app/admin APIs trigger revalidation quickly.
+3. Blog publishes/updates should call `POST /api/revalidate-blog` with `REVALIDATE_SECRET`.
 
 If data is changed outside API routes (direct SQL or bulk import scripts):
 

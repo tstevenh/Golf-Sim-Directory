@@ -14,7 +14,7 @@ import {
   readVenueSnapshot,
 } from "@/lib/build-venues-cache";
 
-const THIRTY_DAYS = 2592000;
+const SIX_MONTHS = 15552000;
 
 function normalizeStateCountRows(rows: { state: string; count: number }[]) {
   const counts = new Map<string, number>();
@@ -63,7 +63,7 @@ export const getCachedNearbyCities = unstable_cache(
     return (data || []) as { city: string }[];
   },
   ["nearby-cities"],
-  { revalidate: THIRTY_DAYS, tags: ["nearby-cities"] }
+  { revalidate: SIX_MONTHS, tags: ["nearby-cities"] }
 );
 
 // ─── State venue counts (homepage + /venue/us index) ─────────────────────────
@@ -79,7 +79,7 @@ export const getCachedStateVenueCounts = unstable_cache(
     return normalizeStateCountRows((data || []) as { state: string; count: number }[]);
   },
   ["state-venue-counts"],
-  { revalidate: THIRTY_DAYS, tags: ["state-venue-counts"] }
+  { revalidate: SIX_MONTHS, tags: ["state-venue-counts"] }
 );
 
 // ─── City venue counts (homepage) ────────────────────────────────────────────
@@ -97,7 +97,7 @@ export const getCachedCityVenueCounts = unstable_cache(
     return (data || []) as { city: string; state: string; count: number }[];
   },
   ["city-venue-counts"],
-  { revalidate: THIRTY_DAYS, tags: ["city-venue-counts"] }
+  { revalidate: SIX_MONTHS, tags: ["city-venue-counts"] }
 );
 
 // ─── Cities in state (state pages) ──────────────────────────────────────────
@@ -115,7 +115,7 @@ export const getCachedCitiesInState = unstable_cache(
     return (data || []) as { city: string; count: number }[];
   },
   ["cities-in-state"],
-  { revalidate: THIRTY_DAYS, tags: ["cities-in-state"] }
+  { revalidate: SIX_MONTHS, tags: ["cities-in-state"] }
 );
 
 // ─── Featured venues (homepage) ─────────────────────────────────────────────
@@ -140,7 +140,7 @@ export const getCachedFeaturedVenues = unstable_cache(
     return data || [];
   },
   ["featured-venues"],
-  { revalidate: THIRTY_DAYS, tags: ["featured-venues"] }
+  { revalidate: SIX_MONTHS, tags: ["featured-venues"] }
 );
 
 // ─── Nearby venues on detail page ───────────────────────────────────────────
@@ -234,7 +234,7 @@ export const getCachedNearbyVenues = unstable_cache(
     return { venues: stateVenues || [], scope: "state" as const };
   },
   ["nearby-venues"],
-  { revalidate: THIRTY_DAYS, tags: ["nearby-venues"] }
+  { revalidate: SIX_MONTHS, tags: ["nearby-venues"] }
 );
 
 // ─── Total active venue count (homepage) ────────────────────────────────────
@@ -253,5 +253,5 @@ export const getCachedTotalActiveVenueCount = unstable_cache(
     return count || 0;
   },
   ["total-active-venue-count"],
-  { revalidate: THIRTY_DAYS, tags: ["total-active-venue-count"] }
+  { revalidate: SIX_MONTHS, tags: ["total-active-venue-count"] }
 );

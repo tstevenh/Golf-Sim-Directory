@@ -10,7 +10,7 @@ interface CityVibeIndexPageProps {
   params: Promise<{ state: string; city: string }>;
 }
 
-export const revalidate = 2592000;
+export const revalidate = 15552000;
 
 export async function generateMetadata({ params }: CityVibeIndexPageProps): Promise<Metadata> {
   const { state, city } = await params;

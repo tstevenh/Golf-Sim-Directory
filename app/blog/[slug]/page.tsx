@@ -24,8 +24,10 @@ interface BlogPostPageProps {
   params: Promise<{ slug: string }>;
 }
 
+export const revalidate = 15552000;
+
 export async function generateStaticParams() {
-  const slugs = getAllSlugs();
+  const slugs = await getAllSlugs();
   return slugs.map((slug) => ({ slug }));
 }
 
@@ -63,7 +65,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
   }
   
   // Get related articles
-  const relatedPosts = getRelatedPosts(slug, post.category, 3);
+  const relatedPosts = await getRelatedPosts(slug, post.category, 3);
   const canonicalUrl = `${SITE_URL}/blog/${slug}`;
   const publishedDate = toIsoDate(post.date);
   const coverImageUrl = post.coverImage ? toAbsoluteUrl(post.coverImage) : undefined;

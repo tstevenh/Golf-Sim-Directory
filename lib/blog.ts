@@ -1,11 +1,41 @@
 import fs from "fs";
 import path from "path";
+import { unstable_cache } from "next/cache";
+import { createClient } from "@supabase/supabase-js";
 import matter from "gray-matter";
 import { remark } from "remark";
 import html from "remark-html";
 import gfm from "remark-gfm";
 
 const postsDirectory = path.join(process.cwd(), "content/blog");
+const SIX_MONTHS = 15552000;
+const BLOG_CACHE_TAG = "blog-posts";
+const BLOG_CONTENT_SOURCE = (process.env.BLOG_CONTENT_SOURCE || "supabase").toLowerCase();
+
+interface SupabaseBlogPostRow {
+  slug: string;
+  title: string;
+  excerpt: string | null;
+  content: string;
+  read_time: string | null;
+  category: string | null;
+  author: string | null;
+  featured: boolean | null;
+  cover_image: string | null;
+  faq: unknown;
+  published_at: string | null;
+}
+
+type SupabaseBlogLoadResult =
+  | { ok: true; rows: SupabaseBlogPostRow[] }
+  | { ok: false };
+
+const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
+const supabaseServiceRole = process.env.SUPABASE_SERVICE_ROLE_KEY;
+const blogSupabase =
+  supabaseUrl && supabaseServiceRole
+    ? createClient(supabaseUrl, supabaseServiceRole)
+    : null;
 
 export interface BlogFaqItem {
   question: string;
@@ -46,8 +76,7 @@ function parseFaqEntries(value: unknown): BlogFaqItem[] {
 }
 
 function parseFaqFromFrontmatter(data: Record<string, unknown>): BlogFaqItem[] {
-  const entries = parseFaqEntries(data.faq ?? data.faqs);
-  return entries;
+  return parseFaqEntries(data.faq ?? data.faqs);
 }
 
 function cleanMarkdownText(value: string): string {
@@ -131,8 +160,90 @@ function extractFaqFromMarkdown(markdown: string): BlogFaqItem[] {
   return faqs;
 }
 
-export function getAllPosts(): BlogPost[] {
-  // Check if directory exists
+async function markdownToHtml(markdown: string): Promise<string> {
+  const processedContent = await remark()
+    .use(gfm)
+    .use(html, { allowDangerousHtml: true })
+    .process(markdown);
+  return processedContent.toString();
+}
+
+function mapSupabaseRowToBlogPost(row: SupabaseBlogPostRow): BlogPost {
+  const markdown = toText(row.content);
+  const faqFromColumn = parseFaqEntries(row.faq);
+  const faq = faqFromColumn.length ? faqFromColumn : extractFaqFromMarkdown(markdown);
+
+  return {
+    slug: toText(row.slug),
+    title: toText(row.title),
+    excerpt: toText(row.excerpt),
+    content: markdown,
+    date: toText(row.published_at),
+    readTime: toText(row.read_time),
+    category: toText(row.category),
+    author: toText(row.author) || "GolfSimMap Team",
+    featured: Boolean(row.featured),
+    coverImage: toText(row.cover_image),
+    faq,
+  };
+}
+
+const getCachedSupabasePosts = unstable_cache(
+  async (): Promise<SupabaseBlogLoadResult> => {
+    if (!blogSupabase) {
+      return { ok: false };
+    }
+
+    const { data, error } = await blogSupabase
+      .from("blog_posts")
+      .select(
+        "slug, title, excerpt, content, read_time, category, author, featured, cover_image, faq, published_at"
+      )
+      .eq("is_published", true)
+      .order("published_at", { ascending: false });
+
+    if (error) {
+      return { ok: false };
+    }
+
+    return {
+      ok: true,
+      rows: (data || []) as SupabaseBlogPostRow[],
+    };
+  },
+  ["blog-posts-supabase"],
+  { revalidate: SIX_MONTHS, tags: [BLOG_CACHE_TAG] }
+);
+
+const getCachedSupabasePostBySlug = unstable_cache(
+  async (slug: string): Promise<SupabaseBlogLoadResult> => {
+    if (!blogSupabase) {
+      return { ok: false };
+    }
+
+    const { data, error } = await blogSupabase
+      .from("blog_posts")
+      .select(
+        "slug, title, excerpt, content, read_time, category, author, featured, cover_image, faq, published_at"
+      )
+      .eq("is_published", true)
+      .eq("slug", slug)
+      .maybeSingle();
+
+    if (error) {
+      return { ok: false };
+    }
+
+    return {
+      ok: true,
+      rows: data ? [data as SupabaseBlogPostRow] : [],
+    };
+  },
+  ["blog-post-by-slug-supabase"],
+  { revalidate: SIX_MONTHS, tags: [BLOG_CACHE_TAG] }
+);
+
+function getAllPostsFromFilesystem(): BlogPost[] {
   if (!fs.existsSync(postsDirectory)) {
     return [];
   }
@@ -164,36 +275,25 @@ export function getAllPosts(): BlogPost[] {
       };
     });
 
-  // Sort by date (newest first)
   return allPosts.sort((a, b) => {
     if (a.date < b.date) return 1;
     return -1;
   });
 }
 
-export async function getPostBySlug(slug: string): Promise<BlogPost | null> {
-  // Try .mdx first, then .md
+async function getPostBySlugFromFilesystem(slug: string): Promise<BlogPost | null> {
   const mdxPath = path.join(postsDirectory, `${slug}.mdx`);
   const mdPath = path.join(postsDirectory, `${slug}.md`);
-
   const fullPath = fs.existsSync(mdxPath) ? mdxPath : fs.existsSync(mdPath) ? mdPath : null;
 
-  if (!fullPath) {
-    return null;
-  }
+  if (!fullPath) return null;
 
   const fileContents = fs.readFileSync(fullPath, "utf8");
   const { data, content } = matter(fileContents);
   const frontmatter = data as Record<string, unknown>;
   const frontmatterFaq = parseFaqFromFrontmatter(frontmatter);
   const faq = frontmatterFaq.length ? frontmatterFaq : extractFaqFromMarkdown(content);
-
-  // Convert markdown to HTML
-  const processedContent = await remark()
-    .use(gfm)
-    .use(html, { allowDangerousHtml: true })
-    .process(content);
-  const contentHtml = processedContent.toString();
+  const contentHtml = await markdownToHtml(content);
 
   return {
     slug,
@@ -210,34 +310,54 @@ export async function getPostBySlug(slug: string): Promise<BlogPost | null> {
   };
 }
 
-export function getAllSlugs(): string[] {
-  if (!fs.existsSync(postsDirectory)) {
-    return [];
+export async function getAllPosts(): Promise<BlogPost[]> {
+  if (BLOG_CONTENT_SOURCE !== "filesystem") {
+    const result = await getCachedSupabasePosts();
+    if (result.ok) {
+      return result.rows.map(mapSupabaseRowToBlogPost);
+    }
   }
 
-  const fileNames = fs.readdirSync(postsDirectory);
-  return fileNames
-    .filter((fileName) => fileName.endsWith(".md") || fileName.endsWith(".mdx"))
-    .map((fileName) => fileName.replace(/\.mdx?$/, ""));
+  return getAllPostsFromFilesystem();
 }
 
-export function getRelatedPosts(currentSlug: string, category: string, limit: number = 3): BlogPost[] {
-  const allPosts = getAllPosts();
-  
-  // Filter out current post
+export async function getPostBySlug(slug: string): Promise<BlogPost | null> {
+  if (BLOG_CONTENT_SOURCE !== "filesystem") {
+    const result = await getCachedSupabasePostBySlug(slug);
+    if (result.ok) {
+      const row = result.rows[0];
+      if (!row) return null;
+      const post = mapSupabaseRowToBlogPost(row);
+      return {
+        ...post,
+        content: await markdownToHtml(post.content),
+      };
+    }
+  }
+
+  return getPostBySlugFromFilesystem(slug);
+}
+
+export async function getAllSlugs(): Promise<string[]> {
+  const posts = await getAllPosts();
+  return posts.map((post) => post.slug);
+}
+
+export async function getRelatedPosts(
+  currentSlug: string,
+  category: string,
+  limit: number = 3
+): Promise<BlogPost[]> {
+  const allPosts = await getAllPosts();
   const otherPosts = allPosts.filter((post) => post.slug !== currentSlug);
-  
-  // First, try to find posts in the same category
   const sameCategory = otherPosts.filter((post) => post.category === category);
-  
-  // If we have enough in the same category, return those
+
   if (sameCategory.length >= limit) {
     return sameCategory.slice(0, limit);
   }
-  
-  // Otherwise, fill with other recent posts
+
   const remaining = limit - sameCategory.length;
   const differentCategory = otherPosts.filter((post) => post.category !== category);
-  
   return [...sameCategory, ...differentCategory.slice(0, remaining)];
 }
+

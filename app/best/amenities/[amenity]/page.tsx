@@ -9,7 +9,7 @@ interface BestAmenityPageProps {
   searchParams?: Promise<Record<string, string | string[] | undefined>>;
 }
 
-export const revalidate = 2592000;
+export const revalidate = 15552000;
 
 // Pre-render all amenity pages at build time
 export async function generateStaticParams() {

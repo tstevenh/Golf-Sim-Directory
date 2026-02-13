@@ -13,6 +13,8 @@ import { LaunchMonitorComparison } from "@/components/home/LaunchMonitorComparis
 import { PopularCities } from "@/components/home/PopularCities";
 import { BusinessCTA } from "@/components/home/BusinessCTA";
 
+export const revalidate = 15552000;
+
 export const metadata: Metadata = {
   title: {
     absolute: "GolfSimMap — Find Indoor Golf Simulators Near You",
