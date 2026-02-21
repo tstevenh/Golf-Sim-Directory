@@ -15,6 +15,22 @@ function toIsoDate(value: string): string | undefined {
   return Number.isNaN(parsed.getTime()) ? undefined : parsed.toISOString();
 }
 
+function toDisplayDate(value: string): string {
+  if (!value) return "";
+
+  // Keep date display stable regardless of server/user timezone.
+  const normalized = /^\d{4}-\d{2}-\d{2}$/.test(value) ? `${value}T00:00:00Z` : value;
+  const parsed = new Date(normalized);
+  if (Number.isNaN(parsed.getTime())) return value;
+
+  return new Intl.DateTimeFormat("en-US", {
+    month: "long",
+    day: "numeric",
+    year: "numeric",
+    timeZone: "UTC",
+  }).format(parsed);
+}
+
 function toAbsoluteUrl(url: string): string {
   if (url.startsWith("http://") || url.startsWith("https://")) return url;
   return `${SITE_URL}${url.startsWith("/") ? url : `/${url}`}`;
@@ -68,6 +84,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
   const relatedPosts = await getRelatedPosts(slug, post.category, 3);
   const canonicalUrl = `${SITE_URL}/blog/${slug}`;
   const publishedDate = toIsoDate(post.date);
+  const displayDate = toDisplayDate(post.date);
   const coverImageUrl = post.coverImage ? toAbsoluteUrl(post.coverImage) : undefined;
   
   const articleSchema = {
@@ -139,7 +156,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
               </span>
               <span className="text-sm text-muted flex items-center gap-1.5">
                 <Calendar className="w-3.5 h-3.5" />
-                {post.date}
+                {displayDate}
               </span>
               <span className="text-sm text-muted flex items-center gap-1.5">
                 <Clock className="w-3.5 h-3.5" />
@@ -245,7 +262,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                   </div>
                   <div>
                     <span className="block text-sm font-medium text-cream">Written by {post.author}</span>
-                    <span className="block text-xs text-muted">Published on {post.date}</span>
+                    <span className="block text-xs text-muted">Published on {displayDate}</span>
                   </div>
                 </div>
                 

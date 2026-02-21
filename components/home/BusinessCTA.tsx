@@ -91,7 +91,7 @@ export function BusinessCTA() {
             <div className="relative">
               <div className="aspect-[4/3] border border-default overflow-hidden">
                 <img
-                  src="/hero-golf-simulator.jpg"
+                  src="/hero-golf-simulator.webp"
                   alt="Golf simulator venue"
                   className="w-full h-full object-cover"
                 />

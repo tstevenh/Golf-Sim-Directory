@@ -74,7 +74,7 @@ export function FeaturedVenues({ venues }: FeaturedVenuesProps) {
     >
       <div className="absolute inset-0">
         <img
-          src="/fairway-aerial.jpg"
+          src="/fairway-aerial.webp"
           alt=""
           className="w-full h-full object-cover opacity-10"
         />

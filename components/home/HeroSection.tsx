@@ -80,7 +80,7 @@ export function HeroSection({ totalVenues, totalStates }: HeroSectionProps) {
       {/* Background Image */}
       <div className="absolute inset-0">
         <img
-          src="/simulator-cinematic.jpg"
+          src="/simulator-cinematic.webp"
           alt="Indoor golf simulator bay with launch monitor technology"
           className="w-full h-full object-cover"
         />
@@ -94,7 +94,7 @@ export function HeroSection({ totalVenues, totalStates }: HeroSectionProps) {
       <div
         className="absolute inset-0"
         style={{
-          backgroundImage: "url(/dimple-texture.jpg)",
+          backgroundImage: "url(/dimple-texture.webp)",
           backgroundSize: "300px",
           mixBlendMode: "overlay",
           opacity: 0.06,

@@ -68,6 +68,44 @@ export default async function DashboardPage() {
           </p>
         </div>
 
+        {/* Admin Links */}
+        {userRole === "admin" && (
+          <div className="mb-6 border border-default bg-charcoal p-6">
+            <h2 className="text-cream mb-4 flex items-center gap-3">
+              <div className="w-10 h-10 border border-masters-green flex items-center justify-center">
+                <Building2 className="w-5 h-5 text-masters-green" />
+              </div>
+              Admin
+            </h2>
+            <div className="flex flex-wrap gap-3">
+              <Link
+                href="/admin/submissions"
+                className="px-4 py-2 bg-masters-green text-deep-black font-medium text-sm hover:bg-masters-green/90 transition-colors"
+              >
+                Review Submissions →
+              </Link>
+              <Link
+                href="/admin/claims"
+                className="px-4 py-2 bg-masters-green text-deep-black font-medium text-sm hover:bg-masters-green/90 transition-colors"
+              >
+                Review Claims →
+              </Link>
+              <Link
+                href="/admin/corrections"
+                className="px-4 py-2 bg-masters-green text-deep-black font-medium text-sm hover:bg-masters-green/90 transition-colors"
+              >
+                Review Corrections →
+              </Link>
+              <Link
+                href="/admin/blog"
+                className="px-4 py-2 bg-masters-green text-deep-black font-medium text-sm hover:bg-masters-green/90 transition-colors"
+              >
+                Manage Blog →
+              </Link>
+            </div>
+          </div>
+        )}
+
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
           {/* Submissions */}
           <div className="border border-default bg-charcoal p-6">
@@ -241,38 +279,6 @@ export default async function DashboardPage() {
             </div>
           )}
         </div>
-
-        {/* Admin Links */}
-        {userRole === "admin" && (
-          <div className="mt-6 border border-default bg-charcoal p-6">
-            <h2 className="text-cream mb-4 flex items-center gap-3">
-              <div className="w-10 h-10 border border-masters-green flex items-center justify-center">
-                <Building2 className="w-5 h-5 text-masters-green" />
-              </div>
-              Admin
-            </h2>
-            <div className="flex flex-wrap gap-3">
-              <Link
-                href="/admin/submissions"
-                className="px-4 py-2 bg-masters-green text-deep-black font-medium text-sm hover:bg-masters-green/90 transition-colors"
-              >
-                Review Submissions →
-              </Link>
-              <Link
-                href="/admin/claims"
-                className="px-4 py-2 bg-masters-green text-deep-black font-medium text-sm hover:bg-masters-green/90 transition-colors"
-              >
-                Review Claims →
-              </Link>
-              <Link
-                href="/admin/corrections"
-                className="px-4 py-2 bg-masters-green text-deep-black font-medium text-sm hover:bg-masters-green/90 transition-colors"
-              >
-                Review Corrections →
-              </Link>
-            </div>
-          </div>
-        )}
 
         {/* Account Info */}
         <div className="mt-6 border border-default bg-charcoal p-6">

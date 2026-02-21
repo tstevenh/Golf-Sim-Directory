@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import Link from "next/link";
 import { Calendar, Clock, ArrowRight } from "lucide-react";
 import { getAllPosts } from "@/lib/blog";
+import Image from "next/image";
 
 export const revalidate = 15552000;
 
@@ -18,6 +19,20 @@ export const metadata: Metadata = {
     url: "https://golfsimmap.com/blog",
   },
 };
+
+function toDisplayDate(value: string): string {
+  if (!value) return "";
+  const normalized = /^\d{4}-\d{2}-\d{2}$/.test(value) ? `${value}T00:00:00Z` : value;
+  const parsed = new Date(normalized);
+  if (Number.isNaN(parsed.getTime())) return value;
+
+  return new Intl.DateTimeFormat("en-US", {
+    month: "long",
+    day: "numeric",
+    year: "numeric",
+    timeZone: "UTC",
+  }).format(parsed);
+}
 
 export default async function BlogPage() {
   const posts = await getAllPosts();
@@ -81,6 +96,16 @@ export default async function BlogPage() {
             {featuredPost && (
               <Link href={`/blog/${featuredPost.slug}`} className="block mb-12">
                 <article className="border border-default bg-charcoal overflow-hidden hover:border-masters-green/50 transition-colors cursor-pointer">
+                  {featuredPost.coverImage ? (
+                    <div className="relative w-full h-40 md:h-44 border-b border-subtle/50">
+                      <Image
+                        src={featuredPost.coverImage}
+                        alt={featuredPost.title}
+                        fill
+                        className="object-cover"
+                      />
+                    </div>
+                  ) : null}
                   <div className="p-8">
                     <div className="flex flex-wrap items-center gap-4 mb-4">
                       <span className="text-xs font-mono uppercase tracking-wider text-masters-green bg-masters-green/10 px-2 py-1">
@@ -88,7 +113,7 @@ export default async function BlogPage() {
                       </span>
                       <span className="text-xs text-muted flex items-center gap-1">
                         <Calendar className="w-3 h-3" />
-                        {featuredPost.date}
+                        {toDisplayDate(featuredPost.date)}
                       </span>
                       <span className="text-xs text-muted flex items-center gap-1">
                         <Clock className="w-3 h-3" />
@@ -114,12 +139,23 @@ export default async function BlogPage() {
             <div className="grid md:grid-cols-2 gap-6">
               {regularPosts.map((post) => (
                 <Link key={post.slug} href={`/blog/${post.slug}`} className="block">
-                  <article className="border border-default bg-charcoal p-6 hover:border-masters-green/50 transition-colors cursor-pointer h-full">
+                  <article className="border border-default bg-charcoal hover:border-masters-green/50 transition-colors cursor-pointer h-full overflow-hidden">
+                    {post.coverImage ? (
+                      <div className="relative w-full h-28 border-b border-subtle/50">
+                        <Image
+                          src={post.coverImage}
+                          alt={post.title}
+                          fill
+                          className="object-cover"
+                        />
+                      </div>
+                    ) : null}
+                    <div className="p-6">
                     <div className="flex flex-wrap items-center gap-3 mb-3">
                       <span className="text-xs font-mono uppercase tracking-wider text-masters-green">
                         {post.category}
                       </span>
-                      <span className="text-xs text-muted">{post.date}</span>
+                      <span className="text-xs text-muted">{toDisplayDate(post.date)}</span>
                     </div>
                     <h3 className="text-cream text-xl mb-3 leading-tight">
                       {post.title}
@@ -135,6 +171,7 @@ export default async function BlogPage() {
                       <span className="text-sm text-masters-green group-hover:text-cream transition-colors">
                         Read →
                       </span>
+                    </div>
                     </div>
                   </article>
                 </Link>

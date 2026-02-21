@@ -276,7 +276,6 @@ export default async function CityPage({ params }: CityPageProps) {
             amenities={cityCategoryLinks.amenities}
             software={cityCategoryLinks.software}
             tags={cityCategoryLinks.tags}
-            totalCounts={cityCategoryLinks.totalCounts}
           />
         </div>
 

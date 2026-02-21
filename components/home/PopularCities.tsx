@@ -57,7 +57,7 @@ export function PopularCities({ cities, states }: PopularCitiesProps) {
       {/* Background */}
       <div className="absolute inset-0">
         <img
-          src="/scorecard-vintage.jpg"
+          src="/scorecard-vintage.webp"
           alt=""
           className="w-full h-full object-cover opacity-5"
         />

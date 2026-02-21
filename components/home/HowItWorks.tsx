@@ -57,7 +57,7 @@ export function HowItWorks() {
       <div className="absolute inset-0 scorecard-grid opacity-50" />
 
       <div className="absolute right-0 top-0 w-1/3 h-full opacity-10">
-        <img src="/tees-art.jpg" alt="" className="w-full h-full object-cover" />
+        <img src="/tees-art.webp" alt="" className="w-full h-full object-cover" />
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
