@@ -7,6 +7,7 @@ import { Pagination } from "@/components/ui/Pagination";
 import { getStateDisplayName } from "@/lib/states";
 import { normalizeHardwareBrand } from "@/lib/hardware-brands";
 import { getVenueHref } from "@/lib/venue-url";
+import { getCachedCitiesInState, getCachedDistinctStates } from "@/lib/cached-queries";
 import { Search } from "lucide-react";
 import { SearchForm } from "./SearchForm";
 
@@ -69,10 +70,10 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
   let forceNoResults = false;
   const normalizedHardware = hardware ? normalizeHardwareBrand(hardware) : "";
 
-  // Fetch available states and cities for dropdowns
-  const [{ data: statesData }, { data: citiesData }] = await Promise.all([
-    supabase.rpc("get_distinct_states"),
-    supabase.rpc("get_distinct_cities"),
+  // Fetch available states once, and only fetch cities when a state is selected.
+  const [statesData, initialCitiesData] = await Promise.all([
+    getCachedDistinctStates(),
+    state ? getCachedCitiesInState(state) : Promise.resolve([] as { city: string; count: number }[]),
   ]);
 
   const availableStates = (statesData || []).map((v: { state: string }) => ({
@@ -80,10 +81,7 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
     name: getStateDisplayName(v.state),
   }));
 
-  const availableCities = (citiesData || []).map((v: { city: string; state: string }) => ({
-    city: v.city,
-    state: v.state,
-  }));
+  const initialCities = (initialCitiesData || []).map((v: { city: string }) => v.city);
 
   // Validate enum filters
   if (venueType && !VALID_VENUE_TYPES.has(venueType)) {
@@ -123,7 +121,7 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
       // Build the count query
       let countQuery = supabase
         .from("venues")
-        .select("*", { count: "exact", head: true })
+        .select("id", { count: "exact", head: true })
         .eq("status", "active");
 
       // Build the data query
@@ -243,7 +241,7 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
             initialWifi={wifiFilter}
             initialPrivateRooms={privateRooms}
             availableStates={availableStates}
-            availableCities={availableCities}
+            initialCities={initialCities}
           />
         </div>
 

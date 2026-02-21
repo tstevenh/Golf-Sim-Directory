@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { cache, type ComponentProps } from "react";
-import { supabase } from "@/lib/supabase";
+import { supabase, type Venue } from "@/lib/supabase";
 import { getCachedNearbyVenues } from "@/lib/cached-queries";
 import {
   getSnapshotActiveUSVenues,
@@ -23,6 +23,66 @@ interface VenuePageProps {
 export const revalidate = 15552000;
 const META_DESCRIPTION_MAX = 155;
 type NearbyVenuesForDetail = NonNullable<ComponentProps<typeof VenueDetail>["nearbyVenues"]>;
+const VENUE_DETAIL_FIELDS = [
+  "id",
+  "slug",
+  "name",
+  "status",
+  "country",
+  "address",
+  "city",
+  "state",
+  "zipCode",
+  "latitude",
+  "longitude",
+  "phone",
+  "email",
+  "website",
+  "heroImage",
+  "venueType",
+  "launchMonitorType",
+  "simulatorSystems",
+  "hardwareBrands",
+  "softwareSlugs",
+  "about",
+  "hours",
+  "pricingModel",
+  "priceRangeMin",
+  "priceRangeMax",
+  "bookingUrl",
+  "walkInsAllowed",
+  "bayCount",
+  "maxGroupSizePerBay",
+  "hasPrivateRooms",
+  "privateRoomsCount",
+  "puttingMode",
+  "leftyFriendly",
+  "clubTracking",
+  "ballTracking",
+  "foodAndDrink",
+  "wifi",
+  "parking",
+  "coachingAvailable",
+  "kidFriendly",
+  "accessibility",
+  "tags",
+  "vibeTags",
+  "whoItsFor",
+  "whyGolfersLikeIt",
+  "comprehensiveData",
+  "googleMapsUrl",
+  "claimed",
+  "verificationLevel",
+  "featured",
+  "ratingOverall",
+  "ratingFacilityComfort",
+  "ratingTechQuality",
+  "ratingValueForMoney",
+  "metaTitle",
+  "metaDescription",
+  "createdAt",
+  "updatedAt",
+].join(",");
 
 function toPathSegment(value: string): string {
   return value
@@ -34,7 +94,7 @@ function toPathSegment(value: string): string {
 }
 
 // Memoize venue fetch to prevent duplicate queries between generateMetadata and page
-const getVenueBySlug = cache(async (slug: string, state: string, city: string) => {
+const getVenueBySlug = cache(async (slug: string, state: string, city: string): Promise<Venue | null> => {
   const normalizedSlug = toPathSegment(slug);
   const stateCode = normalizeStateCode(getStateAbbrevFromName(state) || state.toUpperCase());
   const cityFormatted = city.replace(/-/g, " ").replace(/\b\w/g, (l) => l.toUpperCase());
@@ -48,16 +108,39 @@ const getVenueBySlug = cache(async (slug: string, state: string, city: string) =
   );
   if (snapshotVenue) return snapshotVenue;
 
-  const { data } = await supabase
+  const slugCandidates = Array.from(
+    new Set([slug, normalizedSlug].map((value) => toPathSegment(value)).filter(Boolean))
+  );
+  if (slugCandidates.length === 0) return null;
+
+  const { data: exactMatchesRaw } = await supabase
     .from("venues")
-    .select("*")
+    .select(VENUE_DETAIL_FIELDS)
     .eq("status", "active")
     .eq("country", "US")
     .eq("state", stateCode)
-    .ilike("city", cityFormatted);
+    .ilike("city", cityFormatted)
+    .in("slug", slugCandidates)
+    .limit(5);
 
-  if (!data || data.length === 0) return null;
-  return data.find((venue) => toPathSegment(String(venue.slug || "")) === normalizedSlug) || null;
+  const exactMatches = (exactMatchesRaw || []) as unknown as Venue[];
+  if (exactMatches.length > 0) {
+    return exactMatches.find((venue) => toPathSegment(String(venue.slug || "")) === normalizedSlug) || exactMatches[0];
+  }
+
+  // Fallback for legacy slug variants without pulling entire row payload.
+  const { data: cityMatchesRaw } = await supabase
+    .from("venues")
+    .select(VENUE_DETAIL_FIELDS)
+    .eq("status", "active")
+    .eq("country", "US")
+    .eq("state", stateCode)
+    .ilike("city", cityFormatted)
+    .limit(250);
+
+  const cityMatches = (cityMatchesRaw || []) as unknown as Venue[];
+  if (cityMatches.length === 0) return null;
+  return cityMatches.find((venue) => toPathSegment(String(venue.slug || "")) === normalizedSlug) || null;
 });
 
 function normalizeText(value: string | null | undefined): string {

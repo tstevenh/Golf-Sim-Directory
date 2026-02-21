@@ -40,7 +40,7 @@ export async function generateMetadata({ params }: StatePageProps): Promise<Meta
       : (
           await supabase
             .from("venues")
-            .select("*", { count: "exact", head: true })
+            .select("id", { count: "exact", head: true })
             .eq("state", stateAbbrev.toUpperCase())
             .eq("status", "active")
         ).count || 0;

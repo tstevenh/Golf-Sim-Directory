@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { supabase } from "@/lib/supabase";
+import { getCachedCitiesInState } from "@/lib/cached-queries";
 
 // GET /api/venues/cities?state=CA - Get cities for a state
 export async function GET(request: Request) {
@@ -11,11 +11,7 @@ export async function GET(request: Request) {
   }
 
   try {
-    const { data: citiesResult } = await supabase.rpc("get_cities_in_state", {
-      target_state: state.toUpperCase(),
-    });
-
-    // Already sorted by count desc in the RPC function
+    const citiesResult = await getCachedCitiesInState(state.toUpperCase());
     const cities = (citiesResult || []).map((c: { city: string }) => c.city);
 
     return NextResponse.json({ cities }, {

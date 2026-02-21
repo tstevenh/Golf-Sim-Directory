@@ -78,7 +78,7 @@ export async function generateMetadata({ params }: BestTagPageProps): Promise<Me
   const tagVariants = Array.from(new Set([tag, tag.replace(/-/g, "_"), tag.replace(/_/g, "-")]));
   const { count } = await supabase
     .from("venues")
-    .select("*", { count: "exact", head: true })
+    .select("id", { count: "exact", head: true })
     .eq("status", "active")
     .overlaps("tags", tagVariants);
   const totalCount = count ?? 0;
@@ -112,7 +112,7 @@ export default async function BestTagPage({ params, searchParams }: BestTagPageP
   const [{ count: totalCount }, { data: venueRows }] = await Promise.all([
     supabase
       .from("venues")
-      .select("*", { count: "exact", head: true })
+      .select("id", { count: "exact", head: true })
       .eq("status", "active")
       .overlaps("tags", tagVariants),
     supabase

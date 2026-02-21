@@ -93,7 +93,7 @@ export default async function BestLaunchMonitorPage({ params, searchParams }: Be
     const [{ count }, { data: venueRows }] = await Promise.all([
       supabase
         .from("venues")
-        .select("*", { count: "exact", head: true })
+        .select("id", { count: "exact", head: true })
         .eq("status", "active")
         .eq("launchMonitorType", typeKey as LaunchMonitorType),
       supabase

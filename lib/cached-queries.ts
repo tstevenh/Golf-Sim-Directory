@@ -5,6 +5,7 @@ import { unstable_cache } from "next/cache";
 import { supabase } from "@/lib/supabase";
 import { normalizeStateCode } from "@/lib/states";
 import {
+  getDistinctStatesFromSnapshot,
   getCityVenueCountsFromSnapshot,
   getCitiesInStateFromSnapshot,
   getFeaturedVenuesFromSnapshot,
@@ -98,6 +99,22 @@ export const getCachedCityVenueCounts = unstable_cache(
   },
   ["city-venue-counts"],
   { revalidate: SIX_MONTHS, tags: ["city-venue-counts"] }
+);
+
+// ─── Distinct states (search filters) ───────────────────────────────────────
+
+export const getCachedDistinctStates = unstable_cache(
+  async () => {
+    const snapshot = readVenueSnapshot();
+    if (snapshot) {
+      return getDistinctStatesFromSnapshot().map((state) => ({ state }));
+    }
+
+    const { data } = await supabase.rpc("get_distinct_states");
+    return (data || []) as { state: string }[];
+  },
+  ["distinct-states"],
+  { revalidate: SIX_MONTHS, tags: ["distinct-states"] }
 );
 
 // ─── Cities in state (state pages) ──────────────────────────────────────────
@@ -248,7 +265,7 @@ export const getCachedTotalActiveVenueCount = unstable_cache(
 
     const { count } = await supabase
       .from("venues")
-      .select("*", { count: "exact", head: true })
+      .select("id", { count: "exact", head: true })
       .eq("status", "active");
     return count || 0;
   },

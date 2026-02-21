@@ -18,6 +18,66 @@ const CACHE_DIR = path.join(process.cwd(), ".cache");
 const CACHE_PATH = path.join(CACHE_DIR, "venues.json");
 const TEMP_PATH = path.join(CACHE_DIR, "venues.json.tmp");
 const PAGE_SIZE = 1000;
+const SNAPSHOT_VENUE_FIELDS = [
+  "id",
+  "slug",
+  "name",
+  "status",
+  "country",
+  "address",
+  "city",
+  "state",
+  "zipCode",
+  "latitude",
+  "longitude",
+  "phone",
+  "email",
+  "website",
+  "heroImage",
+  "venueType",
+  "launchMonitorType",
+  "simulatorSystems",
+  "hardwareBrands",
+  "softwareSlugs",
+  "about",
+  "hours",
+  "pricingModel",
+  "priceRangeMin",
+  "priceRangeMax",
+  "bookingUrl",
+  "walkInsAllowed",
+  "bayCount",
+  "maxGroupSizePerBay",
+  "hasPrivateRooms",
+  "privateRoomsCount",
+  "puttingMode",
+  "leftyFriendly",
+  "clubTracking",
+  "ballTracking",
+  "foodAndDrink",
+  "wifi",
+  "parking",
+  "coachingAvailable",
+  "kidFriendly",
+  "accessibility",
+  "tags",
+  "vibeTags",
+  "whoItsFor",
+  "whyGolfersLikeIt",
+  "comprehensiveData",
+  "googleMapsUrl",
+  "claimed",
+  "verificationLevel",
+  "featured",
+  "ratingOverall",
+  "ratingFacilityComfort",
+  "ratingTechQuality",
+  "ratingValueForMoney",
+  "metaTitle",
+  "metaDescription",
+  "createdAt",
+  "updatedAt",
+].join(",");
 
 async function fetchAllActiveUSVenues() {
   const venues: Record<string, unknown>[] = [];
@@ -26,7 +86,7 @@ async function fetchAllActiveUSVenues() {
   while (true) {
     const { data, error } = await supabase
       .from("venues")
-      .select("*")
+      .select(SNAPSHOT_VENUE_FIELDS)
       .eq("status", "active")
       .eq("country", "US")
       .order("id", { ascending: true })
@@ -40,13 +100,14 @@ async function fetchAllActiveUSVenues() {
       break;
     }
 
+    const rows = data as unknown as Record<string, unknown>[];
     venues.push(
-      ...data.map((row) => {
+      ...rows.map((row) => {
         const state = typeof row.state === "string" ? normalizeStateCode(row.state) : row.state;
         return { ...row, state };
       })
     );
-    if (data.length < PAGE_SIZE) {
+    if (rows.length < PAGE_SIZE) {
       break;
     }
 

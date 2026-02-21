@@ -68,7 +68,7 @@ export default async function CityBestHardwarePage({ params, searchParams }: Cit
     const [{ count }, { data: venueRows }] = await Promise.all([
       supabase
         .from("venues")
-        .select("*", { count: "exact", head: true })
+        .select("id", { count: "exact", head: true })
         .ilike("city", cityFormatted)
         .eq("state", stateAbbrev.toUpperCase())
         .eq("country", "US")

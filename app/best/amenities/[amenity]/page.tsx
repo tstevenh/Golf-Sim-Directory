@@ -132,7 +132,7 @@ export default async function BestAmenityPage({ params, searchParams }: BestAmen
     const applyFilter = amenityFilterMap[normalizedAmenity];
     const [{ count }, { data: venueRows }] = await Promise.all([
       applyFilter(
-        supabase.from("venues").select("*", { count: "exact", head: true }).eq("status", "active")
+        supabase.from("venues").select("id", { count: "exact", head: true }).eq("status", "active")
       ),
       applyFilter(
         supabase
@@ -161,7 +161,7 @@ export default async function BestAmenityPage({ params, searchParams }: BestAmen
       const [{ count }, { data: venueRows }] = await Promise.all([
         supabase
           .from("venues")
-          .select("*", { count: "exact", head: true })
+          .select("id", { count: "exact", head: true })
           .eq("status", "active")
           .in("id", ids),
         supabase

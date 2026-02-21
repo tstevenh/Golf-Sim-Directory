@@ -98,7 +98,7 @@ export default async function BestSoftwarePage({ params, searchParams }: BestSof
     const [{ count }, { data: venueRows }] = await Promise.all([
       supabase
         .from("venues")
-        .select("*", { count: "exact", head: true })
+        .select("id", { count: "exact", head: true })
         .eq("status", "active")
         .contains("softwareSlugs", [softwareSlug]),
       supabase

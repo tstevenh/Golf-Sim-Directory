@@ -28,7 +28,7 @@ export async function GET(request: Request) {
   // Build count query
   let countQuery = supabase
     .from("venues")
-    .select("*", { count: "exact", head: true })
+    .select("id", { count: "exact", head: true })
     .eq("status", "active");
 
   if (city) {

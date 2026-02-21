@@ -97,7 +97,7 @@ export default async function BestWhoItsForPage({ params, searchParams }: BestWh
   const [{ count: totalVenues }, { data: venueRows }] = await Promise.all([
     supabase
       .from("venues")
-      .select("*", { count: "exact", head: true })
+      .select("id", { count: "exact", head: true })
       .eq("status", "active")
       .overlaps("whoItsFor", segmentVariants),
     supabase

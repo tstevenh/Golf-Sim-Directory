@@ -100,7 +100,7 @@ export default async function BestHardwarePage({ params, searchParams }: BestHar
     const [{ count }, { data: venueRows }] = await Promise.all([
       supabase
         .from("venues")
-        .select("*", { count: "exact", head: true })
+        .select("id", { count: "exact", head: true })
         .eq("status", "active")
         .contains("hardwareBrands", [normalizedBrand]),
       supabase

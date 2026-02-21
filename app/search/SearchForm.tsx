@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import { Search, SlidersHorizontal, X } from "lucide-react";
 
@@ -20,7 +20,7 @@ interface SearchFormProps {
   initialWifi: boolean;
   initialPrivateRooms: boolean;
   availableStates: Array<{ code: string; name: string }>;
-  availableCities: Array<{ city: string; state: string }>;
+  initialCities: string[];
 }
 
 const venueTypes = [
@@ -69,23 +69,46 @@ export function SearchForm({
   initialWifi,
   initialPrivateRooms,
   availableStates,
-  availableCities,
+  initialCities,
 }: SearchFormProps) {
   const router = useRouter();
   const [selectedState, setSelectedState] = useState(initialState);
   const [selectedCity, setSelectedCity] = useState(initialCity);
+  const [cities, setCities] = useState<string[]>(initialState ? initialCities : []);
   const [showFilters, setShowFilters] = useState(false);
 
-  // Filter cities based on selected state
-  const filteredCities = useMemo(() => {
-    if (!selectedState) return availableCities;
-    return availableCities.filter((c) => c.state === selectedState);
-  }, [selectedState, availableCities]);
+  useEffect(() => {
+    if (!selectedState) {
+      return;
+    }
+
+    const stateCode = selectedState.toUpperCase();
+    const controller = new AbortController();
+
+    fetch(`/api/venues/cities?state=${encodeURIComponent(stateCode)}`, {
+      signal: controller.signal,
+      cache: "force-cache",
+    })
+      .then((res) => (res.ok ? res.json() : { cities: [] }))
+      .then((payload: { cities?: string[] }) => {
+        if (controller.signal.aborted) return;
+        setCities(Array.isArray(payload.cities) ? payload.cities : []);
+      })
+      .catch((error: unknown) => {
+        if ((error as { name?: string })?.name === "AbortError") return;
+        setCities([]);
+      });
+
+    return () => {
+      controller.abort();
+    };
+  }, [selectedState]);
 
   // Reset city when state changes
   const handleStateChange = (newState: string) => {
     setSelectedState(newState);
-    setSelectedCity(""); // Reset city when state changes
+    setSelectedCity("");
+    setCities([]);
   };
 
   return (
@@ -133,9 +156,9 @@ export function SearchForm({
               <option value="">
                 {selectedState ? "All Cities" : "Select state first"}
               </option>
-              {filteredCities.map((cityObj) => (
-                <option key={`${cityObj.state}-${cityObj.city}`} value={cityObj.city}>
-                  {cityObj.city}
+              {cities.map((cityName) => (
+                <option key={cityName} value={cityName}>
+                  {cityName}
                 </option>
               ))}
             </select>
