@@ -23,7 +23,7 @@ type SitemapVenueRow = {
   slug: string;
   city: string;
   state: string;
-  updatedAt: string;
+  updatedAt: Date;
 };
 
 function toPathSegment(value: string): string {
@@ -35,7 +35,30 @@ function toPathSegment(value: string): string {
     .replace(/^-|-$/g, "");
 }
 
+function parseSitemapDate(value: unknown, fallback: Date): Date {
+  if (value instanceof Date && !Number.isNaN(value.getTime())) {
+    return value;
+  }
+
+  if (typeof value !== "string") {
+    return fallback;
+  }
+
+  const raw = value.trim();
+  if (!raw) return fallback;
+
+  // Normalize common PostgreSQL timestamp shapes into strict ISO-8601.
+  let normalized = raw.replace(" ", "T");
+  normalized = normalized.replace(/([+-]\d{2})$/, "$1:00");
+  normalized = normalized.replace(/([+-]\d{2})(\d{2})$/, "$1:$2");
+  normalized = normalized.replace(/\.(\d{3})\d+(?=(Z|[+-]\d{2}:\d{2})$)/, ".$1");
+
+  const parsed = new Date(normalized);
+  return Number.isNaN(parsed.getTime()) ? fallback : parsed;
+}
+
 function getSitemapVenueRowsFromSnapshot(): SitemapVenueRow[] {
+  const now = new Date();
   return getSnapshotActiveUSVenues()
     .filter((venue) =>
       typeof venue.slug === "string" &&
@@ -46,15 +69,13 @@ function getSitemapVenueRowsFromSnapshot(): SitemapVenueRow[] {
       slug: String(venue.slug),
       city: String(venue.city),
       state: String(venue.state),
-      updatedAt:
-        typeof venue.updatedAt === "string"
-          ? venue.updatedAt
-          : new Date().toISOString(),
+      updatedAt: parseSitemapDate(venue.updatedAt, now),
     }));
 }
 
 async function getSitemapVenueRowsFromDb(): Promise<SitemapVenueRow[]> {
   const rows: SitemapVenueRow[] = [];
+  const now = new Date();
   let from = 0;
 
   while (true) {
@@ -84,10 +105,7 @@ async function getSitemapVenueRowsFromDb(): Promise<SitemapVenueRow[]> {
           slug: String(venue.slug),
           city: String(venue.city),
           state: String(venue.state),
-          updatedAt:
-            typeof venue.updatedAt === "string"
-              ? venue.updatedAt
-              : new Date().toISOString(),
+          updatedAt: parseSitemapDate(venue.updatedAt, now),
         }))
     );
 

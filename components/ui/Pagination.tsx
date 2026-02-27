@@ -74,6 +74,14 @@ export function Pagination({
   };
 
   const pageNumbers = hasKnownTotal ? getPageNumbers(totalPages) : [];
+  const unknownTotalPages: number[] = (() => {
+    if (hasKnownTotal) return [];
+    const pages: number[] = [];
+    if (currentPage > 1) pages.push(currentPage - 1);
+    pages.push(currentPage);
+    if (hasNextPage) pages.push(currentPage + 1);
+    return pages;
+  })();
 
   return (
     <nav aria-label="Pagination" className="flex items-center justify-center gap-2 mt-8">
@@ -115,9 +123,22 @@ export function Pagination({
           ))}
         </div>
       ) : (
-        <span className="min-w-[40px] h-10 flex items-center justify-center text-sm rounded-lg border border-masters-green bg-masters-green text-deep-black font-semibold px-3">
-          {currentPage}
-        </span>
+        <div className="flex items-center gap-1">
+          {unknownTotalPages.map((page) => (
+            <Link
+              key={page}
+              href={buildHref(page)}
+              className={`min-w-[40px] h-10 flex items-center justify-center text-sm rounded-lg border transition-colors ${
+                currentPage === page
+                  ? "bg-masters-green text-deep-black border-masters-green font-semibold"
+                  : "border-default text-cream hover:border-masters-green hover:text-masters-green"
+              }`}
+              aria-current={currentPage === page ? "page" : undefined}
+            >
+              {page}
+            </Link>
+          ))}
+        </div>
       )}
 
       {/* Next Button */}

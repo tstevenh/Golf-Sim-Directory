@@ -201,7 +201,8 @@ export function getCityVenuesPageFromSnapshot(
   state: string,
   city: string,
   page: number,
-  pageSize: number
+  pageSize: number,
+  sort: "recommended" | "name-asc" = "recommended"
 ): { venues: SnapshotVenueRow[]; hasNextPage: boolean } {
   const stateUpper = normalizeStateCode(state);
   const normalizedCity = city.trim().toLowerCase();
@@ -215,14 +216,17 @@ export function getCityVenuesPageFromSnapshot(
       return normalizeStateCode(venue.state) === stateUpper && venue.city.trim().toLowerCase() === normalizedCity;
     })
     .sort((a, b) => {
+      const nameA = isString(a.name) ? a.name : "";
+      const nameB = isString(b.name) ? b.name : "";
+
+      if (sort === "name-asc") return nameA.localeCompare(nameB);
+
       const featuredA = a.featured ? 1 : 0;
       const featuredB = b.featured ? 1 : 0;
       if (featuredA !== featuredB) return featuredB - featuredA;
       const ratingA = typeof a.ratingOverall === "number" ? a.ratingOverall : -1;
       const ratingB = typeof b.ratingOverall === "number" ? b.ratingOverall : -1;
       if (ratingA !== ratingB) return ratingB - ratingA;
-      const nameA = isString(a.name) ? a.name : "";
-      const nameB = isString(b.name) ? b.name : "";
       return nameA.localeCompare(nameB);
     });
 

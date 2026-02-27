@@ -26,9 +26,17 @@ interface CityPageProps {
     state: string;
     city: string;
   }>;
+  searchParams?: Promise<Record<string, string | string[] | undefined>>;
 }
 
 export const revalidate = 15552000;
+type CitySort = "recommended" | "name-asc";
+
+function parseCitySort(raw: string | string[] | undefined): CitySort {
+  const value = Array.isArray(raw) ? raw[0] : raw;
+  if (value === "name-asc") return value;
+  return "recommended";
+}
 
 export async function generateMetadata({ params }: CityPageProps): Promise<Metadata> {
   try {
@@ -80,12 +88,18 @@ interface CityPageData {
   cityFormatted: string;
   venues: VenueListItem[];
   hasNextPage: boolean;
+  sort: CitySort;
   nearbyCitiesRaw: Awaited<ReturnType<typeof getCachedNearbyCities>>;
   cityCategoryLinks: Awaited<ReturnType<typeof getCityCategoryBrowseLinksWithCounts>>;
 }
 
-async function loadCityPageData(params: CityPageProps["params"]): Promise<CityPageData | null> {
+async function loadCityPageData(
+  params: CityPageProps["params"],
+  searchParams?: CityPageProps["searchParams"]
+): Promise<CityPageData | null> {
   try {
+    const paramsResolved = searchParams ? await searchParams : {};
+    const sort = parseCitySort(paramsResolved?.sort);
     const { state, city } = await params;
     const stateAbbrev = getStateAbbrevFromName(state) || state.toUpperCase();
     const stateName = getStateDisplayName(stateAbbrev);
@@ -97,22 +111,32 @@ async function loadCityPageData(params: CityPageProps["params"]): Promise<CityPa
     const snapshot = readVenueSnapshot();
     const [{ venues, hasNextPage }, nearbyCitiesRaw, cityCategoryLinks] = await Promise.all([
       snapshot
-        ? Promise.resolve(getCityVenuesPageFromSnapshot(stateAbbrev.toUpperCase(), cityFormatted, 1, pageSize))
-        : supabase
-            .from("venues")
-            .select(VENUE_CARD_FIELDS)
-            .ilike("city", cityFormatted)
-            .eq("state", stateAbbrev.toUpperCase())
-            .eq("country", "US")
-            .eq("status", "active")
-            .order("featured", { ascending: false })
-            .order("ratingOverall", { ascending: false, nullsFirst: false })
-            .order("name", { ascending: true })
-            .range(0, pageSize)
-            .then(({ data }) => {
+        ? Promise.resolve(
+            getCityVenuesPageFromSnapshot(stateAbbrev.toUpperCase(), cityFormatted, 1, pageSize, sort)
+          )
+        : (() => {
+            let query = supabase
+              .from("venues")
+              .select(VENUE_CARD_FIELDS)
+              .ilike("city", cityFormatted)
+              .eq("state", stateAbbrev.toUpperCase())
+              .eq("country", "US")
+              .eq("status", "active");
+
+            if (sort === "name-asc") {
+              query = query.order("name", { ascending: true });
+            } else {
+              query = query
+                .order("featured", { ascending: false })
+                .order("ratingOverall", { ascending: false, nullsFirst: false })
+                .order("name", { ascending: true });
+            }
+
+            return query.range(0, pageSize).then(({ data }) => {
               const rows = data || [];
               return { venues: rows.slice(0, pageSize), hasNextPage: rows.length > pageSize };
-            }),
+            });
+          })(),
       getCachedNearbyCities(stateAbbrev.toUpperCase(), cityFormatted, 6),
       getCityCategoryBrowseLinksWithCounts(state, cityFormatted, 3, stateAbbrev.toUpperCase()),
     ]);
@@ -125,6 +149,7 @@ async function loadCityPageData(params: CityPageProps["params"]): Promise<CityPa
       cityFormatted,
       venues,
       hasNextPage,
+      sort,
       nearbyCitiesRaw,
       cityCategoryLinks,
     };
@@ -134,8 +159,8 @@ async function loadCityPageData(params: CityPageProps["params"]): Promise<CityPa
   }
 }
 
-export default async function CityPage({ params }: CityPageProps) {
-  const pageData = await loadCityPageData(params);
+export default async function CityPage({ params, searchParams }: CityPageProps) {
+  const pageData = await loadCityPageData(params, searchParams);
   if (!pageData) {
     return (
       <div className="min-h-screen bg-deep-black py-12">
@@ -150,9 +175,19 @@ export default async function CityPage({ params }: CityPageProps) {
     );
   }
 
-  const { state, city, stateName, cityFormatted, venues, hasNextPage, nearbyCitiesRaw, cityCategoryLinks } = pageData;
+  const { state, city, stateName, cityFormatted, venues, hasNextPage, sort, nearbyCitiesRaw, cityCategoryLinks } = pageData;
   const currentPage = 1;
   const knownVenueCount = !hasNextPage ? venues.length : undefined;
+  const sortOptions: Array<{ value: CitySort; label: string }> = [
+    { value: "recommended", label: "Recommended" },
+    { value: "name-asc", label: "Name A-Z" },
+  ];
+  const getSortHref = (nextSort: CitySort) => {
+    const params = new URLSearchParams();
+    if (nextSort !== "recommended") params.set("sort", nextSort);
+    const query = params.toString();
+    return query ? `/venue/us/${state}/${city}?${query}` : `/venue/us/${state}/${city}`;
+  };
 
   if (venues.length === 0) {
     return (
@@ -214,7 +249,7 @@ export default async function CityPage({ params }: CityPageProps) {
             </span>
           </div>
 
-          <div className="flex flex-col md:flex-row md:items-end md:justify-between">
+          <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-4">
             <div>
               <div className="flex items-center gap-3 mb-2">
                 <MapPin className="w-6 h-6 text-masters-green" />
@@ -226,6 +261,22 @@ export default async function CityPage({ params }: CityPageProps) {
                 Discover indoor golf venues in {cityFormatted}.
                 Compare launch monitors, amenities, and pricing.
               </p>
+            </div>
+            <div className="flex flex-wrap items-center gap-2">
+              <span className="text-xs font-mono uppercase tracking-wider text-muted">Sort</span>
+              {sortOptions.map((option) => (
+                <Link
+                  key={option.value}
+                  href={getSortHref(option.value)}
+                  className={`px-3 py-2 text-xs rounded-md border transition-colors ${
+                    sort === option.value
+                      ? "bg-masters-green text-deep-black border-masters-green font-semibold"
+                      : "border-default text-cream hover:border-masters-green hover:text-masters-green"
+                  }`}
+                >
+                  {option.label}
+                </Link>
+              ))}
             </div>
           </div>
         </div>
@@ -260,6 +311,7 @@ export default async function CityPage({ params }: CityPageProps) {
               currentPage={currentPage}
               hasNextPage={hasNextPage}
               baseUrl={`/venue/us/${state}/${city}`}
+              searchParams={sort === "recommended" ? {} : { sort }}
             />
           )}
         </section>

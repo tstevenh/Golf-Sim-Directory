@@ -16,9 +16,17 @@ interface CityPaginationPageProps {
     city: string;
     page: string;
   }>;
+  searchParams?: Promise<Record<string, string | string[] | undefined>>;
 }
 
 export const revalidate = 15552000;
+type CitySort = "recommended" | "name-asc";
+
+function parseCitySort(raw: string | string[] | undefined): CitySort {
+  const value = Array.isArray(raw) ? raw[0] : raw;
+  if (value === "name-asc") return value;
+  return "recommended";
+}
 
 export async function generateMetadata({ params }: CityPaginationPageProps): Promise<Metadata> {
   const { state, city, page } = await params;
@@ -40,8 +48,10 @@ export async function generateMetadata({ params }: CityPaginationPageProps): Pro
   };
 }
 
-export default async function CityPaginationPage({ params }: CityPaginationPageProps) {
+export default async function CityPaginationPage({ params, searchParams }: CityPaginationPageProps) {
   const { state, city, page } = await params;
+  const paramsResolved = searchParams ? await searchParams : {};
+  const sort = parseCitySort(paramsResolved?.sort);
   const currentPage = Math.max(1, Number(page) || 1);
 
   if (!Number.isFinite(currentPage) || currentPage < 2) {
@@ -55,22 +65,44 @@ export default async function CityPaginationPage({ params }: CityPaginationPageP
 
   const snapshot = readVenueSnapshot();
   const { venues, hasNextPage } = snapshot
-    ? getCityVenuesPageFromSnapshot(stateAbbrev.toUpperCase(), cityFormatted, currentPage, pageSize)
-    : await supabase
-        .from("venues")
-        .select(VENUE_CARD_FIELDS)
-        .ilike("city", cityFormatted)
-        .eq("state", stateAbbrev.toUpperCase())
-        .eq("country", "US")
-        .eq("status", "active")
-        .order("featured", { ascending: false })
-        .order("ratingOverall", { ascending: false, nullsFirst: false })
-        .order("name", { ascending: true })
-        .range((currentPage - 1) * pageSize, (currentPage - 1) * pageSize + pageSize)
-        .then(({ data }) => {
-          const rows = data || [];
-          return { venues: rows.slice(0, pageSize), hasNextPage: rows.length > pageSize };
-        });
+    ? getCityVenuesPageFromSnapshot(stateAbbrev.toUpperCase(), cityFormatted, currentPage, pageSize, sort)
+    : await (async () => {
+        let query = supabase
+          .from("venues")
+          .select(VENUE_CARD_FIELDS)
+          .ilike("city", cityFormatted)
+          .eq("state", stateAbbrev.toUpperCase())
+          .eq("country", "US")
+          .eq("status", "active");
+
+        if (sort === "name-asc") {
+          query = query.order("name", { ascending: true });
+        } else {
+          query = query
+            .order("featured", { ascending: false })
+            .order("ratingOverall", { ascending: false, nullsFirst: false })
+            .order("name", { ascending: true });
+        }
+
+        return query
+          .range((currentPage - 1) * pageSize, (currentPage - 1) * pageSize + pageSize)
+          .then(({ data }) => {
+            const rows = data || [];
+            return { venues: rows.slice(0, pageSize), hasNextPage: rows.length > pageSize };
+          });
+      })();
+
+  const sortOptions: Array<{ value: CitySort; label: string }> = [
+    { value: "recommended", label: "Recommended" },
+    { value: "name-asc", label: "Name A-Z" },
+  ];
+
+  const getSortHref = (nextSort: CitySort) => {
+    const params = new URLSearchParams();
+    if (nextSort !== "recommended") params.set("sort", nextSort);
+    const query = params.toString();
+    return query ? `/venue/us/${state}/${city}?${query}` : `/venue/us/${state}/${city}`;
+  };
 
   if (venues.length === 0) {
     notFound();
@@ -126,7 +158,25 @@ export default async function CityPaginationPage({ params }: CityPaginationPageP
               Golf Simulators in {cityFormatted}, {stateName}
             </h1>
           </div>
-          <p className="text-muted">Page {currentPage} of city listings.</p>
+          <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+            <p className="text-muted">Page {currentPage} of city listings.</p>
+            <div className="flex flex-wrap items-center gap-2">
+              <span className="text-xs font-mono uppercase tracking-wider text-muted">Sort</span>
+              {sortOptions.map((option) => (
+                <Link
+                  key={option.value}
+                  href={getSortHref(option.value)}
+                  className={`px-3 py-2 text-xs rounded-md border transition-colors ${
+                    sort === option.value
+                      ? "bg-masters-green text-deep-black border-masters-green font-semibold"
+                      : "border-default text-cream hover:border-masters-green hover:text-masters-green"
+                  }`}
+                >
+                  {option.label}
+                </Link>
+              ))}
+            </div>
+          </div>
         </div>
 
         <VenueGrid columns={3}>
@@ -156,6 +206,7 @@ export default async function CityPaginationPage({ params }: CityPaginationPageP
           currentPage={currentPage}
           hasNextPage={hasNextPage}
           baseUrl={`/venue/us/${state}/${city}`}
+          searchParams={sort === "recommended" ? {} : { sort }}
         />
 
         <div className="mt-12 text-center">
