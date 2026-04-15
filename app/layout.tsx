@@ -100,6 +100,13 @@ export default function RootLayout({
             gtag('config', '${GA_MEASUREMENT_ID}');
           `}
         </Script>
+        {/* Umami Analytics */}
+        <Script
+          defer
+          src="https://cloud.umami.is/script.js"
+          data-website-id="3f3c5033-cd4f-4624-ac8b-a1ffa3e9f1f4"
+          strategy="afterInteractive"
+        />
         <AuthProvider>
           <ScrollToTopOnRouteChange />
           <Navbar />
