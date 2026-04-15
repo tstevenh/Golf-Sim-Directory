@@ -327,23 +327,6 @@ export function Footer() {
                     className="h-7 w-auto opacity-90 hover:opacity-100 transition-opacity"
                   />
                 </a>
-                <a
-                  href="https://shipboost.io"
-                  data-shipboost-badge="free-launch"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex"
-                >
-                  <img
-                    src="https://shipboost.io/ShipBoost-Badge/ShipBoost-Light-Badge.svg"
-                    alt="Launching soon on ShipBoost"
-                    width="180"
-                    height="54"
-                    loading="lazy"
-                    decoding="async"
-                    className="h-7 w-auto opacity-90 hover:opacity-100 transition-opacity"
-                  />
-                </a>
               </div>
             </div>
           </div>
