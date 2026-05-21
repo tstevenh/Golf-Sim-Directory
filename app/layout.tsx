@@ -9,6 +9,7 @@ import { AuthProvider } from "@/components/auth-provider";
 import { ScrollToTopOnRouteChange } from "@/components/scroll-to-top-on-route-change";
 
 const GA_MEASUREMENT_ID = "G-FSVT6K4L9H";
+const ADSENSE_CLIENT_ID = "ca-pub-5430791047928776";
 
 const spaceGrotesk = Space_Grotesk({
   variable: "--font-space-grotesk",
@@ -88,6 +89,12 @@ export default function RootLayout({
           fontFamily: "'Space Grotesk', system-ui, sans-serif",
         }}
       >
+        <Script
+          async
+          src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT_ID}`}
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
         <Script
           src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
           strategy="afterInteractive"
