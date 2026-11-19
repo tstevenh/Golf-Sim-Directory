@@ -6,6 +6,8 @@ import type { Json } from "@/types/supabase";
 import { extractHardwareBrandsFromSimulatorSystems } from "@/lib/hardware-brands";
 import { extractSoftwareSlugsFromSubmissionData } from "@/lib/software-slugs";
 import { revalidateVenuePublicPages } from "@/lib/revalidate-venue";
+import { geocodeVenueAddress } from "@/lib/geocode";
+import { findDuplicateVenues } from "@/lib/venue-duplicates";
 
 // Helper to create URL-friendly slug
 function slugify(text: string): string {
@@ -28,7 +30,7 @@ export async function POST(request: Request) {
       );
     }
 
-    const { submissionId } = await request.json();
+    const { submissionId, force } = await request.json();
 
     // Get the submission
     const { data: submission } = await supabase
@@ -57,8 +59,36 @@ export async function POST(request: Request) {
     const hardwareBrands = extractHardwareBrandsFromSimulatorSystems(simulatorSystems);
     const softwareSlugs = extractSoftwareSlugsFromSubmissionData(data);
 
-    // Generate slug from name
-    const name = (data.name as string) || "Untitled Venue";
+    const name = ((data.name as string) || "Untitled Venue").trim();
+    const address = ((data.address as string) || "").trim();
+    const city = ((data.city as string) || "").trim();
+    const state = ((data.state as string) || "").trim();
+    const zipCode = ((data.zipCode as string) || "").trim();
+
+    // Refuse to create a second listing for a venue we already have, unless the admin
+    // has looked at the matches and chosen to go ahead (force: true).
+    if (!force) {
+      const duplicates = await findDuplicateVenues(supabase, {
+        name,
+        address,
+        city,
+        state,
+        phone: data.phone as string,
+        website: data.website as string,
+      });
+      if (duplicates.length > 0) {
+        return NextResponse.json(
+          {
+            error: "This venue looks like it is already listed",
+            duplicates,
+          },
+          { status: 409 }
+        );
+      }
+    }
+
+    const geo = await geocodeVenueAddress({ address, city, state, zipCode }, supabase);
+
     const baseSlug = slugify(name);
 
     // Check for existing slugs with single query instead of N+1 loop
@@ -85,13 +115,13 @@ export async function POST(request: Request) {
         slug,
         name,
         brandName: (data.brandName as string) || null,
-        address: (data.address as string) || "",
-        city: (data.city as string) || "",
-        state: (data.state as string) || "",
-        zipCode: (data.zipCode as string) || "",
+        address,
+        city,
+        state,
+        zipCode,
         country: "US",
-        latitude: 0,
-        longitude: 0,
+        latitude: geo?.latitude ?? 0,
+        longitude: geo?.longitude ?? 0,
         phone: (data.phone as string) || null,
         email: (data.email as string) || null,
         website: (data.website as string) || null,
@@ -167,8 +197,8 @@ export async function POST(request: Request) {
     }
 
     revalidateVenuePublicPages({
-      state: String(data.state || ""),
-      city: String(data.city || ""),
+      state,
+      city,
       venueSlug: venue.slug,
     });
 
@@ -176,6 +206,7 @@ export async function POST(request: Request) {
       success: true,
       venueId: venue.id,
       slug: venue.slug,
+      geocode: geo?.source ?? null,
     });
   } catch (error) {
     console.error("Error approving submission:", error);

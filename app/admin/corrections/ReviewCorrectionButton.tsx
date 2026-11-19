@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import { Check, X } from "lucide-react";
+import { Check, CheckCheck, X } from "lucide-react";
 
 interface ReviewCorrectionButtonProps {
   correctionId: string;
@@ -53,6 +53,40 @@ export function ReviewCorrectionButton({
     } catch (err) {
       console.error("Error approving correction:", err);
       setError("Failed to approve correction. Please try again.");
+    } finally {
+      setIsProcessing(false);
+    }
+  };
+
+  const handleResolve = async () => {
+    if (
+      !confirm(
+        "Mark this report as resolved?\n\nUse this after you've edited the venue yourself. The venue won't be changed."
+      )
+    ) {
+      return;
+    }
+
+    setIsProcessing(true);
+    setError("");
+
+    try {
+      const res = await fetch("/api/admin/review-correction", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ correctionId, action: "resolve" }),
+      });
+
+      const data = await res.json();
+
+      if (res.ok) {
+        router.refresh();
+      } else {
+        setError(data.error || "Failed to resolve correction");
+      }
+    } catch (err) {
+      console.error("Error resolving correction:", err);
+      setError("Failed to resolve correction. Please try again.");
     } finally {
       setIsProcessing(false);
     }
@@ -146,6 +180,15 @@ export function ReviewCorrectionButton({
           >
             <Check className="w-4 h-4" />
             {isProcessing ? "Processing..." : "Approve & Apply"}
+          </button>
+          <button
+            onClick={handleResolve}
+            disabled={isProcessing}
+            title="Use after editing the venue yourself"
+            className="px-4 py-2 border border-default text-cream hover:border-masters-green transition-colors disabled:opacity-50 flex items-center gap-2"
+          >
+            <CheckCheck className="w-4 h-4" />
+            Mark resolved
           </button>
           <button
             onClick={handleReject}

@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 import { supabase } from "@/lib/supabase";
 import { getUser } from "@/lib/auth";
 import { revalidateVenuePublicPages } from "@/lib/revalidate-venue";
+import { toVenueValue } from "@/lib/correction-values";
 
 // POST /api/admin/review-correction - Approve or reject a correction report
 export async function POST(request: Request) {
@@ -49,30 +50,14 @@ export async function POST(request: Request) {
         updatedAt: new Date(),
       };
 
-      // Map the field to the correct value type
+      // Only write values that fit the venue column. Free-text requests
+      // ("Please change the hours to ...") must be applied by hand instead.
       const field = correction.field;
-      let value: unknown = correction.suggestedValue;
-
-      // Type conversion based on field
-      if (field === "bayCount" || field === "priceRangeMin" || field === "priceRangeMax" || field === "privateRoomsCount" || field === "maxGroupSizePerBay") {
-        value = parseInt(correction.suggestedValue, 10);
-        if (isNaN(value as number)) {
-          return NextResponse.json(
-            { error: `Invalid number value for ${field}` },
-            { status: 400 }
-          );
-        }
-      } else if (field === "latitude" || field === "longitude") {
-        value = parseFloat(correction.suggestedValue);
-        if (isNaN(value as number)) {
-          return NextResponse.json(
-            { error: `Invalid float value for ${field}` },
-            { status: 400 }
-          );
-        }
-      } else if (field === "ballTracking" || field === "clubTracking" || field === "hasPrivateRooms" || field === "leftyFriendly" || field === "wifi" || field === "kidFriendly" || field === "coachingAvailable" || field === "walkInsAllowed" || field === "claimed" || field === "featured") {
-        value = correction.suggestedValue.toLowerCase() === "true";
+      const parsed = toVenueValue(field, correction.suggestedValue);
+      if (!parsed.ok) {
+        return NextResponse.json({ error: parsed.error }, { status: 422 });
       }
+      const value = parsed.value;
 
       updateData[field] = value;
 
@@ -83,10 +68,11 @@ export async function POST(request: Request) {
         .single();
 
       // Update venue and mark correction as approved (sequential)
-      await supabase
+      const { error: venueError } = await supabase
         .from("venues")
         .update(updateData)
         .eq("id", correction.venueId);
+      if (venueError) throw venueError;
 
       await supabase
         .from("correction_reports")
@@ -110,6 +96,23 @@ export async function POST(request: Request) {
         success: true,
         message: "Correction approved and venue updated",
       });
+    } else if (action === "resolve") {
+      // The admin already edited the venue by hand. Close the report without
+      // touching the venue.
+      await supabase
+        .from("correction_reports")
+        .update({
+          status: "approved",
+          reviewedById: user.id,
+          reviewedAt: new Date().toISOString(),
+          reviewNotes: reviewNotes || "Applied manually",
+        })
+        .eq("id", correctionId);
+
+      return NextResponse.json({
+        success: true,
+        message: "Correction marked as resolved",
+      });
     } else if (action === "reject") {
       // Just mark as rejected
       await supabase
@@ -128,7 +131,7 @@ export async function POST(request: Request) {
       });
     } else {
       return NextResponse.json(
-        { error: "Invalid action. Use 'approve' or 'reject'" },
+        { error: "Invalid action. Use 'approve', 'resolve' or 'reject'" },
         { status: 400 }
       );
     }
